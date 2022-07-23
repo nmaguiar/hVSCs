@@ -1,0 +1,48 @@
+#FROM gitpod/openvscode-server:1.69.1
+FROM gitpod/openvscode-server:latest
+
+USER root
+RUN apt-get update\
+ && apt-get install -y apt-utils curl vim iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip htop\
+ && curl https://openaf.io/nightly/install.sh | sh\
+ && curl https://get.docker.com | sh\
+ && ojob ojob.io/docker/k3d\
+ && ojob ojob.io/kube/getKubectl path=/usr/bin\
+ && ojob ojob.io/docker/compose path=/usr/bin\
+ && ojob ojob.io/kube/getHelm path=/usr/bin\
+ && ojob ojob.io/s3/getMC path=/usr/bin\
+ && su - openvscode-server ojob ojob.io/kube/getKrew\
+ && ln -s /home/openvscode-server/.profile /home/workspace/.profile\
+ && ln -s /home/openvscode-server/.bashrc /home/workspace/.bashrc\
+ && ln -s /home/openvscode-server/.krew /home/workspace/.krew\
+ && chmod a+x /usr/bin/kubectl\
+ && chmod a+x /usr/bin/docker-compose\
+ && chmod a+x /usr/bin/helm\
+ && usermod -aG docker openvscode-server\
+ && echo "openvscode-server:Password1" | chpasswd\
+ && ssh-keygen -A\
+ && sed -i "s/AllowTcpForwarding no/AllowTcpForwarding yes/g" /etc/ssh/sshd_config\
+ && sed -i "s/GatewayPorts no/GatewayPorts yes/g" /etc/ssh/sshd_config\
+ && sed -i "s/default:\"welcomePage\"/default:\"readme\"/g" /home/.openvscode-server/out/vs/workbench/workbench.web.main.js
+
+COPY ojob_p2.sh /tmp/.p2.sh
+COPY ojob_p1.sh /tmp/.p1.sh
+
+RUN chsh --shell /bin/bash openvscode-server\
+ && chsh --shell /bin/bash openvscode-server\
+ && cd /home/openvscode-server\
+ && mv /tmp/.p1.sh .p1.sh\
+ && mv /tmp/.p2.sh .p2.sh\
+ && chmod a+x .p2.sh\
+ && chmod a+x .p1.sh\
+ && chown openvscode-server: .p2.sh\
+ && chown openvscode-server: .p1.sh\
+ && mkdir /workspace\
+ && mkdir /workspace/.vscode\
+ && chown -R openvscode-server: /workspace
+
+COPY settings.json /workspace/.vscode/settings.json
+COPY README.md /workspace/README.md
+
+USER openvscode-server  
+ENTRYPOINT /home/openvscode-server/.p1.sh  
