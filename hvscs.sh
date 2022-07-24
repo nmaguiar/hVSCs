@@ -1,11 +1,13 @@
 #!/bin/sh
 
 PORT=8888
+SSH_PORT=22222
 NAME=hvscs
 WORKSPACE=`pwd`
 
 # -----------------
 
+ORIG=$1
 echo "hVSCs (https://github.com/nmaguiar/hvscs)"
 echo =========================================
 
@@ -31,7 +33,7 @@ _start() {
     #CMD="--cgroupns=host -v /sys/fs/cgroup:/sys/fs/cgroup:rw"
     CMD="--cgroupns=host"
   fi
-  docker run --rm -ti --init -d -p 3000 -p 2222:22 --privileged $CMD -v $WORKSPACE:/workspace:cached --network $NAME --name $NAME\_hvscs nmaguiar/hvscs
+  docker run --rm -ti --init -d -p 3000 -p $SSH_PORT:22 --privileged $CMD -v $WORKSPACE:/workspace:cached --network $NAME --name $NAME\_hvscs nmaguiar/hvscs
 
   echo "Starting nginx reverse proxy (port $PORT)..."
   CMD='$sh("sudo apk update && sudo apk add nginx && ojob ojob.io/docker/nginx url=http://'
@@ -51,12 +53,19 @@ _start() {
   echo -------------------------------------------------------------------------------
   echo Ready! You can open your browser at https://`hostname`:$PORT/?folder=/workspace
   echo -------------------------------------------------------------------------------
-  echo "Now we will SSH to the local hVSCs (use 'Password1' as your password)."
-  echo When finished simply exit and hVSCs will be stopped.
-  echo -------------------------------------------------------------------------------
 
-  ssh -p 2222 -q openvscode-server@127.0.0.1 -L1080:127.0.0.1:1080
-  _stop
+  if [ "$ORIG" != "start" ]; then
+    echo "Now we will SSH to the local hVSCs (use 'Password1' as your password)."
+    echo When finished simply exit and hVSCs will be stopped.
+    echo -------------------------------------------------------------------------------
+    _stop
+  else
+    echo "You can SSH in by executing: ssh -p $SSH_PORT openvscode-server@127.0.0.1 -L1080:127.0.0.1:1080"
+    echo "(use 'Password1' as your password)."
+    echo "To stop execute this script like this: ./hvscs.sh stop"
+    echo -------------------------------------------------------------------------------
+    ssh -p $SSH_PORT openvscode-server@127.0.0.1 -L1080:127.0.0.1:1080
+  fi
 }
 
 _stop() {
