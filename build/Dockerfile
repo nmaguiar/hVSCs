@@ -47,9 +47,7 @@ RUN chsh --shell /bin/bash openvscode-server\
  && chown openvscode-server: .p2.yaml\
  && mkdir /workspace\
  && mkdir /workspace/.vscode\
- && chown -R openvscode-server: /workspace\
- && ln -s /home/openvscode-server/.profile /home/workspace/.profile\
- && ln -s /home/openvscode-server/.bashrc /home/workspace/.bashrc
+ && chown -R openvscode-server: /workspace
 
 COPY settings.json /workspace/.vscode/settings.json
 COPY README.md /workspace/README.md

@@ -65,7 +65,12 @@ curl http://my-first.default --proxy socks5h://localhost:1080
 
 Make sure you are running the "ssh" command provided to you when this hVSC was started.
 
-Now configure another browser's proxy to use a socks proxy on host "127.0.0.1" and port 1080.
+Now configure another browser's proxy to use a socks proxy:
+
+* Host: 127.0.0.1
+* Port: 1080
+* (if the option is available) SOCKSv5
+* (if the option is available) Proxy DNS when using SOCKS v5
 
 > Tip: If you don't want to mess up your desktop, in Firefox's settings it will allow you to choose a socks proxy that will only be used by Firefox.
 
@@ -218,7 +223,7 @@ And that's it. Try to explore more and learn about Kubernetes Stateful Sets, Job
 For now, to if you want to clean up now &#x1F9F9; by deleting the test cluster:
 
 ````bash
-k3d cluster delete newcluster
+k3d cluster delete test
 ````
 
 __Happy learning! &#x1F60B;__
