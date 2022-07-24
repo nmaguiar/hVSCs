@@ -97,7 +97,7 @@ jobs:
   exec : |
     docker manifest rm localhost:5000/nmaguiar/hvscs:build
     docker manifest create --insecure localhost:5000/nmaguiar/hvscs:build -a localhost:5000/nmaguiar/hvscs:build_linux_arm64 -a localhost:5000/nmaguiar/hvscs:build_linux_amd64
-    docker manifest annotate localhost:5000/nmaguiar/hvscs:build localhost:5000/nmaguiar/hvscs:build_linux_arm64 --arch=arm
+    docker manifest annotate localhost:5000/nmaguiar/hvscs:build localhost:5000/nmaguiar/hvscs:build_linux_arm64 --arch=arm64
     docker manifest annotate localhost:5000/nmaguiar/hvscs:build localhost:5000/nmaguiar/hvscs:build_linux_amd64 --arch=amd64
     docker manifest push localhost:5000/nmaguiar/hvscs:build
 
