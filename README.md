@@ -12,7 +12,7 @@ The idea is to quickly have your own Docker & Kubernetes clean environment to te
 To run it in Linux/Mac/Windows WSL:
 
 ````bash
-$ curl https://ojob.io/win/hvscs.sh | sh
+$ curl https://ojob.io/unix/hvscs.sh | sh
 ````
 
 To run it in Windows:
