@@ -1,0 +1,154 @@
+# Author: Nuno Aguiar
+todo:
+- Set SSH user password
+- Start SSH daemon
+- Support windows
+- Start docker
+- Install VSCode extensions
+- Prepare VSC settings
+- Start K3D
+- Start K3D socks server
+- Report
+
+ojob:
+  async       : true
+  opacks      :
+  - openaf: 20211229
+  - oJob-common
+  catch       : if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
+  logToConsole: true   # to change when finished
+
+include:
+- ojob.yaml
+
+jobs:
+- name: Report
+  type: shutdown
+  to  : ojob report
+
+# ============================
+- name : Set SSH user password
+  exec : |
+    if (isDef(getEnv("SSH_PASS"))) {
+      log("Setting SSH user password...")
+      $sh("echo \"openvscode-server:$SSH_PASS\" | sudo chpasswd")
+      .prefix("chpasswd")
+      .exec()
+    }
+
+# =======================
+- name : Start SSH daemon
+  deps :
+  - Set SSH user password
+  lang : shell
+  exec : sudo service ssh start
+
+# ======================
+- name : Support windows
+  lang : shell
+  exec : sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+
+# ===================
+- name : Start docker
+  deps :
+  - Support windows
+  lang : shell
+  exec : nohup sudo dockerd > /tmp/.dockerd.log 2>&1 &
+
+# -----------------------------------
+- name : Wait for VSCode remote agent
+  exec : |
+    log("Waiting for VSCode IPC...")
+    while( $from(io.listFiles("/tmp").files)
+           .starts("filename", "vscode-ipc-")
+           .count() == 0 ) {
+      sleep(1000, true)
+    }
+
+    log("Waiting for remote agent start...")
+    if (isUnDef(global.envs)) global.envs = {}
+    global.envs["VSCODE_IPC_HOOK_CLI"] = $from(io.listFiles("/tmp").files).starts("filename", "vscode-ipc-").last().canonicalPath
+
+    while( $from(listFilesRecursive("/home/workspace/.openvscode-server/data/logs"))
+           .starts("filename", "remoteagent.log")
+           .count() == 0 || io.readFileString($from(listFilesRecursive("/home/workspace/.openvscode-server/data/logs"))
+                                              .starts("filename", "remoteagent.log")
+                                              .at(0)
+                                              .canonicalPath).indexOf("Extension host agent started.") < 0 ) {
+      sleep(1000, true)
+    }
+
+# ================================
+- name : Install VSCode extensions
+  from : Wait for VSCode remote agent
+  each : Install VSCode extension
+  catch: sprintErr(exception)
+  exec : |
+    $from(io.listFiles("/tmp/.extensions").files)
+    .ends("filename", ".vsix")
+    .select(f => {
+      log("installing extension " + f.filename + "...")
+      $sh("/home/.openvscode-server/bin/remote-cli/openvscode-server --install-extension " + f.canonicalPath)
+      .envs(global.envs, true)
+      .exec(0) 
+    })
+
+# ===========================
+- name : Prepare VSC settings
+  exec : |
+    io.writeFileJSON("/home/workspace/.openvscode-server/data/User/settings.json", {
+      "workbench.startupEditor": "readme", 
+      "workbench.colorTheme"   : "GitHub Light Default"
+    })
+    io.writeFileJSON("/home/workspace/.openvscode-server/data/Machine/settings.json", {
+      "workbench.startupEditor": "readme",
+      "workbench.colorTheme"   : "GitHub Light Default"
+    })
+
+# -------------------------------
+- name : Wait for Docker to start
+  exec : |
+    var ec
+    do {
+      ec = $sh("docker version").get(0).exitcode
+    } while(ec != 0)
+    log("Docker is ready")
+
+# ================
+- name : Start K3D
+  typeArgs:
+    shellPrefix: k3d
+  from : Wait for Docker to start
+  lang : shell
+  exec : |
+    export USER=openvscode-server
+    export HOME=/home/workspace
+    echo export HOME=/home/workspace >> /home/openvscode-server/.bashrc
+    . $HOME/.profile
+    k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000
+
+# =============================
+- name : Start K3D socks server
+  typeArgs:
+    shellPrefix: socks
+    shell      : /bin/bash -s
+  deps :
+  - Start K3D
+  lang : shell
+  exec : |
+    #!/usr/bin/env bash
+    
+    export USER=openvscode-server
+    export HOME=/home/workspace
+    echo export HOME=/home/workspace >> /home/openvscode-server/.bashrc
+    . $HOME/.profile
+
+    while (! kubectl version --output=json > /dev/null 2>&1 ); do
+      sleep 1
+    done
+
+    /usr/bin/ojob ojob.io/kube/genSocksServer | kubectl -n kube-system apply -f - 
+    while [[ $(kubectl get pods -n kube-system -l app=socks-server -o 'jsonpath={..status.conditions[?(@.type=="Ready")].status}') != "True" ]]; do
+      sleep 2
+    done
+    nohup kubectl port-forward -n kube-system deploy/socks-server 1080:1080 > /tmp/.socks5.log 2>&1 &

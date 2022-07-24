@@ -1,0 +1,103 @@
+# Author: Nuno Aguiar
+help:
+  text   : Build hVSCs
+  # expects: 
+  # - name     : something
+  #   desc     : To do something
+  #   example  : aValueExample
+  #   mandatory: false
+
+todo:
+- name: Earthly build
+- name: Squash images
+  args:
+  - image: build_linux_amd64
+  - image: build_linux_arm64
+- name: Start local registry
+- name: Push images to local registry
+- name: Create multi-arch manifest
+
+ojob:
+  async       : true
+  opacks      :
+  - openaf: 20211229
+  catch       : if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
+  logToConsole: true   # to change when finished
+        
+
+jobs:
+# ----------------------------------
+- name : Ensure earthly is installed
+  typeArgs:
+    shellPrefix: earthly
+    shell: /bin/bash -s
+  lang : shell
+  exec : |
+    if [ ! -f /usr/local/bin/earthly ]
+    then
+        sudo /bin/sh -c 'wget https://github.com/earthly/earthly/releases/latest/download/earthly-linux-amd64 -O /usr/local/bin/earthly && chmod +x /usr/local/bin/earthly && /usr/local/bin/earthly bootstrap --with-autocomplete'
+    fi
+
+# ====================
+- name : Earthly build
+  from : Ensure earthly is installed
+  typeArgs:
+    shellPrefix: build
+    shell: /bin/bash -s
+  lang : shell
+  exec : |
+    cd build
+    earthly +build
+
+# ====================
+- name : Squash images
+  deps : Earthly build
+  typeArgs:
+    shellPrefix: squash
+    shell: /bin/bash -s
+  lang : shell
+  exec : |
+    ojob ojob.io/docker/squash image=nmaguiar/hvscs:{{build}} tag={{build}}
+
+# ===========================
+- name : Start local registry
+  typeArgs:
+    shellPrefix: registry
+    shell: /bin/bash -s
+  lang : shell
+  exec : |
+    docker stop registry > /dev/null 2>&1
+    docker rm registry > /dev/null 2>&1
+    docker run --rm -d -p 5000:5000 --name registry registry:2
+    sleep 5
+
+# ====================================
+- name : Push images to local registry
+  deps :
+  - Start local registry
+  - Squash images
+  typeArgs:
+    shellPrefix: push
+    shell: /bin/bash -s
+  lang : shell
+  exec : |
+    docker tag nmaguiar/hvscs:build_linux_arm64 localhost:5000/nmaguiar/hvscs:build_linux_arm64
+    docker tag nmaguiar/hvscs:build_linux_amd64 localhost:5000/nmaguiar/hvscs:build_linux_amd64
+    docker push localhost:5000/nmaguiar/hvscs:build_linux_amd64
+    docker push localhost:5000/nmaguiar/hvscs:build_linux_arm64
+
+# =================================
+- name : Create multi-arch manifest
+  deps :
+  - Push images to local registry
+  typeArgs:
+    shellPrefix: manifest
+    shell: /bin/bash -s
+  lang : shell
+  exec : |
+    docker manifest rm localhost:5000/nmaguiar/hvscs:build
+    docker manifest create --insecure localhost:5000/nmaguiar/hvscs:build -a localhost:5000/nmaguiar/hvscs:build_linux_arm64 -a localhost:5000/nmaguiar/hvscs:build_linux_amd64
+    docker manifest annotate localhost:5000/nmaguiar/hvscs:build localhost:5000/nmaguiar/hvscs:build_linux_arm64 --arch=arm
+    docker manifest annotate localhost:5000/nmaguiar/hvscs:build localhost:5000/nmaguiar/hvscs:build_linux_amd64 --arch=amd64
+    docker manifest push localhost:5000/nmaguiar/hvscs:build
+

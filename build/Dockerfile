@@ -1,0 +1,56 @@
+FROM gitpod/openvscode-server:latest
+
+USER root
+RUN apt-get update\
+ && apt-get install -y apt-utils curl wget vim iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip htop\
+ && curl https://openaf.io/nightly/install.sh | sh\
+ && curl https://get.docker.com | sh\
+ && opack install ojob-common\
+ && ojob ojob.io/docker/k3d\
+ && ojob ojob.io/kube/getKubectl path=/usr/bin\
+ && ojob ojob.io/docker/compose path=/usr/bin\
+ && ojob ojob.io/kube/getHelm path=/usr/bin\
+ && ojob ojob.io/s3/getMC path=/usr/bin\
+ && su - openvscode-server ojob ojob.io/kube/getKrew\
+ && ln -s /home/openvscode-server/.profile /home/workspace/.profile\
+ && ln -s /home/openvscode-server/.bashrc /home/workspace/.bashrc\
+ && ln -s /home/openvscode-server/.krew /home/workspace/.krew\
+ && chmod a+x /usr/bin/kubectl\
+ && chmod a+x /usr/bin/docker-compose\
+ && chmod a+x /usr/bin/helm\
+ && usermod -aG docker openvscode-server\
+ && echo "openvscode-server:Password1" | chpasswd\
+ && ssh-keygen -A\
+ && sed -i "s/AllowTcpForwarding no/AllowTcpForwarding yes/g" /etc/ssh/sshd_config\
+ && sed -i "s/GatewayPorts no/GatewayPorts yes/g" /etc/ssh/sshd_config\
+ && sed -i "s/default:\"welcomePage\"/default:\"readme\"/g" /home/.openvscode-server/out/vs/workbench/workbench.web.main.js
+
+COPY ojob_p2.yaml /tmp/.p2.yaml
+COPY ojob_p1.sh /tmp/.p1.sh
+
+RUN mkdir /tmp/.extensions\
+ && cd /tmp/.extensions\
+ && wget https://open-vsx.org/api/redhat/vscode-yaml/1.9.1/file/redhat.vscode-yaml-1.9.1.vsix\
+ && wget https://open-vsx.org/api/redhat/vscode-xml/0.21.0/file/redhat.vscode-xml-0.21.0.vsix\
+ && wget https://open-vsx.org/api/GitHub/github-vscode-theme/6.3.1/file/GitHub.github-vscode-theme-6.3.1.vsix\
+ && wget https://open-vsx.org/api/ms-azuretools/vscode-docker/1.22.1/file/ms-azuretools.vscode-docker-1.22.1.vsix\
+ && wget https://open-vsx.org/api/ms-kubernetes-tools/vscode-kubernetes-tools/1.3.10/file/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.10.vsix\
+ && chown -R openvscode-server: /tmp/.extensions
+
+RUN chsh --shell /bin/bash openvscode-server\
+ && chsh --shell /bin/bash openvscode-server\
+ && cd /home/openvscode-server\
+ && mv /tmp/.p1.sh .p1.sh\
+ && mv /tmp/.p2.yaml .p2.yaml\
+ && chmod a+x .p1.sh\
+ && chown openvscode-server: .p1.sh\
+ && chown openvscode-server: .p2.yaml\
+ && mkdir /workspace\
+ && mkdir /workspace/.vscode\
+ && chown -R openvscode-server: /workspace
+
+COPY settings.json /workspace/.vscode/settings.json
+COPY README.md /workspace/README.md
+
+USER openvscode-server  
+ENTRYPOINT /home/openvscode-server/.p1.sh  
