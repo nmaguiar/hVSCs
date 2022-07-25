@@ -36,7 +36,7 @@ if defined CMD (
 :_start
 
 echo -- Creating hVSCs network...
-docker network create hvscs
+docker network create %NAME%
 
 echo -- Starting hVSCs server (ssh port %SSH_PORT%)...
 docker pull %IMAGE%
@@ -45,7 +45,7 @@ if defined WORKSPACE (
 ) else (
   set WKS= 
 )
-docker run --rm -ti --init --env SSH_PASS=%SSH_PASS% -d -p 3000 -p %SSH_PORT%:22 --privileged %WKS% --network hvscs --name %NAME%_hvscs %IMAGE%
+docker run --rm -ti --init --env SSH_PASS=%SSH_PASS% -d -p 3000 -p %SSH_PORT%:22 --privileged %WKS% --network %NAME% --name %NAME%_hvscs %IMAGE%
 
 echo -- Starting nginx reverse proxy (port %WEB_PORT%)...
 docker pull openaf/oaf:nightly
@@ -65,7 +65,7 @@ docker stop %NAME%_nginx
 echo -- Stopping hVSCs...
 docker stop %NAME%_hvscs
 echo -- Deleting network...
-docker network rm hvscs
+docker network rm %NAME%
 echo -- Done.
 
 :_end
