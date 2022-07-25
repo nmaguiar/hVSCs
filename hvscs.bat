@@ -40,7 +40,12 @@ docker network create hvscs
 
 echo -- Starting hVSCs server (ssh port %SSH_PORT%)...
 docker pull %IMAGE%
-docker run --rm -ti --init --env SSH_PASS=%SSH_PASS% -d -p 3000 -p %SSH_PORT%:22 --privileged -v %WORKSPACE%:/workspace:cached --network hvscs --name %NAME%_hvscs %IMAGE%
+if defined WORKSPACE (
+  set WKS=-v %WORKSPACE%:/workspace:cached
+) else (
+  set WKS= 
+)
+docker run --rm -ti --init --env SSH_PASS=%SSH_PASS% -d -p 3000 -p %SSH_PORT%:22 --privileged %WKS% --network hvscs --name %NAME%_hvscs %IMAGE%
 
 echo -- Starting nginx reverse proxy (port %WEB_PORT%)...
 docker pull openaf/oaf:nightly
@@ -48,19 +53,19 @@ docker run --rm -ti -d -p %WEB_PORT%:80 --network %NAME% --name %NAME%_nginx ope
 
 echo.
 echo -- Try to access https://127.0.0.1:%WEB_PORT%/?folder=/workspace in a couple of seconds (keep refreshing until you see a web page showing up)...
-echo -- Also, try to ssh like this: "ssh openvscode-server@127.0.0.1 -L %SOCKS_PORT%:127.0.0.1:1080" (use the password "%SSH_PASS%")
-echo -- To end run: "hvscs stop"
+echo -- Also, try to ssh like this: "ssh -p %SSH_PORT% openvscode-server@127.0.0.1 -L %SOCKS_PORT%:127.0.0.1:1080" (use the password "%SSH_PASS%")
+echo -- To end run: "hvscs.bat stop"
 echo.
 goto _end
 
 :_stop
 
-echo Stopping nginx...
+echo -- Stopping nginx...
 docker stop %NAME%_nginx
-echo Stopping hVSCs...
+echo -- Stopping hVSCs...
 docker stop %NAME%_hvscs
-echo Deleting network...
+echo -- Deleting network...
 docker network rm hvscs
-echo Done.
+echo -- Done.
 
 :_end
