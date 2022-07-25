@@ -36,8 +36,13 @@ _start() {
     #CMD="--cgroupns=host -v /sys/fs/cgroup:/sys/fs/cgroup:rw"
     CMD="--cgroupns=host"
   fi
+  if [ -z $WORKSPACE ]; then
+    WKS=""
+  else
+    WKS="-v $WORKSPACE:/workspace:cached"
+  fi
   docker pull $IMAGE 
-  docker run --rm -ti --env SSH_PASS=$SSH_PASS --init -d -p 3000 -p $SSH_PORT:22 --privileged $CMD -v $WORKSPACE:/workspace:cached --network $NAME --name $NAME\_hvscs $IMAGE
+  docker run --rm -ti --env SSH_PASS=$SSH_PASS --init -d -p 3000 -p $SSH_PORT:22 --privileged $CMD $WKS --network $NAME --name $NAME\_hvscs $IMAGE
 
   echo "-- Starting nginx reverse proxy (port $WEB_PORT)..."
   CMD='$sh("sudo apk update && sudo apk add nginx && ojob ojob.io/docker/nginx url=http://'
