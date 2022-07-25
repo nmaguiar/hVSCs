@@ -23,6 +23,22 @@ C:\myWorkspace> curl https://ojob.io/win/hvscs.bat -O hvscs.bat
 C:\myWorkspace> hvscs.bat
 ````
 
+---
+
+You can also try out the included simple example:
+
+````bash
+$ curl https://ojob.io/unix/hvscs_learn.sh -O
+$ sh hvscs_learn.sh
+````
+
+or in Windows:
+
+````bash
+C:\myWorkspace> curl https://ojob.io/win/hvscs_learn.bat -O hvscs_learn.bat
+C:\myWorkspace> hvscs_learn.bat
+````
+
 ## Customizing or troubleshooting
 
 Both the windows and unix/linux/mac/wsl script have variables for you to change if needed (in case you need different ports or options). Just download the corresponding script and change the lines on the begining of the file:
