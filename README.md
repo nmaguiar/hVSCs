@@ -19,7 +19,7 @@ $ sh hvscs.sh
 To run it in Windows:
 
 ````
-C:\myWorkspace> curl https://ojob.io/win/hvscs.bat -O
+C:\myWorkspace> curl https://ojob.io/win/hvscs.bat -O hvscs.bat
 C:\myWorkspace> hvscs.bat
 ````
 
