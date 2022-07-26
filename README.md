@@ -12,8 +12,7 @@ The idea is to quickly have your own Docker & Kubernetes clean environment to te
 To run it in Linux/Mac/Windows WSL:
 
 ````bash
-$ curl https://ojob.io/unix/hvscs.sh -O
-$ sh hvscs.sh
+$ curl https://ojob.io/unix/hvscs.sh | sh
 ````
 
 To run it in Windows:
@@ -28,8 +27,7 @@ C:\myWorkspace> hvscs.bat
 You can also try out the included simple example:
 
 ````bash
-$ curl https://ojob.io/unix/hvscs_learn.sh -O
-$ sh hvscs_learn.sh
+$ curl https://ojob.io/unix/hvscs_learn.sh | sh
 ````
 
 or in Windows:
