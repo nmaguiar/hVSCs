@@ -46,7 +46,9 @@ jobs:
 # ======================
 - name : Support windows
   lang : shell
-  exec : sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+  exec : |
+    sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+    echo updated
 
 # ===================
 - name : Start docker
@@ -110,6 +112,7 @@ jobs:
   exec : |
     var ec
     do {
+      sleep(1000, true)
       ec = $sh("docker version").get(0).exitcode
     } while(ec != 0)
     log("Docker is ready")
