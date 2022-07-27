@@ -18,6 +18,7 @@ ojob:
   catch       : if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
   logToConsole: true   # to change when finished
   argsFromEnvs: true
+  numThreads  : 2
 
 include:
 - ojob.yaml
@@ -65,7 +66,7 @@ jobs:
     {{#if NODOCKER}}
     echo Docker not started
     {{else}}
-    nohup sudo dockerd > /tmp/.dockerd.log 2>&1 &
+    sudo service docker start 
     {{/if}}
 
 # -----------------------------------

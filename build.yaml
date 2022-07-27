@@ -57,7 +57,7 @@ jobs:
     shell: /bin/bash -s
   lang : shell
   exec : |
-    ojob ojob.io/docker/squash image=nmaguiar/hvscs:{{build}} tag={{build}}
+    ojob ojob.io/docker/squash image=nmaguiar/hvscs:{{image}} tag={{image}}
 
 # ===========================
 - name : Start local registry
