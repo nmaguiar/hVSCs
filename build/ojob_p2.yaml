@@ -17,6 +17,7 @@ ojob:
   - oJob-common
   catch       : if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
   logToConsole: true   # to change when finished
+  argsFromEnvs: true
 
 include:
 - ojob.yaml
@@ -41,7 +42,12 @@ jobs:
   deps :
   - Set SSH user password
   lang : shell
-  exec : sudo service ssh start
+  exec : |
+    {{#if NOSSH}}
+    echo SSH not started
+    {{else}}
+    sudo service ssh start
+    {{/if}}
 
 # ======================
 - name : Support windows
@@ -55,7 +61,12 @@ jobs:
   deps :
   - Support windows
   lang : shell
-  exec : nohup sudo dockerd > /tmp/.dockerd.log 2>&1 &
+  exec : |
+    {{#if NODOCKER}}
+    echo Docker not started
+    {{else}}
+    nohup sudo dockerd > /tmp/.dockerd.log 2>&1 &
+    {{/if}}
 
 # -----------------------------------
 - name : Wait for VSCode remote agent
@@ -89,6 +100,8 @@ jobs:
     $from(io.listFiles("/tmp/.extensions").files)
     .ends("filename", ".vsix")
     .select(f => {
+      if (isDef(args.NOK8S) && f.filename.indexOf("-kubernetes-") >= 0) return
+      if (isDef(args.NODOCKER) && f.filename.indexOf("-docker-") >= 0) return
       log("installing extension " + f.filename + "...")
       $sh("/home/.openvscode-server/bin/remote-cli/openvscode-server --install-extension " + f.canonicalPath)
       .envs(global.envs, true)
@@ -128,7 +141,11 @@ jobs:
     export HOME=/home/workspace
     echo export HOME=/home/workspace >> /home/openvscode-server/.bashrc
     . $HOME/.profile
-    k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000
+    {{#if NOK8S}}
+      echo K8S not started
+    {{else}}
+      k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000
+    {{/if}}
 
 # =============================
 - name : Start K3D socks server
@@ -146,6 +163,11 @@ jobs:
     echo export HOME=/home/workspace >> /home/openvscode-server/.bashrc
     . $HOME/.profile
 
+    {{#if NOK8S}}
+    {{#if NODOCKER}}{{else}}
+    docker run --rm -ti -p 1080:1080 openaf/oaf:nightly -c "includeOPack('SocksServer');loadLib('socksServer.js');(new SocksServer()).start(1080);ow.loadServer().daemon()"
+    {{/if}}
+    {{else}}
     while (! kubectl version --output=json > /dev/null 2>&1 ); do
       sleep 1
     done
@@ -155,3 +177,4 @@ jobs:
       sleep 2
     done
     nohup kubectl port-forward -n kube-system deploy/socks-server 1080:1080 > /tmp/.socks5.log 2>&1 &
+    {{/if}}
