@@ -51,6 +51,14 @@ IMAGE=nmaguiar/hvscs
 SSH_PASS=Password1
 ````
 
+or directly when calling (only on unix/mac):
+
+````bash
+$ curl https://ojob.io/unix/hvscs_learn.sh | _WEB_PORT=8888 _SSH_PORT=22222 _SOCKS_PORT=1080 _NAME=hvscs _WORKSPACE=`pwd` _IMAGE=nmaguiar/hvscs _SSH_PASS=Password1  sh
+````
+
+**Description:**
+
 | Variable | Description |
 |----------|-------------|
 | WEB_PORT | The port where the VSCode web interface will be served from. |
@@ -76,4 +84,16 @@ once finished:
 
 ````bash
 $ ./hvscs.sh stop
+````
+
+**Or**, using curl:
+
+````bash
+$ curl https://ojob.io/unix/hvscs_learn.sh | _OP=start  sh
+````
+
+and to stop:
+
+````bash
+$ curl https://ojob.io/unix/hvscs_learn.sh | _OP=stop  sh
 ````
