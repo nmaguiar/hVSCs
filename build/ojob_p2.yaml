@@ -72,6 +72,8 @@ jobs:
 # -----------------------------------
 - name : Wait for VSCode remote agent
   exec : |
+    if (isDef(getEnv("NOVSCODE"))) return 
+
     log("Waiting for VSCode IPC...")
     while( $from(io.listFiles("/tmp").files)
            .starts("filename", "vscode-ipc-")
@@ -112,6 +114,8 @@ jobs:
 # ===========================
 - name : Prepare VSC settings
   exec : |
+    if (isDef(getEnv("NOVSCODE"))) return 
+
     io.writeFileJSON("/home/workspace/.openvscode-server/data/User/settings.json", {
       "workbench.startupEditor": "readme", 
       "workbench.colorTheme"   : "GitHub Light Default"
@@ -166,7 +170,7 @@ jobs:
 
     {{#if NOK8S}}
     {{#if NODOCKER}}{{else}}
-    docker run --rm -ti -p 1080:1080 openaf/oaf:nightly -c "includeOPack('SocksServer');loadLib('socksServer.js');(new SocksServer()).start(1080);ow.loadServer().daemon()"
+    docker run --rm -d -p 1080:1080 openaf/oaf:nightly -c "includeOPack('SocksServer');loadLib('socksServer.js');(new SocksServer()).start(1080);ow.loadServer().daemon()"
     {{/if}}
     {{else}}
     while (! kubectl version --output=json > /dev/null 2>&1 ); do
