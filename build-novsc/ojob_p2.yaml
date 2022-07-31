@@ -1,0 +1,135 @@
+# Author: Nuno Aguiar
+todo:
+- Set SSH user password
+- Start SSH daemon
+- Support windows
+- Start docker
+- Start K3D
+- Start K3D socks server
+- Report
+
+ojob:
+  async       : true
+  opacks      :
+  - openaf: 20211229
+  - oJob-common
+  catch       : if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
+  logToConsole: true   # to change when finished
+  argsFromEnvs: true
+  numThreads  : 2
+
+include:
+- ojob.yaml
+
+jobs:
+- name: Report
+  type: shutdown
+  to  : ojob report
+
+# ============================
+- name : Set SSH user password
+  exec : |
+    if (isDef(getEnv("SSH_PASS"))) {
+      log("Setting SSH user password...")
+      $sh("echo \"user:$SSH_PASS\" | sudo chpasswd")
+      .prefix("chpasswd")
+      .exec()
+    }
+
+# =======================
+- name : Start SSH daemon
+  deps :
+  - Set SSH user password
+  lang : shell
+  exec : |
+    {{#if NOSSH}}
+    echo SSH not started
+    {{else}}
+    sudo service ssh start
+    {{/if}}
+
+# ======================
+- name : Support windows
+  lang : shell
+  exec : |
+    sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+    echo updated
+
+# ===================
+- name : Start docker
+  deps :
+  - Support windows
+  lang : shell
+  exec : |
+    {{#if NODOCKER}}
+    echo Docker not started
+    {{else}}
+    sudo service docker start 
+    {{/if}}
+
+# -------------------------------
+- name : Wait for Docker to start
+  exec : |
+    var ec
+    do {
+      sleep(1000, true)
+      ec = $sh("docker version").get(0).exitcode
+    } while(ec != 0)
+    log("Docker is ready")
+
+# ----------------------------
+- name : Load container images
+  from : Wait for Docker to start
+  exec : |
+    io.listFiles("/images").files.forEach(f => {
+      if (!f.filename.startsWith("k3s-")) {
+        log("loading images from " + f.filename + "...")
+        $sh("zcat " + f.canonicalPath + " | docker load").exec()
+      }
+    })
+
+# ================
+- name : Start K3D
+  typeArgs:
+    shellPrefix: k3d
+  from : Load container images
+  lang : shell
+  exec : |
+    export USER=user
+    {{#if NOK8S}}
+      echo K8S not started
+    {{else}}
+      docker volume create k3d-k3s-default-images
+      k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000
+      sudo gunzip /images/k3s-*.tar.gz
+      k3d images import /images/k3s-*.tar.gz
+    {{/if}}
+
+# =============================
+- name : Start K3D socks server
+  typeArgs:
+    shellPrefix: socks
+    shell      : /bin/bash -s
+  deps :
+  - Start K3D
+  lang : shell
+  exec : |
+    #!/usr/bin/env bash
+    
+    export USER=user
+
+    {{#if NOK8S}}
+    {{#if NODOCKER}}{{else}}
+    docker run --rm -d -p 1080:1080 openaf/oaf:nightly -c "includeOPack('SocksServer');loadLib('socksServer.js');(new SocksServer()).start(1080);ow.loadServer().daemon()"
+    {{/if}}
+    {{else}}
+    while (! kubectl version --output=json > /dev/null 2>&1 ); do
+      sleep 1
+    done
+
+    /usr/bin/ojob ojob.io/kube/genSocksServer | kubectl -n kube-system apply -f - 
+    while [[ $(kubectl get pods -n kube-system -l app=socks-server -o 'jsonpath={..status.conditions[?(@.type=="Ready")].status}') != "True" ]]; do
+      sleep 2
+    done
+    nohup kubectl port-forward -n kube-system deploy/socks-server 1080:1080 > /tmp/.socks5.log 2>&1 &
+    {{/if}}

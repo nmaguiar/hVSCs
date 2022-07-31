@@ -1,0 +1,45 @@
+# Author: Nuno Aguiar
+help:
+  text   : Prepare for k3d offline installation
+  # expects: 
+  # - name     : something
+  #   desc     : To do something
+  #   example  : aValueExample
+  #   mandatory: false
+
+todo:
+- Get versions
+- Pull images
+
+ojob:
+  opacks      :
+  - openaf: 20211229
+  catch       : if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
+  logToConsole: true   # to change when finished
+        
+
+jobs:
+# -------------------
+- name : Get versions
+  exec : |
+    var res = $sh("k3d version")
+              .get(0)
+              .stdout
+
+    var [ k3d, k3s ] = res.split("\n").map(l => l.split(/ +/)[2])
+
+    $set("k3d", k3d)
+    $set("k3s", k3s)
+
+# ------------------
+- name : Pull images
+  exec : |
+    $sh("sudo service docker start").prefix("docker").get()
+    $sh("docker pull registry:2").prefix("docker").get()
+    $sh("docker pull ghcr.io/k3d-io/k3d-proxy:" + $get("k3d")).prefix("docker").get()
+    $sh("docker pull ghcr.io/k3d-io/k3d-tools:" + $get("k3d")).prefix("docker").get()
+    $sh("docker pull rancher/k3s:" + $get("k3s")).prefix("docker").get()
+    $sh("docker pull openaf/oaf:nightly").prefix("docker").get()
+
+    io.mkdir("/tmp/.images")
+    $sh("wget -o /tmp/.images/k3s-images.tar.zst https://github.com/k3s-io/k3s/releases/download/" + $get("k3s").replace("-", "%2B") + "/k3s-airgap-images-amd64.tar.zst")
