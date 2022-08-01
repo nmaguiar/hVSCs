@@ -102,7 +102,9 @@ jobs:
       docker volume create k3d-k3s-default-images
       k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000
       sudo gunzip /images/k3s-*.tar.gz
-      k3d images import /images/k3s-*.tar.gz
+      k3d images import /images/k3s-*.tar
+      sudo gunzip /images/oaf.tar.gz
+      k3d images import /images/oaf.tar
     {{/if}}
 
 # =============================

@@ -24,8 +24,8 @@ RUN apt-get update\
  && sed -i "s/GatewayPorts no/GatewayPorts yes/g" /etc/ssh/sshd_config\
  && mkdir /images\
  && mv *.tar.gz /images\
- && skopeo copy docker://docker.io/openaf/oaf:nightly docker-archive:/images/oaf.tar\
- && skopeo copy docker://docker.io/library/registry:2 docker-archive:/images/registry.tar\
+ && skopeo copy docker://docker.io/openaf/oaf:nightly docker-archive:/images/oaf.tar:openaf/oaf:nightly\
+ && skopeo copy docker://docker.io/library/registry:2 docker-archive:/images/registry.tar:registry:2\
  && gzip /images/*.tar
 
 COPY ojob_p2.yaml /tmp/.p2.yaml
@@ -40,4 +40,4 @@ RUN chsh --shell /bin/bash user\
  && chown user: .p2.yaml
 
 USER user
-#ENTRYPOINT /home/openvscode-server/.p1.sh  
+ENTRYPOINT /home/user/.p1.sh  
