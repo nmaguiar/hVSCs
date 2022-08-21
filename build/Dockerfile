@@ -1,4 +1,4 @@
-FROM gitpod/openvscode-server:latest
+FROM gitpod/openvscode-server:latest as main
 
 USER root
 RUN apt-get update\
@@ -52,5 +52,24 @@ RUN chsh --shell /bin/bash openvscode-server\
 COPY settings.json /workspace/.vscode/settings.json
 COPY README.md /workspace/README.md
 
-USER openvscode-server  
-ENTRYPOINT /home/openvscode-server/.p1.sh  
+# -------------------
+FROM scratch as final
+COPY --from=main / /
+
+ARG OPENVSCODE_SERVER_ROOT="/home/.openvscode-server"
+ARG USERNAME=openvscode-server
+ARG USER_UID=1000
+ARG USER_GID=$USER_UID
+
+USER $USERNAME
+WORKDIR /home/workspace/
+ENV LANG=C.UTF-8 \
+    LC_ALL=C.UTF-8 \
+    HOME=/home/workspace \
+    EDITOR=code \
+    VISUAL=code \
+    GIT_EDITOR="code --wait" \
+    OPENVSCODE_SERVER_ROOT=${OPENVSCODE_SERVER_ROOT}
+EXPOSE 3000
+
+ENTRYPOINT /home/openvscode-server/.p1.sh 

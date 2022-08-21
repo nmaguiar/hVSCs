@@ -9,10 +9,10 @@ help:
 
 todo:
 - name: Earthly build
-- name: Squash images
-  args:
-  - image: build_linux_amd64
-  - image: build_linux_arm64
+#- name: Squash images
+#  args:
+#  - image: build_linux_amd64
+#  - image: build_linux_arm64
 - name: Start local registry
 - name: Push images to local registry
 - name: Create multi-arch manifest
@@ -47,7 +47,7 @@ jobs:
   lang : shell
   exec : |
     cd build
-    earthly +build
+    earthly --no-cache +build
 
 # ====================
 - name : Squash images
@@ -75,7 +75,8 @@ jobs:
 - name : Push images to local registry
   deps :
   - Start local registry
-  - Squash images
+  - Earthly build
+  #- Squash images
   typeArgs:
     shellPrefix: push
     shell: /bin/bash -s
