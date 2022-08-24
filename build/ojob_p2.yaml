@@ -13,7 +13,7 @@ todo:
 ojob:
   async       : true
   opacks      :
-  - openaf: 20211229
+  - openaf: 20220822
   - oJob-common
   catch       : if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
   logToConsole: true   # to change when finished
@@ -170,7 +170,7 @@ jobs:
 
     {{#if NOK8S}}
     {{#if NODOCKER}}{{else}}
-    docker run --rm -d -p 1080:1080 openaf/oaf:nightly -c "includeOPack('SocksServer');loadLib('socksServer.js');(new SocksServer()).start(1080);ow.loadServer().daemon()"
+    docker run --rm -d -p 1080:1080 nmaguiar/socksd 
     {{/if}}
     {{else}}
     while (! kubectl version --output=json > /dev/null 2>&1 ); do

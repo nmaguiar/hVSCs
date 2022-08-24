@@ -171,7 +171,7 @@ spec:
         app: my-echo
     spec:
       containers:
-      - image: openaf/oaf:nightly
+      - image: openaf/oaf
         name: oaf
         env:
         - name: OJOB

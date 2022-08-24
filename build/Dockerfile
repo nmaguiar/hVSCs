@@ -2,8 +2,8 @@ FROM gitpod/openvscode-server:latest as main
 
 USER root
 RUN apt-get update\
- && apt-get install -y apt-utils curl wget vim iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip htop\
- && curl https://openaf.io/nightly/install.sh | sh\
+ && apt-get install -y apt-utils curl wget vim iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip skopeo htop\
+ && curl https://openaf.io/install.sh | sh\
  && curl https://get.docker.com | sh\
  && opack install ojob-common\
  && ojob ojob.io/docker/k3d\
@@ -38,7 +38,6 @@ RUN mkdir /tmp/.extensions\
  && chown -R openvscode-server: /tmp/.extensions
 
 RUN chsh --shell /bin/bash openvscode-server\
- && chsh --shell /bin/bash openvscode-server\
  && cd /home/openvscode-server\
  && mv /tmp/.p1.sh .p1.sh\
  && mv /tmp/.p2.yaml .p2.yaml\
