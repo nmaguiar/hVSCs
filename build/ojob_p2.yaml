@@ -149,7 +149,7 @@ jobs:
     {{#if NOK8S}}
       echo K8S not started
     {{else}}
-      k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000
+      k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000 -p "127.0.0.1:1080:1080@loadbalancer"
     {{/if}}
 
 # =============================
@@ -178,8 +178,8 @@ jobs:
     done
 
     /usr/bin/ojob ojob.io/kube/genSocksServer | kubectl -n kube-system apply -f - 
-    while [[ $(kubectl get pods -n kube-system -l app=socks-server -o 'jsonpath={..status.conditions[?(@.type=="Ready")].status}') != "True" ]]; do
-      sleep 2
-    done
-    nohup watch -n 1 kubectl port-forward -n kube-system deploy/socks-server 1080:1080 > /tmp/.socks5.log 2>&1 &
+    kubectl expose -n kube-system deploy socks-server --type=LoadBalancer
+    #while [[ $(kubectl get pods -n kube-system -l app=socks-server -o 'jsonpath={..status.conditions[?(@.type=="Ready")].status}') != "True" ]]; do
+    #  sleep 2
+    #done
     {{/if}}
