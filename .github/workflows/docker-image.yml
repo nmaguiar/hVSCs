@@ -28,6 +28,6 @@ jobs:
       name: Build and push
       with:
         platforms: linux/amd64,linux/arm64
-        context: {{defaultContext}}:build
+        context: "{{defaultContext}}:build"
         push: true
         tags: nmaguiar/hvscs:build
