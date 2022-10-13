@@ -48,8 +48,8 @@ RUN chsh --shell /bin/bash openvscode-server\
  && mkdir /workspace/.vscode\
  && chown -R openvscode-server: /workspace
 
-COPY settings.json /workspace/.vscode/settings.json
-COPY README.md /workspace/README.md
+COPY --chown=1000:1000 settings.json /workspace/.vscode/settings.json
+COPY --chown=1000:1000 README.md /workspace/README.md
 
 # -------------------
 FROM scratch as final
