@@ -1,0 +1,184 @@
+# Author: Nuno Aguiar
+help:
+  text   : Generates a nginx configuration to use as a reverse proxy and sets it up
+  expects: 
+  - name     : url
+    desc     : The URL to which the reverse proxy should point (e.g. http://host:1234)
+    example  : http://host:1234
+    mandatory: true
+  - name     : path
+    desc     : The path where the nginx configuration should be placed (default ".")
+    example  : "."
+    mandatory: false
+  - name     : port
+    desc     : The port to access the nginx reverse proxy (default 8080)
+    example  : 8080
+    mandatory: false
+  - name     : websocket
+    desc     : If websocket=true nginx reverse proxy websocket support will be included
+    example  : true
+    mandatory: false
+  - name     : auth
+    desc     : Use a login and password to access the reverse proxy split with ":" (e.g. user:password)
+    example  : "user:password"
+    mandatory: false
+  - name     : ssl
+    desc     : Generate self-signed SSL certificate with the provided cn
+    example  : example
+    mandatory: false
+  - name     : sslvalid
+    desc     : The number of minutes the self-signed certificate will be valid for (1440 minutes)
+    example  : 1440
+    mandatory: false
+  - name     : sslsize
+    desc     : The self-signed certificate key length to use (defaults to 4096)
+    example  : 4096
+    mandatory: false
+
+init:
+  nginxConf: |
+    events {
+      worker_connections 1024;
+    }
+    http {
+      index   index.html index.htm;
+
+      server {
+        listen      {{port}} {{#if ssl}}ssl{{/if}};
+        server_name nginx;
+        ignore_invalid_headers off;
+        proxy_buffering off;
+        client_max_body_size 0;
+        
+        {{#if ssl}}
+        ssl_certificate     /etc/nginx.pem;
+        ssl_certificate_key /etc/nginx.key;
+
+        if ($ssl_protocol = "") {
+          rewrite ^ https://$host$request_uri? permanent;
+        }
+        {{/if}}
+
+        location / {
+          if ($request_uri = /) {
+            set $test_folder root;
+          }
+
+          if ($arg_folder = "") {
+            set $test_folder "${test_folder}+yes";
+          }
+
+          if ($test_folder = "root+yes") {
+             return 301 /?folder=/workspace;
+          }
+          proxy_set_header X-Real-IP $remote_addr;
+          proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+          proxy_set_header X-Forwarded-Proto $scheme;
+          proxy_set_header Host $host;
+          {{#if websocket}}
+          proxy_set_header Upgrade $http_upgrade;
+          proxy_set_header Connection "Upgrade";
+          {{/if}}
+
+          proxy_connect_timeout 300;
+          proxy_http_version 1.1;
+          proxy_set_header Connection "";
+          chunked_transfer_encoding off;
+
+          proxy_pass {{url}};
+
+          {{#if auth}}
+          auth_basic "Restricted";
+          auth_basic_user_file /etc/nginx/.htpasswd;
+          {{/if}}
+        }
+      }
+    }
+
+todo:
+- Generate a nginx
+- Setup nginx
+
+ojob:
+  opacks      :
+  - openaf: 20210515
+  catch       : logErr(exception)
+  logToConsole: false   # to change when finished
+        
+
+jobs:
+# ------------------
+- name : Prepare SSL
+  check:
+    in:
+      ssl      : isString.default("127.0.0.1")
+      sslsize  : toNumber.isNumber.default(4096)
+      sslvalid : toNumber.isNumber.default(1440)
+  exec : |
+      var valid = args.sslvalid * 60 * 1000
+      var keys  = args.sslsize
+
+      ow.loadJava()
+      var c = new ow.java.cipher()
+      log("Generating temporary self-signed SSL certificate of " + args.ssl + " valid for " + valid + " ms with " + keys + " key size...")
+      var kp   = c.genKeyPair(keys)
+      var cert = c.genCert("cn=" + args.ssl, kp.publicKey, kp.privateKey, new Date(now() + valid), __, args.keyf, args.keyp);
+
+      var genPemCert = crt => {
+        var encoder = java.util.Base64.getMimeEncoder(64, java.lang.System.getProperty("line.separator").getBytes())
+        return "-----BEGIN CERTIFICATE-----\n" + af.fromBytes2String(encoder.encode(cert.getEncoded())) + "\n-----END CERTIFICATE-----\n"
+      }
+
+      var genKey = key => {
+        var encoder = java.util.Base64.getMimeEncoder(64, java.lang.System.getProperty("line.separator").getBytes())
+        return "-----BEGIN PRIVATE KEY-----\n" + af.fromBytes2String(encoder.encode(key.getEncoded())) + "\n-----END PRIVATE KEY-----\n"
+      }
+
+      var filePEM = io.fileInfo(args.path).canonicalPath + "/nginx.pem"
+      var fileKey = io.fileInfo(args.path).canonicalPath + "/nginx.key"
+      log("Creating nginx ssl certificate '" + filePEM +"'...")
+      io.writeFileString(filePEM, genPemCert(cert))
+      log("Creating nginx ssl key '" + fileKey +"'...")
+      io.writeFileString(fileKey, genKey(kp.privateKey))
+
+# -----------------------
+- name : Generate a nginx
+  check:
+    in:
+      url      : isString
+      path     : isString.default(".")
+      port     : toNumber.isNumber.default(8080)
+      auth     : isString.default(__)
+      websocket: toBoolean.isBoolean.default(false)
+  exec : |
+    // Write nginx conf
+    var file = io.fileInfo(args.path).canonicalPath + "/nginx.conf"
+    log("Creating nginx configuration '" + file +"'...")
+    io.writeFileString(file, templify(args.init.nginxConf, {
+      url : args.url,
+      auth: args.auth,
+      ssl : isDef(args.ssl),
+      websocket: args.websocket,
+      port: args.port
+    }))
+
+    // Write auth
+    var fileAuth
+    if (isDef(args.auth)) {
+      fileAuth = io.fileInfo(args.path).canonicalPath + "/nginx_htpasswd"
+      log("Creating nginx auth '" + file +"'...")
+      io.writeFileString(fileAuth, args.auth.split(":").map((r, i) => i == 1 ? bcrypt(r) : r).join(":"))
+    }
+
+    if (isDef(args.ssl)) {
+      $job("Prepare SSL", args)
+    }
+
+# ------------------
+- name : Setup nginx
+  lang : shell
+  exec : |
+    sudo mv nginx.conf /etc/nginx/nginx.conf
+    sudo mv nginx.pem /etc/nginx.pem
+    sudo mv nginx.key /etc/nginx.key
+    sudo service nginx restart

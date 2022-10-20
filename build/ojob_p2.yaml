@@ -1,5 +1,6 @@
 # Author: Nuno Aguiar
 todo:
+- Setup reverse proxy
 - Set SSH user password
 - Start SSH daemon
 - Support windows
@@ -27,6 +28,16 @@ jobs:
 - name: Report
   type: shutdown
   to  : ojob report
+
+# ==========================
+- name : Setup reverse proxy
+  lang : shell
+  exec : |
+    {{#if NOHTTPS}}
+    echo no HTTPS reverse proxy started
+    {{else}}
+    ojob /home/openvscode-server/.rp.yaml url=http://127.0.0.1:3000 port=8443 websocket=true ssl=hvscs sslvalid=525600
+    {{/if}}
 
 # ============================
 - name : Set SSH user password
@@ -149,7 +160,11 @@ jobs:
     {{#if NOK8S}}
       echo K8S not started
     {{else}}
+      {{#if NOPUBLIC}}
       k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000 -p "127.0.0.1:1080:1080@loadbalancer"
+      {{else}}
+      k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000 -p "0.0.0.0:1080:1080@loadbalancer"
+      {{/if}}
     {{/if}}
 
 # =============================

@@ -2,7 +2,7 @@ FROM gitpod/openvscode-server:latest as main
 
 USER root
 RUN apt-get update\
- && apt-get install -y apt-utils curl wget vim iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip skopeo htop\
+ && apt-get install -y apt-utils curl wget vim iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip skopeo htop nginx\
  && curl https://openaf.io/install.sh | sh\
  && curl https://get.docker.com | sh\
  && opack install ojob-common\
@@ -27,23 +27,27 @@ RUN apt-get update\
 
 COPY ojob_p2.yaml /tmp/.p2.yaml
 COPY ojob_p1.sh /tmp/.p1.sh
+COPY ojob_rp.yaml /tmp/.rp.yaml
+COPY extensions /tmp/.extensions
 
-RUN mkdir /tmp/.extensions\
- && cd /tmp/.extensions\
- && wget https://open-vsx.org/api/redhat/vscode-yaml/1.10.1/file/redhat.vscode-yaml-1.10.1.vsix\
- && wget https://open-vsx.org/api/redhat/vscode-xml/0.21.0/file/redhat.vscode-xml-0.21.0.vsix\
- && wget https://open-vsx.org/api/GitHub/github-vscode-theme/6.3.2/file/GitHub.github-vscode-theme-6.3.2.vsix\
- && wget https://open-vsx.org/api/ms-azuretools/vscode-docker/1.22.1/file/ms-azuretools.vscode-docker-1.22.1.vsix\
- && wget https://open-vsx.org/api/ms-kubernetes-tools/vscode-kubernetes-tools/1.3.10/file/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.10.vsix\
+#RUN mkdir /tmp/.extensions\
+RUN cd /tmp/.extensions\
+# && wget https://open-vsx.org/api/redhat/vscode-yaml/1.10.1/file/redhat.vscode-yaml-1.10.1.vsix\
+# && wget https://open-vsx.org/api/redhat/vscode-xml/0.21.0/file/redhat.vscode-xml-0.21.0.vsix\
+# && wget https://open-vsx.org/api/GitHub/github-vscode-theme/6.3.2/file/GitHub.github-vscode-theme-6.3.2.vsix\
+# && wget https://open-vsx.org/api/ms-azuretools/vscode-docker/1.22.2/file/ms-azuretools.vscode-docker-1.22.2.vsix\
+# && wget https://open-vsx.org/api/ms-kubernetes-tools/vscode-kubernetes-tools/1.3.10/file/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.10.vsix\
  && chown -R openvscode-server: /tmp/.extensions
 
 RUN chsh --shell /bin/bash openvscode-server\
  && cd /home/openvscode-server\
  && mv /tmp/.p1.sh .p1.sh\
  && mv /tmp/.p2.yaml .p2.yaml\
+ && mv /tmp/.rp.yaml .rp.yaml\
  && chmod a+x .p1.sh\
  && chown openvscode-server: .p1.sh\
  && chown openvscode-server: .p2.yaml\
+ && chown openvscode-server: .rp.yaml\
  && mkdir /workspace\
  && mkdir /workspace/.vscode\
  && chown -R openvscode-server: /workspace
@@ -69,6 +73,7 @@ ENV LANG=C.UTF-8 \
     VISUAL=code \
     GIT_EDITOR="code --wait" \
     OPENVSCODE_SERVER_ROOT=${OPENVSCODE_SERVER_ROOT}
-EXPOSE 3000
+EXPOSE 3000  
+EXPOSE 8443
 
 ENTRYPOINT /home/openvscode-server/.p1.sh 
