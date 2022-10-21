@@ -51,6 +51,18 @@ FROM nmaguiar/hvscs
 COPY --chown=1000:1000 mycontents /workspace
 ````
 
+You can also follow the [samples/buildCustomContent](samples/buildCustomContent) directly. For that just clone this GIT repo and start the hVSCs container on it:
+
+````bash
+git clone https://github.com/nmaguiar/hvscs
+cd hvscs
+docker run --rm -ti --init -d -p 127.0.0.1:8443:8443 -p 127.0.0.1:10080:1080 -v $(pwd)/samples/buildCustomContent:/workspace --privileged nmaguiar/hvscs 
+````
+
+and the open your browser on the address: http://127.0.0.1:8443
+
+> Don't forget to add the option _'--cgroupns=host'_ if running on a Mac
+
 ## How to access the SOCKS proxy
 
 You can configure any browser to use the SOCKS proxy on port 10080. Other clients, like DBeaver, also support SOCKS proxy definitions. See more in https://github.com/nmaguiar/socksd.
