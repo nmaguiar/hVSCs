@@ -59,7 +59,7 @@ cd hvscs
 docker run --rm -ti --init -d -p 127.0.0.1:8443:8443 -p 127.0.0.1:10080:1080 -v $(pwd)/samples/buildCustomContent:/workspace --privileged nmaguiar/hvscs 
 ````
 
-and the open your browser on the address: http://127.0.0.1:8443
+and the open your browser on the address: https://127.0.0.1:8443
 
 > Don't forget to add the option _'--cgroupns=host'_ if running on a Mac
 
