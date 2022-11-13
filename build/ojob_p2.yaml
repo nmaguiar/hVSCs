@@ -17,7 +17,7 @@ ojob:
   catch       : if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
   logToConsole: true   # to change when finished
   argsFromEnvs: true
-  numThreads  : 4
+  numThreads  : 2
 
 include:
 - ojob.yaml
