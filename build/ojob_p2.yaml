@@ -17,7 +17,7 @@ ojob:
   catch       : if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
   logToConsole: true   # to change when finished
   argsFromEnvs: true
-  numThreads  : 2
+  numThreads  : 6
 
 include:
 - ojob.yaml
@@ -139,8 +139,6 @@ jobs:
 
 # ================
 - name : Start K3D
-  typeArgs:
-    shellPrefix: k3d
   from : Wait for Docker to start
   lang : shell
   exec : |
@@ -151,18 +149,19 @@ jobs:
     {{#if NOK8S}}
       echo K8S not started
     {{else}}
+      echo K3D creating
+      echo creating > /tmp/.kube
       {{#if NOPUBLIC}}
       k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000 -p "127.0.0.1:1080:1080@loadbalancer"
       {{else}}
       k3d cluster create --k3s-arg "--snapshotter=native@server:*" --registry-create registry:5000 -p "0.0.0.0:1080:1080@loadbalancer"
       {{/if}}
+      echo created > /tmp/.kube
+      echo K3D creation end
     {{/if}}
 
 # =============================
 - name : Start K3D socks server
-  typeArgs:
-    shellPrefix: socks
-    shell      : /bin/bash -s
   deps :
   - Start K3D
   lang : shell
