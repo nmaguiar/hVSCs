@@ -1,11 +1,9 @@
 # Author: Nuno Aguiar
 todo:
-- Support windows
 - Start docker
 - Install VSCode extensions
 - Prepare VSC settings
 - Setup reverse proxy
-- Set SSH user password
 - Start SSH daemon
 - Start K3D
 - Start K3D socks server
@@ -51,7 +49,7 @@ jobs:
 
 # =======================
 - name : Start SSH daemon
-  deps :
+  from :
   - Set SSH user password
   lang : shell
   exec : |
@@ -61,22 +59,15 @@ jobs:
     sudo service ssh start
     {{/if}}
 
-# ======================
-- name : Support windows
-  lang : shell
-  exec : |
-    sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
-    echo updated
-
 # ===================
 - name : Start docker
-  deps :
-  - Support windows
   lang : shell
   exec : |
     {{#if NODOCKER}}
     echo Docker not started
     {{else}}
+    sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
+    echo updated
     sudo service docker start 
     {{/if}}
 
@@ -138,7 +129,6 @@ jobs:
 
 # -------------------------------
 - name : Wait for Docker to start
-  deps : Start docker
   exec : |
     var ec
     do {
