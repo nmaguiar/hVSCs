@@ -19,7 +19,7 @@ ojob:
   catch       : if (isDef(exception.javaException)) exception.javaException.printStackTrace(); else printErr(exception)
   logToConsole: true   # to change when finished
   argsFromEnvs: true
-  numThreads  : 2
+  numThreads  : 4
 
 include:
 - ojob.yaml
@@ -138,6 +138,7 @@ jobs:
 
 # -------------------------------
 - name : Wait for Docker to start
+  deps : Start docker
   exec : |
     var ec
     do {
