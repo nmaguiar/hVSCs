@@ -1,12 +1,12 @@
 # Author: Nuno Aguiar
 todo:
-- Setup reverse proxy
-- Set SSH user password
-- Start SSH daemon
 - Support windows
 - Start docker
 - Install VSCode extensions
 - Prepare VSC settings
+- Setup reverse proxy
+- Set SSH user password
+- Start SSH daemon
 - Start K3D
 - Start K3D socks server
 - Report
