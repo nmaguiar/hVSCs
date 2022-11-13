@@ -1,10 +1,10 @@
 # Author: Nuno Aguiar
 todo:
-- Start docker
 - Install VSCode extensions
 - Prepare VSC settings
 - Setup reverse proxy
 - Start SSH daemon
+- Start docker
 - Start K3D
 - Start K3D socks server
 - Report
