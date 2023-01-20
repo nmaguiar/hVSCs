@@ -25,7 +25,9 @@ include:
 jobs:
 - name: Report
   type: shutdown
-  to  : ojob report
+  from: ojob report
+  exec: |
+    exit(0)
 
 # ==========================
 - name : Setup reverse proxy
