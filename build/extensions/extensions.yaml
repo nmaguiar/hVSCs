@@ -1,0 +1,6 @@
+extensions:
+- GitHub.github-vscode-theme
+- redhat.vscode-yaml
+- redhat.vscode-xml
+- ms-azuretools.vscode-docker
+- ms-kubernetes-tools.vscode-kubernetes-tools

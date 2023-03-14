@@ -102,13 +102,19 @@ jobs:
   each : Install VSCode extension
   catch: sprintErr(exception)
   exec : |
-    $from(io.listFiles("/tmp/.extensions").files)
-    .ends("filename", ".vsix")
+    var lst2 = io.readFileYAML("/tmp/.extensions/extensions.yaml").extensions
+
+    var lst = $from(lst2.map(r => ({ n: r })))
+              .attach("f", r => $from(io.listFiles("/tmp/.extensions").files).starts("filename", r.n).at(0))
+              .select()
+              
+    $from(lst)
+    .ends("f.filename", ".vsix")
     .select(f => {
-      if (isDef(args.NOK8S) && f.filename.indexOf("-kubernetes-") >= 0) return
-      if (isDef(args.NODOCKER) && f.filename.indexOf("-docker-") >= 0) return
-      log("installing extension " + f.filename + "...")
-      $sh("/home/.openvscode-server/bin/remote-cli/openvscode-server --install-extension " + f.canonicalPath)
+      if (isDef(args.NOK8S) && f.f.filename.indexOf("-kubernetes-") >= 0) return
+      if (isDef(args.NODOCKER) && f.f.filename.indexOf("-docker-") >= 0) return
+      log("installing extension " + f.f.filename + "...")
+      $sh("/home/.openvscode-server/bin/remote-cli/openvscode-server --install-extension " + f.f.canonicalPath)
       .envs(global.envs, true)
       .exec(0) 
     })
