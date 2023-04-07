@@ -11,6 +11,7 @@ RUN apt-get update\
  && ojob ojob.io/docker/compose path=/usr/bin\
  && ojob ojob.io/kube/getHelm path=/usr/bin\
  && ojob ojob.io/s3/getMC path=/usr/bin\
+ && ojob ojob.io/util/vscTunnel path=/usr/bin\
  && su - openvscode-server ojob ojob.io/kube/getKrew\
  && ln -s /home/openvscode-server/.profile /home/workspace/.profile\
  && ln -s /home/openvscode-server/.bashrc /home/workspace/.bashrc\
