@@ -1407,6 +1407,7 @@
     PkgID: libperl5.34@5.34.0-3ubuntu1.1
     PkgName: libperl5.34
     InstalledVersion: 5.34.0-3ubuntu1.1
+    FixedVersion: 5.34.0-3ubuntu1.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1436,6 +1437,7 @@
     - https://github.com/andk/cpanpm/pull/175
     - https://metacpan.org/dist/CPAN/changes
     - https://ubuntu.com/security/notices/USN-6112-1
+    - https://ubuntu.com/security/notices/USN-6112-2
     - https://www.openwall.com/lists/oss-security/2023/04/18/14
     PublishedDate: '2023-04-29T00:15:00Z'
     LastModifiedDate: '2023-05-08T17:11:00Z'
@@ -1477,6 +1479,7 @@
     PkgID: libpython3.10@3.10.6-1~22.04.2ubuntu1
     PkgName: libpython3.10
     InstalledVersion: 3.10.6-1~22.04.2ubuntu1
+    FixedVersion: 3.10.6-1~22.04.2ubuntu1.1
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1520,6 +1523,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0004/
     - https://ubuntu.com/security/notices/USN-5888-1
     - https://ubuntu.com/security/notices/USN-5960-1
+    - https://ubuntu.com/security/notices/USN-6139-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24329
     PublishedDate: '2023-02-17T15:15:00Z'
     LastModifiedDate: '2023-06-04T03:15:00Z'
@@ -1564,6 +1568,7 @@
     PkgID: libpython3.10-minimal@3.10.6-1~22.04.2ubuntu1
     PkgName: libpython3.10-minimal
     InstalledVersion: 3.10.6-1~22.04.2ubuntu1
+    FixedVersion: 3.10.6-1~22.04.2ubuntu1.1
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1607,6 +1612,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0004/
     - https://ubuntu.com/security/notices/USN-5888-1
     - https://ubuntu.com/security/notices/USN-5960-1
+    - https://ubuntu.com/security/notices/USN-6139-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24329
     PublishedDate: '2023-02-17T15:15:00Z'
     LastModifiedDate: '2023-06-04T03:15:00Z'
@@ -1651,6 +1657,7 @@
     PkgID: libpython3.10-stdlib@3.10.6-1~22.04.2ubuntu1
     PkgName: libpython3.10-stdlib
     InstalledVersion: 3.10.6-1~22.04.2ubuntu1
+    FixedVersion: 3.10.6-1~22.04.2ubuntu1.1
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1694,6 +1701,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0004/
     - https://ubuntu.com/security/notices/USN-5888-1
     - https://ubuntu.com/security/notices/USN-5960-1
+    - https://ubuntu.com/security/notices/USN-6139-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24329
     PublishedDate: '2023-02-17T15:15:00Z'
     LastModifiedDate: '2023-06-04T03:15:00Z'
@@ -1768,6 +1776,72 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-46908
     PublishedDate: '2022-12-12T06:15:00Z'
     LastModifiedDate: '2023-03-07T18:21:00Z'
+  - VulnerabilityID: CVE-2023-1667
+    PkgID: libssh-4@0.9.6-2build1
+    PkgName: libssh-4
+    InstalledVersion: 0.9.6-2build1
+    FixedVersion: 0.9.6-2ubuntu0.22.04.1
+    Layer:
+      Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
+      DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-1667
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: NULL pointer dereference during rekeying with algorithm guessing
+    Description: A NULL pointer dereference was found In libssh during re-keying with algorithm guessing. This issue may allow an authenticated client to cause a denial of service.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4.3
+    References:
+    - http://www.libssh.org/security/advisories/CVE-2023-1667.txt
+    - https://access.redhat.com/security/cve/CVE-2023-1667
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2182199
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1667
+    - https://lists.debian.org/debian-lts-announce/2023/05/msg00029.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/27PD44ALQTZXX7K6JAM3BXBUHYA6DFFN/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-1667
+    - https://ubuntu.com/security/notices/USN-6138-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-1667
+    - https://www.libssh.org/security/advisories/CVE-2023-1667.txt
+    PublishedDate: '2023-05-26T18:15:00Z'
+    LastModifiedDate: '2023-05-30T00:15:00Z'
+  - VulnerabilityID: CVE-2023-2283
+    PkgID: libssh-4@0.9.6-2build1
+    PkgName: libssh-4
+    InstalledVersion: 0.9.6-2build1
+    FixedVersion: 0.9.6-2ubuntu0.22.04.1
+    Layer:
+      Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
+      DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2283
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: authorization bypass in pki_verify_data_signature
+    Description: A vulnerability was found in libssh, where the authentication check of the connecting client can be bypassed in the`pki_verify_data_signature` function in memory allocation problems. This issue may happen if there is insufficient memory or the memory usage is limited. The problem is caused by the return value `rc,` which is initialized to SSH_ERROR and later rewritten to save the return value of the function call `pki_key_check_hash_compatible.` The value of the variable is not changed between this point and the cryptographic verification. Therefore any error between them calls `goto error` returning SSH_OK.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-2283
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2189736
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2283
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/27PD44ALQTZXX7K6JAM3BXBUHYA6DFFN/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-2283
+    - https://ubuntu.com/security/notices/USN-6138-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-2283
+    - https://www.libssh.org/security/advisories/CVE-2023-2283.txt
+    PublishedDate: '2023-05-26T18:15:00Z'
+    LastModifiedDate: '2023-05-28T06:15:00Z'
   - VulnerabilityID: CVE-2023-2650
     PkgID: libssl3@3.0.2-0ubuntu1.9
     PkgName: libssl3
@@ -1834,7 +1908,12 @@
       not affected by this issue in such a way that it would be cause for concern,
       and the severity is therefore considered low.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-770
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -1852,7 +1931,7 @@
     - https://www.debian.org/security/2023/dsa-5417
     - https://www.openssl.org/news/secadv/20230530.txt
     PublishedDate: '2023-05-30T14:15:00Z'
-    LastModifiedDate: '2023-06-01T00:15:00Z'
+    LastModifiedDate: '2023-06-05T17:42:00Z'
   - VulnerabilityID: CVE-2023-1255
     PkgID: libssl3@3.0.2-0ubuntu1.9
     PkgName: libssl3
@@ -2602,7 +2681,12 @@
       not affected by this issue in such a way that it would be cause for concern,
       and the severity is therefore considered low.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-770
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -2620,7 +2704,7 @@
     - https://www.debian.org/security/2023/dsa-5417
     - https://www.openssl.org/news/secadv/20230530.txt
     PublishedDate: '2023-05-30T14:15:00Z'
-    LastModifiedDate: '2023-06-01T00:15:00Z'
+    LastModifiedDate: '2023-06-05T17:42:00Z'
   - VulnerabilityID: CVE-2023-1255
     PkgID: openssl@3.0.2-0ubuntu1.9
     PkgName: openssl
@@ -2717,6 +2801,7 @@
     PkgID: perl@5.34.0-3ubuntu1.1
     PkgName: perl
     InstalledVersion: 5.34.0-3ubuntu1.1
+    FixedVersion: 5.34.0-3ubuntu1.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -2746,6 +2831,7 @@
     - https://github.com/andk/cpanpm/pull/175
     - https://metacpan.org/dist/CPAN/changes
     - https://ubuntu.com/security/notices/USN-6112-1
+    - https://ubuntu.com/security/notices/USN-6112-2
     - https://www.openwall.com/lists/oss-security/2023/04/18/14
     PublishedDate: '2023-04-29T00:15:00Z'
     LastModifiedDate: '2023-05-08T17:11:00Z'
@@ -2753,6 +2839,7 @@
     PkgID: perl-base@5.34.0-3ubuntu1.1
     PkgName: perl-base
     InstalledVersion: 5.34.0-3ubuntu1.1
+    FixedVersion: 5.34.0-3ubuntu1.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -2782,6 +2869,7 @@
     - https://github.com/andk/cpanpm/pull/175
     - https://metacpan.org/dist/CPAN/changes
     - https://ubuntu.com/security/notices/USN-6112-1
+    - https://ubuntu.com/security/notices/USN-6112-2
     - https://www.openwall.com/lists/oss-security/2023/04/18/14
     PublishedDate: '2023-04-29T00:15:00Z'
     LastModifiedDate: '2023-05-08T17:11:00Z'
@@ -2789,6 +2877,7 @@
     PkgID: perl-modules-5.34@5.34.0-3ubuntu1.1
     PkgName: perl-modules-5.34
     InstalledVersion: 5.34.0-3ubuntu1.1
+    FixedVersion: 5.34.0-3ubuntu1.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -2818,6 +2907,7 @@
     - https://github.com/andk/cpanpm/pull/175
     - https://metacpan.org/dist/CPAN/changes
     - https://ubuntu.com/security/notices/USN-6112-1
+    - https://ubuntu.com/security/notices/USN-6112-2
     - https://www.openwall.com/lists/oss-security/2023/04/18/14
     PublishedDate: '2023-04-29T00:15:00Z'
     LastModifiedDate: '2023-05-08T17:11:00Z'
@@ -2825,6 +2915,7 @@
     PkgID: python3.10@3.10.6-1~22.04.2ubuntu1
     PkgName: python3.10
     InstalledVersion: 3.10.6-1~22.04.2ubuntu1
+    FixedVersion: 3.10.6-1~22.04.2ubuntu1.1
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -2868,6 +2959,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0004/
     - https://ubuntu.com/security/notices/USN-5888-1
     - https://ubuntu.com/security/notices/USN-5960-1
+    - https://ubuntu.com/security/notices/USN-6139-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24329
     PublishedDate: '2023-02-17T15:15:00Z'
     LastModifiedDate: '2023-06-04T03:15:00Z'
@@ -2912,6 +3004,7 @@
     PkgID: python3.10-minimal@3.10.6-1~22.04.2ubuntu1
     PkgName: python3.10-minimal
     InstalledVersion: 3.10.6-1~22.04.2ubuntu1
+    FixedVersion: 3.10.6-1~22.04.2ubuntu1.1
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -2955,6 +3048,7 @@
     - https://security.netapp.com/advisory/ntap-20230324-0004/
     - https://ubuntu.com/security/notices/USN-5888-1
     - https://ubuntu.com/security/notices/USN-5960-1
+    - https://ubuntu.com/security/notices/USN-6139-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24329
     PublishedDate: '2023-02-17T15:15:00Z'
     LastModifiedDate: '2023-06-04T03:15:00Z'
@@ -7623,37 +7717,6 @@
     - https://github.com/distribution/distribution/security/advisories/GHSA-hqxw-f8mx-cpmw
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2253
     - https://www.cve.org/CVERecord?id=CVE-2023-2253
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
-      DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_rsa_key
   Class: secret
   Secrets:
@@ -7743,6 +7806,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
+      DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
