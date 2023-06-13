@@ -1882,6 +1882,8 @@
     - https://github.com/python/cpython/issues/102153
     - https://github.com/python/cpython/pull/99421
     - https://github.com/python/cpython/pull/99446 (backport for 3.11 branch)
+    - https://linux.oracle.com/cve/CVE-2023-24329.html
+    - https://linux.oracle.com/errata/ELSA-2023-3556.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6PEVICI7YNGGMSL3UCMWGE66QFLATH72/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DSL6NSOAXWBJJ67XPLSSC74MNKZF3BBO/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EM2XLZSTXG44TMFXF4E6VTGKR2MQCW3G/
@@ -1979,6 +1981,8 @@
     - https://github.com/python/cpython/issues/102153
     - https://github.com/python/cpython/pull/99421
     - https://github.com/python/cpython/pull/99446 (backport for 3.11 branch)
+    - https://linux.oracle.com/cve/CVE-2023-24329.html
+    - https://linux.oracle.com/errata/ELSA-2023-3556.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6PEVICI7YNGGMSL3UCMWGE66QFLATH72/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DSL6NSOAXWBJJ67XPLSSC74MNKZF3BBO/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EM2XLZSTXG44TMFXF4E6VTGKR2MQCW3G/
@@ -2076,6 +2080,8 @@
     - https://github.com/python/cpython/issues/102153
     - https://github.com/python/cpython/pull/99421
     - https://github.com/python/cpython/pull/99446 (backport for 3.11 branch)
+    - https://linux.oracle.com/cve/CVE-2023-24329.html
+    - https://linux.oracle.com/errata/ELSA-2023-3556.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6PEVICI7YNGGMSL3UCMWGE66QFLATH72/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DSL6NSOAXWBJJ67XPLSSC74MNKZF3BBO/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EM2XLZSTXG44TMFXF4E6VTGKR2MQCW3G/
@@ -2241,6 +2247,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
         V3Score: 4.8
     References:
+    - http://packetstormsecurity.com/files/172861/libssh-0.9.6-0.10.4-pki_verify_data_signature-Authorization-Bypass.html
     - https://access.redhat.com/security/cve/CVE-2023-2283
     - https://bugzilla.redhat.com/show_bug.cgi?id=2189736
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2283
@@ -2250,7 +2257,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-2283
     - https://www.libssh.org/security/advisories/CVE-2023-2283.txt
     PublishedDate: '2023-05-26T18:15:00Z'
-    LastModifiedDate: '2023-06-06T14:54:00Z'
+    LastModifiedDate: '2023-06-12T07:17:00Z'
   - VulnerabilityID: CVE-2023-2650
     PkgID: libssl3@3.0.2-0ubuntu1.9
     PkgName: libssl3
@@ -3356,6 +3363,8 @@
     - https://github.com/python/cpython/issues/102153
     - https://github.com/python/cpython/pull/99421
     - https://github.com/python/cpython/pull/99446 (backport for 3.11 branch)
+    - https://linux.oracle.com/cve/CVE-2023-24329.html
+    - https://linux.oracle.com/errata/ELSA-2023-3556.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6PEVICI7YNGGMSL3UCMWGE66QFLATH72/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DSL6NSOAXWBJJ67XPLSSC74MNKZF3BBO/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EM2XLZSTXG44TMFXF4E6VTGKR2MQCW3G/
@@ -3453,6 +3462,8 @@
     - https://github.com/python/cpython/issues/102153
     - https://github.com/python/cpython/pull/99421
     - https://github.com/python/cpython/pull/99446 (backport for 3.11 branch)
+    - https://linux.oracle.com/cve/CVE-2023-24329.html
+    - https://linux.oracle.com/errata/ELSA-2023-3556.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6PEVICI7YNGGMSL3UCMWGE66QFLATH72/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DSL6NSOAXWBJJ67XPLSSC74MNKZF3BBO/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EM2XLZSTXG44TMFXF4E6VTGKR2MQCW3G/
@@ -3959,6 +3970,7 @@
     PkgID: vim@2:8.2.3995-1ubuntu2.7
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -3989,6 +4001,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LOJP6M7ZTKZQYOGVOOAY6TIE6ACBJL55/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2426
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2426
     PublishedDate: '2023-04-29T22:15:00Z'
     LastModifiedDate: '2023-05-24T05:15:00Z'
@@ -3996,6 +4009,7 @@
     PkgID: vim@2:8.2.3995-1ubuntu2.7
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -4025,6 +4039,7 @@
     - https://huntr.dev/bounties/1679be5a-565f-4a44-a430-836412a0b622
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2609
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2609
     PublishedDate: '2023-05-09T18:15:00Z'
     LastModifiedDate: '2023-05-24T05:15:00Z'
@@ -4032,6 +4047,7 @@
     PkgID: vim@2:8.2.3995-1ubuntu2.7
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -4058,11 +4074,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2610
     - https://github.com/vim/vim/commit/ab9a2d884b3a4abe319606ea95a5a6d6b01cd73a
     - https://huntr.dev/bounties/31e67340-935b-4f6c-a923-f7246bc29c7d
+    - https://lists.debian.org/debian-lts-announce/2023/06/msg00015.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2610
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2610
     PublishedDate: '2023-05-09T22:15:00Z'
-    LastModifiedDate: '2023-05-24T05:15:00Z'
+    LastModifiedDate: '2023-06-12T20:15:00Z'
   - VulnerabilityID: CVE-2022-0696
     PkgID: vim@2:8.2.3995-1ubuntu2.7
     PkgName: vim
@@ -4550,6 +4568,7 @@
     PkgID: vim-common@2:8.2.3995-1ubuntu2.7
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -4580,6 +4599,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LOJP6M7ZTKZQYOGVOOAY6TIE6ACBJL55/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2426
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2426
     PublishedDate: '2023-04-29T22:15:00Z'
     LastModifiedDate: '2023-05-24T05:15:00Z'
@@ -4587,6 +4607,7 @@
     PkgID: vim-common@2:8.2.3995-1ubuntu2.7
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -4616,6 +4637,7 @@
     - https://huntr.dev/bounties/1679be5a-565f-4a44-a430-836412a0b622
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2609
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2609
     PublishedDate: '2023-05-09T18:15:00Z'
     LastModifiedDate: '2023-05-24T05:15:00Z'
@@ -4623,6 +4645,7 @@
     PkgID: vim-common@2:8.2.3995-1ubuntu2.7
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -4649,11 +4672,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2610
     - https://github.com/vim/vim/commit/ab9a2d884b3a4abe319606ea95a5a6d6b01cd73a
     - https://huntr.dev/bounties/31e67340-935b-4f6c-a923-f7246bc29c7d
+    - https://lists.debian.org/debian-lts-announce/2023/06/msg00015.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2610
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2610
     PublishedDate: '2023-05-09T22:15:00Z'
-    LastModifiedDate: '2023-05-24T05:15:00Z'
+    LastModifiedDate: '2023-06-12T20:15:00Z'
   - VulnerabilityID: CVE-2022-0696
     PkgID: vim-common@2:8.2.3995-1ubuntu2.7
     PkgName: vim-common
@@ -5141,6 +5166,7 @@
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.7
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -5171,6 +5197,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LOJP6M7ZTKZQYOGVOOAY6TIE6ACBJL55/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2426
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2426
     PublishedDate: '2023-04-29T22:15:00Z'
     LastModifiedDate: '2023-05-24T05:15:00Z'
@@ -5178,6 +5205,7 @@
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.7
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -5207,6 +5235,7 @@
     - https://huntr.dev/bounties/1679be5a-565f-4a44-a430-836412a0b622
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2609
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2609
     PublishedDate: '2023-05-09T18:15:00Z'
     LastModifiedDate: '2023-05-24T05:15:00Z'
@@ -5214,6 +5243,7 @@
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.7
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -5240,11 +5270,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2610
     - https://github.com/vim/vim/commit/ab9a2d884b3a4abe319606ea95a5a6d6b01cd73a
     - https://huntr.dev/bounties/31e67340-935b-4f6c-a923-f7246bc29c7d
+    - https://lists.debian.org/debian-lts-announce/2023/06/msg00015.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2610
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2610
     PublishedDate: '2023-05-09T22:15:00Z'
-    LastModifiedDate: '2023-05-24T05:15:00Z'
+    LastModifiedDate: '2023-06-12T20:15:00Z'
   - VulnerabilityID: CVE-2022-0696
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.7
     PkgName: vim-runtime
@@ -5769,6 +5801,7 @@
     PkgID: xxd@2:8.2.3995-1ubuntu2.7
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -5799,6 +5832,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LOJP6M7ZTKZQYOGVOOAY6TIE6ACBJL55/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2426
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2426
     PublishedDate: '2023-04-29T22:15:00Z'
     LastModifiedDate: '2023-05-24T05:15:00Z'
@@ -5806,6 +5840,7 @@
     PkgID: xxd@2:8.2.3995-1ubuntu2.7
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -5835,6 +5870,7 @@
     - https://huntr.dev/bounties/1679be5a-565f-4a44-a430-836412a0b622
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2609
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2609
     PublishedDate: '2023-05-09T18:15:00Z'
     LastModifiedDate: '2023-05-24T05:15:00Z'
@@ -5842,6 +5878,7 @@
     PkgID: xxd@2:8.2.3995-1ubuntu2.7
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.7
+    FixedVersion: 2:8.2.3995-1ubuntu2.8
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -5868,11 +5905,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2610
     - https://github.com/vim/vim/commit/ab9a2d884b3a4abe319606ea95a5a6d6b01cd73a
     - https://huntr.dev/bounties/31e67340-935b-4f6c-a923-f7246bc29c7d
+    - https://lists.debian.org/debian-lts-announce/2023/06/msg00015.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PCLJN4QINITA3ZASKLEJ64C5TFNKELMO/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2610
+    - https://ubuntu.com/security/notices/USN-6154-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2610
     PublishedDate: '2023-05-09T22:15:00Z'
-    LastModifiedDate: '2023-05-24T05:15:00Z'
+    LastModifiedDate: '2023-06-12T20:15:00Z'
   - VulnerabilityID: CVE-2022-0696
     PkgID: xxd@2:8.2.3995-1ubuntu2.7
     PkgName: xxd
@@ -5991,6 +6030,7 @@
     - https://github.com/eclipse/jetty.project/issues/9076
     - https://github.com/eclipse/jetty.project/pull/9344
     - https://github.com/eclipse/jetty.project/pull/9345
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8
     - https://github.com/jakartaee/servlet/blob/6.0.0/spec/src/main/asciidoc/servlet-spec-body.adoc#32-file-upload
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26048
@@ -6065,6 +6105,7 @@
     - https://github.com/eclipse/jetty.project/issues/9076
     - https://github.com/eclipse/jetty.project/pull/9344
     - https://github.com/eclipse/jetty.project/pull/9345
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8
     - https://github.com/jakartaee/servlet/blob/6.0.0/spec/src/main/asciidoc/servlet-spec-body.adoc#32-file-upload
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26048
@@ -6139,6 +6180,7 @@
     - https://github.com/eclipse/jetty.project/issues/9076
     - https://github.com/eclipse/jetty.project/pull/9344
     - https://github.com/eclipse/jetty.project/pull/9345
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8
     - https://github.com/jakartaee/servlet/blob/6.0.0/spec/src/main/asciidoc/servlet-spec-body.adoc#32-file-upload
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26048
@@ -6213,6 +6255,7 @@
     - https://github.com/eclipse/jetty.project/issues/9076
     - https://github.com/eclipse/jetty.project/pull/9344
     - https://github.com/eclipse/jetty.project/pull/9345
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-qw69-rqj8-6qw8
     - https://github.com/jakartaee/servlet/blob/6.0.0/spec/src/main/asciidoc/servlet-spec-body.adoc#32-file-upload
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26048
@@ -6800,20 +6843,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 7.3
     References:
-    - https://access.redhat.com/errata/RHSA-2022:6595
     - https://access.redhat.com/security/cve/CVE-2020-7788
-    - https://bugzilla.redhat.com/1907444
-    - https://bugzilla.redhat.com/1945459
-    - https://bugzilla.redhat.com/1964461
-    - https://bugzilla.redhat.com/2007557
-    - https://bugzilla.redhat.com/2098556
-    - https://bugzilla.redhat.com/2102001
-    - https://bugzilla.redhat.com/2105422
-    - https://bugzilla.redhat.com/2105426
-    - https://bugzilla.redhat.com/2105428
-    - https://bugzilla.redhat.com/2105430
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7788
-    - https://errata.almalinux.org/9/ALSA-2022-6595.html
+    - https://errata.almalinux.org/8/ALSA-2022-0350.html
     - https://github.com/advisories/GHSA-qqgx-2p2h-9c37
     - https://github.com/npm/ini/commit/56d2805e07ccd94e2ba0984ac9240ff02d44b6f1
     - https://github.com/npm/ini/commit/56d2805e07ccd94e2ba0984ac9240ff02d44b6f1 (v1.3.6)
@@ -7375,18 +7407,22 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2357
+    - https://access.redhat.com/errata/RHSA-2023:2802
     - https://access.redhat.com/security/cve/CVE-2022-27664
+    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
+    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
+    - https://bugzilla.redhat.com/2107390
+    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
+    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
-    - https://bugzilla.redhat.com/2132868
-    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
+    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -7405,7 +7441,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/9/ALSA-2023-2357.html
+    - https://errata.almalinux.org/8/ALSA-2023-2802.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -7502,12 +7538,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2367
+    - https://access.redhat.com/errata/RHSA-2023:2866
     - https://access.redhat.com/security/cve/CVE-2022-41717
-    - https://bugzilla.redhat.com/2092793
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41717
-    - https://errata.almalinux.org/9/ALSA-2023-2367.html
+    - https://errata.almalinux.org/8/ALSA-2023-2866.html
     - https://github.com/advisories/GHSA-xrjj-mj9h-534m
     - https://github.com/golang/go/commit/618120c165669c00a1606505defea6ca755cdc27 (go1.19.4)
     - https://github.com/golang/go/commit/76cad4edc29d28432a7a0aa27e87385d3d7db7a1 (go1.18.9)
@@ -7752,18 +7789,22 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2357
+    - https://access.redhat.com/errata/RHSA-2023:2802
     - https://access.redhat.com/security/cve/CVE-2022-27664
+    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
+    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
+    - https://bugzilla.redhat.com/2107390
+    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
+    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
-    - https://bugzilla.redhat.com/2132868
-    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
+    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -7782,7 +7823,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/9/ALSA-2023-2357.html
+    - https://errata.almalinux.org/8/ALSA-2023-2802.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -7879,12 +7920,13 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2367
+    - https://access.redhat.com/errata/RHSA-2023:2866
     - https://access.redhat.com/security/cve/CVE-2022-41717
-    - https://bugzilla.redhat.com/2092793
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41717
-    - https://errata.almalinux.org/9/ALSA-2023-2367.html
+    - https://errata.almalinux.org/8/ALSA-2023-2866.html
     - https://github.com/advisories/GHSA-xrjj-mj9h-534m
     - https://github.com/golang/go/commit/618120c165669c00a1606505defea6ca755cdc27 (go1.19.4)
     - https://github.com/golang/go/commit/76cad4edc29d28432a7a0aa27e87385d3d7db7a1 (go1.18.9)
