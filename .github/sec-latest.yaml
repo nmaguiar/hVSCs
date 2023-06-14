@@ -29,6 +29,7 @@
     References:
     - https://bugs.launchpad.net/apparmor/+bug/1597017
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1585
+    - https://gitlab.com/apparmor/apparmor/-/merge_requests/1048
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/333
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2016-1585
@@ -747,6 +748,7 @@
     References:
     - https://bugs.launchpad.net/apparmor/+bug/1597017
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1585
+    - https://gitlab.com/apparmor/apparmor/-/merge_requests/1048
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/333
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2016-1585
@@ -1888,6 +1890,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DSL6NSOAXWBJJ67XPLSSC74MNKZF3BBO/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EM2XLZSTXG44TMFXF4E6VTGKR2MQCW3G/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F2NY75GFDZ5T6YPN44D3VMFT5SUVTOTG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GR5US3BYILYJ4SKBV6YBNPRUBAL5P2CN/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H23OSKC6UG6IWOQAUPW74YUHWRWVXJP7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JZTLGV2HYFF4AMYJL25VDIGAIHCU7UPA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LWC4WGXER5P6Q75RFGL7QUTPP3N5JR7T/
@@ -1911,7 +1914,7 @@
     - https://ubuntu.com/security/notices/USN-6139-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24329
     PublishedDate: '2023-02-17T15:15:00Z'
-    LastModifiedDate: '2023-06-08T04:15:00Z'
+    LastModifiedDate: '2023-06-14T04:15:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10@3.10.6-1~22.04.2ubuntu1
     PkgName: libpython3.10
@@ -1987,6 +1990,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DSL6NSOAXWBJJ67XPLSSC74MNKZF3BBO/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EM2XLZSTXG44TMFXF4E6VTGKR2MQCW3G/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F2NY75GFDZ5T6YPN44D3VMFT5SUVTOTG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GR5US3BYILYJ4SKBV6YBNPRUBAL5P2CN/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H23OSKC6UG6IWOQAUPW74YUHWRWVXJP7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JZTLGV2HYFF4AMYJL25VDIGAIHCU7UPA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LWC4WGXER5P6Q75RFGL7QUTPP3N5JR7T/
@@ -2010,7 +2014,7 @@
     - https://ubuntu.com/security/notices/USN-6139-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24329
     PublishedDate: '2023-02-17T15:15:00Z'
-    LastModifiedDate: '2023-06-08T04:15:00Z'
+    LastModifiedDate: '2023-06-14T04:15:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-minimal@3.10.6-1~22.04.2ubuntu1
     PkgName: libpython3.10-minimal
@@ -2086,6 +2090,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DSL6NSOAXWBJJ67XPLSSC74MNKZF3BBO/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EM2XLZSTXG44TMFXF4E6VTGKR2MQCW3G/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F2NY75GFDZ5T6YPN44D3VMFT5SUVTOTG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GR5US3BYILYJ4SKBV6YBNPRUBAL5P2CN/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H23OSKC6UG6IWOQAUPW74YUHWRWVXJP7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JZTLGV2HYFF4AMYJL25VDIGAIHCU7UPA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LWC4WGXER5P6Q75RFGL7QUTPP3N5JR7T/
@@ -2109,7 +2114,7 @@
     - https://ubuntu.com/security/notices/USN-6139-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24329
     PublishedDate: '2023-02-17T15:15:00Z'
-    LastModifiedDate: '2023-06-08T04:15:00Z'
+    LastModifiedDate: '2023-06-14T04:15:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-stdlib@3.10.6-1~22.04.2ubuntu1
     PkgName: libpython3.10-stdlib
@@ -2331,8 +2336,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/05/30/1
     - https://access.redhat.com/security/cve/CVE-2023-2650
@@ -3106,8 +3111,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2023/05/30/1
     - https://access.redhat.com/security/cve/CVE-2023-2650
@@ -3369,6 +3374,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DSL6NSOAXWBJJ67XPLSSC74MNKZF3BBO/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EM2XLZSTXG44TMFXF4E6VTGKR2MQCW3G/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F2NY75GFDZ5T6YPN44D3VMFT5SUVTOTG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GR5US3BYILYJ4SKBV6YBNPRUBAL5P2CN/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H23OSKC6UG6IWOQAUPW74YUHWRWVXJP7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JZTLGV2HYFF4AMYJL25VDIGAIHCU7UPA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LWC4WGXER5P6Q75RFGL7QUTPP3N5JR7T/
@@ -3392,7 +3398,7 @@
     - https://ubuntu.com/security/notices/USN-6139-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24329
     PublishedDate: '2023-02-17T15:15:00Z'
-    LastModifiedDate: '2023-06-08T04:15:00Z'
+    LastModifiedDate: '2023-06-14T04:15:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10@3.10.6-1~22.04.2ubuntu1
     PkgName: python3.10
@@ -3468,6 +3474,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DSL6NSOAXWBJJ67XPLSSC74MNKZF3BBO/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EM2XLZSTXG44TMFXF4E6VTGKR2MQCW3G/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F2NY75GFDZ5T6YPN44D3VMFT5SUVTOTG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GR5US3BYILYJ4SKBV6YBNPRUBAL5P2CN/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H23OSKC6UG6IWOQAUPW74YUHWRWVXJP7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JZTLGV2HYFF4AMYJL25VDIGAIHCU7UPA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LWC4WGXER5P6Q75RFGL7QUTPP3N5JR7T/
@@ -3491,7 +3498,7 @@
     - https://ubuntu.com/security/notices/USN-6139-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24329
     PublishedDate: '2023-02-17T15:15:00Z'
-    LastModifiedDate: '2023-06-08T04:15:00Z'
+    LastModifiedDate: '2023-06-14T04:15:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10-minimal@3.10.6-1~22.04.2ubuntu1
     PkgName: python3.10-minimal
@@ -6066,6 +6073,7 @@
     - https://github.com/advisories/GHSA-p26g-97m4-6q7c
     - https://github.com/eclipse/jetty.project/pull/9339
     - https://github.com/eclipse/jetty.project/pull/9352
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-p26g-97m4-6q7c
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26049
     - https://security.netapp.com/advisory/ntap-20230526-0001/
@@ -6141,6 +6149,7 @@
     - https://github.com/advisories/GHSA-p26g-97m4-6q7c
     - https://github.com/eclipse/jetty.project/pull/9339
     - https://github.com/eclipse/jetty.project/pull/9352
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-p26g-97m4-6q7c
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26049
     - https://security.netapp.com/advisory/ntap-20230526-0001/
@@ -6216,6 +6225,7 @@
     - https://github.com/advisories/GHSA-p26g-97m4-6q7c
     - https://github.com/eclipse/jetty.project/pull/9339
     - https://github.com/eclipse/jetty.project/pull/9352
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-p26g-97m4-6q7c
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26049
     - https://security.netapp.com/advisory/ntap-20230526-0001/
@@ -6291,6 +6301,7 @@
     - https://github.com/advisories/GHSA-p26g-97m4-6q7c
     - https://github.com/eclipse/jetty.project/pull/9339
     - https://github.com/eclipse/jetty.project/pull/9352
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.51.v20230217
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-p26g-97m4-6q7c
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26049
     - https://security.netapp.com/advisory/ntap-20230526-0001/
@@ -6843,9 +6854,20 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2022:6595
     - https://access.redhat.com/security/cve/CVE-2020-7788
+    - https://bugzilla.redhat.com/1907444
+    - https://bugzilla.redhat.com/1945459
+    - https://bugzilla.redhat.com/1964461
+    - https://bugzilla.redhat.com/2007557
+    - https://bugzilla.redhat.com/2098556
+    - https://bugzilla.redhat.com/2102001
+    - https://bugzilla.redhat.com/2105422
+    - https://bugzilla.redhat.com/2105426
+    - https://bugzilla.redhat.com/2105428
+    - https://bugzilla.redhat.com/2105430
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7788
-    - https://errata.almalinux.org/8/ALSA-2022-0350.html
+    - https://errata.almalinux.org/9/ALSA-2022-6595.html
     - https://github.com/advisories/GHSA-qqgx-2p2h-9c37
     - https://github.com/npm/ini/commit/56d2805e07ccd94e2ba0984ac9240ff02d44b6f1
     - https://github.com/npm/ini/commit/56d2805e07ccd94e2ba0984ac9240ff02d44b6f1 (v1.3.6)
@@ -7407,22 +7429,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2802
+    - https://access.redhat.com/errata/RHSA-2023:2357
     - https://access.redhat.com/security/cve/CVE-2022-27664
-    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
-    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
-    - https://bugzilla.redhat.com/2107390
-    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
-    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
-    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -7441,7 +7459,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/8/ALSA-2023-2802.html
+    - https://errata.almalinux.org/9/ALSA-2023-2357.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -7538,13 +7556,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2866
+    - https://access.redhat.com/errata/RHSA-2023:2367
     - https://access.redhat.com/security/cve/CVE-2022-41717
-    - https://bugzilla.redhat.com/2132868
-    - https://bugzilla.redhat.com/2132872
+    - https://bugzilla.redhat.com/2092793
     - https://bugzilla.redhat.com/2161274
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41717
-    - https://errata.almalinux.org/8/ALSA-2023-2866.html
+    - https://errata.almalinux.org/9/ALSA-2023-2367.html
     - https://github.com/advisories/GHSA-xrjj-mj9h-534m
     - https://github.com/golang/go/commit/618120c165669c00a1606505defea6ca755cdc27 (go1.19.4)
     - https://github.com/golang/go/commit/76cad4edc29d28432a7a0aa27e87385d3d7db7a1 (go1.18.9)
@@ -7789,22 +7806,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2802
+    - https://access.redhat.com/errata/RHSA-2023:2357
     - https://access.redhat.com/security/cve/CVE-2022-27664
-    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
-    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
-    - https://bugzilla.redhat.com/2107390
-    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
-    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
-    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -7823,7 +7836,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/8/ALSA-2023-2802.html
+    - https://errata.almalinux.org/9/ALSA-2023-2357.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -7920,13 +7933,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2866
+    - https://access.redhat.com/errata/RHSA-2023:2367
     - https://access.redhat.com/security/cve/CVE-2022-41717
-    - https://bugzilla.redhat.com/2132868
-    - https://bugzilla.redhat.com/2132872
+    - https://bugzilla.redhat.com/2092793
     - https://bugzilla.redhat.com/2161274
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41717
-    - https://errata.almalinux.org/8/ALSA-2023-2866.html
+    - https://errata.almalinux.org/9/ALSA-2023-2367.html
     - https://github.com/advisories/GHSA-xrjj-mj9h-534m
     - https://github.com/golang/go/commit/618120c165669c00a1606505defea6ca755cdc27 (go1.19.4)
     - https://github.com/golang/go/commit/76cad4edc29d28432a7a0aa27e87385d3d7db7a1 (go1.18.9)
@@ -8106,10 +8118,15 @@
     Title: DoS from malicious API request
     Description: 'A flaw was found in the `/v2/_catalog` endpoint in distribution/distribution, which accepts a parameter to control the maximum number of records returned (query string: `n`). This vulnerability allows a malicious user to submit an unreasonably large value for `n,` causing the allocation of a massive string array, possibly causing a denial of service through excessive use of memory.'
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -8122,7 +8139,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2253
     - https://www.cve.org/CVERecord?id=CVE-2023-2253
     PublishedDate: '2023-06-06T20:15:00Z'
-    LastModifiedDate: '2023-06-07T02:45:00Z'
+    LastModifiedDate: '2023-06-13T19:09:00Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -8143,10 +8160,15 @@
     Title: DoS from malicious API request
     Description: 'A flaw was found in the `/v2/_catalog` endpoint in distribution/distribution, which accepts a parameter to control the maximum number of records returned (query string: `n`). This vulnerability allows a malicious user to submit an unreasonably large value for `n,` causing the allocation of a massive string array, possibly causing a denial of service through excessive use of memory.'
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -8159,7 +8181,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2253
     - https://www.cve.org/CVERecord?id=CVE-2023-2253
     PublishedDate: '2023-06-06T20:15:00Z'
-    LastModifiedDate: '2023-06-07T02:45:00Z'
+    LastModifiedDate: '2023-06-13T19:09:00Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -8180,10 +8202,15 @@
     Title: DoS from malicious API request
     Description: 'A flaw was found in the `/v2/_catalog` endpoint in distribution/distribution, which accepts a parameter to control the maximum number of records returned (query string: `n`). This vulnerability allows a malicious user to submit an unreasonably large value for `n,` causing the allocation of a massive string array, possibly causing a denial of service through excessive use of memory.'
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
@@ -8196,7 +8223,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2253
     - https://www.cve.org/CVERecord?id=CVE-2023-2253
     PublishedDate: '2023-06-06T20:15:00Z'
-    LastModifiedDate: '2023-06-07T02:45:00Z'
+    LastModifiedDate: '2023-06-13T19:09:00Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
