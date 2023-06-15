@@ -818,6 +818,7 @@
     PkgID: libcap2@1:2.44-1build3
     PkgName: libcap2
     InstalledVersion: 1:2.44-1build3
+    FixedVersion: 1:2.44-1ubuntu0.22.04.1
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -840,6 +841,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2603
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2603
     - https://sites.google.com/site/fullycapable/release-notes-for-libcap#h.iuvg7sbjg8pe
+    - https://ubuntu.com/security/notices/USN-6166-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2603
     - https://www.openwall.com/lists/oss-security/2023/05/15/4
     - https://www.x41-dsec.de/static/reports/X41-libcap-Code-Review-2023-OSTIF-Final-Report.pdf
@@ -849,6 +851,7 @@
     PkgID: libcap2@1:2.44-1build3
     PkgName: libcap2
     InstalledVersion: 1:2.44-1build3
+    FixedVersion: 1:2.44-1ubuntu0.22.04.1
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -871,6 +874,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2602
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2602
     - https://sites.google.com/site/fullycapable/release-notes-for-libcap#h.iuvg7sbjg8pe
+    - https://ubuntu.com/security/notices/USN-6166-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2602
     - https://www.openwall.com/lists/oss-security/2023/05/15/4
     - https://www.x41-dsec.de/static/reports/X41-libcap-Code-Review-2023-OSTIF-Final-Report.pdf
@@ -880,6 +884,7 @@
     PkgID: libcap2-bin@1:2.44-1build3
     PkgName: libcap2-bin
     InstalledVersion: 1:2.44-1build3
+    FixedVersion: 1:2.44-1ubuntu0.22.04.1
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -902,6 +907,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2603
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2603
     - https://sites.google.com/site/fullycapable/release-notes-for-libcap#h.iuvg7sbjg8pe
+    - https://ubuntu.com/security/notices/USN-6166-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2603
     - https://www.openwall.com/lists/oss-security/2023/05/15/4
     - https://www.x41-dsec.de/static/reports/X41-libcap-Code-Review-2023-OSTIF-Final-Report.pdf
@@ -911,6 +917,7 @@
     PkgID: libcap2-bin@1:2.44-1build3
     PkgName: libcap2-bin
     InstalledVersion: 1:2.44-1build3
+    FixedVersion: 1:2.44-1ubuntu0.22.04.1
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -933,6 +940,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2602
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2602
     - https://sites.google.com/site/fullycapable/release-notes-for-libcap#h.iuvg7sbjg8pe
+    - https://ubuntu.com/security/notices/USN-6166-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2602
     - https://www.openwall.com/lists/oss-security/2023/05/15/4
     - https://www.x41-dsec.de/static/reports/X41-libcap-Code-Review-2023-OSTIF-Final-Report.pdf
@@ -1146,6 +1154,7 @@
     PkgID: libglib2.0-0@2.72.4-0ubuntu2
     PkgName: libglib2.0-0
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1166,11 +1175,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-29499
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29499
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29499
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29499
   - VulnerabilityID: CVE-2023-32611
     PkgID: libglib2.0-0@2.72.4-0ubuntu2
     PkgName: libglib2.0-0
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1191,11 +1202,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-32611
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32611
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32611
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32611
   - VulnerabilityID: CVE-2023-32636
     PkgID: libglib2.0-0@2.72.4-0ubuntu2
     PkgName: libglib2.0-0
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1216,11 +1229,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-32636
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32636
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32636
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32636
   - VulnerabilityID: CVE-2023-32643
     PkgID: libglib2.0-0@2.72.4-0ubuntu2
     PkgName: libglib2.0-0
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1241,11 +1256,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-32643
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32643
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32643
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32643
   - VulnerabilityID: CVE-2023-32665
     PkgID: libglib2.0-0@2.72.4-0ubuntu2
     PkgName: libglib2.0-0
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1266,11 +1283,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-32665
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32665
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32665
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32665
   - VulnerabilityID: CVE-2023-24593
     PkgID: libglib2.0-0@2.72.4-0ubuntu2
     PkgName: libglib2.0-0
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1288,11 +1307,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24593
     - https://discourse.gnome.org/t/multiple-fixes-for-gvariant-normalisation-issues-in-glib/12835
     - https://nvd.nist.gov/vuln/detail/CVE-2023-24593
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24593
   - VulnerabilityID: CVE-2023-25180
     PkgID: libglib2.0-0@2.72.4-0ubuntu2
     PkgName: libglib2.0-0
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1309,11 +1330,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-25180
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25180
     - https://nvd.nist.gov/vuln/detail/CVE-2023-25180
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-25180
   - VulnerabilityID: CVE-2023-29499
     PkgID: libglib2.0-data@2.72.4-0ubuntu2
     PkgName: libglib2.0-data
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1334,11 +1357,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-29499
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29499
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29499
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-29499
   - VulnerabilityID: CVE-2023-32611
     PkgID: libglib2.0-data@2.72.4-0ubuntu2
     PkgName: libglib2.0-data
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1359,11 +1384,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-32611
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32611
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32611
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32611
   - VulnerabilityID: CVE-2023-32636
     PkgID: libglib2.0-data@2.72.4-0ubuntu2
     PkgName: libglib2.0-data
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1384,11 +1411,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-32636
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32636
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32636
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32636
   - VulnerabilityID: CVE-2023-32643
     PkgID: libglib2.0-data@2.72.4-0ubuntu2
     PkgName: libglib2.0-data
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1409,11 +1438,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-32643
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32643
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32643
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32643
   - VulnerabilityID: CVE-2023-32665
     PkgID: libglib2.0-data@2.72.4-0ubuntu2
     PkgName: libglib2.0-data
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1434,11 +1465,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-32665
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32665
     - https://nvd.nist.gov/vuln/detail/CVE-2023-32665
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-32665
   - VulnerabilityID: CVE-2023-24593
     PkgID: libglib2.0-data@2.72.4-0ubuntu2
     PkgName: libglib2.0-data
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1456,11 +1489,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24593
     - https://discourse.gnome.org/t/multiple-fixes-for-gvariant-normalisation-issues-in-glib/12835
     - https://nvd.nist.gov/vuln/detail/CVE-2023-24593
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-24593
   - VulnerabilityID: CVE-2023-25180
     PkgID: libglib2.0-data@2.72.4-0ubuntu2
     PkgName: libglib2.0-data
     InstalledVersion: 2.72.4-0ubuntu2
+    FixedVersion: 2.72.4-0ubuntu2.2
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1477,6 +1512,7 @@
     - https://access.redhat.com/security/cve/CVE-2023-25180
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25180
     - https://nvd.nist.gov/vuln/detail/CVE-2023-25180
+    - https://ubuntu.com/security/notices/USN-6165-1
     - https://www.cve.org/CVERecord?id=CVE-2023-25180
   - VulnerabilityID: CVE-2023-2953
     PkgID: libldap-2.5-0@2.5.14+dfsg-0ubuntu0.22.04.2
@@ -1683,6 +1719,7 @@
     PkgID: libpam-cap@1:2.44-1build3
     PkgName: libpam-cap
     InstalledVersion: 1:2.44-1build3
+    FixedVersion: 1:2.44-1ubuntu0.22.04.1
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1705,6 +1742,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2603
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2603
     - https://sites.google.com/site/fullycapable/release-notes-for-libcap#h.iuvg7sbjg8pe
+    - https://ubuntu.com/security/notices/USN-6166-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2603
     - https://www.openwall.com/lists/oss-security/2023/05/15/4
     - https://www.x41-dsec.de/static/reports/X41-libcap-Code-Review-2023-OSTIF-Final-Report.pdf
@@ -1714,6 +1752,7 @@
     PkgID: libpam-cap@1:2.44-1build3
     PkgName: libpam-cap
     InstalledVersion: 1:2.44-1build3
+    FixedVersion: 1:2.44-1ubuntu0.22.04.1
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
@@ -1736,6 +1775,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2602
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2602
     - https://sites.google.com/site/fullycapable/release-notes-for-libcap#h.iuvg7sbjg8pe
+    - https://ubuntu.com/security/notices/USN-6166-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2602
     - https://www.openwall.com/lists/oss-security/2023/05/15/4
     - https://www.x41-dsec.de/static/reports/X41-libcap-Code-Review-2023-OSTIF-Final-Report.pdf
@@ -8224,6 +8264,95 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-2253
     PublishedDate: '2023-06-06T20:15:00Z'
     LastModifiedDate: '2023-06-13T19:09:00Z'
+- Target: usr/bin/mc
+  Class: lang-pkgs
+  Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: GHSA-rm8v-mxj3-5rmq
+    PkgName: github.com/lestrrat-go/jwx
+    InstalledVersion: v1.2.25
+    FixedVersion: 1.2.26
+    Layer:
+      Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
+      DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-rm8v-mxj3-5rmq
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: github.com/lestrrat-go/jwx vulnerable to Potential Padding Oracle Attack
+    Description: |
+      ### Summary
+
+      Decrypting AES-CBC encrypted JWE has Potential Padding Oracle Attack Vulnerability.
+
+      ### Details
+
+      On [v2.0.10](https://github.com/lestrrat-go/jwx/releases/tag/v2.0.10), decrypting AES-CBC encrypted JWE may return an error "failed to generate plaintext from decrypted blocks: invalid padding":
+
+      https://github.com/lestrrat-go/jwx/blob/8840ffd4afc5839f591ff0e9ba9034af52b1643e/jwe/internal/aescbc/aescbc.go#L210-L213
+
+      Reporting padding error causes [Padding Oracle Attack](https://en.wikipedia.org/wiki/Padding_oracle_attack) Vulnerability.
+      RFC 7516 JSON Web Encryption (JWE) says that we **MUST NOT** do this.
+
+      > 11.5.  Timing Attacks
+      > To mitigate the attacks described in RFC 3218 [RFC3218], the
+      > recipient MUST NOT distinguish between format, padding, and length
+      > errors of encrypted keys.  It is strongly recommended, in the event
+      > of receiving an improperly formatted key, that the recipient
+      > substitute a randomly generated CEK and proceed to the next step, to
+      > mitigate timing attacks.
+
+      In addition, the time to remove padding depends on the length of the padding.
+      It may leak the length of the padding by Timing Attacks.
+
+      https://github.com/lestrrat-go/jwx/blob/796b2a9101cf7e7cb66455e4d97f3c158ee10904/jwe/internal/aescbc/aescbc.go#L33-L66
+
+      To mitigate Timing Attacks, it MUST be done in constant time.
+
+      ### Impact
+
+      The authentication tag is verified, so it is not an immediate attack.
+    Severity: MEDIUM
+    References:
+    - https://github.com/advisories/GHSA-rm8v-mxj3-5rmq
+    - https://github.com/lestrrat-go/jwx/blob/796b2a9101cf7e7cb66455e4d97f3c158ee10904/jwe/internal/aescbc/aescbc.go#L33-L66
+    - https://github.com/lestrrat-go/jwx/blob/8840ffd4afc5839f591ff0e9ba9034af52b1643e/jwe/internal/aescbc/aescbc.go#L210-L213
+    - https://github.com/lestrrat-go/jwx/commit/6c41e3822485fc7e11dd70b4b0524b075d66b103
+    - https://github.com/lestrrat-go/jwx/commit/d9ddbc8e5009cfdd8c28413390b67afa7f576dd6
+    - https://github.com/lestrrat-go/jwx/security/advisories/GHSA-rm8v-mxj3-5rmq
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
+      DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -8313,37 +8442,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
-      DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:c3addfe9b72093b61383a287d5b974c3616a4e627baf77786c11eecd916d48a0
       DiffID: sha256:8ca50b9b4a913cdf51d0b8177584793730362ae214cc2e0a692ee4ce807d383b
