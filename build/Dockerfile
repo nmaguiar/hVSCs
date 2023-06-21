@@ -3,7 +3,7 @@ FROM gitpod/openvscode-server:latest as main
 USER root
 RUN apt-get update\
  && apt-get upgrade -y\
- && apt-get install -y apt-utils curl wget vim iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip skopeo htop nginx\
+ && apt-get install -y apt-utils curl wget vim tmux iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip skopeo htop nginx\
  && apt-get clean\
  && curl https://openaf.io/install.sh | sh\
  && curl https://get.docker.com | sh\
