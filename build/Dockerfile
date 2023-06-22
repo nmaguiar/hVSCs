@@ -31,14 +31,17 @@ RUN apt-get update\
 COPY ojob_p2.yaml /tmp/.p2.yaml
 COPY ojob_p1.sh /tmp/.p1.sh
 COPY ojob_rp.yaml /tmp/.rp.yaml
-COPY extensions /tmp/.extensions
+COPY --chown=1000:1000 extensions /tmp/.extensions
 
 SHELL ["/bin/bash", "-c"]
+USER openvscode-server
 #RUN mkdir /tmp/.extensions\
 RUN cd /tmp/.extensions\
  && chown -R openvscode-server: /tmp/.extensions\
  && exts=(/tmp/.extensions/*.vsix)\
- && for ext in "${exts[@]}"; do /home/.openvscode-server/bin/openvscode-server --install-extension "${ext}"; done
+ && for ext in "${exts[@]}"; do /home/.openvscode-server/bin/openvscode-server --install-extension "${ext}"; done\
+ && rm *.vsix
+USER root
 
 RUN chsh --shell /bin/bash openvscode-server\
  && cd /home/openvscode-server\
