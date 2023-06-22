@@ -33,6 +33,7 @@ COPY ojob_p1.sh /tmp/.p1.sh
 COPY ojob_rp.yaml /tmp/.rp.yaml
 COPY extensions /tmp/.extensions
 
+SHELL ["/bin/bash", "-c"]
 #RUN mkdir /tmp/.extensions\
 RUN cd /tmp/.extensions\
  && chown -R openvscode-server: /tmp/.extensions\
