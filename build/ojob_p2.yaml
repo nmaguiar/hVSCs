@@ -3,7 +3,7 @@ todo:
 - Setup reverse proxy
 - Start SSH daemon
 - Start docker
-- Install VSCode extensions
+#- Install VSCode extensions
 - Prepare VSC settings
 - Start K3D
 - Start K3D socks server
