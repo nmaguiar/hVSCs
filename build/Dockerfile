@@ -35,7 +35,9 @@ COPY extensions /tmp/.extensions
 
 #RUN mkdir /tmp/.extensions\
 RUN cd /tmp/.extensions\
- && chown -R openvscode-server: /tmp/.extensions
+ && chown -R openvscode-server: /tmp/.extensions\
+ && exts=(/tmp/.extensions/*)\
+ && for ext in "${exts[@]}"; do /home/.openvscode-server/bin/openvscode-server --install-extension "${ext}"; done
 
 RUN chsh --shell /bin/bash openvscode-server\
  && cd /home/openvscode-server\
