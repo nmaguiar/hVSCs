@@ -37,7 +37,7 @@ SHELL ["/bin/bash", "-c"]
 #RUN mkdir /tmp/.extensions\
 RUN cd /tmp/.extensions\
  && chown -R openvscode-server: /tmp/.extensions\
- && exts=(/tmp/.extensions/*)\
+ && exts=(/tmp/.extensions/*.vsix)\
  && for ext in "${exts[@]}"; do /home/.openvscode-server/bin/openvscode-server --install-extension "${ext}"; done
 
 RUN chsh --shell /bin/bash openvscode-server\
