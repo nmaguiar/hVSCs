@@ -38,7 +38,14 @@ USER openvscode-server
 #RUN mkdir /tmp/.extensions\
 RUN cd /tmp/.extensions\
  && chown -R openvscode-server: /tmp/.extensions\
- && exts=(/tmp/.extensions/*.vsix)\
+ #&& exts=(/tmp/.extensions/*.vsix)\
+ && exts=(\
+  GitHub.github-vscode-theme\
+  redhat.vscode-yaml\
+  redhat.vscode-xml\
+  ms-azuretools.vscode-docker\
+  ms-kubernetes-tools.vscode-kubernetes-tools\
+ )\
  && for ext in "${exts[@]}"; do /home/.openvscode-server/bin/openvscode-server --install-extension "${ext}"; done\
  && rm *.vsix
 USER root
