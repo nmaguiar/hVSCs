@@ -2387,37 +2387,27 @@
 │                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 5.5 
-│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:3711 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:3827 
 │                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       2-48281 
 │                        │       │                  ├ [2] : https://bugzilla.redhat.com/2163606 
-│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2170119 
-│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2170146 
-│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2170151 
-│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2170157 
-│                        │       │                  ├ [7] : https://bugzilla.redhat.com/2170162 
-│                        │       │                  ├ [8] : https://bugzilla.redhat.com/2170167 
-│                        │       │                  ├ [9] : https://bugzilla.redhat.com/2170172 
-│                        │       │                  ├ [10]: https://bugzilla.redhat.com/2170178 
-│                        │       │                  ├ [11]: https://bugzilla.redhat.com/2170187 
-│                        │       │                  ├ [12]: https://bugzilla.redhat.com/2170192 
-│                        │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name
+│                        │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2022-48281 
-│                        │       │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2023-3711.html 
-│                        │       │                  ├ [15]: https://gitlab.com/libtiff/libtiff/-/commit/d1
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2023-3827.html 
+│                        │       │                  ├ [5] : https://gitlab.com/libtiff/libtiff/-/commit/d1
 │                        │       │                  │       b6b9c1b3cae2d9e37754506c1ad8f4f7b646b5 
-│                        │       │                  ├ [16]: https://gitlab.com/libtiff/libtiff/-/issues/488 
-│                        │       │                  ├ [17]: https://linux.oracle.com/cve/CVE-2022-48281.html 
-│                        │       │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2023-3827.html 
-│                        │       │                  ├ [19]: https://lists.debian.org/debian-lts-announce/2
+│                        │       │                  ├ [6] : https://gitlab.com/libtiff/libtiff/-/issues/488 
+│                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2022-48281.html 
+│                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-3827.html 
+│                        │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2
 │                        │       │                  │       023/01/msg00037.html 
-│                        │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2022-48281 
-│                        │       │                  ├ [21]: https://security.gentoo.org/glsa/202305-31 
-│                        │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2022-48281 
+│                        │       │                  ├ [11]: https://security.gentoo.org/glsa/202305-31 
+│                        │       │                  ├ [12]: https://security.netapp.com/advisory/ntap-2023
 │                        │       │                  │       0302-0004/ 
-│                        │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-5841-1 
-│                        │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2022-48281 
-│                        │       │                  ╰ [25]: https://www.debian.org/security/2023/dsa-5333 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-5841-1 
+│                        │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2022-48281 
+│                        │       │                  ╰ [15]: https://www.debian.org/security/2023/dsa-5333 
 │                        │       ├ PublishedDate   : 2023-01-23T03:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-30T06:16:00Z 
 │                        ├ [54]  ╭ VulnerabilityID : CVE-2018-10126 
@@ -6868,34 +6858,23 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :L/I:L/A:L 
 │                        │      │                           ╰ V3Score : 7.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:6595 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2020-7788 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/1907444 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/1945459 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/1964461 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2007557 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2098556 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2102001 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2105422 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2105426 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2105428 
-│                        │      │                  ├ [11]: https://bugzilla.redhat.com/2105430 
-│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2020-7788 
+│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2020-7788 
-│                        │      │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2022-6595.html 
-│                        │      │                  ├ [14]: https://github.com/advisories/GHSA-qqgx-2p2h-9c37 
-│                        │      │                  ├ [15]: https://github.com/npm/ini/commit/56d2805e07ccd
+│                        │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2022-0350.html 
+│                        │      │                  ├ [3] : https://github.com/advisories/GHSA-qqgx-2p2h-9c37 
+│                        │      │                  ├ [4] : https://github.com/npm/ini/commit/56d2805e07ccd
 │                        │      │                  │       94e2ba0984ac9240ff02d44b6f1 
-│                        │      │                  ├ [16]: https://github.com/npm/ini/commit/56d2805e07ccd
+│                        │      │                  ├ [5] : https://github.com/npm/ini/commit/56d2805e07ccd
 │                        │      │                  │       94e2ba0984ac9240ff02d44b6f1 (v1.3.6) 
-│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2020-7788.html 
-│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2022-6595.html 
-│                        │      │                  ├ [19]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2020-7788.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2022-6595.html 
+│                        │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/20
 │                        │      │                  │       20/12/msg00032.html 
-│                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2020-7788 
-│                        │      │                  ├ [21]: https://snyk.io/vuln/SNYK-JS-INI-1048974 
-│                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2020-7788 
-│                        │      │                  ╰ [23]: https://www.npmjs.com/advisories/1589 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2020-7788 
+│                        │      │                  ├ [10]: https://snyk.io/vuln/SNYK-JS-INI-1048974 
+│                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2020-7788 
+│                        │      │                  ╰ [12]: https://www.npmjs.com/advisories/1589 
 │                        │      ├ PublishedDate   : 2020-12-11T11:15:00Z 
 │                        │      ╰ LastModifiedDate: 2022-12-02T19:40:00Z 
 │                        ├ [15] ╭ VulnerabilityID : CVE-2020-7712 
@@ -7512,9 +7491,13 @@
 │                               │                   via the function new Range, when untrusted user data is
 │                               │                   provided as a range. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
-│                               │                         │           /I:N/A:L 
-│                               │                         ╰ V3Score : 5.3 
+│                               ├ CweIDs           ─ [0]: CWE-1333 
+│                               ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                               │                  │      │           /I:N/A:L 
+│                               │                  │      ╰ V3Score : 5.3 
+│                               │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                               │                         │           /I:N/A:H 
+│                               │                         ╰ V3Score : 7.5 
 │                               ├ References       ╭ [0] : https://github.com/advisories/GHSA-c2qf-rxjj-qqgw 
 │                               │                  ├ [1] : https://github.com/npm/node-semver/blob/main/cl
 │                               │                  │       asses/range.js#L97-L104 
@@ -7534,7 +7517,7 @@
 │                               │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2022-25883 
 │                               │                  ╰ [10]: https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795 
 │                               ├ PublishedDate   : 2023-06-21T05:15:00Z 
-│                               ╰ LastModifiedDate: 2023-06-21T12:29:00Z 
+│                               ╰ LastModifiedDate: 2023-07-05T15:49:00Z 
 ├ [3]  ╭ Target         : home/openvscode-server/.krew/store/krew/v0.4.3/krew 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -7629,75 +7612,79 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 6.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2357 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2802 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-27664 
-│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2107371 
-│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2107374 
-│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2107383 
-│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2107386 
-│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2107388 
-│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2113814 
-│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2124669 
-│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2132868 
-│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2132872 
-│                        │     │                  ├ [11]: https://bugzilla.redhat.com/2161274 
-│                        │     │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
-│                        │     │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
-│                        │     │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
-│                        │     │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
-│                        │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
-│                        │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
-│                        │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
-│                        │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
-│                        │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
-│                        │     │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2020-28851 
-│                        │     │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2020-28852 
-│                        │     │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-1705 
-│                        │     │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-27664 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2107342 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2107371 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2107374 
+│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2107376 
+│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2107383 
+│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2107386 
+│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2107388 
+│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2107390 
+│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2107392 
+│                        │     │                  ├ [11]: https://bugzilla.redhat.com/2113814 
+│                        │     │                  ├ [12]: https://bugzilla.redhat.com/2121445 
+│                        │     │                  ├ [13]: https://bugzilla.redhat.com/2124669 
+│                        │     │                  ├ [14]: https://bugzilla.redhat.com/2161274 
+│                        │     │                  ├ [15]: https://bugzilla.redhat.com/2168256 
+│                        │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
+│                        │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
+│                        │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
+│                        │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
+│                        │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
+│                        │     │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
+│                        │     │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
+│                        │     │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
+│                        │     │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
 │                        │     │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30630 
+│                        │     │                  │       VE-2020-28851 
 │                        │     │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30632 
+│                        │     │                  │       VE-2020-28852 
 │                        │     │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30635 
+│                        │     │                  │       VE-2022-1705 
 │                        │     │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-32148 
+│                        │     │                  │       VE-2022-27664 
 │                        │     │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30630 
+│                        │     │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30632 
+│                        │     │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30635 
+│                        │     │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-32148 
+│                        │     │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2022-32189 
-│                        │     │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2023-2357.html 
-│                        │     │                  ├ [31]: https://errata.rockylinux.org/RLSA-2022:7129 
-│                        │     │                  ├ [32]: https://github.com/advisories/GHSA-69cg-p879-7622 
-│                        │     │                  ├ [33]: https://github.com/golang/go/commit/5bc9106458fc
+│                        │     │                  ├ [34]: https://errata.almalinux.org/8/ALSA-2023-2802.html 
+│                        │     │                  ├ [35]: https://errata.rockylinux.org/RLSA-2022:7129 
+│                        │     │                  ├ [36]: https://github.com/advisories/GHSA-69cg-p879-7622 
+│                        │     │                  ├ [37]: https://github.com/golang/go/commit/5bc9106458fc
 │                        │     │                  │       07851ac324a4157132a91b1f3479 (go1.18.6) 
-│                        │     │                  ├ [34]: https://github.com/golang/go/commit/9cfe4e258b1c
+│                        │     │                  ├ [38]: https://github.com/golang/go/commit/9cfe4e258b1c
 │                        │     │                  │       9d4a04a42539c21c7bdb2e227824 (go1.19.1) 
-│                        │     │                  ├ [35]: https://github.com/golang/go/issues/54658 
-│                        │     │                  ├ [36]: https://go.dev/cl/428735 
-│                        │     │                  ├ [37]: https://go.dev/issue/54658 
-│                        │     │                  ├ [38]: https://groups.google.com/g/golang-announce 
-│                        │     │                  ├ [39]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  ├ [39]: https://github.com/golang/go/issues/54658 
+│                        │     │                  ├ [40]: https://go.dev/cl/428735 
+│                        │     │                  ├ [41]: https://go.dev/issue/54658 
+│                        │     │                  ├ [42]: https://groups.google.com/g/golang-announce 
+│                        │     │                  ├ [43]: https://groups.google.com/g/golang-announce/c/x4
 │                        │     │                  │       9AQzIVX-s 
-│                        │     │                  ├ [40]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  ├ [44]: https://groups.google.com/g/golang-announce/c/x4
 │                        │     │                  │       9AQzIVX-s/m/0tgO0pjiBQAJ 
-│                        │     │                  ├ [41]: https://linux.oracle.com/cve/CVE-2022-27664.html 
-│                        │     │                  ├ [42]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
-│                        │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [45]: https://linux.oracle.com/cve/CVE-2022-27664.html 
+│                        │     │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
+│                        │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/JXKTHI
 │                        │     │                  │       GE5F576MAPFYCIJXNRGBSPISUF/ 
-│                        │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/TXS2OQ
 │                        │     │                  │       57KZC5XZKK5UW4SYKPVQAHIOJX/ 
-│                        │     │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
-│                        │     │                  ├ [46]: https://pkg.go.dev/vuln/GO-2022-0969 
-│                        │     │                  ├ [47]: https://security.gentoo.org/glsa/202209-26 
-│                        │     │                  ├ [48]: https://security.netapp.com/advisory/ntap-202209
+│                        │     │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
+│                        │     │                  ├ [50]: https://pkg.go.dev/vuln/GO-2022-0969 
+│                        │     │                  ├ [51]: https://security.gentoo.org/glsa/202209-26 
+│                        │     │                  ├ [52]: https://security.netapp.com/advisory/ntap-202209
 │                        │     │                  │       23-0004/ 
-│                        │     │                  ├ [49]: https://ubuntu.com/security/notices/USN-6038-1 
-│                        │     │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
+│                        │     │                  ├ [53]: https://ubuntu.com/security/notices/USN-6038-1 
+│                        │     │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
 │                        │     ├ PublishedDate   : 2022-09-06T18:15:00Z 
 │                        │     ╰ LastModifiedDate: 2022-10-28T12:42:00Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2022-41723 
@@ -7788,34 +7775,35 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:L 
 │                        │     │                           ╰ V3Score : 5.3 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2367 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2866 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-41717 
-│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2092793 
-│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2161274 
-│                        │     │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2132868 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2132872 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2161274 
+│                        │     │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2022-41717 
-│                        │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-2367.html 
-│                        │     │                  ├ [6] : https://github.com/advisories/GHSA-xrjj-mj9h-534m 
-│                        │     │                  ├ [7] : https://github.com/golang/go/commit/618120c16566
+│                        │     │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2023-2866.html 
+│                        │     │                  ├ [7] : https://github.com/advisories/GHSA-xrjj-mj9h-534m 
+│                        │     │                  ├ [8] : https://github.com/golang/go/commit/618120c16566
 │                        │     │                  │       9c00a1606505defea6ca755cdc27 (go1.19.4) 
-│                        │     │                  ├ [8] : https://github.com/golang/go/commit/76cad4edc29d
+│                        │     │                  ├ [9] : https://github.com/golang/go/commit/76cad4edc29d
 │                        │     │                  │       28432a7a0aa27e87385d3d7db7a1 (go1.18.9) 
-│                        │     │                  ├ [9] : https://go.dev/cl/455635 
-│                        │     │                  ├ [10]: https://go.dev/cl/455717 
-│                        │     │                  ├ [11]: https://go.dev/issue/56350 
-│                        │     │                  ├ [12]: https://groups.google.com/g/golang-announce/c/L_
-│                        │     │                  │       3rmdT0BMU 
+│                        │     │                  ├ [10]: https://go.dev/cl/455635 
+│                        │     │                  ├ [11]: https://go.dev/cl/455717 
+│                        │     │                  ├ [12]: https://go.dev/issue/56350 
 │                        │     │                  ├ [13]: https://groups.google.com/g/golang-announce/c/L_
+│                        │     │                  │       3rmdT0BMU 
+│                        │     │                  ├ [14]: https://groups.google.com/g/golang-announce/c/L_
 │                        │     │                  │       3rmdT0BMU/m/yZDrXjIiBQAJ 
-│                        │     │                  ├ [14]: https://linux.oracle.com/cve/CVE-2022-41717.html 
-│                        │     │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-2866.html 
-│                        │     │                  ├ [16]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [15]: https://linux.oracle.com/cve/CVE-2022-41717.html 
+│                        │     │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-2866.html 
+│                        │     │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QBKBAZ
 │                        │     │                  │       BIOXZV5QCFHZNSVXULR32XJCYD/ 
-│                        │     │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2022-41717 
-│                        │     │                  ├ [18]: https://pkg.go.dev/vuln/GO-2022-1144 
-│                        │     │                  ├ [19]: https://ubuntu.com/security/notices/USN-6038-1 
-│                        │     │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2022-41717 
+│                        │     │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2022-41717 
+│                        │     │                  ├ [19]: https://pkg.go.dev/vuln/GO-2022-1144 
+│                        │     │                  ├ [20]: https://ubuntu.com/security/notices/USN-6038-1 
+│                        │     │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2022-41717 
 │                        │     ├ PublishedDate   : 2022-12-08T20:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-07-04T03:15:00Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2022-29526 
@@ -8074,75 +8062,79 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 6.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2357 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2802 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-27664 
-│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2107371 
-│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2107374 
-│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2107383 
-│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2107386 
-│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2107388 
-│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2113814 
-│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2124669 
-│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2132868 
-│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2132872 
-│                        │     │                  ├ [11]: https://bugzilla.redhat.com/2161274 
-│                        │     │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
-│                        │     │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
-│                        │     │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
-│                        │     │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
-│                        │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
-│                        │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
-│                        │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
-│                        │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
-│                        │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
-│                        │     │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2020-28851 
-│                        │     │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2020-28852 
-│                        │     │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-1705 
-│                        │     │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-27664 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2107342 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2107371 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2107374 
+│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2107376 
+│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2107383 
+│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2107386 
+│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2107388 
+│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2107390 
+│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2107392 
+│                        │     │                  ├ [11]: https://bugzilla.redhat.com/2113814 
+│                        │     │                  ├ [12]: https://bugzilla.redhat.com/2121445 
+│                        │     │                  ├ [13]: https://bugzilla.redhat.com/2124669 
+│                        │     │                  ├ [14]: https://bugzilla.redhat.com/2161274 
+│                        │     │                  ├ [15]: https://bugzilla.redhat.com/2168256 
+│                        │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
+│                        │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
+│                        │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
+│                        │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
+│                        │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
+│                        │     │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
+│                        │     │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
+│                        │     │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
+│                        │     │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
 │                        │     │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30630 
+│                        │     │                  │       VE-2020-28851 
 │                        │     │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30632 
+│                        │     │                  │       VE-2020-28852 
 │                        │     │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30635 
+│                        │     │                  │       VE-2022-1705 
 │                        │     │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-32148 
+│                        │     │                  │       VE-2022-27664 
 │                        │     │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30630 
+│                        │     │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30632 
+│                        │     │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30635 
+│                        │     │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-32148 
+│                        │     │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2022-32189 
-│                        │     │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2023-2357.html 
-│                        │     │                  ├ [31]: https://errata.rockylinux.org/RLSA-2022:7129 
-│                        │     │                  ├ [32]: https://github.com/advisories/GHSA-69cg-p879-7622 
-│                        │     │                  ├ [33]: https://github.com/golang/go/commit/5bc9106458fc
+│                        │     │                  ├ [34]: https://errata.almalinux.org/8/ALSA-2023-2802.html 
+│                        │     │                  ├ [35]: https://errata.rockylinux.org/RLSA-2022:7129 
+│                        │     │                  ├ [36]: https://github.com/advisories/GHSA-69cg-p879-7622 
+│                        │     │                  ├ [37]: https://github.com/golang/go/commit/5bc9106458fc
 │                        │     │                  │       07851ac324a4157132a91b1f3479 (go1.18.6) 
-│                        │     │                  ├ [34]: https://github.com/golang/go/commit/9cfe4e258b1c
+│                        │     │                  ├ [38]: https://github.com/golang/go/commit/9cfe4e258b1c
 │                        │     │                  │       9d4a04a42539c21c7bdb2e227824 (go1.19.1) 
-│                        │     │                  ├ [35]: https://github.com/golang/go/issues/54658 
-│                        │     │                  ├ [36]: https://go.dev/cl/428735 
-│                        │     │                  ├ [37]: https://go.dev/issue/54658 
-│                        │     │                  ├ [38]: https://groups.google.com/g/golang-announce 
-│                        │     │                  ├ [39]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  ├ [39]: https://github.com/golang/go/issues/54658 
+│                        │     │                  ├ [40]: https://go.dev/cl/428735 
+│                        │     │                  ├ [41]: https://go.dev/issue/54658 
+│                        │     │                  ├ [42]: https://groups.google.com/g/golang-announce 
+│                        │     │                  ├ [43]: https://groups.google.com/g/golang-announce/c/x4
 │                        │     │                  │       9AQzIVX-s 
-│                        │     │                  ├ [40]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  ├ [44]: https://groups.google.com/g/golang-announce/c/x4
 │                        │     │                  │       9AQzIVX-s/m/0tgO0pjiBQAJ 
-│                        │     │                  ├ [41]: https://linux.oracle.com/cve/CVE-2022-27664.html 
-│                        │     │                  ├ [42]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
-│                        │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [45]: https://linux.oracle.com/cve/CVE-2022-27664.html 
+│                        │     │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
+│                        │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/JXKTHI
 │                        │     │                  │       GE5F576MAPFYCIJXNRGBSPISUF/ 
-│                        │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/TXS2OQ
 │                        │     │                  │       57KZC5XZKK5UW4SYKPVQAHIOJX/ 
-│                        │     │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
-│                        │     │                  ├ [46]: https://pkg.go.dev/vuln/GO-2022-0969 
-│                        │     │                  ├ [47]: https://security.gentoo.org/glsa/202209-26 
-│                        │     │                  ├ [48]: https://security.netapp.com/advisory/ntap-202209
+│                        │     │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
+│                        │     │                  ├ [50]: https://pkg.go.dev/vuln/GO-2022-0969 
+│                        │     │                  ├ [51]: https://security.gentoo.org/glsa/202209-26 
+│                        │     │                  ├ [52]: https://security.netapp.com/advisory/ntap-202209
 │                        │     │                  │       23-0004/ 
-│                        │     │                  ├ [49]: https://ubuntu.com/security/notices/USN-6038-1 
-│                        │     │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
+│                        │     │                  ├ [53]: https://ubuntu.com/security/notices/USN-6038-1 
+│                        │     │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
 │                        │     ├ PublishedDate   : 2022-09-06T18:15:00Z 
 │                        │     ╰ LastModifiedDate: 2022-10-28T12:42:00Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2022-41723 
@@ -8233,34 +8225,35 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:L 
 │                        │     │                           ╰ V3Score : 5.3 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2367 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2866 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-41717 
-│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2092793 
-│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2161274 
-│                        │     │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2132868 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2132872 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2161274 
+│                        │     │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2022-41717 
-│                        │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-2367.html 
-│                        │     │                  ├ [6] : https://github.com/advisories/GHSA-xrjj-mj9h-534m 
-│                        │     │                  ├ [7] : https://github.com/golang/go/commit/618120c16566
+│                        │     │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2023-2866.html 
+│                        │     │                  ├ [7] : https://github.com/advisories/GHSA-xrjj-mj9h-534m 
+│                        │     │                  ├ [8] : https://github.com/golang/go/commit/618120c16566
 │                        │     │                  │       9c00a1606505defea6ca755cdc27 (go1.19.4) 
-│                        │     │                  ├ [8] : https://github.com/golang/go/commit/76cad4edc29d
+│                        │     │                  ├ [9] : https://github.com/golang/go/commit/76cad4edc29d
 │                        │     │                  │       28432a7a0aa27e87385d3d7db7a1 (go1.18.9) 
-│                        │     │                  ├ [9] : https://go.dev/cl/455635 
-│                        │     │                  ├ [10]: https://go.dev/cl/455717 
-│                        │     │                  ├ [11]: https://go.dev/issue/56350 
-│                        │     │                  ├ [12]: https://groups.google.com/g/golang-announce/c/L_
-│                        │     │                  │       3rmdT0BMU 
+│                        │     │                  ├ [10]: https://go.dev/cl/455635 
+│                        │     │                  ├ [11]: https://go.dev/cl/455717 
+│                        │     │                  ├ [12]: https://go.dev/issue/56350 
 │                        │     │                  ├ [13]: https://groups.google.com/g/golang-announce/c/L_
+│                        │     │                  │       3rmdT0BMU 
+│                        │     │                  ├ [14]: https://groups.google.com/g/golang-announce/c/L_
 │                        │     │                  │       3rmdT0BMU/m/yZDrXjIiBQAJ 
-│                        │     │                  ├ [14]: https://linux.oracle.com/cve/CVE-2022-41717.html 
-│                        │     │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-2866.html 
-│                        │     │                  ├ [16]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [15]: https://linux.oracle.com/cve/CVE-2022-41717.html 
+│                        │     │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-2866.html 
+│                        │     │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QBKBAZ
 │                        │     │                  │       BIOXZV5QCFHZNSVXULR32XJCYD/ 
-│                        │     │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2022-41717 
-│                        │     │                  ├ [18]: https://pkg.go.dev/vuln/GO-2022-1144 
-│                        │     │                  ├ [19]: https://ubuntu.com/security/notices/USN-6038-1 
-│                        │     │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2022-41717 
+│                        │     │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2022-41717 
+│                        │     │                  ├ [19]: https://pkg.go.dev/vuln/GO-2022-1144 
+│                        │     │                  ├ [20]: https://ubuntu.com/security/notices/USN-6038-1 
+│                        │     │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2022-41717 
 │                        │     ├ PublishedDate   : 2022-12-08T20:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-07-04T03:15:00Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2022-29526 
