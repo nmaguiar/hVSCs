@@ -3475,7 +3475,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: a heap-based OOB read of size 1 
+│                        │       ├ Title           : a heap-based OOB read of size 1 
 │                        │       ├ Description     : vim is vulnerable to Out-of-bounds Read 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-125 
@@ -3523,8 +3523,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use-after-free while treating allocated lines in
-│                        │       │                    user functions 
+│                        │       ├ Title           : use-after-free while treating allocated lines in user
+│                        │       │                    functions 
 │                        │       ├ Description     : vim is vulnerable to Use After Free 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
@@ -3576,7 +3576,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based read buffer overflow in compile_get_env() 
+│                        │       ├ Title           : heap-based read buffer overflow in compile_get_env() 
 │                        │       ├ Description     : vim is vulnerable to Heap-based Buffer Overflow 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-122 
@@ -3630,7 +3630,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: out-of-bounds read in delete_buff_tail() in getchar.c 
+│                        │       ├ Title           : out-of-bounds read in delete_buff_tail() in getchar.c 
 │                        │       ├ Description     : Out-of-bounds Read in GitHub repository vim/vim prior
 │                        │       │                    to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
@@ -3679,7 +3679,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based buffer overflow on read in yank_copy_line 
+│                        │       ├ Title           : heap-based buffer overflow on read in yank_copy_line 
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
@@ -3766,8 +3766,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based buffer overflow in ins_compl_add() in
-│                        │       │                    insexpand.c 
+│                        │       ├ Title           : heap-based buffer overflow in ins_compl_add() in
+│                        │       │                   insexpand.c 
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 9.0.0044. 
 │                        │       ├ Severity        : MEDIUM 
@@ -3809,8 +3809,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap use-after-free in generate_PCALL() at
-│                        │       │                   src/vim9instr.c 
+│                        │       ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0221. 
 │                        │       ├ Severity        : MEDIUM 
@@ -3851,8 +3850,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use-after-free in find_var_also_in_script() in
-│                        │       │                   evalvars.c 
+│                        │       ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0225. 
 │                        │       ├ Severity        : MEDIUM 
@@ -3891,7 +3889,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use after free in qf_fill_buffer() at src/quickfix.c 
+│                        │       ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0260. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4029,7 +4027,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: a heap-based OOB read of size 1 
+│                        │       ├ Title           : a heap-based OOB read of size 1 
 │                        │       ├ Description     : vim is vulnerable to Out-of-bounds Read 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-125 
@@ -4077,8 +4075,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use-after-free while treating allocated lines in
-│                        │       │                    user functions 
+│                        │       ├ Title           : use-after-free while treating allocated lines in user
+│                        │       │                    functions 
 │                        │       ├ Description     : vim is vulnerable to Use After Free 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
@@ -4130,7 +4128,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based read buffer overflow in compile_get_env() 
+│                        │       ├ Title           : heap-based read buffer overflow in compile_get_env() 
 │                        │       ├ Description     : vim is vulnerable to Heap-based Buffer Overflow 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-122 
@@ -4184,7 +4182,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: out-of-bounds read in delete_buff_tail() in getchar.c 
+│                        │       ├ Title           : out-of-bounds read in delete_buff_tail() in getchar.c 
 │                        │       ├ Description     : Out-of-bounds Read in GitHub repository vim/vim prior
 │                        │       │                    to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4233,7 +4231,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based buffer overflow on read in yank_copy_line 
+│                        │       ├ Title           : heap-based buffer overflow on read in yank_copy_line 
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4320,8 +4318,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based buffer overflow in ins_compl_add() in
-│                        │       │                    insexpand.c 
+│                        │       ├ Title           : heap-based buffer overflow in ins_compl_add() in
+│                        │       │                   insexpand.c 
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 9.0.0044. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4363,8 +4361,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap use-after-free in generate_PCALL() at
-│                        │       │                   src/vim9instr.c 
+│                        │       ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0221. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4405,8 +4402,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use-after-free in find_var_also_in_script() in
-│                        │       │                   evalvars.c 
+│                        │       ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0225. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4445,7 +4441,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use after free in qf_fill_buffer() at src/quickfix.c 
+│                        │       ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0260. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4583,7 +4579,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: a heap-based OOB read of size 1 
+│                        │       ├ Title           : a heap-based OOB read of size 1 
 │                        │       ├ Description     : vim is vulnerable to Out-of-bounds Read 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-125 
@@ -4631,8 +4627,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use-after-free while treating allocated lines in
-│                        │       │                    user functions 
+│                        │       ├ Title           : use-after-free while treating allocated lines in user
+│                        │       │                    functions 
 │                        │       ├ Description     : vim is vulnerable to Use After Free 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
@@ -4684,7 +4680,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based read buffer overflow in compile_get_env() 
+│                        │       ├ Title           : heap-based read buffer overflow in compile_get_env() 
 │                        │       ├ Description     : vim is vulnerable to Heap-based Buffer Overflow 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-122 
@@ -4738,7 +4734,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: out-of-bounds read in delete_buff_tail() in getchar.c 
+│                        │       ├ Title           : out-of-bounds read in delete_buff_tail() in getchar.c 
 │                        │       ├ Description     : Out-of-bounds Read in GitHub repository vim/vim prior
 │                        │       │                    to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4787,7 +4783,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based buffer overflow on read in yank_copy_line 
+│                        │       ├ Title           : heap-based buffer overflow on read in yank_copy_line 
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4874,8 +4870,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based buffer overflow in ins_compl_add() in
-│                        │       │                    insexpand.c 
+│                        │       ├ Title           : heap-based buffer overflow in ins_compl_add() in
+│                        │       │                   insexpand.c 
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 9.0.0044. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4917,8 +4913,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap use-after-free in generate_PCALL() at
-│                        │       │                   src/vim9instr.c 
+│                        │       ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0221. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4959,8 +4954,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use-after-free in find_var_also_in_script() in
-│                        │       │                   evalvars.c 
+│                        │       ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0225. 
 │                        │       ├ Severity        : MEDIUM 
@@ -4999,7 +4993,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use after free in qf_fill_buffer() at src/quickfix.c 
+│                        │       ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0260. 
 │                        │       ├ Severity        : MEDIUM 
@@ -5177,7 +5171,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: a heap-based OOB read of size 1 
+│                        │       ├ Title           : a heap-based OOB read of size 1 
 │                        │       ├ Description     : vim is vulnerable to Out-of-bounds Read 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-125 
@@ -5225,8 +5219,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use-after-free while treating allocated lines in
-│                        │       │                    user functions 
+│                        │       ├ Title           : use-after-free while treating allocated lines in user
+│                        │       │                    functions 
 │                        │       ├ Description     : vim is vulnerable to Use After Free 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
@@ -5278,7 +5272,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based read buffer overflow in compile_get_env() 
+│                        │       ├ Title           : heap-based read buffer overflow in compile_get_env() 
 │                        │       ├ Description     : vim is vulnerable to Heap-based Buffer Overflow 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-122 
@@ -5332,7 +5326,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: out-of-bounds read in delete_buff_tail() in getchar.c 
+│                        │       ├ Title           : out-of-bounds read in delete_buff_tail() in getchar.c 
 │                        │       ├ Description     : Out-of-bounds Read in GitHub repository vim/vim prior
 │                        │       │                    to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
@@ -5381,7 +5375,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based buffer overflow on read in yank_copy_line 
+│                        │       ├ Title           : heap-based buffer overflow on read in yank_copy_line 
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
@@ -5468,8 +5462,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap-based buffer overflow in ins_compl_add() in
-│                        │       │                    insexpand.c 
+│                        │       ├ Title           : heap-based buffer overflow in ins_compl_add() in
+│                        │       │                   insexpand.c 
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 9.0.0044. 
 │                        │       ├ Severity        : MEDIUM 
@@ -5511,8 +5505,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: heap use-after-free in generate_PCALL() at
-│                        │       │                   src/vim9instr.c 
+│                        │       ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0221. 
 │                        │       ├ Severity        : MEDIUM 
@@ -5553,8 +5546,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use-after-free in find_var_also_in_script() in
-│                        │       │                   evalvars.c 
+│                        │       ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0225. 
 │                        │       ├ Severity        : MEDIUM 
@@ -5593,7 +5585,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : vim: use after free in qf_fill_buffer() at src/quickfix.c 
+│                        │       ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
 │                        │       │                   9.0.0260. 
 │                        │       ├ Severity        : MEDIUM 
@@ -6306,7 +6298,7 @@
 │                        │      │                  ├ Name: GitHub Security Advisory Npm 
 │                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
 │                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : gruntjs: race condition leading to arbitrary file write 
+│                        │      ├ Title           : race condition leading to arbitrary file write 
 │                        │      ├ Description     : file.copy operations in GruntJS are vulnerable to a
 │                        │      │                   TOCTOU race condition leading to arbitrary file write in
 │                        │      │                   GitHub repository gruntjs/grunt prior to 1.5.3. This
@@ -7444,8 +7436,8 @@
 │                        │      │                  ├ Name: GitHub Security Advisory Npm 
 │                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
 │                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : pug: user provided objects as input to pug templates
-│                        │      │                   can achieve remote code execution 
+│                        │      ├ Title           : user provided objects as input to pug templates can
+│                        │      │                   achieve remote code execution 
 │                        │      ├ Description     : Pug is an npm package which is a high-performance
 │                        │      │                   template engine. In pug before version 3.0.1, if a remote
 │                        │      │                   attacker was able to control the `pretty` option of the pug
