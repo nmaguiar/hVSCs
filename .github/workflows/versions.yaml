@@ -39,6 +39,13 @@ jobs:
               label: nmaguiar/hvscs:build
               file : .github/version-build.svg
           
+          ojob:
+            opacks:
+            - Badgen
+
+          include:
+          - badgen.yaml
+          
           jobs:
           # ---------------------
           - name : Generate badge
