@@ -60,7 +60,9 @@ jobs:
                 color     : blue
                 #icon      : "openaf_grey.svg"
             exec: |
-              args.status = $sh("docker run --rm -ti --entrypoint /bin/bash " + args.label + " /home/.openvscode-server/bin/openvscode-server -v | head -1").get(0).stdout.trim()
+              var res = $sh("docker run --rm -ti --entrypoint /bin/bash " + args.label + " /home/.openvscode-server/bin/openvscode-server -v | head -1").get(0)
+              cprint(res)
+              args.status = res.stdout.trim()
 
     # -------------
     - name: Checkin
