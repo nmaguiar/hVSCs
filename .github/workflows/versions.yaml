@@ -1,0 +1,66 @@
+name: Get versions
+
+on  :
+  workflow_dispatch:
+
+jobs:
+  get-versions:
+    runs-on: ubuntu-latest 
+    permissions:
+      contents     : write
+      pull-requests: write
+
+    steps  :
+    # --------------------------
+    - name: Cache OpenAF runtime
+      uses: actions/cache@v3
+      with:
+        key : oaf
+        path: /tmp/oaf
+
+    # --------------
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    ## Add here other steps
+
+    # ---------------------
+    - name: Generate badges
+      uses: openaf/ojob-action@v4
+      with:
+        def : |
+          todo:
+          - name: Generate badge
+            args:
+              label: nmaguiar/hvscs:latest
+              file : .github/version-latest.svg
+          - name: Generate badge
+            args:
+              label: nmaguiar/hvscs:build
+              file : .github/version-build.svg
+          
+          jobs:
+          # ---------------------
+          - name : Generate badge
+            check:
+              in:
+                label: isString.default("nmaguiar/hvscs:latest")
+                file : isString.default(".github/version-latest.svg")
+            to   :
+            - name: Badgen generate file
+              args: 
+                labelColor: grey3
+                color     : blue
+                #icon      : "openaf_grey.svg"
+            exec: |
+              args.status = $sh("docker run --rm -ti --entrypoint /bin/bash " + args.label + " /home/.openvscode-server/bin/openvscode-server -v | head -1".get(0).stdout.trim()
+
+    # -------------
+    - name: Checkin
+      uses: openaf/ojob-action@v4
+      env :
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        ojob: ojob.io/git/hub/contentIn
+        ## Change the following arguments as needed (see https://ojob.io/git/hub/contentIn.md)
+        args: 'message="Automated check in" paths=".github/"'
