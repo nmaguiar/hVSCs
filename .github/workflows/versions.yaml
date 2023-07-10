@@ -60,7 +60,7 @@ jobs:
                 color     : blue
                 #icon      : "openaf_grey.svg"
             exec: |
-              var res = $sh("docker run --rm -ti --entrypoint /bin/bash " + args.label + " /home/.openvscode-server/bin/openvscode-server -v | head -1").get(0)
+              var res = $sh("docker run --rm -t --entrypoint /bin/bash " + args.label + " /home/.openvscode-server/bin/openvscode-server -v | head -1").get(0)
               cprint(res)
               args.status = res.stdout.trim()
 
