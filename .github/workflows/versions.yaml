@@ -2,10 +2,8 @@ name: Get versions
 
 on  :
   workflow_run:
-    workflows:
-      - 'docker-image.yml'
-    types:
-      - completed
+    workflows: [Docker Image CI]
+    types: [ completed ]
   workflow_dispatch:
 
 jobs:
