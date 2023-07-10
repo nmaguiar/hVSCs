@@ -1,6 +1,11 @@
 name: Get versions
 
 on  :
+  workflow_run:
+    workflows:
+      - 'docker-image.yml'
+    types:
+      - completed
   workflow_dispatch:
 
 jobs:
