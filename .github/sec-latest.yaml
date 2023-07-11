@@ -1995,6 +1995,179 @@
     - https://www.cve.org/CVERecord?id=CVE-2018-10126
     PublishedDate: '2018-04-21T21:29:00Z'
     LastModifiedDate: '2021-03-15T22:31:00Z'
+  - VulnerabilityID: CVE-2023-1916
+    PkgID: libtiff5@4.3.0-6ubuntu0.4
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.4
+    Layer:
+      Digest: sha256:6f469a8aaf6de8dff366dfa01fcad049d68c78f5237770f935cdfe8e0b124b28
+      DiffID: sha256:be75b871eef57e613a94a1e0af03646610f8dc9d7ea41a702b5bb432ae009415
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-1916
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: out-of-bounds read in extractImageSection() in tools/tiffcrop.c
+    Description: A flaw was found in tiffcrop, a program distributed by the libtiff package. A specially crafted tiff file can lead to an out-of-bounds read in the extractImageSection function in tools/tiffcrop.c, resulting in a denial of service and limited information disclosure. This issue affects libtiff versions 4.x.
+    Severity: LOW
+    CweIDs:
+    - CWE-125
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-1916
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1916
+    - https://gitlab.com/libtiff/libtiff/-/issues/536
+    - https://gitlab.com/libtiff/libtiff/-/issues/536,
+    - https://gitlab.com/libtiff/libtiff/-/issues/537
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-1916
+    - https://www.cve.org/CVERecord?id=CVE-2023-1916
+    PublishedDate: '2023-04-10T22:15:00Z'
+    LastModifiedDate: '2023-04-18T15:25:00Z'
+  - VulnerabilityID: CVE-2023-25434
+    PkgID: libtiff5@4.3.0-6ubuntu0.4
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.4
+    Layer:
+      Digest: sha256:6f469a8aaf6de8dff366dfa01fcad049d68c78f5237770f935cdfe8e0b124b28
+      DiffID: sha256:be75b871eef57e613a94a1e0af03646610f8dc9d7ea41a702b5bb432ae009415
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-25434
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer overflow via extractContigSamplesBytes() at /libtiff/tools/tiffcrop.c
+    Description: libtiff 4.5.0 is vulnerable to Buffer Overflow via extractContigSamplesBytes() at /libtiff/tools/tiffcrop.c:3215.
+    Severity: LOW
+    CweIDs:
+    - CWE-120
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-25434
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25434
+    - https://gitlab.com/libtiff/libtiff/-/issues/519
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/465
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-25434
+    - https://www.cve.org/CVERecord?id=CVE-2023-25434
+    PublishedDate: '2023-06-14T20:15:00Z'
+    LastModifiedDate: '2023-06-23T16:25:00Z'
+  - VulnerabilityID: CVE-2023-25435
+    PkgID: libtiff5@4.3.0-6ubuntu0.4
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.4
+    Layer:
+      Digest: sha256:6f469a8aaf6de8dff366dfa01fcad049d68c78f5237770f935cdfe8e0b124b28
+      DiffID: sha256:be75b871eef57e613a94a1e0af03646610f8dc9d7ea41a702b5bb432ae009415
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-25435
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer-overflow in extractContigSamplesShifted8bits() in tiffcrop.c
+    Description: libtiff 4.5.0 is vulnerable to Buffer Overflow via extractContigSamplesShifted8bits() at /libtiff/tools/tiffcrop.c:3753.
+    Severity: LOW
+    CweIDs:
+    - CWE-120
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-25435
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25435
+    - https://gitlab.com/libtiff/libtiff/-/issues/518
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-25435
+    - https://www.cve.org/CVERecord?id=CVE-2023-25435
+    PublishedDate: '2023-06-21T20:15:00Z'
+    LastModifiedDate: '2023-06-28T18:51:00Z'
+  - VulnerabilityID: CVE-2023-26965
+    PkgID: libtiff5@4.3.0-6ubuntu0.4
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.4
+    Layer:
+      Digest: sha256:6f469a8aaf6de8dff366dfa01fcad049d68c78f5237770f935cdfe8e0b124b28
+      DiffID: sha256:be75b871eef57e613a94a1e0af03646610f8dc9d7ea41a702b5bb432ae009415
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-26965
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-based use after free via a crafted TIFF image in loadImage() in tiffcrop.c
+    Description: loadImage() in tools/tiffcrop.c in LibTIFF through 4.5.0 has a heap-based use after free via a crafted TIFF image.
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-26965
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-26965
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/472
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-26965
+    - https://security.netapp.com/advisory/ntap-20230706-0009/
+    - https://www.cve.org/CVERecord?id=CVE-2023-26965
+    PublishedDate: '2023-06-14T21:15:00Z'
+    LastModifiedDate: '2023-07-06T19:15:00Z'
+  - VulnerabilityID: CVE-2023-3316
+    PkgID: libtiff5@4.3.0-6ubuntu0.4
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.4
+    Layer:
+      Digest: sha256:6f469a8aaf6de8dff366dfa01fcad049d68c78f5237770f935cdfe8e0b124b28
+      DiffID: sha256:be75b871eef57e613a94a1e0af03646610f8dc9d7ea41a702b5bb432ae009415
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3316
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: null pointer dereference in TIFFClose()
+    Description: |+
+      A NULL pointer dereference in TIFFClose() is caused by a failure to open an output file (non-existent path or a path that requires permissions like /dev/null) while specifying zones.
+
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-3316
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3316
+    - https://gitlab.com/libtiff/libtiff/-/issues/515
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/468
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-3316
+    - https://research.jfrog.com/vulnerabilities/libtiff-nullderef-dos-xray-522144/
+    - https://www.cve.org/CVERecord?id=CVE-2023-3316
+    PublishedDate: '2023-06-19T12:15:00Z'
+    LastModifiedDate: '2023-07-03T16:43:00Z'
   - VulnerabilityID: CVE-2023-31437
     PkgID: libudev1@249.11-0ubuntu3.9
     PkgName: libudev1
@@ -6156,7 +6329,7 @@
     PkgName: semver
     PkgPath: home/.openvscode-server/node_modules/semver/package.json
     InstalledVersion: 7.3.5
-    FixedVersion: 7.5.2
+    FixedVersion: 5.7.2, 6.3.1, 7.5.2
     Layer:
       Digest: sha256:6f469a8aaf6de8dff366dfa01fcad049d68c78f5237770f935cdfe8e0b124b28
       DiffID: sha256:be75b871eef57e613a94a1e0af03646610f8dc9d7ea41a702b5bb432ae009415
@@ -6166,7 +6339,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Npm
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Anpm
-    Title: semver vulnerable to Regular Expression Denial of Service
+    Title: Versions of the package semver before 7.5.2 are vulnerable to Regular  ...
     Description: "Versions of the package semver before 7.5.2 are vulnerable to Regular Expression Denial of Service (ReDoS) via the function new Range, when untrusted user data is provided as a range.\r\r\r"
     Severity: MEDIUM
     CweIDs:
@@ -6186,8 +6359,12 @@
     - https://github.com/npm/node-semver/blob/main/internal/re.js#L160
     - https://github.com/npm/node-semver/blob/main/internal/re.js%23L138
     - https://github.com/npm/node-semver/blob/main/internal/re.js%23L160
+    - https://github.com/npm/node-semver/commit/2f8fd41487acf380194579ecb6f8b1bbfe116be0
     - https://github.com/npm/node-semver/commit/717534ee353682f3bcf33e60a8af4292626d4441
+    - https://github.com/npm/node-semver/commit/928e56d21150da0413a3333a3148b20e741a920c
     - https://github.com/npm/node-semver/pull/564
+    - https://github.com/npm/node-semver/pull/585
+    - https://github.com/npm/node-semver/pull/593
     - https://nvd.nist.gov/vuln/detail/CVE-2022-25883
     - https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795
     PublishedDate: '2023-06-21T05:15:00Z'
@@ -7034,37 +7211,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-2253
     PublishedDate: '2023-06-06T20:15:00Z'
     LastModifiedDate: '2023-06-29T16:15:00Z'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:6f469a8aaf6de8dff366dfa01fcad049d68c78f5237770f935cdfe8e0b124b28
-      DiffID: sha256:be75b871eef57e613a94a1e0af03646610f8dc9d7ea41a702b5bb432ae009415
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -7154,6 +7300,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:6f469a8aaf6de8dff366dfa01fcad049d68c78f5237770f935cdfe8e0b124b28
+      DiffID: sha256:be75b871eef57e613a94a1e0af03646610f8dc9d7ea41a702b5bb432ae009415
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:6f469a8aaf6de8dff366dfa01fcad049d68c78f5237770f935cdfe8e0b124b28
       DiffID: sha256:be75b871eef57e613a94a1e0af03646610f8dc9d7ea41a702b5bb432ae009415
