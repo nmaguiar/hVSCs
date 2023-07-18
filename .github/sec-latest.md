@@ -1820,17 +1820,19 @@
 │                        │       │                   associated data
 │                        │       │                   entries this is qualified as Low severity issue. 
 │                        │       ├ Severity        : LOW 
-│                        │       ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023
+│                        │       │                  │      /07/15/1 
+│                        │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │       │                  │      CVE-2023-2975 
-│                        │       │                  ├ [1]: https://git.openssl.org/gitweb/?p=openssl.git;a
+│                        │       │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a
 │                        │       │                  │      =commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba736785
 │                        │       │                  │      98 
-│                        │       │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a
+│                        │       │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a
 │                        │       │                  │      =commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5b
 │                        │       │                  │      dc 
-│                        │       │                  ╰ [3]: https://www.openssl.org/news/secadv/20230714.txt 
+│                        │       │                  ╰ [4]: https://www.openssl.org/news/secadv/20230714.txt 
 │                        │       ├ PublishedDate   : 2023-07-14T12:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-07-14T12:47:00Z 
+│                        │       ╰ LastModifiedDate: 2023-07-15T13:15:00Z 
 │                        ├ [43]  ╭ VulnerabilityID : CVE-2023-31437 
 │                        │       ├ PkgID           : libsystemd0@249.11-0ubuntu3.9 
 │                        │       ├ PkgName         : libsystemd0 
@@ -2690,17 +2692,19 @@
 │                        │       │                   associated data
 │                        │       │                   entries this is qualified as Low severity issue. 
 │                        │       ├ Severity        : LOW 
-│                        │       ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023
+│                        │       │                  │      /07/15/1 
+│                        │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │       │                  │      CVE-2023-2975 
-│                        │       │                  ├ [1]: https://git.openssl.org/gitweb/?p=openssl.git;a
+│                        │       │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a
 │                        │       │                  │      =commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba736785
 │                        │       │                  │      98 
-│                        │       │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a
+│                        │       │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a
 │                        │       │                  │      =commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5b
 │                        │       │                  │      dc 
-│                        │       │                  ╰ [3]: https://www.openssl.org/news/secadv/20230714.txt 
+│                        │       │                  ╰ [4]: https://www.openssl.org/news/secadv/20230714.txt 
 │                        │       ├ PublishedDate   : 2023-07-14T12:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-07-14T12:47:00Z 
+│                        │       ╰ LastModifiedDate: 2023-07-15T13:15:00Z 
 │                        ├ [63]  ╭ VulnerabilityID : CVE-2023-29383 
 │                        │       ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                        │       ├ PkgName         : passwd 
@@ -6142,7 +6146,7 @@
 │                        │      ├ DataSource       ╭ ID  : go-vulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
 │                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : golang.org/x/crypto: empty plaintext packet causes panic 
+│                        │      ├ Title           : empty plaintext packet causes panic 
 │                        │      ├ Description     : The x/crypto/ssh package before
 │                        │      │                   0.0.0-20211202192323-5770296d904e of golang.org/x/crypto
 │                        │      │                   allows an attacker to panic an SSH server. 
