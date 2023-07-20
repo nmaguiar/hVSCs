@@ -120,6 +120,7 @@
     PkgID: curl@7.81.0-1ubuntu1.10
     PkgName: curl
     InstalledVersion: 7.81.0-1ubuntu1.10
+    FixedVersion: 7.81.0-1ubuntu1.11
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -150,6 +151,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28321
     - https://security.netapp.com/advisory/ntap-20230609-0009/
+    - https://ubuntu.com/security/notices/USN-6237-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28321
     PublishedDate: '2023-05-26T21:15:00Z'
     LastModifiedDate: '2023-06-16T19:17:00Z'
@@ -157,6 +159,7 @@
     PkgID: curl@7.81.0-1ubuntu1.10
     PkgName: curl
     InstalledVersion: 7.81.0-1ubuntu1.10
+    FixedVersion: 7.81.0-1ubuntu1.11
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -185,6 +188,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28322
     - https://security.netapp.com/advisory/ntap-20230609-0009/
+    - https://ubuntu.com/security/notices/USN-6237-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28322
     PublishedDate: '2023-05-26T21:15:00Z'
     LastModifiedDate: '2023-06-16T16:40:00Z'
@@ -830,6 +834,7 @@
     PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.10
     PkgName: libcurl3-gnutls
     InstalledVersion: 7.81.0-1ubuntu1.10
+    FixedVersion: 7.81.0-1ubuntu1.11
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -860,6 +865,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28321
     - https://security.netapp.com/advisory/ntap-20230609-0009/
+    - https://ubuntu.com/security/notices/USN-6237-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28321
     PublishedDate: '2023-05-26T21:15:00Z'
     LastModifiedDate: '2023-06-16T19:17:00Z'
@@ -867,6 +873,7 @@
     PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.10
     PkgName: libcurl3-gnutls
     InstalledVersion: 7.81.0-1ubuntu1.10
+    FixedVersion: 7.81.0-1ubuntu1.11
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -895,6 +902,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28322
     - https://security.netapp.com/advisory/ntap-20230609-0009/
+    - https://ubuntu.com/security/notices/USN-6237-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28322
     PublishedDate: '2023-05-26T21:15:00Z'
     LastModifiedDate: '2023-06-16T16:40:00Z'
@@ -902,6 +910,7 @@
     PkgID: libcurl4@7.81.0-1ubuntu1.10
     PkgName: libcurl4
     InstalledVersion: 7.81.0-1ubuntu1.10
+    FixedVersion: 7.81.0-1ubuntu1.11
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -932,6 +941,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28321
     - https://security.netapp.com/advisory/ntap-20230609-0009/
+    - https://ubuntu.com/security/notices/USN-6237-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28321
     PublishedDate: '2023-05-26T21:15:00Z'
     LastModifiedDate: '2023-06-16T19:17:00Z'
@@ -939,6 +949,7 @@
     PkgID: libcurl4@7.81.0-1ubuntu1.10
     PkgName: libcurl4
     InstalledVersion: 7.81.0-1ubuntu1.10
+    FixedVersion: 7.81.0-1ubuntu1.11
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -967,6 +978,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28322
     - https://security.netapp.com/advisory/ntap-20230609-0009/
+    - https://ubuntu.com/security/notices/USN-6237-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28322
     PublishedDate: '2023-05-26T21:15:00Z'
     LastModifiedDate: '2023-06-16T16:40:00Z'
@@ -1479,7 +1491,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'Issue summary: The AES-SIV cipher implementation contains a bug that c ...'
+    Title: AES-SIV cipher implementation contains a bug that causes it to ignore empty associated data entries
     Description: |-
       Issue summary: The AES-SIV cipher implementation contains a bug that causes
       it to ignore empty associated data entries which are unauthenticated as
@@ -1502,11 +1514,18 @@
       we expect it to be rare for an application to use empty associated data
       entries this is qualified as Low severity issue.
     Severity: LOW
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2023/07/15/1
+    - https://access.redhat.com/security/cve/CVE-2023-2975
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2975
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-2975
+    - https://www.cve.org/CVERecord?id=CVE-2023-2975
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:00Z'
     LastModifiedDate: '2023-07-15T13:15:00Z'
@@ -1623,11 +1642,21 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:3827
+    - https://access.redhat.com/errata/RHSA-2023:3711
     - https://access.redhat.com/security/cve/CVE-2022-48281
     - https://bugzilla.redhat.com/2163606
+    - https://bugzilla.redhat.com/2170119
+    - https://bugzilla.redhat.com/2170146
+    - https://bugzilla.redhat.com/2170151
+    - https://bugzilla.redhat.com/2170157
+    - https://bugzilla.redhat.com/2170162
+    - https://bugzilla.redhat.com/2170167
+    - https://bugzilla.redhat.com/2170172
+    - https://bugzilla.redhat.com/2170178
+    - https://bugzilla.redhat.com/2170187
+    - https://bugzilla.redhat.com/2170192
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48281
-    - https://errata.almalinux.org/8/ALSA-2023-3827.html
+    - https://errata.almalinux.org/9/ALSA-2023-3711.html
     - https://gitlab.com/libtiff/libtiff/-/commit/d1b6b9c1b3cae2d9e37754506c1ad8f4f7b646b5
     - https://gitlab.com/libtiff/libtiff/-/issues/488
     - https://linux.oracle.com/cve/CVE-2022-48281.html
@@ -2185,7 +2214,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'Issue summary: The AES-SIV cipher implementation contains a bug that c ...'
+    Title: AES-SIV cipher implementation contains a bug that causes it to ignore empty associated data entries
     Description: |-
       Issue summary: The AES-SIV cipher implementation contains a bug that causes
       it to ignore empty associated data entries which are unauthenticated as
@@ -2208,11 +2237,18 @@
       we expect it to be rare for an application to use empty associated data
       entries this is qualified as Low severity issue.
     Severity: LOW
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2023/07/15/1
+    - https://access.redhat.com/security/cve/CVE-2023-2975
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2975
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-2975
+    - https://www.cve.org/CVERecord?id=CVE-2023-2975
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:00Z'
     LastModifiedDate: '2023-07-15T13:15:00Z'
@@ -4167,9 +4203,20 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2022:6595
     - https://access.redhat.com/security/cve/CVE-2020-7788
+    - https://bugzilla.redhat.com/1907444
+    - https://bugzilla.redhat.com/1945459
+    - https://bugzilla.redhat.com/1964461
+    - https://bugzilla.redhat.com/2007557
+    - https://bugzilla.redhat.com/2098556
+    - https://bugzilla.redhat.com/2102001
+    - https://bugzilla.redhat.com/2105422
+    - https://bugzilla.redhat.com/2105426
+    - https://bugzilla.redhat.com/2105428
+    - https://bugzilla.redhat.com/2105430
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7788
-    - https://errata.almalinux.org/8/ALSA-2022-0350.html
+    - https://errata.almalinux.org/9/ALSA-2022-6595.html
     - https://github.com/advisories/GHSA-qqgx-2p2h-9c37
     - https://github.com/npm/ini/commit/56d2805e07ccd94e2ba0984ac9240ff02d44b6f1
     - https://github.com/npm/ini/commit/56d2805e07ccd94e2ba0984ac9240ff02d44b6f1 (v1.3.6)
@@ -4700,59 +4747,6 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
-  - VulnerabilityID: CVE-2021-44716
-    PkgName: golang.org/x/net
-    InstalledVersion: v0.0.0-20210614182718-04defd469f4e
-    FixedVersion: 0.0.0-20211209124913-491a49abca63
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-44716
-    DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
-    Title: 'golang: net/http: limit growth of header canonicalization cache'
-    Description: net/http in Go before 1.16.12 and 1.17.x before 1.17.5 allows uncontrolled memory consumption in the header canonicalization cache via HTTP/2 requests.
-    Severity: HIGH
-    CweIDs:
-    - CWE-400
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2021-44716
-    - https://cert-portal.siemens.com/productcert/pdf/ssa-744259.pdf
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44716
-    - https://github.com/advisories/GHSA-vc3p-29h2-gpcp
-    - https://github.com/golang/go/commit/48d948963c5ce7add72af5665a871caff6c1d35a (go1.17.5)
-    - https://github.com/golang/net/commit/491a49abca63de5e07ef554052d180a1b5fe2d70
-    - https://go.dev/cl/369794
-    - https://go.dev/issue/50058
-    - https://groups.google.com/g/golang-announce/c/hcmEScgc00k
-    - https://groups.google.com/g/golang-announce/c/hcmEScgc00k/m/ZWnOjeY4CQAJ
-    - https://linux.oracle.com/cve/CVE-2021-44716.html
-    - https://linux.oracle.com/errata/ELSA-2022-0001.html
-    - https://lists.debian.org/debian-lts-announce/2022/01/msg00016.html
-    - https://lists.debian.org/debian-lts-announce/2022/01/msg00017.html
-    - https://lists.debian.org/debian-lts-announce/2023/04/msg00021.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-44716
-    - https://pkg.go.dev/vuln/GO-2022-0288
-    - https://security.gentoo.org/glsa/202208-02
-    - https://security.netapp.com/advisory/ntap-20220121-0002/
-    - https://www.cve.org/CVERecord?id=CVE-2021-44716
-    PublishedDate: '2022-01-01T05:15:00Z'
-    LastModifiedDate: '2023-04-20T00:15:00Z'
   - VulnerabilityID: CVE-2022-27664
     PkgName: golang.org/x/net
     InstalledVersion: v0.0.0-20210614182718-04defd469f4e
@@ -4763,9 +4757,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27664
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: handle server errors after sending GOAWAY
     Description: In net/http in Go before 1.18.6 and 1.19.x before 1.19.1, attackers can cause a denial of service because an HTTP/2 connection can hang during closing if shutdown were preempted by a fatal error.
     Severity: HIGH
@@ -4780,22 +4774,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2802
+    - https://access.redhat.com/errata/RHSA-2023:2357
     - https://access.redhat.com/security/cve/CVE-2022-27664
-    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
-    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
-    - https://bugzilla.redhat.com/2107390
-    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
-    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
-    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -4814,7 +4804,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/8/ALSA-2023-2802.html
+    - https://errata.almalinux.org/9/ALSA-2023-2357.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -4847,9 +4837,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41723
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: avoid quadratic complexity in HPACK decoding
     Description: A maliciously crafted HTTP/2 stream could cause excessive CPU consumption in the HPACK decoder, sufficient to cause a denial of service from a small number of small requests.
     Severity: HIGH
@@ -4883,59 +4873,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-41723
     PublishedDate: '2023-02-28T18:15:00Z'
     LastModifiedDate: '2023-05-16T10:50:00Z'
-  - VulnerabilityID: CVE-2022-41717
-    PkgName: golang.org/x/net
-    InstalledVersion: v0.0.0-20210614182718-04defd469f4e
-    FixedVersion: 0.4.0
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41717
-    DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
-    Title: excessive memory growth in a Go server accepting HTTP/2 requests
-    Description: An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests. HTTP/2 server connections contain a cache of HTTP header keys sent by the client. While the total number of entries in this cache is capped, an attacker sending very large keys can cause the server to allocate approximately 64 MiB per open connection.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-770
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:2866
-    - https://access.redhat.com/security/cve/CVE-2022-41717
-    - https://bugzilla.redhat.com/2132868
-    - https://bugzilla.redhat.com/2132872
-    - https://bugzilla.redhat.com/2161274
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41717
-    - https://errata.almalinux.org/8/ALSA-2023-2866.html
-    - https://github.com/advisories/GHSA-xrjj-mj9h-534m
-    - https://github.com/golang/go/commit/618120c165669c00a1606505defea6ca755cdc27 (go1.19.4)
-    - https://github.com/golang/go/commit/76cad4edc29d28432a7a0aa27e87385d3d7db7a1 (go1.18.9)
-    - https://go.dev/cl/455635
-    - https://go.dev/cl/455717
-    - https://go.dev/issue/56350
-    - https://groups.google.com/g/golang-announce/c/L_3rmdT0BMU
-    - https://groups.google.com/g/golang-announce/c/L_3rmdT0BMU/m/yZDrXjIiBQAJ
-    - https://linux.oracle.com/cve/CVE-2022-41717.html
-    - https://linux.oracle.com/errata/ELSA-2023-2866.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QBKBAZBIOXZV5QCFHZNSVXULR32XJCYD/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-41717
-    - https://pkg.go.dev/vuln/GO-2022-1144
-    - https://ubuntu.com/security/notices/USN-6038-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-41717
-    PublishedDate: '2022-12-08T20:15:00Z'
-    LastModifiedDate: '2023-07-04T03:15:00Z'
   - VulnerabilityID: CVE-2022-29526
     PkgName: golang.org/x/sys
     InstalledVersion: v0.0.0-20210630005230-0f9fa26af87c
@@ -4946,9 +4883,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-29526
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: faccessat checks wrong group
     Description: Go before 1.17.10 and 1.18.x before 1.18.2 has Incorrect Privilege Assignment. When called with a non-zero flags parameter, the Faccessat function could incorrectly report that a file is accessible.
     Severity: MEDIUM
@@ -5001,9 +4938,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-38561
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: out-of-bounds read in golang.org/x/text/language leads to DoS
     Description: golang.org/x/text/language in golang.org/x/text before 0.3.7 can panic with an out-of-bounds read during BCP 47 language tag parsing. Index calculation is mishandled. If parsing untrusted user input, this can be used as a vector for a denial-of-service attack.
     Severity: HIGH
@@ -5044,9 +4981,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-32149
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: ParseAcceptLanguage takes a long time to parse complex tags
     Description: An attacker may cause a denial of service by crafting an Accept-Language header which ParseAcceptLanguage will take significant time to parse.
     Severity: HIGH
@@ -5094,9 +5031,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-43565
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: empty plaintext packet causes panic
     Description: The x/crypto/ssh package before 0.0.0-20211202192323-5770296d904e of golang.org/x/crypto allows an attacker to panic an SSH server.
     Severity: HIGH
@@ -5133,9 +5070,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27191
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: crash in a golang.org/x/crypto/ssh server
     Description: The golang.org/x/crypto/ssh package before 0.0.0-20220314234659-1baeb1ce4c0b for Go allows an attacker to crash a server in certain circumstances involving AddHostKey.
     Severity: HIGH
@@ -5154,12 +5091,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2022:7469
+    - https://access.redhat.com/errata/RHSA-2022:8008
     - https://access.redhat.com/security/cve/CVE-2022-27191
+    - https://bugzilla.redhat.com/1939485
+    - https://bugzilla.redhat.com/1989564
+    - https://bugzilla.redhat.com/1989570
+    - https://bugzilla.redhat.com/1989575
     - https://bugzilla.redhat.com/2064702
-    - https://bugzilla.redhat.com/2085361
-    - https://bugzilla.redhat.com/2086398
-    - https://errata.almalinux.org/8/ALSA-2022-7469.html
+    - https://bugzilla.redhat.com/2121445
+    - https://bugzilla.redhat.com/2121453
+    - https://errata.almalinux.org/9/ALSA-2022-8008.html
     - https://github.com/advisories/GHSA-8c26-wmh5-6g9v
     - https://go.dev/cl/392355
     - https://go.googlesource.com/crypto/+/1baeb1ce4c0b006eff0f294c47cb7617598dfb3d
@@ -5197,9 +5138,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-33194
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: 'golang: x/net/html: infinite loop in ParseFragment'
     Description: golang.org/x/net before v0.0.0-20210520170846-37e1c6afe023 allows attackers to cause a denial of service (infinite loop) via crafted ParseFragment input.
     Severity: HIGH
@@ -5232,60 +5173,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-33194
     PublishedDate: '2021-05-26T15:15:00Z'
     LastModifiedDate: '2022-06-03T19:29:00Z'
-  - VulnerabilityID: CVE-2021-44716
-    PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
-    PkgName: golang.org/x/net
-    InstalledVersion: 0.0.0-20210226172049-e18ecbb05110
-    FixedVersion: 0.0.0-20211209124913-491a49abca63
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-44716
-    DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
-    Title: 'golang: net/http: limit growth of header canonicalization cache'
-    Description: net/http in Go before 1.16.12 and 1.17.x before 1.17.5 allows uncontrolled memory consumption in the header canonicalization cache via HTTP/2 requests.
-    Severity: HIGH
-    CweIDs:
-    - CWE-400
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2021-44716
-    - https://cert-portal.siemens.com/productcert/pdf/ssa-744259.pdf
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44716
-    - https://github.com/advisories/GHSA-vc3p-29h2-gpcp
-    - https://github.com/golang/go/commit/48d948963c5ce7add72af5665a871caff6c1d35a (go1.17.5)
-    - https://github.com/golang/net/commit/491a49abca63de5e07ef554052d180a1b5fe2d70
-    - https://go.dev/cl/369794
-    - https://go.dev/issue/50058
-    - https://groups.google.com/g/golang-announce/c/hcmEScgc00k
-    - https://groups.google.com/g/golang-announce/c/hcmEScgc00k/m/ZWnOjeY4CQAJ
-    - https://linux.oracle.com/cve/CVE-2021-44716.html
-    - https://linux.oracle.com/errata/ELSA-2022-0001.html
-    - https://lists.debian.org/debian-lts-announce/2022/01/msg00016.html
-    - https://lists.debian.org/debian-lts-announce/2022/01/msg00017.html
-    - https://lists.debian.org/debian-lts-announce/2023/04/msg00021.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-44716
-    - https://pkg.go.dev/vuln/GO-2022-0288
-    - https://security.gentoo.org/glsa/202208-02
-    - https://security.netapp.com/advisory/ntap-20220121-0002/
-    - https://www.cve.org/CVERecord?id=CVE-2021-44716
-    PublishedDate: '2022-01-01T05:15:00Z'
-    LastModifiedDate: '2023-04-20T00:15:00Z'
   - VulnerabilityID: CVE-2022-27664
     PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
     PkgName: golang.org/x/net
@@ -5297,9 +5184,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27664
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: handle server errors after sending GOAWAY
     Description: In net/http in Go before 1.18.6 and 1.19.x before 1.19.1, attackers can cause a denial of service because an HTTP/2 connection can hang during closing if shutdown were preempted by a fatal error.
     Severity: HIGH
@@ -5314,22 +5201,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2802
+    - https://access.redhat.com/errata/RHSA-2023:2357
     - https://access.redhat.com/security/cve/CVE-2022-27664
-    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
-    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
-    - https://bugzilla.redhat.com/2107390
-    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
-    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
-    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -5348,7 +5231,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/8/ALSA-2023-2802.html
+    - https://errata.almalinux.org/9/ALSA-2023-2357.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -5382,9 +5265,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41723
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: avoid quadratic complexity in HPACK decoding
     Description: A maliciously crafted HTTP/2 stream could cause excessive CPU consumption in the HPACK decoder, sufficient to cause a denial of service from a small number of small requests.
     Severity: HIGH
@@ -5429,9 +5312,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31525
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: 'golang: net/http: panic in ReadRequest and ReadResponse when reading a very large header'
     Description: net/http in Go before 1.15.12 and 1.16.x before 1.16.4 allows remote attackers to cause a denial of service (panic) via a large header to ReadRequest or ReadResponse. Server, Transport, and Client can each be affected in some configurations.
     Severity: MEDIUM
@@ -5466,60 +5349,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31525
     PublishedDate: '2021-05-27T13:15:00Z'
     LastModifiedDate: '2022-11-09T03:32:00Z'
-  - VulnerabilityID: CVE-2022-41717
-    PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
-    PkgName: golang.org/x/net
-    InstalledVersion: 0.0.0-20210226172049-e18ecbb05110
-    FixedVersion: 0.4.0
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41717
-    DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
-    Title: excessive memory growth in a Go server accepting HTTP/2 requests
-    Description: An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests. HTTP/2 server connections contain a cache of HTTP header keys sent by the client. While the total number of entries in this cache is capped, an attacker sending very large keys can cause the server to allocate approximately 64 MiB per open connection.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-770
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:2866
-    - https://access.redhat.com/security/cve/CVE-2022-41717
-    - https://bugzilla.redhat.com/2132868
-    - https://bugzilla.redhat.com/2132872
-    - https://bugzilla.redhat.com/2161274
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41717
-    - https://errata.almalinux.org/8/ALSA-2023-2866.html
-    - https://github.com/advisories/GHSA-xrjj-mj9h-534m
-    - https://github.com/golang/go/commit/618120c165669c00a1606505defea6ca755cdc27 (go1.19.4)
-    - https://github.com/golang/go/commit/76cad4edc29d28432a7a0aa27e87385d3d7db7a1 (go1.18.9)
-    - https://go.dev/cl/455635
-    - https://go.dev/cl/455717
-    - https://go.dev/issue/56350
-    - https://groups.google.com/g/golang-announce/c/L_3rmdT0BMU
-    - https://groups.google.com/g/golang-announce/c/L_3rmdT0BMU/m/yZDrXjIiBQAJ
-    - https://linux.oracle.com/cve/CVE-2022-41717.html
-    - https://linux.oracle.com/errata/ELSA-2023-2866.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QBKBAZBIOXZV5QCFHZNSVXULR32XJCYD/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-41717
-    - https://pkg.go.dev/vuln/GO-2022-1144
-    - https://ubuntu.com/security/notices/USN-6038-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-41717
-    PublishedDate: '2022-12-08T20:15:00Z'
-    LastModifiedDate: '2023-07-04T03:15:00Z'
   - VulnerabilityID: CVE-2022-29526
     PkgID: golang.org/x/sys@v0.0.0-20210615035016-665e8c7367d1
     PkgName: golang.org/x/sys
@@ -5531,9 +5360,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-29526
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: faccessat checks wrong group
     Description: Go before 1.17.10 and 1.18.x before 1.18.2 has Incorrect Privilege Assignment. When called with a non-zero flags parameter, the Faccessat function could incorrectly report that a file is accessible.
     Severity: MEDIUM
@@ -5587,9 +5416,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-38561
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: out-of-bounds read in golang.org/x/text/language leads to DoS
     Description: golang.org/x/text/language in golang.org/x/text before 0.3.7 can panic with an out-of-bounds read during BCP 47 language tag parsing. Index calculation is mishandled. If parsing untrusted user input, this can be used as a vector for a denial-of-service attack.
     Severity: HIGH
@@ -5631,9 +5460,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-32149
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: ParseAcceptLanguage takes a long time to parse complex tags
     Description: An attacker may cause a denial of service by crafting an Accept-Language header which ParseAcceptLanguage will take significant time to parse.
     Severity: HIGH
@@ -5666,104 +5495,10 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-32149
     PublishedDate: '2022-10-14T15:15:00Z'
     LastModifiedDate: '2022-10-18T17:41:00Z'
-  - VulnerabilityID: CVE-2022-28948
-    PkgID: gopkg.in/yaml.v3@v3.0.0-20200313102051-9f266ea9e77c
-    PkgName: gopkg.in/yaml.v3
-    InstalledVersion: 3.0.0-20200313102051-9f266ea9e77c
-    FixedVersion: 3.0.0-20220521103104-8f96da9f5d5e
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-28948
-    DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
-    Title: crash when attempting to deserialize invalid input
-    Description: An issue in the Unmarshal function in Go-Yaml v3 causes the program to crash when attempting to deserialize invalid input.
-    Severity: HIGH
-    CweIDs:
-    - CWE-502
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-28948
-    - https://github.com/advisories/GHSA-hp87-p4gw-j4gq
-    - https://github.com/go-yaml/yaml/commit/8f96da9f5d5eff988554c1aae1784627c4bf6754
-    - https://github.com/go-yaml/yaml/issues/666
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-28948
-    - https://security.netapp.com/advisory/ntap-20220923-0006/
-    - https://www.cve.org/CVERecord?id=CVE-2022-28948
-    PublishedDate: '2022-05-19T20:15:00Z'
-    LastModifiedDate: '2022-10-28T19:06:00Z'
 - Target: tmp/tmp.NXRl9mDLMP/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
-  - VulnerabilityID: CVE-2021-44716
-    PkgName: golang.org/x/net
-    InstalledVersion: v0.0.0-20210614182718-04defd469f4e
-    FixedVersion: 0.0.0-20211209124913-491a49abca63
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-44716
-    DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
-    Title: 'golang: net/http: limit growth of header canonicalization cache'
-    Description: net/http in Go before 1.16.12 and 1.17.x before 1.17.5 allows uncontrolled memory consumption in the header canonicalization cache via HTTP/2 requests.
-    Severity: HIGH
-    CweIDs:
-    - CWE-400
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2021-44716
-    - https://cert-portal.siemens.com/productcert/pdf/ssa-744259.pdf
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44716
-    - https://github.com/advisories/GHSA-vc3p-29h2-gpcp
-    - https://github.com/golang/go/commit/48d948963c5ce7add72af5665a871caff6c1d35a (go1.17.5)
-    - https://github.com/golang/net/commit/491a49abca63de5e07ef554052d180a1b5fe2d70
-    - https://go.dev/cl/369794
-    - https://go.dev/issue/50058
-    - https://groups.google.com/g/golang-announce/c/hcmEScgc00k
-    - https://groups.google.com/g/golang-announce/c/hcmEScgc00k/m/ZWnOjeY4CQAJ
-    - https://linux.oracle.com/cve/CVE-2021-44716.html
-    - https://linux.oracle.com/errata/ELSA-2022-0001.html
-    - https://lists.debian.org/debian-lts-announce/2022/01/msg00016.html
-    - https://lists.debian.org/debian-lts-announce/2022/01/msg00017.html
-    - https://lists.debian.org/debian-lts-announce/2023/04/msg00021.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-44716
-    - https://pkg.go.dev/vuln/GO-2022-0288
-    - https://security.gentoo.org/glsa/202208-02
-    - https://security.netapp.com/advisory/ntap-20220121-0002/
-    - https://www.cve.org/CVERecord?id=CVE-2021-44716
-    PublishedDate: '2022-01-01T05:15:00Z'
-    LastModifiedDate: '2023-04-20T00:15:00Z'
   - VulnerabilityID: CVE-2022-27664
     PkgName: golang.org/x/net
     InstalledVersion: v0.0.0-20210614182718-04defd469f4e
@@ -5774,9 +5509,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27664
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: handle server errors after sending GOAWAY
     Description: In net/http in Go before 1.18.6 and 1.19.x before 1.19.1, attackers can cause a denial of service because an HTTP/2 connection can hang during closing if shutdown were preempted by a fatal error.
     Severity: HIGH
@@ -5791,22 +5526,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2802
+    - https://access.redhat.com/errata/RHSA-2023:2357
     - https://access.redhat.com/security/cve/CVE-2022-27664
-    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
-    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
-    - https://bugzilla.redhat.com/2107390
-    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
-    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
-    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -5825,7 +5556,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/8/ALSA-2023-2802.html
+    - https://errata.almalinux.org/9/ALSA-2023-2357.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -5858,9 +5589,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41723
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: avoid quadratic complexity in HPACK decoding
     Description: A maliciously crafted HTTP/2 stream could cause excessive CPU consumption in the HPACK decoder, sufficient to cause a denial of service from a small number of small requests.
     Severity: HIGH
@@ -5894,59 +5625,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-41723
     PublishedDate: '2023-02-28T18:15:00Z'
     LastModifiedDate: '2023-05-16T10:50:00Z'
-  - VulnerabilityID: CVE-2022-41717
-    PkgName: golang.org/x/net
-    InstalledVersion: v0.0.0-20210614182718-04defd469f4e
-    FixedVersion: 0.4.0
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41717
-    DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
-    Title: excessive memory growth in a Go server accepting HTTP/2 requests
-    Description: An attacker can cause excessive memory growth in a Go server accepting HTTP/2 requests. HTTP/2 server connections contain a cache of HTTP header keys sent by the client. While the total number of entries in this cache is capped, an attacker sending very large keys can cause the server to allocate approximately 64 MiB per open connection.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-770
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:2866
-    - https://access.redhat.com/security/cve/CVE-2022-41717
-    - https://bugzilla.redhat.com/2132868
-    - https://bugzilla.redhat.com/2132872
-    - https://bugzilla.redhat.com/2161274
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41717
-    - https://errata.almalinux.org/8/ALSA-2023-2866.html
-    - https://github.com/advisories/GHSA-xrjj-mj9h-534m
-    - https://github.com/golang/go/commit/618120c165669c00a1606505defea6ca755cdc27 (go1.19.4)
-    - https://github.com/golang/go/commit/76cad4edc29d28432a7a0aa27e87385d3d7db7a1 (go1.18.9)
-    - https://go.dev/cl/455635
-    - https://go.dev/cl/455717
-    - https://go.dev/issue/56350
-    - https://groups.google.com/g/golang-announce/c/L_3rmdT0BMU
-    - https://groups.google.com/g/golang-announce/c/L_3rmdT0BMU/m/yZDrXjIiBQAJ
-    - https://linux.oracle.com/cve/CVE-2022-41717.html
-    - https://linux.oracle.com/errata/ELSA-2023-2866.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QBKBAZBIOXZV5QCFHZNSVXULR32XJCYD/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-41717
-    - https://pkg.go.dev/vuln/GO-2022-1144
-    - https://ubuntu.com/security/notices/USN-6038-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-41717
-    PublishedDate: '2022-12-08T20:15:00Z'
-    LastModifiedDate: '2023-07-04T03:15:00Z'
   - VulnerabilityID: CVE-2022-29526
     PkgName: golang.org/x/sys
     InstalledVersion: v0.0.0-20210630005230-0f9fa26af87c
@@ -5957,9 +5635,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-29526
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: faccessat checks wrong group
     Description: Go before 1.17.10 and 1.18.x before 1.18.2 has Incorrect Privilege Assignment. When called with a non-zero flags parameter, the Faccessat function could incorrectly report that a file is accessible.
     Severity: MEDIUM
@@ -6012,9 +5690,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-38561
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: out-of-bounds read in golang.org/x/text/language leads to DoS
     Description: golang.org/x/text/language in golang.org/x/text before 0.3.7 can panic with an out-of-bounds read during BCP 47 language tag parsing. Index calculation is mishandled. If parsing untrusted user input, this can be used as a vector for a denial-of-service attack.
     Severity: HIGH
@@ -6055,9 +5733,9 @@
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-32149
     DataSource:
-      ID: go-vulndb
-      Name: The Go Vulnerability Database
-      URL: https://github.com/golang/vulndb
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: ParseAcceptLanguage takes a long time to parse complex tags
     Description: An attacker may cause a denial of service by crafting an Accept-Language header which ParseAcceptLanguage will take significant time to parse.
     Severity: HIGH
