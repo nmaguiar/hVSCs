@@ -133,6 +133,7 @@
 │                        │       ├ PkgID           : curl@7.81.0-1ubuntu1.10 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ InstalledVersion: 7.81.0-1ubuntu1.10 
+│                        │       ├ FixedVersion    : 7.81.0-1ubuntu1.11 
 │                        │       ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b567
 │                        │       │                  │         1fd50fb3a2c76fed2e07cf10f08 
 │                        │       │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc7412192
@@ -182,13 +183,15 @@
 │                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
 │                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      609-0009/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
+│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
 │                        │       ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-06-16T19:17:00Z 
 │                        ├ [4]   ╭ VulnerabilityID : CVE-2023-28322 
 │                        │       ├ PkgID           : curl@7.81.0-1ubuntu1.10 
 │                        │       ├ PkgName         : curl 
 │                        │       ├ InstalledVersion: 7.81.0-1ubuntu1.10 
+│                        │       ├ FixedVersion    : 7.81.0-1ubuntu1.11 
 │                        │       ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b567
 │                        │       │                  │         1fd50fb3a2c76fed2e07cf10f08 
 │                        │       │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc7412192
@@ -233,7 +236,8 @@
 │                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
 │                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      609-0009/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
+│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
 │                        │       ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-06-16T16:40:00Z 
 │                        ├ [5]   ╭ VulnerabilityID : CVE-2023-34969 
@@ -970,6 +974,7 @@
 │                        │       ├ PkgID           : libcurl3-gnutls@7.81.0-1ubuntu1.10 
 │                        │       ├ PkgName         : libcurl3-gnutls 
 │                        │       ├ InstalledVersion: 7.81.0-1ubuntu1.10 
+│                        │       ├ FixedVersion    : 7.81.0-1ubuntu1.11 
 │                        │       ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b567
 │                        │       │                  │         1fd50fb3a2c76fed2e07cf10f08 
 │                        │       │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc7412192
@@ -1019,13 +1024,15 @@
 │                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
 │                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      609-0009/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
+│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
 │                        │       ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-06-16T19:17:00Z 
 │                        ├ [24]  ╭ VulnerabilityID : CVE-2023-28322 
 │                        │       ├ PkgID           : libcurl3-gnutls@7.81.0-1ubuntu1.10 
 │                        │       ├ PkgName         : libcurl3-gnutls 
 │                        │       ├ InstalledVersion: 7.81.0-1ubuntu1.10 
+│                        │       ├ FixedVersion    : 7.81.0-1ubuntu1.11 
 │                        │       ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b567
 │                        │       │                  │         1fd50fb3a2c76fed2e07cf10f08 
 │                        │       │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc7412192
@@ -1070,13 +1077,15 @@
 │                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
 │                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      609-0009/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
+│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
 │                        │       ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-06-16T16:40:00Z 
 │                        ├ [25]  ╭ VulnerabilityID : CVE-2023-28321 
 │                        │       ├ PkgID           : libcurl4@7.81.0-1ubuntu1.10 
 │                        │       ├ PkgName         : libcurl4 
 │                        │       ├ InstalledVersion: 7.81.0-1ubuntu1.10 
+│                        │       ├ FixedVersion    : 7.81.0-1ubuntu1.11 
 │                        │       ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b567
 │                        │       │                  │         1fd50fb3a2c76fed2e07cf10f08 
 │                        │       │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc7412192
@@ -1126,13 +1135,15 @@
 │                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
 │                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      609-0009/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
+│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
 │                        │       ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-06-16T19:17:00Z 
 │                        ├ [26]  ╭ VulnerabilityID : CVE-2023-28322 
 │                        │       ├ PkgID           : libcurl4@7.81.0-1ubuntu1.10 
 │                        │       ├ PkgName         : libcurl4 
 │                        │       ├ InstalledVersion: 7.81.0-1ubuntu1.10 
+│                        │       ├ FixedVersion    : 7.81.0-1ubuntu1.11 
 │                        │       ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b567
 │                        │       │                  │         1fd50fb3a2c76fed2e07cf10f08 
 │                        │       │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc7412192
@@ -1177,7 +1188,8 @@
 │                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
 │                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      609-0009/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
+│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
 │                        │       ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-06-16T16:40:00Z 
 │                        ├ [27]  ╭ VulnerabilityID : CVE-2023-34969 
@@ -1783,8 +1795,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : Issue summary: The AES-SIV cipher implementation
-│                        │       │                   contains a bug that c ... 
+│                        │       ├ Title           : AES-SIV cipher implementation contains a bug that
+│                        │       │                   causes it to ignore empty associated data entries 
 │                        │       ├ Description     : Issue summary: The AES-SIV cipher implementation
 │                        │       │                   contains a bug that causes
 │                        │       │                   it to ignore empty associated data entries which are
@@ -1820,17 +1832,23 @@
 │                        │       │                   associated data
 │                        │       │                   entries this is qualified as Low severity issue. 
 │                        │       ├ Severity        : LOW 
+│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/
+│                        │       │                           │           C:N/I:H/A:N 
+│                        │       │                           ╰ V3Score : 5.9 
 │                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023
 │                        │       │                  │      /07/15/1 
-│                        │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-2975 
+│                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │       │                  │      CVE-2023-2975 
-│                        │       │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a
+│                        │       │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a
 │                        │       │                  │      =commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba736785
 │                        │       │                  │      98 
-│                        │       │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a
+│                        │       │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a
 │                        │       │                  │      =commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5b
 │                        │       │                  │      dc 
-│                        │       │                  ╰ [4]: https://www.openssl.org/news/secadv/20230714.txt 
+│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
+│                        │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+│                        │       │                  ╰ [7]: https://www.openssl.org/news/secadv/20230714.txt 
 │                        │       ├ PublishedDate   : 2023-07-14T12:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-07-15T13:15:00Z 
 │                        ├ [43]  ╭ VulnerabilityID : CVE-2023-31437 
@@ -1962,27 +1980,37 @@
 │                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 5.5 
-│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:3827 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:3711 
 │                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       2-48281 
 │                        │       │                  ├ [2] : https://bugzilla.redhat.com/2163606 
-│                        │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
+│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2170119 
+│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2170146 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2170151 
+│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2170157 
+│                        │       │                  ├ [7] : https://bugzilla.redhat.com/2170162 
+│                        │       │                  ├ [8] : https://bugzilla.redhat.com/2170167 
+│                        │       │                  ├ [9] : https://bugzilla.redhat.com/2170172 
+│                        │       │                  ├ [10]: https://bugzilla.redhat.com/2170178 
+│                        │       │                  ├ [11]: https://bugzilla.redhat.com/2170187 
+│                        │       │                  ├ [12]: https://bugzilla.redhat.com/2170192 
+│                        │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2022-48281 
-│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2023-3827.html 
-│                        │       │                  ├ [5] : https://gitlab.com/libtiff/libtiff/-/commit/d1
+│                        │       │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2023-3711.html 
+│                        │       │                  ├ [15]: https://gitlab.com/libtiff/libtiff/-/commit/d1
 │                        │       │                  │       b6b9c1b3cae2d9e37754506c1ad8f4f7b646b5 
-│                        │       │                  ├ [6] : https://gitlab.com/libtiff/libtiff/-/issues/488 
-│                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2022-48281.html 
-│                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-3827.html 
-│                        │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2
+│                        │       │                  ├ [16]: https://gitlab.com/libtiff/libtiff/-/issues/488 
+│                        │       │                  ├ [17]: https://linux.oracle.com/cve/CVE-2022-48281.html 
+│                        │       │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2023-3827.html 
+│                        │       │                  ├ [19]: https://lists.debian.org/debian-lts-announce/2
 │                        │       │                  │       023/01/msg00037.html 
-│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2022-48281 
-│                        │       │                  ├ [11]: https://security.gentoo.org/glsa/202305-31 
-│                        │       │                  ├ [12]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2022-48281 
+│                        │       │                  ├ [21]: https://security.gentoo.org/glsa/202305-31 
+│                        │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-2023
 │                        │       │                  │       0302-0004/ 
-│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-5841-1 
-│                        │       │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2022-48281 
-│                        │       │                  ╰ [15]: https://www.debian.org/security/2023/dsa-5333 
+│                        │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-5841-1 
+│                        │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2022-48281 
+│                        │       │                  ╰ [25]: https://www.debian.org/security/2023/dsa-5333 
 │                        │       ├ PublishedDate   : 2023-01-23T03:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-30T06:16:00Z 
 │                        ├ [47]  ╭ VulnerabilityID : CVE-2018-10126 
@@ -2645,8 +2673,8 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : Issue summary: The AES-SIV cipher implementation
-│                        │       │                   contains a bug that c ... 
+│                        │       ├ Title           : AES-SIV cipher implementation contains a bug that
+│                        │       │                   causes it to ignore empty associated data entries 
 │                        │       ├ Description     : Issue summary: The AES-SIV cipher implementation
 │                        │       │                   contains a bug that causes
 │                        │       │                   it to ignore empty associated data entries which are
@@ -2682,17 +2710,23 @@
 │                        │       │                   associated data
 │                        │       │                   entries this is qualified as Low severity issue. 
 │                        │       ├ Severity        : LOW 
+│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/
+│                        │       │                           │           C:N/I:H/A:N 
+│                        │       │                           ╰ V3Score : 5.9 
 │                        │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023
 │                        │       │                  │      /07/15/1 
-│                        │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-2975 
+│                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │       │                  │      CVE-2023-2975 
-│                        │       │                  ├ [2]: https://git.openssl.org/gitweb/?p=openssl.git;a
+│                        │       │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a
 │                        │       │                  │      =commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba736785
 │                        │       │                  │      98 
-│                        │       │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a
+│                        │       │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a
 │                        │       │                  │      =commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5b
 │                        │       │                  │      dc 
-│                        │       │                  ╰ [4]: https://www.openssl.org/news/secadv/20230714.txt 
+│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
+│                        │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+│                        │       │                  ╰ [7]: https://www.openssl.org/news/secadv/20230714.txt 
 │                        │       ├ PublishedDate   : 2023-07-14T12:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-07-15T13:15:00Z 
 │                        ├ [63]  ╭ VulnerabilityID : CVE-2023-29383 
@@ -4990,23 +5024,34 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :L/I:L/A:L 
 │                        │      │                           ╰ V3Score : 7.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2020-7788 
-│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:6595 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2020-7788 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/1907444 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/1945459 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/1964461 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2007557 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2098556 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2102001 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2105422 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2105426 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2105428 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/2105430 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2020-7788 
-│                        │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2022-0350.html 
-│                        │      │                  ├ [3] : https://github.com/advisories/GHSA-qqgx-2p2h-9c37 
-│                        │      │                  ├ [4] : https://github.com/npm/ini/commit/56d2805e07ccd
+│                        │      │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2022-6595.html 
+│                        │      │                  ├ [14]: https://github.com/advisories/GHSA-qqgx-2p2h-9c37 
+│                        │      │                  ├ [15]: https://github.com/npm/ini/commit/56d2805e07ccd
 │                        │      │                  │       94e2ba0984ac9240ff02d44b6f1 
-│                        │      │                  ├ [5] : https://github.com/npm/ini/commit/56d2805e07ccd
+│                        │      │                  ├ [16]: https://github.com/npm/ini/commit/56d2805e07ccd
 │                        │      │                  │       94e2ba0984ac9240ff02d44b6f1 (v1.3.6) 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2020-7788.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2022-6595.html 
-│                        │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2020-7788.html 
+│                        │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2022-6595.html 
+│                        │      │                  ├ [19]: https://lists.debian.org/debian-lts-announce/20
 │                        │      │                  │       20/12/msg00032.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2020-7788 
-│                        │      │                  ├ [10]: https://snyk.io/vuln/SNYK-JS-INI-1048974 
-│                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2020-7788 
-│                        │      │                  ╰ [12]: https://www.npmjs.com/advisories/1589 
+│                        │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2020-7788 
+│                        │      │                  ├ [21]: https://snyk.io/vuln/SNYK-JS-INI-1048974 
+│                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2020-7788 
+│                        │      │                  ╰ [23]: https://www.npmjs.com/advisories/1589 
 │                        │      ├ PublishedDate   : 2020-12-11T11:15:00Z 
 │                        │      ╰ LastModifiedDate: 2022-12-02T19:40:00Z 
 │                        ├ [15] ╭ VulnerabilityID : CVE-2020-7712 
@@ -5666,752 +5711,580 @@
 │      │                  es-tools-1.3.13-universal/go.mod 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gomod 
-│      ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2021-43565 
-│                        │      ├ PkgID           : golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e 
-│                        │      ├ PkgName         : golang.org/x/crypto 
-│                        │      ├ InstalledVersion: 0.0.0-20210616213533-5ff15b29337e 
-│                        │      ├ FixedVersion    : 0.0.0-20211202192323-5770296d904e 
-│                        │      ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                        │      │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                        │      │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                        │      │                            3612b29e9cc8b897c14462b15d 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-43565 
-│                        │      ├ DataSource       ╭ ID  : go-vulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : empty plaintext packet causes panic 
-│                        │      ├ Description     : The x/crypto/ssh package before
-│                        │      │                   0.0.0-20211202192323-5770296d904e of golang.org/x/crypto
-│                        │      │                   allows an attacker to panic an SSH server. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-43565 
-│                        │      │                  ├ [1]: https://github.com/advisories/GHSA-gwc9-m7rh-j2ww 
-│                        │      │                  ├ [2]: https://go.dev/cl/368814/ 
-│                        │      │                  ├ [3]: https://go.dev/issues/49932 
-│                        │      │                  ├ [4]: https://groups.google.com/forum/#!forum/golang-a
-│                        │      │                  │      nnounce 
-│                        │      │                  ├ [5]: https://groups.google.com/g/golang-announce/c/2A
-│                        │      │                  │      R1sKiM-Qs 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2021-43565 
-│                        │      │                  ├ [7]: https://pkg.go.dev/vuln/GO-2022-0968 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2021-43565 
-│                        │      ├ PublishedDate   : 2022-09-06T18:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-09-09T03:38:00Z 
-│                        ├ [1]  ╭ VulnerabilityID : CVE-2022-27191 
-│                        │      ├ PkgID           : golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e 
-│                        │      ├ PkgName         : golang.org/x/crypto 
-│                        │      ├ InstalledVersion: 0.0.0-20210616213533-5ff15b29337e 
-│                        │      ├ FixedVersion    : 0.0.0-20220314234659-1baeb1ce4c0b 
-│                        │      ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                        │      │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                        │      │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                        │      │                            3612b29e9cc8b897c14462b15d 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27191 
-│                        │      ├ DataSource       ╭ ID  : go-vulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : crash in a golang.org/x/crypto/ssh server 
-│                        │      ├ Description     : The golang.org/x/crypto/ssh package before
-│                        │      │                   0.0.0-20220314234659-1baeb1ce4c0b for Go allows an attacker
-│                        │      │                    to crash a server in certain circumstances involving
-│                        │      │                   AddHostKey. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-327 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ├ V2Score : 4.3 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:7469 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022
-│                        │      │                  │       -27191 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2064702 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2085361 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2086398 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2022-7469.html 
-│                        │      │                  ├ [6] : https://github.com/advisories/GHSA-8c26-wmh5-6g9v 
-│                        │      │                  ├ [7] : https://go.dev/cl/392355 
-│                        │      │                  ├ [8] : https://go.googlesource.com/crypto/+/1baeb1ce4c
-│                        │      │                  │       0b006eff0f294c47cb7617598dfb3d 
-│                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce 
-│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/-
-│                        │      │                  │       cp44ypCT5s 
-│                        │      │                  ├ [11]: https://groups.google.com/g/golang-announce/c/-
-│                        │      │                  │       cp44ypCT5s/m/wmegxkLiAQAJ 
-│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2022-27191.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2022-8008.html 
-│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/DLUJ
-│                        │      │                  │       ZV3HBP56ADXU6QH2V7RNYUPMVBXQ/ 
-│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/EZ3S
-│                        │      │                  │       7LB65N54HXXBCB67P4TTOHTNPP5O/ 
-│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/HHGB
-│                        │      │                  │       EGJ54DZZGTXFUQNS7ZIG3E624YAF/ 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/J5WP
-│                        │      │                  │       M42UR6XIBQNQPNQHM32X7S4LJTRX/ 
-│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QTFO
-│                        │      │                  │       IDHQRGNI4P6LYN6ILH5G443RYYKB/ 
-│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/RQXU
-│                        │      │                  │       752ALW53OJAF5MG3WMR5CCZVLWW6/ 
-│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/YHYR
-│                        │      │                  │       QB7TRMHDB3NEHW5XBRG7PPMUTPGV/ 
-│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z55V
-│                        │      │                  │       UVGO7E5PJFXIOVAY373NZRHBNCI5/ 
-│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/ZFUN
-│                        │      │                  │       HFHQVJSADNH7EZ3B53CYDZVEEPBP/ 
-│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/ZQNP
-│                        │      │                  │       PQWSTP2IX7SHE6TS4SP4EVMI5EZK/ 
-│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/ZY2S
-│                        │      │                  │       LWOQR4ZURQ7UBRZ7JIX6H6F5JHJR/ 
-│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2022-27191 
-│                        │      │                  ├ [26]: https://pkg.go.dev/vuln/GO-2021-0356 
-│                        │      │                  ├ [27]: https://raw.githubusercontent.com/golang/vulndb
-│                        │      │                  │       /df2d3d326300e2ae768f00351ffa96cc2c56cf54/reports/GO
-│                        │      │                  │       -2021-0356.yaml 
-│                        │      │                  ├ [28]: https://security.netapp.com/advisory/ntap-20220
-│                        │      │                  │       429-0002/ 
-│                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2022-27191 
-│                        │      ├ PublishedDate   : 2022-03-18T07:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-10-26T17:52:00Z 
-│                        ├ [2]  ╭ VulnerabilityID : CVE-2021-33194 
-│                        │      ├ PkgID           : golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ PkgName         : golang.org/x/net 
-│                        │      ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ FixedVersion    : 0.0.0-20210520170846-37e1c6afe023 
-│                        │      ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                        │      │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                        │      │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                        │      │                            3612b29e9cc8b897c14462b15d 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-33194 
-│                        │      ├ DataSource       ╭ ID  : go-vulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : golang: x/net/html: infinite loop in ParseFragment 
-│                        │      ├ Description     : golang.org/x/net before
-│                        │      │                   v0.0.0-20210520170846-37e1c6afe023 allows attackers to
-│                        │      │                   cause a denial of service (infinite loop) via crafted
-│                        │      │                   ParseFragment input. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-835 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ├ V2Score : 5 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2021
-│                        │      │                  │       -33194 
-│                        │      │                  ├ [1] : https://github.com/advisories/GHSA-83g2-8m93-v3w7 
-│                        │      │                  ├ [2] : https://github.com/golang/net/commit/37e1c6afe0
-│                        │      │                  │       2340126705deced573a85ab75209d7 
-│                        │      │                  ├ [3] : https://go.dev/cl/311090 
-│                        │      │                  ├ [4] : https://go.dev/issue/46288 
-│                        │      │                  ├ [5] : https://go.googlesource.com/net/+/37e1c6afe0234
-│                        │      │                  │       0126705deced573a85ab75209d7 
-│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/w
-│                        │      │                  │       PunbCPkWUg 
-│                        │      │                  ├ [7] : https://groups.google.com/g/golang-dev/c/28x0nt
-│                        │      │                  │       hP-c8/m/KqWVTjsnBAAJ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/4CHK
-│                        │      │                  │       SFMHZVOBCZSSVRE3UEYNKARTBMTM/ 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2021-33194 
-│                        │      │                  ├ [10]: https://pkg.go.dev/vuln/GO-2021-0238 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2021-33194 
-│                        │      ├ PublishedDate   : 2021-05-26T15:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-06-03T19:29:00Z 
-│                        ├ [3]  ╭ VulnerabilityID : CVE-2021-44716 
-│                        │      ├ PkgID           : golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ PkgName         : golang.org/x/net 
-│                        │      ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ FixedVersion    : 0.0.0-20211209124913-491a49abca63 
-│                        │      ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                        │      │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                        │      │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                        │      │                            3612b29e9cc8b897c14462b15d 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-44716 
-│                        │      ├ DataSource       ╭ ID  : go-vulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : golang: net/http: limit growth of header
-│                        │      │                   canonicalization cache 
-│                        │      ├ Description     : net/http in Go before 1.16.12 and 1.17.x before 1.17.5
-│                        │      │                    allows uncontrolled memory consumption in the header
-│                        │      │                   canonicalization cache via HTTP/2 requests. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-400 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ├ V2Score : 5 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2021
-│                        │      │                  │       -44716 
-│                        │      │                  ├ [1] : https://cert-portal.siemens.com/productcert/pdf
-│                        │      │                  │       /ssa-744259.pdf 
-│                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2021-44716 
-│                        │      │                  ├ [3] : https://github.com/advisories/GHSA-vc3p-29h2-gpcp 
-│                        │      │                  ├ [4] : https://github.com/golang/go/commit/48d948963c5
-│                        │      │                  │       ce7add72af5665a871caff6c1d35a (go1.17.5) 
-│                        │      │                  ├ [5] : https://github.com/golang/net/commit/491a49abca
-│                        │      │                  │       63de5e07ef554052d180a1b5fe2d70 
-│                        │      │                  ├ [6] : https://go.dev/cl/369794 
-│                        │      │                  ├ [7] : https://go.dev/issue/50058 
-│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/h
-│                        │      │                  │       cmEScgc00k 
-│                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/h
-│                        │      │                  │       cmEScgc00k/m/ZWnOjeY4CQAJ 
-│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2021-44716.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2022-0001.html 
-│                        │      │                  ├ [12]: https://lists.debian.org/debian-lts-announce/20
-│                        │      │                  │       22/01/msg00016.html 
-│                        │      │                  ├ [13]: https://lists.debian.org/debian-lts-announce/20
-│                        │      │                  │       22/01/msg00017.html 
-│                        │      │                  ├ [14]: https://lists.debian.org/debian-lts-announce/20
-│                        │      │                  │       23/04/msg00021.html 
-│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2021-44716 
-│                        │      │                  ├ [16]: https://pkg.go.dev/vuln/GO-2022-0288 
-│                        │      │                  ├ [17]: https://security.gentoo.org/glsa/202208-02 
-│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20220
-│                        │      │                  │       121-0002/ 
-│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2021-44716 
-│                        │      ├ PublishedDate   : 2022-01-01T05:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-04-20T00:15:00Z 
-│                        ├ [4]  ╭ VulnerabilityID : CVE-2022-27664 
-│                        │      ├ PkgID           : golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ PkgName         : golang.org/x/net 
-│                        │      ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ FixedVersion    : 0.0.0-20220906165146-f3363e06e74c 
-│                        │      ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                        │      │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                        │      │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                        │      │                            3612b29e9cc8b897c14462b15d 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27664 
-│                        │      ├ DataSource       ╭ ID  : go-vulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : handle server errors after sending GOAWAY 
-│                        │      ├ Description     : In net/http in Go before 1.18.6 and 1.19.x before
-│                        │      │                   1.19.1, attackers can cause a denial of service because an
-│                        │      │                   HTTP/2 connection can hang during closing if shutdown were
-│                        │      │                   preempted by a fatal error. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2802 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022
-│                        │      │                  │       -27664 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2107342 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2107371 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2107374 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2107376 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2107383 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2107386 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2107388 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2107390 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2107392 
-│                        │      │                  ├ [11]: https://bugzilla.redhat.com/2113814 
-│                        │      │                  ├ [12]: https://bugzilla.redhat.com/2121445 
-│                        │      │                  ├ [13]: https://bugzilla.redhat.com/2124669 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2161274 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2168256 
-│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
-│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
-│                        │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
-│                        │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
-│                        │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
-│                        │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
-│                        │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
-│                        │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
-│                        │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2020-28851 
-│                        │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2020-28852 
-│                        │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-1705 
-│                        │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-27664 
-│                        │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-30630 
-│                        │      │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-30632 
-│                        │      │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-30635 
-│                        │      │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-32148 
-│                        │      │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-32189 
-│                        │      │                  ├ [34]: https://errata.almalinux.org/8/ALSA-2023-2802.html 
-│                        │      │                  ├ [35]: https://errata.rockylinux.org/RLSA-2022:7129 
-│                        │      │                  ├ [36]: https://github.com/advisories/GHSA-69cg-p879-7622 
-│                        │      │                  ├ [37]: https://github.com/golang/go/commit/5bc9106458f
-│                        │      │                  │       c07851ac324a4157132a91b1f3479 (go1.18.6) 
-│                        │      │                  ├ [38]: https://github.com/golang/go/commit/9cfe4e258b1
-│                        │      │                  │       c9d4a04a42539c21c7bdb2e227824 (go1.19.1) 
-│                        │      │                  ├ [39]: https://github.com/golang/go/issues/54658 
-│                        │      │                  ├ [40]: https://go.dev/cl/428735 
-│                        │      │                  ├ [41]: https://go.dev/issue/54658 
-│                        │      │                  ├ [42]: https://groups.google.com/g/golang-announce 
-│                        │      │                  ├ [43]: https://groups.google.com/g/golang-announce/c/x
-│                        │      │                  │       49AQzIVX-s 
-│                        │      │                  ├ [44]: https://groups.google.com/g/golang-announce/c/x
-│                        │      │                  │       49AQzIVX-s/m/0tgO0pjiBQAJ 
-│                        │      │                  ├ [45]: https://linux.oracle.com/cve/CVE-2022-27664.html 
-│                        │      │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
-│                        │      │                  ├ [47]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/JXKT
-│                        │      │                  │       HIGE5F576MAPFYCIJXNRGBSPISUF/ 
-│                        │      │                  ├ [48]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/TXS2
-│                        │      │                  │       OQ57KZC5XZKK5UW4SYKPVQAHIOJX/ 
-│                        │      │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
-│                        │      │                  ├ [50]: https://pkg.go.dev/vuln/GO-2022-0969 
-│                        │      │                  ├ [51]: https://security.gentoo.org/glsa/202209-26 
-│                        │      │                  ├ [52]: https://security.netapp.com/advisory/ntap-20220
-│                        │      │                  │       923-0004/ 
-│                        │      │                  ├ [53]: https://ubuntu.com/security/notices/USN-6038-1 
-│                        │      │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
-│                        │      ├ PublishedDate   : 2022-09-06T18:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-10-28T12:42:00Z 
-│                        ├ [5]  ╭ VulnerabilityID : CVE-2022-41723 
-│                        │      ├ PkgID           : golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ PkgName         : golang.org/x/net 
-│                        │      ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ FixedVersion    : 0.7.0 
-│                        │      ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                        │      │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                        │      │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                        │      │                            3612b29e9cc8b897c14462b15d 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-41723 
-│                        │      ├ DataSource       ╭ ID  : go-vulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : avoid quadratic complexity in HPACK decoding 
-│                        │      ├ Description     : A maliciously crafted HTTP/2 stream could cause
-│                        │      │                   excessive CPU consumption in the HPACK decoder, sufficient
-│                        │      │                   to cause a denial of service from a small number of small
-│                        │      │                   requests. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-400 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022
-│                        │      │                  │       -41723 
-│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-41723 
-│                        │      │                  ├ [2] : https://github.com/advisories/GHSA-vvpx-j8f3-3w6h 
-│                        │      │                  ├ [3] : https://go.dev/cl/468135 
-│                        │      │                  ├ [4] : https://go.dev/cl/468295 
-│                        │      │                  ├ [5] : https://go.dev/issue/57855 
-│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/V
-│                        │      │                  │       0aBFqaFs_E 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/4MA5
-│                        │      │                  │       XS5DAOJ5PKKNG5TUXKPQOFHT5VBC/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/RGW7
-│                        │      │                  │       GE2Z32ZT47UFAQFDRQE33B7Q7LMT/ 
-│                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/RLBQ
-│                        │      │                  │       3A7ROLEQXQLXFDLNJ7MYPKG5GULE/ 
-│                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/XX3I
-│                        │      │                  │       MUTZKRQ73PBZM4E2JP4BKYH4C6XE/ 
-│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2022-41723 
-│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2023-1571 
-│                        │      │                  ├ [13]: https://vuln.go.dev/ID/GO-2023-1571.json 
-│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2022-41723 
-│                        │      ├ PublishedDate   : 2023-02-28T18:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-05-16T10:50:00Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2021-31525 
-│                        │      ├ PkgID           : golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ PkgName         : golang.org/x/net 
-│                        │      ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ FixedVersion    : 0.0.0-20210428140749-89ef3d95e781 
-│                        │      ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                        │      │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                        │      │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                        │      │                            3612b29e9cc8b897c14462b15d 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31525 
-│                        │      ├ DataSource       ╭ ID  : go-vulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : golang: net/http: panic in ReadRequest and
-│                        │      │                   ReadResponse when reading a very large header 
-│                        │      ├ Description     : net/http in Go before 1.15.12 and 1.16.x before 1.16.4
-│                        │      │                    allows remote attackers to cause a denial of service
-│                        │      │                   (panic) via a large header to ReadRequest or ReadResponse.
-│                        │      │                   Server, Transport, and Client can each be affected in some
-│                        │      │                   configurations. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-674 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 5.9 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:H/Au:N/C:N/I:N/A:P 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ├ V2Score : 2.6 
-│                        │      │                  │        ╰ V3Score : 5.9 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2021
-│                        │      │                  │       -31525 
-│                        │      │                  ├ [1] : https://github.com/advisories/GHSA-h86h-8ppg-mxmh 
-│                        │      │                  ├ [2] : https://github.com/golang/go/issues/45710 
-│                        │      │                  ├ [3] : https://go.dev/cl/313069 
-│                        │      │                  ├ [4] : https://go.dev/issue/45710 
-│                        │      │                  ├ [5] : https://go.googlesource.com/net/+/89ef3d95e7811
-│                        │      │                  │       48a0951956029c92a211477f7f9 
-│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce/c/c
-│                        │      │                  │       u9SP4eSXMc 
-│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2021-31525.html 
-│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2021-3076.html 
-│                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/ISRZ
-│                        │      │                  │       Z6NY5R2TBYE72KZFOCO25TEUQTBF/ 
-│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2021-31525 
-│                        │      │                  ├ [11]: https://pkg.go.dev/vuln/GO-2022-0236 
-│                        │      │                  ├ [12]: https://security.gentoo.org/glsa/202208-02 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2021-31525 
-│                        │      ├ PublishedDate   : 2021-05-27T13:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-11-09T03:32:00Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2022-41717 
-│                        │      ├ PkgID           : golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ PkgName         : golang.org/x/net 
-│                        │      ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
-│                        │      ├ FixedVersion    : 0.4.0 
-│                        │      ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                        │      │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                        │      │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                        │      │                            3612b29e9cc8b897c14462b15d 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-41717 
-│                        │      ├ DataSource       ╭ ID  : go-vulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : excessive memory growth in a Go server accepting
-│                        │      │                   HTTP/2 requests 
-│                        │      ├ Description     : An attacker can cause excessive memory growth in a Go
-│                        │      │                   server accepting HTTP/2 requests. HTTP/2 server connections
-│                        │      │                    contain a cache of HTTP header keys sent by the client.
-│                        │      │                   While the total number of entries in this cache is capped,
-│                        │      │                   an attacker sending very large keys can cause the server to
-│                        │      │                    allocate approximately 64 MiB per open connection.[
-│                        │      │                   m 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-770 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:L 
-│                        │      │                  │        ╰ V3Score : 5.3 
-│                        │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:L 
-│                        │      │                  │        ╰ V3Score : 5.3 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:L 
-│                        │      │                           ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2866 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022
-│                        │      │                  │       -41717 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2132868 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2132872 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2161274 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-41717 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2023-2866.html 
-│                        │      │                  ├ [7] : https://github.com/advisories/GHSA-xrjj-mj9h-534m 
-│                        │      │                  ├ [8] : https://github.com/golang/go/commit/618120c1656
-│                        │      │                  │       69c00a1606505defea6ca755cdc27 (go1.19.4) 
-│                        │      │                  ├ [9] : https://github.com/golang/go/commit/76cad4edc29
-│                        │      │                  │       d28432a7a0aa27e87385d3d7db7a1 (go1.18.9) 
-│                        │      │                  ├ [10]: https://go.dev/cl/455635 
-│                        │      │                  ├ [11]: https://go.dev/cl/455717 
-│                        │      │                  ├ [12]: https://go.dev/issue/56350 
-│                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/L
-│                        │      │                  │       _3rmdT0BMU 
-│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/L
-│                        │      │                  │       _3rmdT0BMU/m/yZDrXjIiBQAJ 
-│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2022-41717.html 
-│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2023-2866.html 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QBKB
-│                        │      │                  │       AZBIOXZV5QCFHZNSVXULR32XJCYD/ 
-│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2022-41717 
-│                        │      │                  ├ [19]: https://pkg.go.dev/vuln/GO-2022-1144 
-│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6038-1 
-│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2022-41717 
-│                        │      ├ PublishedDate   : 2022-12-08T20:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-07-04T03:15:00Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2022-29526 
-│                        │      ├ PkgID           : golang.org/x/sys@v0.0.0-20210615035016-665e8c7367d1 
-│                        │      ├ PkgName         : golang.org/x/sys 
-│                        │      ├ InstalledVersion: 0.0.0-20210615035016-665e8c7367d1 
-│                        │      ├ FixedVersion    : 0.0.0-20220412211240-33da011f77ad 
-│                        │      ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                        │      │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                        │      │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                        │      │                            3612b29e9cc8b897c14462b15d 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-29526 
-│                        │      ├ DataSource       ╭ ID  : go-vulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : faccessat checks wrong group 
-│                        │      ├ Description     : Go before 1.17.10 and 1.18.x before 1.18.2 has
-│                        │      │                   Incorrect Privilege Assignment. When called with a non-zero
-│                        │      │                    flags parameter, the Faccessat function could incorrectly
-│                        │      │                   report that a file is accessible. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-269 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :L/I:N/A:N 
-│                        │      │                  │        ╰ V3Score : 5.3 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:N/A:N 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :L/I:N/A:N 
-│                        │      │                  │        ├ V2Score : 5 
-│                        │      │                  │        ╰ V3Score : 5.3 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 6.2 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022
-│                        │      │                  │       -29526 
-│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-29526 
-│                        │      │                  ├ [2] : https://github.com/advisories/GHSA-p782-xgp4-8hr8 
-│                        │      │                  ├ [3] : https://github.com/golang/go/commit/f66925e854e
-│                        │      │                  │       71e0c54b581885380a490d7afa30c 
-│                        │      │                  ├ [4] : https://github.com/golang/go/issues/52313 
-│                        │      │                  ├ [5] : https://go.dev/cl/399539 
-│                        │      │                  ├ [6] : https://go.dev/cl/400074 
-│                        │      │                  ├ [7] : https://go.dev/issue/52313 
-│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce 
-│                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce/c/Y
-│                        │      │                  │       5qrqw_lWdU 
-│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2022-29526.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2022-5337.html 
-│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Q6GE
-│                        │      │                  │       5EQGE4L2KRVGW4T75QVIYAXCLO5X/ 
-│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/RQXU
-│                        │      │                  │       752ALW53OJAF5MG3WMR5CCZVLWW6/ 
-│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z55V
-│                        │      │                  │       UVGO7E5PJFXIOVAY373NZRHBNCI5/ 
-│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/ZY2S
-│                        │      │                  │       LWOQR4ZURQ7UBRZ7JIX6H6F5JHJR/ 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2022-29526 
-│                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2022-0493 
-│                        │      │                  ├ [18]: https://security.gentoo.org/glsa/202208-02 
-│                        │      │                  ├ [19]: https://security.netapp.com/advisory/ntap-20220
-│                        │      │                  │       729-0001/ 
-│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6038-1 
-│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2022-29526 
-│                        │      ├ PublishedDate   : 2022-06-23T17:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-08-19T12:50:00Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2021-38561 
-│                        │      ├ PkgID           : golang.org/x/text@v0.3.3 
-│                        │      ├ PkgName         : golang.org/x/text 
-│                        │      ├ InstalledVersion: 0.3.3 
-│                        │      ├ FixedVersion    : 0.3.7 
-│                        │      ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                        │      │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                        │      │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                        │      │                            3612b29e9cc8b897c14462b15d 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-38561 
-│                        │      ├ DataSource       ╭ ID  : go-vulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : out-of-bounds read in golang.org/x/text/language leads
-│                        │      │                    to DoS 
-│                        │      ├ Description     : golang.org/x/text/language in golang.org/x/text before
-│                        │      │                    0.3.7 can panic with an out-of-bounds read during BCP 47
-│                        │      │                   language tag parsing. Index calculation is mishandled. If
-│                        │      │                   parsing untrusted user input, this can be used as a vector
-│                        │      │                   for a denial-of-service attack. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-125 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2021
-│                        │      │                  │       -38561 
-│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2021-38561 
-│                        │      │                  ├ [2] : https://deps.dev/advisory/OSV/GO-2021-0113 
-│                        │      │                  ├ [3] : https://github.com/advisories/GHSA-ppp9-7jff-5vj2 
-│                        │      │                  ├ [4] : https://go.dev/cl/340830 
-│                        │      │                  ├ [5] : https://go.googlesource.com/text/+/383b2e75a7a4
-│                        │      │                  │       198c42f8f87833eefb772868a56f 
-│                        │      │                  ├ [6] : https://groups.google.com/g/golang-announce 
-│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2021-38561 
-│                        │      │                  ├ [8] : https://pkg.go.dev/golang.org/x/text/language 
-│                        │      │                  ├ [9] : https://pkg.go.dev/vuln/GO-2021-0113 
-│                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-5873-1 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2021-38561 
-│                        │      ├ PublishedDate   : 2022-12-26T06:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-01-05T04:52:00Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2022-32149 
-│                        │      ├ PkgID           : golang.org/x/text@v0.3.3 
-│                        │      ├ PkgName         : golang.org/x/text 
-│                        │      ├ InstalledVersion: 0.3.3 
-│                        │      ├ FixedVersion    : 0.3.8 
-│                        │      ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                        │      │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                        │      │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                        │      │                            3612b29e9cc8b897c14462b15d 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-32149 
-│                        │      ├ DataSource       ╭ ID  : go-vulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://github.com/golang/vulndb 
-│                        │      ├ Title           : ParseAcceptLanguage takes a long time to parse complex tags 
-│                        │      ├ Description     : An attacker may cause a denial of service by crafting
-│                        │      │                   an Accept-Language header which ParseAcceptLanguage will
-│                        │      │                   take significant time to parse. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-772 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022
-│                        │      │                  │       -32149 
-│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-32149 
-│                        │      │                  ├ [2] : https://github.com/advisories/GHSA-69ch-w2m2-3vjp 
-│                        │      │                  ├ [3] : https://github.com/golang/go/issues/56152 
-│                        │      │                  ├ [4] : https://github.com/golang/text/commit/434eadcdb
-│                        │      │                  │       c3b0256971992e8c70027278364c72c 
-│                        │      │                  ├ [5] : https://github.com/golang/text/commit/434eadcdb
-│                        │      │                  │       c3b0256971992e8c70027278364c72c (v0.3.8) 
-│                        │      │                  ├ [6] : https://go.dev/cl/442235 
-│                        │      │                  ├ [7] : https://go.dev/issue/56152 
-│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/-
-│                        │      │                  │       hjNw559_tE/m/KlGTfid5CAAJ 
-│                        │      │                  ├ [9] : https://groups.google.com/g/golang-dev/c/qfPIly0X7aU 
-│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2022-32149 
-│                        │      │                  ├ [11]: https://pkg.go.dev/vuln/GO-2022-1059 
-│                        │      │                  ├ [12]: https://ubuntu.com/security/notices/USN-5873-1 
-│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2022-32149 
-│                        │      ├ PublishedDate   : 2022-10-14T15:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-10-18T17:41:00Z 
-│                        ╰ [11] ╭ VulnerabilityID : CVE-2022-28948 
-│                               ├ PkgID           : gopkg.in/yaml.v3@v3.0.0-20200313102051-9f266ea9e77c 
-│                               ├ PkgName         : gopkg.in/yaml.v3 
-│                               ├ InstalledVersion: 3.0.0-20200313102051-9f266ea9e77c 
-│                               ├ FixedVersion    : 3.0.0-20220521103104-8f96da9f5d5e 
-│                               ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671
-│                               │                  │         fd50fb3a2c76fed2e07cf10f08 
-│                               │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc74121929
-│                               │                            3612b29e9cc8b897c14462b15d 
-│                               ├ SeveritySource  : ghsa 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-28948 
-│                               ├ DataSource       ╭ ID  : go-vulndb 
-│                               │                  ├ Name: The Go Vulnerability Database 
-│                               │                  ╰ URL : https://github.com/golang/vulndb 
-│                               ├ Title           : crash when attempting to deserialize invalid input 
-│                               ├ Description     : An issue in the Unmarshal function in Go-Yaml v3
-│                               │                   causes the program to crash when attempting to deserialize
-│                               │                   invalid input. 
-│                               ├ Severity        : HIGH 
-│                               ├ CweIDs           ─ [0]: CWE-502 
-│                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                               │                  │        │           :N/I:N/A:H 
-│                               │                  │        ╰ V3Score : 7.5 
-│                               │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P 
-│                               │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                               │                  │        │           :N/I:N/A:H 
-│                               │                  │        ├ V2Score : 5 
-│                               │                  │        ╰ V3Score : 7.5 
-│                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                               │                           │           :N/I:N/A:H 
-│                               │                           ╰ V3Score : 7.5 
-│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-28948 
-│                               │                  ├ [1]: https://github.com/advisories/GHSA-hp87-p4gw-j4gq 
-│                               │                  ├ [2]: https://github.com/go-yaml/yaml/commit/8f96da9f5
-│                               │                  │      d5eff988554c1aae1784627c4bf6754 
-│                               │                  ├ [3]: https://github.com/go-yaml/yaml/issues/666 
-│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2022-28948 
-│                               │                  ├ [5]: https://security.netapp.com/advisory/ntap-202209
-│                               │                  │      23-0006/ 
-│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2022-28948 
-│                               ├ PublishedDate   : 2022-05-19T20:15:00Z 
-│                               ╰ LastModifiedDate: 2022-10-28T19:06:00Z 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2021-43565 
+│                        │     ├ PkgID           : golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e 
+│                        │     ├ PkgName         : golang.org/x/crypto 
+│                        │     ├ InstalledVersion: 0.0.0-20210616213533-5ff15b29337e 
+│                        │     ├ FixedVersion    : 0.0.0-20211202192323-5770296d904e 
+│                        │     ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671f
+│                        │     │                  │         d50fb3a2c76fed2e07cf10f08 
+│                        │     │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc741219293
+│                        │     │                            612b29e9cc8b897c14462b15d 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-43565 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : empty plaintext packet causes panic 
+│                        │     ├ Description     : The x/crypto/ssh package before
+│                        │     │                   0.0.0-20211202192323-5770296d904e of golang.org/x/crypto
+│                        │     │                   allows an attacker to panic an SSH server. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-43565 
+│                        │     │                  ├ [1]: https://github.com/advisories/GHSA-gwc9-m7rh-j2ww 
+│                        │     │                  ├ [2]: https://go.dev/cl/368814/ 
+│                        │     │                  ├ [3]: https://go.dev/issues/49932 
+│                        │     │                  ├ [4]: https://groups.google.com/forum/#!forum/golang-an
+│                        │     │                  │      nounce 
+│                        │     │                  ├ [5]: https://groups.google.com/g/golang-announce/c/2AR
+│                        │     │                  │      1sKiM-Qs 
+│                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2021-43565 
+│                        │     │                  ├ [7]: https://pkg.go.dev/vuln/GO-2022-0968 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2021-43565 
+│                        │     ├ PublishedDate   : 2022-09-06T18:15:00Z 
+│                        │     ╰ LastModifiedDate: 2022-09-09T03:38:00Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2022-27191 
+│                        │     ├ PkgID           : golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e 
+│                        │     ├ PkgName         : golang.org/x/crypto 
+│                        │     ├ InstalledVersion: 0.0.0-20210616213533-5ff15b29337e 
+│                        │     ├ FixedVersion    : 0.0.0-20220314234659-1baeb1ce4c0b 
+│                        │     ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671f
+│                        │     │                  │         d50fb3a2c76fed2e07cf10f08 
+│                        │     │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc741219293
+│                        │     │                            612b29e9cc8b897c14462b15d 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27191 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : crash in a golang.org/x/crypto/ssh server 
+│                        │     ├ Description     : The golang.org/x/crypto/ssh package before
+│                        │     │                   0.0.0-20220314234659-1baeb1ce4c0b for Go allows an attacker
+│                        │     │                   to crash a server in certain circumstances involving
+│                        │     │                   AddHostKey. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CweIDs           ─ [0]: CWE-327 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ├ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P 
+│                        │     │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ├ V2Score : 4.3 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:8008 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-27191 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/1939485 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/1989564 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/1989570 
+│                        │     │                  ├ [5] : https://bugzilla.redhat.com/1989575 
+│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2064702 
+│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2121445 
+│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2121453 
+│                        │     │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2022-8008.html 
+│                        │     │                  ├ [10]: https://github.com/advisories/GHSA-8c26-wmh5-6g9v 
+│                        │     │                  ├ [11]: https://go.dev/cl/392355 
+│                        │     │                  ├ [12]: https://go.googlesource.com/crypto/+/1baeb1ce4c0
+│                        │     │                  │       b006eff0f294c47cb7617598dfb3d 
+│                        │     │                  ├ [13]: https://groups.google.com/g/golang-announce 
+│                        │     │                  ├ [14]: https://groups.google.com/g/golang-announce/c/-c
+│                        │     │                  │       p44ypCT5s 
+│                        │     │                  ├ [15]: https://groups.google.com/g/golang-announce/c/-c
+│                        │     │                  │       p44ypCT5s/m/wmegxkLiAQAJ 
+│                        │     │                  ├ [16]: https://linux.oracle.com/cve/CVE-2022-27191.html 
+│                        │     │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2022-8008.html 
+│                        │     │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/DLUJZV
+│                        │     │                  │       3HBP56ADXU6QH2V7RNYUPMVBXQ/ 
+│                        │     │                  ├ [19]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/EZ3S7L
+│                        │     │                  │       B65N54HXXBCB67P4TTOHTNPP5O/ 
+│                        │     │                  ├ [20]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/HHGBEG
+│                        │     │                  │       J54DZZGTXFUQNS7ZIG3E624YAF/ 
+│                        │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/J5WPM4
+│                        │     │                  │       2UR6XIBQNQPNQHM32X7S4LJTRX/ 
+│                        │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QTFOID
+│                        │     │                  │       HQRGNI4P6LYN6ILH5G443RYYKB/ 
+│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/RQXU75
+│                        │     │                  │       2ALW53OJAF5MG3WMR5CCZVLWW6/ 
+│                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/YHYRQB
+│                        │     │                  │       7TRMHDB3NEHW5XBRG7PPMUTPGV/ 
+│                        │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/Z55VUV
+│                        │     │                  │       GO7E5PJFXIOVAY373NZRHBNCI5/ 
+│                        │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ZFUNHF
+│                        │     │                  │       HQVJSADNH7EZ3B53CYDZVEEPBP/ 
+│                        │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ZQNPPQ
+│                        │     │                  │       WSTP2IX7SHE6TS4SP4EVMI5EZK/ 
+│                        │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ZY2SLW
+│                        │     │                  │       OQR4ZURQ7UBRZ7JIX6H6F5JHJR/ 
+│                        │     │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2022-27191 
+│                        │     │                  ├ [30]: https://pkg.go.dev/vuln/GO-2021-0356 
+│                        │     │                  ├ [31]: https://raw.githubusercontent.com/golang/vulndb/
+│                        │     │                  │       df2d3d326300e2ae768f00351ffa96cc2c56cf54/reports/GO-2
+│                        │     │                  │       021-0356.yaml 
+│                        │     │                  ├ [32]: https://security.netapp.com/advisory/ntap-202204
+│                        │     │                  │       29-0002/ 
+│                        │     │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2022-27191 
+│                        │     ├ PublishedDate   : 2022-03-18T07:15:00Z 
+│                        │     ╰ LastModifiedDate: 2022-10-26T17:52:00Z 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2021-33194 
+│                        │     ├ PkgID           : golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
+│                        │     ├ FixedVersion    : 0.0.0-20210520170846-37e1c6afe023 
+│                        │     ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671f
+│                        │     │                  │         d50fb3a2c76fed2e07cf10f08 
+│                        │     │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc741219293
+│                        │     │                            612b29e9cc8b897c14462b15d 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-33194 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : golang: x/net/html: infinite loop in ParseFragment 
+│                        │     ├ Description     : golang.org/x/net before
+│                        │     │                   v0.0.0-20210520170846-37e1c6afe023 allows attackers to cause
+│                        │     │                    a denial of service (infinite loop) via crafted
+│                        │     │                   ParseFragment input. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CweIDs           ─ [0]: CWE-835 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P 
+│                        │     │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ├ V2Score : 5 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2021-33194 
+│                        │     │                  ├ [1] : https://github.com/advisories/GHSA-83g2-8m93-v3w7 
+│                        │     │                  ├ [2] : https://github.com/golang/net/commit/37e1c6afe02
+│                        │     │                  │       340126705deced573a85ab75209d7 
+│                        │     │                  ├ [3] : https://go.dev/cl/311090 
+│                        │     │                  ├ [4] : https://go.dev/issue/46288 
+│                        │     │                  ├ [5] : https://go.googlesource.com/net/+/37e1c6afe02340
+│                        │     │                  │       126705deced573a85ab75209d7 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/wP
+│                        │     │                  │       unbCPkWUg 
+│                        │     │                  ├ [7] : https://groups.google.com/g/golang-dev/c/28x0nth
+│                        │     │                  │       P-c8/m/KqWVTjsnBAAJ 
+│                        │     │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/4CHKSF
+│                        │     │                  │       MHZVOBCZSSVRE3UEYNKARTBMTM/ 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2021-33194 
+│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2021-0238 
+│                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2021-33194 
+│                        │     ├ PublishedDate   : 2021-05-26T15:15:00Z 
+│                        │     ╰ LastModifiedDate: 2022-06-03T19:29:00Z 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2022-27664 
+│                        │     ├ PkgID           : golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
+│                        │     ├ FixedVersion    : 0.0.0-20220906165146-f3363e06e74c 
+│                        │     ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671f
+│                        │     │                  │         d50fb3a2c76fed2e07cf10f08 
+│                        │     │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc741219293
+│                        │     │                            612b29e9cc8b897c14462b15d 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27664 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : handle server errors after sending GOAWAY 
+│                        │     ├ Description     : In net/http in Go before 1.18.6 and 1.19.x before
+│                        │     │                   1.19.1, attackers can cause a denial of service because an
+│                        │     │                   HTTP/2 connection can hang during closing if shutdown were
+│                        │     │                   preempted by a fatal error. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 6.5 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2357 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-27664 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2107371 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2107374 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2107383 
+│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2107386 
+│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2107388 
+│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2113814 
+│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2124669 
+│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2132868 
+│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2132872 
+│                        │     │                  ├ [11]: https://bugzilla.redhat.com/2161274 
+│                        │     │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
+│                        │     │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
+│                        │     │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
+│                        │     │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
+│                        │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
+│                        │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
+│                        │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
+│                        │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
+│                        │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
+│                        │     │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2020-28851 
+│                        │     │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2020-28852 
+│                        │     │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-1705 
+│                        │     │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-27664 
+│                        │     │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30630 
+│                        │     │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30632 
+│                        │     │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30635 
+│                        │     │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-32148 
+│                        │     │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-32189 
+│                        │     │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2023-2357.html 
+│                        │     │                  ├ [31]: https://errata.rockylinux.org/RLSA-2022:7129 
+│                        │     │                  ├ [32]: https://github.com/advisories/GHSA-69cg-p879-7622 
+│                        │     │                  ├ [33]: https://github.com/golang/go/commit/5bc9106458fc
+│                        │     │                  │       07851ac324a4157132a91b1f3479 (go1.18.6) 
+│                        │     │                  ├ [34]: https://github.com/golang/go/commit/9cfe4e258b1c
+│                        │     │                  │       9d4a04a42539c21c7bdb2e227824 (go1.19.1) 
+│                        │     │                  ├ [35]: https://github.com/golang/go/issues/54658 
+│                        │     │                  ├ [36]: https://go.dev/cl/428735 
+│                        │     │                  ├ [37]: https://go.dev/issue/54658 
+│                        │     │                  ├ [38]: https://groups.google.com/g/golang-announce 
+│                        │     │                  ├ [39]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  │       9AQzIVX-s 
+│                        │     │                  ├ [40]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  │       9AQzIVX-s/m/0tgO0pjiBQAJ 
+│                        │     │                  ├ [41]: https://linux.oracle.com/cve/CVE-2022-27664.html 
+│                        │     │                  ├ [42]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
+│                        │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/JXKTHI
+│                        │     │                  │       GE5F576MAPFYCIJXNRGBSPISUF/ 
+│                        │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/TXS2OQ
+│                        │     │                  │       57KZC5XZKK5UW4SYKPVQAHIOJX/ 
+│                        │     │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
+│                        │     │                  ├ [46]: https://pkg.go.dev/vuln/GO-2022-0969 
+│                        │     │                  ├ [47]: https://security.gentoo.org/glsa/202209-26 
+│                        │     │                  ├ [48]: https://security.netapp.com/advisory/ntap-202209
+│                        │     │                  │       23-0004/ 
+│                        │     │                  ├ [49]: https://ubuntu.com/security/notices/USN-6038-1 
+│                        │     │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
+│                        │     ├ PublishedDate   : 2022-09-06T18:15:00Z 
+│                        │     ╰ LastModifiedDate: 2022-10-28T12:42:00Z 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2022-41723 
+│                        │     ├ PkgID           : golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
+│                        │     ├ FixedVersion    : 0.7.0 
+│                        │     ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671f
+│                        │     │                  │         d50fb3a2c76fed2e07cf10f08 
+│                        │     │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc741219293
+│                        │     │                            612b29e9cc8b897c14462b15d 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-41723 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : avoid quadratic complexity in HPACK decoding 
+│                        │     ├ Description     : A maliciously crafted HTTP/2 stream could cause
+│                        │     │                   excessive CPU consumption in the HPACK decoder, sufficient
+│                        │     │                   to cause a denial of service from a small number of small
+│                        │     │                   requests. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CweIDs           ─ [0]: CWE-400 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-41723 
+│                        │     │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-41723 
+│                        │     │                  ├ [2] : https://github.com/advisories/GHSA-vvpx-j8f3-3w6h 
+│                        │     │                  ├ [3] : https://go.dev/cl/468135 
+│                        │     │                  ├ [4] : https://go.dev/cl/468295 
+│                        │     │                  ├ [5] : https://go.dev/issue/57855 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/V0
+│                        │     │                  │       aBFqaFs_E 
+│                        │     │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/4MA5XS
+│                        │     │                  │       5DAOJ5PKKNG5TUXKPQOFHT5VBC/ 
+│                        │     │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/RGW7GE
+│                        │     │                  │       2Z32ZT47UFAQFDRQE33B7Q7LMT/ 
+│                        │     │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/RLBQ3A
+│                        │     │                  │       7ROLEQXQLXFDLNJ7MYPKG5GULE/ 
+│                        │     │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XX3IMU
+│                        │     │                  │       TZKRQ73PBZM4E2JP4BKYH4C6XE/ 
+│                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2022-41723 
+│                        │     │                  ├ [12]: https://pkg.go.dev/vuln/GO-2023-1571 
+│                        │     │                  ├ [13]: https://vuln.go.dev/ID/GO-2023-1571.json 
+│                        │     │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2022-41723 
+│                        │     ├ PublishedDate   : 2023-02-28T18:15:00Z 
+│                        │     ╰ LastModifiedDate: 2023-05-16T10:50:00Z 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2021-31525 
+│                        │     ├ PkgID           : golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
+│                        │     ├ FixedVersion    : 0.0.0-20210428140749-89ef3d95e781 
+│                        │     ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671f
+│                        │     │                  │         d50fb3a2c76fed2e07cf10f08 
+│                        │     │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc741219293
+│                        │     │                            612b29e9cc8b897c14462b15d 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31525 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : golang: net/http: panic in ReadRequest and ReadResponse
+│                        │     │                    when reading a very large header 
+│                        │     ├ Description     : net/http in Go before 1.15.12 and 1.16.x before 1.16.4
+│                        │     │                   allows remote attackers to cause a denial of service (panic)
+│                        │     │                    via a large header to ReadRequest or ReadResponse. Server,
+│                        │     │                   Transport, and Client can each be affected in some
+│                        │     │                   configurations. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-674 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ╰ V3Score : 5.9 
+│                        │     │                  ├ nvd    ╭ V2Vector: AV:N/AC:H/Au:N/C:N/I:N/A:P 
+│                        │     │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ├ V2Score : 2.6 
+│                        │     │                  │        ╰ V3Score : 5.9 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 5.9 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2021-31525 
+│                        │     │                  ├ [1] : https://github.com/advisories/GHSA-h86h-8ppg-mxmh 
+│                        │     │                  ├ [2] : https://github.com/golang/go/issues/45710 
+│                        │     │                  ├ [3] : https://go.dev/cl/313069 
+│                        │     │                  ├ [4] : https://go.dev/issue/45710 
+│                        │     │                  ├ [5] : https://go.googlesource.com/net/+/89ef3d95e78114
+│                        │     │                  │       8a0951956029c92a211477f7f9 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/cu
+│                        │     │                  │       9SP4eSXMc 
+│                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2021-31525.html 
+│                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2021-3076.html 
+│                        │     │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ISRZZ6
+│                        │     │                  │       NY5R2TBYE72KZFOCO25TEUQTBF/ 
+│                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2021-31525 
+│                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2022-0236 
+│                        │     │                  ├ [12]: https://security.gentoo.org/glsa/202208-02 
+│                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2021-31525 
+│                        │     ├ PublishedDate   : 2021-05-27T13:15:00Z 
+│                        │     ╰ LastModifiedDate: 2022-11-09T03:32:00Z 
+│                        ├ [6] ╭ VulnerabilityID : CVE-2022-29526 
+│                        │     ├ PkgID           : golang.org/x/sys@v0.0.0-20210615035016-665e8c7367d1 
+│                        │     ├ PkgName         : golang.org/x/sys 
+│                        │     ├ InstalledVersion: 0.0.0-20210615035016-665e8c7367d1 
+│                        │     ├ FixedVersion    : 0.0.0-20220412211240-33da011f77ad 
+│                        │     ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671f
+│                        │     │                  │         d50fb3a2c76fed2e07cf10f08 
+│                        │     │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc741219293
+│                        │     │                            612b29e9cc8b897c14462b15d 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-29526 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : faccessat checks wrong group 
+│                        │     ├ Description     : Go before 1.17.10 and 1.18.x before 1.18.2 has
+│                        │     │                   Incorrect Privilege Assignment. When called with a non-zero
+│                        │     │                   flags parameter, the Faccessat function could incorrectly
+│                        │     │                   report that a file is accessible. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-269 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           L/I:N/A:N 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:N/A:N 
+│                        │     │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           L/I:N/A:N 
+│                        │     │                  │        ├ V2Score : 5 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 6.2 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-29526 
+│                        │     │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-29526 
+│                        │     │                  ├ [2] : https://github.com/advisories/GHSA-p782-xgp4-8hr8 
+│                        │     │                  ├ [3] : https://github.com/golang/go/commit/f66925e854e7
+│                        │     │                  │       1e0c54b581885380a490d7afa30c 
+│                        │     │                  ├ [4] : https://github.com/golang/go/issues/52313 
+│                        │     │                  ├ [5] : https://go.dev/cl/399539 
+│                        │     │                  ├ [6] : https://go.dev/cl/400074 
+│                        │     │                  ├ [7] : https://go.dev/issue/52313 
+│                        │     │                  ├ [8] : https://groups.google.com/g/golang-announce 
+│                        │     │                  ├ [9] : https://groups.google.com/g/golang-announce/c/Y5
+│                        │     │                  │       qrqw_lWdU 
+│                        │     │                  ├ [10]: https://linux.oracle.com/cve/CVE-2022-29526.html 
+│                        │     │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2022-5337.html 
+│                        │     │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/Q6GE5E
+│                        │     │                  │       QGE4L2KRVGW4T75QVIYAXCLO5X/ 
+│                        │     │                  ├ [13]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/RQXU75
+│                        │     │                  │       2ALW53OJAF5MG3WMR5CCZVLWW6/ 
+│                        │     │                  ├ [14]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/Z55VUV
+│                        │     │                  │       GO7E5PJFXIOVAY373NZRHBNCI5/ 
+│                        │     │                  ├ [15]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ZY2SLW
+│                        │     │                  │       OQR4ZURQ7UBRZ7JIX6H6F5JHJR/ 
+│                        │     │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2022-29526 
+│                        │     │                  ├ [17]: https://pkg.go.dev/vuln/GO-2022-0493 
+│                        │     │                  ├ [18]: https://security.gentoo.org/glsa/202208-02 
+│                        │     │                  ├ [19]: https://security.netapp.com/advisory/ntap-202207
+│                        │     │                  │       29-0001/ 
+│                        │     │                  ├ [20]: https://ubuntu.com/security/notices/USN-6038-1 
+│                        │     │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2022-29526 
+│                        │     ├ PublishedDate   : 2022-06-23T17:15:00Z 
+│                        │     ╰ LastModifiedDate: 2022-08-19T12:50:00Z 
+│                        ├ [7] ╭ VulnerabilityID : CVE-2021-38561 
+│                        │     ├ PkgID           : golang.org/x/text@v0.3.3 
+│                        │     ├ PkgName         : golang.org/x/text 
+│                        │     ├ InstalledVersion: 0.3.3 
+│                        │     ├ FixedVersion    : 0.3.7 
+│                        │     ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671f
+│                        │     │                  │         d50fb3a2c76fed2e07cf10f08 
+│                        │     │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc741219293
+│                        │     │                            612b29e9cc8b897c14462b15d 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-38561 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : out-of-bounds read in golang.org/x/text/language leads
+│                        │     │                   to DoS 
+│                        │     ├ Description     : golang.org/x/text/language in golang.org/x/text before
+│                        │     │                   0.3.7 can panic with an out-of-bounds read during BCP 47
+│                        │     │                   language tag parsing. Index calculation is mishandled. If
+│                        │     │                   parsing untrusted user input, this can be used as a vector
+│                        │     │                   for a denial-of-service attack. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CweIDs           ─ [0]: CWE-125 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:H 
+│                        │     │                  │        ╰ V3Score : 7.5 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2021-38561 
+│                        │     │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2021-38561 
+│                        │     │                  ├ [2] : https://deps.dev/advisory/OSV/GO-2021-0113 
+│                        │     │                  ├ [3] : https://github.com/advisories/GHSA-ppp9-7jff-5vj2 
+│                        │     │                  ├ [4] : https://go.dev/cl/340830 
+│                        │     │                  ├ [5] : https://go.googlesource.com/text/+/383b2e75a7a41
+│                        │     │                  │       98c42f8f87833eefb772868a56f 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce 
+│                        │     │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2021-38561 
+│                        │     │                  ├ [8] : https://pkg.go.dev/golang.org/x/text/language 
+│                        │     │                  ├ [9] : https://pkg.go.dev/vuln/GO-2021-0113 
+│                        │     │                  ├ [10]: https://ubuntu.com/security/notices/USN-5873-1 
+│                        │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2021-38561 
+│                        │     ├ PublishedDate   : 2022-12-26T06:15:00Z 
+│                        │     ╰ LastModifiedDate: 2023-01-05T04:52:00Z 
+│                        ╰ [8] ╭ VulnerabilityID : CVE-2022-32149 
+│                              ├ PkgID           : golang.org/x/text@v0.3.3 
+│                              ├ PkgName         : golang.org/x/text 
+│                              ├ InstalledVersion: 0.3.3 
+│                              ├ FixedVersion    : 0.3.8 
+│                              ├ Layer            ╭ Digest: sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671f
+│                              │                  │         d50fb3a2c76fed2e07cf10f08 
+│                              │                  ╰ DiffID: sha256:2eedcb5649a712da6111eefcfcbfbc741219293
+│                              │                            612b29e9cc8b897c14462b15d 
+│                              ├ SeveritySource  : ghsa 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-32149 
+│                              ├ DataSource       ╭ ID  : ghsa 
+│                              │                  ├ Name: GitHub Security Advisory Go 
+│                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                              │                          wed+ecosystem%3Ago 
+│                              ├ Title           : ParseAcceptLanguage takes a long time to parse complex tags 
+│                              ├ Description     : An attacker may cause a denial of service by crafting
+│                              │                   an Accept-Language header which ParseAcceptLanguage will
+│                              │                   take significant time to parse. 
+│                              ├ Severity        : HIGH 
+│                              ├ CweIDs           ─ [0]: CWE-772 
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                              │                  │        │           N/I:N/A:H 
+│                              │                  │        ╰ V3Score : 7.5 
+│                              │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                              │                  │        │           N/I:N/A:H 
+│                              │                  │        ╰ V3Score : 7.5 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                              │                           │           N/I:N/A:H 
+│                              │                           ╰ V3Score : 7.5 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-32149 
+│                              │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                              │                  │       VE-2022-32149 
+│                              │                  ├ [2] : https://github.com/advisories/GHSA-69ch-w2m2-3vjp 
+│                              │                  ├ [3] : https://github.com/golang/go/issues/56152 
+│                              │                  ├ [4] : https://github.com/golang/text/commit/434eadcdbc
+│                              │                  │       3b0256971992e8c70027278364c72c 
+│                              │                  ├ [5] : https://github.com/golang/text/commit/434eadcdbc
+│                              │                  │       3b0256971992e8c70027278364c72c (v0.3.8) 
+│                              │                  ├ [6] : https://go.dev/cl/442235 
+│                              │                  ├ [7] : https://go.dev/issue/56152 
+│                              │                  ├ [8] : https://groups.google.com/g/golang-announce/c/-h
+│                              │                  │       jNw559_tE/m/KlGTfid5CAAJ 
+│                              │                  ├ [9] : https://groups.google.com/g/golang-dev/c/qfPIly0X7aU 
+│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2022-32149 
+│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2022-1059 
+│                              │                  ├ [12]: https://ubuntu.com/security/notices/USN-5873-1 
+│                              │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2022-32149 
+│                              ├ PublishedDate   : 2022-10-14T15:15:00Z 
+│                              ╰ LastModifiedDate: 2022-10-18T17:41:00Z 
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6841,115 +6714,7 @@
 │                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-2253 
 │                              ├ PublishedDate   : 2023-06-06T20:15:00Z 
 │                              ╰ LastModifiedDate: 2023-06-29T16:15:00Z 
-├ [7]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            *********************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671fd50fb3a2c76f
-│                                  │            ed2e07cf10f08 
-│                                  ├ DiffID   : sha256:2eedcb5649a712da6111eefcfcbfbc741219293612b29e9cc8b
-│                                  │            897c14462b15d 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [8]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [7]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -7007,7 +6772,7 @@
 │                                  ├ DiffID   : sha256:2eedcb5649a712da6111eefcfcbfbc741219293612b29e9cc8b
 │                                  │            897c14462b15d 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [8]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -7060,7 +6825,183 @@
 │                                  ├ DiffID   : sha256:2eedcb5649a712da6111eefcfcbfbc741219293612b29e9cc8b
 │                                  │            897c14462b15d 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671fd50fb3a2c76f
+│                                  │            ed2e07cf10f08 
+│                                  ├ DiffID   : sha256:2eedcb5649a712da6111eefcfcbfbc741219293612b29e9cc8b
+│                                  │            897c14462b15d 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -7098,33 +7039,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              ****************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -7158,33 +7073,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              ****************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -7213,24 +7102,8 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            *********************************************************-----END OPENSSH
+                       │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:bedfe4ba9188599e3a4a51e2dfc42b9d3b5671fd50fb3a2c76f
                                    │            ed2e07cf10f08 
                                    ├ DiffID   : sha256:2eedcb5649a712da6111eefcfcbfbc741219293612b29e9cc8b
