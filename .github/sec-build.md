@@ -962,10 +962,13 @@
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-2953 
 │                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2023070
 │                       │      │                  │      3-0005/ 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6197-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
+│                       │      │                  ├ [5]: https://support.apple.com/kb/HT213843 
+│                       │      │                  ├ [6]: https://support.apple.com/kb/HT213844 
+│                       │      │                  ├ [7]: https://support.apple.com/kb/HT213845 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6197-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
 │                       │      ├ PublishedDate   : 2023-05-30T22:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-07-03T16:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-07-24T19:15:00Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2023-31437 
 │                       │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.9 
 │                       │      ├ PkgName         : libnss-systemd 
@@ -1483,20 +1486,22 @@
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
 │                       │      │                  │      7/15/1 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-2975 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/0
+│                       │      │                  │      7/19/5 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2023-2975 
+│                       │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-2975 
-│                       │      │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
+│                       │      │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
 │                       │      │                  │      ommitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598[
 │                       │      │                  │      m 
-│                       │      │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
+│                       │      │                  ├ [5]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
 │                       │      │                  │      ommitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc[
 │                       │      │                  │      m 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
-│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
-│                       │      │                  ╰ [7]: https://www.openssl.org/news/secadv/20230714.txt 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+│                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20230714.txt 
 │                       │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-07-15T13:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-07-19T15:15:00Z 
 │                       ├ [37] ╭ VulnerabilityID : CVE-2023-31437 
 │                       │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.9 
 │                       │      ├ PkgName         : libsystemd0 
@@ -1934,7 +1939,10 @@
 │                       │      │                   command line tool to cause buffer overrun. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-400 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 7.5 
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
@@ -1943,9 +1951,18 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-4899 
 │                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2022-4899 
-│                       │      │                  ├ [2]: https://github.com/facebook/zstd/issues/3200 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2022-4899 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
+│                       │      │                  ├ [2]: https://github.com/advisories/GHSA-5c9c-6x87-f9vm 
+│                       │      │                  ├ [3]: https://github.com/facebook/zstd/issues/3200 
+│                       │      │                  ├ [4]: https://github.com/facebook/zstd/pull/3220 
+│                       │      │                  ├ [5]: https://github.com/pypa/advisory-database/tree/ma
+│                       │      │                  │      in/vulns/zstd/PYSEC-2023-121.yaml 
+│                       │      │                  ├ [6]: https://github.com/sergey-dryabzhinsky/python-zst
+│                       │      │                  │      d/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6[
+│                       │      │                  │      m 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-4899 
+│                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-2023072
+│                       │      │                  │      5-0005/ 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-07T01:19:00Z 
 │                       ├ [49] ╭ VulnerabilityID : CVE-2023-29383 
@@ -1999,65 +2016,65 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2020-14145 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2023-38408 
 │                       │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.1 
 │                       │      ├ PkgName         : openssh-client 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
+│                       │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.3 
 │                       │      ├ Layer            ╭ Digest: sha256:3ac688bae1e29733465414376396322d564471e
 │                       │      │                  │         d13cb8b366303e3cea088ab74 
 │                       │      │                  ╰ DiffID: sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf
 │                       │      │                            0d618dae9c50bdb8f94475e5e 
 │                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-14145 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38408 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : openssh: Observable discrepancy leading to an
-│                       │      │                   information leak in the algorithm negotiation 
-│                       │      ├ Description     : The client side in OpenSSH 5.7 through 8.4 has an
-│                       │      │                   Observable Discrepancy leading to an information leak in the
-│                       │      │                    algorithm negotiation. This allows man-in-the-middle
-│                       │      │                   attackers to target initial connection attempts (where no
-│                       │      │                   host key for the server has been cached by the client).
-│                       │      │                   NOTE: some reports state that 8.5 and 8.6 are also
-│                       │      │                   affected. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-203 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:N/A:N 
-│                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           H/I:N/A:N 
-│                       │      │                  │        ├ V2Score : 4.3 
-│                       │      │                  │        ╰ V3Score : 5.9 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
-│                       │      │                           │           H/I:N/A:N 
-│                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2020/
-│                       │      │                  │       12/02/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2020-14145 
-│                       │      │                  ├ [2] : https://anongit.mindrot.org/openssh.git/commit/?
-│                       │      │                  │       id=b3855ff053f5078ec3d3c653cdaedefaa5fc362d 
-│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │      │                  │       VE-2020-14145 
-│                       │      │                  ├ [4] : https://docs.ssh-mitm.at/CVE-2020-14145.html 
-│                       │      │                  ├ [5] : https://github.com/openssh/openssh-portable/comp
-│                       │      │                  │       are/V_8_3_P1...V_8_4_P1 
-│                       │      │                  ├ [6] : https://github.com/ssh-mitm/ssh-mitm/blob/master
-│                       │      │                  │       /ssh_proxy_server/plugins/session/cve202014145.py
-│                       │      │                  │       [m 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2020-14145.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2021-4368.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2020-14145 
-│                       │      │                  ├ [10]: https://security.gentoo.org/glsa/202105-35 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202007
-│                       │      │                  │       09-0004/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2020-14145 
-│                       │      │                  ├ [13]: https://www.fzi.de/en/news/news/detail-en/artike
-│                       │      │                  │       l/fsa-2020-2-ausnutzung-eines-informationslecks-fuer-
-│                       │      │                  │       gezielte-mitm-angriffe-auf-ssh-clients/ 
-│                       │      │                  ╰ [14]: https://www.fzi.de/fileadmin/user_upload/2020-06
-│                       │      │                          -26-FSA-2020-2.pdf 
-│                       │      ├ PublishedDate   : 2020-06-29T18:15:00Z 
-│                       │      ╰ LastModifiedDate: 2022-04-28T19:34:00Z 
+│                       │      ├ Title           : Remote code execution in ssh-agent PKCS#11 support 
+│                       │      ├ Description     : The PKCS#11 feature in ssh-agent in OpenSSH before
+│                       │      │                   9.3p2 has an insufficiently trustworthy search path, leading
+│                       │      │                    to remote code execution if an agent is forwarded to an
+│                       │      │                   attacker-controlled system. (Code in /usr/lib is not
+│                       │      │                   necessarily safe for loading into ssh-agent.) NOTE: this
+│                       │      │                   issue exists because of an incomplete fix for
+│                       │      │                   CVE-2016-10009. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           L/I:L/A:L 
+│                       │      │                           ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0] : http://packetstormsecurity.com/files/173661/Open
+│                       │      │                  │       SSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
+│                       │      │                  │        
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       07/20/1 
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       07/20/2 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-38408 
+│                       │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-r
+│                       │      │                  │       esearch/2023/07/19/cve-2023-38408-remote-code-executi
+│                       │      │                  │       on-in-opensshs-forwarded-ssh-agent 
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-38408 
+│                       │      │                  ├ [6] : https://github.com/openbsd/src/commit/7bc29a9d5c
+│                       │      │                  │       d697290aa056e94ecee6253d3425f8 
+│                       │      │                  ├ [7] : https://github.com/openbsd/src/commit/f03a4faa55
+│                       │      │                  │       c4ce0818324701dadbf91988d7351d 
+│                       │      │                  ├ [8] : https://github.com/openbsd/src/commit/f8f5a6b003
+│                       │      │                  │       981bb824329dc987d101977beda7ca 
+│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/RAXVQS
+│                       │      │                  │       6ZYTULFAK3TEJHRLKZALJS3AOU/ 
+│                       │      │                  ├ [10]: https://news.ycombinator.com/item?id=36790196 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
+│                       │      │                  ├ [12]: https://security.gentoo.org/glsa/202307-01 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6242-1 
+│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
+│                       │      │                  ├ [15]: https://www.openssh.com/security.html 
+│                       │      │                  ├ [16]: https://www.openssh.com/txt/release-9.3p2 
+│                       │      │                  ╰ [17]: https://www.qualys.com/2023/07/19/cve-2023-38408
+│                       │      │                          /rce-openssh-forwarded-ssh-agent.txt 
+│                       │      ├ PublishedDate   : 2023-07-20T03:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-07-23T03:15:00Z 
 │                       ├ [51] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.1 
 │                       │      ├ PkgName         : openssh-client 
@@ -2087,72 +2104,73 @@
 │                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-28531 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-28531 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-2023041
+│                       │      │                  ├ [3]: https://security.gentoo.org/glsa/202307-01 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2023041
 │                       │      │                  │      3-0008/ 
-│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
-│                       │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
+│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2023/
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-04-26T19:17:00Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2020-14145 
+│                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2023-38408 
 │                       │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.1 
 │                       │      ├ PkgName         : openssh-server 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
+│                       │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.3 
 │                       │      ├ Layer            ╭ Digest: sha256:3ac688bae1e29733465414376396322d564471e
 │                       │      │                  │         d13cb8b366303e3cea088ab74 
 │                       │      │                  ╰ DiffID: sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf
 │                       │      │                            0d618dae9c50bdb8f94475e5e 
 │                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-14145 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38408 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : openssh: Observable discrepancy leading to an
-│                       │      │                   information leak in the algorithm negotiation 
-│                       │      ├ Description     : The client side in OpenSSH 5.7 through 8.4 has an
-│                       │      │                   Observable Discrepancy leading to an information leak in the
-│                       │      │                    algorithm negotiation. This allows man-in-the-middle
-│                       │      │                   attackers to target initial connection attempts (where no
-│                       │      │                   host key for the server has been cached by the client).
-│                       │      │                   NOTE: some reports state that 8.5 and 8.6 are also
-│                       │      │                   affected. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-203 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:N/A:N 
-│                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           H/I:N/A:N 
-│                       │      │                  │        ├ V2Score : 4.3 
-│                       │      │                  │        ╰ V3Score : 5.9 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
-│                       │      │                           │           H/I:N/A:N 
-│                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2020/
-│                       │      │                  │       12/02/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2020-14145 
-│                       │      │                  ├ [2] : https://anongit.mindrot.org/openssh.git/commit/?
-│                       │      │                  │       id=b3855ff053f5078ec3d3c653cdaedefaa5fc362d 
-│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │      │                  │       VE-2020-14145 
-│                       │      │                  ├ [4] : https://docs.ssh-mitm.at/CVE-2020-14145.html 
-│                       │      │                  ├ [5] : https://github.com/openssh/openssh-portable/comp
-│                       │      │                  │       are/V_8_3_P1...V_8_4_P1 
-│                       │      │                  ├ [6] : https://github.com/ssh-mitm/ssh-mitm/blob/master
-│                       │      │                  │       /ssh_proxy_server/plugins/session/cve202014145.py
-│                       │      │                  │       [m 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2020-14145.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2021-4368.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2020-14145 
-│                       │      │                  ├ [10]: https://security.gentoo.org/glsa/202105-35 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202007
-│                       │      │                  │       09-0004/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2020-14145 
-│                       │      │                  ├ [13]: https://www.fzi.de/en/news/news/detail-en/artike
-│                       │      │                  │       l/fsa-2020-2-ausnutzung-eines-informationslecks-fuer-
-│                       │      │                  │       gezielte-mitm-angriffe-auf-ssh-clients/ 
-│                       │      │                  ╰ [14]: https://www.fzi.de/fileadmin/user_upload/2020-06
-│                       │      │                          -26-FSA-2020-2.pdf 
-│                       │      ├ PublishedDate   : 2020-06-29T18:15:00Z 
-│                       │      ╰ LastModifiedDate: 2022-04-28T19:34:00Z 
+│                       │      ├ Title           : Remote code execution in ssh-agent PKCS#11 support 
+│                       │      ├ Description     : The PKCS#11 feature in ssh-agent in OpenSSH before
+│                       │      │                   9.3p2 has an insufficiently trustworthy search path, leading
+│                       │      │                    to remote code execution if an agent is forwarded to an
+│                       │      │                   attacker-controlled system. (Code in /usr/lib is not
+│                       │      │                   necessarily safe for loading into ssh-agent.) NOTE: this
+│                       │      │                   issue exists because of an incomplete fix for
+│                       │      │                   CVE-2016-10009. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           L/I:L/A:L 
+│                       │      │                           ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0] : http://packetstormsecurity.com/files/173661/Open
+│                       │      │                  │       SSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
+│                       │      │                  │        
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       07/20/1 
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       07/20/2 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-38408 
+│                       │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-r
+│                       │      │                  │       esearch/2023/07/19/cve-2023-38408-remote-code-executi
+│                       │      │                  │       on-in-opensshs-forwarded-ssh-agent 
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-38408 
+│                       │      │                  ├ [6] : https://github.com/openbsd/src/commit/7bc29a9d5c
+│                       │      │                  │       d697290aa056e94ecee6253d3425f8 
+│                       │      │                  ├ [7] : https://github.com/openbsd/src/commit/f03a4faa55
+│                       │      │                  │       c4ce0818324701dadbf91988d7351d 
+│                       │      │                  ├ [8] : https://github.com/openbsd/src/commit/f8f5a6b003
+│                       │      │                  │       981bb824329dc987d101977beda7ca 
+│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/RAXVQS
+│                       │      │                  │       6ZYTULFAK3TEJHRLKZALJS3AOU/ 
+│                       │      │                  ├ [10]: https://news.ycombinator.com/item?id=36790196 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
+│                       │      │                  ├ [12]: https://security.gentoo.org/glsa/202307-01 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6242-1 
+│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
+│                       │      │                  ├ [15]: https://www.openssh.com/security.html 
+│                       │      │                  ├ [16]: https://www.openssh.com/txt/release-9.3p2 
+│                       │      │                  ╰ [17]: https://www.qualys.com/2023/07/19/cve-2023-38408
+│                       │      │                          /rce-openssh-forwarded-ssh-agent.txt 
+│                       │      ├ PublishedDate   : 2023-07-20T03:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-07-23T03:15:00Z 
 │                       ├ [53] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.1 
 │                       │      ├ PkgName         : openssh-server 
@@ -2182,72 +2200,73 @@
 │                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-28531 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-28531 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-2023041
+│                       │      │                  ├ [3]: https://security.gentoo.org/glsa/202307-01 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2023041
 │                       │      │                  │      3-0008/ 
-│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
-│                       │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
+│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2023/
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-04-26T19:17:00Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2020-14145 
+│                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2023-38408 
 │                       │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.1 
 │                       │      ├ PkgName         : openssh-sftp-server 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
+│                       │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.3 
 │                       │      ├ Layer            ╭ Digest: sha256:3ac688bae1e29733465414376396322d564471e
 │                       │      │                  │         d13cb8b366303e3cea088ab74 
 │                       │      │                  ╰ DiffID: sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf
 │                       │      │                            0d618dae9c50bdb8f94475e5e 
 │                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-14145 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38408 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : openssh: Observable discrepancy leading to an
-│                       │      │                   information leak in the algorithm negotiation 
-│                       │      ├ Description     : The client side in OpenSSH 5.7 through 8.4 has an
-│                       │      │                   Observable Discrepancy leading to an information leak in the
-│                       │      │                    algorithm negotiation. This allows man-in-the-middle
-│                       │      │                   attackers to target initial connection attempts (where no
-│                       │      │                   host key for the server has been cached by the client).
-│                       │      │                   NOTE: some reports state that 8.5 and 8.6 are also
-│                       │      │                   affected. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-203 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:N/A:N 
-│                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           H/I:N/A:N 
-│                       │      │                  │        ├ V2Score : 4.3 
-│                       │      │                  │        ╰ V3Score : 5.9 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
-│                       │      │                           │           H/I:N/A:N 
-│                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2020/
-│                       │      │                  │       12/02/1 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2020-14145 
-│                       │      │                  ├ [2] : https://anongit.mindrot.org/openssh.git/commit/?
-│                       │      │                  │       id=b3855ff053f5078ec3d3c653cdaedefaa5fc362d 
-│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │      │                  │       VE-2020-14145 
-│                       │      │                  ├ [4] : https://docs.ssh-mitm.at/CVE-2020-14145.html 
-│                       │      │                  ├ [5] : https://github.com/openssh/openssh-portable/comp
-│                       │      │                  │       are/V_8_3_P1...V_8_4_P1 
-│                       │      │                  ├ [6] : https://github.com/ssh-mitm/ssh-mitm/blob/master
-│                       │      │                  │       /ssh_proxy_server/plugins/session/cve202014145.py
-│                       │      │                  │       [m 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2020-14145.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2021-4368.html 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2020-14145 
-│                       │      │                  ├ [10]: https://security.gentoo.org/glsa/202105-35 
-│                       │      │                  ├ [11]: https://security.netapp.com/advisory/ntap-202007
-│                       │      │                  │       09-0004/ 
-│                       │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2020-14145 
-│                       │      │                  ├ [13]: https://www.fzi.de/en/news/news/detail-en/artike
-│                       │      │                  │       l/fsa-2020-2-ausnutzung-eines-informationslecks-fuer-
-│                       │      │                  │       gezielte-mitm-angriffe-auf-ssh-clients/ 
-│                       │      │                  ╰ [14]: https://www.fzi.de/fileadmin/user_upload/2020-06
-│                       │      │                          -26-FSA-2020-2.pdf 
-│                       │      ├ PublishedDate   : 2020-06-29T18:15:00Z 
-│                       │      ╰ LastModifiedDate: 2022-04-28T19:34:00Z 
+│                       │      ├ Title           : Remote code execution in ssh-agent PKCS#11 support 
+│                       │      ├ Description     : The PKCS#11 feature in ssh-agent in OpenSSH before
+│                       │      │                   9.3p2 has an insufficiently trustworthy search path, leading
+│                       │      │                    to remote code execution if an agent is forwarded to an
+│                       │      │                   attacker-controlled system. (Code in /usr/lib is not
+│                       │      │                   necessarily safe for loading into ssh-agent.) NOTE: this
+│                       │      │                   issue exists because of an incomplete fix for
+│                       │      │                   CVE-2016-10009. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           L/I:L/A:L 
+│                       │      │                           ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0] : http://packetstormsecurity.com/files/173661/Open
+│                       │      │                  │       SSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
+│                       │      │                  │        
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       07/20/1 
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       07/20/2 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-38408 
+│                       │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-r
+│                       │      │                  │       esearch/2023/07/19/cve-2023-38408-remote-code-executi
+│                       │      │                  │       on-in-opensshs-forwarded-ssh-agent 
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-38408 
+│                       │      │                  ├ [6] : https://github.com/openbsd/src/commit/7bc29a9d5c
+│                       │      │                  │       d697290aa056e94ecee6253d3425f8 
+│                       │      │                  ├ [7] : https://github.com/openbsd/src/commit/f03a4faa55
+│                       │      │                  │       c4ce0818324701dadbf91988d7351d 
+│                       │      │                  ├ [8] : https://github.com/openbsd/src/commit/f8f5a6b003
+│                       │      │                  │       981bb824329dc987d101977beda7ca 
+│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/RAXVQS
+│                       │      │                  │       6ZYTULFAK3TEJHRLKZALJS3AOU/ 
+│                       │      │                  ├ [10]: https://news.ycombinator.com/item?id=36790196 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
+│                       │      │                  ├ [12]: https://security.gentoo.org/glsa/202307-01 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6242-1 
+│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
+│                       │      │                  ├ [15]: https://www.openssh.com/security.html 
+│                       │      │                  ├ [16]: https://www.openssh.com/txt/release-9.3p2 
+│                       │      │                  ╰ [17]: https://www.qualys.com/2023/07/19/cve-2023-38408
+│                       │      │                          /rce-openssh-forwarded-ssh-agent.txt 
+│                       │      ├ PublishedDate   : 2023-07-20T03:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-07-23T03:15:00Z 
 │                       ├ [55] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.1 
 │                       │      ├ PkgName         : openssh-sftp-server 
@@ -2277,13 +2296,14 @@
 │                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-28531 
 │                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-28531 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-2023041
+│                       │      │                  ├ [3]: https://security.gentoo.org/glsa/202307-01 
+│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2023041
 │                       │      │                  │      3-0008/ 
-│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
-│                       │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
+│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2023/
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-04-26T19:17:00Z 
+│                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
 │                       ├ [56] ╭ VulnerabilityID : CVE-2023-2975 
 │                       │      ├ PkgID           : openssl@3.0.2-0ubuntu1.10 
 │                       │      ├ PkgName         : openssl 
@@ -2339,20 +2359,22 @@
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
 │                       │      │                  │      7/15/1 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-2975 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/0
+│                       │      │                  │      7/19/5 
+│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2023-2975 
+│                       │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-2975 
-│                       │      │                  ├ [3]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
+│                       │      │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
 │                       │      │                  │      ommitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598[
 │                       │      │                  │      m 
-│                       │      │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
+│                       │      │                  ├ [5]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
 │                       │      │                  │      ommitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc[
 │                       │      │                  │      m 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
-│                       │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
-│                       │      │                  ╰ [7]: https://www.openssl.org/news/secadv/20230714.txt 
+│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
+│                       │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+│                       │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20230714.txt 
 │                       │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-07-15T13:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-07-19T15:15:00Z 
 │                       ├ [57] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : passwd 
@@ -6240,112 +6262,7 @@
 │                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-2253 
 │                             ├ PublishedDate   : 2023-06-06T20:15:00Z 
 │                             ╰ LastModifiedDate: 2023-06-29T16:15:00Z 
-├ [6] ╭ Target : /etc/ssh/ssh_host_dsa_key 
-│     ├ Class  : secret 
-│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                     ├ Category : AsymmetricPrivateKey 
-│                     ├ Severity : HIGH 
-│                     ├ Title    : Asymmetric Private Key 
-│                     ├ StartLine: 1 
-│                     ├ EndLine  : 1 
-│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************-----END
-│                     │                   │     │              OPENSSH PRIVATE KEY----- 
-│                     │                   │     ├ IsCause    : true 
-│                     │                   │     ├ Annotation :  
-│                     │                   │     ├ Truncated  : false 
-│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************-----END
-│                     │                   │     │              OPENSSH PRIVATE KEY----- 
-│                     │                   │     ├ FirstCause : true 
-│                     │                   │     ╰ LastCause  : true 
-│                     │                   ╰ [1] ╭ Number    : 2 
-│                     │                         ├ Content   :  
-│                     │                         ├ IsCause   : false 
-│                     │                         ├ Annotation:  
-│                     │                         ├ Truncated : false 
-│                     │                         ├ FirstCause: false 
-│                     │                         ╰ LastCause : false 
-│                     ├ Match    : BEGIN OPENSSH PRIVATE
-│                     │            KEY-----********************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************-----END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:3ac688bae1e29733465414376396322d564471ed13cb8b366303
-│                                 │            e3cea088ab74 
-│                                 ├ DiffID   : sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf0d618dae9c50b
-│                                 │            db8f94475e5e 
-│                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [7] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [6] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -6403,7 +6320,7 @@
 │                                 ├ DiffID   : sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf0d618dae9c50b
 │                                 │            db8f94475e5e 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [8] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [7] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -6455,7 +6372,178 @@
 │                                 ├ DiffID   : sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf0d618dae9c50b
 │                                 │            db8f94475e5e 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-╰ [9] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [8] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│     ├ Class  : secret 
+│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                     ├ Category : AsymmetricPrivateKey 
+│                     ├ Severity : HIGH 
+│                     ├ Title    : Asymmetric Private Key 
+│                     ├ StartLine: 1 
+│                     ├ EndLine  : 1 
+│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ IsCause    : true 
+│                     │                   │     ├ Annotation :  
+│                     │                   │     ├ Truncated  : false 
+│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ FirstCause : true 
+│                     │                   │     ╰ LastCause  : true 
+│                     │                   ╰ [1] ╭ Number    : 2 
+│                     │                         ├ Content   :  
+│                     │                         ├ IsCause   : false 
+│                     │                         ├ Annotation:  
+│                     │                         ├ Truncated : false 
+│                     │                         ├ FirstCause: false 
+│                     │                         ╰ LastCause : false 
+│                     ├ Match    : BEGIN OPENSSH PRIVATE
+│                     │            KEY-----********************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            *****************************************-----END OPENSSH PRI 
+│                     ╰ Layer     ╭ Digest   : sha256:3ac688bae1e29733465414376396322d564471ed13cb8b366303
+│                                 │            e3cea088ab74 
+│                                 ├ DiffID   : sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf0d618dae9c50b
+│                                 │            db8f94475e5e 
+│                                 ╰ CreatedBy: COPY / / # buildkit 
+╰ [9] ╭ Target : /etc/ssh/ssh_host_dsa_key 
       ├ Class  : secret 
       ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                       ├ Category : AsymmetricPrivateKey 
@@ -6492,33 +6580,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              ************************************-----END
+                      │                   │     │              OPENSSH PRIVATE KEY----- 
                       │                   │     ├ IsCause    : true 
                       │                   │     ├ Annotation :  
                       │                   │     ├ Truncated  : false 
@@ -6550,33 +6613,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              ************************************-----END
+                      │                   │     │              OPENSSH PRIVATE KEY----- 
                       │                   │     ├ FirstCause : true 
                       │                   │     ╰ LastCause  : true 
                       │                   ╰ [1] ╭ Number    : 2 
@@ -6604,23 +6642,7 @@
                       │            ****************************************************************************
                       │            ****************************************************************************
                       │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            *****************************************-----END OPENSSH PRI 
+                      │            ****************************************-----END OPENSSH PRI 
                       ╰ Layer     ╭ Digest   : sha256:3ac688bae1e29733465414376396322d564471ed13cb8b366303
                                   │            e3cea088ab74 
                                   ├ DiffID   : sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf0d618dae9c50b
