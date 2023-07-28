@@ -846,15 +846,21 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H
         V3Score: 7.1
     References:
+    - http://seclists.org/fulldisclosure/2023/Jul/47
+    - http://seclists.org/fulldisclosure/2023/Jul/48
+    - http://seclists.org/fulldisclosure/2023/Jul/52
     - https://access.redhat.com/security/cve/CVE-2023-2953
     - https://bugs.openldap.org/show_bug.cgi?id=9904
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2953
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2953
     - https://security.netapp.com/advisory/ntap-20230703-0005/
+    - https://support.apple.com/kb/HT213843
+    - https://support.apple.com/kb/HT213844
+    - https://support.apple.com/kb/HT213845
     - https://ubuntu.com/security/notices/USN-6197-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2953
     PublishedDate: '2023-05-30T22:15:00Z'
-    LastModifiedDate: '2023-07-03T16:15:00Z'
+    LastModifiedDate: '2023-07-25T16:15:00Z'
   - VulnerabilityID: CVE-2023-31437
     PkgID: libnss-systemd@249.11-0ubuntu3.9
     PkgName: libnss-systemd
@@ -1292,15 +1298,17 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2023/07/15/1
+    - http://www.openwall.com/lists/oss-security/2023/07/19/5
     - https://access.redhat.com/security/cve/CVE-2023-2975
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2975
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2975
+    - https://security.netapp.com/advisory/ntap-20230725-0004/
     - https://www.cve.org/CVERecord?id=CVE-2023-2975
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:00Z'
-    LastModifiedDate: '2023-07-15T13:15:00Z'
+    LastModifiedDate: '2023-07-25T15:15:00Z'
   - VulnerabilityID: CVE-2023-31437
     PkgID: libsystemd0@249.11-0ubuntu3.9
     PkgName: libsystemd0
@@ -1692,6 +1700,9 @@
     CweIDs:
     - CWE-400
     CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -1701,11 +1712,16 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-4899
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4899
+    - https://github.com/advisories/GHSA-5c9c-6x87-f9vm
     - https://github.com/facebook/zstd/issues/3200
+    - https://github.com/facebook/zstd/pull/3220
+    - https://github.com/pypa/advisory-database/tree/main/vulns/zstd/PYSEC-2023-121.yaml
+    - https://github.com/sergey-dryabzhinsky/python-zstd/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6
     - https://nvd.nist.gov/vuln/detail/CVE-2022-4899
+    - https://security.netapp.com/advisory/ntap-20230725-0005/
     - https://www.cve.org/CVERecord?id=CVE-2022-4899
     PublishedDate: '2023-03-31T20:15:00Z'
-    LastModifiedDate: '2023-04-07T01:19:00Z'
+    LastModifiedDate: '2023-07-25T15:15:00Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: login@1:4.8.1-2ubuntu2.1
     PkgName: login
@@ -1742,7 +1758,49 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:00Z'
     LastModifiedDate: '2023-04-24T18:05:00Z'
-  - VulnerabilityID: CVE-2020-14145
+  - VulnerabilityID: CVE-2023-38408
+    PkgID: openssh-client@1:8.9p1-3ubuntu0.1
+    PkgName: openssh-client
+    InstalledVersion: 1:8.9p1-3ubuntu0.1
+    FixedVersion: 1:8.9p1-3ubuntu0.3
+    Layer:
+      Digest: sha256:3ac688bae1e29733465414376396322d564471ed13cb8b366303e3cea088ab74
+      DiffID: sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf0d618dae9c50bdb8f94475e5e
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38408
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Remote code execution in ssh-agent PKCS#11 support
+    Description: 'The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.'
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 7.3
+    References:
+    - http://packetstormsecurity.com/files/173661/OpenSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
+    - http://www.openwall.com/lists/oss-security/2023/07/20/1
+    - http://www.openwall.com/lists/oss-security/2023/07/20/2
+    - https://access.redhat.com/security/cve/CVE-2023-38408
+    - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
+    - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
+    - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
+    - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
+    - https://news.ycombinator.com/item?id=36790196
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38408
+    - https://security.gentoo.org/glsa/202307-01
+    - https://ubuntu.com/security/notices/USN-6242-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38408
+    - https://www.openssh.com/security.html
+    - https://www.openssh.com/txt/release-9.3p2
+    - https://www.qualys.com/2023/07/19/cve-2023-38408/rce-openssh-forwarded-ssh-agent.txt
+    PublishedDate: '2023-07-20T03:15:00Z'
+    LastModifiedDate: '2023-07-23T03:15:00Z'
+  - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-client@1:8.9p1-3ubuntu0.1
     PkgName: openssh-client
     InstalledVersion: 1:8.9p1-3ubuntu0.1
@@ -1750,51 +1808,6 @@
       Digest: sha256:3ac688bae1e29733465414376396322d564471ed13cb8b366303e3cea088ab74
       DiffID: sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf0d618dae9c50bdb8f94475e5e
     SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-14145
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssh: Observable discrepancy leading to an information leak in the algorithm negotiation'
-    Description: 'The client side in OpenSSH 5.7 through 8.4 has an Observable Discrepancy leading to an information leak in the algorithm negotiation. This allows man-in-the-middle attackers to target initial connection attempts (where no host key for the server has been cached by the client). NOTE: some reports state that 8.5 and 8.6 are also affected.'
-    Severity: LOW
-    CweIDs:
-    - CWE-203
-    CVSS:
-      nvd:
-        V2Vector: AV:N/AC:M/Au:N/C:P/I:N/A:N
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V2Score: 4.3
-        V3Score: 5.9
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 5.9
-    References:
-    - http://www.openwall.com/lists/oss-security/2020/12/02/1
-    - https://access.redhat.com/security/cve/CVE-2020-14145
-    - https://anongit.mindrot.org/openssh.git/commit/?id=b3855ff053f5078ec3d3c653cdaedefaa5fc362d
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14145
-    - https://docs.ssh-mitm.at/CVE-2020-14145.html
-    - https://github.com/openssh/openssh-portable/compare/V_8_3_P1...V_8_4_P1
-    - https://github.com/ssh-mitm/ssh-mitm/blob/master/ssh_proxy_server/plugins/session/cve202014145.py
-    - https://linux.oracle.com/cve/CVE-2020-14145.html
-    - https://linux.oracle.com/errata/ELSA-2021-4368.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-14145
-    - https://security.gentoo.org/glsa/202105-35
-    - https://security.netapp.com/advisory/ntap-20200709-0004/
-    - https://www.cve.org/CVERecord?id=CVE-2020-14145
-    - https://www.fzi.de/en/news/news/detail-en/artikel/fsa-2020-2-ausnutzung-eines-informationslecks-fuer-gezielte-mitm-angriffe-auf-ssh-clients/
-    - https://www.fzi.de/fileadmin/user_upload/2020-06-26-FSA-2020-2.pdf
-    PublishedDate: '2020-06-29T18:15:00Z'
-    LastModifiedDate: '2022-04-28T19:34:00Z'
-  - VulnerabilityID: CVE-2023-28531
-    PkgID: openssh-client@1:8.9p1-3ubuntu0.1
-    PkgName: openssh-client
-    InstalledVersion: 1:8.9p1-3ubuntu0.1
-    Layer:
-      Digest: sha256:3ac688bae1e29733465414376396322d564471ed13cb8b366303e3cea088ab74
-      DiffID: sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf0d618dae9c50bdb8f94475e5e
-    SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28531
     DataSource:
       ID: ubuntu
@@ -1814,56 +1827,54 @@
     - https://access.redhat.com/security/cve/CVE-2023-28531
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28531
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28531
+    - https://security.gentoo.org/glsa/202307-01
     - https://security.netapp.com/advisory/ntap-20230413-0008/
     - https://www.cve.org/CVERecord?id=CVE-2023-28531
     - https://www.openwall.com/lists/oss-security/2023/03/15/8
     PublishedDate: '2023-03-17T04:15:00Z'
-    LastModifiedDate: '2023-04-26T19:17:00Z'
-  - VulnerabilityID: CVE-2020-14145
+    LastModifiedDate: '2023-07-21T19:21:00Z'
+  - VulnerabilityID: CVE-2023-38408
     PkgID: openssh-server@1:8.9p1-3ubuntu0.1
     PkgName: openssh-server
     InstalledVersion: 1:8.9p1-3ubuntu0.1
+    FixedVersion: 1:8.9p1-3ubuntu0.3
     Layer:
       Digest: sha256:3ac688bae1e29733465414376396322d564471ed13cb8b366303e3cea088ab74
       DiffID: sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf0d618dae9c50bdb8f94475e5e
     SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-14145
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38408
     DataSource:
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssh: Observable discrepancy leading to an information leak in the algorithm negotiation'
-    Description: 'The client side in OpenSSH 5.7 through 8.4 has an Observable Discrepancy leading to an information leak in the algorithm negotiation. This allows man-in-the-middle attackers to target initial connection attempts (where no host key for the server has been cached by the client). NOTE: some reports state that 8.5 and 8.6 are also affected.'
-    Severity: LOW
-    CweIDs:
-    - CWE-203
+    Title: Remote code execution in ssh-agent PKCS#11 support
+    Description: 'The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.'
+    Severity: MEDIUM
     CVSS:
-      nvd:
-        V2Vector: AV:N/AC:M/Au:N/C:P/I:N/A:N
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V2Score: 4.3
-        V3Score: 5.9
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 5.9
+        V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 7.3
     References:
-    - http://www.openwall.com/lists/oss-security/2020/12/02/1
-    - https://access.redhat.com/security/cve/CVE-2020-14145
-    - https://anongit.mindrot.org/openssh.git/commit/?id=b3855ff053f5078ec3d3c653cdaedefaa5fc362d
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14145
-    - https://docs.ssh-mitm.at/CVE-2020-14145.html
-    - https://github.com/openssh/openssh-portable/compare/V_8_3_P1...V_8_4_P1
-    - https://github.com/ssh-mitm/ssh-mitm/blob/master/ssh_proxy_server/plugins/session/cve202014145.py
-    - https://linux.oracle.com/cve/CVE-2020-14145.html
-    - https://linux.oracle.com/errata/ELSA-2021-4368.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-14145
-    - https://security.gentoo.org/glsa/202105-35
-    - https://security.netapp.com/advisory/ntap-20200709-0004/
-    - https://www.cve.org/CVERecord?id=CVE-2020-14145
-    - https://www.fzi.de/en/news/news/detail-en/artikel/fsa-2020-2-ausnutzung-eines-informationslecks-fuer-gezielte-mitm-angriffe-auf-ssh-clients/
-    - https://www.fzi.de/fileadmin/user_upload/2020-06-26-FSA-2020-2.pdf
-    PublishedDate: '2020-06-29T18:15:00Z'
-    LastModifiedDate: '2022-04-28T19:34:00Z'
+    - http://packetstormsecurity.com/files/173661/OpenSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
+    - http://www.openwall.com/lists/oss-security/2023/07/20/1
+    - http://www.openwall.com/lists/oss-security/2023/07/20/2
+    - https://access.redhat.com/security/cve/CVE-2023-38408
+    - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
+    - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
+    - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
+    - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
+    - https://news.ycombinator.com/item?id=36790196
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38408
+    - https://security.gentoo.org/glsa/202307-01
+    - https://ubuntu.com/security/notices/USN-6242-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38408
+    - https://www.openssh.com/security.html
+    - https://www.openssh.com/txt/release-9.3p2
+    - https://www.qualys.com/2023/07/19/cve-2023-38408/rce-openssh-forwarded-ssh-agent.txt
+    PublishedDate: '2023-07-20T03:15:00Z'
+    LastModifiedDate: '2023-07-23T03:15:00Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-server@1:8.9p1-3ubuntu0.1
     PkgName: openssh-server
@@ -1891,56 +1902,54 @@
     - https://access.redhat.com/security/cve/CVE-2023-28531
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28531
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28531
+    - https://security.gentoo.org/glsa/202307-01
     - https://security.netapp.com/advisory/ntap-20230413-0008/
     - https://www.cve.org/CVERecord?id=CVE-2023-28531
     - https://www.openwall.com/lists/oss-security/2023/03/15/8
     PublishedDate: '2023-03-17T04:15:00Z'
-    LastModifiedDate: '2023-04-26T19:17:00Z'
-  - VulnerabilityID: CVE-2020-14145
+    LastModifiedDate: '2023-07-21T19:21:00Z'
+  - VulnerabilityID: CVE-2023-38408
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.1
     PkgName: openssh-sftp-server
     InstalledVersion: 1:8.9p1-3ubuntu0.1
+    FixedVersion: 1:8.9p1-3ubuntu0.3
     Layer:
       Digest: sha256:3ac688bae1e29733465414376396322d564471ed13cb8b366303e3cea088ab74
       DiffID: sha256:3b2ec6af5945c975e451c58a9f270eb4803c2cf0d618dae9c50bdb8f94475e5e
     SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-14145
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38408
     DataSource:
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssh: Observable discrepancy leading to an information leak in the algorithm negotiation'
-    Description: 'The client side in OpenSSH 5.7 through 8.4 has an Observable Discrepancy leading to an information leak in the algorithm negotiation. This allows man-in-the-middle attackers to target initial connection attempts (where no host key for the server has been cached by the client). NOTE: some reports state that 8.5 and 8.6 are also affected.'
-    Severity: LOW
-    CweIDs:
-    - CWE-203
+    Title: Remote code execution in ssh-agent PKCS#11 support
+    Description: 'The PKCS#11 feature in ssh-agent in OpenSSH before 9.3p2 has an insufficiently trustworthy search path, leading to remote code execution if an agent is forwarded to an attacker-controlled system. (Code in /usr/lib is not necessarily safe for loading into ssh-agent.) NOTE: this issue exists because of an incomplete fix for CVE-2016-10009.'
+    Severity: MEDIUM
     CVSS:
-      nvd:
-        V2Vector: AV:N/AC:M/Au:N/C:P/I:N/A:N
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V2Score: 4.3
-        V3Score: 5.9
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 5.9
+        V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 7.3
     References:
-    - http://www.openwall.com/lists/oss-security/2020/12/02/1
-    - https://access.redhat.com/security/cve/CVE-2020-14145
-    - https://anongit.mindrot.org/openssh.git/commit/?id=b3855ff053f5078ec3d3c653cdaedefaa5fc362d
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14145
-    - https://docs.ssh-mitm.at/CVE-2020-14145.html
-    - https://github.com/openssh/openssh-portable/compare/V_8_3_P1...V_8_4_P1
-    - https://github.com/ssh-mitm/ssh-mitm/blob/master/ssh_proxy_server/plugins/session/cve202014145.py
-    - https://linux.oracle.com/cve/CVE-2020-14145.html
-    - https://linux.oracle.com/errata/ELSA-2021-4368.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2020-14145
-    - https://security.gentoo.org/glsa/202105-35
-    - https://security.netapp.com/advisory/ntap-20200709-0004/
-    - https://www.cve.org/CVERecord?id=CVE-2020-14145
-    - https://www.fzi.de/en/news/news/detail-en/artikel/fsa-2020-2-ausnutzung-eines-informationslecks-fuer-gezielte-mitm-angriffe-auf-ssh-clients/
-    - https://www.fzi.de/fileadmin/user_upload/2020-06-26-FSA-2020-2.pdf
-    PublishedDate: '2020-06-29T18:15:00Z'
-    LastModifiedDate: '2022-04-28T19:34:00Z'
+    - http://packetstormsecurity.com/files/173661/OpenSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
+    - http://www.openwall.com/lists/oss-security/2023/07/20/1
+    - http://www.openwall.com/lists/oss-security/2023/07/20/2
+    - https://access.redhat.com/security/cve/CVE-2023-38408
+    - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
+    - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
+    - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
+    - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
+    - https://news.ycombinator.com/item?id=36790196
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38408
+    - https://security.gentoo.org/glsa/202307-01
+    - https://ubuntu.com/security/notices/USN-6242-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38408
+    - https://www.openssh.com/security.html
+    - https://www.openssh.com/txt/release-9.3p2
+    - https://www.qualys.com/2023/07/19/cve-2023-38408/rce-openssh-forwarded-ssh-agent.txt
+    PublishedDate: '2023-07-20T03:15:00Z'
+    LastModifiedDate: '2023-07-23T03:15:00Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.1
     PkgName: openssh-sftp-server
@@ -1968,11 +1977,12 @@
     - https://access.redhat.com/security/cve/CVE-2023-28531
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28531
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28531
+    - https://security.gentoo.org/glsa/202307-01
     - https://security.netapp.com/advisory/ntap-20230413-0008/
     - https://www.cve.org/CVERecord?id=CVE-2023-28531
     - https://www.openwall.com/lists/oss-security/2023/03/15/8
     PublishedDate: '2023-03-17T04:15:00Z'
-    LastModifiedDate: '2023-04-26T19:17:00Z'
+    LastModifiedDate: '2023-07-21T19:21:00Z'
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl@3.0.2-0ubuntu1.10
     PkgName: openssl
@@ -2015,15 +2025,17 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2023/07/15/1
+    - http://www.openwall.com/lists/oss-security/2023/07/19/5
     - https://access.redhat.com/security/cve/CVE-2023-2975
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2975
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
     - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2975
+    - https://security.netapp.com/advisory/ntap-20230725-0004/
     - https://www.cve.org/CVERecord?id=CVE-2023-2975
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:00Z'
-    LastModifiedDate: '2023-07-15T13:15:00Z'
+    LastModifiedDate: '2023-07-25T15:15:00Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: passwd@1:4.8.1-2ubuntu2.1
     PkgName: passwd
