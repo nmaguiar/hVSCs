@@ -1427,11 +1427,21 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:3827
+    - https://access.redhat.com/errata/RHSA-2023:3711
     - https://access.redhat.com/security/cve/CVE-2022-48281
     - https://bugzilla.redhat.com/2163606
+    - https://bugzilla.redhat.com/2170119
+    - https://bugzilla.redhat.com/2170146
+    - https://bugzilla.redhat.com/2170151
+    - https://bugzilla.redhat.com/2170157
+    - https://bugzilla.redhat.com/2170162
+    - https://bugzilla.redhat.com/2170167
+    - https://bugzilla.redhat.com/2170172
+    - https://bugzilla.redhat.com/2170178
+    - https://bugzilla.redhat.com/2170187
+    - https://bugzilla.redhat.com/2170192
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48281
-    - https://errata.almalinux.org/8/ALSA-2023-3827.html
+    - https://errata.almalinux.org/9/ALSA-2023-3711.html
     - https://gitlab.com/libtiff/libtiff/-/commit/d1b6b9c1b3cae2d9e37754506c1ad8f4f7b646b5
     - https://gitlab.com/libtiff/libtiff/-/issues/488
     - https://linux.oracle.com/cve/CVE-2022-48281.html
@@ -3861,9 +3871,20 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 7.3
     References:
+    - https://access.redhat.com/errata/RHSA-2022:6595
     - https://access.redhat.com/security/cve/CVE-2020-7788
+    - https://bugzilla.redhat.com/1907444
+    - https://bugzilla.redhat.com/1945459
+    - https://bugzilla.redhat.com/1964461
+    - https://bugzilla.redhat.com/2007557
+    - https://bugzilla.redhat.com/2098556
+    - https://bugzilla.redhat.com/2102001
+    - https://bugzilla.redhat.com/2105422
+    - https://bugzilla.redhat.com/2105426
+    - https://bugzilla.redhat.com/2105428
+    - https://bugzilla.redhat.com/2105430
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7788
-    - https://errata.almalinux.org/8/ALSA-2022-0350.html
+    - https://errata.almalinux.org/9/ALSA-2022-6595.html
     - https://github.com/advisories/GHSA-qqgx-2p2h-9c37
     - https://github.com/npm/ini/commit/56d2805e07ccd94e2ba0984ac9240ff02d44b6f1
     - https://github.com/npm/ini/commit/56d2805e07ccd94e2ba0984ac9240ff02d44b6f1 (v1.3.6)
@@ -4465,12 +4486,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2022:7469
+    - https://access.redhat.com/errata/RHSA-2022:8008
     - https://access.redhat.com/security/cve/CVE-2022-27191
+    - https://bugzilla.redhat.com/1939485
+    - https://bugzilla.redhat.com/1989564
+    - https://bugzilla.redhat.com/1989570
+    - https://bugzilla.redhat.com/1989575
     - https://bugzilla.redhat.com/2064702
-    - https://bugzilla.redhat.com/2085361
-    - https://bugzilla.redhat.com/2086398
-    - https://errata.almalinux.org/8/ALSA-2022-7469.html
+    - https://bugzilla.redhat.com/2121445
+    - https://bugzilla.redhat.com/2121453
+    - https://errata.almalinux.org/9/ALSA-2022-8008.html
     - https://github.com/advisories/GHSA-8c26-wmh5-6g9v
     - https://go.dev/cl/392355
     - https://go.googlesource.com/crypto/+/1baeb1ce4c0b006eff0f294c47cb7617598dfb3d
@@ -4571,22 +4596,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2802
+    - https://access.redhat.com/errata/RHSA-2023:2357
     - https://access.redhat.com/security/cve/CVE-2022-27664
-    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
-    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
-    - https://bugzilla.redhat.com/2107390
-    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
-    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
-    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -4605,7 +4626,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/8/ALSA-2023-2802.html
+    - https://errata.almalinux.org/9/ALSA-2023-2357.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
