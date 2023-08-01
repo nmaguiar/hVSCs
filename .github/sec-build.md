@@ -972,211 +972,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
 │                       │      ├ PublishedDate   : 2023-05-30T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2023-31437 
-│                       │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libnss-systemd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31437 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify a seale ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify a sealed log file such that, in some
-│                       │      │                   views, not all existing and sealed log messages are
-│                       │      │                   displayed. NOTE: the vendor reportedly sent "a reply denying
-│                       │      │                    that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31437 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2023-31438 
-│                       │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libnss-systemd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31438 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    truncate a sea ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can truncate a sealed log file and then resume
-│                       │      │                   log sealing such that checking the integrity shows no error,
-│                       │      │                    despite modifications. NOTE: the vendor reportedly sent "a
-│                       │      │                   reply denying that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31438 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2023-31439 
-│                       │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libnss-systemd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31439 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify the con ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify the contents of past events in a
-│                       │      │                   sealed log file and then adjust the file such that checking
-│                       │      │                   the integrity shows no error, despite modifications. NOTE:
-│                       │      │                   the vendor reportedly sent "a reply denying that any of the
-│                       │      │                   finding was a security vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31439 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:15:00Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2023-31437 
-│                       │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libpam-systemd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31437 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify a seale ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify a sealed log file such that, in some
-│                       │      │                   views, not all existing and sealed log messages are
-│                       │      │                   displayed. NOTE: the vendor reportedly sent "a reply denying
-│                       │      │                    that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31437 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2023-31438 
-│                       │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libpam-systemd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31438 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    truncate a sea ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can truncate a sealed log file and then resume
-│                       │      │                   log sealing such that checking the integrity shows no error,
-│                       │      │                    despite modifications. NOTE: the vendor reportedly sent "a
-│                       │      │                   reply denying that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31438 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2023-31439 
-│                       │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libpam-systemd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31439 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify the con ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify the contents of past events in a
-│                       │      │                   sealed log file and then adjust the file such that checking
-│                       │      │                   the integrity shows no error, despite modifications. NOTE:
-│                       │      │                   the vendor reportedly sent "a reply denying that any of the
-│                       │      │                   finding was a security vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31439 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:15:00Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2017-11164 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2017-11164 
 │                       │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libpcre3 
 │                       │      ├ InstalledVersion: 2:8.39-13ubuntu0.22.04.1 
@@ -1221,7 +1017,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                       │      ├ PublishedDate   : 2017-07-11T03:29:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-12T15:15:00Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2022-3857 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2022-3857 
 │                       │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                       │      ├ PkgName         : libpng16-16 
 │                       │      ├ InstalledVersion: 1.6.37-3build5 
@@ -1256,7 +1052,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
 │                       │      ├ PublishedDate   : 2023-03-06T23:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-06T13:15:00Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : libpython3.10 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1303,7 +1099,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : libpython3.10-minimal 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1350,7 +1146,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : libpython3.10-stdlib 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1397,7 +1193,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2022-46908 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2022-46908 
 │                       │      ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
 │                       │      ├ PkgName         : libsqlite3-0 
 │                       │      ├ InstalledVersion: 3.37.2-2ubuntu0.1 
@@ -1434,7 +1230,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-46908 
 │                       │      ├ PublishedDate   : 2022-12-12T06:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-03-07T18:21:00Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2023-2975 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2023-2975 
 │                       │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.10 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.10 
@@ -1511,109 +1307,7 @@
 │                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
 │                       │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2023-31437 
-│                       │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libsystemd0 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31437 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify a seale ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify a sealed log file such that, in some
-│                       │      │                   views, not all existing and sealed log messages are
-│                       │      │                   displayed. NOTE: the vendor reportedly sent "a reply denying
-│                       │      │                    that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31437 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2023-31438 
-│                       │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libsystemd0 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31438 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    truncate a sea ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can truncate a sealed log file and then resume
-│                       │      │                   log sealing such that checking the integrity shows no error,
-│                       │      │                    despite modifications. NOTE: the vendor reportedly sent "a
-│                       │      │                   reply denying that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31438 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2023-31439 
-│                       │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libsystemd0 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31439 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify the con ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify the contents of past events in a
-│                       │      │                   sealed log file and then adjust the file such that checking
-│                       │      │                   the integrity shows no error, despite modifications. NOTE:
-│                       │      │                   the vendor reportedly sent "a reply denying that any of the
-│                       │      │                   finding was a security vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31439 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:15:00Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2022-48281 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2022-48281 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.4 
@@ -1639,29 +1333,39 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 5.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:3827 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:3711 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-48281 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2163606 
-│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2170119 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2170146 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2170151 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2170157 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2170162 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2170167 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2170172 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2170178 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2170187 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2170192 
+│                       │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2022-48281 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2023-3827.html 
-│                       │      │                  ├ [5] : https://gitlab.com/libtiff/libtiff/-/commit/d1b6
+│                       │      │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2023-3711.html 
+│                       │      │                  ├ [15]: https://gitlab.com/libtiff/libtiff/-/commit/d1b6
 │                       │      │                  │       b9c1b3cae2d9e37754506c1ad8f4f7b646b5 
-│                       │      │                  ├ [6] : https://gitlab.com/libtiff/libtiff/-/issues/488 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2022-48281.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-3827.html 
-│                       │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  ├ [16]: https://gitlab.com/libtiff/libtiff/-/issues/488 
+│                       │      │                  ├ [17]: https://linux.oracle.com/cve/CVE-2022-48281.html 
+│                       │      │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2023-3827.html 
+│                       │      │                  ├ [19]: https://lists.debian.org/debian-lts-announce/202
 │                       │      │                  │       3/01/msg00037.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2022-48281 
-│                       │      │                  ├ [11]: https://security.gentoo.org/glsa/202305-31 
-│                       │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-202303
+│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2022-48281 
+│                       │      │                  ├ [21]: https://security.gentoo.org/glsa/202305-31 
+│                       │      │                  ├ [22]: https://security.netapp.com/advisory/ntap-202303
 │                       │      │                  │       02-0004/ 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-5841-1 
-│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2022-48281 
-│                       │      │                  ╰ [15]: https://www.debian.org/security/2023/dsa-5333 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-5841-1 
+│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2022-48281 
+│                       │      │                  ╰ [25]: https://www.debian.org/security/2023/dsa-5333 
 │                       │      ├ PublishedDate   : 2023-01-23T03:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-30T06:16:00Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2018-10126 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2018-10126 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.4 
@@ -1699,7 +1403,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                       │      ├ PublishedDate   : 2018-04-21T21:29:00Z 
 │                       │      ╰ LastModifiedDate: 2021-03-15T22:31:00Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2023-1916 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2023-1916 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.4 
@@ -1738,7 +1442,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-1916 
 │                       │      ├ PublishedDate   : 2023-04-10T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-18T15:25:00Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2023-26965 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2023-26965 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.4 
@@ -1776,7 +1480,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-26965 
 │                       │      ├ PublishedDate   : 2023-06-14T21:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-06T19:15:00Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2023-3316 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2023-3316 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.4 
@@ -1817,109 +1521,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-3316 
 │                       │      ├ PublishedDate   : 2023-06-19T12:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-03T16:43:00Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2023-31437 
-│                       │      ├ PkgID           : libudev1@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libudev1 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31437 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify a seale ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify a sealed log file such that, in some
-│                       │      │                   views, not all existing and sealed log messages are
-│                       │      │                   displayed. NOTE: the vendor reportedly sent "a reply denying
-│                       │      │                    that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31437 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2023-31438 
-│                       │      ├ PkgID           : libudev1@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libudev1 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31438 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    truncate a sea ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can truncate a sealed log file and then resume
-│                       │      │                   log sealing such that checking the integrity shows no error,
-│                       │      │                    despite modifications. NOTE: the vendor reportedly sent "a
-│                       │      │                   reply denying that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31438 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2023-31439 
-│                       │      ├ PkgID           : libudev1@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : libudev1 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31439 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify the con ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify the contents of past events in a
-│                       │      │                   sealed log file and then adjust the file such that checking
-│                       │      │                   the integrity shows no error, despite modifications. NOTE:
-│                       │      │                   the vendor reportedly sent "a reply denying that any of the
-│                       │      │                   finding was a security vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31439 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:15:00Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2022-4899 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                       │      ├ PkgName         : libzstd1 
 │                       │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
@@ -1964,7 +1566,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : login 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2015,7 +1617,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.3 
 │                       │      ├ PkgName         : openssh-client 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
@@ -2052,7 +1654,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.3 
 │                       │      ├ PkgName         : openssh-server 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
@@ -2089,7 +1691,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.3 
 │                       │      ├ PkgName         : openssh-sftp-server 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
@@ -2126,7 +1728,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2023-2975 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2023-2975 
 │                       │      ├ PkgID           : openssl@3.0.2-0ubuntu1.10 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.10 
@@ -2203,7 +1805,7 @@
 │                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
 │                       │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2254,7 +1856,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : python3.10 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -2301,7 +1903,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : python3.10-minimal 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -2348,313 +1950,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2023-31437 
-│                       │      ├ PkgID           : systemd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : systemd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31437 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify a seale ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify a sealed log file such that, in some
-│                       │      │                   views, not all existing and sealed log messages are
-│                       │      │                   displayed. NOTE: the vendor reportedly sent "a reply denying
-│                       │      │                    that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31437 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2023-31438 
-│                       │      ├ PkgID           : systemd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : systemd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31438 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    truncate a sea ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can truncate a sealed log file and then resume
-│                       │      │                   log sealing such that checking the integrity shows no error,
-│                       │      │                    despite modifications. NOTE: the vendor reportedly sent "a
-│                       │      │                   reply denying that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31438 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2023-31439 
-│                       │      ├ PkgID           : systemd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : systemd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31439 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify the con ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify the contents of past events in a
-│                       │      │                   sealed log file and then adjust the file such that checking
-│                       │      │                   the integrity shows no error, despite modifications. NOTE:
-│                       │      │                   the vendor reportedly sent "a reply denying that any of the
-│                       │      │                   finding was a security vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31439 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:15:00Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2023-31437 
-│                       │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : systemd-sysv 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31437 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify a seale ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify a sealed log file such that, in some
-│                       │      │                   views, not all existing and sealed log messages are
-│                       │      │                   displayed. NOTE: the vendor reportedly sent "a reply denying
-│                       │      │                    that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31437 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2023-31438 
-│                       │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : systemd-sysv 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31438 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    truncate a sea ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can truncate a sealed log file and then resume
-│                       │      │                   log sealing such that checking the integrity shows no error,
-│                       │      │                    despite modifications. NOTE: the vendor reportedly sent "a
-│                       │      │                   reply denying that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31438 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2023-31439 
-│                       │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : systemd-sysv 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31439 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify the con ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify the contents of past events in a
-│                       │      │                   sealed log file and then adjust the file such that checking
-│                       │      │                   the integrity shows no error, despite modifications. NOTE:
-│                       │      │                   the vendor reportedly sent "a reply denying that any of the
-│                       │      │                   finding was a security vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31439 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:15:00Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2023-31437 
-│                       │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : systemd-timesyncd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31437 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify a seale ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify a sealed log file such that, in some
-│                       │      │                   views, not all existing and sealed log messages are
-│                       │      │                   displayed. NOTE: the vendor reportedly sent "a reply denying
-│                       │      │                    that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31437 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2023-31438 
-│                       │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : systemd-timesyncd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31438 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    truncate a sea ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can truncate a sealed log file and then resume
-│                       │      │                   log sealing such that checking the integrity shows no error,
-│                       │      │                    despite modifications. NOTE: the vendor reportedly sent "a
-│                       │      │                   reply denying that any of the finding was a security
-│                       │      │                   vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31438 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:16:00Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2023-31439 
-│                       │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.9 
-│                       │      ├ PkgName         : systemd-timesyncd 
-│                       │      ├ InstalledVersion: 249.11-0ubuntu3.9 
-│                       │      ├ Layer            ╭ Digest: sha256:9fe42c11b7f7ea039c1c900135debf9414c6044
-│                       │      │                  │         81a97609733843d51a7e133ad 
-│                       │      │                  ╰ DiffID: sha256:a1b5b2e11adedd5384e6080e8dda8075759a096
-│                       │      │                            37256a484c4138c56da75aaed 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-31439 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : An issue was discovered in systemd 253. An attacker can
-│                       │      │                    modify the con ... 
-│                       │      ├ Description     : ** DISPUTED ** An issue was discovered in systemd 253.
-│                       │      │                   An attacker can modify the contents of past events in a
-│                       │      │                   sealed log file and then adjust the file such that checking
-│                       │      │                   the integrity shows no error, despite modifications. NOTE:
-│                       │      │                   the vendor reportedly sent "a reply denying that any of the
-│                       │      │                   finding was a security vulnerability." 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-354 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :L/A:N 
-│                       │      │                        ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-31439 
-│                       │      │                  ├ [1]: https://github.com/kastel-security/Journald 
-│                       │      │                  ├ [2]: https://github.com/kastel-security/Journald/blob/
-│                       │      │                  │      main/journald-publication.pdf 
-│                       │      │                  ╰ [3]: https://github.com/systemd/systemd/releases 
-│                       │      ├ PublishedDate   : 2023-06-13T17:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-23T19:15:00Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : uidmap 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2705,7 +2001,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2022-2182 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2022-2182 
 │                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -2751,7 +2047,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2182 
 │                       │      ├ PublishedDate   : 2022-06-23T18:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2022-2343 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2022-2343 
 │                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -2793,7 +2089,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2343 
 │                       │      ├ PublishedDate   : 2022-07-08T18:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2022-2862 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2022-2862 
 │                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -2834,7 +2130,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                       │      ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2022-2889 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2022-2889 
 │                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -2873,7 +2169,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                       │      ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2022-2982 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2022-2982 
 │                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -2916,7 +2212,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -2958,7 +2254,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2022-2182 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2022-2182 
 │                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3004,7 +2300,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2182 
 │                       │      ├ PublishedDate   : 2022-06-23T18:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [74] ╭ VulnerabilityID : CVE-2022-2343 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2022-2343 
 │                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3046,7 +2342,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2343 
 │                       │      ├ PublishedDate   : 2022-07-08T18:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [75] ╭ VulnerabilityID : CVE-2022-2862 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2022-2862 
 │                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3087,7 +2383,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                       │      ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [76] ╭ VulnerabilityID : CVE-2022-2889 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2022-2889 
 │                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3126,7 +2422,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                       │      ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [77] ╭ VulnerabilityID : CVE-2022-2982 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2022-2982 
 │                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3169,7 +2465,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [78] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3211,7 +2507,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [79] ╭ VulnerabilityID : CVE-2022-2182 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2022-2182 
 │                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3257,7 +2553,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2182 
 │                       │      ├ PublishedDate   : 2022-06-23T18:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [80] ╭ VulnerabilityID : CVE-2022-2343 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2022-2343 
 │                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3299,7 +2595,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2343 
 │                       │      ├ PublishedDate   : 2022-07-08T18:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [81] ╭ VulnerabilityID : CVE-2022-2862 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2022-2862 
 │                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3340,7 +2636,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                       │      ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [82] ╭ VulnerabilityID : CVE-2022-2889 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2022-2889 
 │                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3379,7 +2675,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                       │      ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [83] ╭ VulnerabilityID : CVE-2022-2982 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2022-2982 
 │                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3422,7 +2718,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [84] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3464,7 +2760,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [85] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ InstalledVersion: 1.21.2-2ubuntu1 
@@ -3503,7 +2799,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2022-05-13T20:52:00Z 
-│                       ├ [86] ╭ VulnerabilityID : CVE-2022-2182 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2022-2182 
 │                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3549,7 +2845,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2182 
 │                       │      ├ PublishedDate   : 2022-06-23T18:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [87] ╭ VulnerabilityID : CVE-2022-2343 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2022-2343 
 │                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3591,7 +2887,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2343 
 │                       │      ├ PublishedDate   : 2022-07-08T18:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [88] ╭ VulnerabilityID : CVE-2022-2862 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2022-2862 
 │                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3632,7 +2928,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                       │      ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [89] ╭ VulnerabilityID : CVE-2022-2889 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2022-2889 
 │                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3671,7 +2967,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                       │      ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [90] ╭ VulnerabilityID : CVE-2022-2982 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2022-2982 
 │                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3714,7 +3010,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ╰ [91] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ╰ [70] ╭ VulnerabilityID : CVE-2022-1886 
 │                              ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                              ├ PkgName         : xxd 
 │                              ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3899,64 +3195,68 @@
 │                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
 │                       │     │                           │           /I:N/A:H 
 │                       │     │                           ╰ V3Score : 7.5 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:7469 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:8008 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-27191 
-│                       │     │                  ├ [2] : https://bugzilla.redhat.com/2064702 
-│                       │     │                  ├ [3] : https://bugzilla.redhat.com/2085361 
-│                       │     │                  ├ [4] : https://bugzilla.redhat.com/2086398 
-│                       │     │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2022-7469.html 
-│                       │     │                  ├ [6] : https://github.com/advisories/GHSA-8c26-wmh5-6g9v 
-│                       │     │                  ├ [7] : https://go.dev/cl/392355 
-│                       │     │                  ├ [8] : https://go.googlesource.com/crypto/+/1baeb1ce4c0b
+│                       │     │                  ├ [2] : https://bugzilla.redhat.com/1939485 
+│                       │     │                  ├ [3] : https://bugzilla.redhat.com/1989564 
+│                       │     │                  ├ [4] : https://bugzilla.redhat.com/1989570 
+│                       │     │                  ├ [5] : https://bugzilla.redhat.com/1989575 
+│                       │     │                  ├ [6] : https://bugzilla.redhat.com/2064702 
+│                       │     │                  ├ [7] : https://bugzilla.redhat.com/2121445 
+│                       │     │                  ├ [8] : https://bugzilla.redhat.com/2121453 
+│                       │     │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2022-8008.html 
+│                       │     │                  ├ [10]: https://github.com/advisories/GHSA-8c26-wmh5-6g9v 
+│                       │     │                  ├ [11]: https://go.dev/cl/392355 
+│                       │     │                  ├ [12]: https://go.googlesource.com/crypto/+/1baeb1ce4c0b
 │                       │     │                  │       006eff0f294c47cb7617598dfb3d 
-│                       │     │                  ├ [9] : https://groups.google.com/g/golang-announce 
-│                       │     │                  ├ [10]: https://groups.google.com/g/golang-announce/c/-cp
+│                       │     │                  ├ [13]: https://groups.google.com/g/golang-announce 
+│                       │     │                  ├ [14]: https://groups.google.com/g/golang-announce/c/-cp
 │                       │     │                  │       44ypCT5s 
-│                       │     │                  ├ [11]: https://groups.google.com/g/golang-announce/c/-cp
+│                       │     │                  ├ [15]: https://groups.google.com/g/golang-announce/c/-cp
 │                       │     │                  │       44ypCT5s/m/wmegxkLiAQAJ 
-│                       │     │                  ├ [12]: https://linux.oracle.com/cve/CVE-2022-27191.html 
-│                       │     │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2022-8008.html 
-│                       │     │                  ├ [14]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [16]: https://linux.oracle.com/cve/CVE-2022-27191.html 
+│                       │     │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2022-8008.html 
+│                       │     │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/DLUJZV3H
 │                       │     │                  │       BP56ADXU6QH2V7RNYUPMVBXQ/ 
-│                       │     │                  ├ [15]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [19]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/EZ3S7LB6
 │                       │     │                  │       5N54HXXBCB67P4TTOHTNPP5O/ 
-│                       │     │                  ├ [16]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [20]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HHGBEGJ5
 │                       │     │                  │       4DZZGTXFUQNS7ZIG3E624YAF/ 
-│                       │     │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/J5WPM42U
 │                       │     │                  │       R6XIBQNQPNQHM32X7S4LJTRX/ 
-│                       │     │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QTFOIDHQ
 │                       │     │                  │       RGNI4P6LYN6ILH5G443RYYKB/ 
-│                       │     │                  ├ [19]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/RQXU752A
 │                       │     │                  │       LW53OJAF5MG3WMR5CCZVLWW6/ 
-│                       │     │                  ├ [20]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YHYRQB7T
 │                       │     │                  │       RMHDB3NEHW5XBRG7PPMUTPGV/ 
-│                       │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/Z55VUVGO
 │                       │     │                  │       7E5PJFXIOVAY373NZRHBNCI5/ 
-│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZFUNHFHQ
 │                       │     │                  │       VJSADNH7EZ3B53CYDZVEEPBP/ 
-│                       │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZQNPPQWS
 │                       │     │                  │       TP2IX7SHE6TS4SP4EVMI5EZK/ 
-│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZY2SLWOQ
 │                       │     │                  │       R4ZURQ7UBRZ7JIX6H6F5JHJR/ 
-│                       │     │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2022-27191 
-│                       │     │                  ├ [26]: https://pkg.go.dev/vuln/GO-2021-0356 
-│                       │     │                  ├ [27]: https://raw.githubusercontent.com/golang/vulndb/d
+│                       │     │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2022-27191 
+│                       │     │                  ├ [30]: https://pkg.go.dev/vuln/GO-2021-0356 
+│                       │     │                  ├ [31]: https://raw.githubusercontent.com/golang/vulndb/d
 │                       │     │                  │       f2d3d326300e2ae768f00351ffa96cc2c56cf54/reports/GO-202
 │                       │     │                  │       1-0356.yaml 
-│                       │     │                  ├ [28]: https://security.netapp.com/advisory/ntap-2022042
+│                       │     │                  ├ [32]: https://security.netapp.com/advisory/ntap-2022042
 │                       │     │                  │       9-0002/ 
-│                       │     │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2022-27191 
+│                       │     │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2022-27191 
 │                       │     ├ PublishedDate   : 2022-03-18T07:15:00Z 
 │                       │     ╰ LastModifiedDate: 2022-10-26T17:52:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2021-33194 
@@ -4042,79 +3342,75 @@
 │                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N
 │                       │     │                           │           /I:N/A:H 
 │                       │     │                           ╰ V3Score : 6.5 
-│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2802 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2357 
 │                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-27664 
-│                       │     │                  ├ [2] : https://bugzilla.redhat.com/2107342 
-│                       │     │                  ├ [3] : https://bugzilla.redhat.com/2107371 
-│                       │     │                  ├ [4] : https://bugzilla.redhat.com/2107374 
-│                       │     │                  ├ [5] : https://bugzilla.redhat.com/2107376 
-│                       │     │                  ├ [6] : https://bugzilla.redhat.com/2107383 
-│                       │     │                  ├ [7] : https://bugzilla.redhat.com/2107386 
-│                       │     │                  ├ [8] : https://bugzilla.redhat.com/2107388 
-│                       │     │                  ├ [9] : https://bugzilla.redhat.com/2107390 
-│                       │     │                  ├ [10]: https://bugzilla.redhat.com/2107392 
-│                       │     │                  ├ [11]: https://bugzilla.redhat.com/2113814 
-│                       │     │                  ├ [12]: https://bugzilla.redhat.com/2121445 
-│                       │     │                  ├ [13]: https://bugzilla.redhat.com/2124669 
-│                       │     │                  ├ [14]: https://bugzilla.redhat.com/2161274 
-│                       │     │                  ├ [15]: https://bugzilla.redhat.com/2168256 
-│                       │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
-│                       │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
-│                       │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
-│                       │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
-│                       │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
-│                       │     │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
-│                       │     │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
-│                       │     │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
-│                       │     │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
-│                       │     │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │     │                  ├ [2] : https://bugzilla.redhat.com/2107371 
+│                       │     │                  ├ [3] : https://bugzilla.redhat.com/2107374 
+│                       │     │                  ├ [4] : https://bugzilla.redhat.com/2107383 
+│                       │     │                  ├ [5] : https://bugzilla.redhat.com/2107386 
+│                       │     │                  ├ [6] : https://bugzilla.redhat.com/2107388 
+│                       │     │                  ├ [7] : https://bugzilla.redhat.com/2113814 
+│                       │     │                  ├ [8] : https://bugzilla.redhat.com/2124669 
+│                       │     │                  ├ [9] : https://bugzilla.redhat.com/2132868 
+│                       │     │                  ├ [10]: https://bugzilla.redhat.com/2132872 
+│                       │     │                  ├ [11]: https://bugzilla.redhat.com/2161274 
+│                       │     │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
+│                       │     │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
+│                       │     │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
+│                       │     │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
+│                       │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
+│                       │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
+│                       │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
+│                       │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
+│                       │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
+│                       │     │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2020-28851 
-│                       │     │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │     │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2020-28852 
-│                       │     │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │     │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2022-1705 
-│                       │     │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │     │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2022-27664 
-│                       │     │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │     │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2022-30630 
-│                       │     │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │     │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2022-30632 
-│                       │     │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │     │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2022-30635 
-│                       │     │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │     │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2022-32148 
-│                       │     │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │     │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2022-32189 
-│                       │     │                  ├ [34]: https://errata.almalinux.org/8/ALSA-2023-2802.html 
-│                       │     │                  ├ [35]: https://errata.rockylinux.org/RLSA-2022:7129 
-│                       │     │                  ├ [36]: https://github.com/advisories/GHSA-69cg-p879-7622 
-│                       │     │                  ├ [37]: https://github.com/golang/go/commit/5bc9106458fc0
+│                       │     │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2023-2357.html 
+│                       │     │                  ├ [31]: https://errata.rockylinux.org/RLSA-2022:7129 
+│                       │     │                  ├ [32]: https://github.com/advisories/GHSA-69cg-p879-7622 
+│                       │     │                  ├ [33]: https://github.com/golang/go/commit/5bc9106458fc0
 │                       │     │                  │       7851ac324a4157132a91b1f3479 (go1.18.6) 
-│                       │     │                  ├ [38]: https://github.com/golang/go/commit/9cfe4e258b1c9
+│                       │     │                  ├ [34]: https://github.com/golang/go/commit/9cfe4e258b1c9
 │                       │     │                  │       d4a04a42539c21c7bdb2e227824 (go1.19.1) 
-│                       │     │                  ├ [39]: https://github.com/golang/go/issues/54658 
-│                       │     │                  ├ [40]: https://go.dev/cl/428735 
-│                       │     │                  ├ [41]: https://go.dev/issue/54658 
-│                       │     │                  ├ [42]: https://groups.google.com/g/golang-announce 
-│                       │     │                  ├ [43]: https://groups.google.com/g/golang-announce/c/x49
+│                       │     │                  ├ [35]: https://github.com/golang/go/issues/54658 
+│                       │     │                  ├ [36]: https://go.dev/cl/428735 
+│                       │     │                  ├ [37]: https://go.dev/issue/54658 
+│                       │     │                  ├ [38]: https://groups.google.com/g/golang-announce 
+│                       │     │                  ├ [39]: https://groups.google.com/g/golang-announce/c/x49
 │                       │     │                  │       AQzIVX-s 
-│                       │     │                  ├ [44]: https://groups.google.com/g/golang-announce/c/x49
+│                       │     │                  ├ [40]: https://groups.google.com/g/golang-announce/c/x49
 │                       │     │                  │       AQzIVX-s/m/0tgO0pjiBQAJ 
-│                       │     │                  ├ [45]: https://linux.oracle.com/cve/CVE-2022-27664.html 
-│                       │     │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
-│                       │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [41]: https://linux.oracle.com/cve/CVE-2022-27664.html 
+│                       │     │                  ├ [42]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
+│                       │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/JXKTHIGE
 │                       │     │                  │       5F576MAPFYCIJXNRGBSPISUF/ 
-│                       │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/TXS2OQ57
 │                       │     │                  │       KZC5XZKK5UW4SYKPVQAHIOJX/ 
-│                       │     │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
-│                       │     │                  ├ [50]: https://pkg.go.dev/vuln/GO-2022-0969 
-│                       │     │                  ├ [51]: https://security.gentoo.org/glsa/202209-26 
-│                       │     │                  ├ [52]: https://security.netapp.com/advisory/ntap-2022092
+│                       │     │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
+│                       │     │                  ├ [46]: https://pkg.go.dev/vuln/GO-2022-0969 
+│                       │     │                  ├ [47]: https://security.gentoo.org/glsa/202209-26 
+│                       │     │                  ├ [48]: https://security.netapp.com/advisory/ntap-2022092
 │                       │     │                  │       3-0004/ 
-│                       │     │                  ├ [53]: https://ubuntu.com/security/notices/USN-6038-1 
-│                       │     │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
+│                       │     │                  ├ [49]: https://ubuntu.com/security/notices/USN-6038-1 
+│                       │     │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
 │                       │     ├ PublishedDate   : 2022-09-06T18:15:00Z 
 │                       │     ╰ LastModifiedDate: 2022-10-28T12:42:00Z 
 │                       ├ [4] ╭ VulnerabilityID : CVE-2022-41723 
