@@ -1125,180 +1125,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-2953
     PublishedDate: '2023-05-30T22:15:00Z'
     LastModifiedDate: '2023-07-25T16:15:00Z'
-  - VulnerabilityID: CVE-2023-31437
-    PkgID: libnss-systemd@249.11-0ubuntu3.9
-    PkgName: libnss-systemd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31437
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify a seale ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify a sealed log file such that, in some views, not all existing and sealed log messages are displayed. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31437
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31438
-    PkgID: libnss-systemd@249.11-0ubuntu3.9
-    PkgName: libnss-systemd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31438
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can truncate a sea ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31438
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31439
-    PkgID: libnss-systemd@249.11-0ubuntu3.9
-    PkgName: libnss-systemd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31439
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify the con ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31439
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:15:00Z'
-  - VulnerabilityID: CVE-2023-31437
-    PkgID: libpam-systemd@249.11-0ubuntu3.9
-    PkgName: libpam-systemd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31437
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify a seale ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify a sealed log file such that, in some views, not all existing and sealed log messages are displayed. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31437
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31438
-    PkgID: libpam-systemd@249.11-0ubuntu3.9
-    PkgName: libpam-systemd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31438
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can truncate a sea ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31438
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31439
-    PkgID: libpam-systemd@249.11-0ubuntu3.9
-    PkgName: libpam-systemd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31439
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify the con ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31439
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:15:00Z'
   - VulnerabilityID: CVE-2017-11164
     PkgID: libpcre3@2:8.39-13ubuntu0.22.04.1
     PkgName: libpcre3
@@ -1578,93 +1404,6 @@
     - https://www.openssl.org/news/secadv/20230714.txt
     PublishedDate: '2023-07-14T12:15:00Z'
     LastModifiedDate: '2023-07-27T13:02:00Z'
-  - VulnerabilityID: CVE-2023-31437
-    PkgID: libsystemd0@249.11-0ubuntu3.9
-    PkgName: libsystemd0
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31437
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify a seale ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify a sealed log file such that, in some views, not all existing and sealed log messages are displayed. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31437
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31438
-    PkgID: libsystemd0@249.11-0ubuntu3.9
-    PkgName: libsystemd0
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31438
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can truncate a sea ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31438
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31439
-    PkgID: libsystemd0@249.11-0ubuntu3.9
-    PkgName: libsystemd0
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31439
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify the con ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31439
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:15:00Z'
   - VulnerabilityID: CVE-2022-48281
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
@@ -1691,11 +1430,21 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:3827
+    - https://access.redhat.com/errata/RHSA-2023:3711
     - https://access.redhat.com/security/cve/CVE-2022-48281
     - https://bugzilla.redhat.com/2163606
+    - https://bugzilla.redhat.com/2170119
+    - https://bugzilla.redhat.com/2170146
+    - https://bugzilla.redhat.com/2170151
+    - https://bugzilla.redhat.com/2170157
+    - https://bugzilla.redhat.com/2170162
+    - https://bugzilla.redhat.com/2170167
+    - https://bugzilla.redhat.com/2170172
+    - https://bugzilla.redhat.com/2170178
+    - https://bugzilla.redhat.com/2170187
+    - https://bugzilla.redhat.com/2170192
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48281
-    - https://errata.almalinux.org/8/ALSA-2023-3827.html
+    - https://errata.almalinux.org/9/ALSA-2023-3711.html
     - https://gitlab.com/libtiff/libtiff/-/commit/d1b6b9c1b3cae2d9e37754506c1ad8f4f7b646b5
     - https://gitlab.com/libtiff/libtiff/-/issues/488
     - https://linux.oracle.com/cve/CVE-2022-48281.html
@@ -1853,93 +1602,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3316
     PublishedDate: '2023-06-19T12:15:00Z'
     LastModifiedDate: '2023-07-03T16:43:00Z'
-  - VulnerabilityID: CVE-2023-31437
-    PkgID: libudev1@249.11-0ubuntu3.9
-    PkgName: libudev1
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31437
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify a seale ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify a sealed log file such that, in some views, not all existing and sealed log messages are displayed. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31437
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31438
-    PkgID: libudev1@249.11-0ubuntu3.9
-    PkgName: libudev1
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31438
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can truncate a sea ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31438
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31439
-    PkgID: libudev1@249.11-0ubuntu3.9
-    PkgName: libudev1
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31439
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify the con ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31439
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:15:00Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -2054,6 +1716,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38408
     - https://security.gentoo.org/glsa/202307-01
     - https://ubuntu.com/security/notices/USN-6242-1
+    - https://ubuntu.com/security/notices/USN-6242-2
     - https://www.cve.org/CVERecord?id=CVE-2023-38408
     - https://www.openssh.com/security.html
     - https://www.openssh.com/txt/release-9.3p2
@@ -2130,6 +1793,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38408
     - https://security.gentoo.org/glsa/202307-01
     - https://ubuntu.com/security/notices/USN-6242-1
+    - https://ubuntu.com/security/notices/USN-6242-2
     - https://www.cve.org/CVERecord?id=CVE-2023-38408
     - https://www.openssh.com/security.html
     - https://www.openssh.com/txt/release-9.3p2
@@ -2206,6 +1870,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38408
     - https://security.gentoo.org/glsa/202307-01
     - https://ubuntu.com/security/notices/USN-6242-1
+    - https://ubuntu.com/security/notices/USN-6242-2
     - https://www.cve.org/CVERecord?id=CVE-2023-38408
     - https://www.openssh.com/security.html
     - https://www.openssh.com/txt/release-9.3p2
@@ -2415,267 +2080,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
-  - VulnerabilityID: CVE-2023-31437
-    PkgID: systemd@249.11-0ubuntu3.9
-    PkgName: systemd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31437
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify a seale ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify a sealed log file such that, in some views, not all existing and sealed log messages are displayed. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31437
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31438
-    PkgID: systemd@249.11-0ubuntu3.9
-    PkgName: systemd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31438
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can truncate a sea ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31438
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31439
-    PkgID: systemd@249.11-0ubuntu3.9
-    PkgName: systemd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31439
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify the con ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31439
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:15:00Z'
-  - VulnerabilityID: CVE-2023-31437
-    PkgID: systemd-sysv@249.11-0ubuntu3.9
-    PkgName: systemd-sysv
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31437
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify a seale ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify a sealed log file such that, in some views, not all existing and sealed log messages are displayed. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31437
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31438
-    PkgID: systemd-sysv@249.11-0ubuntu3.9
-    PkgName: systemd-sysv
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31438
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can truncate a sea ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31438
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31439
-    PkgID: systemd-sysv@249.11-0ubuntu3.9
-    PkgName: systemd-sysv
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31439
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify the con ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31439
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:15:00Z'
-  - VulnerabilityID: CVE-2023-31437
-    PkgID: systemd-timesyncd@249.11-0ubuntu3.9
-    PkgName: systemd-timesyncd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31437
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify a seale ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify a sealed log file such that, in some views, not all existing and sealed log messages are displayed. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31437
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31438
-    PkgID: systemd-timesyncd@249.11-0ubuntu3.9
-    PkgName: systemd-timesyncd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31438
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can truncate a sea ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can truncate a sealed log file and then resume log sealing such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31438
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:16:00Z'
-  - VulnerabilityID: CVE-2023-31439
-    PkgID: systemd-timesyncd@249.11-0ubuntu3.9
-    PkgName: systemd-timesyncd
-    InstalledVersion: 249.11-0ubuntu3.9
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-31439
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: An issue was discovered in systemd 253. An attacker can modify the con ...
-    Description: '** DISPUTED ** An issue was discovered in systemd 253. An attacker can modify the contents of past events in a sealed log file and then adjust the file such that checking the integrity shows no error, despite modifications. NOTE: the vendor reportedly sent "a reply denying that any of the finding was a security vulnerability."'
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-354
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 5.3
-    References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31439
-    - https://github.com/kastel-security/Journald
-    - https://github.com/kastel-security/Journald/blob/main/journald-publication.pdf
-    - https://github.com/systemd/systemd/releases
-    PublishedDate: '2023-06-13T17:15:00Z'
-    LastModifiedDate: '2023-06-23T19:15:00Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: uidmap@1:4.8.1-2ubuntu2.1
     PkgName: uidmap
@@ -3740,22 +3144,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2802
+    - https://access.redhat.com/errata/RHSA-2023:2357
     - https://access.redhat.com/security/cve/CVE-2022-27664
-    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
-    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
-    - https://bugzilla.redhat.com/2107390
-    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
-    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
-    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -3774,7 +3174,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/8/ALSA-2023-2802.html
+    - https://errata.almalinux.org/9/ALSA-2023-2357.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -4061,12 +3461,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2022:7469
+    - https://access.redhat.com/errata/RHSA-2022:8008
     - https://access.redhat.com/security/cve/CVE-2022-27191
+    - https://bugzilla.redhat.com/1939485
+    - https://bugzilla.redhat.com/1989564
+    - https://bugzilla.redhat.com/1989570
+    - https://bugzilla.redhat.com/1989575
     - https://bugzilla.redhat.com/2064702
-    - https://bugzilla.redhat.com/2085361
-    - https://bugzilla.redhat.com/2086398
-    - https://errata.almalinux.org/8/ALSA-2022-7469.html
+    - https://bugzilla.redhat.com/2121445
+    - https://bugzilla.redhat.com/2121453
+    - https://errata.almalinux.org/9/ALSA-2022-8008.html
     - https://github.com/advisories/GHSA-8c26-wmh5-6g9v
     - https://go.dev/cl/392355
     - https://go.googlesource.com/crypto/+/1baeb1ce4c0b006eff0f294c47cb7617598dfb3d
@@ -4167,22 +3571,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2802
+    - https://access.redhat.com/errata/RHSA-2023:2357
     - https://access.redhat.com/security/cve/CVE-2022-27664
-    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
-    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
-    - https://bugzilla.redhat.com/2107390
-    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
-    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
-    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -4201,7 +3601,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/8/ALSA-2023-2802.html
+    - https://errata.almalinux.org/9/ALSA-2023-2357.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -4496,22 +3896,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2802
+    - https://access.redhat.com/errata/RHSA-2023:2357
     - https://access.redhat.com/security/cve/CVE-2022-27664
-    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
-    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
-    - https://bugzilla.redhat.com/2107390
-    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
-    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
-    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -4530,7 +3926,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/8/ALSA-2023-2802.html
+    - https://errata.almalinux.org/9/ALSA-2023-2357.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -4825,37 +4221,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-2253
     PublishedDate: '2023-06-06T20:15:00Z'
     LastModifiedDate: '2023-06-29T16:15:00Z'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -4945,6 +4310,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
+      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
