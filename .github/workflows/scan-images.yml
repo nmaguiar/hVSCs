@@ -33,7 +33,7 @@ jobs:
       name: Check build
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/hvscs:build file=.github/sec-build.svg reportFile=.github/sec-build.yaml'
+        args: 'image=nmaguiar/hvscs:build file=.github/sec-build.svg reportFile=.github/sec-build.yaml options="--skip-directories\ /home/.openvscode-server"'
         dist: 't8'
 
     - uses: openaf/ojob-action@v4
