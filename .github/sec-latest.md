@@ -4431,1339 +4431,7 @@
 │                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-36033 
 │                              ├ PublishedDate   : 2022-08-29T17:15:00Z 
 │                              ╰ LastModifiedDate: 2022-12-08T03:48:00Z 
-├ [2]  ╭ Target         : Node.js 
-│      ├ Class          : lang-pkgs 
-│      ├ Type           : node-pkg 
-│      ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : GHSA-h6ch-v84p-w6p9 
-│                        │      ├ PkgID           : diff@1.0.0 
-│                        │      ├ PkgName         : diff 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/diff/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 3.5.0 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-h6ch-v84p-w6p9 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : Regular Expression Denial of Service (ReDoS) 
-│                        │      ├ Description     : A vulnerability was found in diff before v3.5.0, the
-│                        │      │                   affected versions of this package are vulnerable to Regular
-│                        │      │                    Expression Denial of Service (ReDoS) attacks. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ╰ References       ╭ [0]: https://bugzilla.redhat.com/show_bug.cgi?id=1552148 
-│                        │                         ├ [1]: https://github.com/advisories/GHSA-h6ch-v84p-w6p9 
-│                        │                         ├ [2]: https://github.com/kpdecker/jsdiff/commit/2aec42
-│                        │                         │      98639bf30fb88a00b356bf404d3551b8c0 
-│                        │                         ├ [3]: https://snyk.io/vuln/npm:diff:20180305 
-│                        │                         ├ [4]: https://www.npmjs.com/advisories/1631 
-│                        │                         ╰ [5]: https://www.whitesourcesoftware.com/vulnerabilit
-│                        │                                y-database/WS-2018-0590 
-│                        ├ [1]  ╭ VulnerabilityID : CVE-2020-7729 
-│                        │      ├ PkgID           : grunt@1.0.0 
-│                        │      ├ PkgName         : grunt 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/grunt/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 1.3.0 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-7729 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : The package grunt before 1.3.0 are vulnerable to
-│                        │      │                   Arbitrary Code Execut ... 
-│                        │      ├ Description     : The package grunt before 1.3.0 are vulnerable to
-│                        │      │                   Arbitrary Code Execution due to the default usage of the
-│                        │      │                   function load() instead of its secure replacement
-│                        │      │                   safeLoad() of the package js-yaml inside
-│                        │      │                   grunt.file.readYAML. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-1188 
-│                        │      ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H
-│                        │      │                  │      │           /I:H/A:H 
-│                        │      │                  │      ╰ V3Score : 7.1 
-│                        │      │                  ╰ nvd  ╭ V2Vector: AV:N/AC:H/Au:S/C:P/I:P/A:P 
-│                        │      │                         ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H
-│                        │      │                         │           /I:H/A:H 
-│                        │      │                         ├ V2Score : 4.6 
-│                        │      │                         ╰ V3Score : 7.1 
-│                        │      ├ References       ╭ [0] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2020-7729 
-│                        │      │                  ├ [1] : https://github.com/advisories/GHSA-m5pj-vjjf-4m3h 
-│                        │      │                  ├ [2] : https://github.com/gruntjs/grunt/blob/master/li
-│                        │      │                  │       b/grunt/file.js%23L249 
-│                        │      │                  ├ [3] : https://github.com/gruntjs/grunt/commit/e350cea
-│                        │      │                  │       1724eb3476464561a380fb6a64e61e4e7 
-│                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
-│                        │      │                  │       20/09/msg00008.html 
-│                        │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2020-7729 
-│                        │      │                  ├ [6] : https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-607922 
-│                        │      │                  ├ [7] : https://snyk.io/vuln/SNYK-JS-GRUNT-597546 
-│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-4595-1 
-│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-5847-1 
-│                        │      │                  ╰ [10]: https://usn.ubuntu.com/4595-1/ 
-│                        │      ├ PublishedDate   : 2020-09-03T09:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-11-16T14:05:00Z 
-│                        ├ [2]  ╭ VulnerabilityID : CVE-2022-1537 
-│                        │      ├ PkgID           : grunt@1.0.0 
-│                        │      ├ PkgName         : grunt 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/grunt/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 1.5.3 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-1537 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : race condition leading to arbitrary file write 
-│                        │      ├ Description     : file.copy operations in GruntJS are vulnerable to a
-│                        │      │                   TOCTOU race condition leading to arbitrary file write in
-│                        │      │                   GitHub repository gruntjs/grunt prior to 1.5.3. This
-│                        │      │                   vulnerability is capable of arbitrary file writes which can
-│                        │      │                    lead to local privilege escalation to the GruntJS user if
-│                        │      │                   a lower-privileged user has write access to both source and
-│                        │      │                    destination directories as the lower-privileged user can
-│                        │      │                   create a symlink to the GruntJS user's .bashrc file or
-│                        │      │                   replace /etc/shadow file if the GruntJS user is
-│                        │      │                   root. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-367 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ╰ V3Score : 7 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:L/AC:M/Au:N/C:C/I:C/A:C 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ├ V2Score : 6.9 
-│                        │      │                  │        ╰ V3Score : 7 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-│                        │      │                           │           :H/I:H/A:H 
-│                        │      │                           ╰ V3Score : 7.8 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-1537 
-│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2022-1537 
-│                        │      │                  ├ [2]: https://github.com/advisories/GHSA-rm36-94g8-835r 
-│                        │      │                  ├ [3]: https://github.com/gruntjs/grunt/commit/58016ffa
-│                        │      │                  │      c5ed9338b63ecc2a63710f5027362bae 
-│                        │      │                  ├ [4]: https://huntr.dev/bounties/0179c3e5-bc02-4fc9-84
-│                        │      │                  │      91-a1a319b51b4d 
-│                        │      │                  ├ [5]: https://lists.debian.org/debian-lts-announce/202
-│                        │      │                  │      3/04/msg00006.html 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-1537 
-│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-5847-1 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1537 
-│                        │      ├ PublishedDate   : 2022-05-10T14:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-04-05T22:15:00Z 
-│                        ├ [3]  ╭ VulnerabilityID : CVE-2022-0436 
-│                        │      ├ PkgID           : grunt@1.0.0 
-│                        │      ├ PkgName         : grunt 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/grunt/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 1.5.2 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-0436 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : Path Traversal in GitHub repository gruntjs/grunt
-│                        │      │                   prior to 1.5.2. 
-│                        │      ├ Description     : Path Traversal in GitHub repository gruntjs/grunt
-│                        │      │                   prior to 1.5.2. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-22 
-│                        │      ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H
-│                        │      │                  │      │           /I:N/A:N 
-│                        │      │                  │      ╰ V3Score : 5.5 
-│                        │      │                  ╰ nvd  ╭ V2Vector: AV:L/AC:L/Au:N/C:P/I:N/A:N 
-│                        │      │                         ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H
-│                        │      │                         │           /I:N/A:N 
-│                        │      │                         ├ V2Score : 2.1 
-│                        │      │                         ╰ V3Score : 5.5 
-│                        │      ├ References       ╭ [0] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2022-0436 
-│                        │      │                  ├ [1] : https://github.com/advisories/GHSA-j383-35pm-c5h4 
-│                        │      │                  ├ [2] : https://github.com/gruntjs/grunt/commit/aad3d45
-│                        │      │                  │       21c3098fb255fb2db8f2e1d691a033665 
-│                        │      │                  ├ [3] : https://github.com/gruntjs/grunt/commit/aad3d45
-│                        │      │                  │       21c3098fb255fb2db8f2e1d691a033665 (v1.5.0) 
-│                        │      │                  ├ [4] : https://github.com/gruntjs/grunt/commit/b0ec6e1
-│                        │      │                  │       2426fc8d5720dee1702f6a67455c5986c 
-│                        │      │                  ├ [5] : https://github.com/gruntjs/grunt/pull/1740 
-│                        │      │                  ├ [6] : https://github.com/gruntjs/grunt/pull/1743 
-│                        │      │                  ├ [7] : https://huntr.dev/bounties/f55315e9-9f6d-4dbb-8
-│                        │      │                  │       c40-bae50c1ae92b 
-│                        │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/20
-│                        │      │                  │       23/04/msg00008.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2022-0436 
-│                        │      │                  ╰ [10]: https://ubuntu.com/security/notices/USN-5847-1 
-│                        │      ├ PublishedDate   : 2022-04-12T21:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-04-06T15:15:00Z 
-│                        ├ [4]  ╭ VulnerabilityID : CVE-2019-19919 
-│                        │      ├ PkgID           : handlebars@1.0.0 
-│                        │      ├ PkgName         : handlebars 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/handlebars/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 4.3.0 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2019-19919 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : nodejs-handlebars: prototype pollution leading to
-│                        │      │                   remote code execution via crafted payloads 
-│                        │      ├ Description     : Versions of handlebars prior to 4.3.0 are vulnerable
-│                        │      │                   to Prototype Pollution leading to Remote Code Execution.
-│                        │      │                   Templates may alter an Object's __proto__ and
-│                        │      │                   __defineGetter__ properties, which may allow an attacker to
-│                        │      │                    execute arbitrary code through crafted payloads. 
-│                        │      ├ Severity        : CRITICAL 
-│                        │      ├ CweIDs           ─ [0]: CWE-1321 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ╰ V3Score : 9.8 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ├ V2Score : 7.5 
-│                        │      │                  │        ╰ V3Score : 9.8 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C
-│                        │      │                           │           :L/I:L/A:N 
-│                        │      │                           ╰ V3Score : 4.2 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2019-19919 
-│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2019-19919 
-│                        │      │                  ├ [2]: https://github.com/advisories/GHSA-w457-6q6x-cgp9 
-│                        │      │                  ├ [3]: https://github.com/wycats/handlebars.js/commit/2
-│                        │      │                  │      078c727c627f25d4a149962f05c1e069beb18bc 
-│                        │      │                  ├ [4]: https://github.com/wycats/handlebars.js/issues/1558 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2019-19919 
-│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2019-19919 
-│                        │      │                  ├ [7]: https://www.npmjs.com/advisories/1164 
-│                        │      │                  ╰ [8]: https://www.tenable.com/security/tns-2021-14 
-│                        │      ├ PublishedDate   : 2019-12-20T23:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-06-03T18:48:00Z 
-│                        ├ [5]  ╭ VulnerabilityID : CVE-2021-23369 
-│                        │      ├ PkgID           : handlebars@1.0.0 
-│                        │      ├ PkgName         : handlebars 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/handlebars/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 4.7.7 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23369 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : nodejs-handlebars: Remote code execution when
-│                        │      │                   compiling untrusted compile templates with strict:true
-│                        │      │                   option 
-│                        │      ├ Description     : The package handlebars before 4.7.7 are vulnerable to
-│                        │      │                   Remote Code Execution (RCE) when selecting certain
-│                        │      │                   compiling options to compile templates coming from an
-│                        │      │                   untrusted source. 
-│                        │      ├ Severity        : CRITICAL 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ╰ V3Score : 9.8 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ├ V2Score : 7.5 
-│                        │      │                  │        ╰ V3Score : 9.8 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :H/I:H/A:H 
-│                        │      │                           ╰ V3Score : 9.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2021
-│                        │      │                  │       -23369 
-│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2021-23369 
-│                        │      │                  ├ [2] : https://github.com/advisories/GHSA-f2jv-r9rf-7988 
-│                        │      │                  ├ [3] : https://github.com/handlebars-lang/handlebars.j
-│                        │      │                  │       s/commit/b6d3de7123eebba603e321f04afdbae608e8fea8
-│                        │      │                  │        
-│                        │      │                  ├ [4] : https://github.com/handlebars-lang/handlebars.j
-│                        │      │                  │       s/commit/f0589701698268578199be25285b2ebea1c1e427
-│                        │      │                  │        
-│                        │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2021-23369 
-│                        │      │                  ├ [6] : https://security.netapp.com/advisory/ntap-20210
-│                        │      │                  │       604-0008/ 
-│                        │      │                  ├ [7] : https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1074950 
-│                        │      │                  ├ [8] : https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-
-│                        │      │                  │       1074951 
-│                        │      │                  ├ [9] : https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1074952 
-│                        │      │                  ├ [10]: https://snyk.io/vuln/SNYK-JS-HANDLEBARS-1056767 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2021-23369 
-│                        │      ├ PublishedDate   : 2021-04-12T14:15:00Z 
-│                        │      ╰ LastModifiedDate: 2021-06-08T13:54:00Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2021-23383 
-│                        │      ├ PkgID           : handlebars@1.0.0 
-│                        │      ├ PkgName         : handlebars 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/handlebars/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 4.7.7 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-23383 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : nodejs-handlebars: Remote code execution when
-│                        │      │                   compiling untrusted compile templates with compat:true
-│                        │      │                   option 
-│                        │      ├ Description     : The package handlebars before 4.7.7 are vulnerable to
-│                        │      │                   Prototype Pollution when selecting certain compiling
-│                        │      │                   options to compile templates coming from an untrusted
-│                        │      │                   source. 
-│                        │      ├ Severity        : CRITICAL 
-│                        │      ├ CweIDs           ─ [0]: CWE-1321 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ╰ V3Score : 9.8 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ├ V2Score : 7.5 
-│                        │      │                  │        ╰ V3Score : 9.8 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :H/I:H/A:H 
-│                        │      │                           ╰ V3Score : 9.8 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2021
-│                        │      │                  │       -23383 
-│                        │      │                  ├ [1] : https://github.com/advisories/GHSA-765h-qjxv-5f44 
-│                        │      │                  ├ [2] : https://github.com/handlebars-lang/handlebars.j
-│                        │      │                  │       s/commit/f0589701698268578199be25285b2ebea1c1e427
-│                        │      │                  │        
-│                        │      │                  ├ [3] : https://nvd.nist.gov/vuln/detail/CVE-2021-23383 
-│                        │      │                  ├ [4] : https://security.netapp.com/advisory/ntap-20210
-│                        │      │                  │       618-0007/ 
-│                        │      │                  ├ [5] : https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-1279031 
-│                        │      │                  ├ [6] : https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSBOWER-
-│                        │      │                  │       1279032 
-│                        │      │                  ├ [7] : https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-1279030 
-│                        │      │                  ├ [8] : https://snyk.io/vuln/SNYK-JS-HANDLEBARS-1279029 
-│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2021-23383 
-│                        │      │                  ╰ [10]: https://www.npmjs.com/package/handlebars 
-│                        │      ├ PublishedDate   : 2021-05-04T09:15:00Z 
-│                        │      ╰ LastModifiedDate: 2021-12-03T19:59:00Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2019-20920 
-│                        │      ├ PkgID           : handlebars@1.0.0 
-│                        │      ├ PkgName         : handlebars 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/handlebars/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 4.5.3, 3.0.8 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2019-20920 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : nodejs-handlebars: lookup helper fails to properly
-│                        │      │                   validate templates allowing for arbitrary JavaScript
-│                        │      │                   execution 
-│                        │      ├ Description     : Handlebars before 3.0.8 and 4.x before 4.5.3 is
-│                        │      │                   vulnerable to Arbitrary Code Execution. The lookup helper
-│                        │      │                   fails to properly validate templates, allowing attackers to
-│                        │      │                    submit templates that execute arbitrary JavaScript. This
-│                        │      │                   can be used to run arbitrary code on a server processing
-│                        │      │                   Handlebars templates or in a victim's browser (effectively
-│                        │      │                   serving as XSS). 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-94 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                        │      │                  │        │           :H/I:L/A:L 
-│                        │      │                  │        ╰ V3Score : 8.1 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                        │      │                  │        │           :H/I:L/A:L 
-│                        │      │                  │        ├ V2Score : 6.8 
-│                        │      │                  │        ╰ V3Score : 8.1 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                        │      │                           │           :H/I:L/A:L 
-│                        │      │                           ╰ V3Score : 8.1 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2019-20920 
-│                        │      │                  ├ [1]: https://github.com/advisories/GHSA-3cqr-58rm-57f8 
-│                        │      │                  ├ [2]: https://github.com/handlebars-lang/handlebars.js
-│                        │      │                  │      /commit/d54137810a49939fd2ad01a91a34e182ece4528e[
-│                        │      │                  │      m 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2019-20920 
-│                        │      │                  ├ [4]: https://snyk.io/vuln/SNYK-JS-HANDLEBARS-534478 
-│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2019-20920 
-│                        │      │                  ├ [6]: https://www.npmjs.com/advisories/1316 
-│                        │      │                  ├ [7]: https://www.npmjs.com/advisories/1324 
-│                        │      │                  ╰ [8]: https://www.npmjs.com/package/handlebars 
-│                        │      ├ PublishedDate   : 2020-09-30T18:15:00Z 
-│                        │      ╰ LastModifiedDate: 2020-10-15T17:35:00Z 
-│                        ├ [8]  ╭ VulnerabilityID : GHSA-2cf5-4w76-r9qv 
-│                        │      ├ PkgID           : handlebars@1.0.0 
-│                        │      ├ PkgName         : handlebars 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/handlebars/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 4.5.2, 3.0.8 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-2cf5-4w76-r9qv 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : Arbitrary Code Execution in handlebars 
-│                        │      ├ Description     : Versions of `handlebars` prior to 3.0.8 or 4.5.2 are
-│                        │      │                   vulnerable to Arbitrary Code Execution. The package's
-│                        │      │                   lookup helper fails to properly validate templates,
-│                        │      │                   allowing attackers to submit templates that execute
-│                        │      │                   arbitrary JavaScript in the system. It can be used to run
-│                        │      │                   arbitrary code in a server processing Handlebars templates
-│                        │      │                   or on a victim's browser (effectively serving as Cross-Site
-│                        │      │                    Scripting).
-│                        │      │                   
-│                        │      │                   The following template can be used to demonstrate the
-│                        │      │                   vulnerability:  
-│                        │      │                   ```{{#with "constructor"}}
-│                        │      │                   	{{#with split as |a|}}
-│                        │      │                   		{{pop (push "alert('Vulnerable Handlebars JS');")}}
-│                        │      │                   		{{#with (concat (lookup join (slice 0 1)))}}
-│                        │      │                   			{{#each (slice 2 3)}}
-│                        │      │                   				{{#with (apply 0 a)}}
-│                        │      │                   					{{.}}
-│                        │      │                   				{{/with}}
-│                        │      │                   			{{/each}}
-│                        │      │                   		{{/with}}
-│                        │      │                   	{{/with}}
-│                        │      │                   {{/with}}```
-│                        │      │                   
-│                        │      │                   
-│                        │      │                   ## Recommendation
-│                        │      │                   
-│                        │      │                   Upgrade to version 3.0.8, 4.5.2 or later. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ╰ References       ╭ [0]: https://github.com/advisories/GHSA-2cf5-4w76-r9qv 
-│                        │                         ╰ [1]: https://www.npmjs.com/advisories/1316 
-│                        ├ [9]  ╭ VulnerabilityID : GHSA-g9r4-xpmj-mj65 
-│                        │      ├ PkgID           : handlebars@1.0.0 
-│                        │      ├ PkgName         : handlebars 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/handlebars/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 4.5.3, 3.0.8 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-g9r4-xpmj-mj65 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : Prototype Pollution in handlebars 
-│                        │      ├ Description     : Versions of `handlebars` prior to 3.0.8 or 4.5.3 are
-│                        │      │                   vulnerable to prototype pollution. It is possible to add or
-│                        │      │                    modify properties to the Object prototype through a
-│                        │      │                   malicious template. This may allow attackers to crash the
-│                        │      │                   application or execute Arbitrary Code in specific
-│                        │      │                   conditions.
-│                        │      │                   
-│                        │      │                   
-│                        │      │                   ## Recommendation
-│                        │      │                   
-│                        │      │                   Upgrade to version 3.0.8, 4.5.3 or later. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ╰ References       ╭ [0]: https://github.com/advisories/GHSA-g9r4-xpmj-mj65 
-│                        │                         ╰ [1]: https://www.npmjs.com/advisories/1325 
-│                        ├ [10] ╭ VulnerabilityID : GHSA-q2c6-c6pm-g3gh 
-│                        │      ├ PkgID           : handlebars@1.0.0 
-│                        │      ├ PkgName         : handlebars 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/handlebars/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 4.5.3, 3.0.8 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-q2c6-c6pm-g3gh 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : Arbitrary Code Execution in handlebars 
-│                        │      ├ Description     : Versions of `handlebars` prior to 3.0.8 or 4.5.3 are
-│                        │      │                   vulnerable to Arbitrary Code Execution. The package's
-│                        │      │                   lookup helper fails to properly validate templates,
-│                        │      │                   allowing attackers to submit templates that execute
-│                        │      │                   arbitrary JavaScript in the system. It is due to an
-│                        │      │                   incomplete fix for a [previous
-│                        │      │                   issue](https://www.npmjs.com/advisories/1316). This
-│                        │      │                   vulnerability can be used to run arbitrary code in a server
-│                        │      │                    processing Handlebars templates or on a victim's browser
-│                        │      │                   (effectively serving as Cross-Site Scripting).
-│                        │      │                   
-│                        │      │                   
-│                        │      │                   ## Recommendation
-│                        │      │                   
-│                        │      │                   Upgrade to version 3.0.8, 4.5.3 or later. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ╰ References       ╭ [0]: https://github.com/advisories/GHSA-q2c6-c6pm-g3gh 
-│                        │                         ╰ [1]: https://www.npmjs.com/advisories/1324 
-│                        ├ [11] ╭ VulnerabilityID : GHSA-q42p-pg8m-cqh6 
-│                        │      ├ PkgID           : handlebars@1.0.0 
-│                        │      ├ PkgName         : handlebars 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/handlebars/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 3.0.7, 4.0.14, 4.1.2 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-q42p-pg8m-cqh6 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : Prototype Pollution in handlebars 
-│                        │      ├ Description     : Versions of `handlebars` prior to 4.0.14 are
-│                        │      │                   vulnerable to Prototype Pollution. Templates may alter an
-│                        │      │                   Objects' prototype, thus allowing an attacker to execute
-│                        │      │                   arbitrary code on the server.
-│                        │      │                   
-│                        │      │                   
-│                        │      │                   ## Recommendation
-│                        │      │                   
-│                        │      │                   For handlebars 4.1.x upgrade to 4.1.2 or later.
-│                        │      │                   For handlebars 4.0.x upgrade to 4.0.14 or later. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L
-│                        │      │                         │           /I:L/A:L 
-│                        │      │                         ╰ V3Score : 7.3 
-│                        │      ╰ References       ╭ [0]: https://github.com/advisories/GHSA-q42p-pg8m-cqh6 
-│                        │                         ├ [1]: https://github.com/handlebars-lang/handlebars.js
-│                        │                         │      /commit/0d6d8c335ad81bad1b672fc56b6a44f6aa472dac[
-│                        │                         │      m 
-│                        │                         ├ [2]: https://github.com/handlebars-lang/handlebars.js
-│                        │                         │      /commit/7372d4e9dffc9d70c09671aa28b9392a1577fd86[
-│                        │                         │      m 
-│                        │                         ├ [3]: https://github.com/handlebars-lang/handlebars.js
-│                        │                         │      /commit/85c8783b34fc6d36145d8b53885ad0b9e3c3f9c4[
-│                        │                         │      m 
-│                        │                         ├ [4]: https://github.com/handlebars-lang/handlebars.js
-│                        │                         │      /commit/cd38583216dce3252831916323202749431c773e[
-│                        │                         │      m 
-│                        │                         ├ [5]: https://github.com/handlebars-lang/handlebars.js
-│                        │                         │      /issues/1495 
-│                        │                         ├ [6]: https://snyk.io/vuln/SNYK-JS-HANDLEBARS-173692 
-│                        │                         ╰ [7]: https://www.npmjs.com/advisories/755 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2015-8861 
-│                        │      ├ PkgID           : handlebars@1.0.0 
-│                        │      ├ PkgName         : handlebars 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/handlebars/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : >=4.0.0 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : nodejs-security-wg 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2015-8861 
-│                        │      ├ DataSource       ╭ ID  : nodejs-security-wg 
-│                        │      │                  ├ Name: Node.js Ecosystem Security Working Group 
-│                        │      │                  ╰ URL : https://github.com/nodejs/security-wg 
-│                        │      ├ Title           : The handlebars package before 4.0.0 for Node.js allows
-│                        │      │                    remote attacker ... 
-│                        │      ├ Description     : The handlebars package before 4.0.0 for Node.js allows
-│                        │      │                    remote attackers to conduct cross-site scripting (XSS)
-│                        │      │                   attacks by leveraging a template with an attribute that is
-│                        │      │                   not quoted. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-79 
-│                        │      ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L
-│                        │      │                  │      │           /I:L/A:N 
-│                        │      │                  │      ╰ V3Score : 6.1 
-│                        │      │                  ╰ nvd  ╭ V2Vector: AV:N/AC:M/Au:N/C:N/I:P/A:N 
-│                        │      │                         ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L
-│                        │      │                         │           /I:L/A:N 
-│                        │      │                         ├ V2Score : 4.3 
-│                        │      │                         ╰ V3Score : 6.1 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2016/
-│                        │      │                  │      04/20/11 
-│                        │      │                  ├ [1]: http://www.securityfocus.com/bid/96434 
-│                        │      │                  ├ [2]: https://blog.srcclr.com/handlebars_vulnerability
-│                        │      │                  │      _research_findings/ 
-│                        │      │                  ├ [3]: https://github.com/advisories/GHSA-9prh-257w-9277 
-│                        │      │                  ├ [4]: https://github.com/wycats/handlebars.js/pull/1083 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2015-8861 
-│                        │      │                  ├ [6]: https://www.npmjs.com/advisories/61 
-│                        │      │                  ├ [7]: https://www.sourceclear.com/blog/handlebars_vuln
-│                        │      │                  │      erability_research_findings/ 
-│                        │      │                  ╰ [8]: https://www.tenable.com/security/tns-2016-18 
-│                        │      ├ PublishedDate   : 2017-01-23T21:59:00Z 
-│                        │      ╰ LastModifiedDate: 2020-04-22T12:54:00Z 
-│                        ├ [13] ╭ VulnerabilityID : NSWG-ECO-519 
-│                        │      ├ PkgID           : handlebars@1.0.0 
-│                        │      ├ PkgName         : handlebars 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/handlebars/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : >=4.6.0 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : nodejs-security-wg 
-│                        │      ├ PrimaryURL      : https://hackerone.com/reports/726364 
-│                        │      ├ DataSource       ╭ ID  : nodejs-security-wg 
-│                        │      │                  ├ Name: Node.js Ecosystem Security Working Group 
-│                        │      │                  ╰ URL : https://github.com/nodejs/security-wg 
-│                        │      ├ Title           : Denial of Service 
-│                        │      ├ Description     : Crash Node.js process from handlebars using a small
-│                        │      │                   and simple source 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ╰ References       ─ [0]: https://hackerone.com/reports/726364 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2020-7788 
-│                        │      ├ PkgID           : ini@1.0.0 
-│                        │      ├ PkgName         : ini 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/ini/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 1.3.6 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-7788 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : nodejs-ini: Prototype pollution via malicious INI file 
-│                        │      ├ Description     : This affects the package ini before 1.3.6. If an
-│                        │      │                   attacker submits a malicious INI file to an application
-│                        │      │                   that parses it with ini.parse, they will pollute the
-│                        │      │                   prototype on the application. This can be exploited further
-│                        │      │                    depending on the context. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-1321 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :L/I:L/A:L 
-│                        │      │                  │        ╰ V3Score : 7.3 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ├ V2Score : 7.5 
-│                        │      │                  │        ╰ V3Score : 9.8 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :L/I:L/A:L 
-│                        │      │                           ╰ V3Score : 7.3 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2020-7788 
-│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │      │                  │       CVE-2020-7788 
-│                        │      │                  ├ [2] : https://errata.almalinux.org/8/ALSA-2022-0350.html 
-│                        │      │                  ├ [3] : https://github.com/advisories/GHSA-qqgx-2p2h-9c37 
-│                        │      │                  ├ [4] : https://github.com/npm/ini/commit/56d2805e07ccd
-│                        │      │                  │       94e2ba0984ac9240ff02d44b6f1 
-│                        │      │                  ├ [5] : https://github.com/npm/ini/commit/56d2805e07ccd
-│                        │      │                  │       94e2ba0984ac9240ff02d44b6f1 (v1.3.6) 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2020-7788.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2022-6595.html 
-│                        │      │                  ├ [8] : https://lists.debian.org/debian-lts-announce/20
-│                        │      │                  │       20/12/msg00032.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2020-7788 
-│                        │      │                  ├ [10]: https://snyk.io/vuln/SNYK-JS-INI-1048974 
-│                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2020-7788 
-│                        │      │                  ╰ [12]: https://www.npmjs.com/advisories/1589 
-│                        │      ├ PublishedDate   : 2020-12-11T11:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-12-02T19:40:00Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2020-7712 
-│                        │      ├ PkgID           : json@1.0.0 
-│                        │      ├ PkgName         : json 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/json/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 10.0.0 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-7712 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : Command injection in json 
-│                        │      ├ Description     : This affects the package json before 10.0.0. It is
-│                        │      │                   possible to inject arbritary commands using the parseLookup
-│                        │      │                    function. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-78 
-│                        │      ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H
-│                        │      │                  │      │           /I:H/A:H 
-│                        │      │                  │      ╰ V3Score : 7.2 
-│                        │      │                  ╰ nvd  ╭ V2Vector: AV:N/AC:L/Au:S/C:P/I:P/A:P 
-│                        │      │                         ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H
-│                        │      │                         │           /I:H/A:H 
-│                        │      │                         ├ V2Score : 6.5 
-│                        │      │                         ╰ V3Score : 7.2 
-│                        │      ├ References       ╭ [0] : https://github.com/advisories/GHSA-3c6g-pvg8-gqw2 
-│                        │      │                  ├ [1] : https://github.com/trentm/json/commit/cc4798169
-│                        │      │                  │       f9e0f181f8aa61905b88479badcd483 
-│                        │      │                  ├ [2] : https://github.com/trentm/json/issues/144 
-│                        │      │                  ├ [3] : https://github.com/trentm/json/pull/145 
-│                        │      │                  ├ [4] : https://lists.apache.org/thread.html/r37c0e1807
-│                        │      │                  │       da7ff2bdd028bbe296465a6bbb99e2320dbe661d5d8b33b@%3Ci
-│                        │      │                  │       ssues.zookeeper.apache.org%3E 
-│                        │      │                  ├ [5] : https://lists.apache.org/thread.html/r3b04f4e99
-│                        │      │                  │       a19613f88ae088aa18cd271231a3c79dfff8f5efa8cda61@%3Ci
-│                        │      │                  │       ssues.zookeeper.apache.org%3E 
-│                        │      │                  ├ [6] : https://lists.apache.org/thread.html/r5f17bfca1
-│                        │      │                  │       d6e7f4b33ae978725b2fd62a9f1b3111696eafa9add802d@%3Ci
-│                        │      │                  │       ssues.zookeeper.apache.org%3E 
-│                        │      │                  ├ [7] : https://lists.apache.org/thread.html/r8d2e17423
-│                        │      │                  │       0f6d26e16c007546e804c343f1f68956f526daaafa4aaae@%3Cd
-│                        │      │                  │       ev.zookeeper.apache.org%3E 
-│                        │      │                  ├ [8] : https://lists.apache.org/thread.html/r977a907ec
-│                        │      │                  │       bedf87ae5ba47d4c77639efb120f74d4d1b3de14a4ef4da@%3Ci
-│                        │      │                  │       ssues.flink.apache.org%3E 
-│                        │      │                  ├ [9] : https://lists.apache.org/thread.html/r9c6d28e5b
-│                        │      │                  │       9a9b3481b7d1f90f1c2f75cd1a5ade91038426e0fb095da@%3Cd
-│                        │      │                  │       ev.flink.apache.org%3E 
-│                        │      │                  ├ [10]: https://lists.apache.org/thread.html/ra890c24b3
-│                        │      │                  │       d90be36daf48ae76b263acb297003db24c1122f8e4aaef2@%3Ci
-│                        │      │                  │       ssues.flink.apache.org%3E 
-│                        │      │                  ├ [11]: https://lists.apache.org/thread.html/rb023d54a4
-│                        │      │                  │       6da1ac0d8969097f5fecc79636b07d3b80db7b818a5c55c@%3Ci
-│                        │      │                  │       ssues.zookeeper.apache.org%3E 
-│                        │      │                  ├ [12]: https://lists.apache.org/thread.html/rb2b981912
-│                        │      │                  │       446a74e14fe6076c4b7c7d8502727ea0718e6a65a9b1be5@%3Ci
-│                        │      │                  │       ssues.zookeeper.apache.org%3E 
-│                        │      │                  ├ [13]: https://lists.apache.org/thread.html/rb89bd82df
-│                        │      │                  │       fec49f83b49e9ad625b1b63a408b3c7d1a60d6f049142a0@%3Ci
-│                        │      │                  │       ssues.flink.apache.org%3E 
-│                        │      │                  ├ [14]: https://lists.apache.org/thread.html/rba7ea4d75
-│                        │      │                  │       d6a8e5b935991d960d9b893fd30e576c4d3b531084ebd7d@%3Ci
-│                        │      │                  │       ssues.flink.apache.org%3E 
-│                        │      │                  ├ [15]: https://lists.apache.org/thread.html/rd9b9cc843
-│                        │      │                  │       f5cf5b532bdad9e87a817967efcf52b917e8c43b6df4cc7@%3Ci
-│                        │      │                  │       ssues.zookeeper.apache.org%3E 
-│                        │      │                  ├ [16]: https://lists.apache.org/thread.html/rec8bb4d63
-│                        │      │                  │       7b04575da41cfae49118e108e95d43bfac39b7b698ee4db@%3Ci
-│                        │      │                  │       ssues.zookeeper.apache.org%3E 
-│                        │      │                  ├ [17]: https://lists.apache.org/thread.html/ree3abcd33
-│                        │      │                  │       c06ee95ab59faa1751198a1186d8941ddc2c2562c12966c@%3Ci
-│                        │      │                  │       ssues.zookeeper.apache.org%3E 
-│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2020-7712 
-│                        │      │                  ├ [19]: https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARS-608932 
-│                        │      │                  ├ [20]: https://snyk.io/vuln/SNYK-JAVA-ORGWEBJARSNPM-608931 
-│                        │      │                  ├ [21]: https://snyk.io/vuln/SNYK-JS-JSON-597481 
-│                        │      │                  ├ [22]: https://www.oracle.com//security-alerts/cpujul2
-│                        │      │                  │       021.html 
-│                        │      │                  ├ [23]: https://www.oracle.com/security-alerts/cpujan20
-│                        │      │                  │       22.html 
-│                        │      │                  ╰ [24]: https://www.oracle.com/security-alerts/cpujul20
-│                        │      │                          22.html 
-│                        │      ├ PublishedDate   : 2020-08-30T08:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-12-03T14:56:00Z 
-│                        ├ [16] ╭ VulnerabilityID : GHSA-wx77-rp39-c6vg 
-│                        │      ├ PkgID           : markdown@1.0.0 
-│                        │      ├ PkgName         : markdown 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/markdown-basics/pac
-│                        │      │                   kage.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://github.com/advisories/GHSA-wx77-rp39-c6vg 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : Regular Expression Denial of Service in markdown 
-│                        │      ├ Description     : All versions of `markdown` are vulnerable to Regular
-│                        │      │                   Expression Denial of Service (ReDoS). The
-│                        │      │                   `markdown.toHTML()` function has significantly degraded
-│                        │      │                   performance when parsing long strings containing
-│                        │      │                   underscores. This may lead to Denial of Service if the
-│                        │      │                   parser accepts user input.
-│                        │      │                   
-│                        │      │                   
-│                        │      │                   ## Recommendation
-│                        │      │                   
-│                        │      │                   No fix is currently available. Consider using an
-│                        │      │                   alternative package until a fix is made available. 
-│                        │      ├ Severity        : LOW 
-│                        │      ╰ References       ╭ [0]: https://github.com/advisories/GHSA-wx77-rp39-c6vg 
-│                        │                         ╰ [1]: https://www.npmjs.com/advisories/1330 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2018-7408 
-│                        │      ├ PkgID           : npm@1.0.1 
-│                        │      ├ PkgName         : npm 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/npm/package.json 
-│                        │      ├ InstalledVersion: 1.0.1 
-│                        │      ├ FixedVersion    : 5.7.1 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-7408 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : Incorrect Permission Assignment for Critical Resource
-│                        │      │                   in NPM 
-│                        │      ├ Description     : An issue was discovered in an npm 5.7.0 2018-02-21
-│                        │      │                   pre-release (marked as "next: 5.7.0" and therefore
-│                        │      │                   automatically installed by an "npm upgrade -g npm" command,
-│                        │      │                    and also announced in the vendor's blog without mention of
-│                        │      │                    pre-release status). It might allow local users to bypass
-│                        │      │                   intended filesystem access restrictions because ownerships
-│                        │      │                   of /etc and /usr directories are being changed
-│                        │      │                   unexpectedly, related to a "correctMkdir" issue. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-732 
-│                        │      ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H
-│                        │      │                  │      │           /I:H/A:H 
-│                        │      │                  │      ╰ V3Score : 7.8 
-│                        │      │                  ╰ nvd  ╭ V2Vector: AV:L/AC:L/Au:N/C:P/I:P/A:P 
-│                        │      │                         ├ V3Vector: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H
-│                        │      │                         │           /I:H/A:H 
-│                        │      │                         ├ V2Score : 4.6 
-│                        │      │                         ╰ V3Score : 7.8 
-│                        │      ├ References       ╭ [0]: http://blog.npmjs.org/post/171169301000/v571 
-│                        │      │                  ├ [1]: https://github.com/advisories/GHSA-ph34-pc88-72gc 
-│                        │      │                  ├ [2]: https://github.com/npm/npm/commit/74e149da6efe6e
-│                        │      │                  │      d89477faa81fef08eee7999ad0 
-│                        │      │                  ├ [3]: https://github.com/npm/npm/issues/19883 
-│                        │      │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2018-7408 
-│                        │      ├ PublishedDate   : 2018-02-22T18:29:00Z 
-│                        │      ╰ LastModifiedDate: 2019-10-03T00:03:00Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2019-16775 
-│                        │      ├ PkgID           : npm@1.0.1 
-│                        │      ├ PkgName         : npm 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/npm/package.json 
-│                        │      ├ InstalledVersion: 1.0.1 
-│                        │      ├ FixedVersion    : 6.13.3 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2019-16775 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : npm: Symlink reference outside of node_modules folder
-│                        │      │                   through the bin field upon installation 
-│                        │      ├ Description     : Versions of the npm CLI prior to 6.13.3 are vulnerable
-│                        │      │                    to an Arbitrary File Write. It is possible for packages to
-│                        │      │                    create symlinks to files outside of thenode_modules folder
-│                        │      │                    through the bin field upon installation. A properly
-│                        │      │                   constructed entry in the package.json bin field would allow
-│                        │      │                    a package publisher to create a symlink pointing to
-│                        │      │                   arbitrary files on a user's system when the package is
-│                        │      │                   installed. This behavior is still possible through install
-│                        │      │                   scripts. This vulnerability bypasses a user using the
-│                        │      │                   --ignore-scripts install option. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-61 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C
-│                        │      │                  │        │           :H/I:H/A:N 
-│                        │      │                  │        ╰ V3Score : 7.7 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:S/C:N/I:P/A:N 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:H/A:N 
-│                        │      │                  │        ├ V2Score : 4 
-│                        │      │                  │        ╰ V3Score : 6.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C
-│                        │      │                           │           :N/I:H/A:N 
-│                        │      │                           ╰ V3Score : 4.8 
-│                        │      ├ References       ╭ [0] : http://lists.opensuse.org/opensuse-security-ann
-│                        │      │                  │       ounce/2020-01/msg00027.html 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHEA-2020:0330 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2020:0573 
-│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2020:0579 
-│                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2020:0597 
-│                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2020:0602 
-│                        │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2019
-│                        │      │                  │       -16775 
-│                        │      │                  ├ [7] : https://blog.npmjs.org/post/189618601100/binary
-│                        │      │                  │       -planting-with-the-npm-cli 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2020-0579.html 
-│                        │      │                  ├ [9] : https://github.com/advisories/GHSA-m6cx-g6qm-p2cx 
-│                        │      │                  ├ [10]: https://github.com/npm/cli/security/advisories/
-│                        │      │                  │       GHSA-m6cx-g6qm-p2cx 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2019-16775.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2020-0579.html 
-│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z36U
-│                        │      │                  │       KPO5F3PQ3Q2POMF5LEKXWAH5RUFP/ 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2019-16775 
-│                        │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2019-16775 
-│                        │      │                  ├ [16]: https://www.npmjs.com/advisories/1434 
-│                        │      │                  ├ [17]: https://www.oracle.com/security-alerts/cpujan20
-│                        │      │                  │       20.html 
-│                        │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpuoct20
-│                        │      │                          21.html 
-│                        │      ├ PublishedDate   : 2019-12-13T01:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-01-24T16:10:00Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2019-16776 
-│                        │      ├ PkgID           : npm@1.0.1 
-│                        │      ├ PkgName         : npm 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/npm/package.json 
-│                        │      ├ InstalledVersion: 1.0.1 
-│                        │      ├ FixedVersion    : 6.13.3 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2019-16776 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : npm: Arbitrary file write via constructed entry in the
-│                        │      │                    package.json bin field 
-│                        │      ├ Description     : Versions of the npm CLI prior to 6.13.3 are vulnerable
-│                        │      │                    to an Arbitrary File Write. It fails to prevent access to
-│                        │      │                   folders outside of the intended node_modules folder through
-│                        │      │                    the bin field. A properly constructed entry in the
-│                        │      │                   package.json bin field would allow a package publisher to
-│                        │      │                   modify and/or gain access to arbitrary files on a user's
-│                        │      │                   system when the package is installed. This behavior is
-│                        │      │                   still possible through install scripts. This vulnerability
-│                        │      │                   bypasses a user using the --ignore-scripts install
-│                        │      │                   option. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-22 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C
-│                        │      │                  │        │           :H/I:H/A:N 
-│                        │      │                  │        ╰ V3Score : 7.7 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:S/C:P/I:P/A:N 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:N 
-│                        │      │                  │        ├ V2Score : 5.5 
-│                        │      │                  │        ╰ V3Score : 8.1 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C
-│                        │      │                           │           :N/I:H/A:N 
-│                        │      │                           ╰ V3Score : 4.8 
-│                        │      ├ References       ╭ [0] : http://lists.opensuse.org/opensuse-security-ann
-│                        │      │                  │       ounce/2020-01/msg00027.html 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHEA-2020:0330 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2020:0573 
-│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2020:0579 
-│                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2020:0597 
-│                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2020:0602 
-│                        │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2019
-│                        │      │                  │       -16776 
-│                        │      │                  ├ [7] : https://blog.npmjs.org/post/189618601100/binary
-│                        │      │                  │       -planting-with-the-npm-cli 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2020-0579.html 
-│                        │      │                  ├ [9] : https://github.com/advisories/GHSA-x8qc-rrcw-4r46 
-│                        │      │                  ├ [10]: https://github.com/npm/cli/security/advisories/
-│                        │      │                  │       GHSA-x8qc-rrcw-4r46 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2019-16776.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2020-0579.html 
-│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z36U
-│                        │      │                  │       KPO5F3PQ3Q2POMF5LEKXWAH5RUFP/ 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2019-16776 
-│                        │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2019-16776 
-│                        │      │                  ├ [16]: https://www.npmjs.com/advisories/1436 
-│                        │      │                  ╰ [17]: https://www.oracle.com/security-alerts/cpujan20
-│                        │      │                          20.html 
-│                        │      ├ PublishedDate   : 2019-12-13T01:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-08-02T20:45:00Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2019-16777 
-│                        │      ├ PkgID           : npm@1.0.1 
-│                        │      ├ PkgName         : npm 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/npm/package.json 
-│                        │      ├ InstalledVersion: 1.0.1 
-│                        │      ├ FixedVersion    : 6.13.4 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2019-16777 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : npm: Global node_modules Binary Overwrite 
-│                        │      ├ Description     : Versions of the npm CLI prior to 6.13.4 are vulnerable
-│                        │      │                    to an Arbitrary File Overwrite. It fails to prevent
-│                        │      │                   existing globally-installed binaries to be overwritten by
-│                        │      │                   other package installations. For example, if a package was
-│                        │      │                   installed globally and created a serve binary, any
-│                        │      │                   subsequent installs of packages that also create a serve
-│                        │      │                   binary would overwrite the previous serve binary. This
-│                        │      │                   behavior is still allowed in local installations and also
-│                        │      │                   through install scripts. This vulnerability bypasses a user
-│                        │      │                    using the --ignore-scripts install option. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-269 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C
-│                        │      │                  │        │           :H/I:H/A:N 
-│                        │      │                  │        ╰ V3Score : 7.7 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:L/Au:S/C:N/I:P/A:P 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:H/A:N 
-│                        │      │                  │        ├ V2Score : 5.5 
-│                        │      │                  │        ╰ V3Score : 6.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C
-│                        │      │                           │           :N/I:H/A:N 
-│                        │      │                           ╰ V3Score : 4.8 
-│                        │      ├ References       ╭ [0] : http://lists.opensuse.org/opensuse-security-ann
-│                        │      │                  │       ounce/2020-01/msg00027.html 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHEA-2020:0330 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2020:0573 
-│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2020:0579 
-│                        │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2020:0597 
-│                        │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2020:0602 
-│                        │      │                  ├ [6] : https://access.redhat.com/security/cve/CVE-2019
-│                        │      │                  │       -16777 
-│                        │      │                  ├ [7] : https://blog.npmjs.org/post/189618601100/binary
-│                        │      │                  │       -planting-with-the-npm-cli 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2020-0579.html 
-│                        │      │                  ├ [9] : https://github.com/advisories/GHSA-4328-8hgf-7wjr 
-│                        │      │                  ├ [10]: https://github.com/npm/cli/security/advisories/
-│                        │      │                  │       GHSA-4328-8hgf-7wjr 
-│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2019-16777.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2020-0579.html 
-│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z36U
-│                        │      │                  │       KPO5F3PQ3Q2POMF5LEKXWAH5RUFP/ 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2019-16777 
-│                        │      │                  ├ [15]: https://security.gentoo.org/glsa/202003-48 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2019-16777 
-│                        │      │                  ├ [17]: https://www.npmjs.com/advisories/1437 
-│                        │      │                  ╰ [18]: https://www.oracle.com/security-alerts/cpujan20
-│                        │      │                          20.html 
-│                        │      ├ PublishedDate   : 2019-12-13T01:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-08-02T20:45:00Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2016-3956 
-│                        │      ├ PkgID           : npm@1.0.1 
-│                        │      ├ PkgName         : npm 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/npm/package.json 
-│                        │      ├ InstalledVersion: 1.0.1 
-│                        │      ├ FixedVersion    : >= 2.15.1 <= 3.0.0, >= 3.8.3 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : nodejs-security-wg 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-3956 
-│                        │      ├ DataSource       ╭ ID  : nodejs-security-wg 
-│                        │      │                  ├ Name: Node.js Ecosystem Security Working Group 
-│                        │      │                  ╰ URL : https://github.com/nodejs/security-wg 
-│                        │      ├ Title           : npm: bearer token leak to non-registry hosts 
-│                        │      ├ Description     : The CLI in npm before 2.15.1 and 3.x before 3.8.3, as
-│                        │      │                   used in Node.js 0.10 before 0.10.44, 0.12 before 0.12.13, 4
-│                        │      │                    before 4.4.2, and 5 before 5.10.0, includes bearer tokens
-│                        │      │                   with arbitrary requests, which allows remote HTTP servers
-│                        │      │                   to obtain sensitive information by reading Authorization
-│                        │      │                   headers. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-200 
-│                        │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:N/A:N 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:N/A:N 
-│                        │      │                  │        ├ V2Score : 5 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:N/A:N 
-│                        │      │                           ╰ V2Score : 4.3 
-│                        │      ├ References       ╭ [0] : http://blog.npmjs.org/post/142036323955/fixing-
-│                        │      │                  │       a-bearer-token-vulnerability 
-│                        │      │                  ├ [1] : http://www-01.ibm.com/support/docview.wss?uid=s
-│                        │      │                  │       wg21980827 
-│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2016-3956 
-│                        │      │                  ├ [3] : https://github.com/advisories/GHSA-m5h6-hr3q-22h5 
-│                        │      │                  ├ [4] : https://github.com/npm/npm/commit/f67ecad59e99a
-│                        │      │                  │       03e5aad8e93cd1a086ae087cb29 
-│                        │      │                  ├ [5] : https://github.com/npm/npm/commit/fea8cc92cee02
-│                        │      │                  │       c720b58f95f14d315507ccad401 
-│                        │      │                  ├ [6] : https://github.com/npm/npm/issues/8380 
-│                        │      │                  ├ [7] : https://nodejs.org/en/blog/vulnerability/npm-to
-│                        │      │                  │       kens-leak-march-2016/ 
-│                        │      │                  ├ [8] : https://nodesecurity.io/advisories/98 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2016-3956 
-│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2016-3956 
-│                        │      │                  ╰ [11]: https://www.npmjs.com/advisories/98 
-│                        │      ├ PublishedDate   : 2016-07-02T14:59:00Z 
-│                        │      ╰ LastModifiedDate: 2021-06-15T16:30:00Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2020-15095 
-│                        │      ├ PkgID           : npm@1.0.1 
-│                        │      ├ PkgName         : npm 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/npm/package.json 
-│                        │      ├ InstalledVersion: 1.0.1 
-│                        │      ├ FixedVersion    : 6.14.6 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-15095 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : npm: sensitive information exposure through logs 
-│                        │      ├ Description     : Versions of the npm CLI prior to 6.14.6 are vulnerable
-│                        │      │                    to an information exposure vulnerability through log
-│                        │      │                   files. The CLI supports URLs like
-│                        │      │                   "<protocol>://[<user>[:<password>]@]<hostname>[:<port>][:][
-│                        │      │                   /]<path>". The password value is not redacted and is
-│                        │      │                   printed to stdout and also to any generated log
-│                        │      │                   files. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-532 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C
-│                        │      │                  │        │           :H/I:N/A:N 
-│                        │      │                  │        ╰ V3Score : 4.4 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:L/AC:M/Au:N/C:P/I:N/A:N 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C
-│                        │      │                  │        │           :H/I:N/A:N 
-│                        │      │                  │        ├ V2Score : 1.9 
-│                        │      │                  │        ╰ V3Score : 4.4 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C
-│                        │      │                           │           :H/I:N/A:N 
-│                        │      │                           ╰ V3Score : 4.4 
-│                        │      ├ References       ╭ [0] : http://lists.opensuse.org/opensuse-security-ann
-│                        │      │                  │       ounce/2020-10/msg00011.html 
-│                        │      │                  ├ [1] : http://lists.opensuse.org/opensuse-security-ann
-│                        │      │                  │       ounce/2020-10/msg00015.html 
-│                        │      │                  ├ [2] : http://lists.opensuse.org/opensuse-security-ann
-│                        │      │                  │       ounce/2020-10/msg00023.html 
-│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2020
-│                        │      │                  │       -15095 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2021-0548.html 
-│                        │      │                  ├ [5] : https://github.com/advisories/GHSA-93f3-23rq-pjfp 
-│                        │      │                  ├ [6] : https://github.com/npm/cli/blob/66aab417f836a90
-│                        │      │                  │       1f8afb265251f761bb0422463/CHANGELOG.md#6146-2020-07-
-│                        │      │                  │       07 
-│                        │      │                  ├ [7] : https://github.com/npm/cli/commit/a9857b8f68694
-│                        │      │                  │       51ff058789c4631fadfde5bbcbc 
-│                        │      │                  ├ [8] : https://github.com/npm/cli/security/advisories/
-│                        │      │                  │       GHSA-93f3-23rq-pjfp 
-│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2020-15095.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2021-0548.html 
-│                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
-│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/4OOY
-│                        │      │                  │       AMJVLLCLXDTHW3V5UXNULZBBK4O6/ 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2020-15095 
-│                        │      │                  ├ [13]: https://security.gentoo.org/glsa/202101-07 
-│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2020-15095 
-│                        │      ├ PublishedDate   : 2020-07-07T19:15:00Z 
-│                        │      ╰ LastModifiedDate: 2022-08-02T20:44:00Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2013-4116 
-│                        │      ├ PkgID           : npm@1.0.1 
-│                        │      ├ PkgName         : npm 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/npm/package.json 
-│                        │      ├ InstalledVersion: 1.0.1 
-│                        │      ├ FixedVersion    : >=1.3.3 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : nodejs-security-wg 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2013-4116 
-│                        │      ├ DataSource       ╭ ID  : nodejs-security-wg 
-│                        │      │                  ├ Name: Node.js Ecosystem Security Working Group 
-│                        │      │                  ╰ URL : https://github.com/nodejs/security-wg 
-│                        │      ├ Title           : npm: Insecure temporary directory generation 
-│                        │      ├ Description     : lib/npm.js in Node Packaged Modules (npm) before 1.3.3
-│                        │      │                    allows local users to overwrite arbitrary files via a
-│                        │      │                   symlink attack on temporary files with predictable names
-│                        │      │                   that are created when unpacking archives. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ CweIDs           ─ [0]: CWE-59 
-│                        │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:L/AC:M/Au:N/C:N/I:P/A:P 
-│                        │      │                  │        ╰ V2Score : 3.3 
-│                        │      │                  ╰ redhat ╭ V2Vector: AV:L/AC:M/Au:N/C:N/I:P/A:N 
-│                        │      │                           ╰ V2Score : 1.9 
-│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2013
-│                        │      │                  │       /07/10/17 
-│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2013
-│                        │      │                  │       /07/11/9 
-│                        │      │                  ├ [2] : http://www.securityfocus.com/bid/61083 
-│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2013-4116 
-│                        │      │                  ├ [4] : https://bugs.debian.org/cgi-bin/bugreport.cgi?b
-│                        │      │                  │       ug=715325 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=983917 
-│                        │      │                  ├ [6] : https://exchange.xforce.ibmcloud.com/vulnerabil
-│                        │      │                  │       ities/87141 
-│                        │      │                  ├ [7] : https://github.com/advisories/GHSA-v3jv-wrf4-5845 
-│                        │      │                  ├ [8] : https://github.com/npm/npm/commit/f4d31693 
-│                        │      │                  ├ [9] : https://github.com/npm/npm/issues/3635 
-│                        │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2013-4116 
-│                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2013-4116 
-│                        │      │                  ╰ [12]: https://www.npmjs.com/advisories/152 
-│                        │      ├ PublishedDate   : 2014-04-22T14:23:00Z 
-│                        │      ╰ LastModifiedDate: 2020-10-14T13:21:00Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2021-21353 
-│                        │      ├ PkgID           : pug@1.0.0 
-│                        │      ├ PkgName         : pug 
-│                        │      ├ PkgPath         : home/.openvscode-server/extensions/pug/package.json 
-│                        │      ├ InstalledVersion: 1.0.0 
-│                        │      ├ FixedVersion    : 3.0.1 
-│                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
-│                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                        │      │                            de7291603ee46c7ba2b858e580 
-│                        │      ├ SeveritySource  : ghsa 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-21353 
-│                        │      ├ DataSource       ╭ ID  : ghsa 
-│                        │      │                  ├ Name: GitHub Security Advisory Npm 
-│                        │      │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                        │      │                          ewed+ecosystem%3Anpm 
-│                        │      ├ Title           : user provided objects as input to pug templates can
-│                        │      │                   achieve remote code execution 
-│                        │      ├ Description     : Pug is an npm package which is a high-performance
-│                        │      │                   template engine. In pug before version 3.0.1, if a remote
-│                        │      │                   attacker was able to control the `pretty` option of the pug
-│                        │      │                    compiler, e.g. if you spread a user provided object such
-│                        │      │                   as the query parameters of a request into the pug template
-│                        │      │                   inputs, it was possible for them to achieve remote code
-│                        │      │                   execution on the node.js backend. This is fixed in version
-│                        │      │                   3.0.1. This advisory applies to multiple pug packages
-│                        │      │                   including "pug", "pug-code-gen". pug-code-gen has a
-│                        │      │                   backported fix at version 2.0.3. This advisory is not
-│                        │      │                   exploitable if there is no way for un-trusted input to be
-│                        │      │                   passed to pug as the `pretty` option, e.g. if you compile
-│                        │      │                   templates in advance before applying user input to them,
-│                        │      │                   you do not need to upgrade. 
-│                        │      ├ Severity        : HIGH 
-│                        │      ├ CweIDs           ─ [0]: CWE-74 
-│                        │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                        │      │                  │        │           :N/I:H/A:N 
-│                        │      │                  │        ╰ V3Score : 6.8 
-│                        │      │                  ├ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
-│                        │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ├ V2Score : 6.8 
-│                        │      │                  │        ╰ V3Score : 9 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                        │      │                           │           :H/I:H/A:H 
-│                        │      │                           ╰ V3Score : 9 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2021
-│                        │      │                  │       -21353 
-│                        │      │                  ├ [1] : https://github.com/advisories/GHSA-p493-635q-r6gr 
-│                        │      │                  ├ [2] : https://github.com/pugjs/pug/commit/991e78f7c42
-│                        │      │                  │       20b2f8da042877c6f0ef5a4683be0 
-│                        │      │                  ├ [3] : https://github.com/pugjs/pug/issues/3312 
-│                        │      │                  ├ [4] : https://github.com/pugjs/pug/pull/3314 
-│                        │      │                  ├ [5] : https://github.com/pugjs/pug/releases/tag/pug%4
-│                        │      │                  │       03.0.1 
-│                        │      │                  ├ [6] : https://github.com/pugjs/pug/security/advisorie
-│                        │      │                  │       s/GHSA-p493-635q-r6gr 
-│                        │      │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2021-21353 
-│                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2021-21353 
-│                        │      │                  ├ [9] : https://www.npmjs.com/package/pug 
-│                        │      │                  ╰ [10]: https://www.npmjs.com/package/pug-code-gen 
-│                        │      ├ PublishedDate   : 2021-03-03T02:15:00Z 
-│                        │      ╰ LastModifiedDate: 2021-03-09T15:35:00Z 
-│                        ╰ [25] ╭ VulnerabilityID : CVE-2022-25883 
-│                               ├ PkgID           : semver@7.3.5 
-│                               ├ PkgName         : semver 
-│                               ├ PkgPath         : home/.openvscode-server/node_modules/semver/package.json 
-│                               ├ InstalledVersion: 7.3.5 
-│                               ├ FixedVersion    : 5.7.2, 6.3.1, 7.5.2 
-│                               ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
-│                               │                  │         ffd14dc9825a27049ab6aee5cb 
-│                               │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
-│                               │                            de7291603ee46c7ba2b858e580 
-│                               ├ SeveritySource  : ghsa 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-25883 
-│                               ├ DataSource       ╭ ID  : ghsa 
-│                               │                  ├ Name: GitHub Security Advisory Npm 
-│                               │                  ╰ URL : https://github.com/advisories?query=type%3Arevi
-│                               │                          ewed+ecosystem%3Anpm 
-│                               ├ Title           : Regular expression denial of service 
-│                               ├ Description     : Versions of the package semver before 7.5.2 are
-│                               │                   vulnerable to Regular Expression Denial of Service (ReDoS)
-│                               │                   via the function new Range, when untrusted user data is
-│                               │                   provided as a range. 
-│                               ├ Severity        : MEDIUM 
-│                               ├ CweIDs           ─ [0]: CWE-1333 
-│                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                               │                  │        │           :N/I:N/A:L 
-│                               │                  │        ╰ V3Score : 5.3 
-│                               │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                               │                  │        │           :N/I:N/A:H 
-│                               │                  │        ╰ V3Score : 7.5 
-│                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                               │                           │           :N/I:N/A:H 
-│                               │                           ╰ V3Score : 7.5 
-│                               ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022
-│                               │                  │       -25883 
-│                               │                  ├ [1] : https://github.com/advisories/GHSA-c2qf-rxjj-qqgw 
-│                               │                  ├ [2] : https://github.com/npm/node-semver/blob/main/cl
-│                               │                  │       asses/range.js#L97-L104 
-│                               │                  ├ [3] : https://github.com/npm/node-semver/blob/main/cl
-│                               │                  │       asses/range.js%23L97-L104 
-│                               │                  ├ [4] : https://github.com/npm/node-semver/blob/main/in
-│                               │                  │       ternal/re.js#L138 
-│                               │                  ├ [5] : https://github.com/npm/node-semver/blob/main/in
-│                               │                  │       ternal/re.js#L160 
-│                               │                  ├ [6] : https://github.com/npm/node-semver/blob/main/in
-│                               │                  │       ternal/re.js%23L138 
-│                               │                  ├ [7] : https://github.com/npm/node-semver/blob/main/in
-│                               │                  │       ternal/re.js%23L160 
-│                               │                  ├ [8] : https://github.com/npm/node-semver/commit/2f8fd
-│                               │                  │       41487acf380194579ecb6f8b1bbfe116be0 
-│                               │                  ├ [9] : https://github.com/npm/node-semver/commit/71753
-│                               │                  │       4ee353682f3bcf33e60a8af4292626d4441 
-│                               │                  ├ [10]: https://github.com/npm/node-semver/commit/928e5
-│                               │                  │       6d21150da0413a3333a3148b20e741a920c 
-│                               │                  ├ [11]: https://github.com/npm/node-semver/pull/564 
-│                               │                  ├ [12]: https://github.com/npm/node-semver/pull/585 
-│                               │                  ├ [13]: https://github.com/npm/node-semver/pull/593 
-│                               │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2022-25883 
-│                               │                  ├ [15]: https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795 
-│                               │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2022-25883 
-│                               ├ PublishedDate   : 2023-06-21T05:15:00Z 
-│                               ╰ LastModifiedDate: 2023-07-12T00:53:00Z 
-├ [3]  ╭ Target         : home/openvscode-server/.krew/store/krew/v0.4.3/krew 
+├ [2]  ╭ Target         : home/openvscode-server/.krew/store/krew/v0.4.3/krew 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
 │      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2022-27664 
@@ -6092,7 +4760,7 @@
 │                              │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2022-32149 
 │                              ├ PublishedDate   : 2022-10-14T15:15:00Z 
 │                              ╰ LastModifiedDate: 2022-10-18T17:41:00Z 
-├ [4]  ╭ Target         : home/workspace/.openvscode-server/extensions/ms-kubernetes-tools.vscode-kubernet
+├ [3]  ╭ Target         : home/workspace/.openvscode-server/extensions/ms-kubernetes-tools.vscode-kubernet
 │      │                  es-tools-1.3.13-universal/go.mod 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gomod 
@@ -6670,7 +5338,7 @@
 │                              │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2022-32149 
 │                              ├ PublishedDate   : 2022-10-14T15:15:00Z 
 │                              ╰ LastModifiedDate: 2022-10-18T17:41:00Z 
-├ [5]  ╭ Target         : tmp/tmp.NXRl9mDLMP/krew-linux_amd64 
+├ [4]  ╭ Target         : tmp/tmp.NXRl9mDLMP/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
 │      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2022-27664 
@@ -6999,7 +5667,7 @@
 │                              │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2022-32149 
 │                              ├ PublishedDate   : 2022-10-14T15:15:00Z 
 │                              ╰ LastModifiedDate: 2022-10-18T17:41:00Z 
-├ [6]  ╭ Target         : usr/bin/docker-compose 
+├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
 │      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2023-26054 
@@ -7063,7 +5731,7 @@
 │                              │                  ╰ [6]: https://www.rfc-editor.org/rfc/rfc3986#section-3.2.1 
 │                              ├ PublishedDate   : 2023-03-06T19:15:00Z 
 │                              ╰ LastModifiedDate: 2023-03-13T18:37:00Z 
-├ [7]  ╭ Target         : usr/bin/kubectl 
+├ [6]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
 │      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2023-2253 
@@ -7112,6 +5780,182 @@
 │                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-2253 
 │                              ├ PublishedDate   : 2023-06-06T20:15:00Z 
 │                              ╰ LastModifiedDate: 2023-06-29T16:15:00Z 
+├ [7]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a2
+│                                  │            7049ab6aee5cb 
+│                                  ├ DiffID   : sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46
+│                                  │            c7ba2b858e580 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
 ├ [8]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
@@ -7278,60 +6122,7 @@
 │                                  ├ DiffID   : sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46
 │                                  │            c7ba2b858e580 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a2
-│                                  │            7049ab6aee5cb 
-│                                  ├ DiffID   : sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46
-│                                  │            c7ba2b858e580 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -7348,54 +6139,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -7408,54 +6152,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -7471,37 +6168,8 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            **************************************************-----END OPENSSH
+                       │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a2
                                    │            7049ab6aee5cb 
                                    ├ DiffID   : sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46
