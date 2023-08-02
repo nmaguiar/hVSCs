@@ -2,7 +2,7 @@
 
 ![.github/version-latest.svg](.github/version-latest.svg) ![.github/version-build.svg](.github/version-build.svg)
 
-![.github/sec-build.md](.github/sec-build.svg) ![.github/sec-latest.md](.github/sec-latest.svg)
+[![build](.github/sec-build.svg)](.github/sec-build.md) [![build](.github/sec-latest.svg)](.github/sec-latest.md)
 
 A personal _"home VSCode space"_ base image to quickly deploy on wherever there is a docker installed (Linux, Mac or Windows (WSL or not)). It includes:
 * Docker in Docker
