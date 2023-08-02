@@ -27,7 +27,7 @@ RUN apt-get update\
  && sed -i "s/AllowTcpForwarding no/AllowTcpForwarding yes/g" /etc/ssh/sshd_config\
  && sed -i "s/GatewayPorts no/GatewayPorts yes/g" /etc/ssh/sshd_config\
  && sed -i "s/default:\"welcomePage\"/default:\"readme\"/g" /home/.openvscode-server/out/vs/workbench/workbench.web.main.js\
- && echo 'if [ ! -e ~/.openaf-ojobio-complete ] || [ \$(find ~/.openaf-ojobio-complete -mtime +1) ]; then curl -s https://ojob.io/autoComplete.sh > ~/.openaf-ojobio-complete; fi' >> /etc/bash.bashrc\
+ && echo 'if [ ! -e ~/.openaf-ojobio-complete ] || [ $(find ~/.openaf-ojobio-complete -mtime +1) ]; then curl -s https://ojob.io/autoComplete.sh > ~/.openaf-ojobio-complete; fi' >> /etc/bash.bashrc\
  && echo "source ~/.openaf-ojobio-complete" >> /etc/bash.bashrc
 
 COPY ojob_p2.yaml /tmp/.p2.yaml
