@@ -6,6 +6,7 @@
 │                        │      ├ PkgID           : apparmor@3.0.4-2ubuntu2.2 
 │                        │      ├ PkgName         : apparmor 
 │                        │      ├ InstalledVersion: 3.0.4-2ubuntu2.2 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -43,6 +44,7 @@
 │                        │      ├ PkgID           : bash@5.1-6ubuntu1 
 │                        │      ├ PkgName         : bash 
 │                        │      ├ InstalledVersion: 5.1-6ubuntu1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -85,6 +87,7 @@
 │                        │      ├ PkgID           : coreutils@8.32-4.1ubuntu1 
 │                        │      ├ PkgName         : coreutils 
 │                        │      ├ InstalledVersion: 8.32-4.1ubuntu1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -133,6 +136,7 @@
 │                        │      ├ PkgName         : curl 
 │                        │      ├ InstalledVersion: 7.81.0-1ubuntu1.10 
 │                        │      ├ FixedVersion    : 7.81.0-1ubuntu1.11 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -197,6 +201,7 @@
 │                        │      ├ PkgName         : curl 
 │                        │      ├ InstalledVersion: 7.81.0-1ubuntu1.10 
 │                        │      ├ FixedVersion    : 7.81.0-1ubuntu1.11 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -254,6 +259,7 @@
 │                        │      ├ PkgID           : dbus@1.12.20-2ubuntu4.1 
 │                        │      ├ PkgName         : dbus 
 │                        │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -298,6 +304,7 @@
 │                        │      ├ PkgID           : dbus-user-session@1.12.20-2ubuntu4.1 
 │                        │      ├ PkgName         : dbus-user-session 
 │                        │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -342,6 +349,7 @@
 │                        │      ├ PkgID           : dirmngr@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : dirmngr 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -383,6 +391,7 @@
 │                        │      ├ PkgID           : git@1:2.34.1-1ubuntu1.9 
 │                        │      ├ PkgName         : git 
 │                        │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -425,6 +434,7 @@
 │                        │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.9 
 │                        │      ├ PkgName         : git-man 
 │                        │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -467,6 +477,7 @@
 │                        │      ├ PkgID           : gnupg@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gnupg 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -508,6 +519,7 @@
 │                        │      ├ PkgID           : gnupg-l10n@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gnupg-l10n 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -549,6 +561,7 @@
 │                        │      ├ PkgID           : gnupg-utils@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gnupg-utils 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -590,6 +603,7 @@
 │                        │      ├ PkgID           : gpg@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpg 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -631,6 +645,7 @@
 │                        │      ├ PkgID           : gpg-agent@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpg-agent 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -672,6 +687,7 @@
 │                        │      ├ PkgID           : gpg-wks-client@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpg-wks-client 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -713,6 +729,7 @@
 │                        │      ├ PkgID           : gpg-wks-server@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpg-wks-server 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -754,6 +771,7 @@
 │                        │      ├ PkgID           : gpgconf@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpgconf 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -795,6 +813,7 @@
 │                        │      ├ PkgID           : gpgsm@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpgsm 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -836,6 +855,7 @@
 │                        │      ├ PkgID           : gpgv@2.2.27-3ubuntu2.1 
 │                        │      ├ PkgName         : gpgv 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -877,6 +897,7 @@
 │                        │      ├ PkgID           : libapparmor1@3.0.4-2ubuntu2.2 
 │                        │      ├ PkgName         : libapparmor1 
 │                        │      ├ InstalledVersion: 3.0.4-2ubuntu2.2 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -914,6 +935,7 @@
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.1 
 │                        │      ├ PkgName         : libc-bin 
 │                        │      ├ InstalledVersion: 2.35-0ubuntu3.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -947,6 +969,7 @@
 │                        │      ├ PkgID           : libc6@2.35-0ubuntu3.1 
 │                        │      ├ PkgName         : libc6 
 │                        │      ├ InstalledVersion: 2.35-0ubuntu3.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -981,6 +1004,7 @@
 │                        │      ├ PkgName         : libcurl3-gnutls 
 │                        │      ├ InstalledVersion: 7.81.0-1ubuntu1.10 
 │                        │      ├ FixedVersion    : 7.81.0-1ubuntu1.11 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1045,6 +1069,7 @@
 │                        │      ├ PkgName         : libcurl3-gnutls 
 │                        │      ├ InstalledVersion: 7.81.0-1ubuntu1.10 
 │                        │      ├ FixedVersion    : 7.81.0-1ubuntu1.11 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1103,6 +1128,7 @@
 │                        │      ├ PkgName         : libcurl4 
 │                        │      ├ InstalledVersion: 7.81.0-1ubuntu1.10 
 │                        │      ├ FixedVersion    : 7.81.0-1ubuntu1.11 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1167,6 +1193,7 @@
 │                        │      ├ PkgName         : libcurl4 
 │                        │      ├ InstalledVersion: 7.81.0-1ubuntu1.10 
 │                        │      ├ FixedVersion    : 7.81.0-1ubuntu1.11 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1224,6 +1251,7 @@
 │                        │      ├ PkgID           : libdbus-1-3@1.12.20-2ubuntu4.1 
 │                        │      ├ PkgName         : libdbus-1-3 
 │                        │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1268,6 +1296,7 @@
 │                        │      ├ PkgID           : libgd3@2.3.0-2ubuntu2 
 │                        │      ├ PkgName         : libgd3 
 │                        │      ├ InstalledVersion: 2.3.0-2ubuntu2 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1303,6 +1332,7 @@
 │                        │      ├ PkgID           : libldap-2.5-0@2.5.14+dfsg-0ubuntu0.22.04.2 
 │                        │      ├ PkgName         : libldap-2.5-0 
 │                        │      ├ InstalledVersion: 2.5.14+dfsg-0ubuntu0.22.04.2 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1345,6 +1375,7 @@
 │                        │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ PkgName         : libpcre3 
 │                        │      ├ InstalledVersion: 2:8.39-13ubuntu0.22.04.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1390,6 +1421,7 @@
 │                        │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                        │      ├ PkgName         : libpng16-16 
 │                        │      ├ InstalledVersion: 1.6.37-3build5 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1425,6 +1457,7 @@
 │                        │      ├ PkgID           : libpython3.10@3.10.6-1~22.04.2ubuntu1.1 
 │                        │      ├ PkgName         : libpython3.10 
 │                        │      ├ InstalledVersion: 3.10.6-1~22.04.2ubuntu1.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1472,6 +1505,7 @@
 │                        │      ├ PkgID           : libpython3.10-minimal@3.10.6-1~22.04.2ubuntu1.1 
 │                        │      ├ PkgName         : libpython3.10-minimal 
 │                        │      ├ InstalledVersion: 3.10.6-1~22.04.2ubuntu1.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1519,6 +1553,7 @@
 │                        │      ├ PkgID           : libpython3.10-stdlib@3.10.6-1~22.04.2ubuntu1.1 
 │                        │      ├ PkgName         : libpython3.10-stdlib 
 │                        │      ├ InstalledVersion: 3.10.6-1~22.04.2ubuntu1.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1566,6 +1601,7 @@
 │                        │      ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
 │                        │      ├ PkgName         : libsqlite3-0 
 │                        │      ├ InstalledVersion: 3.37.2-2ubuntu0.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1604,6 +1640,7 @@
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.10 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.10 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1654,9 +1691,9 @@
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                  │        │           :N/I:L/A:N 
 │                        │      │                  │        ╰ V3Score : 5.3 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:H/A:N 
-│                        │      │                           ╰ V3Score : 5.9 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:L/A:N 
+│                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
 │                        │      │                  │      07/15/1 
 │                        │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
@@ -1681,6 +1718,7 @@
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.4 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1740,6 +1778,7 @@
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.4 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1778,6 +1817,7 @@
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.4 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1817,6 +1857,7 @@
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.4 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1844,17 +1885,20 @@
 │                        │      │                  │      VE-2023-26965 
 │                        │      │                  ├ [2]: https://gitlab.com/libtiff/libtiff/-/merge_reque
 │                        │      │                  │      sts/472 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-26965 
-│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202307
+│                        │      │                  ├ [3]: https://lists.debian.org/debian-lts-announce/202
+│                        │      │                  │      3/07/msg00034.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-26965 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-202307
 │                        │      │                  │      06-0009/ 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6229-1 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-26965 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6229-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-26965 
 │                        │      ├ PublishedDate   : 2023-06-14T21:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-07-06T19:15:00Z 
+│                        │      ╰ LastModifiedDate: 2023-08-01T02:15:00Z 
 │                        ├ [41] ╭ VulnerabilityID : CVE-2023-3316 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.4 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1885,17 +1929,20 @@
 │                        │      │                  ├ [2]: https://gitlab.com/libtiff/libtiff/-/issues/515 
 │                        │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/merge_reque
 │                        │      │                  │      sts/468 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-3316 
-│                        │      │                  ├ [5]: https://research.jfrog.com/vulnerabilities/libti
+│                        │      │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                        │      │                  │      3/07/msg00034.html 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-3316 
+│                        │      │                  ├ [6]: https://research.jfrog.com/vulnerabilities/libti
 │                        │      │                  │      ff-nullderef-dos-xray-522144/ 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6229-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-3316 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6229-1 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-3316 
 │                        │      ├ PublishedDate   : 2023-06-19T12:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-07-03T16:43:00Z 
+│                        │      ╰ LastModifiedDate: 2023-08-01T02:15:00Z 
 │                        ├ [42] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1941,6 +1988,7 @@
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : login 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -1993,6 +2041,7 @@
 │                        │      ├ PkgName         : openssh-client 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
 │                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.3 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2011,9 +2060,13 @@
 │                        │      │                   issue exists because of an incomplete fix for
 │                        │      │                   CVE-2016-10009. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :L/I:L/A:L 
-│                        │      │                           ╰ V3Score : 7.3 
+│                        │      ├ CweIDs           ─ [0]: CWE-428 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                  │        │           :H/I:H/A:H 
+│                        │      │                  │        ╰ V3Score : 9.8 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 9.8 
 │                        │      ├ References       ╭ [0] : http://packetstormsecurity.com/files/173661/Ope
 │                        │      │                  │       nSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
 │                        │      │                  │       [m 
@@ -2051,11 +2104,12 @@
 │                        │      │                  ╰ [19]: https://www.qualys.com/2023/07/19/cve-2023-3840
 │                        │      │                          8/rce-openssh-forwarded-ssh-agent.txt 
 │                        │      ├ PublishedDate   : 2023-07-20T03:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-07-28T04:15:00Z 
+│                        │      ╰ LastModifiedDate: 2023-07-31T17:07:00Z 
 │                        ├ [45] ╭ VulnerabilityID : CVE-2023-28531 
 │                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.1 
 │                        │      ├ PkgName         : openssh-client 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2094,6 +2148,7 @@
 │                        │      ├ PkgName         : openssh-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
 │                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.3 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2112,9 +2167,13 @@
 │                        │      │                   issue exists because of an incomplete fix for
 │                        │      │                   CVE-2016-10009. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :L/I:L/A:L 
-│                        │      │                           ╰ V3Score : 7.3 
+│                        │      ├ CweIDs           ─ [0]: CWE-428 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                  │        │           :H/I:H/A:H 
+│                        │      │                  │        ╰ V3Score : 9.8 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 9.8 
 │                        │      ├ References       ╭ [0] : http://packetstormsecurity.com/files/173661/Ope
 │                        │      │                  │       nSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
 │                        │      │                  │       [m 
@@ -2152,11 +2211,12 @@
 │                        │      │                  ╰ [19]: https://www.qualys.com/2023/07/19/cve-2023-3840
 │                        │      │                          8/rce-openssh-forwarded-ssh-agent.txt 
 │                        │      ├ PublishedDate   : 2023-07-20T03:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-07-28T04:15:00Z 
+│                        │      ╰ LastModifiedDate: 2023-07-31T17:07:00Z 
 │                        ├ [47] ╭ VulnerabilityID : CVE-2023-28531 
 │                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.1 
 │                        │      ├ PkgName         : openssh-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2195,6 +2255,7 @@
 │                        │      ├ PkgName         : openssh-sftp-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
 │                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.3 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2213,9 +2274,13 @@
 │                        │      │                   issue exists because of an incomplete fix for
 │                        │      │                   CVE-2016-10009. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :L/I:L/A:L 
-│                        │      │                           ╰ V3Score : 7.3 
+│                        │      ├ CweIDs           ─ [0]: CWE-428 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                  │        │           :H/I:H/A:H 
+│                        │      │                  │        ╰ V3Score : 9.8 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 9.8 
 │                        │      ├ References       ╭ [0] : http://packetstormsecurity.com/files/173661/Ope
 │                        │      │                  │       nSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
 │                        │      │                  │       [m 
@@ -2253,11 +2318,12 @@
 │                        │      │                  ╰ [19]: https://www.qualys.com/2023/07/19/cve-2023-3840
 │                        │      │                          8/rce-openssh-forwarded-ssh-agent.txt 
 │                        │      ├ PublishedDate   : 2023-07-20T03:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-07-28T04:15:00Z 
+│                        │      ╰ LastModifiedDate: 2023-07-31T17:07:00Z 
 │                        ├ [49] ╭ VulnerabilityID : CVE-2023-28531 
 │                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.1 
 │                        │      ├ PkgName         : openssh-sftp-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2295,6 +2361,7 @@
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.10 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.10 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2345,9 +2412,9 @@
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                  │        │           :N/I:L/A:N 
 │                        │      │                  │        ╰ V3Score : 5.3 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:H/A:N 
-│                        │      │                           ╰ V3Score : 5.9 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:L/A:N 
+│                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
 │                        │      │                  │      07/15/1 
 │                        │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
@@ -2372,6 +2439,7 @@
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2423,6 +2491,7 @@
 │                        │      ├ PkgID           : python3.10@3.10.6-1~22.04.2ubuntu1.1 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ InstalledVersion: 3.10.6-1~22.04.2ubuntu1.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2470,6 +2539,7 @@
 │                        │      ├ PkgID           : python3.10-minimal@3.10.6-1~22.04.2ubuntu1.1 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ InstalledVersion: 3.10.6-1~22.04.2ubuntu1.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2517,6 +2587,7 @@
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2568,6 +2639,7 @@
 │                        │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2614,6 +2686,7 @@
 │                        │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2657,6 +2730,7 @@
 │                        │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2698,6 +2772,7 @@
 │                        │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2737,6 +2812,7 @@
 │                        │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2780,6 +2856,7 @@
 │                        │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2822,6 +2899,7 @@
 │                        │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-common 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2868,6 +2946,7 @@
 │                        │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-common 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2911,6 +2990,7 @@
 │                        │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-common 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2952,6 +3032,7 @@
 │                        │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-common 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -2991,6 +3072,7 @@
 │                        │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-common 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3034,6 +3116,7 @@
 │                        │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-common 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3076,6 +3159,7 @@
 │                        │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-runtime 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3122,6 +3206,7 @@
 │                        │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-runtime 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3165,6 +3250,7 @@
 │                        │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-runtime 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3206,6 +3292,7 @@
 │                        │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-runtime 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3245,6 +3332,7 @@
 │                        │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-runtime 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3288,6 +3376,7 @@
 │                        │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : vim-runtime 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3330,6 +3419,7 @@
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ InstalledVersion: 1.21.2-2ubuntu1 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3369,6 +3459,7 @@
 │                        │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : xxd 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3415,6 +3506,7 @@
 │                        │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : xxd 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3458,6 +3550,7 @@
 │                        │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : xxd 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3499,6 +3592,7 @@
 │                        │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : xxd 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3538,6 +3632,7 @@
 │                        │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │      ├ PkgName         : xxd 
 │                        │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                        │      │                  │         ffd14dc9825a27049ab6aee5cb 
 │                        │      │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3581,6 +3676,7 @@
 │                               ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                               ├ PkgName         : xxd 
 │                               ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
+│                               ├ Status          : affected 
 │                               ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394
 │                               │                  │         ffd14dc9825a27049ab6aee5cb 
 │                               │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6
@@ -3629,6 +3725,7 @@
 │                              │                   ber.jar 
 │                              ├ InstalledVersion: 1.14.2 
 │                              ├ FixedVersion    : 1.15.3 
+│                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                              │                  │         fd14dc9825a27049ab6aee5cb 
 │                              │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -3692,6 +3789,7 @@
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: v0.0.0-20210614182718-04defd469f4e 
 │                        │     ├ FixedVersion    : 0.0.0-20220906165146-f3363e06e74c 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -3792,6 +3890,7 @@
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: v0.0.0-20210614182718-04defd469f4e 
 │                        │     ├ FixedVersion    : 0.7.0 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -3849,6 +3948,7 @@
 │                        │     ├ PkgName         : golang.org/x/sys 
 │                        │     ├ InstalledVersion: v0.0.0-20210630005230-0f9fa26af87c 
 │                        │     ├ FixedVersion    : 0.0.0-20220412211240-33da011f77ad 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -3917,6 +4017,7 @@
 │                        │     ├ PkgName         : golang.org/x/text 
 │                        │     ├ InstalledVersion: v0.3.6 
 │                        │     ├ FixedVersion    : 0.3.7 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -3965,6 +4066,7 @@
 │                              ├ PkgName         : golang.org/x/text 
 │                              ├ InstalledVersion: v0.3.6 
 │                              ├ FixedVersion    : 0.3.8 
+│                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                              │                  │         fd14dc9825a27049ab6aee5cb 
 │                              │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4019,6 +4121,7 @@
 │                        │     ├ PkgName         : golang.org/x/crypto 
 │                        │     ├ InstalledVersion: 0.0.0-20210616213533-5ff15b29337e 
 │                        │     ├ FixedVersion    : 0.0.0-20211202192323-5770296d904e 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4061,6 +4164,7 @@
 │                        │     ├ PkgName         : golang.org/x/crypto 
 │                        │     ├ InstalledVersion: 0.0.0-20210616213533-5ff15b29337e 
 │                        │     ├ FixedVersion    : 0.0.0-20220314234659-1baeb1ce4c0b 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4158,6 +4262,7 @@
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
 │                        │     ├ FixedVersion    : 0.0.0-20210520170846-37e1c6afe023 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4211,6 +4316,7 @@
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
 │                        │     ├ FixedVersion    : 0.0.0-20220906165146-f3363e06e74c 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4312,6 +4418,7 @@
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
 │                        │     ├ FixedVersion    : 0.7.0 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4370,6 +4477,7 @@
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: 0.0.0-20210226172049-e18ecbb05110 
 │                        │     ├ FixedVersion    : 0.0.0-20210428140749-89ef3d95e781 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4425,6 +4533,7 @@
 │                        │     ├ PkgName         : golang.org/x/sys 
 │                        │     ├ InstalledVersion: 0.0.0-20210615035016-665e8c7367d1 
 │                        │     ├ FixedVersion    : 0.0.0-20220412211240-33da011f77ad 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4494,6 +4603,7 @@
 │                        │     ├ PkgName         : golang.org/x/text 
 │                        │     ├ InstalledVersion: 0.3.3 
 │                        │     ├ FixedVersion    : 0.3.7 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4543,6 +4653,7 @@
 │                              ├ PkgName         : golang.org/x/text 
 │                              ├ InstalledVersion: 0.3.3 
 │                              ├ FixedVersion    : 0.3.8 
+│                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                              │                  │         fd14dc9825a27049ab6aee5cb 
 │                              │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4595,6 +4706,7 @@
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: v0.0.0-20210614182718-04defd469f4e 
 │                        │     ├ FixedVersion    : 0.0.0-20220906165146-f3363e06e74c 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4695,6 +4807,7 @@
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: v0.0.0-20210614182718-04defd469f4e 
 │                        │     ├ FixedVersion    : 0.7.0 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4752,6 +4865,7 @@
 │                        │     ├ PkgName         : golang.org/x/sys 
 │                        │     ├ InstalledVersion: v0.0.0-20210630005230-0f9fa26af87c 
 │                        │     ├ FixedVersion    : 0.0.0-20220412211240-33da011f77ad 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4820,6 +4934,7 @@
 │                        │     ├ PkgName         : golang.org/x/text 
 │                        │     ├ InstalledVersion: v0.3.6 
 │                        │     ├ FixedVersion    : 0.3.7 
+│                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                        │     │                  │         fd14dc9825a27049ab6aee5cb 
 │                        │     │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4868,6 +4983,7 @@
 │                              ├ PkgName         : golang.org/x/text 
 │                              ├ InstalledVersion: v0.3.6 
 │                              ├ FixedVersion    : 0.3.8 
+│                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                              │                  │         fd14dc9825a27049ab6aee5cb 
 │                              │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4920,6 +5036,7 @@
 │                              ├ PkgName         : github.com/moby/buildkit 
 │                              ├ InstalledVersion: v0.11.0-rc3.0.20230609092854-67a08623b95a 
 │                              ├ FixedVersion    : 0.11.4 
+│                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                              │                  │         fd14dc9825a27049ab6aee5cb 
 │                              │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
@@ -4984,6 +5101,7 @@
 │                              ├ PkgName         : github.com/docker/distribution 
 │                              ├ InstalledVersion: v2.8.1+incompatible 
 │                              ├ FixedVersion    : 2.8.2-beta.1 
+│                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394f
 │                              │                  │         fd14dc9825a27049ab6aee5cb 
 │                              │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6d
