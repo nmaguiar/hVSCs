@@ -150,10 +150,16 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
+    - https://access.redhat.com/errata/RHSA-2023:4354
     - https://access.redhat.com/security/cve/CVE-2023-28321
+    - https://bugzilla.redhat.com/2196786
+    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28321.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28321
+    - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
+    - https://linux.oracle.com/cve/CVE-2023-28321.html
+    - https://linux.oracle.com/errata/ELSA-2023-4354.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F4I75RDGX5ULSSCBE5BF3P5I5SFO7ULQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28321
@@ -194,10 +200,16 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
+    - https://access.redhat.com/errata/RHSA-2023:4354
     - https://access.redhat.com/security/cve/CVE-2023-28322
+    - https://bugzilla.redhat.com/2196786
+    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28322.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28322
+    - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1954658
+    - https://linux.oracle.com/cve/CVE-2023-28322.html
+    - https://linux.oracle.com/errata/ELSA-2023-4354.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F4I75RDGX5ULSSCBE5BF3P5I5SFO7ULQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28322
@@ -896,10 +908,16 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
+    - https://access.redhat.com/errata/RHSA-2023:4354
     - https://access.redhat.com/security/cve/CVE-2023-28321
+    - https://bugzilla.redhat.com/2196786
+    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28321.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28321
+    - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
+    - https://linux.oracle.com/cve/CVE-2023-28321.html
+    - https://linux.oracle.com/errata/ELSA-2023-4354.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F4I75RDGX5ULSSCBE5BF3P5I5SFO7ULQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28321
@@ -940,10 +958,16 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
+    - https://access.redhat.com/errata/RHSA-2023:4354
     - https://access.redhat.com/security/cve/CVE-2023-28322
+    - https://bugzilla.redhat.com/2196786
+    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28322.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28322
+    - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1954658
+    - https://linux.oracle.com/cve/CVE-2023-28322.html
+    - https://linux.oracle.com/errata/ELSA-2023-4354.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F4I75RDGX5ULSSCBE5BF3P5I5SFO7ULQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28322
@@ -986,10 +1010,16 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
+    - https://access.redhat.com/errata/RHSA-2023:4354
     - https://access.redhat.com/security/cve/CVE-2023-28321
+    - https://bugzilla.redhat.com/2196786
+    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28321.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28321
+    - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
+    - https://linux.oracle.com/cve/CVE-2023-28321.html
+    - https://linux.oracle.com/errata/ELSA-2023-4354.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F4I75RDGX5ULSSCBE5BF3P5I5SFO7ULQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28321
@@ -1030,10 +1060,16 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
+    - https://access.redhat.com/errata/RHSA-2023:4354
     - https://access.redhat.com/security/cve/CVE-2023-28322
+    - https://bugzilla.redhat.com/2196786
+    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28322.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28322
+    - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1954658
+    - https://linux.oracle.com/cve/CVE-2023-28322.html
+    - https://linux.oracle.com/errata/ELSA-2023-4354.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F4I75RDGX5ULSSCBE5BF3P5I5SFO7ULQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28322
@@ -1756,12 +1792,17 @@
     - http://packetstormsecurity.com/files/173661/OpenSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
     - http://www.openwall.com/lists/oss-security/2023/07/20/1
     - http://www.openwall.com/lists/oss-security/2023/07/20/2
+    - https://access.redhat.com/errata/RHSA-2023:4412
     - https://access.redhat.com/security/cve/CVE-2023-38408
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
+    - https://bugzilla.redhat.com/2224173
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
+    - https://errata.almalinux.org/9/ALSA-2023-4412.html
     - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
     - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
     - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
+    - https://linux.oracle.com/cve/CVE-2023-38408.html
+    - https://linux.oracle.com/errata/ELSA-2023-4419.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CEBTJJINE2I3FHAUKKNQWMFGYMLSMWKQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
     - https://news.ycombinator.com/item?id=36790196
@@ -1840,12 +1881,17 @@
     - http://packetstormsecurity.com/files/173661/OpenSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
     - http://www.openwall.com/lists/oss-security/2023/07/20/1
     - http://www.openwall.com/lists/oss-security/2023/07/20/2
+    - https://access.redhat.com/errata/RHSA-2023:4412
     - https://access.redhat.com/security/cve/CVE-2023-38408
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
+    - https://bugzilla.redhat.com/2224173
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
+    - https://errata.almalinux.org/9/ALSA-2023-4412.html
     - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
     - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
     - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
+    - https://linux.oracle.com/cve/CVE-2023-38408.html
+    - https://linux.oracle.com/errata/ELSA-2023-4419.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CEBTJJINE2I3FHAUKKNQWMFGYMLSMWKQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
     - https://news.ycombinator.com/item?id=36790196
@@ -1924,12 +1970,17 @@
     - http://packetstormsecurity.com/files/173661/OpenSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
     - http://www.openwall.com/lists/oss-security/2023/07/20/1
     - http://www.openwall.com/lists/oss-security/2023/07/20/2
+    - https://access.redhat.com/errata/RHSA-2023:4412
     - https://access.redhat.com/security/cve/CVE-2023-38408
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
+    - https://bugzilla.redhat.com/2224173
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
+    - https://errata.almalinux.org/9/ALSA-2023-4412.html
     - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
     - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
     - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
+    - https://linux.oracle.com/cve/CVE-2023-38408.html
+    - https://linux.oracle.com/errata/ELSA-2023-4419.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CEBTJJINE2I3FHAUKKNQWMFGYMLSMWKQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
     - https://news.ycombinator.com/item?id=36790196
