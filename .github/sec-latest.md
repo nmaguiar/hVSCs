@@ -174,26 +174,32 @@
 │                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
 │                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
 │                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4354 
+│                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -28321 
-│                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28321.html 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2196786 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2196793 
+│                        │      │                  ├ [7] : https://curl.se/docs/CVE-2023-28321.html 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-28321 
-│                        │      │                  ├ [6] : https://hackerone.com/reports/1950627 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
+│                        │      │                  ├ [10]: https://hackerone.com/reports/1950627 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28321.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4354.html 
+│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/F4I7
 │                        │      │                  │       5RDGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z2LI
 │                        │      │                  │       WHWKOVH24COGGBCVOWDXXIUPKOMK/ 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
+│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       609-0009/ 
-│                        │      │                  ├ [11]: https://support.apple.com/kb/HT213843 
-│                        │      │                  ├ [12]: https://support.apple.com/kb/HT213844 
-│                        │      │                  ├ [13]: https://support.apple.com/kb/HT213845 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6237-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
+│                        │      │                  ├ [17]: https://support.apple.com/kb/HT213843 
+│                        │      │                  ├ [18]: https://support.apple.com/kb/HT213844 
+│                        │      │                  ├ [19]: https://support.apple.com/kb/HT213845 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
 │                        │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2023-28322 
@@ -233,26 +239,32 @@
 │                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
 │                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
 │                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4354 
+│                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -28322 
-│                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28322.html 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2196786 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2196793 
+│                        │      │                  ├ [7] : https://curl.se/docs/CVE-2023-28322.html 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-28322 
-│                        │      │                  ├ [6] : https://hackerone.com/reports/1954658 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
+│                        │      │                  ├ [10]: https://hackerone.com/reports/1954658 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28322.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4354.html 
+│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/F4I7
 │                        │      │                  │       5RDGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z2LI
 │                        │      │                  │       WHWKOVH24COGGBCVOWDXXIUPKOMK/ 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
+│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       609-0009/ 
-│                        │      │                  ├ [11]: https://support.apple.com/kb/HT213843 
-│                        │      │                  ├ [12]: https://support.apple.com/kb/HT213844 
-│                        │      │                  ├ [13]: https://support.apple.com/kb/HT213845 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6237-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
+│                        │      │                  ├ [17]: https://support.apple.com/kb/HT213843 
+│                        │      │                  ├ [18]: https://support.apple.com/kb/HT213844 
+│                        │      │                  ├ [19]: https://support.apple.com/kb/HT213845 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
 │                        │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2023-34969 
@@ -1042,26 +1054,32 @@
 │                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
 │                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
 │                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4354 
+│                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -28321 
-│                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28321.html 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2196786 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2196793 
+│                        │      │                  ├ [7] : https://curl.se/docs/CVE-2023-28321.html 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-28321 
-│                        │      │                  ├ [6] : https://hackerone.com/reports/1950627 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
+│                        │      │                  ├ [10]: https://hackerone.com/reports/1950627 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28321.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4354.html 
+│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/F4I7
 │                        │      │                  │       5RDGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z2LI
 │                        │      │                  │       WHWKOVH24COGGBCVOWDXXIUPKOMK/ 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
+│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       609-0009/ 
-│                        │      │                  ├ [11]: https://support.apple.com/kb/HT213843 
-│                        │      │                  ├ [12]: https://support.apple.com/kb/HT213844 
-│                        │      │                  ├ [13]: https://support.apple.com/kb/HT213845 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6237-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
+│                        │      │                  ├ [17]: https://support.apple.com/kb/HT213843 
+│                        │      │                  ├ [18]: https://support.apple.com/kb/HT213844 
+│                        │      │                  ├ [19]: https://support.apple.com/kb/HT213845 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
 │                        │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
 │                        ├ [24] ╭ VulnerabilityID : CVE-2023-28322 
@@ -1101,26 +1119,32 @@
 │                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
 │                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
 │                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4354 
+│                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -28322 
-│                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28322.html 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2196786 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2196793 
+│                        │      │                  ├ [7] : https://curl.se/docs/CVE-2023-28322.html 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-28322 
-│                        │      │                  ├ [6] : https://hackerone.com/reports/1954658 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
+│                        │      │                  ├ [10]: https://hackerone.com/reports/1954658 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28322.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4354.html 
+│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/F4I7
 │                        │      │                  │       5RDGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z2LI
 │                        │      │                  │       WHWKOVH24COGGBCVOWDXXIUPKOMK/ 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
+│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       609-0009/ 
-│                        │      │                  ├ [11]: https://support.apple.com/kb/HT213843 
-│                        │      │                  ├ [12]: https://support.apple.com/kb/HT213844 
-│                        │      │                  ├ [13]: https://support.apple.com/kb/HT213845 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6237-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
+│                        │      │                  ├ [17]: https://support.apple.com/kb/HT213843 
+│                        │      │                  ├ [18]: https://support.apple.com/kb/HT213844 
+│                        │      │                  ├ [19]: https://support.apple.com/kb/HT213845 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
 │                        │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
 │                        ├ [25] ╭ VulnerabilityID : CVE-2023-28321 
@@ -1166,26 +1190,32 @@
 │                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
 │                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
 │                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4354 
+│                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -28321 
-│                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28321.html 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2196786 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2196793 
+│                        │      │                  ├ [7] : https://curl.se/docs/CVE-2023-28321.html 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-28321 
-│                        │      │                  ├ [6] : https://hackerone.com/reports/1950627 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
+│                        │      │                  ├ [10]: https://hackerone.com/reports/1950627 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28321.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4354.html 
+│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/F4I7
 │                        │      │                  │       5RDGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z2LI
 │                        │      │                  │       WHWKOVH24COGGBCVOWDXXIUPKOMK/ 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-28321 
+│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       609-0009/ 
-│                        │      │                  ├ [11]: https://support.apple.com/kb/HT213843 
-│                        │      │                  ├ [12]: https://support.apple.com/kb/HT213844 
-│                        │      │                  ├ [13]: https://support.apple.com/kb/HT213845 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6237-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
+│                        │      │                  ├ [17]: https://support.apple.com/kb/HT213843 
+│                        │      │                  ├ [18]: https://support.apple.com/kb/HT213844 
+│                        │      │                  ├ [19]: https://support.apple.com/kb/HT213845 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-28321 
 │                        │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
 │                        ├ [26] ╭ VulnerabilityID : CVE-2023-28322 
@@ -1225,26 +1255,32 @@
 │                        │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
 │                        │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
 │                        │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4354 
+│                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -28322 
-│                        │      │                  ├ [4] : https://curl.se/docs/CVE-2023-28322.html 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2196786 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2196793 
+│                        │      │                  ├ [7] : https://curl.se/docs/CVE-2023-28322.html 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-28322 
-│                        │      │                  ├ [6] : https://hackerone.com/reports/1954658 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
+│                        │      │                  ├ [10]: https://hackerone.com/reports/1954658 
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28322.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4354.html 
+│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/F4I7
 │                        │      │                  │       5RDGX5ULSSCBE5BF3P5I5SFO7ULQ/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z2LI
 │                        │      │                  │       WHWKOVH24COGGBCVOWDXXIUPKOMK/ 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-28322 
+│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       609-0009/ 
-│                        │      │                  ├ [11]: https://support.apple.com/kb/HT213843 
-│                        │      │                  ├ [12]: https://support.apple.com/kb/HT213844 
-│                        │      │                  ├ [13]: https://support.apple.com/kb/HT213845 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6237-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
+│                        │      │                  ├ [17]: https://support.apple.com/kb/HT213843 
+│                        │      │                  ├ [18]: https://support.apple.com/kb/HT213844 
+│                        │      │                  ├ [19]: https://support.apple.com/kb/HT213845 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6237-1 
+│                        │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-28322 
 │                        │      ├ PublishedDate   : 2023-05-26T21:15:00Z 
 │                        │      ╰ LastModifiedDate: 2023-07-25T16:15:00Z 
 │                        ├ [27] ╭ VulnerabilityID : CVE-2023-34969 
@@ -2074,34 +2110,39 @@
 │                        │      │                  │       /07/20/1 
 │                        │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023
 │                        │      │                  │       /07/20/2 
-│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4412 
+│                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -38408 
-│                        │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [5] : https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2023/07/19/cve-2023-38408-remote-code-execu
 │                        │      │                  │       tion-in-opensshs-forwarded-ssh-agent 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2224173 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-38408 
-│                        │      │                  ├ [6] : https://github.com/openbsd/src/commit/7bc29a9d5
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2023-4412.html 
+│                        │      │                  ├ [9] : https://github.com/openbsd/src/commit/7bc29a9d5
 │                        │      │                  │       cd697290aa056e94ecee6253d3425f8 
-│                        │      │                  ├ [7] : https://github.com/openbsd/src/commit/f03a4faa5
+│                        │      │                  ├ [10]: https://github.com/openbsd/src/commit/f03a4faa5
 │                        │      │                  │       5c4ce0818324701dadbf91988d7351d 
-│                        │      │                  ├ [8] : https://github.com/openbsd/src/commit/f8f5a6b00
+│                        │      │                  ├ [11]: https://github.com/openbsd/src/commit/f8f5a6b00
 │                        │      │                  │       3981bb824329dc987d101977beda7ca 
-│                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-38408.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2023-4419.html 
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/CEBT
 │                        │      │                  │       JJINE2I3FHAUKKNQWMFGYMLSMWKQ/ 
-│                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/RAXV
 │                        │      │                  │       QS6ZYTULFAK3TEJHRLKZALJS3AOU/ 
-│                        │      │                  ├ [11]: https://news.ycombinator.com/item?id=36790196 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
-│                        │      │                  ├ [13]: https://security.gentoo.org/glsa/202307-01 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6242-1 
-│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6242-2 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
-│                        │      │                  ├ [17]: https://www.openssh.com/security.html 
-│                        │      │                  ├ [18]: https://www.openssh.com/txt/release-9.3p2 
-│                        │      │                  ╰ [19]: https://www.qualys.com/2023/07/19/cve-2023-3840
+│                        │      │                  ├ [16]: https://news.ycombinator.com/item?id=36790196 
+│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
+│                        │      │                  ├ [18]: https://security.gentoo.org/glsa/202307-01 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6242-1 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6242-2 
+│                        │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
+│                        │      │                  ├ [22]: https://www.openssh.com/security.html 
+│                        │      │                  ├ [23]: https://www.openssh.com/txt/release-9.3p2 
+│                        │      │                  ╰ [24]: https://www.qualys.com/2023/07/19/cve-2023-3840
 │                        │      │                          8/rce-openssh-forwarded-ssh-agent.txt 
 │                        │      ├ PublishedDate   : 2023-07-20T03:15:00Z 
 │                        │      ╰ LastModifiedDate: 2023-07-31T17:07:00Z 
@@ -2181,34 +2222,39 @@
 │                        │      │                  │       /07/20/1 
 │                        │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023
 │                        │      │                  │       /07/20/2 
-│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4412 
+│                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -38408 
-│                        │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [5] : https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2023/07/19/cve-2023-38408-remote-code-execu
 │                        │      │                  │       tion-in-opensshs-forwarded-ssh-agent 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2224173 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-38408 
-│                        │      │                  ├ [6] : https://github.com/openbsd/src/commit/7bc29a9d5
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2023-4412.html 
+│                        │      │                  ├ [9] : https://github.com/openbsd/src/commit/7bc29a9d5
 │                        │      │                  │       cd697290aa056e94ecee6253d3425f8 
-│                        │      │                  ├ [7] : https://github.com/openbsd/src/commit/f03a4faa5
+│                        │      │                  ├ [10]: https://github.com/openbsd/src/commit/f03a4faa5
 │                        │      │                  │       5c4ce0818324701dadbf91988d7351d 
-│                        │      │                  ├ [8] : https://github.com/openbsd/src/commit/f8f5a6b00
+│                        │      │                  ├ [11]: https://github.com/openbsd/src/commit/f8f5a6b00
 │                        │      │                  │       3981bb824329dc987d101977beda7ca 
-│                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-38408.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2023-4419.html 
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/CEBT
 │                        │      │                  │       JJINE2I3FHAUKKNQWMFGYMLSMWKQ/ 
-│                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/RAXV
 │                        │      │                  │       QS6ZYTULFAK3TEJHRLKZALJS3AOU/ 
-│                        │      │                  ├ [11]: https://news.ycombinator.com/item?id=36790196 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
-│                        │      │                  ├ [13]: https://security.gentoo.org/glsa/202307-01 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6242-1 
-│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6242-2 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
-│                        │      │                  ├ [17]: https://www.openssh.com/security.html 
-│                        │      │                  ├ [18]: https://www.openssh.com/txt/release-9.3p2 
-│                        │      │                  ╰ [19]: https://www.qualys.com/2023/07/19/cve-2023-3840
+│                        │      │                  ├ [16]: https://news.ycombinator.com/item?id=36790196 
+│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
+│                        │      │                  ├ [18]: https://security.gentoo.org/glsa/202307-01 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6242-1 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6242-2 
+│                        │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
+│                        │      │                  ├ [22]: https://www.openssh.com/security.html 
+│                        │      │                  ├ [23]: https://www.openssh.com/txt/release-9.3p2 
+│                        │      │                  ╰ [24]: https://www.qualys.com/2023/07/19/cve-2023-3840
 │                        │      │                          8/rce-openssh-forwarded-ssh-agent.txt 
 │                        │      ├ PublishedDate   : 2023-07-20T03:15:00Z 
 │                        │      ╰ LastModifiedDate: 2023-07-31T17:07:00Z 
@@ -2288,34 +2334,39 @@
 │                        │      │                  │       /07/20/1 
 │                        │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023
 │                        │      │                  │       /07/20/2 
-│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4412 
+│                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -38408 
-│                        │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [5] : https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2023/07/19/cve-2023-38408-remote-code-execu
 │                        │      │                  │       tion-in-opensshs-forwarded-ssh-agent 
-│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2224173 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-38408 
-│                        │      │                  ├ [6] : https://github.com/openbsd/src/commit/7bc29a9d5
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2023-4412.html 
+│                        │      │                  ├ [9] : https://github.com/openbsd/src/commit/7bc29a9d5
 │                        │      │                  │       cd697290aa056e94ecee6253d3425f8 
-│                        │      │                  ├ [7] : https://github.com/openbsd/src/commit/f03a4faa5
+│                        │      │                  ├ [10]: https://github.com/openbsd/src/commit/f03a4faa5
 │                        │      │                  │       5c4ce0818324701dadbf91988d7351d 
-│                        │      │                  ├ [8] : https://github.com/openbsd/src/commit/f8f5a6b00
+│                        │      │                  ├ [11]: https://github.com/openbsd/src/commit/f8f5a6b00
 │                        │      │                  │       3981bb824329dc987d101977beda7ca 
-│                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-38408.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2023-4419.html 
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/CEBT
 │                        │      │                  │       JJINE2I3FHAUKKNQWMFGYMLSMWKQ/ 
-│                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/RAXV
 │                        │      │                  │       QS6ZYTULFAK3TEJHRLKZALJS3AOU/ 
-│                        │      │                  ├ [11]: https://news.ycombinator.com/item?id=36790196 
-│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
-│                        │      │                  ├ [13]: https://security.gentoo.org/glsa/202307-01 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6242-1 
-│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6242-2 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
-│                        │      │                  ├ [17]: https://www.openssh.com/security.html 
-│                        │      │                  ├ [18]: https://www.openssh.com/txt/release-9.3p2 
-│                        │      │                  ╰ [19]: https://www.qualys.com/2023/07/19/cve-2023-3840
+│                        │      │                  ├ [16]: https://news.ycombinator.com/item?id=36790196 
+│                        │      │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
+│                        │      │                  ├ [18]: https://security.gentoo.org/glsa/202307-01 
+│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6242-1 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6242-2 
+│                        │      │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
+│                        │      │                  ├ [22]: https://www.openssh.com/security.html 
+│                        │      │                  ├ [23]: https://www.openssh.com/txt/release-9.3p2 
+│                        │      │                  ╰ [24]: https://www.qualys.com/2023/07/19/cve-2023-3840
 │                        │      │                          8/rce-openssh-forwarded-ssh-agent.txt 
 │                        │      ├ PublishedDate   : 2023-07-20T03:15:00Z 
 │                        │      ╰ LastModifiedDate: 2023-07-31T17:07:00Z 
