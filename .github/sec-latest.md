@@ -2186,15 +2186,17 @@
 │                        │       │                  ├ [16]: https://news.ycombinator.com/item?id=36790196 
 │                        │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
 │                        │       │                  ├ [18]: https://security.gentoo.org/glsa/202307-01 
-│                        │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-6242-1 
-│                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6242-2 
-│                        │       │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
-│                        │       │                  ├ [22]: https://www.openssh.com/security.html 
-│                        │       │                  ├ [23]: https://www.openssh.com/txt/release-9.3p2 
-│                        │       │                  ╰ [24]: https://www.qualys.com/2023/07/19/cve-2023-384
+│                        │       │                  ├ [19]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  │       0803-0010/ 
+│                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6242-1 
+│                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6242-2 
+│                        │       │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
+│                        │       │                  ├ [23]: https://www.openssh.com/security.html 
+│                        │       │                  ├ [24]: https://www.openssh.com/txt/release-9.3p2 
+│                        │       │                  ╰ [25]: https://www.qualys.com/2023/07/19/cve-2023-384
 │                        │       │                          08/rce-openssh-forwarded-ssh-agent.txt 
 │                        │       ├ PublishedDate   : 2023-07-20T03:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-07-31T17:07:00Z 
+│                        │       ╰ LastModifiedDate: 2023-08-03T15:15:00Z 
 │                        ├ [46]  ╭ VulnerabilityID : CVE-2023-28531 
 │                        │       ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.1 
 │                        │       ├ PkgName         : openssh-client 
@@ -2300,15 +2302,17 @@
 │                        │       │                  ├ [16]: https://news.ycombinator.com/item?id=36790196 
 │                        │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
 │                        │       │                  ├ [18]: https://security.gentoo.org/glsa/202307-01 
-│                        │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-6242-1 
-│                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6242-2 
-│                        │       │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
-│                        │       │                  ├ [22]: https://www.openssh.com/security.html 
-│                        │       │                  ├ [23]: https://www.openssh.com/txt/release-9.3p2 
-│                        │       │                  ╰ [24]: https://www.qualys.com/2023/07/19/cve-2023-384
+│                        │       │                  ├ [19]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  │       0803-0010/ 
+│                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6242-1 
+│                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6242-2 
+│                        │       │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
+│                        │       │                  ├ [23]: https://www.openssh.com/security.html 
+│                        │       │                  ├ [24]: https://www.openssh.com/txt/release-9.3p2 
+│                        │       │                  ╰ [25]: https://www.qualys.com/2023/07/19/cve-2023-384
 │                        │       │                          08/rce-openssh-forwarded-ssh-agent.txt 
 │                        │       ├ PublishedDate   : 2023-07-20T03:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-07-31T17:07:00Z 
+│                        │       ╰ LastModifiedDate: 2023-08-03T15:15:00Z 
 │                        ├ [48]  ╭ VulnerabilityID : CVE-2023-28531 
 │                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.1 
 │                        │       ├ PkgName         : openssh-server 
@@ -2414,15 +2418,17 @@
 │                        │       │                  ├ [16]: https://news.ycombinator.com/item?id=36790196 
 │                        │       │                  ├ [17]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
 │                        │       │                  ├ [18]: https://security.gentoo.org/glsa/202307-01 
-│                        │       │                  ├ [19]: https://ubuntu.com/security/notices/USN-6242-1 
-│                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6242-2 
-│                        │       │                  ├ [21]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
-│                        │       │                  ├ [22]: https://www.openssh.com/security.html 
-│                        │       │                  ├ [23]: https://www.openssh.com/txt/release-9.3p2 
-│                        │       │                  ╰ [24]: https://www.qualys.com/2023/07/19/cve-2023-384
+│                        │       │                  ├ [19]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  │       0803-0010/ 
+│                        │       │                  ├ [20]: https://ubuntu.com/security/notices/USN-6242-1 
+│                        │       │                  ├ [21]: https://ubuntu.com/security/notices/USN-6242-2 
+│                        │       │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
+│                        │       │                  ├ [23]: https://www.openssh.com/security.html 
+│                        │       │                  ├ [24]: https://www.openssh.com/txt/release-9.3p2 
+│                        │       │                  ╰ [25]: https://www.qualys.com/2023/07/19/cve-2023-384
 │                        │       │                          08/rce-openssh-forwarded-ssh-agent.txt 
 │                        │       ├ PublishedDate   : 2023-07-20T03:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-07-31T17:07:00Z 
+│                        │       ╰ LastModifiedDate: 2023-08-03T15:15:00Z 
 │                        ├ [50]  ╭ VulnerabilityID : CVE-2023-28531 
 │                        │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.1 
 │                        │       ├ PkgName         : openssh-sftp-server 
