@@ -159,7 +159,7 @@
     - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
-    - https://linux.oracle.com/errata/ELSA-2023-4354.html
+    - https://linux.oracle.com/errata/ELSA-2023-4523.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F4I75RDGX5ULSSCBE5BF3P5I5SFO7ULQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28321
@@ -248,9 +248,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
+    - https://bugzilla.redhat.com/2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
+    - https://linux.oracle.com/cve/CVE-2023-34969.html
+    - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
@@ -283,9 +288,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
+    - https://bugzilla.redhat.com/2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
+    - https://linux.oracle.com/cve/CVE-2023-34969.html
+    - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
@@ -917,7 +927,7 @@
     - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
-    - https://linux.oracle.com/errata/ELSA-2023-4354.html
+    - https://linux.oracle.com/errata/ELSA-2023-4523.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F4I75RDGX5ULSSCBE5BF3P5I5SFO7ULQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28321
@@ -1019,7 +1029,7 @@
     - https://errata.almalinux.org/9/ALSA-2023-4354.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
-    - https://linux.oracle.com/errata/ELSA-2023-4354.html
+    - https://linux.oracle.com/errata/ELSA-2023-4523.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/F4I75RDGX5ULSSCBE5BF3P5I5SFO7ULQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z2LIWHWKOVH24COGGBCVOWDXXIUPKOMK/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28321
@@ -1108,9 +1118,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
+    - https://bugzilla.redhat.com/2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
+    - https://linux.oracle.com/cve/CVE-2023-34969.html
+    - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
@@ -1149,6 +1164,106 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2021-40812
     PublishedDate: '2021-09-08T21:15:00Z'
     LastModifiedDate: '2021-09-15T15:07:00Z'
+  - VulnerabilityID: CVE-2023-36054
+    PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.2
+    PkgName: libgssapi-krb5-2
+    InstalledVersion: 1.19.2-2ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
+      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36054
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
+    Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
+    - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
+    - https://github.com/krb5/krb5/compare/krb5-1.20.1-final...krb5-1.20.2-final
+    - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
+    - https://web.mit.edu/kerberos/www/advisories/
+    PublishedDate: '2023-08-07T19:15:00Z'
+    LastModifiedDate: '2023-08-07T19:30:00Z'
+  - VulnerabilityID: CVE-2023-36054
+    PkgID: libk5crypto3@1.19.2-2ubuntu0.2
+    PkgName: libk5crypto3
+    InstalledVersion: 1.19.2-2ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
+      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36054
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
+    Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
+    - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
+    - https://github.com/krb5/krb5/compare/krb5-1.20.1-final...krb5-1.20.2-final
+    - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
+    - https://web.mit.edu/kerberos/www/advisories/
+    PublishedDate: '2023-08-07T19:15:00Z'
+    LastModifiedDate: '2023-08-07T19:30:00Z'
+  - VulnerabilityID: CVE-2023-36054
+    PkgID: libkrb5-3@1.19.2-2ubuntu0.2
+    PkgName: libkrb5-3
+    InstalledVersion: 1.19.2-2ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
+      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36054
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
+    Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
+    - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
+    - https://github.com/krb5/krb5/compare/krb5-1.20.1-final...krb5-1.20.2-final
+    - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
+    - https://web.mit.edu/kerberos/www/advisories/
+    PublishedDate: '2023-08-07T19:15:00Z'
+    LastModifiedDate: '2023-08-07T19:30:00Z'
+  - VulnerabilityID: CVE-2023-36054
+    PkgID: libkrb5support0@1.19.2-2ubuntu0.2
+    PkgName: libkrb5support0
+    InstalledVersion: 1.19.2-2ubuntu0.2
+    Status: affected
+    Layer:
+      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
+      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36054
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
+    Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
+    - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
+    - https://github.com/krb5/krb5/compare/krb5-1.20.1-final...krb5-1.20.2-final
+    - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
+    - https://web.mit.edu/kerberos/www/advisories/
+    PublishedDate: '2023-08-07T19:15:00Z'
+    LastModifiedDate: '2023-08-07T19:30:00Z'
   - VulnerabilityID: CVE-2023-2953
     PkgID: libldap-2.5-0@2.5.14+dfsg-0ubuntu0.22.04.2
     PkgName: libldap-2.5-0
@@ -1280,13 +1395,26 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: ps buffer overflow
     Description: Under some circumstances, this weakness allows a user who has access to run the “ps” utility on a machine, the ability to write almost unlimited amounts of unfiltered data into the process heap.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2023-4016
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4016
     - https://gitlab.com/procps-ng/procps
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4016
+    - https://www.cve.org/CVERecord?id=CVE-2023-4016
     PublishedDate: '2023-08-02T05:15:00Z'
-    LastModifiedDate: '2023-08-02T13:30:00Z'
+    LastModifiedDate: '2023-08-07T19:21:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10@3.10.6-1~22.04.2ubuntu1.1
     PkgName: libpython3.10
@@ -1690,8 +1818,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 6.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-3618
     - https://bugzilla.redhat.com/show_bug.cgi?id=2215865
@@ -1701,7 +1829,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3618
     - https://www.cve.org/CVERecord?id=CVE-2023-3618
     PublishedDate: '2023-07-12T15:15:00Z'
-    LastModifiedDate: '2023-08-01T02:15:00Z'
+    LastModifiedDate: '2023-08-08T17:15:00Z'
   - VulnerabilityID: CVE-2018-10126
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
@@ -1966,13 +2094,15 @@
     - https://access.redhat.com/security/cve/CVE-2023-38408
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
     - https://bugzilla.redhat.com/2224173
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2224173
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
     - https://errata.almalinux.org/9/ALSA-2023-4412.html
+    - https://errata.rockylinux.org/RLSA-2023:4419
     - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
     - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
     - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
     - https://linux.oracle.com/cve/CVE-2023-38408.html
-    - https://linux.oracle.com/errata/ELSA-2023-4419.html
+    - https://linux.oracle.com/errata/ELSA-2023-4428.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CEBTJJINE2I3FHAUKKNQWMFGYMLSMWKQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
     - https://news.ycombinator.com/item?id=36790196
@@ -2056,13 +2186,15 @@
     - https://access.redhat.com/security/cve/CVE-2023-38408
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
     - https://bugzilla.redhat.com/2224173
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2224173
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
     - https://errata.almalinux.org/9/ALSA-2023-4412.html
+    - https://errata.rockylinux.org/RLSA-2023:4419
     - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
     - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
     - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
     - https://linux.oracle.com/cve/CVE-2023-38408.html
-    - https://linux.oracle.com/errata/ELSA-2023-4419.html
+    - https://linux.oracle.com/errata/ELSA-2023-4428.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CEBTJJINE2I3FHAUKKNQWMFGYMLSMWKQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
     - https://news.ycombinator.com/item?id=36790196
@@ -2146,13 +2278,15 @@
     - https://access.redhat.com/security/cve/CVE-2023-38408
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
     - https://bugzilla.redhat.com/2224173
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2224173
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
     - https://errata.almalinux.org/9/ALSA-2023-4412.html
+    - https://errata.rockylinux.org/RLSA-2023:4419
     - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
     - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
     - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
     - https://linux.oracle.com/cve/CVE-2023-38408.html
-    - https://linux.oracle.com/errata/ELSA-2023-4419.html
+    - https://linux.oracle.com/errata/ELSA-2023-4428.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CEBTJJINE2I3FHAUKKNQWMFGYMLSMWKQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
     - https://news.ycombinator.com/item?id=36790196
@@ -2311,13 +2445,26 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: ps buffer overflow
     Description: Under some circumstances, this weakness allows a user who has access to run the “ps” utility on a machine, the ability to write almost unlimited amounts of unfiltered data into the process heap.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 2.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2023-4016
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4016
     - https://gitlab.com/procps-ng/procps
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4016
+    - https://www.cve.org/CVERecord?id=CVE-2023-4016
     PublishedDate: '2023-08-02T05:15:00Z'
-    LastModifiedDate: '2023-08-02T13:30:00Z'
+    LastModifiedDate: '2023-08-07T19:21:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10@3.10.6-1~22.04.2ubuntu1.1
     PkgName: python3.10
@@ -5194,8 +5341,6 @@
     Title: avoid quadratic complexity in HPACK decoding
     Description: A maliciously crafted HTTP/2 stream could cause excessive CPU consumption in the HPACK decoder, sufficient to cause a denial of service from a small number of small requests.
     Severity: HIGH
-    CweIDs:
-    - CWE-400
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -5223,7 +5368,7 @@
     - https://vuln.go.dev/ID/GO-2023-1571.json
     - https://www.cve.org/CVERecord?id=CVE-2022-41723
     PublishedDate: '2023-02-28T18:15:00Z'
-    LastModifiedDate: '2023-05-16T10:50:00Z'
+    LastModifiedDate: '2023-08-08T14:22:00Z'
   - VulnerabilityID: CVE-2022-29526
     PkgName: golang.org/x/sys
     InstalledVersion: v0.0.0-20210630005230-0f9fa26af87c
@@ -5432,8 +5577,6 @@
     Title: crash in a golang.org/x/crypto/ssh server
     Description: The golang.org/x/crypto/ssh package before 0.0.0-20220314234659-1baeb1ce4c0b for Go allows an attacker to crash a server in certain circumstances involving AddHostKey.
     Severity: HIGH
-    CweIDs:
-    - CWE-327
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -5482,7 +5625,7 @@
     - https://security.netapp.com/advisory/ntap-20220429-0002/
     - https://www.cve.org/CVERecord?id=CVE-2022-27191
     PublishedDate: '2022-03-18T07:15:00Z'
-    LastModifiedDate: '2022-10-26T17:52:00Z'
+    LastModifiedDate: '2023-08-08T14:22:00Z'
   - VulnerabilityID: CVE-2021-33194
     PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
     PkgName: golang.org/x/net
@@ -5630,8 +5773,6 @@
     Title: avoid quadratic complexity in HPACK decoding
     Description: A maliciously crafted HTTP/2 stream could cause excessive CPU consumption in the HPACK decoder, sufficient to cause a denial of service from a small number of small requests.
     Severity: HIGH
-    CweIDs:
-    - CWE-400
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -5659,7 +5800,7 @@
     - https://vuln.go.dev/ID/GO-2023-1571.json
     - https://www.cve.org/CVERecord?id=CVE-2022-41723
     PublishedDate: '2023-02-28T18:15:00Z'
-    LastModifiedDate: '2023-05-16T10:50:00Z'
+    LastModifiedDate: '2023-08-08T14:22:00Z'
   - VulnerabilityID: CVE-2021-31525
     PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
     PkgName: golang.org/x/net
@@ -5960,8 +6101,6 @@
     Title: avoid quadratic complexity in HPACK decoding
     Description: A maliciously crafted HTTP/2 stream could cause excessive CPU consumption in the HPACK decoder, sufficient to cause a denial of service from a small number of small requests.
     Severity: HIGH
-    CweIDs:
-    - CWE-400
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -5989,7 +6128,7 @@
     - https://vuln.go.dev/ID/GO-2023-1571.json
     - https://www.cve.org/CVERecord?id=CVE-2022-41723
     PublishedDate: '2023-02-28T18:15:00Z'
-    LastModifiedDate: '2023-05-16T10:50:00Z'
+    LastModifiedDate: '2023-08-08T14:22:00Z'
   - VulnerabilityID: CVE-2022-29526
     PkgName: golang.org/x/sys
     InstalledVersion: v0.0.0-20210630005230-0f9fa26af87c
