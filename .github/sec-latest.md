@@ -2180,11 +2180,13 @@
 │                        │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2215865 
 │                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │       │                  │      CVE-2023-3618 
-│                        │       │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/issues/529 
-│                        │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/20
+│                        │       │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/commit/8a4
+│                        │       │                  │      f6b587be4fa7bb39fe17f5f9dec52182ab26e 
+│                        │       │                  ├ [4]: https://gitlab.com/libtiff/libtiff/-/issues/529 
+│                        │       │                  ├ [5]: https://lists.debian.org/debian-lts-announce/20
 │                        │       │                  │      23/07/msg00034.html 
-│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-3618 
-│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-3618 
+│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-3618 
+│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-3618 
 │                        │       ├ PublishedDate   : 2023-07-12T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-08-08T17:15:00Z 
 │                        ├ [47]  ╭ VulnerabilityID : CVE-2018-10126 
