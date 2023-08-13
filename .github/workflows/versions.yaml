@@ -75,4 +75,4 @@ jobs:
       with:
         ojob: ojob.io/git/hub/contentIn
         ## Change the following arguments as needed (see https://ojob.io/git/hub/contentIn.md)
-        args: 'message="Automated check in" paths=".github/"'
+        args: 'message="Automated\ check\ in\ {{date}}/{{time}}" title="Badge\ update" paths=".github/"'
