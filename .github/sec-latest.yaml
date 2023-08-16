@@ -150,13 +150,13 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
-    - https://access.redhat.com/errata/RHSA-2023:4354
+    - https://access.redhat.com/errata/RHSA-2023:4523
     - https://access.redhat.com/security/cve/CVE-2023-28321
+    - https://bugzilla.redhat.com/2179092
     - https://bugzilla.redhat.com/2196786
-    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28321.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28321
-    - https://errata.almalinux.org/9/ALSA-2023-4354.html
+    - https://errata.almalinux.org/8/ALSA-2023-4523.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
     - https://linux.oracle.com/errata/ELSA-2023-4523.html
@@ -248,11 +248,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -288,11 +288,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -918,13 +918,13 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
-    - https://access.redhat.com/errata/RHSA-2023:4354
+    - https://access.redhat.com/errata/RHSA-2023:4523
     - https://access.redhat.com/security/cve/CVE-2023-28321
+    - https://bugzilla.redhat.com/2179092
     - https://bugzilla.redhat.com/2196786
-    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28321.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28321
-    - https://errata.almalinux.org/9/ALSA-2023-4354.html
+    - https://errata.almalinux.org/8/ALSA-2023-4523.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
     - https://linux.oracle.com/errata/ELSA-2023-4523.html
@@ -1020,13 +1020,13 @@
     - http://seclists.org/fulldisclosure/2023/Jul/47
     - http://seclists.org/fulldisclosure/2023/Jul/48
     - http://seclists.org/fulldisclosure/2023/Jul/52
-    - https://access.redhat.com/errata/RHSA-2023:4354
+    - https://access.redhat.com/errata/RHSA-2023:4523
     - https://access.redhat.com/security/cve/CVE-2023-28321
+    - https://bugzilla.redhat.com/2179092
     - https://bugzilla.redhat.com/2196786
-    - https://bugzilla.redhat.com/2196793
     - https://curl.se/docs/CVE-2023-28321.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28321
-    - https://errata.almalinux.org/9/ALSA-2023-4354.html
+    - https://errata.almalinux.org/8/ALSA-2023-4523.html
     - https://hackerone.com/reports/1950627
     - https://linux.oracle.com/cve/CVE-2023-28321.html
     - https://linux.oracle.com/errata/ELSA-2023-4523.html
@@ -1118,11 +1118,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1630,7 +1630,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1653,21 +1654,11 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:3711
+    - https://access.redhat.com/errata/RHSA-2023:3827
     - https://access.redhat.com/security/cve/CVE-2022-48281
     - https://bugzilla.redhat.com/2163606
-    - https://bugzilla.redhat.com/2170119
-    - https://bugzilla.redhat.com/2170146
-    - https://bugzilla.redhat.com/2170151
-    - https://bugzilla.redhat.com/2170157
-    - https://bugzilla.redhat.com/2170162
-    - https://bugzilla.redhat.com/2170167
-    - https://bugzilla.redhat.com/2170172
-    - https://bugzilla.redhat.com/2170178
-    - https://bugzilla.redhat.com/2170187
-    - https://bugzilla.redhat.com/2170192
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48281
-    - https://errata.almalinux.org/9/ALSA-2023-3711.html
+    - https://errata.almalinux.org/8/ALSA-2023-3827.html
     - https://gitlab.com/libtiff/libtiff/-/commit/d1b6b9c1b3cae2d9e37754506c1ad8f4f7b646b5
     - https://gitlab.com/libtiff/libtiff/-/issues/488
     - https://linux.oracle.com/cve/CVE-2022-48281.html
@@ -1677,6 +1668,7 @@
     - https://security.gentoo.org/glsa/202305-31
     - https://security.netapp.com/advisory/ntap-20230302-0004/
     - https://ubuntu.com/security/notices/USN-5841-1
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2022-48281
     - https://www.debian.org/security/2023/dsa-5333
     PublishedDate: '2023-01-23T03:15:00Z'
@@ -1685,7 +1677,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1715,6 +1708,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/07/msg00034.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-25433
     - https://ubuntu.com/security/notices/USN-6229-1
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-25433
     PublishedDate: '2023-06-29T20:15:00Z'
     LastModifiedDate: '2023-08-01T02:15:00Z'
@@ -1722,7 +1716,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1753,6 +1748,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/07/msg00034.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26966
     - https://ubuntu.com/security/notices/USN-6229-1
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-26966
     PublishedDate: '2023-06-29T20:15:00Z'
     LastModifiedDate: '2023-08-01T02:15:00Z'
@@ -1760,7 +1756,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1791,6 +1788,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/07/msg00034.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2908
     - https://security.netapp.com/advisory/ntap-20230731-0004/
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2908
     PublishedDate: '2023-06-30T22:15:00Z'
     LastModifiedDate: '2023-08-02T15:41:00Z'
@@ -1798,7 +1796,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1828,9 +1827,70 @@
     - https://gitlab.com/libtiff/libtiff/-/issues/529
     - https://lists.debian.org/debian-lts-announce/2023/07/msg00034.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3618
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3618
     PublishedDate: '2023-07-12T15:15:00Z'
     LastModifiedDate: '2023-08-08T17:15:00Z'
+  - VulnerabilityID: CVE-2023-38288
+    PkgID: libtiff5@4.3.0-6ubuntu0.4
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.4
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
+      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38288
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: potential integer overflow in raw2tiff.c
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38288
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38288
+    - https://gitlab.com/libtiff/libtiff/-/commit/4fc16f649fa2875d5c388cf2edc295510a247ee5
+    - https://gitlab.com/libtiff/libtiff/-/issues/591
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38288
+    - https://ubuntu.com/security/notices/USN-6290-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38288
+  - VulnerabilityID: CVE-2023-38289
+    PkgID: libtiff5@4.3.0-6ubuntu0.4
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.4
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
+      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38289
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: integer overflow in tiffcp.c
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38289
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38289
+    - https://gitlab.com/libtiff/libtiff/-/commit/6e2dac5f904496d127c92ddc4e56eccfca25c2ee
+    - https://gitlab.com/libtiff/libtiff/-/issues/592
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38289
+    - https://ubuntu.com/security/notices/USN-6290-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38289
   - VulnerabilityID: CVE-2018-10126
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
@@ -1908,7 +1968,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1938,6 +1999,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26965
     - https://security.netapp.com/advisory/ntap-20230706-0009/
     - https://ubuntu.com/security/notices/USN-6229-1
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-26965
     PublishedDate: '2023-06-14T21:15:00Z'
     LastModifiedDate: '2023-08-01T02:15:00Z'
@@ -1945,7 +2007,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1978,6 +2041,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3316
     - https://research.jfrog.com/vulnerabilities/libtiff-nullderef-dos-xray-522144/
     - https://ubuntu.com/security/notices/USN-6229-1
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3316
     PublishedDate: '2023-06-19T12:15:00Z'
     LastModifiedDate: '2023-08-01T02:15:00Z'
@@ -2091,13 +2155,13 @@
     - http://packetstormsecurity.com/files/173661/OpenSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
     - http://www.openwall.com/lists/oss-security/2023/07/20/1
     - http://www.openwall.com/lists/oss-security/2023/07/20/2
-    - https://access.redhat.com/errata/RHSA-2023:4412
+    - https://access.redhat.com/errata/RHSA-2023:4419
     - https://access.redhat.com/security/cve/CVE-2023-38408
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
     - https://bugzilla.redhat.com/2224173
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224173
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
-    - https://errata.almalinux.org/9/ALSA-2023-4412.html
+    - https://errata.almalinux.org/8/ALSA-2023-4419.html
     - https://errata.rockylinux.org/RLSA-2023:4419
     - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
     - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
@@ -2183,13 +2247,13 @@
     - http://packetstormsecurity.com/files/173661/OpenSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
     - http://www.openwall.com/lists/oss-security/2023/07/20/1
     - http://www.openwall.com/lists/oss-security/2023/07/20/2
-    - https://access.redhat.com/errata/RHSA-2023:4412
+    - https://access.redhat.com/errata/RHSA-2023:4419
     - https://access.redhat.com/security/cve/CVE-2023-38408
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
     - https://bugzilla.redhat.com/2224173
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224173
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
-    - https://errata.almalinux.org/9/ALSA-2023-4412.html
+    - https://errata.almalinux.org/8/ALSA-2023-4419.html
     - https://errata.rockylinux.org/RLSA-2023:4419
     - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
     - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
@@ -2275,13 +2339,13 @@
     - http://packetstormsecurity.com/files/173661/OpenSSH-Forwarded-SSH-Agent-Remote-Code-Execution.html
     - http://www.openwall.com/lists/oss-security/2023/07/20/1
     - http://www.openwall.com/lists/oss-security/2023/07/20/2
-    - https://access.redhat.com/errata/RHSA-2023:4412
+    - https://access.redhat.com/errata/RHSA-2023:4419
     - https://access.redhat.com/security/cve/CVE-2023-38408
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/07/19/cve-2023-38408-remote-code-execution-in-opensshs-forwarded-ssh-agent
     - https://bugzilla.redhat.com/2224173
     - https://bugzilla.redhat.com/show_bug.cgi?id=2224173
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38408
-    - https://errata.almalinux.org/9/ALSA-2023-4412.html
+    - https://errata.almalinux.org/8/ALSA-2023-4419.html
     - https://errata.rockylinux.org/RLSA-2023:4419
     - https://github.com/openbsd/src/commit/7bc29a9d5cd697290aa056e94ecee6253d3425f8
     - https://github.com/openbsd/src/commit/f03a4faa55c4ce0818324701dadbf91988d7351d
@@ -5272,18 +5336,22 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2357
+    - https://access.redhat.com/errata/RHSA-2023:2802
     - https://access.redhat.com/security/cve/CVE-2022-27664
+    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
+    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
+    - https://bugzilla.redhat.com/2107390
+    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
+    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
-    - https://bugzilla.redhat.com/2132868
-    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
+    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -5302,7 +5370,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/9/ALSA-2023-2357.html
+    - https://errata.almalinux.org/8/ALSA-2023-2802.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -5591,16 +5659,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2022:8008
+    - https://access.redhat.com/errata/RHSA-2022:7469
     - https://access.redhat.com/security/cve/CVE-2022-27191
-    - https://bugzilla.redhat.com/1939485
-    - https://bugzilla.redhat.com/1989564
-    - https://bugzilla.redhat.com/1989570
-    - https://bugzilla.redhat.com/1989575
     - https://bugzilla.redhat.com/2064702
-    - https://bugzilla.redhat.com/2121445
-    - https://bugzilla.redhat.com/2121453
-    - https://errata.almalinux.org/9/ALSA-2022-8008.html
+    - https://bugzilla.redhat.com/2085361
+    - https://bugzilla.redhat.com/2086398
+    - https://errata.almalinux.org/8/ALSA-2022-7469.html
     - https://github.com/advisories/GHSA-8c26-wmh5-6g9v
     - https://go.dev/cl/392355
     - https://go.googlesource.com/crypto/+/1baeb1ce4c0b006eff0f294c47cb7617598dfb3d
@@ -5703,18 +5767,22 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2357
+    - https://access.redhat.com/errata/RHSA-2023:2802
     - https://access.redhat.com/security/cve/CVE-2022-27664
+    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
+    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
+    - https://bugzilla.redhat.com/2107390
+    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
+    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
-    - https://bugzilla.redhat.com/2132868
-    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
+    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -5733,7 +5801,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/9/ALSA-2023-2357.html
+    - https://errata.almalinux.org/8/ALSA-2023-2802.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -6032,18 +6100,22 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2357
+    - https://access.redhat.com/errata/RHSA-2023:2802
     - https://access.redhat.com/security/cve/CVE-2022-27664
+    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
+    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
+    - https://bugzilla.redhat.com/2107390
+    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
+    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
-    - https://bugzilla.redhat.com/2132868
-    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
+    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -6062,7 +6134,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/9/ALSA-2023-2357.html
+    - https://errata.almalinux.org/8/ALSA-2023-2802.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/advisories/GHSA-69cg-p879-7622
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
@@ -6361,68 +6433,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-2253
     PublishedDate: '2023-06-06T20:15:00Z'
     LastModifiedDate: '2023-06-29T16:15:00Z'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
-      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_rsa_key
   Class: secret
   Secrets:
@@ -6481,6 +6491,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
+      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
+      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
