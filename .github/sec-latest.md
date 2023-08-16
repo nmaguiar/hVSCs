@@ -175,15 +175,15 @@
 │                        │       ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
 │                        │       │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
 │                        │       │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4354 
+│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4523 
 │                        │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       3-28321 
-│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2196786 
-│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2196793 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2179092 
+│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2196786 
 │                        │       │                  ├ [7] : https://curl.se/docs/CVE-2023-28321.html 
 │                        │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-28321 
-│                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
+│                        │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4523.html 
 │                        │       │                  ├ [10]: https://hackerone.com/reports/1950627 
 │                        │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28321.html 
 │                        │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4523.html 
@@ -303,13 +303,13 @@
 │                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 6.2 
-│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
 │                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       3-34969 
 │                        │       │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-34969 
-│                        │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
 │                        │       │                  ├ [5] : https://gitlab.freedesktop.org/dbus/dbus/-/iss
 │                        │       │                  │       ues/457 
 │                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -355,13 +355,13 @@
 │                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 6.2 
-│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
 │                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       3-34969 
 │                        │       │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-34969 
-│                        │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
 │                        │       │                  ├ [5] : https://gitlab.freedesktop.org/dbus/dbus/-/iss
 │                        │       │                  │       ues/457 
 │                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1070,15 +1070,15 @@
 │                        │       ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
 │                        │       │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
 │                        │       │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4354 
+│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4523 
 │                        │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       3-28321 
-│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2196786 
-│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2196793 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2179092 
+│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2196786 
 │                        │       │                  ├ [7] : https://curl.se/docs/CVE-2023-28321.html 
 │                        │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-28321 
-│                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
+│                        │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4523.html 
 │                        │       │                  ├ [10]: https://hackerone.com/reports/1950627 
 │                        │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28321.html 
 │                        │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4523.html 
@@ -1207,15 +1207,15 @@
 │                        │       ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
 │                        │       │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
 │                        │       │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4354 
+│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4523 
 │                        │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       3-28321 
-│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2196786 
-│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2196793 
+│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2179092 
+│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2196786 
 │                        │       │                  ├ [7] : https://curl.se/docs/CVE-2023-28321.html 
 │                        │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-28321 
-│                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4354.html 
+│                        │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4523.html 
 │                        │       │                  ├ [10]: https://hackerone.com/reports/1950627 
 │                        │       │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-28321.html 
 │                        │       │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2023-4523.html 
@@ -1335,13 +1335,13 @@
 │                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 6.2 
-│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
 │                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       3-34969 
 │                        │       │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-34969 
-│                        │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
 │                        │       │                  ├ [5] : https://gitlab.freedesktop.org/dbus/dbus/-/iss
 │                        │       │                  │       ues/457 
 │                        │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1963,7 +1963,8 @@
 │                        │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │       ├ PkgName         : libtiff5 
 │                        │       ├ InstalledVersion: 4.3.0-6ubuntu0.4 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 4.3.0-6ubuntu0.5 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
 │                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
 │                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
@@ -1986,44 +1987,36 @@
 │                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 5.5 
-│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:3711 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:3827 
 │                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       2-48281 
 │                        │       │                  ├ [2] : https://bugzilla.redhat.com/2163606 
-│                        │       │                  ├ [3] : https://bugzilla.redhat.com/2170119 
-│                        │       │                  ├ [4] : https://bugzilla.redhat.com/2170146 
-│                        │       │                  ├ [5] : https://bugzilla.redhat.com/2170151 
-│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2170157 
-│                        │       │                  ├ [7] : https://bugzilla.redhat.com/2170162 
-│                        │       │                  ├ [8] : https://bugzilla.redhat.com/2170167 
-│                        │       │                  ├ [9] : https://bugzilla.redhat.com/2170172 
-│                        │       │                  ├ [10]: https://bugzilla.redhat.com/2170178 
-│                        │       │                  ├ [11]: https://bugzilla.redhat.com/2170187 
-│                        │       │                  ├ [12]: https://bugzilla.redhat.com/2170192 
-│                        │       │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name
+│                        │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2022-48281 
-│                        │       │                  ├ [14]: https://errata.almalinux.org/9/ALSA-2023-3711.html 
-│                        │       │                  ├ [15]: https://gitlab.com/libtiff/libtiff/-/commit/d1
+│                        │       │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2023-3827.html 
+│                        │       │                  ├ [5] : https://gitlab.com/libtiff/libtiff/-/commit/d1
 │                        │       │                  │       b6b9c1b3cae2d9e37754506c1ad8f4f7b646b5 
-│                        │       │                  ├ [16]: https://gitlab.com/libtiff/libtiff/-/issues/488 
-│                        │       │                  ├ [17]: https://linux.oracle.com/cve/CVE-2022-48281.html 
-│                        │       │                  ├ [18]: https://linux.oracle.com/errata/ELSA-2023-3827.html 
-│                        │       │                  ├ [19]: https://lists.debian.org/debian-lts-announce/2
+│                        │       │                  ├ [6] : https://gitlab.com/libtiff/libtiff/-/issues/488 
+│                        │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2022-48281.html 
+│                        │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-3827.html 
+│                        │       │                  ├ [9] : https://lists.debian.org/debian-lts-announce/2
 │                        │       │                  │       023/01/msg00037.html 
-│                        │       │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2022-48281 
-│                        │       │                  ├ [21]: https://security.gentoo.org/glsa/202305-31 
-│                        │       │                  ├ [22]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2022-48281 
+│                        │       │                  ├ [11]: https://security.gentoo.org/glsa/202305-31 
+│                        │       │                  ├ [12]: https://security.netapp.com/advisory/ntap-2023
 │                        │       │                  │       0302-0004/ 
-│                        │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-5841-1 
-│                        │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2022-48281 
-│                        │       │                  ╰ [25]: https://www.debian.org/security/2023/dsa-5333 
+│                        │       │                  ├ [13]: https://ubuntu.com/security/notices/USN-5841-1 
+│                        │       │                  ├ [14]: https://ubuntu.com/security/notices/USN-6290-1 
+│                        │       │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2022-48281 
+│                        │       │                  ╰ [16]: https://www.debian.org/security/2023/dsa-5333 
 │                        │       ├ PublishedDate   : 2023-01-23T03:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-30T06:16:00Z 
 │                        ├ [43]  ╭ VulnerabilityID : CVE-2023-25433 
 │                        │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │       ├ PkgName         : libtiff5 
 │                        │       ├ InstalledVersion: 4.3.0-6ubuntu0.4 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 4.3.0-6ubuntu0.5 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
 │                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
 │                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
@@ -2057,14 +2050,16 @@
 │                        │       │                  │      23/07/msg00034.html 
 │                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-25433 
 │                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6229-1 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-25433 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6290-1 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-25433 
 │                        │       ├ PublishedDate   : 2023-06-29T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-08-01T02:15:00Z 
 │                        ├ [44]  ╭ VulnerabilityID : CVE-2023-26966 
 │                        │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │       ├ PkgName         : libtiff5 
 │                        │       ├ InstalledVersion: 4.3.0-6ubuntu0.4 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 4.3.0-6ubuntu0.5 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
 │                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
 │                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
@@ -2101,14 +2096,16 @@
 │                        │       │                  │      23/07/msg00034.html 
 │                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-26966 
 │                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6229-1 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-26966 
+│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6290-1 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-26966 
 │                        │       ├ PublishedDate   : 2023-06-29T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-08-01T02:15:00Z 
 │                        ├ [45]  ╭ VulnerabilityID : CVE-2023-2908 
 │                        │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │       ├ PkgName         : libtiff5 
 │                        │       ├ InstalledVersion: 4.3.0-6ubuntu0.4 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 4.3.0-6ubuntu0.5 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
 │                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
 │                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
@@ -2146,14 +2143,16 @@
 │                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2908 
 │                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      731-0004/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2908 
+│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6290-1 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-2908 
 │                        │       ├ PublishedDate   : 2023-06-30T22:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-08-02T15:41:00Z 
 │                        ├ [46]  ╭ VulnerabilityID : CVE-2023-3618 
 │                        │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │       ├ PkgName         : libtiff5 
 │                        │       ├ InstalledVersion: 4.3.0-6ubuntu0.4 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 4.3.0-6ubuntu0.5 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
 │                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
 │                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
@@ -2186,10 +2185,73 @@
 │                        │       │                  ├ [5]: https://lists.debian.org/debian-lts-announce/20
 │                        │       │                  │      23/07/msg00034.html 
 │                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-3618 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-3618 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6290-1 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-3618 
 │                        │       ├ PublishedDate   : 2023-07-12T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-08-08T17:15:00Z 
-│                        ├ [47]  ╭ VulnerabilityID : CVE-2018-10126 
+│                        ├ [47]  ╭ VulnerabilityID : CVE-2023-38288 
+│                        │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
+│                        │       ├ PkgName         : libtiff5 
+│                        │       ├ InstalledVersion: 4.3.0-6ubuntu0.4 
+│                        │       ├ FixedVersion    : 4.3.0-6ubuntu0.5 
+│                        │       ├ Status          : fixed 
+│                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
+│                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
+│                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
+│                        │       │                            6de7291603ee46c7ba2b858e580 
+│                        │       ├ SeveritySource  : ubuntu 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38288 
+│                        │       ├ DataSource       ╭ ID  : ubuntu 
+│                        │       │                  ├ Name: Ubuntu CVE Tracker 
+│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │       ├ Title           : potential integer overflow in raw2tiff.c 
+│                        │       ├ Description     : No description is available for this CVE. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/
+│                        │       │                           │           C:N/I:N/A:H 
+│                        │       │                           ╰ V3Score : 6.5 
+│                        │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023
+│                        │                          │      -38288 
+│                        │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │                          │      CVE-2023-38288 
+│                        │                          ├ [2]: https://gitlab.com/libtiff/libtiff/-/commit/4fc
+│                        │                          │      16f649fa2875d5c388cf2edc295510a247ee5 
+│                        │                          ├ [3]: https://gitlab.com/libtiff/libtiff/-/issues/591 
+│                        │                          ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-38288 
+│                        │                          ├ [5]: https://ubuntu.com/security/notices/USN-6290-1 
+│                        │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-38288 
+│                        ├ [48]  ╭ VulnerabilityID : CVE-2023-38289 
+│                        │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
+│                        │       ├ PkgName         : libtiff5 
+│                        │       ├ InstalledVersion: 4.3.0-6ubuntu0.4 
+│                        │       ├ FixedVersion    : 4.3.0-6ubuntu0.5 
+│                        │       ├ Status          : fixed 
+│                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
+│                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
+│                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
+│                        │       │                            6de7291603ee46c7ba2b858e580 
+│                        │       ├ SeveritySource  : ubuntu 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38289 
+│                        │       ├ DataSource       ╭ ID  : ubuntu 
+│                        │       │                  ├ Name: Ubuntu CVE Tracker 
+│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │       ├ Title           : integer overflow in tiffcp.c 
+│                        │       ├ Description     : No description is available for this CVE. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/
+│                        │       │                           │           C:N/I:N/A:H 
+│                        │       │                           ╰ V3Score : 6.5 
+│                        │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023
+│                        │                          │      -38289 
+│                        │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │                          │      CVE-2023-38289 
+│                        │                          ├ [2]: https://gitlab.com/libtiff/libtiff/-/commit/6e2
+│                        │                          │      dac5f904496d127c92ddc4e56eccfca25c2ee 
+│                        │                          ├ [3]: https://gitlab.com/libtiff/libtiff/-/issues/592 
+│                        │                          ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-38289 
+│                        │                          ├ [5]: https://ubuntu.com/security/notices/USN-6290-1 
+│                        │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-38289 
+│                        ├ [49]  ╭ VulnerabilityID : CVE-2018-10126 
 │                        │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │       ├ PkgName         : libtiff5 
 │                        │       ├ InstalledVersion: 4.3.0-6ubuntu0.4 
@@ -2229,7 +2291,7 @@
 │                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                        │       ├ PublishedDate   : 2018-04-21T21:29:00Z 
 │                        │       ╰ LastModifiedDate: 2021-03-15T22:31:00Z 
-│                        ├ [48]  ╭ VulnerabilityID : CVE-2023-1916 
+│                        ├ [50]  ╭ VulnerabilityID : CVE-2023-1916 
 │                        │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │       ├ PkgName         : libtiff5 
 │                        │       ├ InstalledVersion: 4.3.0-6ubuntu0.4 
@@ -2269,11 +2331,12 @@
 │                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-1916 
 │                        │       ├ PublishedDate   : 2023-04-10T22:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-04-18T15:25:00Z 
-│                        ├ [49]  ╭ VulnerabilityID : CVE-2023-26965 
+│                        ├ [51]  ╭ VulnerabilityID : CVE-2023-26965 
 │                        │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │       ├ PkgName         : libtiff5 
 │                        │       ├ InstalledVersion: 4.3.0-6ubuntu0.4 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 4.3.0-6ubuntu0.5 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
 │                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
 │                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
@@ -2308,14 +2371,16 @@
 │                        │       │                  ├ [5]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      706-0009/ 
 │                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6229-1 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-26965 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6290-1 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-26965 
 │                        │       ├ PublishedDate   : 2023-06-14T21:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-08-01T02:15:00Z 
-│                        ├ [50]  ╭ VulnerabilityID : CVE-2023-3316 
+│                        ├ [52]  ╭ VulnerabilityID : CVE-2023-3316 
 │                        │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.4 
 │                        │       ├ PkgName         : libtiff5 
 │                        │       ├ InstalledVersion: 4.3.0-6ubuntu0.4 
-│                        │       ├ Status          : affected 
+│                        │       ├ FixedVersion    : 4.3.0-6ubuntu0.5 
+│                        │       ├ Status          : fixed 
 │                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
 │                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
 │                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
@@ -2352,10 +2417,11 @@
 │                        │       │                  ├ [6]: https://research.jfrog.com/vulnerabilities/libt
 │                        │       │                  │      iff-nullderef-dos-xray-522144/ 
 │                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6229-1 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-3316 
+│                        │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6290-1 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-3316 
 │                        │       ├ PublishedDate   : 2023-06-19T12:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-08-01T02:15:00Z 
-│                        ├ [51]  ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [53]  ╭ VulnerabilityID : CVE-2022-4899 
 │                        │       ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │       ├ PkgName         : libzstd1 
 │                        │       ├ InstalledVersion: 1.4.8+dfsg-3build1 
@@ -2401,7 +2467,7 @@
 │                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │       ├ PublishedDate   : 2023-03-31T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
-│                        ├ [52]  ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [54]  ╭ VulnerabilityID : CVE-2023-29383 
 │                        │       ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                        │       ├ PkgName         : login 
 │                        │       ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2455,127 +2521,9 @@
 │                        │       │                         m 
 │                        │       ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                        ├ [53]  ╭ VulnerabilityID : CVE-2023-38408 
-│                        │       ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.1 
-│                        │       ├ PkgName         : openssh-client 
-│                        │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
-│                        │       ├ FixedVersion    : 1:8.9p1-3ubuntu0.3 
-│                        │       ├ Status          : fixed 
-│                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
-│                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
-│                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
-│                        │       │                            6de7291603ee46c7ba2b858e580 
-│                        │       ├ SeveritySource  : ubuntu 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38408 
-│                        │       ├ DataSource       ╭ ID  : ubuntu 
-│                        │       │                  ├ Name: Ubuntu CVE Tracker 
-│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : Remote code execution in ssh-agent PKCS#11 support 
-│                        │       ├ Description     : The PKCS#11 feature in ssh-agent in OpenSSH before
-│                        │       │                   9.3p2 has an insufficiently trustworthy search path,
-│                        │       │                   leading to remote code execution if an agent is forwarded
-│                        │       │                   to an attacker-controlled system. (Code in /usr/lib is not
-│                        │       │                    necessarily safe for loading into ssh-agent.) NOTE: this
-│                        │       │                   issue exists because of an incomplete fix for
-│                        │       │                   CVE-2016-10009. 
-│                        │       ├ Severity        : MEDIUM 
-│                        │       ├ CweIDs           ─ [0]: CWE-428 
-│                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
-│                        │       │                  │        │           C:H/I:H/A:H 
-│                        │       │                  │        ╰ V3Score : 9.8 
-│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
-│                        │       │                           │           C:H/I:H/A:H 
-│                        │       │                           ╰ V3Score : 9.8 
-│                        │       ├ References       ╭ [0] : http://packetstormsecurity.com/files/173661/Op
-│                        │       │                  │       enSSH-Forwarded-SSH-Agent-Remote-Code-Execution.htm
-│                        │       │                  │       l 
-│                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
-│                        │       │                  │       3/07/20/1 
-│                        │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/202
-│                        │       │                  │       3/07/20/2 
-│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4412 
-│                        │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-202
-│                        │       │                  │       3-38408 
-│                        │       │                  ├ [5] : https://blog.qualys.com/vulnerabilities-threat
-│                        │       │                  │       -research/2023/07/19/cve-2023-38408-remote-code-exe
-│                        │       │                  │       cution-in-opensshs-forwarded-ssh-agent 
-│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2224173 
-│                        │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2224173 
-│                        │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
-│                        │       │                  │       =CVE-2023-38408 
-│                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4412.html 
-│                        │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:4419 
-│                        │       │                  ├ [11]: https://github.com/openbsd/src/commit/7bc29a9d
-│                        │       │                  │       5cd697290aa056e94ecee6253d3425f8 
-│                        │       │                  ├ [12]: https://github.com/openbsd/src/commit/f03a4faa
-│                        │       │                  │       55c4ce0818324701dadbf91988d7351d 
-│                        │       │                  ├ [13]: https://github.com/openbsd/src/commit/f8f5a6b0
-│                        │       │                  │       03981bb824329dc987d101977beda7ca 
-│                        │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-38408.html 
-│                        │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-4428.html 
-│                        │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/
-│                        │       │                  │       package-announce@lists.fedoraproject.org/message/CE
-│                        │       │                  │       BTJJINE2I3FHAUKKNQWMFGYMLSMWKQ/ 
-│                        │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/
-│                        │       │                  │       package-announce@lists.fedoraproject.org/message/RA
-│                        │       │                  │       XVQS6ZYTULFAK3TEJHRLKZALJS3AOU/ 
-│                        │       │                  ├ [18]: https://news.ycombinator.com/item?id=36790196 
-│                        │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
-│                        │       │                  ├ [20]: https://security.gentoo.org/glsa/202307-01 
-│                        │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-2023
-│                        │       │                  │       0803-0010/ 
-│                        │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-6242-1 
-│                        │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6242-2 
-│                        │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
-│                        │       │                  ├ [25]: https://www.openssh.com/security.html 
-│                        │       │                  ├ [26]: https://www.openssh.com/txt/release-9.3p2 
-│                        │       │                  ╰ [27]: https://www.qualys.com/2023/07/19/cve-2023-384
-│                        │       │                          08/rce-openssh-forwarded-ssh-agent.txt 
-│                        │       ├ PublishedDate   : 2023-07-20T03:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-08-03T15:15:00Z 
-│                        ├ [54]  ╭ VulnerabilityID : CVE-2023-28531 
-│                        │       ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.1 
-│                        │       ├ PkgName         : openssh-client 
-│                        │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
-│                        │       ├ Status          : affected 
-│                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
-│                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
-│                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
-│                        │       │                            6de7291603ee46c7ba2b858e580 
-│                        │       ├ SeveritySource  : ubuntu 
-│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28531 
-│                        │       ├ DataSource       ╭ ID  : ubuntu 
-│                        │       │                  ├ Name: Ubuntu CVE Tracker 
-│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : openssh: smartcard keys to ssh-agent without the
-│                        │       │                   intended per-hop destination constraints. 
-│                        │       ├ Description     : ssh-add in OpenSSH before 9.3 adds smartcard keys to
-│                        │       │                   ssh-agent without the intended per-hop destination
-│                        │       │                   constraints. The earliest affected version is 8.9.[
-│                        │       │                   m 
-│                        │       ├ Severity        : LOW 
-│                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
-│                        │       │                  │        │           C:H/I:H/A:H 
-│                        │       │                  │        ╰ V3Score : 9.8 
-│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
-│                        │       │                           │           C:H/I:N/A:H 
-│                        │       │                           ╰ V3Score : 9.1 
-│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023
-│                        │       │                  │      -28531 
-│                        │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │       │                  │      CVE-2023-28531 
-│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-28531 
-│                        │       │                  ├ [3]: https://security.gentoo.org/glsa/202307-01 
-│                        │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-20230
-│                        │       │                  │      413-0008/ 
-│                        │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
-│                        │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/202
-│                        │       │                         3/03/15/8 
-│                        │       ├ PublishedDate   : 2023-03-17T04:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
 │                        ├ [55]  ╭ VulnerabilityID : CVE-2023-38408 
-│                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.1 
-│                        │       ├ PkgName         : openssh-server 
+│                        │       ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.1 
+│                        │       ├ PkgName         : openssh-client 
 │                        │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
 │                        │       ├ FixedVersion    : 1:8.9p1-3ubuntu0.3 
 │                        │       ├ Status          : fixed 
@@ -2611,7 +2559,7 @@
 │                        │       │                  │       3/07/20/1 
 │                        │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/202
 │                        │       │                  │       3/07/20/2 
-│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4412 
+│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4419 
 │                        │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       3-38408 
 │                        │       │                  ├ [5] : https://blog.qualys.com/vulnerabilities-threat
@@ -2621,7 +2569,7 @@
 │                        │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2224173 
 │                        │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-38408 
-│                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4412.html 
+│                        │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4419.html 
 │                        │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:4419 
 │                        │       │                  ├ [11]: https://github.com/openbsd/src/commit/7bc29a9d
 │                        │       │                  │       5cd697290aa056e94ecee6253d3425f8 
@@ -2652,8 +2600,8 @@
 │                        │       ├ PublishedDate   : 2023-07-20T03:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-08-03T15:15:00Z 
 │                        ├ [56]  ╭ VulnerabilityID : CVE-2023-28531 
-│                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.1 
-│                        │       ├ PkgName         : openssh-server 
+│                        │       ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.1 
+│                        │       ├ PkgName         : openssh-client 
 │                        │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
 │                        │       ├ Status          : affected 
 │                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
@@ -2692,6 +2640,124 @@
 │                        │       ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
 │                        ├ [57]  ╭ VulnerabilityID : CVE-2023-38408 
+│                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.1 
+│                        │       ├ PkgName         : openssh-server 
+│                        │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
+│                        │       ├ FixedVersion    : 1:8.9p1-3ubuntu0.3 
+│                        │       ├ Status          : fixed 
+│                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
+│                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
+│                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
+│                        │       │                            6de7291603ee46c7ba2b858e580 
+│                        │       ├ SeveritySource  : ubuntu 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-38408 
+│                        │       ├ DataSource       ╭ ID  : ubuntu 
+│                        │       │                  ├ Name: Ubuntu CVE Tracker 
+│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │       ├ Title           : Remote code execution in ssh-agent PKCS#11 support 
+│                        │       ├ Description     : The PKCS#11 feature in ssh-agent in OpenSSH before
+│                        │       │                   9.3p2 has an insufficiently trustworthy search path,
+│                        │       │                   leading to remote code execution if an agent is forwarded
+│                        │       │                   to an attacker-controlled system. (Code in /usr/lib is not
+│                        │       │                    necessarily safe for loading into ssh-agent.) NOTE: this
+│                        │       │                   issue exists because of an incomplete fix for
+│                        │       │                   CVE-2016-10009. 
+│                        │       ├ Severity        : MEDIUM 
+│                        │       ├ CweIDs           ─ [0]: CWE-428 
+│                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │       │                  │        │           C:H/I:H/A:H 
+│                        │       │                  │        ╰ V3Score : 9.8 
+│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │       │                           │           C:H/I:H/A:H 
+│                        │       │                           ╰ V3Score : 9.8 
+│                        │       ├ References       ╭ [0] : http://packetstormsecurity.com/files/173661/Op
+│                        │       │                  │       enSSH-Forwarded-SSH-Agent-Remote-Code-Execution.htm
+│                        │       │                  │       l 
+│                        │       │                  ├ [1] : http://www.openwall.com/lists/oss-security/202
+│                        │       │                  │       3/07/20/1 
+│                        │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/202
+│                        │       │                  │       3/07/20/2 
+│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4419 
+│                        │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       3-38408 
+│                        │       │                  ├ [5] : https://blog.qualys.com/vulnerabilities-threat
+│                        │       │                  │       -research/2023/07/19/cve-2023-38408-remote-code-exe
+│                        │       │                  │       cution-in-opensshs-forwarded-ssh-agent 
+│                        │       │                  ├ [6] : https://bugzilla.redhat.com/2224173 
+│                        │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2224173 
+│                        │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
+│                        │       │                  │       =CVE-2023-38408 
+│                        │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4419.html 
+│                        │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:4419 
+│                        │       │                  ├ [11]: https://github.com/openbsd/src/commit/7bc29a9d
+│                        │       │                  │       5cd697290aa056e94ecee6253d3425f8 
+│                        │       │                  ├ [12]: https://github.com/openbsd/src/commit/f03a4faa
+│                        │       │                  │       55c4ce0818324701dadbf91988d7351d 
+│                        │       │                  ├ [13]: https://github.com/openbsd/src/commit/f8f5a6b0
+│                        │       │                  │       03981bb824329dc987d101977beda7ca 
+│                        │       │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-38408.html 
+│                        │       │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-4428.html 
+│                        │       │                  ├ [16]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce@lists.fedoraproject.org/message/CE
+│                        │       │                  │       BTJJINE2I3FHAUKKNQWMFGYMLSMWKQ/ 
+│                        │       │                  ├ [17]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce@lists.fedoraproject.org/message/RA
+│                        │       │                  │       XVQS6ZYTULFAK3TEJHRLKZALJS3AOU/ 
+│                        │       │                  ├ [18]: https://news.ycombinator.com/item?id=36790196 
+│                        │       │                  ├ [19]: https://nvd.nist.gov/vuln/detail/CVE-2023-38408 
+│                        │       │                  ├ [20]: https://security.gentoo.org/glsa/202307-01 
+│                        │       │                  ├ [21]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  │       0803-0010/ 
+│                        │       │                  ├ [22]: https://ubuntu.com/security/notices/USN-6242-1 
+│                        │       │                  ├ [23]: https://ubuntu.com/security/notices/USN-6242-2 
+│                        │       │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2023-38408 
+│                        │       │                  ├ [25]: https://www.openssh.com/security.html 
+│                        │       │                  ├ [26]: https://www.openssh.com/txt/release-9.3p2 
+│                        │       │                  ╰ [27]: https://www.qualys.com/2023/07/19/cve-2023-384
+│                        │       │                          08/rce-openssh-forwarded-ssh-agent.txt 
+│                        │       ├ PublishedDate   : 2023-07-20T03:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-08-03T15:15:00Z 
+│                        ├ [58]  ╭ VulnerabilityID : CVE-2023-28531 
+│                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.1 
+│                        │       ├ PkgName         : openssh-server 
+│                        │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
+│                        │       ├ Status          : affected 
+│                        │       ├ Layer            ╭ Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a39
+│                        │       │                  │         4ffd14dc9825a27049ab6aee5cb 
+│                        │       │                  ╰ DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d
+│                        │       │                            6de7291603ee46c7ba2b858e580 
+│                        │       ├ SeveritySource  : ubuntu 
+│                        │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28531 
+│                        │       ├ DataSource       ╭ ID  : ubuntu 
+│                        │       │                  ├ Name: Ubuntu CVE Tracker 
+│                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │       ├ Title           : openssh: smartcard keys to ssh-agent without the
+│                        │       │                   intended per-hop destination constraints. 
+│                        │       ├ Description     : ssh-add in OpenSSH before 9.3 adds smartcard keys to
+│                        │       │                   ssh-agent without the intended per-hop destination
+│                        │       │                   constraints. The earliest affected version is 8.9.[
+│                        │       │                   m 
+│                        │       ├ Severity        : LOW 
+│                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │       │                  │        │           C:H/I:H/A:H 
+│                        │       │                  │        ╰ V3Score : 9.8 
+│                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │       │                           │           C:H/I:N/A:H 
+│                        │       │                           ╰ V3Score : 9.1 
+│                        │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023
+│                        │       │                  │      -28531 
+│                        │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │       │                  │      CVE-2023-28531 
+│                        │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-28531 
+│                        │       │                  ├ [3]: https://security.gentoo.org/glsa/202307-01 
+│                        │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-20230
+│                        │       │                  │      413-0008/ 
+│                        │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
+│                        │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/202
+│                        │       │                         3/03/15/8 
+│                        │       ├ PublishedDate   : 2023-03-17T04:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
+│                        ├ [59]  ╭ VulnerabilityID : CVE-2023-38408 
 │                        │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.1 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
@@ -2729,7 +2795,7 @@
 │                        │       │                  │       3/07/20/1 
 │                        │       │                  ├ [2] : http://www.openwall.com/lists/oss-security/202
 │                        │       │                  │       3/07/20/2 
-│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4412 
+│                        │       │                  ├ [3] : https://access.redhat.com/errata/RHSA-2023:4419 
 │                        │       │                  ├ [4] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       3-38408 
 │                        │       │                  ├ [5] : https://blog.qualys.com/vulnerabilities-threat
@@ -2739,7 +2805,7 @@
 │                        │       │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2224173 
 │                        │       │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-38408 
-│                        │       │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-4412.html 
+│                        │       │                  ├ [9] : https://errata.almalinux.org/8/ALSA-2023-4419.html 
 │                        │       │                  ├ [10]: https://errata.rockylinux.org/RLSA-2023:4419 
 │                        │       │                  ├ [11]: https://github.com/openbsd/src/commit/7bc29a9d
 │                        │       │                  │       5cd697290aa056e94ecee6253d3425f8 
@@ -2769,7 +2835,7 @@
 │                        │       │                          08/rce-openssh-forwarded-ssh-agent.txt 
 │                        │       ├ PublishedDate   : 2023-07-20T03:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-08-03T15:15:00Z 
-│                        ├ [58]  ╭ VulnerabilityID : CVE-2023-28531 
+│                        ├ [60]  ╭ VulnerabilityID : CVE-2023-28531 
 │                        │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.1 
 │                        │       ├ PkgName         : openssh-sftp-server 
 │                        │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.1 
@@ -2809,7 +2875,7 @@
 │                        │       │                         3/03/15/8 
 │                        │       ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                        ├ [59]  ╭ VulnerabilityID : CVE-2023-2975 
+│                        ├ [61]  ╭ VulnerabilityID : CVE-2023-2975 
 │                        │       ├ PkgID           : openssl@3.0.2-0ubuntu1.10 
 │                        │       ├ PkgName         : openssl 
 │                        │       ├ InstalledVersion: 3.0.2-0ubuntu1.10 
@@ -2887,7 +2953,7 @@
 │                        │       │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
 │                        │       ├ PublishedDate   : 2023-07-14T12:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-│                        ├ [60]  ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [62]  ╭ VulnerabilityID : CVE-2023-29383 
 │                        │       ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                        │       ├ PkgName         : passwd 
 │                        │       ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2941,7 +3007,7 @@
 │                        │       │                         m 
 │                        │       ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                        ├ [61]  ╭ VulnerabilityID : CVE-2023-4016 
+│                        ├ [63]  ╭ VulnerabilityID : CVE-2023-4016 
 │                        │       ├ PkgID           : procps@2:3.3.17-6ubuntu2 
 │                        │       ├ PkgName         : procps 
 │                        │       ├ InstalledVersion: 2:3.3.17-6ubuntu2 
@@ -2976,7 +3042,7 @@
 │                        │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                        │       ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-08-07T19:21:00Z 
-│                        ├ [62]  ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [64]  ╭ VulnerabilityID : CVE-2023-27043 
 │                        │       ├ PkgID           : python3.10@3.10.6-1~22.04.2ubuntu1.1 
 │                        │       ├ PkgName         : python3.10 
 │                        │       ├ InstalledVersion: 3.10.6-1~22.04.2ubuntu1.1 
@@ -3026,7 +3092,7 @@
 │                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                        ├ [63]  ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [65]  ╭ VulnerabilityID : CVE-2023-27043 
 │                        │       ├ PkgID           : python3.10-minimal@3.10.6-1~22.04.2ubuntu1.1 
 │                        │       ├ PkgName         : python3.10-minimal 
 │                        │       ├ InstalledVersion: 3.10.6-1~22.04.2ubuntu1.1 
@@ -3076,7 +3142,7 @@
 │                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                        ├ [64]  ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [66]  ╭ VulnerabilityID : CVE-2023-29383 
 │                        │       ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                        │       ├ PkgName         : uidmap 
 │                        │       ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -3130,7 +3196,7 @@
 │                        │       │                         m 
 │                        │       ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                        ├ [65]  ╭ VulnerabilityID : CVE-2022-2182 
+│                        ├ [67]  ╭ VulnerabilityID : CVE-2022-2182 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3180,7 +3246,7 @@
 │                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2182 
 │                        │       ├ PublishedDate   : 2022-06-23T18:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [66]  ╭ VulnerabilityID : CVE-2022-2862 
+│                        ├ [68]  ╭ VulnerabilityID : CVE-2022-2862 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3222,7 +3288,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                        │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [67]  ╭ VulnerabilityID : CVE-2022-2889 
+│                        ├ [69]  ╭ VulnerabilityID : CVE-2022-2889 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3262,7 +3328,7 @@
 │                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                        │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [68]  ╭ VulnerabilityID : CVE-2022-2982 
+│                        ├ [70]  ╭ VulnerabilityID : CVE-2022-2982 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3306,7 +3372,7 @@
 │                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                        │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [69]  ╭ VulnerabilityID : CVE-2022-1886 
+│                        ├ [71]  ╭ VulnerabilityID : CVE-2022-1886 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3349,7 +3415,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                        │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [70]  ╭ VulnerabilityID : CVE-2022-2208 
+│                        ├ [72]  ╭ VulnerabilityID : CVE-2022-2208 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3398,7 +3464,7 @@
 │                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2208 
 │                        │       ├ PublishedDate   : 2022-06-27T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [71]  ╭ VulnerabilityID : CVE-2022-2210 
+│                        ├ [73]  ╭ VulnerabilityID : CVE-2022-2210 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3450,7 +3516,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2210 
 │                        │       ├ PublishedDate   : 2022-06-27T16:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [72]  ╭ VulnerabilityID : CVE-2022-2231 
+│                        ├ [74]  ╭ VulnerabilityID : CVE-2022-2231 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3502,7 +3568,7 @@
 │                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-2231 
 │                        │       ├ PublishedDate   : 2022-06-28T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [73]  ╭ VulnerabilityID : CVE-2022-2257 
+│                        ├ [75]  ╭ VulnerabilityID : CVE-2022-2257 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3555,7 +3621,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2257 
 │                        │       ├ PublishedDate   : 2022-06-30T21:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [74]  ╭ VulnerabilityID : CVE-2022-2264 
+│                        ├ [76]  ╭ VulnerabilityID : CVE-2022-2264 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3606,7 +3672,7 @@
 │                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-2264 
 │                        │       ├ PublishedDate   : 2022-07-01T11:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [75]  ╭ VulnerabilityID : CVE-2022-2284 
+│                        ├ [77]  ╭ VulnerabilityID : CVE-2022-2284 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3659,7 +3725,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2284 
 │                        │       ├ PublishedDate   : 2022-07-02T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [76]  ╭ VulnerabilityID : CVE-2022-2285 
+│                        ├ [78]  ╭ VulnerabilityID : CVE-2022-2285 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3714,7 +3780,7 @@
 │                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2022-2285 
 │                        │       ├ PublishedDate   : 2022-07-02T16:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [77]  ╭ VulnerabilityID : CVE-2022-2286 
+│                        ├ [79]  ╭ VulnerabilityID : CVE-2022-2286 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3767,7 +3833,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2286 
 │                        │       ├ PublishedDate   : 2022-07-02T19:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [78]  ╭ VulnerabilityID : CVE-2022-2287 
+│                        ├ [80]  ╭ VulnerabilityID : CVE-2022-2287 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3821,7 +3887,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2287 
 │                        │       ├ PublishedDate   : 2022-07-02T22:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [79]  ╭ VulnerabilityID : CVE-2022-2289 
+│                        ├ [81]  ╭ VulnerabilityID : CVE-2022-2289 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3873,7 +3939,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2289 
 │                        │       ├ PublishedDate   : 2022-07-03T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [80]  ╭ VulnerabilityID : CVE-2022-2182 
+│                        ├ [82]  ╭ VulnerabilityID : CVE-2022-2182 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3923,7 +3989,7 @@
 │                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2182 
 │                        │       ├ PublishedDate   : 2022-06-23T18:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [81]  ╭ VulnerabilityID : CVE-2022-2862 
+│                        ├ [83]  ╭ VulnerabilityID : CVE-2022-2862 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -3965,7 +4031,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                        │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [82]  ╭ VulnerabilityID : CVE-2022-2889 
+│                        ├ [84]  ╭ VulnerabilityID : CVE-2022-2889 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4005,7 +4071,7 @@
 │                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                        │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [83]  ╭ VulnerabilityID : CVE-2022-2982 
+│                        ├ [85]  ╭ VulnerabilityID : CVE-2022-2982 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4049,7 +4115,7 @@
 │                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                        │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [84]  ╭ VulnerabilityID : CVE-2022-1886 
+│                        ├ [86]  ╭ VulnerabilityID : CVE-2022-1886 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4092,7 +4158,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                        │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [85]  ╭ VulnerabilityID : CVE-2022-2208 
+│                        ├ [87]  ╭ VulnerabilityID : CVE-2022-2208 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4141,7 +4207,7 @@
 │                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2208 
 │                        │       ├ PublishedDate   : 2022-06-27T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [86]  ╭ VulnerabilityID : CVE-2022-2210 
+│                        ├ [88]  ╭ VulnerabilityID : CVE-2022-2210 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4193,7 +4259,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2210 
 │                        │       ├ PublishedDate   : 2022-06-27T16:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [87]  ╭ VulnerabilityID : CVE-2022-2231 
+│                        ├ [89]  ╭ VulnerabilityID : CVE-2022-2231 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4245,7 +4311,7 @@
 │                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-2231 
 │                        │       ├ PublishedDate   : 2022-06-28T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [88]  ╭ VulnerabilityID : CVE-2022-2257 
+│                        ├ [90]  ╭ VulnerabilityID : CVE-2022-2257 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4298,7 +4364,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2257 
 │                        │       ├ PublishedDate   : 2022-06-30T21:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [89]  ╭ VulnerabilityID : CVE-2022-2264 
+│                        ├ [91]  ╭ VulnerabilityID : CVE-2022-2264 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4349,7 +4415,7 @@
 │                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-2264 
 │                        │       ├ PublishedDate   : 2022-07-01T11:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [90]  ╭ VulnerabilityID : CVE-2022-2284 
+│                        ├ [92]  ╭ VulnerabilityID : CVE-2022-2284 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4402,7 +4468,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2284 
 │                        │       ├ PublishedDate   : 2022-07-02T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [91]  ╭ VulnerabilityID : CVE-2022-2285 
+│                        ├ [93]  ╭ VulnerabilityID : CVE-2022-2285 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4457,7 +4523,7 @@
 │                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2022-2285 
 │                        │       ├ PublishedDate   : 2022-07-02T16:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [92]  ╭ VulnerabilityID : CVE-2022-2286 
+│                        ├ [94]  ╭ VulnerabilityID : CVE-2022-2286 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4510,7 +4576,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2286 
 │                        │       ├ PublishedDate   : 2022-07-02T19:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [93]  ╭ VulnerabilityID : CVE-2022-2287 
+│                        ├ [95]  ╭ VulnerabilityID : CVE-2022-2287 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4564,7 +4630,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2287 
 │                        │       ├ PublishedDate   : 2022-07-02T22:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [94]  ╭ VulnerabilityID : CVE-2022-2289 
+│                        ├ [96]  ╭ VulnerabilityID : CVE-2022-2289 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-common 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4616,7 +4682,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2289 
 │                        │       ├ PublishedDate   : 2022-07-03T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [95]  ╭ VulnerabilityID : CVE-2022-2182 
+│                        ├ [97]  ╭ VulnerabilityID : CVE-2022-2182 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4666,7 +4732,7 @@
 │                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2182 
 │                        │       ├ PublishedDate   : 2022-06-23T18:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [96]  ╭ VulnerabilityID : CVE-2022-2862 
+│                        ├ [98]  ╭ VulnerabilityID : CVE-2022-2862 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4708,7 +4774,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                        │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [97]  ╭ VulnerabilityID : CVE-2022-2889 
+│                        ├ [99]  ╭ VulnerabilityID : CVE-2022-2889 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4748,7 +4814,7 @@
 │                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                        │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [98]  ╭ VulnerabilityID : CVE-2022-2982 
+│                        ├ [100] ╭ VulnerabilityID : CVE-2022-2982 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4792,7 +4858,7 @@
 │                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                        │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [99]  ╭ VulnerabilityID : CVE-2022-1886 
+│                        ├ [101] ╭ VulnerabilityID : CVE-2022-1886 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4835,7 +4901,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                        │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [100] ╭ VulnerabilityID : CVE-2022-2208 
+│                        ├ [102] ╭ VulnerabilityID : CVE-2022-2208 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4884,7 +4950,7 @@
 │                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2208 
 │                        │       ├ PublishedDate   : 2022-06-27T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [101] ╭ VulnerabilityID : CVE-2022-2210 
+│                        ├ [103] ╭ VulnerabilityID : CVE-2022-2210 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4936,7 +5002,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2210 
 │                        │       ├ PublishedDate   : 2022-06-27T16:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [102] ╭ VulnerabilityID : CVE-2022-2231 
+│                        ├ [104] ╭ VulnerabilityID : CVE-2022-2231 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -4988,7 +5054,7 @@
 │                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-2231 
 │                        │       ├ PublishedDate   : 2022-06-28T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [103] ╭ VulnerabilityID : CVE-2022-2257 
+│                        ├ [105] ╭ VulnerabilityID : CVE-2022-2257 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5041,7 +5107,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2257 
 │                        │       ├ PublishedDate   : 2022-06-30T21:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [104] ╭ VulnerabilityID : CVE-2022-2264 
+│                        ├ [106] ╭ VulnerabilityID : CVE-2022-2264 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5092,7 +5158,7 @@
 │                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-2264 
 │                        │       ├ PublishedDate   : 2022-07-01T11:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [105] ╭ VulnerabilityID : CVE-2022-2284 
+│                        ├ [107] ╭ VulnerabilityID : CVE-2022-2284 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5145,7 +5211,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2284 
 │                        │       ├ PublishedDate   : 2022-07-02T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [106] ╭ VulnerabilityID : CVE-2022-2285 
+│                        ├ [108] ╭ VulnerabilityID : CVE-2022-2285 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5200,7 +5266,7 @@
 │                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2022-2285 
 │                        │       ├ PublishedDate   : 2022-07-02T16:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [107] ╭ VulnerabilityID : CVE-2022-2286 
+│                        ├ [109] ╭ VulnerabilityID : CVE-2022-2286 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5253,7 +5319,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2286 
 │                        │       ├ PublishedDate   : 2022-07-02T19:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [108] ╭ VulnerabilityID : CVE-2022-2287 
+│                        ├ [110] ╭ VulnerabilityID : CVE-2022-2287 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5307,7 +5373,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2287 
 │                        │       ├ PublishedDate   : 2022-07-02T22:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [109] ╭ VulnerabilityID : CVE-2022-2289 
+│                        ├ [111] ╭ VulnerabilityID : CVE-2022-2289 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : vim-runtime 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5359,7 +5425,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2289 
 │                        │       ├ PublishedDate   : 2022-07-03T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [110] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [112] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │       ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │       ├ PkgName         : wget 
 │                        │       ├ InstalledVersion: 1.21.2-2ubuntu1 
@@ -5400,7 +5466,7 @@
 │                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │       ├ PublishedDate   : 2021-04-29T05:15:00Z 
 │                        │       ╰ LastModifiedDate: 2022-05-13T20:52:00Z 
-│                        ├ [111] ╭ VulnerabilityID : CVE-2022-2182 
+│                        ├ [113] ╭ VulnerabilityID : CVE-2022-2182 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5450,7 +5516,7 @@
 │                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2182 
 │                        │       ├ PublishedDate   : 2022-06-23T18:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [112] ╭ VulnerabilityID : CVE-2022-2862 
+│                        ├ [114] ╭ VulnerabilityID : CVE-2022-2862 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5492,7 +5558,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                        │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [113] ╭ VulnerabilityID : CVE-2022-2889 
+│                        ├ [115] ╭ VulnerabilityID : CVE-2022-2889 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5532,7 +5598,7 @@
 │                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                        │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [114] ╭ VulnerabilityID : CVE-2022-2982 
+│                        ├ [116] ╭ VulnerabilityID : CVE-2022-2982 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5576,7 +5642,7 @@
 │                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                        │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                        ├ [115] ╭ VulnerabilityID : CVE-2022-1886 
+│                        ├ [117] ╭ VulnerabilityID : CVE-2022-1886 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5619,7 +5685,7 @@
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                        │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [116] ╭ VulnerabilityID : CVE-2022-2208 
+│                        ├ [118] ╭ VulnerabilityID : CVE-2022-2208 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5668,7 +5734,7 @@
 │                        │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2208 
 │                        │       ├ PublishedDate   : 2022-06-27T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [117] ╭ VulnerabilityID : CVE-2022-2210 
+│                        ├ [119] ╭ VulnerabilityID : CVE-2022-2210 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5720,7 +5786,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2210 
 │                        │       ├ PublishedDate   : 2022-06-27T16:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [118] ╭ VulnerabilityID : CVE-2022-2231 
+│                        ├ [120] ╭ VulnerabilityID : CVE-2022-2231 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5772,7 +5838,7 @@
 │                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-2231 
 │                        │       ├ PublishedDate   : 2022-06-28T20:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [119] ╭ VulnerabilityID : CVE-2022-2257 
+│                        ├ [121] ╭ VulnerabilityID : CVE-2022-2257 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5825,7 +5891,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2257 
 │                        │       ├ PublishedDate   : 2022-06-30T21:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [120] ╭ VulnerabilityID : CVE-2022-2264 
+│                        ├ [122] ╭ VulnerabilityID : CVE-2022-2264 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5876,7 +5942,7 @@
 │                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-2264 
 │                        │       ├ PublishedDate   : 2022-07-01T11:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [121] ╭ VulnerabilityID : CVE-2022-2284 
+│                        ├ [123] ╭ VulnerabilityID : CVE-2022-2284 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5929,7 +5995,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2284 
 │                        │       ├ PublishedDate   : 2022-07-02T15:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [122] ╭ VulnerabilityID : CVE-2022-2285 
+│                        ├ [124] ╭ VulnerabilityID : CVE-2022-2285 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -5984,7 +6050,7 @@
 │                        │       │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2022-2285 
 │                        │       ├ PublishedDate   : 2022-07-02T16:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [123] ╭ VulnerabilityID : CVE-2022-2286 
+│                        ├ [125] ╭ VulnerabilityID : CVE-2022-2286 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -6037,7 +6103,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2286 
 │                        │       ├ PublishedDate   : 2022-07-02T19:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ├ [124] ╭ VulnerabilityID : CVE-2022-2287 
+│                        ├ [126] ╭ VulnerabilityID : CVE-2022-2287 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                        │       ├ PkgName         : xxd 
 │                        │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -6091,7 +6157,7 @@
 │                        │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-2287 
 │                        │       ├ PublishedDate   : 2022-07-02T22:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                        ╰ [125] ╭ VulnerabilityID : CVE-2022-2289 
+│                        ╰ [127] ╭ VulnerabilityID : CVE-2022-2289 
 │                                ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.9 
 │                                ├ PkgName         : xxd 
 │                                ├ InstalledVersion: 2:8.2.3995-1ubuntu2.9 
@@ -6243,75 +6309,79 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 6.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2357 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2802 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-27664 
-│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2107371 
-│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2107374 
-│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2107383 
-│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2107386 
-│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2107388 
-│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2113814 
-│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2124669 
-│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2132868 
-│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2132872 
-│                        │     │                  ├ [11]: https://bugzilla.redhat.com/2161274 
-│                        │     │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
-│                        │     │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
-│                        │     │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
-│                        │     │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
-│                        │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
-│                        │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
-│                        │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
-│                        │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
-│                        │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
-│                        │     │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2020-28851 
-│                        │     │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2020-28852 
-│                        │     │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-1705 
-│                        │     │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-27664 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2107342 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2107371 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2107374 
+│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2107376 
+│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2107383 
+│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2107386 
+│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2107388 
+│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2107390 
+│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2107392 
+│                        │     │                  ├ [11]: https://bugzilla.redhat.com/2113814 
+│                        │     │                  ├ [12]: https://bugzilla.redhat.com/2121445 
+│                        │     │                  ├ [13]: https://bugzilla.redhat.com/2124669 
+│                        │     │                  ├ [14]: https://bugzilla.redhat.com/2161274 
+│                        │     │                  ├ [15]: https://bugzilla.redhat.com/2168256 
+│                        │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
+│                        │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
+│                        │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
+│                        │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
+│                        │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
+│                        │     │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
+│                        │     │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
+│                        │     │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
+│                        │     │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
 │                        │     │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30630 
+│                        │     │                  │       VE-2020-28851 
 │                        │     │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30632 
+│                        │     │                  │       VE-2020-28852 
 │                        │     │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30635 
+│                        │     │                  │       VE-2022-1705 
 │                        │     │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-32148 
+│                        │     │                  │       VE-2022-27664 
 │                        │     │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30630 
+│                        │     │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30632 
+│                        │     │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30635 
+│                        │     │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-32148 
+│                        │     │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2022-32189 
-│                        │     │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2023-2357.html 
-│                        │     │                  ├ [31]: https://errata.rockylinux.org/RLSA-2022:7129 
-│                        │     │                  ├ [32]: https://github.com/advisories/GHSA-69cg-p879-7622 
-│                        │     │                  ├ [33]: https://github.com/golang/go/commit/5bc9106458fc
+│                        │     │                  ├ [34]: https://errata.almalinux.org/8/ALSA-2023-2802.html 
+│                        │     │                  ├ [35]: https://errata.rockylinux.org/RLSA-2022:7129 
+│                        │     │                  ├ [36]: https://github.com/advisories/GHSA-69cg-p879-7622 
+│                        │     │                  ├ [37]: https://github.com/golang/go/commit/5bc9106458fc
 │                        │     │                  │       07851ac324a4157132a91b1f3479 (go1.18.6) 
-│                        │     │                  ├ [34]: https://github.com/golang/go/commit/9cfe4e258b1c
+│                        │     │                  ├ [38]: https://github.com/golang/go/commit/9cfe4e258b1c
 │                        │     │                  │       9d4a04a42539c21c7bdb2e227824 (go1.19.1) 
-│                        │     │                  ├ [35]: https://github.com/golang/go/issues/54658 
-│                        │     │                  ├ [36]: https://go.dev/cl/428735 
-│                        │     │                  ├ [37]: https://go.dev/issue/54658 
-│                        │     │                  ├ [38]: https://groups.google.com/g/golang-announce 
-│                        │     │                  ├ [39]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  ├ [39]: https://github.com/golang/go/issues/54658 
+│                        │     │                  ├ [40]: https://go.dev/cl/428735 
+│                        │     │                  ├ [41]: https://go.dev/issue/54658 
+│                        │     │                  ├ [42]: https://groups.google.com/g/golang-announce 
+│                        │     │                  ├ [43]: https://groups.google.com/g/golang-announce/c/x4
 │                        │     │                  │       9AQzIVX-s 
-│                        │     │                  ├ [40]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  ├ [44]: https://groups.google.com/g/golang-announce/c/x4
 │                        │     │                  │       9AQzIVX-s/m/0tgO0pjiBQAJ 
-│                        │     │                  ├ [41]: https://linux.oracle.com/cve/CVE-2022-27664.html 
-│                        │     │                  ├ [42]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
-│                        │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [45]: https://linux.oracle.com/cve/CVE-2022-27664.html 
+│                        │     │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
+│                        │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/JXKTHI
 │                        │     │                  │       GE5F576MAPFYCIJXNRGBSPISUF/ 
-│                        │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/TXS2OQ
 │                        │     │                  │       57KZC5XZKK5UW4SYKPVQAHIOJX/ 
-│                        │     │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
-│                        │     │                  ├ [46]: https://pkg.go.dev/vuln/GO-2022-0969 
-│                        │     │                  ├ [47]: https://security.gentoo.org/glsa/202209-26 
-│                        │     │                  ├ [48]: https://security.netapp.com/advisory/ntap-202209
+│                        │     │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
+│                        │     │                  ├ [50]: https://pkg.go.dev/vuln/GO-2022-0969 
+│                        │     │                  ├ [51]: https://security.gentoo.org/glsa/202209-26 
+│                        │     │                  ├ [52]: https://security.netapp.com/advisory/ntap-202209
 │                        │     │                  │       23-0004/ 
-│                        │     │                  ├ [49]: https://ubuntu.com/security/notices/USN-6038-1 
-│                        │     │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
+│                        │     │                  ├ [53]: https://ubuntu.com/security/notices/USN-6038-1 
+│                        │     │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
 │                        │     ├ PublishedDate   : 2022-09-06T18:15:00Z 
 │                        │     ╰ LastModifiedDate: 2022-10-28T12:42:00Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2022-41723 
@@ -6619,68 +6689,64 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:8008 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:7469 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-27191 
-│                        │     │                  ├ [2] : https://bugzilla.redhat.com/1939485 
-│                        │     │                  ├ [3] : https://bugzilla.redhat.com/1989564 
-│                        │     │                  ├ [4] : https://bugzilla.redhat.com/1989570 
-│                        │     │                  ├ [5] : https://bugzilla.redhat.com/1989575 
-│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2064702 
-│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2121445 
-│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2121453 
-│                        │     │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2022-8008.html 
-│                        │     │                  ├ [10]: https://github.com/advisories/GHSA-8c26-wmh5-6g9v 
-│                        │     │                  ├ [11]: https://go.dev/cl/392355 
-│                        │     │                  ├ [12]: https://go.googlesource.com/crypto/+/1baeb1ce4c0
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2064702 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2085361 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2086398 
+│                        │     │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2022-7469.html 
+│                        │     │                  ├ [6] : https://github.com/advisories/GHSA-8c26-wmh5-6g9v 
+│                        │     │                  ├ [7] : https://go.dev/cl/392355 
+│                        │     │                  ├ [8] : https://go.googlesource.com/crypto/+/1baeb1ce4c0
 │                        │     │                  │       b006eff0f294c47cb7617598dfb3d 
-│                        │     │                  ├ [13]: https://groups.google.com/g/golang-announce 
-│                        │     │                  ├ [14]: https://groups.google.com/g/golang-announce/c/-c
+│                        │     │                  ├ [9] : https://groups.google.com/g/golang-announce 
+│                        │     │                  ├ [10]: https://groups.google.com/g/golang-announce/c/-c
 │                        │     │                  │       p44ypCT5s 
-│                        │     │                  ├ [15]: https://groups.google.com/g/golang-announce/c/-c
+│                        │     │                  ├ [11]: https://groups.google.com/g/golang-announce/c/-c
 │                        │     │                  │       p44ypCT5s/m/wmegxkLiAQAJ 
-│                        │     │                  ├ [16]: https://linux.oracle.com/cve/CVE-2022-27191.html 
-│                        │     │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2022-8008.html 
-│                        │     │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [12]: https://linux.oracle.com/cve/CVE-2022-27191.html 
+│                        │     │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2022-8008.html 
+│                        │     │                  ├ [14]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/DLUJZV
 │                        │     │                  │       3HBP56ADXU6QH2V7RNYUPMVBXQ/ 
-│                        │     │                  ├ [19]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [15]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/EZ3S7L
 │                        │     │                  │       B65N54HXXBCB67P4TTOHTNPP5O/ 
-│                        │     │                  ├ [20]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [16]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/HHGBEG
 │                        │     │                  │       J54DZZGTXFUQNS7ZIG3E624YAF/ 
-│                        │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/J5WPM4
 │                        │     │                  │       2UR6XIBQNQPNQHM32X7S4LJTRX/ 
-│                        │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QTFOID
 │                        │     │                  │       HQRGNI4P6LYN6ILH5G443RYYKB/ 
-│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [19]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/RQXU75
 │                        │     │                  │       2ALW53OJAF5MG3WMR5CCZVLWW6/ 
-│                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [20]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/YHYRQB
 │                        │     │                  │       7TRMHDB3NEHW5XBRG7PPMUTPGV/ 
-│                        │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/Z55VUV
 │                        │     │                  │       GO7E5PJFXIOVAY373NZRHBNCI5/ 
-│                        │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ZFUNHF
 │                        │     │                  │       HQVJSADNH7EZ3B53CYDZVEEPBP/ 
-│                        │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ZQNPPQ
 │                        │     │                  │       WSTP2IX7SHE6TS4SP4EVMI5EZK/ 
-│                        │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ZY2SLW
 │                        │     │                  │       OQR4ZURQ7UBRZ7JIX6H6F5JHJR/ 
-│                        │     │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2022-27191 
-│                        │     │                  ├ [30]: https://pkg.go.dev/vuln/GO-2021-0356 
-│                        │     │                  ├ [31]: https://raw.githubusercontent.com/golang/vulndb/
+│                        │     │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2022-27191 
+│                        │     │                  ├ [26]: https://pkg.go.dev/vuln/GO-2021-0356 
+│                        │     │                  ├ [27]: https://raw.githubusercontent.com/golang/vulndb/
 │                        │     │                  │       df2d3d326300e2ae768f00351ffa96cc2c56cf54/reports/GO-2
 │                        │     │                  │       021-0356.yaml 
-│                        │     │                  ├ [32]: https://security.netapp.com/advisory/ntap-202204
+│                        │     │                  ├ [28]: https://security.netapp.com/advisory/ntap-202204
 │                        │     │                  │       29-0002/ 
-│                        │     │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2022-27191 
+│                        │     │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2022-27191 
 │                        │     ├ PublishedDate   : 2022-03-18T07:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-08-08T14:22:00Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2021-33194 
@@ -6768,75 +6834,79 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 6.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2357 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2802 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-27664 
-│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2107371 
-│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2107374 
-│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2107383 
-│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2107386 
-│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2107388 
-│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2113814 
-│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2124669 
-│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2132868 
-│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2132872 
-│                        │     │                  ├ [11]: https://bugzilla.redhat.com/2161274 
-│                        │     │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
-│                        │     │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
-│                        │     │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
-│                        │     │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
-│                        │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
-│                        │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
-│                        │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
-│                        │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
-│                        │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
-│                        │     │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2020-28851 
-│                        │     │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2020-28852 
-│                        │     │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-1705 
-│                        │     │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-27664 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2107342 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2107371 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2107374 
+│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2107376 
+│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2107383 
+│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2107386 
+│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2107388 
+│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2107390 
+│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2107392 
+│                        │     │                  ├ [11]: https://bugzilla.redhat.com/2113814 
+│                        │     │                  ├ [12]: https://bugzilla.redhat.com/2121445 
+│                        │     │                  ├ [13]: https://bugzilla.redhat.com/2124669 
+│                        │     │                  ├ [14]: https://bugzilla.redhat.com/2161274 
+│                        │     │                  ├ [15]: https://bugzilla.redhat.com/2168256 
+│                        │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
+│                        │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
+│                        │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
+│                        │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
+│                        │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
+│                        │     │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
+│                        │     │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
+│                        │     │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
+│                        │     │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
 │                        │     │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30630 
+│                        │     │                  │       VE-2020-28851 
 │                        │     │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30632 
+│                        │     │                  │       VE-2020-28852 
 │                        │     │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30635 
+│                        │     │                  │       VE-2022-1705 
 │                        │     │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-32148 
+│                        │     │                  │       VE-2022-27664 
 │                        │     │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30630 
+│                        │     │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30632 
+│                        │     │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30635 
+│                        │     │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-32148 
+│                        │     │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2022-32189 
-│                        │     │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2023-2357.html 
-│                        │     │                  ├ [31]: https://errata.rockylinux.org/RLSA-2022:7129 
-│                        │     │                  ├ [32]: https://github.com/advisories/GHSA-69cg-p879-7622 
-│                        │     │                  ├ [33]: https://github.com/golang/go/commit/5bc9106458fc
+│                        │     │                  ├ [34]: https://errata.almalinux.org/8/ALSA-2023-2802.html 
+│                        │     │                  ├ [35]: https://errata.rockylinux.org/RLSA-2022:7129 
+│                        │     │                  ├ [36]: https://github.com/advisories/GHSA-69cg-p879-7622 
+│                        │     │                  ├ [37]: https://github.com/golang/go/commit/5bc9106458fc
 │                        │     │                  │       07851ac324a4157132a91b1f3479 (go1.18.6) 
-│                        │     │                  ├ [34]: https://github.com/golang/go/commit/9cfe4e258b1c
+│                        │     │                  ├ [38]: https://github.com/golang/go/commit/9cfe4e258b1c
 │                        │     │                  │       9d4a04a42539c21c7bdb2e227824 (go1.19.1) 
-│                        │     │                  ├ [35]: https://github.com/golang/go/issues/54658 
-│                        │     │                  ├ [36]: https://go.dev/cl/428735 
-│                        │     │                  ├ [37]: https://go.dev/issue/54658 
-│                        │     │                  ├ [38]: https://groups.google.com/g/golang-announce 
-│                        │     │                  ├ [39]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  ├ [39]: https://github.com/golang/go/issues/54658 
+│                        │     │                  ├ [40]: https://go.dev/cl/428735 
+│                        │     │                  ├ [41]: https://go.dev/issue/54658 
+│                        │     │                  ├ [42]: https://groups.google.com/g/golang-announce 
+│                        │     │                  ├ [43]: https://groups.google.com/g/golang-announce/c/x4
 │                        │     │                  │       9AQzIVX-s 
-│                        │     │                  ├ [40]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  ├ [44]: https://groups.google.com/g/golang-announce/c/x4
 │                        │     │                  │       9AQzIVX-s/m/0tgO0pjiBQAJ 
-│                        │     │                  ├ [41]: https://linux.oracle.com/cve/CVE-2022-27664.html 
-│                        │     │                  ├ [42]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
-│                        │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [45]: https://linux.oracle.com/cve/CVE-2022-27664.html 
+│                        │     │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
+│                        │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/JXKTHI
 │                        │     │                  │       GE5F576MAPFYCIJXNRGBSPISUF/ 
-│                        │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/TXS2OQ
 │                        │     │                  │       57KZC5XZKK5UW4SYKPVQAHIOJX/ 
-│                        │     │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
-│                        │     │                  ├ [46]: https://pkg.go.dev/vuln/GO-2022-0969 
-│                        │     │                  ├ [47]: https://security.gentoo.org/glsa/202209-26 
-│                        │     │                  ├ [48]: https://security.netapp.com/advisory/ntap-202209
+│                        │     │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
+│                        │     │                  ├ [50]: https://pkg.go.dev/vuln/GO-2022-0969 
+│                        │     │                  ├ [51]: https://security.gentoo.org/glsa/202209-26 
+│                        │     │                  ├ [52]: https://security.netapp.com/advisory/ntap-202209
 │                        │     │                  │       23-0004/ 
-│                        │     │                  ├ [49]: https://ubuntu.com/security/notices/USN-6038-1 
-│                        │     │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
+│                        │     │                  ├ [53]: https://ubuntu.com/security/notices/USN-6038-1 
+│                        │     │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
 │                        │     ├ PublishedDate   : 2022-09-06T18:15:00Z 
 │                        │     ╰ LastModifiedDate: 2022-10-28T12:42:00Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2022-41723 
@@ -7157,75 +7227,79 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 6.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2357 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2802 
 │                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-27664 
-│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2107371 
-│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2107374 
-│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2107383 
-│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2107386 
-│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2107388 
-│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2113814 
-│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2124669 
-│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2132868 
-│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2132872 
-│                        │     │                  ├ [11]: https://bugzilla.redhat.com/2161274 
-│                        │     │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
-│                        │     │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
-│                        │     │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
-│                        │     │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
-│                        │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
-│                        │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
-│                        │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
-│                        │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
-│                        │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
-│                        │     │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2020-28851 
-│                        │     │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2020-28852 
-│                        │     │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-1705 
-│                        │     │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-27664 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2107342 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2107371 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2107374 
+│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2107376 
+│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2107383 
+│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2107386 
+│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2107388 
+│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2107390 
+│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2107392 
+│                        │     │                  ├ [11]: https://bugzilla.redhat.com/2113814 
+│                        │     │                  ├ [12]: https://bugzilla.redhat.com/2121445 
+│                        │     │                  ├ [13]: https://bugzilla.redhat.com/2124669 
+│                        │     │                  ├ [14]: https://bugzilla.redhat.com/2161274 
+│                        │     │                  ├ [15]: https://bugzilla.redhat.com/2168256 
+│                        │     │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
+│                        │     │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
+│                        │     │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
+│                        │     │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
+│                        │     │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
+│                        │     │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
+│                        │     │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
+│                        │     │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
+│                        │     │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
 │                        │     │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30630 
+│                        │     │                  │       VE-2020-28851 
 │                        │     │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30632 
+│                        │     │                  │       VE-2020-28852 
 │                        │     │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-30635 
+│                        │     │                  │       VE-2022-1705 
 │                        │     │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │     │                  │       VE-2022-32148 
+│                        │     │                  │       VE-2022-27664 
 │                        │     │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30630 
+│                        │     │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30632 
+│                        │     │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-30635 
+│                        │     │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2022-32148 
+│                        │     │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2022-32189 
-│                        │     │                  ├ [30]: https://errata.almalinux.org/9/ALSA-2023-2357.html 
-│                        │     │                  ├ [31]: https://errata.rockylinux.org/RLSA-2022:7129 
-│                        │     │                  ├ [32]: https://github.com/advisories/GHSA-69cg-p879-7622 
-│                        │     │                  ├ [33]: https://github.com/golang/go/commit/5bc9106458fc
+│                        │     │                  ├ [34]: https://errata.almalinux.org/8/ALSA-2023-2802.html 
+│                        │     │                  ├ [35]: https://errata.rockylinux.org/RLSA-2022:7129 
+│                        │     │                  ├ [36]: https://github.com/advisories/GHSA-69cg-p879-7622 
+│                        │     │                  ├ [37]: https://github.com/golang/go/commit/5bc9106458fc
 │                        │     │                  │       07851ac324a4157132a91b1f3479 (go1.18.6) 
-│                        │     │                  ├ [34]: https://github.com/golang/go/commit/9cfe4e258b1c
+│                        │     │                  ├ [38]: https://github.com/golang/go/commit/9cfe4e258b1c
 │                        │     │                  │       9d4a04a42539c21c7bdb2e227824 (go1.19.1) 
-│                        │     │                  ├ [35]: https://github.com/golang/go/issues/54658 
-│                        │     │                  ├ [36]: https://go.dev/cl/428735 
-│                        │     │                  ├ [37]: https://go.dev/issue/54658 
-│                        │     │                  ├ [38]: https://groups.google.com/g/golang-announce 
-│                        │     │                  ├ [39]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  ├ [39]: https://github.com/golang/go/issues/54658 
+│                        │     │                  ├ [40]: https://go.dev/cl/428735 
+│                        │     │                  ├ [41]: https://go.dev/issue/54658 
+│                        │     │                  ├ [42]: https://groups.google.com/g/golang-announce 
+│                        │     │                  ├ [43]: https://groups.google.com/g/golang-announce/c/x4
 │                        │     │                  │       9AQzIVX-s 
-│                        │     │                  ├ [40]: https://groups.google.com/g/golang-announce/c/x4
+│                        │     │                  ├ [44]: https://groups.google.com/g/golang-announce/c/x4
 │                        │     │                  │       9AQzIVX-s/m/0tgO0pjiBQAJ 
-│                        │     │                  ├ [41]: https://linux.oracle.com/cve/CVE-2022-27664.html 
-│                        │     │                  ├ [42]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
-│                        │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [45]: https://linux.oracle.com/cve/CVE-2022-27664.html 
+│                        │     │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
+│                        │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/JXKTHI
 │                        │     │                  │       GE5F576MAPFYCIJXNRGBSPISUF/ 
-│                        │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/TXS2OQ
 │                        │     │                  │       57KZC5XZKK5UW4SYKPVQAHIOJX/ 
-│                        │     │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
-│                        │     │                  ├ [46]: https://pkg.go.dev/vuln/GO-2022-0969 
-│                        │     │                  ├ [47]: https://security.gentoo.org/glsa/202209-26 
-│                        │     │                  ├ [48]: https://security.netapp.com/advisory/ntap-202209
+│                        │     │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
+│                        │     │                  ├ [50]: https://pkg.go.dev/vuln/GO-2022-0969 
+│                        │     │                  ├ [51]: https://security.gentoo.org/glsa/202209-26 
+│                        │     │                  ├ [52]: https://security.netapp.com/advisory/ntap-202209
 │                        │     │                  │       23-0004/ 
-│                        │     │                  ├ [49]: https://ubuntu.com/security/notices/USN-6038-1 
-│                        │     │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
+│                        │     │                  ├ [53]: https://ubuntu.com/security/notices/USN-6038-1 
+│                        │     │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
 │                        │     ├ PublishedDate   : 2022-09-06T18:15:00Z 
 │                        │     ╰ LastModifiedDate: 2022-10-28T12:42:00Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2022-41723 
@@ -7568,118 +7642,7 @@
 │                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-2253 
 │                              ├ PublishedDate   : 2023-06-06T20:15:00Z 
 │                              ╰ LastModifiedDate: 2023-06-29T16:15:00Z 
-├ [7]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a2
-│                                  │            7049ab6aee5cb 
-│                                  ├ DiffID   : sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46
-│                                  │            c7ba2b858e580 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [8]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a2
-│                                  │            7049ab6aee5cb 
-│                                  ├ DiffID   : sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46
-│                                  │            c7ba2b858e580 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [7]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -7855,7 +7818,173 @@
 │                                  ├ DiffID   : sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46
 │                                  │            c7ba2b858e580 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [8]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            *********************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a2
+│                                  │            7049ab6aee5cb 
+│                                  ├ DiffID   : sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46
+│                                  │            c7ba2b858e580 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRIVATE KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRIVATE KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a2
+│                                  │            7049ab6aee5cb 
+│                                  ├ DiffID   : sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46
+│                                  │            c7ba2b858e580 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -7872,28 +8001,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRIVATE
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -7906,28 +8014,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRIVATE
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -7943,20 +8030,7 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            *********************************************************-----END OPENSSH
+                       │            **************************************************-----END OPENSSH
                        │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a2
                                    │            7049ab6aee5cb 
