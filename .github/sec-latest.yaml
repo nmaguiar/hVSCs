@@ -1181,6 +1181,12 @@
     Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
     Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-824
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
     - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
@@ -1188,7 +1194,7 @@
     - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
     - https://web.mit.edu/kerberos/www/advisories/
     PublishedDate: '2023-08-07T19:15:00Z'
-    LastModifiedDate: '2023-08-07T19:30:00Z'
+    LastModifiedDate: '2023-08-15T17:57:00Z'
   - VulnerabilityID: CVE-2023-36054
     PkgID: libk5crypto3@1.19.2-2ubuntu0.2
     PkgName: libk5crypto3
@@ -1206,6 +1212,12 @@
     Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
     Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-824
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
     - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
@@ -1213,7 +1225,7 @@
     - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
     - https://web.mit.edu/kerberos/www/advisories/
     PublishedDate: '2023-08-07T19:15:00Z'
-    LastModifiedDate: '2023-08-07T19:30:00Z'
+    LastModifiedDate: '2023-08-15T17:57:00Z'
   - VulnerabilityID: CVE-2023-36054
     PkgID: libkrb5-3@1.19.2-2ubuntu0.2
     PkgName: libkrb5-3
@@ -1231,6 +1243,12 @@
     Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
     Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-824
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
     - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
@@ -1238,7 +1256,7 @@
     - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
     - https://web.mit.edu/kerberos/www/advisories/
     PublishedDate: '2023-08-07T19:15:00Z'
-    LastModifiedDate: '2023-08-07T19:30:00Z'
+    LastModifiedDate: '2023-08-15T17:57:00Z'
   - VulnerabilityID: CVE-2023-36054
     PkgID: libkrb5support0@1.19.2-2ubuntu0.2
     PkgName: libkrb5support0
@@ -1256,6 +1274,12 @@
     Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
     Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-824
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.5
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
     - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
@@ -1263,7 +1287,7 @@
     - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
     - https://web.mit.edu/kerberos/www/advisories/
     PublishedDate: '2023-08-07T19:15:00Z'
-    LastModifiedDate: '2023-08-07T19:30:00Z'
+    LastModifiedDate: '2023-08-15T17:57:00Z'
   - VulnerabilityID: CVE-2023-2953
     PkgID: libldap-2.5-0@2.5.14+dfsg-0ubuntu0.22.04.2
     PkgName: libldap-2.5-0
@@ -1630,7 +1654,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1677,6 +1702,7 @@
     - https://security.gentoo.org/glsa/202305-31
     - https://security.netapp.com/advisory/ntap-20230302-0004/
     - https://ubuntu.com/security/notices/USN-5841-1
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2022-48281
     - https://www.debian.org/security/2023/dsa-5333
     PublishedDate: '2023-01-23T03:15:00Z'
@@ -1685,7 +1711,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1715,6 +1742,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/07/msg00034.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-25433
     - https://ubuntu.com/security/notices/USN-6229-1
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-25433
     PublishedDate: '2023-06-29T20:15:00Z'
     LastModifiedDate: '2023-08-01T02:15:00Z'
@@ -1722,7 +1750,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1753,6 +1782,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/07/msg00034.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26966
     - https://ubuntu.com/security/notices/USN-6229-1
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-26966
     PublishedDate: '2023-06-29T20:15:00Z'
     LastModifiedDate: '2023-08-01T02:15:00Z'
@@ -1760,7 +1790,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1791,6 +1822,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/07/msg00034.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-2908
     - https://security.netapp.com/advisory/ntap-20230731-0004/
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-2908
     PublishedDate: '2023-06-30T22:15:00Z'
     LastModifiedDate: '2023-08-02T15:41:00Z'
@@ -1798,7 +1830,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1824,12 +1857,74 @@
     - https://access.redhat.com/security/cve/CVE-2023-3618
     - https://bugzilla.redhat.com/show_bug.cgi?id=2215865
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3618
+    - https://gitlab.com/libtiff/libtiff/-/commit/8a4f6b587be4fa7bb39fe17f5f9dec52182ab26e
     - https://gitlab.com/libtiff/libtiff/-/issues/529
     - https://lists.debian.org/debian-lts-announce/2023/07/msg00034.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3618
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3618
     PublishedDate: '2023-07-12T15:15:00Z'
-    LastModifiedDate: '2023-08-08T17:15:00Z'
+    LastModifiedDate: '2023-08-16T17:02:00Z'
+  - VulnerabilityID: CVE-2023-38288
+    PkgID: libtiff5@4.3.0-6ubuntu0.4
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.4
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
+      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38288
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: potential integer overflow in raw2tiff.c
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38288
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38288
+    - https://gitlab.com/libtiff/libtiff/-/commit/4fc16f649fa2875d5c388cf2edc295510a247ee5
+    - https://gitlab.com/libtiff/libtiff/-/issues/591
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38288
+    - https://ubuntu.com/security/notices/USN-6290-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38288
+  - VulnerabilityID: CVE-2023-38289
+    PkgID: libtiff5@4.3.0-6ubuntu0.4
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.4
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
+    Layer:
+      Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
+      DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-38289
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: integer overflow in tiffcp.c
+    Description: No description is available for this CVE.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-38289
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38289
+    - https://gitlab.com/libtiff/libtiff/-/commit/6e2dac5f904496d127c92ddc4e56eccfca25c2ee
+    - https://gitlab.com/libtiff/libtiff/-/issues/592
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-38289
+    - https://ubuntu.com/security/notices/USN-6290-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-38289
   - VulnerabilityID: CVE-2018-10126
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
@@ -1907,7 +2002,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1937,6 +2033,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-26965
     - https://security.netapp.com/advisory/ntap-20230706-0009/
     - https://ubuntu.com/security/notices/USN-6229-1
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-26965
     PublishedDate: '2023-06-14T21:15:00Z'
     LastModifiedDate: '2023-08-01T02:15:00Z'
@@ -1944,7 +2041,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.4
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.4
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.5
+    Status: fixed
     Layer:
       Digest: sha256:6a208dd43e742302c40f502dd5e6392a40a394ffd14dc9825a27049ab6aee5cb
       DiffID: sha256:a269065bf0ab7963f4e9b00abafb278a90f5d6de7291603ee46c7ba2b858e580
@@ -1977,6 +2075,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3316
     - https://research.jfrog.com/vulnerabilities/libtiff-nullderef-dos-xray-522144/
     - https://ubuntu.com/security/notices/USN-6229-1
+    - https://ubuntu.com/security/notices/USN-6290-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3316
     PublishedDate: '2023-06-19T12:15:00Z'
     LastModifiedDate: '2023-08-01T02:15:00Z'
@@ -2103,6 +2202,7 @@
     - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
     - https://linux.oracle.com/cve/CVE-2023-38408.html
     - https://linux.oracle.com/errata/ELSA-2023-4428.html
+    - https://lists.debian.org/debian-lts-announce/2023/08/msg00021.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CEBTJJINE2I3FHAUKKNQWMFGYMLSMWKQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
     - https://news.ycombinator.com/item?id=36790196
@@ -2116,7 +2216,7 @@
     - https://www.openssh.com/txt/release-9.3p2
     - https://www.qualys.com/2023/07/19/cve-2023-38408/rce-openssh-forwarded-ssh-agent.txt
     PublishedDate: '2023-07-20T03:15:00Z'
-    LastModifiedDate: '2023-08-03T15:15:00Z'
+    LastModifiedDate: '2023-08-17T19:15:00Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-client@1:8.9p1-3ubuntu0.1
     PkgName: openssh-client
@@ -2195,6 +2295,7 @@
     - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
     - https://linux.oracle.com/cve/CVE-2023-38408.html
     - https://linux.oracle.com/errata/ELSA-2023-4428.html
+    - https://lists.debian.org/debian-lts-announce/2023/08/msg00021.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CEBTJJINE2I3FHAUKKNQWMFGYMLSMWKQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
     - https://news.ycombinator.com/item?id=36790196
@@ -2208,7 +2309,7 @@
     - https://www.openssh.com/txt/release-9.3p2
     - https://www.qualys.com/2023/07/19/cve-2023-38408/rce-openssh-forwarded-ssh-agent.txt
     PublishedDate: '2023-07-20T03:15:00Z'
-    LastModifiedDate: '2023-08-03T15:15:00Z'
+    LastModifiedDate: '2023-08-17T19:15:00Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-server@1:8.9p1-3ubuntu0.1
     PkgName: openssh-server
@@ -2287,6 +2388,7 @@
     - https://github.com/openbsd/src/commit/f8f5a6b003981bb824329dc987d101977beda7ca
     - https://linux.oracle.com/cve/CVE-2023-38408.html
     - https://linux.oracle.com/errata/ELSA-2023-4428.html
+    - https://lists.debian.org/debian-lts-announce/2023/08/msg00021.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CEBTJJINE2I3FHAUKKNQWMFGYMLSMWKQ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RAXVQS6ZYTULFAK3TEJHRLKZALJS3AOU/
     - https://news.ycombinator.com/item?id=36790196
@@ -2300,7 +2402,7 @@
     - https://www.openssh.com/txt/release-9.3p2
     - https://www.qualys.com/2023/07/19/cve-2023-38408/rce-openssh-forwarded-ssh-agent.txt
     PublishedDate: '2023-07-20T03:15:00Z'
-    LastModifiedDate: '2023-08-03T15:15:00Z'
+    LastModifiedDate: '2023-08-17T19:15:00Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.1
     PkgName: openssh-sftp-server
