@@ -40,8 +40,7 @@ COPY --chown=1000:1000 extensions /tmp/.extensions
 SHELL ["/bin/bash", "-c"]
 USER openvscode-server
 #RUN mkdir /tmp/.extensions\
-RUN chmod a+x /usr/bin/status.js\
- && cd /tmp/.extensions\
+RUN cd /tmp/.extensions\
  && chown -R openvscode-server: /tmp/.extensions\
  #&& exts=(/tmp/.extensions/*.vsix)\
  && exts=(\
@@ -66,7 +65,8 @@ RUN chsh --shell /bin/bash openvscode-server\
  && chown openvscode-server: .rp.yaml\
  && mkdir /workspace\
  && mkdir /workspace/.vscode\
- && chown -R openvscode-server: /workspace
+ && chown -R openvscode-server: /workspace\
+ && chmod a+x /usr/bin/status.js
 
 COPY --chown=1000:1000 settings.json /workspace/.vscode/settings.json
 COPY --chown=1000:1000 README.md /workspace/README.md
