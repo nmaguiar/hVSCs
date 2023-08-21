@@ -89,7 +89,7 @@ init:
 
           {{#if auth}}
           auth_basic "Restricted";
-          auth_basic_user_file /etc/nginx/.htpasswd;
+          auth_basic_user_file {{fileAuth}};
           {{/if}}
         }
       }
@@ -153,20 +153,21 @@ jobs:
   exec : |
     // Write nginx conf
     var file = io.fileInfo(args.path).canonicalPath + "/nginx.conf"
+    var fileAuth = io.fileInfo(args.path).canonicalPath + "/.htpasswd"
     log("Creating nginx configuration '" + file +"'...")
     io.writeFileString(file, templify(args.init.nginxConf, {
       url : args.url,
       auth: args.auth,
       ssl : isDef(args.ssl),
       websocket: args.websocket,
-      port: args.port
+      port: args.port,
+      fileAuth: fileAuth
     }))
 
     // Write auth
     var fileAuth
     if (isDef(args.auth)) {
-      fileAuth = io.fileInfo(args.path).canonicalPath + "/nginx_htpasswd"
-      log("Creating nginx auth '" + file +"'...")
+      log("Creating nginx auth '" + fileAuth +"'...")
       io.writeFileString(fileAuth, args.auth.split(":").map((r, i) => i == 1 ? bcrypt(r) : r).join(":"))
     }
 
