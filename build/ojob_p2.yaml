@@ -34,7 +34,7 @@ jobs:
     {{#if NOHTTPS}}
     echo no HTTPS reverse proxy started
     {{else}}
-    ojob /home/openvscode-server/.rp.yaml url=http://127.0.0.1:3000 port=8443 websocket=true ssl=hvscs sslvalid=525600
+    ojob /home/openvscode-server/.rp.yaml url=http://127.0.0.1:3000 port=8443 websocket=true ssl=hvscs sslvalid=525600 {{#if WEB_AUTH}}auth={{WEB_AUTH}}{{/if}}
     {{/if}}
 
 # ============================
