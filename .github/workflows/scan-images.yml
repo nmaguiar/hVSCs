@@ -26,14 +26,14 @@ jobs:
       name: Check latest
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/hvscs:latest file=.github/sec-latest.svg reportFile=.github/sec-latest.yaml scanOptions="--skip-dirs\ /home/.openvscode-server"'
+        args: 'image=nmaguiar/hvscs:latest file=.github/sec-latest.svg reportFile=.github/sec-latest.yaml scanOptions="--skip-dirs\ /home/.openvscode-server\ --skip-dirs\ home/.openvscode-server"'
         dist: 't8'
 
     - uses: openaf/ojob-action@v4
       name: Check build
       with:
         ojob: 'ojob.io/sec/genSecBadge'
-        args: 'image=nmaguiar/hvscs:build file=.github/sec-build.svg reportFile=.github/sec-build.yaml scanOptions="--skip-dirs\ /home/.openvscode-server"'
+        args: 'image=nmaguiar/hvscs:build file=.github/sec-build.svg reportFile=.github/sec-build.yaml scanOptions="--skip-dirs\ /home/.openvscode-server\ --skip-dirs\ home/.openvscode-server"'
         dist: 't8'
 
     - uses: openaf/ojob-action@v4
