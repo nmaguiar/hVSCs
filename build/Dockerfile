@@ -6,6 +6,7 @@ RUN apt-get update\
  && apt-get install -y apt-utils curl wget vim tmux iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip skopeo htop nginx\
  && apt-get clean\
  && curl https://openaf.io/install.sh | sh\
+ && chmod a+x /opt/oaf/*-sb\
  && curl https://get.docker.com | sh\
  && opack install ojob-common\
  && ojob ojob.io/docker/k3d\
@@ -33,12 +34,14 @@ RUN apt-get update\
 COPY ojob_p2.yaml /tmp/.p2.yaml
 COPY ojob_p1.sh /tmp/.p1.sh
 COPY ojob_rp.yaml /tmp/.rp.yaml
+COPY status.js /usr/bin/status.js
 COPY --chown=1000:1000 extensions /tmp/.extensions
 
 SHELL ["/bin/bash", "-c"]
 USER openvscode-server
 #RUN mkdir /tmp/.extensions\
-RUN cd /tmp/.extensions\
+RUN chmod a+x /usr/bin/status.js\
+ && cd /tmp/.extensions\
  && chown -R openvscode-server: /tmp/.extensions\
  #&& exts=(/tmp/.extensions/*.vsix)\
  && exts=(\
