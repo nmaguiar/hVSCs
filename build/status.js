@@ -11,10 +11,11 @@ var status = {
 
 var text = `# hVSCs status
 
-{{bool Docker}} Docker
-{{bool K8SStart}} Kubernetes started
-{{bool K8SReady}} Kubernetes ready
-`
+{{bool Docker}} Docker is ready to use
+{{bool K8SStart}} Kubernetes is starting
+{{bool K8SReady}} Kubernetes is ready to use
+
+(Wait until the component you need gets a green check. You can exit anytime by hiting Ctrl-C)`
 
 ow.template.addHelper("bool", v => ow.format.string.bool(v, true))
 
