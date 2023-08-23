@@ -872,7 +872,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
+    Title: Denial of service through freeing uninitialized pointer
     Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
     Severity: MEDIUM
     CweIDs:
@@ -881,12 +881,18 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2023-36054
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
     - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
     - https://github.com/krb5/krb5/compare/krb5-1.20.1-final...krb5-1.20.2-final
     - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://web.mit.edu/kerberos/www/advisories/
+    - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
     LastModifiedDate: '2023-08-15T17:57:00Z'
   - VulnerabilityID: CVE-2023-36054
@@ -903,7 +909,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
+    Title: Denial of service through freeing uninitialized pointer
     Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
     Severity: MEDIUM
     CweIDs:
@@ -912,12 +918,18 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2023-36054
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
     - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
     - https://github.com/krb5/krb5/compare/krb5-1.20.1-final...krb5-1.20.2-final
     - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://web.mit.edu/kerberos/www/advisories/
+    - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
     LastModifiedDate: '2023-08-15T17:57:00Z'
   - VulnerabilityID: CVE-2023-36054
@@ -934,7 +946,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
+    Title: Denial of service through freeing uninitialized pointer
     Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
     Severity: MEDIUM
     CweIDs:
@@ -943,12 +955,18 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2023-36054
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
     - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
     - https://github.com/krb5/krb5/compare/krb5-1.20.1-final...krb5-1.20.2-final
     - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://web.mit.edu/kerberos/www/advisories/
+    - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
     LastModifiedDate: '2023-08-15T17:57:00Z'
   - VulnerabilityID: CVE-2023-36054
@@ -965,7 +983,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 an ...
+    Title: Denial of service through freeing uninitialized pointer
     Description: lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5) before 1.20.2 and 1.21.x before 1.21.1 frees an uninitialized pointer. A remote authenticated user can trigger a kadmind crash. This occurs because _xdr_kadm5_principal_ent_rec does not validate the relationship between n_key_data and the key_data array count.
     Severity: MEDIUM
     CweIDs:
@@ -974,12 +992,18 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2023-36054
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36054
     - https://github.com/krb5/krb5/commit/ef08b09c9459551aabbe7924fb176f1583053cdd
     - https://github.com/krb5/krb5/compare/krb5-1.20.1-final...krb5-1.20.2-final
     - https://github.com/krb5/krb5/compare/krb5-1.21-final...krb5-1.21.1-final
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://web.mit.edu/kerberos/www/advisories/
+    - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
     LastModifiedDate: '2023-08-15T17:57:00Z'
   - VulnerabilityID: CVE-2023-2953
@@ -1418,6 +1442,59 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-1916
     PublishedDate: '2023-04-10T22:15:00Z'
     LastModifiedDate: '2023-04-18T15:25:00Z'
+  - VulnerabilityID: CVE-2023-3164
+    PkgID: libtiff5@4.3.0-6ubuntu0.5
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.5
+    Status: affected
+    Layer:
+      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
+      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3164
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer-overflow in extractImageSection()
+    Description: A heap-buffer-overflow vulnerability was found in LibTIFF, in extractImageSection() at tools/tiffcrop.c:7916 and tools/tiffcrop.c:7801. This flaw allows attackers to cause a denial of service via a crafted tiff file.
+    Severity: LOW
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-3164
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3164
+    - https://gitlab.com/libtiff/libtiff/-/issues/542
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-3164
+    - https://www.cve.org/CVERecord?id=CVE-2023-3164
+  - VulnerabilityID: CVE-2023-3576
+    PkgID: libtiff5@4.3.0-6ubuntu0.5
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.5
+    Status: affected
+    Layer:
+      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
+      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3576
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: memory leak in tiffcrop.c
+    Description: No description is available for this CVE.
+    Severity: LOW
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-3576
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3576
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-3576
+    - https://www.cve.org/CVERecord?id=CVE-2023-3576
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
