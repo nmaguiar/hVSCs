@@ -3,17 +3,23 @@
 ow.loadFormat()
 ow.loadTemplate()
 
+if (isDef(getEnv("NODOCKER"))) {
+    printErr( ow.format.string.bool(false, true) + " Since the NODOCKER env variable is defined neither docker or K8S will start." )
+    exit(-1)
+}
+
 var status = {
     Docker: false,
     K8SStart: false,
-    K8SReady: false
+    K8SReady: false,
+    K8S: isUnDef(getEnv("NOK8S"))
 }
 
 var text = `# hVSCs status
 
 {{bool Docker}} Docker is ready to use
-{{bool K8SStart}} Kubernetes has started
-{{bool K8SReady}} Kubernetes is ready to use
+{{#if K8S}}{{bool K8SStart}} Kubernetes has started
+{{bool K8SReady}} Kubernetes is ready to use{{/if}}
 
 (Wait until the component you need gets a green check. You can exit anytime by hiting Ctrl-C)`
 
@@ -53,7 +59,8 @@ var ok = false
 while(!ok) {
     checkStatus()
     printStatus()
-    if (status.Docker && status.K8SStart && status.K8SReady) {
+    if ((status.Docker && !status.K8S) ||
+        (status.Docker && status.K8S && status.K8SStart && status.K8SReady)) {
         ok = true 
     } else {
         sleep(1000, true)
