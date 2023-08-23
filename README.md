@@ -154,6 +154,7 @@ $ curl https://ojob.io/unix/hvscs_learn.sh | _WEB_PORT=8888 _SSH_PORT=22222 _SOC
 | Variable | Description |
 |----------|-------------|
 | WEB_PORT | The port where the VSCode web interface will be served from. |
+| WEB_AUTH | If defined will require the a pair of "login:password" credentials (separated by a colon) to be used to access the VSCode web interface. |
 | SSH_PORT | The port to which you can connect through SSH and to establish any tunnels needed. |
 | SOCKS_PORT | The port used locally to map the access to the Kubernetes internal socks proxy server. |
 | NAME | The unique name to identify the running hVSCs containers. |
