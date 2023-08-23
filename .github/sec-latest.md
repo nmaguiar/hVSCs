@@ -2,2868 +2,5062 @@
 ╭ [0] ╭ Target         : nmaguiar/hvscs:latest (ubuntu 22.04) 
 │     ├ Class          : os-pkgs 
 │     ├ Type           : ubuntu 
-│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2016-1585 
-│                       │      ├ PkgID           : apparmor@3.0.4-2ubuntu2.2 
-│                       │      ├ PkgName         : apparmor 
-│                       │      ├ InstalledVersion: 3.0.4-2ubuntu2.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-1585 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : In all versions of AppArmor mount rules are
-│                       │      │                   accidentally widened when  ... 
-│                       │      ├ Description     : In all versions of AppArmor mount rules are
-│                       │      │                   accidentally widened when compiled. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-254 
-│                       │      ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P 
-│                       │      │                        ├ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
-│                       │      │                        │           :H/A:H 
-│                       │      │                        ├ V2Score : 7.5 
-│                       │      │                        ╰ V3Score : 9.8 
-│                       │      ├ References       ╭ [0]: https://bugs.launchpad.net/apparmor/+bug/1597017 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2016-1585 
-│                       │      │                  ├ [2]: https://gitlab.com/apparmor/apparmor/-/merge_requ
-│                       │      │                  │      ests/1048 
-│                       │      │                  ├ [3]: https://gitlab.com/apparmor/apparmor/-/merge_requ
-│                       │      │                  │      ests/333 
-│                       │      │                  ├ [4]: https://lists.apache.org/thread.html/rf9fa47ab664
-│                       │      │                  │      95c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.m
-│                       │      │                  │      ina.apache.org%3E 
-│                       │      │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2016-1585 
-│                       │      ├ PublishedDate   : 2019-04-22T16:29:00Z 
-│                       │      ╰ LastModifiedDate: 2021-02-25T17:15:00Z 
-│                       ├ [1]  ╭ VulnerabilityID : CVE-2022-3715 
-│                       │      ├ PkgID           : bash@5.1-6ubuntu1 
-│                       │      ├ PkgName         : bash 
-│                       │      ├ InstalledVersion: 5.1-6ubuntu1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3715 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : a heap-buffer-overflow in valid_parameter_transform 
-│                       │      ├ Description     : A flaw was found in the bash package, where a
-│                       │      │                   heap-buffer overflow can occur in valid parameter_transform.
-│                       │      │                    This issue may lead to memory problems. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                           │           L/I:L/A:H 
-│                       │      │                           ╰ V3Score : 6.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:0340 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-3715 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2126720 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2126720 
-│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │      │                  │       VE-2022-3715 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-0340.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:0340 
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2022-3715.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-0340.html 
-│                       │      │                  ├ [9] : https://lists.gnu.org/archive/html/bug-bash/2022
-│                       │      │                  │       -08/msg00147.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2022-3715 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-3715 
-│                       │      ├ PublishedDate   : 2023-01-05T15:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-02-24T18:38:00Z 
-│                       ├ [2]  ╭ VulnerabilityID : CVE-2016-2781 
-│                       │      ├ PkgID           : coreutils@8.32-4.1ubuntu1 
-│                       │      ├ PkgName         : coreutils 
-│                       │      ├ InstalledVersion: 8.32-4.1ubuntu1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-2781 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : coreutils: Non-privileged session can escape to the
-│                       │      │                   parent session in chroot 
-│                       │      ├ Description     : chroot in GNU coreutils, when used with --userspec,
-│                       │      │                   allows local users to escape to the parent session via a
-│                       │      │                   crafted TIOCSTI ioctl call, which pushes characters to the
-│                       │      │                   terminal's input buffer. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:L/AC:L/Au:N/C:N/I:P/A:N 
-│                       │      │                  │        ├ V3Vector: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:
-│                       │      │                  │        │           N/I:H/A:N 
-│                       │      │                  │        ├ V2Score : 2.1 
-│                       │      │                  │        ╰ V3Score : 6.5 
-│                       │      │                  ╰ redhat ╭ V2Vector: AV:L/AC:H/Au:N/C:C/I:C/A:C 
-│                       │      │                           ├ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:C/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ├ V2Score : 6.2 
-│                       │      │                           ╰ V3Score : 8.6 
-│                       │      ├ References       ╭ [0]: http://seclists.org/oss-sec/2016/q1/452 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2016/0
-│                       │      │                  │      2/28/2 
-│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2016/0
-│                       │      │                  │      2/28/3 
-│                       │      │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2016-2781 
-│                       │      │                  ├ [4]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2016-2781 
-│                       │      │                  ├ [5]: https://lists.apache.org/thread.html/rf9fa47ab664
-│                       │      │                  │      95c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.m
-│                       │      │                  │      ina.apache.org%3E 
-│                       │      │                  ├ [6]: https://lore.kernel.org/patchwork/patch/793178/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2016-2781 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2016-2781 
-│                       │      ├ PublishedDate   : 2017-02-07T15:59:00Z 
-│                       │      ╰ LastModifiedDate: 2021-02-25T17:15:00Z 
-│                       ├ [3]  ╭ VulnerabilityID : CVE-2023-34969 
-│                       │      ├ PkgID           : dbus@1.12.20-2ubuntu4.1 
-│                       │      ├ PkgName         : dbus 
-│                       │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : assertion failure when a monitor is active and a
-│                       │      │                   message from the driver cannot be delivered 
-│                       │      ├ Description     : D-Bus before 1.15.6 sometimes allows unprivileged users
-│                       │      │                    to crash dbus-daemon. If a privileged user with control
-│                       │      │                   over the dbus-daemon is using the
-│                       │      │                   org.freedesktop.DBus.Monitoring interface to monitor message
-│                       │      │                    bus traffic, then an unprivileged user with the ability to
-│                       │      │                   connect to the same dbus-daemon can cause a dbus-daemon
-│                       │      │                   crash under some circumstances via an unreplyable message.
-│                       │      │                   When done on the well-known system bus, this is a
-│                       │      │                   denial-of-service vulnerability. The fixed versions are
-│                       │      │                   1.12.28, 1.14.8, and 1.15.6. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-400 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:H 
-│                       │      │                  │        ╰ V3Score : 6.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-34969 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
-│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │      │                  │       VE-2023-34969 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │      │                  ├ [5] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-34969.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
-│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
-│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/BZYCDR
-│                       │      │                  │       MD7B4XO4HF6C6YTLH4YUD7TANP/ 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-34969 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
-│                       │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-24T03:15:00Z 
-│                       ├ [4]  ╭ VulnerabilityID : CVE-2023-34969 
-│                       │      ├ PkgID           : dbus-user-session@1.12.20-2ubuntu4.1 
-│                       │      ├ PkgName         : dbus-user-session 
-│                       │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : assertion failure when a monitor is active and a
-│                       │      │                   message from the driver cannot be delivered 
-│                       │      ├ Description     : D-Bus before 1.15.6 sometimes allows unprivileged users
-│                       │      │                    to crash dbus-daemon. If a privileged user with control
-│                       │      │                   over the dbus-daemon is using the
-│                       │      │                   org.freedesktop.DBus.Monitoring interface to monitor message
-│                       │      │                    bus traffic, then an unprivileged user with the ability to
-│                       │      │                   connect to the same dbus-daemon can cause a dbus-daemon
-│                       │      │                   crash under some circumstances via an unreplyable message.
-│                       │      │                   When done on the well-known system bus, this is a
-│                       │      │                   denial-of-service vulnerability. The fixed versions are
-│                       │      │                   1.12.28, 1.14.8, and 1.15.6. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-400 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:H 
-│                       │      │                  │        ╰ V3Score : 6.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-34969 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
-│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │      │                  │       VE-2023-34969 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │      │                  ├ [5] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-34969.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
-│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
-│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/BZYCDR
-│                       │      │                  │       MD7B4XO4HF6C6YTLH4YUD7TANP/ 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-34969 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
-│                       │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-24T03:15:00Z 
-│                       ├ [5]  ╭ VulnerabilityID : CVE-2022-3219 
-│                       │      ├ PkgID           : dirmngr@2.2.27-3ubuntu2.1 
-│                       │      ├ PkgName         : dirmngr 
-│                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : denial of service issue (resource consumption) using
-│                       │      │                   compressed packets 
-│                       │      ├ Description     : GnuPG can be made to spin on a relatively small input
-│                       │      │                   by (for example) crafting a public key with thousands of
-│                       │      │                   signatures attached, compressed down to just a few
-│                       │      │                   KB. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:L 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3219 
-│                       │      │                  ├ [3]: https://dev.gnupg.org/D556 
-│                       │      │                  ├ [4]: https://dev.gnupg.org/T5993 
-│                       │      │                  ├ [5]: https://marc.info/?l=oss-security&m=1656965902114
-│                       │      │                  │      34&w=4 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023032
-│                       │      │                  │      4-0001/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
-│                       │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2018-1000021 
-│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-1000021 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: client prints server-sent ANSI escape codes to the
-│                       │      │                    terminal, allowing for unverified messages to potentially
-│                       │      │                   execute arbitrary commands 
-│                       │      ├ Description     : GIT version 2.15.1 and earlier contains a Input
-│                       │      │                   Validation Error vulnerability in Client that can result in
-│                       │      │                   problems including messing up terminal configuration to RCE.
-│                       │      │                    This attack appear to be exploitable via The user must
-│                       │      │                   interact with a malicious git server, (or have their traffic
-│                       │      │                    modified in a MITM attack). 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
-│                       │      │                  │        ├ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ├ V2Score : 6.8 
-│                       │      │                  │        ╰ V3Score : 8.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:
-│                       │      │                           │           L/I:L/A:L 
-│                       │      │                           ╰ V3Score : 5 
-│                       │      ├ References       ╭ [0]: http://www.batterystapl.es/2018/01/security-impli
-│                       │      │                  │      cations-of-ansi-escape.html 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2018-1
-│                       │      │                  │      000021 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2018-1000021 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2018-1000021 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-1000021 
-│                       │      ├ PublishedDate   : 2018-02-09T23:29:00Z 
-│                       │      ╰ LastModifiedDate: 2018-03-06T19:34:00Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2018-1000021 
-│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git-man 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-1000021 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: client prints server-sent ANSI escape codes to the
-│                       │      │                    terminal, allowing for unverified messages to potentially
-│                       │      │                   execute arbitrary commands 
-│                       │      ├ Description     : GIT version 2.15.1 and earlier contains a Input
-│                       │      │                   Validation Error vulnerability in Client that can result in
-│                       │      │                   problems including messing up terminal configuration to RCE.
-│                       │      │                    This attack appear to be exploitable via The user must
-│                       │      │                   interact with a malicious git server, (or have their traffic
-│                       │      │                    modified in a MITM attack). 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
-│                       │      │                  │        ├ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ├ V2Score : 6.8 
-│                       │      │                  │        ╰ V3Score : 8.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:
-│                       │      │                           │           L/I:L/A:L 
-│                       │      │                           ╰ V3Score : 5 
-│                       │      ├ References       ╭ [0]: http://www.batterystapl.es/2018/01/security-impli
-│                       │      │                  │      cations-of-ansi-escape.html 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2018-1
-│                       │      │                  │      000021 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2018-1000021 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2018-1000021 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-1000021 
-│                       │      ├ PublishedDate   : 2018-02-09T23:29:00Z 
-│                       │      ╰ LastModifiedDate: 2018-03-06T19:34:00Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2022-3219 
-│                       │      ├ PkgID           : gnupg@2.2.27-3ubuntu2.1 
-│                       │      ├ PkgName         : gnupg 
-│                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : denial of service issue (resource consumption) using
-│                       │      │                   compressed packets 
-│                       │      ├ Description     : GnuPG can be made to spin on a relatively small input
-│                       │      │                   by (for example) crafting a public key with thousands of
-│                       │      │                   signatures attached, compressed down to just a few
-│                       │      │                   KB. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:L 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3219 
-│                       │      │                  ├ [3]: https://dev.gnupg.org/D556 
-│                       │      │                  ├ [4]: https://dev.gnupg.org/T5993 
-│                       │      │                  ├ [5]: https://marc.info/?l=oss-security&m=1656965902114
-│                       │      │                  │      34&w=4 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023032
-│                       │      │                  │      4-0001/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
-│                       │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2022-3219 
-│                       │      ├ PkgID           : gnupg-l10n@2.2.27-3ubuntu2.1 
-│                       │      ├ PkgName         : gnupg-l10n 
-│                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : denial of service issue (resource consumption) using
-│                       │      │                   compressed packets 
-│                       │      ├ Description     : GnuPG can be made to spin on a relatively small input
-│                       │      │                   by (for example) crafting a public key with thousands of
-│                       │      │                   signatures attached, compressed down to just a few
-│                       │      │                   KB. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:L 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3219 
-│                       │      │                  ├ [3]: https://dev.gnupg.org/D556 
-│                       │      │                  ├ [4]: https://dev.gnupg.org/T5993 
-│                       │      │                  ├ [5]: https://marc.info/?l=oss-security&m=1656965902114
-│                       │      │                  │      34&w=4 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023032
-│                       │      │                  │      4-0001/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
-│                       │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2022-3219 
-│                       │      ├ PkgID           : gnupg-utils@2.2.27-3ubuntu2.1 
-│                       │      ├ PkgName         : gnupg-utils 
-│                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : denial of service issue (resource consumption) using
-│                       │      │                   compressed packets 
-│                       │      ├ Description     : GnuPG can be made to spin on a relatively small input
-│                       │      │                   by (for example) crafting a public key with thousands of
-│                       │      │                   signatures attached, compressed down to just a few
-│                       │      │                   KB. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:L 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3219 
-│                       │      │                  ├ [3]: https://dev.gnupg.org/D556 
-│                       │      │                  ├ [4]: https://dev.gnupg.org/T5993 
-│                       │      │                  ├ [5]: https://marc.info/?l=oss-security&m=1656965902114
-│                       │      │                  │      34&w=4 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023032
-│                       │      │                  │      4-0001/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
-│                       │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2022-3219 
-│                       │      ├ PkgID           : gpg@2.2.27-3ubuntu2.1 
-│                       │      ├ PkgName         : gpg 
-│                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : denial of service issue (resource consumption) using
-│                       │      │                   compressed packets 
-│                       │      ├ Description     : GnuPG can be made to spin on a relatively small input
-│                       │      │                   by (for example) crafting a public key with thousands of
-│                       │      │                   signatures attached, compressed down to just a few
-│                       │      │                   KB. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:L 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3219 
-│                       │      │                  ├ [3]: https://dev.gnupg.org/D556 
-│                       │      │                  ├ [4]: https://dev.gnupg.org/T5993 
-│                       │      │                  ├ [5]: https://marc.info/?l=oss-security&m=1656965902114
-│                       │      │                  │      34&w=4 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023032
-│                       │      │                  │      4-0001/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
-│                       │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2022-3219 
-│                       │      ├ PkgID           : gpg-agent@2.2.27-3ubuntu2.1 
-│                       │      ├ PkgName         : gpg-agent 
-│                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : denial of service issue (resource consumption) using
-│                       │      │                   compressed packets 
-│                       │      ├ Description     : GnuPG can be made to spin on a relatively small input
-│                       │      │                   by (for example) crafting a public key with thousands of
-│                       │      │                   signatures attached, compressed down to just a few
-│                       │      │                   KB. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:L 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3219 
-│                       │      │                  ├ [3]: https://dev.gnupg.org/D556 
-│                       │      │                  ├ [4]: https://dev.gnupg.org/T5993 
-│                       │      │                  ├ [5]: https://marc.info/?l=oss-security&m=1656965902114
-│                       │      │                  │      34&w=4 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023032
-│                       │      │                  │      4-0001/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
-│                       │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2022-3219 
-│                       │      ├ PkgID           : gpg-wks-client@2.2.27-3ubuntu2.1 
-│                       │      ├ PkgName         : gpg-wks-client 
-│                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : denial of service issue (resource consumption) using
-│                       │      │                   compressed packets 
-│                       │      ├ Description     : GnuPG can be made to spin on a relatively small input
-│                       │      │                   by (for example) crafting a public key with thousands of
-│                       │      │                   signatures attached, compressed down to just a few
-│                       │      │                   KB. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:L 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3219 
-│                       │      │                  ├ [3]: https://dev.gnupg.org/D556 
-│                       │      │                  ├ [4]: https://dev.gnupg.org/T5993 
-│                       │      │                  ├ [5]: https://marc.info/?l=oss-security&m=1656965902114
-│                       │      │                  │      34&w=4 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023032
-│                       │      │                  │      4-0001/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
-│                       │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2022-3219 
-│                       │      ├ PkgID           : gpg-wks-server@2.2.27-3ubuntu2.1 
-│                       │      ├ PkgName         : gpg-wks-server 
-│                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : denial of service issue (resource consumption) using
-│                       │      │                   compressed packets 
-│                       │      ├ Description     : GnuPG can be made to spin on a relatively small input
-│                       │      │                   by (for example) crafting a public key with thousands of
-│                       │      │                   signatures attached, compressed down to just a few
-│                       │      │                   KB. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:L 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3219 
-│                       │      │                  ├ [3]: https://dev.gnupg.org/D556 
-│                       │      │                  ├ [4]: https://dev.gnupg.org/T5993 
-│                       │      │                  ├ [5]: https://marc.info/?l=oss-security&m=1656965902114
-│                       │      │                  │      34&w=4 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023032
-│                       │      │                  │      4-0001/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
-│                       │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2022-3219 
-│                       │      ├ PkgID           : gpgconf@2.2.27-3ubuntu2.1 
-│                       │      ├ PkgName         : gpgconf 
-│                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : denial of service issue (resource consumption) using
-│                       │      │                   compressed packets 
-│                       │      ├ Description     : GnuPG can be made to spin on a relatively small input
-│                       │      │                   by (for example) crafting a public key with thousands of
-│                       │      │                   signatures attached, compressed down to just a few
-│                       │      │                   KB. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:L 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3219 
-│                       │      │                  ├ [3]: https://dev.gnupg.org/D556 
-│                       │      │                  ├ [4]: https://dev.gnupg.org/T5993 
-│                       │      │                  ├ [5]: https://marc.info/?l=oss-security&m=1656965902114
-│                       │      │                  │      34&w=4 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023032
-│                       │      │                  │      4-0001/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
-│                       │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2022-3219 
-│                       │      ├ PkgID           : gpgsm@2.2.27-3ubuntu2.1 
-│                       │      ├ PkgName         : gpgsm 
-│                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : denial of service issue (resource consumption) using
-│                       │      │                   compressed packets 
-│                       │      ├ Description     : GnuPG can be made to spin on a relatively small input
-│                       │      │                   by (for example) crafting a public key with thousands of
-│                       │      │                   signatures attached, compressed down to just a few
-│                       │      │                   KB. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:L 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3219 
-│                       │      │                  ├ [3]: https://dev.gnupg.org/D556 
-│                       │      │                  ├ [4]: https://dev.gnupg.org/T5993 
-│                       │      │                  ├ [5]: https://marc.info/?l=oss-security&m=1656965902114
-│                       │      │                  │      34&w=4 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023032
-│                       │      │                  │      4-0001/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
-│                       │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2022-3219 
-│                       │      ├ PkgID           : gpgv@2.2.27-3ubuntu2.1 
-│                       │      ├ PkgName         : gpgv 
-│                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : denial of service issue (resource consumption) using
-│                       │      │                   compressed packets 
-│                       │      ├ Description     : GnuPG can be made to spin on a relatively small input
-│                       │      │                   by (for example) crafting a public key with thousands of
-│                       │      │                   signatures attached, compressed down to just a few
-│                       │      │                   KB. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:L 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3219 
-│                       │      │                  ├ [3]: https://dev.gnupg.org/D556 
-│                       │      │                  ├ [4]: https://dev.gnupg.org/T5993 
-│                       │      │                  ├ [5]: https://marc.info/?l=oss-security&m=1656965902114
-│                       │      │                  │      34&w=4 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023032
-│                       │      │                  │      4-0001/ 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
-│                       │      ├ PublishedDate   : 2023-02-23T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2016-1585 
-│                       │      ├ PkgID           : libapparmor1@3.0.4-2ubuntu2.2 
-│                       │      ├ PkgName         : libapparmor1 
-│                       │      ├ InstalledVersion: 3.0.4-2ubuntu2.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-1585 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : In all versions of AppArmor mount rules are
-│                       │      │                   accidentally widened when  ... 
-│                       │      ├ Description     : In all versions of AppArmor mount rules are
-│                       │      │                   accidentally widened when compiled. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-254 
-│                       │      ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P 
-│                       │      │                        ├ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I
-│                       │      │                        │           :H/A:H 
-│                       │      │                        ├ V2Score : 7.5 
-│                       │      │                        ╰ V3Score : 9.8 
-│                       │      ├ References       ╭ [0]: https://bugs.launchpad.net/apparmor/+bug/1597017 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2016-1585 
-│                       │      │                  ├ [2]: https://gitlab.com/apparmor/apparmor/-/merge_requ
-│                       │      │                  │      ests/1048 
-│                       │      │                  ├ [3]: https://gitlab.com/apparmor/apparmor/-/merge_requ
-│                       │      │                  │      ests/333 
-│                       │      │                  ├ [4]: https://lists.apache.org/thread.html/rf9fa47ab664
-│                       │      │                  │      95c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.m
-│                       │      │                  │      ina.apache.org%3E 
-│                       │      │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2016-1585 
-│                       │      ├ PublishedDate   : 2019-04-22T16:29:00Z 
-│                       │      ╰ LastModifiedDate: 2021-02-25T17:15:00Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2016-20013 
-│                       │      ├ PkgID           : libc-bin@2.35-0ubuntu3.1 
-│                       │      ├ PkgName         : libc-bin 
-│                       │      ├ InstalledVersion: 2.35-0ubuntu3.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Description     : sha256crypt and sha512crypt through 0.6 allow attackers
-│                       │      │                    to cause a denial of service (CPU consumption) because the
-│                       │      │                   algorithm's runtime is proportional to the square of the
-│                       │      │                   length of the password. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-770 
-│                       │      ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P 
-│                       │      │                        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :N/A:H 
-│                       │      │                        ├ V2Score : 5 
-│                       │      │                        ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0]: https://akkadia.org/drepper/SHA-crypt.txt 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2016-20013 
-│                       │      │                  ├ [2]: https://pthree.org/2018/05/23/do-not-use-sha256cr
-│                       │      │                  │      ypt-sha512crypt-theyre-dangerous/ 
-│                       │      │                  ╰ [3]: https://twitter.com/solardiz/status/795601240151457793 
-│                       │      ├ PublishedDate   : 2022-02-19T05:15:00Z 
-│                       │      ╰ LastModifiedDate: 2022-03-03T16:43:00Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2016-20013 
-│                       │      ├ PkgID           : libc6@2.35-0ubuntu3.1 
-│                       │      ├ PkgName         : libc6 
-│                       │      ├ InstalledVersion: 2.35-0ubuntu3.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Description     : sha256crypt and sha512crypt through 0.6 allow attackers
-│                       │      │                    to cause a denial of service (CPU consumption) because the
-│                       │      │                   algorithm's runtime is proportional to the square of the
-│                       │      │                   length of the password. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-770 
-│                       │      ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P 
-│                       │      │                        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │      │                        │           :N/A:H 
-│                       │      │                        ├ V2Score : 5 
-│                       │      │                        ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0]: https://akkadia.org/drepper/SHA-crypt.txt 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2016-20013 
-│                       │      │                  ├ [2]: https://pthree.org/2018/05/23/do-not-use-sha256cr
-│                       │      │                  │      ypt-sha512crypt-theyre-dangerous/ 
-│                       │      │                  ╰ [3]: https://twitter.com/solardiz/status/795601240151457793 
-│                       │      ├ PublishedDate   : 2022-02-19T05:15:00Z 
-│                       │      ╰ LastModifiedDate: 2022-03-03T16:43:00Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2023-34969 
-│                       │      ├ PkgID           : libdbus-1-3@1.12.20-2ubuntu4.1 
-│                       │      ├ PkgName         : libdbus-1-3 
-│                       │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : assertion failure when a monitor is active and a
-│                       │      │                   message from the driver cannot be delivered 
-│                       │      ├ Description     : D-Bus before 1.15.6 sometimes allows unprivileged users
-│                       │      │                    to crash dbus-daemon. If a privileged user with control
-│                       │      │                   over the dbus-daemon is using the
-│                       │      │                   org.freedesktop.DBus.Monitoring interface to monitor message
-│                       │      │                    bus traffic, then an unprivileged user with the ability to
-│                       │      │                   connect to the same dbus-daemon can cause a dbus-daemon
-│                       │      │                   crash under some circumstances via an unreplyable message.
-│                       │      │                   When done on the well-known system bus, this is a
-│                       │      │                   denial-of-service vulnerability. The fixed versions are
-│                       │      │                   1.12.28, 1.14.8, and 1.15.6. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-400 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:H 
-│                       │      │                  │        ╰ V3Score : 6.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
-│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-34969 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
-│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │      │                  │       VE-2023-34969 
-│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │      │                  ├ [5] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-34969.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
-│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
-│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/BZYCDR
-│                       │      │                  │       MD7B4XO4HF6C6YTLH4YUD7TANP/ 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-34969 
-│                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
-│                       │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-24T03:15:00Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2021-40812 
-│                       │      ├ PkgID           : libgd3@2.3.0-2ubuntu2 
-│                       │      ├ PkgName         : libgd3 
-│                       │      ├ InstalledVersion: 2.3.0-2ubuntu2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-40812 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : The GD Graphics Library (aka LibGD) through 2.3.2 has
-│                       │      │                   an out-of-bounds ... 
-│                       │      ├ Description     : The GD Graphics Library (aka LibGD) through 2.3.2 has
-│                       │      │                   an out-of-bounds read because of the lack of certain
-│                       │      │                   gdGetBuf and gdPutBuf return value checks. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P 
-│                       │      │                        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I
-│                       │      │                        │           :N/A:H 
-│                       │      │                        ├ V2Score : 4.3 
-│                       │      │                        ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2021-40812 
-│                       │      │                  ├ [1]: https://github.com/libgd/libgd/commit/6f5136821be
-│                       │      │                  │      86e7068fcdf651ae9420b5d42e9a9 
-│                       │      │                  ├ [2]: https://github.com/libgd/libgd/issues/750#issueco
-│                       │      │                  │      mment-914872385 
-│                       │      │                  ├ [3]: https://github.com/libgd/libgd/issues/757 
-│                       │      │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-40812 
-│                       │      ├ PublishedDate   : 2021-09-08T21:15:00Z 
-│                       │      ╰ LastModifiedDate: 2021-09-15T15:07:00Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2023-36054 
-│                       │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.2 
-│                       │      ├ PkgName         : libgssapi-krb5-2 
-│                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36054 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
-│                       │      │                   before 1.20.2 an ... 
-│                       │      ├ Description     : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
-│                       │      │                   before 1.20.2 and 1.21.x before 1.21.1 frees an
-│                       │      │                   uninitialized pointer. A remote authenticated user can
-│                       │      │                   trigger a kadmind crash. This occurs because
-│                       │      │                   _xdr_kadm5_principal_ent_rec does not validate the
-│                       │      │                   relationship between n_key_data and the key_data array
-│                       │      │                   count. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-824 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                       │      │                        │           :N/A:H 
-│                       │      │                        ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-36054 
-│                       │      │                  ├ [1]: https://github.com/krb5/krb5/commit/ef08b09c94595
-│                       │      │                  │      51aabbe7924fb176f1583053cdd 
-│                       │      │                  ├ [2]: https://github.com/krb5/krb5/compare/krb5-1.20.1-
-│                       │      │                  │      final...krb5-1.20.2-final 
-│                       │      │                  ├ [3]: https://github.com/krb5/krb5/compare/krb5-1.21-fi
-│                       │      │                  │      nal...krb5-1.21.1-final 
-│                       │      │                  ╰ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2023-36054 
-│                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.2 
-│                       │      ├ PkgName         : libk5crypto3 
-│                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36054 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
-│                       │      │                   before 1.20.2 an ... 
-│                       │      ├ Description     : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
-│                       │      │                   before 1.20.2 and 1.21.x before 1.21.1 frees an
-│                       │      │                   uninitialized pointer. A remote authenticated user can
-│                       │      │                   trigger a kadmind crash. This occurs because
-│                       │      │                   _xdr_kadm5_principal_ent_rec does not validate the
-│                       │      │                   relationship between n_key_data and the key_data array
-│                       │      │                   count. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-824 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                       │      │                        │           :N/A:H 
-│                       │      │                        ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-36054 
-│                       │      │                  ├ [1]: https://github.com/krb5/krb5/commit/ef08b09c94595
-│                       │      │                  │      51aabbe7924fb176f1583053cdd 
-│                       │      │                  ├ [2]: https://github.com/krb5/krb5/compare/krb5-1.20.1-
-│                       │      │                  │      final...krb5-1.20.2-final 
-│                       │      │                  ├ [3]: https://github.com/krb5/krb5/compare/krb5-1.21-fi
-│                       │      │                  │      nal...krb5-1.21.1-final 
-│                       │      │                  ╰ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2023-36054 
-│                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.2 
-│                       │      ├ PkgName         : libkrb5-3 
-│                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36054 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
-│                       │      │                   before 1.20.2 an ... 
-│                       │      ├ Description     : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
-│                       │      │                   before 1.20.2 and 1.21.x before 1.21.1 frees an
-│                       │      │                   uninitialized pointer. A remote authenticated user can
-│                       │      │                   trigger a kadmind crash. This occurs because
-│                       │      │                   _xdr_kadm5_principal_ent_rec does not validate the
-│                       │      │                   relationship between n_key_data and the key_data array
-│                       │      │                   count. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-824 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                       │      │                        │           :N/A:H 
-│                       │      │                        ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-36054 
-│                       │      │                  ├ [1]: https://github.com/krb5/krb5/commit/ef08b09c94595
-│                       │      │                  │      51aabbe7924fb176f1583053cdd 
-│                       │      │                  ├ [2]: https://github.com/krb5/krb5/compare/krb5-1.20.1-
-│                       │      │                  │      final...krb5-1.20.2-final 
-│                       │      │                  ├ [3]: https://github.com/krb5/krb5/compare/krb5-1.21-fi
-│                       │      │                  │      nal...krb5-1.21.1-final 
-│                       │      │                  ╰ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2023-36054 
-│                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.2 
-│                       │      ├ PkgName         : libkrb5support0 
-│                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36054 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
-│                       │      │                   before 1.20.2 an ... 
-│                       │      ├ Description     : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
-│                       │      │                   before 1.20.2 and 1.21.x before 1.21.1 frees an
-│                       │      │                   uninitialized pointer. A remote authenticated user can
-│                       │      │                   trigger a kadmind crash. This occurs because
-│                       │      │                   _xdr_kadm5_principal_ent_rec does not validate the
-│                       │      │                   relationship between n_key_data and the key_data array
-│                       │      │                   count. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-824 
-│                       │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I
-│                       │      │                        │           :N/A:H 
-│                       │      │                        ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-36054 
-│                       │      │                  ├ [1]: https://github.com/krb5/krb5/commit/ef08b09c94595
-│                       │      │                  │      51aabbe7924fb176f1583053cdd 
-│                       │      │                  ├ [2]: https://github.com/krb5/krb5/compare/krb5-1.20.1-
-│                       │      │                  │      final...krb5-1.20.2-final 
-│                       │      │                  ├ [3]: https://github.com/krb5/krb5/compare/krb5-1.21-fi
-│                       │      │                  │      nal...krb5-1.21.1-final 
-│                       │      │                  ╰ [4]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2023-2953 
-│                       │      ├ PkgID           : libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1 
-│                       │      ├ PkgName         : libldap-2.5-0 
-│                       │      ├ InstalledVersion: 2.5.16+dfsg-0ubuntu0.22.04.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2953 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : null pointer dereference in  ber_memalloc_x  function 
-│                       │      ├ Description     : A vulnerability was found in openldap. This security
-│                       │      │                   flaw causes a null pointer dereference in ber_memalloc_x()
-│                       │      │                   function. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:H 
-│                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           N/I:L/A:H 
-│                       │      │                           ╰ V3Score : 7.1 
-│                       │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
-│                       │      │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
-│                       │      │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
-│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-2953 
-│                       │      │                  ├ [4] : https://bugs.openldap.org/show_bug.cgi?id=9904 
-│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │      │                  │       VE-2023-2953 
-│                       │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-2953 
-│                       │      │                  ├ [7] : https://security.netapp.com/advisory/ntap-202307
-│                       │      │                  │       03-0005/ 
-│                       │      │                  ├ [8] : https://support.apple.com/kb/HT213843 
-│                       │      │                  ├ [9] : https://support.apple.com/kb/HT213844 
-│                       │      │                  ├ [10]: https://support.apple.com/kb/HT213845 
-│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6197-1 
-│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
-│                       │      ├ PublishedDate   : 2023-05-30T22:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2017-11164 
-│                       │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
-│                       │      ├ PkgName         : libpcre3 
-│                       │      ├ InstalledVersion: 2:8.39-13ubuntu0.22.04.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2017-11164 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : pcre: OP_KETRMAX feature in the match function in
-│                       │      │                   pcre_exec.c 
-│                       │      ├ Description     : In PCRE 8.41, the OP_KETRMAX feature in the match
-│                       │      │                   function in pcre_exec.c allows stack exhaustion
-│                       │      │                   (uncontrolled recursion) when processing a crafted regular
-│                       │      │                   expression. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-674 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:C 
-│                       │      │                  │        ├ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:H 
-│                       │      │                  │        ├ V2Score : 7.8 
-│                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           N/I:N/A:L 
-│                       │      │                           ╰ V3Score : 3.3 
-│                       │      ├ References       ╭ [0]: http://openwall.com/lists/oss-security/2017/07/11/3 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/0
-│                       │      │                  │      4/11/1 
-│                       │      │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/0
-│                       │      │                  │      4/12/1 
-│                       │      │                  ├ [3]: http://www.securityfocus.com/bid/99575 
-│                       │      │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2017-11164 
-│                       │      │                  ├ [5]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2017-11164 
-│                       │      │                  ├ [6]: https://lists.apache.org/thread.html/rf9fa47ab664
-│                       │      │                  │      95c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.m
-│                       │      │                  │      ina.apache.org%3E 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2017-11164 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
-│                       │      ├ PublishedDate   : 2017-07-11T03:29:00Z 
-│                       │      ╰ LastModifiedDate: 2023-04-12T15:15:00Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2022-3857 
-│                       │      ├ PkgID           : libpng16-16@1.6.37-3build5 
-│                       │      ├ PkgName         : libpng16-16 
-│                       │      ├ InstalledVersion: 1.6.37-3build5 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3857 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Null pointer dereference leads to segmentation fault 
-│                       │      ├ Description     : A flaw was found in libpng 1.6.38. A crafted PNG image
-│                       │      │                   can lead to a segmentation fault and denial of service in
-│                       │      │                   png_setup_paeth_row() function. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           N/I:N/A:H 
-│                       │      │                  │        ╰ V3Score : 5.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 5.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3857 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-3857 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2022-3857 
-│                       │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-2023040
-│                       │      │                  │      6-0004/ 
-│                       │      │                  ├ [4]: https://sourceforge.net/p/libpng/bugs/300/ 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
-│                       │      ├ PublishedDate   : 2023-03-06T23:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-04-06T13:15:00Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2023-4016 
-│                       │      ├ PkgID           : libprocps8@2:3.3.17-6ubuntu2 
-│                       │      ├ PkgName         : libprocps8 
-│                       │      ├ InstalledVersion: 2:3.3.17-6ubuntu2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4016 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : ps buffer overflow 
-│                       │      ├ Description     : Under some circumstances, this weakness allows a user
-│                       │      │                   who has access to run the “ps” utility on a machine, the
-│                       │      │                   ability to write almost unlimited amounts of unfiltered data
-│                       │      │                    into the process heap. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:H 
-│                       │      │                  │        ╰ V3Score : 5.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:L 
-│                       │      │                           ╰ V3Score : 2.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4016 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-4016 
-│                       │      │                  ├ [2]: https://gitlab.com/procps-ng/procps 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
-│                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-07T19:21:00Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2023-27043 
-│                       │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.2 
-│                       │      ├ PkgName         : libpython3.10 
-│                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Parsing errors in email/_parseaddr.py lead to incorrect
-│                       │      │                    value in email address part of tuple 
-│                       │      ├ Description     : The email module of Python through 3.11.3 incorrectly
-│                       │      │                   parses e-mail addresses that contain a special character.
-│                       │      │                   The wrong portion of an RFC2822 header is identified as the
-│                       │      │                   value of the addr-spec. In some applications, an attacker
-│                       │      │                   can bypass a protection mechanism in which application
-│                       │      │                   access is granted only after verifying receipt of e-mail to
-│                       │      │                   a specific domain (e.g., only @company.example.com addresses
-│                       │      │                    may be used for signup). This occurs in email/_parseaddr.py
-│                       │      │                    in recent versions of Python. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:L/A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:L/A:N 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://python.org 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-27043 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-27043 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/issues/102988 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/pull/102990 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/105127 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                       │      │                  ├ [7]: https://python-security.readthedocs.io/vuln/email
-│                       │      │                  │      -parseaddr-realname.html 
-│                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-2023060
-│                       │      │                  │      1-0003/ 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
-│                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2023-27043 
-│                       │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.2 
-│                       │      ├ PkgName         : libpython3.10-minimal 
-│                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Parsing errors in email/_parseaddr.py lead to incorrect
-│                       │      │                    value in email address part of tuple 
-│                       │      ├ Description     : The email module of Python through 3.11.3 incorrectly
-│                       │      │                   parses e-mail addresses that contain a special character.
-│                       │      │                   The wrong portion of an RFC2822 header is identified as the
-│                       │      │                   value of the addr-spec. In some applications, an attacker
-│                       │      │                   can bypass a protection mechanism in which application
-│                       │      │                   access is granted only after verifying receipt of e-mail to
-│                       │      │                   a specific domain (e.g., only @company.example.com addresses
-│                       │      │                    may be used for signup). This occurs in email/_parseaddr.py
-│                       │      │                    in recent versions of Python. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:L/A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:L/A:N 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://python.org 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-27043 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-27043 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/issues/102988 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/pull/102990 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/105127 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                       │      │                  ├ [7]: https://python-security.readthedocs.io/vuln/email
-│                       │      │                  │      -parseaddr-realname.html 
-│                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-2023060
-│                       │      │                  │      1-0003/ 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
-│                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2023-27043 
-│                       │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.2 
-│                       │      ├ PkgName         : libpython3.10-stdlib 
-│                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Parsing errors in email/_parseaddr.py lead to incorrect
-│                       │      │                    value in email address part of tuple 
-│                       │      ├ Description     : The email module of Python through 3.11.3 incorrectly
-│                       │      │                   parses e-mail addresses that contain a special character.
-│                       │      │                   The wrong portion of an RFC2822 header is identified as the
-│                       │      │                   value of the addr-spec. In some applications, an attacker
-│                       │      │                   can bypass a protection mechanism in which application
-│                       │      │                   access is granted only after verifying receipt of e-mail to
-│                       │      │                   a specific domain (e.g., only @company.example.com addresses
-│                       │      │                    may be used for signup). This occurs in email/_parseaddr.py
-│                       │      │                    in recent versions of Python. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:L/A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:L/A:N 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://python.org 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-27043 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-27043 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/issues/102988 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/pull/102990 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/105127 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                       │      │                  ├ [7]: https://python-security.readthedocs.io/vuln/email
-│                       │      │                  │      -parseaddr-realname.html 
-│                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-2023060
-│                       │      │                  │      1-0003/ 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
-│                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2022-46908 
-│                       │      ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
-│                       │      ├ PkgName         : libsqlite3-0 
-│                       │      ├ InstalledVersion: 3.37.2-2ubuntu0.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-46908 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : safe mode authorizer callback allows disallowed UDFs 
-│                       │      ├ Description     : SQLite through 3.40.0, when relying on --safe for
-│                       │      │                   execution of an untrusted CLI script, does not properly
-│                       │      │                   implement the azProhibitedFunctions protection mechanism,
-│                       │      │                   and instead allows UDF functions such as WRITEFILE. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           H/I:H/A:L 
-│                       │      │                  │        ╰ V3Score : 7.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                           │           H/I:H/A:L 
-│                       │      │                           ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-46908 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-46908 
-│                       │      │                  ├ [2]: https://news.ycombinator.com/item?id=33948588 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2022-46908 
-│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2023020
-│                       │      │                  │      3-0005/ 
-│                       │      │                  ├ [5]: https://sqlite.org/forum/forumpost/07beac8056151b2f 
-│                       │      │                  ├ [6]: https://sqlite.org/src/info/cefc032473ac5ad2 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-46908 
-│                       │      ├ PublishedDate   : 2022-12-12T06:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-03-07T18:21:00Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2023-2975 
-│                       │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.10 
-│                       │      ├ PkgName         : libssl3 
-│                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2975 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : AES-SIV cipher implementation contains a bug that
-│                       │      │                   causes it to ignore empty associated data entries 
-│                       │      ├ Description     : Issue summary: The AES-SIV cipher implementation
-│                       │      │                   contains a bug that causes
-│                       │      │                   it to ignore empty associated data entries which are
-│                       │      │                   unauthenticated as
-│                       │      │                   a consequence.
-│                       │      │                   
-│                       │      │                   Impact summary: Applications that use the AES-SIV algorithm
-│                       │      │                   and want to
-│                       │      │                   authenticate empty data entries as associated data can be
-│                       │      │                   mislead by removing
-│                       │      │                   adding or reordering such empty entries as these are ignored
-│                       │      │                    by the OpenSSL
-│                       │      │                   implementation. We are currently unaware of any such
-│                       │      │                   applications.
-│                       │      │                   
-│                       │      │                   The AES-SIV algorithm allows for authentication of multiple
-│                       │      │                   associated
-│                       │      │                   data entries along with the encryption. To authenticate
-│                       │      │                   empty data the
-│                       │      │                   application has to call EVP_EncryptUpdate() (or
-│                       │      │                   EVP_CipherUpdate()) with
-│                       │      │                   NULL pointer as the output buffer and 0 as the input buffer
-│                       │      │                   length.
-│                       │      │                   The AES-SIV implementation in OpenSSL just returns success
-│                       │      │                   for such a call
-│                       │      │                   instead of performing the associated data authentication
-│                       │      │                   operation.
-│                       │      │                   The empty data thus will not be authenticated.
-│                       │      │                   
-│                       │      │                   As this issue does not affect non-empty associated data
-│                       │      │                   authentication and
-│                       │      │                   we expect it to be rare for an application to use empty
-│                       │      │                   associated data
-│                       │      │                   entries this is qualified as Low severity issue. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-287 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:L/A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:L/A:N 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
-│                       │      │                  │      7/15/1 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/0
-│                       │      │                  │      7/19/5 
-│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2023-2975 
-│                       │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-2975 
-│                       │      │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
-│                       │      │                  │      ommitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598[
-│                       │      │                  │      m 
-│                       │      │                  ├ [5]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
-│                       │      │                  │      ommitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc[
-│                       │      │                  │      m 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023072
-│                       │      │                  │      5-0004/ 
-│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
-│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
-│                       │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2018-10126 
-│                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
-│                       │      ├ PkgName         : libtiff5 
-│                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.5 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-10126 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : libtiff: NULL pointer dereference in the
-│                       │      │                   jpeg_fdct_16x16 function in jfdctint.c 
-│                       │      ├ Description     : LibTIFF 4.0.9 has a NULL pointer dereference in the
-│                       │      │                   jpeg_fdct_16x16 function in jfdctint.c. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-476 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P 
-│                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           N/I:N/A:H 
-│                       │      │                  │        ├ V2Score : 4.3 
-│                       │      │                  │        ╰ V3Score : 6.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:L 
-│                       │      │                           ╰ V3Score : 3.3 
-│                       │      ├ References       ╭ [0]: http://bugzilla.maptools.org/show_bug.cgi?id=2786 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2018-10126 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2018-10126 
-│                       │      │                  ├ [3]: https://lists.apache.org/thread.html/rf9fa47ab664
-│                       │      │                  │      95c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.m
-│                       │      │                  │      ina.apache.org%3E 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2018-10126 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
-│                       │      ├ PublishedDate   : 2018-04-21T21:29:00Z 
-│                       │      ╰ LastModifiedDate: 2021-03-15T22:31:00Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2023-1916 
-│                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
-│                       │      ├ PkgName         : libtiff5 
-│                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.5 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-1916 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : out-of-bounds read in extractImageSection() in
-│                       │      │                   tools/tiffcrop.c 
-│                       │      ├ Description     : A flaw was found in tiffcrop, a program distributed by
-│                       │      │                   the libtiff package. A specially crafted tiff file can lead
-│                       │      │                   to an out-of-bounds read in the extractImageSection function
-│                       │      │                    in tools/tiffcrop.c, resulting in a denial of service and
-│                       │      │                   limited information disclosure. This issue affects libtiff
-│                       │      │                   versions 4.x. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-125 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           L/I:N/A:H 
-│                       │      │                  │        ╰ V3Score : 6.1 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           L/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-1916 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-1916 
-│                       │      │                  ├ [2]: https://gitlab.com/libtiff/libtiff/-/issues/536 
-│                       │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/issues/536, 
-│                       │      │                  ├ [4]: https://gitlab.com/libtiff/libtiff/-/issues/537 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-1916 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-1916 
-│                       │      ├ PublishedDate   : 2023-04-10T22:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-04-18T15:25:00Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2022-4899 
-│                       │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
-│                       │      ├ PkgName         : libzstd1 
-│                       │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-4899 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : buffer overrun in util.c 
-│                       │      ├ Description     : A vulnerability was found in zstd v1.4.10, where an
-│                       │      │                   attacker can supply empty string as an argument to the
-│                       │      │                   command line tool to cause buffer overrun. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-400 
-│                       │      ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:H 
-│                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:H 
-│                       │      │                  │        ╰ V3Score : 7.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-4899 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-4899 
-│                       │      │                  ├ [2]: https://github.com/advisories/GHSA-5c9c-6x87-f9vm 
-│                       │      │                  ├ [3]: https://github.com/facebook/zstd/issues/3200 
-│                       │      │                  ├ [4]: https://github.com/facebook/zstd/pull/3220 
-│                       │      │                  ├ [5]: https://github.com/pypa/advisory-database/tree/ma
-│                       │      │                  │      in/vulns/zstd/PYSEC-2023-121.yaml 
-│                       │      │                  ├ [6]: https://github.com/sergey-dryabzhinsky/python-zst
-│                       │      │                  │      d/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6[
-│                       │      │                  │      m 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-4899 
-│                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-2023072
-│                       │      │                  │      5-0005/ 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
-│                       │      ├ PublishedDate   : 2023-03-31T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2023-29383 
-│                       │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
-│                       │      ├ PkgName         : login 
-│                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Improper input validation in shadow-utils package
-│                       │      │                   utility chfn 
-│                       │      ├ Description     : In Shadow 4.13, it is possible to inject control
-│                       │      │                   characters into fields provided to the SUID program chfn
-│                       │      │                   (change finger). Although it is not possible to exploit this
-│                       │      │                    directly (e.g., adding a new user fails because \n is in
-│                       │      │                   the block list), it is possible to misrepresent the
-│                       │      │                   /etc/passwd file when viewed. Use of \r manipulations and
-│                       │      │                   Unicode characters to work around blocking of the :
-│                       │      │                   character make it possible to give the impression that a new
-│                       │      │                    user has been added. In other words, an adversary may be
-│                       │      │                   able to convince a system administrator to take the system
-│                       │      │                   offline (an indirect, social-engineered denial of service)
-│                       │      │                   by demonstrating that "cat /etc/passwd" shows a rogue user
-│                       │      │                   account. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-74 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:L/A:N 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 5.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-29383 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-29383 
-│                       │      │                  ├ [2]: https://github.com/shadow-maint/shadow/commit/e59
-│                       │      │                  │      05c4b84d4fb90aefcd96ee618411ebfac663d 
-│                       │      │                  ├ [3]: https://github.com/shadow-maint/shadow/pull/687 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-29383 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-29383 
-│                       │      │                  ├ [6]: https://www.trustwave.com/en-us/resources/blogs/s
-│                       │      │                  │      piderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-mi
-│                       │      │                  │      srepresent-etc-passwd/ 
-│                       │      │                  ╰ [7]: https://www.trustwave.com/en-us/resources/securit
-│                       │      │                         y-resources/security-advisories/?fid=31797 
-│                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2023-28531 
-│                       │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.3 
-│                       │      ├ PkgName         : openssh-client 
-│                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28531 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : openssh: smartcard keys to ssh-agent without the
-│                       │      │                   intended per-hop destination constraints. 
-│                       │      ├ Description     : ssh-add in OpenSSH before 9.3 adds smartcard keys to
-│                       │      │                   ssh-agent without the intended per-hop destination
-│                       │      │                   constraints. The earliest affected version is 8.9. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 9.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           H/I:N/A:H 
-│                       │      │                           ╰ V3Score : 9.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-28531 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-28531 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-28531 
-│                       │      │                  ├ [3]: https://security.gentoo.org/glsa/202307-01 
-│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2023041
-│                       │      │                  │      3-0008/ 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
-│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2023/
-│                       │      │                         03/15/8 
-│                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2023-28531 
-│                       │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.3 
-│                       │      ├ PkgName         : openssh-server 
-│                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28531 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : openssh: smartcard keys to ssh-agent without the
-│                       │      │                   intended per-hop destination constraints. 
-│                       │      ├ Description     : ssh-add in OpenSSH before 9.3 adds smartcard keys to
-│                       │      │                   ssh-agent without the intended per-hop destination
-│                       │      │                   constraints. The earliest affected version is 8.9. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 9.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           H/I:N/A:H 
-│                       │      │                           ╰ V3Score : 9.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-28531 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-28531 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-28531 
-│                       │      │                  ├ [3]: https://security.gentoo.org/glsa/202307-01 
-│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2023041
-│                       │      │                  │      3-0008/ 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
-│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2023/
-│                       │      │                         03/15/8 
-│                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2023-28531 
-│                       │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.3 
-│                       │      ├ PkgName         : openssh-sftp-server 
-│                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28531 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : openssh: smartcard keys to ssh-agent without the
-│                       │      │                   intended per-hop destination constraints. 
-│                       │      ├ Description     : ssh-add in OpenSSH before 9.3 adds smartcard keys to
-│                       │      │                   ssh-agent without the intended per-hop destination
-│                       │      │                   constraints. The earliest affected version is 8.9. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 9.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           H/I:N/A:H 
-│                       │      │                           ╰ V3Score : 9.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-28531 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-28531 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-28531 
-│                       │      │                  ├ [3]: https://security.gentoo.org/glsa/202307-01 
-│                       │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-2023041
-│                       │      │                  │      3-0008/ 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
-│                       │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2023/
-│                       │      │                         03/15/8 
-│                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2023-2975 
-│                       │      ├ PkgID           : openssl@3.0.2-0ubuntu1.10 
-│                       │      ├ PkgName         : openssl 
-│                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2975 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : AES-SIV cipher implementation contains a bug that
-│                       │      │                   causes it to ignore empty associated data entries 
-│                       │      ├ Description     : Issue summary: The AES-SIV cipher implementation
-│                       │      │                   contains a bug that causes
-│                       │      │                   it to ignore empty associated data entries which are
-│                       │      │                   unauthenticated as
-│                       │      │                   a consequence.
-│                       │      │                   
-│                       │      │                   Impact summary: Applications that use the AES-SIV algorithm
-│                       │      │                   and want to
-│                       │      │                   authenticate empty data entries as associated data can be
-│                       │      │                   mislead by removing
-│                       │      │                   adding or reordering such empty entries as these are ignored
-│                       │      │                    by the OpenSSL
-│                       │      │                   implementation. We are currently unaware of any such
-│                       │      │                   applications.
-│                       │      │                   
-│                       │      │                   The AES-SIV algorithm allows for authentication of multiple
-│                       │      │                   associated
-│                       │      │                   data entries along with the encryption. To authenticate
-│                       │      │                   empty data the
-│                       │      │                   application has to call EVP_EncryptUpdate() (or
-│                       │      │                   EVP_CipherUpdate()) with
-│                       │      │                   NULL pointer as the output buffer and 0 as the input buffer
-│                       │      │                   length.
-│                       │      │                   The AES-SIV implementation in OpenSSL just returns success
-│                       │      │                   for such a call
-│                       │      │                   instead of performing the associated data authentication
-│                       │      │                   operation.
-│                       │      │                   The empty data thus will not be authenticated.
-│                       │      │                   
-│                       │      │                   As this issue does not affect non-empty associated data
-│                       │      │                   authentication and
-│                       │      │                   we expect it to be rare for an application to use empty
-│                       │      │                   associated data
-│                       │      │                   entries this is qualified as Low severity issue. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-287 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:L/A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:L/A:N 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
-│                       │      │                  │      7/15/1 
-│                       │      │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/0
-│                       │      │                  │      7/19/5 
-│                       │      │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2023-2975 
-│                       │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-2975 
-│                       │      │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
-│                       │      │                  │      ommitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598[
-│                       │      │                  │      m 
-│                       │      │                  ├ [5]: https://git.openssl.org/gitweb/?p=openssl.git;a=c
-│                       │      │                  │      ommitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc[
-│                       │      │                  │      m 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
-│                       │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-2023072
-│                       │      │                  │      5-0004/ 
-│                       │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
-│                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
-│                       │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2023-29383 
-│                       │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
-│                       │      ├ PkgName         : passwd 
-│                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Improper input validation in shadow-utils package
-│                       │      │                   utility chfn 
-│                       │      ├ Description     : In Shadow 4.13, it is possible to inject control
-│                       │      │                   characters into fields provided to the SUID program chfn
-│                       │      │                   (change finger). Although it is not possible to exploit this
-│                       │      │                    directly (e.g., adding a new user fails because \n is in
-│                       │      │                   the block list), it is possible to misrepresent the
-│                       │      │                   /etc/passwd file when viewed. Use of \r manipulations and
-│                       │      │                   Unicode characters to work around blocking of the :
-│                       │      │                   character make it possible to give the impression that a new
-│                       │      │                    user has been added. In other words, an adversary may be
-│                       │      │                   able to convince a system administrator to take the system
-│                       │      │                   offline (an indirect, social-engineered denial of service)
-│                       │      │                   by demonstrating that "cat /etc/passwd" shows a rogue user
-│                       │      │                   account. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-74 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:L/A:N 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 5.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-29383 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-29383 
-│                       │      │                  ├ [2]: https://github.com/shadow-maint/shadow/commit/e59
-│                       │      │                  │      05c4b84d4fb90aefcd96ee618411ebfac663d 
-│                       │      │                  ├ [3]: https://github.com/shadow-maint/shadow/pull/687 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-29383 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-29383 
-│                       │      │                  ├ [6]: https://www.trustwave.com/en-us/resources/blogs/s
-│                       │      │                  │      piderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-mi
-│                       │      │                  │      srepresent-etc-passwd/ 
-│                       │      │                  ╰ [7]: https://www.trustwave.com/en-us/resources/securit
-│                       │      │                         y-resources/security-advisories/?fid=31797 
-│                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2023-4016 
-│                       │      ├ PkgID           : procps@2:3.3.17-6ubuntu2 
-│                       │      ├ PkgName         : procps 
-│                       │      ├ InstalledVersion: 2:3.3.17-6ubuntu2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4016 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : ps buffer overflow 
-│                       │      ├ Description     : Under some circumstances, this weakness allows a user
-│                       │      │                   who has access to run the “ps” utility on a machine, the
-│                       │      │                   ability to write almost unlimited amounts of unfiltered data
-│                       │      │                    into the process heap. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:N/A:H 
-│                       │      │                  │        ╰ V3Score : 5.5 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
-│                       │      │                           │           N/I:N/A:L 
-│                       │      │                           ╰ V3Score : 2.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4016 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-4016 
-│                       │      │                  ├ [2]: https://gitlab.com/procps-ng/procps 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
-│                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-07T19:21:00Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2023-27043 
-│                       │      ├ PkgID           : python3.10@3.10.12-1~22.04.2 
-│                       │      ├ PkgName         : python3.10 
-│                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Parsing errors in email/_parseaddr.py lead to incorrect
-│                       │      │                    value in email address part of tuple 
-│                       │      ├ Description     : The email module of Python through 3.11.3 incorrectly
-│                       │      │                   parses e-mail addresses that contain a special character.
-│                       │      │                   The wrong portion of an RFC2822 header is identified as the
-│                       │      │                   value of the addr-spec. In some applications, an attacker
-│                       │      │                   can bypass a protection mechanism in which application
-│                       │      │                   access is granted only after verifying receipt of e-mail to
-│                       │      │                   a specific domain (e.g., only @company.example.com addresses
-│                       │      │                    may be used for signup). This occurs in email/_parseaddr.py
-│                       │      │                    in recent versions of Python. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:L/A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:L/A:N 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://python.org 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-27043 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-27043 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/issues/102988 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/pull/102990 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/105127 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                       │      │                  ├ [7]: https://python-security.readthedocs.io/vuln/email
-│                       │      │                  │      -parseaddr-realname.html 
-│                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-2023060
-│                       │      │                  │      1-0003/ 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
-│                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2023-27043 
-│                       │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.2 
-│                       │      ├ PkgName         : python3.10-minimal 
-│                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Parsing errors in email/_parseaddr.py lead to incorrect
-│                       │      │                    value in email address part of tuple 
-│                       │      ├ Description     : The email module of Python through 3.11.3 incorrectly
-│                       │      │                   parses e-mail addresses that contain a special character.
-│                       │      │                   The wrong portion of an RFC2822 header is identified as the
-│                       │      │                   value of the addr-spec. In some applications, an attacker
-│                       │      │                   can bypass a protection mechanism in which application
-│                       │      │                   access is granted only after verifying receipt of e-mail to
-│                       │      │                   a specific domain (e.g., only @company.example.com addresses
-│                       │      │                    may be used for signup). This occurs in email/_parseaddr.py
-│                       │      │                    in recent versions of Python. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-20 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:L/A:N 
-│                       │      │                  │        ╰ V3Score : 5.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                       │      │                           │           N/I:L/A:N 
-│                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References       ╭ [0]: http://python.org 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-27043 
-│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-27043 
-│                       │      │                  ├ [3]: https://github.com/python/cpython/issues/102988 
-│                       │      │                  ├ [4]: https://github.com/python/cpython/pull/102990 
-│                       │      │                  ├ [5]: https://github.com/python/cpython/pull/105127 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                       │      │                  ├ [7]: https://python-security.readthedocs.io/vuln/email
-│                       │      │                  │      -parseaddr-realname.html 
-│                       │      │                  ├ [8]: https://security.netapp.com/advisory/ntap-2023060
-│                       │      │                  │      1-0003/ 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
-│                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2023-29383 
-│                       │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
-│                       │      ├ PkgName         : uidmap 
-│                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Improper input validation in shadow-utils package
-│                       │      │                   utility chfn 
-│                       │      ├ Description     : In Shadow 4.13, it is possible to inject control
-│                       │      │                   characters into fields provided to the SUID program chfn
-│                       │      │                   (change finger). Although it is not possible to exploit this
-│                       │      │                    directly (e.g., adding a new user fails because \n is in
-│                       │      │                   the block list), it is possible to misrepresent the
-│                       │      │                   /etc/passwd file when viewed. Use of \r manipulations and
-│                       │      │                   Unicode characters to work around blocking of the :
-│                       │      │                   character make it possible to give the impression that a new
-│                       │      │                    user has been added. In other words, an adversary may be
-│                       │      │                   able to convince a system administrator to take the system
-│                       │      │                   offline (an indirect, social-engineered denial of service)
-│                       │      │                   by demonstrating that "cat /etc/passwd" shows a rogue user
-│                       │      │                   account. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-74 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                       │      │                  │        │           N/I:L/A:N 
-│                       │      │                  │        ╰ V3Score : 3.3 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           N/I:N/A:H 
-│                       │      │                           ╰ V3Score : 5.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-29383 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-29383 
-│                       │      │                  ├ [2]: https://github.com/shadow-maint/shadow/commit/e59
-│                       │      │                  │      05c4b84d4fb90aefcd96ee618411ebfac663d 
-│                       │      │                  ├ [3]: https://github.com/shadow-maint/shadow/pull/687 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-29383 
-│                       │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-29383 
-│                       │      │                  ├ [6]: https://www.trustwave.com/en-us/resources/blogs/s
-│                       │      │                  │      piderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-mi
-│                       │      │                  │      srepresent-etc-passwd/ 
-│                       │      │                  ╰ [7]: https://www.trustwave.com/en-us/resources/securit
-│                       │      │                         y-resources/security-advisories/?fid=31797 
-│                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2022-2862 
-│                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2862 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0221. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2862 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2862 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/1889f499a4f248c
-│                       │      │                  │      d84e0e0bf6d0d820016774494 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/commit/1889f499a4f248c
-│                       │      │                  │      d84e0e0bf6d0d820016774494 (v9.0.0221) 
-│                       │      │                  ├ [4]: https://huntr.dev/bounties/71180988-1ab6-4311-bca
-│                       │      │                  │      8-e9a879b06765 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/XWOJOA7P
-│                       │      │                  │      ZZAMBI5GFTL6PWHXMWSDLUXL/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2862 
-│                       │      │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
-│                       │      ├ PublishedDate   : 2022-08-17T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2022-2889 
-│                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2889 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0225. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2889 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2889 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/91c7cbfe31bbef5
-│                       │      │                  │      7d5fcf7d76989fc159f73ef15 
-│                       │      │                  ├ [3]: https://huntr.dev/bounties/d1ac9817-825d-49ce-b51
-│                       │      │                  │      4-1d5b12b6bdaa 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/C72HDIMR
-│                       │      │                  │      3KTTAO7QGTXWUMPBNFUFIBRD/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2889 
-│                       │      │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
-│                       │      ├ PublishedDate   : 2022-08-19T13:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2022-2982 
-│                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2982 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0260. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2982 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2982 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/d6c67629ed05aae
-│                       │      │                  │      436164eec474832daf8ba7420 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/commit/d6c67629ed05aae
-│                       │      │                  │      436164eec474832daf8ba7420 (v9.0.0260) 
-│                       │      │                  ├ [4]: https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7b
-│                       │      │                  │      a-23efbe6833be 
-│                       │      │                  ├ [5]: https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7b
-│                       │      │                  │      a-23efbe6833be/ 
-│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/XWOJOA7P
-│                       │      │                  │      ZZAMBI5GFTL6PWHXMWSDLUXL/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-2982 
-│                       │      │                  ├ [8]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
-│                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2022-1886 
-│                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-1886 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : vim: heap-based buffer overflow in function utf_head_off 
-│                       │      ├ Description     : Heap-based Buffer Overflow in GitHub repository vim/vim
-│                       │      │                    prior to 8.2. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
-│                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ├ V2Score : 6.8 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           L/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-1886 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-1886 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/2a585c85013be22
-│                       │      │                  │      f59f184d49612074fd9b115d7 
-│                       │      │                  ├ [3]: https://huntr.dev/bounties/fa0ad526-b608-45b3-9eb
-│                       │      │                  │      c-f2b607834d6a 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/TYNK6SDC
-│                       │      │                  │      MOLQJOI3B4AOE66P2G2IH4ZM/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-1886 
-│                       │      │                  ├ [6]: https://security.gentoo.org/glsa/202208-32 
-│                       │      │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
-│                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2022-2862 
-│                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim-common 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2862 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0221. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2862 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2862 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/1889f499a4f248c
-│                       │      │                  │      d84e0e0bf6d0d820016774494 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/commit/1889f499a4f248c
-│                       │      │                  │      d84e0e0bf6d0d820016774494 (v9.0.0221) 
-│                       │      │                  ├ [4]: https://huntr.dev/bounties/71180988-1ab6-4311-bca
-│                       │      │                  │      8-e9a879b06765 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/XWOJOA7P
-│                       │      │                  │      ZZAMBI5GFTL6PWHXMWSDLUXL/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2862 
-│                       │      │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
-│                       │      ├ PublishedDate   : 2022-08-17T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2022-2889 
-│                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim-common 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2889 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0225. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2889 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2889 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/91c7cbfe31bbef5
-│                       │      │                  │      7d5fcf7d76989fc159f73ef15 
-│                       │      │                  ├ [3]: https://huntr.dev/bounties/d1ac9817-825d-49ce-b51
-│                       │      │                  │      4-1d5b12b6bdaa 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/C72HDIMR
-│                       │      │                  │      3KTTAO7QGTXWUMPBNFUFIBRD/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2889 
-│                       │      │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
-│                       │      ├ PublishedDate   : 2022-08-19T13:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2022-2982 
-│                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim-common 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2982 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0260. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2982 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2982 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/d6c67629ed05aae
-│                       │      │                  │      436164eec474832daf8ba7420 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/commit/d6c67629ed05aae
-│                       │      │                  │      436164eec474832daf8ba7420 (v9.0.0260) 
-│                       │      │                  ├ [4]: https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7b
-│                       │      │                  │      a-23efbe6833be 
-│                       │      │                  ├ [5]: https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7b
-│                       │      │                  │      a-23efbe6833be/ 
-│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/XWOJOA7P
-│                       │      │                  │      ZZAMBI5GFTL6PWHXMWSDLUXL/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-2982 
-│                       │      │                  ├ [8]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
-│                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2022-1886 
-│                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim-common 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-1886 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : vim: heap-based buffer overflow in function utf_head_off 
-│                       │      ├ Description     : Heap-based Buffer Overflow in GitHub repository vim/vim
-│                       │      │                    prior to 8.2. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
-│                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ├ V2Score : 6.8 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           L/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-1886 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-1886 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/2a585c85013be22
-│                       │      │                  │      f59f184d49612074fd9b115d7 
-│                       │      │                  ├ [3]: https://huntr.dev/bounties/fa0ad526-b608-45b3-9eb
-│                       │      │                  │      c-f2b607834d6a 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/TYNK6SDC
-│                       │      │                  │      MOLQJOI3B4AOE66P2G2IH4ZM/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-1886 
-│                       │      │                  ├ [6]: https://security.gentoo.org/glsa/202208-32 
-│                       │      │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
-│                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2022-2862 
-│                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim-runtime 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2862 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0221. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2862 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2862 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/1889f499a4f248c
-│                       │      │                  │      d84e0e0bf6d0d820016774494 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/commit/1889f499a4f248c
-│                       │      │                  │      d84e0e0bf6d0d820016774494 (v9.0.0221) 
-│                       │      │                  ├ [4]: https://huntr.dev/bounties/71180988-1ab6-4311-bca
-│                       │      │                  │      8-e9a879b06765 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/XWOJOA7P
-│                       │      │                  │      ZZAMBI5GFTL6PWHXMWSDLUXL/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2862 
-│                       │      │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
-│                       │      ├ PublishedDate   : 2022-08-17T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2022-2889 
-│                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim-runtime 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2889 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0225. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2889 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2889 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/91c7cbfe31bbef5
-│                       │      │                  │      7d5fcf7d76989fc159f73ef15 
-│                       │      │                  ├ [3]: https://huntr.dev/bounties/d1ac9817-825d-49ce-b51
-│                       │      │                  │      4-1d5b12b6bdaa 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/C72HDIMR
-│                       │      │                  │      3KTTAO7QGTXWUMPBNFUFIBRD/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2889 
-│                       │      │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
-│                       │      ├ PublishedDate   : 2022-08-19T13:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2022-2982 
-│                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim-runtime 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2982 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0260. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2982 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2982 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/d6c67629ed05aae
-│                       │      │                  │      436164eec474832daf8ba7420 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/commit/d6c67629ed05aae
-│                       │      │                  │      436164eec474832daf8ba7420 (v9.0.0260) 
-│                       │      │                  ├ [4]: https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7b
-│                       │      │                  │      a-23efbe6833be 
-│                       │      │                  ├ [5]: https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7b
-│                       │      │                  │      a-23efbe6833be/ 
-│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/XWOJOA7P
-│                       │      │                  │      ZZAMBI5GFTL6PWHXMWSDLUXL/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-2982 
-│                       │      │                  ├ [8]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
-│                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2022-1886 
-│                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : vim-runtime 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-1886 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : vim: heap-based buffer overflow in function utf_head_off 
-│                       │      ├ Description     : Heap-based Buffer Overflow in GitHub repository vim/vim
-│                       │      │                    prior to 8.2. 
-│                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-122 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
-│                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ├ V2Score : 6.8 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           L/I:N/A:H 
-│                       │      │                           ╰ V3Score : 6.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-1886 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-1886 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/2a585c85013be22
-│                       │      │                  │      f59f184d49612074fd9b115d7 
-│                       │      │                  ├ [3]: https://huntr.dev/bounties/fa0ad526-b608-45b3-9eb
-│                       │      │                  │      c-f2b607834d6a 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/TYNK6SDC
-│                       │      │                  │      MOLQJOI3B4AOE66P2G2IH4ZM/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-1886 
-│                       │      │                  ├ [6]: https://security.gentoo.org/glsa/202208-32 
-│                       │      │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
-│                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2021-31879 
-│                       │      ├ PkgID           : wget@1.21.2-2ubuntu1 
-│                       │      ├ PkgName         : wget 
-│                       │      ├ InstalledVersion: 1.21.2-2ubuntu1 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : wget: authorization header disclosure on redirect 
-│                       │      ├ Description     : GNU Wget through 1.21.1 does not omit the Authorization
-│                       │      │                    header upon a redirect to a different origin, a related
-│                       │      │                   issue to CVE-2018-1000007. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-601 
-│                       │      ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:N 
-│                       │      │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:
-│                       │      │                  │        │           L/I:L/A:N 
-│                       │      │                  │        ├ V2Score : 5.8 
-│                       │      │                  │        ╰ V3Score : 6.1 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:N/A:N 
-│                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-31879 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2021-31879 
-│                       │      │                  ├ [2]: https://mail.gnu.org/archive/html/bug-wget/2021-0
-│                       │      │                  │      2/msg00002.html 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2021-31879 
-│                       │      │                  ├ [4]: https://savannah.gnu.org/bugs/?56909 
-│                       │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-2021061
-│                       │      │                  │      8-0002/ 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
-│                       │      ├ PublishedDate   : 2021-04-29T05:15:00Z 
-│                       │      ╰ LastModifiedDate: 2022-05-13T20:52:00Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2022-2862 
-│                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : xxd 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2862 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0221. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2862 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2862 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/1889f499a4f248c
-│                       │      │                  │      d84e0e0bf6d0d820016774494 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/commit/1889f499a4f248c
-│                       │      │                  │      d84e0e0bf6d0d820016774494 (v9.0.0221) 
-│                       │      │                  ├ [4]: https://huntr.dev/bounties/71180988-1ab6-4311-bca
-│                       │      │                  │      8-e9a879b06765 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/XWOJOA7P
-│                       │      │                  │      ZZAMBI5GFTL6PWHXMWSDLUXL/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2862 
-│                       │      │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
-│                       │      ├ PublishedDate   : 2022-08-17T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2022-2889 
-│                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : xxd 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2889 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0225. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2889 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2889 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/91c7cbfe31bbef5
-│                       │      │                  │      7d5fcf7d76989fc159f73ef15 
-│                       │      │                  ├ [3]: https://huntr.dev/bounties/d1ac9817-825d-49ce-b51
-│                       │      │                  │      4-1d5b12b6bdaa 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/C72HDIMR
-│                       │      │                  │      3KTTAO7QGTXWUMPBNFUFIBRD/ 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2889 
-│                       │      │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
-│                       │      ├ PublishedDate   : 2022-08-19T13:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2022-2982 
-│                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
-│                       │      ├ PkgName         : xxd 
-│                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                       │      │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                       │      │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                       │      │                            67a6a4586f26884004182f5bd 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2982 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
-│                       │      ├ Description     : Use After Free in GitHub repository vim/vim prior to
-│                       │      │                   9.0.0260. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-416 
-│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                  │        │           H/I:H/A:H 
-│                       │      │                  │        ╰ V3Score : 7.8 
-│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                       │      │                           │           H/I:H/A:H 
-│                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2982 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2022-2982 
-│                       │      │                  ├ [2]: https://github.com/vim/vim/commit/d6c67629ed05aae
-│                       │      │                  │      436164eec474832daf8ba7420 
-│                       │      │                  ├ [3]: https://github.com/vim/vim/commit/d6c67629ed05aae
-│                       │      │                  │      436164eec474832daf8ba7420 (v9.0.0260) 
-│                       │      │                  ├ [4]: https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7b
-│                       │      │                  │      a-23efbe6833be 
-│                       │      │                  ├ [5]: https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7b
-│                       │      │                  │      a-23efbe6833be/ 
-│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/XWOJOA7P
-│                       │      │                  │      ZZAMBI5GFTL6PWHXMWSDLUXL/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-2982 
-│                       │      │                  ├ [8]: https://security.gentoo.org/glsa/202305-16 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
-│                       │      ├ PublishedDate   : 2022-08-25T20:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ╰ [65] ╭ VulnerabilityID : CVE-2022-1886 
-│                              ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
-│                              ├ PkgName         : xxd 
-│                              ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
-│                              ├ Status          : affected 
-│                              ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa0
-│                              │                  │         5f36bc84eb9f7111f7b6ec4fd 
-│                              │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a
-│                              │                            67a6a4586f26884004182f5bd 
-│                              ├ SeveritySource  : ubuntu 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-1886 
-│                              ├ DataSource       ╭ ID  : ubuntu 
-│                              │                  ├ Name: Ubuntu CVE Tracker 
-│                              │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                              ├ Title           : vim: heap-based buffer overflow in function utf_head_off 
-│                              ├ Description     : Heap-based Buffer Overflow in GitHub repository vim/vim
-│                              │                    prior to 8.2. 
-│                              ├ Severity        : LOW 
-│                              ├ CweIDs           ─ [0]: CWE-122 
-│                              ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
-│                              │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                              │                  │        │           H/I:H/A:H 
-│                              │                  │        ├ V2Score : 6.8 
-│                              │                  │        ╰ V3Score : 7.8 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
-│                              │                           │           L/I:N/A:H 
-│                              │                           ╰ V3Score : 6.1 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-1886 
-│                              │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                              │                  │      E-2022-1886 
-│                              │                  ├ [2]: https://github.com/vim/vim/commit/2a585c85013be22
-│                              │                  │      f59f184d49612074fd9b115d7 
-│                              │                  ├ [3]: https://huntr.dev/bounties/fa0ad526-b608-45b3-9eb
-│                              │                  │      c-f2b607834d6a 
-│                              │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
-│                              │                  │      kage-announce@lists.fedoraproject.org/message/TYNK6SDC
-│                              │                  │      MOLQJOI3B4AOE66P2G2IH4ZM/ 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-1886 
-│                              │                  ├ [6]: https://security.gentoo.org/glsa/202208-32 
-│                              │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
-│                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
-│                              ├ PublishedDate   : 2022-05-26T15:15:00Z 
-│                              ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
+│     ╰ Vulnerabilities ╭ [0]   ╭ VulnerabilityID : CVE-2016-1585 
+│                       │       ├ PkgID           : apparmor@3.0.4-2ubuntu2.2 
+│                       │       ├ PkgName         : apparmor 
+│                       │       ├ InstalledVersion: 3.0.4-2ubuntu2.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-1585 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : In all versions of AppArmor mount rules are
+│                       │       │                   accidentally widened when  ... 
+│                       │       ├ Description     : In all versions of AppArmor mount rules are
+│                       │       │                   accidentally widened when compiled. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-254 
+│                       │       ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P 
+│                       │       │                        ├ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/
+│                       │       │                        │           I:H/A:H 
+│                       │       │                        ├ V2Score : 7.5 
+│                       │       │                        ╰ V3Score : 9.8 
+│                       │       ├ References       ╭ [0]: https://bugs.launchpad.net/apparmor/+bug/1597017 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2016-1585 
+│                       │       │                  ├ [2]: https://gitlab.com/apparmor/apparmor/-/merge_req
+│                       │       │                  │      uests/1048 
+│                       │       │                  ├ [3]: https://gitlab.com/apparmor/apparmor/-/merge_req
+│                       │       │                  │      uests/333 
+│                       │       │                  ├ [4]: https://lists.apache.org/thread.html/rf9fa47ab66
+│                       │       │                  │      495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev
+│                       │       │                  │      .mina.apache.org%3E 
+│                       │       │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2016-1585 
+│                       │       ├ PublishedDate   : 2019-04-22T16:29:00Z 
+│                       │       ╰ LastModifiedDate: 2021-02-25T17:15:00Z 
+│                       ├ [1]   ╭ VulnerabilityID : CVE-2022-3715 
+│                       │       ├ PkgID           : bash@5.1-6ubuntu1 
+│                       │       ├ PkgName         : bash 
+│                       │       ├ InstalledVersion: 5.1-6ubuntu1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3715 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : a heap-buffer-overflow in valid_parameter_transform 
+│                       │       ├ Description     : A flaw was found in the bash package, where a
+│                       │       │                   heap-buffer overflow can occur in valid
+│                       │       │                   parameter_transform. This issue may lead to memory
+│                       │       │                   problems. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                           │           :L/I:L/A:H 
+│                       │       │                           ╰ V3Score : 6.6 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:0340 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-3715 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2126720 
+│                       │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2126720 
+│                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-3715 
+│                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-0340.html 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:0340 
+│                       │       │                  ├ [7] : https://linux.oracle.com/cve/CVE-2022-3715.html 
+│                       │       │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-0340.html 
+│                       │       │                  ├ [9] : https://lists.gnu.org/archive/html/bug-bash/202
+│                       │       │                  │       2-08/msg00147.html 
+│                       │       │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2022-3715 
+│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2022-3715 
+│                       │       ├ PublishedDate   : 2023-01-05T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-02-24T18:38:00Z 
+│                       ├ [2]   ╭ VulnerabilityID : CVE-2016-2781 
+│                       │       ├ PkgID           : coreutils@8.32-4.1ubuntu1 
+│                       │       ├ PkgName         : coreutils 
+│                       │       ├ InstalledVersion: 8.32-4.1ubuntu1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-2781 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : coreutils: Non-privileged session can escape to the
+│                       │       │                   parent session in chroot 
+│                       │       ├ Description     : chroot in GNU coreutils, when used with --userspec,
+│                       │       │                   allows local users to escape to the parent session via a
+│                       │       │                   crafted TIOCSTI ioctl call, which pushes characters to the
+│                       │       │                   terminal's input buffer. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-20 
+│                       │       ├ CVSS             ╭ nvd    ╭ V2Vector: AV:L/AC:L/Au:N/C:N/I:P/A:N 
+│                       │       │                  │        ├ V3Vector: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C
+│                       │       │                  │        │           :N/I:H/A:N 
+│                       │       │                  │        ├ V2Score : 2.1 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V2Vector: AV:L/AC:H/Au:N/C:C/I:C/A:C 
+│                       │       │                           ├ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:C/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ├ V2Score : 6.2 
+│                       │       │                           ╰ V3Score : 8.6 
+│                       │       ├ References       ╭ [0]: http://seclists.org/oss-sec/2016/q1/452 
+│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2016/
+│                       │       │                  │      02/28/2 
+│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2016/
+│                       │       │                  │      02/28/3 
+│                       │       │                  ├ [3]: https://access.redhat.com/security/cve/CVE-2016-2781 
+│                       │       │                  ├ [4]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2016-2781 
+│                       │       │                  ├ [5]: https://lists.apache.org/thread.html/rf9fa47ab66
+│                       │       │                  │      495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev
+│                       │       │                  │      .mina.apache.org%3E 
+│                       │       │                  ├ [6]: https://lore.kernel.org/patchwork/patch/793178/ 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2016-2781 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2016-2781 
+│                       │       ├ PublishedDate   : 2017-02-07T15:59:00Z 
+│                       │       ╰ LastModifiedDate: 2021-02-25T17:15:00Z 
+│                       ├ [3]   ╭ VulnerabilityID : CVE-2023-34969 
+│                       │       ├ PkgID           : dbus@1.12.20-2ubuntu4.1 
+│                       │       ├ PkgName         : dbus 
+│                       │       ├ InstalledVersion: 1.12.20-2ubuntu4.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : assertion failure when a monitor is active and a
+│                       │       │                   message from the driver cannot be delivered 
+│                       │       ├ Description     : D-Bus before 1.15.6 sometimes allows unprivileged
+│                       │       │                   users to crash dbus-daemon. If a privileged user with
+│                       │       │                   control over the dbus-daemon is using the
+│                       │       │                   org.freedesktop.DBus.Monitoring interface to monitor
+│                       │       │                   message bus traffic, then an unprivileged user with the
+│                       │       │                   ability to connect to the same dbus-daemon can cause a
+│                       │       │                   dbus-daemon crash under some circumstances via an
+│                       │       │                   unreplyable message. When done on the well-known system
+│                       │       │                   bus, this is a denial-of-service vulnerability. The fixed
+│                       │       │                   versions are 1.12.28, 1.14.8, and 1.15.6. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-400 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -34969 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2213166 
+│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-34969 
+│                       │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                       │       │                  ├ [5] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
+│                       │       │                  │       es/457 
+│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-34969.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/BZYC
+│                       │       │                  │       DRMD7B4XO4HF6C6YTLH4YUD7TANP/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-34969 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
+│                       │       ├ PublishedDate   : 2023-06-08T03:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-06-24T03:15:00Z 
+│                       ├ [4]   ╭ VulnerabilityID : CVE-2023-34969 
+│                       │       ├ PkgID           : dbus-user-session@1.12.20-2ubuntu4.1 
+│                       │       ├ PkgName         : dbus-user-session 
+│                       │       ├ InstalledVersion: 1.12.20-2ubuntu4.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : assertion failure when a monitor is active and a
+│                       │       │                   message from the driver cannot be delivered 
+│                       │       ├ Description     : D-Bus before 1.15.6 sometimes allows unprivileged
+│                       │       │                   users to crash dbus-daemon. If a privileged user with
+│                       │       │                   control over the dbus-daemon is using the
+│                       │       │                   org.freedesktop.DBus.Monitoring interface to monitor
+│                       │       │                   message bus traffic, then an unprivileged user with the
+│                       │       │                   ability to connect to the same dbus-daemon can cause a
+│                       │       │                   dbus-daemon crash under some circumstances via an
+│                       │       │                   unreplyable message. When done on the well-known system
+│                       │       │                   bus, this is a denial-of-service vulnerability. The fixed
+│                       │       │                   versions are 1.12.28, 1.14.8, and 1.15.6. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-400 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -34969 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2213166 
+│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-34969 
+│                       │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                       │       │                  ├ [5] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
+│                       │       │                  │       es/457 
+│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-34969.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/BZYC
+│                       │       │                  │       DRMD7B4XO4HF6C6YTLH4YUD7TANP/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-34969 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
+│                       │       ├ PublishedDate   : 2023-06-08T03:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-06-24T03:15:00Z 
+│                       ├ [5]   ╭ VulnerabilityID : CVE-2022-3219 
+│                       │       ├ PkgID           : dirmngr@2.2.27-3ubuntu2.1 
+│                       │       ├ PkgName         : dirmngr 
+│                       │       ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : denial of service issue (resource consumption) using
+│                       │       │                   compressed packets 
+│                       │       ├ Description     : GnuPG can be made to spin on a relatively small input
+│                       │       │                   by (for example) crafting a public key with thousands of
+│                       │       │                   signatures attached, compressed down to just a few
+│                       │       │                   KB. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3219 
+│                       │       │                  ├ [3]: https://dev.gnupg.org/D556 
+│                       │       │                  ├ [4]: https://dev.gnupg.org/T5993 
+│                       │       │                  ├ [5]: https://marc.info/?l=oss-security&m=165696590211
+│                       │       │                  │      434&w=4 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202303
+│                       │       │                  │      24-0001/ 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
+│                       │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
+│                       ├ [6]   ╭ VulnerabilityID : CVE-2018-1000021 
+│                       │       ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
+│                       │       ├ PkgName         : git 
+│                       │       ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-1000021 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : git: client prints server-sent ANSI escape codes to
+│                       │       │                   the terminal, allowing for unverified messages to
+│                       │       │                   potentially execute arbitrary commands 
+│                       │       ├ Description     : GIT version 2.15.1 and earlier contains a Input
+│                       │       │                   Validation Error vulnerability in Client that can result in
+│                       │       │                    problems including messing up terminal configuration to
+│                       │       │                   RCE. This attack appear to be exploitable via The user must
+│                       │       │                    interact with a malicious git server, (or have their
+│                       │       │                   traffic modified in a MITM attack). 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-20 
+│                       │       ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
+│                       │       │                  │        ├ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ├ V2Score : 6.8 
+│                       │       │                  │        ╰ V3Score : 8.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C
+│                       │       │                           │           :L/I:L/A:L 
+│                       │       │                           ╰ V3Score : 5 
+│                       │       ├ References       ╭ [0]: http://www.batterystapl.es/2018/01/security-impl
+│                       │       │                  │      ications-of-ansi-escape.html 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2018-
+│                       │       │                  │      1000021 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2018-1000021 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2018-1000021 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-1000021 
+│                       │       ├ PublishedDate   : 2018-02-09T23:29:00Z 
+│                       │       ╰ LastModifiedDate: 2018-03-06T19:34:00Z 
+│                       ├ [7]   ╭ VulnerabilityID : CVE-2018-1000021 
+│                       │       ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
+│                       │       ├ PkgName         : git-man 
+│                       │       ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-1000021 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : git: client prints server-sent ANSI escape codes to
+│                       │       │                   the terminal, allowing for unverified messages to
+│                       │       │                   potentially execute arbitrary commands 
+│                       │       ├ Description     : GIT version 2.15.1 and earlier contains a Input
+│                       │       │                   Validation Error vulnerability in Client that can result in
+│                       │       │                    problems including messing up terminal configuration to
+│                       │       │                   RCE. This attack appear to be exploitable via The user must
+│                       │       │                    interact with a malicious git server, (or have their
+│                       │       │                   traffic modified in a MITM attack). 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-20 
+│                       │       ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
+│                       │       │                  │        ├ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ├ V2Score : 6.8 
+│                       │       │                  │        ╰ V3Score : 8.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C
+│                       │       │                           │           :L/I:L/A:L 
+│                       │       │                           ╰ V3Score : 5 
+│                       │       ├ References       ╭ [0]: http://www.batterystapl.es/2018/01/security-impl
+│                       │       │                  │      ications-of-ansi-escape.html 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2018-
+│                       │       │                  │      1000021 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2018-1000021 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2018-1000021 
+│                       │       │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-1000021 
+│                       │       ├ PublishedDate   : 2018-02-09T23:29:00Z 
+│                       │       ╰ LastModifiedDate: 2018-03-06T19:34:00Z 
+│                       ├ [8]   ╭ VulnerabilityID : CVE-2022-3219 
+│                       │       ├ PkgID           : gnupg@2.2.27-3ubuntu2.1 
+│                       │       ├ PkgName         : gnupg 
+│                       │       ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : denial of service issue (resource consumption) using
+│                       │       │                   compressed packets 
+│                       │       ├ Description     : GnuPG can be made to spin on a relatively small input
+│                       │       │                   by (for example) crafting a public key with thousands of
+│                       │       │                   signatures attached, compressed down to just a few
+│                       │       │                   KB. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3219 
+│                       │       │                  ├ [3]: https://dev.gnupg.org/D556 
+│                       │       │                  ├ [4]: https://dev.gnupg.org/T5993 
+│                       │       │                  ├ [5]: https://marc.info/?l=oss-security&m=165696590211
+│                       │       │                  │      434&w=4 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202303
+│                       │       │                  │      24-0001/ 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
+│                       │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
+│                       ├ [9]   ╭ VulnerabilityID : CVE-2022-3219 
+│                       │       ├ PkgID           : gnupg-l10n@2.2.27-3ubuntu2.1 
+│                       │       ├ PkgName         : gnupg-l10n 
+│                       │       ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : denial of service issue (resource consumption) using
+│                       │       │                   compressed packets 
+│                       │       ├ Description     : GnuPG can be made to spin on a relatively small input
+│                       │       │                   by (for example) crafting a public key with thousands of
+│                       │       │                   signatures attached, compressed down to just a few
+│                       │       │                   KB. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3219 
+│                       │       │                  ├ [3]: https://dev.gnupg.org/D556 
+│                       │       │                  ├ [4]: https://dev.gnupg.org/T5993 
+│                       │       │                  ├ [5]: https://marc.info/?l=oss-security&m=165696590211
+│                       │       │                  │      434&w=4 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202303
+│                       │       │                  │      24-0001/ 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
+│                       │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
+│                       ├ [10]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       │       ├ PkgID           : gnupg-utils@2.2.27-3ubuntu2.1 
+│                       │       ├ PkgName         : gnupg-utils 
+│                       │       ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : denial of service issue (resource consumption) using
+│                       │       │                   compressed packets 
+│                       │       ├ Description     : GnuPG can be made to spin on a relatively small input
+│                       │       │                   by (for example) crafting a public key with thousands of
+│                       │       │                   signatures attached, compressed down to just a few
+│                       │       │                   KB. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3219 
+│                       │       │                  ├ [3]: https://dev.gnupg.org/D556 
+│                       │       │                  ├ [4]: https://dev.gnupg.org/T5993 
+│                       │       │                  ├ [5]: https://marc.info/?l=oss-security&m=165696590211
+│                       │       │                  │      434&w=4 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202303
+│                       │       │                  │      24-0001/ 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
+│                       │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
+│                       ├ [11]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       │       ├ PkgID           : gpg@2.2.27-3ubuntu2.1 
+│                       │       ├ PkgName         : gpg 
+│                       │       ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : denial of service issue (resource consumption) using
+│                       │       │                   compressed packets 
+│                       │       ├ Description     : GnuPG can be made to spin on a relatively small input
+│                       │       │                   by (for example) crafting a public key with thousands of
+│                       │       │                   signatures attached, compressed down to just a few
+│                       │       │                   KB. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3219 
+│                       │       │                  ├ [3]: https://dev.gnupg.org/D556 
+│                       │       │                  ├ [4]: https://dev.gnupg.org/T5993 
+│                       │       │                  ├ [5]: https://marc.info/?l=oss-security&m=165696590211
+│                       │       │                  │      434&w=4 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202303
+│                       │       │                  │      24-0001/ 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
+│                       │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
+│                       ├ [12]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       │       ├ PkgID           : gpg-agent@2.2.27-3ubuntu2.1 
+│                       │       ├ PkgName         : gpg-agent 
+│                       │       ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : denial of service issue (resource consumption) using
+│                       │       │                   compressed packets 
+│                       │       ├ Description     : GnuPG can be made to spin on a relatively small input
+│                       │       │                   by (for example) crafting a public key with thousands of
+│                       │       │                   signatures attached, compressed down to just a few
+│                       │       │                   KB. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3219 
+│                       │       │                  ├ [3]: https://dev.gnupg.org/D556 
+│                       │       │                  ├ [4]: https://dev.gnupg.org/T5993 
+│                       │       │                  ├ [5]: https://marc.info/?l=oss-security&m=165696590211
+│                       │       │                  │      434&w=4 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202303
+│                       │       │                  │      24-0001/ 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
+│                       │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
+│                       ├ [13]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       │       ├ PkgID           : gpg-wks-client@2.2.27-3ubuntu2.1 
+│                       │       ├ PkgName         : gpg-wks-client 
+│                       │       ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : denial of service issue (resource consumption) using
+│                       │       │                   compressed packets 
+│                       │       ├ Description     : GnuPG can be made to spin on a relatively small input
+│                       │       │                   by (for example) crafting a public key with thousands of
+│                       │       │                   signatures attached, compressed down to just a few
+│                       │       │                   KB. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3219 
+│                       │       │                  ├ [3]: https://dev.gnupg.org/D556 
+│                       │       │                  ├ [4]: https://dev.gnupg.org/T5993 
+│                       │       │                  ├ [5]: https://marc.info/?l=oss-security&m=165696590211
+│                       │       │                  │      434&w=4 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202303
+│                       │       │                  │      24-0001/ 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
+│                       │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
+│                       ├ [14]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       │       ├ PkgID           : gpg-wks-server@2.2.27-3ubuntu2.1 
+│                       │       ├ PkgName         : gpg-wks-server 
+│                       │       ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : denial of service issue (resource consumption) using
+│                       │       │                   compressed packets 
+│                       │       ├ Description     : GnuPG can be made to spin on a relatively small input
+│                       │       │                   by (for example) crafting a public key with thousands of
+│                       │       │                   signatures attached, compressed down to just a few
+│                       │       │                   KB. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3219 
+│                       │       │                  ├ [3]: https://dev.gnupg.org/D556 
+│                       │       │                  ├ [4]: https://dev.gnupg.org/T5993 
+│                       │       │                  ├ [5]: https://marc.info/?l=oss-security&m=165696590211
+│                       │       │                  │      434&w=4 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202303
+│                       │       │                  │      24-0001/ 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
+│                       │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
+│                       ├ [15]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       │       ├ PkgID           : gpgconf@2.2.27-3ubuntu2.1 
+│                       │       ├ PkgName         : gpgconf 
+│                       │       ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : denial of service issue (resource consumption) using
+│                       │       │                   compressed packets 
+│                       │       ├ Description     : GnuPG can be made to spin on a relatively small input
+│                       │       │                   by (for example) crafting a public key with thousands of
+│                       │       │                   signatures attached, compressed down to just a few
+│                       │       │                   KB. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3219 
+│                       │       │                  ├ [3]: https://dev.gnupg.org/D556 
+│                       │       │                  ├ [4]: https://dev.gnupg.org/T5993 
+│                       │       │                  ├ [5]: https://marc.info/?l=oss-security&m=165696590211
+│                       │       │                  │      434&w=4 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202303
+│                       │       │                  │      24-0001/ 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
+│                       │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
+│                       ├ [16]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       │       ├ PkgID           : gpgsm@2.2.27-3ubuntu2.1 
+│                       │       ├ PkgName         : gpgsm 
+│                       │       ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : denial of service issue (resource consumption) using
+│                       │       │                   compressed packets 
+│                       │       ├ Description     : GnuPG can be made to spin on a relatively small input
+│                       │       │                   by (for example) crafting a public key with thousands of
+│                       │       │                   signatures attached, compressed down to just a few
+│                       │       │                   KB. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3219 
+│                       │       │                  ├ [3]: https://dev.gnupg.org/D556 
+│                       │       │                  ├ [4]: https://dev.gnupg.org/T5993 
+│                       │       │                  ├ [5]: https://marc.info/?l=oss-security&m=165696590211
+│                       │       │                  │      434&w=4 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202303
+│                       │       │                  │      24-0001/ 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
+│                       │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
+│                       ├ [17]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       │       ├ PkgID           : gpgv@2.2.27-3ubuntu2.1 
+│                       │       ├ PkgName         : gpgv 
+│                       │       ├ InstalledVersion: 2.2.27-3ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : denial of service issue (resource consumption) using
+│                       │       │                   compressed packets 
+│                       │       ├ Description     : GnuPG can be made to spin on a relatively small input
+│                       │       │                   by (for example) crafting a public key with thousands of
+│                       │       │                   signatures attached, compressed down to just a few
+│                       │       │                   KB. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:L 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3219 
+│                       │       │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2127010 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3219 
+│                       │       │                  ├ [3]: https://dev.gnupg.org/D556 
+│                       │       │                  ├ [4]: https://dev.gnupg.org/T5993 
+│                       │       │                  ├ [5]: https://marc.info/?l=oss-security&m=165696590211
+│                       │       │                  │      434&w=4 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-3219 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202303
+│                       │       │                  │      24-0001/ 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
+│                       │       ├ PublishedDate   : 2023-02-23T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-26T16:31:00Z 
+│                       ├ [18]  ╭ VulnerabilityID : CVE-2016-1585 
+│                       │       ├ PkgID           : libapparmor1@3.0.4-2ubuntu2.2 
+│                       │       ├ PkgName         : libapparmor1 
+│                       │       ├ InstalledVersion: 3.0.4-2ubuntu2.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-1585 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : In all versions of AppArmor mount rules are
+│                       │       │                   accidentally widened when  ... 
+│                       │       ├ Description     : In all versions of AppArmor mount rules are
+│                       │       │                   accidentally widened when compiled. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-254 
+│                       │       ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:L/Au:N/C:P/I:P/A:P 
+│                       │       │                        ├ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/
+│                       │       │                        │           I:H/A:H 
+│                       │       │                        ├ V2Score : 7.5 
+│                       │       │                        ╰ V3Score : 9.8 
+│                       │       ├ References       ╭ [0]: https://bugs.launchpad.net/apparmor/+bug/1597017 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2016-1585 
+│                       │       │                  ├ [2]: https://gitlab.com/apparmor/apparmor/-/merge_req
+│                       │       │                  │      uests/1048 
+│                       │       │                  ├ [3]: https://gitlab.com/apparmor/apparmor/-/merge_req
+│                       │       │                  │      uests/333 
+│                       │       │                  ├ [4]: https://lists.apache.org/thread.html/rf9fa47ab66
+│                       │       │                  │      495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev
+│                       │       │                  │      .mina.apache.org%3E 
+│                       │       │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2016-1585 
+│                       │       ├ PublishedDate   : 2019-04-22T16:29:00Z 
+│                       │       ╰ LastModifiedDate: 2021-02-25T17:15:00Z 
+│                       ├ [19]  ╭ VulnerabilityID : CVE-2016-20013 
+│                       │       ├ PkgID           : libc-bin@2.35-0ubuntu3.1 
+│                       │       ├ PkgName         : libc-bin 
+│                       │       ├ InstalledVersion: 2.35-0ubuntu3.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Description     : sha256crypt and sha512crypt through 0.6 allow
+│                       │       │                   attackers to cause a denial of service (CPU consumption)
+│                       │       │                   because the algorithm's runtime is proportional to the
+│                       │       │                   square of the length of the password. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
+│                       │       ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P 
+│                       │       │                        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/
+│                       │       │                        │           I:N/A:H 
+│                       │       │                        ├ V2Score : 5 
+│                       │       │                        ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://akkadia.org/drepper/SHA-crypt.txt 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2016-20013 
+│                       │       │                  ├ [2]: https://pthree.org/2018/05/23/do-not-use-sha256c
+│                       │       │                  │      rypt-sha512crypt-theyre-dangerous/ 
+│                       │       │                  ╰ [3]: https://twitter.com/solardiz/status/795601240151
+│                       │       │                         457793 
+│                       │       ├ PublishedDate   : 2022-02-19T05:15:00Z 
+│                       │       ╰ LastModifiedDate: 2022-03-03T16:43:00Z 
+│                       ├ [20]  ╭ VulnerabilityID : CVE-2016-20013 
+│                       │       ├ PkgID           : libc6@2.35-0ubuntu3.1 
+│                       │       ├ PkgName         : libc6 
+│                       │       ├ InstalledVersion: 2.35-0ubuntu3.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Description     : sha256crypt and sha512crypt through 0.6 allow
+│                       │       │                   attackers to cause a denial of service (CPU consumption)
+│                       │       │                   because the algorithm's runtime is proportional to the
+│                       │       │                   square of the length of the password. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-770 
+│                       │       ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P 
+│                       │       │                        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/
+│                       │       │                        │           I:N/A:H 
+│                       │       │                        ├ V2Score : 5 
+│                       │       │                        ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://akkadia.org/drepper/SHA-crypt.txt 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2016-20013 
+│                       │       │                  ├ [2]: https://pthree.org/2018/05/23/do-not-use-sha256c
+│                       │       │                  │      rypt-sha512crypt-theyre-dangerous/ 
+│                       │       │                  ╰ [3]: https://twitter.com/solardiz/status/795601240151
+│                       │       │                         457793 
+│                       │       ├ PublishedDate   : 2022-02-19T05:15:00Z 
+│                       │       ╰ LastModifiedDate: 2022-03-03T16:43:00Z 
+│                       ├ [21]  ╭ VulnerabilityID : CVE-2023-34969 
+│                       │       ├ PkgID           : libdbus-1-3@1.12.20-2ubuntu4.1 
+│                       │       ├ PkgName         : libdbus-1-3 
+│                       │       ├ InstalledVersion: 1.12.20-2ubuntu4.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : assertion failure when a monitor is active and a
+│                       │       │                   message from the driver cannot be delivered 
+│                       │       ├ Description     : D-Bus before 1.15.6 sometimes allows unprivileged
+│                       │       │                   users to crash dbus-daemon. If a privileged user with
+│                       │       │                   control over the dbus-daemon is using the
+│                       │       │                   org.freedesktop.DBus.Monitoring interface to monitor
+│                       │       │                   message bus traffic, then an unprivileged user with the
+│                       │       │                   ability to connect to the same dbus-daemon can cause a
+│                       │       │                   dbus-daemon crash under some circumstances via an
+│                       │       │                   unreplyable message. When done on the well-known system
+│                       │       │                   bus, this is a denial-of-service vulnerability. The fixed
+│                       │       │                   versions are 1.12.28, 1.14.8, and 1.15.6. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-400 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.2 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -34969 
+│                       │       │                  ├ [2] : https://bugzilla.redhat.com/2213166 
+│                       │       │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-34969 
+│                       │       │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                       │       │                  ├ [5] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
+│                       │       │                  │       es/457 
+│                       │       │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-34969.html 
+│                       │       │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/BZYC
+│                       │       │                  │       DRMD7B4XO4HF6C6YTLH4YUD7TANP/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-34969 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
+│                       │       ├ PublishedDate   : 2023-06-08T03:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-06-24T03:15:00Z 
+│                       ├ [22]  ╭ VulnerabilityID : CVE-2021-40812 
+│                       │       ├ PkgID           : libgd3@2.3.0-2ubuntu2 
+│                       │       ├ PkgName         : libgd3 
+│                       │       ├ InstalledVersion: 2.3.0-2ubuntu2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-40812 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : The GD Graphics Library (aka LibGD) through 2.3.2 has
+│                       │       │                   an out-of-bounds ... 
+│                       │       ├ Description     : The GD Graphics Library (aka LibGD) through 2.3.2 has
+│                       │       │                   an out-of-bounds read because of the lack of certain
+│                       │       │                   gdGetBuf and gdPutBuf return value checks. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ CVSS             ─ nvd ╭ V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P 
+│                       │       │                        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/
+│                       │       │                        │           I:N/A:H 
+│                       │       │                        ├ V2Score : 4.3 
+│                       │       │                        ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2021-40812 
+│                       │       │                  ├ [1]: https://github.com/libgd/libgd/commit/6f5136821b
+│                       │       │                  │      e86e7068fcdf651ae9420b5d42e9a9 
+│                       │       │                  ├ [2]: https://github.com/libgd/libgd/issues/750#issuec
+│                       │       │                  │      omment-914872385 
+│                       │       │                  ├ [3]: https://github.com/libgd/libgd/issues/757 
+│                       │       │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-40812 
+│                       │       ├ PublishedDate   : 2021-09-08T21:15:00Z 
+│                       │       ╰ LastModifiedDate: 2021-09-15T15:07:00Z 
+│                       ├ [23]  ╭ VulnerabilityID : CVE-2023-36054 
+│                       │       ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.2 
+│                       │       ├ PkgName         : libgssapi-krb5-2 
+│                       │       ├ InstalledVersion: 1.19.2-2ubuntu0.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36054 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Denial of service through freeing uninitialized pointer 
+│                       │       ├ Description     : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
+│                       │       │                   before 1.20.2 and 1.21.x before 1.21.1 frees an
+│                       │       │                   uninitialized pointer. A remote authenticated user can
+│                       │       │                   trigger a kadmind crash. This occurs because
+│                       │       │                   _xdr_kadm5_principal_ent_rec does not validate the
+│                       │       │                   relationship between n_key_data and the key_data array
+│                       │       │                   count. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-824 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36054 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-36054 
+│                       │       │                  ├ [2]: https://github.com/krb5/krb5/commit/ef08b09c9459
+│                       │       │                  │      551aabbe7924fb176f1583053cdd 
+│                       │       │                  ├ [3]: https://github.com/krb5/krb5/compare/krb5-1.20.1
+│                       │       │                  │      -final...krb5-1.20.2-final 
+│                       │       │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-f
+│                       │       │                  │      inal...krb5-1.21.1-final 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+│                       │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                       │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
+│                       ├ [24]  ╭ VulnerabilityID : CVE-2023-36054 
+│                       │       ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.2 
+│                       │       ├ PkgName         : libk5crypto3 
+│                       │       ├ InstalledVersion: 1.19.2-2ubuntu0.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36054 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Denial of service through freeing uninitialized pointer 
+│                       │       ├ Description     : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
+│                       │       │                   before 1.20.2 and 1.21.x before 1.21.1 frees an
+│                       │       │                   uninitialized pointer. A remote authenticated user can
+│                       │       │                   trigger a kadmind crash. This occurs because
+│                       │       │                   _xdr_kadm5_principal_ent_rec does not validate the
+│                       │       │                   relationship between n_key_data and the key_data array
+│                       │       │                   count. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-824 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36054 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-36054 
+│                       │       │                  ├ [2]: https://github.com/krb5/krb5/commit/ef08b09c9459
+│                       │       │                  │      551aabbe7924fb176f1583053cdd 
+│                       │       │                  ├ [3]: https://github.com/krb5/krb5/compare/krb5-1.20.1
+│                       │       │                  │      -final...krb5-1.20.2-final 
+│                       │       │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-f
+│                       │       │                  │      inal...krb5-1.21.1-final 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+│                       │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                       │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
+│                       ├ [25]  ╭ VulnerabilityID : CVE-2023-36054 
+│                       │       ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.2 
+│                       │       ├ PkgName         : libkrb5-3 
+│                       │       ├ InstalledVersion: 1.19.2-2ubuntu0.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36054 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Denial of service through freeing uninitialized pointer 
+│                       │       ├ Description     : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
+│                       │       │                   before 1.20.2 and 1.21.x before 1.21.1 frees an
+│                       │       │                   uninitialized pointer. A remote authenticated user can
+│                       │       │                   trigger a kadmind crash. This occurs because
+│                       │       │                   _xdr_kadm5_principal_ent_rec does not validate the
+│                       │       │                   relationship between n_key_data and the key_data array
+│                       │       │                   count. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-824 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36054 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-36054 
+│                       │       │                  ├ [2]: https://github.com/krb5/krb5/commit/ef08b09c9459
+│                       │       │                  │      551aabbe7924fb176f1583053cdd 
+│                       │       │                  ├ [3]: https://github.com/krb5/krb5/compare/krb5-1.20.1
+│                       │       │                  │      -final...krb5-1.20.2-final 
+│                       │       │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-f
+│                       │       │                  │      inal...krb5-1.21.1-final 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+│                       │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                       │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
+│                       ├ [26]  ╭ VulnerabilityID : CVE-2023-36054 
+│                       │       ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.2 
+│                       │       ├ PkgName         : libkrb5support0 
+│                       │       ├ InstalledVersion: 1.19.2-2ubuntu0.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36054 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Denial of service through freeing uninitialized pointer 
+│                       │       ├ Description     : lib/kadm5/kadm_rpc_xdr.c in MIT Kerberos 5 (aka krb5)
+│                       │       │                   before 1.20.2 and 1.21.x before 1.21.1 frees an
+│                       │       │                   uninitialized pointer. A remote authenticated user can
+│                       │       │                   trigger a kadmind crash. This occurs because
+│                       │       │                   _xdr_kadm5_principal_ent_rec does not validate the
+│                       │       │                   relationship between n_key_data and the key_data array
+│                       │       │                   count. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-824 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.7 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-36054 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-36054 
+│                       │       │                  ├ [2]: https://github.com/krb5/krb5/commit/ef08b09c9459
+│                       │       │                  │      551aabbe7924fb176f1583053cdd 
+│                       │       │                  ├ [3]: https://github.com/krb5/krb5/compare/krb5-1.20.1
+│                       │       │                  │      -final...krb5-1.20.2-final 
+│                       │       │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-f
+│                       │       │                  │      inal...krb5-1.21.1-final 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+│                       │       │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                       │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
+│                       ├ [27]  ╭ VulnerabilityID : CVE-2023-2953 
+│                       │       ├ PkgID           : libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1 
+│                       │       ├ PkgName         : libldap-2.5-0 
+│                       │       ├ InstalledVersion: 2.5.16+dfsg-0ubuntu0.22.04.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2953 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : null pointer dereference in  ber_memalloc_x  function 
+│                       │       ├ Description     : A vulnerability was found in openldap. This security
+│                       │       │                   flaw causes a null pointer dereference in ber_memalloc_x()
+│                       │       │                   function. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:L/A:H 
+│                       │       │                           ╰ V3Score : 7.1 
+│                       │       ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Jul/47 
+│                       │       │                  ├ [1] : http://seclists.org/fulldisclosure/2023/Jul/48 
+│                       │       │                  ├ [2] : http://seclists.org/fulldisclosure/2023/Jul/52 
+│                       │       │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-2953 
+│                       │       │                  ├ [4] : https://bugs.openldap.org/show_bug.cgi?id=9904 
+│                       │       │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-2953 
+│                       │       │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-2953 
+│                       │       │                  ├ [7] : https://security.netapp.com/advisory/ntap-20230
+│                       │       │                  │       703-0005/ 
+│                       │       │                  ├ [8] : https://support.apple.com/kb/HT213843 
+│                       │       │                  ├ [9] : https://support.apple.com/kb/HT213844 
+│                       │       │                  ├ [10]: https://support.apple.com/kb/HT213845 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6197-1 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
+│                       │       ├ PublishedDate   : 2023-05-30T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
+│                       ├ [28]  ╭ VulnerabilityID : CVE-2017-11164 
+│                       │       ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
+│                       │       ├ PkgName         : libpcre3 
+│                       │       ├ InstalledVersion: 2:8.39-13ubuntu0.22.04.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2017-11164 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : pcre: OP_KETRMAX feature in the match function in
+│                       │       │                   pcre_exec.c 
+│                       │       ├ Description     : In PCRE 8.41, the OP_KETRMAX feature in the match
+│                       │       │                   function in pcre_exec.c allows stack exhaustion
+│                       │       │                   (uncontrolled recursion) when processing a crafted regular
+│                       │       │                   expression. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-674 
+│                       │       ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:C 
+│                       │       │                  │        ├ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ├ V2Score : 7.8 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:L 
+│                       │       │                           ╰ V3Score : 3.3 
+│                       │       ├ References       ╭ [0]: http://openwall.com/lists/oss-security/2017/07/11/3 
+│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      04/11/1 
+│                       │       │                  ├ [2]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      04/12/1 
+│                       │       │                  ├ [3]: http://www.securityfocus.com/bid/99575 
+│                       │       │                  ├ [4]: https://access.redhat.com/security/cve/CVE-2017-11164 
+│                       │       │                  ├ [5]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2017-11164 
+│                       │       │                  ├ [6]: https://lists.apache.org/thread.html/rf9fa47ab66
+│                       │       │                  │      495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev
+│                       │       │                  │      .mina.apache.org%3E 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2017-11164 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
+│                       │       ├ PublishedDate   : 2017-07-11T03:29:00Z 
+│                       │       ╰ LastModifiedDate: 2023-04-12T15:15:00Z 
+│                       ├ [29]  ╭ VulnerabilityID : CVE-2022-3857 
+│                       │       ├ PkgID           : libpng16-16@1.6.37-3build5 
+│                       │       ├ PkgName         : libpng16-16 
+│                       │       ├ InstalledVersion: 1.6.37-3build5 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3857 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Null pointer dereference leads to segmentation fault 
+│                       │       ├ Description     : A flaw was found in libpng 1.6.38. A crafted PNG image
+│                       │       │                    can lead to a segmentation fault and denial of service in
+│                       │       │                   png_setup_paeth_row() function. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3857 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3857 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2022-3857 
+│                       │       │                  ├ [3]: https://security.netapp.com/advisory/ntap-202304
+│                       │       │                  │      06-0004/ 
+│                       │       │                  ├ [4]: https://sourceforge.net/p/libpng/bugs/300/ 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
+│                       │       ├ PublishedDate   : 2023-03-06T23:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-04-06T13:15:00Z 
+│                       ├ [30]  ╭ VulnerabilityID : CVE-2023-4016 
+│                       │       ├ PkgID           : libprocps8@2:3.3.17-6ubuntu2 
+│                       │       ├ PkgName         : libprocps8 
+│                       │       ├ InstalledVersion: 2:3.3.17-6ubuntu2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4016 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : ps buffer overflow 
+│                       │       ├ Description     : Under some circumstances, this weakness allows a user
+│                       │       │                   who has access to run the “ps” utility on a machine, the
+│                       │       │                   ability to write almost unlimited amounts of unfiltered
+│                       │       │                   data into the process heap. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:L 
+│                       │       │                           ╰ V3Score : 2.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4016 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-4016 
+│                       │       │                  ├ [2]: https://gitlab.com/procps-ng/procps 
+│                       │       │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/SUETRR
+│                       │       │                  │      T24OFGPYK6ACPM5VUGHNKH5CQ5/ 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
+│                       │       ├ PublishedDate   : 2023-08-02T05:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
+│                       ├ [31]  ╭ VulnerabilityID : CVE-2023-27043 
+│                       │       ├ PkgID           : libpython3.10@3.10.12-1~22.04.2 
+│                       │       ├ PkgName         : libpython3.10 
+│                       │       ├ InstalledVersion: 3.10.12-1~22.04.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Parsing errors in email/_parseaddr.py lead to
+│                       │       │                   incorrect value in email address part of tuple 
+│                       │       ├ Description     : The email module of Python through 3.11.3 incorrectly
+│                       │       │                   parses e-mail addresses that contain a special character.
+│                       │       │                   The wrong portion of an RFC2822 header is identified as the
+│                       │       │                    value of the addr-spec. In some applications, an attacker
+│                       │       │                   can bypass a protection mechanism in which application
+│                       │       │                   access is granted only after verifying receipt of e-mail to
+│                       │       │                    a specific domain (e.g., only @company.example.com
+│                       │       │                   addresses may be used for signup). This occurs in
+│                       │       │                   email/_parseaddr.py in recent versions of Python. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-20 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:L/A:N 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: http://python.org 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-27043 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-27043 
+│                       │       │                  ├ [3]: https://github.com/python/cpython/issues/102988 
+│                       │       │                  ├ [4]: https://github.com/python/cpython/pull/102990 
+│                       │       │                  ├ [5]: https://github.com/python/cpython/pull/105127 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                       │       │                  ├ [7]: https://python-security.readthedocs.io/vuln/emai
+│                       │       │                  │      l-parseaddr-realname.html 
+│                       │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-202306
+│                       │       │                  │      01-0003/ 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                       │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
+│                       ├ [32]  ╭ VulnerabilityID : CVE-2023-27043 
+│                       │       ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.2 
+│                       │       ├ PkgName         : libpython3.10-minimal 
+│                       │       ├ InstalledVersion: 3.10.12-1~22.04.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Parsing errors in email/_parseaddr.py lead to
+│                       │       │                   incorrect value in email address part of tuple 
+│                       │       ├ Description     : The email module of Python through 3.11.3 incorrectly
+│                       │       │                   parses e-mail addresses that contain a special character.
+│                       │       │                   The wrong portion of an RFC2822 header is identified as the
+│                       │       │                    value of the addr-spec. In some applications, an attacker
+│                       │       │                   can bypass a protection mechanism in which application
+│                       │       │                   access is granted only after verifying receipt of e-mail to
+│                       │       │                    a specific domain (e.g., only @company.example.com
+│                       │       │                   addresses may be used for signup). This occurs in
+│                       │       │                   email/_parseaddr.py in recent versions of Python. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-20 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:L/A:N 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: http://python.org 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-27043 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-27043 
+│                       │       │                  ├ [3]: https://github.com/python/cpython/issues/102988 
+│                       │       │                  ├ [4]: https://github.com/python/cpython/pull/102990 
+│                       │       │                  ├ [5]: https://github.com/python/cpython/pull/105127 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                       │       │                  ├ [7]: https://python-security.readthedocs.io/vuln/emai
+│                       │       │                  │      l-parseaddr-realname.html 
+│                       │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-202306
+│                       │       │                  │      01-0003/ 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                       │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
+│                       ├ [33]  ╭ VulnerabilityID : CVE-2023-27043 
+│                       │       ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.2 
+│                       │       ├ PkgName         : libpython3.10-stdlib 
+│                       │       ├ InstalledVersion: 3.10.12-1~22.04.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Parsing errors in email/_parseaddr.py lead to
+│                       │       │                   incorrect value in email address part of tuple 
+│                       │       ├ Description     : The email module of Python through 3.11.3 incorrectly
+│                       │       │                   parses e-mail addresses that contain a special character.
+│                       │       │                   The wrong portion of an RFC2822 header is identified as the
+│                       │       │                    value of the addr-spec. In some applications, an attacker
+│                       │       │                   can bypass a protection mechanism in which application
+│                       │       │                   access is granted only after verifying receipt of e-mail to
+│                       │       │                    a specific domain (e.g., only @company.example.com
+│                       │       │                   addresses may be used for signup). This occurs in
+│                       │       │                   email/_parseaddr.py in recent versions of Python. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-20 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:L/A:N 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: http://python.org 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-27043 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-27043 
+│                       │       │                  ├ [3]: https://github.com/python/cpython/issues/102988 
+│                       │       │                  ├ [4]: https://github.com/python/cpython/pull/102990 
+│                       │       │                  ├ [5]: https://github.com/python/cpython/pull/105127 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                       │       │                  ├ [7]: https://python-security.readthedocs.io/vuln/emai
+│                       │       │                  │      l-parseaddr-realname.html 
+│                       │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-202306
+│                       │       │                  │      01-0003/ 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                       │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
+│                       ├ [34]  ╭ VulnerabilityID : CVE-2022-46908 
+│                       │       ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
+│                       │       ├ PkgName         : libsqlite3-0 
+│                       │       ├ InstalledVersion: 3.37.2-2ubuntu0.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-46908 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : safe mode authorizer callback allows disallowed UDFs 
+│                       │       ├ Description     : SQLite through 3.40.0, when relying on --safe for
+│                       │       │                   execution of an untrusted CLI script, does not properly
+│                       │       │                   implement the azProhibitedFunctions protection mechanism,
+│                       │       │                   and instead allows UDF functions such as WRITEFILE.[
+│                       │       │                   m 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :H/I:H/A:L 
+│                       │       │                  │        ╰ V3Score : 7.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                           │           :H/I:H/A:L 
+│                       │       │                           ╰ V3Score : 7.3 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-46908 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-46908 
+│                       │       │                  ├ [2]: https://news.ycombinator.com/item?id=33948588 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2022-46908 
+│                       │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-202302
+│                       │       │                  │      03-0005/ 
+│                       │       │                  ├ [5]: https://sqlite.org/forum/forumpost/07beac8056151b2f 
+│                       │       │                  ├ [6]: https://sqlite.org/src/info/cefc032473ac5ad2 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-46908 
+│                       │       ├ PublishedDate   : 2022-12-12T06:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-03-07T18:21:00Z 
+│                       ├ [35]  ╭ VulnerabilityID : CVE-2023-2975 
+│                       │       ├ PkgID           : libssl3@3.0.2-0ubuntu1.10 
+│                       │       ├ PkgName         : libssl3 
+│                       │       ├ InstalledVersion: 3.0.2-0ubuntu1.10 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2975 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : AES-SIV cipher implementation contains a bug that
+│                       │       │                   causes it to ignore empty associated data entries 
+│                       │       ├ Description     : Issue summary: The AES-SIV cipher implementation
+│                       │       │                   contains a bug that causes
+│                       │       │                   it to ignore empty associated data entries which are
+│                       │       │                   unauthenticated as
+│                       │       │                   a consequence.
+│                       │       │                   
+│                       │       │                   Impact summary: Applications that use the AES-SIV algorithm
+│                       │       │                    and want to
+│                       │       │                   authenticate empty data entries as associated data can be
+│                       │       │                   mislead by removing
+│                       │       │                   adding or reordering such empty entries as these are
+│                       │       │                   ignored by the OpenSSL
+│                       │       │                   implementation. We are currently unaware of any such
+│                       │       │                   applications.
+│                       │       │                   
+│                       │       │                   The AES-SIV algorithm allows for authentication of multiple
+│                       │       │                    associated
+│                       │       │                   data entries along with the encryption. To authenticate
+│                       │       │                   empty data the
+│                       │       │                   application has to call EVP_EncryptUpdate() (or
+│                       │       │                   EVP_CipherUpdate()) with
+│                       │       │                   NULL pointer as the output buffer and 0 as the input buffer
+│                       │       │                    length.
+│                       │       │                   The AES-SIV implementation in OpenSSL just returns success
+│                       │       │                   for such a call
+│                       │       │                   instead of performing the associated data authentication
+│                       │       │                   operation.
+│                       │       │                   The empty data thus will not be authenticated.
+│                       │       │                   
+│                       │       │                   As this issue does not affect non-empty associated data
+│                       │       │                   authentication and
+│                       │       │                   we expect it to be rare for an application to use empty
+│                       │       │                   associated data
+│                       │       │                   entries this is qualified as Low severity issue. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-287 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:L/A:N 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      07/15/1 
+│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      07/19/5 
+│                       │       │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2023-2975 
+│                       │       │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-2975 
+│                       │       │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=
+│                       │       │                  │      commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
+│                       │       │                  │       
+│                       │       │                  ├ [5]: https://git.openssl.org/gitweb/?p=openssl.git;a=
+│                       │       │                  │      commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
+│                       │       │                  │       
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202307
+│                       │       │                  │      25-0004/ 
+│                       │       │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+│                       │       │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
+│                       │       ├ PublishedDate   : 2023-07-14T12:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
+│                       ├ [36]  ╭ VulnerabilityID : CVE-2018-10126 
+│                       │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
+│                       │       ├ PkgName         : libtiff5 
+│                       │       ├ InstalledVersion: 4.3.0-6ubuntu0.5 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-10126 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : libtiff: NULL pointer dereference in the
+│                       │       │                   jpeg_fdct_16x16 function in jfdctint.c 
+│                       │       ├ Description     : LibTIFF 4.0.9 has a NULL pointer dereference in the
+│                       │       │                   jpeg_fdct_16x16 function in jfdctint.c. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P 
+│                       │       │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ├ V2Score : 4.3 
+│                       │       │                  │        ╰ V3Score : 6.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:L 
+│                       │       │                           ╰ V3Score : 3.3 
+│                       │       ├ References       ╭ [0]: http://bugzilla.maptools.org/show_bug.cgi?id=2786 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2018-10126 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2018-10126 
+│                       │       │                  ├ [3]: https://lists.apache.org/thread.html/rf9fa47ab66
+│                       │       │                  │      495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev
+│                       │       │                  │      .mina.apache.org%3E 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2018-10126 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
+│                       │       ├ PublishedDate   : 2018-04-21T21:29:00Z 
+│                       │       ╰ LastModifiedDate: 2021-03-15T22:31:00Z 
+│                       ├ [37]  ╭ VulnerabilityID : CVE-2023-1916 
+│                       │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
+│                       │       ├ PkgName         : libtiff5 
+│                       │       ├ InstalledVersion: 4.3.0-6ubuntu0.5 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-1916 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : out-of-bounds read in extractImageSection() in
+│                       │       │                   tools/tiffcrop.c 
+│                       │       ├ Description     : A flaw was found in tiffcrop, a program distributed by
+│                       │       │                    the libtiff package. A specially crafted tiff file can
+│                       │       │                   lead to an out-of-bounds read in the extractImageSection
+│                       │       │                   function in tools/tiffcrop.c, resulting in a denial of
+│                       │       │                   service and limited information disclosure. This issue
+│                       │       │                   affects libtiff versions 4.x. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :L/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 6.1 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :L/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-1916 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-1916 
+│                       │       │                  ├ [2]: https://gitlab.com/libtiff/libtiff/-/issues/536 
+│                       │       │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/issues/536, 
+│                       │       │                  ├ [4]: https://gitlab.com/libtiff/libtiff/-/issues/537 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-1916 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-1916 
+│                       │       ├ PublishedDate   : 2023-04-10T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-04-18T15:25:00Z 
+│                       ├ [38]  ╭ VulnerabilityID : CVE-2023-3164 
+│                       │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
+│                       │       ├ PkgName         : libtiff5 
+│                       │       ├ InstalledVersion: 4.3.0-6ubuntu0.5 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3164 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap-buffer-overflow in extractImageSection() 
+│                       │       ├ Description     : A heap-buffer-overflow vulnerability was found in
+│                       │       │                   LibTIFF, in extractImageSection() at tools/tiffcrop.c:7916
+│                       │       │                   and tools/tiffcrop.c:7801. This flaw allows attackers to
+│                       │       │                   cause a denial of service via a crafted tiff file. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3164 
+│                       │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │                          │      VE-2023-3164 
+│                       │                          ├ [2]: https://gitlab.com/libtiff/libtiff/-/issues/542 
+│                       │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3164 
+│                       │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
+│                       ├ [39]  ╭ VulnerabilityID : CVE-2023-3576 
+│                       │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
+│                       │       ├ PkgName         : libtiff5 
+│                       │       ├ InstalledVersion: 4.3.0-6ubuntu0.5 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3576 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : memory leak in tiffcrop.c 
+│                       │       ├ Description     : No description is available for this CVE. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3576 
+│                       │                          ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │                          │      VE-2023-3576 
+│                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
+│                       │                          ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
+│                       ├ [40]  ╭ VulnerabilityID : CVE-2022-4899 
+│                       │       ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
+│                       │       ├ PkgName         : libzstd1 
+│                       │       ├ InstalledVersion: 1.4.8+dfsg-3build1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-4899 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : buffer overrun in util.c 
+│                       │       ├ Description     : A vulnerability was found in zstd v1.4.10, where an
+│                       │       │                   attacker can supply empty string as an argument to the
+│                       │       │                   command line tool to cause buffer overrun. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-400 
+│                       │       ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 7.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 7.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-4899 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-4899 
+│                       │       │                  ├ [2]: https://github.com/advisories/GHSA-5c9c-6x87-f9vm 
+│                       │       │                  ├ [3]: https://github.com/facebook/zstd/issues/3200 
+│                       │       │                  ├ [4]: https://github.com/facebook/zstd/pull/3220 
+│                       │       │                  ├ [5]: https://github.com/pypa/advisory-database/tree/m
+│                       │       │                  │      ain/vulns/zstd/PYSEC-2023-121.yaml 
+│                       │       │                  ├ [6]: https://github.com/sergey-dryabzhinsky/python-zs
+│                       │       │                  │      td/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6
+│                       │       │                  │       
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-4899 
+│                       │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-202307
+│                       │       │                  │      25-0005/ 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
+│                       │       ├ PublishedDate   : 2023-03-31T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
+│                       ├ [41]  ╭ VulnerabilityID : CVE-2023-29383 
+│                       │       ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
+│                       │       ├ PkgName         : login 
+│                       │       ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Improper input validation in shadow-utils package
+│                       │       │                   utility chfn 
+│                       │       ├ Description     : In Shadow 4.13, it is possible to inject control
+│                       │       │                   characters into fields provided to the SUID program chfn
+│                       │       │                   (change finger). Although it is not possible to exploit
+│                       │       │                   this directly (e.g., adding a new user fails because \n is
+│                       │       │                   in the block list), it is possible to misrepresent the
+│                       │       │                   /etc/passwd file when viewed. Use of \r manipulations and
+│                       │       │                   Unicode characters to work around blocking of the :
+│                       │       │                   character make it possible to give the impression that a
+│                       │       │                   new user has been added. In other words, an adversary may
+│                       │       │                   be able to convince a system administrator to take the
+│                       │       │                   system offline (an indirect, social-engineered denial of
+│                       │       │                   service) by demonstrating that "cat /etc/passwd" shows a
+│                       │       │                   rogue user account. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-74 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-29383 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-29383 
+│                       │       │                  ├ [2]: https://github.com/shadow-maint/shadow/commit/e5
+│                       │       │                  │      905c4b84d4fb90aefcd96ee618411ebfac663d 
+│                       │       │                  ├ [3]: https://github.com/shadow-maint/shadow/pull/687 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-29383 
+│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-29383 
+│                       │       │                  ├ [6]: https://www.trustwave.com/en-us/resources/blogs/
+│                       │       │                  │      spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-
+│                       │       │                  │      misrepresent-etc-passwd/ 
+│                       │       │                  ╰ [7]: https://www.trustwave.com/en-us/resources/securi
+│                       │       │                         ty-resources/security-advisories/?fid=31797 
+│                       │       ├ PublishedDate   : 2023-04-14T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
+│                       ├ [42]  ╭ VulnerabilityID : CVE-2023-28531 
+│                       │       ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.3 
+│                       │       ├ PkgName         : openssh-client 
+│                       │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28531 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : openssh: smartcard keys to ssh-agent without the
+│                       │       │                   intended per-hop destination constraints. 
+│                       │       ├ Description     : ssh-add in OpenSSH before 9.3 adds smartcard keys to
+│                       │       │                   ssh-agent without the intended per-hop destination
+│                       │       │                   constraints. The earliest affected version is 8.9. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 9.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :H/I:N/A:H 
+│                       │       │                           ╰ V3Score : 9.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-28531 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-28531 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-28531 
+│                       │       │                  ├ [3]: https://security.gentoo.org/glsa/202307-01 
+│                       │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-202304
+│                       │       │                  │      13-0008/ 
+│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
+│                       │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2023
+│                       │       │                         /03/15/8 
+│                       │       ├ PublishedDate   : 2023-03-17T04:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
+│                       ├ [43]  ╭ VulnerabilityID : CVE-2023-28531 
+│                       │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.3 
+│                       │       ├ PkgName         : openssh-server 
+│                       │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28531 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : openssh: smartcard keys to ssh-agent without the
+│                       │       │                   intended per-hop destination constraints. 
+│                       │       ├ Description     : ssh-add in OpenSSH before 9.3 adds smartcard keys to
+│                       │       │                   ssh-agent without the intended per-hop destination
+│                       │       │                   constraints. The earliest affected version is 8.9. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 9.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :H/I:N/A:H 
+│                       │       │                           ╰ V3Score : 9.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-28531 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-28531 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-28531 
+│                       │       │                  ├ [3]: https://security.gentoo.org/glsa/202307-01 
+│                       │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-202304
+│                       │       │                  │      13-0008/ 
+│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
+│                       │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2023
+│                       │       │                         /03/15/8 
+│                       │       ├ PublishedDate   : 2023-03-17T04:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
+│                       ├ [44]  ╭ VulnerabilityID : CVE-2023-28531 
+│                       │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.3 
+│                       │       ├ PkgName         : openssh-sftp-server 
+│                       │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-28531 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : openssh: smartcard keys to ssh-agent without the
+│                       │       │                   intended per-hop destination constraints. 
+│                       │       ├ Description     : ssh-add in OpenSSH before 9.3 adds smartcard keys to
+│                       │       │                   ssh-agent without the intended per-hop destination
+│                       │       │                   constraints. The earliest affected version is 8.9. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 9.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :H/I:N/A:H 
+│                       │       │                           ╰ V3Score : 9.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-28531 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-28531 
+│                       │       │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-28531 
+│                       │       │                  ├ [3]: https://security.gentoo.org/glsa/202307-01 
+│                       │       │                  ├ [4]: https://security.netapp.com/advisory/ntap-202304
+│                       │       │                  │      13-0008/ 
+│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
+│                       │       │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2023
+│                       │       │                         /03/15/8 
+│                       │       ├ PublishedDate   : 2023-03-17T04:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
+│                       ├ [45]  ╭ VulnerabilityID : CVE-2023-2975 
+│                       │       ├ PkgID           : openssl@3.0.2-0ubuntu1.10 
+│                       │       ├ PkgName         : openssl 
+│                       │       ├ InstalledVersion: 3.0.2-0ubuntu1.10 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2975 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : AES-SIV cipher implementation contains a bug that
+│                       │       │                   causes it to ignore empty associated data entries 
+│                       │       ├ Description     : Issue summary: The AES-SIV cipher implementation
+│                       │       │                   contains a bug that causes
+│                       │       │                   it to ignore empty associated data entries which are
+│                       │       │                   unauthenticated as
+│                       │       │                   a consequence.
+│                       │       │                   
+│                       │       │                   Impact summary: Applications that use the AES-SIV algorithm
+│                       │       │                    and want to
+│                       │       │                   authenticate empty data entries as associated data can be
+│                       │       │                   mislead by removing
+│                       │       │                   adding or reordering such empty entries as these are
+│                       │       │                   ignored by the OpenSSL
+│                       │       │                   implementation. We are currently unaware of any such
+│                       │       │                   applications.
+│                       │       │                   
+│                       │       │                   The AES-SIV algorithm allows for authentication of multiple
+│                       │       │                    associated
+│                       │       │                   data entries along with the encryption. To authenticate
+│                       │       │                   empty data the
+│                       │       │                   application has to call EVP_EncryptUpdate() (or
+│                       │       │                   EVP_CipherUpdate()) with
+│                       │       │                   NULL pointer as the output buffer and 0 as the input buffer
+│                       │       │                    length.
+│                       │       │                   The AES-SIV implementation in OpenSSL just returns success
+│                       │       │                   for such a call
+│                       │       │                   instead of performing the associated data authentication
+│                       │       │                   operation.
+│                       │       │                   The empty data thus will not be authenticated.
+│                       │       │                   
+│                       │       │                   As this issue does not affect non-empty associated data
+│                       │       │                   authentication and
+│                       │       │                   we expect it to be rare for an application to use empty
+│                       │       │                   associated data
+│                       │       │                   entries this is qualified as Low severity issue. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-287 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:L/A:N 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      07/15/1 
+│                       │       │                  ├ [1]: http://www.openwall.com/lists/oss-security/2023/
+│                       │       │                  │      07/19/5 
+│                       │       │                  ├ [2]: https://access.redhat.com/security/cve/CVE-2023-2975 
+│                       │       │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-2975 
+│                       │       │                  ├ [4]: https://git.openssl.org/gitweb/?p=openssl.git;a=
+│                       │       │                  │      commitdiff;h=00e2f5eea29994d19293ec4e8c8775ba73678598
+│                       │       │                  │       
+│                       │       │                  ├ [5]: https://git.openssl.org/gitweb/?p=openssl.git;a=
+│                       │       │                  │      commitdiff;h=6a83f0c958811f07e0d11dfc6b5a6a98edfd5bdc
+│                       │       │                  │       
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-2975 
+│                       │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-202307
+│                       │       │                  │      25-0004/ 
+│                       │       │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-2975 
+│                       │       │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
+│                       │       ├ PublishedDate   : 2023-07-14T12:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
+│                       ├ [46]  ╭ VulnerabilityID : CVE-2023-29383 
+│                       │       ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
+│                       │       ├ PkgName         : passwd 
+│                       │       ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Improper input validation in shadow-utils package
+│                       │       │                   utility chfn 
+│                       │       ├ Description     : In Shadow 4.13, it is possible to inject control
+│                       │       │                   characters into fields provided to the SUID program chfn
+│                       │       │                   (change finger). Although it is not possible to exploit
+│                       │       │                   this directly (e.g., adding a new user fails because \n is
+│                       │       │                   in the block list), it is possible to misrepresent the
+│                       │       │                   /etc/passwd file when viewed. Use of \r manipulations and
+│                       │       │                   Unicode characters to work around blocking of the :
+│                       │       │                   character make it possible to give the impression that a
+│                       │       │                   new user has been added. In other words, an adversary may
+│                       │       │                   be able to convince a system administrator to take the
+│                       │       │                   system offline (an indirect, social-engineered denial of
+│                       │       │                   service) by demonstrating that "cat /etc/passwd" shows a
+│                       │       │                   rogue user account. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-74 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-29383 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-29383 
+│                       │       │                  ├ [2]: https://github.com/shadow-maint/shadow/commit/e5
+│                       │       │                  │      905c4b84d4fb90aefcd96ee618411ebfac663d 
+│                       │       │                  ├ [3]: https://github.com/shadow-maint/shadow/pull/687 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-29383 
+│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-29383 
+│                       │       │                  ├ [6]: https://www.trustwave.com/en-us/resources/blogs/
+│                       │       │                  │      spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-
+│                       │       │                  │      misrepresent-etc-passwd/ 
+│                       │       │                  ╰ [7]: https://www.trustwave.com/en-us/resources/securi
+│                       │       │                         ty-resources/security-advisories/?fid=31797 
+│                       │       ├ PublishedDate   : 2023-04-14T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
+│                       ├ [47]  ╭ VulnerabilityID : CVE-2023-4016 
+│                       │       ├ PkgID           : procps@2:3.3.17-6ubuntu2 
+│                       │       ├ PkgName         : procps 
+│                       │       ├ InstalledVersion: 2:3.3.17-6ubuntu2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4016 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : ps buffer overflow 
+│                       │       ├ Description     : Under some circumstances, this weakness allows a user
+│                       │       │                   who has access to run the “ps” utility on a machine, the
+│                       │       │                   ability to write almost unlimited amounts of unfiltered
+│                       │       │                   data into the process heap. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
+│                       │       │                           │           :N/I:N/A:L 
+│                       │       │                           ╰ V3Score : 2.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4016 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-4016 
+│                       │       │                  ├ [2]: https://gitlab.com/procps-ng/procps 
+│                       │       │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/SUETRR
+│                       │       │                  │      T24OFGPYK6ACPM5VUGHNKH5CQ5/ 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
+│                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
+│                       │       ├ PublishedDate   : 2023-08-02T05:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
+│                       ├ [48]  ╭ VulnerabilityID : CVE-2023-27043 
+│                       │       ├ PkgID           : python3.10@3.10.12-1~22.04.2 
+│                       │       ├ PkgName         : python3.10 
+│                       │       ├ InstalledVersion: 3.10.12-1~22.04.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Parsing errors in email/_parseaddr.py lead to
+│                       │       │                   incorrect value in email address part of tuple 
+│                       │       ├ Description     : The email module of Python through 3.11.3 incorrectly
+│                       │       │                   parses e-mail addresses that contain a special character.
+│                       │       │                   The wrong portion of an RFC2822 header is identified as the
+│                       │       │                    value of the addr-spec. In some applications, an attacker
+│                       │       │                   can bypass a protection mechanism in which application
+│                       │       │                   access is granted only after verifying receipt of e-mail to
+│                       │       │                    a specific domain (e.g., only @company.example.com
+│                       │       │                   addresses may be used for signup). This occurs in
+│                       │       │                   email/_parseaddr.py in recent versions of Python. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-20 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:L/A:N 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: http://python.org 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-27043 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-27043 
+│                       │       │                  ├ [3]: https://github.com/python/cpython/issues/102988 
+│                       │       │                  ├ [4]: https://github.com/python/cpython/pull/102990 
+│                       │       │                  ├ [5]: https://github.com/python/cpython/pull/105127 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                       │       │                  ├ [7]: https://python-security.readthedocs.io/vuln/emai
+│                       │       │                  │      l-parseaddr-realname.html 
+│                       │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-202306
+│                       │       │                  │      01-0003/ 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                       │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
+│                       ├ [49]  ╭ VulnerabilityID : CVE-2023-27043 
+│                       │       ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.2 
+│                       │       ├ PkgName         : python3.10-minimal 
+│                       │       ├ InstalledVersion: 3.10.12-1~22.04.2 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Parsing errors in email/_parseaddr.py lead to
+│                       │       │                   incorrect value in email address part of tuple 
+│                       │       ├ Description     : The email module of Python through 3.11.3 incorrectly
+│                       │       │                   parses e-mail addresses that contain a special character.
+│                       │       │                   The wrong portion of an RFC2822 header is identified as the
+│                       │       │                    value of the addr-spec. In some applications, an attacker
+│                       │       │                   can bypass a protection mechanism in which application
+│                       │       │                   access is granted only after verifying receipt of e-mail to
+│                       │       │                    a specific domain (e.g., only @company.example.com
+│                       │       │                   addresses may be used for signup). This occurs in
+│                       │       │                   email/_parseaddr.py in recent versions of Python. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-20 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 5.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │       │                           │           :N/I:L/A:N 
+│                       │       │                           ╰ V3Score : 5.3 
+│                       │       ├ References       ╭ [0]: http://python.org 
+│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-27043 
+│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-27043 
+│                       │       │                  ├ [3]: https://github.com/python/cpython/issues/102988 
+│                       │       │                  ├ [4]: https://github.com/python/cpython/pull/102990 
+│                       │       │                  ├ [5]: https://github.com/python/cpython/pull/105127 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                       │       │                  ├ [7]: https://python-security.readthedocs.io/vuln/emai
+│                       │       │                  │      l-parseaddr-realname.html 
+│                       │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-202306
+│                       │       │                  │      01-0003/ 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                       │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
+│                       ├ [50]  ╭ VulnerabilityID : CVE-2023-29383 
+│                       │       ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
+│                       │       ├ PkgName         : uidmap 
+│                       │       ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Improper input validation in shadow-utils package
+│                       │       │                   utility chfn 
+│                       │       ├ Description     : In Shadow 4.13, it is possible to inject control
+│                       │       │                   characters into fields provided to the SUID program chfn
+│                       │       │                   (change finger). Although it is not possible to exploit
+│                       │       │                   this directly (e.g., adding a new user fails because \n is
+│                       │       │                   in the block list), it is possible to misrepresent the
+│                       │       │                   /etc/passwd file when viewed. Use of \r manipulations and
+│                       │       │                   Unicode characters to work around blocking of the :
+│                       │       │                   character make it possible to give the impression that a
+│                       │       │                   new user has been added. In other words, an adversary may
+│                       │       │                   be able to convince a system administrator to take the
+│                       │       │                   system offline (an indirect, social-engineered denial of
+│                       │       │                   service) by demonstrating that "cat /etc/passwd" shows a
+│                       │       │                   rogue user account. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-74 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                       │       │                  │        │           :N/I:L/A:N 
+│                       │       │                  │        ╰ V3Score : 3.3 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-29383 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2023-29383 
+│                       │       │                  ├ [2]: https://github.com/shadow-maint/shadow/commit/e5
+│                       │       │                  │      905c4b84d4fb90aefcd96ee618411ebfac663d 
+│                       │       │                  ├ [3]: https://github.com/shadow-maint/shadow/pull/687 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-29383 
+│                       │       │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-29383 
+│                       │       │                  ├ [6]: https://www.trustwave.com/en-us/resources/blogs/
+│                       │       │                  │      spiderlabs-blog/cve-2023-29383-abusing-linux-chfn-to-
+│                       │       │                  │      misrepresent-etc-passwd/ 
+│                       │       │                  ╰ [7]: https://www.trustwave.com/en-us/resources/securi
+│                       │       │                         ty-resources/security-advisories/?fid=31797 
+│                       │       ├ PublishedDate   : 2023-04-14T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
+│                       ├ [51]  ╭ VulnerabilityID : CVE-2022-2522 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2522 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap-based buffer overflow in
+│                       │       │                   ins_compl_infercase_gettext() at src/insexpand.c 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0061. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : http://bugs.debian.org/cgi-bin/bugreport.cgi?bu
+│                       │       │                  │       g=1016068 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-2522 
+│                       │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-2522 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/5fa9f23a63651
+│                       │       │                  │       a8abdb074b4fc2ec9b1adc6b089 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/commit/b9e717367c395
+│                       │       │                  │       490149495cf375911b5d9de889e 
+│                       │       │                  ├ [5] : https://huntr.dev/bounties/3a2d83af-9542-4d93-8
+│                       │       │                  │       784-98b115135a22 
+│                       │       │                  ├ [6] : https://huntr.dev/bounties/3a2d83af-9542-4d93-8
+│                       │       │                  │       784-98b115135a22/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2022-2522 
+│                       │       │                  ├ [8] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2522 
+│                       │       ├ PublishedDate   : 2022-07-25T14:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [52]  ╭ VulnerabilityID : CVE-2022-2580 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2580 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: Out-of-bounds Read in  vim 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0102. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2580 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2580 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/1e56bda9048a96
+│                       │       │                  │      25bce6e660938c834c5c15b07d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/c5f2f1d4-0441-4881-b1
+│                       │       │                  │      9c-055acaa16249 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2022-2580 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2022-2580 
+│                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2022-08-04T23:30:00Z 
+│                       ├ [53]  ╭ VulnerabilityID : CVE-2022-2817 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2817 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in string_quote() at src/strings.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0213. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2817 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2817 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/249e1b903a9c04
+│                       │       │                  │      60d618f6dcc59aeb8c03b24b20 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/249e1b903a9c04
+│                       │       │                  │      60d618f6dcc59aeb8c03b24b20 (v9.0.0213) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/a7b7d242-3d88-4bde-a6
+│                       │       │                  │      81-6c986aff886f 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2817 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2817 
+│                       │       ├ PublishedDate   : 2022-08-15T23:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [54]  ╭ VulnerabilityID : CVE-2022-2819 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2819 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap buffer overflow in compile_lock_unlock() at
+│                       │       │                   src/vim9cmds.c 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0211. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2819 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2819 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/d1d8f6bacb4890
+│                       │       │                  │      36d0fd479c9dd3c0102c988889 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/0a9bd71e-66b8-4eb1-95
+│                       │       │                  │      66-7dfd9b097e59 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2819 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2819 
+│                       │       ├ PublishedDate   : 2022-08-15T11:21:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [55]  ╭ VulnerabilityID : CVE-2022-2862 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2862 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0221. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2862 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2862 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/1889f499a4f248
+│                       │       │                  │      cd84e0e0bf6d0d820016774494 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/1889f499a4f248
+│                       │       │                  │      cd84e0e0bf6d0d820016774494 (v9.0.0221) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/71180988-1ab6-4311-bc
+│                       │       │                  │      a8-e9a879b06765 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2862 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
+│                       │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [56]  ╭ VulnerabilityID : CVE-2022-2889 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2889 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0225. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2889 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2889 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/91c7cbfe31bbef
+│                       │       │                  │      57d5fcf7d76989fc159f73ef15 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/d1ac9817-825d-49ce-b5
+│                       │       │                  │      14-1d5b12b6bdaa 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/C72HDI
+│                       │       │                  │      MR3KTTAO7QGTXWUMPBNFUFIBRD/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2889 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
+│                       │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [57]  ╭ VulnerabilityID : CVE-2022-2982 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2982 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0260. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-2982 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-2982 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/d6c67629ed05a
+│                       │       │                  │       ae436164eec474832daf8ba7420 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/d6c67629ed05a
+│                       │       │                  │       ae436164eec474832daf8ba7420 (v9.0.0260) 
+│                       │       │                  ├ [4] : https://huntr.dev/bounties/53f53d9a-ba8a-4985-b
+│                       │       │                  │       7ba-23efbe6833be 
+│                       │       │                  ├ [5] : https://huntr.dev/bounties/53f53d9a-ba8a-4985-b
+│                       │       │                  │       7ba-23efbe6833be/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/XWOJ
+│                       │       │                  │       OA7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2022-2982 
+│                       │       │                  ├ [8] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
+│                       │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [58]  ╭ VulnerabilityID : CVE-2022-3016 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3016 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use-after-free in get_next_valid_entry() at src/quickfix.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0286. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3016 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3016 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/6d24a51b94beb1
+│                       │       │                  │      991cddce221f90b455e2d50db7 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/260516c2-5c4a-4b7f-a0
+│                       │       │                  │      1c-04b1aeeea371 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3016 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3016 
+│                       │       ├ PublishedDate   : 2022-08-28T12:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [59]  ╭ VulnerabilityID : CVE-2022-3037 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3037 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use after free in function qf_buf_add_line( ) 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0322. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3037 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3037 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4f1b083be43f35
+│                       │       │                  │      1bc107541e7b0c9655a5d2c0bb 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/af4c2f2d-d754-4607-b5
+│                       │       │                  │      65-9e92f3f717b5 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/RY3GEN
+│                       │       │                  │      2Q46ZJKSNHTN2XB6B3VAJBEILN/ 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/VHJ6LC
+│                       │       │                  │      LHGGVI2U6ZHXHTZ2PYP4STC23N/ 
+│                       │       │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-3037 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-3037 
+│                       │       ├ PublishedDate   : 2022-08-30T21:15:00Z 
+│                       │       ╰ LastModifiedDate: 2022-09-20T20:35:00Z 
+│                       ├ [60]  ╭ VulnerabilityID : CVE-2022-3099 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3099 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Use After Free in do_cmdline() in ex_docmd.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0360. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-3099 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-3099 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/35d21c6830fc2
+│                       │       │                  │       d68aca838424a0e786821c5891c 
+│                       │       │                  ├ [3] : https://huntr.dev/bounties/403210c7-6cc7-4874-8
+│                       │       │                  │       934-b57f88bd4f5e 
+│                       │       │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       22/11/msg00009.html 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DVWB
+│                       │       │                  │       I4BVTBUMNW4NMB3WZZDQJBKIGXI3/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/LLK2
+│                       │       │                  │       RMZEECKKWUQK7J46D2FQZOXFQLTC/ 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/XWOJ
+│                       │       │                  │       OA7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2022-3099 
+│                       │       │                  ├ [9] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-5775-1 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-3099 
+│                       │       ├ PublishedDate   : 2022-09-03T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [61]  ╭ VulnerabilityID : CVE-2022-3134 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3134 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in do_tag() at src/tag.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0389. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3134 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3134 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/ccfde4d028e891
+│                       │       │                  │      a41e3548323c3d47b06fb0b83e 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/6ec79e49-c7ab-4cd6-a5
+│                       │       │                  │      17-e7934c2eb9dc 
+│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                       │       │                  │      2/11/msg00009.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3134 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3134 
+│                       │       ├ PublishedDate   : 2022-09-06T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [62]  ╭ VulnerabilityID : CVE-2022-1886 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-1886 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: heap-based buffer overflow in function utf_head_off 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 8.2. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
+│                       │       │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ├ V2Score : 6.8 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :L/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-1886 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-1886 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/2a585c85013be2
+│                       │       │                  │      2f59f184d49612074fd9b115d7 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/fa0ad526-b608-45b3-9e
+│                       │       │                  │      bc-f2b607834d6a 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/TYNK6S
+│                       │       │                  │      DCMOLQJOI3B4AOE66P2G2IH4ZM/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-1886 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202208-32 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
+│                       │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
+│                       ├ [63]  ╭ VulnerabilityID : CVE-2022-2598 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2598 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: Undefined Behavior for Input to API in vim 
+│                       │       ├ Description     : Out-of-bounds Write to API in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0100.
+│                       │       │                   
+│                       │       │                    
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2598 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2598 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4e677b9c40ccbc
+│                       │       │                  │      5f090971b31dc2fe07bf05541d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/2f08363a-47a2-422d-a7
+│                       │       │                  │      de-ce96a89ad08e 
+│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                       │       │                  │      2/11/msg00009.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2598 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2598 
+│                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-07-11T08:15:00Z 
+│                       ├ [64]  ╭ VulnerabilityID : CVE-2022-2816 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2816 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: out-of-bounds read in check_vim9_unlet() at
+│                       │       │                   src/vim9cmds.c 
+│                       │       ├ Description     : Out-of-bounds Read in GitHub repository vim/vim prior
+│                       │       │                   to 9.0.0212. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2816 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2816 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/dbdd16b6256041
+│                       │       │                  │      3abcc3c8e893cc3010ccf31666 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/dbdd16b6256041
+│                       │       │                  │      3abcc3c8e893cc3010ccf31666 (v9.0.0212) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/e2a83037-fcf9-4218-b2
+│                       │       │                  │      b9-b7507dacde58 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2816 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2816 
+│                       │       ├ PublishedDate   : 2022-08-15T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [65]  ╭ VulnerabilityID : CVE-2022-2874 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2874 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : NULL pointer dereference in generate_loadvar() in
+│                       │       │                   vim9compile.c 
+│                       │       ├ Description     : NULL Pointer Dereference in GitHub repository vim/vim
+│                       │       │                   prior to 9.0.0224. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2874 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2874 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4875d6ab068f09
+│                       │       │                  │      df88d24d81de40dcd8d56e243d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/95f97dfe-247d-475d-97
+│                       │       │                  │      40-b7adc71f4c79 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2022-2874 
+│                       │       │                  ├ [5]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2874 
+│                       │       ├ PublishedDate   : 2022-08-18T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [66]  ╭ VulnerabilityID : CVE-2022-3153 
+│                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3153 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : null pointer dereference in vim_regcomp() 
+│                       │       ├ Description     : NULL Pointer Dereference in GitHub repository vim/vim
+│                       │       │                   prior to 9.0.0404. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:L/A:H 
+│                       │       │                           ╰ V3Score : 6.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3153 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3153 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/1540d334a04d87
+│                       │       │                  │      4c2aa9d26b82dbbcd4bc5a78de 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/68331124-620d-48bc-a8
+│                       │       │                  │      fa-cd947b26270a 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/68331124-620d-48bc-a8
+│                       │       │                  │      fa-cd947b26270a/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3153 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3153 
+│                       │       ├ PublishedDate   : 2022-09-08T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [67]  ╭ VulnerabilityID : CVE-2022-2522 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2522 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap-based buffer overflow in
+│                       │       │                   ins_compl_infercase_gettext() at src/insexpand.c 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0061. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : http://bugs.debian.org/cgi-bin/bugreport.cgi?bu
+│                       │       │                  │       g=1016068 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-2522 
+│                       │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-2522 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/5fa9f23a63651
+│                       │       │                  │       a8abdb074b4fc2ec9b1adc6b089 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/commit/b9e717367c395
+│                       │       │                  │       490149495cf375911b5d9de889e 
+│                       │       │                  ├ [5] : https://huntr.dev/bounties/3a2d83af-9542-4d93-8
+│                       │       │                  │       784-98b115135a22 
+│                       │       │                  ├ [6] : https://huntr.dev/bounties/3a2d83af-9542-4d93-8
+│                       │       │                  │       784-98b115135a22/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2022-2522 
+│                       │       │                  ├ [8] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2522 
+│                       │       ├ PublishedDate   : 2022-07-25T14:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [68]  ╭ VulnerabilityID : CVE-2022-2580 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2580 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: Out-of-bounds Read in  vim 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0102. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2580 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2580 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/1e56bda9048a96
+│                       │       │                  │      25bce6e660938c834c5c15b07d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/c5f2f1d4-0441-4881-b1
+│                       │       │                  │      9c-055acaa16249 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2022-2580 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2022-2580 
+│                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2022-08-04T23:30:00Z 
+│                       ├ [69]  ╭ VulnerabilityID : CVE-2022-2817 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2817 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in string_quote() at src/strings.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0213. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2817 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2817 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/249e1b903a9c04
+│                       │       │                  │      60d618f6dcc59aeb8c03b24b20 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/249e1b903a9c04
+│                       │       │                  │      60d618f6dcc59aeb8c03b24b20 (v9.0.0213) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/a7b7d242-3d88-4bde-a6
+│                       │       │                  │      81-6c986aff886f 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2817 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2817 
+│                       │       ├ PublishedDate   : 2022-08-15T23:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [70]  ╭ VulnerabilityID : CVE-2022-2819 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2819 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap buffer overflow in compile_lock_unlock() at
+│                       │       │                   src/vim9cmds.c 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0211. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2819 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2819 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/d1d8f6bacb4890
+│                       │       │                  │      36d0fd479c9dd3c0102c988889 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/0a9bd71e-66b8-4eb1-95
+│                       │       │                  │      66-7dfd9b097e59 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2819 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2819 
+│                       │       ├ PublishedDate   : 2022-08-15T11:21:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [71]  ╭ VulnerabilityID : CVE-2022-2862 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2862 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0221. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2862 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2862 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/1889f499a4f248
+│                       │       │                  │      cd84e0e0bf6d0d820016774494 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/1889f499a4f248
+│                       │       │                  │      cd84e0e0bf6d0d820016774494 (v9.0.0221) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/71180988-1ab6-4311-bc
+│                       │       │                  │      a8-e9a879b06765 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2862 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
+│                       │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [72]  ╭ VulnerabilityID : CVE-2022-2889 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2889 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0225. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2889 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2889 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/91c7cbfe31bbef
+│                       │       │                  │      57d5fcf7d76989fc159f73ef15 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/d1ac9817-825d-49ce-b5
+│                       │       │                  │      14-1d5b12b6bdaa 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/C72HDI
+│                       │       │                  │      MR3KTTAO7QGTXWUMPBNFUFIBRD/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2889 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
+│                       │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [73]  ╭ VulnerabilityID : CVE-2022-2982 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2982 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0260. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-2982 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-2982 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/d6c67629ed05a
+│                       │       │                  │       ae436164eec474832daf8ba7420 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/d6c67629ed05a
+│                       │       │                  │       ae436164eec474832daf8ba7420 (v9.0.0260) 
+│                       │       │                  ├ [4] : https://huntr.dev/bounties/53f53d9a-ba8a-4985-b
+│                       │       │                  │       7ba-23efbe6833be 
+│                       │       │                  ├ [5] : https://huntr.dev/bounties/53f53d9a-ba8a-4985-b
+│                       │       │                  │       7ba-23efbe6833be/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/XWOJ
+│                       │       │                  │       OA7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2022-2982 
+│                       │       │                  ├ [8] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
+│                       │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [74]  ╭ VulnerabilityID : CVE-2022-3016 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3016 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use-after-free in get_next_valid_entry() at src/quickfix.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0286. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3016 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3016 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/6d24a51b94beb1
+│                       │       │                  │      991cddce221f90b455e2d50db7 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/260516c2-5c4a-4b7f-a0
+│                       │       │                  │      1c-04b1aeeea371 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3016 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3016 
+│                       │       ├ PublishedDate   : 2022-08-28T12:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [75]  ╭ VulnerabilityID : CVE-2022-3037 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3037 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use after free in function qf_buf_add_line( ) 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0322. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3037 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3037 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4f1b083be43f35
+│                       │       │                  │      1bc107541e7b0c9655a5d2c0bb 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/af4c2f2d-d754-4607-b5
+│                       │       │                  │      65-9e92f3f717b5 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/RY3GEN
+│                       │       │                  │      2Q46ZJKSNHTN2XB6B3VAJBEILN/ 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/VHJ6LC
+│                       │       │                  │      LHGGVI2U6ZHXHTZ2PYP4STC23N/ 
+│                       │       │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-3037 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-3037 
+│                       │       ├ PublishedDate   : 2022-08-30T21:15:00Z 
+│                       │       ╰ LastModifiedDate: 2022-09-20T20:35:00Z 
+│                       ├ [76]  ╭ VulnerabilityID : CVE-2022-3099 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3099 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Use After Free in do_cmdline() in ex_docmd.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0360. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-3099 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-3099 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/35d21c6830fc2
+│                       │       │                  │       d68aca838424a0e786821c5891c 
+│                       │       │                  ├ [3] : https://huntr.dev/bounties/403210c7-6cc7-4874-8
+│                       │       │                  │       934-b57f88bd4f5e 
+│                       │       │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       22/11/msg00009.html 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DVWB
+│                       │       │                  │       I4BVTBUMNW4NMB3WZZDQJBKIGXI3/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/LLK2
+│                       │       │                  │       RMZEECKKWUQK7J46D2FQZOXFQLTC/ 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/XWOJ
+│                       │       │                  │       OA7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2022-3099 
+│                       │       │                  ├ [9] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-5775-1 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-3099 
+│                       │       ├ PublishedDate   : 2022-09-03T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [77]  ╭ VulnerabilityID : CVE-2022-3134 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3134 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in do_tag() at src/tag.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0389. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3134 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3134 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/ccfde4d028e891
+│                       │       │                  │      a41e3548323c3d47b06fb0b83e 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/6ec79e49-c7ab-4cd6-a5
+│                       │       │                  │      17-e7934c2eb9dc 
+│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                       │       │                  │      2/11/msg00009.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3134 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3134 
+│                       │       ├ PublishedDate   : 2022-09-06T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [78]  ╭ VulnerabilityID : CVE-2022-1886 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-1886 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: heap-based buffer overflow in function utf_head_off 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 8.2. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
+│                       │       │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ├ V2Score : 6.8 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :L/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-1886 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-1886 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/2a585c85013be2
+│                       │       │                  │      2f59f184d49612074fd9b115d7 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/fa0ad526-b608-45b3-9e
+│                       │       │                  │      bc-f2b607834d6a 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/TYNK6S
+│                       │       │                  │      DCMOLQJOI3B4AOE66P2G2IH4ZM/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-1886 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202208-32 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
+│                       │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
+│                       ├ [79]  ╭ VulnerabilityID : CVE-2022-2598 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2598 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: Undefined Behavior for Input to API in vim 
+│                       │       ├ Description     : Out-of-bounds Write to API in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0100.
+│                       │       │                   
+│                       │       │                    
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2598 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2598 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4e677b9c40ccbc
+│                       │       │                  │      5f090971b31dc2fe07bf05541d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/2f08363a-47a2-422d-a7
+│                       │       │                  │      de-ce96a89ad08e 
+│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                       │       │                  │      2/11/msg00009.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2598 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2598 
+│                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-07-11T08:15:00Z 
+│                       ├ [80]  ╭ VulnerabilityID : CVE-2022-2816 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2816 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: out-of-bounds read in check_vim9_unlet() at
+│                       │       │                   src/vim9cmds.c 
+│                       │       ├ Description     : Out-of-bounds Read in GitHub repository vim/vim prior
+│                       │       │                   to 9.0.0212. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2816 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2816 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/dbdd16b6256041
+│                       │       │                  │      3abcc3c8e893cc3010ccf31666 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/dbdd16b6256041
+│                       │       │                  │      3abcc3c8e893cc3010ccf31666 (v9.0.0212) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/e2a83037-fcf9-4218-b2
+│                       │       │                  │      b9-b7507dacde58 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2816 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2816 
+│                       │       ├ PublishedDate   : 2022-08-15T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [81]  ╭ VulnerabilityID : CVE-2022-2874 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2874 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : NULL pointer dereference in generate_loadvar() in
+│                       │       │                   vim9compile.c 
+│                       │       ├ Description     : NULL Pointer Dereference in GitHub repository vim/vim
+│                       │       │                   prior to 9.0.0224. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2874 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2874 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4875d6ab068f09
+│                       │       │                  │      df88d24d81de40dcd8d56e243d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/95f97dfe-247d-475d-97
+│                       │       │                  │      40-b7adc71f4c79 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2022-2874 
+│                       │       │                  ├ [5]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2874 
+│                       │       ├ PublishedDate   : 2022-08-18T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [82]  ╭ VulnerabilityID : CVE-2022-3153 
+│                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-common 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3153 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : null pointer dereference in vim_regcomp() 
+│                       │       ├ Description     : NULL Pointer Dereference in GitHub repository vim/vim
+│                       │       │                   prior to 9.0.0404. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:L/A:H 
+│                       │       │                           ╰ V3Score : 6.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3153 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3153 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/1540d334a04d87
+│                       │       │                  │      4c2aa9d26b82dbbcd4bc5a78de 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/68331124-620d-48bc-a8
+│                       │       │                  │      fa-cd947b26270a 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/68331124-620d-48bc-a8
+│                       │       │                  │      fa-cd947b26270a/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3153 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3153 
+│                       │       ├ PublishedDate   : 2022-09-08T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [83]  ╭ VulnerabilityID : CVE-2022-2522 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2522 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap-based buffer overflow in
+│                       │       │                   ins_compl_infercase_gettext() at src/insexpand.c 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0061. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : http://bugs.debian.org/cgi-bin/bugreport.cgi?bu
+│                       │       │                  │       g=1016068 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-2522 
+│                       │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-2522 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/5fa9f23a63651
+│                       │       │                  │       a8abdb074b4fc2ec9b1adc6b089 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/commit/b9e717367c395
+│                       │       │                  │       490149495cf375911b5d9de889e 
+│                       │       │                  ├ [5] : https://huntr.dev/bounties/3a2d83af-9542-4d93-8
+│                       │       │                  │       784-98b115135a22 
+│                       │       │                  ├ [6] : https://huntr.dev/bounties/3a2d83af-9542-4d93-8
+│                       │       │                  │       784-98b115135a22/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2022-2522 
+│                       │       │                  ├ [8] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2522 
+│                       │       ├ PublishedDate   : 2022-07-25T14:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [84]  ╭ VulnerabilityID : CVE-2022-2580 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2580 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: Out-of-bounds Read in  vim 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0102. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2580 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2580 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/1e56bda9048a96
+│                       │       │                  │      25bce6e660938c834c5c15b07d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/c5f2f1d4-0441-4881-b1
+│                       │       │                  │      9c-055acaa16249 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2022-2580 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2022-2580 
+│                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2022-08-04T23:30:00Z 
+│                       ├ [85]  ╭ VulnerabilityID : CVE-2022-2817 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2817 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in string_quote() at src/strings.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0213. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2817 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2817 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/249e1b903a9c04
+│                       │       │                  │      60d618f6dcc59aeb8c03b24b20 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/249e1b903a9c04
+│                       │       │                  │      60d618f6dcc59aeb8c03b24b20 (v9.0.0213) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/a7b7d242-3d88-4bde-a6
+│                       │       │                  │      81-6c986aff886f 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2817 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2817 
+│                       │       ├ PublishedDate   : 2022-08-15T23:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [86]  ╭ VulnerabilityID : CVE-2022-2819 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2819 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap buffer overflow in compile_lock_unlock() at
+│                       │       │                   src/vim9cmds.c 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0211. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2819 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2819 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/d1d8f6bacb4890
+│                       │       │                  │      36d0fd479c9dd3c0102c988889 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/0a9bd71e-66b8-4eb1-95
+│                       │       │                  │      66-7dfd9b097e59 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2819 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2819 
+│                       │       ├ PublishedDate   : 2022-08-15T11:21:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2022-2862 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2862 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0221. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2862 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2862 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/1889f499a4f248
+│                       │       │                  │      cd84e0e0bf6d0d820016774494 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/1889f499a4f248
+│                       │       │                  │      cd84e0e0bf6d0d820016774494 (v9.0.0221) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/71180988-1ab6-4311-bc
+│                       │       │                  │      a8-e9a879b06765 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2862 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
+│                       │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2022-2889 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2889 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0225. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2889 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2889 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/91c7cbfe31bbef
+│                       │       │                  │      57d5fcf7d76989fc159f73ef15 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/d1ac9817-825d-49ce-b5
+│                       │       │                  │      14-1d5b12b6bdaa 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/C72HDI
+│                       │       │                  │      MR3KTTAO7QGTXWUMPBNFUFIBRD/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2889 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
+│                       │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2022-2982 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2982 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0260. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-2982 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-2982 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/d6c67629ed05a
+│                       │       │                  │       ae436164eec474832daf8ba7420 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/d6c67629ed05a
+│                       │       │                  │       ae436164eec474832daf8ba7420 (v9.0.0260) 
+│                       │       │                  ├ [4] : https://huntr.dev/bounties/53f53d9a-ba8a-4985-b
+│                       │       │                  │       7ba-23efbe6833be 
+│                       │       │                  ├ [5] : https://huntr.dev/bounties/53f53d9a-ba8a-4985-b
+│                       │       │                  │       7ba-23efbe6833be/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/XWOJ
+│                       │       │                  │       OA7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2022-2982 
+│                       │       │                  ├ [8] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
+│                       │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2022-3016 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3016 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use-after-free in get_next_valid_entry() at src/quickfix.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0286. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3016 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3016 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/6d24a51b94beb1
+│                       │       │                  │      991cddce221f90b455e2d50db7 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/260516c2-5c4a-4b7f-a0
+│                       │       │                  │      1c-04b1aeeea371 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3016 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3016 
+│                       │       ├ PublishedDate   : 2022-08-28T12:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2022-3037 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3037 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use after free in function qf_buf_add_line( ) 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0322. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3037 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3037 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4f1b083be43f35
+│                       │       │                  │      1bc107541e7b0c9655a5d2c0bb 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/af4c2f2d-d754-4607-b5
+│                       │       │                  │      65-9e92f3f717b5 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/RY3GEN
+│                       │       │                  │      2Q46ZJKSNHTN2XB6B3VAJBEILN/ 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/VHJ6LC
+│                       │       │                  │      LHGGVI2U6ZHXHTZ2PYP4STC23N/ 
+│                       │       │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-3037 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-3037 
+│                       │       ├ PublishedDate   : 2022-08-30T21:15:00Z 
+│                       │       ╰ LastModifiedDate: 2022-09-20T20:35:00Z 
+│                       ├ [92]  ╭ VulnerabilityID : CVE-2022-3099 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3099 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Use After Free in do_cmdline() in ex_docmd.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0360. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-3099 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-3099 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/35d21c6830fc2
+│                       │       │                  │       d68aca838424a0e786821c5891c 
+│                       │       │                  ├ [3] : https://huntr.dev/bounties/403210c7-6cc7-4874-8
+│                       │       │                  │       934-b57f88bd4f5e 
+│                       │       │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       22/11/msg00009.html 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DVWB
+│                       │       │                  │       I4BVTBUMNW4NMB3WZZDQJBKIGXI3/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/LLK2
+│                       │       │                  │       RMZEECKKWUQK7J46D2FQZOXFQLTC/ 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/XWOJ
+│                       │       │                  │       OA7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2022-3099 
+│                       │       │                  ├ [9] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-5775-1 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-3099 
+│                       │       ├ PublishedDate   : 2022-09-03T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2022-3134 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3134 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in do_tag() at src/tag.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0389. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3134 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3134 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/ccfde4d028e891
+│                       │       │                  │      a41e3548323c3d47b06fb0b83e 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/6ec79e49-c7ab-4cd6-a5
+│                       │       │                  │      17-e7934c2eb9dc 
+│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                       │       │                  │      2/11/msg00009.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3134 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3134 
+│                       │       ├ PublishedDate   : 2022-09-06T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2022-1886 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-1886 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: heap-based buffer overflow in function utf_head_off 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 8.2. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
+│                       │       │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ├ V2Score : 6.8 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :L/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-1886 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-1886 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/2a585c85013be2
+│                       │       │                  │      2f59f184d49612074fd9b115d7 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/fa0ad526-b608-45b3-9e
+│                       │       │                  │      bc-f2b607834d6a 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/TYNK6S
+│                       │       │                  │      DCMOLQJOI3B4AOE66P2G2IH4ZM/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-1886 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202208-32 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
+│                       │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2022-2598 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2598 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: Undefined Behavior for Input to API in vim 
+│                       │       ├ Description     : Out-of-bounds Write to API in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0100.
+│                       │       │                   
+│                       │       │                    
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2598 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2598 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4e677b9c40ccbc
+│                       │       │                  │      5f090971b31dc2fe07bf05541d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/2f08363a-47a2-422d-a7
+│                       │       │                  │      de-ce96a89ad08e 
+│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                       │       │                  │      2/11/msg00009.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2598 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2598 
+│                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-07-11T08:15:00Z 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2022-2816 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2816 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: out-of-bounds read in check_vim9_unlet() at
+│                       │       │                   src/vim9cmds.c 
+│                       │       ├ Description     : Out-of-bounds Read in GitHub repository vim/vim prior
+│                       │       │                   to 9.0.0212. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2816 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2816 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/dbdd16b6256041
+│                       │       │                  │      3abcc3c8e893cc3010ccf31666 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/dbdd16b6256041
+│                       │       │                  │      3abcc3c8e893cc3010ccf31666 (v9.0.0212) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/e2a83037-fcf9-4218-b2
+│                       │       │                  │      b9-b7507dacde58 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2816 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2816 
+│                       │       ├ PublishedDate   : 2022-08-15T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2022-2874 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2874 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : NULL pointer dereference in generate_loadvar() in
+│                       │       │                   vim9compile.c 
+│                       │       ├ Description     : NULL Pointer Dereference in GitHub repository vim/vim
+│                       │       │                   prior to 9.0.0224. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2874 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2874 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4875d6ab068f09
+│                       │       │                  │      df88d24d81de40dcd8d56e243d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/95f97dfe-247d-475d-97
+│                       │       │                  │      40-b7adc71f4c79 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2022-2874 
+│                       │       │                  ├ [5]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2874 
+│                       │       ├ PublishedDate   : 2022-08-18T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [98]  ╭ VulnerabilityID : CVE-2022-3153 
+│                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : vim-runtime 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3153 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : null pointer dereference in vim_regcomp() 
+│                       │       ├ Description     : NULL Pointer Dereference in GitHub repository vim/vim
+│                       │       │                   prior to 9.0.0404. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:L/A:H 
+│                       │       │                           ╰ V3Score : 6.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3153 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3153 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/1540d334a04d87
+│                       │       │                  │      4c2aa9d26b82dbbcd4bc5a78de 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/68331124-620d-48bc-a8
+│                       │       │                  │      fa-cd947b26270a 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/68331124-620d-48bc-a8
+│                       │       │                  │      fa-cd947b26270a/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3153 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3153 
+│                       │       ├ PublishedDate   : 2022-09-08T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [99]  ╭ VulnerabilityID : CVE-2021-31879 
+│                       │       ├ PkgID           : wget@1.21.2-2ubuntu1 
+│                       │       ├ PkgName         : wget 
+│                       │       ├ InstalledVersion: 1.21.2-2ubuntu1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : wget: authorization header disclosure on redirect 
+│                       │       ├ Description     : GNU Wget through 1.21.1 does not omit the
+│                       │       │                   Authorization header upon a redirect to a different origin,
+│                       │       │                    a related issue to CVE-2018-1000007. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-601 
+│                       │       ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:N 
+│                       │       │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C
+│                       │       │                  │        │           :L/I:L/A:N 
+│                       │       │                  │        ├ V2Score : 5.8 
+│                       │       │                  │        ╰ V3Score : 6.1 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:N/A:N 
+│                       │       │                           ╰ V3Score : 6.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-31879 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2021-31879 
+│                       │       │                  ├ [2]: https://mail.gnu.org/archive/html/bug-wget/2021-
+│                       │       │                  │      02/msg00002.html 
+│                       │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2021-31879 
+│                       │       │                  ├ [4]: https://savannah.gnu.org/bugs/?56909 
+│                       │       │                  ├ [5]: https://security.netapp.com/advisory/ntap-202106
+│                       │       │                  │      18-0002/ 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
+│                       │       ├ PublishedDate   : 2021-04-29T05:15:00Z 
+│                       │       ╰ LastModifiedDate: 2022-05-13T20:52:00Z 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2022-2522 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2522 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap-based buffer overflow in
+│                       │       │                   ins_compl_infercase_gettext() at src/insexpand.c 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0061. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : http://bugs.debian.org/cgi-bin/bugreport.cgi?bu
+│                       │       │                  │       g=1016068 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-2522 
+│                       │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-2522 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/5fa9f23a63651
+│                       │       │                  │       a8abdb074b4fc2ec9b1adc6b089 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/commit/b9e717367c395
+│                       │       │                  │       490149495cf375911b5d9de889e 
+│                       │       │                  ├ [5] : https://huntr.dev/bounties/3a2d83af-9542-4d93-8
+│                       │       │                  │       784-98b115135a22 
+│                       │       │                  ├ [6] : https://huntr.dev/bounties/3a2d83af-9542-4d93-8
+│                       │       │                  │       784-98b115135a22/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2022-2522 
+│                       │       │                  ├ [8] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2522 
+│                       │       ├ PublishedDate   : 2022-07-25T14:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2022-2580 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2580 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: Out-of-bounds Read in  vim 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0102. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2580 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2580 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/1e56bda9048a96
+│                       │       │                  │      25bce6e660938c834c5c15b07d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/c5f2f1d4-0441-4881-b1
+│                       │       │                  │      9c-055acaa16249 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2022-2580 
+│                       │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2022-2580 
+│                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2022-08-04T23:30:00Z 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2022-2817 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2817 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in string_quote() at src/strings.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0213. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2817 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2817 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/249e1b903a9c04
+│                       │       │                  │      60d618f6dcc59aeb8c03b24b20 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/249e1b903a9c04
+│                       │       │                  │      60d618f6dcc59aeb8c03b24b20 (v9.0.0213) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/a7b7d242-3d88-4bde-a6
+│                       │       │                  │      81-6c986aff886f 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2817 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2817 
+│                       │       ├ PublishedDate   : 2022-08-15T23:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2022-2819 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2819 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap buffer overflow in compile_lock_unlock() at
+│                       │       │                   src/vim9cmds.c 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0211. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2819 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2819 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/d1d8f6bacb4890
+│                       │       │                  │      36d0fd479c9dd3c0102c988889 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/0a9bd71e-66b8-4eb1-95
+│                       │       │                  │      66-7dfd9b097e59 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2819 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2819 
+│                       │       ├ PublishedDate   : 2022-08-15T11:21:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2022-2862 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2862 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in generate_PCALL() at src/vim9instr.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0221. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2862 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2862 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/1889f499a4f248
+│                       │       │                  │      cd84e0e0bf6d0d820016774494 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/1889f499a4f248
+│                       │       │                  │      cd84e0e0bf6d0d820016774494 (v9.0.0221) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/71180988-1ab6-4311-bc
+│                       │       │                  │      a8-e9a879b06765 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2862 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
+│                       │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [105] ╭ VulnerabilityID : CVE-2022-2889 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2889 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use-after-free in find_var_also_in_script() in evalvars.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0225. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2889 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2889 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/91c7cbfe31bbef
+│                       │       │                  │      57d5fcf7d76989fc159f73ef15 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/d1ac9817-825d-49ce-b5
+│                       │       │                  │      14-1d5b12b6bdaa 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/C72HDI
+│                       │       │                  │      MR3KTTAO7QGTXWUMPBNFUFIBRD/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2889 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
+│                       │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [106] ╭ VulnerabilityID : CVE-2022-2982 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2982 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use after free in qf_fill_buffer() at src/quickfix.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0260. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-2982 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-2982 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/d6c67629ed05a
+│                       │       │                  │       ae436164eec474832daf8ba7420 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/d6c67629ed05a
+│                       │       │                  │       ae436164eec474832daf8ba7420 (v9.0.0260) 
+│                       │       │                  ├ [4] : https://huntr.dev/bounties/53f53d9a-ba8a-4985-b
+│                       │       │                  │       7ba-23efbe6833be 
+│                       │       │                  ├ [5] : https://huntr.dev/bounties/53f53d9a-ba8a-4985-b
+│                       │       │                  │       7ba-23efbe6833be/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/XWOJ
+│                       │       │                  │       OA7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2022-2982 
+│                       │       │                  ├ [8] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
+│                       │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [107] ╭ VulnerabilityID : CVE-2022-3016 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3016 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use-after-free in get_next_valid_entry() at src/quickfix.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0286. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3016 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3016 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/6d24a51b94beb1
+│                       │       │                  │      991cddce221f90b455e2d50db7 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/260516c2-5c4a-4b7f-a0
+│                       │       │                  │      1c-04b1aeeea371 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3016 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3016 
+│                       │       ├ PublishedDate   : 2022-08-28T12:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [108] ╭ VulnerabilityID : CVE-2022-3037 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3037 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : use after free in function qf_buf_add_line( ) 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0322. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3037 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3037 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4f1b083be43f35
+│                       │       │                  │      1bc107541e7b0c9655a5d2c0bb 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/af4c2f2d-d754-4607-b5
+│                       │       │                  │      65-9e92f3f717b5 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/RY3GEN
+│                       │       │                  │      2Q46ZJKSNHTN2XB6B3VAJBEILN/ 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/VHJ6LC
+│                       │       │                  │      LHGGVI2U6ZHXHTZ2PYP4STC23N/ 
+│                       │       │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/XWOJOA
+│                       │       │                  │      7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2022-3037 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-3037 
+│                       │       ├ PublishedDate   : 2022-08-30T21:15:00Z 
+│                       │       ╰ LastModifiedDate: 2022-09-20T20:35:00Z 
+│                       ├ [109] ╭ VulnerabilityID : CVE-2022-3099 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3099 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : Use After Free in do_cmdline() in ex_docmd.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0360. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-3099 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2022-3099 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/35d21c6830fc2
+│                       │       │                  │       d68aca838424a0e786821c5891c 
+│                       │       │                  ├ [3] : https://huntr.dev/bounties/403210c7-6cc7-4874-8
+│                       │       │                  │       934-b57f88bd4f5e 
+│                       │       │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                       │       │                  │       22/11/msg00009.html 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DVWB
+│                       │       │                  │       I4BVTBUMNW4NMB3WZZDQJBKIGXI3/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/LLK2
+│                       │       │                  │       RMZEECKKWUQK7J46D2FQZOXFQLTC/ 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/XWOJ
+│                       │       │                  │       OA7PZZAMBI5GFTL6PWHXMWSDLUXL/ 
+│                       │       │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2022-3099 
+│                       │       │                  ├ [9] : https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-5775-1 
+│                       │       │                  ├ [11]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-3099 
+│                       │       ├ PublishedDate   : 2022-09-03T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [110] ╭ VulnerabilityID : CVE-2022-3134 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3134 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : heap use-after-free in do_tag() at src/tag.c 
+│                       │       ├ Description     : Use After Free in GitHub repository vim/vim prior to
+│                       │       │                   9.0.0389. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ CweIDs           ─ [0]: CWE-416 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3134 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-3134 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/ccfde4d028e891
+│                       │       │                  │      a41e3548323c3d47b06fb0b83e 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/6ec79e49-c7ab-4cd6-a5
+│                       │       │                  │      17-e7934c2eb9dc 
+│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                       │       │                  │      2/11/msg00009.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3134 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3134 
+│                       │       ├ PublishedDate   : 2022-09-06T20:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [111] ╭ VulnerabilityID : CVE-2022-1886 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-1886 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: heap-based buffer overflow in function utf_head_off 
+│                       │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
+│                       │       │                   vim/vim prior to 8.2. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-122 
+│                       │       ├ CVSS             ╭ nvd    ╭ V2Vector: AV:N/AC:M/Au:N/C:P/I:P/A:P 
+│                       │       │                  │        ├ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ├ V2Score : 6.8 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :L/I:N/A:H 
+│                       │       │                           ╰ V3Score : 6.1 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-1886 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-1886 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/2a585c85013be2
+│                       │       │                  │      2f59f184d49612074fd9b115d7 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/fa0ad526-b608-45b3-9e
+│                       │       │                  │      bc-f2b607834d6a 
+│                       │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/TYNK6S
+│                       │       │                  │      DCMOLQJOI3B4AOE66P2G2IH4ZM/ 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-1886 
+│                       │       │                  ├ [6]: https://security.gentoo.org/glsa/202208-32 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
+│                       │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
+│                       ├ [112] ╭ VulnerabilityID : CVE-2022-2598 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2598 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: Undefined Behavior for Input to API in vim 
+│                       │       ├ Description     : Out-of-bounds Write to API in GitHub repository
+│                       │       │                   vim/vim prior to 9.0.0100.
+│                       │       │                   
+│                       │       │                    
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-787 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2598 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2598 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4e677b9c40ccbc
+│                       │       │                  │      5f090971b31dc2fe07bf05541d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/2f08363a-47a2-422d-a7
+│                       │       │                  │      de-ce96a89ad08e 
+│                       │       │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                       │       │                  │      2/11/msg00009.html 
+│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-2598 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2598 
+│                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-07-11T08:15:00Z 
+│                       ├ [113] ╭ VulnerabilityID : CVE-2022-2816 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2816 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : vim: out-of-bounds read in check_vim9_unlet() at
+│                       │       │                   src/vim9cmds.c 
+│                       │       ├ Description     : Out-of-bounds Read in GitHub repository vim/vim prior
+│                       │       │                   to 9.0.0212. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-125 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :H/I:H/A:H 
+│                       │       │                  │        ╰ V3Score : 7.8 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :H/I:H/A:H 
+│                       │       │                           ╰ V3Score : 7.8 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2816 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2816 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/dbdd16b6256041
+│                       │       │                  │      3abcc3c8e893cc3010ccf31666 
+│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/dbdd16b6256041
+│                       │       │                  │      3abcc3c8e893cc3010ccf31666 (v9.0.0212) 
+│                       │       │                  ├ [4]: https://huntr.dev/bounties/e2a83037-fcf9-4218-b2
+│                       │       │                  │      b9-b7507dacde58 
+│                       │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                       │       │                  │      ckage-announce@lists.fedoraproject.org/message/CHFAR6
+│                       │       │                  │      OY6G77M6GXCJT75A4KITLNR6GO/ 
+│                       │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2022-2816 
+│                       │       │                  ├ [7]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2816 
+│                       │       ├ PublishedDate   : 2022-08-15T22:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ├ [114] ╭ VulnerabilityID : CVE-2022-2874 
+│                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                       │       ├ PkgName         : xxd 
+│                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                       │       ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                       │       ├ Status          : fixed 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-2874 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : NULL pointer dereference in generate_loadvar() in
+│                       │       │                   vim9compile.c 
+│                       │       ├ Description     : NULL Pointer Dereference in GitHub repository vim/vim
+│                       │       │                   prior to 9.0.0224. 
+│                       │       ├ Severity        : LOW 
+│                       │       ├ CweIDs           ─ [0]: CWE-476 
+│                       │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                  │        │           :N/I:N/A:H 
+│                       │       │                  │        ╰ V3Score : 5.5 
+│                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                       │       │                           │           :N/I:N/A:H 
+│                       │       │                           ╰ V3Score : 5.5 
+│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-2874 
+│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2022-2874 
+│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/4875d6ab068f09
+│                       │       │                  │      df88d24d81de40dcd8d56e243d 
+│                       │       │                  ├ [3]: https://huntr.dev/bounties/95f97dfe-247d-475d-97
+│                       │       │                  │      40-b7adc71f4c79 
+│                       │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2022-2874 
+│                       │       │                  ├ [5]: https://security.gentoo.org/glsa/202305-16 
+│                       │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6302-1 
+│                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2874 
+│                       │       ├ PublishedDate   : 2022-08-18T16:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
+│                       ╰ [115] ╭ VulnerabilityID : CVE-2022-3153 
+│                               ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
+│                               ├ PkgName         : xxd 
+│                               ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
+│                               ├ FixedVersion    : 2:8.2.3995-1ubuntu2.11 
+│                               ├ Status          : fixed 
+│                               ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                               │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                               │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                               │                            a67a6a4586f26884004182f5bd 
+│                               ├ SeveritySource  : ubuntu 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3153 
+│                               ├ DataSource       ╭ ID  : ubuntu 
+│                               │                  ├ Name: Ubuntu CVE Tracker 
+│                               │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                               ├ Title           : null pointer dereference in vim_regcomp() 
+│                               ├ Description     : NULL Pointer Dereference in GitHub repository vim/vim
+│                               │                   prior to 9.0.0404. 
+│                               ├ Severity        : LOW 
+│                               ├ CweIDs           ─ [0]: CWE-476 
+│                               ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                               │                  │        │           :N/I:N/A:H 
+│                               │                  │        ╰ V3Score : 5.5 
+│                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                               │                           │           :N/I:L/A:H 
+│                               │                           ╰ V3Score : 6.1 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-3153 
+│                               │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                               │                  │      VE-2022-3153 
+│                               │                  ├ [2]: https://github.com/vim/vim/commit/1540d334a04d87
+│                               │                  │      4c2aa9d26b82dbbcd4bc5a78de 
+│                               │                  ├ [3]: https://huntr.dev/bounties/68331124-620d-48bc-a8
+│                               │                  │      fa-cd947b26270a 
+│                               │                  ├ [4]: https://huntr.dev/bounties/68331124-620d-48bc-a8
+│                               │                  │      fa-cd947b26270a/ 
+│                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-3153 
+│                               │                  ├ [6]: https://security.gentoo.org/glsa/202305-16 
+│                               │                  ├ [7]: https://ubuntu.com/security/notices/USN-6302-1 
+│                               │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3153 
+│                               ├ PublishedDate   : 2022-09-08T15:15:00Z 
+│                               ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
 ├ [1] ╭ Target         : Java 
 │     ├ Class          : lang-pkgs 
 │     ├ Type           : jar 
@@ -3830,112 +6024,7 @@
 │                             │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-28842 
 │                             ├ PublishedDate   : 2023-04-04T22:15:00Z 
 │                             ╰ LastModifiedDate: 2023-04-14T15:55:00Z 
-├ [4] ╭ Target : /etc/ssh/ssh_host_dsa_key 
-│     ├ Class  : secret 
-│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                     ├ Category : AsymmetricPrivateKey 
-│                     ├ Severity : HIGH 
-│                     ├ Title    : Asymmetric Private Key 
-│                     ├ StartLine: 1 
-│                     ├ EndLine  : 1 
-│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************-----END
-│                     │                   │     │              OPENSSH PRIVATE KEY----- 
-│                     │                   │     ├ IsCause    : true 
-│                     │                   │     ├ Annotation :  
-│                     │                   │     ├ Truncated  : false 
-│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************-----END
-│                     │                   │     │              OPENSSH PRIVATE KEY----- 
-│                     │                   │     ├ FirstCause : true 
-│                     │                   │     ╰ LastCause  : true 
-│                     │                   ╰ [1] ╭ Number    : 2 
-│                     │                         ├ Content   :  
-│                     │                         ├ IsCause   : false 
-│                     │                         ├ Annotation:  
-│                     │                         ├ Truncated : false 
-│                     │                         ├ FirstCause: false 
-│                     │                         ╰ LastCause : false 
-│                     ├ Match    : BEGIN OPENSSH PRIVATE
-│                     │            KEY-----********************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************-----END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7
-│                                 │            111f7b6ec4fd 
-│                                 ├ DiffID   : sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f268
-│                                 │            84004182f5bd 
-│                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [5] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [4] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -3993,7 +6082,7 @@
 │                                 ├ DiffID   : sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f268
 │                                 │            84004182f5bd 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [6] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [5] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -4045,7 +6134,178 @@
 │                                 ├ DiffID   : sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f268
 │                                 │            84004182f5bd 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-╰ [7] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [6] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│     ├ Class  : secret 
+│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                     ├ Category : AsymmetricPrivateKey 
+│                     ├ Severity : HIGH 
+│                     ├ Title    : Asymmetric Private Key 
+│                     ├ StartLine: 1 
+│                     ├ EndLine  : 1 
+│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ IsCause    : true 
+│                     │                   │     ├ Annotation :  
+│                     │                   │     ├ Truncated  : false 
+│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ FirstCause : true 
+│                     │                   │     ╰ LastCause  : true 
+│                     │                   ╰ [1] ╭ Number    : 2 
+│                     │                         ├ Content   :  
+│                     │                         ├ IsCause   : false 
+│                     │                         ├ Annotation:  
+│                     │                         ├ Truncated : false 
+│                     │                         ├ FirstCause: false 
+│                     │                         ╰ LastCause : false 
+│                     ├ Match    : BEGIN OPENSSH PRIVATE
+│                     │            KEY-----********************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            *****************************************-----END OPENSSH PRI 
+│                     ╰ Layer     ╭ Digest   : sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7
+│                                 │            111f7b6ec4fd 
+│                                 ├ DiffID   : sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f268
+│                                 │            84004182f5bd 
+│                                 ╰ CreatedBy: COPY / / # buildkit 
+╰ [7] ╭ Target : /etc/ssh/ssh_host_dsa_key 
       ├ Class  : secret 
       ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                       ├ Category : AsymmetricPrivateKey 
@@ -4082,33 +6342,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              ************************************-----END
+                      │                   │     │              OPENSSH PRIVATE KEY----- 
                       │                   │     ├ IsCause    : true 
                       │                   │     ├ Annotation :  
                       │                   │     ├ Truncated  : false 
@@ -4140,33 +6375,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              ************************************-----END
+                      │                   │     │              OPENSSH PRIVATE KEY----- 
                       │                   │     ├ FirstCause : true 
                       │                   │     ╰ LastCause  : true 
                       │                   ╰ [1] ╭ Number    : 2 
@@ -4194,23 +6404,7 @@
                       │            ****************************************************************************
                       │            ****************************************************************************
                       │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            *****************************************-----END OPENSSH PRI 
+                      │            ****************************************-----END OPENSSH PRI 
                       ╰ Layer     ╭ Digest   : sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7
                                   │            111f7b6ec4fd 
                                   ├ DiffID   : sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f268
