@@ -895,6 +895,28 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
     LastModifiedDate: '2023-08-15T17:57:00Z'
+  - VulnerabilityID: CVE-2021-32292
+    PkgID: libjson-c5@0.15-3~ubuntu1.22.04.1
+    PkgName: libjson-c5
+    InstalledVersion: 0.15-3~ubuntu1.22.04.1
+    Status: affected
+    Layer:
+      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
+      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-32292
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: An issue was discovered in json-c through 0.15-20200726. A stack-buffe ...
+    Description: An issue was discovered in json-c through 0.15-20200726. A stack-buffer-overflow exists in the function parseit located in json_parse.c. It allows an attacker to cause code Execution.
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32292
+    - https://github.com/json-c/json-c/issues/654
+    PublishedDate: '2023-08-22T19:16:00Z'
+    LastModifiedDate: '2023-08-22T20:10:00Z'
   - VulnerabilityID: CVE-2023-36054
     PkgID: libk5crypto3@1.19.2-2ubuntu0.2
     PkgName: libk5crypto3
