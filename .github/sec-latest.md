@@ -1021,7 +1021,33 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [24]  ╭ VulnerabilityID : CVE-2023-36054 
+│                       ├ [24]  ╭ VulnerabilityID : CVE-2021-32292 
+│                       │       ├ PkgID           : libjson-c5@0.15-3~ubuntu1.22.04.1 
+│                       │       ├ PkgName         : libjson-c5 
+│                       │       ├ InstalledVersion: 0.15-3~ubuntu1.22.04.1 
+│                       │       ├ Status          : affected 
+│                       │       ├ Layer            ╭ Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa
+│                       │       │                  │         05f36bc84eb9f7111f7b6ec4fd 
+│                       │       │                  ╰ DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9
+│                       │       │                            a67a6a4586f26884004182f5bd 
+│                       │       ├ SeveritySource  : ubuntu 
+│                       │       ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-32292 
+│                       │       ├ DataSource       ╭ ID  : ubuntu 
+│                       │       │                  ├ Name: Ubuntu CVE Tracker 
+│                       │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │       ├ Title           : An issue was discovered in json-c through
+│                       │       │                   0.15-20200726. A stack-buffe ... 
+│                       │       ├ Description     : An issue was discovered in json-c through
+│                       │       │                   0.15-20200726. A stack-buffer-overflow exists in the
+│                       │       │                   function parseit located in json_parse.c. It allows an
+│                       │       │                   attacker to cause code Execution. 
+│                       │       ├ Severity        : MEDIUM 
+│                       │       ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │       │                  │      VE-2021-32292 
+│                       │       │                  ╰ [1]: https://github.com/json-c/json-c/issues/654 
+│                       │       ├ PublishedDate   : 2023-08-22T19:16:00Z 
+│                       │       ╰ LastModifiedDate: 2023-08-22T20:10:00Z 
+│                       ├ [25]  ╭ VulnerabilityID : CVE-2023-36054 
 │                       │       ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.2 
 │                       │       ├ PkgName         : libk5crypto3 
 │                       │       ├ InstalledVersion: 1.19.2-2ubuntu0.2 
@@ -1065,7 +1091,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [25]  ╭ VulnerabilityID : CVE-2023-36054 
+│                       ├ [26]  ╭ VulnerabilityID : CVE-2023-36054 
 │                       │       ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.2 
 │                       │       ├ PkgName         : libkrb5-3 
 │                       │       ├ InstalledVersion: 1.19.2-2ubuntu0.2 
@@ -1109,7 +1135,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [26]  ╭ VulnerabilityID : CVE-2023-36054 
+│                       ├ [27]  ╭ VulnerabilityID : CVE-2023-36054 
 │                       │       ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.2 
 │                       │       ├ PkgName         : libkrb5support0 
 │                       │       ├ InstalledVersion: 1.19.2-2ubuntu0.2 
@@ -1153,7 +1179,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [27]  ╭ VulnerabilityID : CVE-2023-2953 
+│                       ├ [28]  ╭ VulnerabilityID : CVE-2023-2953 
 │                       │       ├ PkgID           : libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1 
 │                       │       ├ PkgName         : libldap-2.5-0 
 │                       │       ├ InstalledVersion: 2.5.16+dfsg-0ubuntu0.22.04.1 
@@ -1196,7 +1222,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
 │                       │       ├ PublishedDate   : 2023-05-30T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
-│                       ├ [28]  ╭ VulnerabilityID : CVE-2017-11164 
+│                       ├ [29]  ╭ VulnerabilityID : CVE-2017-11164 
 │                       │       ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                       │       ├ PkgName         : libpcre3 
 │                       │       ├ InstalledVersion: 2:8.39-13ubuntu0.22.04.1 
@@ -1242,7 +1268,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                       │       ├ PublishedDate   : 2017-07-11T03:29:00Z 
 │                       │       ╰ LastModifiedDate: 2023-04-12T15:15:00Z 
-│                       ├ [29]  ╭ VulnerabilityID : CVE-2022-3857 
+│                       ├ [30]  ╭ VulnerabilityID : CVE-2022-3857 
 │                       │       ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                       │       ├ PkgName         : libpng16-16 
 │                       │       ├ InstalledVersion: 1.6.37-3build5 
@@ -1278,7 +1304,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
 │                       │       ├ PublishedDate   : 2023-03-06T23:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-04-06T13:15:00Z 
-│                       ├ [30]  ╭ VulnerabilityID : CVE-2023-4016 
+│                       ├ [31]  ╭ VulnerabilityID : CVE-2023-4016 
 │                       │       ├ PkgID           : libprocps8@2:3.3.17-6ubuntu2 
 │                       │       ├ PkgName         : libprocps8 
 │                       │       ├ InstalledVersion: 2:3.3.17-6ubuntu2 
@@ -1316,7 +1342,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │       ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
-│                       ├ [31]  ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [32]  ╭ VulnerabilityID : CVE-2023-27043 
 │                       │       ├ PkgID           : libpython3.10@3.10.12-1~22.04.2 
 │                       │       ├ PkgName         : libpython3.10 
 │                       │       ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1364,7 +1390,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [32]  ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [33]  ╭ VulnerabilityID : CVE-2023-27043 
 │                       │       ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.2 
 │                       │       ├ PkgName         : libpython3.10-minimal 
 │                       │       ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1412,7 +1438,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [33]  ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [34]  ╭ VulnerabilityID : CVE-2023-27043 
 │                       │       ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.2 
 │                       │       ├ PkgName         : libpython3.10-stdlib 
 │                       │       ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1460,7 +1486,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [34]  ╭ VulnerabilityID : CVE-2022-46908 
+│                       ├ [35]  ╭ VulnerabilityID : CVE-2022-46908 
 │                       │       ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
 │                       │       ├ PkgName         : libsqlite3-0 
 │                       │       ├ InstalledVersion: 3.37.2-2ubuntu0.1 
@@ -1499,7 +1525,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-46908 
 │                       │       ├ PublishedDate   : 2022-12-12T06:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-03-07T18:21:00Z 
-│                       ├ [35]  ╭ VulnerabilityID : CVE-2023-2975 
+│                       ├ [36]  ╭ VulnerabilityID : CVE-2023-2975 
 │                       │       ├ PkgID           : libssl3@3.0.2-0ubuntu1.10 
 │                       │       ├ PkgName         : libssl3 
 │                       │       ├ InstalledVersion: 3.0.2-0ubuntu1.10 
@@ -1577,7 +1603,7 @@
 │                       │       │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
 │                       │       ├ PublishedDate   : 2023-07-14T12:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-│                       ├ [36]  ╭ VulnerabilityID : CVE-2018-10126 
+│                       ├ [37]  ╭ VulnerabilityID : CVE-2018-10126 
 │                       │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │       ├ PkgName         : libtiff5 
 │                       │       ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1616,7 +1642,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                       │       ├ PublishedDate   : 2018-04-21T21:29:00Z 
 │                       │       ╰ LastModifiedDate: 2021-03-15T22:31:00Z 
-│                       ├ [37]  ╭ VulnerabilityID : CVE-2023-1916 
+│                       ├ [38]  ╭ VulnerabilityID : CVE-2023-1916 
 │                       │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │       ├ PkgName         : libtiff5 
 │                       │       ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1656,7 +1682,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-1916 
 │                       │       ├ PublishedDate   : 2023-04-10T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-04-18T15:25:00Z 
-│                       ├ [38]  ╭ VulnerabilityID : CVE-2023-3164 
+│                       ├ [39]  ╭ VulnerabilityID : CVE-2023-3164 
 │                       │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │       ├ PkgName         : libtiff5 
 │                       │       ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1685,7 +1711,7 @@
 │                       │                          ├ [2]: https://gitlab.com/libtiff/libtiff/-/issues/542 
 │                       │                          ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3164 
 │                       │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
-│                       ├ [39]  ╭ VulnerabilityID : CVE-2023-3576 
+│                       ├ [40]  ╭ VulnerabilityID : CVE-2023-3576 
 │                       │       ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │       ├ PkgName         : libtiff5 
 │                       │       ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1710,7 +1736,7 @@
 │                       │                          │      VE-2023-3576 
 │                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
 │                       │                          ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
-│                       ├ [40]  ╭ VulnerabilityID : CVE-2022-4899 
+│                       ├ [41]  ╭ VulnerabilityID : CVE-2022-4899 
 │                       │       ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                       │       ├ PkgName         : libzstd1 
 │                       │       ├ InstalledVersion: 1.4.8+dfsg-3build1 
@@ -1756,7 +1782,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │       ├ PublishedDate   : 2023-03-31T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
-│                       ├ [41]  ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [42]  ╭ VulnerabilityID : CVE-2023-29383 
 │                       │       ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                       │       ├ PkgName         : login 
 │                       │       ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -1808,7 +1834,7 @@
 │                       │       │                         ty-resources/security-advisories/?fid=31797 
 │                       │       ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [42]  ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [43]  ╭ VulnerabilityID : CVE-2023-28531 
 │                       │       ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.3 
 │                       │       ├ PkgName         : openssh-client 
 │                       │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
@@ -1846,7 +1872,7 @@
 │                       │       │                         /03/15/8 
 │                       │       ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [43]  ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [44]  ╭ VulnerabilityID : CVE-2023-28531 
 │                       │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.3 
 │                       │       ├ PkgName         : openssh-server 
 │                       │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
@@ -1884,7 +1910,7 @@
 │                       │       │                         /03/15/8 
 │                       │       ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [44]  ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [45]  ╭ VulnerabilityID : CVE-2023-28531 
 │                       │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.3 
 │                       │       ├ PkgName         : openssh-sftp-server 
 │                       │       ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
@@ -1922,7 +1948,7 @@
 │                       │       │                         /03/15/8 
 │                       │       ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [45]  ╭ VulnerabilityID : CVE-2023-2975 
+│                       ├ [46]  ╭ VulnerabilityID : CVE-2023-2975 
 │                       │       ├ PkgID           : openssl@3.0.2-0ubuntu1.10 
 │                       │       ├ PkgName         : openssl 
 │                       │       ├ InstalledVersion: 3.0.2-0ubuntu1.10 
@@ -2000,7 +2026,7 @@
 │                       │       │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
 │                       │       ├ PublishedDate   : 2023-07-14T12:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-│                       ├ [46]  ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [47]  ╭ VulnerabilityID : CVE-2023-29383 
 │                       │       ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                       │       ├ PkgName         : passwd 
 │                       │       ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2052,7 +2078,7 @@
 │                       │       │                         ty-resources/security-advisories/?fid=31797 
 │                       │       ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [47]  ╭ VulnerabilityID : CVE-2023-4016 
+│                       ├ [48]  ╭ VulnerabilityID : CVE-2023-4016 
 │                       │       ├ PkgID           : procps@2:3.3.17-6ubuntu2 
 │                       │       ├ PkgName         : procps 
 │                       │       ├ InstalledVersion: 2:3.3.17-6ubuntu2 
@@ -2090,7 +2116,7 @@
 │                       │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │       ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
-│                       ├ [48]  ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [49]  ╭ VulnerabilityID : CVE-2023-27043 
 │                       │       ├ PkgID           : python3.10@3.10.12-1~22.04.2 
 │                       │       ├ PkgName         : python3.10 
 │                       │       ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -2138,7 +2164,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [49]  ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [50]  ╭ VulnerabilityID : CVE-2023-27043 
 │                       │       ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.2 
 │                       │       ├ PkgName         : python3.10-minimal 
 │                       │       ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -2186,7 +2212,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │       ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [50]  ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [51]  ╭ VulnerabilityID : CVE-2023-29383 
 │                       │       ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                       │       ├ PkgName         : uidmap 
 │                       │       ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2238,7 +2264,7 @@
 │                       │       │                         ty-resources/security-advisories/?fid=31797 
 │                       │       ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [51]  ╭ VulnerabilityID : CVE-2022-2522 
+│                       ├ [52]  ╭ VulnerabilityID : CVE-2022-2522 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2284,7 +2310,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2522 
 │                       │       ├ PublishedDate   : 2022-07-25T14:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [52]  ╭ VulnerabilityID : CVE-2022-2580 
+│                       ├ [53]  ╭ VulnerabilityID : CVE-2022-2580 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2322,7 +2348,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2022-2580 
 │                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2022-08-04T23:30:00Z 
-│                       ├ [53]  ╭ VulnerabilityID : CVE-2022-2817 
+│                       ├ [54]  ╭ VulnerabilityID : CVE-2022-2817 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2366,7 +2392,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2817 
 │                       │       ├ PublishedDate   : 2022-08-15T23:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [54]  ╭ VulnerabilityID : CVE-2022-2819 
+│                       ├ [55]  ╭ VulnerabilityID : CVE-2022-2819 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2409,7 +2435,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2819 
 │                       │       ├ PublishedDate   : 2022-08-15T11:21:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [55]  ╭ VulnerabilityID : CVE-2022-2862 
+│                       ├ [56]  ╭ VulnerabilityID : CVE-2022-2862 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2453,7 +2479,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                       │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [56]  ╭ VulnerabilityID : CVE-2022-2889 
+│                       ├ [57]  ╭ VulnerabilityID : CVE-2022-2889 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2495,7 +2521,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                       │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [57]  ╭ VulnerabilityID : CVE-2022-2982 
+│                       ├ [58]  ╭ VulnerabilityID : CVE-2022-2982 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2541,7 +2567,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                       │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [58]  ╭ VulnerabilityID : CVE-2022-3016 
+│                       ├ [59]  ╭ VulnerabilityID : CVE-2022-3016 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2583,7 +2609,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3016 
 │                       │       ├ PublishedDate   : 2022-08-28T12:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [59]  ╭ VulnerabilityID : CVE-2022-3037 
+│                       ├ [60]  ╭ VulnerabilityID : CVE-2022-3037 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2630,7 +2656,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-3037 
 │                       │       ├ PublishedDate   : 2022-08-30T21:15:00Z 
 │                       │       ╰ LastModifiedDate: 2022-09-20T20:35:00Z 
-│                       ├ [60]  ╭ VulnerabilityID : CVE-2022-3099 
+│                       ├ [61]  ╭ VulnerabilityID : CVE-2022-3099 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2681,7 +2707,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-3099 
 │                       │       ├ PublishedDate   : 2022-09-03T16:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [61]  ╭ VulnerabilityID : CVE-2022-3134 
+│                       ├ [62]  ╭ VulnerabilityID : CVE-2022-3134 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2722,7 +2748,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3134 
 │                       │       ├ PublishedDate   : 2022-09-06T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [62]  ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [63]  ╭ VulnerabilityID : CVE-2022-1886 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2765,7 +2791,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [63]  ╭ VulnerabilityID : CVE-2022-2598 
+│                       ├ [64]  ╭ VulnerabilityID : CVE-2022-2598 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2807,7 +2833,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2598 
 │                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-11T08:15:00Z 
-│                       ├ [64]  ╭ VulnerabilityID : CVE-2022-2816 
+│                       ├ [65]  ╭ VulnerabilityID : CVE-2022-2816 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2852,7 +2878,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2816 
 │                       │       ├ PublishedDate   : 2022-08-15T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [65]  ╭ VulnerabilityID : CVE-2022-2874 
+│                       ├ [66]  ╭ VulnerabilityID : CVE-2022-2874 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2892,7 +2918,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2874 
 │                       │       ├ PublishedDate   : 2022-08-18T16:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [66]  ╭ VulnerabilityID : CVE-2022-3153 
+│                       ├ [67]  ╭ VulnerabilityID : CVE-2022-3153 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2933,7 +2959,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3153 
 │                       │       ├ PublishedDate   : 2022-09-08T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [67]  ╭ VulnerabilityID : CVE-2022-2522 
+│                       ├ [68]  ╭ VulnerabilityID : CVE-2022-2522 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -2979,7 +3005,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2522 
 │                       │       ├ PublishedDate   : 2022-07-25T14:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [68]  ╭ VulnerabilityID : CVE-2022-2580 
+│                       ├ [69]  ╭ VulnerabilityID : CVE-2022-2580 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3017,7 +3043,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2022-2580 
 │                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2022-08-04T23:30:00Z 
-│                       ├ [69]  ╭ VulnerabilityID : CVE-2022-2817 
+│                       ├ [70]  ╭ VulnerabilityID : CVE-2022-2817 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3061,7 +3087,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2817 
 │                       │       ├ PublishedDate   : 2022-08-15T23:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [70]  ╭ VulnerabilityID : CVE-2022-2819 
+│                       ├ [71]  ╭ VulnerabilityID : CVE-2022-2819 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3104,7 +3130,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2819 
 │                       │       ├ PublishedDate   : 2022-08-15T11:21:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [71]  ╭ VulnerabilityID : CVE-2022-2862 
+│                       ├ [72]  ╭ VulnerabilityID : CVE-2022-2862 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3148,7 +3174,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                       │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [72]  ╭ VulnerabilityID : CVE-2022-2889 
+│                       ├ [73]  ╭ VulnerabilityID : CVE-2022-2889 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3190,7 +3216,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                       │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [73]  ╭ VulnerabilityID : CVE-2022-2982 
+│                       ├ [74]  ╭ VulnerabilityID : CVE-2022-2982 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3236,7 +3262,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                       │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [74]  ╭ VulnerabilityID : CVE-2022-3016 
+│                       ├ [75]  ╭ VulnerabilityID : CVE-2022-3016 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3278,7 +3304,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3016 
 │                       │       ├ PublishedDate   : 2022-08-28T12:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [75]  ╭ VulnerabilityID : CVE-2022-3037 
+│                       ├ [76]  ╭ VulnerabilityID : CVE-2022-3037 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3325,7 +3351,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-3037 
 │                       │       ├ PublishedDate   : 2022-08-30T21:15:00Z 
 │                       │       ╰ LastModifiedDate: 2022-09-20T20:35:00Z 
-│                       ├ [76]  ╭ VulnerabilityID : CVE-2022-3099 
+│                       ├ [77]  ╭ VulnerabilityID : CVE-2022-3099 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3376,7 +3402,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-3099 
 │                       │       ├ PublishedDate   : 2022-09-03T16:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [77]  ╭ VulnerabilityID : CVE-2022-3134 
+│                       ├ [78]  ╭ VulnerabilityID : CVE-2022-3134 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3417,7 +3443,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3134 
 │                       │       ├ PublishedDate   : 2022-09-06T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [78]  ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [79]  ╭ VulnerabilityID : CVE-2022-1886 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3460,7 +3486,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [79]  ╭ VulnerabilityID : CVE-2022-2598 
+│                       ├ [80]  ╭ VulnerabilityID : CVE-2022-2598 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3502,7 +3528,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2598 
 │                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-11T08:15:00Z 
-│                       ├ [80]  ╭ VulnerabilityID : CVE-2022-2816 
+│                       ├ [81]  ╭ VulnerabilityID : CVE-2022-2816 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3547,7 +3573,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2816 
 │                       │       ├ PublishedDate   : 2022-08-15T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [81]  ╭ VulnerabilityID : CVE-2022-2874 
+│                       ├ [82]  ╭ VulnerabilityID : CVE-2022-2874 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3587,7 +3613,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2874 
 │                       │       ├ PublishedDate   : 2022-08-18T16:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [82]  ╭ VulnerabilityID : CVE-2022-3153 
+│                       ├ [83]  ╭ VulnerabilityID : CVE-2022-3153 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-common 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3628,7 +3654,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3153 
 │                       │       ├ PublishedDate   : 2022-09-08T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [83]  ╭ VulnerabilityID : CVE-2022-2522 
+│                       ├ [84]  ╭ VulnerabilityID : CVE-2022-2522 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3674,7 +3700,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2522 
 │                       │       ├ PublishedDate   : 2022-07-25T14:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [84]  ╭ VulnerabilityID : CVE-2022-2580 
+│                       ├ [85]  ╭ VulnerabilityID : CVE-2022-2580 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3712,7 +3738,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2022-2580 
 │                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2022-08-04T23:30:00Z 
-│                       ├ [85]  ╭ VulnerabilityID : CVE-2022-2817 
+│                       ├ [86]  ╭ VulnerabilityID : CVE-2022-2817 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3756,7 +3782,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2817 
 │                       │       ├ PublishedDate   : 2022-08-15T23:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [86]  ╭ VulnerabilityID : CVE-2022-2819 
+│                       ├ [87]  ╭ VulnerabilityID : CVE-2022-2819 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3799,7 +3825,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2819 
 │                       │       ├ PublishedDate   : 2022-08-15T11:21:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [87]  ╭ VulnerabilityID : CVE-2022-2862 
+│                       ├ [88]  ╭ VulnerabilityID : CVE-2022-2862 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3843,7 +3869,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                       │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [88]  ╭ VulnerabilityID : CVE-2022-2889 
+│                       ├ [89]  ╭ VulnerabilityID : CVE-2022-2889 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3885,7 +3911,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                       │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [89]  ╭ VulnerabilityID : CVE-2022-2982 
+│                       ├ [90]  ╭ VulnerabilityID : CVE-2022-2982 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3931,7 +3957,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                       │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [90]  ╭ VulnerabilityID : CVE-2022-3016 
+│                       ├ [91]  ╭ VulnerabilityID : CVE-2022-3016 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -3973,7 +3999,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3016 
 │                       │       ├ PublishedDate   : 2022-08-28T12:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [91]  ╭ VulnerabilityID : CVE-2022-3037 
+│                       ├ [92]  ╭ VulnerabilityID : CVE-2022-3037 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4020,7 +4046,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-3037 
 │                       │       ├ PublishedDate   : 2022-08-30T21:15:00Z 
 │                       │       ╰ LastModifiedDate: 2022-09-20T20:35:00Z 
-│                       ├ [92]  ╭ VulnerabilityID : CVE-2022-3099 
+│                       ├ [93]  ╭ VulnerabilityID : CVE-2022-3099 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4071,7 +4097,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-3099 
 │                       │       ├ PublishedDate   : 2022-09-03T16:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [93]  ╭ VulnerabilityID : CVE-2022-3134 
+│                       ├ [94]  ╭ VulnerabilityID : CVE-2022-3134 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4112,7 +4138,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3134 
 │                       │       ├ PublishedDate   : 2022-09-06T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [94]  ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [95]  ╭ VulnerabilityID : CVE-2022-1886 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4155,7 +4181,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [95]  ╭ VulnerabilityID : CVE-2022-2598 
+│                       ├ [96]  ╭ VulnerabilityID : CVE-2022-2598 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4197,7 +4223,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2598 
 │                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-11T08:15:00Z 
-│                       ├ [96]  ╭ VulnerabilityID : CVE-2022-2816 
+│                       ├ [97]  ╭ VulnerabilityID : CVE-2022-2816 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4242,7 +4268,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2816 
 │                       │       ├ PublishedDate   : 2022-08-15T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [97]  ╭ VulnerabilityID : CVE-2022-2874 
+│                       ├ [98]  ╭ VulnerabilityID : CVE-2022-2874 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4282,7 +4308,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2874 
 │                       │       ├ PublishedDate   : 2022-08-18T16:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [98]  ╭ VulnerabilityID : CVE-2022-3153 
+│                       ├ [99]  ╭ VulnerabilityID : CVE-2022-3153 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : vim-runtime 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4323,7 +4349,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3153 
 │                       │       ├ PublishedDate   : 2022-09-08T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [99]  ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [100] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │       ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                       │       ├ PkgName         : wget 
 │                       │       ├ InstalledVersion: 1.21.2-2ubuntu1 
@@ -4363,7 +4389,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │       ├ PublishedDate   : 2021-04-29T05:15:00Z 
 │                       │       ╰ LastModifiedDate: 2022-05-13T20:52:00Z 
-│                       ├ [100] ╭ VulnerabilityID : CVE-2022-2522 
+│                       ├ [101] ╭ VulnerabilityID : CVE-2022-2522 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4409,7 +4435,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2522 
 │                       │       ├ PublishedDate   : 2022-07-25T14:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [101] ╭ VulnerabilityID : CVE-2022-2580 
+│                       ├ [102] ╭ VulnerabilityID : CVE-2022-2580 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4447,7 +4473,7 @@
 │                       │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2022-2580 
 │                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2022-08-04T23:30:00Z 
-│                       ├ [102] ╭ VulnerabilityID : CVE-2022-2817 
+│                       ├ [103] ╭ VulnerabilityID : CVE-2022-2817 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4491,7 +4517,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2817 
 │                       │       ├ PublishedDate   : 2022-08-15T23:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [103] ╭ VulnerabilityID : CVE-2022-2819 
+│                       ├ [104] ╭ VulnerabilityID : CVE-2022-2819 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4534,7 +4560,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2819 
 │                       │       ├ PublishedDate   : 2022-08-15T11:21:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [104] ╭ VulnerabilityID : CVE-2022-2862 
+│                       ├ [105] ╭ VulnerabilityID : CVE-2022-2862 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4578,7 +4604,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2862 
 │                       │       ├ PublishedDate   : 2022-08-17T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [105] ╭ VulnerabilityID : CVE-2022-2889 
+│                       ├ [106] ╭ VulnerabilityID : CVE-2022-2889 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4620,7 +4646,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-2889 
 │                       │       ├ PublishedDate   : 2022-08-19T13:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [106] ╭ VulnerabilityID : CVE-2022-2982 
+│                       ├ [107] ╭ VulnerabilityID : CVE-2022-2982 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4666,7 +4692,7 @@
 │                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-2982 
 │                       │       ├ PublishedDate   : 2022-08-25T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [107] ╭ VulnerabilityID : CVE-2022-3016 
+│                       ├ [108] ╭ VulnerabilityID : CVE-2022-3016 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4708,7 +4734,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3016 
 │                       │       ├ PublishedDate   : 2022-08-28T12:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [108] ╭ VulnerabilityID : CVE-2022-3037 
+│                       ├ [109] ╭ VulnerabilityID : CVE-2022-3037 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4755,7 +4781,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-3037 
 │                       │       ├ PublishedDate   : 2022-08-30T21:15:00Z 
 │                       │       ╰ LastModifiedDate: 2022-09-20T20:35:00Z 
-│                       ├ [109] ╭ VulnerabilityID : CVE-2022-3099 
+│                       ├ [110] ╭ VulnerabilityID : CVE-2022-3099 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4806,7 +4832,7 @@
 │                       │       │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-3099 
 │                       │       ├ PublishedDate   : 2022-09-03T16:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [110] ╭ VulnerabilityID : CVE-2022-3134 
+│                       ├ [111] ╭ VulnerabilityID : CVE-2022-3134 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4847,7 +4873,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-3134 
 │                       │       ├ PublishedDate   : 2022-09-06T20:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [111] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [112] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4890,7 +4916,7 @@
 │                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │       ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [112] ╭ VulnerabilityID : CVE-2022-2598 
+│                       ├ [113] ╭ VulnerabilityID : CVE-2022-2598 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4932,7 +4958,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2598 
 │                       │       ├ PublishedDate   : 2022-08-01T15:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-07-11T08:15:00Z 
-│                       ├ [113] ╭ VulnerabilityID : CVE-2022-2816 
+│                       ├ [114] ╭ VulnerabilityID : CVE-2022-2816 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -4977,7 +5003,7 @@
 │                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-2816 
 │                       │       ├ PublishedDate   : 2022-08-15T22:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ├ [114] ╭ VulnerabilityID : CVE-2022-2874 
+│                       ├ [115] ╭ VulnerabilityID : CVE-2022-2874 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                       │       ├ PkgName         : xxd 
 │                       │       ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
@@ -5017,7 +5043,7 @@
 │                       │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-2874 
 │                       │       ├ PublishedDate   : 2022-08-18T16:15:00Z 
 │                       │       ╰ LastModifiedDate: 2023-05-03T12:16:00Z 
-│                       ╰ [115] ╭ VulnerabilityID : CVE-2022-3153 
+│                       ╰ [116] ╭ VulnerabilityID : CVE-2022-3153 
 │                               ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.10 
 │                               ├ PkgName         : xxd 
 │                               ├ InstalledVersion: 2:8.2.3995-1ubuntu2.10 
