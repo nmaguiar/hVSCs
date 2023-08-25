@@ -37,6 +37,15 @@ docker run --rm -ti --init -d -p 127.0.0.1:8443:8443 -p 127.0.0.1:10080:1080 --p
 
 In a browser open the following URL (accepting the insecure certificate): https://127.0.0.1:8443
 
+### Kubernetes
+
+On a Kubenetes cluster execute, using kubectl:
+
+```bash
+kubectl create deployment hvscs --image=nmaguiar/hvscs --dry-run=client -o yaml | sed 's/name: hvscs/name: hvscs\n        securityContext:\n          privileged: true/' | sed 's/containers:/dnsPolicy: Default\n      containers:/' | kubectl apply -f -
+kubectl expose deploy hvscs --port=8443
+``` 
+
 ## How to customize it
 
 To customize it just prepare any content you want and extend the image creating your own:
