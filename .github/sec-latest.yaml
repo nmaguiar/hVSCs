@@ -8,8 +8,8 @@
     InstalledVersion: 3.0.4-2ubuntu2.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-1585
     DataSource:
@@ -42,8 +42,8 @@
     InstalledVersion: 5.1-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3715
     DataSource:
@@ -83,8 +83,8 @@
     InstalledVersion: 8.32-4.1ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -125,8 +125,8 @@
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-34969
     DataSource:
@@ -146,12 +146,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -167,8 +167,8 @@
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-34969
     DataSource:
@@ -188,12 +188,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -209,8 +209,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -247,8 +247,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -287,8 +287,8 @@
     InstalledVersion: 1:2.34.1-1ubuntu1.10
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-1000021
     DataSource:
@@ -323,8 +323,8 @@
     InstalledVersion: 1:2.34.1-1ubuntu1.10
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-1000021
     DataSource:
@@ -359,8 +359,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -397,8 +397,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -435,8 +435,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -473,8 +473,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -511,8 +511,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -549,8 +549,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -587,8 +587,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -625,8 +625,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -663,8 +663,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -701,8 +701,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -739,8 +739,8 @@
     InstalledVersion: 3.0.4-2ubuntu2.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-1585
     DataSource:
@@ -773,8 +773,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -813,8 +813,8 @@
     InstalledVersion: 2.35-0ubuntu3.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -844,8 +844,8 @@
     InstalledVersion: 2.35-0ubuntu3.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -875,8 +875,8 @@
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-34969
     DataSource:
@@ -896,12 +896,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -917,8 +917,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -957,8 +957,8 @@
     InstalledVersion: 2.3.0-2ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-40812
     DataSource:
@@ -990,8 +990,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36054
     DataSource:
@@ -1022,13 +1022,13 @@
     PublishedDate: '2023-08-07T19:15:00Z'
     LastModifiedDate: '2023-08-15T17:57:00Z'
   - VulnerabilityID: CVE-2021-32292
-    PkgID: libjson-c5@0.15-3~ubuntu1.22.04.1
+    PkgID: libjson-c5@0.15-3~ubuntu1.22.04.2
     PkgName: libjson-c5
-    InstalledVersion: 0.15-3~ubuntu1.22.04.1
+    InstalledVersion: 0.15-3~ubuntu1.22.04.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-32292
     DataSource:
@@ -1055,8 +1055,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36054
     DataSource:
@@ -1092,8 +1092,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36054
     DataSource:
@@ -1129,8 +1129,8 @@
     InstalledVersion: 1.19.2-2ubuntu0.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36054
     DataSource:
@@ -1166,8 +1166,8 @@
     InstalledVersion: 2.5.16+dfsg-0ubuntu0.22.04.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2953
     DataSource:
@@ -1208,8 +1208,8 @@
     InstalledVersion: 2:8.39-13ubuntu0.22.04.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-11164
     DataSource:
@@ -1248,8 +1248,8 @@
     InstalledVersion: 1.6.37-3build5
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3857
     DataSource:
@@ -1283,8 +1283,8 @@
     InstalledVersion: 2:3.3.17-6ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4016
     DataSource:
@@ -1318,8 +1318,8 @@
     InstalledVersion: 3.10.12-1~22.04.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     DataSource:
@@ -1357,8 +1357,8 @@
     InstalledVersion: 3.10.12-1~22.04.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     DataSource:
@@ -1396,8 +1396,8 @@
     InstalledVersion: 3.10.12-1~22.04.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     DataSource:
@@ -1435,8 +1435,8 @@
     InstalledVersion: 3.37.2-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-46908
     DataSource:
@@ -1470,8 +1470,8 @@
     InstalledVersion: 3.0.2-0ubuntu1.10
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2975
     DataSource:
@@ -1529,8 +1529,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -1569,8 +1569,8 @@
     InstalledVersion: 4.3.0-6ubuntu0.5
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-10126
     DataSource:
@@ -1606,8 +1606,8 @@
     InstalledVersion: 4.3.0-6ubuntu0.5
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-1916
     DataSource:
@@ -1642,8 +1642,8 @@
     InstalledVersion: 4.3.0-6ubuntu0.5
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3164
     DataSource:
@@ -1669,8 +1669,8 @@
     InstalledVersion: 4.3.0-6ubuntu0.5
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3576
     DataSource:
@@ -1695,8 +1695,8 @@
     InstalledVersion: 1.4.8+dfsg-3build1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4899
     DataSource:
@@ -1737,8 +1737,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
     DataSource:
@@ -1774,8 +1774,8 @@
     InstalledVersion: 1:8.9p1-3ubuntu0.3
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28531
     DataSource:
@@ -1808,8 +1808,8 @@
     InstalledVersion: 1:8.9p1-3ubuntu0.3
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28531
     DataSource:
@@ -1842,8 +1842,8 @@
     InstalledVersion: 1:8.9p1-3ubuntu0.3
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28531
     DataSource:
@@ -1876,8 +1876,8 @@
     InstalledVersion: 3.0.2-0ubuntu1.10
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2975
     DataSource:
@@ -1935,8 +1935,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
     DataSource:
@@ -1972,8 +1972,8 @@
     InstalledVersion: 2:3.3.17-6ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4016
     DataSource:
@@ -2007,8 +2007,8 @@
     InstalledVersion: 3.10.12-1~22.04.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     DataSource:
@@ -2046,8 +2046,8 @@
     InstalledVersion: 3.10.12-1~22.04.2
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     DataSource:
@@ -2085,8 +2085,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
     DataSource:
@@ -2116,452 +2116,14 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:00Z'
     LastModifiedDate: '2023-04-24T18:05:00Z'
-  - VulnerabilityID: CVE-2022-2522
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2522
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap-based buffer overflow in ins_compl_infercase_gettext() at src/insexpand.c
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0061.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1016068
-    - https://access.redhat.com/security/cve/CVE-2022-2522
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2522
-    - https://github.com/vim/vim/commit/5fa9f23a63651a8abdb074b4fc2ec9b1adc6b089
-    - https://github.com/vim/vim/commit/b9e717367c395490149495cf375911b5d9de889e
-    - https://huntr.dev/bounties/3a2d83af-9542-4d93-8784-98b115135a22
-    - https://huntr.dev/bounties/3a2d83af-9542-4d93-8784-98b115135a22/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2522
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2522
-    PublishedDate: '2022-07-25T14:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2580
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2580
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: Out-of-bounds Read in  vim'
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0102.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2580
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2580
-    - https://github.com/vim/vim/commit/1e56bda9048a9625bce6e660938c834c5c15b07d
-    - https://huntr.dev/bounties/c5f2f1d4-0441-4881-b19c-055acaa16249
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2580
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2580
-    PublishedDate: '2022-08-01T15:15:00Z'
-    LastModifiedDate: '2022-08-04T23:30:00Z'
-  - VulnerabilityID: CVE-2022-2817
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2817
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in string_quote() at src/strings.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0213.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2817
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2817
-    - https://github.com/vim/vim/commit/249e1b903a9c0460d618f6dcc59aeb8c03b24b20
-    - https://github.com/vim/vim/commit/249e1b903a9c0460d618f6dcc59aeb8c03b24b20 (v9.0.0213)
-    - https://huntr.dev/bounties/a7b7d242-3d88-4bde-a681-6c986aff886f
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2817
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2817
-    PublishedDate: '2022-08-15T23:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2819
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2819
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap buffer overflow in compile_lock_unlock() at src/vim9cmds.c
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0211.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2819
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2819
-    - https://github.com/vim/vim/commit/d1d8f6bacb489036d0fd479c9dd3c0102c988889
-    - https://huntr.dev/bounties/0a9bd71e-66b8-4eb1-9566-7dfd9b097e59
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2819
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2819
-    PublishedDate: '2022-08-15T11:21:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2862
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2862
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in generate_PCALL() at src/vim9instr.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0221.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2862
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2862
-    - https://github.com/vim/vim/commit/1889f499a4f248cd84e0e0bf6d0d820016774494
-    - https://github.com/vim/vim/commit/1889f499a4f248cd84e0e0bf6d0d820016774494 (v9.0.0221)
-    - https://huntr.dev/bounties/71180988-1ab6-4311-bca8-e9a879b06765
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2862
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2862
-    PublishedDate: '2022-08-17T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2889
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2889
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use-after-free in find_var_also_in_script() in evalvars.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0225.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2889
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2889
-    - https://github.com/vim/vim/commit/91c7cbfe31bbef57d5fcf7d76989fc159f73ef15
-    - https://huntr.dev/bounties/d1ac9817-825d-49ce-b514-1d5b12b6bdaa
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/C72HDIMR3KTTAO7QGTXWUMPBNFUFIBRD/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2889
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2889
-    PublishedDate: '2022-08-19T13:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2982
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2982
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use after free in qf_fill_buffer() at src/quickfix.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0260.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2982
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2982
-    - https://github.com/vim/vim/commit/d6c67629ed05aae436164eec474832daf8ba7420
-    - https://github.com/vim/vim/commit/d6c67629ed05aae436164eec474832daf8ba7420 (v9.0.0260)
-    - https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7ba-23efbe6833be
-    - https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7ba-23efbe6833be/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2982
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2982
-    PublishedDate: '2022-08-25T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3016
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3016
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use-after-free in get_next_valid_entry() at src/quickfix.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0286.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3016
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3016
-    - https://github.com/vim/vim/commit/6d24a51b94beb1991cddce221f90b455e2d50db7
-    - https://huntr.dev/bounties/260516c2-5c4a-4b7f-a01c-04b1aeeea371
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3016
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3016
-    PublishedDate: '2022-08-28T12:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3037
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3037
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use after free in function qf_buf_add_line( )
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0322.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3037
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3037
-    - https://github.com/vim/vim/commit/4f1b083be43f351bc107541e7b0c9655a5d2c0bb
-    - https://huntr.dev/bounties/af4c2f2d-d754-4607-b565-9e92f3f717b5
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RY3GEN2Q46ZJKSNHTN2XB6B3VAJBEILN/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHJ6LCLHGGVI2U6ZHXHTZ2PYP4STC23N/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3037
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3037
-    PublishedDate: '2022-08-30T21:15:00Z'
-    LastModifiedDate: '2022-09-20T20:35:00Z'
-  - VulnerabilityID: CVE-2022-3099
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3099
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: Use After Free in do_cmdline() in ex_docmd.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0360.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3099
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3099
-    - https://github.com/vim/vim/commit/35d21c6830fc2d68aca838424a0e786821c5891c
-    - https://huntr.dev/bounties/403210c7-6cc7-4874-8934-b57f88bd4f5e
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DVWBI4BVTBUMNW4NMB3WZZDQJBKIGXI3/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LLK2RMZEECKKWUQK7J46D2FQZOXFQLTC/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3099
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-5775-1
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3099
-    PublishedDate: '2022-09-03T16:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3134
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3134
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in do_tag() at src/tag.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0389.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3134
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3134
-    - https://github.com/vim/vim/commit/ccfde4d028e891a41e3548323c3d47b06fb0b83e
-    - https://huntr.dev/bounties/6ec79e49-c7ab-4cd6-a517-e7934c2eb9dc
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3134
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3134
-    PublishedDate: '2022-09-06T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
   - VulnerabilityID: CVE-2022-1886
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
     PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-1886
     DataSource:
@@ -2594,609 +2156,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
-  - VulnerabilityID: CVE-2022-2598
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: Undefined Behavior for Input to API in vim'
-    Description: |+
-      Out-of-bounds Write to API in GitHub repository vim/vim prior to 9.0.0100.
-
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2598
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2598
-    - https://github.com/vim/vim/commit/4e677b9c40ccbc5f090971b31dc2fe07bf05541d
-    - https://huntr.dev/bounties/2f08363a-47a2-422d-a7de-ce96a89ad08e
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2598
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2598
-    PublishedDate: '2022-08-01T15:15:00Z'
-    LastModifiedDate: '2023-07-11T08:15:00Z'
-  - VulnerabilityID: CVE-2022-2816
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2816
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: out-of-bounds read in check_vim9_unlet() at src/vim9cmds.c'
-    Description: Out-of-bounds Read in GitHub repository vim/vim prior to 9.0.0212.
-    Severity: LOW
-    CweIDs:
-    - CWE-125
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2816
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2816
-    - https://github.com/vim/vim/commit/dbdd16b62560413abcc3c8e893cc3010ccf31666
-    - https://github.com/vim/vim/commit/dbdd16b62560413abcc3c8e893cc3010ccf31666 (v9.0.0212)
-    - https://huntr.dev/bounties/e2a83037-fcf9-4218-b2b9-b7507dacde58
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2816
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2816
-    PublishedDate: '2022-08-15T22:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2874
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2874
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: NULL pointer dereference in generate_loadvar() in vim9compile.c
-    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0224.
-    Severity: LOW
-    CweIDs:
-    - CWE-476
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2874
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2874
-    - https://github.com/vim/vim/commit/4875d6ab068f09df88d24d81de40dcd8d56e243d
-    - https://huntr.dev/bounties/95f97dfe-247d-475d-9740-b7adc71f4c79
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2874
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2874
-    PublishedDate: '2022-08-18T16:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3153
-    PkgID: vim@2:8.2.3995-1ubuntu2.10
-    PkgName: vim
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3153
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: null pointer dereference in vim_regcomp()
-    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0404.
-    Severity: LOW
-    CweIDs:
-    - CWE-476
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3153
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3153
-    - https://github.com/vim/vim/commit/1540d334a04d874c2aa9d26b82dbbcd4bc5a78de
-    - https://huntr.dev/bounties/68331124-620d-48bc-a8fa-cd947b26270a
-    - https://huntr.dev/bounties/68331124-620d-48bc-a8fa-cd947b26270a/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3153
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3153
-    PublishedDate: '2022-09-08T15:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2522
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2522
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap-based buffer overflow in ins_compl_infercase_gettext() at src/insexpand.c
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0061.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1016068
-    - https://access.redhat.com/security/cve/CVE-2022-2522
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2522
-    - https://github.com/vim/vim/commit/5fa9f23a63651a8abdb074b4fc2ec9b1adc6b089
-    - https://github.com/vim/vim/commit/b9e717367c395490149495cf375911b5d9de889e
-    - https://huntr.dev/bounties/3a2d83af-9542-4d93-8784-98b115135a22
-    - https://huntr.dev/bounties/3a2d83af-9542-4d93-8784-98b115135a22/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2522
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2522
-    PublishedDate: '2022-07-25T14:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2580
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2580
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: Out-of-bounds Read in  vim'
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0102.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2580
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2580
-    - https://github.com/vim/vim/commit/1e56bda9048a9625bce6e660938c834c5c15b07d
-    - https://huntr.dev/bounties/c5f2f1d4-0441-4881-b19c-055acaa16249
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2580
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2580
-    PublishedDate: '2022-08-01T15:15:00Z'
-    LastModifiedDate: '2022-08-04T23:30:00Z'
-  - VulnerabilityID: CVE-2022-2817
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2817
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in string_quote() at src/strings.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0213.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2817
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2817
-    - https://github.com/vim/vim/commit/249e1b903a9c0460d618f6dcc59aeb8c03b24b20
-    - https://github.com/vim/vim/commit/249e1b903a9c0460d618f6dcc59aeb8c03b24b20 (v9.0.0213)
-    - https://huntr.dev/bounties/a7b7d242-3d88-4bde-a681-6c986aff886f
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2817
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2817
-    PublishedDate: '2022-08-15T23:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2819
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2819
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap buffer overflow in compile_lock_unlock() at src/vim9cmds.c
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0211.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2819
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2819
-    - https://github.com/vim/vim/commit/d1d8f6bacb489036d0fd479c9dd3c0102c988889
-    - https://huntr.dev/bounties/0a9bd71e-66b8-4eb1-9566-7dfd9b097e59
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2819
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2819
-    PublishedDate: '2022-08-15T11:21:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2862
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2862
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in generate_PCALL() at src/vim9instr.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0221.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2862
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2862
-    - https://github.com/vim/vim/commit/1889f499a4f248cd84e0e0bf6d0d820016774494
-    - https://github.com/vim/vim/commit/1889f499a4f248cd84e0e0bf6d0d820016774494 (v9.0.0221)
-    - https://huntr.dev/bounties/71180988-1ab6-4311-bca8-e9a879b06765
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2862
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2862
-    PublishedDate: '2022-08-17T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2889
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2889
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use-after-free in find_var_also_in_script() in evalvars.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0225.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2889
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2889
-    - https://github.com/vim/vim/commit/91c7cbfe31bbef57d5fcf7d76989fc159f73ef15
-    - https://huntr.dev/bounties/d1ac9817-825d-49ce-b514-1d5b12b6bdaa
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/C72HDIMR3KTTAO7QGTXWUMPBNFUFIBRD/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2889
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2889
-    PublishedDate: '2022-08-19T13:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2982
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2982
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use after free in qf_fill_buffer() at src/quickfix.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0260.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2982
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2982
-    - https://github.com/vim/vim/commit/d6c67629ed05aae436164eec474832daf8ba7420
-    - https://github.com/vim/vim/commit/d6c67629ed05aae436164eec474832daf8ba7420 (v9.0.0260)
-    - https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7ba-23efbe6833be
-    - https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7ba-23efbe6833be/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2982
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2982
-    PublishedDate: '2022-08-25T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3016
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3016
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use-after-free in get_next_valid_entry() at src/quickfix.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0286.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3016
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3016
-    - https://github.com/vim/vim/commit/6d24a51b94beb1991cddce221f90b455e2d50db7
-    - https://huntr.dev/bounties/260516c2-5c4a-4b7f-a01c-04b1aeeea371
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3016
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3016
-    PublishedDate: '2022-08-28T12:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3037
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3037
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use after free in function qf_buf_add_line( )
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0322.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3037
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3037
-    - https://github.com/vim/vim/commit/4f1b083be43f351bc107541e7b0c9655a5d2c0bb
-    - https://huntr.dev/bounties/af4c2f2d-d754-4607-b565-9e92f3f717b5
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RY3GEN2Q46ZJKSNHTN2XB6B3VAJBEILN/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHJ6LCLHGGVI2U6ZHXHTZ2PYP4STC23N/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3037
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3037
-    PublishedDate: '2022-08-30T21:15:00Z'
-    LastModifiedDate: '2022-09-20T20:35:00Z'
-  - VulnerabilityID: CVE-2022-3099
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3099
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: Use After Free in do_cmdline() in ex_docmd.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0360.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3099
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3099
-    - https://github.com/vim/vim/commit/35d21c6830fc2d68aca838424a0e786821c5891c
-    - https://huntr.dev/bounties/403210c7-6cc7-4874-8934-b57f88bd4f5e
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DVWBI4BVTBUMNW4NMB3WZZDQJBKIGXI3/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LLK2RMZEECKKWUQK7J46D2FQZOXFQLTC/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3099
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-5775-1
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3099
-    PublishedDate: '2022-09-03T16:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3134
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3134
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in do_tag() at src/tag.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0389.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3134
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3134
-    - https://github.com/vim/vim/commit/ccfde4d028e891a41e3548323c3d47b06fb0b83e
-    - https://huntr.dev/bounties/6ec79e49-c7ab-4cd6-a517-e7934c2eb9dc
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3134
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3134
-    PublishedDate: '2022-09-06T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
   - VulnerabilityID: CVE-2022-1886
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
     PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-1886
     DataSource:
@@ -3229,609 +2196,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
-  - VulnerabilityID: CVE-2022-2598
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: Undefined Behavior for Input to API in vim'
-    Description: |+
-      Out-of-bounds Write to API in GitHub repository vim/vim prior to 9.0.0100.
-
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2598
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2598
-    - https://github.com/vim/vim/commit/4e677b9c40ccbc5f090971b31dc2fe07bf05541d
-    - https://huntr.dev/bounties/2f08363a-47a2-422d-a7de-ce96a89ad08e
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2598
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2598
-    PublishedDate: '2022-08-01T15:15:00Z'
-    LastModifiedDate: '2023-07-11T08:15:00Z'
-  - VulnerabilityID: CVE-2022-2816
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2816
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: out-of-bounds read in check_vim9_unlet() at src/vim9cmds.c'
-    Description: Out-of-bounds Read in GitHub repository vim/vim prior to 9.0.0212.
-    Severity: LOW
-    CweIDs:
-    - CWE-125
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2816
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2816
-    - https://github.com/vim/vim/commit/dbdd16b62560413abcc3c8e893cc3010ccf31666
-    - https://github.com/vim/vim/commit/dbdd16b62560413abcc3c8e893cc3010ccf31666 (v9.0.0212)
-    - https://huntr.dev/bounties/e2a83037-fcf9-4218-b2b9-b7507dacde58
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2816
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2816
-    PublishedDate: '2022-08-15T22:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2874
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2874
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: NULL pointer dereference in generate_loadvar() in vim9compile.c
-    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0224.
-    Severity: LOW
-    CweIDs:
-    - CWE-476
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2874
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2874
-    - https://github.com/vim/vim/commit/4875d6ab068f09df88d24d81de40dcd8d56e243d
-    - https://huntr.dev/bounties/95f97dfe-247d-475d-9740-b7adc71f4c79
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2874
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2874
-    PublishedDate: '2022-08-18T16:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3153
-    PkgID: vim-common@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-common
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3153
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: null pointer dereference in vim_regcomp()
-    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0404.
-    Severity: LOW
-    CweIDs:
-    - CWE-476
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3153
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3153
-    - https://github.com/vim/vim/commit/1540d334a04d874c2aa9d26b82dbbcd4bc5a78de
-    - https://huntr.dev/bounties/68331124-620d-48bc-a8fa-cd947b26270a
-    - https://huntr.dev/bounties/68331124-620d-48bc-a8fa-cd947b26270a/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3153
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3153
-    PublishedDate: '2022-09-08T15:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2522
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2522
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap-based buffer overflow in ins_compl_infercase_gettext() at src/insexpand.c
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0061.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1016068
-    - https://access.redhat.com/security/cve/CVE-2022-2522
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2522
-    - https://github.com/vim/vim/commit/5fa9f23a63651a8abdb074b4fc2ec9b1adc6b089
-    - https://github.com/vim/vim/commit/b9e717367c395490149495cf375911b5d9de889e
-    - https://huntr.dev/bounties/3a2d83af-9542-4d93-8784-98b115135a22
-    - https://huntr.dev/bounties/3a2d83af-9542-4d93-8784-98b115135a22/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2522
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2522
-    PublishedDate: '2022-07-25T14:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2580
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2580
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: Out-of-bounds Read in  vim'
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0102.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2580
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2580
-    - https://github.com/vim/vim/commit/1e56bda9048a9625bce6e660938c834c5c15b07d
-    - https://huntr.dev/bounties/c5f2f1d4-0441-4881-b19c-055acaa16249
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2580
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2580
-    PublishedDate: '2022-08-01T15:15:00Z'
-    LastModifiedDate: '2022-08-04T23:30:00Z'
-  - VulnerabilityID: CVE-2022-2817
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2817
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in string_quote() at src/strings.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0213.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2817
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2817
-    - https://github.com/vim/vim/commit/249e1b903a9c0460d618f6dcc59aeb8c03b24b20
-    - https://github.com/vim/vim/commit/249e1b903a9c0460d618f6dcc59aeb8c03b24b20 (v9.0.0213)
-    - https://huntr.dev/bounties/a7b7d242-3d88-4bde-a681-6c986aff886f
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2817
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2817
-    PublishedDate: '2022-08-15T23:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2819
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2819
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap buffer overflow in compile_lock_unlock() at src/vim9cmds.c
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0211.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2819
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2819
-    - https://github.com/vim/vim/commit/d1d8f6bacb489036d0fd479c9dd3c0102c988889
-    - https://huntr.dev/bounties/0a9bd71e-66b8-4eb1-9566-7dfd9b097e59
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2819
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2819
-    PublishedDate: '2022-08-15T11:21:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2862
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2862
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in generate_PCALL() at src/vim9instr.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0221.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2862
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2862
-    - https://github.com/vim/vim/commit/1889f499a4f248cd84e0e0bf6d0d820016774494
-    - https://github.com/vim/vim/commit/1889f499a4f248cd84e0e0bf6d0d820016774494 (v9.0.0221)
-    - https://huntr.dev/bounties/71180988-1ab6-4311-bca8-e9a879b06765
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2862
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2862
-    PublishedDate: '2022-08-17T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2889
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2889
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use-after-free in find_var_also_in_script() in evalvars.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0225.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2889
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2889
-    - https://github.com/vim/vim/commit/91c7cbfe31bbef57d5fcf7d76989fc159f73ef15
-    - https://huntr.dev/bounties/d1ac9817-825d-49ce-b514-1d5b12b6bdaa
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/C72HDIMR3KTTAO7QGTXWUMPBNFUFIBRD/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2889
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2889
-    PublishedDate: '2022-08-19T13:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2982
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2982
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use after free in qf_fill_buffer() at src/quickfix.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0260.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2982
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2982
-    - https://github.com/vim/vim/commit/d6c67629ed05aae436164eec474832daf8ba7420
-    - https://github.com/vim/vim/commit/d6c67629ed05aae436164eec474832daf8ba7420 (v9.0.0260)
-    - https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7ba-23efbe6833be
-    - https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7ba-23efbe6833be/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2982
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2982
-    PublishedDate: '2022-08-25T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3016
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3016
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use-after-free in get_next_valid_entry() at src/quickfix.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0286.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3016
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3016
-    - https://github.com/vim/vim/commit/6d24a51b94beb1991cddce221f90b455e2d50db7
-    - https://huntr.dev/bounties/260516c2-5c4a-4b7f-a01c-04b1aeeea371
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3016
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3016
-    PublishedDate: '2022-08-28T12:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3037
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3037
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use after free in function qf_buf_add_line( )
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0322.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3037
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3037
-    - https://github.com/vim/vim/commit/4f1b083be43f351bc107541e7b0c9655a5d2c0bb
-    - https://huntr.dev/bounties/af4c2f2d-d754-4607-b565-9e92f3f717b5
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RY3GEN2Q46ZJKSNHTN2XB6B3VAJBEILN/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHJ6LCLHGGVI2U6ZHXHTZ2PYP4STC23N/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3037
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3037
-    PublishedDate: '2022-08-30T21:15:00Z'
-    LastModifiedDate: '2022-09-20T20:35:00Z'
-  - VulnerabilityID: CVE-2022-3099
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3099
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: Use After Free in do_cmdline() in ex_docmd.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0360.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3099
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3099
-    - https://github.com/vim/vim/commit/35d21c6830fc2d68aca838424a0e786821c5891c
-    - https://huntr.dev/bounties/403210c7-6cc7-4874-8934-b57f88bd4f5e
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DVWBI4BVTBUMNW4NMB3WZZDQJBKIGXI3/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LLK2RMZEECKKWUQK7J46D2FQZOXFQLTC/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3099
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-5775-1
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3099
-    PublishedDate: '2022-09-03T16:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3134
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3134
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in do_tag() at src/tag.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0389.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3134
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3134
-    - https://github.com/vim/vim/commit/ccfde4d028e891a41e3548323c3d47b06fb0b83e
-    - https://huntr.dev/bounties/6ec79e49-c7ab-4cd6-a517-e7934c2eb9dc
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3134
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3134
-    PublishedDate: '2022-09-06T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
   - VulnerabilityID: CVE-2022-1886
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
     PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-1886
     DataSource:
@@ -3864,171 +2236,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
-  - VulnerabilityID: CVE-2022-2598
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: Undefined Behavior for Input to API in vim'
-    Description: |+
-      Out-of-bounds Write to API in GitHub repository vim/vim prior to 9.0.0100.
-
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2598
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2598
-    - https://github.com/vim/vim/commit/4e677b9c40ccbc5f090971b31dc2fe07bf05541d
-    - https://huntr.dev/bounties/2f08363a-47a2-422d-a7de-ce96a89ad08e
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2598
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2598
-    PublishedDate: '2022-08-01T15:15:00Z'
-    LastModifiedDate: '2023-07-11T08:15:00Z'
-  - VulnerabilityID: CVE-2022-2816
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2816
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: out-of-bounds read in check_vim9_unlet() at src/vim9cmds.c'
-    Description: Out-of-bounds Read in GitHub repository vim/vim prior to 9.0.0212.
-    Severity: LOW
-    CweIDs:
-    - CWE-125
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2816
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2816
-    - https://github.com/vim/vim/commit/dbdd16b62560413abcc3c8e893cc3010ccf31666
-    - https://github.com/vim/vim/commit/dbdd16b62560413abcc3c8e893cc3010ccf31666 (v9.0.0212)
-    - https://huntr.dev/bounties/e2a83037-fcf9-4218-b2b9-b7507dacde58
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2816
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2816
-    PublishedDate: '2022-08-15T22:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2874
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2874
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: NULL pointer dereference in generate_loadvar() in vim9compile.c
-    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0224.
-    Severity: LOW
-    CweIDs:
-    - CWE-476
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2874
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2874
-    - https://github.com/vim/vim/commit/4875d6ab068f09df88d24d81de40dcd8d56e243d
-    - https://huntr.dev/bounties/95f97dfe-247d-475d-9740-b7adc71f4c79
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2874
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2874
-    PublishedDate: '2022-08-18T16:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3153
-    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.10
-    PkgName: vim-runtime
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3153
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: null pointer dereference in vim_regcomp()
-    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0404.
-    Severity: LOW
-    CweIDs:
-    - CWE-476
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3153
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3153
-    - https://github.com/vim/vim/commit/1540d334a04d874c2aa9d26b82dbbcd4bc5a78de
-    - https://huntr.dev/bounties/68331124-620d-48bc-a8fa-cd947b26270a
-    - https://huntr.dev/bounties/68331124-620d-48bc-a8fa-cd947b26270a/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3153
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3153
-    PublishedDate: '2022-09-08T15:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1
     PkgName: wget
     InstalledVersion: 1.21.2-2ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31879
     DataSource:
@@ -4059,452 +2274,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:00Z'
     LastModifiedDate: '2022-05-13T20:52:00Z'
-  - VulnerabilityID: CVE-2022-2522
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2522
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap-based buffer overflow in ins_compl_infercase_gettext() at src/insexpand.c
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0061.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1016068
-    - https://access.redhat.com/security/cve/CVE-2022-2522
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2522
-    - https://github.com/vim/vim/commit/5fa9f23a63651a8abdb074b4fc2ec9b1adc6b089
-    - https://github.com/vim/vim/commit/b9e717367c395490149495cf375911b5d9de889e
-    - https://huntr.dev/bounties/3a2d83af-9542-4d93-8784-98b115135a22
-    - https://huntr.dev/bounties/3a2d83af-9542-4d93-8784-98b115135a22/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2522
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2522
-    PublishedDate: '2022-07-25T14:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2580
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2580
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: Out-of-bounds Read in  vim'
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0102.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2580
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2580
-    - https://github.com/vim/vim/commit/1e56bda9048a9625bce6e660938c834c5c15b07d
-    - https://huntr.dev/bounties/c5f2f1d4-0441-4881-b19c-055acaa16249
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2580
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2580
-    PublishedDate: '2022-08-01T15:15:00Z'
-    LastModifiedDate: '2022-08-04T23:30:00Z'
-  - VulnerabilityID: CVE-2022-2817
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2817
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in string_quote() at src/strings.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0213.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2817
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2817
-    - https://github.com/vim/vim/commit/249e1b903a9c0460d618f6dcc59aeb8c03b24b20
-    - https://github.com/vim/vim/commit/249e1b903a9c0460d618f6dcc59aeb8c03b24b20 (v9.0.0213)
-    - https://huntr.dev/bounties/a7b7d242-3d88-4bde-a681-6c986aff886f
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2817
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2817
-    PublishedDate: '2022-08-15T23:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2819
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2819
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap buffer overflow in compile_lock_unlock() at src/vim9cmds.c
-    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0211.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-122
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2819
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2819
-    - https://github.com/vim/vim/commit/d1d8f6bacb489036d0fd479c9dd3c0102c988889
-    - https://huntr.dev/bounties/0a9bd71e-66b8-4eb1-9566-7dfd9b097e59
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2819
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2819
-    PublishedDate: '2022-08-15T11:21:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2862
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2862
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in generate_PCALL() at src/vim9instr.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0221.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2862
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2862
-    - https://github.com/vim/vim/commit/1889f499a4f248cd84e0e0bf6d0d820016774494
-    - https://github.com/vim/vim/commit/1889f499a4f248cd84e0e0bf6d0d820016774494 (v9.0.0221)
-    - https://huntr.dev/bounties/71180988-1ab6-4311-bca8-e9a879b06765
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2862
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2862
-    PublishedDate: '2022-08-17T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2889
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2889
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use-after-free in find_var_also_in_script() in evalvars.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0225.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2889
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2889
-    - https://github.com/vim/vim/commit/91c7cbfe31bbef57d5fcf7d76989fc159f73ef15
-    - https://huntr.dev/bounties/d1ac9817-825d-49ce-b514-1d5b12b6bdaa
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/C72HDIMR3KTTAO7QGTXWUMPBNFUFIBRD/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2889
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2889
-    PublishedDate: '2022-08-19T13:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2982
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2982
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use after free in qf_fill_buffer() at src/quickfix.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0260.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2982
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2982
-    - https://github.com/vim/vim/commit/d6c67629ed05aae436164eec474832daf8ba7420
-    - https://github.com/vim/vim/commit/d6c67629ed05aae436164eec474832daf8ba7420 (v9.0.0260)
-    - https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7ba-23efbe6833be
-    - https://huntr.dev/bounties/53f53d9a-ba8a-4985-b7ba-23efbe6833be/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2982
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2982
-    PublishedDate: '2022-08-25T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3016
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3016
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use-after-free in get_next_valid_entry() at src/quickfix.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0286.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3016
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3016
-    - https://github.com/vim/vim/commit/6d24a51b94beb1991cddce221f90b455e2d50db7
-    - https://huntr.dev/bounties/260516c2-5c4a-4b7f-a01c-04b1aeeea371
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3016
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3016
-    PublishedDate: '2022-08-28T12:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3037
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3037
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: use after free in function qf_buf_add_line( )
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0322.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3037
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3037
-    - https://github.com/vim/vim/commit/4f1b083be43f351bc107541e7b0c9655a5d2c0bb
-    - https://huntr.dev/bounties/af4c2f2d-d754-4607-b565-9e92f3f717b5
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RY3GEN2Q46ZJKSNHTN2XB6B3VAJBEILN/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHJ6LCLHGGVI2U6ZHXHTZ2PYP4STC23N/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3037
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3037
-    PublishedDate: '2022-08-30T21:15:00Z'
-    LastModifiedDate: '2022-09-20T20:35:00Z'
-  - VulnerabilityID: CVE-2022-3099
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3099
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: Use After Free in do_cmdline() in ex_docmd.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0360.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3099
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3099
-    - https://github.com/vim/vim/commit/35d21c6830fc2d68aca838424a0e786821c5891c
-    - https://huntr.dev/bounties/403210c7-6cc7-4874-8934-b57f88bd4f5e
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DVWBI4BVTBUMNW4NMB3WZZDQJBKIGXI3/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LLK2RMZEECKKWUQK7J46D2FQZOXFQLTC/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XWOJOA7PZZAMBI5GFTL6PWHXMWSDLUXL/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3099
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-5775-1
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3099
-    PublishedDate: '2022-09-03T16:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3134
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3134
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: heap use-after-free in do_tag() at src/tag.c
-    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0389.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3134
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3134
-    - https://github.com/vim/vim/commit/ccfde4d028e891a41e3548323c3d47b06fb0b83e
-    - https://huntr.dev/bounties/6ec79e49-c7ab-4cd6-a517-e7934c2eb9dc
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3134
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3134
-    PublishedDate: '2022-09-06T20:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
   - VulnerabilityID: CVE-2022-1886
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
     PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
     Status: affected
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-1886
     DataSource:
@@ -4537,163 +2314,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
-  - VulnerabilityID: CVE-2022-2598
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2598
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: Undefined Behavior for Input to API in vim'
-    Description: |+
-      Out-of-bounds Write to API in GitHub repository vim/vim prior to 9.0.0100.
-
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2598
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2598
-    - https://github.com/vim/vim/commit/4e677b9c40ccbc5f090971b31dc2fe07bf05541d
-    - https://huntr.dev/bounties/2f08363a-47a2-422d-a7de-ce96a89ad08e
-    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2598
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2598
-    PublishedDate: '2022-08-01T15:15:00Z'
-    LastModifiedDate: '2023-07-11T08:15:00Z'
-  - VulnerabilityID: CVE-2022-2816
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2816
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'vim: out-of-bounds read in check_vim9_unlet() at src/vim9cmds.c'
-    Description: Out-of-bounds Read in GitHub repository vim/vim prior to 9.0.0212.
-    Severity: LOW
-    CweIDs:
-    - CWE-125
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2816
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2816
-    - https://github.com/vim/vim/commit/dbdd16b62560413abcc3c8e893cc3010ccf31666
-    - https://github.com/vim/vim/commit/dbdd16b62560413abcc3c8e893cc3010ccf31666 (v9.0.0212)
-    - https://huntr.dev/bounties/e2a83037-fcf9-4218-b2b9-b7507dacde58
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHFAR6OY6G77M6GXCJT75A4KITLNR6GO/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2816
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2816
-    PublishedDate: '2022-08-15T22:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-2874
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-2874
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: NULL pointer dereference in generate_loadvar() in vim9compile.c
-    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0224.
-    Severity: LOW
-    CweIDs:
-    - CWE-476
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-2874
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2874
-    - https://github.com/vim/vim/commit/4875d6ab068f09df88d24d81de40dcd8d56e243d
-    - https://huntr.dev/bounties/95f97dfe-247d-475d-9740-b7adc71f4c79
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-2874
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-2874
-    PublishedDate: '2022-08-18T16:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
-  - VulnerabilityID: CVE-2022-3153
-    PkgID: xxd@2:8.2.3995-1ubuntu2.10
-    PkgName: xxd
-    InstalledVersion: 2:8.2.3995-1ubuntu2.10
-    FixedVersion: 2:8.2.3995-1ubuntu2.11
-    Status: fixed
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3153
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: null pointer dereference in vim_regcomp()
-    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0404.
-    Severity: LOW
-    CweIDs:
-    - CWE-476
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-3153
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3153
-    - https://github.com/vim/vim/commit/1540d334a04d874c2aa9d26b82dbbcd4bc5a78de
-    - https://huntr.dev/bounties/68331124-620d-48bc-a8fa-cd947b26270a
-    - https://huntr.dev/bounties/68331124-620d-48bc-a8fa-cd947b26270a/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-3153
-    - https://security.gentoo.org/glsa/202305-16
-    - https://ubuntu.com/security/notices/USN-6302-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-3153
-    PublishedDate: '2022-09-08T15:15:00Z'
-    LastModifiedDate: '2023-05-03T12:16:00Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -4705,8 +2325,8 @@
     FixedVersion: 1.15.3
     Status: fixed
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-36033
     DataSource:
@@ -4750,8 +2370,8 @@
     FixedVersion: 0.3.7
     Status: fixed
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-38561
     DataSource:
@@ -4794,8 +2414,8 @@
     FixedVersion: 0.3.8
     Status: fixed
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-32149
     DataSource:
@@ -4838,11 +2458,11 @@
     PkgID: gopkg.in/yaml.v3@v3.0.0-20200313102051-9f266ea9e77c
     PkgName: gopkg.in/yaml.v3
     InstalledVersion: 3.0.0-20200313102051-9f266ea9e77c
-    FixedVersion: 3.0.0
+    FixedVersion: 3.0.0-20220521103104-8f96da9f5d5e
     Status: fixed
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-28948
     DataSource:
@@ -4887,8 +2507,8 @@
     FixedVersion: 20.10.24, 23.0.3
     Status: fixed
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28840
     DataSource:
@@ -4896,11 +2516,28 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: Encrypted overlay network may be unauthenticated
-    Description: Moby is an open source container framework developed by Docker Inc. that is distributed as Docker, Mirantis Container Runtime, and various other downstream projects/products. The Moby daemon component (`dockerd`), which is developed as moby/moby, is commonly referred to as *Docker*. Swarm Mode, which is compiled in and delivered by default in dockerd and is thus present in most major Moby downstreams, is a simple, built-in container orchestrator that is implemented through a combination of SwarmKit and supporting network code. The overlay network driver is a core feature of Swarm Mode, providing isolated virtual LANs that allow communication between containers and services across the cluster. This driver is an implementation/user of VXLAN, which encapsulates link-layer (Ethernet) frames in UDP datagrams that tag the frame with a VXLAN Network ID (VNI) that identifies the originating overlay network. In addition, the overlay network driver supports an optional, off-by-default encrypted mode, which is especially useful when VXLAN packets traverses an untrusted network between nodes. Encrypted overlay networks function by encapsulating the VXLAN datagrams through the use of the IPsec Encapsulating Security Payload protocol in Transport mode. By deploying IPSec encapsulation, encrypted overlay networks gain the additional properties of source authentication through cryptographic proof, data integrity through check-summing, and confidentiality through encryption. When setting an endpoint up on an encrypted overlay network, Moby installs three iptables (Linux kernel firewall) rules that enforce both incoming and outgoing IPSec. These rules rely on the u32 iptables extension provided by the xt_u32 kernel module to directly filter on a VXLAN packet's VNI field, so that IPSec guarantees can be enforced on encrypted overlay networks without interfering with other overlay networks or other users of VXLAN. Two iptables rules serve to filter incoming VXLAN datagrams with a VNI that corresponds to an encrypted network and discards unencrypted datagrams. The rules are appended to the end of the INPUT filter chain, following any rules that have been previously set by the system administrator. Administrator-set rules take precedence over the rules Moby sets to discard unencrypted VXLAN datagrams, which can potentially admit unencrypted datagrams that should have been discarded. The injection of arbitrary Ethernet frames can enable a Denial of Service attack. A sophisticated attacker may be able to establish a UDP or TCP connection by way of the container’s outbound gateway that would otherwise be blocked by a stateful firewall, or carry out other escalations beyond simple injection by smuggling packets into the overlay network. Patches are available in Moby releases 23.0.3 and 20.10.24. As Mirantis Container Runtime's 20.10 releases are numbered differently, users of that platform should update to 20.10.16. Some workarounds are available. Close the VXLAN port (by default, UDP port 4789) to incoming traffic at the Internet boundary to prevent all VXLAN packet injection, and/or ensure that the `xt_u32` kernel module is available on all nodes of the Swarm cluster.
+    Description: |-
+      Moby is an open source container framework developed by Docker Inc. that is distributed as Docker, Mirantis Container Runtime, and various other downstream projects/products. The Moby daemon component (`dockerd`), which is developed as moby/moby, is commonly referred to as *Docker*.
+
+      Swarm Mode, which is compiled in and delivered by default in dockerd and is thus present in most major Moby downstreams, is a simple, built-in container orchestrator that is implemented through a combination of SwarmKit and supporting network code.
+
+      The overlay network driver is a core feature of Swarm Mode, providing isolated virtual LANs that allow communication between containers and services across the cluster. This driver is an implementation/user of VXLAN, which encapsulates link-layer (Ethernet) frames in UDP datagrams that tag the frame with a VXLAN Network ID (VNI) that identifies the originating overlay network. In addition, the overlay network driver supports an optional, off-by-default encrypted mode, which is especially useful when VXLAN packets traverses an untrusted network between nodes.
+
+      Encrypted overlay networks function by encapsulating the VXLAN datagrams through the use of the IPsec Encapsulating Security Payload protocol in Transport mode. By deploying IPSec encapsulation, encrypted overlay networks gain the additional properties of source authentication through cryptographic proof, data integrity through check-summing, and confidentiality through encryption.
+
+      When setting an endpoint up on an encrypted overlay network, Moby installs three iptables (Linux kernel firewall) rules that enforce both incoming and outgoing IPSec. These rules rely on the u32 iptables extension provided by the xt_u32 kernel module to directly filter on a VXLAN packet's VNI field, so that IPSec guarantees can be enforced on encrypted overlay networks without interfering with other overlay networks or other users of VXLAN.
+
+      Two iptables rules serve to filter incoming VXLAN datagrams with a VNI that corresponds to an encrypted network and discards unencrypted datagrams. The rules are appended to the end of the INPUT filter chain, following any rules that have been previously set by the system administrator. Administrator-set rules take precedence over the rules Moby sets to discard unencrypted VXLAN datagrams, which can potentially admit unencrypted datagrams that should have been discarded.
+
+      The injection of arbitrary Ethernet frames can enable a Denial of Service attack. A sophisticated attacker may be able to establish a UDP or TCP connection by way of the container’s outbound gateway that would otherwise be blocked by a stateful firewall, or carry out other escalations beyond simple injection by smuggling packets into the overlay network.
+
+      Patches are available in Moby releases 23.0.3 and 20.10.24. As Mirantis Container Runtime's 20.10 releases are numbered differently, users of that platform should update to 20.10.16.
+
+      Some workarounds are available. Close the VXLAN port (by default, UDP port 4789) to incoming traffic at the Internet boundary to prevent all VXLAN packet injection, and/or ensure that the `xt_u32` kernel module is available on all nodes of the Swarm cluster.
     Severity: HIGH
     CweIDs:
-    - CWE-203
-    - CWE-755
+    - CWE-420
+    - CWE-636
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:L
@@ -4921,18 +2558,19 @@
     - https://github.com/moby/moby/security/advisories/GHSA-33pg-m6jh-5237
     - https://github.com/moby/moby/security/advisories/GHSA-6wrf-mxfj-pf5p
     - https://github.com/moby/moby/security/advisories/GHSA-vwm3-crmr-xfxw
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZTE4ITXXPIWZEQ4HYQCB6N6GZIMWXDAI/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28840
     - https://www.cve.org/CVERecord?id=CVE-2023-28840
     PublishedDate: '2023-04-04T22:15:00Z'
-    LastModifiedDate: '2023-04-14T15:23:00Z'
+    LastModifiedDate: '2023-08-30T04:15:00Z'
   - VulnerabilityID: CVE-2023-28841
     PkgName: github.com/docker/docker
     InstalledVersion: v23.0.1+incompatible
     FixedVersion: 20.10.24, 23.0.3
     Status: fixed
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28841
     DataSource:
@@ -4940,11 +2578,30 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: Encrypted overlay network traffic may be unencrypted
-    Description: Moby is an open source container framework developed by Docker Inc. that is distributed as Docker, Mirantis Container Runtime, and various other downstream projects/products. The Moby daemon component (`dockerd`), which is developed as moby/moby is commonly referred to as *Docker*. Swarm Mode, which is compiled in and delivered by default in `dockerd` and is thus present in most major Moby downstreams, is a simple, built-in container orchestrator that is implemented through a combination of SwarmKit and supporting network code. The `overlay` network driver is a core feature of Swarm Mode, providing isolated virtual LANs that allow communication between containers and services across the cluster. This driver is an implementation/user of VXLAN, which encapsulates link-layer (Ethernet) frames in UDP datagrams that tag the frame with the VXLAN metadata, including a VXLAN Network ID (VNI) that identifies the originating overlay network. In addition, the overlay network driver supports an optional, off-by-default encrypted mode, which is especially useful when VXLAN packets traverses an untrusted network between nodes. Encrypted overlay networks function by encapsulating the VXLAN datagrams through the use of the IPsec Encapsulating Security Payload protocol in Transport mode. By deploying IPSec encapsulation, encrypted overlay networks gain the additional properties of source authentication through cryptographic proof, data integrity through check-summing, and confidentiality through encryption. When setting an endpoint up on an encrypted overlay network, Moby installs three iptables (Linux kernel firewall) rules that enforce both incoming and outgoing IPSec. These rules rely on the `u32` iptables extension provided by the `xt_u32` kernel module to directly filter on a VXLAN packet's VNI field, so that IPSec guarantees can be enforced on encrypted overlay networks without interfering with other overlay networks or other users of VXLAN. An iptables rule designates outgoing VXLAN datagrams with a VNI that corresponds to an encrypted overlay network for IPsec encapsulation. Encrypted overlay networks on affected platforms silently transmit unencrypted data. As a result, `overlay` networks may appear to be functional, passing traffic as expected, but without any of the expected confidentiality or data integrity guarantees. It is possible for an attacker sitting in a trusted position on the network to read all of the application traffic that is moving across the overlay network, resulting in unexpected secrets or user data disclosure. Thus, because many database protocols, internal APIs, etc. are not protected by a second layer of encryption, a user may use Swarm encrypted overlay networks to provide confidentiality, which due to this vulnerability this is no longer guaranteed. Patches are available in Moby releases 23.0.3, and 20.10.24. As Mirantis Container Runtime's 20.10 releases are numbered differently, users of that platform should update to 20.10.16. Some workarounds are available. Close the VXLAN port (by default, UDP port 4789) to outgoing traffic at the Internet boundary in order to prevent unintentionally leaking unencrypted traffic over the Internet, and/or ensure that the `xt_u32` kernel module is available on all nodes of the Swarm cluster.
+    Description: |-
+      Moby is an open source container framework developed by Docker Inc. that is distributed as Docker, Mirantis Container Runtime, and various other downstream projects/products. The Moby daemon component (`dockerd`), which is developed as moby/moby is commonly referred to as *Docker*.
+
+      Swarm Mode, which is compiled in and delivered by default in `dockerd` and is thus present in most major Moby downstreams, is a simple, built-in container orchestrator that is implemented through a combination of SwarmKit and supporting network code.
+
+      The `overlay` network driver is a core feature of Swarm Mode, providing isolated virtual LANs that allow communication between containers and services across the cluster. This driver is an implementation/user of VXLAN, which encapsulates link-layer (Ethernet) frames in UDP datagrams that tag the frame with the VXLAN metadata, including a VXLAN Network ID (VNI) that identifies the originating overlay network. In addition, the overlay network driver supports an optional, off-by-default encrypted mode, which is especially useful when VXLAN packets traverses an untrusted network between nodes.
+
+      Encrypted overlay networks function by encapsulating the VXLAN datagrams through the use of the IPsec Encapsulating Security Payload protocol in Transport mode. By deploying IPSec encapsulation, encrypted overlay networks gain the additional properties of source authentication through cryptographic proof, data integrity through check-summing, and confidentiality through encryption.
+
+      When setting an endpoint up on an encrypted overlay network, Moby installs three iptables (Linux kernel firewall) rules that enforce both incoming and outgoing IPSec. These rules rely on the `u32` iptables extension provided by the `xt_u32` kernel module to directly filter on a VXLAN packet's VNI field, so that IPSec guarantees can be enforced on encrypted overlay networks without interfering with other overlay networks or other users of VXLAN.
+
+      An iptables rule designates outgoing VXLAN datagrams with a VNI that corresponds to an encrypted overlay network for IPsec encapsulation.
+
+      Encrypted overlay networks on affected platforms silently transmit unencrypted data. As a result, `overlay` networks may appear to be functional, passing traffic as expected, but without any of the expected confidentiality or data integrity guarantees.
+
+      It is possible for an attacker sitting in a trusted position on the network to read all of the application traffic that is moving across the overlay network, resulting in unexpected secrets or user data disclosure. Thus, because many database protocols, internal APIs, etc. are not protected by a second layer of encryption, a user may use Swarm encrypted overlay networks to provide confidentiality, which due to this vulnerability this is no longer guaranteed.
+
+      Patches are available in Moby releases 23.0.3, and 20.10.24. As Mirantis Container Runtime's 20.10 releases are numbered differently, users of that platform should update to 20.10.16.
+
+      Some workarounds are available. Close the VXLAN port (by default, UDP port 4789) to outgoing traffic at the Internet boundary in order to prevent unintentionally leaking unencrypted traffic over the Internet, and/or ensure that the `xt_u32` kernel module is available on all nodes of the Swarm cluster.
     Severity: MEDIUM
     CweIDs:
     - CWE-311
-    - CWE-755
+    - CWE-636
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N
@@ -4966,18 +2623,19 @@
     - https://github.com/moby/moby/security/advisories/GHSA-33pg-m6jh-5237
     - https://github.com/moby/moby/security/advisories/GHSA-6wrf-mxfj-pf5p
     - https://github.com/moby/moby/security/advisories/GHSA-vwm3-crmr-xfxw
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZTE4ITXXPIWZEQ4HYQCB6N6GZIMWXDAI/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28841
     - https://www.cve.org/CVERecord?id=CVE-2023-28841
     PublishedDate: '2023-04-04T22:15:00Z'
-    LastModifiedDate: '2023-04-14T15:46:00Z'
+    LastModifiedDate: '2023-08-30T04:15:00Z'
   - VulnerabilityID: CVE-2023-28842
     PkgName: github.com/docker/docker
     InstalledVersion: v23.0.1+incompatible
     FixedVersion: 20.10.24, 23.0.3
     Status: fixed
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28842
     DataSource:
@@ -4985,10 +2643,28 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: Encrypted overlay network with a single endpoint is unauthenticated
-    Description: Moby) is an open source container framework developed by Docker Inc. that is distributed as Docker, Mirantis Container Runtime, and various other downstream projects/products. The Moby daemon component (`dockerd`), which is developed as moby/moby is commonly referred to as *Docker*. Swarm Mode, which is compiled in and delivered by default in `dockerd` and is thus present in most major Moby downstreams, is a simple, built-in container orchestrator that is implemented through a combination of SwarmKit and supporting network code. The `overlay` network driver is a core feature of Swarm Mode, providing isolated virtual LANs that allow communication between containers and services across the cluster. This driver is an implementation/user of VXLAN, which encapsulates link-layer (Ethernet) frames in UDP datagrams that tag the frame with the VXLAN metadata, including a VXLAN Network ID (VNI) that identifies the originating overlay network. In addition, the overlay network driver supports an optional, off-by-default encrypted mode, which is especially useful when VXLAN packets traverses an untrusted network between nodes. Encrypted overlay networks function by encapsulating the VXLAN datagrams through the use of the IPsec Encapsulating Security Payload protocol in Transport mode. By deploying IPSec encapsulation, encrypted overlay networks gain the additional properties of source authentication through cryptographic proof, data integrity through check-summing, and confidentiality through encryption. When setting an endpoint up on an encrypted overlay network, Moby installs three iptables (Linux kernel firewall) rules that enforce both incoming and outgoing IPSec. These rules rely on the `u32` iptables extension provided by the `xt_u32` kernel module to directly filter on a VXLAN packet's VNI field, so that IPSec guarantees can be enforced on encrypted overlay networks without interfering with other overlay networks or other users of VXLAN. The `overlay` driver dynamically and lazily defines the kernel configuration for the VXLAN network on each node as containers are attached and detached. Routes and encryption parameters are only defined for destination nodes that participate in the network. The iptables rules that prevent encrypted overlay networks from accepting unencrypted packets are not created until a peer is available with which to communicate. Encrypted overlay networks silently accept cleartext VXLAN datagrams that are tagged with the VNI of an encrypted overlay network. As a result, it is possible to inject arbitrary Ethernet frames into the encrypted overlay network by encapsulating them in VXLAN datagrams. The implications of this can be quite dire, and GHSA-vwm3-crmr-xfxw should be referenced for a deeper exploration. Patches are available in Moby releases 23.0.3, and 20.10.24. As Mirantis Container Runtime's 20.10 releases are numbered differently, users of that platform should update to 20.10.16. Some workarounds are available. In multi-node clusters, deploy a global ‘pause’ container for each encrypted overlay network, on every node. For a single-node cluster, do not use overlay networks of any sort. Bridge networks provide the same connectivity on a single node and have no multi-node features. The Swarm ingress feature is implemented using an overlay network, but can be disabled by publishing ports in `host` mode instead of `ingress` mode (allowing the use of an external load balancer), and removing the `ingress` network. If encrypted overlay networks are in exclusive use, block UDP port 4789 from traffic that has not been validated by IPSec.
+    Description: |-
+      Moby) is an open source container framework developed by Docker Inc. that is distributed as Docker, Mirantis Container Runtime, and various other downstream projects/products. The Moby daemon component (`dockerd`), which is developed as moby/moby is commonly referred to as *Docker*.
+
+      Swarm Mode, which is compiled in and delivered by default in `dockerd` and is thus present in most major Moby downstreams, is a simple, built-in container orchestrator that is implemented through a combination of SwarmKit and supporting network code.
+
+      The `overlay` network driver is a core feature of Swarm Mode, providing isolated virtual LANs that allow communication between containers and services across the cluster. This driver is an implementation/user of VXLAN, which encapsulates link-layer (Ethernet) frames in UDP datagrams that tag the frame with the VXLAN metadata, including a VXLAN Network ID (VNI) that identifies the originating overlay network. In addition, the overlay network driver supports an optional, off-by-default encrypted mode, which is especially useful when VXLAN packets traverses an untrusted network between nodes.
+
+      Encrypted overlay networks function by encapsulating the VXLAN datagrams through the use of the IPsec Encapsulating Security Payload protocol in Transport mode. By deploying IPSec encapsulation, encrypted overlay networks gain the additional properties of source authentication through cryptographic proof, data integrity through check-summing, and confidentiality through encryption.
+
+      When setting an endpoint up on an encrypted overlay network, Moby installs three iptables (Linux kernel firewall) rules that enforce both incoming and outgoing IPSec. These rules rely on the `u32` iptables extension provided by the `xt_u32` kernel module to directly filter on a VXLAN packet's VNI field, so that IPSec guarantees can be enforced on encrypted overlay networks without interfering with other overlay networks or other users of VXLAN.
+
+      The `overlay` driver dynamically and lazily defines the kernel configuration for the VXLAN network on each node as containers are attached and detached. Routes and encryption parameters are only defined for destination nodes that participate in the network. The iptables rules that prevent encrypted overlay networks from accepting unencrypted packets are not created until a peer is available with which to communicate.
+
+      Encrypted overlay networks silently accept cleartext VXLAN datagrams that are tagged with the VNI of an encrypted overlay network. As a result, it is possible to inject arbitrary Ethernet frames into the encrypted overlay network by encapsulating them in VXLAN datagrams. The implications of this can be quite dire, and GHSA-vwm3-crmr-xfxw should be referenced for a deeper exploration.
+
+      Patches are available in Moby releases 23.0.3, and 20.10.24. As Mirantis Container Runtime's 20.10 releases are numbered differently, users of that platform should update to 20.10.16.
+
+      Some workarounds are available. In multi-node clusters, deploy a global ‘pause’ container for each encrypted overlay network, on every node. For a single-node cluster, do not use overlay networks of any sort. Bridge networks provide the same connectivity on a single node and have no multi-node features. The Swarm ingress feature is implemented using an overlay network, but can be disabled by publishing ports in `host` mode instead of `ingress` mode (allowing the use of an external load balancer), and removing the `ingress` network. If encrypted overlay networks are in exclusive use, block UDP port 4789 from traffic that has not been validated by IPSec.
     Severity: MEDIUM
     CweIDs:
-    - CWE-755
+    - CWE-420
+    - CWE-636
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
@@ -5007,72 +2683,11 @@
     - https://github.com/moby/moby/security/advisories/GHSA-33pg-m6jh-5237
     - https://github.com/moby/moby/security/advisories/GHSA-6wrf-mxfj-pf5p
     - https://github.com/moby/moby/security/advisories/GHSA-vwm3-crmr-xfxw
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZTE4ITXXPIWZEQ4HYQCB6N6GZIMWXDAI/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28842
     - https://www.cve.org/CVERecord?id=CVE-2023-28842
     PublishedDate: '2023-04-04T22:15:00Z'
-    LastModifiedDate: '2023-04-14T15:55:00Z'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
-      CreatedBy: 'COPY / / # buildkit'
+    LastModifiedDate: '2023-08-30T04:15:00Z'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -5101,8 +2716,8 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
       CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_rsa_key
   Class: secret
@@ -5132,6 +2747,68 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:9c3cedb2d197df9c136c508698e7a9089c2bfa05f36bc84eb9f7111f7b6ec4fd
-      DiffID: sha256:d1edc3208a8694fd51ea87fabb3cb414c8c8a9a67a6a4586f26884004182f5bd
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
       CreatedBy: 'COPY / / # buildkit'
