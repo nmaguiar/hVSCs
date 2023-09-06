@@ -164,13 +164,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-34969 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -216,13 +216,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-34969 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1010,13 +1010,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-34969 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1153,46 +1153,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2021-32292 
-│                       │      ├ PkgID           : libjson-c5@0.15-3~ubuntu1.22.04.2 
-│                       │      ├ PkgName         : libjson-c5 
-│                       │      ├ InstalledVersion: 0.15-3~ubuntu1.22.04.2 
-│                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:1064d877971a9bfa58eb4ec7e30c07853645eca
-│                       │      │                  │         d3fc08d2e374095eab1599eda 
-│                       │      │                  ╰ DiffID: sha256:ba8e0fe1dfa32b1bbc4bf73da2ce74838053f8a
-│                       │      │                            6a3961f6d99e278869224344e 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-32292 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : stack-buffer-overflow in parseit() in json_parse.c 
-│                       │      ├ Description     : An issue was discovered in json-c through
-│                       │      │                   0.15-20200726. A stack-buffer-overflow exists in the
-│                       │      │                   function parseit located in json_parse.c. It allows an
-│                       │      │                   attacker to cause code Execution. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                  │         │           :H/I:H/A:H 
-│                       │      │                  │         ╰ V3Score : 9.8 
-│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                  │         │           :H/I:H/A:H 
-│                       │      │                  │         ╰ V3Score : 9.8 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
-│                       │      │                            │           :N/I:N/A:H 
-│                       │      │                            ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2021-32292 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2021-32292 
-│                       │      │                  ├ [2]: https://github.com/json-c/json-c/issues/654 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2021-32292 
-│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2021-32292 
-│                       │      │                  ╰ [5]: https://www.debian.org/security/2023/dsa-5486 
-│                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-31T04:15:00Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2023-36054 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2023-36054 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.2 
 │                       │      ├ PkgName         : libk5crypto3 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.2 
@@ -1236,7 +1197,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2023-36054 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2023-36054 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.2 
 │                       │      ├ PkgName         : libkrb5-3 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.2 
@@ -1280,7 +1241,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2023-36054 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2023-36054 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.2 
 │                       │      ├ PkgName         : libkrb5support0 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.2 
@@ -1324,7 +1285,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2023-2953 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2023-2953 
 │                       │      ├ PkgID           : libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libldap-2.5-0 
 │                       │      ├ InstalledVersion: 2.5.16+dfsg-0ubuntu0.22.04.1 
@@ -1370,7 +1331,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
 │                       │      ├ PublishedDate   : 2023-05-30T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2017-11164 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2017-11164 
 │                       │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libpcre3 
 │                       │      ├ InstalledVersion: 2:8.39-13ubuntu0.22.04.1 
@@ -1416,7 +1377,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                       │      ├ PublishedDate   : 2017-07-11T03:29:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-12T15:15:00Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2022-48522 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2022-48522 
 │                       │      ├ PkgID           : libperl5.34@5.34.0-3ubuntu1.2 
 │                       │      ├ PkgName         : libperl5.34 
 │                       │      ├ InstalledVersion: 5.34.0-3ubuntu1.2 
@@ -1448,7 +1409,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2022-48522 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-28T19:02:00Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2022-3857 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2022-3857 
 │                       │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                       │      ├ PkgName         : libpng16-16 
 │                       │      ├ InstalledVersion: 1.6.37-3build5 
@@ -1484,7 +1445,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
 │                       │      ├ PublishedDate   : 2023-03-06T23:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-06T13:15:00Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2023-4016 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2023-4016 
 │                       │      ├ PkgID           : libprocps8@2:3.3.17-6ubuntu2 
 │                       │      ├ PkgName         : libprocps8 
 │                       │      ├ InstalledVersion: 2:3.3.17-6ubuntu2 
@@ -1522,7 +1483,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : libpython3.10 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1573,7 +1534,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : libpython3.10-minimal 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1624,7 +1585,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : libpython3.10-stdlib 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1675,7 +1636,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2022-46908 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2022-46908 
 │                       │      ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
 │                       │      ├ PkgName         : libsqlite3-0 
 │                       │      ├ InstalledVersion: 3.37.2-2ubuntu0.1 
@@ -1716,7 +1677,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-46908 
 │                       │      ├ PublishedDate   : 2022-12-12T06:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-03-07T18:21:00Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2023-2975 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2023-2975 
 │                       │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.10 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.10 
@@ -1794,7 +1755,7 @@
 │                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
 │                       │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libstdc++6 
 │                       │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
@@ -1839,7 +1800,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-08T14:22:00Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2018-10126 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2018-10126 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1878,7 +1839,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                       │      ├ PublishedDate   : 2018-04-21T21:29:00Z 
 │                       │      ╰ LastModifiedDate: 2021-03-15T22:31:00Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2023-1916 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2023-1916 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1918,7 +1879,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-1916 
 │                       │      ├ PublishedDate   : 2023-04-10T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-18T15:25:00Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2023-3164 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2023-3164 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1947,7 +1908,7 @@
 │                       │                         ├ [2]: https://gitlab.com/libtiff/libtiff/-/issues/542 
 │                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3164 
 │                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2023-3576 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2023-3576 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1972,7 +1933,7 @@
 │                       │                         │      E-2023-3576 
 │                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
 │                       │                         ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2022-4899 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                       │      ├ PkgName         : libzstd1 
 │                       │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
@@ -2018,7 +1979,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-25T15:15:00Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : login 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2070,7 +2031,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.3 
 │                       │      ├ PkgName         : openssh-client 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
@@ -2108,7 +2069,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.3 
 │                       │      ├ PkgName         : openssh-server 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
@@ -2146,7 +2107,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.3 
 │                       │      ├ PkgName         : openssh-sftp-server 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.3 
@@ -2184,7 +2145,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2023-2975 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2023-2975 
 │                       │      ├ PkgID           : openssl@3.0.2-0ubuntu1.10 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.10 
@@ -2262,7 +2223,7 @@
 │                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
 │                       │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2314,7 +2275,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2022-48522 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2022-48522 
 │                       │      ├ PkgID           : perl@5.34.0-3ubuntu1.2 
 │                       │      ├ PkgName         : perl 
 │                       │      ├ InstalledVersion: 5.34.0-3ubuntu1.2 
@@ -2346,7 +2307,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2022-48522 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-28T19:02:00Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2022-48522 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2022-48522 
 │                       │      ├ PkgID           : perl-base@5.34.0-3ubuntu1.2 
 │                       │      ├ PkgName         : perl-base 
 │                       │      ├ InstalledVersion: 5.34.0-3ubuntu1.2 
@@ -2378,7 +2339,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2022-48522 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-28T19:02:00Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2022-48522 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2022-48522 
 │                       │      ├ PkgID           : perl-modules-5.34@5.34.0-3ubuntu1.2 
 │                       │      ├ PkgName         : perl-modules-5.34 
 │                       │      ├ InstalledVersion: 5.34.0-3ubuntu1.2 
@@ -2410,7 +2371,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2022-48522 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-28T19:02:00Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2023-4016 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2023-4016 
 │                       │      ├ PkgID           : procps@2:3.3.17-6ubuntu2 
 │                       │      ├ PkgName         : procps 
 │                       │      ├ InstalledVersion: 2:3.3.17-6ubuntu2 
@@ -2448,7 +2409,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : python3.10 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -2499,7 +2460,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : python3.10-minimal 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -2550,7 +2511,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : uidmap 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2602,7 +2563,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.11 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.11 
@@ -2645,7 +2606,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.11 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.11 
@@ -2688,7 +2649,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.11 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.11 
@@ -2731,7 +2692,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ InstalledVersion: 1.21.2-2ubuntu1 
@@ -2771,7 +2732,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2022-05-13T20:52:00Z 
-│                       ╰ [64] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ╰ [63] ╭ VulnerabilityID : CVE-2022-1886 
 │                              ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.11 
 │                              ├ PkgName         : xxd 
 │                              ├ InstalledVersion: 2:8.2.3995-1ubuntu2.11 
@@ -3142,12 +3103,15 @@
 │                       │     │                  ├ [8] : https://github.com/moby/moby/security/advisories/
 │                       │     │                  │       GHSA-vwm3-crmr-xfxw 
 │                       │     │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/LYZOKMMV
+│                       │     │                  │       X4SIEHPJW3SJUQGMO5YZCPHC/ 
+│                       │     │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZTE4ITXX
 │                       │     │                  │       PIWZEQ4HYQCB6N6GZIMWXDAI/ 
-│                       │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-28840 
-│                       │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-28840 
+│                       │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-28840 
+│                       │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-28840 
 │                       │     ├ PublishedDate   : 2023-04-04T22:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-08-30T04:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-09-05T03:15:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-28841 
 │                       │     ├ PkgName         : github.com/docker/docker 
 │                       │     ├ InstalledVersion: v23.0.1+incompatible 
@@ -3265,12 +3229,15 @@
 │                       │     │                  ├ [9] : https://github.com/moby/moby/security/advisories/
 │                       │     │                  │       GHSA-vwm3-crmr-xfxw 
 │                       │     │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/LYZOKMMV
+│                       │     │                  │       X4SIEHPJW3SJUQGMO5YZCPHC/ 
+│                       │     │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZTE4ITXX
 │                       │     │                  │       PIWZEQ4HYQCB6N6GZIMWXDAI/ 
-│                       │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-28841 
-│                       │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-28841 
+│                       │     │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-28841 
+│                       │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-28841 
 │                       │     ├ PublishedDate   : 2023-04-04T22:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-08-30T04:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-09-05T03:15:00Z 
 │                       ╰ [2] ╭ VulnerabilityID : CVE-2023-28842 
 │                             ├ PkgName         : github.com/docker/docker 
 │                             ├ InstalledVersion: v23.0.1+incompatible 
@@ -3376,25 +3343,28 @@
 │                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N
 │                             │                           │           /I:H/A:N 
 │                             │                           ╰ V3Score : 6.8 
-│                             ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-28842 
-│                             │                  ├ [1]: https://github.com/moby/libnetwork/security/adviso
-│                             │                  │      ries/GHSA-gvm4-2qqg-m333 
-│                             │                  ├ [2]: https://github.com/moby/moby 
-│                             │                  ├ [3]: https://github.com/moby/moby/security/advisories/G
-│                             │                  │      HSA-232p-vwff-86mp 
-│                             │                  ├ [4]: https://github.com/moby/moby/security/advisories/G
-│                             │                  │      HSA-33pg-m6jh-5237 
-│                             │                  ├ [5]: https://github.com/moby/moby/security/advisories/G
-│                             │                  │      HSA-6wrf-mxfj-pf5p 
-│                             │                  ├ [6]: https://github.com/moby/moby/security/advisories/G
-│                             │                  │      HSA-vwm3-crmr-xfxw 
-│                             │                  ├ [7]: https://lists.fedoraproject.org/archives/list/pack
-│                             │                  │      age-announce@lists.fedoraproject.org/message/ZTE4ITXXPI
-│                             │                  │      WZEQ4HYQCB6N6GZIMWXDAI/ 
-│                             │                  ├ [8]: https://nvd.nist.gov/vuln/detail/CVE-2023-28842 
-│                             │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-28842 
+│                             ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-28842 
+│                             │                  ├ [1] : https://github.com/moby/libnetwork/security/advis
+│                             │                  │       ories/GHSA-gvm4-2qqg-m333 
+│                             │                  ├ [2] : https://github.com/moby/moby 
+│                             │                  ├ [3] : https://github.com/moby/moby/security/advisories/
+│                             │                  │       GHSA-232p-vwff-86mp 
+│                             │                  ├ [4] : https://github.com/moby/moby/security/advisories/
+│                             │                  │       GHSA-33pg-m6jh-5237 
+│                             │                  ├ [5] : https://github.com/moby/moby/security/advisories/
+│                             │                  │       GHSA-6wrf-mxfj-pf5p 
+│                             │                  ├ [6] : https://github.com/moby/moby/security/advisories/
+│                             │                  │       GHSA-vwm3-crmr-xfxw 
+│                             │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pac
+│                             │                  │       kage-announce@lists.fedoraproject.org/message/LYZOKMMV
+│                             │                  │       X4SIEHPJW3SJUQGMO5YZCPHC/ 
+│                             │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pac
+│                             │                  │       kage-announce@lists.fedoraproject.org/message/ZTE4ITXX
+│                             │                  │       PIWZEQ4HYQCB6N6GZIMWXDAI/ 
+│                             │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-28842 
+│                             │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-28842 
 │                             ├ PublishedDate   : 2023-04-04T22:15:00Z 
-│                             ╰ LastModifiedDate: 2023-08-30T04:15:00Z 
+│                             ╰ LastModifiedDate: 2023-09-05T03:15:00Z 
 ├ [4] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
