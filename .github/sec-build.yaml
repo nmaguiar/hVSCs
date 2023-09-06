@@ -146,12 +146,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -188,12 +188,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -896,12 +896,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -1021,44 +1021,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
     LastModifiedDate: '2023-08-15T17:57:00Z'
-  - VulnerabilityID: CVE-2021-32292
-    PkgID: libjson-c5@0.15-3~ubuntu1.22.04.2
-    PkgName: libjson-c5
-    InstalledVersion: 0.15-3~ubuntu1.22.04.2
-    Status: affected
-    Layer:
-      Digest: sha256:1064d877971a9bfa58eb4ec7e30c07853645ecad3fc08d2e374095eab1599eda
-      DiffID: sha256:ba8e0fe1dfa32b1bbc4bf73da2ce74838053f8a6a3961f6d99e278869224344e
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-32292
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: stack-buffer-overflow in parseit() in json_parse.c
-    Description: An issue was discovered in json-c through 0.15-20200726. A stack-buffer-overflow exists in the function parseit located in json_parse.c. It allows an attacker to cause code Execution.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-787
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 6.2
-    References:
-    - https://access.redhat.com/security/cve/CVE-2021-32292
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32292
-    - https://github.com/json-c/json-c/issues/654
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-32292
-    - https://www.cve.org/CVERecord?id=CVE-2021-32292
-    - https://www.debian.org/security/2023/dsa-5486
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-31T04:15:00Z'
   - VulnerabilityID: CVE-2023-36054
     PkgID: libk5crypto3@1.19.2-2ubuntu0.2
     PkgName: libk5crypto3
@@ -2713,11 +2675,12 @@
     - https://github.com/moby/moby/security/advisories/GHSA-33pg-m6jh-5237
     - https://github.com/moby/moby/security/advisories/GHSA-6wrf-mxfj-pf5p
     - https://github.com/moby/moby/security/advisories/GHSA-vwm3-crmr-xfxw
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LYZOKMMVX4SIEHPJW3SJUQGMO5YZCPHC/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZTE4ITXXPIWZEQ4HYQCB6N6GZIMWXDAI/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28840
     - https://www.cve.org/CVERecord?id=CVE-2023-28840
     PublishedDate: '2023-04-04T22:15:00Z'
-    LastModifiedDate: '2023-08-30T04:15:00Z'
+    LastModifiedDate: '2023-09-05T03:15:00Z'
   - VulnerabilityID: CVE-2023-28841
     PkgName: github.com/docker/docker
     InstalledVersion: v23.0.1+incompatible
@@ -2778,11 +2741,12 @@
     - https://github.com/moby/moby/security/advisories/GHSA-33pg-m6jh-5237
     - https://github.com/moby/moby/security/advisories/GHSA-6wrf-mxfj-pf5p
     - https://github.com/moby/moby/security/advisories/GHSA-vwm3-crmr-xfxw
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LYZOKMMVX4SIEHPJW3SJUQGMO5YZCPHC/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZTE4ITXXPIWZEQ4HYQCB6N6GZIMWXDAI/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28841
     - https://www.cve.org/CVERecord?id=CVE-2023-28841
     PublishedDate: '2023-04-04T22:15:00Z'
-    LastModifiedDate: '2023-08-30T04:15:00Z'
+    LastModifiedDate: '2023-09-05T03:15:00Z'
   - VulnerabilityID: CVE-2023-28842
     PkgName: github.com/docker/docker
     InstalledVersion: v23.0.1+incompatible
@@ -2838,11 +2802,12 @@
     - https://github.com/moby/moby/security/advisories/GHSA-33pg-m6jh-5237
     - https://github.com/moby/moby/security/advisories/GHSA-6wrf-mxfj-pf5p
     - https://github.com/moby/moby/security/advisories/GHSA-vwm3-crmr-xfxw
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LYZOKMMVX4SIEHPJW3SJUQGMO5YZCPHC/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZTE4ITXXPIWZEQ4HYQCB6N6GZIMWXDAI/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28842
     - https://www.cve.org/CVERecord?id=CVE-2023-28842
     PublishedDate: '2023-04-04T22:15:00Z'
-    LastModifiedDate: '2023-08-30T04:15:00Z'
+    LastModifiedDate: '2023-09-05T03:15:00Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
