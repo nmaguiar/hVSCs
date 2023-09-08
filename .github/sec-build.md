@@ -2992,7 +2992,59 @@
 ├ [3] ╭ Target         : usr/bin/helm 
 │     ├ Class          : lang-pkgs 
 │     ├ Type           : gobinary 
-│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-28840 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : GHSA-6xv5-86q9-7xr8 
+│                       │     ├ PkgName         : github.com/cyphar/filepath-securejoin 
+│                       │     ├ InstalledVersion: v0.2.3 
+│                       │     ├ FixedVersion    : 0.2.4 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:1064d877971a9bfa58eb4ec7e30c07853645ecad
+│                       │     │                  │         3fc08d2e374095eab1599eda 
+│                       │     │                  ╰ DiffID: sha256:ba8e0fe1dfa32b1bbc4bf73da2ce74838053f8a6
+│                       │     │                            a3961f6d99e278869224344e 
+│                       │     ├ SeveritySource  : ghsa 
+│                       │     ├ PrimaryURL      : https://github.com/advisories/GHSA-6xv5-86q9-7xr8 
+│                       │     ├ DataSource       ╭ ID  : ghsa 
+│                       │     │                  ├ Name: GitHub Security Advisory Go 
+│                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
+│                       │     │                          ed+ecosystem%3Ago 
+│                       │     ├ Title           : SecureJoin: on windows, paths outside of the rootfs
+│                       │     │                   could be inadvertently produced 
+│                       │     ├ Description     : ### Impact
+│                       │     │                   For Windows users of `github.com/cyphar/filepath-securejoin`,
+│                       │     │                    until v0.2.4 it was possible for certain rootfs and path
+│                       │     │                   combinations (in particular, where a malicious Unix-style
+│                       │     │                   `/`-separated unsafe path was used with a Windows-style
+│                       │     │                   rootfs path) to result in generated paths that were outside
+│                       │     │                   of the provided rootfs.
+│                       │     │                   
+│                       │     │                   It is unclear to what extent this has a practical impact on
+│                       │     │                   real users, but given the possible severity of the issue we
+│                       │     │                   have released an emergency patch release that resolves this
+│                       │     │                   issue.
+│                       │     │                   
+│                       │     │                   Thanks to  @pjbgf for discovering, debugging, and fixing this
+│                       │     │                    issue (as well as writing some tests for it).
+│                       │     │                   
+│                       │     │                   ### Patches
+│                       │     │                   c121231e1276e11049547bee5ce68d5a2cfe2d9b is the patch fixing
+│                       │     │                   this issue. v0.2.4 contains the fix.
+│                       │     │                   
+│                       │     │                   ### Workarounds
+│                       │     │                   Users could use `filepath.FromSlash()` on all unsafe paths
+│                       │     │                   before passing them to `filepath-securejoin`.
+│                       │     │                   
+│                       │     │                   ### References
+│                       │     │                   See #9. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ╰ References       ╭ [0]: https://github.com/cyphar/filepath-securejoin 
+│                       │                        ├ [1]: https://github.com/cyphar/filepath-securejoin/comm
+│                       │                        │      it/c121231e1276e11049547bee5ce68d5a2cfe2d9b 
+│                       │                        ├ [2]: https://github.com/cyphar/filepath-securejoin/pull/9 
+│                       │                        ├ [3]: https://github.com/cyphar/filepath-securejoin/rele
+│                       │                        │      ases/tag/v0.2.4 
+│                       │                        ╰ [4]: https://github.com/cyphar/filepath-securejoin/secu
+│                       │                               rity/advisories/GHSA-6xv5-86q9-7xr8 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2023-28840 
 │                       │     ├ PkgName         : github.com/docker/docker 
 │                       │     ├ InstalledVersion: v23.0.1+incompatible 
 │                       │     ├ FixedVersion    : 20.10.24, 23.0.3 
@@ -3112,7 +3164,7 @@
 │                       │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-28840 
 │                       │     ├ PublishedDate   : 2023-04-04T22:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-09-05T03:15:00Z 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2023-28841 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2023-28841 
 │                       │     ├ PkgName         : github.com/docker/docker 
 │                       │     ├ InstalledVersion: v23.0.1+incompatible 
 │                       │     ├ FixedVersion    : 20.10.24, 23.0.3 
@@ -3238,7 +3290,7 @@
 │                       │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-28841 
 │                       │     ├ PublishedDate   : 2023-04-04T22:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-09-05T03:15:00Z 
-│                       ╰ [2] ╭ VulnerabilityID : CVE-2023-28842 
+│                       ╰ [3] ╭ VulnerabilityID : CVE-2023-28842 
 │                             ├ PkgName         : github.com/docker/docker 
 │                             ├ InstalledVersion: v23.0.1+incompatible 
 │                             ├ FixedVersion    : 20.10.24, 23.0.3 
