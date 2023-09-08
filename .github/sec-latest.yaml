@@ -2618,6 +2618,44 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
+  - VulnerabilityID: GHSA-6xv5-86q9-7xr8
+    PkgName: github.com/cyphar/filepath-securejoin
+    InstalledVersion: v0.2.3
+    FixedVersion: 0.2.4
+    Status: fixed
+    Layer:
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-6xv5-86q9-7xr8
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'SecureJoin: on windows, paths outside of the rootfs could be inadvertently produced'
+    Description: |-
+      ### Impact
+      For Windows users of `github.com/cyphar/filepath-securejoin`, until v0.2.4 it was possible for certain rootfs and path combinations (in particular, where a malicious Unix-style `/`-separated unsafe path was used with a Windows-style rootfs path) to result in generated paths that were outside of the provided rootfs.
+
+      It is unclear to what extent this has a practical impact on real users, but given the possible severity of the issue we have released an emergency patch release that resolves this issue.
+
+      Thanks to  @pjbgf for discovering, debugging, and fixing this issue (as well as writing some tests for it).
+
+      ### Patches
+      c121231e1276e11049547bee5ce68d5a2cfe2d9b is the patch fixing this issue. v0.2.4 contains the fix.
+
+      ### Workarounds
+      Users could use `filepath.FromSlash()` on all unsafe paths before passing them to `filepath-securejoin`.
+
+      ### References
+      See #9.
+    Severity: MEDIUM
+    References:
+    - https://github.com/cyphar/filepath-securejoin
+    - https://github.com/cyphar/filepath-securejoin/commit/c121231e1276e11049547bee5ce68d5a2cfe2d9b
+    - https://github.com/cyphar/filepath-securejoin/pull/9
+    - https://github.com/cyphar/filepath-securejoin/releases/tag/v0.2.4
+    - https://github.com/cyphar/filepath-securejoin/security/advisories/GHSA-6xv5-86q9-7xr8
   - VulnerabilityID: CVE-2023-28840
     PkgName: github.com/docker/docker
     InstalledVersion: v23.0.1+incompatible
