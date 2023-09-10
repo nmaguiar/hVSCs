@@ -1149,10 +1149,12 @@
 │                       │      │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-fi
 │                       │      │                  │      nal...krb5-1.21.1-final 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-│                       │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2023090
+│                       │      │                  │      8-0004/ 
+│                       │      │                  ├ [7]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
 │                       ├ [27] ╭ VulnerabilityID : CVE-2023-36054 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.2 
 │                       │      ├ PkgName         : libk5crypto3 
@@ -1193,10 +1195,12 @@
 │                       │      │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-fi
 │                       │      │                  │      nal...krb5-1.21.1-final 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-│                       │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2023090
+│                       │      │                  │      8-0004/ 
+│                       │      │                  ├ [7]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2023-36054 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.2 
 │                       │      ├ PkgName         : libkrb5-3 
@@ -1237,10 +1241,12 @@
 │                       │      │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-fi
 │                       │      │                  │      nal...krb5-1.21.1-final 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-│                       │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2023090
+│                       │      │                  │      8-0004/ 
+│                       │      │                  ├ [7]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2023-36054 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.2 
 │                       │      ├ PkgName         : libkrb5support0 
@@ -1281,10 +1287,12 @@
 │                       │      │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-fi
 │                       │      │                  │      nal...krb5-1.21.1-final 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-│                       │      │                  ├ [6]: https://web.mit.edu/kerberos/www/advisories/ 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2023090
+│                       │      │                  │      8-0004/ 
+│                       │      │                  ├ [7]: https://web.mit.edu/kerberos/www/advisories/ 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-08-15T17:57:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2023-2953 
 │                       │      ├ PkgID           : libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libldap-2.5-0 
