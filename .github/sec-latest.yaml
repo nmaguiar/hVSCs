@@ -146,18 +146,19 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
+    - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:00Z'
     LastModifiedDate: '2023-06-24T03:15:00Z'
@@ -188,18 +189,19 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
+    - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:00Z'
     LastModifiedDate: '2023-06-24T03:15:00Z'
@@ -896,18 +898,19 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
+    - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:00Z'
     LastModifiedDate: '2023-06-24T03:15:00Z'
@@ -1022,6 +1025,42 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
     LastModifiedDate: '2023-09-08T17:15:00Z'
+  - VulnerabilityID: CVE-2021-29390
+    PkgID: libjpeg-turbo8@2.1.2-0ubuntu1
+    PkgName: libjpeg-turbo8
+    InstalledVersion: 2.1.2-0ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-29390
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer-overflow vulnerability in decompress_smooth_data in jdcoefct.c
+    Description: libjpeg-turbo version 2.0.90 has a heap-based buffer over-read (2 bytes) in decompress_smooth_data in jdcoefct.c.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2021-29390
+    - https://bugzilla.redhat.com/show_bug.cgi?id=1943797
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29390
+    - https://github.com/libjpeg-turbo/libjpeg-turbo/blob/4e52b66f342a803d3b8099b79607e3158d3a241c/jdcoefct.c#L595
+    - https://github.com/libjpeg-turbo/libjpeg-turbo/commits/main/jdcoefct.c
+    - https://nvd.nist.gov/vuln/detail/CVE-2021-29390
+    - https://www.cve.org/CVERecord?id=CVE-2021-29390
+    PublishedDate: '2023-08-22T19:16:00Z'
+    LastModifiedDate: '2023-08-29T20:15:00Z'
   - VulnerabilityID: CVE-2023-36054
     PkgID: libk5crypto3@1.19.2-2ubuntu0.2
     PkgName: libk5crypto3
@@ -1303,7 +1342,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: ps buffer overflow
     Description: Under some circumstances, this weakness allows a user who has access to run the “ps” utility on a machine, the ability to write almost unlimited amounts of unfiltered data into the process heap.
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-787
     CVSS:
@@ -1715,7 +1754,8 @@
     PkgID: libwebp7@1.2.2-2ubuntu0.22.04.1
     PkgName: libwebp7
     InstalledVersion: 1.2.2-2ubuntu0.22.04.1
-    Status: affected
+    FixedVersion: 1.2.2-2ubuntu0.22.04.2
+    Status: fixed
     Layer:
       Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
       DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
@@ -1725,14 +1765,28 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187  ...
+    Title: Heap buffer overflow in WebP Codec
     Description: 'Heap buffer overflow in WebP in Google Chrome prior to 116.0.5845.187 allowed a remote attacker to perform an out of bounds memory write via a crafted HTML page. (Chromium security severity: Critical)'
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 9.6
     References:
+    - https://access.redhat.com/security/cve/CVE-2023-4863
     - https://chromereleases.googleblog.com/2023/09/stable-channel-update-for-desktop_11.html
     - https://chromium.googlesource.com/webm/libwebp.git/+/902bc9190331343b2017211debcec8d2ab87e17a
+    - https://crbug.com/1479274
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4863
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4863
+    - https://stackdiary.com/critical-vulnerability-in-webp-codec-cve-2023-4863/
+    - https://ubuntu.com/security/notices/USN-6367-1
+    - https://ubuntu.com/security/notices/USN-6368-1
+    - https://ubuntu.com/security/notices/USN-6369-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-4863
     - https://www.mozilla.org/en-US/security/advisories/mfsa2023-40/
+    PublishedDate: '2023-09-12T15:15:00Z'
+    LastModifiedDate: '2023-09-12T19:38:00Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -2119,7 +2173,7 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: ps buffer overflow
     Description: Under some circumstances, this weakness allows a user who has access to run the “ps” utility on a machine, the ability to write almost unlimited amounts of unfiltered data into the process heap.
-    Severity: MEDIUM
+    Severity: LOW
     CweIDs:
     - CWE-787
     CVSS:
@@ -2461,6 +2515,83 @@
   Class: lang-pkgs
   Type: jar
   Vulnerabilities:
+  - VulnerabilityID: CVE-2023-42503
+    PkgName: org.apache.commons:commons-compress
+    PkgPath: opt/oaf/openaf.jar
+    InstalledVersion: 1.23.0
+    FixedVersion: 1.24.0
+    Status: fixed
+    Layer:
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-42503
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Title: Apache Commons Compress denial of service vulnerability
+    Description: "Improper Input Validation, Uncontrolled Resource Consumption vulnerability in Apache Commons Compress in TAR parsing.This issue affects Apache Commons Compress:\_from 1.22 before 1.24.0.\n\nUsers are recommended to upgrade to version 1.24.0, which fixes the issue.\n\nA third party can create a malformed TAR file by manipulating file modification times headers, which when parsed with Apache Commons Compress, will cause a denial of service issue via CPU consumption.\n\nIn version 1.22 of Apache Commons Compress, support was added for file modification times with higher precision (issue # COMPRESS-612 [1]). The format for the PAX extended headers carrying this data consists of two numbers separated by a period [2], indicating seconds and subsecond precision (for example “1647221103.5998539”). The impacted fields are “atime”, “ctime”, “mtime” and “LIBARCHIVE.creationtime”. No input validation is performed prior to the parsing of header values.\n\nParsing of these numbers uses the BigDecimal [3] class from the JDK which has a publicly known algorithmic complexity issue when doing operations on large numbers, causing denial of service (see issue # JDK-6560193 [4]). A third party can manipulate file time headers in a TAR file by placing a number with a very long fraction (300,000 digits) or a number with exponent notation (such as “9e9999999”) within a file modification time header, and the parsing of files with these headers will take hours instead of seconds, leading to a denial of service via exhaustion of CPU resources. This issue is similar to CVE-2012-2098 [5].\n\n[1]:  https://issues.apache.org/jira/browse/COMPRESS-612 \n[2]:  https://pubs.opengroup.org/onlinepubs/9699919799/utilities/pax.html#tag_20_92_13_05 \n[3]:  https://docs.oracle.com/javase/8/docs/api/java/math/BigDecimal.html \n[4]:  https://bugs.openjdk.org/browse/JDK-6560193 \n[5]:  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-2098 \n\nOnly applications using CompressorStreamFactory class (with auto-detection of file types), TarArchiveInputStream and TarFile classes to parse TAR files are impacted. Since this code was introduced in v1.22, only that version and later versions are impacted.\n\n"
+    Severity: MEDIUM
+    References:
+    - https://github.com/apache/commons-compress
+    - https://github.com/apache/commons-compress/commit/aae38bfb820159ae7a0b792e779571f6a46b3889
+    - https://lists.apache.org/thread/5xwcyr600mn074vgxq92tjssrchmc93c
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-42503
+  - VulnerabilityID: CVE-2023-40167
+    PkgName: org.eclipse.jetty:jetty-http
+    PkgPath: opt/oaf/openaf.jar
+    InstalledVersion: 9.4.51.v20230217
+    FixedVersion: 9.4.52, 10.0.16, 11.0.16, 12.0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:69e26a272ec52c59a4797783b32d41ab18f1a06954b72878d03b8b48fcf8c738
+      DiffID: sha256:46acb50b56d4feff380fbc52142fe2fd6611377d56f6d2952066c2a8ca03cde0
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40167
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Title: Jetty accepts "+" prefixed value in Content-Length
+    Description: |-
+      ### Impact
+
+      Jetty accepts the '+' character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response.
+
+      ### Workarounds
+
+      There is no workaround as there is no known exploit scenario.   
+
+      ### Original Report 
+
+      [RFC 9110 Secion 8.6](https://www.rfc-editor.org/rfc/rfc9110#section-8.6) defined the value of Content-Length header should be a string of 0-9 digits. However we found that Jetty accepts "+" prefixed Content-Length, which could lead to potential HTTP request smuggling.
+
+      Payload:
+
+      ```
+       POST / HTTP/1.1
+       Host: a.com
+       Content-Length: +16
+       Connection: close
+       ​
+       0123456789abcdef
+      ```
+
+      When sending this payload to Jetty, it can successfully parse and identify the length.
+
+      When sending this payload to NGINX, Apache HTTPd or other HTTP servers/parsers, they will return 400 bad request.
+
+      This behavior can lead to HTTP request smuggling and can be leveraged to bypass WAF or IDS.
+    Severity: MEDIUM
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://github.com/eclipse/jetty.project
+    - https://github.com/eclipse/jetty.project/security/advisories/GHSA-hmr7-m48g-48f6
+    - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
   - VulnerabilityID: CVE-2022-36033
     PkgName: org.jsoup:jsoup
     PkgPath: home/workspace/.openvscode-server/extensions/redhat.vscode-xml-0.26.1-linux-x64/server/org.eclipse.lemminx-0.26.1-uber.jar
