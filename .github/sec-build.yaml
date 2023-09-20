@@ -1057,10 +1057,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29390
     - https://github.com/libjpeg-turbo/libjpeg-turbo/blob/4e52b66f342a803d3b8099b79607e3158d3a241c/jdcoefct.c#L595
     - https://github.com/libjpeg-turbo/libjpeg-turbo/commits/main/jdcoefct.c
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/27NR3KG553CG6LGPMP6SHWEVHTYPL6RC/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6T655QF7CQ3DYAMPFV7IECQYGDEUIVVT/
     - https://nvd.nist.gov/vuln/detail/CVE-2021-29390
     - https://www.cve.org/CVERecord?id=CVE-2021-29390
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-29T20:15:00Z'
+    LastModifiedDate: '2023-09-18T04:15:00Z'
   - VulnerabilityID: CVE-2023-36054
     PkgID: libk5crypto3@1.19.2-2ubuntu0.2
     PkgName: libk5crypto3
@@ -1235,7 +1237,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: Denial of service via decompression of crafted file
-    Description: 'An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of a crafted file. NOTE: the software maintainers are unable to reproduce this as of 2023-09-12 because the example crafted file is temporarily offline.'
+    Description: '** DISPUTED ** An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of a crafted file. NOTE: the vendor disputes the claims of "endless output" and "denial of service" because decompression of the 17,486 bytes always results in 114,881,179 bytes, which is often a reasonable size increase.'
     Severity: MEDIUM
     CVSS:
       nvd:
@@ -1245,6 +1247,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - http://web.archive.org/web/20230918084612/https://github.com/snappyJack/CVE-request-XZ-5.2.5-has-denial-of-service-vulnerability
     - https://access.redhat.com/security/cve/CVE-2020-22916
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234987
     - https://bugzilla.suse.com/show_bug.cgi?id=1214590
@@ -1256,7 +1259,7 @@
     - https://tukaani.org/xz/
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-12T16:15:00Z'
+    LastModifiedDate: '2023-09-18T09:15:00Z'
   - VulnerabilityID: CVE-2017-11164
     PkgID: libpcre3@2:8.39-13ubuntu0.22.04.1
     PkgName: libpcre3
@@ -1325,9 +1328,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48522
     - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
     - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
+    - https://security.netapp.com/advisory/ntap-20230915-0008/
     - https://www.cve.org/CVERecord?id=CVE-2022-48522
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-28T19:02:00Z'
+    LastModifiedDate: '2023-09-15T14:15:00Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: libpng16-16@1.6.37-3build5
     PkgName: libpng16-16
@@ -1824,11 +1828,14 @@
     - https://github.com/facebook/zstd/pull/3220
     - https://github.com/pypa/advisory-database/tree/main/vulns/zstd/PYSEC-2023-121.yaml
     - https://github.com/sergey-dryabzhinsky/python-zstd/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/C63HAGVLQA6FJNDCHR7CNZZL6VSLILB2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JEHRBBYYTPA4DETOM5XAKGCP37NUTLOA/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QYLDK6ODVC4LJSDULLX6Q2YHTFOWABCN/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-4899
     - https://security.netapp.com/advisory/ntap-20230725-0005/
     - https://www.cve.org/CVERecord?id=CVE-2022-4899
     PublishedDate: '2023-03-31T20:15:00Z'
-    LastModifiedDate: '2023-07-25T15:15:00Z'
+    LastModifiedDate: '2023-09-16T04:15:00Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: login@1:4.8.1-2ubuntu2.1
     PkgName: login
@@ -2092,9 +2099,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48522
     - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
     - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
+    - https://security.netapp.com/advisory/ntap-20230915-0008/
     - https://www.cve.org/CVERecord?id=CVE-2022-48522
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-28T19:02:00Z'
+    LastModifiedDate: '2023-09-15T14:15:00Z'
   - VulnerabilityID: CVE-2022-48522
     PkgID: perl-base@5.34.0-3ubuntu1.2
     PkgName: perl-base
@@ -2123,9 +2131,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48522
     - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
     - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
+    - https://security.netapp.com/advisory/ntap-20230915-0008/
     - https://www.cve.org/CVERecord?id=CVE-2022-48522
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-28T19:02:00Z'
+    LastModifiedDate: '2023-09-15T14:15:00Z'
   - VulnerabilityID: CVE-2022-48522
     PkgID: perl-modules-5.34@5.34.0-3ubuntu1.2
     PkgName: perl-modules-5.34
@@ -2154,9 +2163,10 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48522
     - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
     - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
+    - https://security.netapp.com/advisory/ntap-20230915-0008/
     - https://www.cve.org/CVERecord?id=CVE-2022-48522
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-28T19:02:00Z'
+    LastModifiedDate: '2023-09-15T14:15:00Z'
   - VulnerabilityID: CVE-2023-4016
     PkgID: procps@2:3.3.17-6ubuntu2
     PkgName: procps
@@ -2526,7 +2536,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: Denial of service via decompression of crafted file
-    Description: 'An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of a crafted file. NOTE: the software maintainers are unable to reproduce this as of 2023-09-12 because the example crafted file is temporarily offline.'
+    Description: '** DISPUTED ** An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of a crafted file. NOTE: the vendor disputes the claims of "endless output" and "denial of service" because decompression of the 17,486 bytes always results in 114,881,179 bytes, which is often a reasonable size increase.'
     Severity: MEDIUM
     CVSS:
       nvd:
@@ -2536,6 +2546,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - http://web.archive.org/web/20230918084612/https://github.com/snappyJack/CVE-request-XZ-5.2.5-has-denial-of-service-vulnerability
     - https://access.redhat.com/security/cve/CVE-2020-22916
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234987
     - https://bugzilla.suse.com/show_bug.cgi?id=1214590
@@ -2547,7 +2558,7 @@
     - https://tukaani.org/xz/
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-12T16:15:00Z'
+    LastModifiedDate: '2023-09-18T09:15:00Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -2596,36 +2607,10 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Title: Jetty is a Java based web server and servlet engine. Prior to versions ...
-    Description: |-
-      ### Impact
-
-      Jetty accepts the '+' character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response.
-
-      ### Workarounds
-
-      There is no workaround as there is no known exploit scenario.   
-
-      ### Original Report 
-
-      [RFC 9110 Secion 8.6](https://www.rfc-editor.org/rfc/rfc9110#section-8.6) defined the value of Content-Length header should be a string of 0-9 digits. However we found that Jetty accepts "+" prefixed Content-Length, which could lead to potential HTTP request smuggling.
-
-      Payload:
-
-      ```
-       POST / HTTP/1.1
-       Host: a.com
-       Content-Length: +16
-       Connection: close
-       ​
-       0123456789abcdef
-      ```
-
-      When sending this payload to Jetty, it can successfully parse and identify the length.
-
-      When sending this payload to NGINX, Apache HTTPd or other HTTP servers/parsers, they will return 400 bad request.
-
-      This behavior can lead to HTTP request smuggling and can be leveraged to bypass WAF or IDS.
+    Description: Jetty is a Java based web server and servlet engine. Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty accepts the `+` character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1 contain a patch for this issue. There is no workaround as there is no known exploit scenario.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-130
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
@@ -2634,6 +2619,8 @@
     - https://github.com/eclipse/jetty.project
     - https://github.com/eclipse/jetty.project/security/advisories/GHSA-hmr7-m48g-48f6
     - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
+    PublishedDate: '2023-09-15T20:15:00Z'
+    LastModifiedDate: '2023-09-17T12:01:00Z'
   - VulnerabilityID: CVE-2023-4759
     PkgName: org.eclipse.jgit:org.eclipse.jgit
     PkgPath: opt/oaf/openaf.jar
@@ -2652,8 +2639,14 @@
     Title: arbitrary file overwrite
     Description: "Arbitrary File Overwrite in Eclipse JGit <= 6.6.0\n\nIn Eclipse JGit, all versions <= 6.6.0.202305301015-r, a symbolic link present in a specially crafted git repository can be used to write a file to locations outside the working tree when this repository is cloned with JGit to a case-insensitive filesystem, or when a checkout from a clone of such a repository is performed on a case-insensitive filesystem.\n\nThis can happen on checkout (DirCacheCheckout), merge (ResolveMerger\_via its WorkingTreeUpdater), pull (PullCommand\_using merge), and when applying a patch (PatchApplier). This can be exploited for remote code execution (RCE), for instance if the file written outside the working tree is a git filter that gets executed on a subsequent git command.\n\nThe issue occurs only on case-insensitive filesystems, like the default filesystems on Windows and macOS. The user performing the clone or checkout must have the rights to create symbolic links for the problem to occur, and symbolic links must be enabled in the git configuration.\n\nSetting git configuration option core.symlinks = false\_before checking out avoids the problem.\n\nThe issue was fixed in Eclipse JGit version 6.6.1.202309021850-r and 6.7.0.202309050840-r, available via  Maven Central https://repo1.maven.org/maven2/org/eclipse/jgit/ \_and  repo.eclipse.org https://repo.eclipse.org/content/repositories/jgit-releases/ .\n\n\nThe JGit maintainers would like to thank RyotaK for finding and reporting this issue.\n\n\n\n"
     Severity: HIGH
+    CweIDs:
+    - CWE-59
+    - CWE-178
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.8
     References:
@@ -2665,7 +2658,7 @@
     - https://projects.eclipse.org/projects/technology.jgit/releases/6.6.1
     - https://www.cve.org/CVERecord?id=CVE-2023-4759
     PublishedDate: '2023-09-12T10:15:00Z'
-    LastModifiedDate: '2023-09-12T11:51:00Z'
+    LastModifiedDate: '2023-09-18T13:54:00Z'
   - VulnerabilityID: CVE-2022-36033
     PkgName: org.jsoup:jsoup
     PkgPath: home/workspace/.openvscode-server/extensions/redhat.vscode-xml-0.26.1-linux-x64/server/org.eclipse.lemminx-0.26.1-uber.jar
@@ -2945,11 +2938,12 @@
     - https://github.com/moby/moby/security/advisories/GHSA-6wrf-mxfj-pf5p
     - https://github.com/moby/moby/security/advisories/GHSA-vwm3-crmr-xfxw
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LYZOKMMVX4SIEHPJW3SJUQGMO5YZCPHC/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XNF4OLYZRQE75EB5TW5N42FSXHBXGWFE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZTE4ITXXPIWZEQ4HYQCB6N6GZIMWXDAI/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28840
     - https://www.cve.org/CVERecord?id=CVE-2023-28840
     PublishedDate: '2023-04-04T22:15:00Z'
-    LastModifiedDate: '2023-09-05T03:15:00Z'
+    LastModifiedDate: '2023-09-15T21:15:00Z'
   - VulnerabilityID: CVE-2023-28841
     PkgName: github.com/docker/docker
     InstalledVersion: v23.0.1+incompatible
@@ -3011,11 +3005,12 @@
     - https://github.com/moby/moby/security/advisories/GHSA-6wrf-mxfj-pf5p
     - https://github.com/moby/moby/security/advisories/GHSA-vwm3-crmr-xfxw
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LYZOKMMVX4SIEHPJW3SJUQGMO5YZCPHC/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XNF4OLYZRQE75EB5TW5N42FSXHBXGWFE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZTE4ITXXPIWZEQ4HYQCB6N6GZIMWXDAI/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28841
     - https://www.cve.org/CVERecord?id=CVE-2023-28841
     PublishedDate: '2023-04-04T22:15:00Z'
-    LastModifiedDate: '2023-09-05T03:15:00Z'
+    LastModifiedDate: '2023-09-15T21:15:00Z'
   - VulnerabilityID: CVE-2023-28842
     PkgName: github.com/docker/docker
     InstalledVersion: v23.0.1+incompatible
@@ -3072,11 +3067,12 @@
     - https://github.com/moby/moby/security/advisories/GHSA-6wrf-mxfj-pf5p
     - https://github.com/moby/moby/security/advisories/GHSA-vwm3-crmr-xfxw
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LYZOKMMVX4SIEHPJW3SJUQGMO5YZCPHC/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XNF4OLYZRQE75EB5TW5N42FSXHBXGWFE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZTE4ITXXPIWZEQ4HYQCB6N6GZIMWXDAI/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-28842
     - https://www.cve.org/CVERecord?id=CVE-2023-28842
     PublishedDate: '2023-04-04T22:15:00Z'
-    LastModifiedDate: '2023-09-05T03:15:00Z'
+    LastModifiedDate: '2023-09-15T21:15:00Z'
   - VulnerabilityID: CVE-2020-8552
     PkgName: k8s.io/apiserver
     InstalledVersion: v0.27.3
