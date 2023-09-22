@@ -98,24 +98,39 @@
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Title           : insufficient input validation may lead to DoS 
-│                       │      ├ Description     : A flaw was found in the Bind package. The code that
-│                       │      │                   processes control channel messages sent to named calls
-│                       │      │                   certain functions recursively during packet parsing.
-│                       │      │                   Recursion depth is only limited by the maximum accepted
-│                       │      │                   packet size. Depending on the environment, this may cause
-│                       │      │                   the packet-parsing code to run out of available stack
-│                       │      │                   memory, causing named to terminate unexpectedly. 
+│                       │      ├ Description     : The code that processes control channel messages sent
+│                       │      │                   to `named` calls certain functions recursively during packet
+│                       │      │                    parsing. Recursion depth is only limited by the maximum
+│                       │      │                   accepted packet size; depending on the environment, this may
+│                       │      │                    cause the packet-parsing code to run out of available stack
+│                       │      │                    memory, causing `named` to terminate unexpectedly. Since
+│                       │      │                   each incoming control channel message is fully parsed before
+│                       │      │                    its contents are authenticated, exploiting this flaw does
+│                       │      │                   not require the attacker to hold a valid RNDC key; only
+│                       │      │                   network access to the control channel's configured TCP port
+│                       │      │                   is necessary.
+│                       │      │                   This issue affects BIND 9 versions 9.2.0 through 9.16.43,
+│                       │      │                   9.18.0 through 9.18.18, 9.19.0 through 9.19.16, 9.9.3-S1
+│                       │      │                   through 9.16.43-S1, and 9.18.0-S1 through
+│                       │      │                   9.18.18-S1. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3341 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-3341 
-│                       │                         ├ [2]: https://kb.isc.org/docs/cve-2023-3341 
-│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3341 
-│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6390-1 
-│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3341 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
+│                       │      │                  │      9/20/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-3341 
+│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2023-3341 
+│                       │      │                  ├ [3]: https://kb.isc.org/docs/cve-2023-3341 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-3341 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6390-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-3341 
+│                       │      ├ PublishedDate   : 2023-09-20T13:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-20T15:15:00Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2023-4236 
 │                       │      ├ PkgID           : bind9-dnsutils@1:9.18.12-0ubuntu0.22.04.2 
 │                       │      ├ PkgName         : bind9-dnsutils 
@@ -132,24 +147,31 @@
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Title           : an assertion failure may lead to DoS 
-│                       │      ├ Description     : A flaw was found in the Bind package. The networking
-│                       │      │                   code handling DNS-over-TLS queries may cause named to
-│                       │      │                   terminate unexpectedly due to an assertion failure. This
-│                       │      │                   happens when internal data structures are incorrectly reused
-│                       │      │                    under significant DNS-over-TLS query load. A named instance
-│                       │      │                    vulnerable to this flaw may terminate unexpectedly when
-│                       │      │                   subjected to significant DNS-over-TLS query load. 
+│                       │      ├ Description     : A flaw in the networking code handling DNS-over-TLS
+│                       │      │                   queries may cause `named` to terminate unexpectedly due to
+│                       │      │                   an assertion failure. This happens when internal data
+│                       │      │                   structures are incorrectly reused under significant
+│                       │      │                   DNS-over-TLS query load.
+│                       │      │                   This issue affects BIND 9 versions 9.18.0 through 9.18.18
+│                       │      │                   and 9.18.11-S1 through 9.18.18-S1. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4236 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-4236 
-│                       │                         ├ [2]: https://kb.isc.org/docs/cve-2023-4236 
-│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4236 
-│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6390-1 
-│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4236 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
+│                       │      │                  │      9/20/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4236 
+│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2023-4236 
+│                       │      │                  ├ [3]: https://kb.isc.org/docs/cve-2023-4236 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4236 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6390-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4236 
+│                       │      ├ PublishedDate   : 2023-09-20T13:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-20T15:15:00Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2023-3341 
 │                       │      ├ PkgID           : bind9-host@1:9.18.12-0ubuntu0.22.04.2 
 │                       │      ├ PkgName         : bind9-host 
@@ -166,24 +188,39 @@
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Title           : insufficient input validation may lead to DoS 
-│                       │      ├ Description     : A flaw was found in the Bind package. The code that
-│                       │      │                   processes control channel messages sent to named calls
-│                       │      │                   certain functions recursively during packet parsing.
-│                       │      │                   Recursion depth is only limited by the maximum accepted
-│                       │      │                   packet size. Depending on the environment, this may cause
-│                       │      │                   the packet-parsing code to run out of available stack
-│                       │      │                   memory, causing named to terminate unexpectedly. 
+│                       │      ├ Description     : The code that processes control channel messages sent
+│                       │      │                   to `named` calls certain functions recursively during packet
+│                       │      │                    parsing. Recursion depth is only limited by the maximum
+│                       │      │                   accepted packet size; depending on the environment, this may
+│                       │      │                    cause the packet-parsing code to run out of available stack
+│                       │      │                    memory, causing `named` to terminate unexpectedly. Since
+│                       │      │                   each incoming control channel message is fully parsed before
+│                       │      │                    its contents are authenticated, exploiting this flaw does
+│                       │      │                   not require the attacker to hold a valid RNDC key; only
+│                       │      │                   network access to the control channel's configured TCP port
+│                       │      │                   is necessary.
+│                       │      │                   This issue affects BIND 9 versions 9.2.0 through 9.16.43,
+│                       │      │                   9.18.0 through 9.18.18, 9.19.0 through 9.19.16, 9.9.3-S1
+│                       │      │                   through 9.16.43-S1, and 9.18.0-S1 through
+│                       │      │                   9.18.18-S1. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3341 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-3341 
-│                       │                         ├ [2]: https://kb.isc.org/docs/cve-2023-3341 
-│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3341 
-│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6390-1 
-│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3341 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
+│                       │      │                  │      9/20/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-3341 
+│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2023-3341 
+│                       │      │                  ├ [3]: https://kb.isc.org/docs/cve-2023-3341 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-3341 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6390-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-3341 
+│                       │      ├ PublishedDate   : 2023-09-20T13:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-20T15:15:00Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2023-4236 
 │                       │      ├ PkgID           : bind9-host@1:9.18.12-0ubuntu0.22.04.2 
 │                       │      ├ PkgName         : bind9-host 
@@ -200,24 +237,31 @@
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Title           : an assertion failure may lead to DoS 
-│                       │      ├ Description     : A flaw was found in the Bind package. The networking
-│                       │      │                   code handling DNS-over-TLS queries may cause named to
-│                       │      │                   terminate unexpectedly due to an assertion failure. This
-│                       │      │                   happens when internal data structures are incorrectly reused
-│                       │      │                    under significant DNS-over-TLS query load. A named instance
-│                       │      │                    vulnerable to this flaw may terminate unexpectedly when
-│                       │      │                   subjected to significant DNS-over-TLS query load. 
+│                       │      ├ Description     : A flaw in the networking code handling DNS-over-TLS
+│                       │      │                   queries may cause `named` to terminate unexpectedly due to
+│                       │      │                   an assertion failure. This happens when internal data
+│                       │      │                   structures are incorrectly reused under significant
+│                       │      │                   DNS-over-TLS query load.
+│                       │      │                   This issue affects BIND 9 versions 9.18.0 through 9.18.18
+│                       │      │                   and 9.18.11-S1 through 9.18.18-S1. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4236 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-4236 
-│                       │                         ├ [2]: https://kb.isc.org/docs/cve-2023-4236 
-│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4236 
-│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6390-1 
-│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4236 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
+│                       │      │                  │      9/20/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4236 
+│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2023-4236 
+│                       │      │                  ├ [3]: https://kb.isc.org/docs/cve-2023-4236 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4236 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6390-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4236 
+│                       │      ├ PublishedDate   : 2023-09-20T13:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-20T15:15:00Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2023-3341 
 │                       │      ├ PkgID           : bind9-libs@1:9.18.12-0ubuntu0.22.04.2 
 │                       │      ├ PkgName         : bind9-libs 
@@ -234,24 +278,39 @@
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Title           : insufficient input validation may lead to DoS 
-│                       │      ├ Description     : A flaw was found in the Bind package. The code that
-│                       │      │                   processes control channel messages sent to named calls
-│                       │      │                   certain functions recursively during packet parsing.
-│                       │      │                   Recursion depth is only limited by the maximum accepted
-│                       │      │                   packet size. Depending on the environment, this may cause
-│                       │      │                   the packet-parsing code to run out of available stack
-│                       │      │                   memory, causing named to terminate unexpectedly. 
+│                       │      ├ Description     : The code that processes control channel messages sent
+│                       │      │                   to `named` calls certain functions recursively during packet
+│                       │      │                    parsing. Recursion depth is only limited by the maximum
+│                       │      │                   accepted packet size; depending on the environment, this may
+│                       │      │                    cause the packet-parsing code to run out of available stack
+│                       │      │                    memory, causing `named` to terminate unexpectedly. Since
+│                       │      │                   each incoming control channel message is fully parsed before
+│                       │      │                    its contents are authenticated, exploiting this flaw does
+│                       │      │                   not require the attacker to hold a valid RNDC key; only
+│                       │      │                   network access to the control channel's configured TCP port
+│                       │      │                   is necessary.
+│                       │      │                   This issue affects BIND 9 versions 9.2.0 through 9.16.43,
+│                       │      │                   9.18.0 through 9.18.18, 9.19.0 through 9.19.16, 9.9.3-S1
+│                       │      │                   through 9.16.43-S1, and 9.18.0-S1 through
+│                       │      │                   9.18.18-S1. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3341 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-3341 
-│                       │                         ├ [2]: https://kb.isc.org/docs/cve-2023-3341 
-│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3341 
-│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6390-1 
-│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3341 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
+│                       │      │                  │      9/20/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-3341 
+│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2023-3341 
+│                       │      │                  ├ [3]: https://kb.isc.org/docs/cve-2023-3341 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-3341 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6390-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-3341 
+│                       │      ├ PublishedDate   : 2023-09-20T13:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-20T15:15:00Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2023-4236 
 │                       │      ├ PkgID           : bind9-libs@1:9.18.12-0ubuntu0.22.04.2 
 │                       │      ├ PkgName         : bind9-libs 
@@ -268,24 +327,31 @@
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Title           : an assertion failure may lead to DoS 
-│                       │      ├ Description     : A flaw was found in the Bind package. The networking
-│                       │      │                   code handling DNS-over-TLS queries may cause named to
-│                       │      │                   terminate unexpectedly due to an assertion failure. This
-│                       │      │                   happens when internal data structures are incorrectly reused
-│                       │      │                    under significant DNS-over-TLS query load. A named instance
-│                       │      │                    vulnerable to this flaw may terminate unexpectedly when
-│                       │      │                   subjected to significant DNS-over-TLS query load. 
+│                       │      ├ Description     : A flaw in the networking code handling DNS-over-TLS
+│                       │      │                   queries may cause `named` to terminate unexpectedly due to
+│                       │      │                   an assertion failure. This happens when internal data
+│                       │      │                   structures are incorrectly reused under significant
+│                       │      │                   DNS-over-TLS query load.
+│                       │      │                   This issue affects BIND 9 versions 9.18.0 through 9.18.18
+│                       │      │                   and 9.18.11-S1 through 9.18.18-S1. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4236 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-4236 
-│                       │                         ├ [2]: https://kb.isc.org/docs/cve-2023-4236 
-│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4236 
-│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6390-1 
-│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4236 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
+│                       │      │                  │      9/20/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4236 
+│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2023-4236 
+│                       │      │                  ├ [3]: https://kb.isc.org/docs/cve-2023-4236 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4236 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6390-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4236 
+│                       │      ├ PublishedDate   : 2023-09-20T13:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-20T15:15:00Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2016-2781 
 │                       │      ├ PkgID           : coreutils@8.32-4.1ubuntu1 
 │                       │      ├ PkgName         : coreutils 
@@ -375,7 +441,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -428,7 +494,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -498,24 +564,39 @@
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Title           : insufficient input validation may lead to DoS 
-│                       │      ├ Description     : A flaw was found in the Bind package. The code that
-│                       │      │                   processes control channel messages sent to named calls
-│                       │      │                   certain functions recursively during packet parsing.
-│                       │      │                   Recursion depth is only limited by the maximum accepted
-│                       │      │                   packet size. Depending on the environment, this may cause
-│                       │      │                   the packet-parsing code to run out of available stack
-│                       │      │                   memory, causing named to terminate unexpectedly. 
+│                       │      ├ Description     : The code that processes control channel messages sent
+│                       │      │                   to `named` calls certain functions recursively during packet
+│                       │      │                    parsing. Recursion depth is only limited by the maximum
+│                       │      │                   accepted packet size; depending on the environment, this may
+│                       │      │                    cause the packet-parsing code to run out of available stack
+│                       │      │                    memory, causing `named` to terminate unexpectedly. Since
+│                       │      │                   each incoming control channel message is fully parsed before
+│                       │      │                    its contents are authenticated, exploiting this flaw does
+│                       │      │                   not require the attacker to hold a valid RNDC key; only
+│                       │      │                   network access to the control channel's configured TCP port
+│                       │      │                   is necessary.
+│                       │      │                   This issue affects BIND 9 versions 9.2.0 through 9.16.43,
+│                       │      │                   9.18.0 through 9.18.18, 9.19.0 through 9.19.16, 9.9.3-S1
+│                       │      │                   through 9.16.43-S1, and 9.18.0-S1 through
+│                       │      │                   9.18.18-S1. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3341 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-3341 
-│                       │                         ├ [2]: https://kb.isc.org/docs/cve-2023-3341 
-│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3341 
-│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6390-1 
-│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3341 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
+│                       │      │                  │      9/20/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-3341 
+│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2023-3341 
+│                       │      │                  ├ [3]: https://kb.isc.org/docs/cve-2023-3341 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-3341 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6390-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-3341 
+│                       │      ├ PublishedDate   : 2023-09-20T13:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-20T15:15:00Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2023-4236 
 │                       │      ├ PkgID           : dnsutils@1:9.18.12-0ubuntu0.22.04.2 
 │                       │      ├ PkgName         : dnsutils 
@@ -532,24 +613,31 @@
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Title           : an assertion failure may lead to DoS 
-│                       │      ├ Description     : A flaw was found in the Bind package. The networking
-│                       │      │                   code handling DNS-over-TLS queries may cause named to
-│                       │      │                   terminate unexpectedly due to an assertion failure. This
-│                       │      │                   happens when internal data structures are incorrectly reused
-│                       │      │                    under significant DNS-over-TLS query load. A named instance
-│                       │      │                    vulnerable to this flaw may terminate unexpectedly when
-│                       │      │                   subjected to significant DNS-over-TLS query load. 
+│                       │      ├ Description     : A flaw in the networking code handling DNS-over-TLS
+│                       │      │                   queries may cause `named` to terminate unexpectedly due to
+│                       │      │                   an assertion failure. This happens when internal data
+│                       │      │                   structures are incorrectly reused under significant
+│                       │      │                   DNS-over-TLS query load.
+│                       │      │                   This issue affects BIND 9 versions 9.18.0 through 9.18.18
+│                       │      │                   and 9.18.11-S1 through 9.18.18-S1. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 7.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4236 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-4236 
-│                       │                         ├ [2]: https://kb.isc.org/docs/cve-2023-4236 
-│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-4236 
-│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6390-1 
-│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4236 
+│                       │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/0
+│                       │      │                  │      9/20/2 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4236 
+│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2023-4236 
+│                       │      │                  ├ [3]: https://kb.isc.org/docs/cve-2023-4236 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4236 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6390-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4236 
+│                       │      ├ PublishedDate   : 2023-09-20T13:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-20T15:15:00Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : gcc-12-base@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : gcc-12-base 
@@ -1291,7 +1379,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -2315,10 +2403,10 @@
 │                       │      │                  ├ [12]: https://github.com/electron/electron/pull/39826 
 │                       │      │                  ├ [13]: https://github.com/electron/electron/pull/39827 
 │                       │      │                  ├ [14]: https://github.com/electron/electron/pull/39828 
-│                       │      │                  ├ [15]: https://github.com/qnighy/libwebp-sys2-rs 
-│                       │      │                  ├ [16]: https://github.com/qnighy/libwebp-sys2-rs/commit
+│                       │      │                  ├ [15]: https://github.com/qnighy/libwebp-sys2-rs/commit
 │                       │      │                  │       /4560c473a76ec8bd8c650f19ddf9d7a44f719f8b 
-│                       │      │                  ├ [17]: https://github.com/qnighy/libwebp-sys2-rs/pull/21 
+│                       │      │                  ├ [16]: https://github.com/qnighy/libwebp-sys2-rs/pull/21 
+│                       │      │                  ├ [17]: https://github.com/webmproject/libwebp 
 │                       │      │                  ├ [18]: https://github.com/webmproject/libwebp/commit/90
 │                       │      │                  │       2bc9190331343b2017211debcec8d2ab87e17a 
 │                       │      │                  ├ [19]: https://github.com/webmproject/libwebp/releases/
@@ -2338,39 +2426,42 @@
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/FYYKLG
 │                       │      │                  │       6CRGEDTNRBSU26EEWAO6D6U645/ 
 │                       │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/KUQ7CT
+│                       │      │                  │       X3W372X3UY56VVNAHCH6H2F4X3/ 
+│                       │      │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/OZDGWW
 │                       │      │                  │       MJREPAGKWCJKSCM4WYLANSKIFX/ 
-│                       │      │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/PYZV7T
 │                       │      │                  │       MKF4QHZ54SFJX54BDN52VHGGCX/ 
-│                       │      │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/WHOLML
 │                       │      │                  │       7N2G5KCAZXFWC5IDFFHSQS5SDB/ 
-│                       │      │                  ├ [30]: https://msrc.microsoft.com/update-guide/vulnerab
+│                       │      │                  ├ [31]: https://msrc.microsoft.com/update-guide/vulnerab
 │                       │      │                  │       ility/CVE-2023-4863 
-│                       │      │                  ├ [31]: https://news.ycombinator.com/item?id=37478403 
-│                       │      │                  ├ [32]: https://nvd.nist.gov/vuln/detail/CVE-2023-4863 
-│                       │      │                  ├ [33]: https://rustsec.org/advisories/RUSTSEC-2023-0060.html 
-│                       │      │                  ├ [34]: https://rustsec.org/advisories/RUSTSEC-2023-0061.html 
-│                       │      │                  ├ [35]: https://security-tracker.debian.org/tracker/CVE-
+│                       │      │                  ├ [32]: https://news.ycombinator.com/item?id=37478403 
+│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2023-4863 
+│                       │      │                  ├ [34]: https://rustsec.org/advisories/RUSTSEC-2023-0060.html 
+│                       │      │                  ├ [35]: https://rustsec.org/advisories/RUSTSEC-2023-0061.html 
+│                       │      │                  ├ [36]: https://security-tracker.debian.org/tracker/CVE-
 │                       │      │                  │       2023-4863 
-│                       │      │                  ├ [36]: https://security.gentoo.org/glsa/202309-05 
-│                       │      │                  ├ [37]: https://stackdiary.com/critical-vulnerability-in
+│                       │      │                  ├ [37]: https://security.gentoo.org/glsa/202309-05 
+│                       │      │                  ├ [38]: https://stackdiary.com/critical-vulnerability-in
 │                       │      │                  │       -webp-codec-cve-2023-4863/ 
-│                       │      │                  ├ [38]: https://ubuntu.com/security/notices/USN-6367-1 
-│                       │      │                  ├ [39]: https://ubuntu.com/security/notices/USN-6368-1 
-│                       │      │                  ├ [40]: https://ubuntu.com/security/notices/USN-6369-1 
-│                       │      │                  ├ [41]: https://www.bleepingcomputer.com/news/google/goo
+│                       │      │                  ├ [39]: https://ubuntu.com/security/notices/USN-6367-1 
+│                       │      │                  ├ [40]: https://ubuntu.com/security/notices/USN-6368-1 
+│                       │      │                  ├ [41]: https://ubuntu.com/security/notices/USN-6369-1 
+│                       │      │                  ├ [42]: https://www.bleepingcomputer.com/news/google/goo
 │                       │      │                  │       gle-fixes-another-chrome-zero-day-bug-exploited-in-at
 │                       │      │                  │       tacks/ 
-│                       │      │                  ├ [42]: https://www.cve.org/CVERecord?id=CVE-2023-4863 
-│                       │      │                  ├ [43]: https://www.debian.org/security/2023/dsa-5496 
-│                       │      │                  ├ [44]: https://www.debian.org/security/2023/dsa-5497 
-│                       │      │                  ├ [45]: https://www.debian.org/security/2023/dsa-5498 
-│                       │      │                  ╰ [46]: https://www.mozilla.org/en-US/security/advisorie
+│                       │      │                  ├ [43]: https://www.cve.org/CVERecord?id=CVE-2023-4863 
+│                       │      │                  ├ [44]: https://www.debian.org/security/2023/dsa-5496 
+│                       │      │                  ├ [45]: https://www.debian.org/security/2023/dsa-5497 
+│                       │      │                  ├ [46]: https://www.debian.org/security/2023/dsa-5498 
+│                       │      │                  ╰ [47]: https://www.mozilla.org/en-US/security/advisorie
 │                       │      │                          s/mfsa2023-40/ 
 │                       │      ├ PublishedDate   : 2023-09-12T15:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-09-19T17:49:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-21T03:15:00Z 
 │                       ├ [55] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                       │      ├ PkgName         : libzstd1 
@@ -3398,8 +3489,10 @@
 │                       │     │                   contain a patch for this issue. There is no workaround as
 │                       │     │                   there is no known exploit scenario. 
 │                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CweIDs           ─ [0]: CWE-130 
-│                       │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │     ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │     │                  │      │           :L/A:N 
+│                       │     │                  │      ╰ V3Score : 5.3 
+│                       │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
 │                       │     │                         │           :L/A:N 
 │                       │     │                         ╰ V3Score : 5.3 
 │                       │     ├ References       ╭ [0]: https://github.com/eclipse/jetty.project 
@@ -3408,7 +3501,7 @@
 │                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
 │                       │     │                  ╰ [3]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
 │                       │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-09-17T12:01:00Z 
+│                       │     ╰ LastModifiedDate: 2023-09-20T20:20:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-4759 
 │                       │     ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
 │                       │     ├ PkgPath         : opt/oaf/openaf.jar 
