@@ -2383,85 +2383,105 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 9.6 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-4863 
-│                       │      │                  ├ [1] : https://adamcaudill.com/2023/09/14/whose-cve-is-
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       09/21/4 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       09/22/1 
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       09/22/3 
+│                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       09/22/4 
+│                       │      │                  ├ [4] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       09/22/5 
+│                       │      │                  ├ [5] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       09/22/6 
+│                       │      │                  ├ [6] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       09/22/7 
+│                       │      │                  ├ [7] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       09/22/8 
+│                       │      │                  ├ [8] : https://access.redhat.com/errata/RHSA-2023:5224 
+│                       │      │                  ├ [9] : https://access.redhat.com/security/cve/CVE-2023-4863 
+│                       │      │                  ├ [10]: https://adamcaudill.com/2023/09/14/whose-cve-is-
 │                       │      │                  │       it-anyway/ 
-│                       │      │                  ├ [2] : https://bugzilla.redhat.com/show_bug.cgi?id=2238431 
-│                       │      │                  ├ [3] : https://bugzilla.suse.com/show_bug.cgi?id=1215231 
-│                       │      │                  ├ [4] : https://chromereleases.googleblog.com/2023/09/st
+│                       │      │                  ├ [11]: https://blog.isosceles.com/the-webp-0day/ 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2238431 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2238431 
+│                       │      │                  ├ [14]: https://bugzilla.suse.com/show_bug.cgi?id=1215231 
+│                       │      │                  ├ [15]: https://chromereleases.googleblog.com/2023/09/st
 │                       │      │                  │       able-channel-update-for-desktop_11.html 
-│                       │      │                  ├ [5] : https://chromium.googlesource.com/webm/libwebp.g
+│                       │      │                  ├ [16]: https://chromium.googlesource.com/webm/libwebp.g
 │                       │      │                  │       it/+/902bc9190331343b2017211debcec8d2ab87e17a[
 │                       │      │                  │       m 
-│                       │      │                  ├ [6] : https://crbug.com/1479274 
-│                       │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  ├ [17]: https://crbug.com/1479274 
+│                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-4863 
-│                       │      │                  ├ [8] : https://en.bandisoft.com/honeyview/history/ 
-│                       │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2023:5184 
-│                       │      │                  ├ [10]: https://github.com/electron/electron/pull/39823 
-│                       │      │                  ├ [11]: https://github.com/electron/electron/pull/39825 
-│                       │      │                  ├ [12]: https://github.com/electron/electron/pull/39826 
-│                       │      │                  ├ [13]: https://github.com/electron/electron/pull/39827 
-│                       │      │                  ├ [14]: https://github.com/electron/electron/pull/39828 
-│                       │      │                  ├ [15]: https://github.com/qnighy/libwebp-sys2-rs/commit
+│                       │      │                  ├ [19]: https://en.bandisoft.com/honeyview/history/ 
+│                       │      │                  ├ [20]: https://errata.almalinux.org/9/ALSA-2023-5224.html 
+│                       │      │                  ├ [21]: https://errata.rockylinux.org/RLSA-2023:5184 
+│                       │      │                  ├ [22]: https://github.com/electron/electron/pull/39823 
+│                       │      │                  ├ [23]: https://github.com/electron/electron/pull/39825 
+│                       │      │                  ├ [24]: https://github.com/electron/electron/pull/39826 
+│                       │      │                  ├ [25]: https://github.com/electron/electron/pull/39827 
+│                       │      │                  ├ [26]: https://github.com/electron/electron/pull/39828 
+│                       │      │                  ├ [27]: https://github.com/qnighy/libwebp-sys2-rs/commit
 │                       │      │                  │       /4560c473a76ec8bd8c650f19ddf9d7a44f719f8b 
-│                       │      │                  ├ [16]: https://github.com/qnighy/libwebp-sys2-rs/pull/21 
-│                       │      │                  ├ [17]: https://github.com/webmproject/libwebp 
-│                       │      │                  ├ [18]: https://github.com/webmproject/libwebp/commit/90
+│                       │      │                  ├ [28]: https://github.com/qnighy/libwebp-sys2-rs/pull/21 
+│                       │      │                  ├ [29]: https://github.com/webmproject/libwebp 
+│                       │      │                  ├ [30]: https://github.com/webmproject/libwebp/commit/90
 │                       │      │                  │       2bc9190331343b2017211debcec8d2ab87e17a 
-│                       │      │                  ├ [19]: https://github.com/webmproject/libwebp/releases/
+│                       │      │                  ├ [31]: https://github.com/webmproject/libwebp/releases/
 │                       │      │                  │       tag/v1.3.2 
-│                       │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-4863.html 
-│                       │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2023-5309.html 
-│                       │      │                  ├ [22]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  ├ [32]: https://linux.oracle.com/cve/CVE-2023-4863.html 
+│                       │      │                  ├ [33]: https://linux.oracle.com/errata/ELSA-2023-5309.html 
+│                       │      │                  ├ [34]: https://lists.debian.org/debian-lts-announce/202
 │                       │      │                  │       3/09/msg00015.html 
-│                       │      │                  ├ [23]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  ├ [35]: https://lists.debian.org/debian-lts-announce/202
 │                       │      │                  │       3/09/msg00016.html 
-│                       │      │                  ├ [24]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  ├ [36]: https://lists.debian.org/debian-lts-announce/202
 │                       │      │                  │       3/09/msg00017.html 
-│                       │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/6T655Q
 │                       │      │                  │       F7CQ3DYAMPFV7IECQYGDEUIVVT/ 
-│                       │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/FYYKLG
 │                       │      │                  │       6CRGEDTNRBSU26EEWAO6D6U645/ 
-│                       │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/KUQ7CT
 │                       │      │                  │       X3W372X3UY56VVNAHCH6H2F4X3/ 
-│                       │      │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/OZDGWW
 │                       │      │                  │       MJREPAGKWCJKSCM4WYLANSKIFX/ 
-│                       │      │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/PYZV7T
 │                       │      │                  │       MKF4QHZ54SFJX54BDN52VHGGCX/ 
-│                       │      │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/WHOLML
 │                       │      │                  │       7N2G5KCAZXFWC5IDFFHSQS5SDB/ 
-│                       │      │                  ├ [31]: https://msrc.microsoft.com/update-guide/vulnerab
+│                       │      │                  ├ [43]: https://msrc.microsoft.com/update-guide/vulnerab
 │                       │      │                  │       ility/CVE-2023-4863 
-│                       │      │                  ├ [32]: https://news.ycombinator.com/item?id=37478403 
-│                       │      │                  ├ [33]: https://nvd.nist.gov/vuln/detail/CVE-2023-4863 
-│                       │      │                  ├ [34]: https://rustsec.org/advisories/RUSTSEC-2023-0060.html 
-│                       │      │                  ├ [35]: https://rustsec.org/advisories/RUSTSEC-2023-0061.html 
-│                       │      │                  ├ [36]: https://security-tracker.debian.org/tracker/CVE-
+│                       │      │                  ├ [44]: https://news.ycombinator.com/item?id=37478403 
+│                       │      │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2023-4863 
+│                       │      │                  ├ [46]: https://rustsec.org/advisories/RUSTSEC-2023-0060.html 
+│                       │      │                  ├ [47]: https://rustsec.org/advisories/RUSTSEC-2023-0061.html 
+│                       │      │                  ├ [48]: https://security-tracker.debian.org/tracker/CVE-
 │                       │      │                  │       2023-4863 
-│                       │      │                  ├ [37]: https://security.gentoo.org/glsa/202309-05 
-│                       │      │                  ├ [38]: https://stackdiary.com/critical-vulnerability-in
+│                       │      │                  ├ [49]: https://security.gentoo.org/glsa/202309-05 
+│                       │      │                  ├ [50]: https://stackdiary.com/critical-vulnerability-in
 │                       │      │                  │       -webp-codec-cve-2023-4863/ 
-│                       │      │                  ├ [39]: https://ubuntu.com/security/notices/USN-6367-1 
-│                       │      │                  ├ [40]: https://ubuntu.com/security/notices/USN-6368-1 
-│                       │      │                  ├ [41]: https://ubuntu.com/security/notices/USN-6369-1 
-│                       │      │                  ├ [42]: https://www.bleepingcomputer.com/news/google/goo
+│                       │      │                  ├ [51]: https://ubuntu.com/security/notices/USN-6367-1 
+│                       │      │                  ├ [52]: https://ubuntu.com/security/notices/USN-6368-1 
+│                       │      │                  ├ [53]: https://ubuntu.com/security/notices/USN-6369-1 
+│                       │      │                  ├ [54]: https://www.bleepingcomputer.com/news/google/goo
 │                       │      │                  │       gle-fixes-another-chrome-zero-day-bug-exploited-in-at
 │                       │      │                  │       tacks/ 
-│                       │      │                  ├ [43]: https://www.cve.org/CVERecord?id=CVE-2023-4863 
-│                       │      │                  ├ [44]: https://www.debian.org/security/2023/dsa-5496 
-│                       │      │                  ├ [45]: https://www.debian.org/security/2023/dsa-5497 
-│                       │      │                  ├ [46]: https://www.debian.org/security/2023/dsa-5498 
-│                       │      │                  ╰ [47]: https://www.mozilla.org/en-US/security/advisorie
+│                       │      │                  ├ [55]: https://www.cve.org/CVERecord?id=CVE-2023-4863 
+│                       │      │                  ├ [56]: https://www.debian.org/security/2023/dsa-5496 
+│                       │      │                  ├ [57]: https://www.debian.org/security/2023/dsa-5497 
+│                       │      │                  ├ [58]: https://www.debian.org/security/2023/dsa-5498 
+│                       │      │                  ╰ [59]: https://www.mozilla.org/en-US/security/advisorie
 │                       │      │                          s/mfsa2023-40/ 
 │                       │      ├ PublishedDate   : 2023-09-12T15:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-09-21T03:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-09-22T04:15:00Z 
 │                       ├ [55] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                       │      ├ PkgName         : libzstd1 
@@ -3474,8 +3494,7 @@
 │                       │     │                  ├ Name: GitHub Security Advisory Maven 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
 │                       │     │                          ed+ecosystem%3Amaven 
-│                       │     ├ Title           : Jetty is a Java based web server and servlet engine.
-│                       │     │                   Prior to versions ... 
+│                       │     ├ Title           : Improper validation of HTTP/1 content-length 
 │                       │     ├ Description     : Jetty is a Java based web server and servlet engine.
 │                       │     │                   Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty
 │                       │     │                    accepts the `+` character proceeding the content-length
@@ -3489,17 +3508,22 @@
 │                       │     │                   contain a patch for this issue. There is no workaround as
 │                       │     │                   there is no known exploit scenario. 
 │                       │     ├ Severity        : MEDIUM 
-│                       │     ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │     │                  │      │           :L/A:N 
-│                       │     │                  │      ╰ V3Score : 5.3 
-│                       │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │     │                         │           :L/A:N 
-│                       │     │                         ╰ V3Score : 5.3 
-│                       │     ├ References       ╭ [0]: https://github.com/eclipse/jetty.project 
-│                       │     │                  ├ [1]: https://github.com/eclipse/jetty.project/security/
+│                       │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                       │     │                  │        │           /I:L/A:N 
+│                       │     │                  │        ╰ V3Score : 5.3 
+│                       │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                       │     │                  │        │           /I:L/A:N 
+│                       │     │                  │        ╰ V3Score : 5.3 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                       │     │                           │           /I:L/A:N 
+│                       │     │                           ╰ V3Score : 5.3 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-40167 
+│                       │     │                  ├ [1]: https://github.com/eclipse/jetty.project 
+│                       │     │                  ├ [2]: https://github.com/eclipse/jetty.project/security/
 │                       │     │                  │      advisories/GHSA-hmr7-m48g-48f6 
-│                       │     │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
-│                       │     │                  ╰ [3]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
+│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-40167 
+│                       │     │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-40167 
+│                       │     │                  ╰ [5]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
 │                       │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-09-20T20:20:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-4759 
