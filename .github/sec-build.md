@@ -337,8 +337,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: client prints server-sent ANSI escape codes to the
-│                       │      │                    terminal, allowing for unverified messages to potentially
+│                       │      ├ Title           : client prints server-sent ANSI escape codes to the
+│                       │      │                   terminal, allowing for unverified messages to potentially
 │                       │      │                   execute arbitrary commands 
 │                       │      ├ Description     : GIT version 2.15.1 and earlier contains a Input
 │                       │      │                   Validation Error vulnerability in Client that can result in
@@ -380,8 +380,8 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: client prints server-sent ANSI escape codes to the
-│                       │      │                    terminal, allowing for unverified messages to potentially
+│                       │      ├ Title           : client prints server-sent ANSI escape codes to the
+│                       │      │                   terminal, allowing for unverified messages to potentially
 │                       │      │                   execute arbitrary commands 
 │                       │      ├ Description     : GIT version 2.15.1 and earlier contains a Input
 │                       │      │                   Validation Error vulnerability in Client that can result in
