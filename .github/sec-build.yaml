@@ -811,6 +811,36 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
     LastModifiedDate: '2023-08-08T14:22:00Z'
+  - VulnerabilityID: CVE-2023-4911
+    PkgID: libc-bin@2.35-0ubuntu3.3
+    PkgName: libc-bin
+    InstalledVersion: 2.35-0ubuntu3.3
+    FixedVersion: 2.35-0ubuntu3.4
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4911
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: buffer overflow in ld.so leading to privilege escalation
+    Description: A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4911
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4911
+    - https://ubuntu.com/security/notices/USN-6409-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-4911
+    - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
+    - https://www.qualys.com/cve-2023-4911/
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.3
     PkgName: libc-bin
@@ -842,6 +872,36 @@
     - https://twitter.com/solardiz/status/795601240151457793
     PublishedDate: '2022-02-19T05:15:00Z'
     LastModifiedDate: '2022-03-03T16:43:00Z'
+  - VulnerabilityID: CVE-2023-4911
+    PkgID: libc6@2.35-0ubuntu3.3
+    PkgName: libc6
+    InstalledVersion: 2.35-0ubuntu3.3
+    FixedVersion: 2.35-0ubuntu3.4
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4911
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: buffer overflow in ld.so leading to privilege escalation
+    Description: A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a local attacker to use maliciously crafted GLIBC_TUNABLES environment variables when launching binaries with SUID permission to execute code with elevated privileges.
+    Severity: HIGH
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4911
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4911
+    - https://ubuntu.com/security/notices/USN-6409-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-4911
+    - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
+    - https://www.qualys.com/cve-2023-4911/
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.3
     PkgName: libc6
@@ -1755,6 +1815,222 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3576
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3576
     - https://www.cve.org/CVERecord?id=CVE-2023-3576
+  - VulnerabilityID: CVE-2023-43785
+    PkgID: libx11-6@2:1.7.5-1ubuntu0.2
+    PkgName: libx11-6
+    InstalledVersion: 2:1.7.5-1ubuntu0.2
+    FixedVersion: 2:1.7.5-1ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43785
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[libX11: out-of-bounds memory access in _XkbReadKeySyms()]'
+    Description: out-of-bounds memory access in _XkbReadKeySyms()
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43785
+    - https://ubuntu.com/security/notices/USN-6407-1
+  - VulnerabilityID: CVE-2023-43786
+    PkgID: libx11-6@2:1.7.5-1ubuntu0.2
+    PkgName: libx11-6
+    InstalledVersion: 2:1.7.5-1ubuntu0.2
+    FixedVersion: 2:1.7.5-1ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43786
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[libX11: stack exhaustion from infinite recursion in PutSubImage()]'
+    Description: stack exhaustion from infinite recursion in PutSubImage()
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43786
+    - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6408-1
+  - VulnerabilityID: CVE-2023-43787
+    PkgID: libx11-6@2:1.7.5-1ubuntu0.2
+    PkgName: libx11-6
+    InstalledVersion: 2:1.7.5-1ubuntu0.2
+    FixedVersion: 2:1.7.5-1ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43787
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[ibX11: integer overflow in XCreateImage() leading to a heap overflow]'
+    Description: integer overflow in XCreateImage() leading to a heap overflow
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43787
+    - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6408-1
+  - VulnerabilityID: CVE-2023-43785
+    PkgID: libx11-data@2:1.7.5-1ubuntu0.2
+    PkgName: libx11-data
+    InstalledVersion: 2:1.7.5-1ubuntu0.2
+    FixedVersion: 2:1.7.5-1ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43785
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[libX11: out-of-bounds memory access in _XkbReadKeySyms()]'
+    Description: out-of-bounds memory access in _XkbReadKeySyms()
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43785
+    - https://ubuntu.com/security/notices/USN-6407-1
+  - VulnerabilityID: CVE-2023-43786
+    PkgID: libx11-data@2:1.7.5-1ubuntu0.2
+    PkgName: libx11-data
+    InstalledVersion: 2:1.7.5-1ubuntu0.2
+    FixedVersion: 2:1.7.5-1ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43786
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[libX11: stack exhaustion from infinite recursion in PutSubImage()]'
+    Description: stack exhaustion from infinite recursion in PutSubImage()
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43786
+    - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6408-1
+  - VulnerabilityID: CVE-2023-43787
+    PkgID: libx11-data@2:1.7.5-1ubuntu0.2
+    PkgName: libx11-data
+    InstalledVersion: 2:1.7.5-1ubuntu0.2
+    FixedVersion: 2:1.7.5-1ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43787
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[ibX11: integer overflow in XCreateImage() leading to a heap overflow]'
+    Description: integer overflow in XCreateImage() leading to a heap overflow
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43787
+    - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6408-1
+  - VulnerabilityID: CVE-2023-43786
+    PkgID: libxpm4@1:3.5.12-1ubuntu0.22.04.1
+    PkgName: libxpm4
+    InstalledVersion: 1:3.5.12-1ubuntu0.22.04.1
+    FixedVersion: 1:3.5.12-1ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43786
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[libX11: stack exhaustion from infinite recursion in PutSubImage()]'
+    Description: stack exhaustion from infinite recursion in PutSubImage()
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43786
+    - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6408-1
+  - VulnerabilityID: CVE-2023-43787
+    PkgID: libxpm4@1:3.5.12-1ubuntu0.22.04.1
+    PkgName: libxpm4
+    InstalledVersion: 1:3.5.12-1ubuntu0.22.04.1
+    FixedVersion: 1:3.5.12-1ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43787
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[ibX11: integer overflow in XCreateImage() leading to a heap overflow]'
+    Description: integer overflow in XCreateImage() leading to a heap overflow
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43787
+    - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6408-1
+  - VulnerabilityID: CVE-2023-43788
+    PkgID: libxpm4@1:3.5.12-1ubuntu0.22.04.1
+    PkgName: libxpm4
+    InstalledVersion: 1:3.5.12-1ubuntu0.22.04.1
+    FixedVersion: 1:3.5.12-1ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43788
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[libXpm: out of bounds read in XpmCreateXpmImageFromBuffer()]'
+    Description: out of bounds read in XpmCreateXpmImageFromBuffer()
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43788
+    - https://ubuntu.com/security/notices/USN-6408-1
+  - VulnerabilityID: CVE-2023-43789
+    PkgID: libxpm4@1:3.5.12-1ubuntu0.22.04.1
+    PkgName: libxpm4
+    InstalledVersion: 1:3.5.12-1ubuntu0.22.04.1
+    FixedVersion: 1:3.5.12-1ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78a1dc43a09f924d8c5a61028b3
+      DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884e9692b142b9f97dca1d890e2f
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-43789
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[libXpm: out of bounds read on XPM with corrupted colormap]'
+    Description: out of bounds read on XPM with corrupted colormap
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43789
+    - https://ubuntu.com/security/notices/USN-6408-1
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
