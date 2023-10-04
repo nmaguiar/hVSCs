@@ -916,7 +916,49 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-08T14:22:00Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2016-20013 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2023-4911 
+│                       │      ├ PkgID           : libc-bin@2.35-0ubuntu3.3 
+│                       │      ├ PkgName         : libc-bin 
+│                       │      ├ InstalledVersion: 2.35-0ubuntu3.3 
+│                       │      ├ FixedVersion    : 2.35-0ubuntu3.4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4911 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : buffer overflow in ld.so leading to privilege escalation 
+│                       │      ├ Description     : A buffer overflow was discovered in the GNU C Library's
+│                       │      │                    dynamic loader ld.so while processing the GLIBC_TUNABLES
+│                       │      │                   environment variable. This issue could allow a local
+│                       │      │                   attacker to use maliciously crafted GLIBC_TUNABLES
+│                       │      │                   environment variables when launching binaries with SUID
+│                       │      │                   permission to execute code with elevated privileges.A buffer
+│                       │      │                    overflow was discovered in the GNU C Library's dynamic
+│                       │      │                   loader ld.so while processing the GLIBC_TUNABLES environment
+│                       │      │                    variable. This issue could allow a local attacker to use
+│                       │      │                   maliciously crafted GLIBC_TUNABLES environment variables
+│                       │      │                   when launching binaries with SUID permission to execute code
+│                       │      │                    with elevated privileges. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
+│                       │      │                           │           H/I:H/A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-4911 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │                         ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │                         ├ [5]: https://www.qualys.com/2023/10/03/cve-2023-4911/l
+│                       │                         │      ooney-tunables-local-privilege-escalation-glibc-ld-so.
+│                       │                         │      txt 
+│                       │                         ╰ [6]: https://www.qualys.com/cve-2023-4911/ 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc-bin@2.35-0ubuntu3.3 
 │                       │      ├ PkgName         : libc-bin 
 │                       │      ├ InstalledVersion: 2.35-0ubuntu3.3 
@@ -949,7 +991,49 @@
 │                       │      │                  ╰ [3]: https://twitter.com/solardiz/status/795601240151457793 
 │                       │      ├ PublishedDate   : 2022-02-19T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2022-03-03T16:43:00Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2016-20013 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2023-4911 
+│                       │      ├ PkgID           : libc6@2.35-0ubuntu3.3 
+│                       │      ├ PkgName         : libc6 
+│                       │      ├ InstalledVersion: 2.35-0ubuntu3.3 
+│                       │      ├ FixedVersion    : 2.35-0ubuntu3.4 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4911 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : buffer overflow in ld.so leading to privilege escalation 
+│                       │      ├ Description     : A buffer overflow was discovered in the GNU C Library's
+│                       │      │                    dynamic loader ld.so while processing the GLIBC_TUNABLES
+│                       │      │                   environment variable. This issue could allow a local
+│                       │      │                   attacker to use maliciously crafted GLIBC_TUNABLES
+│                       │      │                   environment variables when launching binaries with SUID
+│                       │      │                   permission to execute code with elevated privileges.A buffer
+│                       │      │                    overflow was discovered in the GNU C Library's dynamic
+│                       │      │                   loader ld.so while processing the GLIBC_TUNABLES environment
+│                       │      │                    variable. This issue could allow a local attacker to use
+│                       │      │                   maliciously crafted GLIBC_TUNABLES environment variables
+│                       │      │                   when launching binaries with SUID permission to execute code
+│                       │      │                    with elevated privileges. 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
+│                       │      │                           │           H/I:H/A:H 
+│                       │      │                           ╰ V3Score : 7.8 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-4911 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │                         ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │                         ├ [5]: https://www.qualys.com/2023/10/03/cve-2023-4911/l
+│                       │                         │      ooney-tunables-local-privilege-escalation-glibc-ld-so.
+│                       │                         │      txt 
+│                       │                         ╰ [6]: https://www.qualys.com/cve-2023-4911/ 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc6@2.35-0ubuntu3.3 
 │                       │      ├ PkgName         : libc6 
 │                       │      ├ InstalledVersion: 2.35-0ubuntu3.3 
@@ -982,7 +1066,7 @@
 │                       │      │                  ╰ [3]: https://twitter.com/solardiz/status/795601240151457793 
 │                       │      ├ PublishedDate   : 2022-02-19T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2022-03-03T16:43:00Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2023-34969 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2023-34969 
 │                       │      ├ PkgID           : libdbus-1-3@1.12.20-2ubuntu4.1 
 │                       │      ├ PkgName         : libdbus-1-3 
 │                       │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
@@ -1035,7 +1119,7 @@
 │                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                       │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-24T03:15:00Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libgcc-s1 
 │                       │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
@@ -1080,7 +1164,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-08T14:22:00Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2021-40812 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2021-40812 
 │                       │      ├ PkgID           : libgd3@2.3.0-2ubuntu2 
 │                       │      ├ PkgName         : libgd3 
 │                       │      ├ InstalledVersion: 2.3.0-2ubuntu2 
@@ -1116,7 +1200,7 @@
 │                       │      │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-40812 
 │                       │      ├ PublishedDate   : 2021-09-08T21:15:00Z 
 │                       │      ╰ LastModifiedDate: 2021-09-15T15:07:00Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2023-36054 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2023-36054 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.2 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.2 
@@ -1162,7 +1246,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2023-36054 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2023-36054 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.2 
 │                       │      ├ PkgName         : libk5crypto3 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.2 
@@ -1208,7 +1292,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2023-36054 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2023-36054 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.2 
 │                       │      ├ PkgName         : libkrb5-3 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.2 
@@ -1254,7 +1338,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2023-36054 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2023-36054 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.2 
 │                       │      ├ PkgName         : libkrb5support0 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.2 
@@ -1300,7 +1384,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                       │      ├ PublishedDate   : 2023-08-07T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2023-2953 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2023-2953 
 │                       │      ├ PkgID           : libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libldap-2.5-0 
 │                       │      ├ InstalledVersion: 2.5.16+dfsg-0ubuntu0.22.04.1 
@@ -1346,7 +1430,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
 │                       │      ├ PublishedDate   : 2023-05-30T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-02T16:46:00Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2020-22916 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2020-22916 
 │                       │      ├ PkgID           : liblzma5@5.2.5-2ubuntu1 
 │                       │      ├ PkgName         : liblzma5 
 │                       │      ├ InstalledVersion: 5.2.5-2ubuntu1 
@@ -1393,7 +1477,7 @@
 │                       │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-18T09:15:00Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2017-11164 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2017-11164 
 │                       │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libpcre3 
 │                       │      ├ InstalledVersion: 2:8.39-13ubuntu0.22.04.1 
@@ -1438,7 +1522,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                       │      ├ PublishedDate   : 2017-07-11T03:29:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-12T15:15:00Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2022-48522 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2022-48522 
 │                       │      ├ PkgID           : libperl5.34@5.34.0-3ubuntu1.2 
 │                       │      ├ PkgName         : libperl5.34 
 │                       │      ├ InstalledVersion: 5.34.0-3ubuntu1.2 
@@ -1472,7 +1556,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-48522 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-15T14:15:00Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2022-3857 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2022-3857 
 │                       │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                       │      ├ PkgName         : libpng16-16 
 │                       │      ├ InstalledVersion: 1.6.37-3build5 
@@ -1508,7 +1592,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
 │                       │      ├ PublishedDate   : 2023-03-06T23:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-06T13:15:00Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2023-4016 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2023-4016 
 │                       │      ├ PkgID           : libprocps8@2:3.3.17-6ubuntu2 
 │                       │      ├ PkgName         : libprocps8 
 │                       │      ├ InstalledVersion: 2:3.3.17-6ubuntu2 
@@ -1546,7 +1630,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : libpython3.10 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1597,7 +1681,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : libpython3.10-minimal 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1648,7 +1732,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : libpython3.10-stdlib 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -1699,7 +1783,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2022-46908 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2022-46908 
 │                       │      ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
 │                       │      ├ PkgName         : libsqlite3-0 
 │                       │      ├ InstalledVersion: 3.37.2-2ubuntu0.1 
@@ -1740,7 +1824,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-46908 
 │                       │      ├ PublishedDate   : 2022-12-12T06:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-03-07T18:21:00Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2023-2975 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2023-2975 
 │                       │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.10 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.10 
@@ -1818,7 +1902,7 @@
 │                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
 │                       │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libstdc++6 
 │                       │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
@@ -1863,7 +1947,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-08T14:22:00Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2018-10126 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2018-10126 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1902,7 +1986,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                       │      ├ PublishedDate   : 2018-04-21T21:29:00Z 
 │                       │      ╰ LastModifiedDate: 2021-03-15T22:31:00Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2023-1916 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2023-1916 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1942,7 +2026,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-1916 
 │                       │      ├ PublishedDate   : 2023-04-10T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-18T15:25:00Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2023-3164 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2023-3164 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1971,7 +2055,7 @@
 │                       │                         ├ [2]: https://gitlab.com/libtiff/libtiff/-/issues/542 
 │                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3164 
 │                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2023-3576 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2023-3576 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.5 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.5 
@@ -1996,7 +2080,233 @@
 │                       │                         │      E-2023-3576 
 │                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
 │                       │                         ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2022-4899 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2023-43785 
+│                       │      ├ PkgID           : libx11-6@2:1.7.5-1ubuntu0.2 
+│                       │      ├ PkgName         : libx11-6 
+│                       │      ├ InstalledVersion: 2:1.7.5-1ubuntu0.2 
+│                       │      ├ FixedVersion    : 2:1.7.5-1ubuntu0.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-43785 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : [libX11: out-of-bounds memory access in _XkbReadKeySyms()] 
+│                       │      ├ Description     : out-of-bounds memory access in _XkbReadKeySyms() 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-43785 
+│                       │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2023-43786 
+│                       │      ├ PkgID           : libx11-6@2:1.7.5-1ubuntu0.2 
+│                       │      ├ PkgName         : libx11-6 
+│                       │      ├ InstalledVersion: 2:1.7.5-1ubuntu0.2 
+│                       │      ├ FixedVersion    : 2:1.7.5-1ubuntu0.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-43786 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : [libX11: stack exhaustion from infinite recursion in
+│                       │      │                   PutSubImage()] 
+│                       │      ├ Description     : stack exhaustion from infinite recursion in PutSubImage() 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-43786 
+│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2023-43787 
+│                       │      ├ PkgID           : libx11-6@2:1.7.5-1ubuntu0.2 
+│                       │      ├ PkgName         : libx11-6 
+│                       │      ├ InstalledVersion: 2:1.7.5-1ubuntu0.2 
+│                       │      ├ FixedVersion    : 2:1.7.5-1ubuntu0.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-43787 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : [ibX11: integer overflow in XCreateImage() leading to a
+│                       │      │                    heap overflow] 
+│                       │      ├ Description     : integer overflow in XCreateImage() leading to a heap
+│                       │      │                   overflow 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-43787 
+│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2023-43785 
+│                       │      ├ PkgID           : libx11-data@2:1.7.5-1ubuntu0.2 
+│                       │      ├ PkgName         : libx11-data 
+│                       │      ├ InstalledVersion: 2:1.7.5-1ubuntu0.2 
+│                       │      ├ FixedVersion    : 2:1.7.5-1ubuntu0.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-43785 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : [libX11: out-of-bounds memory access in _XkbReadKeySyms()] 
+│                       │      ├ Description     : out-of-bounds memory access in _XkbReadKeySyms() 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-43785 
+│                       │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2023-43786 
+│                       │      ├ PkgID           : libx11-data@2:1.7.5-1ubuntu0.2 
+│                       │      ├ PkgName         : libx11-data 
+│                       │      ├ InstalledVersion: 2:1.7.5-1ubuntu0.2 
+│                       │      ├ FixedVersion    : 2:1.7.5-1ubuntu0.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-43786 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : [libX11: stack exhaustion from infinite recursion in
+│                       │      │                   PutSubImage()] 
+│                       │      ├ Description     : stack exhaustion from infinite recursion in PutSubImage() 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-43786 
+│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2023-43787 
+│                       │      ├ PkgID           : libx11-data@2:1.7.5-1ubuntu0.2 
+│                       │      ├ PkgName         : libx11-data 
+│                       │      ├ InstalledVersion: 2:1.7.5-1ubuntu0.2 
+│                       │      ├ FixedVersion    : 2:1.7.5-1ubuntu0.3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-43787 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : [ibX11: integer overflow in XCreateImage() leading to a
+│                       │      │                    heap overflow] 
+│                       │      ├ Description     : integer overflow in XCreateImage() leading to a heap
+│                       │      │                   overflow 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-43787 
+│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2023-43786 
+│                       │      ├ PkgID           : libxpm4@1:3.5.12-1ubuntu0.22.04.1 
+│                       │      ├ PkgName         : libxpm4 
+│                       │      ├ InstalledVersion: 1:3.5.12-1ubuntu0.22.04.1 
+│                       │      ├ FixedVersion    : 1:3.5.12-1ubuntu0.22.04.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-43786 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : [libX11: stack exhaustion from infinite recursion in
+│                       │      │                   PutSubImage()] 
+│                       │      ├ Description     : stack exhaustion from infinite recursion in PutSubImage() 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-43786 
+│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2023-43787 
+│                       │      ├ PkgID           : libxpm4@1:3.5.12-1ubuntu0.22.04.1 
+│                       │      ├ PkgName         : libxpm4 
+│                       │      ├ InstalledVersion: 1:3.5.12-1ubuntu0.22.04.1 
+│                       │      ├ FixedVersion    : 1:3.5.12-1ubuntu0.22.04.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-43787 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : [ibX11: integer overflow in XCreateImage() leading to a
+│                       │      │                    heap overflow] 
+│                       │      ├ Description     : integer overflow in XCreateImage() leading to a heap
+│                       │      │                   overflow 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-43787 
+│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2023-43788 
+│                       │      ├ PkgID           : libxpm4@1:3.5.12-1ubuntu0.22.04.1 
+│                       │      ├ PkgName         : libxpm4 
+│                       │      ├ InstalledVersion: 1:3.5.12-1ubuntu0.22.04.1 
+│                       │      ├ FixedVersion    : 1:3.5.12-1ubuntu0.22.04.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-43788 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : [libXpm: out of bounds read in
+│                       │      │                   XpmCreateXpmImageFromBuffer()] 
+│                       │      ├ Description     : out of bounds read in XpmCreateXpmImageFromBuffer() 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-43788 
+│                       │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2023-43789 
+│                       │      ├ PkgID           : libxpm4@1:3.5.12-1ubuntu0.22.04.1 
+│                       │      ├ PkgName         : libxpm4 
+│                       │      ├ InstalledVersion: 1:3.5.12-1ubuntu0.22.04.1 
+│                       │      ├ FixedVersion    : 1:3.5.12-1ubuntu0.22.04.2 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:8d717f7098e907a049456e6c5aaca3376b88b78
+│                       │      │                  │         a1dc43a09f924d8c5a61028b3 
+│                       │      │                  ╰ DiffID: sha256:8ee5a49da7814e2bc39b669f686b9947826f884
+│                       │      │                            e9692b142b9f97dca1d890e2f 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-43789 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : [libXpm: out of bounds read on XPM with corrupted colormap] 
+│                       │      ├ Description     : out of bounds read on XPM with corrupted colormap 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │                         │      E-2023-43789 
+│                       │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                       │      ├ PkgName         : libzstd1 
 │                       │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
@@ -2051,7 +2361,7 @@
 │                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-16T04:15:00Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : login 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2103,7 +2413,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.4 
 │                       │      ├ PkgName         : openssh-client 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.4 
@@ -2141,7 +2451,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.4 
 │                       │      ├ PkgName         : openssh-server 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.4 
@@ -2179,7 +2489,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.4 
 │                       │      ├ PkgName         : openssh-sftp-server 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.4 
@@ -2217,7 +2527,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2023-2975 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2023-2975 
 │                       │      ├ PkgID           : openssl@3.0.2-0ubuntu1.10 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.10 
@@ -2295,7 +2605,7 @@
 │                       │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20230714.txt 
 │                       │      ├ PublishedDate   : 2023-07-14T12:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-27T13:02:00Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2347,7 +2657,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2022-48522 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2022-48522 
 │                       │      ├ PkgID           : perl@5.34.0-3ubuntu1.2 
 │                       │      ├ PkgName         : perl 
 │                       │      ├ InstalledVersion: 5.34.0-3ubuntu1.2 
@@ -2381,7 +2691,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-48522 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-15T14:15:00Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2022-48522 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2022-48522 
 │                       │      ├ PkgID           : perl-base@5.34.0-3ubuntu1.2 
 │                       │      ├ PkgName         : perl-base 
 │                       │      ├ InstalledVersion: 5.34.0-3ubuntu1.2 
@@ -2415,7 +2725,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-48522 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-15T14:15:00Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2022-48522 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2022-48522 
 │                       │      ├ PkgID           : perl-modules-5.34@5.34.0-3ubuntu1.2 
 │                       │      ├ PkgName         : perl-modules-5.34 
 │                       │      ├ InstalledVersion: 5.34.0-3ubuntu1.2 
@@ -2449,7 +2759,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-48522 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-15T14:15:00Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2023-4016 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2023-4016 
 │                       │      ├ PkgID           : procps@2:3.3.17-6ubuntu2 
 │                       │      ├ PkgName         : procps 
 │                       │      ├ InstalledVersion: 2:3.3.17-6ubuntu2 
@@ -2487,7 +2797,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : python3.10 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -2538,7 +2848,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : python3.10-minimal 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -2589,7 +2899,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : uidmap 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2641,7 +2951,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.11 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.11 
@@ -2684,7 +2994,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.11 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.11 
@@ -2727,7 +3037,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.11 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.11 
@@ -2770,7 +3080,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ InstalledVersion: 1.21.2-2ubuntu1 
@@ -2810,7 +3120,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2022-05-13T20:52:00Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.11 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.11 
@@ -2853,7 +3163,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-05-03T12:15:00Z 
-│                       ╰ [65] ╭ VulnerabilityID : CVE-2020-22916 
+│                       ╰ [77] ╭ VulnerabilityID : CVE-2020-22916 
 │                              ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                              ├ PkgName         : xz-utils 
 │                              ├ InstalledVersion: 5.2.5-2ubuntu1 
