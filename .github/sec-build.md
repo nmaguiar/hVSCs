@@ -937,27 +937,30 @@
 │                       │      │                   environment variable. This issue could allow a local
 │                       │      │                   attacker to use maliciously crafted GLIBC_TUNABLES
 │                       │      │                   environment variables when launching binaries with SUID
-│                       │      │                   permission to execute code with elevated privileges.A buffer
-│                       │      │                    overflow was discovered in the GNU C Library's dynamic
-│                       │      │                   loader ld.so while processing the GLIBC_TUNABLES environment
-│                       │      │                    variable. This issue could allow a local attacker to use
-│                       │      │                   maliciously crafted GLIBC_TUNABLES environment variables
-│                       │      │                   when launching binaries with SUID permission to execute code
-│                       │      │                    with elevated privileges. 
+│                       │      │                   permission to execute code with elevated privileges.[
+│                       │      │                   m 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-4911 
-│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │                         ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │                         ├ [5]: https://www.qualys.com/2023/10/03/cve-2023-4911/l
-│                       │                         │      ooney-tunables-local-privilege-escalation-glibc-ld-so.
-│                       │                         │      txt 
-│                       │                         ╰ [6]: https://www.qualys.com/cve-2023-4911/ 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       10/03/2 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       10/03/3 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-4911 
+│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
+│                       │      │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │      │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
+│                       │      │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911/
+│                       │      │                  │       looney-tunables-local-privilege-escalation-glibc-ld-s
+│                       │      │                  │       o.txt 
+│                       │      │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+│                       │      ├ PublishedDate   : 2023-10-03T18:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc-bin@2.35-0ubuntu3.3 
 │                       │      ├ PkgName         : libc-bin 
@@ -1012,27 +1015,30 @@
 │                       │      │                   environment variable. This issue could allow a local
 │                       │      │                   attacker to use maliciously crafted GLIBC_TUNABLES
 │                       │      │                   environment variables when launching binaries with SUID
-│                       │      │                   permission to execute code with elevated privileges.A buffer
-│                       │      │                    overflow was discovered in the GNU C Library's dynamic
-│                       │      │                   loader ld.so while processing the GLIBC_TUNABLES environment
-│                       │      │                    variable. This issue could allow a local attacker to use
-│                       │      │                   maliciously crafted GLIBC_TUNABLES environment variables
-│                       │      │                   when launching binaries with SUID permission to execute code
-│                       │      │                    with elevated privileges. 
+│                       │      │                   permission to execute code with elevated privileges.[
+│                       │      │                   m 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-4911 
-│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │                         ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │                         ├ [5]: https://www.qualys.com/2023/10/03/cve-2023-4911/l
-│                       │                         │      ooney-tunables-local-privilege-escalation-glibc-ld-so.
-│                       │                         │      txt 
-│                       │                         ╰ [6]: https://www.qualys.com/cve-2023-4911/ 
+│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       10/03/2 
+│                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       10/03/3 
+│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-4911 
+│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
+│                       │      │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │      │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
+│                       │      │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911/
+│                       │      │                  │       looney-tunables-local-privilege-escalation-glibc-ld-s
+│                       │      │                  │       o.txt 
+│                       │      │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+│                       │      ├ PublishedDate   : 2023-10-03T18:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc6@2.35-0ubuntu3.3 
 │                       │      ├ PkgName         : libc6 
@@ -2070,7 +2076,18 @@
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Title           : memory leak in tiffcrop.c 
-│                       │      ├ Description     : No description is available for this CVE. 
+│                       │      ├ Description     : A memory leak flaw was found in Libtiff's tiffcrop
+│                       │      │                   utility. This issue occurs when tiffcrop operates on a TIFF
+│                       │      │                   image file, allowing an attacker to pass a crafted TIFF
+│                       │      │                   image file to tiffcrop utility, which causes this memory
+│                       │      │                   leak issue, resulting an application crash, eventually
+│                       │      │                   leading to a denial of service.A memory leak flaw was found
+│                       │      │                   in Libtiff's tiffcrop utility. This issue occurs when
+│                       │      │                   tiffcrop operates on a TIFF image file, allowing an attacker
+│                       │      │                    to pass a crafted TIFF image file to tiffcrop utility,
+│                       │      │                   which causes this memory leak issue, resulting an
+│                       │      │                   application crash, eventually leading to a denial of
+│                       │      │                   service. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
