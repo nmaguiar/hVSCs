@@ -947,20 +947,34 @@
 │                       │      │                  │       10/03/2 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023/
 │                       │      │                  │       10/03/3 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
-│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       10/05/1 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-4911 
-│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
-│                       │      │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │      │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
-│                       │      │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911/
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4911.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-12851.html 
+│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/4DBUQR
+│                       │      │                  │       RPB47TC3NJOUIBVWUGFHBJAFDL/ 
+│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/DFG4P7
+│                       │      │                  │       6UHHZEWQ26FWBXG76N2QLKKPZA/ 
+│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/NDAQWH
+│                       │      │                  │       TSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │      │                  ├ [12]: https://security.gentoo.org/glsa/202310-03 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │      │                  ├ [15]: https://www.debian.org/security/2023/dsa-5514 
+│                       │      │                  ├ [16]: https://www.qualys.com/2023/10/03/cve-2023-4911/
 │                       │      │                  │       looney-tunables-local-privilege-escalation-glibc-ld-s
 │                       │      │                  │       o.txt 
-│                       │      │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+│                       │      │                  ╰ [17]: https://www.qualys.com/cve-2023-4911/ 
 │                       │      ├ PublishedDate   : 2023-10-03T18:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
+│                       │      ╰ LastModifiedDate: 2023-10-05T03:15:00Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc-bin@2.35-0ubuntu3.3 
 │                       │      ├ PkgName         : libc-bin 
@@ -1025,20 +1039,34 @@
 │                       │      │                  │       10/03/2 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023/
 │                       │      │                  │       10/03/3 
-│                       │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
-│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       10/05/1 
+│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-4911 
-│                       │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │      │                  ├ [6] : https://ubuntu.com/security/notices/USN-6409-1 
-│                       │      │                  ├ [7] : https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │      │                  ├ [8] : https://www.debian.org/security/2023/dsa-5514 
-│                       │      │                  ├ [9] : https://www.qualys.com/2023/10/03/cve-2023-4911/
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4911.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-12851.html 
+│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/4DBUQR
+│                       │      │                  │       RPB47TC3NJOUIBVWUGFHBJAFDL/ 
+│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/DFG4P7
+│                       │      │                  │       6UHHZEWQ26FWBXG76N2QLKKPZA/ 
+│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/NDAQWH
+│                       │      │                  │       TSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
+│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │      │                  ├ [12]: https://security.gentoo.org/glsa/202310-03 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │      │                  ├ [15]: https://www.debian.org/security/2023/dsa-5514 
+│                       │      │                  ├ [16]: https://www.qualys.com/2023/10/03/cve-2023-4911/
 │                       │      │                  │       looney-tunables-local-privilege-escalation-glibc-ld-s
 │                       │      │                  │       o.txt 
-│                       │      │                  ╰ [10]: https://www.qualys.com/cve-2023-4911/ 
+│                       │      │                  ╰ [17]: https://www.qualys.com/cve-2023-4911/ 
 │                       │      ├ PublishedDate   : 2023-10-03T18:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-10-03T23:55:00Z 
+│                       │      ╰ LastModifiedDate: 2023-10-05T03:15:00Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc6@2.35-0ubuntu3.3 
 │                       │      ├ PkgName         : libc6 
@@ -2081,22 +2109,19 @@
 │                       │      │                   image file, allowing an attacker to pass a crafted TIFF
 │                       │      │                   image file to tiffcrop utility, which causes this memory
 │                       │      │                   leak issue, resulting an application crash, eventually
-│                       │      │                   leading to a denial of service.A memory leak flaw was found
-│                       │      │                   in Libtiff's tiffcrop utility. This issue occurs when
-│                       │      │                   tiffcrop operates on a TIFF image file, allowing an attacker
-│                       │      │                    to pass a crafted TIFF image file to tiffcrop utility,
-│                       │      │                   which causes this memory leak issue, resulting an
-│                       │      │                   application crash, eventually leading to a denial of
-│                       │      │                   service. 
+│                       │      │                   leading to a denial of service. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 5.5 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3576 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-3576 
-│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
-│                       │                         ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3576 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2219340 
+│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2023-3576 
+│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
+│                       │      ├ PublishedDate   : 2023-10-04T19:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-10-04T19:53:00Z 
 │                       ├ [48] ╭ VulnerabilityID : CVE-2023-43785 
 │                       │      ├ PkgID           : libx11-6@2:1.7.5-1ubuntu0.2 
 │                       │      ├ PkgName         : libx11-6 
@@ -2112,12 +2137,18 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : [libX11: out-of-bounds memory access in _XkbReadKeySyms()] 
-│                       │      ├ Description     : out-of-bounds memory access in _XkbReadKeySyms() 
+│                       │      ├ Title           : out-of-bounds memory access in _XkbReadKeySyms() 
+│                       │      ├ Description     : A vulnerability was found in libX11 due to a boundary
+│                       │      │                   condition within the _XkbReadKeySyms() function. This flaw
+│                       │      │                   allows a local user to trigger an out-of-bounds read error
+│                       │      │                   and read the contents of memory on the system. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43785 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2023-43785 
-│                       │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43785 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-43785 
 │                       ├ [49] ╭ VulnerabilityID : CVE-2023-43786 
 │                       │      ├ PkgID           : libx11-6@2:1.7.5-1ubuntu0.2 
 │                       │      ├ PkgName         : libx11-6 
@@ -2133,14 +2164,19 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : [libX11: stack exhaustion from infinite recursion in
-│                       │      │                   PutSubImage()] 
-│                       │      ├ Description     : stack exhaustion from infinite recursion in PutSubImage() 
+│                       │      ├ Title           : stack exhaustion from infinite recursion in PutSubImage() 
+│                       │      ├ Description     : A vulnerability was found in libX11 due to an infinite
+│                       │      │                   loop within the PutSubImage() function. This flaw allows a
+│                       │      │                   local user to consume all available system resources and
+│                       │      │                   cause a denial of service condition. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43786 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2023-43786 
-│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43786 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
 │                       ├ [50] ╭ VulnerabilityID : CVE-2023-43787 
 │                       │      ├ PkgID           : libx11-6@2:1.7.5-1ubuntu0.2 
 │                       │      ├ PkgName         : libx11-6 
@@ -2156,15 +2192,20 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : [ibX11: integer overflow in XCreateImage() leading to a
-│                       │      │                    heap overflow] 
-│                       │      ├ Description     : integer overflow in XCreateImage() leading to a heap
+│                       │      ├ Title           : integer overflow in XCreateImage() leading to a heap
 │                       │      │                   overflow 
+│                       │      ├ Description     : A vulnerability was found in libX11 due to an integer
+│                       │      │                   overflow within the XCreateImage() function. This flaw
+│                       │      │                   allows a local user to trigger an integer overflow and
+│                       │      │                   execute arbitrary code with elevated privileges. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43787 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2023-43787 
-│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43787 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
 │                       ├ [51] ╭ VulnerabilityID : CVE-2023-43785 
 │                       │      ├ PkgID           : libx11-data@2:1.7.5-1ubuntu0.2 
 │                       │      ├ PkgName         : libx11-data 
@@ -2180,12 +2221,18 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : [libX11: out-of-bounds memory access in _XkbReadKeySyms()] 
-│                       │      ├ Description     : out-of-bounds memory access in _XkbReadKeySyms() 
+│                       │      ├ Title           : out-of-bounds memory access in _XkbReadKeySyms() 
+│                       │      ├ Description     : A vulnerability was found in libX11 due to a boundary
+│                       │      │                   condition within the _XkbReadKeySyms() function. This flaw
+│                       │      │                   allows a local user to trigger an out-of-bounds read error
+│                       │      │                   and read the contents of memory on the system. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43785 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2023-43785 
-│                       │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43785 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-43785 
 │                       ├ [52] ╭ VulnerabilityID : CVE-2023-43786 
 │                       │      ├ PkgID           : libx11-data@2:1.7.5-1ubuntu0.2 
 │                       │      ├ PkgName         : libx11-data 
@@ -2201,14 +2248,19 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : [libX11: stack exhaustion from infinite recursion in
-│                       │      │                   PutSubImage()] 
-│                       │      ├ Description     : stack exhaustion from infinite recursion in PutSubImage() 
+│                       │      ├ Title           : stack exhaustion from infinite recursion in PutSubImage() 
+│                       │      ├ Description     : A vulnerability was found in libX11 due to an infinite
+│                       │      │                   loop within the PutSubImage() function. This flaw allows a
+│                       │      │                   local user to consume all available system resources and
+│                       │      │                   cause a denial of service condition. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43786 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2023-43786 
-│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43786 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
 │                       ├ [53] ╭ VulnerabilityID : CVE-2023-43787 
 │                       │      ├ PkgID           : libx11-data@2:1.7.5-1ubuntu0.2 
 │                       │      ├ PkgName         : libx11-data 
@@ -2224,15 +2276,20 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : [ibX11: integer overflow in XCreateImage() leading to a
-│                       │      │                    heap overflow] 
-│                       │      ├ Description     : integer overflow in XCreateImage() leading to a heap
+│                       │      ├ Title           : integer overflow in XCreateImage() leading to a heap
 │                       │      │                   overflow 
+│                       │      ├ Description     : A vulnerability was found in libX11 due to an integer
+│                       │      │                   overflow within the XCreateImage() function. This flaw
+│                       │      │                   allows a local user to trigger an integer overflow and
+│                       │      │                   execute arbitrary code with elevated privileges. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43787 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2023-43787 
-│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43787 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
 │                       ├ [54] ╭ VulnerabilityID : CVE-2023-43786 
 │                       │      ├ PkgID           : libxpm4@1:3.5.12-1ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libxpm4 
@@ -2248,14 +2305,19 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : [libX11: stack exhaustion from infinite recursion in
-│                       │      │                   PutSubImage()] 
-│                       │      ├ Description     : stack exhaustion from infinite recursion in PutSubImage() 
+│                       │      ├ Title           : stack exhaustion from infinite recursion in PutSubImage() 
+│                       │      ├ Description     : A vulnerability was found in libX11 due to an infinite
+│                       │      │                   loop within the PutSubImage() function. This flaw allows a
+│                       │      │                   local user to consume all available system resources and
+│                       │      │                   cause a denial of service condition. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43786 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2023-43786 
-│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43786 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
 │                       ├ [55] ╭ VulnerabilityID : CVE-2023-43787 
 │                       │      ├ PkgID           : libxpm4@1:3.5.12-1ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libxpm4 
@@ -2271,15 +2333,20 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : [ibX11: integer overflow in XCreateImage() leading to a
-│                       │      │                    heap overflow] 
-│                       │      ├ Description     : integer overflow in XCreateImage() leading to a heap
+│                       │      ├ Title           : integer overflow in XCreateImage() leading to a heap
 │                       │      │                   overflow 
+│                       │      ├ Description     : A vulnerability was found in libX11 due to an integer
+│                       │      │                   overflow within the XCreateImage() function. This flaw
+│                       │      │                   allows a local user to trigger an integer overflow and
+│                       │      │                   execute arbitrary code with elevated privileges. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43787 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2023-43787 
-│                       │                         ├ [1]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                         ╰ [2]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43787 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
+│                       │                         ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
 │                       ├ [56] ╭ VulnerabilityID : CVE-2023-43788 
 │                       │      ├ PkgID           : libxpm4@1:3.5.12-1ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libxpm4 
@@ -2295,13 +2362,19 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : [libXpm: out of bounds read in
-│                       │      │                   XpmCreateXpmImageFromBuffer()] 
-│                       │      ├ Description     : out of bounds read in XpmCreateXpmImageFromBuffer() 
+│                       │      ├ Title           : out of bounds read in XpmCreateXpmImageFromBuffer() 
+│                       │      ├ Description     : A vulnerability was found in libXpm due to a boundary
+│                       │      │                   condition within the XpmCreateXpmImageFromBuffer() function.
+│                       │      │                    This flaw allows a local to trigger an out-of-bounds read
+│                       │      │                   error and read the contents of memory on the system.[
+│                       │      │                   m 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43788 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2023-43788 
-│                       │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43788 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-43788 
 │                       ├ [57] ╭ VulnerabilityID : CVE-2023-43789 
 │                       │      ├ PkgID           : libxpm4@1:3.5.12-1ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libxpm4 
@@ -2317,12 +2390,15 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : [libXpm: out of bounds read on XPM with corrupted colormap] 
-│                       │      ├ Description     : out of bounds read on XPM with corrupted colormap 
+│                       │      ├ Title           : out of bounds read on XPM with corrupted colormap 
+│                       │      ├ Description     : No description is available for this CVE. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-43789 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2023-43789 
-│                       │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43789 
+│                       │                         ├ [3]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-43789 
 │                       ├ [58] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                       │      ├ PkgName         : libzstd1 
