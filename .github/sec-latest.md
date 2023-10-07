@@ -940,41 +940,55 @@
 │                       │      │                   permission to execute code with elevated privileges.[
 │                       │      │                   m 
 │                       │      ├ Severity        : HIGH 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
+│                       │      │                  │        │           H/I:H/A:H 
+│                       │      │                  │        ╰ V3Score : 7.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/
-│                       │      │                  │       10/03/2 
+│                       │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Oct/11 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023/
-│                       │      │                  │       10/03/3 
+│                       │      │                  │       10/03/2 
 │                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       10/03/3 
+│                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2023/
 │                       │      │                  │       10/05/1 
-│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
-│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2023:5453 
+│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2023:5454 
+│                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2023:5455 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2023:5476 
+│                       │      │                  ├ [8] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2234712 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2237782 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2237798 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2238352 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-4911 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4911.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-12851.html 
-│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2023-4911.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2023-12854.html 
+│                       │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/4DBUQR
 │                       │      │                  │       RPB47TC3NJOUIBVWUGFHBJAFDL/ 
-│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/DFG4P7
 │                       │      │                  │       6UHHZEWQ26FWBXG76N2QLKKPZA/ 
-│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/NDAQWH
 │                       │      │                  │       TSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
-│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │      │                  ├ [12]: https://security.gentoo.org/glsa/202310-03 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │      │                  ├ [15]: https://www.debian.org/security/2023/dsa-5514 
-│                       │      │                  ├ [16]: https://www.qualys.com/2023/10/03/cve-2023-4911/
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │      │                  ├ [22]: https://security.gentoo.org/glsa/202310-03 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │      │                  ├ [25]: https://www.debian.org/security/2023/dsa-5514 
+│                       │      │                  ├ [26]: https://www.qualys.com/2023/10/03/cve-2023-4911/
 │                       │      │                  │       looney-tunables-local-privilege-escalation-glibc-ld-s
 │                       │      │                  │       o.txt 
-│                       │      │                  ╰ [17]: https://www.qualys.com/cve-2023-4911/ 
+│                       │      │                  ╰ [27]: https://www.qualys.com/cve-2023-4911/ 
 │                       │      ├ PublishedDate   : 2023-10-03T18:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-10-05T03:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-10-06T06:15:00Z 
 │                       ├ [22] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc-bin@2.35-0ubuntu3.3 
 │                       │      ├ PkgName         : libc-bin 
@@ -1032,41 +1046,55 @@
 │                       │      │                   permission to execute code with elevated privileges.[
 │                       │      │                   m 
 │                       │      ├ Severity        : HIGH 
-│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
+│                       │      ├ CweIDs           ─ [0]: CWE-787 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
+│                       │      │                  │        │           H/I:H/A:H 
+│                       │      │                  │        ╰ V3Score : 7.8 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                           │           H/I:H/A:H 
 │                       │      │                           ╰ V3Score : 7.8 
-│                       │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023/
-│                       │      │                  │       10/03/2 
+│                       │      ├ References       ╭ [0] : http://seclists.org/fulldisclosure/2023/Oct/11 
 │                       │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2023/
-│                       │      │                  │       10/03/3 
+│                       │      │                  │       10/03/2 
 │                       │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2023/
+│                       │      │                  │       10/03/3 
+│                       │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2023/
 │                       │      │                  │       10/05/1 
-│                       │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-4911 
-│                       │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
-│                       │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  ├ [4] : https://access.redhat.com/errata/RHSA-2023:5453 
+│                       │      │                  ├ [5] : https://access.redhat.com/errata/RHSA-2023:5454 
+│                       │      │                  ├ [6] : https://access.redhat.com/errata/RHSA-2023:5455 
+│                       │      │                  ├ [7] : https://access.redhat.com/errata/RHSA-2023:5476 
+│                       │      │                  ├ [8] : https://access.redhat.com/security/cve/CVE-2023-4911 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2234712 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2237782 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2237798 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2238352 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2238352 
+│                       │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-4911 
-│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4911.html 
-│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-12851.html 
-│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2023-4911.html 
+│                       │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2023-12854.html 
+│                       │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/4DBUQR
 │                       │      │                  │       RPB47TC3NJOUIBVWUGFHBJAFDL/ 
-│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/DFG4P7
 │                       │      │                  │       6UHHZEWQ26FWBXG76N2QLKKPZA/ 
-│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/NDAQWH
 │                       │      │                  │       TSVOCOZ5K6KPIWKRT3JX4RTZUR/ 
-│                       │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
-│                       │      │                  ├ [12]: https://security.gentoo.org/glsa/202310-03 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6409-1 
-│                       │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
-│                       │      │                  ├ [15]: https://www.debian.org/security/2023/dsa-5514 
-│                       │      │                  ├ [16]: https://www.qualys.com/2023/10/03/cve-2023-4911/
+│                       │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-4911 
+│                       │      │                  ├ [22]: https://security.gentoo.org/glsa/202310-03 
+│                       │      │                  ├ [23]: https://ubuntu.com/security/notices/USN-6409-1 
+│                       │      │                  ├ [24]: https://www.cve.org/CVERecord?id=CVE-2023-4911 
+│                       │      │                  ├ [25]: https://www.debian.org/security/2023/dsa-5514 
+│                       │      │                  ├ [26]: https://www.qualys.com/2023/10/03/cve-2023-4911/
 │                       │      │                  │       looney-tunables-local-privilege-escalation-glibc-ld-s
 │                       │      │                  │       o.txt 
-│                       │      │                  ╰ [17]: https://www.qualys.com/cve-2023-4911/ 
+│                       │      │                  ╰ [27]: https://www.qualys.com/cve-2023-4911/ 
 │                       │      ├ PublishedDate   : 2023-10-03T18:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-10-05T03:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-10-06T06:15:00Z 
 │                       ├ [24] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc6@2.35-0ubuntu3.3 
 │                       │      ├ PkgName         : libc6 
