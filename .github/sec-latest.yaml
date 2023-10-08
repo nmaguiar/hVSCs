@@ -839,6 +839,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://packetstormsecurity.com/files/174986/glibc-ld.so-Local-Privilege-Escalation.html
     - http://seclists.org/fulldisclosure/2023/Oct/11
     - http://www.openwall.com/lists/oss-security/2023/10/03/2
     - http://www.openwall.com/lists/oss-security/2023/10/03/3
@@ -868,7 +869,7 @@
     - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
     - https://www.qualys.com/cve-2023-4911/
     PublishedDate: '2023-10-03T18:15:00Z'
-    LastModifiedDate: '2023-10-06T06:15:00Z'
+    LastModifiedDate: '2023-10-06T17:15:00Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.3
     PkgName: libc-bin
@@ -928,6 +929,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 7.8
     References:
+    - http://packetstormsecurity.com/files/174986/glibc-ld.so-Local-Privilege-Escalation.html
     - http://seclists.org/fulldisclosure/2023/Oct/11
     - http://www.openwall.com/lists/oss-security/2023/10/03/2
     - http://www.openwall.com/lists/oss-security/2023/10/03/3
@@ -957,7 +959,7 @@
     - https://www.qualys.com/2023/10/03/cve-2023-4911/looney-tunables-local-privilege-escalation-glibc-ld-so.txt
     - https://www.qualys.com/cve-2023-4911/
     PublishedDate: '2023-10-03T18:15:00Z'
-    LastModifiedDate: '2023-10-06T06:15:00Z'
+    LastModifiedDate: '2023-10-06T17:15:00Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.3
     PkgName: libc6
