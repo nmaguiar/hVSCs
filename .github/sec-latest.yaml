@@ -853,11 +853,18 @@
     - https://bugzilla.redhat.com/2237782
     - https://bugzilla.redhat.com/2237798
     - https://bugzilla.redhat.com/2238352
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
     - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
     - https://errata.almalinux.org/9/ALSA-2023-5453.html
+    - https://errata.rockylinux.org/RLSA-2023:5455
     - https://linux.oracle.com/cve/CVE-2023-4911.html
-    - https://linux.oracle.com/errata/ELSA-2023-12854.html
+    - https://linux.oracle.com/errata/ELSA-2023-5455.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
@@ -943,11 +950,18 @@
     - https://bugzilla.redhat.com/2237782
     - https://bugzilla.redhat.com/2237798
     - https://bugzilla.redhat.com/2238352
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
     - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
     - https://errata.almalinux.org/9/ALSA-2023-5453.html
+    - https://errata.rockylinux.org/RLSA-2023:5455
     - https://linux.oracle.com/cve/CVE-2023-4911.html
-    - https://linux.oracle.com/errata/ELSA-2023-12854.html
+    - https://linux.oracle.com/errata/ELSA-2023-5455.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
@@ -1899,6 +1913,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43785
     - https://nvd.nist.gov/vuln/detail/CVE-2023-43785
     - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6407-2
     - https://www.cve.org/CVERecord?id=CVE-2023-43785
   - VulnerabilityID: CVE-2023-43786
     PkgID: libx11-6@2:1.7.5-1ubuntu0.2
@@ -1923,6 +1938,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43786
     - https://nvd.nist.gov/vuln/detail/CVE-2023-43786
     - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6407-2
     - https://ubuntu.com/security/notices/USN-6408-1
     - https://www.cve.org/CVERecord?id=CVE-2023-43786
   - VulnerabilityID: CVE-2023-43787
@@ -1948,6 +1964,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43787
     - https://nvd.nist.gov/vuln/detail/CVE-2023-43787
     - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6407-2
     - https://ubuntu.com/security/notices/USN-6408-1
     - https://www.cve.org/CVERecord?id=CVE-2023-43787
   - VulnerabilityID: CVE-2023-43785
@@ -1973,6 +1990,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43785
     - https://nvd.nist.gov/vuln/detail/CVE-2023-43785
     - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6407-2
     - https://www.cve.org/CVERecord?id=CVE-2023-43785
   - VulnerabilityID: CVE-2023-43786
     PkgID: libx11-data@2:1.7.5-1ubuntu0.2
@@ -1997,6 +2015,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43786
     - https://nvd.nist.gov/vuln/detail/CVE-2023-43786
     - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6407-2
     - https://ubuntu.com/security/notices/USN-6408-1
     - https://www.cve.org/CVERecord?id=CVE-2023-43786
   - VulnerabilityID: CVE-2023-43787
@@ -2022,6 +2041,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43787
     - https://nvd.nist.gov/vuln/detail/CVE-2023-43787
     - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6407-2
     - https://ubuntu.com/security/notices/USN-6408-1
     - https://www.cve.org/CVERecord?id=CVE-2023-43787
   - VulnerabilityID: CVE-2023-43786
@@ -2047,6 +2067,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43786
     - https://nvd.nist.gov/vuln/detail/CVE-2023-43786
     - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6407-2
     - https://ubuntu.com/security/notices/USN-6408-1
     - https://www.cve.org/CVERecord?id=CVE-2023-43786
   - VulnerabilityID: CVE-2023-43787
@@ -2072,6 +2093,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43787
     - https://nvd.nist.gov/vuln/detail/CVE-2023-43787
     - https://ubuntu.com/security/notices/USN-6407-1
+    - https://ubuntu.com/security/notices/USN-6407-2
     - https://ubuntu.com/security/notices/USN-6408-1
     - https://www.cve.org/CVERecord?id=CVE-2023-43787
   - VulnerabilityID: CVE-2023-43788
@@ -2654,6 +2676,222 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:00Z'
     LastModifiedDate: '2023-04-24T18:05:00Z'
+  - VulnerabilityID: CVE-2022-3234
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3234
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0483.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3234
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3234
+    - https://github.com/vim/vim/commit/c249913edc35c0e666d783bfc21595cf9f7d9e0d
+    - https://huntr.dev/bounties/90fdf374-bf04-4386-8a23-38c83b88f0da
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3234
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3234
+    PublishedDate: '2022-09-17T22:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3235
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3235
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0490.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3235
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3235
+    - https://github.com/vim/vim/commit/1c3dd8ddcba63c1af5112e567215b3cec2de11d0
+    - https://huntr.dev/bounties/96d5f7a0-a834-4571-b73b-0fe523b941af
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3235
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3235
+    PublishedDate: '2022-09-18T20:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3256
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3256
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in movemark() at mark.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0530.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3256
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3256
+    - https://github.com/vim/vim/commit/8ecfa2c56b4992c7f067b92488aa9acea5a454ad
+    - https://huntr.dev/bounties/8336a3df-212a-4f8d-ae34-76ef1f936bb3
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3256
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3256
+    PublishedDate: '2022-09-22T13:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3324
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3324
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: stack buffer overflow in win_redr_ruler() at drawscreen.c
+    Description: Stack-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0598.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3324
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3324
+    - https://github.com/vim/vim/commit/8279af514ca7e5fd3c31cf13b0864163d1a0bfeb
+    - https://huntr.dev/bounties/e414e55b-f332-491f-863b-c18dca97403c
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3324
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3324
+    PublishedDate: '2022-09-27T23:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3705
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3705
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: a use after free in the function qf_update_buffer
+    Description: A vulnerability was found in vim and classified as problematic. Affected by this issue is the function qf_update_buffer of the file quickfix.c of the component autocmd Handler. The manipulation leads to use after free. The attack may be launched remotely. Upgrading to version 9.0.0805 is able to address this issue. The name of the patch is d0fab10ed2a86698937e3c3fed2f10bd9bb5e731. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-212324.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - http://seclists.org/fulldisclosure/2023/Jan/19
+    - https://access.redhat.com/security/cve/CVE-2022-3705
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3705
+    - https://github.com/vim/vim/commit/d0fab10ed2a86698937e3c3fed2f10bd9bb5e731
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4JCW33NOLMELTTTDJH7WGDIFJZ5YEEMK/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JYEK5RNMH7MVQH6RPBKLSCCA6NMIKHDV/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3705
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20221223-0004/
+    - https://support.apple.com/kb/HT213605
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://vuldb.com/?id.212324
+    - https://www.cve.org/CVERecord?id=CVE-2022-3705
+    PublishedDate: '2022-10-26T20:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim@2:8.2.3995-1ubuntu2.11
     PkgName: vim
@@ -2694,6 +2932,540 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
+  - VulnerabilityID: CVE-2022-3278
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3278
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: null pointer dereference in eval_next_non_blank() in eval.c
+    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0552.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3278
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3278
+    - https://github.com/vim/vim/commit/69082916c8b5d321545d60b9f5facad0a2dd5a4e
+    - https://huntr.dev/bounties/a9fad77e-f245-4ce9-ba15-c7d4c86c4612
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3278
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3278
+    PublishedDate: '2022-09-23T22:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3297
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3297
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in process_next_cpt_value() at insexpand.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0579.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3297
+    - https://github.com/vim/vim/commit/0ff01835a40f549c5c4a550502f62a2ac9ac447c
+    - https://huntr.dev/bounties/1aa9ec92-0355-4710-bf85-5bce9effa01c
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3297
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3297
+    PublishedDate: '2022-09-25T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3352
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3352
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use after free
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0614.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3352
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3352
+    - https://github.com/vim/vim/commit/ef976323e770315b5fca544efb6b2faa25674d15
+    - https://huntr.dev/bounties/d058f182-a49b-40c7-9234-43d4c5a29f60
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3352
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3352
+    PublishedDate: '2022-09-29T12:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3491
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3491
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow prior to 9.0.0742
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0742.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3491
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3491
+    - https://github.com/vim/vim/commit/3558afe9e9e904cabb8475392d859f2d2fc21041
+    - https://huntr.dev/bounties/6e6e05c2-2cf7-4aa5-a817-a62007bf92cb
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3491
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3491
+    PublishedDate: '2022-12-03T13:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3520
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3520
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Heap-based Buffer Overflow'
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0765.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3520
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3520
+    - https://github.com/vim/vim/commit/36343ae0fb7247e060abfd35fb8e4337b33abb4b
+    - https://huntr.dev/bounties/c1db3b70-f4fe-481f-8a24-0b1449c94246
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3520
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3520
+    PublishedDate: '2022-12-02T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3591
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3591
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Use After Free'
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0789.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3591
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3591
+    - https://github.com/vim/vim/commit/8f3c3c6cd044e3b5bf08dbfa3b3f04bb3f711bad
+    - https://huntr.dev/bounties/a5a998c2-4b07-47a7-91be-dbc1886b3921
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3591
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3591
+    PublishedDate: '2022-12-02T17:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-4292
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4292
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in did_set_spelllang() in src/spell.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0882.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-4292
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4292
+    - https://github.com/vim/vim/commit/c3d27ada14acd02db357f2d16347acc22cb17e93
+    - https://huntr.dev/bounties/da3d4c47-e57a-451e-993d-9df0ed31f57b
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WYC22GGZ6QA66HLNLHCTAJU265TT3O33/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-4292
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20230113-0005/
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-4292
+    PublishedDate: '2022-12-05T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-4293
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4293
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: floating point exception in num_divide() in src/eval.c
+    Description: Floating Point Comparison with Incorrect Operator in GitHub repository vim/vim prior to 9.0.0804.
+    Severity: LOW
+    CweIDs:
+    - CWE-1077
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-4293
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4293
+    - https://github.com/vim/vim/commit/cdef1cefa2a440911c727558562f83ed9b00e16b
+    - https://huntr.dev/bounties/385a835f-6e33-4d00-acce-ac99f3939143
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-4293
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20230203-0007/
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-4293
+    PublishedDate: '2022-12-05T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3234
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3234
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0483.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3234
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3234
+    - https://github.com/vim/vim/commit/c249913edc35c0e666d783bfc21595cf9f7d9e0d
+    - https://huntr.dev/bounties/90fdf374-bf04-4386-8a23-38c83b88f0da
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3234
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3234
+    PublishedDate: '2022-09-17T22:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3235
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3235
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0490.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3235
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3235
+    - https://github.com/vim/vim/commit/1c3dd8ddcba63c1af5112e567215b3cec2de11d0
+    - https://huntr.dev/bounties/96d5f7a0-a834-4571-b73b-0fe523b941af
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3235
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3235
+    PublishedDate: '2022-09-18T20:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3256
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3256
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in movemark() at mark.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0530.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3256
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3256
+    - https://github.com/vim/vim/commit/8ecfa2c56b4992c7f067b92488aa9acea5a454ad
+    - https://huntr.dev/bounties/8336a3df-212a-4f8d-ae34-76ef1f936bb3
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3256
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3256
+    PublishedDate: '2022-09-22T13:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3324
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3324
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: stack buffer overflow in win_redr_ruler() at drawscreen.c
+    Description: Stack-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0598.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3324
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3324
+    - https://github.com/vim/vim/commit/8279af514ca7e5fd3c31cf13b0864163d1a0bfeb
+    - https://huntr.dev/bounties/e414e55b-f332-491f-863b-c18dca97403c
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3324
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3324
+    PublishedDate: '2022-09-27T23:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3705
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3705
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: a use after free in the function qf_update_buffer
+    Description: A vulnerability was found in vim and classified as problematic. Affected by this issue is the function qf_update_buffer of the file quickfix.c of the component autocmd Handler. The manipulation leads to use after free. The attack may be launched remotely. Upgrading to version 9.0.0805 is able to address this issue. The name of the patch is d0fab10ed2a86698937e3c3fed2f10bd9bb5e731. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-212324.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - http://seclists.org/fulldisclosure/2023/Jan/19
+    - https://access.redhat.com/security/cve/CVE-2022-3705
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3705
+    - https://github.com/vim/vim/commit/d0fab10ed2a86698937e3c3fed2f10bd9bb5e731
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4JCW33NOLMELTTTDJH7WGDIFJZ5YEEMK/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JYEK5RNMH7MVQH6RPBKLSCCA6NMIKHDV/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3705
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20221223-0004/
+    - https://support.apple.com/kb/HT213605
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://vuldb.com/?id.212324
+    - https://www.cve.org/CVERecord?id=CVE-2022-3705
+    PublishedDate: '2022-10-26T20:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim-common@2:8.2.3995-1ubuntu2.11
     PkgName: vim-common
@@ -2734,6 +3506,540 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
+  - VulnerabilityID: CVE-2022-3278
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3278
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: null pointer dereference in eval_next_non_blank() in eval.c
+    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0552.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3278
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3278
+    - https://github.com/vim/vim/commit/69082916c8b5d321545d60b9f5facad0a2dd5a4e
+    - https://huntr.dev/bounties/a9fad77e-f245-4ce9-ba15-c7d4c86c4612
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3278
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3278
+    PublishedDate: '2022-09-23T22:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3297
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3297
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in process_next_cpt_value() at insexpand.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0579.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3297
+    - https://github.com/vim/vim/commit/0ff01835a40f549c5c4a550502f62a2ac9ac447c
+    - https://huntr.dev/bounties/1aa9ec92-0355-4710-bf85-5bce9effa01c
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3297
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3297
+    PublishedDate: '2022-09-25T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3352
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3352
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use after free
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0614.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3352
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3352
+    - https://github.com/vim/vim/commit/ef976323e770315b5fca544efb6b2faa25674d15
+    - https://huntr.dev/bounties/d058f182-a49b-40c7-9234-43d4c5a29f60
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3352
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3352
+    PublishedDate: '2022-09-29T12:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3491
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3491
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow prior to 9.0.0742
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0742.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3491
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3491
+    - https://github.com/vim/vim/commit/3558afe9e9e904cabb8475392d859f2d2fc21041
+    - https://huntr.dev/bounties/6e6e05c2-2cf7-4aa5-a817-a62007bf92cb
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3491
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3491
+    PublishedDate: '2022-12-03T13:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3520
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3520
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Heap-based Buffer Overflow'
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0765.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3520
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3520
+    - https://github.com/vim/vim/commit/36343ae0fb7247e060abfd35fb8e4337b33abb4b
+    - https://huntr.dev/bounties/c1db3b70-f4fe-481f-8a24-0b1449c94246
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3520
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3520
+    PublishedDate: '2022-12-02T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3591
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3591
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Use After Free'
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0789.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3591
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3591
+    - https://github.com/vim/vim/commit/8f3c3c6cd044e3b5bf08dbfa3b3f04bb3f711bad
+    - https://huntr.dev/bounties/a5a998c2-4b07-47a7-91be-dbc1886b3921
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3591
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3591
+    PublishedDate: '2022-12-02T17:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-4292
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4292
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in did_set_spelllang() in src/spell.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0882.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-4292
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4292
+    - https://github.com/vim/vim/commit/c3d27ada14acd02db357f2d16347acc22cb17e93
+    - https://huntr.dev/bounties/da3d4c47-e57a-451e-993d-9df0ed31f57b
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WYC22GGZ6QA66HLNLHCTAJU265TT3O33/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-4292
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20230113-0005/
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-4292
+    PublishedDate: '2022-12-05T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-4293
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4293
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: floating point exception in num_divide() in src/eval.c
+    Description: Floating Point Comparison with Incorrect Operator in GitHub repository vim/vim prior to 9.0.0804.
+    Severity: LOW
+    CweIDs:
+    - CWE-1077
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-4293
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4293
+    - https://github.com/vim/vim/commit/cdef1cefa2a440911c727558562f83ed9b00e16b
+    - https://huntr.dev/bounties/385a835f-6e33-4d00-acce-ac99f3939143
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-4293
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20230203-0007/
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-4293
+    PublishedDate: '2022-12-05T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3234
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3234
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0483.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3234
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3234
+    - https://github.com/vim/vim/commit/c249913edc35c0e666d783bfc21595cf9f7d9e0d
+    - https://huntr.dev/bounties/90fdf374-bf04-4386-8a23-38c83b88f0da
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3234
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3234
+    PublishedDate: '2022-09-17T22:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3235
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3235
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0490.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3235
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3235
+    - https://github.com/vim/vim/commit/1c3dd8ddcba63c1af5112e567215b3cec2de11d0
+    - https://huntr.dev/bounties/96d5f7a0-a834-4571-b73b-0fe523b941af
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3235
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3235
+    PublishedDate: '2022-09-18T20:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3256
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3256
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in movemark() at mark.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0530.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3256
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3256
+    - https://github.com/vim/vim/commit/8ecfa2c56b4992c7f067b92488aa9acea5a454ad
+    - https://huntr.dev/bounties/8336a3df-212a-4f8d-ae34-76ef1f936bb3
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3256
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3256
+    PublishedDate: '2022-09-22T13:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3324
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3324
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: stack buffer overflow in win_redr_ruler() at drawscreen.c
+    Description: Stack-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0598.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3324
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3324
+    - https://github.com/vim/vim/commit/8279af514ca7e5fd3c31cf13b0864163d1a0bfeb
+    - https://huntr.dev/bounties/e414e55b-f332-491f-863b-c18dca97403c
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3324
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3324
+    PublishedDate: '2022-09-27T23:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3705
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3705
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: a use after free in the function qf_update_buffer
+    Description: A vulnerability was found in vim and classified as problematic. Affected by this issue is the function qf_update_buffer of the file quickfix.c of the component autocmd Handler. The manipulation leads to use after free. The attack may be launched remotely. Upgrading to version 9.0.0805 is able to address this issue. The name of the patch is d0fab10ed2a86698937e3c3fed2f10bd9bb5e731. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-212324.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - http://seclists.org/fulldisclosure/2023/Jan/19
+    - https://access.redhat.com/security/cve/CVE-2022-3705
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3705
+    - https://github.com/vim/vim/commit/d0fab10ed2a86698937e3c3fed2f10bd9bb5e731
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4JCW33NOLMELTTTDJH7WGDIFJZ5YEEMK/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JYEK5RNMH7MVQH6RPBKLSCCA6NMIKHDV/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3705
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20221223-0004/
+    - https://support.apple.com/kb/HT213605
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://vuldb.com/?id.212324
+    - https://www.cve.org/CVERecord?id=CVE-2022-3705
+    PublishedDate: '2022-10-26T20:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
     PkgName: vim-runtime
@@ -2774,6 +4080,324 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
+  - VulnerabilityID: CVE-2022-3278
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3278
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: null pointer dereference in eval_next_non_blank() in eval.c
+    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0552.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3278
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3278
+    - https://github.com/vim/vim/commit/69082916c8b5d321545d60b9f5facad0a2dd5a4e
+    - https://huntr.dev/bounties/a9fad77e-f245-4ce9-ba15-c7d4c86c4612
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3278
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3278
+    PublishedDate: '2022-09-23T22:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3297
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3297
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in process_next_cpt_value() at insexpand.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0579.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3297
+    - https://github.com/vim/vim/commit/0ff01835a40f549c5c4a550502f62a2ac9ac447c
+    - https://huntr.dev/bounties/1aa9ec92-0355-4710-bf85-5bce9effa01c
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3297
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3297
+    PublishedDate: '2022-09-25T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3352
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3352
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use after free
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0614.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3352
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3352
+    - https://github.com/vim/vim/commit/ef976323e770315b5fca544efb6b2faa25674d15
+    - https://huntr.dev/bounties/d058f182-a49b-40c7-9234-43d4c5a29f60
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3352
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3352
+    PublishedDate: '2022-09-29T12:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3491
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3491
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow prior to 9.0.0742
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0742.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3491
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3491
+    - https://github.com/vim/vim/commit/3558afe9e9e904cabb8475392d859f2d2fc21041
+    - https://huntr.dev/bounties/6e6e05c2-2cf7-4aa5-a817-a62007bf92cb
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3491
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3491
+    PublishedDate: '2022-12-03T13:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3520
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3520
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Heap-based Buffer Overflow'
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0765.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3520
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3520
+    - https://github.com/vim/vim/commit/36343ae0fb7247e060abfd35fb8e4337b33abb4b
+    - https://huntr.dev/bounties/c1db3b70-f4fe-481f-8a24-0b1449c94246
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3520
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3520
+    PublishedDate: '2022-12-02T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3591
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3591
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Use After Free'
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0789.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3591
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3591
+    - https://github.com/vim/vim/commit/8f3c3c6cd044e3b5bf08dbfa3b3f04bb3f711bad
+    - https://huntr.dev/bounties/a5a998c2-4b07-47a7-91be-dbc1886b3921
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3591
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3591
+    PublishedDate: '2022-12-02T17:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-4292
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4292
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in did_set_spelllang() in src/spell.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0882.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-4292
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4292
+    - https://github.com/vim/vim/commit/c3d27ada14acd02db357f2d16347acc22cb17e93
+    - https://huntr.dev/bounties/da3d4c47-e57a-451e-993d-9df0ed31f57b
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WYC22GGZ6QA66HLNLHCTAJU265TT3O33/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-4292
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20230113-0005/
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-4292
+    PublishedDate: '2022-12-05T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-4293
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4293
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: floating point exception in num_divide() in src/eval.c
+    Description: Floating Point Comparison with Incorrect Operator in GitHub repository vim/vim prior to 9.0.0804.
+    Severity: LOW
+    CweIDs:
+    - CWE-1077
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-4293
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4293
+    - https://github.com/vim/vim/commit/cdef1cefa2a440911c727558562f83ed9b00e16b
+    - https://huntr.dev/bounties/385a835f-6e33-4d00-acce-ac99f3939143
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-4293
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20230203-0007/
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-4293
+    PublishedDate: '2022-12-05T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1
     PkgName: wget
@@ -2812,6 +4436,222 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:00Z'
     LastModifiedDate: '2022-05-13T20:52:00Z'
+  - VulnerabilityID: CVE-2022-3234
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3234
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0483.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3234
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3234
+    - https://github.com/vim/vim/commit/c249913edc35c0e666d783bfc21595cf9f7d9e0d
+    - https://huntr.dev/bounties/90fdf374-bf04-4386-8a23-38c83b88f0da
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3234
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3234
+    PublishedDate: '2022-09-17T22:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3235
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3235
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0490.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3235
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3235
+    - https://github.com/vim/vim/commit/1c3dd8ddcba63c1af5112e567215b3cec2de11d0
+    - https://huntr.dev/bounties/96d5f7a0-a834-4571-b73b-0fe523b941af
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3235
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3235
+    PublishedDate: '2022-09-18T20:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3256
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3256
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in movemark() at mark.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0530.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3256
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3256
+    - https://github.com/vim/vim/commit/8ecfa2c56b4992c7f067b92488aa9acea5a454ad
+    - https://huntr.dev/bounties/8336a3df-212a-4f8d-ae34-76ef1f936bb3
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3256
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3256
+    PublishedDate: '2022-09-22T13:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3324
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3324
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: stack buffer overflow in win_redr_ruler() at drawscreen.c
+    Description: Stack-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0598.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3324
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3324
+    - https://github.com/vim/vim/commit/8279af514ca7e5fd3c31cf13b0864163d1a0bfeb
+    - https://huntr.dev/bounties/e414e55b-f332-491f-863b-c18dca97403c
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3324
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3324
+    PublishedDate: '2022-09-27T23:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3705
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3705
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: a use after free in the function qf_update_buffer
+    Description: A vulnerability was found in vim and classified as problematic. Affected by this issue is the function qf_update_buffer of the file quickfix.c of the component autocmd Handler. The manipulation leads to use after free. The attack may be launched remotely. Upgrading to version 9.0.0805 is able to address this issue. The name of the patch is d0fab10ed2a86698937e3c3fed2f10bd9bb5e731. It is recommended to upgrade the affected component. The identifier of this vulnerability is VDB-212324.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - http://seclists.org/fulldisclosure/2023/Jan/19
+    - https://access.redhat.com/security/cve/CVE-2022-3705
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3705
+    - https://github.com/vim/vim/commit/d0fab10ed2a86698937e3c3fed2f10bd9bb5e731
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00009.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4JCW33NOLMELTTTDJH7WGDIFJZ5YEEMK/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JYEK5RNMH7MVQH6RPBKLSCCA6NMIKHDV/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3705
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20221223-0004/
+    - https://support.apple.com/kb/HT213605
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://vuldb.com/?id.212324
+    - https://www.cve.org/CVERecord?id=CVE-2022-3705
+    PublishedDate: '2022-10-26T20:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: xxd@2:8.2.3995-1ubuntu2.11
     PkgName: xxd
@@ -2852,6 +4692,324 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
+  - VulnerabilityID: CVE-2022-3278
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3278
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: null pointer dereference in eval_next_non_blank() in eval.c
+    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 9.0.0552.
+    Severity: LOW
+    CweIDs:
+    - CWE-476
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3278
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3278
+    - https://github.com/vim/vim/commit/69082916c8b5d321545d60b9f5facad0a2dd5a4e
+    - https://huntr.dev/bounties/a9fad77e-f245-4ce9-ba15-c7d4c86c4612
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3278
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3278
+    PublishedDate: '2022-09-23T22:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3297
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3297
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in process_next_cpt_value() at insexpand.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0579.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3297
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3297
+    - https://github.com/vim/vim/commit/0ff01835a40f549c5c4a550502f62a2ac9ac447c
+    - https://huntr.dev/bounties/1aa9ec92-0355-4710-bf85-5bce9effa01c
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3297
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3297
+    PublishedDate: '2022-09-25T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3352
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3352
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use after free
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0614.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3352
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3352
+    - https://github.com/vim/vim/commit/ef976323e770315b5fca544efb6b2faa25674d15
+    - https://huntr.dev/bounties/d058f182-a49b-40c7-9234-43d4c5a29f60
+    - https://lists.debian.org/debian-lts-announce/2022/11/msg00032.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4QI7AETXBHPC7SGA77Q7O5IEGULWYET7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GTBVD4J2SKVSWK4VBN5JP5OEVK6GDS3N/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LSSEWQLK55MCNT4Z2IIJEJYEI5HLCODI/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3352
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3352
+    PublishedDate: '2022-09-29T12:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3491
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3491
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow prior to 9.0.0742
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0742.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3491
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3491
+    - https://github.com/vim/vim/commit/3558afe9e9e904cabb8475392d859f2d2fc21041
+    - https://huntr.dev/bounties/6e6e05c2-2cf7-4aa5-a817-a62007bf92cb
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3491
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3491
+    PublishedDate: '2022-12-03T13:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3520
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3520
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Heap-based Buffer Overflow'
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.0765.
+    Severity: LOW
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3520
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3520
+    - https://github.com/vim/vim/commit/36343ae0fb7247e060abfd35fb8e4337b33abb4b
+    - https://huntr.dev/bounties/c1db3b70-f4fe-481f-8a24-0b1449c94246
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3520
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3520
+    PublishedDate: '2022-12-02T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-3591
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3591
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'vim: Use After Free'
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0789.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-3591
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3591
+    - https://github.com/vim/vim/commit/8f3c3c6cd044e3b5bf08dbfa3b3f04bb3f711bad
+    - https://huntr.dev/bounties/a5a998c2-4b07-47a7-91be-dbc1886b3921
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-3591
+    - https://security.gentoo.org/glsa/202305-16
+    - https://ubuntu.com/security/notices/USN-5775-1
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-3591
+    PublishedDate: '2022-12-02T17:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-4292
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4292
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in did_set_spelllang() in src/spell.c
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.0882.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-4292
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4292
+    - https://github.com/vim/vim/commit/c3d27ada14acd02db357f2d16347acc22cb17e93
+    - https://huntr.dev/bounties/da3d4c47-e57a-451e-993d-9df0ed31f57b
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WYC22GGZ6QA66HLNLHCTAJU265TT3O33/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-4292
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20230113-0005/
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-4292
+    PublishedDate: '2022-12-05T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2022-4293
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    FixedVersion: 2:8.2.3995-1ubuntu2.12
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4293
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: floating point exception in num_divide() in src/eval.c
+    Description: Floating Point Comparison with Incorrect Operator in GitHub repository vim/vim prior to 9.0.0804.
+    Severity: LOW
+    CweIDs:
+    - CWE-1077
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-4293
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4293
+    - https://github.com/vim/vim/commit/cdef1cefa2a440911c727558562f83ed9b00e16b
+    - https://huntr.dev/bounties/385a835f-6e33-4d00-acce-ac99f3939143
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-4293
+    - https://security.gentoo.org/glsa/202305-16
+    - https://security.netapp.com/advisory/ntap-20230203-0007/
+    - https://ubuntu.com/security/notices/USN-6420-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-4293
+    PublishedDate: '2022-12-05T19:15:00Z'
+    LastModifiedDate: '2023-05-03T12:16:00Z'
   - VulnerabilityID: CVE-2020-22916
     PkgID: xz-utils@5.2.5-2ubuntu1
     PkgName: xz-utils
@@ -2929,6 +5087,137 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42503
     PublishedDate: '2023-09-14T08:15:00Z'
     LastModifiedDate: '2023-09-19T13:43:00Z'
+  - VulnerabilityID: CVE-2023-36478
+    PkgName: org.eclipse.jetty:jetty-http
+    PkgPath: opt/oaf/openaf.jar
+    InstalledVersion: 9.4.51.v20230217
+    FixedVersion: 10.0.16, 11.0.16, 9.4.53
+    Status: fixed
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36478
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Maven
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+    Title: HTTP/2 HPACK integer overflow and buffer allocation
+    Description: |-
+      An integer overflow in `MetaDataBuilder.checkSize` allows for HTTP/2 HPACK header values to
+      exceed their size limit. 
+
+      In `MetaDataBuilder.java`, the following code determines if a header name or value
+      exceeds the size limit, and throws an exception if the limit is exceeded:
+
+      ```java
+      291 public void checkSize(int length, boolean huffman) throws SessionException
+      292 {
+      293 // Apply a huffman fudge factor
+      294 if (huffman)
+      295 length = (length * 4) / 3;
+      296 if ((_size + length) > _maxSize)
+      297 throw new HpackException.SessionException("Header too large %d > %d",
+      _size + length, _maxSize);
+      298 }
+      ```
+
+      However, when length is very large and huffman is true, the multiplication by 4 in line 295
+      will overflow, and length will become negative. (_size+length) will now be negative, and
+      the check on line 296 will not be triggered.
+
+      Furthermore, `MetaDataBuilder.checkSize` allows for user-entered HPACK header value sizes to be
+      negative, potentially leading to a very large buffer allocation later on when the
+      user-entered size is multiplied by 2.
+
+      In `MetaDataBuilder.java`, the following code determines if a header name or value
+      exceeds the size limit, and throws an exception if the limit is exceeded:
+
+      ```java
+      public void checkSize(int length, boolean huffman) throws SessionException
+      {
+      // Apply a huffman fudge factor
+      if (huffman)
+      length = (length * 4) / 3;
+      if ((_size + length) > _maxSize)
+      throw new HpackException.SessionException("Header too large %d > %d", _size
+      + length, _maxSize);
+      }
+      ```
+
+      However, no exception is thrown in the case of a negative size.
+      Later, in `Huffman.decode`, the user-entered length is multiplied by 2 before allocating a buffer:
+
+      ```java
+      public static String decode(ByteBuffer buffer, int length) throws
+      HpackException.CompressionException
+      {
+      Utf8StringBuilder utf8 = new Utf8StringBuilder(length * 2);
+      // ...
+      ```
+
+      This means that if a user provides a negative length value (or, more precisely, a length
+      value which, when multiplied by the 4/3 fudge factor, is negative), and this length value is a
+      very large positive number when multiplied by 2, then the user can cause a very large
+      buffer to be allocated on the server.
+
+
+      ### Exploit Scenario 1
+      An attacker repeatedly sends HTTP messages with the HPACK header 0x00ffffffffff02.
+      Each time this header is decoded:
+      + `HpackDecode.decode` will determine that a Huffman-coded value of length
+      805306494 needs to be decoded.
+      + `MetaDataBuilder.checkSize` will approve this length.
+      + Huffman.decode will allocate a 1.6 GB string array.
+      + Huffman.decode will have a buffer overflow error, and the array will be deallocated
+      the next time garbage collection happens. (Note: this can be delayed by appending
+      valid huffman-coded characters to the end of the header.)
+
+      Depending on the timing of garbage collection, the number of threads, and the amount of
+      memory available on the server, this may cause the server to run out of memory.
+
+
+      ### Exploit Scenario 2
+      An attacker repeatedly sends HTTP messages with the HPACK header 0x00ff8080ffff0b. Each
+      time this header is decoded:
+       + HpackDecode.decode will determine that a Huffman-coded value of length
+      -1073758081 needs to be decoded
+       +  MetaDataBuilder.checkSize will approve this length
+       + The number will be multiplied by 2 to get 2147451134, and Huffman.decode will
+      allocate a 2.1 GB string array
+       + Huffman.decode will have a buffer overflow error, and the array will be deallocated
+      the next time garbage collection happens (Note that this deallocation can be
+      delayed by adding valid Huffman-coded characters to the end of the header)
+
+      Depending on the timing of garbage collection, the number of threads, and the amount of
+      memory available on the server, this may cause the server to run out of memory.
+
+      ### Impact
+      Users of HTTP/2 can be impacted by a remote denial of service attack.
+
+      ### Patches
+      Fixed in Jetty 10.0.16 and Jetty 11.0.16
+      Fixed in Jetty 9.4.53
+      Jetty 12.x is unaffected.
+
+      ### Workarounds
+      No workarounds possible, only patched versions of Jetty.
+
+      ### References
+      * https://github.com/eclipse/jetty.project/pull/9634
+    Severity: HIGH
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/eclipse/jetty.project
+    - https://github.com/eclipse/jetty.project/pull/9634
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-10.0.16
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-11.0.16
+    - https://github.com/eclipse/jetty.project/releases/tag/jetty-9.4.53.v20231009
+    - https://github.com/eclipse/jetty.project/security/advisories/GHSA-wgh7-54f2-x98r
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-36478
   - VulnerabilityID: CVE-2023-40167
     PkgName: org.eclipse.jetty:jetty-http
     PkgPath: opt/oaf/openaf.jar
@@ -3823,6 +6112,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-28842
     PublishedDate: '2023-04-04T22:15:00Z'
     LastModifiedDate: '2023-09-15T21:15:00Z'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -3912,37 +6232,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
-      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
       DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
