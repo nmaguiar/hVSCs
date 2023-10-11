@@ -985,7 +985,7 @@
 │                       │       │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
 │                       │       │                  ├ [23]: https://errata.rockylinux.org/RLSA-2023:5455 
 │                       │       │                  ├ [24]: https://linux.oracle.com/cve/CVE-2023-4911.html 
-│                       │       │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2023-12854.html 
+│                       │       │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2023-5455.html 
 │                       │       │                  ├ [26]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
 │                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
@@ -1104,7 +1104,7 @@
 │                       │       │                  ├ [22]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
 │                       │       │                  ├ [23]: https://errata.rockylinux.org/RLSA-2023:5455 
 │                       │       │                  ├ [24]: https://linux.oracle.com/cve/CVE-2023-4911.html 
-│                       │       │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2023-12854.html 
+│                       │       │                  ├ [25]: https://linux.oracle.com/errata/ELSA-2023-5455.html 
 │                       │       │                  ├ [26]: https://lists.fedoraproject.org/archives/list/p
 │                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/4DBU
 │                       │       │                  │       QRRPB47TC3NJOUIBVWUGFHBJAFDL/ 
@@ -2212,7 +2212,8 @@
 │                       │                          │      VE-2023-43785 
 │                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43785 
 │                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-43785 
+│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6407-2 
+│                       │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43785 
 │                       ├ [49]  ╭ VulnerabilityID : CVE-2023-43786 
 │                       │       ├ PkgID           : libx11-6@2:1.7.5-1ubuntu0.2 
 │                       │       ├ PkgName         : libx11-6 
@@ -2239,8 +2240,9 @@
 │                       │                          │      VE-2023-43786 
 │                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43786 
 │                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
-│                       │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
+│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6407-2 
+│                       │                          ├ [5]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
 │                       ├ [50]  ╭ VulnerabilityID : CVE-2023-43787 
 │                       │       ├ PkgID           : libx11-6@2:1.7.5-1ubuntu0.2 
 │                       │       ├ PkgName         : libx11-6 
@@ -2268,8 +2270,9 @@
 │                       │                          │      VE-2023-43787 
 │                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43787 
 │                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
-│                       │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
+│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6407-2 
+│                       │                          ├ [5]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
 │                       ├ [51]  ╭ VulnerabilityID : CVE-2023-43785 
 │                       │       ├ PkgID           : libx11-data@2:1.7.5-1ubuntu0.2 
 │                       │       ├ PkgName         : libx11-data 
@@ -2296,7 +2299,8 @@
 │                       │                          │      VE-2023-43785 
 │                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43785 
 │                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                          ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-43785 
+│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6407-2 
+│                       │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43785 
 │                       ├ [52]  ╭ VulnerabilityID : CVE-2023-43786 
 │                       │       ├ PkgID           : libx11-data@2:1.7.5-1ubuntu0.2 
 │                       │       ├ PkgName         : libx11-data 
@@ -2323,8 +2327,9 @@
 │                       │                          │      VE-2023-43786 
 │                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43786 
 │                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
-│                       │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
+│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6407-2 
+│                       │                          ├ [5]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
 │                       ├ [53]  ╭ VulnerabilityID : CVE-2023-43787 
 │                       │       ├ PkgID           : libx11-data@2:1.7.5-1ubuntu0.2 
 │                       │       ├ PkgName         : libx11-data 
@@ -2352,8 +2357,9 @@
 │                       │                          │      VE-2023-43787 
 │                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43787 
 │                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
-│                       │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
+│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6407-2 
+│                       │                          ├ [5]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
 │                       ├ [54]  ╭ VulnerabilityID : CVE-2023-43786 
 │                       │       ├ PkgID           : libxpm4@1:3.5.12-1ubuntu0.22.04.1 
 │                       │       ├ PkgName         : libxpm4 
@@ -2380,8 +2386,9 @@
 │                       │                          │      VE-2023-43786 
 │                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43786 
 │                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
-│                       │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
+│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6407-2 
+│                       │                          ├ [5]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
 │                       ├ [55]  ╭ VulnerabilityID : CVE-2023-43787 
 │                       │       ├ PkgID           : libxpm4@1:3.5.12-1ubuntu0.22.04.1 
 │                       │       ├ PkgName         : libxpm4 
@@ -2409,8 +2416,9 @@
 │                       │                          │      VE-2023-43787 
 │                       │                          ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-43787 
 │                       │                          ├ [3]: https://ubuntu.com/security/notices/USN-6407-1 
-│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
-│                       │                          ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
+│                       │                          ├ [4]: https://ubuntu.com/security/notices/USN-6407-2 
+│                       │                          ├ [5]: https://ubuntu.com/security/notices/USN-6408-1 
+│                       │                          ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
 │                       ├ [56]  ╭ VulnerabilityID : CVE-2023-43788 
 │                       │       ├ PkgID           : libxpm4@1:3.5.12-1ubuntu0.22.04.1 
 │                       │       ├ PkgName         : libxpm4 
@@ -5911,7 +5919,174 @@
 │                       │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
 │                       │     ├ PublishedDate   : 2023-09-14T08:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-09-19T13:43:00Z 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2023-40167 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2023-36478 
+│                       │     ├ PkgName         : org.eclipse.jetty:jetty-http 
+│                       │     ├ PkgPath         : opt/oaf/openaf.jar 
+│                       │     ├ InstalledVersion: 9.4.51.v20230217 
+│                       │     ├ FixedVersion    : 10.0.16, 11.0.16, 9.4.53 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f3
+│                       │     │                  │         2d81d8024cfcc7e107fff371 
+│                       │     │                  ╰ DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ff
+│                       │     │                            dd6090848193ec40eb8b5880 
+│                       │     ├ SeveritySource  : ghsa 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36478 
+│                       │     ├ DataSource       ╭ ID  : ghsa 
+│                       │     │                  ├ Name: GitHub Security Advisory Maven 
+│                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
+│                       │     │                          ed+ecosystem%3Amaven 
+│                       │     ├ Title           : HTTP/2 HPACK integer overflow and buffer allocation 
+│                       │     ├ Description     : An integer overflow in `MetaDataBuilder.checkSize`
+│                       │     │                   allows for HTTP/2 HPACK header values to
+│                       │     │                   exceed their size limit. 
+│                       │     │                   
+│                       │     │                   In `MetaDataBuilder.java`, the following code determines if a
+│                       │     │                    header name or value
+│                       │     │                   exceeds the size limit, and throws an exception if the limit
+│                       │     │                   is exceeded:
+│                       │     │                   
+│                       │     │                   ```java
+│                       │     │                   291 public void checkSize(int length, boolean huffman) throws
+│                       │     │                    SessionException
+│                       │     │                   292 {
+│                       │     │                   293 // Apply a huffman fudge factor
+│                       │     │                   294 if (huffman)
+│                       │     │                   295 length = (length * 4) / 3;
+│                       │     │                   296 if ((_size + length) > _maxSize)
+│                       │     │                   297 throw new HpackException.SessionException("Header too
+│                       │     │                   large %d > %d",
+│                       │     │                   _size + length, _maxSize);
+│                       │     │                   298 }
+│                       │     │                   ```
+│                       │     │                   
+│                       │     │                   However, when length is very large and huffman is true, the
+│                       │     │                   multiplication by 4 in line 295
+│                       │     │                   will overflow, and length will become negative.
+│                       │     │                   (_size+length) will now be negative, and
+│                       │     │                   the check on line 296 will not be triggered.
+│                       │     │                   
+│                       │     │                   Furthermore, `MetaDataBuilder.checkSize` allows for
+│                       │     │                   user-entered HPACK header value sizes to be
+│                       │     │                   negative, potentially leading to a very large buffer
+│                       │     │                   allocation later on when the
+│                       │     │                   user-entered size is multiplied by 2.
+│                       │     │                   
+│                       │     │                   In `MetaDataBuilder.java`, the following code determines if a
+│                       │     │                    header name or value
+│                       │     │                   exceeds the size limit, and throws an exception if the limit
+│                       │     │                   is exceeded:
+│                       │     │                   
+│                       │     │                   ```java
+│                       │     │                   public void checkSize(int length, boolean huffman) throws
+│                       │     │                   SessionException
+│                       │     │                   {
+│                       │     │                   // Apply a huffman fudge factor
+│                       │     │                   if (huffman)
+│                       │     │                   length = (length * 4) / 3;
+│                       │     │                   if ((_size + length) > _maxSize)
+│                       │     │                   throw new HpackException.SessionException("Header too large
+│                       │     │                   %d > %d", _size
+│                       │     │                   + length, _maxSize);
+│                       │     │                   }
+│                       │     │                   ```
+│                       │     │                   
+│                       │     │                   However, no exception is thrown in the case of a negative
+│                       │     │                   size.
+│                       │     │                   Later, in `Huffman.decode`, the user-entered length is
+│                       │     │                   multiplied by 2 before allocating a buffer:
+│                       │     │                   
+│                       │     │                   ```java
+│                       │     │                   public static String decode(ByteBuffer buffer, int length)
+│                       │     │                   throws
+│                       │     │                   HpackException.CompressionException
+│                       │     │                   {
+│                       │     │                   Utf8StringBuilder utf8 = new Utf8StringBuilder(length * 2);
+│                       │     │                   // ...
+│                       │     │                   ```
+│                       │     │                   
+│                       │     │                   This means that if a user provides a negative length value
+│                       │     │                   (or, more precisely, a length
+│                       │     │                   value which, when multiplied by the 4/3 fudge factor, is
+│                       │     │                   negative), and this length value is a
+│                       │     │                   very large positive number when multiplied by 2, then the
+│                       │     │                   user can cause a very large
+│                       │     │                   buffer to be allocated on the server.
+│                       │     │                   
+│                       │     │                   
+│                       │     │                   ### Exploit Scenario 1
+│                       │     │                   An attacker repeatedly sends HTTP messages with the HPACK
+│                       │     │                   header 0x00ffffffffff02.
+│                       │     │                   Each time this header is decoded:
+│                       │     │                   + `HpackDecode.decode` will determine that a Huffman-coded
+│                       │     │                   value of length
+│                       │     │                   805306494 needs to be decoded.
+│                       │     │                   + `MetaDataBuilder.checkSize` will approve this length.
+│                       │     │                   + Huffman.decode will allocate a 1.6 GB string array.
+│                       │     │                   + Huffman.decode will have a buffer overflow error, and the
+│                       │     │                   array will be deallocated
+│                       │     │                   the next time garbage collection happens. (Note: this can be
+│                       │     │                   delayed by appending
+│                       │     │                   valid huffman-coded characters to the end of the header.)
+│                       │     │                   
+│                       │     │                   Depending on the timing of garbage collection, the number of
+│                       │     │                   threads, and the amount of
+│                       │     │                   memory available on the server, this may cause the server to
+│                       │     │                   run out of memory.
+│                       │     │                   
+│                       │     │                   
+│                       │     │                   ### Exploit Scenario 2
+│                       │     │                   An attacker repeatedly sends HTTP messages with the HPACK
+│                       │     │                   header 0x00ff8080ffff0b. Each
+│                       │     │                   time this header is decoded:
+│                       │     │                    + HpackDecode.decode will determine that a Huffman-coded
+│                       │     │                   value of length
+│                       │     │                   -1073758081 needs to be decoded
+│                       │     │                    +  MetaDataBuilder.checkSize will approve this length
+│                       │     │                    + The number will be multiplied by 2 to get 2147451134, and
+│                       │     │                   Huffman.decode will
+│                       │     │                   allocate a 2.1 GB string array
+│                       │     │                    + Huffman.decode will have a buffer overflow error, and the
+│                       │     │                   array will be deallocated
+│                       │     │                   the next time garbage collection happens (Note that this
+│                       │     │                   deallocation can be
+│                       │     │                   delayed by adding valid Huffman-coded characters to the end
+│                       │     │                   of the header)
+│                       │     │                   
+│                       │     │                   Depending on the timing of garbage collection, the number of
+│                       │     │                   threads, and the amount of
+│                       │     │                   memory available on the server, this may cause the server to
+│                       │     │                   run out of memory.
+│                       │     │                   
+│                       │     │                   ### Impact
+│                       │     │                   Users of HTTP/2 can be impacted by a remote denial of service
+│                       │     │                    attack.
+│                       │     │                   
+│                       │     │                   ### Patches
+│                       │     │                   Fixed in Jetty 10.0.16 and Jetty 11.0.16
+│                       │     │                   Fixed in Jetty 9.4.53
+│                       │     │                   Jetty 12.x is unaffected.
+│                       │     │                   
+│                       │     │                   ### Workarounds
+│                       │     │                   No workarounds possible, only patched versions of Jetty.
+│                       │     │                   
+│                       │     │                   ### References
+│                       │     │                   * https://github.com/eclipse/jetty.project/pull/9634 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │     │                         │           :N/A:H 
+│                       │     │                         ╰ V3Score : 7.5 
+│                       │     ╰ References       ╭ [0]: https://github.com/eclipse/jetty.project 
+│                       │                        ├ [1]: https://github.com/eclipse/jetty.project/pull/9634 
+│                       │                        ├ [2]: https://github.com/eclipse/jetty.project/releases/
+│                       │                        │      tag/jetty-10.0.16 
+│                       │                        ├ [3]: https://github.com/eclipse/jetty.project/releases/
+│                       │                        │      tag/jetty-11.0.16 
+│                       │                        ├ [4]: https://github.com/eclipse/jetty.project/releases/
+│                       │                        │      tag/jetty-9.4.53.v20231009 
+│                       │                        ├ [5]: https://github.com/eclipse/jetty.project/security/
+│                       │                        │      advisories/GHSA-wgh7-54f2-x98r 
+│                       │                        ╰ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-36478 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2023-40167 
 │                       │     ├ PkgName         : org.eclipse.jetty:jetty-http 
 │                       │     ├ PkgPath         : opt/oaf/openaf.jar 
 │                       │     ├ InstalledVersion: 9.4.51.v20230217 
@@ -5963,7 +6138,7 @@
 │                       │     │                  ╰ [7]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
 │                       │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-09-30T15:15:00Z 
-│                       ├ [2] ╭ VulnerabilityID : CVE-2023-4759 
+│                       ├ [3] ╭ VulnerabilityID : CVE-2023-4759 
 │                       │     ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
 │                       │     ├ PkgPath         : opt/oaf/openaf.jar 
 │                       │     ├ InstalledVersion: 5.8.1.202007141445-r 
@@ -6042,7 +6217,7 @@
 │                       │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4759 
 │                       │     ├ PublishedDate   : 2023-09-12T10:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-09-18T13:54:00Z 
-│                       ╰ [3] ╭ VulnerabilityID : CVE-2022-36033 
+│                       ╰ [4] ╭ VulnerabilityID : CVE-2022-36033 
 │                             ├ PkgName         : org.jsoup:jsoup 
 │                             ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vsco
 │                             │                   de-xml-0.26.1-linux-x64/server/org.eclipse.lemminx-0.26.1-ube
@@ -7182,7 +7357,178 @@
 │                             │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-28842 
 │                             ├ PublishedDate   : 2023-04-04T22:15:00Z 
 │                             ╰ LastModifiedDate: 2023-09-15T21:15:00Z 
-├ [4] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [4] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│     ├ Class  : secret 
+│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                     ├ Category : AsymmetricPrivateKey 
+│                     ├ Severity : HIGH 
+│                     ├ Title    : Asymmetric Private Key 
+│                     ├ StartLine: 1 
+│                     ├ EndLine  : 1 
+│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ IsCause    : true 
+│                     │                   │     ├ Annotation :  
+│                     │                   │     ├ Truncated  : false 
+│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ FirstCause : true 
+│                     │                   │     ╰ LastCause  : true 
+│                     │                   ╰ [1] ╭ Number    : 2 
+│                     │                         ├ Content   :  
+│                     │                         ├ IsCause   : false 
+│                     │                         ├ Annotation:  
+│                     │                         ├ Truncated : false 
+│                     │                         ├ FirstCause: false 
+│                     │                         ╰ LastCause : false 
+│                     ├ Match    : BEGIN OPENSSH PRIVATE
+│                     │            KEY-----********************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            *****************************************-----END OPENSSH PRI 
+│                     ╰ Layer     ╭ Digest   : sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfc
+│                                 │            c7e107fff371 
+│                                 ├ DiffID   : sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193
+│                                 │            ec40eb8b5880 
+│                                 ╰ CreatedBy: COPY / / # buildkit 
+├ [5] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -7287,7 +7633,7 @@
 │                                 ├ DiffID   : sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193
 │                                 │            ec40eb8b5880 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [5] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [6] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -7345,59 +7691,7 @@
 │                                 ├ DiffID   : sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193
 │                                 │            ec40eb8b5880 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [6] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│     ├ Class  : secret 
-│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                     ├ Category : AsymmetricPrivateKey 
-│                     ├ Severity : HIGH 
-│                     ├ Title    : Asymmetric Private Key 
-│                     ├ StartLine: 1 
-│                     ├ EndLine  : 1 
-│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ IsCause    : true 
-│                     │                   │     ├ Annotation :  
-│                     │                   │     ├ Truncated  : false 
-│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ FirstCause : true 
-│                     │                   │     ╰ LastCause  : true 
-│                     │                   ╰ [1] ╭ Number    : 2 
-│                     │                         ├ Content   :  
-│                     │                         ├ IsCause   : false 
-│                     │                         ├ Annotation:  
-│                     │                         ├ Truncated : false 
-│                     │                         ├ FirstCause: false 
-│                     │                         ╰ LastCause : false 
-│                     ├ Match    : BEGIN OPENSSH PRIVATE
-│                     │            KEY-----********************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            **********************************************-----END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfc
-│                                 │            c7e107fff371 
-│                                 ├ DiffID   : sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193
-│                                 │            ec40eb8b5880 
-│                                 ╰ CreatedBy: COPY / / # buildkit 
-╰ [7] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [7] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
       ├ Class  : secret 
       ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                       ├ Category : AsymmetricPrivateKey 
@@ -7414,53 +7708,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              **************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ IsCause    : true 
                       │                   │     ├ Annotation :  
                       │                   │     ├ Truncated  : false 
@@ -7472,53 +7721,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              **************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ FirstCause : true 
                       │                   │     ╰ LastCause  : true 
                       │                   ╰ [1] ╭ Number    : 2 
@@ -7533,36 +7737,7 @@
                       │            ****************************************************************************
                       │            ****************************************************************************
                       │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            *****************************************-----END OPENSSH PRI 
+                      │            **********************************************-----END OPENSSH PRI 
                       ╰ Layer     ╭ Digest   : sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfc
                                   │            c7e107fff371 
                                   ├ DiffID   : sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193
