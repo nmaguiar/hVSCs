@@ -205,13 +205,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -248,13 +248,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -920,7 +920,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
-    - https://errata.almalinux.org/8/ALSA-2023-5455.html
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://errata.rockylinux.org/RLSA-2023:5455
     - https://linux.oracle.com/cve/CVE-2023-4911.html
     - https://linux.oracle.com/errata/ELSA-2023-5455.html
@@ -1017,7 +1017,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
-    - https://errata.almalinux.org/8/ALSA-2023-5455.html
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
     - https://errata.rockylinux.org/RLSA-2023:5455
     - https://linux.oracle.com/cve/CVE-2023-4911.html
     - https://linux.oracle.com/errata/ELSA-2023-5455.html
@@ -1209,13 +1209,13 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -2092,6 +2092,10 @@
     Title: out-of-bounds memory access in _XkbReadKeySyms()
     Description: A vulnerability was found in libX11 due to a boundary condition within the _XkbReadKeySyms() function. This flaw allows a local user to trigger an out-of-bounds read error and read the contents of memory on the system.
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-43785
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242252
@@ -2120,6 +2124,10 @@
     Title: stack exhaustion from infinite recursion in PutSubImage()
     Description: A vulnerability was found in libX11 due to an infinite loop within the PutSubImage() function. This flaw allows a local user to consume all available system resources and cause a denial of service condition.
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-43786
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242253
@@ -2149,6 +2157,10 @@
     Title: integer overflow in XCreateImage() leading to a heap overflow
     Description: A vulnerability was found in libX11 due to an integer overflow within the XCreateImage() function. This flaw allows a local user to trigger an integer overflow and execute arbitrary code with elevated privileges.
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
     References:
     - https://access.redhat.com/security/cve/CVE-2023-43787
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242254
@@ -2178,6 +2190,10 @@
     Title: out-of-bounds memory access in _XkbReadKeySyms()
     Description: A vulnerability was found in libX11 due to a boundary condition within the _XkbReadKeySyms() function. This flaw allows a local user to trigger an out-of-bounds read error and read the contents of memory on the system.
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-43785
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242252
@@ -2206,6 +2222,10 @@
     Title: stack exhaustion from infinite recursion in PutSubImage()
     Description: A vulnerability was found in libX11 due to an infinite loop within the PutSubImage() function. This flaw allows a local user to consume all available system resources and cause a denial of service condition.
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-43786
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242253
@@ -2235,6 +2255,10 @@
     Title: integer overflow in XCreateImage() leading to a heap overflow
     Description: A vulnerability was found in libX11 due to an integer overflow within the XCreateImage() function. This flaw allows a local user to trigger an integer overflow and execute arbitrary code with elevated privileges.
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
     References:
     - https://access.redhat.com/security/cve/CVE-2023-43787
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242254
@@ -2264,6 +2288,10 @@
     Title: stack exhaustion from infinite recursion in PutSubImage()
     Description: A vulnerability was found in libX11 due to an infinite loop within the PutSubImage() function. This flaw allows a local user to consume all available system resources and cause a denial of service condition.
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-43786
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242253
@@ -2293,6 +2321,10 @@
     Title: integer overflow in XCreateImage() leading to a heap overflow
     Description: A vulnerability was found in libX11 due to an integer overflow within the XCreateImage() function. This flaw allows a local user to trigger an integer overflow and execute arbitrary code with elevated privileges.
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
     References:
     - https://access.redhat.com/security/cve/CVE-2023-43787
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242254
@@ -2322,6 +2354,10 @@
     Title: out of bounds read in XpmCreateXpmImageFromBuffer()
     Description: A vulnerability was found in libXpm due to a boundary condition within the XpmCreateXpmImageFromBuffer() function. This flaw allows a local to trigger an out-of-bounds read error and read the contents of memory on the system.
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-43788
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242248
@@ -2347,8 +2383,12 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: out of bounds read on XPM with corrupted colormap
-    Description: No description is available for this CVE.
+    Description: A vulnerability was found in libXpm where a vulnerability exists due to a boundary condition, a local user can trigger an out-of-bounds read error and read contents of memory on the system.
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-43789
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-43789
@@ -5480,9 +5520,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
-    Description: |-
-      A flaw was found in handling multiplexed streams in the HTTP/2 protocol. A client can repeatedly make a request for a new multiplex stream and immediately send an RST_STREAM frame to cancel it. This creates extra work for the server setting up and tearing down the streams while not hitting any server-side limit for the maximum number of active streams per connection, resulting in a denial of service due to server resource consumption. Red Hat has rated the severity of this flaw as 'Important' as the US Cybersecurity and Infrastructure Security Agency (CISA) declared this vulnerability an active exploit.
-      CVE-2023-39325 was assigned for the `Rapid Reset Attack` in the Go language packages.
+    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -5492,14 +5530,18 @@
     - golang.org/x/net
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
     - https://go.dev/issue/63417
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
+    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
+    PublishedDate: '2023-10-11T22:15:00Z'
+    LastModifiedDate: '2023-10-11T22:15:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     InstalledVersion: v0.12.0
@@ -5612,13 +5654,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
-    - https://access.redhat.com/errata/RHSA-2022:7469
+    - https://access.redhat.com/errata/RHSA-2022:8008
     - https://access.redhat.com/security/cve/CVE-2022-27191
+    - https://bugzilla.redhat.com/1939485
+    - https://bugzilla.redhat.com/1989564
+    - https://bugzilla.redhat.com/1989570
+    - https://bugzilla.redhat.com/1989575
     - https://bugzilla.redhat.com/2064702
-    - https://bugzilla.redhat.com/2085361
-    - https://bugzilla.redhat.com/2086398
+    - https://bugzilla.redhat.com/2121445
+    - https://bugzilla.redhat.com/2121453
     - https://cs.opensource.google/go/x/crypto
-    - https://errata.almalinux.org/8/ALSA-2022-7469.html
+    - https://errata.almalinux.org/9/ALSA-2022-8008.html
     - https://go.dev/cl/392355
     - https://go.googlesource.com/crypto/+/1baeb1ce4c0b006eff0f294c47cb7617598dfb3d
     - https://groups.google.com/g/golang-announce
@@ -5725,22 +5771,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.5
     References:
-    - https://access.redhat.com/errata/RHSA-2023:2802
+    - https://access.redhat.com/errata/RHSA-2023:2357
     - https://access.redhat.com/security/cve/CVE-2022-27664
-    - https://bugzilla.redhat.com/2107342
     - https://bugzilla.redhat.com/2107371
     - https://bugzilla.redhat.com/2107374
-    - https://bugzilla.redhat.com/2107376
     - https://bugzilla.redhat.com/2107383
     - https://bugzilla.redhat.com/2107386
     - https://bugzilla.redhat.com/2107388
-    - https://bugzilla.redhat.com/2107390
-    - https://bugzilla.redhat.com/2107392
     - https://bugzilla.redhat.com/2113814
-    - https://bugzilla.redhat.com/2121445
     - https://bugzilla.redhat.com/2124669
+    - https://bugzilla.redhat.com/2132868
+    - https://bugzilla.redhat.com/2132872
     - https://bugzilla.redhat.com/2161274
-    - https://bugzilla.redhat.com/2168256
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
     - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
     - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
@@ -5760,7 +5802,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/8/ALSA-2023-2802.html
+    - https://errata.almalinux.org/9/ALSA-2023-2357.html
     - https://errata.rockylinux.org/RLSA-2022:7129
     - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
     - https://github.com/golang/go/commit/9cfe4e258b1c9d4a04a42539c21c7bdb2e227824 (go1.19.1)
@@ -5899,9 +5941,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
-    Description: |-
-      A flaw was found in handling multiplexed streams in the HTTP/2 protocol. A client can repeatedly make a request for a new multiplex stream and immediately send an RST_STREAM frame to cancel it. This creates extra work for the server setting up and tearing down the streams while not hitting any server-side limit for the maximum number of active streams per connection, resulting in a denial of service due to server resource consumption. Red Hat has rated the severity of this flaw as 'Important' as the US Cybersecurity and Infrastructure Security Agency (CISA) declared this vulnerability an active exploit.
-      CVE-2023-39325 was assigned for the `Rapid Reset Attack` in the Go language packages.
+    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -5911,14 +5951,18 @@
     - golang.org/x/net
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
     - https://go.dev/issue/63417
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
+    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
+    PublishedDate: '2023-10-11T22:15:00Z'
+    LastModifiedDate: '2023-10-11T22:15:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
     PkgName: golang.org/x/net
@@ -6171,9 +6215,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
-    Description: |-
-      A flaw was found in handling multiplexed streams in the HTTP/2 protocol. A client can repeatedly make a request for a new multiplex stream and immediately send an RST_STREAM frame to cancel it. This creates extra work for the server setting up and tearing down the streams while not hitting any server-side limit for the maximum number of active streams per connection, resulting in a denial of service due to server resource consumption. Red Hat has rated the severity of this flaw as 'Important' as the US Cybersecurity and Infrastructure Security Agency (CISA) declared this vulnerability an active exploit.
-      CVE-2023-39325 was assigned for the `Rapid Reset Attack` in the Go language packages.
+    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -6183,14 +6225,18 @@
     - golang.org/x/net
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
     - https://go.dev/issue/63417
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
+    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
+    PublishedDate: '2023-10-11T22:15:00Z'
+    LastModifiedDate: '2023-10-11T22:15:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     InstalledVersion: v0.12.0
@@ -6248,9 +6294,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
-    Description: |-
-      A flaw was found in handling multiplexed streams in the HTTP/2 protocol. A client can repeatedly make a request for a new multiplex stream and immediately send an RST_STREAM frame to cancel it. This creates extra work for the server setting up and tearing down the streams while not hitting any server-side limit for the maximum number of active streams per connection, resulting in a denial of service due to server resource consumption. Red Hat has rated the severity of this flaw as 'Important' as the US Cybersecurity and Infrastructure Security Agency (CISA) declared this vulnerability an active exploit.
-      CVE-2023-39325 was assigned for the `Rapid Reset Attack` in the Go language packages.
+    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -6260,14 +6304,18 @@
     - golang.org/x/net
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
     - https://go.dev/issue/63417
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
+    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
+    PublishedDate: '2023-10-11T22:15:00Z'
+    LastModifiedDate: '2023-10-11T22:15:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     InstalledVersion: v0.12.0
@@ -6556,9 +6604,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
-    Description: |-
-      A flaw was found in handling multiplexed streams in the HTTP/2 protocol. A client can repeatedly make a request for a new multiplex stream and immediately send an RST_STREAM frame to cancel it. This creates extra work for the server setting up and tearing down the streams while not hitting any server-side limit for the maximum number of active streams per connection, resulting in a denial of service due to server resource consumption. Red Hat has rated the severity of this flaw as 'Important' as the US Cybersecurity and Infrastructure Security Agency (CISA) declared this vulnerability an active exploit.
-      CVE-2023-39325 was assigned for the `Rapid Reset Attack` in the Go language packages.
+    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -6568,14 +6614,18 @@
     - golang.org/x/net
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
     - https://go.dev/issue/63417
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
+    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
+    PublishedDate: '2023-10-11T22:15:00Z'
+    LastModifiedDate: '2023-10-11T22:15:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     InstalledVersion: v0.10.0
@@ -6633,9 +6683,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
-    Description: |-
-      A flaw was found in handling multiplexed streams in the HTTP/2 protocol. A client can repeatedly make a request for a new multiplex stream and immediately send an RST_STREAM frame to cancel it. This creates extra work for the server setting up and tearing down the streams while not hitting any server-side limit for the maximum number of active streams per connection, resulting in a denial of service due to server resource consumption. Red Hat has rated the severity of this flaw as 'Important' as the US Cybersecurity and Infrastructure Security Agency (CISA) declared this vulnerability an active exploit.
-      CVE-2023-39325 was assigned for the `Rapid Reset Attack` in the Go language packages.
+    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -6645,14 +6693,18 @@
     - golang.org/x/net
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
     - https://go.dev/issue/63417
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
+    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
+    PublishedDate: '2023-10-11T22:15:00Z'
+    LastModifiedDate: '2023-10-11T22:15:00Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -6672,9 +6724,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
-    Description: |-
-      A flaw was found in handling multiplexed streams in the HTTP/2 protocol. A client can repeatedly make a request for a new multiplex stream and immediately send an RST_STREAM frame to cancel it. This creates extra work for the server setting up and tearing down the streams while not hitting any server-side limit for the maximum number of active streams per connection, resulting in a denial of service due to server resource consumption. Red Hat has rated the severity of this flaw as 'Important' as the US Cybersecurity and Infrastructure Security Agency (CISA) declared this vulnerability an active exploit.
-      CVE-2023-39325 was assigned for the `Rapid Reset Attack` in the Go language packages.
+    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -6684,14 +6734,18 @@
     - golang.org/x/net
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
     - https://go.dev/issue/63417
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
+    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
+    PublishedDate: '2023-10-11T22:15:00Z'
+    LastModifiedDate: '2023-10-11T22:15:00Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -6711,9 +6765,7 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
-    Description: |-
-      A flaw was found in handling multiplexed streams in the HTTP/2 protocol. A client can repeatedly make a request for a new multiplex stream and immediately send an RST_STREAM frame to cancel it. This creates extra work for the server setting up and tearing down the streams while not hitting any server-side limit for the maximum number of active streams per connection, resulting in a denial of service due to server resource consumption. Red Hat has rated the severity of this flaw as 'Important' as the US Cybersecurity and Infrastructure Security Agency (CISA) declared this vulnerability an active exploit.
-      CVE-2023-39325 was assigned for the `Rapid Reset Attack` in the Go language packages.
+    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: MEDIUM
     CVSS:
       redhat:
@@ -6723,14 +6775,18 @@
     - golang.org/x/net
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
     - https://go.dev/issue/63417
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
+    - https://pkg.go.dev/vuln/GO-2023-2102
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
+    PublishedDate: '2023-10-11T22:15:00Z'
+    LastModifiedDate: '2023-10-11T22:15:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     InstalledVersion: v0.10.0
@@ -6769,6 +6825,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3978
     PublishedDate: '2023-08-02T20:15:00Z'
     LastModifiedDate: '2023-08-07T18:24:00Z'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -6858,37 +6945,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
-      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
       DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
