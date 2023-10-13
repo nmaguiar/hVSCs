@@ -165,15 +165,15 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 6.2 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -34969 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -220,15 +220,15 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 6.2 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -34969 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1023,15 +1023,15 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 6.2 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -34969 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
-│                        │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -3263,37 +3263,49 @@
 │                        │     │                          wed+ecosystem%3Ago 
 │                        │     ├ Title           : rapid stream resets can cause excessive work
 │                        │     │                   (CVE-2023-44487) 
-│                        │     ├ Description     : A flaw was found in handling multiplexed streams in the
-│                        │     │                    HTTP/2 protocol. A client can repeatedly make a request for
-│                        │     │                    a new multiplex stream and immediately send an RST_STREAM
-│                        │     │                   frame to cancel it. This creates extra work for the server
-│                        │     │                   setting up and tearing down the streams while not hitting
-│                        │     │                   any server-side limit for the maximum number of active
-│                        │     │                   streams per connection, resulting in a denial of service due
-│                        │     │                    to server resource consumption. Red Hat has rated the
-│                        │     │                   severity of this flaw as 'Important' as the US Cybersecurity
-│                        │     │                    and Infrastructure Security Agency (CISA) declared this
-│                        │     │                   vulnerability an active exploit.
-│                        │     │                   CVE-2023-39325 was assigned for the `Rapid Reset Attack` in
-│                        │     │                   the Go language packages. 
+│                        │     ├ Description     : A malicious HTTP/2 client which rapidly creates
+│                        │     │                   requests and immediately resets them can cause excessive
+│                        │     │                   server resource consumption. While the total number of
+│                        │     │                   requests is bounded by the http2.Server.MaxConcurrentStreams
+│                        │     │                    setting, resetting an in-progress request allows the
+│                        │     │                   attacker to create a new request while the existing one is
+│                        │     │                   still executing. With the fix applied, HTTP/2 servers now
+│                        │     │                   bound the number of simultaneously executing handler
+│                        │     │                   goroutines to the stream concurrency limit
+│                        │     │                   (MaxConcurrentStreams). New requests arriving when at the
+│                        │     │                   limit (which can only happen after the client has reset an
+│                        │     │                   existing, in-flight request) will be queued until a handler
+│                        │     │                   exits. If the request queue grows too large, the server will
+│                        │     │                    terminate the connection. This issue is also fixed in
+│                        │     │                   golang.org/x/net/http2 for users manually configuring
+│                        │     │                   HTTP/2. The default stream concurrency limit is 250 streams
+│                        │     │                   (requests) per HTTP/2 connection. This value may be adjusted
+│                        │     │                    using the golang.org/x/net/http2 package; see the
+│                        │     │                   Server.MaxConcurrentStreams setting and the ConfigureServer
+│                        │     │                   function. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ╰ References       ╭ [0] : golang.org/x/net 
-│                        │                        ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
-│                        │                        ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
-│                        │                        ├ [3] : https://github.com/golang/go/issues/63417 
-│                        │                        ├ [4] : https://go.dev/cl/534215 
-│                        │                        ├ [5] : https://go.dev/cl/534235 
-│                        │                        ├ [6] : https://go.dev/issue/63417 
-│                        │                        ├ [7] : https://groups.google.com/g/golang-announce/c/iN
-│                        │                        │       NxDTCjZvo/m/UDd7VKQuAAAJ 
-│                        │                        ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │                        ├ [9] : https://www.cisa.gov/news-events/alerts/2023/10/
-│                        │                        │       10/http2-rapid-reset-vulnerability-cve-2023-44487
-│                        │                        │       [m 
-│                        │                        ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     ├ References       ╭ [0] : golang.org/x/net 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                        │     │                  ├ [3] : https://access.redhat.com/security/vulnerabiliti
+│                        │     │                  │       es/RHSB-2023-003 
+│                        │     │                  ├ [4] : https://github.com/golang/go/issues/63417 
+│                        │     │                  ├ [5] : https://go.dev/cl/534215 
+│                        │     │                  ├ [6] : https://go.dev/cl/534235 
+│                        │     │                  ├ [7] : https://go.dev/issue/63417 
+│                        │     │                  ├ [8] : https://groups.google.com/g/golang-announce/c/iN
+│                        │     │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [11]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
+│                        │     │                  │       [m 
+│                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
+│                        │     ╰ LastModifiedDate: 2023-10-11T22:15:00Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2023-3978 
 │                              ├ PkgName         : golang.org/x/net 
 │                              ├ InstalledVersion: v0.12.0 
@@ -3411,65 +3423,69 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:7469 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2022:8008 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022
 │                        │      │                  │       -27191 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2064702 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2085361 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2086398 
-│                        │      │                  ├ [5] : https://cs.opensource.google/go/x/crypto 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2022-7469.html 
-│                        │      │                  ├ [7] : https://go.dev/cl/392355 
-│                        │      │                  ├ [8] : https://go.googlesource.com/crypto/+/1baeb1ce4c
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/1939485 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/1989564 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/1989570 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/1989575 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2064702 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2121445 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2121453 
+│                        │      │                  ├ [9] : https://cs.opensource.google/go/x/crypto 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2022-8008.html 
+│                        │      │                  ├ [11]: https://go.dev/cl/392355 
+│                        │      │                  ├ [12]: https://go.googlesource.com/crypto/+/1baeb1ce4c
 │                        │      │                  │       0b006eff0f294c47cb7617598dfb3d 
-│                        │      │                  ├ [9] : https://groups.google.com/g/golang-announce 
-│                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/-
+│                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce 
+│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/-
 │                        │      │                  │       cp44ypCT5s 
-│                        │      │                  ├ [11]: https://groups.google.com/g/golang-announce/c/-
+│                        │      │                  ├ [15]: https://groups.google.com/g/golang-announce/c/-
 │                        │      │                  │       cp44ypCT5s/m/wmegxkLiAQAJ 
-│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2022-27191.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2022-8008.html 
-│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [16]: https://linux.oracle.com/cve/CVE-2022-27191.html 
+│                        │      │                  ├ [17]: https://linux.oracle.com/errata/ELSA-2022-8008.html 
+│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/DLUJ
 │                        │      │                  │       ZV3HBP56ADXU6QH2V7RNYUPMVBXQ/ 
-│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/EZ3S
 │                        │      │                  │       7LB65N54HXXBCB67P4TTOHTNPP5O/ 
-│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/HHGB
 │                        │      │                  │       EGJ54DZZGTXFUQNS7ZIG3E624YAF/ 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/J5WP
 │                        │      │                  │       M42UR6XIBQNQPNQHM32X7S4LJTRX/ 
-│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QTFO
 │                        │      │                  │       IDHQRGNI4P6LYN6ILH5G443RYYKB/ 
-│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/RQXU
 │                        │      │                  │       752ALW53OJAF5MG3WMR5CCZVLWW6/ 
-│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/YHYR
 │                        │      │                  │       QB7TRMHDB3NEHW5XBRG7PPMUTPGV/ 
-│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/Z55V
 │                        │      │                  │       UVGO7E5PJFXIOVAY373NZRHBNCI5/ 
-│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/ZFUN
 │                        │      │                  │       HFHQVJSADNH7EZ3B53CYDZVEEPBP/ 
-│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/ZQNP
 │                        │      │                  │       PQWSTP2IX7SHE6TS4SP4EVMI5EZK/ 
-│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [28]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/ZY2S
 │                        │      │                  │       LWOQR4ZURQ7UBRZ7JIX6H6F5JHJR/ 
-│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2022-27191 
-│                        │      │                  ├ [26]: https://pkg.go.dev/vuln/GO-2021-0356 
-│                        │      │                  ├ [27]: https://raw.githubusercontent.com/golang/vulndb
+│                        │      │                  ├ [29]: https://nvd.nist.gov/vuln/detail/CVE-2022-27191 
+│                        │      │                  ├ [30]: https://pkg.go.dev/vuln/GO-2021-0356 
+│                        │      │                  ├ [31]: https://raw.githubusercontent.com/golang/vulndb
 │                        │      │                  │       /df2d3d326300e2ae768f00351ffa96cc2c56cf54/reports/GO
 │                        │      │                  │       -2021-0356.yaml 
-│                        │      │                  ├ [28]: https://security.netapp.com/advisory/ntap-20220
+│                        │      │                  ├ [32]: https://security.netapp.com/advisory/ntap-20220
 │                        │      │                  │       429-0002/ 
-│                        │      │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2022-27191 
+│                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2022-27191 
 │                        │      ├ PublishedDate   : 2022-03-18T07:15:00Z 
 │                        │      ╰ LastModifiedDate: 2023-08-08T14:22:00Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2021-33194 
@@ -3563,80 +3579,76 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/
 │                        │      │                            │           C:N/I:N/A:H 
 │                        │      │                            ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2802 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:2357 
 │                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022
 │                        │      │                  │       -27664 
-│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2107342 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2107371 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2107374 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2107376 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2107383 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2107386 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2107388 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2107390 
-│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2107392 
-│                        │      │                  ├ [11]: https://bugzilla.redhat.com/2113814 
-│                        │      │                  ├ [12]: https://bugzilla.redhat.com/2121445 
-│                        │      │                  ├ [13]: https://bugzilla.redhat.com/2124669 
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/2161274 
-│                        │      │                  ├ [15]: https://bugzilla.redhat.com/2168256 
-│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
-│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
-│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
-│                        │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
-│                        │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
-│                        │      │                  ├ [21]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
-│                        │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
-│                        │      │                  ├ [23]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
-│                        │      │                  ├ [24]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
-│                        │      │                  ├ [25]: https://cs.opensource.google/go/x/net 
-│                        │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2107371 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2107374 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2107383 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2107386 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2107388 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2113814 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2124669 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2132868 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/2132872 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/2161274 
+│                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=1913333 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=1913338 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2107371 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2107374 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2107383 
+│                        │      │                  ├ [17]: https://bugzilla.redhat.com/show_bug.cgi?id=2107386 
+│                        │      │                  ├ [18]: https://bugzilla.redhat.com/show_bug.cgi?id=2107388 
+│                        │      │                  ├ [19]: https://bugzilla.redhat.com/show_bug.cgi?id=2113814 
+│                        │      │                  ├ [20]: https://bugzilla.redhat.com/show_bug.cgi?id=2124669 
+│                        │      │                  ├ [21]: https://cs.opensource.google/go/x/net 
+│                        │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2020-28851 
-│                        │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2020-28852 
-│                        │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [24]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2022-1705 
-│                        │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2022-27664 
-│                        │      │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [26]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2022-30630 
-│                        │      │                  ├ [31]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [27]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2022-30632 
-│                        │      │                  ├ [32]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [28]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2022-30635 
-│                        │      │                  ├ [33]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [29]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2022-32148 
-│                        │      │                  ├ [34]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [30]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2022-32189 
-│                        │      │                  ├ [35]: https://errata.almalinux.org/8/ALSA-2023-2802.html 
-│                        │      │                  ├ [36]: https://errata.rockylinux.org/RLSA-2022:7129 
-│                        │      │                  ├ [37]: https://github.com/golang/go/commit/5bc9106458f
+│                        │      │                  ├ [31]: https://errata.almalinux.org/9/ALSA-2023-2357.html 
+│                        │      │                  ├ [32]: https://errata.rockylinux.org/RLSA-2022:7129 
+│                        │      │                  ├ [33]: https://github.com/golang/go/commit/5bc9106458f
 │                        │      │                  │       c07851ac324a4157132a91b1f3479 (go1.18.6) 
-│                        │      │                  ├ [38]: https://github.com/golang/go/commit/9cfe4e258b1
+│                        │      │                  ├ [34]: https://github.com/golang/go/commit/9cfe4e258b1
 │                        │      │                  │       c9d4a04a42539c21c7bdb2e227824 (go1.19.1) 
-│                        │      │                  ├ [39]: https://github.com/golang/go/issues/54658 
-│                        │      │                  ├ [40]: https://go.dev/cl/428735 
-│                        │      │                  ├ [41]: https://go.dev/issue/54658 
-│                        │      │                  ├ [42]: https://groups.google.com/g/golang-announce 
-│                        │      │                  ├ [43]: https://groups.google.com/g/golang-announce/c/x
+│                        │      │                  ├ [35]: https://github.com/golang/go/issues/54658 
+│                        │      │                  ├ [36]: https://go.dev/cl/428735 
+│                        │      │                  ├ [37]: https://go.dev/issue/54658 
+│                        │      │                  ├ [38]: https://groups.google.com/g/golang-announce 
+│                        │      │                  ├ [39]: https://groups.google.com/g/golang-announce/c/x
 │                        │      │                  │       49AQzIVX-s 
-│                        │      │                  ├ [44]: https://groups.google.com/g/golang-announce/c/x
+│                        │      │                  ├ [40]: https://groups.google.com/g/golang-announce/c/x
 │                        │      │                  │       49AQzIVX-s/m/0tgO0pjiBQAJ 
-│                        │      │                  ├ [45]: https://linux.oracle.com/cve/CVE-2022-27664.html 
-│                        │      │                  ├ [46]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
-│                        │      │                  ├ [47]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [41]: https://linux.oracle.com/cve/CVE-2022-27664.html 
+│                        │      │                  ├ [42]: https://linux.oracle.com/errata/ELSA-2023-2802.html 
+│                        │      │                  ├ [43]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/JXKT
 │                        │      │                  │       HIGE5F576MAPFYCIJXNRGBSPISUF/ 
-│                        │      │                  ├ [48]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [44]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/TXS2
 │                        │      │                  │       OQ57KZC5XZKK5UW4SYKPVQAHIOJX/ 
-│                        │      │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
-│                        │      │                  ├ [50]: https://pkg.go.dev/vuln/GO-2022-0969 
-│                        │      │                  ├ [51]: https://security.gentoo.org/glsa/202209-26 
-│                        │      │                  ├ [52]: https://security.netapp.com/advisory/ntap-20220
+│                        │      │                  ├ [45]: https://nvd.nist.gov/vuln/detail/CVE-2022-27664 
+│                        │      │                  ├ [46]: https://pkg.go.dev/vuln/GO-2022-0969 
+│                        │      │                  ├ [47]: https://security.gentoo.org/glsa/202209-26 
+│                        │      │                  ├ [48]: https://security.netapp.com/advisory/ntap-20220
 │                        │      │                  │       923-0004/ 
-│                        │      │                  ├ [53]: https://ubuntu.com/security/notices/USN-6038-1 
-│                        │      │                  ╰ [54]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
+│                        │      │                  ├ [49]: https://ubuntu.com/security/notices/USN-6038-1 
+│                        │      │                  ╰ [50]: https://www.cve.org/CVERecord?id=CVE-2022-27664 
 │                        │      ├ PublishedDate   : 2022-09-06T18:15:00Z 
 │                        │      ╰ LastModifiedDate: 2022-10-28T12:42:00Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2022-41723 
@@ -3779,39 +3791,51 @@
 │                        │      │                          ewed+ecosystem%3Ago 
 │                        │      ├ Title           : rapid stream resets can cause excessive work
 │                        │      │                   (CVE-2023-44487) 
-│                        │      ├ Description     : A flaw was found in handling multiplexed streams in
-│                        │      │                   the HTTP/2 protocol. A client can repeatedly make a request
-│                        │      │                    for a new multiplex stream and immediately send an
-│                        │      │                   RST_STREAM frame to cancel it. This creates extra work for
-│                        │      │                   the server setting up and tearing down the streams while
-│                        │      │                   not hitting any server-side limit for the maximum number of
-│                        │      │                    active streams per connection, resulting in a denial of
-│                        │      │                   service due to server resource consumption. Red Hat has
-│                        │      │                   rated the severity of this flaw as 'Important' as the US
-│                        │      │                   Cybersecurity and Infrastructure Security Agency (CISA)
-│                        │      │                   declared this vulnerability an active exploit.
-│                        │      │                   CVE-2023-39325 was assigned for the `Rapid Reset Attack` in
-│                        │      │                    the Go language packages. 
+│                        │      ├ Description     : A malicious HTTP/2 client which rapidly creates
+│                        │      │                   requests and immediately resets them can cause excessive
+│                        │      │                   server resource consumption. While the total number of
+│                        │      │                   requests is bounded by the
+│                        │      │                   http2.Server.MaxConcurrentStreams setting, resetting an
+│                        │      │                   in-progress request allows the attacker to create a new
+│                        │      │                   request while the existing one is still executing. With the
+│                        │      │                    fix applied, HTTP/2 servers now bound the number of
+│                        │      │                   simultaneously executing handler goroutines to the stream
+│                        │      │                   concurrency limit (MaxConcurrentStreams). New requests
+│                        │      │                   arriving when at the limit (which can only happen after the
+│                        │      │                    client has reset an existing, in-flight request) will be
+│                        │      │                   queued until a handler exits. If the request queue grows
+│                        │      │                   too large, the server will terminate the connection. This
+│                        │      │                   issue is also fixed in golang.org/x/net/http2 for users
+│                        │      │                   manually configuring HTTP/2. The default stream concurrency
+│                        │      │                    limit is 250 streams (requests) per HTTP/2 connection.
+│                        │      │                   This value may be adjusted using the golang.org/x/net/http2
+│                        │      │                    package; see the Server.MaxConcurrentStreams setting and
+│                        │      │                   the ConfigureServer function. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 7.5 
-│                        │      ╰ References       ╭ [0] : golang.org/x/net 
-│                        │                         ├ [1] : https://access.redhat.com/security/cve/CVE-2023
-│                        │                         │       -39325 
-│                        │                         ├ [2] : https://access.redhat.com/security/cve/CVE-2023
-│                        │                         │       -44487 
-│                        │                         ├ [3] : https://github.com/golang/go/issues/63417 
-│                        │                         ├ [4] : https://go.dev/cl/534215 
-│                        │                         ├ [5] : https://go.dev/cl/534235 
-│                        │                         ├ [6] : https://go.dev/issue/63417 
-│                        │                         ├ [7] : https://groups.google.com/g/golang-announce/c/i
-│                        │                         │       NNxDTCjZvo/m/UDd7VKQuAAAJ 
-│                        │                         ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │                         ├ [9] : https://www.cisa.gov/news-events/alerts/2023/10
-│                        │                         │       /10/http2-rapid-reset-vulnerability-cve-2023-44487[
-│                        │                         │       m 
-│                        │                         ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │      ├ References       ╭ [0] : golang.org/x/net 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  │       -39325 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  │       -44487 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/vulnerabilit
+│                        │      │                  │       ies/RHSB-2023-003 
+│                        │      │                  ├ [4] : https://github.com/golang/go/issues/63417 
+│                        │      │                  ├ [5] : https://go.dev/cl/534215 
+│                        │      │                  ├ [6] : https://go.dev/cl/534235 
+│                        │      │                  ├ [7] : https://go.dev/issue/63417 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/i
+│                        │      │                  │       NNxDTCjZvo/m/UDd7VKQuAAAJ 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │      │                  ├ [10]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │      │                  ├ [11]: https://www.cisa.gov/news-events/alerts/2023/10
+│                        │      │                  │       /10/http2-rapid-reset-vulnerability-cve-2023-44487[
+│                        │      │                  │       m 
+│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │      ├ PublishedDate   : 2023-10-11T22:15:00Z 
+│                        │      ╰ LastModifiedDate: 2023-10-11T22:15:00Z 
 │                        ├ [7]  ╭ VulnerabilityID : CVE-2023-3978 
 │                        │      ├ PkgID           : golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110 
 │                        │      ├ PkgName         : golang.org/x/net 
@@ -4092,37 +4116,49 @@
 │                        │     │                          wed+ecosystem%3Ago 
 │                        │     ├ Title           : rapid stream resets can cause excessive work
 │                        │     │                   (CVE-2023-44487) 
-│                        │     ├ Description     : A flaw was found in handling multiplexed streams in the
-│                        │     │                    HTTP/2 protocol. A client can repeatedly make a request for
-│                        │     │                    a new multiplex stream and immediately send an RST_STREAM
-│                        │     │                   frame to cancel it. This creates extra work for the server
-│                        │     │                   setting up and tearing down the streams while not hitting
-│                        │     │                   any server-side limit for the maximum number of active
-│                        │     │                   streams per connection, resulting in a denial of service due
-│                        │     │                    to server resource consumption. Red Hat has rated the
-│                        │     │                   severity of this flaw as 'Important' as the US Cybersecurity
-│                        │     │                    and Infrastructure Security Agency (CISA) declared this
-│                        │     │                   vulnerability an active exploit.
-│                        │     │                   CVE-2023-39325 was assigned for the `Rapid Reset Attack` in
-│                        │     │                   the Go language packages. 
+│                        │     ├ Description     : A malicious HTTP/2 client which rapidly creates
+│                        │     │                   requests and immediately resets them can cause excessive
+│                        │     │                   server resource consumption. While the total number of
+│                        │     │                   requests is bounded by the http2.Server.MaxConcurrentStreams
+│                        │     │                    setting, resetting an in-progress request allows the
+│                        │     │                   attacker to create a new request while the existing one is
+│                        │     │                   still executing. With the fix applied, HTTP/2 servers now
+│                        │     │                   bound the number of simultaneously executing handler
+│                        │     │                   goroutines to the stream concurrency limit
+│                        │     │                   (MaxConcurrentStreams). New requests arriving when at the
+│                        │     │                   limit (which can only happen after the client has reset an
+│                        │     │                   existing, in-flight request) will be queued until a handler
+│                        │     │                   exits. If the request queue grows too large, the server will
+│                        │     │                    terminate the connection. This issue is also fixed in
+│                        │     │                   golang.org/x/net/http2 for users manually configuring
+│                        │     │                   HTTP/2. The default stream concurrency limit is 250 streams
+│                        │     │                   (requests) per HTTP/2 connection. This value may be adjusted
+│                        │     │                    using the golang.org/x/net/http2 package; see the
+│                        │     │                   Server.MaxConcurrentStreams setting and the ConfigureServer
+│                        │     │                   function. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ╰ References       ╭ [0] : golang.org/x/net 
-│                        │                        ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
-│                        │                        ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
-│                        │                        ├ [3] : https://github.com/golang/go/issues/63417 
-│                        │                        ├ [4] : https://go.dev/cl/534215 
-│                        │                        ├ [5] : https://go.dev/cl/534235 
-│                        │                        ├ [6] : https://go.dev/issue/63417 
-│                        │                        ├ [7] : https://groups.google.com/g/golang-announce/c/iN
-│                        │                        │       NxDTCjZvo/m/UDd7VKQuAAAJ 
-│                        │                        ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │                        ├ [9] : https://www.cisa.gov/news-events/alerts/2023/10/
-│                        │                        │       10/http2-rapid-reset-vulnerability-cve-2023-44487
-│                        │                        │       [m 
-│                        │                        ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     ├ References       ╭ [0] : golang.org/x/net 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                        │     │                  ├ [3] : https://access.redhat.com/security/vulnerabiliti
+│                        │     │                  │       es/RHSB-2023-003 
+│                        │     │                  ├ [4] : https://github.com/golang/go/issues/63417 
+│                        │     │                  ├ [5] : https://go.dev/cl/534215 
+│                        │     │                  ├ [6] : https://go.dev/cl/534235 
+│                        │     │                  ├ [7] : https://go.dev/issue/63417 
+│                        │     │                  ├ [8] : https://groups.google.com/g/golang-announce/c/iN
+│                        │     │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [11]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
+│                        │     │                  │       [m 
+│                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
+│                        │     ╰ LastModifiedDate: 2023-10-11T22:15:00Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2023-3978 
 │                              ├ PkgName         : golang.org/x/net 
 │                              ├ InstalledVersion: v0.12.0 
@@ -4181,37 +4217,49 @@
 │                        │     │                          wed+ecosystem%3Ago 
 │                        │     ├ Title           : rapid stream resets can cause excessive work
 │                        │     │                   (CVE-2023-44487) 
-│                        │     ├ Description     : A flaw was found in handling multiplexed streams in the
-│                        │     │                    HTTP/2 protocol. A client can repeatedly make a request for
-│                        │     │                    a new multiplex stream and immediately send an RST_STREAM
-│                        │     │                   frame to cancel it. This creates extra work for the server
-│                        │     │                   setting up and tearing down the streams while not hitting
-│                        │     │                   any server-side limit for the maximum number of active
-│                        │     │                   streams per connection, resulting in a denial of service due
-│                        │     │                    to server resource consumption. Red Hat has rated the
-│                        │     │                   severity of this flaw as 'Important' as the US Cybersecurity
-│                        │     │                    and Infrastructure Security Agency (CISA) declared this
-│                        │     │                   vulnerability an active exploit.
-│                        │     │                   CVE-2023-39325 was assigned for the `Rapid Reset Attack` in
-│                        │     │                   the Go language packages. 
+│                        │     ├ Description     : A malicious HTTP/2 client which rapidly creates
+│                        │     │                   requests and immediately resets them can cause excessive
+│                        │     │                   server resource consumption. While the total number of
+│                        │     │                   requests is bounded by the http2.Server.MaxConcurrentStreams
+│                        │     │                    setting, resetting an in-progress request allows the
+│                        │     │                   attacker to create a new request while the existing one is
+│                        │     │                   still executing. With the fix applied, HTTP/2 servers now
+│                        │     │                   bound the number of simultaneously executing handler
+│                        │     │                   goroutines to the stream concurrency limit
+│                        │     │                   (MaxConcurrentStreams). New requests arriving when at the
+│                        │     │                   limit (which can only happen after the client has reset an
+│                        │     │                   existing, in-flight request) will be queued until a handler
+│                        │     │                   exits. If the request queue grows too large, the server will
+│                        │     │                    terminate the connection. This issue is also fixed in
+│                        │     │                   golang.org/x/net/http2 for users manually configuring
+│                        │     │                   HTTP/2. The default stream concurrency limit is 250 streams
+│                        │     │                   (requests) per HTTP/2 connection. This value may be adjusted
+│                        │     │                    using the golang.org/x/net/http2 package; see the
+│                        │     │                   Server.MaxConcurrentStreams setting and the ConfigureServer
+│                        │     │                   function. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ╰ References       ╭ [0] : golang.org/x/net 
-│                        │                        ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
-│                        │                        ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
-│                        │                        ├ [3] : https://github.com/golang/go/issues/63417 
-│                        │                        ├ [4] : https://go.dev/cl/534215 
-│                        │                        ├ [5] : https://go.dev/cl/534235 
-│                        │                        ├ [6] : https://go.dev/issue/63417 
-│                        │                        ├ [7] : https://groups.google.com/g/golang-announce/c/iN
-│                        │                        │       NxDTCjZvo/m/UDd7VKQuAAAJ 
-│                        │                        ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │                        ├ [9] : https://www.cisa.gov/news-events/alerts/2023/10/
-│                        │                        │       10/http2-rapid-reset-vulnerability-cve-2023-44487
-│                        │                        │       [m 
-│                        │                        ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     ├ References       ╭ [0] : golang.org/x/net 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                        │     │                  ├ [3] : https://access.redhat.com/security/vulnerabiliti
+│                        │     │                  │       es/RHSB-2023-003 
+│                        │     │                  ├ [4] : https://github.com/golang/go/issues/63417 
+│                        │     │                  ├ [5] : https://go.dev/cl/534215 
+│                        │     │                  ├ [6] : https://go.dev/cl/534235 
+│                        │     │                  ├ [7] : https://go.dev/issue/63417 
+│                        │     │                  ├ [8] : https://groups.google.com/g/golang-announce/c/iN
+│                        │     │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [11]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
+│                        │     │                  │       [m 
+│                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
+│                        │     ╰ LastModifiedDate: 2023-10-11T22:15:00Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2023-3978 
 │                              ├ PkgName         : golang.org/x/net 
 │                              ├ InstalledVersion: v0.12.0 
@@ -4270,37 +4318,49 @@
 │                              │                          wed+ecosystem%3Ago 
 │                              ├ Title           : rapid stream resets can cause excessive work
 │                              │                   (CVE-2023-44487) 
-│                              ├ Description     : A flaw was found in handling multiplexed streams in the
-│                              │                    HTTP/2 protocol. A client can repeatedly make a request for
-│                              │                    a new multiplex stream and immediately send an RST_STREAM
-│                              │                   frame to cancel it. This creates extra work for the server
-│                              │                   setting up and tearing down the streams while not hitting
-│                              │                   any server-side limit for the maximum number of active
-│                              │                   streams per connection, resulting in a denial of service due
-│                              │                    to server resource consumption. Red Hat has rated the
-│                              │                   severity of this flaw as 'Important' as the US Cybersecurity
-│                              │                    and Infrastructure Security Agency (CISA) declared this
-│                              │                   vulnerability an active exploit.
-│                              │                   CVE-2023-39325 was assigned for the `Rapid Reset Attack` in
-│                              │                   the Go language packages. 
+│                              ├ Description     : A malicious HTTP/2 client which rapidly creates
+│                              │                   requests and immediately resets them can cause excessive
+│                              │                   server resource consumption. While the total number of
+│                              │                   requests is bounded by the http2.Server.MaxConcurrentStreams
+│                              │                    setting, resetting an in-progress request allows the
+│                              │                   attacker to create a new request while the existing one is
+│                              │                   still executing. With the fix applied, HTTP/2 servers now
+│                              │                   bound the number of simultaneously executing handler
+│                              │                   goroutines to the stream concurrency limit
+│                              │                   (MaxConcurrentStreams). New requests arriving when at the
+│                              │                   limit (which can only happen after the client has reset an
+│                              │                   existing, in-flight request) will be queued until a handler
+│                              │                   exits. If the request queue grows too large, the server will
+│                              │                    terminate the connection. This issue is also fixed in
+│                              │                   golang.org/x/net/http2 for users manually configuring
+│                              │                   HTTP/2. The default stream concurrency limit is 250 streams
+│                              │                   (requests) per HTTP/2 connection. This value may be adjusted
+│                              │                    using the golang.org/x/net/http2 package; see the
+│                              │                   Server.MaxConcurrentStreams setting and the ConfigureServer
+│                              │                   function. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ╰ References       ╭ [0] : golang.org/x/net 
-│                                                 ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
-│                                                 ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
-│                                                 ├ [3] : https://github.com/golang/go/issues/63417 
-│                                                 ├ [4] : https://go.dev/cl/534215 
-│                                                 ├ [5] : https://go.dev/cl/534235 
-│                                                 ├ [6] : https://go.dev/issue/63417 
-│                                                 ├ [7] : https://groups.google.com/g/golang-announce/c/iN
-│                                                 │       NxDTCjZvo/m/UDd7VKQuAAAJ 
-│                                                 ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                                                 ├ [9] : https://www.cisa.gov/news-events/alerts/2023/10/
-│                                                 │       10/http2-rapid-reset-vulnerability-cve-2023-44487
-│                                                 │       [m 
-│                                                 ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                              ├ References       ╭ [0] : golang.org/x/net 
+│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                              │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                              │                  ├ [3] : https://access.redhat.com/security/vulnerabiliti
+│                              │                  │       es/RHSB-2023-003 
+│                              │                  ├ [4] : https://github.com/golang/go/issues/63417 
+│                              │                  ├ [5] : https://go.dev/cl/534215 
+│                              │                  ├ [6] : https://go.dev/cl/534235 
+│                              │                  ├ [7] : https://go.dev/issue/63417 
+│                              │                  ├ [8] : https://groups.google.com/g/golang-announce/c/iN
+│                              │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
+│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                              │                  ├ [10]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                              │                  ├ [11]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                              │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
+│                              │                  │       [m 
+│                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                              ├ PublishedDate   : 2023-10-11T22:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-11T22:15:00Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4321,37 +4381,49 @@
 │                              │                          wed+ecosystem%3Ago 
 │                              ├ Title           : rapid stream resets can cause excessive work
 │                              │                   (CVE-2023-44487) 
-│                              ├ Description     : A flaw was found in handling multiplexed streams in the
-│                              │                    HTTP/2 protocol. A client can repeatedly make a request for
-│                              │                    a new multiplex stream and immediately send an RST_STREAM
-│                              │                   frame to cancel it. This creates extra work for the server
-│                              │                   setting up and tearing down the streams while not hitting
-│                              │                   any server-side limit for the maximum number of active
-│                              │                   streams per connection, resulting in a denial of service due
-│                              │                    to server resource consumption. Red Hat has rated the
-│                              │                   severity of this flaw as 'Important' as the US Cybersecurity
-│                              │                    and Infrastructure Security Agency (CISA) declared this
-│                              │                   vulnerability an active exploit.
-│                              │                   CVE-2023-39325 was assigned for the `Rapid Reset Attack` in
-│                              │                   the Go language packages. 
+│                              ├ Description     : A malicious HTTP/2 client which rapidly creates
+│                              │                   requests and immediately resets them can cause excessive
+│                              │                   server resource consumption. While the total number of
+│                              │                   requests is bounded by the http2.Server.MaxConcurrentStreams
+│                              │                    setting, resetting an in-progress request allows the
+│                              │                   attacker to create a new request while the existing one is
+│                              │                   still executing. With the fix applied, HTTP/2 servers now
+│                              │                   bound the number of simultaneously executing handler
+│                              │                   goroutines to the stream concurrency limit
+│                              │                   (MaxConcurrentStreams). New requests arriving when at the
+│                              │                   limit (which can only happen after the client has reset an
+│                              │                   existing, in-flight request) will be queued until a handler
+│                              │                   exits. If the request queue grows too large, the server will
+│                              │                    terminate the connection. This issue is also fixed in
+│                              │                   golang.org/x/net/http2 for users manually configuring
+│                              │                   HTTP/2. The default stream concurrency limit is 250 streams
+│                              │                   (requests) per HTTP/2 connection. This value may be adjusted
+│                              │                    using the golang.org/x/net/http2 package; see the
+│                              │                   Server.MaxConcurrentStreams setting and the ConfigureServer
+│                              │                   function. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ╰ References       ╭ [0] : golang.org/x/net 
-│                                                 ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
-│                                                 ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
-│                                                 ├ [3] : https://github.com/golang/go/issues/63417 
-│                                                 ├ [4] : https://go.dev/cl/534215 
-│                                                 ├ [5] : https://go.dev/cl/534235 
-│                                                 ├ [6] : https://go.dev/issue/63417 
-│                                                 ├ [7] : https://groups.google.com/g/golang-announce/c/iN
-│                                                 │       NxDTCjZvo/m/UDd7VKQuAAAJ 
-│                                                 ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                                                 ├ [9] : https://www.cisa.gov/news-events/alerts/2023/10/
-│                                                 │       10/http2-rapid-reset-vulnerability-cve-2023-44487
-│                                                 │       [m 
-│                                                 ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                              ├ References       ╭ [0] : golang.org/x/net 
+│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                              │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                              │                  ├ [3] : https://access.redhat.com/security/vulnerabiliti
+│                              │                  │       es/RHSB-2023-003 
+│                              │                  ├ [4] : https://github.com/golang/go/issues/63417 
+│                              │                  ├ [5] : https://go.dev/cl/534215 
+│                              │                  ├ [6] : https://go.dev/cl/534235 
+│                              │                  ├ [7] : https://go.dev/issue/63417 
+│                              │                  ├ [8] : https://groups.google.com/g/golang-announce/c/iN
+│                              │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
+│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                              │                  ├ [10]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                              │                  ├ [11]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                              │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
+│                              │                  │       [m 
+│                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                              ├ PublishedDate   : 2023-10-11T22:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-11T22:15:00Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4372,37 +4444,49 @@
 │                              │                          wed+ecosystem%3Ago 
 │                              ├ Title           : rapid stream resets can cause excessive work
 │                              │                   (CVE-2023-44487) 
-│                              ├ Description     : A flaw was found in handling multiplexed streams in the
-│                              │                    HTTP/2 protocol. A client can repeatedly make a request for
-│                              │                    a new multiplex stream and immediately send an RST_STREAM
-│                              │                   frame to cancel it. This creates extra work for the server
-│                              │                   setting up and tearing down the streams while not hitting
-│                              │                   any server-side limit for the maximum number of active
-│                              │                   streams per connection, resulting in a denial of service due
-│                              │                    to server resource consumption. Red Hat has rated the
-│                              │                   severity of this flaw as 'Important' as the US Cybersecurity
-│                              │                    and Infrastructure Security Agency (CISA) declared this
-│                              │                   vulnerability an active exploit.
-│                              │                   CVE-2023-39325 was assigned for the `Rapid Reset Attack` in
-│                              │                   the Go language packages. 
+│                              ├ Description     : A malicious HTTP/2 client which rapidly creates
+│                              │                   requests and immediately resets them can cause excessive
+│                              │                   server resource consumption. While the total number of
+│                              │                   requests is bounded by the http2.Server.MaxConcurrentStreams
+│                              │                    setting, resetting an in-progress request allows the
+│                              │                   attacker to create a new request while the existing one is
+│                              │                   still executing. With the fix applied, HTTP/2 servers now
+│                              │                   bound the number of simultaneously executing handler
+│                              │                   goroutines to the stream concurrency limit
+│                              │                   (MaxConcurrentStreams). New requests arriving when at the
+│                              │                   limit (which can only happen after the client has reset an
+│                              │                   existing, in-flight request) will be queued until a handler
+│                              │                   exits. If the request queue grows too large, the server will
+│                              │                    terminate the connection. This issue is also fixed in
+│                              │                   golang.org/x/net/http2 for users manually configuring
+│                              │                   HTTP/2. The default stream concurrency limit is 250 streams
+│                              │                   (requests) per HTTP/2 connection. This value may be adjusted
+│                              │                    using the golang.org/x/net/http2 package; see the
+│                              │                   Server.MaxConcurrentStreams setting and the ConfigureServer
+│                              │                   function. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ╰ References       ╭ [0] : golang.org/x/net 
-│                                                 ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
-│                                                 ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
-│                                                 ├ [3] : https://github.com/golang/go/issues/63417 
-│                                                 ├ [4] : https://go.dev/cl/534215 
-│                                                 ├ [5] : https://go.dev/cl/534235 
-│                                                 ├ [6] : https://go.dev/issue/63417 
-│                                                 ├ [7] : https://groups.google.com/g/golang-announce/c/iN
-│                                                 │       NxDTCjZvo/m/UDd7VKQuAAAJ 
-│                                                 ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                                                 ├ [9] : https://www.cisa.gov/news-events/alerts/2023/10/
-│                                                 │       10/http2-rapid-reset-vulnerability-cve-2023-44487
-│                                                 │       [m 
-│                                                 ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                              ├ References       ╭ [0] : golang.org/x/net 
+│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                              │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                              │                  ├ [3] : https://access.redhat.com/security/vulnerabiliti
+│                              │                  │       es/RHSB-2023-003 
+│                              │                  ├ [4] : https://github.com/golang/go/issues/63417 
+│                              │                  ├ [5] : https://go.dev/cl/534215 
+│                              │                  ├ [6] : https://go.dev/cl/534235 
+│                              │                  ├ [7] : https://go.dev/issue/63417 
+│                              │                  ├ [8] : https://groups.google.com/g/golang-announce/c/iN
+│                              │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
+│                              │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                              │                  ├ [10]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                              │                  ├ [11]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                              │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
+│                              │                  │       [m 
+│                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                              ├ PublishedDate   : 2023-10-11T22:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-11T22:15:00Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4423,37 +4507,49 @@
 │                        │     │                          wed+ecosystem%3Ago 
 │                        │     ├ Title           : rapid stream resets can cause excessive work
 │                        │     │                   (CVE-2023-44487) 
-│                        │     ├ Description     : A flaw was found in handling multiplexed streams in the
-│                        │     │                    HTTP/2 protocol. A client can repeatedly make a request for
-│                        │     │                    a new multiplex stream and immediately send an RST_STREAM
-│                        │     │                   frame to cancel it. This creates extra work for the server
-│                        │     │                   setting up and tearing down the streams while not hitting
-│                        │     │                   any server-side limit for the maximum number of active
-│                        │     │                   streams per connection, resulting in a denial of service due
-│                        │     │                    to server resource consumption. Red Hat has rated the
-│                        │     │                   severity of this flaw as 'Important' as the US Cybersecurity
-│                        │     │                    and Infrastructure Security Agency (CISA) declared this
-│                        │     │                   vulnerability an active exploit.
-│                        │     │                   CVE-2023-39325 was assigned for the `Rapid Reset Attack` in
-│                        │     │                   the Go language packages. 
+│                        │     ├ Description     : A malicious HTTP/2 client which rapidly creates
+│                        │     │                   requests and immediately resets them can cause excessive
+│                        │     │                   server resource consumption. While the total number of
+│                        │     │                   requests is bounded by the http2.Server.MaxConcurrentStreams
+│                        │     │                    setting, resetting an in-progress request allows the
+│                        │     │                   attacker to create a new request while the existing one is
+│                        │     │                   still executing. With the fix applied, HTTP/2 servers now
+│                        │     │                   bound the number of simultaneously executing handler
+│                        │     │                   goroutines to the stream concurrency limit
+│                        │     │                   (MaxConcurrentStreams). New requests arriving when at the
+│                        │     │                   limit (which can only happen after the client has reset an
+│                        │     │                   existing, in-flight request) will be queued until a handler
+│                        │     │                   exits. If the request queue grows too large, the server will
+│                        │     │                    terminate the connection. This issue is also fixed in
+│                        │     │                   golang.org/x/net/http2 for users manually configuring
+│                        │     │                   HTTP/2. The default stream concurrency limit is 250 streams
+│                        │     │                   (requests) per HTTP/2 connection. This value may be adjusted
+│                        │     │                    using the golang.org/x/net/http2 package; see the
+│                        │     │                   Server.MaxConcurrentStreams setting and the ConfigureServer
+│                        │     │                   function. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ╰ References       ╭ [0] : golang.org/x/net 
-│                        │                        ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
-│                        │                        ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
-│                        │                        ├ [3] : https://github.com/golang/go/issues/63417 
-│                        │                        ├ [4] : https://go.dev/cl/534215 
-│                        │                        ├ [5] : https://go.dev/cl/534235 
-│                        │                        ├ [6] : https://go.dev/issue/63417 
-│                        │                        ├ [7] : https://groups.google.com/g/golang-announce/c/iN
-│                        │                        │       NxDTCjZvo/m/UDd7VKQuAAAJ 
-│                        │                        ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │                        ├ [9] : https://www.cisa.gov/news-events/alerts/2023/10/
-│                        │                        │       10/http2-rapid-reset-vulnerability-cve-2023-44487
-│                        │                        │       [m 
-│                        │                        ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     ├ References       ╭ [0] : golang.org/x/net 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                        │     │                  ├ [3] : https://access.redhat.com/security/vulnerabiliti
+│                        │     │                  │       es/RHSB-2023-003 
+│                        │     │                  ├ [4] : https://github.com/golang/go/issues/63417 
+│                        │     │                  ├ [5] : https://go.dev/cl/534215 
+│                        │     │                  ├ [6] : https://go.dev/cl/534235 
+│                        │     │                  ├ [7] : https://go.dev/issue/63417 
+│                        │     │                  ├ [8] : https://groups.google.com/g/golang-announce/c/iN
+│                        │     │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
+│                        │     │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [10]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [11]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
+│                        │     │                  │       [m 
+│                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
+│                        │     ╰ LastModifiedDate: 2023-10-11T22:15:00Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2023-3978 
 │                              ├ PkgName         : golang.org/x/net 
 │                              ├ InstalledVersion: v0.10.0 
@@ -4492,60 +4588,7 @@
 │                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                              ├ PublishedDate   : 2023-08-02T20:15:00Z 
 │                              ╰ LastModifiedDate: 2023-08-07T18:24:00Z 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:2dc25df75c9c239f268d03c6e3057e963bf6c087c4e276b014b
-│                                  │            5bc6101b7f7bf 
-│                                  ├ DiffID   : sha256:cfcc2d2263c15da9ef1c3c34081f4272eeec418ac72ccf4d603
-│                                  │            72951dbf9456f 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -4721,7 +4764,7 @@
 │                                  ├ DiffID   : sha256:cfcc2d2263c15da9ef1c3c34081f4272eeec418ac72ccf4d603
 │                                  │            72951dbf9456f 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -4829,7 +4872,65 @@
 │                                  ├ DiffID   : sha256:cfcc2d2263c15da9ef1c3c34081f4272eeec418ac72ccf4d603
 │                                  │            72951dbf9456f 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRIVATE KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRIVATE KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:2dc25df75c9c239f268d03c6e3057e963bf6c087c4e276b014b
+│                                  │            5bc6101b7f7bf 
+│                                  ├ DiffID   : sha256:cfcc2d2263c15da9ef1c3c34081f4272eeec418ac72ccf4d603
+│                                  │            72951dbf9456f 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -4846,10 +4947,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRIVATE KEY----- 
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
+                       │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
@@ -4861,10 +4960,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRIVATE KEY----- 
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
+                       │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -4879,9 +4976,8 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **-----END OPENSSH PRI 
+                       │            **************************************************-----END OPENSSH
+                       │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:2dc25df75c9c239f268d03c6e3057e963bf6c087c4e276b014b
                                    │            5bc6101b7f7bf 
                                    ├ DiffID   : sha256:cfcc2d2263c15da9ef1c3c34081f4272eeec418ac72ccf4d603
