@@ -3081,10 +3081,15 @@
     Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -3093,6 +3098,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
     - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
     - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
     - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
@@ -3170,6 +3176,7 @@
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
     - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
@@ -3202,763 +3209,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-13T00:15:00Z'
-- Target: home/workspace/.openvscode-server/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.15-universal/go.mod
-  Class: lang-pkgs
-  Type: gomod
-  Vulnerabilities:
-  - VulnerabilityID: CVE-2021-43565
-    PkgID: golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e
-    PkgName: golang.org/x/crypto
-    InstalledVersion: 0.0.0-20210616213533-5ff15b29337e
-    FixedVersion: 0.0.0-20211202192323-5770296d904e
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-43565
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: empty plaintext packet causes panic
-    Description: The x/crypto/ssh package before 0.0.0-20211202192323-5770296d904e of golang.org/x/crypto allows an attacker to panic an SSH server.
-    Severity: HIGH
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2021-43565
-    - https://go.dev/cl/368814/
-    - https://go.dev/issues/49932
-    - https://groups.google.com/forum/#!forum/golang-announce
-    - https://groups.google.com/g/golang-announce/c/2AR1sKiM-Qs
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-43565
-    - https://pkg.go.dev/vuln/GO-2022-0968
-    - https://www.cve.org/CVERecord?id=CVE-2021-43565
-    PublishedDate: '2022-09-06T18:15:00Z'
-    LastModifiedDate: '2022-09-09T03:38:00Z'
-  - VulnerabilityID: CVE-2022-27191
-    PkgID: golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e
-    PkgName: golang.org/x/crypto
-    InstalledVersion: 0.0.0-20210616213533-5ff15b29337e
-    FixedVersion: 0.0.0-20220314234659-1baeb1ce4c0b
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27191
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: crash in a golang.org/x/crypto/ssh server
-    Description: The golang.org/x/crypto/ssh package before 0.0.0-20220314234659-1baeb1ce4c0b for Go allows an attacker to crash a server in certain circumstances involving AddHostKey.
-    Severity: HIGH
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V2Vector: AV:N/AC:M/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 4.3
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2022:8008
-    - https://access.redhat.com/security/cve/CVE-2022-27191
-    - https://bugzilla.redhat.com/1939485
-    - https://bugzilla.redhat.com/1989564
-    - https://bugzilla.redhat.com/1989570
-    - https://bugzilla.redhat.com/1989575
-    - https://bugzilla.redhat.com/2064702
-    - https://bugzilla.redhat.com/2121445
-    - https://bugzilla.redhat.com/2121453
-    - https://cs.opensource.google/go/x/crypto
-    - https://errata.almalinux.org/9/ALSA-2022-8008.html
-    - https://go.dev/cl/392355
-    - https://go.googlesource.com/crypto/+/1baeb1ce4c0b006eff0f294c47cb7617598dfb3d
-    - https://groups.google.com/g/golang-announce
-    - https://groups.google.com/g/golang-announce/c/-cp44ypCT5s
-    - https://groups.google.com/g/golang-announce/c/-cp44ypCT5s/m/wmegxkLiAQAJ
-    - https://linux.oracle.com/cve/CVE-2022-27191.html
-    - https://linux.oracle.com/errata/ELSA-2022-8008.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DLUJZV3HBP56ADXU6QH2V7RNYUPMVBXQ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/EZ3S7LB65N54HXXBCB67P4TTOHTNPP5O/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HHGBEGJ54DZZGTXFUQNS7ZIG3E624YAF/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/J5WPM42UR6XIBQNQPNQHM32X7S4LJTRX/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QTFOIDHQRGNI4P6LYN6ILH5G443RYYKB/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RQXU752ALW53OJAF5MG3WMR5CCZVLWW6/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YHYRQB7TRMHDB3NEHW5XBRG7PPMUTPGV/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z55VUVGO7E5PJFXIOVAY373NZRHBNCI5/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZFUNHFHQVJSADNH7EZ3B53CYDZVEEPBP/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZQNPPQWSTP2IX7SHE6TS4SP4EVMI5EZK/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZY2SLWOQR4ZURQ7UBRZ7JIX6H6F5JHJR/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-27191
-    - https://pkg.go.dev/vuln/GO-2021-0356
-    - https://raw.githubusercontent.com/golang/vulndb/df2d3d326300e2ae768f00351ffa96cc2c56cf54/reports/GO-2021-0356.yaml
-    - https://security.netapp.com/advisory/ntap-20220429-0002/
-    - https://www.cve.org/CVERecord?id=CVE-2022-27191
-    PublishedDate: '2022-03-18T07:15:00Z'
-    LastModifiedDate: '2023-08-08T14:22:00Z'
-  - VulnerabilityID: CVE-2021-33194
-    PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
-    PkgName: golang.org/x/net
-    InstalledVersion: 0.0.0-20210226172049-e18ecbb05110
-    FixedVersion: 0.0.0-20210520170846-37e1c6afe023
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-33194
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: infinite loop in ParseFragment
-    Description: golang.org/x/net before v0.0.0-20210520170846-37e1c6afe023 allows attackers to cause a denial of service (infinite loop) via crafted ParseFragment input.
-    Severity: HIGH
-    CweIDs:
-    - CWE-835
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2021-33194
-    - https://github.com/golang/net/commit/37e1c6afe02340126705deced573a85ab75209d7
-    - https://go.dev/cl/311090
-    - https://go.dev/issue/46288
-    - https://go.googlesource.com/net/+/37e1c6afe02340126705deced573a85ab75209d7
-    - https://groups.google.com/g/golang-announce/c/wPunbCPkWUg
-    - https://groups.google.com/g/golang-dev/c/28x0nthP-c8/m/KqWVTjsnBAAJ
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4CHKSFMHZVOBCZSSVRE3UEYNKARTBMTM/
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-33194
-    - https://pkg.go.dev/vuln/GO-2021-0238
-    - https://www.cve.org/CVERecord?id=CVE-2021-33194
-    PublishedDate: '2021-05-26T15:15:00Z'
-    LastModifiedDate: '2022-06-03T19:29:00Z'
-  - VulnerabilityID: CVE-2022-27664
-    PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
-    PkgName: golang.org/x/net
-    InstalledVersion: 0.0.0-20210226172049-e18ecbb05110
-    FixedVersion: 0.0.0-20220906165146-f3363e06e74c
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27664
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: handle server errors after sending GOAWAY
-    Description: In net/http in Go before 1.18.6 and 1.19.x before 1.19.1, attackers can cause a denial of service because an HTTP/2 connection can hang during closing if shutdown were preempted by a fatal error.
-    Severity: HIGH
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:2357
-    - https://access.redhat.com/security/cve/CVE-2022-27664
-    - https://bugzilla.redhat.com/2107371
-    - https://bugzilla.redhat.com/2107374
-    - https://bugzilla.redhat.com/2107383
-    - https://bugzilla.redhat.com/2107386
-    - https://bugzilla.redhat.com/2107388
-    - https://bugzilla.redhat.com/2113814
-    - https://bugzilla.redhat.com/2124669
-    - https://bugzilla.redhat.com/2132868
-    - https://bugzilla.redhat.com/2132872
-    - https://bugzilla.redhat.com/2161274
-    - https://bugzilla.redhat.com/show_bug.cgi?id=1913333
-    - https://bugzilla.redhat.com/show_bug.cgi?id=1913338
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2107371
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2107374
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2107383
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2107386
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2107388
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2113814
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2124669
-    - https://cs.opensource.google/go/x/net
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28851
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28852
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1705
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27664
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30630
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30632
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32189
-    - https://errata.almalinux.org/9/ALSA-2023-2357.html
-    - https://errata.rockylinux.org/RLSA-2022:7129
-    - https://github.com/golang/go/commit/5bc9106458fc07851ac324a4157132a91b1f3479 (go1.18.6)
-    - https://github.com/golang/go/commit/9cfe4e258b1c9d4a04a42539c21c7bdb2e227824 (go1.19.1)
-    - https://github.com/golang/go/issues/54658
-    - https://go.dev/cl/428735
-    - https://go.dev/issue/54658
-    - https://groups.google.com/g/golang-announce
-    - https://groups.google.com/g/golang-announce/c/x49AQzIVX-s
-    - https://groups.google.com/g/golang-announce/c/x49AQzIVX-s/m/0tgO0pjiBQAJ
-    - https://linux.oracle.com/cve/CVE-2022-27664.html
-    - https://linux.oracle.com/errata/ELSA-2023-2802.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JXKTHIGE5F576MAPFYCIJXNRGBSPISUF/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TXS2OQ57KZC5XZKK5UW4SYKPVQAHIOJX/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-27664
-    - https://pkg.go.dev/vuln/GO-2022-0969
-    - https://security.gentoo.org/glsa/202209-26
-    - https://security.netapp.com/advisory/ntap-20220923-0004/
-    - https://ubuntu.com/security/notices/USN-6038-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-27664
-    PublishedDate: '2022-09-06T18:15:00Z'
-    LastModifiedDate: '2022-10-28T12:42:00Z'
-  - VulnerabilityID: CVE-2022-41723
-    PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
-    PkgName: golang.org/x/net
-    InstalledVersion: 0.0.0-20210226172049-e18ecbb05110
-    FixedVersion: 0.7.0
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-41723
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: avoid quadratic complexity in HPACK decoding
-    Description: A maliciously crafted HTTP/2 stream could cause excessive CPU consumption in the HPACK decoder, sufficient to cause a denial of service from a small number of small requests.
-    Severity: HIGH
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-41723
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41723
-    - https://github.com/advisories/GHSA-vvpx-j8f3-3w6h
-    - https://go.dev/cl/468135
-    - https://go.dev/cl/468295
-    - https://go.dev/issue/57855
-    - https://groups.google.com/g/golang-announce/c/V0aBFqaFs_E
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4MA5XS5DAOJ5PKKNG5TUXKPQOFHT5VBC/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RGW7GE2Z32ZT47UFAQFDRQE33B7Q7LMT/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RLBQ3A7ROLEQXQLXFDLNJ7MYPKG5GULE/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XX3IMUTZKRQ73PBZM4E2JP4BKYH4C6XE/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-41723
-    - https://pkg.go.dev/vuln/GO-2023-1571
-    - https://vuln.go.dev/ID/GO-2023-1571.json
-    - https://www.cve.org/CVERecord?id=CVE-2022-41723
-    PublishedDate: '2023-02-28T18:15:00Z'
-    LastModifiedDate: '2023-08-08T14:22:00Z'
-  - VulnerabilityID: CVE-2021-31525
-    PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
-    PkgName: golang.org/x/net
-    InstalledVersion: 0.0.0-20210226172049-e18ecbb05110
-    FixedVersion: 0.0.0-20210428140749-89ef3d95e781
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31525
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: panic in ReadRequest and ReadResponse when reading a very large header
-    Description: net/http in Go before 1.15.12 and 1.16.x before 1.16.4 allows remote attackers to cause a denial of service (panic) via a large header to ReadRequest or ReadResponse. Server, Transport, and Client can each be affected in some configurations.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-674
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-      nvd:
-        V2Vector: AV:N/AC:H/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 2.6
-        V3Score: 5.9
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-    References:
-    - https://access.redhat.com/security/cve/CVE-2021-31525
-    - https://github.com/golang/go
-    - https://github.com/golang/go/issues/45710
-    - https://go.dev/cl/313069
-    - https://go.dev/issue/45710
-    - https://go.googlesource.com/net/+/89ef3d95e781148a0951956029c92a211477f7f9
-    - https://groups.google.com/g/golang-announce/c/cu9SP4eSXMc
-    - https://linux.oracle.com/cve/CVE-2021-31525.html
-    - https://linux.oracle.com/errata/ELSA-2021-3076.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ISRZZ6NY5R2TBYE72KZFOCO25TEUQTBF/
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-31525
-    - https://pkg.go.dev/vuln/GO-2022-0236
-    - https://security.gentoo.org/glsa/202208-02
-    - https://www.cve.org/CVERecord?id=CVE-2021-31525
-    PublishedDate: '2021-05-27T13:15:00Z'
-    LastModifiedDate: '2022-11-09T03:32:00Z'
-  - VulnerabilityID: CVE-2023-39325
-    PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
-    PkgName: golang.org/x/net
-    InstalledVersion: 0.0.0-20210226172049-e18ecbb05110
-    FixedVersion: 0.17.0
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39325
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: rapid stream resets can cause excessive work (CVE-2023-44487)
-    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - golang.org/x/net
-    - https://access.redhat.com/security/cve/CVE-2023-39325
-    - https://access.redhat.com/security/cve/CVE-2023-44487
-    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
-    - https://github.com/golang/go/issues/63417
-    - https://go.dev/cl/534215
-    - https://go.dev/cl/534235
-    - https://go.dev/issue/63417
-    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
-    - https://pkg.go.dev/vuln/GO-2023-2102
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
-    - https://www.cve.org/CVERecord?id=CVE-2023-39325
-    PublishedDate: '2023-10-11T22:15:00Z'
-    LastModifiedDate: '2023-10-12T12:59:00Z'
-  - VulnerabilityID: CVE-2023-3978
-    PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
-    PkgName: golang.org/x/net
-    InstalledVersion: 0.0.0-20210226172049-e18ecbb05110
-    FixedVersion: 0.13.0
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3978
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Cross site scripting
-    Description: Text nodes not in the HTML namespace are incorrectly literally rendered, causing text which should be escaped to not be. This could lead to an XSS attack.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-79
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
-        V3Score: 6.1
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-3978
-    - https://go.dev/cl/514896
-    - https://go.dev/issue/61615
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-3978
-    - https://pkg.go.dev/vuln/GO-2023-1988
-    - https://www.cve.org/CVERecord?id=CVE-2023-3978
-    PublishedDate: '2023-08-02T20:15:00Z'
-    LastModifiedDate: '2023-08-07T18:24:00Z'
-  - VulnerabilityID: CVE-2023-44487
-    PkgID: golang.org/x/net@v0.0.0-20210226172049-e18ecbb05110
-    PkgName: golang.org/x/net
-    InstalledVersion: 0.0.0-20210226172049-e18ecbb05110
-    FixedVersion: 0.17.0
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
-    Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
-    Severity: MEDIUM
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/13/4
-    - http://www.openwall.com/lists/oss-security/2023/10/13/9
-    - https://access.redhat.com/security/cve/CVE-2023-44487
-    - https://access.redhat.com/security/cve/cve-2023-44487
-    - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
-    - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
-    - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
-    - https://blog.litespeedtech.com/2023/10/11/rapid-reset-http-2-vulnerablilty/
-    - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
-    - https://blog.vespa.ai/cve-2023-44487/
-    - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
-    - https://bugzilla.suse.com/show_bug.cgi?id=1216123
-    - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
-    - https://chaos.social/@icing/111210915918780532
-    - https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps/
-    - https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack
-    - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://devblogs.microsoft.com/dotnet/october-2023-updates/
-    - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
-    - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
-    - https://github.com/Azure/AKS/issues/3947
-    - https://github.com/Kong/kong/discussions/11741
-    - https://github.com/advisories/GHSA-qppj-fm5r-hxr3
-    - https://github.com/advisories/GHSA-vx74-f528-fxqg
-    - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
-    - https://github.com/akka/akka-http/issues/4323
-    - https://github.com/alibaba/tengine/issues/1872
-    - https://github.com/apache/apisix/issues/10320
-    - https://github.com/apache/httpd-site/pull/10
-    - https://github.com/apache/httpd/blob/afcdbeebbff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mplx.c#L1101-L1113
-    - https://github.com/apache/tomcat/tree/main/java/org/apache/coyote/http2
-    - https://github.com/apache/trafficserver/pull/10564
-    - https://github.com/apple/swift-nio-http2
-    - https://github.com/apple/swift-nio-http2/security/advisories/GHSA-qppj-fm5r-hxr3
-    - https://github.com/arkrwn/PoC/tree/main/CVE-2023-44487
-    - https://github.com/bcdannyboy/CVE-2023-44487
-    - https://github.com/caddyserver/caddy/issues/5877
-    - https://github.com/caddyserver/caddy/releases/tag/v2.7.5
-    - https://github.com/dotnet/announcements/issues/277
-    - https://github.com/dotnet/core/blob/e4613450ea0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.0.23/6.0.23.md?plain=1#L73
-    - https://github.com/eclipse/jetty.project/issues/10679
-    - https://github.com/envoyproxy/envoy/pull/30055
-    - https://github.com/etcd-io/etcd/issues/16740
-    - https://github.com/facebook/proxygen/pull/466
-    - https://github.com/golang/go/issues/63417
-    - https://github.com/grpc/grpc-go/pull/6703
-    - https://github.com/h2o/h2o/pull/3291
-    - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
-    - https://github.com/haproxy/haproxy/issues/2312
-    - https://github.com/hyperium/hyper/issues/3337
-    - https://github.com/icing/mod_h2/blob/0a864782af0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md?plain=1#L239-L244
-    - https://github.com/junkurihara/rust-rpxy/issues/97
-    - https://github.com/kazu-yamamoto/http2/commit/f61d41a502bd0f60eb24e1ce14edc7b6df6722a1
-    - https://github.com/kazu-yamamoto/http2/issues/93
-    - https://github.com/kubernetes/kubernetes/pull/121120
-    - https://github.com/line/armeria/pull/5232
-    - https://github.com/linkerd/website/pull/1695/commits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
-    - https://github.com/micrictor/http2-rst-stream
-    - https://github.com/microsoft/CBL-Mariner/pull/6381
-    - https://github.com/netty/netty/commit/58f75f665aa81a8cbcf6ffa74820042a285c5e61
-    - https://github.com/nghttp2/nghttp2/pull/1961
-    - https://github.com/nghttp2/nghttp2/releases/tag/v1.57.0
-    - https://github.com/ninenines/cowboy/issues/1615
-    - https://github.com/nodejs/node/pull/50121
-    - https://github.com/openresty/openresty/issues/930
-    - https://github.com/opensearch-project/data-prepper/issues/3474
-    - https://github.com/oqtane/oqtane.framework/discussions/3367
-    - https://github.com/projectcontour/contour/pull/5826
-    - https://github.com/tempesta-tech/tempesta/issues/1986
-    - https://github.com/varnishcache/varnish-cache/issues/3996
-    - https://go.dev/cl/534215
-    - https://go.dev/cl/534235
-    - https://go.dev/issue/63417
-    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
-    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
-    - https://istio.io/latest/news/security/istio-security-2023-004/
-    - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
-    - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
-    - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
-    - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
-    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-44487
-    - https://my.f5.com/manage/s/article/K000137106
-    - https://netty.io/news/2023/10/10/4-1-100-Final.html
-    - https://news.ycombinator.com/item?id=37830987
-    - https://news.ycombinator.com/item?id=37830998
-    - https://news.ycombinator.com/item?id=37831062
-    - https://news.ycombinator.com/item?id=37837043
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
-    - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
-    - https://pkg.go.dev/vuln/GO-2023-2102
-    - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
-    - https://security.paloaltonetworks.com/CVE-2023-44487
-    - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
-    - https://ubuntu.com/security/CVE-2023-44487
-    - https://ubuntu.com/security/notices/USN-6427-1
-    - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
-    - https://www.cve.org/CVERecord?id=CVE-2023-44487
-    - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
-    - https://www.debian.org/security/2023/dsa-5521
-    - https://www.debian.org/security/2023/dsa-5522
-    - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
-    - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
-    - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
-    - https://www.nginx.com/blog/http-2-rapid-reset-attack-impacting-f5-nginx-products/
-    - https://www.openwall.com/lists/oss-security/2023/10/10/6
-    - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
-    - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
-    PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-13T00:15:00Z'
-  - VulnerabilityID: CVE-2022-29526
-    PkgID: golang.org/x/sys@v0.0.0-20210615035016-665e8c7367d1
-    PkgName: golang.org/x/sys
-    InstalledVersion: 0.0.0-20210615035016-665e8c7367d1
-    FixedVersion: 0.0.0-20220412211240-33da011f77ad
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-29526
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: faccessat checks wrong group
-    Description: Go before 1.17.10 and 1.18.x before 1.18.2 has Incorrect Privilege Assignment. When called with a non-zero flags parameter, the Faccessat function could incorrectly report that a file is accessible.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-269
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:P/I:N/A:N
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V2Score: 5
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 6.2
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-29526
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29526
-    - https://github.com/golang/go
-    - https://github.com/golang/go/commit/f66925e854e71e0c54b581885380a490d7afa30c
-    - https://github.com/golang/go/issues/52313
-    - https://go.dev/cl/399539
-    - https://go.dev/cl/400074
-    - https://go.dev/issue/52313
-    - https://groups.google.com/g/golang-announce
-    - https://groups.google.com/g/golang-announce/c/Y5qrqw_lWdU
-    - https://linux.oracle.com/cve/CVE-2022-29526.html
-    - https://linux.oracle.com/errata/ELSA-2022-5337.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Q6GE5EQGE4L2KRVGW4T75QVIYAXCLO5X/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/RQXU752ALW53OJAF5MG3WMR5CCZVLWW6/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Z55VUVGO7E5PJFXIOVAY373NZRHBNCI5/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZY2SLWOQR4ZURQ7UBRZ7JIX6H6F5JHJR/
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-29526
-    - https://pkg.go.dev/vuln/GO-2022-0493
-    - https://security.gentoo.org/glsa/202208-02
-    - https://security.netapp.com/advisory/ntap-20220729-0001/
-    - https://ubuntu.com/security/notices/USN-6038-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-29526
-    PublishedDate: '2022-06-23T17:15:00Z'
-    LastModifiedDate: '2022-08-19T12:50:00Z'
-  - VulnerabilityID: CVE-2021-38561
-    PkgID: golang.org/x/text@v0.3.3
-    PkgName: golang.org/x/text
-    InstalledVersion: 0.3.3
-    FixedVersion: 0.3.7
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-38561
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: out-of-bounds read in golang.org/x/text/language leads to DoS
-    Description: golang.org/x/text/language in golang.org/x/text before 0.3.7 can panic with an out-of-bounds read during BCP 47 language tag parsing. Index calculation is mishandled. If parsing untrusted user input, this can be used as a vector for a denial-of-service attack.
-    Severity: HIGH
-    CweIDs:
-    - CWE-125
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2021-38561
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38561
-    - https://deps.dev/advisory/OSV/GO-2021-0113
-    - https://go.dev/cl/340830
-    - https://go.googlesource.com/text/+/383b2e75a7a4198c42f8f87833eefb772868a56f
-    - https://groups.google.com/g/golang-announce
-    - https://nvd.nist.gov/vuln/detail/CVE-2021-38561
-    - https://pkg.go.dev/golang.org/x/text/language
-    - https://pkg.go.dev/vuln/GO-2021-0113
-    - https://ubuntu.com/security/notices/USN-5873-1
-    - https://www.cve.org/CVERecord?id=CVE-2021-38561
-    PublishedDate: '2022-12-26T06:15:00Z'
-    LastModifiedDate: '2023-01-05T04:52:00Z'
-  - VulnerabilityID: CVE-2022-32149
-    PkgID: golang.org/x/text@v0.3.3
-    PkgName: golang.org/x/text
-    InstalledVersion: 0.3.3
-    FixedVersion: 0.3.8
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-32149
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: ParseAcceptLanguage takes a long time to parse complex tags
-    Description: An attacker may cause a denial of service by crafting an Accept-Language header which ParseAcceptLanguage will take significant time to parse.
-    Severity: HIGH
-    CweIDs:
-    - CWE-772
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-32149
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32149
-    - https://github.com/golang/go/issues/56152
-    - https://github.com/golang/text
-    - https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c
-    - https://github.com/golang/text/commit/434eadcdbc3b0256971992e8c70027278364c72c (v0.3.8)
-    - https://go.dev/cl/442235
-    - https://go.dev/issue/56152
-    - https://groups.google.com/g/golang-announce/c/-hjNw559_tE/m/KlGTfid5CAAJ
-    - https://groups.google.com/g/golang-dev/c/qfPIly0X7aU
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-32149
-    - https://pkg.go.dev/vuln/GO-2022-1059
-    - https://ubuntu.com/security/notices/USN-5873-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-32149
-    PublishedDate: '2022-10-14T15:15:00Z'
-    LastModifiedDate: '2022-10-18T17:41:00Z'
-  - VulnerabilityID: CVE-2022-28948
-    PkgID: gopkg.in/yaml.v3@v3.0.0-20200313102051-9f266ea9e77c
-    PkgName: gopkg.in/yaml.v3
-    InstalledVersion: 3.0.0-20200313102051-9f266ea9e77c
-    FixedVersion: 3.0.0-20220521103104-8f96da9f5d5e
-    Status: fixed
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-28948
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: crash when attempting to deserialize invalid input
-    Description: An issue in the Unmarshal function in Go-Yaml v3 causes the program to crash when attempting to deserialize invalid input.
-    Severity: HIGH
-    CweIDs:
-    - CWE-502
-    CVSS:
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V2Vector: AV:N/AC:L/Au:N/C:N/I:N/A:P
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V2Score: 5
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-28948
-    - https://github.com/advisories/GHSA-hp87-p4gw-j4gq
-    - https://github.com/go-yaml/yaml
-    - https://github.com/go-yaml/yaml/commit/8f96da9f5d5eff988554c1aae1784627c4bf6754
-    - https://github.com/go-yaml/yaml/issues/666
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-28948
-    - https://security.netapp.com/advisory/ntap-20220923-0006/
-    - https://www.cve.org/CVERecord?id=CVE-2022-28948
-    PublishedDate: '2022-05-19T20:15:00Z'
-    LastModifiedDate: '2022-10-28T19:06:00Z'
+    LastModifiedDate: '2023-10-14T01:15:00Z'
 - Target: tmp/tmp.8xzx4A6O2A/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -4055,10 +3306,15 @@
     Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -4067,6 +3323,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
     - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
     - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
     - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
@@ -4144,6 +3401,7 @@
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
     - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
@@ -4176,7 +3434,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-13T00:15:00Z'
+    LastModifiedDate: '2023-10-14T01:15:00Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -4273,10 +3531,15 @@
     Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -4285,6 +3548,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
     - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
     - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
     - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
@@ -4362,6 +3626,7 @@
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
     - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
@@ -4394,7 +3659,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-13T00:15:00Z'
+    LastModifiedDate: '2023-10-14T01:15:00Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -4453,10 +3718,15 @@
     Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -4465,6 +3735,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
     - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
     - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
     - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
@@ -4542,6 +3813,7 @@
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
     - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
@@ -4574,7 +3846,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-13T00:15:00Z'
+    LastModifiedDate: '2023-10-14T01:15:00Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -4633,10 +3905,15 @@
     Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -4645,6 +3922,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
     - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
     - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
     - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
@@ -4722,6 +4000,7 @@
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
     - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
@@ -4754,7 +4033,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-13T00:15:00Z'
+    LastModifiedDate: '2023-10-14T01:15:00Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -4813,10 +4092,15 @@
     Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -4825,6 +4109,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
     - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
     - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
     - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
@@ -4902,6 +4187,7 @@
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
     - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
@@ -4934,7 +4220,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-13T00:15:00Z'
+    LastModifiedDate: '2023-10-14T01:15:00Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -5031,10 +4317,15 @@
     Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-400
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -5043,6 +4334,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
     - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
     - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
     - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
@@ -5120,6 +4412,7 @@
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
     - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
@@ -5152,69 +4445,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-13T00:15:00Z'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
-      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-      CreatedBy: 'COPY / / # buildkit'
+    LastModifiedDate: '2023-10-14T01:15:00Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -5273,6 +4504,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
+      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
+      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
       DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
