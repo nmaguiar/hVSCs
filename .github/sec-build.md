@@ -3297,12 +3297,11 @@
 │                        │     │                  │         2b4c9797e7e8ee4d72a0a0430 
 │                        │     │                  ╰ DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e904
 │                        │     │                            0b427a03c82c7019795ec41ba 
-│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ SeveritySource  : nvd 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-42503 
-│                        │     ├ DataSource       ╭ ID  : ghsa 
-│                        │     │                  ├ Name: GitHub Security Advisory Maven 
-│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
-│                        │     │                          wed+ecosystem%3Amaven 
+│                        │     ├ DataSource       ╭ ID  : glad 
+│                        │     │                  ├ Name: GitLab Advisory Database Community 
+│                        │     │                  ╰ URL : https://gitlab.com/gitlab-org/advisories-community 
 │                        │     ├ Title           : Improper Input Validation, Uncontrolled Resource
 │                        │     │                   Consumption vulnerabi ... 
 │                        │     ├ Description     : Improper Input Validation, Uncontrolled Resource
@@ -3368,12 +3367,13 @@
 │                        │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/
 │                        │     │                         │           I:N/A:H 
 │                        │     │                         ╰ V3Score : 5.5 
-│                        │     ├ References       ╭ [0]: https://github.com/apache/commons-compress 
-│                        │     │                  ├ [1]: https://github.com/apache/commons-compress/commit
+│                        │     ├ References       ╭ [0]: https://github.com/advisories/GHSA-cgwf-w82q-5jrr 
+│                        │     │                  ├ [1]: https://github.com/apache/commons-compress 
+│                        │     │                  ├ [2]: https://github.com/apache/commons-compress/commit
 │                        │     │                  │      /aae38bfb820159ae7a0b792e779571f6a46b3889 
-│                        │     │                  ├ [2]: https://lists.apache.org/thread/5xwcyr600mn074vgx
+│                        │     │                  ├ [3]: https://lists.apache.org/thread/5xwcyr600mn074vgx
 │                        │     │                  │      q92tjssrchmc93c 
-│                        │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
+│                        │     │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-42503 
 │                        │     ├ PublishedDate   : 2023-09-14T08:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-09-19T13:43:00Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2023-36478 
@@ -3442,22 +3442,128 @@
 │                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36478 
 │                        │     ├ PublishedDate   : 2023-10-10T17:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-10-10T17:52:00Z 
-│                        ├ [2] ╭ VulnerabilityID : CVE-2023-40167 
-│                        │     ├ PkgName         : org.eclipse.jetty:jetty-http 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2023-41900 
+│                        │     ├ PkgName         : org.eclipse.jetty:jetty-io 
 │                        │     ├ PkgPath         : opt/oaf/openaf.jar 
 │                        │     ├ InstalledVersion: 9.4.51.v20230217 
-│                        │     ├ FixedVersion    : 9.4.52, 10.0.16, 11.0.16, 12.0.1 
+│                        │     ├ FixedVersion    : 9.4.52.v20230823, 10.0.16, 11.0.16 
 │                        │     ├ Status          : fixed 
 │                        │     ├ Layer            ╭ Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a74
 │                        │     │                  │         2b4c9797e7e8ee4d72a0a0430 
 │                        │     │                  ╰ DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e904
 │                        │     │                            0b427a03c82c7019795ec41ba 
-│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ SeveritySource  : nvd 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-41900 
+│                        │     ├ DataSource       ╭ ID  : glad 
+│                        │     │                  ├ Name: GitLab Advisory Database Community 
+│                        │     │                  ╰ URL : https://gitlab.com/gitlab-org/advisories-community 
+│                        │     ├ Title           : Jetty is a Java based web server and servlet engine.
+│                        │     │                   Versions 9.4.21 t ... 
+│                        │     ├ Description     : Jetty is a Java based web server and servlet engine.
+│                        │     │                   Versions 9.4.21 through 9.4.51, 10.0.15, and 11.0.15 are
+│                        │     │                   vulnerable to weak authentication. If a Jetty
+│                        │     │                   `OpenIdAuthenticator` uses the optional nested
+│                        │     │                   `LoginService`, and that `LoginService` decides to revoke an
+│                        │     │                    already authenticated user, then the current request will
+│                        │     │                   still treat the user as authenticated. The authentication is
+│                        │     │                    then cleared from the session and subsequent requests will
+│                        │     │                   not be treated as authenticated. So a request on a
+│                        │     │                   previously authenticated session could be allowed to bypass
+│                        │     │                   authentication after it had been rejected by the
+│                        │     │                   `LoginService`. This impacts usages of the jetty-openid
+│                        │     │                   which have configured a nested `LoginService` and where that
+│                        │     │                    `LoginService` will is capable of rejecting previously
+│                        │     │                   authenticated users. Versions 9.4.52, 10.0.16, and 11.0.16
+│                        │     │                   have a patch for this issue. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-1390 
+│                        │     ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/
+│                        │     │                  │      │           I:N/A:N 
+│                        │     │                  │      ╰ V3Score : 3.5 
+│                        │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/
+│                        │     │                         │           I:N/A:N 
+│                        │     │                         ╰ V3Score : 4.3 
+│                        │     ├ References       ╭ [0]: https://github.com/eclipse/jetty.project 
+│                        │     │                  ├ [1]: https://github.com/eclipse/jetty.project/pull/9528 
+│                        │     │                  ├ [2]: https://github.com/eclipse/jetty.project/pull/9660 
+│                        │     │                  ├ [3]: https://github.com/eclipse/jetty.project/security
+│                        │     │                  │      /advisories/GHSA-pwh8-58vv-vw48 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-41900 
+│                        │     │                  ╰ [5]: https://www.debian.org/security/2023/dsa-5507 
+│                        │     ├ PublishedDate   : 2023-09-15T21:15:00Z 
+│                        │     ╰ LastModifiedDate: 2023-09-29T12:15:00Z 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2023-36479 
+│                        │     ├ PkgName         : org.eclipse.jetty:jetty-util 
+│                        │     ├ PkgPath         : opt/oaf/openaf.jar 
+│                        │     ├ InstalledVersion: 9.4.51.v20230217 
+│                        │     ├ FixedVersion    : 9.4.52.v20230823, 10.0.16, 11.0.16, 12.0.1 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a74
+│                        │     │                  │         2b4c9797e7e8ee4d72a0a0430 
+│                        │     │                  ╰ DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e904
+│                        │     │                            0b427a03c82c7019795ec41ba 
+│                        │     ├ SeveritySource  : nvd 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-36479 
+│                        │     ├ DataSource       ╭ ID  : glad 
+│                        │     │                  ├ Name: GitLab Advisory Database Community 
+│                        │     │                  ╰ URL : https://gitlab.com/gitlab-org/advisories-community 
+│                        │     ├ Title           : Improper addition of quotation marks to user inputs in
+│                        │     │                   CgiServlet 
+│                        │     ├ Description     : Eclipse Jetty Canonical Repository is the canonical
+│                        │     │                   repository for the Jetty project. Users of the CgiServlet
+│                        │     │                   with a very specific command structure may have the wrong
+│                        │     │                   command executed. If a user sends a request to a
+│                        │     │                   org.eclipse.jetty.servlets.CGI Servlet for a binary with a
+│                        │     │                   space in its name, the servlet will escape the command by
+│                        │     │                   wrapping it in quotation marks. This wrapped command, plus
+│                        │     │                   an optional command prefix, will then be executed through a
+│                        │     │                   call to Runtime.exec. If the original binary name provided
+│                        │     │                   by the user contains a quotation mark followed by a space,
+│                        │     │                   the resulting command line will contain multiple tokens
+│                        │     │                   instead of one. This issue was patched in version 9.4.52,
+│                        │     │                   10.0.16, 11.0.16 and 12.0.0-beta2.
+│                        │     │                    
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-149 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:
+│                        │     │                  │        │           N/I:L/A:N 
+│                        │     │                  │        ╰ V3Score : 3.5 
+│                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:L/A:N 
+│                        │     │                  │        ╰ V3Score : 4.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:
+│                        │     │                           │           N/I:L/A:N 
+│                        │     │                           ╰ V3Score : 3.5 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-36479 
+│                        │     │                  ├ [1] : https://github.com/advisories/GHSA-3gh6-v5v9-6v9j 
+│                        │     │                  ├ [2] : https://github.com/eclipse/jetty.project 
+│                        │     │                  ├ [3] : https://github.com/eclipse/jetty.project/pull/9516 
+│                        │     │                  ├ [4] : https://github.com/eclipse/jetty.project/pull/9888 
+│                        │     │                  ├ [5] : https://github.com/eclipse/jetty.project/pull/9889 
+│                        │     │                  ├ [6] : https://github.com/eclipse/jetty.project/securit
+│                        │     │                  │       y/advisories/GHSA-3gh6-v5v9-6v9j 
+│                        │     │                  ├ [7] : https://lists.debian.org/debian-lts-announce/202
+│                        │     │                  │       3/09/msg00039.html 
+│                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-36479 
+│                        │     │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-36479 
+│                        │     │                  ╰ [10]: https://www.debian.org/security/2023/dsa-5507 
+│                        │     ├ PublishedDate   : 2023-09-15T19:15:00Z 
+│                        │     ╰ LastModifiedDate: 2023-09-30T15:15:00Z 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2023-40167 
+│                        │     ├ PkgName         : org.eclipse.jetty:jetty-util 
+│                        │     ├ PkgPath         : opt/oaf/openaf.jar 
+│                        │     ├ InstalledVersion: 9.4.51.v20230217 
+│                        │     ├ FixedVersion    : 9.4.52.v20230823, 10.0.16, 11.0.16, 12.0.1 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a74
+│                        │     │                  │         2b4c9797e7e8ee4d72a0a0430 
+│                        │     │                  ╰ DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e904
+│                        │     │                            0b427a03c82c7019795ec41ba 
+│                        │     ├ SeveritySource  : nvd 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40167 
-│                        │     ├ DataSource       ╭ ID  : ghsa 
-│                        │     │                  ├ Name: GitHub Security Advisory Maven 
-│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
-│                        │     │                          wed+ecosystem%3Amaven 
+│                        │     ├ DataSource       ╭ ID  : glad 
+│                        │     │                  ├ Name: GitLab Advisory Database Community 
+│                        │     │                  ╰ URL : https://gitlab.com/gitlab-org/advisories-community 
 │                        │     ├ Title           : Improper validation of HTTP/1 content-length 
 │                        │     ├ Description     : Jetty is a Java based web server and servlet engine.
 │                        │     │                   Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1,
@@ -3495,7 +3601,57 @@
 │                        │     │                  ╰ [7]: https://www.rfc-editor.org/rfc/rfc9110#section-8.6 
 │                        │     ├ PublishedDate   : 2023-09-15T20:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-10-13T01:59:00Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2023-4759 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2023-41900 
+│                        │     ├ PkgName         : org.eclipse.jetty:jetty-util 
+│                        │     ├ PkgPath         : opt/oaf/openaf.jar 
+│                        │     ├ InstalledVersion: 9.4.51.v20230217 
+│                        │     ├ FixedVersion    : 9.4.52.v20230823, 10.0.16, 11.0.16 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a74
+│                        │     │                  │         2b4c9797e7e8ee4d72a0a0430 
+│                        │     │                  ╰ DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e904
+│                        │     │                            0b427a03c82c7019795ec41ba 
+│                        │     ├ SeveritySource  : nvd 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-41900 
+│                        │     ├ DataSource       ╭ ID  : glad 
+│                        │     │                  ├ Name: GitLab Advisory Database Community 
+│                        │     │                  ╰ URL : https://gitlab.com/gitlab-org/advisories-community 
+│                        │     ├ Title           : Jetty is a Java based web server and servlet engine.
+│                        │     │                   Versions 9.4.21 t ... 
+│                        │     ├ Description     : Jetty is a Java based web server and servlet engine.
+│                        │     │                   Versions 9.4.21 through 9.4.51, 10.0.15, and 11.0.15 are
+│                        │     │                   vulnerable to weak authentication. If a Jetty
+│                        │     │                   `OpenIdAuthenticator` uses the optional nested
+│                        │     │                   `LoginService`, and that `LoginService` decides to revoke an
+│                        │     │                    already authenticated user, then the current request will
+│                        │     │                   still treat the user as authenticated. The authentication is
+│                        │     │                    then cleared from the session and subsequent requests will
+│                        │     │                   not be treated as authenticated. So a request on a
+│                        │     │                   previously authenticated session could be allowed to bypass
+│                        │     │                   authentication after it had been rejected by the
+│                        │     │                   `LoginService`. This impacts usages of the jetty-openid
+│                        │     │                   which have configured a nested `LoginService` and where that
+│                        │     │                    `LoginService` will is capable of rejecting previously
+│                        │     │                   authenticated users. Versions 9.4.52, 10.0.16, and 11.0.16
+│                        │     │                   have a patch for this issue. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-1390 
+│                        │     ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/
+│                        │     │                  │      │           I:N/A:N 
+│                        │     │                  │      ╰ V3Score : 3.5 
+│                        │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/
+│                        │     │                         │           I:N/A:N 
+│                        │     │                         ╰ V3Score : 4.3 
+│                        │     ├ References       ╭ [0]: https://github.com/eclipse/jetty.project 
+│                        │     │                  ├ [1]: https://github.com/eclipse/jetty.project/pull/9528 
+│                        │     │                  ├ [2]: https://github.com/eclipse/jetty.project/pull/9660 
+│                        │     │                  ├ [3]: https://github.com/eclipse/jetty.project/security
+│                        │     │                  │      /advisories/GHSA-pwh8-58vv-vw48 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-41900 
+│                        │     │                  ╰ [5]: https://www.debian.org/security/2023/dsa-5507 
+│                        │     ├ PublishedDate   : 2023-09-15T21:15:00Z 
+│                        │     ╰ LastModifiedDate: 2023-09-29T12:15:00Z 
+│                        ├ [6] ╭ VulnerabilityID : CVE-2023-4759 
 │                        │     ├ PkgName         : org.eclipse.jgit:org.eclipse.jgit 
 │                        │     ├ PkgPath         : opt/oaf/openaf.jar 
 │                        │     ├ InstalledVersion: 5.8.1.202007141445-r 
@@ -3575,7 +3731,7 @@
 │                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4759 
 │                        │     ├ PublishedDate   : 2023-09-12T10:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-09-18T13:54:00Z 
-│                        ╰ [4] ╭ VulnerabilityID : CVE-2022-36033 
+│                        ╰ [7] ╭ VulnerabilityID : CVE-2022-36033 
 │                              ├ PkgName         : org.jsoup:jsoup 
 │                              ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vsc
 │                              │                   ode-xml-0.26.1-linux-x64/server/org.eclipse.lemminx-0.26.1-u
@@ -3899,69 +4055,78 @@
 │                              │                  │        NNxDTCjZvo/m/UDd7VKQuAAAJ 
 │                              │                  ├ [79] : https://istio.io/latest/news/security/istio-sec
 │                              │                  │        urity-2023-004/ 
-│                              │                  ├ [80] : https://lists.apache.org/thread/5py8h42mxfsn8l1
+│                              │                  ├ [80] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
+│                              │                  │        44487/ 
+│                              │                  ├ [81] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
-│                              │                  ├ [81] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  ├ [82] : https://lists.debian.org/debian-lts-announce/20
 │                              │                  │        23/10/msg00020.html 
-│                              │                  ├ [82] : https://lists.w3.org/Archives/Public/ietf-http-
+│                              │                  ├ [83] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  │        23/10/msg00023.html 
+│                              │                  ├ [84] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  │        ackage-announce@lists.fedoraproject.org/message/JMEX
+│                              │                  │        Y22BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
+│                              │                  ├ [85] : https://lists.w3.org/Archives/Public/ietf-http-
 │                              │                  │        wg/2023OctDec/0025.html 
-│                              │                  ├ [83] : https://mailman.nginx.org/pipermail/nginx-devel
+│                              │                  ├ [86] : https://mailman.nginx.org/pipermail/nginx-devel
 │                              │                  │        /2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
 │                              │                  │        [m 
-│                              │                  ├ [84] : https://martinthomson.github.io/h2-stream-limit
+│                              │                  ├ [87] : https://martinthomson.github.io/h2-stream-limit
 │                              │                  │        s/draft-thomson-httpbis-h2-stream-limits.html
 │                              │                  │        [m 
-│                              │                  ├ [85] : https://msrc.microsoft.com/blog/2023/10/microso
+│                              │                  ├ [88] : https://msrc.microsoft.com/blog/2023/10/microso
 │                              │                  │        ft-response-to-distributed-denial-of-service-ddos-at
 │                              │                  │        tacks-against-http/2/ 
-│                              │                  ├ [86] : https://msrc.microsoft.com/update-guide/vulnera
+│                              │                  ├ [89] : https://msrc.microsoft.com/update-guide/vulnera
 │                              │                  │        bility/CVE-2023-44487 
-│                              │                  ├ [87] : https://my.f5.com/manage/s/article/K000137106 
-│                              │                  ├ [88] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
-│                              │                  ├ [89] : https://news.ycombinator.com/item?id=37830987 
-│                              │                  ├ [90] : https://news.ycombinator.com/item?id=37830998 
-│                              │                  ├ [91] : https://news.ycombinator.com/item?id=37831062 
-│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37837043 
-│                              │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-│                              │                  ├ [94] : https://openssf.org/blog/2023/10/10/http-2-rapi
+│                              │                  ├ [90] : https://my.f5.com/manage/s/article/K000137106 
+│                              │                  ├ [91] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
+│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37830987 
+│                              │                  ├ [93] : https://news.ycombinator.com/item?id=37830998 
+│                              │                  ├ [94] : https://news.ycombinator.com/item?id=37831062 
+│                              │                  ├ [95] : https://news.ycombinator.com/item?id=37837043 
+│                              │                  ├ [96] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+│                              │                  ├ [97] : https://openssf.org/blog/2023/10/10/http-2-rapi
 │                              │                  │        d-reset-vulnerability-highlights-need-for-rapid-resp
 │                              │                  │        onse/ 
-│                              │                  ├ [95] : https://pkg.go.dev/vuln/GO-2023-2102 
-│                              │                  ├ [96] : https://seanmonstar.com/post/730794151136935936
+│                              │                  ├ [98] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                              │                  ├ [99] : https://seanmonstar.com/post/730794151136935936
 │                              │                  │        /hyper-http2-rapid-reset-unaffected 
-│                              │                  ├ [97] : https://security.paloaltonetworks.com/CVE-2023-44487 
-│                              │                  ├ [98] : https://tomcat.apache.org/security-10.html#Fixe
+│                              │                  ├ [100]: https://security.netapp.com/advisory/ntap-20231
+│                              │                  │        016-0001/ 
+│                              │                  ├ [101]: https://security.paloaltonetworks.com/CVE-2023-44487 
+│                              │                  ├ [102]: https://tomcat.apache.org/security-10.html#Fixe
 │                              │                  │        d_in_Apache_Tomcat_10.1.14 
-│                              │                  ├ [99] : https://ubuntu.com/security/CVE-2023-44487 
-│                              │                  ├ [100]: https://ubuntu.com/security/notices/USN-6427-1 
-│                              │                  ├ [101]: https://www.bleepingcomputer.com/news/security/
+│                              │                  ├ [103]: https://ubuntu.com/security/CVE-2023-44487 
+│                              │                  ├ [104]: https://ubuntu.com/security/notices/USN-6427-1 
+│                              │                  ├ [105]: https://www.bleepingcomputer.com/news/security/
 │                              │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
 │                              │                  │        ecords/ 
-│                              │                  ├ [102]: https://www.cisa.gov/news-events/alerts/2023/10
+│                              │                  ├ [106]: https://www.cisa.gov/news-events/alerts/2023/10
 │                              │                  │        /10/http2-rapid-reset-vulnerability-cve-2023-44487[
 │                              │                  │        m 
-│                              │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                              │                  ├ [104]: https://www.darkreading.com/cloud/internet-wide
+│                              │                  ├ [107]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                              │                  ├ [108]: https://www.darkreading.com/cloud/internet-wide
 │                              │                  │        -zero-day-bug-fuels-largest-ever-ddos-event 
-│                              │                  ├ [105]: https://www.debian.org/security/2023/dsa-5521 
-│                              │                  ├ [106]: https://www.debian.org/security/2023/dsa-5522 
-│                              │                  ├ [107]: https://www.haproxy.com/blog/haproxy-is-not-aff
+│                              │                  ├ [109]: https://www.debian.org/security/2023/dsa-5521 
+│                              │                  ├ [110]: https://www.debian.org/security/2023/dsa-5522 
+│                              │                  ├ [111]: https://www.haproxy.com/blog/haproxy-is-not-aff
 │                              │                  │        ected-by-the-http-2-rapid-reset-attack-cve-2023-4448
 │                              │                  │        7 
-│                              │                  ├ [108]: https://www.mail-archive.com/haproxy@formilux.o
+│                              │                  ├ [112]: https://www.mail-archive.com/haproxy@formilux.o
 │                              │                  │        rg/msg44134.html 
-│                              │                  ├ [109]: https://www.netlify.com/blog/netlify-successful
+│                              │                  ├ [113]: https://www.netlify.com/blog/netlify-successful
 │                              │                  │        ly-mitigates-cve-2023-44487/ 
-│                              │                  ├ [110]: https://www.nginx.com/blog/http-2-rapid-reset-a
+│                              │                  ├ [114]: https://www.nginx.com/blog/http-2-rapid-reset-a
 │                              │                  │        ttack-impacting-f5-nginx-products/ 
-│                              │                  ├ [111]: https://www.openwall.com/lists/oss-security/202
+│                              │                  ├ [115]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/10/10/6 
-│                              │                  ├ [112]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
+│                              │                  ├ [116]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
 │                              │                  │        -Attack 
-│                              │                  ╰ [113]: https://www.theregister.com/2023/10/10/http2_ra
+│                              │                  ╰ [117]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-14T01:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-15T19:15:00Z 
 ├ [3]  ╭ Target         : tmp/tmp.8xzx4A6O2A/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4222,73 +4387,232 @@
 │                              │                  │        NNxDTCjZvo/m/UDd7VKQuAAAJ 
 │                              │                  ├ [79] : https://istio.io/latest/news/security/istio-sec
 │                              │                  │        urity-2023-004/ 
-│                              │                  ├ [80] : https://lists.apache.org/thread/5py8h42mxfsn8l1
+│                              │                  ├ [80] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
+│                              │                  │        44487/ 
+│                              │                  ├ [81] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
-│                              │                  ├ [81] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  ├ [82] : https://lists.debian.org/debian-lts-announce/20
 │                              │                  │        23/10/msg00020.html 
-│                              │                  ├ [82] : https://lists.w3.org/Archives/Public/ietf-http-
+│                              │                  ├ [83] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  │        23/10/msg00023.html 
+│                              │                  ├ [84] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  │        ackage-announce@lists.fedoraproject.org/message/JMEX
+│                              │                  │        Y22BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
+│                              │                  ├ [85] : https://lists.w3.org/Archives/Public/ietf-http-
 │                              │                  │        wg/2023OctDec/0025.html 
-│                              │                  ├ [83] : https://mailman.nginx.org/pipermail/nginx-devel
+│                              │                  ├ [86] : https://mailman.nginx.org/pipermail/nginx-devel
 │                              │                  │        /2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
 │                              │                  │        [m 
-│                              │                  ├ [84] : https://martinthomson.github.io/h2-stream-limit
+│                              │                  ├ [87] : https://martinthomson.github.io/h2-stream-limit
 │                              │                  │        s/draft-thomson-httpbis-h2-stream-limits.html
 │                              │                  │        [m 
-│                              │                  ├ [85] : https://msrc.microsoft.com/blog/2023/10/microso
+│                              │                  ├ [88] : https://msrc.microsoft.com/blog/2023/10/microso
 │                              │                  │        ft-response-to-distributed-denial-of-service-ddos-at
 │                              │                  │        tacks-against-http/2/ 
-│                              │                  ├ [86] : https://msrc.microsoft.com/update-guide/vulnera
+│                              │                  ├ [89] : https://msrc.microsoft.com/update-guide/vulnera
 │                              │                  │        bility/CVE-2023-44487 
-│                              │                  ├ [87] : https://my.f5.com/manage/s/article/K000137106 
-│                              │                  ├ [88] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
-│                              │                  ├ [89] : https://news.ycombinator.com/item?id=37830987 
-│                              │                  ├ [90] : https://news.ycombinator.com/item?id=37830998 
-│                              │                  ├ [91] : https://news.ycombinator.com/item?id=37831062 
-│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37837043 
-│                              │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-│                              │                  ├ [94] : https://openssf.org/blog/2023/10/10/http-2-rapi
+│                              │                  ├ [90] : https://my.f5.com/manage/s/article/K000137106 
+│                              │                  ├ [91] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
+│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37830987 
+│                              │                  ├ [93] : https://news.ycombinator.com/item?id=37830998 
+│                              │                  ├ [94] : https://news.ycombinator.com/item?id=37831062 
+│                              │                  ├ [95] : https://news.ycombinator.com/item?id=37837043 
+│                              │                  ├ [96] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+│                              │                  ├ [97] : https://openssf.org/blog/2023/10/10/http-2-rapi
 │                              │                  │        d-reset-vulnerability-highlights-need-for-rapid-resp
 │                              │                  │        onse/ 
-│                              │                  ├ [95] : https://pkg.go.dev/vuln/GO-2023-2102 
-│                              │                  ├ [96] : https://seanmonstar.com/post/730794151136935936
+│                              │                  ├ [98] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                              │                  ├ [99] : https://seanmonstar.com/post/730794151136935936
 │                              │                  │        /hyper-http2-rapid-reset-unaffected 
-│                              │                  ├ [97] : https://security.paloaltonetworks.com/CVE-2023-44487 
-│                              │                  ├ [98] : https://tomcat.apache.org/security-10.html#Fixe
+│                              │                  ├ [100]: https://security.netapp.com/advisory/ntap-20231
+│                              │                  │        016-0001/ 
+│                              │                  ├ [101]: https://security.paloaltonetworks.com/CVE-2023-44487 
+│                              │                  ├ [102]: https://tomcat.apache.org/security-10.html#Fixe
 │                              │                  │        d_in_Apache_Tomcat_10.1.14 
-│                              │                  ├ [99] : https://ubuntu.com/security/CVE-2023-44487 
-│                              │                  ├ [100]: https://ubuntu.com/security/notices/USN-6427-1 
-│                              │                  ├ [101]: https://www.bleepingcomputer.com/news/security/
+│                              │                  ├ [103]: https://ubuntu.com/security/CVE-2023-44487 
+│                              │                  ├ [104]: https://ubuntu.com/security/notices/USN-6427-1 
+│                              │                  ├ [105]: https://www.bleepingcomputer.com/news/security/
 │                              │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
 │                              │                  │        ecords/ 
-│                              │                  ├ [102]: https://www.cisa.gov/news-events/alerts/2023/10
+│                              │                  ├ [106]: https://www.cisa.gov/news-events/alerts/2023/10
 │                              │                  │        /10/http2-rapid-reset-vulnerability-cve-2023-44487[
 │                              │                  │        m 
-│                              │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                              │                  ├ [104]: https://www.darkreading.com/cloud/internet-wide
+│                              │                  ├ [107]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                              │                  ├ [108]: https://www.darkreading.com/cloud/internet-wide
 │                              │                  │        -zero-day-bug-fuels-largest-ever-ddos-event 
-│                              │                  ├ [105]: https://www.debian.org/security/2023/dsa-5521 
-│                              │                  ├ [106]: https://www.debian.org/security/2023/dsa-5522 
-│                              │                  ├ [107]: https://www.haproxy.com/blog/haproxy-is-not-aff
+│                              │                  ├ [109]: https://www.debian.org/security/2023/dsa-5521 
+│                              │                  ├ [110]: https://www.debian.org/security/2023/dsa-5522 
+│                              │                  ├ [111]: https://www.haproxy.com/blog/haproxy-is-not-aff
 │                              │                  │        ected-by-the-http-2-rapid-reset-attack-cve-2023-4448
 │                              │                  │        7 
-│                              │                  ├ [108]: https://www.mail-archive.com/haproxy@formilux.o
+│                              │                  ├ [112]: https://www.mail-archive.com/haproxy@formilux.o
 │                              │                  │        rg/msg44134.html 
-│                              │                  ├ [109]: https://www.netlify.com/blog/netlify-successful
+│                              │                  ├ [113]: https://www.netlify.com/blog/netlify-successful
 │                              │                  │        ly-mitigates-cve-2023-44487/ 
-│                              │                  ├ [110]: https://www.nginx.com/blog/http-2-rapid-reset-a
+│                              │                  ├ [114]: https://www.nginx.com/blog/http-2-rapid-reset-a
 │                              │                  │        ttack-impacting-f5-nginx-products/ 
-│                              │                  ├ [111]: https://www.openwall.com/lists/oss-security/202
+│                              │                  ├ [115]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/10/10/6 
-│                              │                  ├ [112]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
+│                              │                  ├ [116]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
 │                              │                  │        -Attack 
-│                              │                  ╰ [113]: https://www.theregister.com/2023/10/10/http2_ra
+│                              │                  ╰ [117]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-14T01:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-15T19:15:00Z 
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-39325 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-45142 
+│                        │     ├ PkgName         : go.opentelemetry.io/contrib/instrumentation/net/http/ht
+│                        │     │                   tptrace/otelhttptrace 
+│                        │     ├ InstalledVersion: v0.40.0 
+│                        │     ├ FixedVersion    : 0.44.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a74
+│                        │     │                  │         2b4c9797e7e8ee4d72a0a0430 
+│                        │     │                  ╰ DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e904
+│                        │     │                            0b427a03c82c7019795ec41ba 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45142 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : OpenTelemetry-Go Contrib vulnerable to denial of
+│                        │     │                   service in otelhttp due to unbound cardinality
+│                        │     │                   metrics 
+│                        │     ├ Description     : OpenTelemetry-Go Contrib is a collection of third-party
+│                        │     │                    packages for OpenTelemetry-Go. A handler wrapper out of the
+│                        │     │                    box adds labels `http.user_agent` and `http.method` that
+│                        │     │                   have unbound cardinality. It leads to the server's potential
+│                        │     │                    memory exhaustion when many malicious requests are sent to
+│                        │     │                   it. HTTP header User-Agent or HTTP method for requests can
+│                        │     │                   be easily set by an attacker to be random and long. The
+│                        │     │                   library internally uses `httpconv.ServerRequest` that
+│                        │     │                   records every value for HTTP `method` and `User-Agent`. In
+│                        │     │                   order to be affected, a program has to use the
+│                        │     │                   `otelhttp.NewHandler` wrapper and not filter any unknown
+│                        │     │                   HTTP methods or User agents on the level of CDN, LB,
+│                        │     │                   previous middleware, etc. Version 0.44.0 fixed this issue
+│                        │     │                   when the values collected for attribute
+│                        │     │                   `http.request.method` were changed to be restricted to a set
+│                        │     │                    of well-known values and other high cardinality attributes
+│                        │     │                   were removed. As a workaround to stop being affected,
+│                        │     │                   `otelhttp.WithFilter()` can be used, but it requires manual
+│                        │     │                   careful configuration to not log certain requests entirely.
+│                        │     │                   For convenience and safe usage of this library, it should by
+│                        │     │                    default mark with the label `unknown` non-standard HTTP
+│                        │     │                   methods and User agents to show that such requests were made
+│                        │     │                    but do not increase cardinality. In case someone wants to
+│                        │     │                   stay with the current behavior, library API should allow to
+│                        │     │                   enable it. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CweIDs           ─ [0]: CWE-770 
+│                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/
+│                        │     │                         │           I:N/A:H 
+│                        │     │                         ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://github.com/advisories/GHSA-cg3q-j54f-5p7p 
+│                        │     │                  ├ [1]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib 
+│                        │     │                  ├ [2]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib/blob/5f7e6ad5a49b45df45f61a1deb29d7f1158032d
+│                        │     │                  │      f/instrumentation/net/http/otelhttp/handler.go#L63-L65
+│                        │     │                  │       
+│                        │     │                  ├ [3]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib/pull/4277 
+│                        │     │                  ├ [4]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib/releases/tag/v1.19.0 
+│                        │     │                  ├ [5]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib/security/advisories/GHSA-5r5m-65gx-7vrh[
+│                        │     │                  │      m 
+│                        │     │                  ├ [6]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib/security/advisories/GHSA-rcjv-mgp8-qvmr[
+│                        │     │                  │      m 
+│                        │     │                  ├ [7]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o/blob/38e1b499c3da3107694ad2660b3888eee9c8b896/semcon
+│                        │     │                  │      v/internal/v2/http.go#L223 
+│                        │     │                  ├ [8]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o/blob/v1.12.0/semconv/internal/v2/http.go#L159
+│                        │     │                  │      [m 
+│                        │     │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2023-45142 
+│                        │     ├ PublishedDate   : 2023-10-12T17:15:00Z 
+│                        │     ╰ LastModifiedDate: 2023-10-12T19:42:00Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2023-45142 
+│                        │     ├ PkgName         : go.opentelemetry.io/contrib/instrumentation/net/http/ot
+│                        │     │                   elhttp 
+│                        │     ├ InstalledVersion: v0.40.0 
+│                        │     ├ FixedVersion    : 0.44.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a74
+│                        │     │                  │         2b4c9797e7e8ee4d72a0a0430 
+│                        │     │                  ╰ DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e904
+│                        │     │                            0b427a03c82c7019795ec41ba 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45142 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : OpenTelemetry-Go Contrib vulnerable to denial of
+│                        │     │                   service in otelhttp due to unbound cardinality
+│                        │     │                   metrics 
+│                        │     ├ Description     : OpenTelemetry-Go Contrib is a collection of third-party
+│                        │     │                    packages for OpenTelemetry-Go. A handler wrapper out of the
+│                        │     │                    box adds labels `http.user_agent` and `http.method` that
+│                        │     │                   have unbound cardinality. It leads to the server's potential
+│                        │     │                    memory exhaustion when many malicious requests are sent to
+│                        │     │                   it. HTTP header User-Agent or HTTP method for requests can
+│                        │     │                   be easily set by an attacker to be random and long. The
+│                        │     │                   library internally uses `httpconv.ServerRequest` that
+│                        │     │                   records every value for HTTP `method` and `User-Agent`. In
+│                        │     │                   order to be affected, a program has to use the
+│                        │     │                   `otelhttp.NewHandler` wrapper and not filter any unknown
+│                        │     │                   HTTP methods or User agents on the level of CDN, LB,
+│                        │     │                   previous middleware, etc. Version 0.44.0 fixed this issue
+│                        │     │                   when the values collected for attribute
+│                        │     │                   `http.request.method` were changed to be restricted to a set
+│                        │     │                    of well-known values and other high cardinality attributes
+│                        │     │                   were removed. As a workaround to stop being affected,
+│                        │     │                   `otelhttp.WithFilter()` can be used, but it requires manual
+│                        │     │                   careful configuration to not log certain requests entirely.
+│                        │     │                   For convenience and safe usage of this library, it should by
+│                        │     │                    default mark with the label `unknown` non-standard HTTP
+│                        │     │                   methods and User agents to show that such requests were made
+│                        │     │                    but do not increase cardinality. In case someone wants to
+│                        │     │                   stay with the current behavior, library API should allow to
+│                        │     │                   enable it. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CweIDs           ─ [0]: CWE-770 
+│                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/
+│                        │     │                         │           I:N/A:H 
+│                        │     │                         ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://github.com/advisories/GHSA-cg3q-j54f-5p7p 
+│                        │     │                  ├ [1]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib 
+│                        │     │                  ├ [2]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib/blob/5f7e6ad5a49b45df45f61a1deb29d7f1158032d
+│                        │     │                  │      f/instrumentation/net/http/otelhttp/handler.go#L63-L65
+│                        │     │                  │       
+│                        │     │                  ├ [3]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib/pull/4277 
+│                        │     │                  ├ [4]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib/releases/tag/v1.19.0 
+│                        │     │                  ├ [5]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib/security/advisories/GHSA-5r5m-65gx-7vrh[
+│                        │     │                  │      m 
+│                        │     │                  ├ [6]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o-contrib/security/advisories/GHSA-rcjv-mgp8-qvmr[
+│                        │     │                  │      m 
+│                        │     │                  ├ [7]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o/blob/38e1b499c3da3107694ad2660b3888eee9c8b896/semcon
+│                        │     │                  │      v/internal/v2/http.go#L223 
+│                        │     │                  ├ [8]: https://github.com/open-telemetry/opentelemetry-g
+│                        │     │                  │      o/blob/v1.12.0/semconv/internal/v2/http.go#L159
+│                        │     │                  │      [m 
+│                        │     │                  ╰ [9]: https://nvd.nist.gov/vuln/detail/CVE-2023-45142 
+│                        │     ├ PublishedDate   : 2023-10-12T17:15:00Z 
+│                        │     ╰ LastModifiedDate: 2023-10-12T19:42:00Z 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2023-39325 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: v0.12.0 
 │                        │     ├ FixedVersion    : 0.17.0 
@@ -4348,7 +4672,7 @@
 │                        │     │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-10-12T12:59:00Z 
-│                        ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2023-3978 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: v0.12.0 
 │                        │     ├ FixedVersion    : 0.13.0 
@@ -4386,7 +4710,7 @@
 │                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                        │     ├ PublishedDate   : 2023-08-02T20:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-08-07T18:24:00Z 
-│                        ╰ [2] ╭ VulnerabilityID : CVE-2023-44487 
+│                        ╰ [4] ╭ VulnerabilityID : CVE-2023-44487 
 │                              ├ PkgName         : golang.org/x/net 
 │                              ├ InstalledVersion: v0.12.0 
 │                              ├ FixedVersion    : 0.17.0 
@@ -4545,69 +4869,78 @@
 │                              │                  │        NNxDTCjZvo/m/UDd7VKQuAAAJ 
 │                              │                  ├ [79] : https://istio.io/latest/news/security/istio-sec
 │                              │                  │        urity-2023-004/ 
-│                              │                  ├ [80] : https://lists.apache.org/thread/5py8h42mxfsn8l1
+│                              │                  ├ [80] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
+│                              │                  │        44487/ 
+│                              │                  ├ [81] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
-│                              │                  ├ [81] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  ├ [82] : https://lists.debian.org/debian-lts-announce/20
 │                              │                  │        23/10/msg00020.html 
-│                              │                  ├ [82] : https://lists.w3.org/Archives/Public/ietf-http-
+│                              │                  ├ [83] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  │        23/10/msg00023.html 
+│                              │                  ├ [84] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  │        ackage-announce@lists.fedoraproject.org/message/JMEX
+│                              │                  │        Y22BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
+│                              │                  ├ [85] : https://lists.w3.org/Archives/Public/ietf-http-
 │                              │                  │        wg/2023OctDec/0025.html 
-│                              │                  ├ [83] : https://mailman.nginx.org/pipermail/nginx-devel
+│                              │                  ├ [86] : https://mailman.nginx.org/pipermail/nginx-devel
 │                              │                  │        /2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
 │                              │                  │        [m 
-│                              │                  ├ [84] : https://martinthomson.github.io/h2-stream-limit
+│                              │                  ├ [87] : https://martinthomson.github.io/h2-stream-limit
 │                              │                  │        s/draft-thomson-httpbis-h2-stream-limits.html
 │                              │                  │        [m 
-│                              │                  ├ [85] : https://msrc.microsoft.com/blog/2023/10/microso
+│                              │                  ├ [88] : https://msrc.microsoft.com/blog/2023/10/microso
 │                              │                  │        ft-response-to-distributed-denial-of-service-ddos-at
 │                              │                  │        tacks-against-http/2/ 
-│                              │                  ├ [86] : https://msrc.microsoft.com/update-guide/vulnera
+│                              │                  ├ [89] : https://msrc.microsoft.com/update-guide/vulnera
 │                              │                  │        bility/CVE-2023-44487 
-│                              │                  ├ [87] : https://my.f5.com/manage/s/article/K000137106 
-│                              │                  ├ [88] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
-│                              │                  ├ [89] : https://news.ycombinator.com/item?id=37830987 
-│                              │                  ├ [90] : https://news.ycombinator.com/item?id=37830998 
-│                              │                  ├ [91] : https://news.ycombinator.com/item?id=37831062 
-│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37837043 
-│                              │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-│                              │                  ├ [94] : https://openssf.org/blog/2023/10/10/http-2-rapi
+│                              │                  ├ [90] : https://my.f5.com/manage/s/article/K000137106 
+│                              │                  ├ [91] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
+│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37830987 
+│                              │                  ├ [93] : https://news.ycombinator.com/item?id=37830998 
+│                              │                  ├ [94] : https://news.ycombinator.com/item?id=37831062 
+│                              │                  ├ [95] : https://news.ycombinator.com/item?id=37837043 
+│                              │                  ├ [96] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+│                              │                  ├ [97] : https://openssf.org/blog/2023/10/10/http-2-rapi
 │                              │                  │        d-reset-vulnerability-highlights-need-for-rapid-resp
 │                              │                  │        onse/ 
-│                              │                  ├ [95] : https://pkg.go.dev/vuln/GO-2023-2102 
-│                              │                  ├ [96] : https://seanmonstar.com/post/730794151136935936
+│                              │                  ├ [98] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                              │                  ├ [99] : https://seanmonstar.com/post/730794151136935936
 │                              │                  │        /hyper-http2-rapid-reset-unaffected 
-│                              │                  ├ [97] : https://security.paloaltonetworks.com/CVE-2023-44487 
-│                              │                  ├ [98] : https://tomcat.apache.org/security-10.html#Fixe
+│                              │                  ├ [100]: https://security.netapp.com/advisory/ntap-20231
+│                              │                  │        016-0001/ 
+│                              │                  ├ [101]: https://security.paloaltonetworks.com/CVE-2023-44487 
+│                              │                  ├ [102]: https://tomcat.apache.org/security-10.html#Fixe
 │                              │                  │        d_in_Apache_Tomcat_10.1.14 
-│                              │                  ├ [99] : https://ubuntu.com/security/CVE-2023-44487 
-│                              │                  ├ [100]: https://ubuntu.com/security/notices/USN-6427-1 
-│                              │                  ├ [101]: https://www.bleepingcomputer.com/news/security/
+│                              │                  ├ [103]: https://ubuntu.com/security/CVE-2023-44487 
+│                              │                  ├ [104]: https://ubuntu.com/security/notices/USN-6427-1 
+│                              │                  ├ [105]: https://www.bleepingcomputer.com/news/security/
 │                              │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
 │                              │                  │        ecords/ 
-│                              │                  ├ [102]: https://www.cisa.gov/news-events/alerts/2023/10
+│                              │                  ├ [106]: https://www.cisa.gov/news-events/alerts/2023/10
 │                              │                  │        /10/http2-rapid-reset-vulnerability-cve-2023-44487[
 │                              │                  │        m 
-│                              │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                              │                  ├ [104]: https://www.darkreading.com/cloud/internet-wide
+│                              │                  ├ [107]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                              │                  ├ [108]: https://www.darkreading.com/cloud/internet-wide
 │                              │                  │        -zero-day-bug-fuels-largest-ever-ddos-event 
-│                              │                  ├ [105]: https://www.debian.org/security/2023/dsa-5521 
-│                              │                  ├ [106]: https://www.debian.org/security/2023/dsa-5522 
-│                              │                  ├ [107]: https://www.haproxy.com/blog/haproxy-is-not-aff
+│                              │                  ├ [109]: https://www.debian.org/security/2023/dsa-5521 
+│                              │                  ├ [110]: https://www.debian.org/security/2023/dsa-5522 
+│                              │                  ├ [111]: https://www.haproxy.com/blog/haproxy-is-not-aff
 │                              │                  │        ected-by-the-http-2-rapid-reset-attack-cve-2023-4448
 │                              │                  │        7 
-│                              │                  ├ [108]: https://www.mail-archive.com/haproxy@formilux.o
+│                              │                  ├ [112]: https://www.mail-archive.com/haproxy@formilux.o
 │                              │                  │        rg/msg44134.html 
-│                              │                  ├ [109]: https://www.netlify.com/blog/netlify-successful
+│                              │                  ├ [113]: https://www.netlify.com/blog/netlify-successful
 │                              │                  │        ly-mitigates-cve-2023-44487/ 
-│                              │                  ├ [110]: https://www.nginx.com/blog/http-2-rapid-reset-a
+│                              │                  ├ [114]: https://www.nginx.com/blog/http-2-rapid-reset-a
 │                              │                  │        ttack-impacting-f5-nginx-products/ 
-│                              │                  ├ [111]: https://www.openwall.com/lists/oss-security/202
+│                              │                  ├ [115]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/10/10/6 
-│                              │                  ├ [112]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
+│                              │                  ├ [116]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
 │                              │                  │        -Attack 
-│                              │                  ╰ [113]: https://www.theregister.com/2023/10/10/http2_ra
+│                              │                  ╰ [117]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-14T01:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-15T19:15:00Z 
 ├ [5]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4830,69 +5163,78 @@
 │                              │                  │        NNxDTCjZvo/m/UDd7VKQuAAAJ 
 │                              │                  ├ [79] : https://istio.io/latest/news/security/istio-sec
 │                              │                  │        urity-2023-004/ 
-│                              │                  ├ [80] : https://lists.apache.org/thread/5py8h42mxfsn8l1
+│                              │                  ├ [80] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
+│                              │                  │        44487/ 
+│                              │                  ├ [81] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
-│                              │                  ├ [81] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  ├ [82] : https://lists.debian.org/debian-lts-announce/20
 │                              │                  │        23/10/msg00020.html 
-│                              │                  ├ [82] : https://lists.w3.org/Archives/Public/ietf-http-
+│                              │                  ├ [83] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  │        23/10/msg00023.html 
+│                              │                  ├ [84] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  │        ackage-announce@lists.fedoraproject.org/message/JMEX
+│                              │                  │        Y22BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
+│                              │                  ├ [85] : https://lists.w3.org/Archives/Public/ietf-http-
 │                              │                  │        wg/2023OctDec/0025.html 
-│                              │                  ├ [83] : https://mailman.nginx.org/pipermail/nginx-devel
+│                              │                  ├ [86] : https://mailman.nginx.org/pipermail/nginx-devel
 │                              │                  │        /2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
 │                              │                  │        [m 
-│                              │                  ├ [84] : https://martinthomson.github.io/h2-stream-limit
+│                              │                  ├ [87] : https://martinthomson.github.io/h2-stream-limit
 │                              │                  │        s/draft-thomson-httpbis-h2-stream-limits.html
 │                              │                  │        [m 
-│                              │                  ├ [85] : https://msrc.microsoft.com/blog/2023/10/microso
+│                              │                  ├ [88] : https://msrc.microsoft.com/blog/2023/10/microso
 │                              │                  │        ft-response-to-distributed-denial-of-service-ddos-at
 │                              │                  │        tacks-against-http/2/ 
-│                              │                  ├ [86] : https://msrc.microsoft.com/update-guide/vulnera
+│                              │                  ├ [89] : https://msrc.microsoft.com/update-guide/vulnera
 │                              │                  │        bility/CVE-2023-44487 
-│                              │                  ├ [87] : https://my.f5.com/manage/s/article/K000137106 
-│                              │                  ├ [88] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
-│                              │                  ├ [89] : https://news.ycombinator.com/item?id=37830987 
-│                              │                  ├ [90] : https://news.ycombinator.com/item?id=37830998 
-│                              │                  ├ [91] : https://news.ycombinator.com/item?id=37831062 
-│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37837043 
-│                              │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-│                              │                  ├ [94] : https://openssf.org/blog/2023/10/10/http-2-rapi
+│                              │                  ├ [90] : https://my.f5.com/manage/s/article/K000137106 
+│                              │                  ├ [91] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
+│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37830987 
+│                              │                  ├ [93] : https://news.ycombinator.com/item?id=37830998 
+│                              │                  ├ [94] : https://news.ycombinator.com/item?id=37831062 
+│                              │                  ├ [95] : https://news.ycombinator.com/item?id=37837043 
+│                              │                  ├ [96] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+│                              │                  ├ [97] : https://openssf.org/blog/2023/10/10/http-2-rapi
 │                              │                  │        d-reset-vulnerability-highlights-need-for-rapid-resp
 │                              │                  │        onse/ 
-│                              │                  ├ [95] : https://pkg.go.dev/vuln/GO-2023-2102 
-│                              │                  ├ [96] : https://seanmonstar.com/post/730794151136935936
+│                              │                  ├ [98] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                              │                  ├ [99] : https://seanmonstar.com/post/730794151136935936
 │                              │                  │        /hyper-http2-rapid-reset-unaffected 
-│                              │                  ├ [97] : https://security.paloaltonetworks.com/CVE-2023-44487 
-│                              │                  ├ [98] : https://tomcat.apache.org/security-10.html#Fixe
+│                              │                  ├ [100]: https://security.netapp.com/advisory/ntap-20231
+│                              │                  │        016-0001/ 
+│                              │                  ├ [101]: https://security.paloaltonetworks.com/CVE-2023-44487 
+│                              │                  ├ [102]: https://tomcat.apache.org/security-10.html#Fixe
 │                              │                  │        d_in_Apache_Tomcat_10.1.14 
-│                              │                  ├ [99] : https://ubuntu.com/security/CVE-2023-44487 
-│                              │                  ├ [100]: https://ubuntu.com/security/notices/USN-6427-1 
-│                              │                  ├ [101]: https://www.bleepingcomputer.com/news/security/
+│                              │                  ├ [103]: https://ubuntu.com/security/CVE-2023-44487 
+│                              │                  ├ [104]: https://ubuntu.com/security/notices/USN-6427-1 
+│                              │                  ├ [105]: https://www.bleepingcomputer.com/news/security/
 │                              │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
 │                              │                  │        ecords/ 
-│                              │                  ├ [102]: https://www.cisa.gov/news-events/alerts/2023/10
+│                              │                  ├ [106]: https://www.cisa.gov/news-events/alerts/2023/10
 │                              │                  │        /10/http2-rapid-reset-vulnerability-cve-2023-44487[
 │                              │                  │        m 
-│                              │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                              │                  ├ [104]: https://www.darkreading.com/cloud/internet-wide
+│                              │                  ├ [107]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                              │                  ├ [108]: https://www.darkreading.com/cloud/internet-wide
 │                              │                  │        -zero-day-bug-fuels-largest-ever-ddos-event 
-│                              │                  ├ [105]: https://www.debian.org/security/2023/dsa-5521 
-│                              │                  ├ [106]: https://www.debian.org/security/2023/dsa-5522 
-│                              │                  ├ [107]: https://www.haproxy.com/blog/haproxy-is-not-aff
+│                              │                  ├ [109]: https://www.debian.org/security/2023/dsa-5521 
+│                              │                  ├ [110]: https://www.debian.org/security/2023/dsa-5522 
+│                              │                  ├ [111]: https://www.haproxy.com/blog/haproxy-is-not-aff
 │                              │                  │        ected-by-the-http-2-rapid-reset-attack-cve-2023-4448
 │                              │                  │        7 
-│                              │                  ├ [108]: https://www.mail-archive.com/haproxy@formilux.o
+│                              │                  ├ [112]: https://www.mail-archive.com/haproxy@formilux.o
 │                              │                  │        rg/msg44134.html 
-│                              │                  ├ [109]: https://www.netlify.com/blog/netlify-successful
+│                              │                  ├ [113]: https://www.netlify.com/blog/netlify-successful
 │                              │                  │        ly-mitigates-cve-2023-44487/ 
-│                              │                  ├ [110]: https://www.nginx.com/blog/http-2-rapid-reset-a
+│                              │                  ├ [114]: https://www.nginx.com/blog/http-2-rapid-reset-a
 │                              │                  │        ttack-impacting-f5-nginx-products/ 
-│                              │                  ├ [111]: https://www.openwall.com/lists/oss-security/202
+│                              │                  ├ [115]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/10/10/6 
-│                              │                  ├ [112]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
+│                              │                  ├ [116]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
 │                              │                  │        -Attack 
-│                              │                  ╰ [113]: https://www.theregister.com/2023/10/10/http2_ra
+│                              │                  ╰ [117]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-14T01:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-15T19:15:00Z 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5115,69 +5457,78 @@
 │                              │                  │        NNxDTCjZvo/m/UDd7VKQuAAAJ 
 │                              │                  ├ [79] : https://istio.io/latest/news/security/istio-sec
 │                              │                  │        urity-2023-004/ 
-│                              │                  ├ [80] : https://lists.apache.org/thread/5py8h42mxfsn8l1
+│                              │                  ├ [80] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
+│                              │                  │        44487/ 
+│                              │                  ├ [81] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
-│                              │                  ├ [81] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  ├ [82] : https://lists.debian.org/debian-lts-announce/20
 │                              │                  │        23/10/msg00020.html 
-│                              │                  ├ [82] : https://lists.w3.org/Archives/Public/ietf-http-
+│                              │                  ├ [83] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  │        23/10/msg00023.html 
+│                              │                  ├ [84] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  │        ackage-announce@lists.fedoraproject.org/message/JMEX
+│                              │                  │        Y22BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
+│                              │                  ├ [85] : https://lists.w3.org/Archives/Public/ietf-http-
 │                              │                  │        wg/2023OctDec/0025.html 
-│                              │                  ├ [83] : https://mailman.nginx.org/pipermail/nginx-devel
+│                              │                  ├ [86] : https://mailman.nginx.org/pipermail/nginx-devel
 │                              │                  │        /2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
 │                              │                  │        [m 
-│                              │                  ├ [84] : https://martinthomson.github.io/h2-stream-limit
+│                              │                  ├ [87] : https://martinthomson.github.io/h2-stream-limit
 │                              │                  │        s/draft-thomson-httpbis-h2-stream-limits.html
 │                              │                  │        [m 
-│                              │                  ├ [85] : https://msrc.microsoft.com/blog/2023/10/microso
+│                              │                  ├ [88] : https://msrc.microsoft.com/blog/2023/10/microso
 │                              │                  │        ft-response-to-distributed-denial-of-service-ddos-at
 │                              │                  │        tacks-against-http/2/ 
-│                              │                  ├ [86] : https://msrc.microsoft.com/update-guide/vulnera
+│                              │                  ├ [89] : https://msrc.microsoft.com/update-guide/vulnera
 │                              │                  │        bility/CVE-2023-44487 
-│                              │                  ├ [87] : https://my.f5.com/manage/s/article/K000137106 
-│                              │                  ├ [88] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
-│                              │                  ├ [89] : https://news.ycombinator.com/item?id=37830987 
-│                              │                  ├ [90] : https://news.ycombinator.com/item?id=37830998 
-│                              │                  ├ [91] : https://news.ycombinator.com/item?id=37831062 
-│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37837043 
-│                              │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-│                              │                  ├ [94] : https://openssf.org/blog/2023/10/10/http-2-rapi
+│                              │                  ├ [90] : https://my.f5.com/manage/s/article/K000137106 
+│                              │                  ├ [91] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
+│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37830987 
+│                              │                  ├ [93] : https://news.ycombinator.com/item?id=37830998 
+│                              │                  ├ [94] : https://news.ycombinator.com/item?id=37831062 
+│                              │                  ├ [95] : https://news.ycombinator.com/item?id=37837043 
+│                              │                  ├ [96] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+│                              │                  ├ [97] : https://openssf.org/blog/2023/10/10/http-2-rapi
 │                              │                  │        d-reset-vulnerability-highlights-need-for-rapid-resp
 │                              │                  │        onse/ 
-│                              │                  ├ [95] : https://pkg.go.dev/vuln/GO-2023-2102 
-│                              │                  ├ [96] : https://seanmonstar.com/post/730794151136935936
+│                              │                  ├ [98] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                              │                  ├ [99] : https://seanmonstar.com/post/730794151136935936
 │                              │                  │        /hyper-http2-rapid-reset-unaffected 
-│                              │                  ├ [97] : https://security.paloaltonetworks.com/CVE-2023-44487 
-│                              │                  ├ [98] : https://tomcat.apache.org/security-10.html#Fixe
+│                              │                  ├ [100]: https://security.netapp.com/advisory/ntap-20231
+│                              │                  │        016-0001/ 
+│                              │                  ├ [101]: https://security.paloaltonetworks.com/CVE-2023-44487 
+│                              │                  ├ [102]: https://tomcat.apache.org/security-10.html#Fixe
 │                              │                  │        d_in_Apache_Tomcat_10.1.14 
-│                              │                  ├ [99] : https://ubuntu.com/security/CVE-2023-44487 
-│                              │                  ├ [100]: https://ubuntu.com/security/notices/USN-6427-1 
-│                              │                  ├ [101]: https://www.bleepingcomputer.com/news/security/
+│                              │                  ├ [103]: https://ubuntu.com/security/CVE-2023-44487 
+│                              │                  ├ [104]: https://ubuntu.com/security/notices/USN-6427-1 
+│                              │                  ├ [105]: https://www.bleepingcomputer.com/news/security/
 │                              │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
 │                              │                  │        ecords/ 
-│                              │                  ├ [102]: https://www.cisa.gov/news-events/alerts/2023/10
+│                              │                  ├ [106]: https://www.cisa.gov/news-events/alerts/2023/10
 │                              │                  │        /10/http2-rapid-reset-vulnerability-cve-2023-44487[
 │                              │                  │        m 
-│                              │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                              │                  ├ [104]: https://www.darkreading.com/cloud/internet-wide
+│                              │                  ├ [107]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                              │                  ├ [108]: https://www.darkreading.com/cloud/internet-wide
 │                              │                  │        -zero-day-bug-fuels-largest-ever-ddos-event 
-│                              │                  ├ [105]: https://www.debian.org/security/2023/dsa-5521 
-│                              │                  ├ [106]: https://www.debian.org/security/2023/dsa-5522 
-│                              │                  ├ [107]: https://www.haproxy.com/blog/haproxy-is-not-aff
+│                              │                  ├ [109]: https://www.debian.org/security/2023/dsa-5521 
+│                              │                  ├ [110]: https://www.debian.org/security/2023/dsa-5522 
+│                              │                  ├ [111]: https://www.haproxy.com/blog/haproxy-is-not-aff
 │                              │                  │        ected-by-the-http-2-rapid-reset-attack-cve-2023-4448
 │                              │                  │        7 
-│                              │                  ├ [108]: https://www.mail-archive.com/haproxy@formilux.o
+│                              │                  ├ [112]: https://www.mail-archive.com/haproxy@formilux.o
 │                              │                  │        rg/msg44134.html 
-│                              │                  ├ [109]: https://www.netlify.com/blog/netlify-successful
+│                              │                  ├ [113]: https://www.netlify.com/blog/netlify-successful
 │                              │                  │        ly-mitigates-cve-2023-44487/ 
-│                              │                  ├ [110]: https://www.nginx.com/blog/http-2-rapid-reset-a
+│                              │                  ├ [114]: https://www.nginx.com/blog/http-2-rapid-reset-a
 │                              │                  │        ttack-impacting-f5-nginx-products/ 
-│                              │                  ├ [111]: https://www.openwall.com/lists/oss-security/202
+│                              │                  ├ [115]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/10/10/6 
-│                              │                  ├ [112]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
+│                              │                  ├ [116]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
 │                              │                  │        -Attack 
-│                              │                  ╰ [113]: https://www.theregister.com/2023/10/10/http2_ra
+│                              │                  ╰ [117]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-14T01:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-15T19:15:00Z 
 ├ [7]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5400,69 +5751,78 @@
 │                              │                  │        NNxDTCjZvo/m/UDd7VKQuAAAJ 
 │                              │                  ├ [79] : https://istio.io/latest/news/security/istio-sec
 │                              │                  │        urity-2023-004/ 
-│                              │                  ├ [80] : https://lists.apache.org/thread/5py8h42mxfsn8l1
+│                              │                  ├ [80] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
+│                              │                  │        44487/ 
+│                              │                  ├ [81] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
-│                              │                  ├ [81] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  ├ [82] : https://lists.debian.org/debian-lts-announce/20
 │                              │                  │        23/10/msg00020.html 
-│                              │                  ├ [82] : https://lists.w3.org/Archives/Public/ietf-http-
+│                              │                  ├ [83] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  │        23/10/msg00023.html 
+│                              │                  ├ [84] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  │        ackage-announce@lists.fedoraproject.org/message/JMEX
+│                              │                  │        Y22BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
+│                              │                  ├ [85] : https://lists.w3.org/Archives/Public/ietf-http-
 │                              │                  │        wg/2023OctDec/0025.html 
-│                              │                  ├ [83] : https://mailman.nginx.org/pipermail/nginx-devel
+│                              │                  ├ [86] : https://mailman.nginx.org/pipermail/nginx-devel
 │                              │                  │        /2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
 │                              │                  │        [m 
-│                              │                  ├ [84] : https://martinthomson.github.io/h2-stream-limit
+│                              │                  ├ [87] : https://martinthomson.github.io/h2-stream-limit
 │                              │                  │        s/draft-thomson-httpbis-h2-stream-limits.html
 │                              │                  │        [m 
-│                              │                  ├ [85] : https://msrc.microsoft.com/blog/2023/10/microso
+│                              │                  ├ [88] : https://msrc.microsoft.com/blog/2023/10/microso
 │                              │                  │        ft-response-to-distributed-denial-of-service-ddos-at
 │                              │                  │        tacks-against-http/2/ 
-│                              │                  ├ [86] : https://msrc.microsoft.com/update-guide/vulnera
+│                              │                  ├ [89] : https://msrc.microsoft.com/update-guide/vulnera
 │                              │                  │        bility/CVE-2023-44487 
-│                              │                  ├ [87] : https://my.f5.com/manage/s/article/K000137106 
-│                              │                  ├ [88] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
-│                              │                  ├ [89] : https://news.ycombinator.com/item?id=37830987 
-│                              │                  ├ [90] : https://news.ycombinator.com/item?id=37830998 
-│                              │                  ├ [91] : https://news.ycombinator.com/item?id=37831062 
-│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37837043 
-│                              │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-│                              │                  ├ [94] : https://openssf.org/blog/2023/10/10/http-2-rapi
+│                              │                  ├ [90] : https://my.f5.com/manage/s/article/K000137106 
+│                              │                  ├ [91] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
+│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37830987 
+│                              │                  ├ [93] : https://news.ycombinator.com/item?id=37830998 
+│                              │                  ├ [94] : https://news.ycombinator.com/item?id=37831062 
+│                              │                  ├ [95] : https://news.ycombinator.com/item?id=37837043 
+│                              │                  ├ [96] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+│                              │                  ├ [97] : https://openssf.org/blog/2023/10/10/http-2-rapi
 │                              │                  │        d-reset-vulnerability-highlights-need-for-rapid-resp
 │                              │                  │        onse/ 
-│                              │                  ├ [95] : https://pkg.go.dev/vuln/GO-2023-2102 
-│                              │                  ├ [96] : https://seanmonstar.com/post/730794151136935936
+│                              │                  ├ [98] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                              │                  ├ [99] : https://seanmonstar.com/post/730794151136935936
 │                              │                  │        /hyper-http2-rapid-reset-unaffected 
-│                              │                  ├ [97] : https://security.paloaltonetworks.com/CVE-2023-44487 
-│                              │                  ├ [98] : https://tomcat.apache.org/security-10.html#Fixe
+│                              │                  ├ [100]: https://security.netapp.com/advisory/ntap-20231
+│                              │                  │        016-0001/ 
+│                              │                  ├ [101]: https://security.paloaltonetworks.com/CVE-2023-44487 
+│                              │                  ├ [102]: https://tomcat.apache.org/security-10.html#Fixe
 │                              │                  │        d_in_Apache_Tomcat_10.1.14 
-│                              │                  ├ [99] : https://ubuntu.com/security/CVE-2023-44487 
-│                              │                  ├ [100]: https://ubuntu.com/security/notices/USN-6427-1 
-│                              │                  ├ [101]: https://www.bleepingcomputer.com/news/security/
+│                              │                  ├ [103]: https://ubuntu.com/security/CVE-2023-44487 
+│                              │                  ├ [104]: https://ubuntu.com/security/notices/USN-6427-1 
+│                              │                  ├ [105]: https://www.bleepingcomputer.com/news/security/
 │                              │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
 │                              │                  │        ecords/ 
-│                              │                  ├ [102]: https://www.cisa.gov/news-events/alerts/2023/10
+│                              │                  ├ [106]: https://www.cisa.gov/news-events/alerts/2023/10
 │                              │                  │        /10/http2-rapid-reset-vulnerability-cve-2023-44487[
 │                              │                  │        m 
-│                              │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                              │                  ├ [104]: https://www.darkreading.com/cloud/internet-wide
+│                              │                  ├ [107]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                              │                  ├ [108]: https://www.darkreading.com/cloud/internet-wide
 │                              │                  │        -zero-day-bug-fuels-largest-ever-ddos-event 
-│                              │                  ├ [105]: https://www.debian.org/security/2023/dsa-5521 
-│                              │                  ├ [106]: https://www.debian.org/security/2023/dsa-5522 
-│                              │                  ├ [107]: https://www.haproxy.com/blog/haproxy-is-not-aff
+│                              │                  ├ [109]: https://www.debian.org/security/2023/dsa-5521 
+│                              │                  ├ [110]: https://www.debian.org/security/2023/dsa-5522 
+│                              │                  ├ [111]: https://www.haproxy.com/blog/haproxy-is-not-aff
 │                              │                  │        ected-by-the-http-2-rapid-reset-attack-cve-2023-4448
 │                              │                  │        7 
-│                              │                  ├ [108]: https://www.mail-archive.com/haproxy@formilux.o
+│                              │                  ├ [112]: https://www.mail-archive.com/haproxy@formilux.o
 │                              │                  │        rg/msg44134.html 
-│                              │                  ├ [109]: https://www.netlify.com/blog/netlify-successful
+│                              │                  ├ [113]: https://www.netlify.com/blog/netlify-successful
 │                              │                  │        ly-mitigates-cve-2023-44487/ 
-│                              │                  ├ [110]: https://www.nginx.com/blog/http-2-rapid-reset-a
+│                              │                  ├ [114]: https://www.nginx.com/blog/http-2-rapid-reset-a
 │                              │                  │        ttack-impacting-f5-nginx-products/ 
-│                              │                  ├ [111]: https://www.openwall.com/lists/oss-security/202
+│                              │                  ├ [115]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/10/10/6 
-│                              │                  ├ [112]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
+│                              │                  ├ [116]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
 │                              │                  │        -Attack 
-│                              │                  ╰ [113]: https://www.theregister.com/2023/10/10/http2_ra
+│                              │                  ╰ [117]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-14T01:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-15T19:15:00Z 
 ├ [8]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5723,69 +6083,78 @@
 │                              │                  │        NNxDTCjZvo/m/UDd7VKQuAAAJ 
 │                              │                  ├ [79] : https://istio.io/latest/news/security/istio-sec
 │                              │                  │        urity-2023-004/ 
-│                              │                  ├ [80] : https://lists.apache.org/thread/5py8h42mxfsn8l1
+│                              │                  ├ [80] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
+│                              │                  │        44487/ 
+│                              │                  ├ [81] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
-│                              │                  ├ [81] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  ├ [82] : https://lists.debian.org/debian-lts-announce/20
 │                              │                  │        23/10/msg00020.html 
-│                              │                  ├ [82] : https://lists.w3.org/Archives/Public/ietf-http-
+│                              │                  ├ [83] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  │        23/10/msg00023.html 
+│                              │                  ├ [84] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  │        ackage-announce@lists.fedoraproject.org/message/JMEX
+│                              │                  │        Y22BFG5Q64HQCM5CK2Q7KDKVV4TY/ 
+│                              │                  ├ [85] : https://lists.w3.org/Archives/Public/ietf-http-
 │                              │                  │        wg/2023OctDec/0025.html 
-│                              │                  ├ [83] : https://mailman.nginx.org/pipermail/nginx-devel
+│                              │                  ├ [86] : https://mailman.nginx.org/pipermail/nginx-devel
 │                              │                  │        /2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
 │                              │                  │        [m 
-│                              │                  ├ [84] : https://martinthomson.github.io/h2-stream-limit
+│                              │                  ├ [87] : https://martinthomson.github.io/h2-stream-limit
 │                              │                  │        s/draft-thomson-httpbis-h2-stream-limits.html
 │                              │                  │        [m 
-│                              │                  ├ [85] : https://msrc.microsoft.com/blog/2023/10/microso
+│                              │                  ├ [88] : https://msrc.microsoft.com/blog/2023/10/microso
 │                              │                  │        ft-response-to-distributed-denial-of-service-ddos-at
 │                              │                  │        tacks-against-http/2/ 
-│                              │                  ├ [86] : https://msrc.microsoft.com/update-guide/vulnera
+│                              │                  ├ [89] : https://msrc.microsoft.com/update-guide/vulnera
 │                              │                  │        bility/CVE-2023-44487 
-│                              │                  ├ [87] : https://my.f5.com/manage/s/article/K000137106 
-│                              │                  ├ [88] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
-│                              │                  ├ [89] : https://news.ycombinator.com/item?id=37830987 
-│                              │                  ├ [90] : https://news.ycombinator.com/item?id=37830998 
-│                              │                  ├ [91] : https://news.ycombinator.com/item?id=37831062 
-│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37837043 
-│                              │                  ├ [93] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
-│                              │                  ├ [94] : https://openssf.org/blog/2023/10/10/http-2-rapi
+│                              │                  ├ [90] : https://my.f5.com/manage/s/article/K000137106 
+│                              │                  ├ [91] : https://netty.io/news/2023/10/10/4-1-100-Final.html 
+│                              │                  ├ [92] : https://news.ycombinator.com/item?id=37830987 
+│                              │                  ├ [93] : https://news.ycombinator.com/item?id=37830998 
+│                              │                  ├ [94] : https://news.ycombinator.com/item?id=37831062 
+│                              │                  ├ [95] : https://news.ycombinator.com/item?id=37837043 
+│                              │                  ├ [96] : https://nvd.nist.gov/vuln/detail/CVE-2023-44487 
+│                              │                  ├ [97] : https://openssf.org/blog/2023/10/10/http-2-rapi
 │                              │                  │        d-reset-vulnerability-highlights-need-for-rapid-resp
 │                              │                  │        onse/ 
-│                              │                  ├ [95] : https://pkg.go.dev/vuln/GO-2023-2102 
-│                              │                  ├ [96] : https://seanmonstar.com/post/730794151136935936
+│                              │                  ├ [98] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                              │                  ├ [99] : https://seanmonstar.com/post/730794151136935936
 │                              │                  │        /hyper-http2-rapid-reset-unaffected 
-│                              │                  ├ [97] : https://security.paloaltonetworks.com/CVE-2023-44487 
-│                              │                  ├ [98] : https://tomcat.apache.org/security-10.html#Fixe
+│                              │                  ├ [100]: https://security.netapp.com/advisory/ntap-20231
+│                              │                  │        016-0001/ 
+│                              │                  ├ [101]: https://security.paloaltonetworks.com/CVE-2023-44487 
+│                              │                  ├ [102]: https://tomcat.apache.org/security-10.html#Fixe
 │                              │                  │        d_in_Apache_Tomcat_10.1.14 
-│                              │                  ├ [99] : https://ubuntu.com/security/CVE-2023-44487 
-│                              │                  ├ [100]: https://ubuntu.com/security/notices/USN-6427-1 
-│                              │                  ├ [101]: https://www.bleepingcomputer.com/news/security/
+│                              │                  ├ [103]: https://ubuntu.com/security/CVE-2023-44487 
+│                              │                  ├ [104]: https://ubuntu.com/security/notices/USN-6427-1 
+│                              │                  ├ [105]: https://www.bleepingcomputer.com/news/security/
 │                              │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
 │                              │                  │        ecords/ 
-│                              │                  ├ [102]: https://www.cisa.gov/news-events/alerts/2023/10
+│                              │                  ├ [106]: https://www.cisa.gov/news-events/alerts/2023/10
 │                              │                  │        /10/http2-rapid-reset-vulnerability-cve-2023-44487[
 │                              │                  │        m 
-│                              │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                              │                  ├ [104]: https://www.darkreading.com/cloud/internet-wide
+│                              │                  ├ [107]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                              │                  ├ [108]: https://www.darkreading.com/cloud/internet-wide
 │                              │                  │        -zero-day-bug-fuels-largest-ever-ddos-event 
-│                              │                  ├ [105]: https://www.debian.org/security/2023/dsa-5521 
-│                              │                  ├ [106]: https://www.debian.org/security/2023/dsa-5522 
-│                              │                  ├ [107]: https://www.haproxy.com/blog/haproxy-is-not-aff
+│                              │                  ├ [109]: https://www.debian.org/security/2023/dsa-5521 
+│                              │                  ├ [110]: https://www.debian.org/security/2023/dsa-5522 
+│                              │                  ├ [111]: https://www.haproxy.com/blog/haproxy-is-not-aff
 │                              │                  │        ected-by-the-http-2-rapid-reset-attack-cve-2023-4448
 │                              │                  │        7 
-│                              │                  ├ [108]: https://www.mail-archive.com/haproxy@formilux.o
+│                              │                  ├ [112]: https://www.mail-archive.com/haproxy@formilux.o
 │                              │                  │        rg/msg44134.html 
-│                              │                  ├ [109]: https://www.netlify.com/blog/netlify-successful
+│                              │                  ├ [113]: https://www.netlify.com/blog/netlify-successful
 │                              │                  │        ly-mitigates-cve-2023-44487/ 
-│                              │                  ├ [110]: https://www.nginx.com/blog/http-2-rapid-reset-a
+│                              │                  ├ [114]: https://www.nginx.com/blog/http-2-rapid-reset-a
 │                              │                  │        ttack-impacting-f5-nginx-products/ 
-│                              │                  ├ [111]: https://www.openwall.com/lists/oss-security/202
+│                              │                  ├ [115]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/10/10/6 
-│                              │                  ├ [112]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
+│                              │                  ├ [116]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
 │                              │                  │        -Attack 
-│                              │                  ╰ [113]: https://www.theregister.com/2023/10/10/http2_ra
+│                              │                  ╰ [117]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-14T01:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-15T19:15:00Z 
 ├ [9]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
