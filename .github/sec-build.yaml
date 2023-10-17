@@ -146,12 +146,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -189,12 +189,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -900,12 +900,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -2866,21 +2866,102 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36478
     PublishedDate: '2023-10-10T17:15:00Z'
     LastModifiedDate: '2023-10-10T17:52:00Z'
-  - VulnerabilityID: CVE-2023-40167
-    PkgName: org.eclipse.jetty:jetty-http
+  - VulnerabilityID: CVE-2023-41900
+    PkgName: org.eclipse.jetty:jetty-io
     PkgPath: opt/oaf/openaf.jar
     InstalledVersion: 9.4.51.v20230217
-    FixedVersion: 9.4.52, 10.0.16, 11.0.16, 12.0.1
+    FixedVersion: 9.4.52.v20230823, 10.0.16, 11.0.16
     Status: fixed
     Layer:
       Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
       DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
-    SeveritySource: ghsa
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-41900
+    DataSource:
+      ID: glad
+      Name: GitLab Advisory Database Community
+      URL: https://gitlab.com/gitlab-org/advisories-community
+    Title: Jetty is a Java based web server and servlet engine. Versions 9.4.21 t ...
+    Description: Jetty is a Java based web server and servlet engine. Versions 9.4.21 through 9.4.51, 10.0.15, and 11.0.15 are vulnerable to weak authentication. If a Jetty `OpenIdAuthenticator` uses the optional nested `LoginService`, and that `LoginService` decides to revoke an already authenticated user, then the current request will still treat the user as authenticated. The authentication is then cleared from the session and subsequent requests will not be treated as authenticated. So a request on a previously authenticated session could be allowed to bypass authentication after it had been rejected by the `LoginService`. This impacts usages of the jetty-openid which have configured a nested `LoginService` and where that `LoginService` will is capable of rejecting previously authenticated users. Versions 9.4.52, 10.0.16, and 11.0.16 have a patch for this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1390
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N
+        V3Score: 3.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+    References:
+    - https://github.com/eclipse/jetty.project
+    - https://github.com/eclipse/jetty.project/pull/9528
+    - https://github.com/eclipse/jetty.project/pull/9660
+    - https://github.com/eclipse/jetty.project/security/advisories/GHSA-pwh8-58vv-vw48
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-41900
+    - https://www.debian.org/security/2023/dsa-5507
+    PublishedDate: '2023-09-15T21:15:00Z'
+    LastModifiedDate: '2023-09-29T12:15:00Z'
+  - VulnerabilityID: CVE-2023-36479
+    PkgName: org.eclipse.jetty:jetty-util
+    PkgPath: opt/oaf/openaf.jar
+    InstalledVersion: 9.4.51.v20230217
+    FixedVersion: 9.4.52.v20230823, 10.0.16, 11.0.16, 12.0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
+      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-36479
+    DataSource:
+      ID: glad
+      Name: GitLab Advisory Database Community
+      URL: https://gitlab.com/gitlab-org/advisories-community
+    Title: Improper addition of quotation marks to user inputs in CgiServlet
+    Description: |
+      Eclipse Jetty Canonical Repository is the canonical repository for the Jetty project. Users of the CgiServlet with a very specific command structure may have the wrong command executed. If a user sends a request to a org.eclipse.jetty.servlets.CGI Servlet for a binary with a space in its name, the servlet will escape the command by wrapping it in quotation marks. This wrapped command, plus an optional command prefix, will then be executed through a call to Runtime.exec. If the original binary name provided by the user contains a quotation mark followed by a space, the resulting command line will contain multiple tokens instead of one. This issue was patched in version 9.4.52, 10.0.16, 11.0.16 and 12.0.0-beta2.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-149
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N
+        V3Score: 3.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 4.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:L/A:N
+        V3Score: 3.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-36479
+    - https://github.com/advisories/GHSA-3gh6-v5v9-6v9j
+    - https://github.com/eclipse/jetty.project
+    - https://github.com/eclipse/jetty.project/pull/9516
+    - https://github.com/eclipse/jetty.project/pull/9888
+    - https://github.com/eclipse/jetty.project/pull/9889
+    - https://github.com/eclipse/jetty.project/security/advisories/GHSA-3gh6-v5v9-6v9j
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00039.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-36479
+    - https://www.cve.org/CVERecord?id=CVE-2023-36479
+    - https://www.debian.org/security/2023/dsa-5507
+    PublishedDate: '2023-09-15T19:15:00Z'
+    LastModifiedDate: '2023-09-30T15:15:00Z'
+  - VulnerabilityID: CVE-2023-40167
+    PkgName: org.eclipse.jetty:jetty-util
+    PkgPath: opt/oaf/openaf.jar
+    InstalledVersion: 9.4.51.v20230217
+    FixedVersion: 9.4.52.v20230823, 10.0.16, 11.0.16, 12.0.1
+    Status: fixed
+    Layer:
+      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
+      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40167
     DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Maven
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
+      ID: glad
+      Name: GitLab Advisory Database Community
+      URL: https://gitlab.com/gitlab-org/advisories-community
     Title: Improper validation of HTTP/1 content-length
     Description: Jetty is a Java based web server and servlet engine. Prior to versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1, Jetty accepts the `+` character proceeding the content-length value in a HTTP/1 header field.  This is more permissive than allowed by the RFC and other servers routinely reject such requests with 400 responses.  There is no known exploit scenario, but it is conceivable that request smuggling could result if jetty is used in combination with a server that does not close the connection after sending such a 400 response. Versions 9.4.52, 10.0.16, 11.0.16, and 12.0.1 contain a patch for this issue. There is no workaround as there is no known exploit scenario.
     Severity: MEDIUM
@@ -2907,6 +2988,42 @@
     - https://www.rfc-editor.org/rfc/rfc9110#section-8.6
     PublishedDate: '2023-09-15T20:15:00Z'
     LastModifiedDate: '2023-10-13T01:59:00Z'
+  - VulnerabilityID: CVE-2023-41900
+    PkgName: org.eclipse.jetty:jetty-util
+    PkgPath: opt/oaf/openaf.jar
+    InstalledVersion: 9.4.51.v20230217
+    FixedVersion: 9.4.52.v20230823, 10.0.16, 11.0.16
+    Status: fixed
+    Layer:
+      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
+      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-41900
+    DataSource:
+      ID: glad
+      Name: GitLab Advisory Database Community
+      URL: https://gitlab.com/gitlab-org/advisories-community
+    Title: Jetty is a Java based web server and servlet engine. Versions 9.4.21 t ...
+    Description: Jetty is a Java based web server and servlet engine. Versions 9.4.21 through 9.4.51, 10.0.15, and 11.0.15 are vulnerable to weak authentication. If a Jetty `OpenIdAuthenticator` uses the optional nested `LoginService`, and that `LoginService` decides to revoke an already authenticated user, then the current request will still treat the user as authenticated. The authentication is then cleared from the session and subsequent requests will not be treated as authenticated. So a request on a previously authenticated session could be allowed to bypass authentication after it had been rejected by the `LoginService`. This impacts usages of the jetty-openid which have configured a nested `LoginService` and where that `LoginService` will is capable of rejecting previously authenticated users. Versions 9.4.52, 10.0.16, and 11.0.16 have a patch for this issue.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-1390
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N
+        V3Score: 3.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 4.3
+    References:
+    - https://github.com/eclipse/jetty.project
+    - https://github.com/eclipse/jetty.project/pull/9528
+    - https://github.com/eclipse/jetty.project/pull/9660
+    - https://github.com/eclipse/jetty.project/security/advisories/GHSA-pwh8-58vv-vw48
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-41900
+    - https://www.debian.org/security/2023/dsa-5507
+    PublishedDate: '2023-09-15T21:15:00Z'
+    LastModifiedDate: '2023-09-29T12:15:00Z'
   - VulnerabilityID: CVE-2023-4759
     PkgName: org.eclipse.jgit:org.eclipse.jgit
     PkgPath: opt/oaf/openaf.jar
@@ -3175,8 +3292,10 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -3193,6 +3312,7 @@
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
     - https://pkg.go.dev/vuln/GO-2023-2102
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://ubuntu.com/security/CVE-2023-44487
@@ -3211,7 +3331,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T04:15:00Z'
+    LastModifiedDate: '2023-10-15T19:15:00Z'
 - Target: tmp/tmp.8xzx4A6O2A/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -3401,8 +3521,10 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -3419,6 +3541,7 @@
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
     - https://pkg.go.dev/vuln/GO-2023-2102
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://ubuntu.com/security/CVE-2023-44487
@@ -3437,11 +3560,83 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T04:15:00Z'
+    LastModifiedDate: '2023-10-15T19:15:00Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2023-45142
+    PkgName: go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace
+    InstalledVersion: v0.40.0
+    FixedVersion: 0.44.0
+    Status: fixed
+    Layer:
+      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
+      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45142
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: OpenTelemetry-Go Contrib vulnerable to denial of service in otelhttp due to unbound cardinality metrics
+    Description: OpenTelemetry-Go Contrib is a collection of third-party packages for OpenTelemetry-Go. A handler wrapper out of the box adds labels `http.user_agent` and `http.method` that have unbound cardinality. It leads to the server's potential memory exhaustion when many malicious requests are sent to it. HTTP header User-Agent or HTTP method for requests can be easily set by an attacker to be random and long. The library internally uses `httpconv.ServerRequest` that records every value for HTTP `method` and `User-Agent`. In order to be affected, a program has to use the `otelhttp.NewHandler` wrapper and not filter any unknown HTTP methods or User agents on the level of CDN, LB, previous middleware, etc. Version 0.44.0 fixed this issue when the values collected for attribute `http.request.method` were changed to be restricted to a set of well-known values and other high cardinality attributes were removed. As a workaround to stop being affected, `otelhttp.WithFilter()` can be used, but it requires manual careful configuration to not log certain requests entirely. For convenience and safe usage of this library, it should by default mark with the label `unknown` non-standard HTTP methods and User agents to show that such requests were made but do not increase cardinality. In case someone wants to stay with the current behavior, library API should allow to enable it.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/advisories/GHSA-cg3q-j54f-5p7p
+    - https://github.com/open-telemetry/opentelemetry-go-contrib
+    - https://github.com/open-telemetry/opentelemetry-go-contrib/blob/5f7e6ad5a49b45df45f61a1deb29d7f1158032df/instrumentation/net/http/otelhttp/handler.go#L63-L65
+    - https://github.com/open-telemetry/opentelemetry-go-contrib/pull/4277
+    - https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/v1.19.0
+    - https://github.com/open-telemetry/opentelemetry-go-contrib/security/advisories/GHSA-5r5m-65gx-7vrh
+    - https://github.com/open-telemetry/opentelemetry-go-contrib/security/advisories/GHSA-rcjv-mgp8-qvmr
+    - https://github.com/open-telemetry/opentelemetry-go/blob/38e1b499c3da3107694ad2660b3888eee9c8b896/semconv/internal/v2/http.go#L223
+    - https://github.com/open-telemetry/opentelemetry-go/blob/v1.12.0/semconv/internal/v2/http.go#L159
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45142
+    PublishedDate: '2023-10-12T17:15:00Z'
+    LastModifiedDate: '2023-10-12T19:42:00Z'
+  - VulnerabilityID: CVE-2023-45142
+    PkgName: go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
+    InstalledVersion: v0.40.0
+    FixedVersion: 0.44.0
+    Status: fixed
+    Layer:
+      Digest: sha256:c183f371bf571dab31103e48bafbc254dd41a742b4c9797e7e8ee4d72a0a0430
+      DiffID: sha256:09345fa6db29b7345be3990d2b257994b20e9040b427a03c82c7019795ec41ba
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45142
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: OpenTelemetry-Go Contrib vulnerable to denial of service in otelhttp due to unbound cardinality metrics
+    Description: OpenTelemetry-Go Contrib is a collection of third-party packages for OpenTelemetry-Go. A handler wrapper out of the box adds labels `http.user_agent` and `http.method` that have unbound cardinality. It leads to the server's potential memory exhaustion when many malicious requests are sent to it. HTTP header User-Agent or HTTP method for requests can be easily set by an attacker to be random and long. The library internally uses `httpconv.ServerRequest` that records every value for HTTP `method` and `User-Agent`. In order to be affected, a program has to use the `otelhttp.NewHandler` wrapper and not filter any unknown HTTP methods or User agents on the level of CDN, LB, previous middleware, etc. Version 0.44.0 fixed this issue when the values collected for attribute `http.request.method` were changed to be restricted to a set of well-known values and other high cardinality attributes were removed. As a workaround to stop being affected, `otelhttp.WithFilter()` can be used, but it requires manual careful configuration to not log certain requests entirely. For convenience and safe usage of this library, it should by default mark with the label `unknown` non-standard HTTP methods and User agents to show that such requests were made but do not increase cardinality. In case someone wants to stay with the current behavior, library API should allow to enable it.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/advisories/GHSA-cg3q-j54f-5p7p
+    - https://github.com/open-telemetry/opentelemetry-go-contrib
+    - https://github.com/open-telemetry/opentelemetry-go-contrib/blob/5f7e6ad5a49b45df45f61a1deb29d7f1158032df/instrumentation/net/http/otelhttp/handler.go#L63-L65
+    - https://github.com/open-telemetry/opentelemetry-go-contrib/pull/4277
+    - https://github.com/open-telemetry/opentelemetry-go-contrib/releases/tag/v1.19.0
+    - https://github.com/open-telemetry/opentelemetry-go-contrib/security/advisories/GHSA-5r5m-65gx-7vrh
+    - https://github.com/open-telemetry/opentelemetry-go-contrib/security/advisories/GHSA-rcjv-mgp8-qvmr
+    - https://github.com/open-telemetry/opentelemetry-go/blob/38e1b499c3da3107694ad2660b3888eee9c8b896/semconv/internal/v2/http.go#L223
+    - https://github.com/open-telemetry/opentelemetry-go/blob/v1.12.0/semconv/internal/v2/http.go#L159
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45142
+    PublishedDate: '2023-10-12T17:15:00Z'
+    LastModifiedDate: '2023-10-12T19:42:00Z'
   - VulnerabilityID: CVE-2023-39325
     PkgName: golang.org/x/net
     InstalledVersion: v0.12.0
@@ -3627,8 +3822,10 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -3645,6 +3842,7 @@
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
     - https://pkg.go.dev/vuln/GO-2023-2102
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://ubuntu.com/security/CVE-2023-44487
@@ -3663,7 +3861,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T04:15:00Z'
+    LastModifiedDate: '2023-10-15T19:15:00Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -3815,8 +4013,10 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -3833,6 +4033,7 @@
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
     - https://pkg.go.dev/vuln/GO-2023-2102
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://ubuntu.com/security/CVE-2023-44487
@@ -3851,7 +4052,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T04:15:00Z'
+    LastModifiedDate: '2023-10-15T19:15:00Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -4003,8 +4204,10 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -4021,6 +4224,7 @@
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
     - https://pkg.go.dev/vuln/GO-2023-2102
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://ubuntu.com/security/CVE-2023-44487
@@ -4039,7 +4243,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T04:15:00Z'
+    LastModifiedDate: '2023-10-15T19:15:00Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -4191,8 +4395,10 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -4209,6 +4415,7 @@
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
     - https://pkg.go.dev/vuln/GO-2023-2102
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://ubuntu.com/security/CVE-2023-44487
@@ -4227,7 +4434,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T04:15:00Z'
+    LastModifiedDate: '2023-10-15T19:15:00Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -4417,8 +4624,10 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -4435,6 +4644,7 @@
     - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
     - https://pkg.go.dev/vuln/GO-2023-2102
     - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://ubuntu.com/security/CVE-2023-44487
@@ -4453,7 +4663,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T04:15:00Z'
+    LastModifiedDate: '2023-10-15T19:15:00Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
