@@ -142,11 +142,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2023:5763
     - https://access.redhat.com/security/cve/CVE-2023-38545
+    - https://bugzilla.redhat.com/2241933
+    - https://bugzilla.redhat.com/2241938
     - https://curl.se/docs/CVE-2023-38545.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
+    - https://errata.almalinux.org/9/ALSA-2023-5763.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38545
     - https://ubuntu.com/security/notices/USN-6429-1
+    - https://ubuntu.com/security/notices/USN-6429-3
     - https://www.cve.org/CVERecord?id=CVE-2023-38545
   - VulnerabilityID: CVE-2023-38546
     PkgID: curl@7.81.0-1ubuntu1.13
@@ -171,12 +176,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5
     References:
+    - https://access.redhat.com/errata/RHSA-2023:5763
     - https://access.redhat.com/security/cve/CVE-2023-38546
+    - https://bugzilla.redhat.com/2241933
+    - https://bugzilla.redhat.com/2241938
     - https://curl.se/docs/CVE-2023-38546.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
+    - https://errata.almalinux.org/9/ALSA-2023-5763.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38546
     - https://ubuntu.com/security/notices/USN-6429-1
     - https://ubuntu.com/security/notices/USN-6429-2
+    - https://ubuntu.com/security/notices/USN-6429-3
     - https://www.cve.org/CVERecord?id=CVE-2023-38546
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus@1.12.20-2ubuntu4.1
@@ -1097,11 +1107,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2023:5763
     - https://access.redhat.com/security/cve/CVE-2023-38545
+    - https://bugzilla.redhat.com/2241933
+    - https://bugzilla.redhat.com/2241938
     - https://curl.se/docs/CVE-2023-38545.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
+    - https://errata.almalinux.org/9/ALSA-2023-5763.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38545
     - https://ubuntu.com/security/notices/USN-6429-1
+    - https://ubuntu.com/security/notices/USN-6429-3
     - https://www.cve.org/CVERecord?id=CVE-2023-38545
   - VulnerabilityID: CVE-2023-38546
     PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.13
@@ -1126,12 +1141,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5
     References:
+    - https://access.redhat.com/errata/RHSA-2023:5763
     - https://access.redhat.com/security/cve/CVE-2023-38546
+    - https://bugzilla.redhat.com/2241933
+    - https://bugzilla.redhat.com/2241938
     - https://curl.se/docs/CVE-2023-38546.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
+    - https://errata.almalinux.org/9/ALSA-2023-5763.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38546
     - https://ubuntu.com/security/notices/USN-6429-1
     - https://ubuntu.com/security/notices/USN-6429-2
+    - https://ubuntu.com/security/notices/USN-6429-3
     - https://www.cve.org/CVERecord?id=CVE-2023-38546
   - VulnerabilityID: CVE-2023-38545
     PkgID: libcurl4@7.81.0-1ubuntu1.13
@@ -1156,11 +1176,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.5
     References:
+    - https://access.redhat.com/errata/RHSA-2023:5763
     - https://access.redhat.com/security/cve/CVE-2023-38545
+    - https://bugzilla.redhat.com/2241933
+    - https://bugzilla.redhat.com/2241938
     - https://curl.se/docs/CVE-2023-38545.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38545
+    - https://errata.almalinux.org/9/ALSA-2023-5763.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38545
     - https://ubuntu.com/security/notices/USN-6429-1
+    - https://ubuntu.com/security/notices/USN-6429-3
     - https://www.cve.org/CVERecord?id=CVE-2023-38545
   - VulnerabilityID: CVE-2023-38546
     PkgID: libcurl4@7.81.0-1ubuntu1.13
@@ -1185,12 +1210,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L
         V3Score: 5
     References:
+    - https://access.redhat.com/errata/RHSA-2023:5763
     - https://access.redhat.com/security/cve/CVE-2023-38546
+    - https://bugzilla.redhat.com/2241933
+    - https://bugzilla.redhat.com/2241938
     - https://curl.se/docs/CVE-2023-38546.html
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38546
+    - https://errata.almalinux.org/9/ALSA-2023-5763.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-38546
     - https://ubuntu.com/security/notices/USN-6429-1
     - https://ubuntu.com/security/notices/USN-6429-2
+    - https://ubuntu.com/security/notices/USN-6429-3
     - https://www.cve.org/CVERecord?id=CVE-2023-38546
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
@@ -3490,6 +3520,374 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3705
     PublishedDate: '2022-10-26T20:15:00Z'
     LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2023-4733
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4733
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free in GitHub repository vim/vim prior to 9.0.1840.
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1840.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4733
+    - https://github.com/vim/vim/commit/e1dc9a627536304bc4f738c21e909ad9fcf3974c
+    - https://github.com/vim/vim/commit/e1dc9a627536304bc4f738c21e909ad9fcf3974c (v9.0.1840)
+    - https://huntr.dev/bounties/1ce1fd8c-050a-4373-8004-b35b61590217
+    - https://huntr.dev/bounties/1ce1fd8c-050a-4373-8004-b35b61590217/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4733
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4734
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4734
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: segmentation fault in function f_fullcommand in vim/vim
+    Description: Integer Overflow or Wraparound in GitHub repository vim/vim prior to 9.0.1846.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4734
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4734
+    - https://github.com/vim/vim/commit/4c6fe2e2ea62469642ed1d80b16d39e616b25cf5
+    - https://github.com/vim/vim/commit/4c6fe2e2ea62469642ed1d80b16d39e616b25cf5 (v9.0.1846)
+    - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217
+    - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4734
+    - https://www.cve.org/CVERecord?id=CVE-2023-4734
+    PublishedDate: '2023-09-02T18:15:00Z'
+    LastModifiedDate: '2023-09-08T15:22:00Z'
+  - VulnerabilityID: CVE-2023-4735
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4735
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: OOB Write ops.c in vim/vim
+    Description: Out-of-bounds Write in GitHub repository vim/vim prior to 9.0.1847.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4735
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4735
+    - https://github.com/vim/vim/commit/889f6af37164775192e33b233a90e86fd3df0f57
+    - https://github.com/vim/vim/commit/889f6af37164775192e33b233a90e86fd3df0f57 (v9.0.1847)
+    - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51
+    - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4735
+    - https://www.cve.org/CVERecord?id=CVE-2023-4735
+    PublishedDate: '2023-09-02T18:15:00Z'
+    LastModifiedDate: '2023-09-08T15:28:00Z'
+  - VulnerabilityID: CVE-2023-4750
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4750
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free in GitHub repository vim/vim prior to 9.0.1857.
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1857.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4750
+    - https://github.com/vim/vim/commit/fc68299d436cf87453e432daa77b6d545df4d7ed
+    - https://github.com/vim/vim/commit/fc68299d436cf87453e432daa77b6d545df4d7ed (v9.0.1857)
+    - https://huntr.dev/bounties/1ab3ebdf-fe7d-4436-b483-9a586e03b0ea
+    - https://huntr.dev/bounties/1ab3ebdf-fe7d-4436-b483-9a586e03b0ea/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4750
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4751
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4751
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer-overflow in function utfc_ptr2len in vim/vim
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1331.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4751
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4751
+    - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b
+    - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b (v9.0.1331)
+    - https://huntr.dev/bounties/db7be8d6-6cb7-4ae5-9c4e-805423afa378
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4751
+    - https://www.cve.org/CVERecord?id=CVE-2023-4751
+    PublishedDate: '2023-09-03T19:15:00Z'
+    LastModifiedDate: '2023-09-08T12:58:00Z'
+  - VulnerabilityID: CVE-2023-4752
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4752
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in function ins_compl_get_exp in vim/vim
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1858.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4752
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4752
+    - https://github.com/vim/vim/commit/ee9166eb3b41846661a39b662dc7ebe8b5e15139
+    - https://github.com/vim/vim/commit/ee9166eb3b41846661a39b662dc7ebe8b5e15139 (v9.0.1858)
+    - https://huntr.dev/bounties/85f62dd7-ed84-4fa2-b265-8a369a318757
+    - https://huntr.dev/bounties/85f62dd7-ed84-4fa2-b265-8a369a318757/
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4752
+    - https://www.cve.org/CVERecord?id=CVE-2023-4752
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4781
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4781
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer-overflow in function vim_regsub_both in vim/vim
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1873.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4781
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4781
+    - https://github.com/vim/vim/commit/f6d28fe2c95c678cc3202cc5dc825a3fcc709e93
+    - https://github.com/vim/vim/commit/f6d28fe2c95c678cc3202cc5dc825a3fcc709e93 (v9.0.1873)
+    - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883
+    - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883/
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4781
+    - https://www.cve.org/CVERecord?id=CVE-2023-4781
+    PublishedDate: '2023-09-05T19:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-5344
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5344
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow in trunc_string()
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1969.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5344
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5344
+    - https://github.com/vim/vim/commit/3bd7fa12e146c6051490d048a4acbfba974eeb04
+    - https://huntr.dev/bounties/530cb762-899e-48d7-b50e-dad09eb775bf
+    - https://huntr.dev/bounties/530cb762-899e-48d7-b50e-dad09eb775bf/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4W665GQBN6S6ZDMYWVF4X7KMFI7AQKJL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZOXBUJLJ5VSPN3YXWN7XZA4JDYKNE7GZ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
+    - https://www.cve.org/CVERecord?id=CVE-2023-5344
+    PublishedDate: '2023-10-02T20:15:00Z'
+    LastModifiedDate: '2023-10-13T03:15:00Z'
+  - VulnerabilityID: CVE-2023-5441
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5441
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: NULL pointer dereference in screen_line() in src/screen.c
+    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 20d161ace307e28690229b68584f2d84556f8960.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 8.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5441
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5441
+    - https://github.com/vim/vim/commit/20d161ace307e28690229b68584f2d84556f8960
+    - https://github.com/vim/vim/commit/20d161ace307e28690229b68584f2d84556f8960 (v9.0.1992)
+    - https://huntr.dev/bounties/b54cbdf5-3e85-458d-bb38-9ea2c0b669f2
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5441
+    - https://www.cve.org/CVERecord?id=CVE-2023-5441
+    PublishedDate: '2023-10-05T21:15:00Z'
+    LastModifiedDate: '2023-10-10T14:51:00Z'
+  - VulnerabilityID: CVE-2023-5535
+    PkgID: vim@2:8.2.3995-1ubuntu2.11
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5535
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use after free
+    Description: Use After Free in GitHub repository vim/vim prior to v9.0.2010.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5535
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5535
+    - https://github.com/vim/vim/commit/41e6f7d6ba67b61d911f9b1d76325cd79224753d
+    - https://huntr.dev/bounties/2c2d85a7-1171-4014-bf7f-a2451745861f
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5535
+    - https://www.cve.org/CVERecord?id=CVE-2023-5535
+    PublishedDate: '2023-10-11T20:15:00Z'
+    LastModifiedDate: '2023-10-16T14:16:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim@2:8.2.3995-1ubuntu2.11
     PkgName: vim
@@ -4064,6 +4462,374 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3705
     PublishedDate: '2022-10-26T20:15:00Z'
     LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2023-4733
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4733
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free in GitHub repository vim/vim prior to 9.0.1840.
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1840.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4733
+    - https://github.com/vim/vim/commit/e1dc9a627536304bc4f738c21e909ad9fcf3974c
+    - https://github.com/vim/vim/commit/e1dc9a627536304bc4f738c21e909ad9fcf3974c (v9.0.1840)
+    - https://huntr.dev/bounties/1ce1fd8c-050a-4373-8004-b35b61590217
+    - https://huntr.dev/bounties/1ce1fd8c-050a-4373-8004-b35b61590217/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4733
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4734
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4734
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: segmentation fault in function f_fullcommand in vim/vim
+    Description: Integer Overflow or Wraparound in GitHub repository vim/vim prior to 9.0.1846.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4734
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4734
+    - https://github.com/vim/vim/commit/4c6fe2e2ea62469642ed1d80b16d39e616b25cf5
+    - https://github.com/vim/vim/commit/4c6fe2e2ea62469642ed1d80b16d39e616b25cf5 (v9.0.1846)
+    - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217
+    - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4734
+    - https://www.cve.org/CVERecord?id=CVE-2023-4734
+    PublishedDate: '2023-09-02T18:15:00Z'
+    LastModifiedDate: '2023-09-08T15:22:00Z'
+  - VulnerabilityID: CVE-2023-4735
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4735
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: OOB Write ops.c in vim/vim
+    Description: Out-of-bounds Write in GitHub repository vim/vim prior to 9.0.1847.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4735
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4735
+    - https://github.com/vim/vim/commit/889f6af37164775192e33b233a90e86fd3df0f57
+    - https://github.com/vim/vim/commit/889f6af37164775192e33b233a90e86fd3df0f57 (v9.0.1847)
+    - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51
+    - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4735
+    - https://www.cve.org/CVERecord?id=CVE-2023-4735
+    PublishedDate: '2023-09-02T18:15:00Z'
+    LastModifiedDate: '2023-09-08T15:28:00Z'
+  - VulnerabilityID: CVE-2023-4750
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4750
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free in GitHub repository vim/vim prior to 9.0.1857.
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1857.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4750
+    - https://github.com/vim/vim/commit/fc68299d436cf87453e432daa77b6d545df4d7ed
+    - https://github.com/vim/vim/commit/fc68299d436cf87453e432daa77b6d545df4d7ed (v9.0.1857)
+    - https://huntr.dev/bounties/1ab3ebdf-fe7d-4436-b483-9a586e03b0ea
+    - https://huntr.dev/bounties/1ab3ebdf-fe7d-4436-b483-9a586e03b0ea/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4750
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4751
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4751
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer-overflow in function utfc_ptr2len in vim/vim
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1331.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4751
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4751
+    - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b
+    - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b (v9.0.1331)
+    - https://huntr.dev/bounties/db7be8d6-6cb7-4ae5-9c4e-805423afa378
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4751
+    - https://www.cve.org/CVERecord?id=CVE-2023-4751
+    PublishedDate: '2023-09-03T19:15:00Z'
+    LastModifiedDate: '2023-09-08T12:58:00Z'
+  - VulnerabilityID: CVE-2023-4752
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4752
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in function ins_compl_get_exp in vim/vim
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1858.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4752
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4752
+    - https://github.com/vim/vim/commit/ee9166eb3b41846661a39b662dc7ebe8b5e15139
+    - https://github.com/vim/vim/commit/ee9166eb3b41846661a39b662dc7ebe8b5e15139 (v9.0.1858)
+    - https://huntr.dev/bounties/85f62dd7-ed84-4fa2-b265-8a369a318757
+    - https://huntr.dev/bounties/85f62dd7-ed84-4fa2-b265-8a369a318757/
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4752
+    - https://www.cve.org/CVERecord?id=CVE-2023-4752
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4781
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4781
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer-overflow in function vim_regsub_both in vim/vim
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1873.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4781
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4781
+    - https://github.com/vim/vim/commit/f6d28fe2c95c678cc3202cc5dc825a3fcc709e93
+    - https://github.com/vim/vim/commit/f6d28fe2c95c678cc3202cc5dc825a3fcc709e93 (v9.0.1873)
+    - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883
+    - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883/
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4781
+    - https://www.cve.org/CVERecord?id=CVE-2023-4781
+    PublishedDate: '2023-09-05T19:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-5344
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5344
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow in trunc_string()
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1969.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5344
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5344
+    - https://github.com/vim/vim/commit/3bd7fa12e146c6051490d048a4acbfba974eeb04
+    - https://huntr.dev/bounties/530cb762-899e-48d7-b50e-dad09eb775bf
+    - https://huntr.dev/bounties/530cb762-899e-48d7-b50e-dad09eb775bf/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4W665GQBN6S6ZDMYWVF4X7KMFI7AQKJL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZOXBUJLJ5VSPN3YXWN7XZA4JDYKNE7GZ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
+    - https://www.cve.org/CVERecord?id=CVE-2023-5344
+    PublishedDate: '2023-10-02T20:15:00Z'
+    LastModifiedDate: '2023-10-13T03:15:00Z'
+  - VulnerabilityID: CVE-2023-5441
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5441
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: NULL pointer dereference in screen_line() in src/screen.c
+    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 20d161ace307e28690229b68584f2d84556f8960.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 8.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5441
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5441
+    - https://github.com/vim/vim/commit/20d161ace307e28690229b68584f2d84556f8960
+    - https://github.com/vim/vim/commit/20d161ace307e28690229b68584f2d84556f8960 (v9.0.1992)
+    - https://huntr.dev/bounties/b54cbdf5-3e85-458d-bb38-9ea2c0b669f2
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5441
+    - https://www.cve.org/CVERecord?id=CVE-2023-5441
+    PublishedDate: '2023-10-05T21:15:00Z'
+    LastModifiedDate: '2023-10-10T14:51:00Z'
+  - VulnerabilityID: CVE-2023-5535
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5535
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use after free
+    Description: Use After Free in GitHub repository vim/vim prior to v9.0.2010.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5535
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5535
+    - https://github.com/vim/vim/commit/41e6f7d6ba67b61d911f9b1d76325cd79224753d
+    - https://huntr.dev/bounties/2c2d85a7-1171-4014-bf7f-a2451745861f
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5535
+    - https://www.cve.org/CVERecord?id=CVE-2023-5535
+    PublishedDate: '2023-10-11T20:15:00Z'
+    LastModifiedDate: '2023-10-16T14:16:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim-common@2:8.2.3995-1ubuntu2.11
     PkgName: vim-common
@@ -4638,6 +5404,374 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3705
     PublishedDate: '2022-10-26T20:15:00Z'
     LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2023-4733
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4733
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free in GitHub repository vim/vim prior to 9.0.1840.
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1840.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4733
+    - https://github.com/vim/vim/commit/e1dc9a627536304bc4f738c21e909ad9fcf3974c
+    - https://github.com/vim/vim/commit/e1dc9a627536304bc4f738c21e909ad9fcf3974c (v9.0.1840)
+    - https://huntr.dev/bounties/1ce1fd8c-050a-4373-8004-b35b61590217
+    - https://huntr.dev/bounties/1ce1fd8c-050a-4373-8004-b35b61590217/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4733
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4734
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4734
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: segmentation fault in function f_fullcommand in vim/vim
+    Description: Integer Overflow or Wraparound in GitHub repository vim/vim prior to 9.0.1846.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4734
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4734
+    - https://github.com/vim/vim/commit/4c6fe2e2ea62469642ed1d80b16d39e616b25cf5
+    - https://github.com/vim/vim/commit/4c6fe2e2ea62469642ed1d80b16d39e616b25cf5 (v9.0.1846)
+    - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217
+    - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4734
+    - https://www.cve.org/CVERecord?id=CVE-2023-4734
+    PublishedDate: '2023-09-02T18:15:00Z'
+    LastModifiedDate: '2023-09-08T15:22:00Z'
+  - VulnerabilityID: CVE-2023-4735
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4735
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: OOB Write ops.c in vim/vim
+    Description: Out-of-bounds Write in GitHub repository vim/vim prior to 9.0.1847.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4735
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4735
+    - https://github.com/vim/vim/commit/889f6af37164775192e33b233a90e86fd3df0f57
+    - https://github.com/vim/vim/commit/889f6af37164775192e33b233a90e86fd3df0f57 (v9.0.1847)
+    - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51
+    - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4735
+    - https://www.cve.org/CVERecord?id=CVE-2023-4735
+    PublishedDate: '2023-09-02T18:15:00Z'
+    LastModifiedDate: '2023-09-08T15:28:00Z'
+  - VulnerabilityID: CVE-2023-4750
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4750
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free in GitHub repository vim/vim prior to 9.0.1857.
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1857.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4750
+    - https://github.com/vim/vim/commit/fc68299d436cf87453e432daa77b6d545df4d7ed
+    - https://github.com/vim/vim/commit/fc68299d436cf87453e432daa77b6d545df4d7ed (v9.0.1857)
+    - https://huntr.dev/bounties/1ab3ebdf-fe7d-4436-b483-9a586e03b0ea
+    - https://huntr.dev/bounties/1ab3ebdf-fe7d-4436-b483-9a586e03b0ea/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4750
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4751
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4751
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer-overflow in function utfc_ptr2len in vim/vim
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1331.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4751
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4751
+    - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b
+    - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b (v9.0.1331)
+    - https://huntr.dev/bounties/db7be8d6-6cb7-4ae5-9c4e-805423afa378
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4751
+    - https://www.cve.org/CVERecord?id=CVE-2023-4751
+    PublishedDate: '2023-09-03T19:15:00Z'
+    LastModifiedDate: '2023-09-08T12:58:00Z'
+  - VulnerabilityID: CVE-2023-4752
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4752
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in function ins_compl_get_exp in vim/vim
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1858.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4752
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4752
+    - https://github.com/vim/vim/commit/ee9166eb3b41846661a39b662dc7ebe8b5e15139
+    - https://github.com/vim/vim/commit/ee9166eb3b41846661a39b662dc7ebe8b5e15139 (v9.0.1858)
+    - https://huntr.dev/bounties/85f62dd7-ed84-4fa2-b265-8a369a318757
+    - https://huntr.dev/bounties/85f62dd7-ed84-4fa2-b265-8a369a318757/
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4752
+    - https://www.cve.org/CVERecord?id=CVE-2023-4752
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4781
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4781
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer-overflow in function vim_regsub_both in vim/vim
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1873.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4781
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4781
+    - https://github.com/vim/vim/commit/f6d28fe2c95c678cc3202cc5dc825a3fcc709e93
+    - https://github.com/vim/vim/commit/f6d28fe2c95c678cc3202cc5dc825a3fcc709e93 (v9.0.1873)
+    - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883
+    - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883/
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4781
+    - https://www.cve.org/CVERecord?id=CVE-2023-4781
+    PublishedDate: '2023-09-05T19:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-5344
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5344
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow in trunc_string()
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1969.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5344
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5344
+    - https://github.com/vim/vim/commit/3bd7fa12e146c6051490d048a4acbfba974eeb04
+    - https://huntr.dev/bounties/530cb762-899e-48d7-b50e-dad09eb775bf
+    - https://huntr.dev/bounties/530cb762-899e-48d7-b50e-dad09eb775bf/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4W665GQBN6S6ZDMYWVF4X7KMFI7AQKJL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZOXBUJLJ5VSPN3YXWN7XZA4JDYKNE7GZ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
+    - https://www.cve.org/CVERecord?id=CVE-2023-5344
+    PublishedDate: '2023-10-02T20:15:00Z'
+    LastModifiedDate: '2023-10-13T03:15:00Z'
+  - VulnerabilityID: CVE-2023-5441
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5441
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: NULL pointer dereference in screen_line() in src/screen.c
+    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 20d161ace307e28690229b68584f2d84556f8960.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 8.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5441
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5441
+    - https://github.com/vim/vim/commit/20d161ace307e28690229b68584f2d84556f8960
+    - https://github.com/vim/vim/commit/20d161ace307e28690229b68584f2d84556f8960 (v9.0.1992)
+    - https://huntr.dev/bounties/b54cbdf5-3e85-458d-bb38-9ea2c0b669f2
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5441
+    - https://www.cve.org/CVERecord?id=CVE-2023-5441
+    PublishedDate: '2023-10-05T21:15:00Z'
+    LastModifiedDate: '2023-10-10T14:51:00Z'
+  - VulnerabilityID: CVE-2023-5535
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5535
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use after free
+    Description: Use After Free in GitHub repository vim/vim prior to v9.0.2010.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5535
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5535
+    - https://github.com/vim/vim/commit/41e6f7d6ba67b61d911f9b1d76325cd79224753d
+    - https://huntr.dev/bounties/2c2d85a7-1171-4014-bf7f-a2451745861f
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5535
+    - https://www.cve.org/CVERecord?id=CVE-2023-5535
+    PublishedDate: '2023-10-11T20:15:00Z'
+    LastModifiedDate: '2023-10-16T14:16:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
     PkgName: vim-runtime
@@ -5250,6 +6384,374 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3705
     PublishedDate: '2022-10-26T20:15:00Z'
     LastModifiedDate: '2023-05-03T12:16:00Z'
+  - VulnerabilityID: CVE-2023-4733
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4733
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free in GitHub repository vim/vim prior to 9.0.1840.
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1840.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4733
+    - https://github.com/vim/vim/commit/e1dc9a627536304bc4f738c21e909ad9fcf3974c
+    - https://github.com/vim/vim/commit/e1dc9a627536304bc4f738c21e909ad9fcf3974c (v9.0.1840)
+    - https://huntr.dev/bounties/1ce1fd8c-050a-4373-8004-b35b61590217
+    - https://huntr.dev/bounties/1ce1fd8c-050a-4373-8004-b35b61590217/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4733
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4734
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4734
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: segmentation fault in function f_fullcommand in vim/vim
+    Description: Integer Overflow or Wraparound in GitHub repository vim/vim prior to 9.0.1846.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4734
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4734
+    - https://github.com/vim/vim/commit/4c6fe2e2ea62469642ed1d80b16d39e616b25cf5
+    - https://github.com/vim/vim/commit/4c6fe2e2ea62469642ed1d80b16d39e616b25cf5 (v9.0.1846)
+    - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217
+    - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4734
+    - https://www.cve.org/CVERecord?id=CVE-2023-4734
+    PublishedDate: '2023-09-02T18:15:00Z'
+    LastModifiedDate: '2023-09-08T15:22:00Z'
+  - VulnerabilityID: CVE-2023-4735
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4735
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: OOB Write ops.c in vim/vim
+    Description: Out-of-bounds Write in GitHub repository vim/vim prior to 9.0.1847.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4735
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4735
+    - https://github.com/vim/vim/commit/889f6af37164775192e33b233a90e86fd3df0f57
+    - https://github.com/vim/vim/commit/889f6af37164775192e33b233a90e86fd3df0f57 (v9.0.1847)
+    - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51
+    - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4735
+    - https://www.cve.org/CVERecord?id=CVE-2023-4735
+    PublishedDate: '2023-09-02T18:15:00Z'
+    LastModifiedDate: '2023-09-08T15:28:00Z'
+  - VulnerabilityID: CVE-2023-4750
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4750
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Use After Free in GitHub repository vim/vim prior to 9.0.1857.
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1857.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4750
+    - https://github.com/vim/vim/commit/fc68299d436cf87453e432daa77b6d545df4d7ed
+    - https://github.com/vim/vim/commit/fc68299d436cf87453e432daa77b6d545df4d7ed (v9.0.1857)
+    - https://huntr.dev/bounties/1ab3ebdf-fe7d-4436-b483-9a586e03b0ea
+    - https://huntr.dev/bounties/1ab3ebdf-fe7d-4436-b483-9a586e03b0ea/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4750
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4751
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4751
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer-overflow in function utfc_ptr2len in vim/vim
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1331.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4751
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4751
+    - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b
+    - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b (v9.0.1331)
+    - https://huntr.dev/bounties/db7be8d6-6cb7-4ae5-9c4e-805423afa378
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4751
+    - https://www.cve.org/CVERecord?id=CVE-2023-4751
+    PublishedDate: '2023-09-03T19:15:00Z'
+    LastModifiedDate: '2023-09-08T12:58:00Z'
+  - VulnerabilityID: CVE-2023-4752
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4752
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use-after-free in function ins_compl_get_exp in vim/vim
+    Description: Use After Free in GitHub repository vim/vim prior to 9.0.1858.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4752
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4752
+    - https://github.com/vim/vim/commit/ee9166eb3b41846661a39b662dc7ebe8b5e15139
+    - https://github.com/vim/vim/commit/ee9166eb3b41846661a39b662dc7ebe8b5e15139 (v9.0.1858)
+    - https://huntr.dev/bounties/85f62dd7-ed84-4fa2-b265-8a369a318757
+    - https://huntr.dev/bounties/85f62dd7-ed84-4fa2-b265-8a369a318757/
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/I56ITJAFMFAQ2G3BMGTCGM3GS62V2DTR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4752
+    - https://www.cve.org/CVERecord?id=CVE-2023-4752
+    PublishedDate: '2023-09-04T14:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-4781
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4781
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: heap-buffer-overflow in function vim_regsub_both in vim/vim
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1873.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-4781
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4781
+    - https://github.com/vim/vim/commit/f6d28fe2c95c678cc3202cc5dc825a3fcc709e93
+    - https://github.com/vim/vim/commit/f6d28fe2c95c678cc3202cc5dc825a3fcc709e93 (v9.0.1873)
+    - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883
+    - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883/
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4781
+    - https://www.cve.org/CVERecord?id=CVE-2023-4781
+    PublishedDate: '2023-09-05T19:15:00Z'
+    LastModifiedDate: '2023-10-16T19:13:00Z'
+  - VulnerabilityID: CVE-2023-5344
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5344
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Heap-based Buffer Overflow in trunc_string()
+    Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1969.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-122
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5344
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5344
+    - https://github.com/vim/vim/commit/3bd7fa12e146c6051490d048a4acbfba974eeb04
+    - https://huntr.dev/bounties/530cb762-899e-48d7-b50e-dad09eb775bf
+    - https://huntr.dev/bounties/530cb762-899e-48d7-b50e-dad09eb775bf/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4W665GQBN6S6ZDMYWVF4X7KMFI7AQKJL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZOXBUJLJ5VSPN3YXWN7XZA4JDYKNE7GZ/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
+    - https://www.cve.org/CVERecord?id=CVE-2023-5344
+    PublishedDate: '2023-10-02T20:15:00Z'
+    LastModifiedDate: '2023-10-13T03:15:00Z'
+  - VulnerabilityID: CVE-2023-5441
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5441
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: NULL pointer dereference in screen_line() in src/screen.c
+    Description: NULL Pointer Dereference in GitHub repository vim/vim prior to 20d161ace307e28690229b68584f2d84556f8960.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H
+        V3Score: 8.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5441
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5441
+    - https://github.com/vim/vim/commit/20d161ace307e28690229b68584f2d84556f8960
+    - https://github.com/vim/vim/commit/20d161ace307e28690229b68584f2d84556f8960 (v9.0.1992)
+    - https://huntr.dev/bounties/b54cbdf5-3e85-458d-bb38-9ea2c0b669f2
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5441
+    - https://www.cve.org/CVERecord?id=CVE-2023-5441
+    PublishedDate: '2023-10-05T21:15:00Z'
+    LastModifiedDate: '2023-10-10T14:51:00Z'
+  - VulnerabilityID: CVE-2023-5535
+    PkgID: xxd@2:8.2.3995-1ubuntu2.11
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.11
+    Status: affected
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5535
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: use after free
+    Description: Use After Free in GitHub repository vim/vim prior to v9.0.2010.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-5535
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5535
+    - https://github.com/vim/vim/commit/41e6f7d6ba67b61d911f9b1d76325cd79224753d
+    - https://huntr.dev/bounties/2c2d85a7-1171-4014-bf7f-a2451745861f
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5535
+    - https://www.cve.org/CVERecord?id=CVE-2023-5535
+    PublishedDate: '2023-10-11T20:15:00Z'
+    LastModifiedDate: '2023-10-16T14:16:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: xxd@2:8.2.3995-1ubuntu2.11
     PkgName: xxd
@@ -5764,7 +7266,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-41900
     - https://www.debian.org/security/2023/dsa-5507
     PublishedDate: '2023-09-15T21:15:00Z'
-    LastModifiedDate: '2023-09-29T12:15:00Z'
+    LastModifiedDate: '2023-10-16T19:20:00Z'
   - VulnerabilityID: CVE-2023-36479
     PkgName: org.eclipse.jetty:jetty-util
     PkgPath: opt/oaf/openaf.jar
@@ -5809,7 +7311,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-36479
     - https://www.debian.org/security/2023/dsa-5507
     PublishedDate: '2023-09-15T19:15:00Z'
-    LastModifiedDate: '2023-09-30T15:15:00Z'
+    LastModifiedDate: '2023-10-16T19:20:00Z'
   - VulnerabilityID: CVE-2023-40167
     PkgName: org.eclipse.jetty:jetty-util
     PkgPath: opt/oaf/openaf.jar
@@ -5886,7 +7388,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-41900
     - https://www.debian.org/security/2023/dsa-5507
     PublishedDate: '2023-09-15T21:15:00Z'
-    LastModifiedDate: '2023-09-29T12:15:00Z'
+    LastModifiedDate: '2023-10-16T19:20:00Z'
   - VulnerabilityID: CVE-2023-4759
     PkgName: org.eclipse.jgit:org.eclipse.jgit
     PkgPath: opt/oaf/openaf.jar
@@ -5993,9 +7495,14 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
+    - https://access.redhat.com/errata/RHSA-2023:5738
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2243296
+    - https://errata.almalinux.org/9/ALSA-2023-5738.html
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -6077,6 +7584,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/13/4
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - https://access.redhat.com/errata/RHSA-2023:5765
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -6087,6 +7595,7 @@
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -6097,6 +7606,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-5765.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -6156,9 +7666,12 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-5713.html
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -6194,7 +7707,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T19:15:00Z'
+    LastModifiedDate: '2023-10-17T01:15:00Z'
 - Target: tmp/tmp.ovZC4DjtD3/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -6222,9 +7735,14 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
+    - https://access.redhat.com/errata/RHSA-2023:5738
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2243296
+    - https://errata.almalinux.org/9/ALSA-2023-5738.html
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -6306,6 +7824,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/13/4
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - https://access.redhat.com/errata/RHSA-2023:5765
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -6316,6 +7835,7 @@
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -6326,6 +7846,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-5765.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -6385,9 +7906,12 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-5713.html
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -6423,7 +7947,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T19:15:00Z'
+    LastModifiedDate: '2023-10-17T01:15:00Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -6523,9 +8047,14 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
+    - https://access.redhat.com/errata/RHSA-2023:5738
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2243296
+    - https://errata.almalinux.org/9/ALSA-2023-5738.html
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -6607,6 +8136,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/13/4
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - https://access.redhat.com/errata/RHSA-2023:5765
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -6617,6 +8147,7 @@
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -6627,6 +8158,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-5765.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -6686,9 +8218,12 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-5713.html
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -6724,7 +8259,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T19:15:00Z'
+    LastModifiedDate: '2023-10-17T01:15:00Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -6983,9 +8518,14 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
+    - https://access.redhat.com/errata/RHSA-2023:5738
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2243296
+    - https://errata.almalinux.org/9/ALSA-2023-5738.html
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -7067,6 +8607,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/13/4
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - https://access.redhat.com/errata/RHSA-2023:5765
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -7077,6 +8618,7 @@
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -7087,6 +8629,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-5765.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -7146,9 +8689,12 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-5713.html
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -7184,7 +8730,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T19:15:00Z'
+    LastModifiedDate: '2023-10-17T01:15:00Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -7212,9 +8758,14 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
+    - https://access.redhat.com/errata/RHSA-2023:5738
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2243296
+    - https://errata.almalinux.org/9/ALSA-2023-5738.html
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -7258,6 +8809,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/13/4
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - https://access.redhat.com/errata/RHSA-2023:5765
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -7268,6 +8820,7 @@
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -7278,6 +8831,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-5765.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -7337,9 +8891,12 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-5713.html
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -7375,7 +8932,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T19:15:00Z'
+    LastModifiedDate: '2023-10-17T01:15:00Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -7403,9 +8960,14 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
+    - https://access.redhat.com/errata/RHSA-2023:5738
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2243296
+    - https://errata.almalinux.org/9/ALSA-2023-5738.html
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -7449,6 +9011,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/13/4
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - https://access.redhat.com/errata/RHSA-2023:5765
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -7459,6 +9022,7 @@
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -7469,6 +9033,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-5765.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -7528,9 +9093,12 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-5713.html
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -7566,7 +9134,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T19:15:00Z'
+    LastModifiedDate: '2023-10-17T01:15:00Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -7594,9 +9162,14 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
+    - https://access.redhat.com/errata/RHSA-2023:5738
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2243296
+    - https://errata.almalinux.org/9/ALSA-2023-5738.html
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -7678,6 +9251,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2023/10/13/4
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - https://access.redhat.com/errata/RHSA-2023:5765
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -7688,6 +9262,7 @@
     - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -7698,6 +9273,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-5765.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -7757,9 +9333,12 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://istio.io/latest/news/security/istio-security-2023-004/
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-5713.html
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
@@ -7795,69 +9374,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-15T19:15:00Z'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
-      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
-      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
-      CreatedBy: 'COPY / / # buildkit'
+    LastModifiedDate: '2023-10-17T01:15:00Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -7916,6 +9433,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
+      DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:236262a33eb39b66a7f2d43d6a51ecc2b588e7f32d81d8024cfcc7e107fff371
       DiffID: sha256:aaa074b194a7109805d7dc561fae14cc1b9b54ffdd6090848193ec40eb8b5880
