@@ -7406,6 +7406,7 @@
     - https://github.com/apache/commons-compress/commit/aae38bfb820159ae7a0b792e779571f6a46b3889
     - https://lists.apache.org/thread/5xwcyr600mn074vgxq92tjssrchmc93c
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42503
+    - https://security.netapp.com/advisory/ntap-20231020-0003/
     PublishedDate: '2023-09-14T08:15:00Z'
     LastModifiedDate: '2023-09-19T13:43:00Z'
   - VulnerabilityID: CVE-2023-41900
@@ -7768,6 +7769,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - https://access.redhat.com/errata/RHSA-2023:5867
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
@@ -7857,7 +7859,9 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
@@ -7894,7 +7898,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-19T03:15:00Z'
+    LastModifiedDate: '2023-10-20T03:15:00Z'
 - Target: tmp/tmp.ovZC4DjtD3/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -8017,6 +8021,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - https://access.redhat.com/errata/RHSA-2023:5867
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
@@ -8106,7 +8111,9 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
@@ -8143,7 +8150,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-19T03:15:00Z'
+    LastModifiedDate: '2023-10-20T03:15:00Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -8344,6 +8351,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - https://access.redhat.com/errata/RHSA-2023:5867
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
@@ -8433,7 +8441,9 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
@@ -8470,7 +8480,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-19T03:15:00Z'
+    LastModifiedDate: '2023-10-20T03:15:00Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -8824,6 +8834,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - https://access.redhat.com/errata/RHSA-2023:5867
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
@@ -8913,7 +8924,9 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
@@ -8950,7 +8963,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-19T03:15:00Z'
+    LastModifiedDate: '2023-10-20T03:15:00Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -9035,6 +9048,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - https://access.redhat.com/errata/RHSA-2023:5867
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
@@ -9124,7 +9138,9 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
@@ -9161,7 +9177,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-19T03:15:00Z'
+    LastModifiedDate: '2023-10-20T03:15:00Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -9246,6 +9262,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - https://access.redhat.com/errata/RHSA-2023:5867
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
@@ -9335,7 +9352,9 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
@@ -9372,7 +9391,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-19T03:15:00Z'
+    LastModifiedDate: '2023-10-20T03:15:00Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -9495,6 +9514,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/13/9
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - https://access.redhat.com/errata/RHSA-2023:5867
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
@@ -9584,7 +9604,9 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
     - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
     - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
@@ -9621,7 +9643,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-19T03:15:00Z'
+    LastModifiedDate: '2023-10-20T03:15:00Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
