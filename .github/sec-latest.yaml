@@ -1034,7 +1034,7 @@
     - https://sourceware.org/pipermail/libc-alpha/2023-September/151691.html
     - https://www.cve.org/CVERecord?id=CVE-2023-5156
     PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-10-04T00:15:00Z'
+    LastModifiedDate: '2023-10-20T20:28:00Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.3
     PkgName: libc-bin
@@ -1177,7 +1177,7 @@
     - https://sourceware.org/pipermail/libc-alpha/2023-September/151691.html
     - https://www.cve.org/CVERecord?id=CVE-2023-5156
     PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-10-04T00:15:00Z'
+    LastModifiedDate: '2023-10-20T20:28:00Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.3
     PkgName: libc6
@@ -4017,7 +4017,7 @@
     Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1969.
     Severity: MEDIUM
     CweIDs:
-    - CWE-122
+    - CWE-787
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -4036,7 +4036,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
     - https://www.cve.org/CVERecord?id=CVE-2023-5344
     PublishedDate: '2023-10-02T20:15:00Z'
-    LastModifiedDate: '2023-10-13T03:15:00Z'
+    LastModifiedDate: '2023-10-20T20:16:00Z'
   - VulnerabilityID: CVE-2023-5441
     PkgID: vim@2:8.2.3995-1ubuntu2.11
     PkgName: vim
@@ -4959,7 +4959,7 @@
     Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1969.
     Severity: MEDIUM
     CweIDs:
-    - CWE-122
+    - CWE-787
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -4978,7 +4978,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
     - https://www.cve.org/CVERecord?id=CVE-2023-5344
     PublishedDate: '2023-10-02T20:15:00Z'
-    LastModifiedDate: '2023-10-13T03:15:00Z'
+    LastModifiedDate: '2023-10-20T20:16:00Z'
   - VulnerabilityID: CVE-2023-5441
     PkgID: vim-common@2:8.2.3995-1ubuntu2.11
     PkgName: vim-common
@@ -5901,7 +5901,7 @@
     Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1969.
     Severity: MEDIUM
     CweIDs:
-    - CWE-122
+    - CWE-787
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -5920,7 +5920,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
     - https://www.cve.org/CVERecord?id=CVE-2023-5344
     PublishedDate: '2023-10-02T20:15:00Z'
-    LastModifiedDate: '2023-10-13T03:15:00Z'
+    LastModifiedDate: '2023-10-20T20:16:00Z'
   - VulnerabilityID: CVE-2023-5441
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.11
     PkgName: vim-runtime
@@ -6881,7 +6881,7 @@
     Description: Heap-based Buffer Overflow in GitHub repository vim/vim prior to 9.0.1969.
     Severity: MEDIUM
     CweIDs:
-    - CWE-122
+    - CWE-787
     CVSS:
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -6900,7 +6900,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
     - https://www.cve.org/CVERecord?id=CVE-2023-5344
     PublishedDate: '2023-10-02T20:15:00Z'
-    LastModifiedDate: '2023-10-13T03:15:00Z'
+    LastModifiedDate: '2023-10-20T20:16:00Z'
   - VulnerabilityID: CVE-2023-5441
     PkgID: xxd@2:8.2.3995-1ubuntu2.11
     PkgName: xxd
@@ -7408,7 +7408,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-42503
     - https://security.netapp.com/advisory/ntap-20231020-0003/
     PublishedDate: '2023-09-14T08:15:00Z'
-    LastModifiedDate: '2023-09-19T13:43:00Z'
+    LastModifiedDate: '2023-10-20T15:15:00Z'
   - VulnerabilityID: CVE-2023-41900
     PkgName: org.eclipse.jetty:jetty-io
     PkgPath: opt/oaf/openaf.jar
@@ -7770,7 +7770,8 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
-    - https://access.redhat.com/errata/RHSA-2023:5867
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:5929
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -7782,7 +7783,6 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -7793,7 +7793,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-5867.html
+    - https://errata.almalinux.org/9/ALSA-2023-5929.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -7898,7 +7898,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T03:15:00Z'
+    LastModifiedDate: '2023-10-20T21:15:00Z'
 - Target: tmp/tmp.ovZC4DjtD3/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -8022,7 +8022,8 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
-    - https://access.redhat.com/errata/RHSA-2023:5867
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:5929
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -8034,7 +8035,6 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -8045,7 +8045,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-5867.html
+    - https://errata.almalinux.org/9/ALSA-2023-5929.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -8150,7 +8150,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T03:15:00Z'
+    LastModifiedDate: '2023-10-20T21:15:00Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -8352,7 +8352,8 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
-    - https://access.redhat.com/errata/RHSA-2023:5867
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:5929
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -8364,7 +8365,6 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -8375,7 +8375,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-5867.html
+    - https://errata.almalinux.org/9/ALSA-2023-5929.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -8480,7 +8480,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T03:15:00Z'
+    LastModifiedDate: '2023-10-20T21:15:00Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -8835,7 +8835,8 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
-    - https://access.redhat.com/errata/RHSA-2023:5867
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:5929
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -8847,7 +8848,6 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -8858,7 +8858,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-5867.html
+    - https://errata.almalinux.org/9/ALSA-2023-5929.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -8963,7 +8963,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T03:15:00Z'
+    LastModifiedDate: '2023-10-20T21:15:00Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -9049,7 +9049,8 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
-    - https://access.redhat.com/errata/RHSA-2023:5867
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:5929
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -9061,7 +9062,6 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -9072,7 +9072,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-5867.html
+    - https://errata.almalinux.org/9/ALSA-2023-5929.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -9177,7 +9177,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T03:15:00Z'
+    LastModifiedDate: '2023-10-20T21:15:00Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -9263,7 +9263,8 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
-    - https://access.redhat.com/errata/RHSA-2023:5867
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:5929
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -9275,7 +9276,6 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -9286,7 +9286,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-5867.html
+    - https://errata.almalinux.org/9/ALSA-2023-5929.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -9391,7 +9391,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T03:15:00Z'
+    LastModifiedDate: '2023-10-20T21:15:00Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -9515,7 +9515,8 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/4
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
-    - https://access.redhat.com/errata/RHSA-2023:5867
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:5929
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -9527,7 +9528,6 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/2243296
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -9538,7 +9538,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-5867.html
+    - https://errata.almalinux.org/9/ALSA-2023-5929.html
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -9643,7 +9643,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T03:15:00Z'
+    LastModifiedDate: '2023-10-20T21:15:00Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
