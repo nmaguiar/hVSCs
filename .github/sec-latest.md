@@ -1205,7 +1205,7 @@
 │                        │       │                  │       23-September/151691.html 
 │                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
 │                        │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-20T20:28:00Z 
 │                        ├ [25]  ╭ VulnerabilityID : CVE-2016-20013 
 │                        │       ├ PkgID           : libc-bin@2.35-0ubuntu3.3 
 │                        │       ├ PkgName         : libc-bin 
@@ -1385,7 +1385,7 @@
 │                        │       │                  │       23-September/151691.html 
 │                        │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-5156 
 │                        │       ├ PublishedDate   : 2023-09-25T16:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-04T00:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-20T20:28:00Z 
 │                        ├ [28]  ╭ VulnerabilityID : CVE-2016-20013 
 │                        │       ├ PkgID           : libc6@2.35-0ubuntu3.3 
 │                        │       ├ PkgName         : libc6 
@@ -4814,7 +4814,7 @@
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 9.0.1969. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ CweIDs           ─ [0]: CWE-122 
+│                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │       │                  │        │           C:N/I:N/A:H 
 │                        │       │                  │        ╰ V3Score : 7.5 
@@ -4839,7 +4839,7 @@
 │                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5344 
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5344 
 │                        │       ├ PublishedDate   : 2023-10-02T20:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-13T03:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-20T20:16:00Z 
 │                        ├ [97]  ╭ VulnerabilityID : CVE-2023-5441 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : vim 
@@ -5900,7 +5900,7 @@
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 9.0.1969. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ CweIDs           ─ [0]: CWE-122 
+│                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │       │                  │        │           C:N/I:N/A:H 
 │                        │       │                  │        ╰ V3Score : 7.5 
@@ -5925,7 +5925,7 @@
 │                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5344 
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5344 
 │                        │       ├ PublishedDate   : 2023-10-02T20:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-13T03:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-20T20:16:00Z 
 │                        ├ [121] ╭ VulnerabilityID : CVE-2023-5441 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : vim-common 
@@ -6986,7 +6986,7 @@
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 9.0.1969. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ CweIDs           ─ [0]: CWE-122 
+│                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │       │                  │        │           C:N/I:N/A:H 
 │                        │       │                  │        ╰ V3Score : 7.5 
@@ -7011,7 +7011,7 @@
 │                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5344 
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5344 
 │                        │       ├ PublishedDate   : 2023-10-02T20:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-13T03:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-20T20:16:00Z 
 │                        ├ [145] ╭ VulnerabilityID : CVE-2023-5441 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : vim-runtime 
@@ -8113,7 +8113,7 @@
 │                        │       ├ Description     : Heap-based Buffer Overflow in GitHub repository
 │                        │       │                   vim/vim prior to 9.0.1969. 
 │                        │       ├ Severity        : MEDIUM 
-│                        │       ├ CweIDs           ─ [0]: CWE-122 
+│                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │       │                  │        │           C:N/I:N/A:H 
 │                        │       │                  │        ╰ V3Score : 7.5 
@@ -8138,7 +8138,7 @@
 │                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5344 
 │                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5344 
 │                        │       ├ PublishedDate   : 2023-10-02T20:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-13T03:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-20T20:16:00Z 
 │                        ├ [170] ╭ VulnerabilityID : CVE-2023-5441 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : xxd 
@@ -8751,7 +8751,7 @@
 │                        │     │                  ╰ [5]: https://security.netapp.com/advisory/ntap-2023102
 │                        │     │                         0-0003/ 
 │                        │     ├ PublishedDate   : 2023-09-14T08:15:00Z 
-│                        │     ╰ LastModifiedDate: 2023-09-19T13:43:00Z 
+│                        │     ╰ LastModifiedDate: 2023-10-20T15:15:00Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2023-41900 
 │                        │     ├ PkgName         : org.eclipse.jetty:jetty-io 
 │                        │     ├ PkgPath         : opt/oaf/openaf.jar 
@@ -9257,29 +9257,30 @@
 │                              │                  │        /10/18/8 
 │                              │                  ├ [4]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/19/6 
-│                              │                  ├ [5]  : https://access.redhat.com/errata/RHSA-2023:5867 
-│                              │                  ├ [6]  : https://access.redhat.com/security/cve/CVE-2023
+│                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
+│                              │                  │        /10/20/8 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
-│                              │                  ├ [7]  : https://access.redhat.com/security/cve/cve-2023
+│                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
 │                              │                  │        -44487 
-│                              │                  ├ [8]  : https://arstechnica.com/security/2023/10/how-dd
+│                              │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-dd
 │                              │                  │        osers-used-the-http-2-protocol-to-deliver-attacks-of
 │                              │                  │        -unprecedented-size/ 
-│                              │                  ├ [9]  : https://aws.amazon.com/security/security-bullet
+│                              │                  ├ [10] : https://aws.amazon.com/security/security-bullet
 │                              │                  │        ins/AWS-2023-011/ 
-│                              │                  ├ [10] : https://blog.cloudflare.com/technical-breakdown
+│                              │                  ├ [11] : https://blog.cloudflare.com/technical-breakdown
 │                              │                  │        -http2-rapid-reset-ddos-attack/ 
-│                              │                  ├ [11] : https://blog.cloudflare.com/zero-day-rapid-rese
+│                              │                  ├ [12] : https://blog.cloudflare.com/zero-day-rapid-rese
 │                              │                  │        t-http2-record-breaking-ddos-attack/ 
-│                              │                  ├ [12] : https://blog.litespeedtech.com/2023/10/11/rapid
+│                              │                  ├ [13] : https://blog.litespeedtech.com/2023/10/11/rapid
 │                              │                  │        -reset-http-2-vulnerablilty/ 
-│                              │                  ├ [13] : https://blog.qualys.com/vulnerabilities-threat-
+│                              │                  ├ [14] : https://blog.qualys.com/vulnerabilities-threat-
 │                              │                  │        research/2023/10/10/cve-2023-44487-http-2-rapid-rese
 │                              │                  │        t-attack 
-│                              │                  ├ [14] : https://blog.vespa.ai/cve-2023-44487/ 
-│                              │                  ├ [15] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
-│                              │                  ├ [16] : https://bugzilla.redhat.com/2242803 
-│                              │                  ├ [17] : https://bugzilla.redhat.com/2243296 
+│                              │                  ├ [15] : https://blog.vespa.ai/cve-2023-44487/ 
+│                              │                  ├ [16] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
+│                              │                  ├ [17] : https://bugzilla.redhat.com/2242803 
 │                              │                  ├ [18] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
 │                              │                  ├ [19] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
 │                              │                  ├ [20] : https://cgit.freebsd.org/ports/commit/?id=c64c3
@@ -9299,7 +9300,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -9467,7 +9468,7 @@
 │                              │                  ╰ [131]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-20T03:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
 ├ [3]  ╭ Target         : tmp/tmp.ovZC4DjtD3/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9620,29 +9621,30 @@
 │                              │                  │        /10/18/8 
 │                              │                  ├ [4]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/19/6 
-│                              │                  ├ [5]  : https://access.redhat.com/errata/RHSA-2023:5867 
-│                              │                  ├ [6]  : https://access.redhat.com/security/cve/CVE-2023
+│                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
+│                              │                  │        /10/20/8 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
-│                              │                  ├ [7]  : https://access.redhat.com/security/cve/cve-2023
+│                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
 │                              │                  │        -44487 
-│                              │                  ├ [8]  : https://arstechnica.com/security/2023/10/how-dd
+│                              │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-dd
 │                              │                  │        osers-used-the-http-2-protocol-to-deliver-attacks-of
 │                              │                  │        -unprecedented-size/ 
-│                              │                  ├ [9]  : https://aws.amazon.com/security/security-bullet
+│                              │                  ├ [10] : https://aws.amazon.com/security/security-bullet
 │                              │                  │        ins/AWS-2023-011/ 
-│                              │                  ├ [10] : https://blog.cloudflare.com/technical-breakdown
+│                              │                  ├ [11] : https://blog.cloudflare.com/technical-breakdown
 │                              │                  │        -http2-rapid-reset-ddos-attack/ 
-│                              │                  ├ [11] : https://blog.cloudflare.com/zero-day-rapid-rese
+│                              │                  ├ [12] : https://blog.cloudflare.com/zero-day-rapid-rese
 │                              │                  │        t-http2-record-breaking-ddos-attack/ 
-│                              │                  ├ [12] : https://blog.litespeedtech.com/2023/10/11/rapid
+│                              │                  ├ [13] : https://blog.litespeedtech.com/2023/10/11/rapid
 │                              │                  │        -reset-http-2-vulnerablilty/ 
-│                              │                  ├ [13] : https://blog.qualys.com/vulnerabilities-threat-
+│                              │                  ├ [14] : https://blog.qualys.com/vulnerabilities-threat-
 │                              │                  │        research/2023/10/10/cve-2023-44487-http-2-rapid-rese
 │                              │                  │        t-attack 
-│                              │                  ├ [14] : https://blog.vespa.ai/cve-2023-44487/ 
-│                              │                  ├ [15] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
-│                              │                  ├ [16] : https://bugzilla.redhat.com/2242803 
-│                              │                  ├ [17] : https://bugzilla.redhat.com/2243296 
+│                              │                  ├ [15] : https://blog.vespa.ai/cve-2023-44487/ 
+│                              │                  ├ [16] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
+│                              │                  ├ [17] : https://bugzilla.redhat.com/2242803 
 │                              │                  ├ [18] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
 │                              │                  ├ [19] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
 │                              │                  ├ [20] : https://cgit.freebsd.org/ports/commit/?id=c64c3
@@ -9662,7 +9664,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -9830,7 +9832,7 @@
 │                              │                  ╰ [131]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-20T03:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10139,29 +10141,30 @@
 │                              │                  │        /10/18/8 
 │                              │                  ├ [4]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/19/6 
-│                              │                  ├ [5]  : https://access.redhat.com/errata/RHSA-2023:5867 
-│                              │                  ├ [6]  : https://access.redhat.com/security/cve/CVE-2023
+│                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
+│                              │                  │        /10/20/8 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
-│                              │                  ├ [7]  : https://access.redhat.com/security/cve/cve-2023
+│                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
 │                              │                  │        -44487 
-│                              │                  ├ [8]  : https://arstechnica.com/security/2023/10/how-dd
+│                              │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-dd
 │                              │                  │        osers-used-the-http-2-protocol-to-deliver-attacks-of
 │                              │                  │        -unprecedented-size/ 
-│                              │                  ├ [9]  : https://aws.amazon.com/security/security-bullet
+│                              │                  ├ [10] : https://aws.amazon.com/security/security-bullet
 │                              │                  │        ins/AWS-2023-011/ 
-│                              │                  ├ [10] : https://blog.cloudflare.com/technical-breakdown
+│                              │                  ├ [11] : https://blog.cloudflare.com/technical-breakdown
 │                              │                  │        -http2-rapid-reset-ddos-attack/ 
-│                              │                  ├ [11] : https://blog.cloudflare.com/zero-day-rapid-rese
+│                              │                  ├ [12] : https://blog.cloudflare.com/zero-day-rapid-rese
 │                              │                  │        t-http2-record-breaking-ddos-attack/ 
-│                              │                  ├ [12] : https://blog.litespeedtech.com/2023/10/11/rapid
+│                              │                  ├ [13] : https://blog.litespeedtech.com/2023/10/11/rapid
 │                              │                  │        -reset-http-2-vulnerablilty/ 
-│                              │                  ├ [13] : https://blog.qualys.com/vulnerabilities-threat-
+│                              │                  ├ [14] : https://blog.qualys.com/vulnerabilities-threat-
 │                              │                  │        research/2023/10/10/cve-2023-44487-http-2-rapid-rese
 │                              │                  │        t-attack 
-│                              │                  ├ [14] : https://blog.vespa.ai/cve-2023-44487/ 
-│                              │                  ├ [15] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
-│                              │                  ├ [16] : https://bugzilla.redhat.com/2242803 
-│                              │                  ├ [17] : https://bugzilla.redhat.com/2243296 
+│                              │                  ├ [15] : https://blog.vespa.ai/cve-2023-44487/ 
+│                              │                  ├ [16] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
+│                              │                  ├ [17] : https://bugzilla.redhat.com/2242803 
 │                              │                  ├ [18] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
 │                              │                  ├ [19] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
 │                              │                  ├ [20] : https://cgit.freebsd.org/ports/commit/?id=c64c3
@@ -10181,7 +10184,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -10349,7 +10352,7 @@
 │                              │                  ╰ [131]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-20T03:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
 ├ [5]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10940,29 +10943,30 @@
 │                              │                  │        /10/18/8 
 │                              │                  ├ [4]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/19/6 
-│                              │                  ├ [5]  : https://access.redhat.com/errata/RHSA-2023:5867 
-│                              │                  ├ [6]  : https://access.redhat.com/security/cve/CVE-2023
+│                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
+│                              │                  │        /10/20/8 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
-│                              │                  ├ [7]  : https://access.redhat.com/security/cve/cve-2023
+│                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
 │                              │                  │        -44487 
-│                              │                  ├ [8]  : https://arstechnica.com/security/2023/10/how-dd
+│                              │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-dd
 │                              │                  │        osers-used-the-http-2-protocol-to-deliver-attacks-of
 │                              │                  │        -unprecedented-size/ 
-│                              │                  ├ [9]  : https://aws.amazon.com/security/security-bullet
+│                              │                  ├ [10] : https://aws.amazon.com/security/security-bullet
 │                              │                  │        ins/AWS-2023-011/ 
-│                              │                  ├ [10] : https://blog.cloudflare.com/technical-breakdown
+│                              │                  ├ [11] : https://blog.cloudflare.com/technical-breakdown
 │                              │                  │        -http2-rapid-reset-ddos-attack/ 
-│                              │                  ├ [11] : https://blog.cloudflare.com/zero-day-rapid-rese
+│                              │                  ├ [12] : https://blog.cloudflare.com/zero-day-rapid-rese
 │                              │                  │        t-http2-record-breaking-ddos-attack/ 
-│                              │                  ├ [12] : https://blog.litespeedtech.com/2023/10/11/rapid
+│                              │                  ├ [13] : https://blog.litespeedtech.com/2023/10/11/rapid
 │                              │                  │        -reset-http-2-vulnerablilty/ 
-│                              │                  ├ [13] : https://blog.qualys.com/vulnerabilities-threat-
+│                              │                  ├ [14] : https://blog.qualys.com/vulnerabilities-threat-
 │                              │                  │        research/2023/10/10/cve-2023-44487-http-2-rapid-rese
 │                              │                  │        t-attack 
-│                              │                  ├ [14] : https://blog.vespa.ai/cve-2023-44487/ 
-│                              │                  ├ [15] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
-│                              │                  ├ [16] : https://bugzilla.redhat.com/2242803 
-│                              │                  ├ [17] : https://bugzilla.redhat.com/2243296 
+│                              │                  ├ [15] : https://blog.vespa.ai/cve-2023-44487/ 
+│                              │                  ├ [16] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
+│                              │                  ├ [17] : https://bugzilla.redhat.com/2242803 
 │                              │                  ├ [18] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
 │                              │                  ├ [19] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
 │                              │                  ├ [20] : https://cgit.freebsd.org/ports/commit/?id=c64c3
@@ -10982,7 +10986,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -11150,7 +11154,7 @@
 │                              │                  ╰ [131]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-20T03:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -11265,29 +11269,30 @@
 │                              │                  │        /10/18/8 
 │                              │                  ├ [4]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/19/6 
-│                              │                  ├ [5]  : https://access.redhat.com/errata/RHSA-2023:5867 
-│                              │                  ├ [6]  : https://access.redhat.com/security/cve/CVE-2023
+│                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
+│                              │                  │        /10/20/8 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
-│                              │                  ├ [7]  : https://access.redhat.com/security/cve/cve-2023
+│                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
 │                              │                  │        -44487 
-│                              │                  ├ [8]  : https://arstechnica.com/security/2023/10/how-dd
+│                              │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-dd
 │                              │                  │        osers-used-the-http-2-protocol-to-deliver-attacks-of
 │                              │                  │        -unprecedented-size/ 
-│                              │                  ├ [9]  : https://aws.amazon.com/security/security-bullet
+│                              │                  ├ [10] : https://aws.amazon.com/security/security-bullet
 │                              │                  │        ins/AWS-2023-011/ 
-│                              │                  ├ [10] : https://blog.cloudflare.com/technical-breakdown
+│                              │                  ├ [11] : https://blog.cloudflare.com/technical-breakdown
 │                              │                  │        -http2-rapid-reset-ddos-attack/ 
-│                              │                  ├ [11] : https://blog.cloudflare.com/zero-day-rapid-rese
+│                              │                  ├ [12] : https://blog.cloudflare.com/zero-day-rapid-rese
 │                              │                  │        t-http2-record-breaking-ddos-attack/ 
-│                              │                  ├ [12] : https://blog.litespeedtech.com/2023/10/11/rapid
+│                              │                  ├ [13] : https://blog.litespeedtech.com/2023/10/11/rapid
 │                              │                  │        -reset-http-2-vulnerablilty/ 
-│                              │                  ├ [13] : https://blog.qualys.com/vulnerabilities-threat-
+│                              │                  ├ [14] : https://blog.qualys.com/vulnerabilities-threat-
 │                              │                  │        research/2023/10/10/cve-2023-44487-http-2-rapid-rese
 │                              │                  │        t-attack 
-│                              │                  ├ [14] : https://blog.vespa.ai/cve-2023-44487/ 
-│                              │                  ├ [15] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
-│                              │                  ├ [16] : https://bugzilla.redhat.com/2242803 
-│                              │                  ├ [17] : https://bugzilla.redhat.com/2243296 
+│                              │                  ├ [15] : https://blog.vespa.ai/cve-2023-44487/ 
+│                              │                  ├ [16] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
+│                              │                  ├ [17] : https://bugzilla.redhat.com/2242803 
 │                              │                  ├ [18] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
 │                              │                  ├ [19] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
 │                              │                  ├ [20] : https://cgit.freebsd.org/ports/commit/?id=c64c3
@@ -11307,7 +11312,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -11475,7 +11480,7 @@
 │                              │                  ╰ [131]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-20T03:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
 ├ [7]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -11590,29 +11595,30 @@
 │                              │                  │        /10/18/8 
 │                              │                  ├ [4]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/19/6 
-│                              │                  ├ [5]  : https://access.redhat.com/errata/RHSA-2023:5867 
-│                              │                  ├ [6]  : https://access.redhat.com/security/cve/CVE-2023
+│                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
+│                              │                  │        /10/20/8 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
-│                              │                  ├ [7]  : https://access.redhat.com/security/cve/cve-2023
+│                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
 │                              │                  │        -44487 
-│                              │                  ├ [8]  : https://arstechnica.com/security/2023/10/how-dd
+│                              │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-dd
 │                              │                  │        osers-used-the-http-2-protocol-to-deliver-attacks-of
 │                              │                  │        -unprecedented-size/ 
-│                              │                  ├ [9]  : https://aws.amazon.com/security/security-bullet
+│                              │                  ├ [10] : https://aws.amazon.com/security/security-bullet
 │                              │                  │        ins/AWS-2023-011/ 
-│                              │                  ├ [10] : https://blog.cloudflare.com/technical-breakdown
+│                              │                  ├ [11] : https://blog.cloudflare.com/technical-breakdown
 │                              │                  │        -http2-rapid-reset-ddos-attack/ 
-│                              │                  ├ [11] : https://blog.cloudflare.com/zero-day-rapid-rese
+│                              │                  ├ [12] : https://blog.cloudflare.com/zero-day-rapid-rese
 │                              │                  │        t-http2-record-breaking-ddos-attack/ 
-│                              │                  ├ [12] : https://blog.litespeedtech.com/2023/10/11/rapid
+│                              │                  ├ [13] : https://blog.litespeedtech.com/2023/10/11/rapid
 │                              │                  │        -reset-http-2-vulnerablilty/ 
-│                              │                  ├ [13] : https://blog.qualys.com/vulnerabilities-threat-
+│                              │                  ├ [14] : https://blog.qualys.com/vulnerabilities-threat-
 │                              │                  │        research/2023/10/10/cve-2023-44487-http-2-rapid-rese
 │                              │                  │        t-attack 
-│                              │                  ├ [14] : https://blog.vespa.ai/cve-2023-44487/ 
-│                              │                  ├ [15] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
-│                              │                  ├ [16] : https://bugzilla.redhat.com/2242803 
-│                              │                  ├ [17] : https://bugzilla.redhat.com/2243296 
+│                              │                  ├ [15] : https://blog.vespa.ai/cve-2023-44487/ 
+│                              │                  ├ [16] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
+│                              │                  ├ [17] : https://bugzilla.redhat.com/2242803 
 │                              │                  ├ [18] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
 │                              │                  ├ [19] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
 │                              │                  ├ [20] : https://cgit.freebsd.org/ports/commit/?id=c64c3
@@ -11632,7 +11638,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -11800,7 +11806,7 @@
 │                              │                  ╰ [131]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-20T03:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
 ├ [8]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -11953,29 +11959,30 @@
 │                              │                  │        /10/18/8 
 │                              │                  ├ [4]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/19/6 
-│                              │                  ├ [5]  : https://access.redhat.com/errata/RHSA-2023:5867 
-│                              │                  ├ [6]  : https://access.redhat.com/security/cve/CVE-2023
+│                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
+│                              │                  │        /10/20/8 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
-│                              │                  ├ [7]  : https://access.redhat.com/security/cve/cve-2023
+│                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
 │                              │                  │        -44487 
-│                              │                  ├ [8]  : https://arstechnica.com/security/2023/10/how-dd
+│                              │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-dd
 │                              │                  │        osers-used-the-http-2-protocol-to-deliver-attacks-of
 │                              │                  │        -unprecedented-size/ 
-│                              │                  ├ [9]  : https://aws.amazon.com/security/security-bullet
+│                              │                  ├ [10] : https://aws.amazon.com/security/security-bullet
 │                              │                  │        ins/AWS-2023-011/ 
-│                              │                  ├ [10] : https://blog.cloudflare.com/technical-breakdown
+│                              │                  ├ [11] : https://blog.cloudflare.com/technical-breakdown
 │                              │                  │        -http2-rapid-reset-ddos-attack/ 
-│                              │                  ├ [11] : https://blog.cloudflare.com/zero-day-rapid-rese
+│                              │                  ├ [12] : https://blog.cloudflare.com/zero-day-rapid-rese
 │                              │                  │        t-http2-record-breaking-ddos-attack/ 
-│                              │                  ├ [12] : https://blog.litespeedtech.com/2023/10/11/rapid
+│                              │                  ├ [13] : https://blog.litespeedtech.com/2023/10/11/rapid
 │                              │                  │        -reset-http-2-vulnerablilty/ 
-│                              │                  ├ [13] : https://blog.qualys.com/vulnerabilities-threat-
+│                              │                  ├ [14] : https://blog.qualys.com/vulnerabilities-threat-
 │                              │                  │        research/2023/10/10/cve-2023-44487-http-2-rapid-rese
 │                              │                  │        t-attack 
-│                              │                  ├ [14] : https://blog.vespa.ai/cve-2023-44487/ 
-│                              │                  ├ [15] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
-│                              │                  ├ [16] : https://bugzilla.redhat.com/2242803 
-│                              │                  ├ [17] : https://bugzilla.redhat.com/2243296 
+│                              │                  ├ [15] : https://blog.vespa.ai/cve-2023-44487/ 
+│                              │                  ├ [16] : https://bugzilla.proxmox.com/show_bug.cgi?id=4988 
+│                              │                  ├ [17] : https://bugzilla.redhat.com/2242803 
 │                              │                  ├ [18] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
 │                              │                  ├ [19] : https://bugzilla.suse.com/show_bug.cgi?id=1216123 
 │                              │                  ├ [20] : https://cgit.freebsd.org/ports/commit/?id=c64c3
@@ -11995,7 +12002,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -12163,7 +12170,7 @@
 │                              │                  ╰ [131]: https://www.theregister.com/2023/10/10/http2_ra
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                              ╰ LastModifiedDate: 2023-10-20T03:15:00Z 
+│                              ╰ LastModifiedDate: 2023-10-20T21:15:00Z 
 ├ [9]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
