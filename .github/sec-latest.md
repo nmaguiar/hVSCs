@@ -147,7 +147,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : a heap based buffer overflow in the SOCKS5 proxy handshake 
+│                        │       ├ Title           : heap based buffer overflow in the SOCKS5 proxy handshake 
 │                        │       ├ Description     : This flaw makes curl overflow a heap based buffer in
 │                        │       │                   the SOCKS5 proxy
 │                        │       │                   handshake.
@@ -300,14 +300,14 @@
 │                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 6.2 
-│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
 │                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       3-34969 
 │                        │       │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-34969 
-│                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
 │                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/iss
 │                        │       │                  │       ues/457 
@@ -355,14 +355,14 @@
 │                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 6.2 
-│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
 │                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       3-34969 
 │                        │       │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-34969 
-│                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
 │                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/iss
 │                        │       │                  │       ues/457 
@@ -1130,7 +1130,7 @@
 │                        │       │                  │       =CVE-2023-4813 
 │                        │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-4911 
-│                        │       │                  ├ [26]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                        │       │                  ├ [26]: https://errata.almalinux.org/8/ALSA-2023-5455.html 
 │                        │       │                  ├ [27]: https://errata.rockylinux.org/RLSA-2023:5455 
 │                        │       │                  ├ [28]: https://linux.oracle.com/cve/CVE-2023-4911.html 
 │                        │       │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2023-5455.html 
@@ -1310,7 +1310,7 @@
 │                        │       │                  │       =CVE-2023-4813 
 │                        │       │                  ├ [25]: https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-4911 
-│                        │       │                  ├ [26]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                        │       │                  ├ [26]: https://errata.almalinux.org/8/ALSA-2023-5455.html 
 │                        │       │                  ├ [27]: https://errata.rockylinux.org/RLSA-2023:5455 
 │                        │       │                  ├ [28]: https://linux.oracle.com/cve/CVE-2023-4911.html 
 │                        │       │                  ├ [29]: https://linux.oracle.com/errata/ELSA-2023-5455.html 
@@ -1435,7 +1435,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : a heap based buffer overflow in the SOCKS5 proxy handshake 
+│                        │       ├ Title           : heap based buffer overflow in the SOCKS5 proxy handshake 
 │                        │       ├ Description     : This flaw makes curl overflow a heap based buffer in
 │                        │       │                   the SOCKS5 proxy
 │                        │       │                   handshake.
@@ -1569,7 +1569,7 @@
 │                        │       ├ DataSource       ╭ ID  : ubuntu 
 │                        │       │                  ├ Name: Ubuntu CVE Tracker 
 │                        │       │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │       ├ Title           : a heap based buffer overflow in the SOCKS5 proxy handshake 
+│                        │       ├ Title           : heap based buffer overflow in the SOCKS5 proxy handshake 
 │                        │       ├ Description     : This flaw makes curl overflow a heap based buffer in
 │                        │       │                   the SOCKS5 proxy
 │                        │       │                   handshake.
@@ -1722,14 +1722,14 @@
 │                        │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
 │                        │       │                           │           C:N/I:N/A:H 
 │                        │       │                           ╰ V3Score : 6.2 
-│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                        │       ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
 │                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
 │                        │       │                  │       3-34969 
 │                        │       │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                        │       │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                        │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-34969 
-│                        │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                        │       │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
 │                        │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/iss
 │                        │       │                  │       ues/457 
@@ -1866,13 +1866,15 @@
 │                        │       │                  │      1-final...krb5-1.20.2-final 
 │                        │       │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-
 │                        │       │                  │      final...krb5-1.21.1-final 
-│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-│                        │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-20230
+│                        │       │                  ├ [5]: https://lists.debian.org/debian-lts-announce/20
+│                        │       │                  │      23/10/msg00031.html 
+│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+│                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      908-0004/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                        │       │                  ├ [8]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                        │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-22T23:15:00Z 
 │                        ├ [37]  ╭ VulnerabilityID : CVE-2023-36054 
 │                        │       ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.2 
 │                        │       ├ PkgName         : libk5crypto3 
@@ -1913,13 +1915,15 @@
 │                        │       │                  │      1-final...krb5-1.20.2-final 
 │                        │       │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-
 │                        │       │                  │      final...krb5-1.21.1-final 
-│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-│                        │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-20230
+│                        │       │                  ├ [5]: https://lists.debian.org/debian-lts-announce/20
+│                        │       │                  │      23/10/msg00031.html 
+│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+│                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      908-0004/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                        │       │                  ├ [8]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                        │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-22T23:15:00Z 
 │                        ├ [38]  ╭ VulnerabilityID : CVE-2023-36054 
 │                        │       ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.2 
 │                        │       ├ PkgName         : libkrb5-3 
@@ -1960,13 +1964,15 @@
 │                        │       │                  │      1-final...krb5-1.20.2-final 
 │                        │       │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-
 │                        │       │                  │      final...krb5-1.21.1-final 
-│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-│                        │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-20230
+│                        │       │                  ├ [5]: https://lists.debian.org/debian-lts-announce/20
+│                        │       │                  │      23/10/msg00031.html 
+│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+│                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      908-0004/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                        │       │                  ├ [8]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                        │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-22T23:15:00Z 
 │                        ├ [39]  ╭ VulnerabilityID : CVE-2023-36054 
 │                        │       ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.2 
 │                        │       ├ PkgName         : libkrb5support0 
@@ -2007,13 +2013,15 @@
 │                        │       │                  │      1-final...krb5-1.20.2-final 
 │                        │       │                  ├ [4]: https://github.com/krb5/krb5/compare/krb5-1.21-
 │                        │       │                  │      final...krb5-1.21.1-final 
-│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
-│                        │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-20230
+│                        │       │                  ├ [5]: https://lists.debian.org/debian-lts-announce/20
+│                        │       │                  │      23/10/msg00031.html 
+│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-36054 
+│                        │       │                  ├ [7]: https://security.netapp.com/advisory/ntap-20230
 │                        │       │                  │      908-0004/ 
-│                        │       │                  ├ [7]: https://web.mit.edu/kerberos/www/advisories/ 
-│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
+│                        │       │                  ├ [8]: https://web.mit.edu/kerberos/www/advisories/ 
+│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-36054 
 │                        │       ├ PublishedDate   : 2023-08-07T19:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-09-08T17:15:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-22T23:15:00Z 
 │                        ├ [40]  ╭ VulnerabilityID : CVE-2023-2953 
 │                        │       ├ PkgID           : libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1 
 │                        │       ├ PkgName         : libldap-2.5-0 
@@ -3024,7 +3032,8 @@
 │                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-6407-1 
 │                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6407-2 
 │                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6408-1 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6408-2 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
 │                        │       ├ PublishedDate   : 2023-10-10T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-10-13T13:26:00Z 
 │                        ├ [60]  ╭ VulnerabilityID : CVE-2023-43787 
@@ -3065,7 +3074,8 @@
 │                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-6407-1 
 │                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6407-2 
 │                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6408-1 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6408-2 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
 │                        │       ├ PublishedDate   : 2023-10-10T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-10-13T13:18:00Z 
 │                        ├ [61]  ╭ VulnerabilityID : CVE-2023-43785 
@@ -3146,7 +3156,8 @@
 │                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-6407-1 
 │                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6407-2 
 │                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6408-1 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6408-2 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
 │                        │       ├ PublishedDate   : 2023-10-10T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-10-13T13:26:00Z 
 │                        ├ [63]  ╭ VulnerabilityID : CVE-2023-43787 
@@ -3187,7 +3198,8 @@
 │                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-6407-1 
 │                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6407-2 
 │                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6408-1 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6408-2 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
 │                        │       ├ PublishedDate   : 2023-10-10T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-10-13T13:18:00Z 
 │                        ├ [64]  ╭ VulnerabilityID : CVE-2023-43786 
@@ -3228,7 +3240,8 @@
 │                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-6407-1 
 │                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6407-2 
 │                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6408-1 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6408-2 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-43786 
 │                        │       ├ PublishedDate   : 2023-10-10T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-10-13T13:26:00Z 
 │                        ├ [65]  ╭ VulnerabilityID : CVE-2023-43787 
@@ -3269,7 +3282,8 @@
 │                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-6407-1 
 │                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6407-2 
 │                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6408-1 
-│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
+│                        │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6408-2 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-43787 
 │                        │       ├ PublishedDate   : 2023-10-10T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-10-13T13:18:00Z 
 │                        ├ [66]  ╭ VulnerabilityID : CVE-2023-43788 
@@ -3311,7 +3325,8 @@
 │                        │       │                  │      RGWN7VWXXWPXYNEEDJLRR3EWFZ3T/ 
 │                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-43788 
 │                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6408-1 
-│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-43788 
+│                        │       │                  ├ [6]: https://ubuntu.com/security/notices/USN-6408-2 
+│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-43788 
 │                        │       ├ PublishedDate   : 2023-10-10T13:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-10-15T04:15:00Z 
 │                        ├ [67]  ╭ VulnerabilityID : CVE-2023-43789 
@@ -3349,7 +3364,8 @@
 │                        │       │                  │      CVE-2023-43789 
 │                        │       │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-43789 
 │                        │       │                  ├ [4]: https://ubuntu.com/security/notices/USN-6408-1 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-43789 
+│                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6408-2 
+│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-43789 
 │                        │       ├ PublishedDate   : 2023-10-12T12:15:00Z 
 │                        │       ╰ LastModifiedDate: 2023-10-17T18:05:00Z 
 │                        ├ [68]  ╭ VulnerabilityID : CVE-2022-4899 
@@ -4875,10 +4891,16 @@
 │                        │       │                  │      28690229b68584f2d84556f8960 (v9.0.1992) 
 │                        │       │                  ├ [4]: https://huntr.dev/bounties/b54cbdf5-3e85-458d-b
 │                        │       │                  │      b38-9ea2c0b669f2 
-│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5441 
-│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-5441 
+│                        │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VDDW
+│                        │       │                  │      D25AZIHBAA44HQT75OWLQ5UMDKU3/ 
+│                        │       │                  ├ [6]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VGTV
+│                        │       │                  │      LUV7UCXXCZAIQIUCLG6JXAVYT3HE/ 
+│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5441 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5441 
 │                        │       ├ PublishedDate   : 2023-10-05T21:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-17T18:02:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-23T05:15:00Z 
 │                        ├ [98]  ╭ VulnerabilityID : CVE-2023-5535 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : vim 
@@ -4911,10 +4933,16 @@
 │                        │       │                  │      61d911f9b1d76325cd79224753d 
 │                        │       │                  ├ [3]: https://huntr.dev/bounties/2c2d85a7-1171-4014-b
 │                        │       │                  │      f7f-a2451745861f 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-5535 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5535 
+│                        │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VDDW
+│                        │       │                  │      D25AZIHBAA44HQT75OWLQ5UMDKU3/ 
+│                        │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VGTV
+│                        │       │                  │      LUV7UCXXCZAIQIUCLG6JXAVYT3HE/ 
+│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5535 
+│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5535 
 │                        │       ├ PublishedDate   : 2023-10-11T20:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-16T14:16:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-23T05:15:00Z 
 │                        ├ [99]  ╭ VulnerabilityID : CVE-2022-1886 
 │                        │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : vim 
@@ -5961,10 +5989,16 @@
 │                        │       │                  │      28690229b68584f2d84556f8960 (v9.0.1992) 
 │                        │       │                  ├ [4]: https://huntr.dev/bounties/b54cbdf5-3e85-458d-b
 │                        │       │                  │      b38-9ea2c0b669f2 
-│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5441 
-│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-5441 
+│                        │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VDDW
+│                        │       │                  │      D25AZIHBAA44HQT75OWLQ5UMDKU3/ 
+│                        │       │                  ├ [6]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VGTV
+│                        │       │                  │      LUV7UCXXCZAIQIUCLG6JXAVYT3HE/ 
+│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5441 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5441 
 │                        │       ├ PublishedDate   : 2023-10-05T21:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-17T18:02:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-23T05:15:00Z 
 │                        ├ [122] ╭ VulnerabilityID : CVE-2023-5535 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : vim-common 
@@ -5997,10 +6031,16 @@
 │                        │       │                  │      61d911f9b1d76325cd79224753d 
 │                        │       │                  ├ [3]: https://huntr.dev/bounties/2c2d85a7-1171-4014-b
 │                        │       │                  │      f7f-a2451745861f 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-5535 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5535 
+│                        │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VDDW
+│                        │       │                  │      D25AZIHBAA44HQT75OWLQ5UMDKU3/ 
+│                        │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VGTV
+│                        │       │                  │      LUV7UCXXCZAIQIUCLG6JXAVYT3HE/ 
+│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5535 
+│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5535 
 │                        │       ├ PublishedDate   : 2023-10-11T20:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-16T14:16:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-23T05:15:00Z 
 │                        ├ [123] ╭ VulnerabilityID : CVE-2022-1886 
 │                        │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : vim-common 
@@ -7047,10 +7087,16 @@
 │                        │       │                  │      28690229b68584f2d84556f8960 (v9.0.1992) 
 │                        │       │                  ├ [4]: https://huntr.dev/bounties/b54cbdf5-3e85-458d-b
 │                        │       │                  │      b38-9ea2c0b669f2 
-│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5441 
-│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-5441 
+│                        │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VDDW
+│                        │       │                  │      D25AZIHBAA44HQT75OWLQ5UMDKU3/ 
+│                        │       │                  ├ [6]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VGTV
+│                        │       │                  │      LUV7UCXXCZAIQIUCLG6JXAVYT3HE/ 
+│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5441 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5441 
 │                        │       ├ PublishedDate   : 2023-10-05T21:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-17T18:02:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-23T05:15:00Z 
 │                        ├ [146] ╭ VulnerabilityID : CVE-2023-5535 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : vim-runtime 
@@ -7083,10 +7129,16 @@
 │                        │       │                  │      61d911f9b1d76325cd79224753d 
 │                        │       │                  ├ [3]: https://huntr.dev/bounties/2c2d85a7-1171-4014-b
 │                        │       │                  │      f7f-a2451745861f 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-5535 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5535 
+│                        │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VDDW
+│                        │       │                  │      D25AZIHBAA44HQT75OWLQ5UMDKU3/ 
+│                        │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VGTV
+│                        │       │                  │      LUV7UCXXCZAIQIUCLG6JXAVYT3HE/ 
+│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5535 
+│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5535 
 │                        │       ├ PublishedDate   : 2023-10-11T20:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-16T14:16:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-23T05:15:00Z 
 │                        ├ [147] ╭ VulnerabilityID : CVE-2022-1886 
 │                        │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : vim-runtime 
@@ -8174,10 +8226,16 @@
 │                        │       │                  │      28690229b68584f2d84556f8960 (v9.0.1992) 
 │                        │       │                  ├ [4]: https://huntr.dev/bounties/b54cbdf5-3e85-458d-b
 │                        │       │                  │      b38-9ea2c0b669f2 
-│                        │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5441 
-│                        │       │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-5441 
+│                        │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VDDW
+│                        │       │                  │      D25AZIHBAA44HQT75OWLQ5UMDKU3/ 
+│                        │       │                  ├ [6]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VGTV
+│                        │       │                  │      LUV7UCXXCZAIQIUCLG6JXAVYT3HE/ 
+│                        │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-5441 
+│                        │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-5441 
 │                        │       ├ PublishedDate   : 2023-10-05T21:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-17T18:02:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-23T05:15:00Z 
 │                        ├ [171] ╭ VulnerabilityID : CVE-2023-5535 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : xxd 
@@ -8210,10 +8268,16 @@
 │                        │       │                  │      61d911f9b1d76325cd79224753d 
 │                        │       │                  ├ [3]: https://huntr.dev/bounties/2c2d85a7-1171-4014-b
 │                        │       │                  │      f7f-a2451745861f 
-│                        │       │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-5535 
-│                        │       │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-5535 
+│                        │       │                  ├ [4]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VDDW
+│                        │       │                  │      D25AZIHBAA44HQT75OWLQ5UMDKU3/ 
+│                        │       │                  ├ [5]: https://lists.fedoraproject.org/archives/list/p
+│                        │       │                  │      ackage-announce@lists.fedoraproject.org/message/VGTV
+│                        │       │                  │      LUV7UCXXCZAIQIUCLG6JXAVYT3HE/ 
+│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-5535 
+│                        │       │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5535 
 │                        │       ├ PublishedDate   : 2023-10-11T20:15:00Z 
-│                        │       ╰ LastModifiedDate: 2023-10-16T14:16:00Z 
+│                        │       ╰ LastModifiedDate: 2023-10-23T05:15:00Z 
 │                        ├ [172] ╭ VulnerabilityID : CVE-2022-1886 
 │                        │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.11 
 │                        │       ├ PkgName         : xxd 
@@ -9150,14 +9214,14 @@
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0] : golang.org/x/net 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5867 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
 │                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                        │     │                  ├ [4] : https://access.redhat.com/security/vulnerabiliti
 │                        │     │                  │       es/RHSB-2023-003 
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2242803 
 │                        │     │                  ├ [6] : https://bugzilla.redhat.com/2243296 
-│                        │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                        │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
 │                        │     │                  ├ [8] : https://github.com/golang/go/issues/63417 
 │                        │     │                  ├ [9] : https://go.dev/cl/534215 
 │                        │     │                  ├ [10]: https://go.dev/cl/534235 
@@ -9165,7 +9229,7 @@
 │                        │     │                  ├ [12]: https://groups.google.com/g/golang-announce/c/iN
 │                        │     │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
 │                        │     │                  ├ [13]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5738.html 
+│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                        │     │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
 │                        │     │                  ├ [16]: https://pkg.go.dev/vuln/GO-2023-2102 
 │                        │     │                  ├ [17]: https://www.cisa.gov/news-events/alerts/2023/10/
@@ -9259,7 +9323,7 @@
 │                              │                  │        /10/19/6 
 │                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/20/8 
-│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5928 
 │                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
 │                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
@@ -9300,7 +9364,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/8/ALSA-2023-5928.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -9388,7 +9452,7 @@
 │                              │                  ├ [87] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
 │                              │                  │        44487/ 
 │                              │                  ├ [88] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5838.html 
+│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5929.html 
 │                              │                  ├ [90] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
 │                              │                  ├ [91] : https://lists.debian.org/debian-lts-announce/20
@@ -9514,14 +9578,14 @@
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0] : golang.org/x/net 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5867 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
 │                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                        │     │                  ├ [4] : https://access.redhat.com/security/vulnerabiliti
 │                        │     │                  │       es/RHSB-2023-003 
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2242803 
 │                        │     │                  ├ [6] : https://bugzilla.redhat.com/2243296 
-│                        │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                        │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
 │                        │     │                  ├ [8] : https://github.com/golang/go/issues/63417 
 │                        │     │                  ├ [9] : https://go.dev/cl/534215 
 │                        │     │                  ├ [10]: https://go.dev/cl/534235 
@@ -9529,7 +9593,7 @@
 │                        │     │                  ├ [12]: https://groups.google.com/g/golang-announce/c/iN
 │                        │     │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
 │                        │     │                  ├ [13]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5738.html 
+│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                        │     │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
 │                        │     │                  ├ [16]: https://pkg.go.dev/vuln/GO-2023-2102 
 │                        │     │                  ├ [17]: https://www.cisa.gov/news-events/alerts/2023/10/
@@ -9623,7 +9687,7 @@
 │                              │                  │        /10/19/6 
 │                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/20/8 
-│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5928 
 │                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
 │                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
@@ -9664,7 +9728,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/8/ALSA-2023-5928.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -9752,7 +9816,7 @@
 │                              │                  ├ [87] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
 │                              │                  │        44487/ 
 │                              │                  ├ [88] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5838.html 
+│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5929.html 
 │                              │                  ├ [90] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
 │                              │                  ├ [91] : https://lists.debian.org/debian-lts-announce/20
@@ -10034,14 +10098,14 @@
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0] : golang.org/x/net 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5867 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
 │                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                        │     │                  ├ [4] : https://access.redhat.com/security/vulnerabiliti
 │                        │     │                  │       es/RHSB-2023-003 
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2242803 
 │                        │     │                  ├ [6] : https://bugzilla.redhat.com/2243296 
-│                        │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                        │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
 │                        │     │                  ├ [8] : https://github.com/golang/go/issues/63417 
 │                        │     │                  ├ [9] : https://go.dev/cl/534215 
 │                        │     │                  ├ [10]: https://go.dev/cl/534235 
@@ -10049,7 +10113,7 @@
 │                        │     │                  ├ [12]: https://groups.google.com/g/golang-announce/c/iN
 │                        │     │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
 │                        │     │                  ├ [13]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5738.html 
+│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                        │     │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
 │                        │     │                  ├ [16]: https://pkg.go.dev/vuln/GO-2023-2102 
 │                        │     │                  ├ [17]: https://www.cisa.gov/news-events/alerts/2023/10/
@@ -10143,7 +10207,7 @@
 │                              │                  │        /10/19/6 
 │                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/20/8 
-│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5928 
 │                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
 │                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
@@ -10184,7 +10248,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/8/ALSA-2023-5928.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -10272,7 +10336,7 @@
 │                              │                  ├ [87] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
 │                              │                  │        44487/ 
 │                              │                  ├ [88] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5838.html 
+│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5929.html 
 │                              │                  ├ [90] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
 │                              │                  ├ [91] : https://lists.debian.org/debian-lts-announce/20
@@ -10836,14 +10900,14 @@
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0] : golang.org/x/net 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5867 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
 │                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                        │     │                  ├ [4] : https://access.redhat.com/security/vulnerabiliti
 │                        │     │                  │       es/RHSB-2023-003 
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2242803 
 │                        │     │                  ├ [6] : https://bugzilla.redhat.com/2243296 
-│                        │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                        │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
 │                        │     │                  ├ [8] : https://github.com/golang/go/issues/63417 
 │                        │     │                  ├ [9] : https://go.dev/cl/534215 
 │                        │     │                  ├ [10]: https://go.dev/cl/534235 
@@ -10851,7 +10915,7 @@
 │                        │     │                  ├ [12]: https://groups.google.com/g/golang-announce/c/iN
 │                        │     │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
 │                        │     │                  ├ [13]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5738.html 
+│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                        │     │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
 │                        │     │                  ├ [16]: https://pkg.go.dev/vuln/GO-2023-2102 
 │                        │     │                  ├ [17]: https://www.cisa.gov/news-events/alerts/2023/10/
@@ -10945,7 +11009,7 @@
 │                              │                  │        /10/19/6 
 │                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/20/8 
-│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5928 
 │                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
 │                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
@@ -10986,7 +11050,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/8/ALSA-2023-5928.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -11074,7 +11138,7 @@
 │                              │                  ├ [87] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
 │                              │                  │        44487/ 
 │                              │                  ├ [88] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5838.html 
+│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5929.html 
 │                              │                  ├ [90] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
 │                              │                  ├ [91] : https://lists.debian.org/debian-lts-announce/20
@@ -11200,14 +11264,14 @@
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0] : golang.org/x/net 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5867 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
 │                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                        │     │                  ├ [4] : https://access.redhat.com/security/vulnerabiliti
 │                        │     │                  │       es/RHSB-2023-003 
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2242803 
 │                        │     │                  ├ [6] : https://bugzilla.redhat.com/2243296 
-│                        │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                        │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
 │                        │     │                  ├ [8] : https://github.com/golang/go/issues/63417 
 │                        │     │                  ├ [9] : https://go.dev/cl/534215 
 │                        │     │                  ├ [10]: https://go.dev/cl/534235 
@@ -11215,7 +11279,7 @@
 │                        │     │                  ├ [12]: https://groups.google.com/g/golang-announce/c/iN
 │                        │     │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
 │                        │     │                  ├ [13]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5738.html 
+│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                        │     │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
 │                        │     │                  ├ [16]: https://pkg.go.dev/vuln/GO-2023-2102 
 │                        │     │                  ├ [17]: https://www.cisa.gov/news-events/alerts/2023/10/
@@ -11271,7 +11335,7 @@
 │                              │                  │        /10/19/6 
 │                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/20/8 
-│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5928 
 │                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
 │                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
@@ -11312,7 +11376,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/8/ALSA-2023-5928.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -11400,7 +11464,7 @@
 │                              │                  ├ [87] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
 │                              │                  │        44487/ 
 │                              │                  ├ [88] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5838.html 
+│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5929.html 
 │                              │                  ├ [90] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
 │                              │                  ├ [91] : https://lists.debian.org/debian-lts-announce/20
@@ -11526,14 +11590,14 @@
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0] : golang.org/x/net 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5867 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
 │                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                        │     │                  ├ [4] : https://access.redhat.com/security/vulnerabiliti
 │                        │     │                  │       es/RHSB-2023-003 
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2242803 
 │                        │     │                  ├ [6] : https://bugzilla.redhat.com/2243296 
-│                        │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                        │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
 │                        │     │                  ├ [8] : https://github.com/golang/go/issues/63417 
 │                        │     │                  ├ [9] : https://go.dev/cl/534215 
 │                        │     │                  ├ [10]: https://go.dev/cl/534235 
@@ -11541,7 +11605,7 @@
 │                        │     │                  ├ [12]: https://groups.google.com/g/golang-announce/c/iN
 │                        │     │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
 │                        │     │                  ├ [13]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5738.html 
+│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                        │     │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
 │                        │     │                  ├ [16]: https://pkg.go.dev/vuln/GO-2023-2102 
 │                        │     │                  ├ [17]: https://www.cisa.gov/news-events/alerts/2023/10/
@@ -11597,7 +11661,7 @@
 │                              │                  │        /10/19/6 
 │                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/20/8 
-│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5928 
 │                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
 │                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
@@ -11638,7 +11702,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/8/ALSA-2023-5928.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -11726,7 +11790,7 @@
 │                              │                  ├ [87] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
 │                              │                  │        44487/ 
 │                              │                  ├ [88] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5838.html 
+│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5929.html 
 │                              │                  ├ [90] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
 │                              │                  ├ [91] : https://lists.debian.org/debian-lts-announce/20
@@ -11852,14 +11916,14 @@
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
 │                        │     ├ References       ╭ [0] : golang.org/x/net 
-│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5867 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
 │                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
 │                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                        │     │                  ├ [4] : https://access.redhat.com/security/vulnerabiliti
 │                        │     │                  │       es/RHSB-2023-003 
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2242803 
 │                        │     │                  ├ [6] : https://bugzilla.redhat.com/2243296 
-│                        │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2023-5867.html 
+│                        │     │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2023-5863.html 
 │                        │     │                  ├ [8] : https://github.com/golang/go/issues/63417 
 │                        │     │                  ├ [9] : https://go.dev/cl/534215 
 │                        │     │                  ├ [10]: https://go.dev/cl/534235 
@@ -11867,7 +11931,7 @@
 │                        │     │                  ├ [12]: https://groups.google.com/g/golang-announce/c/iN
 │                        │     │                  │       NxDTCjZvo/m/UDd7VKQuAAAJ 
 │                        │     │                  ├ [13]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5738.html 
+│                        │     │                  ├ [14]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                        │     │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
 │                        │     │                  ├ [16]: https://pkg.go.dev/vuln/GO-2023-2102 
 │                        │     │                  ├ [17]: https://www.cisa.gov/news-events/alerts/2023/10/
@@ -11961,7 +12025,7 @@
 │                              │                  │        /10/19/6 
 │                              │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /10/20/8 
-│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5929 
+│                              │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5928 
 │                              │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -44487 
 │                              │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023
@@ -12002,7 +12066,7 @@
 │                              │                  │        023-updates/ 
 │                              │                  ├ [27] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
-│                              │                  ├ [28] : https://errata.almalinux.org/9/ALSA-2023-5929.html 
+│                              │                  ├ [28] : https://errata.almalinux.org/8/ALSA-2023-5928.html 
 │                              │                  ├ [29] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [30] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -12090,7 +12154,7 @@
 │                              │                  ├ [87] : https://linkerd.io/2023/10/12/linkerd-cve-2023-
 │                              │                  │        44487/ 
 │                              │                  ├ [88] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5838.html 
+│                              │                  ├ [89] : https://linux.oracle.com/errata/ELSA-2023-5929.html 
 │                              │                  ├ [90] : https://lists.apache.org/thread/5py8h42mxfsn8l1
 │                              │                  │        wy6o41xwhsjlsd87q 
 │                              │                  ├ [91] : https://lists.debian.org/debian-lts-announce/20
