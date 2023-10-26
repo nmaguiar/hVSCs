@@ -152,7 +152,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -196,7 +196,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -990,7 +990,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1634,12 +1634,19 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'Issue summary: A bug has been identified in the processing of key and  ...'
-    Description: A bug has been identified in the processing of key and initialisation vector (IV) lengths. This can lead to potential truncation or overruns during the initialisation of some symmetric ciphers.
+    Title: Incorrect cipher key and IV length processing
+    Description: 'Issue summary: A bug has been identified in the processing of key and initialisation vector (IV) lengths. This can lead to potential truncation or overruns during the initialisation of some symmetric ciphers. Impact summary: A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. When calling EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2() or EVP_CipherInit_ex2() the provided OSSL_PARAM array is processed after the key and IV have been established. Any alterations to the key length, via the "keylen" parameter or the IV length, via the "ivlen" parameter, within the OSSL_PARAM array will not take effect as intended, potentially causing truncation or overreading of these values. The following ciphers and cipher modes are impacted: RC2, RC4, RC5, CCM, GCM and OCB. For the CCM, GCM and OCB cipher modes, truncation of the IV can result in loss of confidentiality. For example, when following NIST''s SP 800-38D section 8.2.1 guidance for constructing a deterministic IV for AES in GCM mode, truncation of the counter portion could lead to IV reuse. Both truncations and overruns of the key and overruns of the IV will produce incorrect results and could, in some cases, trigger a memory exception. However, these issues are not currently assessed as security critical. Changing the key and/or IV lengths is not considered to be a common operation and the vulnerable API was recently introduced. Furthermore it is likely that application developers will have spotted this problem during testing since decryption would fail unless both peers in the communication were similarly vulnerable. For these reasons we expect the probability of an application being vulnerable to this to be quite low. However if an application is vulnerable then this issue is considered very serious. For these reasons we have assessed this issue as Moderate severity overall. The OpenSSL SSL/TLS implementation is not affected by this issue. The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this because the issue lies outside of the FIPS provider boundary. OpenSSL 3.1 and 3.0 are vulnerable to this issue.A flaw was found in OpenSSL in how it processes key and initialization vector (IV) lengths. This issue can lead to potential truncation or overruns during the initialization of some symmetric ciphers. A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. Both truncations and overruns of the key and the IV will produce incorrect results and could, in some cases, trigger a memory exception.'
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2023-5363
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5363
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5363
     - https://ubuntu.com/security/notices/USN-6450-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5363
     - https://www.openssl.org/news/secadv/20231024.txt
   - VulnerabilityID: CVE-2023-2975
     PkgID: libssl3@3.0.2-0ubuntu1.10
@@ -1773,6 +1780,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
@@ -1847,6 +1855,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
@@ -2189,12 +2198,19 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'Issue summary: A bug has been identified in the processing of key and  ...'
-    Description: A bug has been identified in the processing of key and initialisation vector (IV) lengths. This can lead to potential truncation or overruns during the initialisation of some symmetric ciphers.
+    Title: Incorrect cipher key and IV length processing
+    Description: 'Issue summary: A bug has been identified in the processing of key and initialisation vector (IV) lengths. This can lead to potential truncation or overruns during the initialisation of some symmetric ciphers. Impact summary: A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. When calling EVP_EncryptInit_ex2(), EVP_DecryptInit_ex2() or EVP_CipherInit_ex2() the provided OSSL_PARAM array is processed after the key and IV have been established. Any alterations to the key length, via the "keylen" parameter or the IV length, via the "ivlen" parameter, within the OSSL_PARAM array will not take effect as intended, potentially causing truncation or overreading of these values. The following ciphers and cipher modes are impacted: RC2, RC4, RC5, CCM, GCM and OCB. For the CCM, GCM and OCB cipher modes, truncation of the IV can result in loss of confidentiality. For example, when following NIST''s SP 800-38D section 8.2.1 guidance for constructing a deterministic IV for AES in GCM mode, truncation of the counter portion could lead to IV reuse. Both truncations and overruns of the key and overruns of the IV will produce incorrect results and could, in some cases, trigger a memory exception. However, these issues are not currently assessed as security critical. Changing the key and/or IV lengths is not considered to be a common operation and the vulnerable API was recently introduced. Furthermore it is likely that application developers will have spotted this problem during testing since decryption would fail unless both peers in the communication were similarly vulnerable. For these reasons we expect the probability of an application being vulnerable to this to be quite low. However if an application is vulnerable then this issue is considered very serious. For these reasons we have assessed this issue as Moderate severity overall. The OpenSSL SSL/TLS implementation is not affected by this issue. The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this because the issue lies outside of the FIPS provider boundary. OpenSSL 3.1 and 3.0 are vulnerable to this issue.A flaw was found in OpenSSL in how it processes key and initialization vector (IV) lengths. This issue can lead to potential truncation or overruns during the initialization of some symmetric ciphers. A truncation in the IV can result in non-uniqueness, which could result in loss of confidentiality for some cipher modes. Both truncations and overruns of the key and the IV will produce incorrect results and could, in some cases, trigger a memory exception.'
     Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
     References:
+    - https://access.redhat.com/security/cve/CVE-2023-5363
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5363
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5363
     - https://ubuntu.com/security/notices/USN-6450-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5363
     - https://www.openssl.org/news/secadv/20231024.txt
   - VulnerabilityID: CVE-2023-2975
     PkgID: openssl@3.0.2-0ubuntu1.10
@@ -2328,6 +2344,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3446
     - https://security.netapp.com/advisory/ntap-20230803-0011/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3446
     - https://www.openssl.org/news/secadv/20230719.txt
@@ -2402,6 +2419,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3817
     - https://security.netapp.com/advisory/ntap-20230818-0014/
     - https://ubuntu.com/security/notices/USN-6435-1
+    - https://ubuntu.com/security/notices/USN-6435-2
     - https://ubuntu.com/security/notices/USN-6450-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3817
     - https://www.openssl.org/news/secadv/20230731.txt
@@ -2700,7 +2718,8 @@
     PkgID: vim@2:8.2.3995-1ubuntu2.12
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -2729,13 +2748,15 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4733
+    - https://ubuntu.com/security/notices/USN-6452-1
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
   - VulnerabilityID: CVE-2023-4734
     PkgID: vim@2:8.2.3995-1ubuntu2.12
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -2765,6 +2786,7 @@
     - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217
     - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4734
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4734
     PublishedDate: '2023-09-02T18:15:00Z'
     LastModifiedDate: '2023-09-08T15:22:00Z'
@@ -2772,7 +2794,8 @@
     PkgID: vim@2:8.2.3995-1ubuntu2.12
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -2802,6 +2825,7 @@
     - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51
     - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4735
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4735
     PublishedDate: '2023-09-02T18:15:00Z'
     LastModifiedDate: '2023-09-08T15:28:00Z'
@@ -2809,7 +2833,8 @@
     PkgID: vim@2:8.2.3995-1ubuntu2.12
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -2838,13 +2863,15 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4750
+    - https://ubuntu.com/security/notices/USN-6452-1
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
   - VulnerabilityID: CVE-2023-4751
     PkgID: vim@2:8.2.3995-1ubuntu2.12
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -2873,6 +2900,7 @@
     - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b (v9.0.1331)
     - https://huntr.dev/bounties/db7be8d6-6cb7-4ae5-9c4e-805423afa378
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4751
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4751
     PublishedDate: '2023-09-03T19:15:00Z'
     LastModifiedDate: '2023-09-08T12:58:00Z'
@@ -2880,7 +2908,8 @@
     PkgID: vim@2:8.2.3995-1ubuntu2.12
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -2914,6 +2943,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4752
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4752
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
@@ -2921,7 +2951,8 @@
     PkgID: vim@2:8.2.3995-1ubuntu2.12
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -2952,6 +2983,7 @@
     - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883/
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4781
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4781
     PublishedDate: '2023-09-05T19:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
@@ -2959,7 +2991,8 @@
     PkgID: vim@2:8.2.3995-1ubuntu2.12
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -2990,6 +3023,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4W665GQBN6S6ZDMYWVF4X7KMFI7AQKJL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZOXBUJLJ5VSPN3YXWN7XZA4JDYKNE7GZ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5344
     PublishedDate: '2023-10-02T20:15:00Z'
     LastModifiedDate: '2023-10-20T20:16:00Z'
@@ -2997,7 +3031,8 @@
     PkgID: vim@2:8.2.3995-1ubuntu2.12
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3028,6 +3063,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VDDWD25AZIHBAA44HQT75OWLQ5UMDKU3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VGTVLUV7UCXXCZAIQIUCLG6JXAVYT3HE/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5441
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5441
     PublishedDate: '2023-10-05T21:15:00Z'
     LastModifiedDate: '2023-10-23T05:15:00Z'
@@ -3035,7 +3071,8 @@
     PkgID: vim@2:8.2.3995-1ubuntu2.12
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3055,8 +3092,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5535
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5535
@@ -3065,6 +3102,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VDDWD25AZIHBAA44HQT75OWLQ5UMDKU3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VGTVLUV7UCXXCZAIQIUCLG6JXAVYT3HE/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5535
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5535
     PublishedDate: '2023-10-11T20:15:00Z'
     LastModifiedDate: '2023-10-23T05:15:00Z'
@@ -3112,7 +3150,8 @@
     PkgID: vim-common@2:8.2.3995-1ubuntu2.12
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3141,13 +3180,15 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4733
+    - https://ubuntu.com/security/notices/USN-6452-1
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
   - VulnerabilityID: CVE-2023-4734
     PkgID: vim-common@2:8.2.3995-1ubuntu2.12
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3177,6 +3218,7 @@
     - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217
     - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4734
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4734
     PublishedDate: '2023-09-02T18:15:00Z'
     LastModifiedDate: '2023-09-08T15:22:00Z'
@@ -3184,7 +3226,8 @@
     PkgID: vim-common@2:8.2.3995-1ubuntu2.12
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3214,6 +3257,7 @@
     - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51
     - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4735
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4735
     PublishedDate: '2023-09-02T18:15:00Z'
     LastModifiedDate: '2023-09-08T15:28:00Z'
@@ -3221,7 +3265,8 @@
     PkgID: vim-common@2:8.2.3995-1ubuntu2.12
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3250,13 +3295,15 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4750
+    - https://ubuntu.com/security/notices/USN-6452-1
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
   - VulnerabilityID: CVE-2023-4751
     PkgID: vim-common@2:8.2.3995-1ubuntu2.12
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3285,6 +3332,7 @@
     - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b (v9.0.1331)
     - https://huntr.dev/bounties/db7be8d6-6cb7-4ae5-9c4e-805423afa378
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4751
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4751
     PublishedDate: '2023-09-03T19:15:00Z'
     LastModifiedDate: '2023-09-08T12:58:00Z'
@@ -3292,7 +3340,8 @@
     PkgID: vim-common@2:8.2.3995-1ubuntu2.12
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3326,6 +3375,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4752
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4752
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
@@ -3333,7 +3383,8 @@
     PkgID: vim-common@2:8.2.3995-1ubuntu2.12
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3364,6 +3415,7 @@
     - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883/
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4781
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4781
     PublishedDate: '2023-09-05T19:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
@@ -3371,7 +3423,8 @@
     PkgID: vim-common@2:8.2.3995-1ubuntu2.12
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3402,6 +3455,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4W665GQBN6S6ZDMYWVF4X7KMFI7AQKJL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZOXBUJLJ5VSPN3YXWN7XZA4JDYKNE7GZ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5344
     PublishedDate: '2023-10-02T20:15:00Z'
     LastModifiedDate: '2023-10-20T20:16:00Z'
@@ -3409,7 +3463,8 @@
     PkgID: vim-common@2:8.2.3995-1ubuntu2.12
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3440,6 +3495,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VDDWD25AZIHBAA44HQT75OWLQ5UMDKU3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VGTVLUV7UCXXCZAIQIUCLG6JXAVYT3HE/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5441
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5441
     PublishedDate: '2023-10-05T21:15:00Z'
     LastModifiedDate: '2023-10-23T05:15:00Z'
@@ -3447,7 +3503,8 @@
     PkgID: vim-common@2:8.2.3995-1ubuntu2.12
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3467,8 +3524,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5535
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5535
@@ -3477,6 +3534,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VDDWD25AZIHBAA44HQT75OWLQ5UMDKU3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VGTVLUV7UCXXCZAIQIUCLG6JXAVYT3HE/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5535
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5535
     PublishedDate: '2023-10-11T20:15:00Z'
     LastModifiedDate: '2023-10-23T05:15:00Z'
@@ -3524,7 +3582,8 @@
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.12
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3553,13 +3612,15 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4733
+    - https://ubuntu.com/security/notices/USN-6452-1
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
   - VulnerabilityID: CVE-2023-4734
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.12
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3589,6 +3650,7 @@
     - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217
     - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4734
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4734
     PublishedDate: '2023-09-02T18:15:00Z'
     LastModifiedDate: '2023-09-08T15:22:00Z'
@@ -3596,7 +3658,8 @@
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.12
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3626,6 +3689,7 @@
     - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51
     - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4735
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4735
     PublishedDate: '2023-09-02T18:15:00Z'
     LastModifiedDate: '2023-09-08T15:28:00Z'
@@ -3633,7 +3697,8 @@
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.12
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3662,13 +3727,15 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4750
+    - https://ubuntu.com/security/notices/USN-6452-1
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
   - VulnerabilityID: CVE-2023-4751
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.12
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3697,6 +3764,7 @@
     - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b (v9.0.1331)
     - https://huntr.dev/bounties/db7be8d6-6cb7-4ae5-9c4e-805423afa378
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4751
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4751
     PublishedDate: '2023-09-03T19:15:00Z'
     LastModifiedDate: '2023-09-08T12:58:00Z'
@@ -3704,7 +3772,8 @@
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.12
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3738,6 +3807,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4752
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4752
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
@@ -3745,7 +3815,8 @@
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.12
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3776,6 +3847,7 @@
     - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883/
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4781
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4781
     PublishedDate: '2023-09-05T19:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
@@ -3783,7 +3855,8 @@
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.12
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3814,6 +3887,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4W665GQBN6S6ZDMYWVF4X7KMFI7AQKJL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZOXBUJLJ5VSPN3YXWN7XZA4JDYKNE7GZ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5344
     PublishedDate: '2023-10-02T20:15:00Z'
     LastModifiedDate: '2023-10-20T20:16:00Z'
@@ -3821,7 +3895,8 @@
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.12
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3852,6 +3927,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VDDWD25AZIHBAA44HQT75OWLQ5UMDKU3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VGTVLUV7UCXXCZAIQIUCLG6JXAVYT3HE/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5441
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5441
     PublishedDate: '2023-10-05T21:15:00Z'
     LastModifiedDate: '2023-10-23T05:15:00Z'
@@ -3859,7 +3935,8 @@
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.12
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -3879,8 +3956,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5535
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5535
@@ -3889,6 +3966,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VDDWD25AZIHBAA44HQT75OWLQ5UMDKU3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VGTVLUV7UCXXCZAIQIUCLG6JXAVYT3HE/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5535
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5535
     PublishedDate: '2023-10-11T20:15:00Z'
     LastModifiedDate: '2023-10-23T05:15:00Z'
@@ -3974,7 +4052,8 @@
     PkgID: xxd@2:8.2.3995-1ubuntu2.12
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -4003,13 +4082,15 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4733
+    - https://ubuntu.com/security/notices/USN-6452-1
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
   - VulnerabilityID: CVE-2023-4734
     PkgID: xxd@2:8.2.3995-1ubuntu2.12
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -4039,6 +4120,7 @@
     - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217
     - https://huntr.dev/bounties/688e4382-d2b6-439a-a54e-484780f82217/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4734
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4734
     PublishedDate: '2023-09-02T18:15:00Z'
     LastModifiedDate: '2023-09-08T15:22:00Z'
@@ -4046,7 +4128,8 @@
     PkgID: xxd@2:8.2.3995-1ubuntu2.12
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -4076,6 +4159,7 @@
     - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51
     - https://huntr.dev/bounties/fc83bde3-f621-42bd-aecb-8c1ae44cba51/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4735
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4735
     PublishedDate: '2023-09-02T18:15:00Z'
     LastModifiedDate: '2023-09-08T15:28:00Z'
@@ -4083,7 +4167,8 @@
     PkgID: xxd@2:8.2.3995-1ubuntu2.12
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -4112,13 +4197,15 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4750
+    - https://ubuntu.com/security/notices/USN-6452-1
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
   - VulnerabilityID: CVE-2023-4751
     PkgID: xxd@2:8.2.3995-1ubuntu2.12
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -4147,6 +4234,7 @@
     - https://github.com/vim/vim/commit/e1121b139480f53d1b06f84f3e4574048108fa0b (v9.0.1331)
     - https://huntr.dev/bounties/db7be8d6-6cb7-4ae5-9c4e-805423afa378
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4751
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4751
     PublishedDate: '2023-09-03T19:15:00Z'
     LastModifiedDate: '2023-09-08T12:58:00Z'
@@ -4154,7 +4242,8 @@
     PkgID: xxd@2:8.2.3995-1ubuntu2.12
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -4188,6 +4277,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ITRVK4FB74RZDIGTZJXOZMUW6X6F4TNF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PFE3LDFRZ7EGWA5AU7YHYL62ELBOFZWQ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4752
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4752
     PublishedDate: '2023-09-04T14:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
@@ -4195,7 +4285,8 @@
     PkgID: xxd@2:8.2.3995-1ubuntu2.12
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -4226,6 +4317,7 @@
     - https://huntr.dev/bounties/c867eb0a-aa8b-4946-a621-510350673883/
     - https://lists.debian.org/debian-lts-announce/2023/09/msg00035.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4781
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4781
     PublishedDate: '2023-09-05T19:15:00Z'
     LastModifiedDate: '2023-10-16T19:13:00Z'
@@ -4233,7 +4325,8 @@
     PkgID: xxd@2:8.2.3995-1ubuntu2.12
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -4264,6 +4357,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4W665GQBN6S6ZDMYWVF4X7KMFI7AQKJL/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZOXBUJLJ5VSPN3YXWN7XZA4JDYKNE7GZ/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5344
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5344
     PublishedDate: '2023-10-02T20:15:00Z'
     LastModifiedDate: '2023-10-20T20:16:00Z'
@@ -4271,7 +4365,8 @@
     PkgID: xxd@2:8.2.3995-1ubuntu2.12
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -4302,6 +4397,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VDDWD25AZIHBAA44HQT75OWLQ5UMDKU3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VGTVLUV7UCXXCZAIQIUCLG6JXAVYT3HE/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5441
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5441
     PublishedDate: '2023-10-05T21:15:00Z'
     LastModifiedDate: '2023-10-23T05:15:00Z'
@@ -4309,7 +4405,8 @@
     PkgID: xxd@2:8.2.3995-1ubuntu2.12
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.12
-    Status: affected
+    FixedVersion: 2:8.2.3995-1ubuntu2.13
+    Status: fixed
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
@@ -4329,8 +4426,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
         V3Score: 7.8
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
     References:
     - https://access.redhat.com/security/cve/CVE-2023-5535
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5535
@@ -4339,6 +4436,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VDDWD25AZIHBAA44HQT75OWLQ5UMDKU3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VGTVLUV7UCXXCZAIQIUCLG6JXAVYT3HE/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5535
+    - https://ubuntu.com/security/notices/USN-6452-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5535
     PublishedDate: '2023-10-11T20:15:00Z'
     LastModifiedDate: '2023-10-23T05:15:00Z'
@@ -4717,7 +4815,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T21:15:00Z'
+    LastModifiedDate: '2023-10-24T12:58:00Z'
 - Target: tmp/tmp.mvh0jFOhJj/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -4970,7 +5068,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T21:15:00Z'
+    LastModifiedDate: '2023-10-24T12:58:00Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -5263,7 +5361,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T21:15:00Z'
+    LastModifiedDate: '2023-10-24T12:58:00Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -5478,7 +5576,89 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T21:15:00Z'
+    LastModifiedDate: '2023-10-24T12:58:00Z'
+  - VulnerabilityID: GHSA-m425-mq94-257g
+    PkgName: google.golang.org/grpc
+    InstalledVersion: v1.54.0
+    FixedVersion: 1.56.3, 1.57.1, 1.58.3
+    Status: fixed
+    Layer:
+      Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
+      DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-m425-mq94-257g
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: gRPC-Go HTTP/2 Rapid Reset vulnerability
+    Description: |
+      ### Impact
+      In affected releases of gRPC-Go, it is possible for an attacker to send HTTP/2 requests, cancel them, and send subsequent requests, which is valid by the HTTP/2 protocol, but would cause the gRPC-Go server to launch more concurrent method handlers than the configured maximum stream limit.
+
+      ### Patches
+      This vulnerability was addressed by #6703 and has been included in patch releases: 1.56.3, 1.57.1, 1.58.3.  It is also included in the latest release, 1.59.0.
+
+      Along with applying the patch, users should also ensure they are using the `grpc.MaxConcurrentStreams` server option to apply a limit to the server's resources used for any single connection.
+
+      ### Workarounds
+      None.
+
+      ### References
+      #6703
+    Severity: HIGH
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/grpc/grpc-go
+    - https://github.com/grpc/grpc-go/commit/f2180b4d5403d2210b30b93098eb7da31c05c721
+    - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/security/advisories/GHSA-m425-mq94-257g
+- Target: usr/bin/mc
+  Class: lang-pkgs
+  Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: GHSA-m425-mq94-257g
+    PkgName: google.golang.org/grpc
+    InstalledVersion: v1.58.0
+    FixedVersion: 1.56.3, 1.57.1, 1.58.3
+    Status: fixed
+    Layer:
+      Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
+      DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
+    SeveritySource: ghsa
+    PrimaryURL: https://github.com/advisories/GHSA-m425-mq94-257g
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: gRPC-Go HTTP/2 Rapid Reset vulnerability
+    Description: |
+      ### Impact
+      In affected releases of gRPC-Go, it is possible for an attacker to send HTTP/2 requests, cancel them, and send subsequent requests, which is valid by the HTTP/2 protocol, but would cause the gRPC-Go server to launch more concurrent method handlers than the configured maximum stream limit.
+
+      ### Patches
+      This vulnerability was addressed by #6703 and has been included in patch releases: 1.56.3, 1.57.1, 1.58.3.  It is also included in the latest release, 1.59.0.
+
+      Along with applying the patch, users should also ensure they are using the `grpc.MaxConcurrentStreams` server option to apply a limit to the server's resources used for any single connection.
+
+      ### Workarounds
+      None.
+
+      ### References
+      #6703
+    Severity: HIGH
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://github.com/grpc/grpc-go
+    - https://github.com/grpc/grpc-go/commit/f2180b4d5403d2210b30b93098eb7da31c05c721
+    - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/security/advisories/GHSA-m425-mq94-257g
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -5731,69 +5911,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-20T21:15:00Z'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
-      DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
-      DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
-      CreatedBy: 'COPY / / # buildkit'
+    LastModifiedDate: '2023-10-24T12:58:00Z'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -5852,6 +5970,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
+      DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
+      DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:5cc0ece761665ab2b6fb779b8c4d3cbd592fabc26e278ce7e73e7f2e684be1d9
       DiffID: sha256:211a4841dff9e24c7d2dcab318fe08a4353ac3f4da76eb8c77e2e370a9234c74
