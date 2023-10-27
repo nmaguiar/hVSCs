@@ -33,11 +33,13 @@
 │                        │      │                  ├ [2]: https://gitlab.com/apparmor/apparmor/-/merge_req
 │                        │      │                  │      uests/1048 
 │                        │      │                  ├ [3]: https://gitlab.com/apparmor/apparmor/-/merge_req
+│                        │      │                  │      uests/1054 
+│                        │      │                  ├ [4]: https://gitlab.com/apparmor/apparmor/-/merge_req
 │                        │      │                  │      uests/333 
-│                        │      │                  ├ [4]: https://lists.apache.org/thread.html/rf9fa47ab66
+│                        │      │                  ├ [5]: https://lists.apache.org/thread.html/rf9fa47ab66
 │                        │      │                  │      495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev
 │                        │      │                  │      .mina.apache.org%3E 
-│                        │      │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2016-1585 
+│                        │      │                  ╰ [6]: https://nvd.nist.gov/vuln/detail/CVE-2016-1585 
 │                        │      ├ PublishedDate   : 2019-04-22T16:29:00Z 
 │                        │      ╰ LastModifiedDate: 2021-02-25T17:15:00Z 
 │                        ├ [1]  ╭ VulnerabilityID : CVE-2022-3715 
@@ -873,11 +875,13 @@
 │                        │      │                  ├ [2]: https://gitlab.com/apparmor/apparmor/-/merge_req
 │                        │      │                  │      uests/1048 
 │                        │      │                  ├ [3]: https://gitlab.com/apparmor/apparmor/-/merge_req
+│                        │      │                  │      uests/1054 
+│                        │      │                  ├ [4]: https://gitlab.com/apparmor/apparmor/-/merge_req
 │                        │      │                  │      uests/333 
-│                        │      │                  ├ [4]: https://lists.apache.org/thread.html/rf9fa47ab66
+│                        │      │                  ├ [5]: https://lists.apache.org/thread.html/rf9fa47ab66
 │                        │      │                  │      495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev
 │                        │      │                  │      .mina.apache.org%3E 
-│                        │      │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2016-1585 
+│                        │      │                  ╰ [6]: https://nvd.nist.gov/vuln/detail/CVE-2016-1585 
 │                        │      ├ PublishedDate   : 2019-04-22T16:29:00Z 
 │                        │      ╰ LastModifiedDate: 2021-02-25T17:15:00Z 
 │                        ├ [20] ╭ VulnerabilityID : CVE-2022-27943 
