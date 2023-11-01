@@ -153,7 +153,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -197,7 +197,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -887,6 +887,115 @@
     - https://twitter.com/solardiz/status/795601240151457793
     PublishedDate: '2022-02-19T05:15:00Z'
     LastModifiedDate: '2022-03-03T16:43:00Z'
+  - VulnerabilityID: CVE-2023-4806
+    PkgID: libc-bin@2.35-0ubuntu3.4
+    PkgName: libc-bin
+    InstalledVersion: 2.35-0ubuntu3.4
+    Status: affected
+    Layer:
+      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
+      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: potential use-after-free in getaddrinfo()
+    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/10/03/4
+    - http://www.openwall.com/lists/oss-security/2023/10/03/5
+    - http://www.openwall.com/lists/oss-security/2023/10/03/6
+    - http://www.openwall.com/lists/oss-security/2023/10/03/8
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
+    - https://access.redhat.com/security/cve/CVE-2023-4806
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
+    - https://errata.rockylinux.org/RLSA-2023:5455
+    - https://linux.oracle.com/cve/CVE-2023-4806.html
+    - https://linux.oracle.com/errata/ELSA-2023-5455.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
+    - https://security.gentoo.org/glsa/202310-03
+    - https://www.cve.org/CVERecord?id=CVE-2023-4806
+    PublishedDate: '2023-09-18T17:15:00Z'
+    LastModifiedDate: '2023-10-26T17:59:00Z'
+  - VulnerabilityID: CVE-2023-4813
+    PkgID: libc-bin@2.35-0ubuntu3.4
+    PkgName: libc-bin
+    InstalledVersion: 2.35-0ubuntu3.4
+    Status: affected
+    Layer:
+      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
+      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: potential use-after-free in gaih_inet()
+    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/10/03/8
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
+    - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
+    - https://errata.rockylinux.org/RLSA-2023:5455
+    - https://linux.oracle.com/cve/CVE-2023-4813.html
+    - https://linux.oracle.com/errata/ELSA-2023-5455.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
+    - https://www.cve.org/CVERecord?id=CVE-2023-4813
+    PublishedDate: '2023-09-12T22:15:00Z'
+    LastModifiedDate: '2023-10-13T01:18:00Z'
   - VulnerabilityID: CVE-2023-5156
     PkgID: libc6@2.35-0ubuntu3.4
     PkgName: libc6
@@ -959,6 +1068,115 @@
     - https://twitter.com/solardiz/status/795601240151457793
     PublishedDate: '2022-02-19T05:15:00Z'
     LastModifiedDate: '2022-03-03T16:43:00Z'
+  - VulnerabilityID: CVE-2023-4806
+    PkgID: libc6@2.35-0ubuntu3.4
+    PkgName: libc6
+    InstalledVersion: 2.35-0ubuntu3.4
+    Status: affected
+    Layer:
+      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
+      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: potential use-after-free in getaddrinfo()
+    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/10/03/4
+    - http://www.openwall.com/lists/oss-security/2023/10/03/5
+    - http://www.openwall.com/lists/oss-security/2023/10/03/6
+    - http://www.openwall.com/lists/oss-security/2023/10/03/8
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
+    - https://access.redhat.com/security/cve/CVE-2023-4806
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
+    - https://errata.rockylinux.org/RLSA-2023:5455
+    - https://linux.oracle.com/cve/CVE-2023-4806.html
+    - https://linux.oracle.com/errata/ELSA-2023-5455.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
+    - https://security.gentoo.org/glsa/202310-03
+    - https://www.cve.org/CVERecord?id=CVE-2023-4806
+    PublishedDate: '2023-09-18T17:15:00Z'
+    LastModifiedDate: '2023-10-26T17:59:00Z'
+  - VulnerabilityID: CVE-2023-4813
+    PkgID: libc6@2.35-0ubuntu3.4
+    PkgName: libc6
+    InstalledVersion: 2.35-0ubuntu3.4
+    Status: affected
+    Layer:
+      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
+      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: potential use-after-free in gaih_inet()
+    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
+    Severity: LOW
+    CweIDs:
+    - CWE-416
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/10/03/8
+    - https://access.redhat.com/errata/RHSA-2023:5453
+    - https://access.redhat.com/errata/RHSA-2023:5455
+    - https://access.redhat.com/security/cve/CVE-2023-4813
+    - https://bugzilla.redhat.com/2234712
+    - https://bugzilla.redhat.com/2237782
+    - https://bugzilla.redhat.com/2237798
+    - https://bugzilla.redhat.com/2238352
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
+    - https://errata.almalinux.org/9/ALSA-2023-5453.html
+    - https://errata.rockylinux.org/RLSA-2023:5455
+    - https://linux.oracle.com/cve/CVE-2023-4813.html
+    - https://linux.oracle.com/errata/ELSA-2023-5455.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
+    - https://www.cve.org/CVERecord?id=CVE-2023-4813
+    PublishedDate: '2023-09-12T22:15:00Z'
+    LastModifiedDate: '2023-10-13T01:18:00Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
     PkgName: libdbus-1-3
@@ -992,7 +1210,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1377,6 +1595,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -1405,6 +1624,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -1442,6 +1662,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -1484,6 +1706,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -1492,7 +1715,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgID: libnginx-mod-http-image-filter@1.18.0-6ubuntu14.4
     PkgName: libnginx-mod-http-image-filter
@@ -1555,6 +1778,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -1583,6 +1807,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -1620,6 +1845,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -1662,6 +1889,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -1670,7 +1898,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgID: libnginx-mod-http-xslt-filter@1.18.0-6ubuntu14.4
     PkgName: libnginx-mod-http-xslt-filter
@@ -1733,6 +1961,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -1761,6 +1990,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -1798,6 +2028,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -1840,6 +2072,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -1848,7 +2081,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgID: libnginx-mod-mail@1.18.0-6ubuntu14.4
     PkgName: libnginx-mod-mail
@@ -1911,6 +2144,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -1939,6 +2173,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -1976,6 +2211,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -2018,6 +2255,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -2026,7 +2264,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgID: libnginx-mod-stream@1.18.0-6ubuntu14.4
     PkgName: libnginx-mod-stream
@@ -2089,6 +2327,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -2117,6 +2356,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -2154,6 +2394,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -2196,6 +2438,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -2204,7 +2447,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgID: libnginx-mod-stream-geoip2@1.18.0-6ubuntu14.4
     PkgName: libnginx-mod-stream-geoip2
@@ -2267,6 +2510,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -2295,6 +2539,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -2332,6 +2577,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -2374,6 +2621,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -2382,7 +2630,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
   - VulnerabilityID: CVE-2017-11164
     PkgID: libpcre3@2:8.39-13ubuntu0.22.04.1
     PkgName: libpcre3
@@ -2971,6 +3219,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -2999,6 +3248,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -3036,6 +3286,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -3078,6 +3330,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -3086,7 +3339,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgID: nginx-common@1.18.0-6ubuntu14.4
     PkgName: nginx-common
@@ -3149,6 +3402,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -3177,6 +3431,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -3214,6 +3469,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -3256,6 +3513,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -3264,7 +3522,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgID: nginx-core@1.18.0-6ubuntu14.4
     PkgName: nginx-core
@@ -3327,6 +3585,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -3355,6 +3614,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -3392,6 +3652,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -3434,6 +3696,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -3442,7 +3705,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-client@1:8.9p1-3ubuntu0.4
     PkgName: openssh-client
@@ -3834,6 +4097,38 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:00Z'
     LastModifiedDate: '2023-04-24T18:05:00Z'
+  - VulnerabilityID: CVE-2023-46246
+    PkgID: vim@2:8.2.3995-1ubuntu2.13
+    PkgName: vim
+    InstalledVersion: 2:8.2.3995-1ubuntu2.13
+    Status: affected
+    Layer:
+      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
+      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46246
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Integer Overflow in :history command
+    Description: |
+      Vim is an improved version of the good old UNIX editor Vi. Heap-use-after-free in memory allocated in the function `ga_grow_inner` in in the file `src/alloc.c` at line 748, which is freed in the file `src/ex_docmd.c` in the function `do_cmdline` at line 1010 and then used again in `src/cmdhist.c` at line 759. When using the `:history` command, it's possible that the provided argument overflows the accepted value. Causing an Integer Overflow and potentially later an use-after-free. This vulnerability has been patched in version 9.0.2068.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-46246
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46246
+    - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a
+    - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
+    - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
+    - https://www.cve.org/CVERecord?id=CVE-2023-46246
+    PublishedDate: '2023-10-27T19:15:00Z'
+    LastModifiedDate: '2023-10-29T01:44:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -3874,6 +4169,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
+  - VulnerabilityID: CVE-2023-46246
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.13
+    PkgName: vim-common
+    InstalledVersion: 2:8.2.3995-1ubuntu2.13
+    Status: affected
+    Layer:
+      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
+      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46246
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Integer Overflow in :history command
+    Description: |
+      Vim is an improved version of the good old UNIX editor Vi. Heap-use-after-free in memory allocated in the function `ga_grow_inner` in in the file `src/alloc.c` at line 748, which is freed in the file `src/ex_docmd.c` in the function `do_cmdline` at line 1010 and then used again in `src/cmdhist.c` at line 759. When using the `:history` command, it's possible that the provided argument overflows the accepted value. Causing an Integer Overflow and potentially later an use-after-free. This vulnerability has been patched in version 9.0.2068.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-46246
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46246
+    - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a
+    - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
+    - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
+    - https://www.cve.org/CVERecord?id=CVE-2023-46246
+    PublishedDate: '2023-10-27T19:15:00Z'
+    LastModifiedDate: '2023-10-29T01:44:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3914,6 +4241,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
     LastModifiedDate: '2023-05-03T12:15:00Z'
+  - VulnerabilityID: CVE-2023-46246
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
+    PkgName: vim-runtime
+    InstalledVersion: 2:8.2.3995-1ubuntu2.13
+    Status: affected
+    Layer:
+      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
+      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46246
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Integer Overflow in :history command
+    Description: |
+      Vim is an improved version of the good old UNIX editor Vi. Heap-use-after-free in memory allocated in the function `ga_grow_inner` in in the file `src/alloc.c` at line 748, which is freed in the file `src/ex_docmd.c` in the function `do_cmdline` at line 1010 and then used again in `src/cmdhist.c` at line 759. When using the `:history` command, it's possible that the provided argument overflows the accepted value. Causing an Integer Overflow and potentially later an use-after-free. This vulnerability has been patched in version 9.0.2068.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-46246
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46246
+    - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a
+    - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
+    - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
+    - https://www.cve.org/CVERecord?id=CVE-2023-46246
+    PublishedDate: '2023-10-27T19:15:00Z'
+    LastModifiedDate: '2023-10-29T01:44:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -3992,6 +4351,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:00Z'
     LastModifiedDate: '2022-05-13T20:52:00Z'
+  - VulnerabilityID: CVE-2023-46246
+    PkgID: xxd@2:8.2.3995-1ubuntu2.13
+    PkgName: xxd
+    InstalledVersion: 2:8.2.3995-1ubuntu2.13
+    Status: affected
+    Layer:
+      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
+      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46246
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Integer Overflow in :history command
+    Description: |
+      Vim is an improved version of the good old UNIX editor Vi. Heap-use-after-free in memory allocated in the function `ga_grow_inner` in in the file `src/alloc.c` at line 748, which is freed in the file `src/ex_docmd.c` in the function `do_cmdline` at line 1010 and then used again in `src/cmdhist.c` at line 759. When using the `:history` command, it's possible that the provided argument overflows the accepted value. Causing an Integer Overflow and potentially later an use-after-free. This vulnerability has been patched in version 9.0.2068.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-46246
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46246
+    - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a
+    - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
+    - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
+    - https://www.cve.org/CVERecord?id=CVE-2023-46246
+    PublishedDate: '2023-10-27T19:15:00Z'
+    LastModifiedDate: '2023-10-29T01:44:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -4135,8 +4526,11 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
-    Severity: MEDIUM
+    Severity: HIGH
     CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -4148,7 +4542,12 @@
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -4264,6 +4663,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4292,6 +4692,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -4329,6 +4730,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -4371,6 +4774,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -4379,7 +4783,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
 - Target: tmp/tmp.ziMtr1pxF4/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -4400,8 +4804,11 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
-    Severity: MEDIUM
+    Severity: HIGH
     CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -4413,7 +4820,12 @@
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -4529,6 +4941,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4557,6 +4970,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -4594,6 +5008,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -4636,6 +5052,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -4644,7 +5061,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -4793,8 +5210,11 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
-    Severity: MEDIUM
+    Severity: HIGH
     CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -4806,7 +5226,12 @@
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -4884,6 +5309,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4912,6 +5338,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -4949,6 +5376,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -4991,6 +5420,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -4999,7 +5429,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -5060,8 +5490,11 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
-    Severity: MEDIUM
+    Severity: HIGH
     CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -5073,7 +5506,12 @@
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -5151,6 +5589,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -5179,6 +5618,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -5216,6 +5656,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -5258,6 +5700,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -5266,7 +5709,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
   - VulnerabilityID: GHSA-m425-mq94-257g
     PkgName: google.golang.org/grpc
     InstalledVersion: v1.54.0
@@ -5306,6 +5749,189 @@
     - https://github.com/grpc/grpc-go/commit/f2180b4d5403d2210b30b93098eb7da31c05c721
     - https://github.com/grpc/grpc-go/pull/6703
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-m425-mq94-257g
+  - VulnerabilityID: CVE-2023-44487
+    PkgName: google.golang.org/grpc
+    InstalledVersion: v1.54.0
+    FixedVersion: 1.58.3, 1.57.1, 1.56.3
+    Status: fixed
+    Layer:
+      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
+      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+    Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/10/13/4
+    - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - http://www.openwall.com/lists/oss-security/2023/10/18/4
+    - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:6120
+    - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
+    - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
+    - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
+    - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
+    - https://blog.litespeedtech.com/2023/10/11/rapid-reset-http-2-vulnerablilty/
+    - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
+    - https://blog.vespa.ai/cve-2023-44487/
+    - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.suse.com/show_bug.cgi?id=1216123
+    - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
+    - https://chaos.social/@icing/111210915918780532
+    - https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps/
+    - https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack
+    - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
+    - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
+    - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
+    - https://github.com/Azure/AKS/issues/3947
+    - https://github.com/Kong/kong/discussions/11741
+    - https://github.com/advisories/GHSA-qppj-fm5r-hxr3
+    - https://github.com/advisories/GHSA-vx74-f528-fxqg
+    - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
+    - https://github.com/akka/akka-http/issues/4323
+    - https://github.com/alibaba/tengine/issues/1872
+    - https://github.com/apache/apisix/issues/10320
+    - https://github.com/apache/httpd-site/pull/10
+    - https://github.com/apache/httpd/blob/afcdbeebbff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mplx.c#L1101-L1113
+    - https://github.com/apache/tomcat/tree/main/java/org/apache/coyote/http2
+    - https://github.com/apache/trafficserver/pull/10564
+    - https://github.com/apple/swift-nio-http2
+    - https://github.com/apple/swift-nio-http2/security/advisories/GHSA-qppj-fm5r-hxr3
+    - https://github.com/arkrwn/PoC/tree/main/CVE-2023-44487
+    - https://github.com/bcdannyboy/CVE-2023-44487
+    - https://github.com/caddyserver/caddy/issues/5877
+    - https://github.com/caddyserver/caddy/releases/tag/v2.7.5
+    - https://github.com/dotnet/announcements/issues/277
+    - https://github.com/dotnet/core/blob/e4613450ea0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.0.23/6.0.23.md?plain=1#L73
+    - https://github.com/eclipse/jetty.project/issues/10679
+    - https://github.com/envoyproxy/envoy/pull/30055
+    - https://github.com/etcd-io/etcd/issues/16740
+    - https://github.com/facebook/proxygen/pull/466
+    - https://github.com/golang/go/issues/63417
+    - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
+    - https://github.com/h2o/h2o/pull/3291
+    - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
+    - https://github.com/haproxy/haproxy/issues/2312
+    - https://github.com/hyperium/hyper/issues/3337
+    - https://github.com/icing/mod_h2/blob/0a864782af0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md?plain=1#L239-L244
+    - https://github.com/junkurihara/rust-rpxy/issues/97
+    - https://github.com/kazu-yamamoto/http2/commit/f61d41a502bd0f60eb24e1ce14edc7b6df6722a1
+    - https://github.com/kazu-yamamoto/http2/issues/93
+    - https://github.com/kubernetes/kubernetes/pull/121120
+    - https://github.com/line/armeria/pull/5232
+    - https://github.com/linkerd/website/pull/1695/commits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
+    - https://github.com/micrictor/http2-rst-stream
+    - https://github.com/microsoft/CBL-Mariner/pull/6381
+    - https://github.com/netty/netty/commit/58f75f665aa81a8cbcf6ffa74820042a285c5e61
+    - https://github.com/nghttp2/nghttp2/pull/1961
+    - https://github.com/nghttp2/nghttp2/releases/tag/v1.57.0
+    - https://github.com/ninenines/cowboy/issues/1615
+    - https://github.com/nodejs/node/pull/50121
+    - https://github.com/openresty/openresty/issues/930
+    - https://github.com/opensearch-project/data-prepper/issues/3474
+    - https://github.com/oqtane/oqtane.framework/discussions/3367
+    - https://github.com/projectcontour/contour/pull/5826
+    - https://github.com/tempesta-tech/tempesta/issues/1986
+    - https://github.com/varnishcache/varnish-cache/issues/3996
+    - https://go.dev/cl/534215
+    - https://go.dev/cl/534235
+    - https://go.dev/issue/63417
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
+    - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-6120.html
+    - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
+    - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
+    - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
+    - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-44487
+    - https://my.f5.com/manage/s/article/K000137106
+    - https://netty.io/news/2023/10/10/4-1-100-Final.html
+    - https://news.ycombinator.com/item?id=37830987
+    - https://news.ycombinator.com/item?id=37830998
+    - https://news.ycombinator.com/item?id=37831062
+    - https://news.ycombinator.com/item?id=37837043
+    - https://nodejs.org/en/blog/vulnerability/october-2023-security-releases
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
+    - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
+    - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
+    - https://security.paloaltonetworks.com/CVE-2023-44487
+    - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
+    - https://ubuntu.com/security/CVE-2023-44487
+    - https://ubuntu.com/security/notices/USN-6427-1
+    - https://ubuntu.com/security/notices/USN-6427-2
+    - https://ubuntu.com/security/notices/USN-6438-1
+    - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
+    - https://www.cve.org/CVERecord?id=CVE-2023-44487
+    - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
+    - https://www.debian.org/security/2023/dsa-5521
+    - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
+    - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
+    - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
+    - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
+    - https://www.nginx.com/blog/http-2-rapid-reset-attack-impacting-f5-nginx-products/
+    - https://www.openwall.com/lists/oss-security/2023/10/10/6
+    - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
+    - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
+    PublishedDate: '2023-10-10T14:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -5349,6 +5975,189 @@
     - https://github.com/grpc/grpc-go/commit/f2180b4d5403d2210b30b93098eb7da31c05c721
     - https://github.com/grpc/grpc-go/pull/6703
     - https://github.com/grpc/grpc-go/security/advisories/GHSA-m425-mq94-257g
+  - VulnerabilityID: CVE-2023-44487
+    PkgName: google.golang.org/grpc
+    InstalledVersion: v1.58.0
+    FixedVersion: 1.58.3, 1.57.1, 1.56.3
+    Status: fixed
+    Layer:
+      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
+      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+    Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/10/13/4
+    - http://www.openwall.com/lists/oss-security/2023/10/13/9
+    - http://www.openwall.com/lists/oss-security/2023/10/18/4
+    - http://www.openwall.com/lists/oss-security/2023/10/18/8
+    - http://www.openwall.com/lists/oss-security/2023/10/19/6
+    - http://www.openwall.com/lists/oss-security/2023/10/20/8
+    - https://access.redhat.com/errata/RHSA-2023:6120
+    - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
+    - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
+    - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
+    - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
+    - https://blog.litespeedtech.com/2023/10/11/rapid-reset-http-2-vulnerablilty/
+    - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
+    - https://blog.vespa.ai/cve-2023-44487/
+    - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.suse.com/show_bug.cgi?id=1216123
+    - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
+    - https://chaos.social/@icing/111210915918780532
+    - https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps/
+    - https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack
+    - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
+    - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
+    - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
+    - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
+    - https://github.com/Azure/AKS/issues/3947
+    - https://github.com/Kong/kong/discussions/11741
+    - https://github.com/advisories/GHSA-qppj-fm5r-hxr3
+    - https://github.com/advisories/GHSA-vx74-f528-fxqg
+    - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
+    - https://github.com/akka/akka-http/issues/4323
+    - https://github.com/alibaba/tengine/issues/1872
+    - https://github.com/apache/apisix/issues/10320
+    - https://github.com/apache/httpd-site/pull/10
+    - https://github.com/apache/httpd/blob/afcdbeebbff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mplx.c#L1101-L1113
+    - https://github.com/apache/tomcat/tree/main/java/org/apache/coyote/http2
+    - https://github.com/apache/trafficserver/pull/10564
+    - https://github.com/apple/swift-nio-http2
+    - https://github.com/apple/swift-nio-http2/security/advisories/GHSA-qppj-fm5r-hxr3
+    - https://github.com/arkrwn/PoC/tree/main/CVE-2023-44487
+    - https://github.com/bcdannyboy/CVE-2023-44487
+    - https://github.com/caddyserver/caddy/issues/5877
+    - https://github.com/caddyserver/caddy/releases/tag/v2.7.5
+    - https://github.com/dotnet/announcements/issues/277
+    - https://github.com/dotnet/core/blob/e4613450ea0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.0.23/6.0.23.md?plain=1#L73
+    - https://github.com/eclipse/jetty.project/issues/10679
+    - https://github.com/envoyproxy/envoy/pull/30055
+    - https://github.com/etcd-io/etcd/issues/16740
+    - https://github.com/facebook/proxygen/pull/466
+    - https://github.com/golang/go/issues/63417
+    - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
+    - https://github.com/h2o/h2o/pull/3291
+    - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
+    - https://github.com/haproxy/haproxy/issues/2312
+    - https://github.com/hyperium/hyper/issues/3337
+    - https://github.com/icing/mod_h2/blob/0a864782af0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md?plain=1#L239-L244
+    - https://github.com/junkurihara/rust-rpxy/issues/97
+    - https://github.com/kazu-yamamoto/http2/commit/f61d41a502bd0f60eb24e1ce14edc7b6df6722a1
+    - https://github.com/kazu-yamamoto/http2/issues/93
+    - https://github.com/kubernetes/kubernetes/pull/121120
+    - https://github.com/line/armeria/pull/5232
+    - https://github.com/linkerd/website/pull/1695/commits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
+    - https://github.com/micrictor/http2-rst-stream
+    - https://github.com/microsoft/CBL-Mariner/pull/6381
+    - https://github.com/netty/netty/commit/58f75f665aa81a8cbcf6ffa74820042a285c5e61
+    - https://github.com/nghttp2/nghttp2/pull/1961
+    - https://github.com/nghttp2/nghttp2/releases/tag/v1.57.0
+    - https://github.com/ninenines/cowboy/issues/1615
+    - https://github.com/nodejs/node/pull/50121
+    - https://github.com/openresty/openresty/issues/930
+    - https://github.com/opensearch-project/data-prepper/issues/3474
+    - https://github.com/oqtane/oqtane.framework/discussions/3367
+    - https://github.com/projectcontour/contour/pull/5826
+    - https://github.com/tempesta-tech/tempesta/issues/1986
+    - https://github.com/varnishcache/varnish-cache/issues/3996
+    - https://go.dev/cl/534215
+    - https://go.dev/cl/534235
+    - https://go.dev/issue/63417
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
+    - https://istio.io/latest/news/security/istio-security-2023-004/
+    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
+    - https://linux.oracle.com/cve/CVE-2023-44487.html
+    - https://linux.oracle.com/errata/ELSA-2023-6120.html
+    - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
+    - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
+    - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
+    - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-44487
+    - https://my.f5.com/manage/s/article/K000137106
+    - https://netty.io/news/2023/10/10/4-1-100-Final.html
+    - https://news.ycombinator.com/item?id=37830987
+    - https://news.ycombinator.com/item?id=37830998
+    - https://news.ycombinator.com/item?id=37831062
+    - https://news.ycombinator.com/item?id=37837043
+    - https://nodejs.org/en/blog/vulnerability/october-2023-security-releases
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
+    - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
+    - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
+    - https://security.netapp.com/advisory/ntap-20231016-0001/
+    - https://security.paloaltonetworks.com/CVE-2023-44487
+    - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
+    - https://ubuntu.com/security/CVE-2023-44487
+    - https://ubuntu.com/security/notices/USN-6427-1
+    - https://ubuntu.com/security/notices/USN-6427-2
+    - https://ubuntu.com/security/notices/USN-6438-1
+    - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
+    - https://www.cve.org/CVERecord?id=CVE-2023-44487
+    - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
+    - https://www.debian.org/security/2023/dsa-5521
+    - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
+    - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
+    - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
+    - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
+    - https://www.nginx.com/blog/http-2-rapid-reset-attack-impacting-f5-nginx-products/
+    - https://www.openwall.com/lists/oss-security/2023/10/10/6
+    - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
+    - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
+    PublishedDate: '2023-10-10T14:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -5409,8 +6218,11 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: rapid stream resets can cause excessive work (CVE-2023-44487)
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
-    Severity: MEDIUM
+    Severity: HIGH
     CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
@@ -5422,7 +6234,12 @@
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
     - https://bugzilla.redhat.com/2242803
     - https://bugzilla.redhat.com/2243296
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -5538,6 +6355,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -5566,6 +6384,7 @@
     - https://github.com/facebook/proxygen/pull/466
     - https://github.com/golang/go/issues/63417
     - https://github.com/grpc/grpc-go/pull/6703
+    - https://github.com/grpc/grpc-go/releases
     - https://github.com/h2o/h2o/pull/3291
     - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
     - https://github.com/haproxy/haproxy/issues/2312
@@ -5603,6 +6422,8 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
@@ -5645,6 +6466,7 @@
     - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
+    - https://www.debian.org/security/2023/dsa-5540
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -5653,7 +6475,38 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-29T04:15:00Z'
+    LastModifiedDate: '2023-10-30T22:15:00Z'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
+      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -5743,37 +6596,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
-      DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:ad6ca9b6d4e47a63a14de3e3cfdde93043ed0bad630dd775d07e13039336d13c
       DiffID: sha256:6c2602785e0d3f10cee93a2f31914352eaa4b501991849702f8741b461c306b4
