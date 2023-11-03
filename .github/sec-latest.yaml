@@ -1935,7 +1935,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: heap-buffer-overflow in extractImageSection()
-    Description: A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.A heap-buffer-overflow vulnerability was found in LibTIFF, in extractImageSection() at tools/tiffcrop.c:7916 and tools/tiffcrop.c:7801. This flaw allows attackers to cause a denial of service via a crafted tiff file.
+    Description: A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.
     Severity: LOW
     CVSS:
       redhat:
@@ -1943,10 +1943,14 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-3164
+    - https://access.redhat.com/security/cve/CVE-2023-4156
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2215930
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3164
     - https://gitlab.com/libtiff/libtiff/-/issues/542
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3164
     - https://www.cve.org/CVERecord?id=CVE-2023-3164
+    PublishedDate: '2023-11-02T12:15:00Z'
+    LastModifiedDate: '2023-11-02T12:54:00Z'
   - VulnerabilityID: CVE-2023-3576
     PkgID: libtiff5@4.3.0-6ubuntu0.6
     PkgName: libtiff5
@@ -3026,6 +3030,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -3148,7 +3153,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-03T05:15:00Z'
 - Target: tmp/tmp.JdeCTRJtIn/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -3312,6 +3317,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -3434,7 +3440,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-03T05:15:00Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -3688,6 +3694,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -3810,7 +3817,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-03T05:15:00Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -3976,6 +3983,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -4098,7 +4106,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-03T05:15:00Z'
   - VulnerabilityID: GHSA-m425-mq94-257g
     PkgName: google.golang.org/grpc
     InstalledVersion: v1.54.0
@@ -4198,6 +4206,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -4320,7 +4329,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-03T05:15:00Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -4424,6 +4433,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -4546,7 +4556,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-03T05:15:00Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -4750,6 +4760,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -4872,7 +4883,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-03T05:15:00Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
