@@ -3455,12 +3455,15 @@
 │                        │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/KSEGD2
 │                        │     │                  │       IWKNUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │     │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │     │                  ├ [23]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │     │                  ├ [24]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XFOIBB
+│                        │     │                  │       4YFICHDM7IBOP7PWXW3FX4HLL2/ 
+│                        │     │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [24]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [25]: https://www.cisa.gov/news-events/alerts/2023/10/
 │                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │     │                  │       [m 
-│                        │     │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-10-31T18:05:00Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
@@ -3885,12 +3888,15 @@
 │                        │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/KSEGD2
 │                        │     │                  │       IWKNUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │     │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │     │                  ├ [23]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │     │                  ├ [24]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XFOIBB
+│                        │     │                  │       4YFICHDM7IBOP7PWXW3FX4HLL2/ 
+│                        │     │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [24]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [25]: https://www.cisa.gov/news-events/alerts/2023/10/
 │                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │     │                  │       [m 
-│                        │     │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-10-31T18:05:00Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
@@ -4567,12 +4573,15 @@
 │                        │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/KSEGD2
 │                        │     │                  │       IWKNUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │     │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │     │                  ├ [23]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │     │                  ├ [24]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XFOIBB
+│                        │     │                  │       4YFICHDM7IBOP7PWXW3FX4HLL2/ 
+│                        │     │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [24]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [25]: https://www.cisa.gov/news-events/alerts/2023/10/
 │                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │     │                  │       [m 
-│                        │     │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-10-31T18:05:00Z 
 │                        ╰ [4] ╭ VulnerabilityID : CVE-2023-44487 
@@ -5049,12 +5058,15 @@
 │                        │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/KSEGD2
 │                        │     │                  │       IWKNUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │     │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │     │                  ├ [23]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │     │                  ├ [24]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XFOIBB
+│                        │     │                  │       4YFICHDM7IBOP7PWXW3FX4HLL2/ 
+│                        │     │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [24]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [25]: https://www.cisa.gov/news-events/alerts/2023/10/
 │                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │     │                  │       [m 
-│                        │     │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-10-31T18:05:00Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2023-44487 
@@ -6232,12 +6244,15 @@
 │                        │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/KSEGD2
 │                        │     │                  │       IWKNUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │     │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │     │                  ├ [23]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │     │                  ├ [24]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XFOIBB
+│                        │     │                  │       4YFICHDM7IBOP7PWXW3FX4HLL2/ 
+│                        │     │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [24]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [25]: https://www.cisa.gov/news-events/alerts/2023/10/
 │                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │     │                  │       [m 
-│                        │     │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                        │     ╰ LastModifiedDate: 2023-10-31T18:05:00Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2023-3978 
