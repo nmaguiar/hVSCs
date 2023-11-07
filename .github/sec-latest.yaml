@@ -1298,7 +1298,8 @@
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.2
     PkgName: libgssapi-krb5-2
     InstalledVersion: 1.19.2-2ubuntu0.2
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
       DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
@@ -1330,6 +1331,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://security.netapp.com/advisory/ntap-20230908-0004/
     - https://ubuntu.com/security/notices/USN-6467-1
+    - https://ubuntu.com/security/notices/USN-6467-2
     - https://web.mit.edu/kerberos/www/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
@@ -1338,7 +1340,8 @@
     PkgID: libk5crypto3@1.19.2-2ubuntu0.2
     PkgName: libk5crypto3
     InstalledVersion: 1.19.2-2ubuntu0.2
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
       DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
@@ -1370,6 +1373,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://security.netapp.com/advisory/ntap-20230908-0004/
     - https://ubuntu.com/security/notices/USN-6467-1
+    - https://ubuntu.com/security/notices/USN-6467-2
     - https://web.mit.edu/kerberos/www/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
@@ -1378,7 +1382,8 @@
     PkgID: libkrb5-3@1.19.2-2ubuntu0.2
     PkgName: libkrb5-3
     InstalledVersion: 1.19.2-2ubuntu0.2
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
       DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
@@ -1410,6 +1415,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://security.netapp.com/advisory/ntap-20230908-0004/
     - https://ubuntu.com/security/notices/USN-6467-1
+    - https://ubuntu.com/security/notices/USN-6467-2
     - https://web.mit.edu/kerberos/www/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
@@ -1418,7 +1424,8 @@
     PkgID: libkrb5support0@1.19.2-2ubuntu0.2
     PkgName: libkrb5support0
     InstalledVersion: 1.19.2-2ubuntu0.2
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
       DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
@@ -1450,6 +1457,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://security.netapp.com/advisory/ntap-20230908-0004/
     - https://ubuntu.com/security/notices/USN-6467-1
+    - https://ubuntu.com/security/notices/USN-6467-2
     - https://web.mit.edu/kerberos/www/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
@@ -3103,6 +3111,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
@@ -3152,6 +3161,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -3160,7 +3170,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-11-03T22:15:00Z'
+    LastModifiedDate: '2023-11-06T03:15:00Z'
 - Target: tmp/tmp.JdeCTRJtIn/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -3397,6 +3407,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
@@ -3446,6 +3457,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -3454,7 +3466,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-11-03T22:15:00Z'
+    LastModifiedDate: '2023-11-06T03:15:00Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -3781,6 +3793,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
@@ -3830,6 +3843,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -3838,7 +3852,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-11-03T22:15:00Z'
+    LastModifiedDate: '2023-11-06T03:15:00Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -4077,6 +4091,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
@@ -4126,6 +4141,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -4134,7 +4150,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-11-03T22:15:00Z'
+    LastModifiedDate: '2023-11-06T03:15:00Z'
   - VulnerabilityID: GHSA-m425-mq94-257g
     PkgName: google.golang.org/grpc
     InstalledVersion: v1.54.0
@@ -4306,6 +4322,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
@@ -4355,6 +4372,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -4363,7 +4381,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-11-03T22:15:00Z'
+    LastModifiedDate: '2023-11-06T03:15:00Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -4539,6 +4557,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
@@ -4588,6 +4607,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -4596,7 +4616,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-11-03T22:15:00Z'
+    LastModifiedDate: '2023-11-06T03:15:00Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -4873,6 +4893,7 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
@@ -4922,6 +4943,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -4930,69 +4952,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-11-03T22:15:00Z'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
-      DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
-      DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
-      CreatedBy: 'COPY / / # buildkit'
+    LastModifiedDate: '2023-11-06T03:15:00Z'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -5051,6 +5011,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
+      DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
+      DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
       DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
