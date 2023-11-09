@@ -2300,14 +2300,15 @@
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3576 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2219340 
-│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:6575 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-3576 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2219340 
+│                        │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2023-3576 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
 │                        │      ├ PublishedDate   : 2023-10-04T19:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-11-07T04:19:00Z 
+│                        │      ╰ LastModifiedDate: 2023-11-07T14:15:00Z 
 │                        ├ [50] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
@@ -2914,7 +2915,12 @@
 │                        │      │                    been patched in version 9.0.2068.
 │                        │      │                    
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                        │      ├ CweIDs           ╭ [0]: CWE-190 
+│                        │      │                  ╰ [1]: CWE-416 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 4 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46246 
@@ -2929,7 +2935,7 @@
 │                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                        │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-10-29T01:44:00Z 
+│                        │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
 │                        ├ [64] ╭ VulnerabilityID : CVE-2022-1886 
 │                        │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.13 
 │                        │      ├ PkgName         : vim 
@@ -3000,7 +3006,12 @@
 │                        │      │                    been patched in version 9.0.2068.
 │                        │      │                    
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                        │      ├ CweIDs           ╭ [0]: CWE-190 
+│                        │      │                  ╰ [1]: CWE-416 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 4 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46246 
@@ -3015,7 +3026,7 @@
 │                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                        │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-10-29T01:44:00Z 
+│                        │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
 │                        ├ [66] ╭ VulnerabilityID : CVE-2022-1886 
 │                        │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.13 
 │                        │      ├ PkgName         : vim-common 
@@ -3086,7 +3097,12 @@
 │                        │      │                    been patched in version 9.0.2068.
 │                        │      │                    
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                        │      ├ CweIDs           ╭ [0]: CWE-190 
+│                        │      │                  ╰ [1]: CWE-416 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 4 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46246 
@@ -3101,7 +3117,7 @@
 │                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                        │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-10-29T01:44:00Z 
+│                        │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
 │                        ├ [68] ╭ VulnerabilityID : CVE-2022-1886 
 │                        │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.13 
 │                        │      ├ PkgName         : vim-runtime 
@@ -3212,7 +3228,12 @@
 │                        │      │                    been patched in version 9.0.2068.
 │                        │      │                    
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                        │      ├ CweIDs           ╭ [0]: CWE-190 
+│                        │      │                  ╰ [1]: CWE-416 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 4 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46246 
@@ -3227,7 +3248,7 @@
 │                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                        │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                        │      ╰ LastModifiedDate: 2023-10-29T01:44:00Z 
+│                        │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
 │                        ├ [71] ╭ VulnerabilityID : CVE-2022-1886 
 │                        │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.13 
 │                        │      ├ PkgName         : xxd 
@@ -3404,8 +3425,8 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : rapid stream resets can cause excessive work
-│                        │     │                   (CVE-2023-44487) 
+│                        │     ├ Title           : golang: net/http, x/net/http2: rapid stream resets can
+│                        │     │                   cause excessive work (CVE-2023-44487) 
 │                        │     ├ Description     : A malicious HTTP/2 client which rapidly creates
 │                        │     │                   requests and immediately resets them can cause excessive
 │                        │     │                   server resource consumption. While the total number of
@@ -3496,7 +3517,7 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : Cross site scripting 
+│                        │     ├ Title           : golang.org/x/net/html: Cross site scripting 
 │                        │     ├ Description     : Text nodes not in the HTML namespace are incorrectly
 │                        │     │                   literally rendered, causing text which should be escaped to
 │                        │     │                   not be. This could lead to an XSS attack. 
@@ -3534,8 +3555,8 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : Multiple HTTP/2 enabled web servers are vulnerable to a
-│                              │                    DDoS attack (Rapid Reset Attack) 
+│                              ├ Title           : HTTP/2: Multiple HTTP/2 enabled web servers are
+│                              │                   vulnerable to a DDoS attack (Rapid Reset Attack) 
 │                              ├ Description     : The HTTP/2 protocol allows a denial of service (server
 │                              │                   resource consumption) because request cancellation can reset
 │                              │                    many streams quickly, as exploited in the wild in August
@@ -3921,8 +3942,8 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : rapid stream resets can cause excessive work
-│                        │     │                   (CVE-2023-44487) 
+│                        │     ├ Title           : golang: net/http, x/net/http2: rapid stream resets can
+│                        │     │                   cause excessive work (CVE-2023-44487) 
 │                        │     ├ Description     : A malicious HTTP/2 client which rapidly creates
 │                        │     │                   requests and immediately resets them can cause excessive
 │                        │     │                   server resource consumption. While the total number of
@@ -4013,7 +4034,7 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : Cross site scripting 
+│                        │     ├ Title           : golang.org/x/net/html: Cross site scripting 
 │                        │     ├ Description     : Text nodes not in the HTML namespace are incorrectly
 │                        │     │                   literally rendered, causing text which should be escaped to
 │                        │     │                   not be. This could lead to an XSS attack. 
@@ -4051,8 +4072,8 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : Multiple HTTP/2 enabled web servers are vulnerable to a
-│                              │                    DDoS attack (Rapid Reset Attack) 
+│                              ├ Title           : HTTP/2: Multiple HTTP/2 enabled web servers are
+│                              │                   vulnerable to a DDoS attack (Rapid Reset Attack) 
 │                              ├ Description     : The HTTP/2 protocol allows a denial of service (server
 │                              │                   resource consumption) because request cancellation can reset
 │                              │                    many streams quickly, as exploited in the wild in August
@@ -4690,8 +4711,8 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : rapid stream resets can cause excessive work
-│                        │     │                   (CVE-2023-44487) 
+│                        │     ├ Title           : golang: net/http, x/net/http2: rapid stream resets can
+│                        │     │                   cause excessive work (CVE-2023-44487) 
 │                        │     ├ Description     : A malicious HTTP/2 client which rapidly creates
 │                        │     │                   requests and immediately resets them can cause excessive
 │                        │     │                   server resource consumption. While the total number of
@@ -4782,8 +4803,8 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : Multiple HTTP/2 enabled web servers are vulnerable to a
-│                              │                    DDoS attack (Rapid Reset Attack) 
+│                              ├ Title           : HTTP/2: Multiple HTTP/2 enabled web servers are
+│                              │                   vulnerable to a DDoS attack (Rapid Reset Attack) 
 │                              ├ Description     : The HTTP/2 protocol allows a denial of service (server
 │                              │                   resource consumption) because request cancellation can reset
 │                              │                    many streams quickly, as exploited in the wild in August
@@ -5259,8 +5280,8 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : rapid stream resets can cause excessive work
-│                        │     │                   (CVE-2023-44487) 
+│                        │     ├ Title           : golang: net/http, x/net/http2: rapid stream resets can
+│                        │     │                   cause excessive work (CVE-2023-44487) 
 │                        │     ├ Description     : A malicious HTTP/2 client which rapidly creates
 │                        │     │                   requests and immediately resets them can cause excessive
 │                        │     │                   server resource consumption. While the total number of
@@ -5351,8 +5372,8 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : Multiple HTTP/2 enabled web servers are vulnerable to a
-│                        │     │                    DDoS attack (Rapid Reset Attack) 
+│                        │     ├ Title           : HTTP/2: Multiple HTTP/2 enabled web servers are
+│                        │     │                   vulnerable to a DDoS attack (Rapid Reset Attack) 
 │                        │     ├ Description     : The HTTP/2 protocol allows a denial of service (server
 │                        │     │                   resource consumption) because request cancellation can reset
 │                        │     │                    many streams quickly, as exploited in the wild in August
@@ -5784,8 +5805,8 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : Multiple HTTP/2 enabled web servers are vulnerable to a
-│                              │                    DDoS attack (Rapid Reset Attack) 
+│                              ├ Title           : HTTP/2: Multiple HTTP/2 enabled web servers are
+│                              │                   vulnerable to a DDoS attack (Rapid Reset Attack) 
 │                              ├ Description     : The HTTP/2 protocol allows a denial of service (server
 │                              │                   resource consumption) because request cancellation can reset
 │                              │                    many streams quickly, as exploited in the wild in August
@@ -6220,8 +6241,8 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : Multiple HTTP/2 enabled web servers are vulnerable to a
-│                              │                    DDoS attack (Rapid Reset Attack) 
+│                              ├ Title           : HTTP/2: Multiple HTTP/2 enabled web servers are
+│                              │                   vulnerable to a DDoS attack (Rapid Reset Attack) 
 │                              ├ Description     : The HTTP/2 protocol allows a denial of service (server
 │                              │                   resource consumption) because request cancellation can reset
 │                              │                    many streams quickly, as exploited in the wild in August
@@ -6697,8 +6718,8 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : rapid stream resets can cause excessive work
-│                        │     │                   (CVE-2023-44487) 
+│                        │     ├ Title           : golang: net/http, x/net/http2: rapid stream resets can
+│                        │     │                   cause excessive work (CVE-2023-44487) 
 │                        │     ├ Description     : A malicious HTTP/2 client which rapidly creates
 │                        │     │                   requests and immediately resets them can cause excessive
 │                        │     │                   server resource consumption. While the total number of
@@ -6789,7 +6810,7 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : Cross site scripting 
+│                        │     ├ Title           : golang.org/x/net/html: Cross site scripting 
 │                        │     ├ Description     : Text nodes not in the HTML namespace are incorrectly
 │                        │     │                   literally rendered, causing text which should be escaped to
 │                        │     │                   not be. This could lead to an XSS attack. 
@@ -6827,8 +6848,8 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : Multiple HTTP/2 enabled web servers are vulnerable to a
-│                              │                    DDoS attack (Rapid Reset Attack) 
+│                              ├ Title           : HTTP/2: Multiple HTTP/2 enabled web servers are
+│                              │                   vulnerable to a DDoS attack (Rapid Reset Attack) 
 │                              ├ Description     : The HTTP/2 protocol allows a denial of service (server
 │                              │                   resource consumption) because request cancellation can reset
 │                              │                    many streams quickly, as exploited in the wild in August
@@ -7196,115 +7217,7 @@
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:00Z 
 │                              ╰ LastModifiedDate: 2023-11-07T05:15:00Z 
-├ [8]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            *********************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f747
-│                                  │            78b0bdfe306b0 
-│                                  ├ DiffID   : sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98
-│                                  │            c61f276cd2bd2 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [8]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -7362,7 +7275,7 @@
 │                                  ├ DiffID   : sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98
 │                                  │            c61f276cd2bd2 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -7415,7 +7328,183 @@
 │                                  ├ DiffID   : sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98
 │                                  │            c61f276cd2bd2 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f747
+│                                  │            78b0bdfe306b0 
+│                                  ├ DiffID   : sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98
+│                                  │            c61f276cd2bd2 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [11] ╭ Target : /etc/ssh/ssh_host_dsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -7453,33 +7542,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              ****************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -7513,33 +7576,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              ****************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -7568,24 +7605,8 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            *********************************************************-----END OPENSSH
+                       │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f747
                                    │            78b0bdfe306b0 
                                    ├ DiffID   : sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98
