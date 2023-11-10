@@ -147,8 +147,9 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : assertion failure when a monitor is active and a
-│                        │      │                   message from the driver cannot be delivered 
+│                        │      ├ Title           : dbus: dbus-daemon: assertion failure when a monitor is
+│                        │      │                    active and a message from the driver cannot be
+│                        │      │                   delivered 
 │                        │      ├ Description     : D-Bus before 1.15.6 sometimes allows unprivileged
 │                        │      │                   users to crash dbus-daemon. If a privileged user with
 │                        │      │                   control over the dbus-daemon is using the
@@ -204,8 +205,9 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : assertion failure when a monitor is active and a
-│                        │      │                   message from the driver cannot be delivered 
+│                        │      ├ Title           : dbus: dbus-daemon: assertion failure when a monitor is
+│                        │      │                    active and a message from the driver cannot be
+│                        │      │                   delivered 
 │                        │      ├ Description     : D-Bus before 1.15.6 sometimes allows unprivileged
 │                        │      │                   users to crash dbus-daemon. If a privileged user with
 │                        │      │                   control over the dbus-daemon is using the
@@ -943,7 +945,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : DoS due to memory leak in getaddrinfo.c 
+│                        │      ├ Title           : glibc: DoS due to memory leak in getaddrinfo.c 
 │                        │      ├ Description     : A flaw was found in the GNU C Library. A recent fix
 │                        │      │                   for CVE-2023-4806 introduced the potential for a memory
 │                        │      │                   leak, which may result in an application crash. 
@@ -1162,7 +1164,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : DoS due to memory leak in getaddrinfo.c 
+│                        │      ├ Title           : glibc: DoS due to memory leak in getaddrinfo.c 
 │                        │      ├ Description     : A flaw was found in the GNU C Library. A recent fix
 │                        │      │                   for CVE-2023-4806 introduced the potential for a memory
 │                        │      │                   leak, which may result in an application crash. 
@@ -1381,8 +1383,9 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : assertion failure when a monitor is active and a
-│                        │      │                   message from the driver cannot be delivered 
+│                        │      ├ Title           : dbus: dbus-daemon: assertion failure when a monitor is
+│                        │      │                    active and a message from the driver cannot be
+│                        │      │                   delivered 
 │                        │      ├ Description     : D-Bus before 1.15.6 sometimes allows unprivileged
 │                        │      │                   users to crash dbus-daemon. If a privileged user with
 │                        │      │                   control over the dbus-daemon is using the
@@ -4550,7 +4553,7 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : DoS vulnerability in otelhttp 
+│                        │     ├ Title           : opentelemetry: DoS vulnerability in otelhttp 
 │                        │     ├ Description     : OpenTelemetry-Go Contrib is a collection of third-party
 │                        │     │                    packages for OpenTelemetry-Go. A handler wrapper out of the
 │                        │     │                    box adds labels `http.user_agent` and `http.method` that
@@ -4631,7 +4634,7 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : DoS vulnerability in otelhttp 
+│                        │     ├ Title           : opentelemetry: DoS vulnerability in otelhttp 
 │                        │     ├ Description     : OpenTelemetry-Go Contrib is a collection of third-party
 │                        │     │                    packages for OpenTelemetry-Go. A handler wrapper out of the
 │                        │     │                    box adds labels `http.user_agent` and `http.method` that
