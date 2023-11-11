@@ -33,10 +33,10 @@
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/1048
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/1054
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/333
-    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2016-1585
     PublishedDate: '2019-04-22T16:29:00Z'
-    LastModifiedDate: '2021-02-25T17:15:00Z'
+    LastModifiedDate: '2023-11-07T02:29:00Z'
   - VulnerabilityID: CVE-2022-3715
     PkgID: bash@5.1-6ubuntu1
     PkgName: bash
@@ -114,12 +114,12 @@
     - http://www.openwall.com/lists/oss-security/2016/02/28/3
     - https://access.redhat.com/security/cve/CVE-2016-2781
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2781
-    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://lore.kernel.org/patchwork/patch/793178/
     - https://nvd.nist.gov/vuln/detail/CVE-2016-2781
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00Z'
-    LastModifiedDate: '2021-02-25T17:15:00Z'
+    LastModifiedDate: '2023-11-07T02:32:00Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus@1.12.20-2ubuntu4.1
     PkgName: dbus
@@ -134,7 +134,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: assertion failure when a monitor is active and a message from the driver cannot be delivered
+    Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
     CweIDs:
@@ -158,12 +158,12 @@
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00033.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:00Z'
-    LastModifiedDate: '2023-10-23T16:15:00Z'
+    LastModifiedDate: '2023-11-07T04:15:00Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus-user-session@1.12.20-2ubuntu4.1
     PkgName: dbus-user-session
@@ -178,7 +178,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: assertion failure when a monitor is active and a message from the driver cannot be delivered
+    Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
     CweIDs:
@@ -202,12 +202,12 @@
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00033.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:00Z'
-    LastModifiedDate: '2023-10-23T16:15:00Z'
+    LastModifiedDate: '2023-11-07T04:15:00Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: dirmngr@2.2.27-3ubuntu2.1
     PkgName: dirmngr
@@ -280,12 +280,12 @@
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
-    LastModifiedDate: '2023-08-08T14:22:00Z'
+    LastModifiedDate: '2023-11-07T03:45:00Z'
   - VulnerabilityID: CVE-2018-1000021
     PkgID: git@1:2.34.1-1ubuntu1.10
     PkgName: git
@@ -771,10 +771,10 @@
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/1048
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/1054
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/333
-    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2016-1585
     PublishedDate: '2019-04-22T16:29:00Z'
-    LastModifiedDate: '2021-02-25T17:15:00Z'
+    LastModifiedDate: '2023-11-07T02:29:00Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libatomic1@12.3.0-1ubuntu1~22.04
     PkgName: libatomic1
@@ -809,12 +809,12 @@
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
-    LastModifiedDate: '2023-08-08T14:22:00Z'
+    LastModifiedDate: '2023-11-07T03:45:00Z'
   - VulnerabilityID: CVE-2023-5156
     PkgID: libc-bin@2.35-0ubuntu3.4
     PkgName: libc-bin
@@ -829,7 +829,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: DoS due to memory leak in getaddrinfo.c
+    Title: 'glibc: DoS due to memory leak in getaddrinfo.c'
     Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
     Severity: MEDIUM
     CweIDs:
@@ -855,7 +855,7 @@
     - https://sourceware.org/pipermail/libc-alpha/2023-September/151691.html
     - https://www.cve.org/CVERecord?id=CVE-2023-5156
     PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-10-20T20:28:00Z'
+    LastModifiedDate: '2023-11-07T04:23:00Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.4
     PkgName: libc-bin
@@ -944,7 +944,7 @@
     - https://security.gentoo.org/glsa/202310-03
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-10-26T17:59:00Z'
+    LastModifiedDate: '2023-11-07T04:22:00Z'
   - VulnerabilityID: CVE-2023-4813
     PkgID: libc-bin@2.35-0ubuntu3.4
     PkgName: libc-bin
@@ -995,7 +995,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-10-13T01:18:00Z'
+    LastModifiedDate: '2023-11-07T04:23:00Z'
   - VulnerabilityID: CVE-2023-5156
     PkgID: libc6@2.35-0ubuntu3.4
     PkgName: libc6
@@ -1010,7 +1010,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: DoS due to memory leak in getaddrinfo.c
+    Title: 'glibc: DoS due to memory leak in getaddrinfo.c'
     Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
     Severity: MEDIUM
     CweIDs:
@@ -1036,7 +1036,7 @@
     - https://sourceware.org/pipermail/libc-alpha/2023-September/151691.html
     - https://www.cve.org/CVERecord?id=CVE-2023-5156
     PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-10-20T20:28:00Z'
+    LastModifiedDate: '2023-11-07T04:23:00Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.4
     PkgName: libc6
@@ -1125,7 +1125,7 @@
     - https://security.gentoo.org/glsa/202310-03
     - https://www.cve.org/CVERecord?id=CVE-2023-4806
     PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-10-26T17:59:00Z'
+    LastModifiedDate: '2023-11-07T04:22:00Z'
   - VulnerabilityID: CVE-2023-4813
     PkgID: libc6@2.35-0ubuntu3.4
     PkgName: libc6
@@ -1176,7 +1176,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-10-13T01:18:00Z'
+    LastModifiedDate: '2023-11-07T04:23:00Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
     PkgName: libdbus-1-3
@@ -1191,7 +1191,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: assertion failure when a monitor is active and a message from the driver cannot be delivered
+    Title: 'dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered'
     Description: D-Bus before 1.15.6 sometimes allows unprivileged users to crash dbus-daemon. If a privileged user with control over the dbus-daemon is using the org.freedesktop.DBus.Monitoring interface to monitor message bus traffic, then an unprivileged user with the ability to connect to the same dbus-daemon can cause a dbus-daemon crash under some circumstances via an unreplyable message. When done on the well-known system bus, this is a denial-of-service vulnerability. The fixed versions are 1.12.28, 1.14.8, and 1.15.6.
     Severity: LOW
     CweIDs:
@@ -1215,12 +1215,12 @@
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00033.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:00Z'
-    LastModifiedDate: '2023-10-23T16:15:00Z'
+    LastModifiedDate: '2023-11-07T04:15:00Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -1255,12 +1255,12 @@
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
-    LastModifiedDate: '2023-08-08T14:22:00Z'
+    LastModifiedDate: '2023-11-07T03:45:00Z'
   - VulnerabilityID: CVE-2021-40812
     PkgID: libgd3@2.3.0-2ubuntu2
     PkgName: libgd3
@@ -1298,7 +1298,8 @@
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.2
     PkgName: libgssapi-krb5-2
     InstalledVersion: 1.19.2-2ubuntu0.2
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
       DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
@@ -1330,6 +1331,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://security.netapp.com/advisory/ntap-20230908-0004/
     - https://ubuntu.com/security/notices/USN-6467-1
+    - https://ubuntu.com/security/notices/USN-6467-2
     - https://web.mit.edu/kerberos/www/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
@@ -1338,7 +1340,8 @@
     PkgID: libk5crypto3@1.19.2-2ubuntu0.2
     PkgName: libk5crypto3
     InstalledVersion: 1.19.2-2ubuntu0.2
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
       DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
@@ -1370,6 +1373,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://security.netapp.com/advisory/ntap-20230908-0004/
     - https://ubuntu.com/security/notices/USN-6467-1
+    - https://ubuntu.com/security/notices/USN-6467-2
     - https://web.mit.edu/kerberos/www/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
@@ -1378,7 +1382,8 @@
     PkgID: libkrb5-3@1.19.2-2ubuntu0.2
     PkgName: libkrb5-3
     InstalledVersion: 1.19.2-2ubuntu0.2
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
       DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
@@ -1410,6 +1415,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://security.netapp.com/advisory/ntap-20230908-0004/
     - https://ubuntu.com/security/notices/USN-6467-1
+    - https://ubuntu.com/security/notices/USN-6467-2
     - https://web.mit.edu/kerberos/www/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
@@ -1418,7 +1424,8 @@
     PkgID: libkrb5support0@1.19.2-2ubuntu0.2
     PkgName: libkrb5support0
     InstalledVersion: 1.19.2-2ubuntu0.2
-    Status: affected
+    FixedVersion: 1.19.2-2ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
       DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
@@ -1450,6 +1457,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-36054
     - https://security.netapp.com/advisory/ntap-20230908-0004/
     - https://ubuntu.com/security/notices/USN-6467-1
+    - https://ubuntu.com/security/notices/USN-6467-2
     - https://web.mit.edu/kerberos/www/advisories/
     - https://www.cve.org/CVERecord?id=CVE-2023-36054
     PublishedDate: '2023-08-07T19:15:00Z'
@@ -1514,7 +1522,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: Denial of service via decompression of crafted file
-    Description: '** DISPUTED ** An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of a crafted file. NOTE: the vendor disputes the claims of "endless output" and "denial of service" because decompression of the 17,486 bytes always results in 114,881,179 bytes, which is often a reasonable size increase.'
+    Description: 'An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of a crafted file. NOTE: the vendor disputes the claims of "endless output" and "denial of service" because decompression of the 17,486 bytes always results in 114,881,179 bytes, which is often a reasonable size increase.'
     Severity: MEDIUM
     CVSS:
       nvd:
@@ -1536,7 +1544,7 @@
     - https://tukaani.org/xz/
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-18T09:15:00Z'
+    LastModifiedDate: '2023-11-07T03:19:00Z'
   - VulnerabilityID: CVE-2017-11164
     PkgID: libpcre3@2:8.39-13ubuntu0.22.04.1
     PkgName: libpcre3
@@ -1572,11 +1580,11 @@
     - http://www.securityfocus.com/bid/99575
     - https://access.redhat.com/security/cve/CVE-2017-11164
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-11164
-    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2017-11164
     - https://www.cve.org/CVERecord?id=CVE-2017-11164
     PublishedDate: '2017-07-11T03:29:00Z'
-    LastModifiedDate: '2023-04-12T15:15:00Z'
+    LastModifiedDate: '2023-11-07T02:38:00Z'
   - VulnerabilityID: CVE-2022-48522
     PkgID: libperl5.34@5.34.0-3ubuntu1.2
     PkgName: libperl5.34
@@ -1877,12 +1885,12 @@
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
     - https://sourceware.org/bugzilla/show_bug.cgi?id=28995
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
-    LastModifiedDate: '2023-08-08T14:22:00Z'
+    LastModifiedDate: '2023-11-07T03:45:00Z'
   - VulnerabilityID: CVE-2018-10126
     PkgID: libtiff5@4.3.0-6ubuntu0.6
     PkgName: libtiff5
@@ -1915,11 +1923,11 @@
     - http://bugzilla.maptools.org/show_bug.cgi?id=2786
     - https://access.redhat.com/security/cve/CVE-2018-10126
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10126
-    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772@%3Cdev.mina.apache.org%3E
+    - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2018-10126
     - https://www.cve.org/CVERecord?id=CVE-2018-10126
     PublishedDate: '2018-04-21T21:29:00Z'
-    LastModifiedDate: '2021-03-15T22:31:00Z'
+    LastModifiedDate: '2023-11-07T02:51:00Z'
   - VulnerabilityID: CVE-2023-3164
     PkgID: libtiff5@4.3.0-6ubuntu0.6
     PkgName: libtiff5
@@ -1935,18 +1943,27 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: heap-buffer-overflow in extractImageSection()
-    Description: A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.A heap-buffer-overflow vulnerability was found in LibTIFF, in extractImageSection() at tools/tiffcrop.c:7916 and tools/tiffcrop.c:7801. This flaw allows attackers to cause a denial of service via a crafted tiff file.
+    Description: A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.
     Severity: LOW
+    CweIDs:
+    - CWE-125
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:H
+        V3Score: 7.1
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-3164
+    - https://access.redhat.com/security/cve/CVE-2023-4156
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2215930
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3164
     - https://gitlab.com/libtiff/libtiff/-/issues/542
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3164
     - https://www.cve.org/CVERecord?id=CVE-2023-3164
+    PublishedDate: '2023-11-02T12:15:00Z'
+    LastModifiedDate: '2023-11-09T19:28:00Z'
   - VulnerabilityID: CVE-2023-3576
     PkgID: libtiff5@4.3.0-6ubuntu0.6
     PkgName: libtiff5
@@ -1974,13 +1991,14 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5.5
     References:
+    - https://access.redhat.com/errata/RHSA-2023:6575
     - https://access.redhat.com/security/cve/CVE-2023-3576
     - https://bugzilla.redhat.com/show_bug.cgi?id=2219340
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3576
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3576
     - https://www.cve.org/CVERecord?id=CVE-2023-3576
     PublishedDate: '2023-10-04T19:15:00Z'
-    LastModifiedDate: '2023-10-10T13:09:00Z'
+    LastModifiedDate: '2023-11-07T14:15:00Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -2018,6 +2036,9 @@
     - https://github.com/facebook/zstd/pull/3220
     - https://github.com/pypa/advisory-database/tree/main/vulns/zstd/PYSEC-2023-121.yaml
     - https://github.com/sergey-dryabzhinsky/python-zstd/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C63HAGVLQA6FJNDCHR7CNZZL6VSLILB2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JEHRBBYYTPA4DETOM5XAKGCP37NUTLOA/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QYLDK6ODVC4LJSDULLX6Q2YHTFOWABCN/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/C63HAGVLQA6FJNDCHR7CNZZL6VSLILB2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JEHRBBYYTPA4DETOM5XAKGCP37NUTLOA/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QYLDK6ODVC4LJSDULLX6Q2YHTFOWABCN/
@@ -2025,7 +2046,7 @@
     - https://security.netapp.com/advisory/ntap-20230725-0005/
     - https://www.cve.org/CVERecord?id=CVE-2022-4899
     PublishedDate: '2023-03-31T20:15:00Z'
-    LastModifiedDate: '2023-09-16T04:15:00Z'
+    LastModifiedDate: '2023-11-07T03:59:00Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: login@1:4.8.1-2ubuntu2.1
     PkgName: login
@@ -2472,7 +2493,13 @@
     Description: |
       Vim is an improved version of the good old UNIX editor Vi. Heap-use-after-free in memory allocated in the function `ga_grow_inner` in in the file `src/alloc.c` at line 748, which is freed in the file `src/ex_docmd.c` in the function `do_cmdline` at line 1010 and then used again in `src/cmdhist.c` at line 759. When using the `:history` command, it's possible that the provided argument overflows the accepted value. Causing an Integer Overflow and potentially later an use-after-free. This vulnerability has been patched in version 9.0.2068.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    - CWE-416
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
@@ -2485,7 +2512,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-10-29T01:44:00Z'
+    LastModifiedDate: '2023-11-07T18:09:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -2519,13 +2546,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1886
     - https://github.com/vim/vim/commit/2a585c85013be22f59f184d49612074fd9b115d7
     - https://huntr.dev/bounties/fa0ad526-b608-45b3-9ebc-f2b607834d6a
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TYNK6SDCMOLQJOI3B4AOE66P2G2IH4ZM/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TYNK6SDCMOLQJOI3B4AOE66P2G2IH4ZM/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-1886
     - https://security.gentoo.org/glsa/202208-32
     - https://security.gentoo.org/glsa/202305-16
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
-    LastModifiedDate: '2023-05-03T12:15:00Z'
+    LastModifiedDate: '2023-11-07T03:42:00Z'
   - VulnerabilityID: CVE-2023-46246
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -2544,7 +2571,13 @@
     Description: |
       Vim is an improved version of the good old UNIX editor Vi. Heap-use-after-free in memory allocated in the function `ga_grow_inner` in in the file `src/alloc.c` at line 748, which is freed in the file `src/ex_docmd.c` in the function `do_cmdline` at line 1010 and then used again in `src/cmdhist.c` at line 759. When using the `:history` command, it's possible that the provided argument overflows the accepted value. Causing an Integer Overflow and potentially later an use-after-free. This vulnerability has been patched in version 9.0.2068.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    - CWE-416
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
@@ -2557,7 +2590,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-10-29T01:44:00Z'
+    LastModifiedDate: '2023-11-07T18:09:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -2591,13 +2624,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1886
     - https://github.com/vim/vim/commit/2a585c85013be22f59f184d49612074fd9b115d7
     - https://huntr.dev/bounties/fa0ad526-b608-45b3-9ebc-f2b607834d6a
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TYNK6SDCMOLQJOI3B4AOE66P2G2IH4ZM/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TYNK6SDCMOLQJOI3B4AOE66P2G2IH4ZM/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-1886
     - https://security.gentoo.org/glsa/202208-32
     - https://security.gentoo.org/glsa/202305-16
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
-    LastModifiedDate: '2023-05-03T12:15:00Z'
+    LastModifiedDate: '2023-11-07T03:42:00Z'
   - VulnerabilityID: CVE-2023-46246
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -2616,7 +2649,13 @@
     Description: |
       Vim is an improved version of the good old UNIX editor Vi. Heap-use-after-free in memory allocated in the function `ga_grow_inner` in in the file `src/alloc.c` at line 748, which is freed in the file `src/ex_docmd.c` in the function `do_cmdline` at line 1010 and then used again in `src/cmdhist.c` at line 759. When using the `:history` command, it's possible that the provided argument overflows the accepted value. Causing an Integer Overflow and potentially later an use-after-free. This vulnerability has been patched in version 9.0.2068.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    - CWE-416
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
@@ -2629,7 +2668,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-10-29T01:44:00Z'
+    LastModifiedDate: '2023-11-07T18:09:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -2663,13 +2702,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1886
     - https://github.com/vim/vim/commit/2a585c85013be22f59f184d49612074fd9b115d7
     - https://huntr.dev/bounties/fa0ad526-b608-45b3-9ebc-f2b607834d6a
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TYNK6SDCMOLQJOI3B4AOE66P2G2IH4ZM/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TYNK6SDCMOLQJOI3B4AOE66P2G2IH4ZM/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-1886
     - https://security.gentoo.org/glsa/202208-32
     - https://security.gentoo.org/glsa/202305-16
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
-    LastModifiedDate: '2023-05-03T12:15:00Z'
+    LastModifiedDate: '2023-11-07T03:42:00Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1
     PkgName: wget
@@ -2726,7 +2765,13 @@
     Description: |
       Vim is an improved version of the good old UNIX editor Vi. Heap-use-after-free in memory allocated in the function `ga_grow_inner` in in the file `src/alloc.c` at line 748, which is freed in the file `src/ex_docmd.c` in the function `do_cmdline` at line 1010 and then used again in `src/cmdhist.c` at line 759. When using the `:history` command, it's possible that the provided argument overflows the accepted value. Causing an Integer Overflow and potentially later an use-after-free. This vulnerability has been patched in version 9.0.2068.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    - CWE-416
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 4
@@ -2739,7 +2784,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-10-29T01:44:00Z'
+    LastModifiedDate: '2023-11-07T18:09:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -2773,13 +2818,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1886
     - https://github.com/vim/vim/commit/2a585c85013be22f59f184d49612074fd9b115d7
     - https://huntr.dev/bounties/fa0ad526-b608-45b3-9ebc-f2b607834d6a
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/TYNK6SDCMOLQJOI3B4AOE66P2G2IH4ZM/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/TYNK6SDCMOLQJOI3B4AOE66P2G2IH4ZM/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-1886
     - https://security.gentoo.org/glsa/202208-32
     - https://security.gentoo.org/glsa/202305-16
     - https://www.cve.org/CVERecord?id=CVE-2022-1886
     PublishedDate: '2022-05-26T15:15:00Z'
-    LastModifiedDate: '2023-05-03T12:15:00Z'
+    LastModifiedDate: '2023-11-07T03:42:00Z'
   - VulnerabilityID: CVE-2020-22916
     PkgID: xz-utils@5.2.5-2ubuntu1
     PkgName: xz-utils
@@ -2795,7 +2840,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: Denial of service via decompression of crafted file
-    Description: '** DISPUTED ** An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of a crafted file. NOTE: the vendor disputes the claims of "endless output" and "denial of service" because decompression of the 17,486 bytes always results in 114,881,179 bytes, which is often a reasonable size increase.'
+    Description: 'An issue discovered in XZ 5.2.5 allows attackers to cause a denial of service via decompression of a crafted file. NOTE: the vendor disputes the claims of "endless output" and "denial of service" because decompression of the 17,486 bytes always results in 114,881,179 bytes, which is often a reasonable size increase.'
     Severity: MEDIUM
     CVSS:
       nvd:
@@ -2817,7 +2862,7 @@
     - https://tukaani.org/xz/
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-18T09:15:00Z'
+    LastModifiedDate: '2023-11-07T03:19:00Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -2881,7 +2926,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: rapid stream resets can cause excessive work (CVE-2023-44487)
+    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -2922,12 +2967,14 @@
     - https://linux.oracle.com/errata/ELSA-2023-5867.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
     - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:00Z'
-    LastModifiedDate: '2023-10-31T18:05:00Z'
+    LastModifiedDate: '2023-11-07T04:17:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     InstalledVersion: v0.12.0
@@ -2942,7 +2989,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Cross site scripting
+    Title: 'golang.org/x/net/html: Cross site scripting'
     Description: Text nodes not in the HTML namespace are incorrectly literally rendered, causing text which should be escaped to not be. This could lead to an XSS attack.
     Severity: MEDIUM
     CweIDs:
@@ -2965,7 +3012,7 @@
     - https://pkg.go.dev/vuln/GO-2023-1988
     - https://www.cve.org/CVERecord?id=CVE-2023-3978
     PublishedDate: '2023-08-02T20:15:00Z'
-    LastModifiedDate: '2023-08-07T18:24:00Z'
+    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgName: golang.org/x/net
     InstalledVersion: v0.12.0
@@ -2980,7 +3027,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
     CweIDs:
@@ -3026,6 +3073,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -3097,17 +3145,45 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
@@ -3140,6 +3216,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -3148,7 +3225,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-07T05:15:00Z'
 - Target: tmp/tmp.JdeCTRJtIn/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -3167,7 +3244,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: rapid stream resets can cause excessive work (CVE-2023-44487)
+    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -3208,12 +3285,14 @@
     - https://linux.oracle.com/errata/ELSA-2023-5867.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
     - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:00Z'
-    LastModifiedDate: '2023-10-31T18:05:00Z'
+    LastModifiedDate: '2023-11-07T04:17:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     InstalledVersion: v0.12.0
@@ -3228,7 +3307,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Cross site scripting
+    Title: 'golang.org/x/net/html: Cross site scripting'
     Description: Text nodes not in the HTML namespace are incorrectly literally rendered, causing text which should be escaped to not be. This could lead to an XSS attack.
     Severity: MEDIUM
     CweIDs:
@@ -3251,7 +3330,7 @@
     - https://pkg.go.dev/vuln/GO-2023-1988
     - https://www.cve.org/CVERecord?id=CVE-2023-3978
     PublishedDate: '2023-08-02T20:15:00Z'
-    LastModifiedDate: '2023-08-07T18:24:00Z'
+    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgName: golang.org/x/net
     InstalledVersion: v0.12.0
@@ -3266,7 +3345,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
     CweIDs:
@@ -3312,6 +3391,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -3383,17 +3463,45 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
@@ -3426,6 +3534,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -3434,7 +3543,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-07T05:15:00Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -3493,7 +3602,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: DoS vulnerability in otelhttp
+    Title: 'opentelemetry: DoS vulnerability in otelhttp'
     Description: OpenTelemetry-Go Contrib is a collection of third-party packages for OpenTelemetry-Go. A handler wrapper out of the box adds labels `http.user_agent` and `http.method` that have unbound cardinality. It leads to the server's potential memory exhaustion when many malicious requests are sent to it. HTTP header User-Agent or HTTP method for requests can be easily set by an attacker to be random and long. The library internally uses `httpconv.ServerRequest` that records every value for HTTP `method` and `User-Agent`. In order to be affected, a program has to use the `otelhttp.NewHandler` wrapper and not filter any unknown HTTP methods or User agents on the level of CDN, LB, previous middleware, etc. Version 0.44.0 fixed this issue when the values collected for attribute `http.request.method` were changed to be restricted to a set of well-known values and other high cardinality attributes were removed. As a workaround to stop being affected, `otelhttp.WithFilter()` can be used, but it requires manual careful configuration to not log certain requests entirely. For convenience and safe usage of this library, it should by default mark with the label `unknown` non-standard HTTP methods and User agents to show that such requests were made but do not increase cardinality. In case someone wants to stay with the current behavior, library API should allow to enable it.
     Severity: HIGH
     CweIDs:
@@ -3537,7 +3646,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: DoS vulnerability in otelhttp
+    Title: 'opentelemetry: DoS vulnerability in otelhttp'
     Description: OpenTelemetry-Go Contrib is a collection of third-party packages for OpenTelemetry-Go. A handler wrapper out of the box adds labels `http.user_agent` and `http.method` that have unbound cardinality. It leads to the server's potential memory exhaustion when many malicious requests are sent to it. HTTP header User-Agent or HTTP method for requests can be easily set by an attacker to be random and long. The library internally uses `httpconv.ServerRequest` that records every value for HTTP `method` and `User-Agent`. In order to be affected, a program has to use the `otelhttp.NewHandler` wrapper and not filter any unknown HTTP methods or User agents on the level of CDN, LB, previous middleware, etc. Version 0.44.0 fixed this issue when the values collected for attribute `http.request.method` were changed to be restricted to a set of well-known values and other high cardinality attributes were removed. As a workaround to stop being affected, `otelhttp.WithFilter()` can be used, but it requires manual careful configuration to not log certain requests entirely. For convenience and safe usage of this library, it should by default mark with the label `unknown` non-standard HTTP methods and User agents to show that such requests were made but do not increase cardinality. In case someone wants to stay with the current behavior, library API should allow to enable it.
     Severity: HIGH
     CweIDs:
@@ -3581,7 +3690,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: rapid stream resets can cause excessive work (CVE-2023-44487)
+    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -3622,12 +3731,14 @@
     - https://linux.oracle.com/errata/ELSA-2023-5867.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
     - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:00Z'
-    LastModifiedDate: '2023-10-31T18:05:00Z'
+    LastModifiedDate: '2023-11-07T04:17:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgName: golang.org/x/net
     InstalledVersion: v0.14.0
@@ -3642,7 +3753,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
     CweIDs:
@@ -3688,6 +3799,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -3759,17 +3871,45 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
@@ -3802,6 +3942,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -3810,7 +3951,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-07T05:15:00Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -3869,7 +4010,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: rapid stream resets can cause excessive work (CVE-2023-44487)
+    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -3910,12 +4051,14 @@
     - https://linux.oracle.com/errata/ELSA-2023-5867.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
     - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:00Z'
-    LastModifiedDate: '2023-10-31T18:05:00Z'
+    LastModifiedDate: '2023-11-07T04:17:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgName: golang.org/x/net
     InstalledVersion: v0.13.0
@@ -3930,7 +4073,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
     CweIDs:
@@ -3976,6 +4119,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -4047,17 +4191,45 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
@@ -4090,6 +4262,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -4098,7 +4271,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-07T05:15:00Z'
   - VulnerabilityID: GHSA-m425-mq94-257g
     PkgName: google.golang.org/grpc
     InstalledVersion: v1.54.0
@@ -4152,7 +4325,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
     CweIDs:
@@ -4198,6 +4371,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -4269,17 +4443,45 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
@@ -4312,6 +4514,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -4320,7 +4523,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-07T05:15:00Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -4378,7 +4581,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
     CweIDs:
@@ -4424,6 +4627,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -4495,17 +4699,45 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
@@ -4538,6 +4770,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -4546,7 +4779,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-07T05:15:00Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -4605,7 +4838,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: rapid stream resets can cause excessive work (CVE-2023-44487)
+    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
     Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
     Severity: HIGH
     CweIDs:
@@ -4646,12 +4879,14 @@
     - https://linux.oracle.com/errata/ELSA-2023-5867.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
     - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://security.netapp.com/advisory/ntap-20231110-0008/
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:00Z'
-    LastModifiedDate: '2023-10-31T18:05:00Z'
+    LastModifiedDate: '2023-11-07T04:17:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     InstalledVersion: v0.10.0
@@ -4666,7 +4901,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Cross site scripting
+    Title: 'golang.org/x/net/html: Cross site scripting'
     Description: Text nodes not in the HTML namespace are incorrectly literally rendered, causing text which should be escaped to not be. This could lead to an XSS attack.
     Severity: MEDIUM
     CweIDs:
@@ -4689,7 +4924,7 @@
     - https://pkg.go.dev/vuln/GO-2023-1988
     - https://www.cve.org/CVERecord?id=CVE-2023-3978
     PublishedDate: '2023-08-02T20:15:00Z'
-    LastModifiedDate: '2023-08-07T18:24:00Z'
+    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgName: golang.org/x/net
     InstalledVersion: v0.10.0
@@ -4704,7 +4939,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)
+    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
     Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
     Severity: MEDIUM
     CweIDs:
@@ -4750,6 +4985,7 @@
     - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
+    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6120.html
     - https://errata.rockylinux.org/RLSA-2023:5928
@@ -4821,17 +5057,45 @@
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
+    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
     - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
@@ -4864,6 +5128,7 @@
     - https://www.debian.org/security/2023/dsa-5521
     - https://www.debian.org/security/2023/dsa-5522
     - https://www.debian.org/security/2023/dsa-5540
+    - https://www.debian.org/security/2023/dsa-5549
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -4872,7 +5137,38 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-10-31T16:15:00Z'
+    LastModifiedDate: '2023-11-07T05:15:00Z'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
+      DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -4962,37 +5258,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
-      DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:6128811ea66c5f2fe6e7d0324e825547e133f2e992bfc37f74778b0bdfe306b0
       DiffID: sha256:45cc7732c78a8087f2d960a95f46bdbdf5edd7cfff205fc6c98c61f276cd2bd2
