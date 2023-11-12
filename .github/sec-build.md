@@ -1140,9 +1140,11 @@
 │                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-4813.html 
 │                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2023-5455.html 
 │                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
-│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
+│                       │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202311
+│                       │      │                  │       10-0003/ 
+│                       │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │      ├ PublishedDate   : 2023-09-12T22:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T04:23:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
 │                       ├ [25] ╭ VulnerabilityID : CVE-2023-5156 
 │                       │      ├ PkgID           : libc6@2.35-0ubuntu3.4 
 │                       │      ├ PkgName         : libc6 
@@ -1357,9 +1359,11 @@
 │                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-4813.html 
 │                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2023-5455.html 
 │                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-4813 
-│                       │      │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
+│                       │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202311
+│                       │      │                  │       10-0003/ 
+│                       │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-4813 
 │                       │      ├ PublishedDate   : 2023-09-12T22:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T04:23:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2023-34969 
 │                       │      ├ PkgID           : libdbus-1-3@1.12.20-2ubuntu4.1 
 │                       │      ├ PkgName         : libdbus-1-3 
@@ -3282,7 +3286,7 @@
 │                       │     │                  │        
 │                       │     │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-11-07T04:17:00Z 
+│                       │     ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
 │                       │     ├ PkgName         : golang.org/x/net 
 │                       │     ├ InstalledVersion: v0.12.0 
@@ -3794,7 +3798,7 @@
 │                       │     │                  │        
 │                       │     │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-11-07T04:17:00Z 
+│                       │     ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
 │                       │     ├ PkgName         : golang.org/x/net 
 │                       │     ├ InstalledVersion: v0.12.0 
@@ -4551,7 +4555,7 @@
 │                       │     │                  │        
 │                       │     │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-11-07T04:17:00Z 
+│                       │     ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
 │                       ╰ [4] ╭ VulnerabilityID : CVE-2023-44487 
 │                             ├ PkgName         : golang.org/x/net 
 │                             ├ InstalledVersion: v0.14.0 
@@ -5111,7 +5115,7 @@
 │                       │     │                  │        
 │                       │     │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-11-07T04:17:00Z 
+│                       │     ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-3978 
 │                       │     ├ PkgName         : golang.org/x/net 
 │                       │     ├ InstalledVersion: v0.10.0 
