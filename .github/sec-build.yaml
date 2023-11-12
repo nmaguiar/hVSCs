@@ -993,9 +993,10 @@
     - https://linux.oracle.com/cve/CVE-2023-4813.html
     - https://linux.oracle.com/errata/ELSA-2023-5455.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
+    - https://security.netapp.com/advisory/ntap-20231110-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-11-07T04:23:00Z'
+    LastModifiedDate: '2023-11-10T18:15:00Z'
   - VulnerabilityID: CVE-2023-5156
     PkgID: libc6@2.35-0ubuntu3.4
     PkgName: libc6
@@ -1174,9 +1175,10 @@
     - https://linux.oracle.com/cve/CVE-2023-4813.html
     - https://linux.oracle.com/errata/ELSA-2023-5455.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
+    - https://security.netapp.com/advisory/ntap-20231110-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-4813
     PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-11-07T04:23:00Z'
+    LastModifiedDate: '2023-11-10T18:15:00Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
     PkgName: libdbus-1-3
@@ -2806,7 +2808,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:00Z'
-    LastModifiedDate: '2023-11-07T04:17:00Z'
+    LastModifiedDate: '2023-11-10T18:15:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     InstalledVersion: v0.12.0
@@ -3124,7 +3126,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:00Z'
-    LastModifiedDate: '2023-11-07T04:17:00Z'
+    LastModifiedDate: '2023-11-10T18:15:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     InstalledVersion: v0.12.0
@@ -3570,7 +3572,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:00Z'
-    LastModifiedDate: '2023-11-07T04:17:00Z'
+    LastModifiedDate: '2023-11-10T18:15:00Z'
   - VulnerabilityID: CVE-2023-44487
     PkgName: golang.org/x/net
     InstalledVersion: v0.14.0
@@ -3890,7 +3892,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:00Z'
-    LastModifiedDate: '2023-11-07T04:17:00Z'
+    LastModifiedDate: '2023-11-10T18:15:00Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     InstalledVersion: v0.10.0
