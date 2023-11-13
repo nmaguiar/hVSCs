@@ -4304,7 +4304,65 @@
 │                       │     ╰ References       ╭ [0]: https://github.com/moby/moby 
 │                       │                        ╰ [1]: https://github.com/moby/moby/security/advisories/G
 │                       │                               HSA-jq35-85cj-fj4p 
-│                       ├ [1] ╭ VulnerabilityID : CVE-2023-45142 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2023-47108 
+│                       │     ├ PkgName         : go.opentelemetry.io/contrib/instrumentation/google.golan
+│                       │     │                   g.org/grpc/otelgrpc 
+│                       │     ├ InstalledVersion: v0.40.0 
+│                       │     ├ FixedVersion    : 0.46.0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d
+│                       │     │                  │         126ea1502d08f2be6a37f58c 
+│                       │     │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf
+│                       │     │                            8aceb8c197cdfdde359873f7 
+│                       │     ├ SeveritySource  : ghsa 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-47108 
+│                       │     ├ DataSource       ╭ ID  : ghsa 
+│                       │     │                  ├ Name: GitHub Security Advisory Go 
+│                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
+│                       │     │                          ed+ecosystem%3Ago 
+│                       │     ├ Title           : otelgrpc DoS vulnerability due to unbound cardinality
+│                       │     │                   metrics  
+│                       │     ├ Description     : OpenTelemetry-Go Contrib is a collection of third-party
+│                       │     │                   packages for OpenTelemetry-Go. Prior to version 0.46.0, the
+│                       │     │                   grpc Unary Server Interceptor out of the box adds labels
+│                       │     │                   `net.peer.sock.addr` and `net.peer.sock.port` that have
+│                       │     │                   unbound cardinality. It leads to the server's potential
+│                       │     │                   memory exhaustion when many malicious requests are sent. An
+│                       │     │                   attacker can easily flood the peer address and port for
+│                       │     │                   requests. Version 0.46.0 contains a fix for this issue. As a
+│                       │     │                   workaround to stop being affected, a view removing the
+│                       │     │                   attributes can be used. The other possibility is to disable
+│                       │     │                   grpc metrics instrumentation by passing
+│                       │     │                   `otelgrpc.WithMeterProvider` option with
+│                       │     │                   `noop.NewMeterProvider`. 
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
+│                       │     │                         │           :N/A:H 
+│                       │     │                         ╰ V3Score : 7.5 
+│                       │     ├ References       ╭ [0]: https://github.com/open-telemetry/opentelemetry-go
+│                       │     │                  │      -contrib 
+│                       │     │                  ├ [1]: https://github.com/open-telemetry/opentelemetry-go
+│                       │     │                  │      -contrib/blob/9d4eb7e7706038b07d33f83f76afbe13f53d171d/
+│                       │     │                  │      instrumentation/google.golang.org/grpc/otelgrpc/interce
+│                       │     │                  │      ptor.go#L327 
+│                       │     │                  ├ [2]: https://github.com/open-telemetry/opentelemetry-go
+│                       │     │                  │      -contrib/blob/instrumentation/google.golang.org/grpc/ot
+│                       │     │                  │      elgrpc/v0.45.0/instrumentation/google.golang.org/grpc/o
+│                       │     │                  │      telgrpc/config.go#L138 
+│                       │     │                  ├ [3]: https://github.com/open-telemetry/opentelemetry-go
+│                       │     │                  │      -contrib/commit/b44dfc9092b157625a5815cb437583cee663333
+│                       │     │                  │      b 
+│                       │     │                  ├ [4]: https://github.com/open-telemetry/opentelemetry-go
+│                       │     │                  │      -contrib/pull/4322 
+│                       │     │                  ├ [5]: https://github.com/open-telemetry/opentelemetry-go
+│                       │     │                  │      -contrib/security/advisories/GHSA-8pgv-569h-w5rw
+│                       │     │                  │      [m 
+│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-47108 
+│                       │     │                  ╰ [7]: https://pkg.go.dev/go.opentelemetry.io/otel/metric
+│                       │     │                         /noop#NewMeterProvider 
+│                       │     ├ PublishedDate   : 2023-11-10T19:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-11-10T19:15:00Z 
+│                       ├ [2] ╭ VulnerabilityID : CVE-2023-45142 
 │                       │     ├ PkgName         : go.opentelemetry.io/contrib/instrumentation/net/http/htt
 │                       │     │                   ptrace/otelhttptrace 
 │                       │     ├ InstalledVersion: v0.40.0 
@@ -4384,7 +4442,7 @@
 │                       │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-45142 
 │                       │     ├ PublishedDate   : 2023-10-12T17:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-10-18T18:27:00Z 
-│                       ├ [2] ╭ VulnerabilityID : CVE-2023-45142 
+│                       ├ [3] ╭ VulnerabilityID : CVE-2023-45142 
 │                       │     ├ PkgName         : go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp 
 │                       │     ├ InstalledVersion: v0.40.0 
 │                       │     ├ FixedVersion    : 0.44.0 
@@ -4463,7 +4521,7 @@
 │                       │     │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-45142 
 │                       │     ├ PublishedDate   : 2023-10-12T17:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-10-18T18:27:00Z 
-│                       ├ [3] ╭ VulnerabilityID : CVE-2023-39325 
+│                       ├ [4] ╭ VulnerabilityID : CVE-2023-39325 
 │                       │     ├ PkgName         : golang.org/x/net 
 │                       │     ├ InstalledVersion: v0.14.0 
 │                       │     ├ FixedVersion    : 0.17.0 
@@ -4556,7 +4614,7 @@
 │                       │     │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
-│                       ╰ [4] ╭ VulnerabilityID : CVE-2023-44487 
+│                       ╰ [5] ╭ VulnerabilityID : CVE-2023-44487 
 │                             ├ PkgName         : golang.org/x/net 
 │                             ├ InstalledVersion: v0.14.0 
 │                             ├ FixedVersion    : 0.17.0 
