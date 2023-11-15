@@ -1490,7 +1490,8 @@
     PkgID: libprocps8@2:3.3.17-6ubuntu2
     PkgName: libprocps8
     InstalledVersion: 2:3.3.17-6ubuntu2
-    Status: affected
+    FixedVersion: 2:3.3.17-6ubuntu2.1
+    Status: fixed
     Layer:
       Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
       DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
@@ -1518,6 +1519,7 @@
     - https://gitlab.com/procps-ng/procps
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SUETRRT24OFGPYK6ACPM5VUGHNKH5CQ5/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4016
+    - https://ubuntu.com/security/notices/USN-6477-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4016
     PublishedDate: '2023-08-02T05:15:00Z'
     LastModifiedDate: '2023-08-21T03:15:00Z'
@@ -2157,7 +2159,8 @@
     PkgID: procps@2:3.3.17-6ubuntu2
     PkgName: procps
     InstalledVersion: 2:3.3.17-6ubuntu2
-    Status: affected
+    FixedVersion: 2:3.3.17-6ubuntu2.1
+    Status: fixed
     Layer:
       Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
       DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
@@ -2185,6 +2188,7 @@
     - https://gitlab.com/procps-ng/procps
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SUETRRT24OFGPYK6ACPM5VUGHNKH5CQ5/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4016
+    - https://ubuntu.com/security/notices/USN-6477-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4016
     PublishedDate: '2023-08-02T05:15:00Z'
     LastModifiedDate: '2023-08-21T03:15:00Z'
