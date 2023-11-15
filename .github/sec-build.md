@@ -1712,7 +1712,8 @@
 │                       │      ├ PkgID           : libprocps8@2:3.3.17-6ubuntu2 
 │                       │      ├ PkgName         : libprocps8 
 │                       │      ├ InstalledVersion: 2:3.3.17-6ubuntu2 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:3.3.17-6ubuntu2.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728
 │                       │      │                  │         d126ea1502d08f2be6a37f58c 
 │                       │      │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3ca
@@ -1743,7 +1744,8 @@
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/SUETRRT2
 │                       │      │                  │      4OFGPYK6ACPM5VUGHNKH5CQ5/ 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6477-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2023-27043 
@@ -2486,7 +2488,8 @@
 │                       │      ├ PkgID           : procps@2:3.3.17-6ubuntu2 
 │                       │      ├ PkgName         : procps 
 │                       │      ├ InstalledVersion: 2:3.3.17-6ubuntu2 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 2:3.3.17-6ubuntu2.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728
 │                       │      │                  │         d126ea1502d08f2be6a37f58c 
 │                       │      │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3ca
@@ -2517,7 +2520,8 @@
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/SUETRRT2
 │                       │      │                  │      4OFGPYK6ACPM5VUGHNKH5CQ5/ 
 │                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6477-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
 │                       ├ [56] ╭ VulnerabilityID : CVE-2023-27043 
