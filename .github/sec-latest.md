@@ -1021,7 +1021,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : potential use-after-free in getaddrinfo() 
+│                       │      ├ Title           : glibc: potential use-after-free in getaddrinfo() 
 │                       │      ├ Description     : A flaw was found in glibc. In an extremely rare
 │                       │      │                   situation, the getaddrinfo function may access memory that
 │                       │      │                   has been freed, resulting in an application crash. This
@@ -1099,7 +1099,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : potential use-after-free in gaih_inet() 
+│                       │      ├ Title           : glibc: potential use-after-free in gaih_inet() 
 │                       │      ├ Description     : A flaw was found in glibc. In an uncommon situation,
 │                       │      │                   the gaih_inet function may use memory that has been freed,
 │                       │      │                   resulting in an application crash. This issue is only
@@ -1240,7 +1240,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : potential use-after-free in getaddrinfo() 
+│                       │      ├ Title           : glibc: potential use-after-free in getaddrinfo() 
 │                       │      ├ Description     : A flaw was found in glibc. In an extremely rare
 │                       │      │                   situation, the getaddrinfo function may access memory that
 │                       │      │                   has been freed, resulting in an application crash. This
@@ -1318,7 +1318,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : potential use-after-free in gaih_inet() 
+│                       │      ├ Title           : glibc: potential use-after-free in gaih_inet() 
 │                       │      ├ Description     : A flaw was found in glibc. In an uncommon situation,
 │                       │      │                   the gaih_inet function may use memory that has been freed,
 │                       │      │                   resulting in an application crash. This issue is only
@@ -1722,7 +1722,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : ps buffer overflow 
+│                       │      ├ Title           : procps: ps buffer overflow 
 │                       │      ├ Description     : Under some circumstances, this weakness allows a user
 │                       │      │                   who has access to run the “ps” utility on a machine, the
 │                       │      │                   ability to write almost unlimited amounts of unfiltered data
@@ -2112,7 +2112,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : buffer overrun in util.c 
+│                       │      ├ Title           : zstd: mysql: buffer overrun in util.c 
 │                       │      ├ Description     : A vulnerability was found in zstd v1.4.10, where an
 │                       │      │                   attacker can supply empty string as an argument to the
 │                       │      │                   command line tool to cause buffer overrun. 
@@ -2496,7 +2496,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : ps buffer overflow 
+│                       │      ├ Title           : procps: ps buffer overflow 
 │                       │      ├ Description     : Under some circumstances, this weakness allows a user
 │                       │      │                   who has access to run the “ps” utility on a machine, the
 │                       │      │                   ability to write almost unlimited amounts of unfiltered data
@@ -3259,7 +3259,7 @@
 │                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2023-44487 
 │                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
+│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                       │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                       │     │                  ├ [14]: https://go.dev/cl/534215 
 │                       │     │                  ├ [15]: https://go.dev/cl/534235 
@@ -3416,7 +3416,7 @@
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
 │                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6120.html 
-│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
 │                             │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35
@@ -3771,7 +3771,7 @@
 │                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2023-44487 
 │                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
+│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                       │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                       │     │                  ├ [14]: https://go.dev/cl/534215 
 │                       │     │                  ├ [15]: https://go.dev/cl/534235 
@@ -3928,7 +3928,7 @@
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
 │                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6120.html 
-│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
 │                             │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35
@@ -4361,7 +4361,7 @@
 │                       │     │                  ╰ [7]: https://pkg.go.dev/go.opentelemetry.io/otel/metric
 │                       │     │                         /noop#NewMeterProvider 
 │                       │     ├ PublishedDate   : 2023-11-10T19:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-11-10T19:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-11-13T03:16:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-45142 
 │                       │     ├ PkgName         : go.opentelemetry.io/contrib/instrumentation/net/http/htt
 │                       │     │                   ptrace/otelhttptrace 
@@ -4586,7 +4586,7 @@
 │                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2023-44487 
 │                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
+│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                       │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                       │     │                  ├ [14]: https://go.dev/cl/534215 
 │                       │     │                  ├ [15]: https://go.dev/cl/534235 
@@ -4705,7 +4705,7 @@
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
 │                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6120.html 
-│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
 │                             │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35
@@ -5146,7 +5146,7 @@
 │                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2023-44487 
 │                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
+│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                       │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                       │     │                  ├ [14]: https://go.dev/cl/534215 
 │                       │     │                  ├ [15]: https://go.dev/cl/534235 
@@ -5303,7 +5303,7 @@
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
 │                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6120.html 
-│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
 │                             │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35
