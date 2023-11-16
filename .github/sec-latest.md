@@ -160,7 +160,6 @@
 │                       │      │                   denial-of-service vulnerability. The fixed versions are
 │                       │      │                   1.12.28, 1.14.8, and 1.15.6. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-400 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 6.5 
@@ -187,7 +186,7 @@
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6372-1 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                       │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T04:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-15T03:26:00Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2023-34969 
 │                       │      ├ PkgID           : dbus-user-session@1.12.20-2ubuntu4.1 
 │                       │      ├ PkgName         : dbus-user-session 
@@ -216,7 +215,6 @@
 │                       │      │                   denial-of-service vulnerability. The fixed versions are
 │                       │      │                   1.12.28, 1.14.8, and 1.15.6. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-400 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 6.5 
@@ -243,7 +241,7 @@
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6372-1 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                       │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T04:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-15T03:26:00Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : dirmngr@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : dirmngr 
@@ -1392,7 +1390,6 @@
 │                       │      │                   denial-of-service vulnerability. The fixed versions are
 │                       │      │                   1.12.28, 1.14.8, and 1.15.6. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ CweIDs           ─ [0]: CWE-400 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                  │        │           N/I:N/A:H 
 │                       │      │                  │        ╰ V3Score : 6.5 
@@ -1419,7 +1416,7 @@
 │                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6372-1 
 │                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                       │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T04:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-15T03:26:00Z 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libgcc-s1 
@@ -1736,16 +1733,19 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:L 
 │                       │      │                           ╰ V3Score : 2.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4016 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:6705 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4016 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2228494 
+│                       │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-4016 
-│                       │      │                  ├ [2]: https://gitlab.com/procps-ng/procps 
-│                       │      │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2023-6705.html 
+│                       │      │                  ├ [5]: https://gitlab.com/procps-ng/procps 
+│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/SUETRRT2
 │                       │      │                  │      4OFGPYK6ACPM5VUGHNKH5CQ5/ 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6477-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6477-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2023-27043 
@@ -2091,13 +2091,19 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 5.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:6575 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-3576 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2219340 
-│                       │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-3576 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
-│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6575 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-3576 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2207635 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2215206 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2216080 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2218749 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2219340 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2219340 
+│                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-3576 
+│                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-6575.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
 │                       │      ├ PublishedDate   : 2023-10-04T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T14:15:00Z 
 │                       ├ [46] ╭ VulnerabilityID : CVE-2022-4899 
@@ -2512,16 +2518,19 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:L 
 │                       │      │                           ╰ V3Score : 2.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-4016 
-│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:6705 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4016 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2228494 
+│                       │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-4016 
-│                       │      │                  ├ [2]: https://gitlab.com/procps-ng/procps 
-│                       │      │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2023-6705.html 
+│                       │      │                  ├ [5]: https://gitlab.com/procps-ng/procps 
+│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/SUETRRT2
 │                       │      │                  │      4OFGPYK6ACPM5VUGHNKH5CQ5/ 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6477-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
+│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6477-1 
+│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
 │                       ├ [56] ╭ VulnerabilityID : CVE-2023-27043 
@@ -3321,12 +3330,27 @@
 │                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L
 │                       │     │                           │           /I:L/A:N 
 │                       │     │                           ╰ V3Score : 6.1 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3978 
-│                       │     │                  ├ [1]: https://go.dev/cl/514896 
-│                       │     │                  ├ [2]: https://go.dev/issue/61615 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
-│                       │     │                  ├ [4]: https://pkg.go.dev/vuln/GO-2023-1988 
-│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6474 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-3978 
+│                       │     │                  ├ [2] : https://bugzilla.redhat.com/2174485 
+│                       │     │                  ├ [3] : https://bugzilla.redhat.com/2178358 
+│                       │     │                  ├ [4] : https://bugzilla.redhat.com/2178488 
+│                       │     │                  ├ [5] : https://bugzilla.redhat.com/2178492 
+│                       │     │                  ├ [6] : https://bugzilla.redhat.com/2184481 
+│                       │     │                  ├ [7] : https://bugzilla.redhat.com/2184482 
+│                       │     │                  ├ [8] : https://bugzilla.redhat.com/2184483 
+│                       │     │                  ├ [9] : https://bugzilla.redhat.com/2184484 
+│                       │     │                  ├ [10]: https://bugzilla.redhat.com/2196026 
+│                       │     │                  ├ [11]: https://bugzilla.redhat.com/2196027 
+│                       │     │                  ├ [12]: https://bugzilla.redhat.com/2196029 
+│                       │     │                  ├ [13]: https://bugzilla.redhat.com/2222167 
+│                       │     │                  ├ [14]: https://bugzilla.redhat.com/2228689 
+│                       │     │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-6474.html 
+│                       │     │                  ├ [16]: https://go.dev/cl/514896 
+│                       │     │                  ├ [17]: https://go.dev/issue/61615 
+│                       │     │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
+│                       │     │                  ├ [19]: https://pkg.go.dev/vuln/GO-2023-1988 
+│                       │     │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                       │     ├ PublishedDate   : 2023-08-02T20:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-07T04:20:00Z 
 │                       ╰ [2] ╭ VulnerabilityID : CVE-2023-44487 
@@ -3376,7 +3400,7 @@
 │                             │                  │        10/19/6 
 │                             │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023/
 │                             │                  │        10/20/8 
-│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6120 
+│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6746 
 │                             │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                             │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023-44487 
 │                             │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-ddo
@@ -3419,7 +3443,7 @@
 │                             │                  │        5 
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
-│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6120.html 
+│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
 │                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
@@ -3833,12 +3857,27 @@
 │                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L
 │                       │     │                           │           /I:L/A:N 
 │                       │     │                           ╰ V3Score : 6.1 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3978 
-│                       │     │                  ├ [1]: https://go.dev/cl/514896 
-│                       │     │                  ├ [2]: https://go.dev/issue/61615 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
-│                       │     │                  ├ [4]: https://pkg.go.dev/vuln/GO-2023-1988 
-│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6474 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-3978 
+│                       │     │                  ├ [2] : https://bugzilla.redhat.com/2174485 
+│                       │     │                  ├ [3] : https://bugzilla.redhat.com/2178358 
+│                       │     │                  ├ [4] : https://bugzilla.redhat.com/2178488 
+│                       │     │                  ├ [5] : https://bugzilla.redhat.com/2178492 
+│                       │     │                  ├ [6] : https://bugzilla.redhat.com/2184481 
+│                       │     │                  ├ [7] : https://bugzilla.redhat.com/2184482 
+│                       │     │                  ├ [8] : https://bugzilla.redhat.com/2184483 
+│                       │     │                  ├ [9] : https://bugzilla.redhat.com/2184484 
+│                       │     │                  ├ [10]: https://bugzilla.redhat.com/2196026 
+│                       │     │                  ├ [11]: https://bugzilla.redhat.com/2196027 
+│                       │     │                  ├ [12]: https://bugzilla.redhat.com/2196029 
+│                       │     │                  ├ [13]: https://bugzilla.redhat.com/2222167 
+│                       │     │                  ├ [14]: https://bugzilla.redhat.com/2228689 
+│                       │     │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-6474.html 
+│                       │     │                  ├ [16]: https://go.dev/cl/514896 
+│                       │     │                  ├ [17]: https://go.dev/issue/61615 
+│                       │     │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
+│                       │     │                  ├ [19]: https://pkg.go.dev/vuln/GO-2023-1988 
+│                       │     │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                       │     ├ PublishedDate   : 2023-08-02T20:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-07T04:20:00Z 
 │                       ╰ [2] ╭ VulnerabilityID : CVE-2023-44487 
@@ -3888,7 +3927,7 @@
 │                             │                  │        10/19/6 
 │                             │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023/
 │                             │                  │        10/20/8 
-│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6120 
+│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6746 
 │                             │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                             │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023-44487 
 │                             │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-ddo
@@ -3931,7 +3970,7 @@
 │                             │                  │        5 
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
-│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6120.html 
+│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
 │                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
@@ -4665,7 +4704,7 @@
 │                             │                  │        10/19/6 
 │                             │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023/
 │                             │                  │        10/20/8 
-│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6120 
+│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6746 
 │                             │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                             │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023-44487 
 │                             │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-ddo
@@ -4708,7 +4747,7 @@
 │                             │                  │        5 
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
-│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6120.html 
+│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
 │                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
@@ -5208,12 +5247,27 @@
 │                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L
 │                       │     │                           │           /I:L/A:N 
 │                       │     │                           ╰ V3Score : 6.1 
-│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3978 
-│                       │     │                  ├ [1]: https://go.dev/cl/514896 
-│                       │     │                  ├ [2]: https://go.dev/issue/61615 
-│                       │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
-│                       │     │                  ├ [4]: https://pkg.go.dev/vuln/GO-2023-1988 
-│                       │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
+│                       │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6474 
+│                       │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-3978 
+│                       │     │                  ├ [2] : https://bugzilla.redhat.com/2174485 
+│                       │     │                  ├ [3] : https://bugzilla.redhat.com/2178358 
+│                       │     │                  ├ [4] : https://bugzilla.redhat.com/2178488 
+│                       │     │                  ├ [5] : https://bugzilla.redhat.com/2178492 
+│                       │     │                  ├ [6] : https://bugzilla.redhat.com/2184481 
+│                       │     │                  ├ [7] : https://bugzilla.redhat.com/2184482 
+│                       │     │                  ├ [8] : https://bugzilla.redhat.com/2184483 
+│                       │     │                  ├ [9] : https://bugzilla.redhat.com/2184484 
+│                       │     │                  ├ [10]: https://bugzilla.redhat.com/2196026 
+│                       │     │                  ├ [11]: https://bugzilla.redhat.com/2196027 
+│                       │     │                  ├ [12]: https://bugzilla.redhat.com/2196029 
+│                       │     │                  ├ [13]: https://bugzilla.redhat.com/2222167 
+│                       │     │                  ├ [14]: https://bugzilla.redhat.com/2228689 
+│                       │     │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-6474.html 
+│                       │     │                  ├ [16]: https://go.dev/cl/514896 
+│                       │     │                  ├ [17]: https://go.dev/issue/61615 
+│                       │     │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
+│                       │     │                  ├ [19]: https://pkg.go.dev/vuln/GO-2023-1988 
+│                       │     │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                       │     ├ PublishedDate   : 2023-08-02T20:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-07T04:20:00Z 
 │                       ╰ [3] ╭ VulnerabilityID : CVE-2023-44487 
@@ -5263,7 +5317,7 @@
 │                             │                  │        10/19/6 
 │                             │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023/
 │                             │                  │        10/20/8 
-│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6120 
+│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6746 
 │                             │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                             │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023-44487 
 │                             │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-ddo
@@ -5306,7 +5360,7 @@
 │                             │                  │        5 
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
-│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6120.html 
+│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
 │                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
