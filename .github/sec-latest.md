@@ -166,13 +166,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-34969 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -221,13 +221,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-34969 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1065,7 +1065,7 @@
 │                       │      │                  │       VE-2023-4813 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-4911 
-│                       │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │      │                  ├ [19]: https://errata.almalinux.org/8/ALSA-2023-5455.html 
 │                       │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2023:5455 
 │                       │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-4806.html 
 │                       │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2023-5455.html 
@@ -1133,7 +1133,7 @@
 │                       │      │                  │       VE-2023-4813 
 │                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-4911 
-│                       │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │      │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2023-5455.html 
 │                       │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2023:5455 
 │                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-4813.html 
 │                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2023-5455.html 
@@ -1284,7 +1284,7 @@
 │                       │      │                  │       VE-2023-4813 
 │                       │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-4911 
-│                       │      │                  ├ [19]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │      │                  ├ [19]: https://errata.almalinux.org/8/ALSA-2023-5455.html 
 │                       │      │                  ├ [20]: https://errata.rockylinux.org/RLSA-2023:5455 
 │                       │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-4806.html 
 │                       │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2023-5455.html 
@@ -1352,7 +1352,7 @@
 │                       │      │                  │       VE-2023-4813 
 │                       │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-4911 
-│                       │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2023-5453.html 
+│                       │      │                  ├ [16]: https://errata.almalinux.org/8/ALSA-2023-5455.html 
 │                       │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2023:5455 
 │                       │      │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-4813.html 
 │                       │      │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2023-5455.html 
@@ -1396,13 +1396,13 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 6.2 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4569 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:4498 
 │                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-34969 
 │                       │      │                  ├ [2] : https://bugzilla.redhat.com/2213166 
 │                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2213166 
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
-│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/8/ALSA-2023-4498.html 
 │                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1733,19 +1733,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:L 
 │                       │      │                           ╰ V3Score : 2.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:6705 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4016 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2228494 
-│                       │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-4016 
-│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2023-6705.html 
-│                       │      │                  ├ [5]: https://gitlab.com/procps-ng/procps 
-│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/SUETRRT2
-│                       │      │                  │      4OFGPYK6ACPM5VUGHNKH5CQ5/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6477-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6705 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-4016 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2228494 
+│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-4016 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-6705.html 
+│                       │      │                  ├ [5] : https://gitlab.com/procps-ng/procps 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4016.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-6705.html 
+│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/SUETRR
+│                       │      │                  │       T24OFGPYK6ACPM5VUGHNKH5CQ5/ 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6477-1 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2023-27043 
@@ -1915,7 +1917,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : safe mode authorizer callback allows disallowed UDFs 
+│                       │      ├ Title           : sqlite: safe mode authorizer callback allows disallowed UDFs 
 │                       │      ├ Description     : SQLite through 3.40.0, when relying on --safe for
 │                       │      │                   execution of an untrusted CLI script, does not properly
 │                       │      │                   implement the azProhibitedFunctions protection mechanism,
@@ -2102,8 +2104,10 @@
 │                       │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-3576 
 │                       │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2023-6575.html 
-│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
+│                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-3576.html 
+│                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2023-6575.html 
+│                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
 │                       │      ├ PublishedDate   : 2023-10-04T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T14:15:00Z 
 │                       ├ [46] ╭ VulnerabilityID : CVE-2022-4899 
@@ -2518,19 +2522,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:L 
 │                       │      │                           ╰ V3Score : 2.5 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2023:6705 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4016 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/2228494 
-│                       │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │      │                  │      E-2023-4016 
-│                       │      │                  ├ [4]: https://errata.almalinux.org/9/ALSA-2023-6705.html 
-│                       │      │                  ├ [5]: https://gitlab.com/procps-ng/procps 
-│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
-│                       │      │                  │      kage-announce@lists.fedoraproject.org/message/SUETRRT2
-│                       │      │                  │      4OFGPYK6ACPM5VUGHNKH5CQ5/ 
-│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
-│                       │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6477-1 
-│                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6705 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-4016 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2228494 
+│                       │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-4016 
+│                       │      │                  ├ [4] : https://errata.almalinux.org/9/ALSA-2023-6705.html 
+│                       │      │                  ├ [5] : https://gitlab.com/procps-ng/procps 
+│                       │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2023-4016.html 
+│                       │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2023-6705.html 
+│                       │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/SUETRR
+│                       │      │                  │       T24OFGPYK6ACPM5VUGHNKH5CQ5/ 
+│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-4016 
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6477-1 
+│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
 │                       ├ [56] ╭ VulnerabilityID : CVE-2023-27043 
@@ -3258,7 +3264,7 @@
 │                       │     │                            │           N/I:N/A:H 
 │                       │     │                            ╰ V3Score : 7.5 
 │                       │     ├ References       ╭ [0] : golang.org/x/net 
-│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:6077 
+│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
 │                       │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
 │                       │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                       │     │                  ├ [4] : https://access.redhat.com/security/vulnerabilitie
@@ -3271,7 +3277,7 @@
 │                       │     │                  │       E-2023-39325 
 │                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2023-44487 
-│                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
+│                       │     │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2023-5863.html 
 │                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                       │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                       │     │                  ├ [14]: https://go.dev/cl/534215 
@@ -3285,19 +3291,25 @@
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
 │                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2/ 
 │                       │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
+│                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE/ 
+│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
 │                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE/ 
-│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
+│                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
+│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
 │                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [24]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [25]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [26]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [27]: https://security.netapp.com/advisory/ntap-2023111
 │                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [26]: https://www.cisa.gov/news-events/alerts/2023/10/1
+│                       │     │                  ├ [28]: https://www.cisa.gov/news-events/alerts/2023/10/1
 │                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
 │                       │     │                  │        
-│                       │     │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
@@ -3348,9 +3360,11 @@
 │                       │     │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-6474.html 
 │                       │     │                  ├ [16]: https://go.dev/cl/514896 
 │                       │     │                  ├ [17]: https://go.dev/issue/61615 
-│                       │     │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
-│                       │     │                  ├ [19]: https://pkg.go.dev/vuln/GO-2023-1988 
-│                       │     │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
+│                       │     │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-3978.html 
+│                       │     │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2023-6474.html 
+│                       │     │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
+│                       │     │                  ├ [21]: https://pkg.go.dev/vuln/GO-2023-1988 
+│                       │     │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                       │     ├ PublishedDate   : 2023-08-02T20:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-07T04:20:00Z 
 │                       ╰ [2] ╭ VulnerabilityID : CVE-2023-44487 
@@ -3400,7 +3414,7 @@
 │                             │                  │        10/19/6 
 │                             │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023/
 │                             │                  │        10/20/8 
-│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6746 
+│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5989 
 │                             │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                             │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023-44487 
 │                             │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-ddo
@@ -3443,7 +3457,7 @@
 │                             │                  │        5 
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
-│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
+│                             │                  ├ [29] : https://errata.almalinux.org/8/ALSA-2023-5989.html 
 │                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
@@ -3530,7 +3544,7 @@
 │                             │                  │        rity-2023-004/ 
 │                             │                  ├ [90] : https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/ 
 │                             │                  ├ [91] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                             │                  ├ [92] : https://linux.oracle.com/errata/ELSA-2023-6120.html 
+│                             │                  ├ [92] : https://linux.oracle.com/errata/ELSA-2023-6746.html 
 │                             │                  ├ [93] : https://lists.apache.org/thread/5py8h42mxfsn8l1w
 │                             │                  │        y6o41xwhsjlsd87q 
 │                             │                  ├ [94] : https://lists.debian.org/debian-lts-announce/202
@@ -3785,7 +3799,7 @@
 │                       │     │                            │           N/I:N/A:H 
 │                       │     │                            ╰ V3Score : 7.5 
 │                       │     ├ References       ╭ [0] : golang.org/x/net 
-│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:6077 
+│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
 │                       │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
 │                       │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                       │     │                  ├ [4] : https://access.redhat.com/security/vulnerabilitie
@@ -3798,7 +3812,7 @@
 │                       │     │                  │       E-2023-39325 
 │                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2023-44487 
-│                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
+│                       │     │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2023-5863.html 
 │                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                       │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                       │     │                  ├ [14]: https://go.dev/cl/534215 
@@ -3812,19 +3826,25 @@
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
 │                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2/ 
 │                       │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
+│                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE/ 
+│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
 │                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE/ 
-│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
+│                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
+│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
 │                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [24]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [25]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [26]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [27]: https://security.netapp.com/advisory/ntap-2023111
 │                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [26]: https://www.cisa.gov/news-events/alerts/2023/10/1
+│                       │     │                  ├ [28]: https://www.cisa.gov/news-events/alerts/2023/10/1
 │                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
 │                       │     │                  │        
-│                       │     │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
@@ -3875,9 +3895,11 @@
 │                       │     │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-6474.html 
 │                       │     │                  ├ [16]: https://go.dev/cl/514896 
 │                       │     │                  ├ [17]: https://go.dev/issue/61615 
-│                       │     │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
-│                       │     │                  ├ [19]: https://pkg.go.dev/vuln/GO-2023-1988 
-│                       │     │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
+│                       │     │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-3978.html 
+│                       │     │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2023-6474.html 
+│                       │     │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
+│                       │     │                  ├ [21]: https://pkg.go.dev/vuln/GO-2023-1988 
+│                       │     │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                       │     ├ PublishedDate   : 2023-08-02T20:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-07T04:20:00Z 
 │                       ╰ [2] ╭ VulnerabilityID : CVE-2023-44487 
@@ -3927,7 +3949,7 @@
 │                             │                  │        10/19/6 
 │                             │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023/
 │                             │                  │        10/20/8 
-│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6746 
+│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5989 
 │                             │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                             │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023-44487 
 │                             │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-ddo
@@ -3970,7 +3992,7 @@
 │                             │                  │        5 
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
-│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
+│                             │                  ├ [29] : https://errata.almalinux.org/8/ALSA-2023-5989.html 
 │                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
@@ -4057,7 +4079,7 @@
 │                             │                  │        rity-2023-004/ 
 │                             │                  ├ [90] : https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/ 
 │                             │                  ├ [91] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                             │                  ├ [92] : https://linux.oracle.com/errata/ELSA-2023-6120.html 
+│                             │                  ├ [92] : https://linux.oracle.com/errata/ELSA-2023-6746.html 
 │                             │                  ├ [93] : https://lists.apache.org/thread/5py8h42mxfsn8l1w
 │                             │                  │        y6o41xwhsjlsd87q 
 │                             │                  ├ [94] : https://lists.debian.org/debian-lts-announce/202
@@ -4615,7 +4637,7 @@
 │                       │     │                            │           N/I:N/A:H 
 │                       │     │                            ╰ V3Score : 7.5 
 │                       │     ├ References       ╭ [0] : golang.org/x/net 
-│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:6077 
+│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
 │                       │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
 │                       │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                       │     │                  ├ [4] : https://access.redhat.com/security/vulnerabilitie
@@ -4628,7 +4650,7 @@
 │                       │     │                  │       E-2023-39325 
 │                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2023-44487 
-│                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
+│                       │     │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2023-5863.html 
 │                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                       │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                       │     │                  ├ [14]: https://go.dev/cl/534215 
@@ -4642,19 +4664,25 @@
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
 │                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2/ 
 │                       │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
+│                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE/ 
+│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
 │                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE/ 
-│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
+│                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
+│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
 │                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [24]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [25]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [26]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [27]: https://security.netapp.com/advisory/ntap-2023111
 │                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [26]: https://www.cisa.gov/news-events/alerts/2023/10/1
+│                       │     │                  ├ [28]: https://www.cisa.gov/news-events/alerts/2023/10/1
 │                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
 │                       │     │                  │        
-│                       │     │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
 │                       ╰ [5] ╭ VulnerabilityID : CVE-2023-44487 
@@ -4704,7 +4732,7 @@
 │                             │                  │        10/19/6 
 │                             │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023/
 │                             │                  │        10/20/8 
-│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6746 
+│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5989 
 │                             │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                             │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023-44487 
 │                             │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-ddo
@@ -4747,7 +4775,7 @@
 │                             │                  │        5 
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
-│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
+│                             │                  ├ [29] : https://errata.almalinux.org/8/ALSA-2023-5989.html 
 │                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
@@ -4834,7 +4862,7 @@
 │                             │                  │        rity-2023-004/ 
 │                             │                  ├ [90] : https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/ 
 │                             │                  ├ [91] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                             │                  ├ [92] : https://linux.oracle.com/errata/ELSA-2023-6120.html 
+│                             │                  ├ [92] : https://linux.oracle.com/errata/ELSA-2023-6746.html 
 │                             │                  ├ [93] : https://lists.apache.org/thread/5py8h42mxfsn8l1w
 │                             │                  │        y6o41xwhsjlsd87q 
 │                             │                  ├ [94] : https://lists.debian.org/debian-lts-announce/202
@@ -5175,7 +5203,7 @@
 │                       │     │                            │           N/I:N/A:H 
 │                       │     │                            ╰ V3Score : 7.5 
 │                       │     ├ References       ╭ [0] : golang.org/x/net 
-│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:6077 
+│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:5863 
 │                       │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
 │                       │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                       │     │                  ├ [4] : https://access.redhat.com/security/vulnerabilitie
@@ -5188,7 +5216,7 @@
 │                       │     │                  │       E-2023-39325 
 │                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2023-44487 
-│                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
+│                       │     │                  ├ [11]: https://errata.almalinux.org/8/ALSA-2023-5863.html 
 │                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                       │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                       │     │                  ├ [14]: https://go.dev/cl/534215 
@@ -5202,19 +5230,25 @@
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
 │                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2/ 
 │                       │     │                  ├ [21]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
+│                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE/ 
+│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
 │                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE/ 
-│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
+│                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
+│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
 │                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [24]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [25]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [26]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [27]: https://security.netapp.com/advisory/ntap-2023111
 │                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [26]: https://www.cisa.gov/news-events/alerts/2023/10/1
+│                       │     │                  ├ [28]: https://www.cisa.gov/news-events/alerts/2023/10/1
 │                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
 │                       │     │                  │        
-│                       │     │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     │                  ╰ [29]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-10T18:15:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-3978 
@@ -5265,9 +5299,11 @@
 │                       │     │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2023-6474.html 
 │                       │     │                  ├ [16]: https://go.dev/cl/514896 
 │                       │     │                  ├ [17]: https://go.dev/issue/61615 
-│                       │     │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
-│                       │     │                  ├ [19]: https://pkg.go.dev/vuln/GO-2023-1988 
-│                       │     │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
+│                       │     │                  ├ [18]: https://linux.oracle.com/cve/CVE-2023-3978.html 
+│                       │     │                  ├ [19]: https://linux.oracle.com/errata/ELSA-2023-6474.html 
+│                       │     │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-3978 
+│                       │     │                  ├ [21]: https://pkg.go.dev/vuln/GO-2023-1988 
+│                       │     │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                       │     ├ PublishedDate   : 2023-08-02T20:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-07T04:20:00Z 
 │                       ╰ [3] ╭ VulnerabilityID : CVE-2023-44487 
@@ -5317,7 +5353,7 @@
 │                             │                  │        10/19/6 
 │                             │                  ├ [5]  : http://www.openwall.com/lists/oss-security/2023/
 │                             │                  │        10/20/8 
-│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:6746 
+│                             │                  ├ [6]  : https://access.redhat.com/errata/RHSA-2023:5989 
 │                             │                  ├ [7]  : https://access.redhat.com/security/cve/CVE-2023-44487 
 │                             │                  ├ [8]  : https://access.redhat.com/security/cve/cve-2023-44487 
 │                             │                  ├ [9]  : https://arstechnica.com/security/2023/10/how-ddo
@@ -5360,7 +5396,7 @@
 │                             │                  │        5 
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
-│                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
+│                             │                  ├ [29] : https://errata.almalinux.org/8/ALSA-2023-5989.html 
 │                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
@@ -5447,7 +5483,7 @@
 │                             │                  │        rity-2023-004/ 
 │                             │                  ├ [90] : https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/ 
 │                             │                  ├ [91] : https://linux.oracle.com/cve/CVE-2023-44487.html 
-│                             │                  ├ [92] : https://linux.oracle.com/errata/ELSA-2023-6120.html 
+│                             │                  ├ [92] : https://linux.oracle.com/errata/ELSA-2023-6746.html 
 │                             │                  ├ [93] : https://lists.apache.org/thread/5py8h42mxfsn8l1w
 │                             │                  │        y6o41xwhsjlsd87q 
 │                             │                  ├ [94] : https://lists.debian.org/debian-lts-announce/202
@@ -5648,7 +5684,178 @@
 │                             │                           id_reset_zeroday/ 
 │                             ├ PublishedDate   : 2023-10-10T14:15:00Z 
 │                             ╰ LastModifiedDate: 2023-11-07T05:15:00Z 
-├ [6] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [6] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│     ├ Class  : secret 
+│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                     ├ Category : AsymmetricPrivateKey 
+│                     ├ Severity : HIGH 
+│                     ├ Title    : Asymmetric Private Key 
+│                     ├ StartLine: 1 
+│                     ├ EndLine  : 1 
+│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ IsCause    : true 
+│                     │                   │     ├ Annotation :  
+│                     │                   │     ├ Truncated  : false 
+│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ FirstCause : true 
+│                     │                   │     ╰ LastCause  : true 
+│                     │                   ╰ [1] ╭ Number    : 2 
+│                     │                         ├ Content   :  
+│                     │                         ├ IsCause   : false 
+│                     │                         ├ Annotation:  
+│                     │                         ├ Truncated : false 
+│                     │                         ├ FirstCause: false 
+│                     │                         ╰ LastCause : false 
+│                     ├ Match    : BEGIN OPENSSH PRIVATE
+│                     │            KEY-----********************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            *****************************************-----END OPENSSH PRI 
+│                     ╰ Layer     ╭ Digest   : sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08
+│                                 │            f2be6a37f58c 
+│                                 ├ DiffID   : sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cd
+│                                 │            fdde359873f7 
+│                                 ╰ CreatedBy: COPY / / # buildkit 
+├ [7] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -5753,7 +5960,7 @@
 │                                 ├ DiffID   : sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cd
 │                                 │            fdde359873f7 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [7] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [8] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -5811,59 +6018,7 @@
 │                                 ├ DiffID   : sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cd
 │                                 │            fdde359873f7 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [8] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│     ├ Class  : secret 
-│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                     ├ Category : AsymmetricPrivateKey 
-│                     ├ Severity : HIGH 
-│                     ├ Title    : Asymmetric Private Key 
-│                     ├ StartLine: 1 
-│                     ├ EndLine  : 1 
-│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ IsCause    : true 
-│                     │                   │     ├ Annotation :  
-│                     │                   │     ├ Truncated  : false 
-│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ FirstCause : true 
-│                     │                   │     ╰ LastCause  : true 
-│                     │                   ╰ [1] ╭ Number    : 2 
-│                     │                         ├ Content   :  
-│                     │                         ├ IsCause   : false 
-│                     │                         ├ Annotation:  
-│                     │                         ├ Truncated : false 
-│                     │                         ├ FirstCause: false 
-│                     │                         ╰ LastCause : false 
-│                     ├ Match    : BEGIN OPENSSH PRIVATE
-│                     │            KEY-----********************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            **********************************************-----END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08
-│                                 │            f2be6a37f58c 
-│                                 ├ DiffID   : sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cd
-│                                 │            fdde359873f7 
-│                                 ╰ CreatedBy: COPY / / # buildkit 
-╰ [9] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [9] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
       ├ Class  : secret 
       ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                       ├ Category : AsymmetricPrivateKey 
@@ -5880,53 +6035,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              **************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ IsCause    : true 
                       │                   │     ├ Annotation :  
                       │                   │     ├ Truncated  : false 
@@ -5938,53 +6048,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              **************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ FirstCause : true 
                       │                   │     ╰ LastCause  : true 
                       │                   ╰ [1] ╭ Number    : 2 
@@ -5999,36 +6064,7 @@
                       │            ****************************************************************************
                       │            ****************************************************************************
                       │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            *****************************************-----END OPENSSH PRI 
+                      │            **********************************************-----END OPENSSH PRI 
                       ╰ Layer     ╭ Digest   : sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08
                                   │            f2be6a37f58c 
                                   ├ DiffID   : sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cd
