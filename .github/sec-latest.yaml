@@ -1290,6 +1290,29 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2021-40812
     PublishedDate: '2021-09-08T21:15:00Z'
     LastModifiedDate: '2021-09-15T15:07:00Z'
+  - VulnerabilityID: CVE-2023-5981
+    PkgID: libgnutls30@3.7.3-4ubuntu1.2
+    PkgName: libgnutls30
+    InstalledVersion: 3.7.3-4ubuntu1.2
+    FixedVersion: 3.7.3-4ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
+      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5981
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: '[ttiming side-channel inside RSA-PSK key exchange]'
+    Description: '[timing side-channel inside RSA-PSK key exchange]'
+    Severity: MEDIUM
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5981
+    - https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23
+    - https://lists.gnupg.org/pipermail/gnutls-help/2023-November/004837.html
+    - https://ubuntu.com/security/notices/USN-6499-1
   - VulnerabilityID: CVE-2023-2953
     PkgID: libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1
     PkgName: libldap-2.5-0
@@ -3519,6 +3542,9 @@
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
     - https://github.com/open-telemetry/opentelemetry-go-contrib
     - https://github.com/open-telemetry/opentelemetry-go-contrib/blob/9d4eb7e7706038b07d33f83f76afbe13f53d171d/instrumentation/google.golang.org/grpc/otelgrpc/interceptor.go#L327
@@ -3529,7 +3555,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-47108
     - https://pkg.go.dev/go.opentelemetry.io/otel/metric/noop#NewMeterProvider
     PublishedDate: '2023-11-10T19:15:00Z'
-    LastModifiedDate: '2023-11-13T03:16:00Z'
+    LastModifiedDate: '2023-11-20T19:34:00Z'
   - VulnerabilityID: CVE-2023-45142
     PkgName: go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace
     InstalledVersion: v0.40.0
