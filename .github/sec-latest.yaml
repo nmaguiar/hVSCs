@@ -1808,6 +1808,61 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
+  - VulnerabilityID: CVE-2023-40217
+    PkgID: libpython3.10@3.10.12-1~22.04.2
+    PkgName: libpython3.10
+    InstalledVersion: 3.10.12-1~22.04.2
+    Status: affected
+    Layer:
+      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
+      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: TLS handshake bypass'
+    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
+    Severity: MEDIUM
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:5462
+    - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://bugzilla.redhat.com/2235789
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2235789
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
+    - https://errata.almalinux.org/9/ALSA-2023-5462.html
+    - https://errata.rockylinux.org/RLSA-2023:5997
+    - https://github.com/python/cpython/commit/0cb0c238d520a8718e313b52cffc356a5a7561bf (main)
+    - https://github.com/python/cpython/commit/256586ab8776e4526ca594b4866b9a3492e628f1 (3.12)
+    - https://github.com/python/cpython/commit/264b1dacc67346efa0933d1e63f622676e0ed96b (3.9)
+    - https://github.com/python/cpython/commit/37d7180cb647f0bed0c1caab0037f3bc82e2af96 (3.10)
+    - https://github.com/python/cpython/commit/75a875e0df0530b75b1470d797942f90f4a718d3 (3.11)
+    - https://github.com/python/cpython/issues/108310
+    - https://github.com/python/cpython/pull/108315
+    - https://linux.oracle.com/cve/CVE-2023-40217.html
+    - https://linux.oracle.com/errata/ELSA-2023-6885.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
+    - https://mail.python.org/archives/list/security-announce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
+    - https://security.netapp.com/advisory/ntap-20231006-0014/
+    - https://ubuntu.com/security/notices/USN-6513-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-40217
+    - https://www.python.org/dev/security/
+    PublishedDate: '2023-08-25T01:15:00Z'
+    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.2
     PkgName: libpython3.10-minimal
@@ -1850,6 +1905,61 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
+  - VulnerabilityID: CVE-2023-40217
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.2
+    PkgName: libpython3.10-minimal
+    InstalledVersion: 3.10.12-1~22.04.2
+    Status: affected
+    Layer:
+      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
+      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: TLS handshake bypass'
+    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
+    Severity: MEDIUM
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:5462
+    - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://bugzilla.redhat.com/2235789
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2235789
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
+    - https://errata.almalinux.org/9/ALSA-2023-5462.html
+    - https://errata.rockylinux.org/RLSA-2023:5997
+    - https://github.com/python/cpython/commit/0cb0c238d520a8718e313b52cffc356a5a7561bf (main)
+    - https://github.com/python/cpython/commit/256586ab8776e4526ca594b4866b9a3492e628f1 (3.12)
+    - https://github.com/python/cpython/commit/264b1dacc67346efa0933d1e63f622676e0ed96b (3.9)
+    - https://github.com/python/cpython/commit/37d7180cb647f0bed0c1caab0037f3bc82e2af96 (3.10)
+    - https://github.com/python/cpython/commit/75a875e0df0530b75b1470d797942f90f4a718d3 (3.11)
+    - https://github.com/python/cpython/issues/108310
+    - https://github.com/python/cpython/pull/108315
+    - https://linux.oracle.com/cve/CVE-2023-40217.html
+    - https://linux.oracle.com/errata/ELSA-2023-6885.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
+    - https://mail.python.org/archives/list/security-announce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
+    - https://security.netapp.com/advisory/ntap-20231006-0014/
+    - https://ubuntu.com/security/notices/USN-6513-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-40217
+    - https://www.python.org/dev/security/
+    PublishedDate: '2023-08-25T01:15:00Z'
+    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.2
     PkgName: libpython3.10-stdlib
@@ -1892,6 +2002,61 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
+  - VulnerabilityID: CVE-2023-40217
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.2
+    PkgName: libpython3.10-stdlib
+    InstalledVersion: 3.10.12-1~22.04.2
+    Status: affected
+    Layer:
+      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
+      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: TLS handshake bypass'
+    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
+    Severity: MEDIUM
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:5462
+    - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://bugzilla.redhat.com/2235789
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2235789
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
+    - https://errata.almalinux.org/9/ALSA-2023-5462.html
+    - https://errata.rockylinux.org/RLSA-2023:5997
+    - https://github.com/python/cpython/commit/0cb0c238d520a8718e313b52cffc356a5a7561bf (main)
+    - https://github.com/python/cpython/commit/256586ab8776e4526ca594b4866b9a3492e628f1 (3.12)
+    - https://github.com/python/cpython/commit/264b1dacc67346efa0933d1e63f622676e0ed96b (3.9)
+    - https://github.com/python/cpython/commit/37d7180cb647f0bed0c1caab0037f3bc82e2af96 (3.10)
+    - https://github.com/python/cpython/commit/75a875e0df0530b75b1470d797942f90f4a718d3 (3.11)
+    - https://github.com/python/cpython/issues/108310
+    - https://github.com/python/cpython/pull/108315
+    - https://linux.oracle.com/cve/CVE-2023-40217.html
+    - https://linux.oracle.com/errata/ELSA-2023-6885.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
+    - https://mail.python.org/archives/list/security-announce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
+    - https://security.netapp.com/advisory/ntap-20231006-0014/
+    - https://ubuntu.com/security/notices/USN-6513-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-40217
+    - https://www.python.org/dev/security/
+    PublishedDate: '2023-08-25T01:15:00Z'
+    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2022-46908
     PkgID: libsqlite3-0@3.37.2-2ubuntu0.1
     PkgName: libsqlite3-0
@@ -1970,6 +2135,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
     LastModifiedDate: '2023-11-07T03:45:00Z'
+  - VulnerabilityID: CVE-2022-40090
+    PkgID: libtiff5@4.3.0-6ubuntu0.6
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.6
+    FixedVersion: 4.3.0-6ubuntu0.7
+    Status: fixed
+    Layer:
+      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
+      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-40090
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: infinite loop via a crafted TIFF file'
+    Description: An issue was discovered in function TIFFReadDirectory libtiff before 4.4.0 allows attackers to cause a denial of service via crafted TIFF file.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-835
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-40090
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40090
+    - https://gitlab.com/libtiff/libtiff/-/commit/d093eb5d961e21ba51420bc22382c514683a4d91 (v4.5.0rc1)
+    - https://gitlab.com/libtiff/libtiff/-/issues/455
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/386
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-40090
+    - https://ubuntu.com/security/notices/USN-6512-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-40090
+    PublishedDate: '2023-08-22T19:16:00Z'
+    LastModifiedDate: '2023-08-26T02:13:00Z'
   - VulnerabilityID: CVE-2018-10126
     PkgID: libtiff5@4.3.0-6ubuntu0.6
     PkgName: libtiff5
@@ -2047,7 +2250,8 @@
     PkgID: libtiff5@4.3.0-6ubuntu0.6
     PkgName: libtiff5
     InstalledVersion: 4.3.0-6ubuntu0.6
-    Status: affected
+    FixedVersion: 4.3.0-6ubuntu0.7
+    Status: fixed
     Layer:
       Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
       DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
@@ -2083,6 +2287,7 @@
     - https://linux.oracle.com/cve/CVE-2023-3576.html
     - https://linux.oracle.com/errata/ELSA-2023-6575.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3576
+    - https://ubuntu.com/security/notices/USN-6512-1
     - https://www.cve.org/CVERecord?id=CVE-2023-3576
     PublishedDate: '2023-10-04T19:15:00Z'
     LastModifiedDate: '2023-11-07T14:15:00Z'
@@ -2490,6 +2695,61 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
+  - VulnerabilityID: CVE-2023-40217
+    PkgID: python3.10@3.10.12-1~22.04.2
+    PkgName: python3.10
+    InstalledVersion: 3.10.12-1~22.04.2
+    Status: affected
+    Layer:
+      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
+      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: TLS handshake bypass'
+    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
+    Severity: MEDIUM
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:5462
+    - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://bugzilla.redhat.com/2235789
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2235789
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
+    - https://errata.almalinux.org/9/ALSA-2023-5462.html
+    - https://errata.rockylinux.org/RLSA-2023:5997
+    - https://github.com/python/cpython/commit/0cb0c238d520a8718e313b52cffc356a5a7561bf (main)
+    - https://github.com/python/cpython/commit/256586ab8776e4526ca594b4866b9a3492e628f1 (3.12)
+    - https://github.com/python/cpython/commit/264b1dacc67346efa0933d1e63f622676e0ed96b (3.9)
+    - https://github.com/python/cpython/commit/37d7180cb647f0bed0c1caab0037f3bc82e2af96 (3.10)
+    - https://github.com/python/cpython/commit/75a875e0df0530b75b1470d797942f90f4a718d3 (3.11)
+    - https://github.com/python/cpython/issues/108310
+    - https://github.com/python/cpython/pull/108315
+    - https://linux.oracle.com/cve/CVE-2023-40217.html
+    - https://linux.oracle.com/errata/ELSA-2023-6885.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
+    - https://mail.python.org/archives/list/security-announce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
+    - https://security.netapp.com/advisory/ntap-20231006-0014/
+    - https://ubuntu.com/security/notices/USN-6513-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-40217
+    - https://www.python.org/dev/security/
+    PublishedDate: '2023-08-25T01:15:00Z'
+    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10-minimal@3.10.12-1~22.04.2
     PkgName: python3.10-minimal
@@ -2532,6 +2792,61 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
+  - VulnerabilityID: CVE-2023-40217
+    PkgID: python3.10-minimal@3.10.12-1~22.04.2
+    PkgName: python3.10-minimal
+    InstalledVersion: 3.10.12-1~22.04.2
+    Status: affected
+    Layer:
+      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
+      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'python: TLS handshake bypass'
+    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
+    Severity: MEDIUM
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:5462
+    - https://access.redhat.com/security/cve/CVE-2023-40217
+    - https://bugzilla.redhat.com/2235789
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2235789
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
+    - https://errata.almalinux.org/9/ALSA-2023-5462.html
+    - https://errata.rockylinux.org/RLSA-2023:5997
+    - https://github.com/python/cpython/commit/0cb0c238d520a8718e313b52cffc356a5a7561bf (main)
+    - https://github.com/python/cpython/commit/256586ab8776e4526ca594b4866b9a3492e628f1 (3.12)
+    - https://github.com/python/cpython/commit/264b1dacc67346efa0933d1e63f622676e0ed96b (3.9)
+    - https://github.com/python/cpython/commit/37d7180cb647f0bed0c1caab0037f3bc82e2af96 (3.10)
+    - https://github.com/python/cpython/commit/75a875e0df0530b75b1470d797942f90f4a718d3 (3.11)
+    - https://github.com/python/cpython/issues/108310
+    - https://github.com/python/cpython/pull/108315
+    - https://linux.oracle.com/cve/CVE-2023-40217.html
+    - https://linux.oracle.com/errata/ELSA-2023-6885.html
+    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
+    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
+    - https://mail.python.org/archives/list/security-announce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
+    - https://security.netapp.com/advisory/ntap-20231006-0014/
+    - https://ubuntu.com/security/notices/USN-6513-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-40217
+    - https://www.python.org/dev/security/
+    PublishedDate: '2023-08-25T01:15:00Z'
+    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: uidmap@1:4.8.1-2ubuntu2.1
     PkgName: uidmap
@@ -3758,9 +4073,11 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'otelgrpc DoS vulnerability due to unbound cardinality metrics '
+    Title: 'opentelemetry-go-contrib: DoS vulnerability in otelgrpc due to unbound cardinality metrics'
     Description: OpenTelemetry-Go Contrib is a collection of third-party packages for OpenTelemetry-Go. Prior to version 0.46.0, the grpc Unary Server Interceptor out of the box adds labels `net.peer.sock.addr` and `net.peer.sock.port` that have unbound cardinality. It leads to the server's potential memory exhaustion when many malicious requests are sent. An attacker can easily flood the peer address and port for requests. Version 0.46.0 contains a fix for this issue. As a workaround to stop being affected, a view removing the attributes can be used. The other possibility is to disable grpc metrics instrumentation by passing `otelgrpc.WithMeterProvider` option with `noop.NewMeterProvider`.
     Severity: HIGH
+    CweIDs:
+    - CWE-770
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -3768,7 +4085,11 @@
       nvd:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2023-47108
     - https://github.com/open-telemetry/opentelemetry-go-contrib
     - https://github.com/open-telemetry/opentelemetry-go-contrib/blob/9d4eb7e7706038b07d33f83f76afbe13f53d171d/instrumentation/google.golang.org/grpc/otelgrpc/interceptor.go#L327
     - https://github.com/open-telemetry/opentelemetry-go-contrib/blob/instrumentation/google.golang.org/grpc/otelgrpc/v0.45.0/instrumentation/google.golang.org/grpc/otelgrpc/config.go#L138
@@ -3777,6 +4098,7 @@
     - https://github.com/open-telemetry/opentelemetry-go-contrib/security/advisories/GHSA-8pgv-569h-w5rw
     - https://nvd.nist.gov/vuln/detail/CVE-2023-47108
     - https://pkg.go.dev/go.opentelemetry.io/otel/metric/noop#NewMeterProvider
+    - https://www.cve.org/CVERecord?id=CVE-2023-47108
     PublishedDate: '2023-11-10T19:15:00Z'
     LastModifiedDate: '2023-11-20T19:34:00Z'
   - VulnerabilityID: CVE-2023-45142
@@ -4546,68 +4868,6 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
     LastModifiedDate: '2023-11-19T22:15:00Z'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -4666,6 +4926,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
+      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
+      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
       DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
