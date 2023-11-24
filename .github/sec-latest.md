@@ -2218,7 +2218,88 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2023-40217 
+│                       │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.2 
+│                       │      ├ PkgName         : libpython3.10 
+│                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728
+│                       │      │                  │         d126ea1502d08f2be6a37f58c 
+│                       │      │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3ca
+│                       │      │                            f8aceb8c197cdfdde359873f7 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40217 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : python: TLS handshake bypass 
+│                       │      ├ Description     : An issue was discovered in Python before 3.8.18, 3.9.x
+│                       │      │                   before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before
+│                       │      │                   3.11.5. It primarily affects servers (such as HTTP servers)
+│                       │      │                   that use TLS client authentication. If a TLS server-side
+│                       │      │                   socket is created, receives data into the socket buffer, and
+│                       │      │                    then is closed quickly, there is a brief window where the
+│                       │      │                   SSLSocket instance will detect the socket as "not connected"
+│                       │      │                    and won't initiate a handshake, but buffered data will
+│                       │      │                   still be readable from the socket buffer. This data will not
+│                       │      │                    be authenticated if the server-side TLS peer is expecting
+│                       │      │                   client certificate authentication, and is indistinguishable
+│                       │      │                   from valid TLS stream data. Data is limited in size to the
+│                       │      │                   amount that will fit in the buffer. (The TLS connection
+│                       │      │                   cannot directly be used for data exfiltration because the
+│                       │      │                   vulnerable code path requires that the connection be closed
+│                       │      │                   on initialization of the SSLSocket.) 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │      │                  │         │           :L/I:N/A:N 
+│                       │      │                  │         ╰ V3Score : 5.3 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │      │                  │         │           :L/I:N/A:N 
+│                       │      │                  │         ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C
+│                       │      │                            │           :N/I:H/A:N 
+│                       │      │                            ╰ V3Score : 8.6 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5462 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-40217 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2235789 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2235789 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-40217 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-5462.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:5997 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/0cb0c23
+│                       │      │                  │       8d520a8718e313b52cffc356a5a7561bf (main) 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/256586a
+│                       │      │                  │       b8776e4526ca594b4866b9a3492e628f1 (3.12) 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/264b1da
+│                       │      │                  │       cc67346efa0933d1e63f622676e0ed96b (3.9) 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/37d7180
+│                       │      │                  │       cb647f0bed0c1caab0037f3bc82e2af96 (3.10) 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/75a875e
+│                       │      │                  │       0df0530b75b1470d797942f90f4a718d3 (3.11) 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/issues/108310 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/pull/108315 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-40217.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-6885.html 
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       3/09/msg00022.html 
+│                       │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       3/10/msg00017.html 
+│                       │      │                  ├ [18]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCR
+│                       │      │                  │       ERG4YXY/ 
+│                       │      │                  ├ [19]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRER
+│                       │      │                  │       G4YXY/ 
+│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-40217 
+│                       │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202310
+│                       │      │                  │       06-0014/ 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6513-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
+│                       │      │                  ╰ [24]: https://www.python.org/dev/security/ 
+│                       │      ├ PublishedDate   : 2023-08-25T01:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-07T04:20:00Z 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : libpython3.10-minimal 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -2269,7 +2350,88 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2023-40217 
+│                       │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.2 
+│                       │      ├ PkgName         : libpython3.10-minimal 
+│                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728
+│                       │      │                  │         d126ea1502d08f2be6a37f58c 
+│                       │      │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3ca
+│                       │      │                            f8aceb8c197cdfdde359873f7 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40217 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : python: TLS handshake bypass 
+│                       │      ├ Description     : An issue was discovered in Python before 3.8.18, 3.9.x
+│                       │      │                   before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before
+│                       │      │                   3.11.5. It primarily affects servers (such as HTTP servers)
+│                       │      │                   that use TLS client authentication. If a TLS server-side
+│                       │      │                   socket is created, receives data into the socket buffer, and
+│                       │      │                    then is closed quickly, there is a brief window where the
+│                       │      │                   SSLSocket instance will detect the socket as "not connected"
+│                       │      │                    and won't initiate a handshake, but buffered data will
+│                       │      │                   still be readable from the socket buffer. This data will not
+│                       │      │                    be authenticated if the server-side TLS peer is expecting
+│                       │      │                   client certificate authentication, and is indistinguishable
+│                       │      │                   from valid TLS stream data. Data is limited in size to the
+│                       │      │                   amount that will fit in the buffer. (The TLS connection
+│                       │      │                   cannot directly be used for data exfiltration because the
+│                       │      │                   vulnerable code path requires that the connection be closed
+│                       │      │                   on initialization of the SSLSocket.) 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │      │                  │         │           :L/I:N/A:N 
+│                       │      │                  │         ╰ V3Score : 5.3 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │      │                  │         │           :L/I:N/A:N 
+│                       │      │                  │         ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C
+│                       │      │                            │           :N/I:H/A:N 
+│                       │      │                            ╰ V3Score : 8.6 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5462 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-40217 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2235789 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2235789 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-40217 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-5462.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:5997 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/0cb0c23
+│                       │      │                  │       8d520a8718e313b52cffc356a5a7561bf (main) 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/256586a
+│                       │      │                  │       b8776e4526ca594b4866b9a3492e628f1 (3.12) 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/264b1da
+│                       │      │                  │       cc67346efa0933d1e63f622676e0ed96b (3.9) 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/37d7180
+│                       │      │                  │       cb647f0bed0c1caab0037f3bc82e2af96 (3.10) 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/75a875e
+│                       │      │                  │       0df0530b75b1470d797942f90f4a718d3 (3.11) 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/issues/108310 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/pull/108315 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-40217.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-6885.html 
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       3/09/msg00022.html 
+│                       │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       3/10/msg00017.html 
+│                       │      │                  ├ [18]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCR
+│                       │      │                  │       ERG4YXY/ 
+│                       │      │                  ├ [19]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRER
+│                       │      │                  │       G4YXY/ 
+│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-40217 
+│                       │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202310
+│                       │      │                  │       06-0014/ 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6513-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
+│                       │      │                  ╰ [24]: https://www.python.org/dev/security/ 
+│                       │      ├ PublishedDate   : 2023-08-25T01:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-07T04:20:00Z 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : libpython3.10-stdlib 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -2320,7 +2482,88 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2022-46908 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2023-40217 
+│                       │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.2 
+│                       │      ├ PkgName         : libpython3.10-stdlib 
+│                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728
+│                       │      │                  │         d126ea1502d08f2be6a37f58c 
+│                       │      │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3ca
+│                       │      │                            f8aceb8c197cdfdde359873f7 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40217 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : python: TLS handshake bypass 
+│                       │      ├ Description     : An issue was discovered in Python before 3.8.18, 3.9.x
+│                       │      │                   before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before
+│                       │      │                   3.11.5. It primarily affects servers (such as HTTP servers)
+│                       │      │                   that use TLS client authentication. If a TLS server-side
+│                       │      │                   socket is created, receives data into the socket buffer, and
+│                       │      │                    then is closed quickly, there is a brief window where the
+│                       │      │                   SSLSocket instance will detect the socket as "not connected"
+│                       │      │                    and won't initiate a handshake, but buffered data will
+│                       │      │                   still be readable from the socket buffer. This data will not
+│                       │      │                    be authenticated if the server-side TLS peer is expecting
+│                       │      │                   client certificate authentication, and is indistinguishable
+│                       │      │                   from valid TLS stream data. Data is limited in size to the
+│                       │      │                   amount that will fit in the buffer. (The TLS connection
+│                       │      │                   cannot directly be used for data exfiltration because the
+│                       │      │                   vulnerable code path requires that the connection be closed
+│                       │      │                   on initialization of the SSLSocket.) 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │      │                  │         │           :L/I:N/A:N 
+│                       │      │                  │         ╰ V3Score : 5.3 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │      │                  │         │           :L/I:N/A:N 
+│                       │      │                  │         ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C
+│                       │      │                            │           :N/I:H/A:N 
+│                       │      │                            ╰ V3Score : 8.6 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5462 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-40217 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2235789 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2235789 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-40217 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-5462.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:5997 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/0cb0c23
+│                       │      │                  │       8d520a8718e313b52cffc356a5a7561bf (main) 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/256586a
+│                       │      │                  │       b8776e4526ca594b4866b9a3492e628f1 (3.12) 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/264b1da
+│                       │      │                  │       cc67346efa0933d1e63f622676e0ed96b (3.9) 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/37d7180
+│                       │      │                  │       cb647f0bed0c1caab0037f3bc82e2af96 (3.10) 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/75a875e
+│                       │      │                  │       0df0530b75b1470d797942f90f4a718d3 (3.11) 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/issues/108310 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/pull/108315 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-40217.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-6885.html 
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       3/09/msg00022.html 
+│                       │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       3/10/msg00017.html 
+│                       │      │                  ├ [18]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCR
+│                       │      │                  │       ERG4YXY/ 
+│                       │      │                  ├ [19]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRER
+│                       │      │                  │       G4YXY/ 
+│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-40217 
+│                       │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202310
+│                       │      │                  │       06-0014/ 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6513-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
+│                       │      │                  ╰ [24]: https://www.python.org/dev/security/ 
+│                       │      ├ PublishedDate   : 2023-08-25T01:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-07T04:20:00Z 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2022-46908 
 │                       │      ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
 │                       │      ├ PkgName         : libsqlite3-0 
 │                       │      ├ InstalledVersion: 3.37.2-2ubuntu0.1 
@@ -2361,7 +2604,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-46908 
 │                       │      ├ PublishedDate   : 2022-12-12T06:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-03-07T18:21:00Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libstdc++6 
 │                       │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
@@ -2406,7 +2649,48 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:45:00Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2018-10126 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2022-40090 
+│                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.6 
+│                       │      ├ PkgName         : libtiff5 
+│                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.6 
+│                       │      ├ FixedVersion    : 4.3.0-6ubuntu0.7 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728
+│                       │      │                  │         d126ea1502d08f2be6a37f58c 
+│                       │      │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3ca
+│                       │      │                            f8aceb8c197cdfdde359873f7 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-40090 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : libtiff: infinite loop via a crafted TIFF file 
+│                       │      ├ Description     : An issue was discovered in function TIFFReadDirectory
+│                       │      │                   libtiff before 4.4.0 allows attackers to cause a denial of
+│                       │      │                   service via crafted TIFF file. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-835 
+│                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
+│                       │      │                  │        │           N/I:N/A:H 
+│                       │      │                  │        ╰ V3Score : 6.5 
+│                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2022-40090 
+│                       │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2022-40090 
+│                       │      │                  ├ [2]: https://gitlab.com/libtiff/libtiff/-/commit/d093e
+│                       │      │                  │      b5d961e21ba51420bc22382c514683a4d91
+│                       │      │                  │      (v4.5.0rc1) 
+│                       │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/issues/455 
+│                       │      │                  ├ [4]: https://gitlab.com/libtiff/libtiff/-/merge_reques
+│                       │      │                  │      ts/386 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-40090 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6512-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-40090 
+│                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
+│                       │      ╰ LastModifiedDate: 2023-08-26T02:13:00Z 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2018-10126 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.6 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.6 
@@ -2445,7 +2729,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                       │      ├ PublishedDate   : 2018-04-21T21:29:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T02:51:00Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2023-3164 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2023-3164 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.6 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.6 
@@ -2481,11 +2765,12 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
 │                       │      ├ PublishedDate   : 2023-11-02T12:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-09T19:28:00Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2023-3576 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2023-3576 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.6 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.6 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 4.3.0-6ubuntu0.7 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728
 │                       │      │                  │         d126ea1502d08f2be6a37f58c 
 │                       │      │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3ca
@@ -2524,10 +2809,11 @@
 │                       │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-3576.html 
 │                       │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2023-6575.html 
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-3576 
-│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
+│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6512-1 
+│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-3576 
 │                       │      ├ PublishedDate   : 2023-10-04T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T14:15:00Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2022-4899 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                       │      ├ PkgName         : libzstd1 
 │                       │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
@@ -2591,7 +2877,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:59:00Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : login 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2643,7 +2929,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.4 
 │                       │      ├ PkgName         : openssh-client 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.4 
@@ -2681,7 +2967,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.4 
 │                       │      ├ PkgName         : openssh-server 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.4 
@@ -2719,7 +3005,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2023-28531 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2023-28531 
 │                       │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.4 
 │                       │      ├ PkgName         : openssh-sftp-server 
 │                       │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.4 
@@ -2757,7 +3043,7 @@
 │                       │      │                         03/15/8 
 │                       │      ├ PublishedDate   : 2023-03-17T04:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-07-21T19:21:00Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2809,7 +3095,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2022-48522 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2022-48522 
 │                       │      ├ PkgID           : perl@5.34.0-3ubuntu1.2 
 │                       │      ├ PkgName         : perl 
 │                       │      ├ InstalledVersion: 5.34.0-3ubuntu1.2 
@@ -2843,7 +3129,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-48522 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-15T14:15:00Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2022-48522 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2022-48522 
 │                       │      ├ PkgID           : perl-base@5.34.0-3ubuntu1.2 
 │                       │      ├ PkgName         : perl-base 
 │                       │      ├ InstalledVersion: 5.34.0-3ubuntu1.2 
@@ -2877,7 +3163,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-48522 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-15T14:15:00Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2022-48522 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2022-48522 
 │                       │      ├ PkgID           : perl-modules-5.34@5.34.0-3ubuntu1.2 
 │                       │      ├ PkgName         : perl-modules-5.34 
 │                       │      ├ InstalledVersion: 5.34.0-3ubuntu1.2 
@@ -2911,7 +3197,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-48522 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:00Z 
 │                       │      ╰ LastModifiedDate: 2023-09-15T14:15:00Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2023-4016 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2023-4016 
 │                       │      ├ PkgID           : procps@2:3.3.17-6ubuntu2 
 │                       │      ├ PkgName         : procps 
 │                       │      ├ InstalledVersion: 2:3.3.17-6ubuntu2 
@@ -2956,7 +3242,7 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-4016 
 │                       │      ├ PublishedDate   : 2023-08-02T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-08-21T03:15:00Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : python3.10 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -3007,7 +3293,88 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2023-40217 
+│                       │      ├ PkgID           : python3.10@3.10.12-1~22.04.2 
+│                       │      ├ PkgName         : python3.10 
+│                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728
+│                       │      │                  │         d126ea1502d08f2be6a37f58c 
+│                       │      │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3ca
+│                       │      │                            f8aceb8c197cdfdde359873f7 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40217 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : python: TLS handshake bypass 
+│                       │      ├ Description     : An issue was discovered in Python before 3.8.18, 3.9.x
+│                       │      │                   before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before
+│                       │      │                   3.11.5. It primarily affects servers (such as HTTP servers)
+│                       │      │                   that use TLS client authentication. If a TLS server-side
+│                       │      │                   socket is created, receives data into the socket buffer, and
+│                       │      │                    then is closed quickly, there is a brief window where the
+│                       │      │                   SSLSocket instance will detect the socket as "not connected"
+│                       │      │                    and won't initiate a handshake, but buffered data will
+│                       │      │                   still be readable from the socket buffer. This data will not
+│                       │      │                    be authenticated if the server-side TLS peer is expecting
+│                       │      │                   client certificate authentication, and is indistinguishable
+│                       │      │                   from valid TLS stream data. Data is limited in size to the
+│                       │      │                   amount that will fit in the buffer. (The TLS connection
+│                       │      │                   cannot directly be used for data exfiltration because the
+│                       │      │                   vulnerable code path requires that the connection be closed
+│                       │      │                   on initialization of the SSLSocket.) 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │      │                  │         │           :L/I:N/A:N 
+│                       │      │                  │         ╰ V3Score : 5.3 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │      │                  │         │           :L/I:N/A:N 
+│                       │      │                  │         ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C
+│                       │      │                            │           :N/I:H/A:N 
+│                       │      │                            ╰ V3Score : 8.6 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5462 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-40217 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2235789 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2235789 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-40217 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-5462.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:5997 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/0cb0c23
+│                       │      │                  │       8d520a8718e313b52cffc356a5a7561bf (main) 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/256586a
+│                       │      │                  │       b8776e4526ca594b4866b9a3492e628f1 (3.12) 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/264b1da
+│                       │      │                  │       cc67346efa0933d1e63f622676e0ed96b (3.9) 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/37d7180
+│                       │      │                  │       cb647f0bed0c1caab0037f3bc82e2af96 (3.10) 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/75a875e
+│                       │      │                  │       0df0530b75b1470d797942f90f4a718d3 (3.11) 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/issues/108310 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/pull/108315 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-40217.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-6885.html 
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       3/09/msg00022.html 
+│                       │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       3/10/msg00017.html 
+│                       │      │                  ├ [18]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCR
+│                       │      │                  │       ERG4YXY/ 
+│                       │      │                  ├ [19]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRER
+│                       │      │                  │       G4YXY/ 
+│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-40217 
+│                       │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202310
+│                       │      │                  │       06-0014/ 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6513-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
+│                       │      │                  ╰ [24]: https://www.python.org/dev/security/ 
+│                       │      ├ PublishedDate   : 2023-08-25T01:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-07T04:20:00Z 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.2 
 │                       │      ├ PkgName         : python3.10-minimal 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
@@ -3058,7 +3425,88 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-06-01T14:15:00Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2023-40217 
+│                       │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.2 
+│                       │      ├ PkgName         : python3.10-minimal 
+│                       │      ├ InstalledVersion: 3.10.12-1~22.04.2 
+│                       │      ├ Status          : affected 
+│                       │      ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728
+│                       │      │                  │         d126ea1502d08f2be6a37f58c 
+│                       │      │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3ca
+│                       │      │                            f8aceb8c197cdfdde359873f7 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-40217 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : python: TLS handshake bypass 
+│                       │      ├ Description     : An issue was discovered in Python before 3.8.18, 3.9.x
+│                       │      │                   before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before
+│                       │      │                   3.11.5. It primarily affects servers (such as HTTP servers)
+│                       │      │                   that use TLS client authentication. If a TLS server-side
+│                       │      │                   socket is created, receives data into the socket buffer, and
+│                       │      │                    then is closed quickly, there is a brief window where the
+│                       │      │                   SSLSocket instance will detect the socket as "not connected"
+│                       │      │                    and won't initiate a handshake, but buffered data will
+│                       │      │                   still be readable from the socket buffer. This data will not
+│                       │      │                    be authenticated if the server-side TLS peer is expecting
+│                       │      │                   client certificate authentication, and is indistinguishable
+│                       │      │                   from valid TLS stream data. Data is limited in size to the
+│                       │      │                   amount that will fit in the buffer. (The TLS connection
+│                       │      │                   cannot directly be used for data exfiltration because the
+│                       │      │                   vulnerable code path requires that the connection be closed
+│                       │      │                   on initialization of the SSLSocket.) 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │      │                  │         │           :L/I:N/A:N 
+│                       │      │                  │         ╰ V3Score : 5.3 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                       │      │                  │         │           :L/I:N/A:N 
+│                       │      │                  │         ╰ V3Score : 5.3 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C
+│                       │      │                            │           :N/I:H/A:N 
+│                       │      │                            ╰ V3Score : 8.6 
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:5462 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-40217 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2235789 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/show_bug.cgi?id=2235789 
+│                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      │                  │       VE-2023-40217 
+│                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-5462.html 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:5997 
+│                       │      │                  ├ [7] : https://github.com/python/cpython/commit/0cb0c23
+│                       │      │                  │       8d520a8718e313b52cffc356a5a7561bf (main) 
+│                       │      │                  ├ [8] : https://github.com/python/cpython/commit/256586a
+│                       │      │                  │       b8776e4526ca594b4866b9a3492e628f1 (3.12) 
+│                       │      │                  ├ [9] : https://github.com/python/cpython/commit/264b1da
+│                       │      │                  │       cc67346efa0933d1e63f622676e0ed96b (3.9) 
+│                       │      │                  ├ [10]: https://github.com/python/cpython/commit/37d7180
+│                       │      │                  │       cb647f0bed0c1caab0037f3bc82e2af96 (3.10) 
+│                       │      │                  ├ [11]: https://github.com/python/cpython/commit/75a875e
+│                       │      │                  │       0df0530b75b1470d797942f90f4a718d3 (3.11) 
+│                       │      │                  ├ [12]: https://github.com/python/cpython/issues/108310 
+│                       │      │                  ├ [13]: https://github.com/python/cpython/pull/108315 
+│                       │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2023-40217.html 
+│                       │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2023-6885.html 
+│                       │      │                  ├ [16]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       3/09/msg00022.html 
+│                       │      │                  ├ [17]: https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       3/10/msg00017.html 
+│                       │      │                  ├ [18]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCR
+│                       │      │                  │       ERG4YXY/ 
+│                       │      │                  ├ [19]: https://mail.python.org/archives/list/security-a
+│                       │      │                  │       nnounce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRER
+│                       │      │                  │       G4YXY/ 
+│                       │      │                  ├ [20]: https://nvd.nist.gov/vuln/detail/CVE-2023-40217 
+│                       │      │                  ├ [21]: https://security.netapp.com/advisory/ntap-202310
+│                       │      │                  │       06-0014/ 
+│                       │      │                  ├ [22]: https://ubuntu.com/security/notices/USN-6513-1 
+│                       │      │                  ├ [23]: https://www.cve.org/CVERecord?id=CVE-2023-40217 
+│                       │      │                  ╰ [24]: https://www.python.org/dev/security/ 
+│                       │      ├ PublishedDate   : 2023-08-25T01:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-07T04:20:00Z 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                       │      ├ PkgName         : uidmap 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -3110,7 +3558,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:00Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2023-46246 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2023-46246 
 │                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.13 
@@ -3158,7 +3606,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : vim 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.13 
@@ -3201,7 +3649,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:42:00Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2023-46246 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2023-46246 
 │                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.13 
@@ -3249,7 +3697,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : vim-common 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.13 
@@ -3292,7 +3740,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:42:00Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2023-46246 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2023-46246 
 │                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.13 
@@ -3340,7 +3788,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : vim-runtime 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.13 
@@ -3383,7 +3831,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:42:00Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ InstalledVersion: 1.21.2-2ubuntu1 
@@ -3423,7 +3871,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:00Z 
 │                       │      ╰ LastModifiedDate: 2022-05-13T20:52:00Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2023-46246 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2023-46246 
 │                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.13 
@@ -3471,7 +3919,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2022-1886 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : xxd 
 │                       │      ├ InstalledVersion: 2:8.2.3995-1ubuntu2.13 
@@ -3514,7 +3962,7 @@
 │                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-1886 
 │                       │      ├ PublishedDate   : 2022-05-26T15:15:00Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:42:00Z 
-│                       ╰ [70] ╭ VulnerabilityID : CVE-2020-22916 
+│                       ╰ [76] ╭ VulnerabilityID : CVE-2020-22916 
 │                              ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                              ├ PkgName         : xz-utils 
 │                              ├ InstalledVersion: 5.2.5-2ubuntu1 
@@ -4864,8 +5312,8 @@
 │                       │     │                  ├ Name: GitHub Security Advisory Go 
 │                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
 │                       │     │                          ed+ecosystem%3Ago 
-│                       │     ├ Title           : otelgrpc DoS vulnerability due to unbound cardinality
-│                       │     │                   metrics  
+│                       │     ├ Title           : opentelemetry-go-contrib: DoS vulnerability in otelgrpc
+│                       │     │                   due to unbound cardinality metrics 
 │                       │     ├ Description     : OpenTelemetry-Go Contrib is a collection of third-party
 │                       │     │                   packages for OpenTelemetry-Go. Prior to version 0.46.0, the
 │                       │     │                   grpc Unary Server Interceptor out of the box adds labels
@@ -4880,33 +5328,39 @@
 │                       │     │                   `otelgrpc.WithMeterProvider` option with
 │                       │     │                   `noop.NewMeterProvider`. 
 │                       │     ├ Severity        : HIGH 
-│                       │     ├ CVSS             ╭ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │     │                  │      │           :N/A:H 
-│                       │     │                  │      ╰ V3Score : 7.5 
-│                       │     │                  ╰ nvd  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I
-│                       │     │                         │           :N/A:H 
-│                       │     │                         ╰ V3Score : 7.5 
-│                       │     ├ References       ╭ [0]: https://github.com/open-telemetry/opentelemetry-go
-│                       │     │                  │      -contrib 
+│                       │     ├ CweIDs           ─ [0]: CWE-770 
+│                       │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                       │     │                  │        │           /I:N/A:H 
+│                       │     │                  │        ╰ V3Score : 7.5 
+│                       │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                       │     │                  │        │           /I:N/A:H 
+│                       │     │                  │        ╰ V3Score : 7.5 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N
+│                       │     │                           │           /I:N/A:H 
+│                       │     │                           ╰ V3Score : 7.5 
+│                       │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-47108 
 │                       │     │                  ├ [1]: https://github.com/open-telemetry/opentelemetry-go
+│                       │     │                  │      -contrib 
+│                       │     │                  ├ [2]: https://github.com/open-telemetry/opentelemetry-go
 │                       │     │                  │      -contrib/blob/9d4eb7e7706038b07d33f83f76afbe13f53d171d/
 │                       │     │                  │      instrumentation/google.golang.org/grpc/otelgrpc/interce
 │                       │     │                  │      ptor.go#L327 
-│                       │     │                  ├ [2]: https://github.com/open-telemetry/opentelemetry-go
+│                       │     │                  ├ [3]: https://github.com/open-telemetry/opentelemetry-go
 │                       │     │                  │      -contrib/blob/instrumentation/google.golang.org/grpc/ot
 │                       │     │                  │      elgrpc/v0.45.0/instrumentation/google.golang.org/grpc/o
 │                       │     │                  │      telgrpc/config.go#L138 
-│                       │     │                  ├ [3]: https://github.com/open-telemetry/opentelemetry-go
+│                       │     │                  ├ [4]: https://github.com/open-telemetry/opentelemetry-go
 │                       │     │                  │      -contrib/commit/b44dfc9092b157625a5815cb437583cee663333
 │                       │     │                  │      b 
-│                       │     │                  ├ [4]: https://github.com/open-telemetry/opentelemetry-go
-│                       │     │                  │      -contrib/pull/4322 
 │                       │     │                  ├ [5]: https://github.com/open-telemetry/opentelemetry-go
+│                       │     │                  │      -contrib/pull/4322 
+│                       │     │                  ├ [6]: https://github.com/open-telemetry/opentelemetry-go
 │                       │     │                  │      -contrib/security/advisories/GHSA-8pgv-569h-w5rw
 │                       │     │                  │      [m 
-│                       │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-47108 
-│                       │     │                  ╰ [7]: https://pkg.go.dev/go.opentelemetry.io/otel/metric
-│                       │     │                         /noop#NewMeterProvider 
+│                       │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-47108 
+│                       │     │                  ├ [8]: https://pkg.go.dev/go.opentelemetry.io/otel/metric
+│                       │     │                  │      /noop#NewMeterProvider 
+│                       │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-47108 
 │                       │     ├ PublishedDate   : 2023-11-10T19:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-20T19:34:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-45142 
@@ -6228,230 +6682,7 @@
 │                             │                           id_reset_zeroday/ 
 │                             ├ PublishedDate   : 2023-10-10T14:15:00Z 
 │                             ╰ LastModifiedDate: 2023-11-19T22:15:00Z 
-├ [6] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│     ├ Class  : secret 
-│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                     ├ Category : AsymmetricPrivateKey 
-│                     ├ Severity : HIGH 
-│                     ├ Title    : Asymmetric Private Key 
-│                     ├ StartLine: 1 
-│                     ├ EndLine  : 1 
-│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ IsCause    : true 
-│                     │                   │     ├ Annotation :  
-│                     │                   │     ├ Truncated  : false 
-│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ FirstCause : true 
-│                     │                   │     ╰ LastCause  : true 
-│                     │                   ╰ [1] ╭ Number    : 2 
-│                     │                         ├ Content   :  
-│                     │                         ├ IsCause   : false 
-│                     │                         ├ Annotation:  
-│                     │                         ├ Truncated : false 
-│                     │                         ├ FirstCause: false 
-│                     │                         ╰ LastCause : false 
-│                     ├ Match    : BEGIN OPENSSH PRIVATE
-│                     │            KEY-----********************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            **********************************************-----END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08
-│                                 │            f2be6a37f58c 
-│                                 ├ DiffID   : sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cd
-│                                 │            fdde359873f7 
-│                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [7] ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│     ├ Class  : secret 
-│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                     ├ Category : AsymmetricPrivateKey 
-│                     ├ Severity : HIGH 
-│                     ├ Title    : Asymmetric Private Key 
-│                     ├ StartLine: 1 
-│                     ├ EndLine  : 1 
-│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
-│                     │                   │     ├ IsCause    : true 
-│                     │                   │     ├ Annotation :  
-│                     │                   │     ├ Truncated  : false 
-│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
-│                     │                   │     ├ FirstCause : true 
-│                     │                   │     ╰ LastCause  : true 
-│                     │                   ╰ [1] ╭ Number    : 2 
-│                     │                         ├ Content   :  
-│                     │                         ├ IsCause   : false 
-│                     │                         ├ Annotation:  
-│                     │                         ├ Truncated : false 
-│                     │                         ├ FirstCause: false 
-│                     │                         ╰ LastCause : false 
-│                     ├ Match    : BEGIN OPENSSH PRIVATE
-│                     │            KEY-----********************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            *****************************************-----END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08
-│                                 │            f2be6a37f58c 
-│                                 ├ DiffID   : sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cd
-│                                 │            fdde359873f7 
-│                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [8] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [6] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -6556,7 +6787,117 @@
 │                                 ├ DiffID   : sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cd
 │                                 │            fdde359873f7 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-╰ [9] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [7] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│     ├ Class  : secret 
+│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                     ├ Category : AsymmetricPrivateKey 
+│                     ├ Severity : HIGH 
+│                     ├ Title    : Asymmetric Private Key 
+│                     ├ StartLine: 1 
+│                     ├ EndLine  : 1 
+│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ********************-----END OPENSSH PRIVATE
+│                     │                   │     │              KEY----- 
+│                     │                   │     ├ IsCause    : true 
+│                     │                   │     ├ Annotation :  
+│                     │                   │     ├ Truncated  : false 
+│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ********************-----END OPENSSH PRIVATE
+│                     │                   │     │              KEY----- 
+│                     │                   │     ├ FirstCause : true 
+│                     │                   │     ╰ LastCause  : true 
+│                     │                   ╰ [1] ╭ Number    : 2 
+│                     │                         ├ Content   :  
+│                     │                         ├ IsCause   : false 
+│                     │                         ├ Annotation:  
+│                     │                         ├ Truncated : false 
+│                     │                         ├ FirstCause: false 
+│                     │                         ╰ LastCause : false 
+│                     ├ Match    : BEGIN OPENSSH PRIVATE
+│                     │            KEY-----********************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ************************************************************************----
+│                     │            -END OPENSSH PRI 
+│                     ╰ Layer     ╭ Digest   : sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08
+│                                 │            f2be6a37f58c 
+│                                 ├ DiffID   : sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cd
+│                                 │            fdde359873f7 
+│                                 ╰ CreatedBy: COPY / / # buildkit 
+├ [8] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│     ├ Class  : secret 
+│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                     ├ Category : AsymmetricPrivateKey 
+│                     ├ Severity : HIGH 
+│                     ├ Title    : Asymmetric Private Key 
+│                     ├ StartLine: 1 
+│                     ├ EndLine  : 1 
+│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              **************-----END OPENSSH PRIVATE
+│                     │                   │     │              KEY----- 
+│                     │                   │     ├ IsCause    : true 
+│                     │                   │     ├ Annotation :  
+│                     │                   │     ├ Truncated  : false 
+│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              **************-----END OPENSSH PRIVATE
+│                     │                   │     │              KEY----- 
+│                     │                   │     ├ FirstCause : true 
+│                     │                   │     ╰ LastCause  : true 
+│                     │                   ╰ [1] ╭ Number    : 2 
+│                     │                         ├ Content   :  
+│                     │                         ├ IsCause   : false 
+│                     │                         ├ Annotation:  
+│                     │                         ├ Truncated : false 
+│                     │                         ├ FirstCause: false 
+│                     │                         ╰ LastCause : false 
+│                     ├ Match    : BEGIN OPENSSH PRIVATE
+│                     │            KEY-----********************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            **********************************************-----END OPENSSH PRI 
+│                     ╰ Layer     ╭ Digest   : sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08
+│                                 │            f2be6a37f58c 
+│                                 ├ DiffID   : sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cd
+│                                 │            fdde359873f7 
+│                                 ╰ CreatedBy: COPY / / # buildkit 
+╰ [9] ╭ Target : /etc/ssh/ssh_host_rsa_key 
       ├ Class  : secret 
       ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                       ├ Category : AsymmetricPrivateKey 
@@ -6575,8 +6916,51 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ********************-----END OPENSSH PRIVATE
-                      │                   │     │              KEY----- 
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
                       │                   │     ├ IsCause    : true 
                       │                   │     ├ Annotation :  
                       │                   │     ├ Truncated  : false 
@@ -6590,8 +6974,51 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ********************-----END OPENSSH PRIVATE
-                      │                   │     │              KEY----- 
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              ************************************************
+                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
                       │                   │     ├ FirstCause : true 
                       │                   │     ╰ LastCause  : true 
                       │                   ╰ [1] ╭ Number    : 2 
@@ -6607,8 +7034,35 @@
                       │            ****************************************************************************
                       │            ****************************************************************************
                       │            ****************************************************************************
-                      │            ************************************************************************----
-                      │            -END OPENSSH PRI 
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            ****************************************************************************
+                      │            *****************************************-----END OPENSSH PRI 
                       ╰ Layer     ╭ Digest   : sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08
                                   │            f2be6a37f58c 
                                   ├ DiffID   : sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cd
