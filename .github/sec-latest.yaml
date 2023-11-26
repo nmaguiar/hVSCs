@@ -2089,12 +2089,13 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-46908
     - https://news.ycombinator.com/item?id=33948588
     - https://nvd.nist.gov/vuln/detail/CVE-2022-46908
+    - https://security.gentoo.org/glsa/202311-03
     - https://security.netapp.com/advisory/ntap-20230203-0005/
     - https://sqlite.org/forum/forumpost/07beac8056151b2f
     - https://sqlite.org/src/info/cefc032473ac5ad2
     - https://www.cve.org/CVERecord?id=CVE-2022-46908
     PublishedDate: '2022-12-12T06:15:00Z'
-    LastModifiedDate: '2023-03-07T18:21:00Z'
+    LastModifiedDate: '2023-11-24T14:15:00Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
