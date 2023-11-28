@@ -151,7 +151,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -193,7 +193,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1210,7 +1210,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1417,11 +1417,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2017-11164
     PublishedDate: '2017-07-11T03:29:00Z'
     LastModifiedDate: '2023-11-07T02:38:00Z'
+  - VulnerabilityID: CVE-2023-47038
+    PkgID: libperl5.34@5.34.0-3ubuntu1.2
+    PkgName: libperl5.34
+    InstalledVersion: 5.34.0-3ubuntu1.2
+    FixedVersion: 5.34.0-3ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
+      DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-47038
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'perl: Write past buffer end via illegal user-defined Unicode property'
+    Description: A vulnerability was found in perl. This issue occurs when a crafted regular expression is compiled by perl, which can allow an attacker controlled byte buffer overflow in a heap allocated buffer.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-47038
+    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1056746
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-47038
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-47038
+    - https://ubuntu.com/security/notices/USN-6517-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-47038
   - VulnerabilityID: CVE-2022-48522
     PkgID: libperl5.34@5.34.0-3ubuntu1.2
     PkgName: libperl5.34
     InstalledVersion: 5.34.0-3ubuntu1.2
-    Status: affected
+    FixedVersion: 5.34.0-3ubuntu1.3
+    Status: fixed
     Layer:
       Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
       DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
@@ -1446,6 +1476,7 @@
     - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
     - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
     - https://security.netapp.com/advisory/ntap-20230915-0008/
+    - https://ubuntu.com/security/notices/USN-6517-1
     - https://www.cve.org/CVERecord?id=CVE-2022-48522
     PublishedDate: '2023-08-22T19:16:00Z'
     LastModifiedDate: '2023-09-15T14:15:00Z'
@@ -1530,7 +1561,8 @@
     PkgID: libpython3.10@3.10.12-1~22.04.2
     PkgName: libpython3.10
     InstalledVersion: 3.10.12-1~22.04.2
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.3
+    Status: fixed
     Layer:
       Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
       DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
@@ -1577,6 +1609,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
     - https://security.netapp.com/advisory/ntap-20231006-0014/
     - https://ubuntu.com/security/notices/USN-6513-1
+    - https://ubuntu.com/security/notices/USN-6513-2
     - https://www.cve.org/CVERecord?id=CVE-2023-40217
     - https://www.python.org/dev/security/
     PublishedDate: '2023-08-25T01:15:00Z'
@@ -1627,7 +1660,8 @@
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.2
     PkgName: libpython3.10-minimal
     InstalledVersion: 3.10.12-1~22.04.2
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.3
+    Status: fixed
     Layer:
       Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
       DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
@@ -1674,6 +1708,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
     - https://security.netapp.com/advisory/ntap-20231006-0014/
     - https://ubuntu.com/security/notices/USN-6513-1
+    - https://ubuntu.com/security/notices/USN-6513-2
     - https://www.cve.org/CVERecord?id=CVE-2023-40217
     - https://www.python.org/dev/security/
     PublishedDate: '2023-08-25T01:15:00Z'
@@ -1724,7 +1759,8 @@
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.2
     PkgName: libpython3.10-stdlib
     InstalledVersion: 3.10.12-1~22.04.2
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.3
+    Status: fixed
     Layer:
       Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
       DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
@@ -1771,6 +1807,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
     - https://security.netapp.com/advisory/ntap-20231006-0014/
     - https://ubuntu.com/security/notices/USN-6513-1
+    - https://ubuntu.com/security/notices/USN-6513-2
     - https://www.cve.org/CVERecord?id=CVE-2023-40217
     - https://www.python.org/dev/security/
     PublishedDate: '2023-08-25T01:15:00Z'
@@ -2151,11 +2188,41 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:00Z'
     LastModifiedDate: '2023-04-24T18:05:00Z'
+  - VulnerabilityID: CVE-2023-47038
+    PkgID: perl@5.34.0-3ubuntu1.2
+    PkgName: perl
+    InstalledVersion: 5.34.0-3ubuntu1.2
+    FixedVersion: 5.34.0-3ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
+      DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-47038
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'perl: Write past buffer end via illegal user-defined Unicode property'
+    Description: A vulnerability was found in perl. This issue occurs when a crafted regular expression is compiled by perl, which can allow an attacker controlled byte buffer overflow in a heap allocated buffer.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-47038
+    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1056746
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-47038
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-47038
+    - https://ubuntu.com/security/notices/USN-6517-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-47038
   - VulnerabilityID: CVE-2022-48522
     PkgID: perl@5.34.0-3ubuntu1.2
     PkgName: perl
     InstalledVersion: 5.34.0-3ubuntu1.2
-    Status: affected
+    FixedVersion: 5.34.0-3ubuntu1.3
+    Status: fixed
     Layer:
       Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
       DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
@@ -2180,14 +2247,45 @@
     - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
     - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
     - https://security.netapp.com/advisory/ntap-20230915-0008/
+    - https://ubuntu.com/security/notices/USN-6517-1
     - https://www.cve.org/CVERecord?id=CVE-2022-48522
     PublishedDate: '2023-08-22T19:16:00Z'
     LastModifiedDate: '2023-09-15T14:15:00Z'
+  - VulnerabilityID: CVE-2023-47038
+    PkgID: perl-base@5.34.0-3ubuntu1.2
+    PkgName: perl-base
+    InstalledVersion: 5.34.0-3ubuntu1.2
+    FixedVersion: 5.34.0-3ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
+      DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-47038
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'perl: Write past buffer end via illegal user-defined Unicode property'
+    Description: A vulnerability was found in perl. This issue occurs when a crafted regular expression is compiled by perl, which can allow an attacker controlled byte buffer overflow in a heap allocated buffer.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-47038
+    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1056746
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-47038
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-47038
+    - https://ubuntu.com/security/notices/USN-6517-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-47038
   - VulnerabilityID: CVE-2022-48522
     PkgID: perl-base@5.34.0-3ubuntu1.2
     PkgName: perl-base
     InstalledVersion: 5.34.0-3ubuntu1.2
-    Status: affected
+    FixedVersion: 5.34.0-3ubuntu1.3
+    Status: fixed
     Layer:
       Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
       DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
@@ -2212,14 +2310,45 @@
     - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
     - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
     - https://security.netapp.com/advisory/ntap-20230915-0008/
+    - https://ubuntu.com/security/notices/USN-6517-1
     - https://www.cve.org/CVERecord?id=CVE-2022-48522
     PublishedDate: '2023-08-22T19:16:00Z'
     LastModifiedDate: '2023-09-15T14:15:00Z'
+  - VulnerabilityID: CVE-2023-47038
+    PkgID: perl-modules-5.34@5.34.0-3ubuntu1.2
+    PkgName: perl-modules-5.34
+    InstalledVersion: 5.34.0-3ubuntu1.2
+    FixedVersion: 5.34.0-3ubuntu1.3
+    Status: fixed
+    Layer:
+      Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
+      DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-47038
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'perl: Write past buffer end via illegal user-defined Unicode property'
+    Description: A vulnerability was found in perl. This issue occurs when a crafted regular expression is compiled by perl, which can allow an attacker controlled byte buffer overflow in a heap allocated buffer.
+    Severity: MEDIUM
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-47038
+    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1056746
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-47038
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-47038
+    - https://ubuntu.com/security/notices/USN-6517-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-47038
   - VulnerabilityID: CVE-2022-48522
     PkgID: perl-modules-5.34@5.34.0-3ubuntu1.2
     PkgName: perl-modules-5.34
     InstalledVersion: 5.34.0-3ubuntu1.2
-    Status: affected
+    FixedVersion: 5.34.0-3ubuntu1.3
+    Status: fixed
     Layer:
       Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
       DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
@@ -2244,6 +2373,7 @@
     - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
     - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
     - https://security.netapp.com/advisory/ntap-20230915-0008/
+    - https://ubuntu.com/security/notices/USN-6517-1
     - https://www.cve.org/CVERecord?id=CVE-2022-48522
     PublishedDate: '2023-08-22T19:16:00Z'
     LastModifiedDate: '2023-09-15T14:15:00Z'
@@ -2293,7 +2423,8 @@
     PkgID: python3.10@3.10.12-1~22.04.2
     PkgName: python3.10
     InstalledVersion: 3.10.12-1~22.04.2
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.3
+    Status: fixed
     Layer:
       Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
       DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
@@ -2340,6 +2471,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
     - https://security.netapp.com/advisory/ntap-20231006-0014/
     - https://ubuntu.com/security/notices/USN-6513-1
+    - https://ubuntu.com/security/notices/USN-6513-2
     - https://www.cve.org/CVERecord?id=CVE-2023-40217
     - https://www.python.org/dev/security/
     PublishedDate: '2023-08-25T01:15:00Z'
@@ -2390,7 +2522,8 @@
     PkgID: python3.10-minimal@3.10.12-1~22.04.2
     PkgName: python3.10-minimal
     InstalledVersion: 3.10.12-1~22.04.2
-    Status: affected
+    FixedVersion: 3.10.12-1~22.04.3
+    Status: fixed
     Layer:
       Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
       DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
@@ -2437,6 +2570,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
     - https://security.netapp.com/advisory/ntap-20231006-0014/
     - https://ubuntu.com/security/notices/USN-6513-1
+    - https://ubuntu.com/security/notices/USN-6513-2
     - https://www.cve.org/CVERecord?id=CVE-2023-40217
     - https://www.python.org/dev/security/
     PublishedDate: '2023-08-25T01:15:00Z'
@@ -2960,7 +3094,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -3108,7 +3242,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -3311,7 +3445,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -3459,7 +3593,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -3836,7 +3970,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -3984,7 +4118,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4138,68 +4272,6 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
     LastModifiedDate: '2023-11-25T11:15:00Z'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
-      DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
-      DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -4258,6 +4330,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
+      DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
+      DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:80135097f1cbed2249475bd6359042dbde972305cc00e06a9b0aed22bbd61df0
       DiffID: sha256:727b43b6307040e8ba6cbad2c2f936bba182816b48b0a52557b6d2eb633ab1cf
