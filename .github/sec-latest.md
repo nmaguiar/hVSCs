@@ -1517,16 +1517,25 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : [ttiming side-channel inside RSA-PSK key exchange] 
-│                       │      ├ Description     : [timing side-channel inside RSA-PSK key exchange] 
+│                       │      ├ Title           : gnutls: timing side-channel in the RSA-PSK authentication 
+│                       │      ├ Description     : A vulnerability was found that the response times to
+│                       │      │                   malformed ciphertexts in RSA-PSK ClientKeyExchange differ
+│                       │      │                   from response times of ciphertexts with correct PKCS#1 v1.5
+│                       │      │                   padding. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                       │      │                           │           H/I:H/A:N 
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5981 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2023-5981 
-│                       │                         ├ [1]: https://gnutls.org/security-new.html#GNUTLS-SA-20
+│                       │                         ├ [2]: https://gnutls.org/security-new.html#GNUTLS-SA-20
 │                       │                         │      23-10-23 
-│                       │                         ├ [2]: https://lists.gnupg.org/pipermail/gnutls-help/202
+│                       │                         ├ [3]: https://lists.gnupg.org/pipermail/gnutls-help/202
 │                       │                         │      3-November/004837.html 
-│                       │                         ╰ [3]: https://ubuntu.com/security/notices/USN-6499-1 
+│                       │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
+│                       │                         ├ [5]: https://ubuntu.com/security/notices/USN-6499-1 
+│                       │                         ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2023-2953 
 │                       │      ├ PkgID           : libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libldap-2.5-0 
@@ -3724,7 +3733,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Integer Overflow in :history command 
+│                       │      ├ Title           : vim: Integer Overflow in :history command 
 │                       │      ├ Description     : Vim is an improved version of the good old UNIX editor
 │                       │      │                   Vi. Heap-use-after-free in memory allocated in the function
 │                       │      │                   `ga_grow_inner` in in the file `src/alloc.c` at line 748,
@@ -3815,7 +3824,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Integer Overflow in :history command 
+│                       │      ├ Title           : vim: Integer Overflow in :history command 
 │                       │      ├ Description     : Vim is an improved version of the good old UNIX editor
 │                       │      │                   Vi. Heap-use-after-free in memory allocated in the function
 │                       │      │                   `ga_grow_inner` in in the file `src/alloc.c` at line 748,
@@ -3906,7 +3915,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Integer Overflow in :history command 
+│                       │      ├ Title           : vim: Integer Overflow in :history command 
 │                       │      ├ Description     : Vim is an improved version of the good old UNIX editor
 │                       │      │                   Vi. Heap-use-after-free in memory allocated in the function
 │                       │      │                   `ga_grow_inner` in in the file `src/alloc.c` at line 748,
@@ -4037,7 +4046,7 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Integer Overflow in :history command 
+│                       │      ├ Title           : vim: Integer Overflow in :history command 
 │                       │      ├ Description     : Vim is an improved version of the good old UNIX editor
 │                       │      │                   Vi. Heap-use-after-free in memory allocated in the function
 │                       │      │                   `ga_grow_inner` in in the file `src/alloc.c` at line 748,
@@ -4329,32 +4338,38 @@
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
 │                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I/ 
 │                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
+│                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS/ 
+│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
 │                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
 │                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
+│                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
+│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
 │                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
 │                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
 │                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
 │                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P/ 
-│                       │     │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [35]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [36]: https://security.gentoo.org/glsa/202311-09 
-│                       │     │                  ├ [37]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  ├ [36]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [37]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [38]: https://security.gentoo.org/glsa/202311-09 
+│                       │     │                  ├ [39]: https://security.netapp.com/advisory/ntap-2023111
 │                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [38]: https://www.cisa.gov/news-events/alerts/2023/10/1
+│                       │     │                  ├ [40]: https://www.cisa.gov/news-events/alerts/2023/10/1
 │                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
 │                       │     │                  │        
-│                       │     │                  ╰ [39]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
@@ -4897,32 +4912,38 @@
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
 │                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I/ 
 │                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
+│                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS/ 
+│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
 │                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
 │                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
+│                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
+│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
 │                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
 │                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
 │                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
 │                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P/ 
-│                       │     │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [35]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [36]: https://security.gentoo.org/glsa/202311-09 
-│                       │     │                  ├ [37]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  ├ [36]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [37]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [38]: https://security.gentoo.org/glsa/202311-09 
+│                       │     │                  ├ [39]: https://security.netapp.com/advisory/ntap-2023111
 │                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [38]: https://www.cisa.gov/news-events/alerts/2023/10/1
+│                       │     │                  ├ [40]: https://www.cisa.gov/news-events/alerts/2023/10/1
 │                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
 │                       │     │                  │        
-│                       │     │                  ╰ [39]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
@@ -5777,32 +5798,38 @@
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
 │                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I/ 
 │                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
+│                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS/ 
+│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
 │                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
 │                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
+│                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
+│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
 │                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
 │                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
 │                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
 │                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P/ 
-│                       │     │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [35]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [36]: https://security.gentoo.org/glsa/202311-09 
-│                       │     │                  ├ [37]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  ├ [36]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [37]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [38]: https://security.gentoo.org/glsa/202311-09 
+│                       │     │                  ├ [39]: https://security.netapp.com/advisory/ntap-2023111
 │                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [38]: https://www.cisa.gov/news-events/alerts/2023/10/1
+│                       │     │                  ├ [40]: https://www.cisa.gov/news-events/alerts/2023/10/1
 │                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
 │                       │     │                  │        
-│                       │     │                  ╰ [39]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
 │                       ╰ [5] ╭ VulnerabilityID : CVE-2023-44487 
@@ -6376,32 +6403,38 @@
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
 │                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I/ 
 │                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
+│                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS/ 
+│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
 │                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
 │                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
+│                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
+│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
 │                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
 │                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
 │                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
 │                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P/ 
-│                       │     │                  ├ [34]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [35]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [36]: https://security.gentoo.org/glsa/202311-09 
-│                       │     │                  ├ [37]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  ├ [36]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [37]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [38]: https://security.gentoo.org/glsa/202311-09 
+│                       │     │                  ├ [39]: https://security.netapp.com/advisory/ntap-2023111
 │                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [38]: https://www.cisa.gov/news-events/alerts/2023/10/1
+│                       │     │                  ├ [40]: https://www.cisa.gov/news-events/alerts/2023/10/1
 │                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
 │                       │     │                  │        
-│                       │     │                  ╰ [39]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
 │                       │     ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-3978 
