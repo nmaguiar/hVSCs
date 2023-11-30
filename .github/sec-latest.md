@@ -1526,16 +1526,19 @@
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           H/I:H/A:N 
 │                       │      │                           ╰ V3Score : 7.4 
-│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5981 
-│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │                         │      E-2023-5981 
-│                       │                         ├ [2]: https://gnutls.org/security-new.html#GNUTLS-SA-20
-│                       │                         │      23-10-23 
-│                       │                         ├ [3]: https://lists.gnupg.org/pipermail/gnutls-help/202
-│                       │                         │      3-November/004837.html 
-│                       │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
-│                       │                         ├ [5]: https://ubuntu.com/security/notices/USN-6499-1 
-│                       │                         ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-5981 
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2248445 
+│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  │      E-2023-5981 
+│                       │      │                  ├ [3]: https://gnutls.org/security-new.html#GNUTLS-SA-20
+│                       │      │                  │      23-10-23 
+│                       │      │                  ├ [4]: https://lists.gnupg.org/pipermail/gnutls-help/202
+│                       │      │                  │      3-November/004837.html 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-5981 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6499-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-5981 
+│                       │      ├ PublishedDate   : 2023-11-28T12:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-11-28T14:15:00Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2023-2953 
 │                       │      ├ PkgID           : libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libldap-2.5-0 
@@ -4172,7 +4175,77 @@
 ├ [1] ╭ Target         : Java 
 │     ├ Class          : lang-pkgs 
 │     ├ Type           : jar 
-│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2022-36033 
+│     ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-6378 
+│                       │     ├ PkgName         : ch.qos.logback:logback-classic 
+│                       │     ├ PkgPath         : opt/oaf/openaf.jar 
+│                       │     ├ InstalledVersion: 1.2.11 
+│                       │     ├ FixedVersion    : 1.3.12, 1.4.12 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d
+│                       │     │                  │         126ea1502d08f2be6a37f58c 
+│                       │     │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf
+│                       │     │                            8aceb8c197cdfdde359873f7 
+│                       │     ├ SeveritySource  : ghsa 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6378 
+│                       │     ├ DataSource       ╭ ID  : ghsa 
+│                       │     │                  ├ Name: GitHub Security Advisory Maven 
+│                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
+│                       │     │                          ed+ecosystem%3Amaven 
+│                       │     ├ Title           : A serialization vulnerability in logback receiver
+│                       │     │                   component part of  l ... 
+│                       │     ├ Description     : A serialization vulnerability in logback receiver
+│                       │     │                   component part of logback version 1.4.11 allows an attacker
+│                       │     │                   to mount a Denial-Of-Service attack by sending poisoned
+│                       │     │                   data.
+│                       │     │                   
+│                       │     │                    
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
+│                       │     │                         │           :N/A:H 
+│                       │     │                         ╰ V3Score : 7.1 
+│                       │     ╰ References       ╭ [0]: https://github.com/qos-ch/logback 
+│                       │                        ├ [1]: https://github.com/qos-ch/logback/commit/9c782b45b
+│                       │                        │      e4abdafb7e17481e24e7354c2acd1eb 
+│                       │                        ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
+│                       │                        │      de9e05fb6d51160b3f46acd91af9731 
+│                       │                        ├ [3]: https://logback.qos.ch/news.html#1.3.12 
+│                       │                        ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2023-6378 
+│                       │     ├ PkgName         : ch.qos.logback:logback-core 
+│                       │     ├ PkgPath         : opt/oaf/openaf.jar 
+│                       │     ├ InstalledVersion: 1.2.11 
+│                       │     ├ FixedVersion    : 1.3.12, 1.4.12 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d
+│                       │     │                  │         126ea1502d08f2be6a37f58c 
+│                       │     │                  ╰ DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf
+│                       │     │                            8aceb8c197cdfdde359873f7 
+│                       │     ├ SeveritySource  : ghsa 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6378 
+│                       │     ├ DataSource       ╭ ID  : ghsa 
+│                       │     │                  ├ Name: GitHub Security Advisory Maven 
+│                       │     │                  ╰ URL : https://github.com/advisories?query=type%3Areview
+│                       │     │                          ed+ecosystem%3Amaven 
+│                       │     ├ Title           : A serialization vulnerability in logback receiver
+│                       │     │                   component part of  l ... 
+│                       │     ├ Description     : A serialization vulnerability in logback receiver
+│                       │     │                   component part of logback version 1.4.11 allows an attacker
+│                       │     │                   to mount a Denial-Of-Service attack by sending poisoned
+│                       │     │                   data.
+│                       │     │                   
+│                       │     │                    
+│                       │     ├ Severity        : HIGH 
+│                       │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:N/I
+│                       │     │                         │           :N/A:H 
+│                       │     │                         ╰ V3Score : 7.1 
+│                       │     ╰ References       ╭ [0]: https://github.com/qos-ch/logback 
+│                       │                        ├ [1]: https://github.com/qos-ch/logback/commit/9c782b45b
+│                       │                        │      e4abdafb7e17481e24e7354c2acd1eb 
+│                       │                        ├ [2]: https://github.com/qos-ch/logback/commit/b8eac23a9
+│                       │                        │      de9e05fb6d51160b3f46acd91af9731 
+│                       │                        ├ [3]: https://logback.qos.ch/news.html#1.3.12 
+│                       │                        ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6378 
+│                       ╰ [2] ╭ VulnerabilityID : CVE-2022-36033 
 │                             ├ PkgName         : org.jsoup:jsoup 
 │                             ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vsco
 │                             │                   de-xml-0.26.1-linux-x64/server/org.eclipse.lemminx-0.26.1-ube
@@ -4371,7 +4444,7 @@
 │                       │     │                  │        
 │                       │     │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-11-29T03:15:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
 │                       │     ├ PkgName         : golang.org/x/net 
 │                       │     ├ InstalledVersion: v0.12.0 
@@ -4945,7 +5018,7 @@
 │                       │     │                  │        
 │                       │     │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-11-29T03:15:00Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
 │                       │     ├ PkgName         : golang.org/x/net 
 │                       │     ├ InstalledVersion: v0.12.0 
@@ -5831,7 +5904,7 @@
 │                       │     │                  │        
 │                       │     │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-11-29T03:15:00Z 
 │                       ╰ [5] ╭ VulnerabilityID : CVE-2023-44487 
 │                             ├ PkgName         : golang.org/x/net 
 │                             ├ InstalledVersion: v0.14.0 
@@ -6436,7 +6509,7 @@
 │                       │     │                  │        
 │                       │     │                  ╰ [41]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:00Z 
-│                       │     ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
+│                       │     ╰ LastModifiedDate: 2023-11-29T03:15:00Z 
 │                       ├ [2] ╭ VulnerabilityID : CVE-2023-3978 
 │                       │     ├ PkgName         : golang.org/x/net 
 │                       │     ├ InstalledVersion: v0.10.0 
