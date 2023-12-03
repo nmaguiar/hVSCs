@@ -2003,23 +2003,24 @@
 │                       │      │                  ├ [172]: https://www.debian.org/security/2023/dsa-5540 
 │                       │      │                  ├ [173]: https://www.debian.org/security/2023/dsa-5549 
 │                       │      │                  ├ [174]: https://www.debian.org/security/2023/dsa-5558 
-│                       │      │                  ├ [175]: https://www.haproxy.com/blog/haproxy-is-not-aff
+│                       │      │                  ├ [175]: https://www.debian.org/security/2023/dsa-5570 
+│                       │      │                  ├ [176]: https://www.haproxy.com/blog/haproxy-is-not-aff
 │                       │      │                  │        ected-by-the-http-2-rapid-reset-attack-cve-2023-4448
 │                       │      │                  │        7 
-│                       │      │                  ├ [176]: https://www.mail-archive.com/haproxy@formilux.o
+│                       │      │                  ├ [177]: https://www.mail-archive.com/haproxy@formilux.o
 │                       │      │                  │        rg/msg44134.html 
-│                       │      │                  ├ [177]: https://www.netlify.com/blog/netlify-successful
+│                       │      │                  ├ [178]: https://www.netlify.com/blog/netlify-successful
 │                       │      │                  │        ly-mitigates-cve-2023-44487/ 
-│                       │      │                  ├ [178]: https://www.nginx.com/blog/http-2-rapid-reset-a
+│                       │      │                  ├ [179]: https://www.nginx.com/blog/http-2-rapid-reset-a
 │                       │      │                  │        ttack-impacting-f5-nginx-products/ 
-│                       │      │                  ├ [179]: https://www.openwall.com/lists/oss-security/202
+│                       │      │                  ├ [180]: https://www.openwall.com/lists/oss-security/202
 │                       │      │                  │        3/10/10/6 
-│                       │      │                  ├ [180]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
+│                       │      │                  ├ [181]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
 │                       │      │                  │        -Attack 
-│                       │      │                  ╰ [181]: https://www.theregister.com/2023/10/10/http2_ra
+│                       │      │                  ╰ [182]: https://www.theregister.com/2023/10/10/http2_ra
 │                       │      │                           pid_reset_zeroday/ 
 │                       │      ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-02T01:15:00Z 
 │                       ├ [36] ╭ VulnerabilityID : CVE-2017-11164 
 │                       │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libpcre3 
@@ -4913,23 +4914,24 @@
 │                             │                  ├ [172]: https://www.debian.org/security/2023/dsa-5540 
 │                             │                  ├ [173]: https://www.debian.org/security/2023/dsa-5549 
 │                             │                  ├ [174]: https://www.debian.org/security/2023/dsa-5558 
-│                             │                  ├ [175]: https://www.haproxy.com/blog/haproxy-is-not-affe
+│                             │                  ├ [175]: https://www.debian.org/security/2023/dsa-5570 
+│                             │                  ├ [176]: https://www.haproxy.com/blog/haproxy-is-not-affe
 │                             │                  │        cted-by-the-http-2-rapid-reset-attack-cve-2023-44487
 │                             │                  │        [m 
-│                             │                  ├ [176]: https://www.mail-archive.com/haproxy@formilux.or
+│                             │                  ├ [177]: https://www.mail-archive.com/haproxy@formilux.or
 │                             │                  │        g/msg44134.html 
-│                             │                  ├ [177]: https://www.netlify.com/blog/netlify-successfull
+│                             │                  ├ [178]: https://www.netlify.com/blog/netlify-successfull
 │                             │                  │        y-mitigates-cve-2023-44487/ 
-│                             │                  ├ [178]: https://www.nginx.com/blog/http-2-rapid-reset-at
+│                             │                  ├ [179]: https://www.nginx.com/blog/http-2-rapid-reset-at
 │                             │                  │        tack-impacting-f5-nginx-products/ 
-│                             │                  ├ [179]: https://www.openwall.com/lists/oss-security/2023
+│                             │                  ├ [180]: https://www.openwall.com/lists/oss-security/2023
 │                             │                  │        /10/10/6 
-│                             │                  ├ [180]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
+│                             │                  ├ [181]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
 │                             │                  │        Attack 
-│                             │                  ╰ [181]: https://www.theregister.com/2023/10/10/http2_rap
+│                             │                  ╰ [182]: https://www.theregister.com/2023/10/10/http2_rap
 │                             │                           id_reset_zeroday/ 
 │                             ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                             ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
+│                             ╰ LastModifiedDate: 2023-12-02T01:15:00Z 
 ├ [3] ╭ Target         : tmp/tmp.ZUcXNO7hda/krew-linux_amd64 
 │     ├ Class          : lang-pkgs 
 │     ├ Type           : gobinary 
@@ -5496,23 +5498,24 @@
 │                             │                  ├ [172]: https://www.debian.org/security/2023/dsa-5540 
 │                             │                  ├ [173]: https://www.debian.org/security/2023/dsa-5549 
 │                             │                  ├ [174]: https://www.debian.org/security/2023/dsa-5558 
-│                             │                  ├ [175]: https://www.haproxy.com/blog/haproxy-is-not-affe
+│                             │                  ├ [175]: https://www.debian.org/security/2023/dsa-5570 
+│                             │                  ├ [176]: https://www.haproxy.com/blog/haproxy-is-not-affe
 │                             │                  │        cted-by-the-http-2-rapid-reset-attack-cve-2023-44487
 │                             │                  │        [m 
-│                             │                  ├ [176]: https://www.mail-archive.com/haproxy@formilux.or
+│                             │                  ├ [177]: https://www.mail-archive.com/haproxy@formilux.or
 │                             │                  │        g/msg44134.html 
-│                             │                  ├ [177]: https://www.netlify.com/blog/netlify-successfull
+│                             │                  ├ [178]: https://www.netlify.com/blog/netlify-successfull
 │                             │                  │        y-mitigates-cve-2023-44487/ 
-│                             │                  ├ [178]: https://www.nginx.com/blog/http-2-rapid-reset-at
+│                             │                  ├ [179]: https://www.nginx.com/blog/http-2-rapid-reset-at
 │                             │                  │        tack-impacting-f5-nginx-products/ 
-│                             │                  ├ [179]: https://www.openwall.com/lists/oss-security/2023
+│                             │                  ├ [180]: https://www.openwall.com/lists/oss-security/2023
 │                             │                  │        /10/10/6 
-│                             │                  ├ [180]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
+│                             │                  ├ [181]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
 │                             │                  │        Attack 
-│                             │                  ╰ [181]: https://www.theregister.com/2023/10/10/http2_rap
+│                             │                  ╰ [182]: https://www.theregister.com/2023/10/10/http2_rap
 │                             │                           id_reset_zeroday/ 
 │                             ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                             ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
+│                             ╰ LastModifiedDate: 2023-12-02T01:15:00Z 
 ├ [4] ╭ Target         : usr/bin/docker-compose 
 │     ├ Class          : lang-pkgs 
 │     ├ Type           : gobinary 
@@ -6336,23 +6339,24 @@
 │                             │                  ├ [172]: https://www.debian.org/security/2023/dsa-5540 
 │                             │                  ├ [173]: https://www.debian.org/security/2023/dsa-5549 
 │                             │                  ├ [174]: https://www.debian.org/security/2023/dsa-5558 
-│                             │                  ├ [175]: https://www.haproxy.com/blog/haproxy-is-not-affe
+│                             │                  ├ [175]: https://www.debian.org/security/2023/dsa-5570 
+│                             │                  ├ [176]: https://www.haproxy.com/blog/haproxy-is-not-affe
 │                             │                  │        cted-by-the-http-2-rapid-reset-attack-cve-2023-44487
 │                             │                  │        [m 
-│                             │                  ├ [176]: https://www.mail-archive.com/haproxy@formilux.or
+│                             │                  ├ [177]: https://www.mail-archive.com/haproxy@formilux.or
 │                             │                  │        g/msg44134.html 
-│                             │                  ├ [177]: https://www.netlify.com/blog/netlify-successfull
+│                             │                  ├ [178]: https://www.netlify.com/blog/netlify-successfull
 │                             │                  │        y-mitigates-cve-2023-44487/ 
-│                             │                  ├ [178]: https://www.nginx.com/blog/http-2-rapid-reset-at
+│                             │                  ├ [179]: https://www.nginx.com/blog/http-2-rapid-reset-at
 │                             │                  │        tack-impacting-f5-nginx-products/ 
-│                             │                  ├ [179]: https://www.openwall.com/lists/oss-security/2023
+│                             │                  ├ [180]: https://www.openwall.com/lists/oss-security/2023
 │                             │                  │        /10/10/6 
-│                             │                  ├ [180]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
+│                             │                  ├ [181]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
 │                             │                  │        Attack 
-│                             │                  ╰ [181]: https://www.theregister.com/2023/10/10/http2_rap
+│                             │                  ╰ [182]: https://www.theregister.com/2023/10/10/http2_rap
 │                             │                           id_reset_zeroday/ 
 │                             ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                             ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
+│                             ╰ LastModifiedDate: 2023-12-02T01:15:00Z 
 ├ [5] ╭ Target         : usr/local/bin/k3d 
 │     ├ Class          : lang-pkgs 
 │     ├ Type           : gobinary 
@@ -7005,23 +7009,24 @@
 │                             │                  ├ [172]: https://www.debian.org/security/2023/dsa-5540 
 │                             │                  ├ [173]: https://www.debian.org/security/2023/dsa-5549 
 │                             │                  ├ [174]: https://www.debian.org/security/2023/dsa-5558 
-│                             │                  ├ [175]: https://www.haproxy.com/blog/haproxy-is-not-affe
+│                             │                  ├ [175]: https://www.debian.org/security/2023/dsa-5570 
+│                             │                  ├ [176]: https://www.haproxy.com/blog/haproxy-is-not-affe
 │                             │                  │        cted-by-the-http-2-rapid-reset-attack-cve-2023-44487
 │                             │                  │        [m 
-│                             │                  ├ [176]: https://www.mail-archive.com/haproxy@formilux.or
+│                             │                  ├ [177]: https://www.mail-archive.com/haproxy@formilux.or
 │                             │                  │        g/msg44134.html 
-│                             │                  ├ [177]: https://www.netlify.com/blog/netlify-successfull
+│                             │                  ├ [178]: https://www.netlify.com/blog/netlify-successfull
 │                             │                  │        y-mitigates-cve-2023-44487/ 
-│                             │                  ├ [178]: https://www.nginx.com/blog/http-2-rapid-reset-at
+│                             │                  ├ [179]: https://www.nginx.com/blog/http-2-rapid-reset-at
 │                             │                  │        tack-impacting-f5-nginx-products/ 
-│                             │                  ├ [179]: https://www.openwall.com/lists/oss-security/2023
+│                             │                  ├ [180]: https://www.openwall.com/lists/oss-security/2023
 │                             │                  │        /10/10/6 
-│                             │                  ├ [180]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
+│                             │                  ├ [181]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
 │                             │                  │        Attack 
-│                             │                  ╰ [181]: https://www.theregister.com/2023/10/10/http2_rap
+│                             │                  ╰ [182]: https://www.theregister.com/2023/10/10/http2_rap
 │                             │                           id_reset_zeroday/ 
 │                             ├ PublishedDate   : 2023-10-10T14:15:00Z 
-│                             ╰ LastModifiedDate: 2023-11-25T11:15:00Z 
+│                             ╰ LastModifiedDate: 2023-12-02T01:15:00Z 
 ├ [6] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
