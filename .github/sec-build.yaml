@@ -2944,6 +2944,7 @@
     - https://www.debian.org/security/2023/dsa-5540
     - https://www.debian.org/security/2023/dsa-5549
     - https://www.debian.org/security/2023/dsa-5558
+    - https://www.debian.org/security/2023/dsa-5570
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -2952,7 +2953,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-11-25T11:15:00Z'
+    LastModifiedDate: '2023-12-02T01:15:00Z'
 - Target: tmp/tmp.fkMKLNCjCV/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -3300,6 +3301,7 @@
     - https://www.debian.org/security/2023/dsa-5540
     - https://www.debian.org/security/2023/dsa-5549
     - https://www.debian.org/security/2023/dsa-5558
+    - https://www.debian.org/security/2023/dsa-5570
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -3308,7 +3310,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-11-25T11:15:00Z'
+    LastModifiedDate: '2023-12-02T01:15:00Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -3830,6 +3832,7 @@
     - https://www.debian.org/security/2023/dsa-5540
     - https://www.debian.org/security/2023/dsa-5549
     - https://www.debian.org/security/2023/dsa-5558
+    - https://www.debian.org/security/2023/dsa-5570
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
@@ -3838,7 +3841,7 @@
     - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-11-25T11:15:00Z'
+    LastModifiedDate: '2023-12-02T01:15:00Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
