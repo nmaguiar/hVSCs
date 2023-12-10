@@ -230,10 +230,12 @@
 │                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/BZYC
 │                       │      │                  │       DRMD7B4XO4HF6C6YTLH4YUD7TANP/ 
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-34969 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6372-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202312
+│                       │      │                  │       08-0007/ 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6372-1 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                       │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-15T03:26:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-08T19:15:00Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2023-34969 
 │                       │      ├ PkgID           : dbus-user-session@1.12.20-2ubuntu4.1 
 │                       │      ├ PkgName         : dbus-user-session 
@@ -285,10 +287,12 @@
 │                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/BZYC
 │                       │      │                  │       DRMD7B4XO4HF6C6YTLH4YUD7TANP/ 
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-34969 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6372-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202312
+│                       │      │                  │       08-0007/ 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6372-1 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                       │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-15T03:26:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-08T19:15:00Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : dirmngr@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : dirmngr 
@@ -1570,10 +1574,12 @@
 │                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/BZYC
 │                       │      │                  │       DRMD7B4XO4HF6C6YTLH4YUD7TANP/ 
 │                       │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-34969 
-│                       │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6372-1 
-│                       │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
+│                       │      │                  ├ [13]: https://security.netapp.com/advisory/ntap-202312
+│                       │      │                  │       08-0007/ 
+│                       │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6372-1 
+│                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                       │      ├ PublishedDate   : 2023-06-08T03:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-15T03:26:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-08T19:15:00Z 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libgcc-s1 
@@ -2959,9 +2965,10 @@
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                       │      ├ Title           : heap-buffer-overflow in extractImageSection() 
-│                       │      ├ Description     : A heap out-of-bounds read flaw was found in builtin.c
-│                       │      │                   in the gawk package. This issue may lead to a crash and
-│                       │      │                   could be used to read sensitive information. 
+│                       │      ├ Description     : A heap-buffer-overflow vulnerability was found in
+│                       │      │                   LibTIFF, in extractImageSection() at tools/tiffcrop.c:7916
+│                       │      │                   and tools/tiffcrop.c:7801. This flaw allows attackers to
+│                       │      │                   cause a denial of service via a crafted tiff file. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-125 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
@@ -2971,15 +2978,14 @@
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 5.5 
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3164 
-│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-4156 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2215930 
-│                       │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2213531 
+│                       │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-3164 
-│                       │      │                  ├ [4]: https://gitlab.com/libtiff/libtiff/-/issues/542 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-3164 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
+│                       │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/issues/542 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-3164 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
 │                       │      ├ PublishedDate   : 2023-11-02T12:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-09T19:28:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-08T12:15:00Z 
 │                       ├ [55] ╭ VulnerabilityID : CVE-2023-3576 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.6 
 │                       │      ├ PkgName         : libtiff5 
@@ -3955,9 +3961,11 @@
 │                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GH
 │                       │      │                  │      SA-q22m-h7m2-9mgm 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2023120
+│                       │      │                  │      8-0006/ 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-08T19:15:00Z 
 │                       ├ [76] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : vim 
@@ -4046,9 +4054,11 @@
 │                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GH
 │                       │      │                  │      SA-q22m-h7m2-9mgm 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2023120
+│                       │      │                  │      8-0006/ 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-08T19:15:00Z 
 │                       ├ [78] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : vim-common 
@@ -4137,9 +4147,11 @@
 │                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GH
 │                       │      │                  │      SA-q22m-h7m2-9mgm 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2023120
+│                       │      │                  │      8-0006/ 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-08T19:15:00Z 
 │                       ├ [80] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : vim-runtime 
@@ -4268,9 +4280,11 @@
 │                       │      │                  ├ [4]: https://github.com/vim/vim/security/advisories/GH
 │                       │      │                  │      SA-q22m-h7m2-9mgm 
 │                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
+│                       │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-2023120
+│                       │      │                  │      8-0006/ 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │      ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                       │      ╰ LastModifiedDate: 2023-11-07T18:09:00Z 
+│                       │      ╰ LastModifiedDate: 2023-12-08T19:15:00Z 
 │                       ├ [83] ╭ VulnerabilityID : CVE-2022-1886 
 │                       │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.13 
 │                       │      ├ PkgName         : xxd 
