@@ -3,13 +3,13 @@
   Type: ubuntu
   Vulnerabilities:
   - VulnerabilityID: CVE-2016-1585
-    PkgID: apparmor@3.0.4-2ubuntu2.2
+    PkgID: apparmor@3.0.4-2ubuntu2.3
     PkgName: apparmor
-    InstalledVersion: 3.0.4-2ubuntu2.2
+    InstalledVersion: 3.0.4-2ubuntu2.3
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-1585
     DataSource:
@@ -43,8 +43,8 @@
     InstalledVersion: 5.1-6ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3715
     DataSource:
@@ -84,8 +84,8 @@
     InstalledVersion: 8.32-4.1ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-2781
     DataSource:
@@ -120,55 +120,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00Z'
     LastModifiedDate: '2023-11-07T02:32:00Z'
-  - VulnerabilityID: CVE-2023-46218
-    PkgID: curl@7.81.0-1ubuntu1.14
-    PkgName: curl
-    InstalledVersion: 7.81.0-1ubuntu1.14
-    FixedVersion: 7.81.0-1ubuntu1.15
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46218
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'curl: information disclosure by exploiting a mixed case flaw'
-    Description: |
-      This flaw allows a malicious HTTP server to set "super cookies" in curl that
-      are then passed back to more origins than what is otherwise allowed or
-      possible. This allows a site to set cookies that then would get sent to
-      different and unrelated sites and domains.
-
-      It could do this by exploiting a mixed case flaw in curl's function that
-      verifies a given cookie domain against the Public Suffix List (PSL). For
-      example a cookie could be set with `domain=co.UK` when the URL used a lower
-      case hostname `curl.co.uk`, even though `co.uk` is listed as a PSL domain.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-46218
-    - https://curl.se/docs/CVE-2023-46218.html
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218
-    - https://hackerone.com/reports/2212193
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-46218
-    - https://ubuntu.com/security/notices/USN-6535-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-46218
-    PublishedDate: '2023-12-07T01:15:00Z'
-    LastModifiedDate: '2023-12-07T12:12:00Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus@1.12.20-2ubuntu4.1
     PkgName: dbus
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-34969
     DataSource:
@@ -192,25 +151,26 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00033.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
+    - https://security.netapp.com/advisory/ntap-20231208-0007/
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:00Z'
-    LastModifiedDate: '2023-11-15T03:26:00Z'
+    LastModifiedDate: '2023-12-08T19:15:00Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus-user-session@1.12.20-2ubuntu4.1
     PkgName: dbus-user-session
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-34969
     DataSource:
@@ -234,25 +194,26 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00033.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
+    - https://security.netapp.com/advisory/ntap-20231208-0007/
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:00Z'
-    LastModifiedDate: '2023-11-15T03:26:00Z'
+    LastModifiedDate: '2023-12-08T19:15:00Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: dirmngr@2.2.27-3ubuntu2.1
     PkgName: dirmngr
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -289,8 +250,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -329,8 +290,8 @@
     InstalledVersion: 1:2.34.1-1ubuntu1.10
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-1000021
     DataSource:
@@ -366,8 +327,8 @@
     InstalledVersion: 1:2.34.1-1ubuntu1.10
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-1000021
     DataSource:
@@ -403,8 +364,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -441,8 +402,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -479,8 +440,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -517,8 +478,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -555,8 +516,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -593,8 +554,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -631,8 +592,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -669,8 +630,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -707,8 +668,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -745,8 +706,8 @@
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3219
     DataSource:
@@ -778,13 +739,13 @@
     PublishedDate: '2023-02-23T20:15:00Z'
     LastModifiedDate: '2023-05-26T16:31:00Z'
   - VulnerabilityID: CVE-2016-1585
-    PkgID: libapparmor1@3.0.4-2ubuntu2.2
+    PkgID: libapparmor1@3.0.4-2ubuntu2.3
     PkgName: libapparmor1
-    InstalledVersion: 3.0.4-2ubuntu2.2
+    InstalledVersion: 3.0.4-2ubuntu2.3
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-1585
     DataSource:
@@ -818,8 +779,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -852,57 +813,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
     LastModifiedDate: '2023-11-07T03:45:00Z'
-  - VulnerabilityID: CVE-2023-5156
-    PkgID: libc-bin@2.35-0ubuntu3.4
-    PkgName: libc-bin
-    InstalledVersion: 2.35-0ubuntu3.4
-    FixedVersion: 2.35-0ubuntu3.5
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5156
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'glibc: DoS due to memory leak in getaddrinfo.c'
-    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-401
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/03/4
-    - http://www.openwall.com/lists/oss-security/2023/10/03/5
-    - http://www.openwall.com/lists/oss-security/2023/10/03/6
-    - http://www.openwall.com/lists/oss-security/2023/10/03/8
-    - https://access.redhat.com/security/cve/CVE-2023-5156
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2240541
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5156
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-5156
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=30884
-    - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
-    - https://sourceware.org/pipermail/libc-alpha/2023-September/151691.html
-    - https://ubuntu.com/security/notices/USN-6541-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-5156
-    PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-11-07T04:23:00Z'
   - VulnerabilityID: CVE-2016-20013
-    PkgID: libc-bin@2.35-0ubuntu3.4
+    PkgID: libc-bin@2.35-0ubuntu3.5
     PkgName: libc-bin
-    InstalledVersion: 2.35-0ubuntu3.4
+    InstalledVersion: 2.35-0ubuntu3.5
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -926,173 +844,14 @@
     - https://twitter.com/solardiz/status/795601240151457793
     PublishedDate: '2022-02-19T05:15:00Z'
     LastModifiedDate: '2022-03-03T16:43:00Z'
-  - VulnerabilityID: CVE-2023-4806
-    PkgID: libc-bin@2.35-0ubuntu3.4
-    PkgName: libc-bin
-    InstalledVersion: 2.35-0ubuntu3.4
-    FixedVersion: 2.35-0ubuntu3.5
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'glibc: potential use-after-free in getaddrinfo()'
-    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
-    Severity: LOW
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/03/4
-    - http://www.openwall.com/lists/oss-security/2023/10/03/5
-    - http://www.openwall.com/lists/oss-security/2023/10/03/6
-    - http://www.openwall.com/lists/oss-security/2023/10/03/8
-    - https://access.redhat.com/errata/RHSA-2023:5453
-    - https://access.redhat.com/errata/RHSA-2023:5455
-    - https://access.redhat.com/errata/RHSA-2023:7409
-    - https://access.redhat.com/security/cve/CVE-2023-4806
-    - https://bugzilla.redhat.com/2234712
-    - https://bugzilla.redhat.com/2237782
-    - https://bugzilla.redhat.com/2237798
-    - https://bugzilla.redhat.com/2238352
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
-    - https://errata.almalinux.org/9/ALSA-2023-5453.html
-    - https://errata.rockylinux.org/RLSA-2023:5455
-    - https://linux.oracle.com/cve/CVE-2023-4806.html
-    - https://linux.oracle.com/errata/ELSA-2023-5455.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
-    - https://security.gentoo.org/glsa/202310-03
-    - https://ubuntu.com/security/notices/USN-6541-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-4806
-    PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-11-21T18:15:00Z'
-  - VulnerabilityID: CVE-2023-4813
-    PkgID: libc-bin@2.35-0ubuntu3.4
-    PkgName: libc-bin
-    InstalledVersion: 2.35-0ubuntu3.4
-    FixedVersion: 2.35-0ubuntu3.5
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'glibc: potential use-after-free in gaih_inet()'
-    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
-    Severity: LOW
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/03/8
-    - https://access.redhat.com/errata/RHSA-2023:5453
-    - https://access.redhat.com/errata/RHSA-2023:5455
-    - https://access.redhat.com/errata/RHSA-2023:7409
-    - https://access.redhat.com/security/cve/CVE-2023-4813
-    - https://bugzilla.redhat.com/2234712
-    - https://bugzilla.redhat.com/2237782
-    - https://bugzilla.redhat.com/2237798
-    - https://bugzilla.redhat.com/2238352
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
-    - https://errata.almalinux.org/9/ALSA-2023-5453.html
-    - https://errata.rockylinux.org/RLSA-2023:5455
-    - https://linux.oracle.com/cve/CVE-2023-4813.html
-    - https://linux.oracle.com/errata/ELSA-2023-5455.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
-    - https://security.netapp.com/advisory/ntap-20231110-0003/
-    - https://ubuntu.com/security/notices/USN-6541-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-4813
-    PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-11-21T18:15:00Z'
-  - VulnerabilityID: CVE-2023-5156
-    PkgID: libc6@2.35-0ubuntu3.4
-    PkgName: libc6
-    InstalledVersion: 2.35-0ubuntu3.4
-    FixedVersion: 2.35-0ubuntu3.5
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5156
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'glibc: DoS due to memory leak in getaddrinfo.c'
-    Description: A flaw was found in the GNU C Library. A recent fix for CVE-2023-4806 introduced the potential for a memory leak, which may result in an application crash.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-401
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/03/4
-    - http://www.openwall.com/lists/oss-security/2023/10/03/5
-    - http://www.openwall.com/lists/oss-security/2023/10/03/6
-    - http://www.openwall.com/lists/oss-security/2023/10/03/8
-    - https://access.redhat.com/security/cve/CVE-2023-5156
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2240541
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5156
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-5156
-    - https://sourceware.org/bugzilla/show_bug.cgi?id=30884
-    - https://sourceware.org/git/?p=glibc.git;a=commitdiff;h=ec6b95c3303c700eb89eebeda2d7264cc184a796
-    - https://sourceware.org/pipermail/libc-alpha/2023-September/151691.html
-    - https://ubuntu.com/security/notices/USN-6541-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-5156
-    PublishedDate: '2023-09-25T16:15:00Z'
-    LastModifiedDate: '2023-11-07T04:23:00Z'
   - VulnerabilityID: CVE-2016-20013
-    PkgID: libc6@2.35-0ubuntu3.4
+    PkgID: libc6@2.35-0ubuntu3.5
     PkgName: libc6
-    InstalledVersion: 2.35-0ubuntu3.4
+    InstalledVersion: 2.35-0ubuntu3.5
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2016-20013
     DataSource:
@@ -1116,212 +875,14 @@
     - https://twitter.com/solardiz/status/795601240151457793
     PublishedDate: '2022-02-19T05:15:00Z'
     LastModifiedDate: '2022-03-03T16:43:00Z'
-  - VulnerabilityID: CVE-2023-4806
-    PkgID: libc6@2.35-0ubuntu3.4
-    PkgName: libc6
-    InstalledVersion: 2.35-0ubuntu3.4
-    FixedVersion: 2.35-0ubuntu3.5
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4806
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'glibc: potential use-after-free in getaddrinfo()'
-    Description: A flaw was found in glibc. In an extremely rare situation, the getaddrinfo function may access memory that has been freed, resulting in an application crash. This issue is only exploitable when a NSS module implements only the _nss_*_gethostbyname2_r and _nss_*_getcanonname_r hooks without implementing the _nss_*_gethostbyname3_r hook. The resolved name should return a large number of IPv6 and IPv4, and the call to the getaddrinfo function should have the AF_INET6 address family with AI_CANONNAME, AI_ALL and AI_V4MAPPED as flags.
-    Severity: LOW
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/03/4
-    - http://www.openwall.com/lists/oss-security/2023/10/03/5
-    - http://www.openwall.com/lists/oss-security/2023/10/03/6
-    - http://www.openwall.com/lists/oss-security/2023/10/03/8
-    - https://access.redhat.com/errata/RHSA-2023:5453
-    - https://access.redhat.com/errata/RHSA-2023:5455
-    - https://access.redhat.com/errata/RHSA-2023:7409
-    - https://access.redhat.com/security/cve/CVE-2023-4806
-    - https://bugzilla.redhat.com/2234712
-    - https://bugzilla.redhat.com/2237782
-    - https://bugzilla.redhat.com/2237798
-    - https://bugzilla.redhat.com/2238352
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
-    - https://errata.almalinux.org/9/ALSA-2023-5453.html
-    - https://errata.rockylinux.org/RLSA-2023:5455
-    - https://linux.oracle.com/cve/CVE-2023-4806.html
-    - https://linux.oracle.com/errata/ELSA-2023-5455.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4DBUQRRPB47TC3NJOUIBVWUGFHBJAFDL/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DFG4P76UHHZEWQ26FWBXG76N2QLKKPZA/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NDAQWHTSVOCOZ5K6KPIWKRT3JX4RTZUR/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4806
-    - https://security.gentoo.org/glsa/202310-03
-    - https://ubuntu.com/security/notices/USN-6541-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-4806
-    PublishedDate: '2023-09-18T17:15:00Z'
-    LastModifiedDate: '2023-11-21T18:15:00Z'
-  - VulnerabilityID: CVE-2023-4813
-    PkgID: libc6@2.35-0ubuntu3.4
-    PkgName: libc6
-    InstalledVersion: 2.35-0ubuntu3.4
-    FixedVersion: 2.35-0ubuntu3.5
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4813
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'glibc: potential use-after-free in gaih_inet()'
-    Description: A flaw was found in glibc. In an uncommon situation, the gaih_inet function may use memory that has been freed, resulting in an application crash. This issue is only exploitable when the getaddrinfo function is called and the hosts database in /etc/nsswitch.conf is configured with SUCCESS=continue or SUCCESS=merge.
-    Severity: LOW
-    CweIDs:
-    - CWE-416
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.9
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/03/8
-    - https://access.redhat.com/errata/RHSA-2023:5453
-    - https://access.redhat.com/errata/RHSA-2023:5455
-    - https://access.redhat.com/errata/RHSA-2023:7409
-    - https://access.redhat.com/security/cve/CVE-2023-4813
-    - https://bugzilla.redhat.com/2234712
-    - https://bugzilla.redhat.com/2237782
-    - https://bugzilla.redhat.com/2237798
-    - https://bugzilla.redhat.com/2238352
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2234712
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237782
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2237798
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2238352
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4527
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4806
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4813
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4911
-    - https://errata.almalinux.org/9/ALSA-2023-5453.html
-    - https://errata.rockylinux.org/RLSA-2023:5455
-    - https://linux.oracle.com/cve/CVE-2023-4813.html
-    - https://linux.oracle.com/errata/ELSA-2023-5455.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4813
-    - https://security.netapp.com/advisory/ntap-20231110-0003/
-    - https://ubuntu.com/security/notices/USN-6541-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-4813
-    PublishedDate: '2023-09-12T22:15:00Z'
-    LastModifiedDate: '2023-11-21T18:15:00Z'
-  - VulnerabilityID: CVE-2023-46218
-    PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.14
-    PkgName: libcurl3-gnutls
-    InstalledVersion: 7.81.0-1ubuntu1.14
-    FixedVersion: 7.81.0-1ubuntu1.15
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46218
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'curl: information disclosure by exploiting a mixed case flaw'
-    Description: |
-      This flaw allows a malicious HTTP server to set "super cookies" in curl that
-      are then passed back to more origins than what is otherwise allowed or
-      possible. This allows a site to set cookies that then would get sent to
-      different and unrelated sites and domains.
-
-      It could do this by exploiting a mixed case flaw in curl's function that
-      verifies a given cookie domain against the Public Suffix List (PSL). For
-      example a cookie could be set with `domain=co.UK` when the URL used a lower
-      case hostname `curl.co.uk`, even though `co.uk` is listed as a PSL domain.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-46218
-    - https://curl.se/docs/CVE-2023-46218.html
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218
-    - https://hackerone.com/reports/2212193
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-46218
-    - https://ubuntu.com/security/notices/USN-6535-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-46218
-    PublishedDate: '2023-12-07T01:15:00Z'
-    LastModifiedDate: '2023-12-07T12:12:00Z'
-  - VulnerabilityID: CVE-2023-46218
-    PkgID: libcurl4@7.81.0-1ubuntu1.14
-    PkgName: libcurl4
-    InstalledVersion: 7.81.0-1ubuntu1.14
-    FixedVersion: 7.81.0-1ubuntu1.15
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46218
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'curl: information disclosure by exploiting a mixed case flaw'
-    Description: |
-      This flaw allows a malicious HTTP server to set "super cookies" in curl that
-      are then passed back to more origins than what is otherwise allowed or
-      possible. This allows a site to set cookies that then would get sent to
-      different and unrelated sites and domains.
-
-      It could do this by exploiting a mixed case flaw in curl's function that
-      verifies a given cookie domain against the Public Suffix List (PSL). For
-      example a cookie could be set with `domain=co.UK` when the URL used a lower
-      case hostname `curl.co.uk`, even though `co.uk` is listed as a PSL domain.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-46218
-    - https://curl.se/docs/CVE-2023-46218.html
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46218
-    - https://hackerone.com/reports/2212193
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-46218
-    - https://ubuntu.com/security/notices/USN-6535-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-46218
-    PublishedDate: '2023-12-07T01:15:00Z'
-    LastModifiedDate: '2023-12-07T12:12:00Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
     PkgName: libdbus-1-3
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-34969
     DataSource:
@@ -1345,25 +906,26 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00033.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BZYCDRMD7B4XO4HF6C6YTLH4YUD7TANP/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-34969
+    - https://security.netapp.com/advisory/ntap-20231208-0007/
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:00Z'
-    LastModifiedDate: '2023-11-15T03:26:00Z'
+    LastModifiedDate: '2023-12-08T19:15:00Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -1402,8 +964,8 @@
     InstalledVersion: 2.3.0-2ubuntu2
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-40812
     DataSource:
@@ -1429,52 +991,14 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2021-40812
     PublishedDate: '2021-09-08T21:15:00Z'
     LastModifiedDate: '2021-09-15T15:07:00Z'
-  - VulnerabilityID: CVE-2023-5981
-    PkgID: libgnutls30@3.7.3-4ubuntu1.2
-    PkgName: libgnutls30
-    InstalledVersion: 3.7.3-4ubuntu1.2
-    FixedVersion: 3.7.3-4ubuntu1.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5981
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'gnutls: timing side-channel in the RSA-PSK authentication'
-    Description: A vulnerability was found that the response times to malformed ciphertexts in RSA-PSK ClientKeyExchange differ from response times of ciphertexts with correct PKCS#1 v1.5 padding.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-203
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
-        V3Score: 5.9
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
-        V3Score: 7.4
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-5981
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2248445
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5981
-    - https://gnutls.org/security-new.html#GNUTLS-SA-2023-10-23
-    - https://lists.gnupg.org/pipermail/gnutls-help/2023-November/004837.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-5981
-    - https://ubuntu.com/security/notices/USN-6499-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-5981
-    PublishedDate: '2023-11-28T12:15:00Z'
-    LastModifiedDate: '2023-12-04T19:40:00Z'
   - VulnerabilityID: CVE-2023-2953
     PkgID: libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1
     PkgName: libldap-2.5-0
     InstalledVersion: 2.5.16+dfsg-0ubuntu0.22.04.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-2953
     DataSource:
@@ -1518,8 +1042,8 @@
     InstalledVersion: 5.2.5-2ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-22916
     DataSource:
@@ -1550,233 +1074,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:00Z'
     LastModifiedDate: '2023-11-07T03:19:00Z'
-  - VulnerabilityID: CVE-2023-44487
-    PkgID: libnghttp2-14@1.43.0-1build3
-    PkgName: libnghttp2-14
-    InstalledVersion: 1.43.0-1build3
-    FixedVersion: 1.43.0-1ubuntu0.1
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
-    Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-400
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/13/4
-    - http://www.openwall.com/lists/oss-security/2023/10/13/9
-    - http://www.openwall.com/lists/oss-security/2023/10/18/4
-    - http://www.openwall.com/lists/oss-security/2023/10/18/8
-    - http://www.openwall.com/lists/oss-security/2023/10/19/6
-    - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:6746
-    - https://access.redhat.com/security/cve/CVE-2023-44487
-    - https://access.redhat.com/security/cve/cve-2023-44487
-    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
-    - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
-    - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
-    - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
-    - https://blog.litespeedtech.com/2023/10/11/rapid-reset-http-2-vulnerablilty/
-    - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
-    - https://blog.vespa.ai/cve-2023-44487/
-    - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
-    - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
-    - https://bugzilla.suse.com/show_bug.cgi?id=1216123
-    - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
-    - https://chaos.social/@icing/111210915918780532
-    - https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps/
-    - https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack
-    - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://devblogs.microsoft.com/dotnet/october-2023-updates/
-    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
-    - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
-    - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
-    - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
-    - https://github.com/Azure/AKS/issues/3947
-    - https://github.com/Kong/kong/discussions/11741
-    - https://github.com/advisories/GHSA-qppj-fm5r-hxr3
-    - https://github.com/advisories/GHSA-vx74-f528-fxqg
-    - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
-    - https://github.com/akka/akka-http/issues/4323
-    - https://github.com/alibaba/tengine/issues/1872
-    - https://github.com/apache/apisix/issues/10320
-    - https://github.com/apache/httpd-site/pull/10
-    - https://github.com/apache/httpd/blob/afcdbeebbff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mplx.c#L1101-L1113
-    - https://github.com/apache/tomcat/tree/main/java/org/apache/coyote/http2
-    - https://github.com/apache/trafficserver/pull/10564
-    - https://github.com/apple/swift-nio-http2
-    - https://github.com/apple/swift-nio-http2/security/advisories/GHSA-qppj-fm5r-hxr3
-    - https://github.com/arkrwn/PoC/tree/main/CVE-2023-44487
-    - https://github.com/bcdannyboy/CVE-2023-44487
-    - https://github.com/caddyserver/caddy/issues/5877
-    - https://github.com/caddyserver/caddy/releases/tag/v2.7.5
-    - https://github.com/dotnet/announcements/issues/277
-    - https://github.com/dotnet/core/blob/e4613450ea0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.0.23/6.0.23.md?plain=1#L73
-    - https://github.com/eclipse/jetty.project/issues/10679
-    - https://github.com/envoyproxy/envoy/pull/30055
-    - https://github.com/etcd-io/etcd/issues/16740
-    - https://github.com/facebook/proxygen/pull/466
-    - https://github.com/golang/go/issues/63417
-    - https://github.com/grpc/grpc-go/pull/6703
-    - https://github.com/grpc/grpc-go/releases
-    - https://github.com/h2o/h2o/pull/3291
-    - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
-    - https://github.com/haproxy/haproxy/issues/2312
-    - https://github.com/hyperium/hyper/issues/3337
-    - https://github.com/icing/mod_h2/blob/0a864782af0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md?plain=1#L239-L244
-    - https://github.com/junkurihara/rust-rpxy/issues/97
-    - https://github.com/kazu-yamamoto/http2/commit/f61d41a502bd0f60eb24e1ce14edc7b6df6722a1
-    - https://github.com/kazu-yamamoto/http2/issues/93
-    - https://github.com/kubernetes/kubernetes/pull/121120
-    - https://github.com/line/armeria/pull/5232
-    - https://github.com/linkerd/website/pull/1695/commits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
-    - https://github.com/micrictor/http2-rst-stream
-    - https://github.com/microsoft/CBL-Mariner/pull/6381
-    - https://github.com/netty/netty/commit/58f75f665aa81a8cbcf6ffa74820042a285c5e61
-    - https://github.com/nghttp2/nghttp2/pull/1961
-    - https://github.com/nghttp2/nghttp2/releases/tag/v1.57.0
-    - https://github.com/ninenines/cowboy/issues/1615
-    - https://github.com/nodejs/node/pull/50121
-    - https://github.com/openresty/openresty/issues/930
-    - https://github.com/opensearch-project/data-prepper/issues/3474
-    - https://github.com/oqtane/oqtane.framework/discussions/3367
-    - https://github.com/projectcontour/contour/pull/5826
-    - https://github.com/tempesta-tech/tempesta/issues/1986
-    - https://github.com/varnishcache/varnish-cache/issues/3996
-    - https://go.dev/cl/534215
-    - https://go.dev/cl/534235
-    - https://go.dev/issue/63417
-    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
-    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
-    - https://istio.io/latest/news/security/istio-security-2023-004/
-    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
-    - https://linux.oracle.com/cve/CVE-2023-44487.html
-    - https://linux.oracle.com/errata/ELSA-2023-7205.html
-    - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
-    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
-    - https://lists.debian.org/debian-lts-announce/2023/11/msg00012.html
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
-    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
-    - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
-    - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
-    - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
-    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-44487
-    - https://my.f5.com/manage/s/article/K000137106
-    - https://netty.io/news/2023/10/10/4-1-100-Final.html
-    - https://news.ycombinator.com/item?id=37830987
-    - https://news.ycombinator.com/item?id=37830998
-    - https://news.ycombinator.com/item?id=37831062
-    - https://news.ycombinator.com/item?id=37837043
-    - https://nodejs.org/en/blog/vulnerability/october-2023-security-releases
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
-    - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
-    - https://pkg.go.dev/vuln/GO-2023-2102
-    - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
-    - https://security.gentoo.org/glsa/202311-09
-    - https://security.netapp.com/advisory/ntap-20231016-0001/
-    - https://security.paloaltonetworks.com/CVE-2023-44487
-    - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
-    - https://ubuntu.com/security/CVE-2023-44487
-    - https://ubuntu.com/security/notices/USN-6427-1
-    - https://ubuntu.com/security/notices/USN-6427-2
-    - https://ubuntu.com/security/notices/USN-6438-1
-    - https://ubuntu.com/security/notices/USN-6505-1
-    - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
-    - https://www.cve.org/CVERecord?id=CVE-2023-44487
-    - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
-    - https://www.debian.org/security/2023/dsa-5521
-    - https://www.debian.org/security/2023/dsa-5522
-    - https://www.debian.org/security/2023/dsa-5540
-    - https://www.debian.org/security/2023/dsa-5549
-    - https://www.debian.org/security/2023/dsa-5558
-    - https://www.debian.org/security/2023/dsa-5570
-    - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
-    - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
-    - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
-    - https://www.nginx.com/blog/http-2-rapid-reset-attack-impacting-f5-nginx-products/
-    - https://www.openwall.com/lists/oss-security/2023/10/10/6
-    - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
-    - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
-    PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-12-02T01:15:00Z'
   - VulnerabilityID: CVE-2017-11164
     PkgID: libpcre3@2:8.39-13ubuntu0.22.04.1
     PkgName: libpcre3
     InstalledVersion: 2:8.39-13ubuntu0.22.04.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2017-11164
     DataSource:
@@ -1809,77 +1114,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2017-11164
     PublishedDate: '2017-07-11T03:29:00Z'
     LastModifiedDate: '2023-11-07T02:38:00Z'
-  - VulnerabilityID: CVE-2023-47038
-    PkgID: libperl5.34@5.34.0-3ubuntu1.2
-    PkgName: libperl5.34
-    InstalledVersion: 5.34.0-3ubuntu1.2
-    FixedVersion: 5.34.0-3ubuntu1.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-47038
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'perl: Write past buffer end via illegal user-defined Unicode property'
-    Description: A vulnerability was found in perl. This issue occurs when a crafted regular expression is compiled by perl, which can allow an attacker controlled byte buffer overflow in a heap allocated buffer.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-47038
-    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1056746
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-47038
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-47038
-    - https://ubuntu.com/security/notices/USN-6517-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-47038
-  - VulnerabilityID: CVE-2022-48522
-    PkgID: libperl5.34@5.34.0-3ubuntu1.2
-    PkgName: libperl5.34
-    InstalledVersion: 5.34.0-3ubuntu1.2
-    FixedVersion: 5.34.0-3ubuntu1.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48522
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: stack-based crash in S_find_uninit_var()
-    Description: In Perl 5.34.0, function S_find_uninit_var in sv.c has a stack-based crash that can lead to remote code execution or local privilege escalation.
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48522
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48522
-    - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
-    - https://security.netapp.com/advisory/ntap-20230915-0008/
-    - https://ubuntu.com/security/notices/USN-6517-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-48522
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-15T14:15:00Z'
   - VulnerabilityID: CVE-2022-3857
     PkgID: libpng16-16@1.6.37-3build5
     PkgName: libpng16-16
     InstalledVersion: 1.6.37-3build5
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-3857
     DataSource:
@@ -1907,58 +1149,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3857
     PublishedDate: '2023-03-06T23:15:00Z'
     LastModifiedDate: '2023-04-06T13:15:00Z'
-  - VulnerabilityID: CVE-2023-4016
-    PkgID: libprocps8@2:3.3.17-6ubuntu2
-    PkgName: libprocps8
-    InstalledVersion: 2:3.3.17-6ubuntu2
-    FixedVersion: 2:3.3.17-6ubuntu2.1
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4016
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'procps: ps buffer overflow'
-    Description: Under some circumstances, this weakness allows a user who has access to run the “ps” utility on a machine, the ability to write almost unlimited amounts of unfiltered data into the process heap.
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 2.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:6705
-    - https://access.redhat.com/security/cve/CVE-2023-4016
-    - https://bugzilla.redhat.com/2228494
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2228494
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4016
-    - https://errata.almalinux.org/9/ALSA-2023-6705.html
-    - https://errata.rockylinux.org/RLSA-2023:7187
-    - https://gitlab.com/procps-ng/procps
-    - https://linux.oracle.com/cve/CVE-2023-4016.html
-    - https://linux.oracle.com/errata/ELSA-2023-7187.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SUETRRT24OFGPYK6ACPM5VUGHNKH5CQ5/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4016
-    - https://ubuntu.com/security/notices/USN-6477-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-4016
-    PublishedDate: '2023-08-02T05:15:00Z'
-    LastModifiedDate: '2023-08-21T03:15:00Z'
   - VulnerabilityID: CVE-2023-27043
-    PkgID: libpython3.10@3.10.12-1~22.04.2
+    PkgID: libpython3.10@3.10.12-1~22.04.3
     PkgName: libpython3.10
-    InstalledVersion: 3.10.12-1~22.04.2
+    InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     DataSource:
@@ -1993,71 +1191,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
-  - VulnerabilityID: CVE-2023-40217
-    PkgID: libpython3.10@3.10.12-1~22.04.2
-    PkgName: libpython3.10
-    InstalledVersion: 3.10.12-1~22.04.2
-    FixedVersion: 3.10.12-1~22.04.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'python: TLS handshake bypass'
-    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
-    Severity: MEDIUM
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
-        V3Score: 8.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:5462
-    - https://access.redhat.com/security/cve/CVE-2023-40217
-    - https://bugzilla.redhat.com/2235789
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2235789
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
-    - https://errata.almalinux.org/9/ALSA-2023-5462.html
-    - https://errata.rockylinux.org/RLSA-2023:5997
-    - https://github.com/python/cpython/commit/0cb0c238d520a8718e313b52cffc356a5a7561bf (main)
-    - https://github.com/python/cpython/commit/256586ab8776e4526ca594b4866b9a3492e628f1 (3.12)
-    - https://github.com/python/cpython/commit/264b1dacc67346efa0933d1e63f622676e0ed96b (3.9)
-    - https://github.com/python/cpython/commit/37d7180cb647f0bed0c1caab0037f3bc82e2af96 (3.10)
-    - https://github.com/python/cpython/commit/75a875e0df0530b75b1470d797942f90f4a718d3 (3.11)
-    - https://github.com/python/cpython/issues/108310
-    - https://github.com/python/cpython/pull/108315
-    - https://linux.oracle.com/cve/CVE-2023-40217.html
-    - https://linux.oracle.com/errata/ELSA-2023-6885.html
-    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
-    - https://mail.python.org/archives/list/security-announce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
-    - https://security.netapp.com/advisory/ntap-20231006-0014/
-    - https://ubuntu.com/security/notices/USN-6513-1
-    - https://ubuntu.com/security/notices/USN-6513-2
-    - https://www.cve.org/CVERecord?id=CVE-2023-40217
-    - https://www.python.org/dev/security/
-    PublishedDate: '2023-08-25T01:15:00Z'
-    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2023-27043
-    PkgID: libpython3.10-minimal@3.10.12-1~22.04.2
+    PkgID: libpython3.10-minimal@3.10.12-1~22.04.3
     PkgName: libpython3.10-minimal
-    InstalledVersion: 3.10.12-1~22.04.2
+    InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     DataSource:
@@ -2092,71 +1233,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
-  - VulnerabilityID: CVE-2023-40217
-    PkgID: libpython3.10-minimal@3.10.12-1~22.04.2
-    PkgName: libpython3.10-minimal
-    InstalledVersion: 3.10.12-1~22.04.2
-    FixedVersion: 3.10.12-1~22.04.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'python: TLS handshake bypass'
-    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
-    Severity: MEDIUM
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
-        V3Score: 8.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:5462
-    - https://access.redhat.com/security/cve/CVE-2023-40217
-    - https://bugzilla.redhat.com/2235789
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2235789
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
-    - https://errata.almalinux.org/9/ALSA-2023-5462.html
-    - https://errata.rockylinux.org/RLSA-2023:5997
-    - https://github.com/python/cpython/commit/0cb0c238d520a8718e313b52cffc356a5a7561bf (main)
-    - https://github.com/python/cpython/commit/256586ab8776e4526ca594b4866b9a3492e628f1 (3.12)
-    - https://github.com/python/cpython/commit/264b1dacc67346efa0933d1e63f622676e0ed96b (3.9)
-    - https://github.com/python/cpython/commit/37d7180cb647f0bed0c1caab0037f3bc82e2af96 (3.10)
-    - https://github.com/python/cpython/commit/75a875e0df0530b75b1470d797942f90f4a718d3 (3.11)
-    - https://github.com/python/cpython/issues/108310
-    - https://github.com/python/cpython/pull/108315
-    - https://linux.oracle.com/cve/CVE-2023-40217.html
-    - https://linux.oracle.com/errata/ELSA-2023-6885.html
-    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
-    - https://mail.python.org/archives/list/security-announce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
-    - https://security.netapp.com/advisory/ntap-20231006-0014/
-    - https://ubuntu.com/security/notices/USN-6513-1
-    - https://ubuntu.com/security/notices/USN-6513-2
-    - https://www.cve.org/CVERecord?id=CVE-2023-40217
-    - https://www.python.org/dev/security/
-    PublishedDate: '2023-08-25T01:15:00Z'
-    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2023-27043
-    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.2
+    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.3
     PkgName: libpython3.10-stdlib
-    InstalledVersion: 3.10.12-1~22.04.2
+    InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     DataSource:
@@ -2191,71 +1275,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
-  - VulnerabilityID: CVE-2023-40217
-    PkgID: libpython3.10-stdlib@3.10.12-1~22.04.2
-    PkgName: libpython3.10-stdlib
-    InstalledVersion: 3.10.12-1~22.04.2
-    FixedVersion: 3.10.12-1~22.04.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'python: TLS handshake bypass'
-    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
-    Severity: MEDIUM
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
-        V3Score: 8.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:5462
-    - https://access.redhat.com/security/cve/CVE-2023-40217
-    - https://bugzilla.redhat.com/2235789
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2235789
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
-    - https://errata.almalinux.org/9/ALSA-2023-5462.html
-    - https://errata.rockylinux.org/RLSA-2023:5997
-    - https://github.com/python/cpython/commit/0cb0c238d520a8718e313b52cffc356a5a7561bf (main)
-    - https://github.com/python/cpython/commit/256586ab8776e4526ca594b4866b9a3492e628f1 (3.12)
-    - https://github.com/python/cpython/commit/264b1dacc67346efa0933d1e63f622676e0ed96b (3.9)
-    - https://github.com/python/cpython/commit/37d7180cb647f0bed0c1caab0037f3bc82e2af96 (3.10)
-    - https://github.com/python/cpython/commit/75a875e0df0530b75b1470d797942f90f4a718d3 (3.11)
-    - https://github.com/python/cpython/issues/108310
-    - https://github.com/python/cpython/pull/108315
-    - https://linux.oracle.com/cve/CVE-2023-40217.html
-    - https://linux.oracle.com/errata/ELSA-2023-6885.html
-    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
-    - https://mail.python.org/archives/list/security-announce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
-    - https://security.netapp.com/advisory/ntap-20231006-0014/
-    - https://ubuntu.com/security/notices/USN-6513-1
-    - https://ubuntu.com/security/notices/USN-6513-2
-    - https://www.cve.org/CVERecord?id=CVE-2023-40217
-    - https://www.python.org/dev/security/
-    PublishedDate: '2023-08-25T01:15:00Z'
-    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2022-46908
     PkgID: libsqlite3-0@3.37.2-2ubuntu0.1
     PkgName: libsqlite3-0
     InstalledVersion: 3.37.2-2ubuntu0.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-46908
     DataSource:
@@ -2293,8 +1320,8 @@
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-27943
     DataSource:
@@ -2327,52 +1354,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:00Z'
     LastModifiedDate: '2023-11-07T03:45:00Z'
-  - VulnerabilityID: CVE-2022-40090
-    PkgID: libtiff5@4.3.0-6ubuntu0.6
-    PkgName: libtiff5
-    InstalledVersion: 4.3.0-6ubuntu0.6
-    FixedVersion: 4.3.0-6ubuntu0.7
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-40090
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'libtiff: infinite loop via a crafted TIFF file'
-    Description: An issue was discovered in function TIFFReadDirectory libtiff before 4.4.0 allows attackers to cause a denial of service via crafted TIFF file.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-835
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 6.5
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-40090
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40090
-    - https://gitlab.com/libtiff/libtiff/-/commit/d093eb5d961e21ba51420bc22382c514683a4d91 (v4.5.0rc1)
-    - https://gitlab.com/libtiff/libtiff/-/issues/455
-    - https://gitlab.com/libtiff/libtiff/-/merge_requests/386
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-40090
-    - https://ubuntu.com/security/notices/USN-6512-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-40090
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-08-26T02:13:00Z'
   - VulnerabilityID: CVE-2018-10126
-    PkgID: libtiff5@4.3.0-6ubuntu0.6
+    PkgID: libtiff5@4.3.0-6ubuntu0.7
     PkgName: libtiff5
-    InstalledVersion: 4.3.0-6ubuntu0.6
+    InstalledVersion: 4.3.0-6ubuntu0.7
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2018-10126
     DataSource:
@@ -2403,13 +1392,13 @@
     PublishedDate: '2018-04-21T21:29:00Z'
     LastModifiedDate: '2023-11-07T02:51:00Z'
   - VulnerabilityID: CVE-2023-3164
-    PkgID: libtiff5@4.3.0-6ubuntu0.6
+    PkgID: libtiff5@4.3.0-6ubuntu0.7
     PkgName: libtiff5
-    InstalledVersion: 4.3.0-6ubuntu0.6
+    InstalledVersion: 4.3.0-6ubuntu0.7
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3164
     DataSource:
@@ -2417,7 +1406,7 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: heap-buffer-overflow in extractImageSection()
-    Description: A heap out-of-bounds read flaw was found in builtin.c in the gawk package. This issue may lead to a crash and could be used to read sensitive information.
+    Description: A heap-buffer-overflow vulnerability was found in LibTIFF, in extractImageSection() at tools/tiffcrop.c:7916 and tools/tiffcrop.c:7801. This flaw allows attackers to cause a denial of service via a crafted tiff file.
     Severity: LOW
     CweIDs:
     - CWE-125
@@ -2430,67 +1419,21 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-3164
-    - https://access.redhat.com/security/cve/CVE-2023-4156
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2215930
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2213531
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3164
     - https://gitlab.com/libtiff/libtiff/-/issues/542
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3164
     - https://www.cve.org/CVERecord?id=CVE-2023-3164
     PublishedDate: '2023-11-02T12:15:00Z'
-    LastModifiedDate: '2023-11-09T19:28:00Z'
-  - VulnerabilityID: CVE-2023-3576
-    PkgID: libtiff5@4.3.0-6ubuntu0.6
-    PkgName: libtiff5
-    InstalledVersion: 4.3.0-6ubuntu0.6
-    FixedVersion: 4.3.0-6ubuntu0.7
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3576
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: memory leak in tiffcrop.c
-    Description: A memory leak flaw was found in Libtiff's tiffcrop utility. This issue occurs when tiffcrop operates on a TIFF image file, allowing an attacker to pass a crafted TIFF image file to tiffcrop utility, which causes this memory leak issue, resulting an application crash, eventually leading to a denial of service.
-    Severity: LOW
-    CweIDs:
-    - CWE-401
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:6575
-    - https://access.redhat.com/security/cve/CVE-2023-3576
-    - https://bugzilla.redhat.com/2207635
-    - https://bugzilla.redhat.com/2215206
-    - https://bugzilla.redhat.com/2216080
-    - https://bugzilla.redhat.com/2218749
-    - https://bugzilla.redhat.com/2219340
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2219340
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3576
-    - https://errata.almalinux.org/9/ALSA-2023-6575.html
-    - https://linux.oracle.com/cve/CVE-2023-3576.html
-    - https://linux.oracle.com/errata/ELSA-2023-6575.html
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-3576
-    - https://ubuntu.com/security/notices/USN-6512-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-3576
-    PublishedDate: '2023-10-04T19:15:00Z'
-    LastModifiedDate: '2023-11-07T14:15:00Z'
+    LastModifiedDate: '2023-12-08T12:15:00Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
     InstalledVersion: 1.4.8+dfsg-3build1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-4899
     DataSource:
@@ -2537,8 +1480,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
     DataSource:
@@ -2574,8 +1517,8 @@
     InstalledVersion: 1:8.9p1-3ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28531
     DataSource:
@@ -2608,8 +1551,8 @@
     InstalledVersion: 1:8.9p1-3ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28531
     DataSource:
@@ -2642,8 +1585,8 @@
     InstalledVersion: 1:8.9p1-3ubuntu0.4
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-28531
     DataSource:
@@ -2676,8 +1619,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
     DataSource:
@@ -2707,247 +1650,14 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:00Z'
     LastModifiedDate: '2023-04-24T18:05:00Z'
-  - VulnerabilityID: CVE-2023-47038
-    PkgID: perl@5.34.0-3ubuntu1.2
-    PkgName: perl
-    InstalledVersion: 5.34.0-3ubuntu1.2
-    FixedVersion: 5.34.0-3ubuntu1.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-47038
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'perl: Write past buffer end via illegal user-defined Unicode property'
-    Description: A vulnerability was found in perl. This issue occurs when a crafted regular expression is compiled by perl, which can allow an attacker controlled byte buffer overflow in a heap allocated buffer.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-47038
-    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1056746
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-47038
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-47038
-    - https://ubuntu.com/security/notices/USN-6517-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-47038
-  - VulnerabilityID: CVE-2022-48522
-    PkgID: perl@5.34.0-3ubuntu1.2
-    PkgName: perl
-    InstalledVersion: 5.34.0-3ubuntu1.2
-    FixedVersion: 5.34.0-3ubuntu1.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48522
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: stack-based crash in S_find_uninit_var()
-    Description: In Perl 5.34.0, function S_find_uninit_var in sv.c has a stack-based crash that can lead to remote code execution or local privilege escalation.
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48522
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48522
-    - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
-    - https://security.netapp.com/advisory/ntap-20230915-0008/
-    - https://ubuntu.com/security/notices/USN-6517-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-48522
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-15T14:15:00Z'
-  - VulnerabilityID: CVE-2023-47038
-    PkgID: perl-base@5.34.0-3ubuntu1.2
-    PkgName: perl-base
-    InstalledVersion: 5.34.0-3ubuntu1.2
-    FixedVersion: 5.34.0-3ubuntu1.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-47038
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'perl: Write past buffer end via illegal user-defined Unicode property'
-    Description: A vulnerability was found in perl. This issue occurs when a crafted regular expression is compiled by perl, which can allow an attacker controlled byte buffer overflow in a heap allocated buffer.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-47038
-    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1056746
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-47038
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-47038
-    - https://ubuntu.com/security/notices/USN-6517-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-47038
-  - VulnerabilityID: CVE-2022-48522
-    PkgID: perl-base@5.34.0-3ubuntu1.2
-    PkgName: perl-base
-    InstalledVersion: 5.34.0-3ubuntu1.2
-    FixedVersion: 5.34.0-3ubuntu1.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48522
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: stack-based crash in S_find_uninit_var()
-    Description: In Perl 5.34.0, function S_find_uninit_var in sv.c has a stack-based crash that can lead to remote code execution or local privilege escalation.
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48522
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48522
-    - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
-    - https://security.netapp.com/advisory/ntap-20230915-0008/
-    - https://ubuntu.com/security/notices/USN-6517-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-48522
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-15T14:15:00Z'
-  - VulnerabilityID: CVE-2023-47038
-    PkgID: perl-modules-5.34@5.34.0-3ubuntu1.2
-    PkgName: perl-modules-5.34
-    InstalledVersion: 5.34.0-3ubuntu1.2
-    FixedVersion: 5.34.0-3ubuntu1.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-47038
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'perl: Write past buffer end via illegal user-defined Unicode property'
-    Description: A vulnerability was found in perl. This issue occurs when a crafted regular expression is compiled by perl, which can allow an attacker controlled byte buffer overflow in a heap allocated buffer.
-    Severity: MEDIUM
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-47038
-    - https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1056746
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-47038
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-47038
-    - https://ubuntu.com/security/notices/USN-6517-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-47038
-  - VulnerabilityID: CVE-2022-48522
-    PkgID: perl-modules-5.34@5.34.0-3ubuntu1.2
-    PkgName: perl-modules-5.34
-    InstalledVersion: 5.34.0-3ubuntu1.2
-    FixedVersion: 5.34.0-3ubuntu1.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48522
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: stack-based crash in S_find_uninit_var()
-    Description: In Perl 5.34.0, function S_find_uninit_var in sv.c has a stack-based crash that can lead to remote code execution or local privilege escalation.
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 9.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2022-48522
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48522
-    - https://github.com/Perl/perl5/blob/79a7b254d85a10b65126ad99bf10e70480569d68/sv.c#L16336-L16345
-    - https://nvd.nist.gov/vuln/detail/CVE-2022-48522
-    - https://security.netapp.com/advisory/ntap-20230915-0008/
-    - https://ubuntu.com/security/notices/USN-6517-1
-    - https://www.cve.org/CVERecord?id=CVE-2022-48522
-    PublishedDate: '2023-08-22T19:16:00Z'
-    LastModifiedDate: '2023-09-15T14:15:00Z'
-  - VulnerabilityID: CVE-2023-4016
-    PkgID: procps@2:3.3.17-6ubuntu2
-    PkgName: procps
-    InstalledVersion: 2:3.3.17-6ubuntu2
-    FixedVersion: 2:3.3.17-6ubuntu2.1
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4016
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'procps: ps buffer overflow'
-    Description: Under some circumstances, this weakness allows a user who has access to run the “ps” utility on a machine, the ability to write almost unlimited amounts of unfiltered data into the process heap.
-    Severity: LOW
-    CweIDs:
-    - CWE-787
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 5.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 2.5
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:6705
-    - https://access.redhat.com/security/cve/CVE-2023-4016
-    - https://bugzilla.redhat.com/2228494
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2228494
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4016
-    - https://errata.almalinux.org/9/ALSA-2023-6705.html
-    - https://errata.rockylinux.org/RLSA-2023:7187
-    - https://gitlab.com/procps-ng/procps
-    - https://linux.oracle.com/cve/CVE-2023-4016.html
-    - https://linux.oracle.com/errata/ELSA-2023-7187.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SUETRRT24OFGPYK6ACPM5VUGHNKH5CQ5/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-4016
-    - https://ubuntu.com/security/notices/USN-6477-1
-    - https://www.cve.org/CVERecord?id=CVE-2023-4016
-    PublishedDate: '2023-08-02T05:15:00Z'
-    LastModifiedDate: '2023-08-21T03:15:00Z'
   - VulnerabilityID: CVE-2023-27043
-    PkgID: python3.10@3.10.12-1~22.04.2
+    PkgID: python3.10@3.10.12-1~22.04.3
     PkgName: python3.10
-    InstalledVersion: 3.10.12-1~22.04.2
+    InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     DataSource:
@@ -2982,71 +1692,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
-  - VulnerabilityID: CVE-2023-40217
-    PkgID: python3.10@3.10.12-1~22.04.2
-    PkgName: python3.10
-    InstalledVersion: 3.10.12-1~22.04.2
-    FixedVersion: 3.10.12-1~22.04.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'python: TLS handshake bypass'
-    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
-    Severity: MEDIUM
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
-        V3Score: 8.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:5462
-    - https://access.redhat.com/security/cve/CVE-2023-40217
-    - https://bugzilla.redhat.com/2235789
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2235789
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
-    - https://errata.almalinux.org/9/ALSA-2023-5462.html
-    - https://errata.rockylinux.org/RLSA-2023:5997
-    - https://github.com/python/cpython/commit/0cb0c238d520a8718e313b52cffc356a5a7561bf (main)
-    - https://github.com/python/cpython/commit/256586ab8776e4526ca594b4866b9a3492e628f1 (3.12)
-    - https://github.com/python/cpython/commit/264b1dacc67346efa0933d1e63f622676e0ed96b (3.9)
-    - https://github.com/python/cpython/commit/37d7180cb647f0bed0c1caab0037f3bc82e2af96 (3.10)
-    - https://github.com/python/cpython/commit/75a875e0df0530b75b1470d797942f90f4a718d3 (3.11)
-    - https://github.com/python/cpython/issues/108310
-    - https://github.com/python/cpython/pull/108315
-    - https://linux.oracle.com/cve/CVE-2023-40217.html
-    - https://linux.oracle.com/errata/ELSA-2023-6885.html
-    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
-    - https://mail.python.org/archives/list/security-announce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
-    - https://security.netapp.com/advisory/ntap-20231006-0014/
-    - https://ubuntu.com/security/notices/USN-6513-1
-    - https://ubuntu.com/security/notices/USN-6513-2
-    - https://www.cve.org/CVERecord?id=CVE-2023-40217
-    - https://www.python.org/dev/security/
-    PublishedDate: '2023-08-25T01:15:00Z'
-    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2023-27043
-    PkgID: python3.10-minimal@3.10.12-1~22.04.2
+    PkgID: python3.10-minimal@3.10.12-1~22.04.3
     PkgName: python3.10-minimal
-    InstalledVersion: 3.10.12-1~22.04.2
+    InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-27043
     DataSource:
@@ -3081,71 +1734,14 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:00Z'
     LastModifiedDate: '2023-06-01T14:15:00Z'
-  - VulnerabilityID: CVE-2023-40217
-    PkgID: python3.10-minimal@3.10.12-1~22.04.2
-    PkgName: python3.10-minimal
-    InstalledVersion: 3.10.12-1~22.04.2
-    FixedVersion: 3.10.12-1~22.04.3
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-40217
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'python: TLS handshake bypass'
-    Description: An issue was discovered in Python before 3.8.18, 3.9.x before 3.9.18, 3.10.x before 3.10.13, and 3.11.x before 3.11.5. It primarily affects servers (such as HTTP servers) that use TLS client authentication. If a TLS server-side socket is created, receives data into the socket buffer, and then is closed quickly, there is a brief window where the SSLSocket instance will detect the socket as "not connected" and won't initiate a handshake, but buffered data will still be readable from the socket buffer. This data will not be authenticated if the server-side TLS peer is expecting client certificate authentication, and is indistinguishable from valid TLS stream data. Data is limited in size to the amount that will fit in the buffer. (The TLS connection cannot directly be used for data exfiltration because the vulnerable code path requires that the connection be closed on initialization of the SSLSocket.)
-    Severity: MEDIUM
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
-        V3Score: 5.3
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N
-        V3Score: 8.6
-    References:
-    - https://access.redhat.com/errata/RHSA-2023:5462
-    - https://access.redhat.com/security/cve/CVE-2023-40217
-    - https://bugzilla.redhat.com/2235789
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2235789
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-40217
-    - https://errata.almalinux.org/9/ALSA-2023-5462.html
-    - https://errata.rockylinux.org/RLSA-2023:5997
-    - https://github.com/python/cpython/commit/0cb0c238d520a8718e313b52cffc356a5a7561bf (main)
-    - https://github.com/python/cpython/commit/256586ab8776e4526ca594b4866b9a3492e628f1 (3.12)
-    - https://github.com/python/cpython/commit/264b1dacc67346efa0933d1e63f622676e0ed96b (3.9)
-    - https://github.com/python/cpython/commit/37d7180cb647f0bed0c1caab0037f3bc82e2af96 (3.10)
-    - https://github.com/python/cpython/commit/75a875e0df0530b75b1470d797942f90f4a718d3 (3.11)
-    - https://github.com/python/cpython/issues/108310
-    - https://github.com/python/cpython/pull/108315
-    - https://linux.oracle.com/cve/CVE-2023-40217.html
-    - https://linux.oracle.com/errata/ELSA-2023-6885.html
-    - https://lists.debian.org/debian-lts-announce/2023/09/msg00022.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00017.html
-    - https://mail.python.org/archives/list/security-announce%40python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
-    - https://mail.python.org/archives/list/security-announce@python.org/thread/PEPLII27KYHLF4AK3ZQGKYNCRERG4YXY/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-40217
-    - https://security.netapp.com/advisory/ntap-20231006-0014/
-    - https://ubuntu.com/security/notices/USN-6513-1
-    - https://ubuntu.com/security/notices/USN-6513-2
-    - https://www.cve.org/CVERecord?id=CVE-2023-40217
-    - https://www.python.org/dev/security/
-    PublishedDate: '2023-08-25T01:15:00Z'
-    LastModifiedDate: '2023-11-07T04:20:00Z'
   - VulnerabilityID: CVE-2023-39804
     PkgID: tar@1.34+dfsg-1ubuntu0.1.22.04.1
     PkgName: tar
     InstalledVersion: 1.34+dfsg-1ubuntu0.1.22.04.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39804
     DataSource:
@@ -3163,8 +1759,8 @@
     InstalledVersion: 1:4.8.1-2ubuntu2.1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29383
     DataSource:
@@ -3200,8 +1796,8 @@
     InstalledVersion: 2:8.2.3995-1ubuntu2.13
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46246
     DataSource:
@@ -3229,17 +1825,18 @@
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
     - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
+    - https://security.netapp.com/advisory/ntap-20231208-0006/
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-11-07T18:09:00Z'
+    LastModifiedDate: '2023-12-08T19:15:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
     InstalledVersion: 2:8.2.3995-1ubuntu2.13
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-1886
     DataSource:
@@ -3278,8 +1875,8 @@
     InstalledVersion: 2:8.2.3995-1ubuntu2.13
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46246
     DataSource:
@@ -3307,17 +1904,18 @@
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
     - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
+    - https://security.netapp.com/advisory/ntap-20231208-0006/
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-11-07T18:09:00Z'
+    LastModifiedDate: '2023-12-08T19:15:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
     InstalledVersion: 2:8.2.3995-1ubuntu2.13
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-1886
     DataSource:
@@ -3356,8 +1954,8 @@
     InstalledVersion: 2:8.2.3995-1ubuntu2.13
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46246
     DataSource:
@@ -3385,17 +1983,18 @@
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
     - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
+    - https://security.netapp.com/advisory/ntap-20231208-0006/
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-11-07T18:09:00Z'
+    LastModifiedDate: '2023-12-08T19:15:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
     InstalledVersion: 2:8.2.3995-1ubuntu2.13
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-1886
     DataSource:
@@ -3434,8 +2033,8 @@
     InstalledVersion: 1.21.2-2ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2021-31879
     DataSource:
@@ -3472,8 +2071,8 @@
     InstalledVersion: 2:8.2.3995-1ubuntu2.13
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-46246
     DataSource:
@@ -3501,17 +2100,18 @@
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
     - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
+    - https://security.netapp.com/advisory/ntap-20231208-0006/
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-11-07T18:09:00Z'
+    LastModifiedDate: '2023-12-08T19:15:00Z'
   - VulnerabilityID: CVE-2022-1886
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
     InstalledVersion: 2:8.2.3995-1ubuntu2.13
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-1886
     DataSource:
@@ -3550,8 +2150,8 @@
     InstalledVersion: 5.2.5-2ubuntu1
     Status: affected
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ubuntu
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2020-22916
     DataSource:
@@ -3593,8 +2193,8 @@
     FixedVersion: 1.3.12, 1.4.12, 1.2.13
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6378
     DataSource:
@@ -3641,8 +2241,8 @@
     FixedVersion: 1.3.12, 1.4.12, 1.2.13
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6378
     DataSource:
@@ -3689,8 +2289,8 @@
     FixedVersion: 1.15.3
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-36033
     DataSource:
@@ -3733,8 +2333,8 @@
     FixedVersion: 0.17.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39325
     DataSource:
@@ -3772,7 +2372,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -3815,8 +2415,8 @@
     FixedVersion: 0.13.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3978
     DataSource:
@@ -3870,8 +2470,8 @@
     FixedVersion: 0.17.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
     DataSource:
@@ -3927,7 +2527,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4082,7 +2682,7 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:00Z'
     LastModifiedDate: '2023-12-02T01:15:00Z'
-- Target: tmp/tmp.ZUcXNO7hda/krew-linux_amd64
+- Target: tmp/tmp.7oeWhs5HEV/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
@@ -4092,8 +2692,8 @@
     FixedVersion: 0.17.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39325
     DataSource:
@@ -4131,7 +2731,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -4174,8 +2774,8 @@
     FixedVersion: 0.13.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3978
     DataSource:
@@ -4229,8 +2829,8 @@
     FixedVersion: 0.17.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
     DataSource:
@@ -4286,7 +2886,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4445,54 +3045,14 @@
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
-  - VulnerabilityID: GHSA-jq35-85cj-fj4p
-    PkgName: github.com/docker/docker
-    InstalledVersion: v24.0.6+incompatible
-    FixedVersion: 24.0.7
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ghsa
-    PrimaryURL: https://github.com/advisories/GHSA-jq35-85cj-fj4p
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: /sys/devices/virtual/powercap accessible by default to containers
-    Description: |-
-      Intel's RAPL (Running Average Power Limit) feature, introduced by the Sandy Bridge microarchitecture, provides software insights into hardware energy consumption. To facilitate this, Intel introduced the powercap framework in Linux kernel 3.13, which reads values via relevant MSRs (model specific registers) and provides unprivileged userspace access via `sysfs`. As RAPL is an interface to access a hardware feature, it is only available when running on bare metal with the module compiled into the kernel.
-
-      By 2019, it was realized that in some cases unprivileged access to RAPL readings could be exploited as a power-based side-channel against security features including AES-NI (potentially inside a SGX enclave) and KASLR (kernel address space layout randomization). Also known as the [PLATYPUS attack](https://platypusattack.com/), Intel assigned [CVE-2020-8694](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8694) and [CVE-2020-8695](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8695), and AMD assigned [CVE-2020-12912](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12912).
-
-      Several mitigations were applied; Intel reduced the sampling resolution via a microcode update, and the Linux kernel [prevents access by non-root users](https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=949dd0104c496fa7c14991a23c03c62e44637e71) since 5.10. However, this kernel-based mitigation does not apply to many container-based scenarios:
-      * Unless using user namespaces, root inside a container has the same level of privilege as root outside the container, but with a slightly more narrow view of the system
-      * `sysfs` is mounted inside containers read-only; however only read access is needed to carry out this attack on an unpatched CPU
-
-      While this is not a direct vulnerability in container runtimes, defense in depth and safe defaults are valuable and preferred, especially as this poses a risk to multi-tenant container environments running directly on affected hardware. This is provided by masking `/sys/devices/virtual/powercap` in the default mount configuration, and adding an additional set of rules to deny it in the default AppArmor profile.
-
-      While `sysfs` is not the only way to read from the RAPL subsystem, other ways of accessing it require additional capabilities such as `CAP_SYS_RAWIO` which is not available to containers by default, or `perf` paranoia level less than 1, which is a non-default kernel tunable.
-
-      ## References
-
-      * https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8694
-      * https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8695
-      * https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12912
-      * https://platypusattack.com/
-      * https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=949dd0104c496fa7c14991a23c03c62e44637e71
-      * https://web.eece.maine.edu/~vweaver/projects/rapl/
-    Severity: MEDIUM
-    References:
-    - https://github.com/moby/moby
-    - https://github.com/moby/moby/security/advisories/GHSA-jq35-85cj-fj4p
   - VulnerabilityID: CVE-2023-47108
     PkgName: go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc
     InstalledVersion: v0.40.0
     FixedVersion: 0.46.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-47108
     DataSource:
@@ -4533,8 +3093,8 @@
     FixedVersion: 0.44.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45142
     DataSource:
@@ -4577,8 +3137,8 @@
     FixedVersion: 0.44.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45142
     DataSource:
@@ -4615,306 +3175,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45142
     PublishedDate: '2023-10-12T17:15:00Z'
     LastModifiedDate: '2023-10-18T18:27:00Z'
-  - VulnerabilityID: CVE-2023-39325
-    PkgName: golang.org/x/net
-    InstalledVersion: v0.14.0
-    FixedVersion: 0.17.0
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39325
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
-    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
-    Severity: HIGH
-    CweIDs:
-    - CWE-400
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:6077
-    - https://access.redhat.com/security/cve/CVE-2023-39325
-    - https://access.redhat.com/security/cve/CVE-2023-44487
-    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
-    - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/2243296
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
-    - https://github.com/golang/go/issues/63417
-    - https://go.dev/cl/534215
-    - https://go.dev/cl/534235
-    - https://go.dev/issue/63417
-    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
-    - https://linux.oracle.com/cve/CVE-2023-39325.html
-    - https://linux.oracle.com/errata/ELSA-2023-5867.html
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AVZDNSMVDAQJ64LJC5I5U5LDM5753647/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/D2BBIDR2ZMB3X5BC7SR4SLQMHRMVPY6L/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ECRC75BQJP6FJN2L7KCKYZW4DSBD7QSD/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GSY7SXFFTPZFWDM6XELSDSHZLVW3AHK7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HZQIELEIRSZUYTFFH5KTH2YJ4IIQG2KE/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/REMHVVIBDNKSRKNOTV7EQSB7CYQWOUOU/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T7N5GV4CHH6WAGX3GFMDD3COEOVCZ4RI/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ULQQONMSCQSH5Z5OWFFQHCGEZ3NL4DRJ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UTT7DG3QOF5ZNJLUGHDNLRUIN6OWZARP/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WCNCBYKZXLDFGAJUB7ZP5VLC3YTHJNVH/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P/
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
-    - https://pkg.go.dev/vuln/GO-2023-2102
-    - https://security.gentoo.org/glsa/202311-09
-    - https://security.netapp.com/advisory/ntap-20231110-0008/
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
-    - https://www.cve.org/CVERecord?id=CVE-2023-39325
-    PublishedDate: '2023-10-11T22:15:00Z'
-    LastModifiedDate: '2023-12-07T03:15:00Z'
-  - VulnerabilityID: CVE-2023-44487
-    PkgName: golang.org/x/net
-    InstalledVersion: v0.14.0
-    FixedVersion: 0.17.0
-    Status: fixed
-    Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
-    SeveritySource: ghsa
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
-    DataSource:
-      ID: ghsa
-      Name: GitHub Security Advisory Go
-      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: 'HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack)'
-    Description: The HTTP/2 protocol allows a denial of service (server resource consumption) because request cancellation can reset many streams quickly, as exploited in the wild in August through October 2023.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-400
-    CVSS:
-      bitnami:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      ghsa:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
-      nvd:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
-    References:
-    - http://www.openwall.com/lists/oss-security/2023/10/13/4
-    - http://www.openwall.com/lists/oss-security/2023/10/13/9
-    - http://www.openwall.com/lists/oss-security/2023/10/18/4
-    - http://www.openwall.com/lists/oss-security/2023/10/18/8
-    - http://www.openwall.com/lists/oss-security/2023/10/19/6
-    - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:6746
-    - https://access.redhat.com/security/cve/CVE-2023-44487
-    - https://access.redhat.com/security/cve/cve-2023-44487
-    - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
-    - https://aws.amazon.com/security/security-bulletins/AWS-2023-011/
-    - https://blog.cloudflare.com/technical-breakdown-http2-rapid-reset-ddos-attack/
-    - https://blog.cloudflare.com/zero-day-rapid-reset-http2-record-breaking-ddos-attack/
-    - https://blog.litespeedtech.com/2023/10/11/rapid-reset-http-2-vulnerablilty/
-    - https://blog.qualys.com/vulnerabilities-threat-research/2023/10/10/cve-2023-44487-http-2-rapid-reset-attack
-    - https://blog.vespa.ai/cve-2023-44487/
-    - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
-    - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
-    - https://bugzilla.suse.com/show_bug.cgi?id=1216123
-    - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
-    - https://chaos.social/@icing/111210915918780532
-    - https://cloud.google.com/blog/products/identity-security/google-cloud-mitigated-largest-ddos-attack-peaking-above-398-million-rps/
-    - https://cloud.google.com/blog/products/identity-security/how-it-works-the-novel-http2-rapid-reset-ddos-attack
-    - https://community.traefik.io/t/is-traefik-vulnerable-to-cve-2023-44487/20125
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://devblogs.microsoft.com/dotnet/october-2023-updates/
-    - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
-    - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
-    - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
-    - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
-    - https://github.com/Azure/AKS/issues/3947
-    - https://github.com/Kong/kong/discussions/11741
-    - https://github.com/advisories/GHSA-qppj-fm5r-hxr3
-    - https://github.com/advisories/GHSA-vx74-f528-fxqg
-    - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
-    - https://github.com/akka/akka-http/issues/4323
-    - https://github.com/alibaba/tengine/issues/1872
-    - https://github.com/apache/apisix/issues/10320
-    - https://github.com/apache/httpd-site/pull/10
-    - https://github.com/apache/httpd/blob/afcdbeebbff4b0c50ea26cdd16e178c0d1f24152/modules/http2/h2_mplx.c#L1101-L1113
-    - https://github.com/apache/tomcat/tree/main/java/org/apache/coyote/http2
-    - https://github.com/apache/trafficserver/pull/10564
-    - https://github.com/apple/swift-nio-http2
-    - https://github.com/apple/swift-nio-http2/security/advisories/GHSA-qppj-fm5r-hxr3
-    - https://github.com/arkrwn/PoC/tree/main/CVE-2023-44487
-    - https://github.com/bcdannyboy/CVE-2023-44487
-    - https://github.com/caddyserver/caddy/issues/5877
-    - https://github.com/caddyserver/caddy/releases/tag/v2.7.5
-    - https://github.com/dotnet/announcements/issues/277
-    - https://github.com/dotnet/core/blob/e4613450ea0da7fd2fc6b61dfb2c1c1dec1ce9ec/release-notes/6.0/6.0.23/6.0.23.md?plain=1#L73
-    - https://github.com/eclipse/jetty.project/issues/10679
-    - https://github.com/envoyproxy/envoy/pull/30055
-    - https://github.com/etcd-io/etcd/issues/16740
-    - https://github.com/facebook/proxygen/pull/466
-    - https://github.com/golang/go/issues/63417
-    - https://github.com/grpc/grpc-go/pull/6703
-    - https://github.com/grpc/grpc-go/releases
-    - https://github.com/h2o/h2o/pull/3291
-    - https://github.com/h2o/h2o/security/advisories/GHSA-2m7v-gc89-fjqf
-    - https://github.com/haproxy/haproxy/issues/2312
-    - https://github.com/hyperium/hyper/issues/3337
-    - https://github.com/icing/mod_h2/blob/0a864782af0a942aa2ad4ed960a6b32cd35bcf0a/mod_http2/README.md?plain=1#L239-L244
-    - https://github.com/junkurihara/rust-rpxy/issues/97
-    - https://github.com/kazu-yamamoto/http2/commit/f61d41a502bd0f60eb24e1ce14edc7b6df6722a1
-    - https://github.com/kazu-yamamoto/http2/issues/93
-    - https://github.com/kubernetes/kubernetes/pull/121120
-    - https://github.com/line/armeria/pull/5232
-    - https://github.com/linkerd/website/pull/1695/commits/4b9c6836471bc8270ab48aae6fd2181bc73fd632
-    - https://github.com/micrictor/http2-rst-stream
-    - https://github.com/microsoft/CBL-Mariner/pull/6381
-    - https://github.com/netty/netty/commit/58f75f665aa81a8cbcf6ffa74820042a285c5e61
-    - https://github.com/nghttp2/nghttp2/pull/1961
-    - https://github.com/nghttp2/nghttp2/releases/tag/v1.57.0
-    - https://github.com/ninenines/cowboy/issues/1615
-    - https://github.com/nodejs/node/pull/50121
-    - https://github.com/openresty/openresty/issues/930
-    - https://github.com/opensearch-project/data-prepper/issues/3474
-    - https://github.com/oqtane/oqtane.framework/discussions/3367
-    - https://github.com/projectcontour/contour/pull/5826
-    - https://github.com/tempesta-tech/tempesta/issues/1986
-    - https://github.com/varnishcache/varnish-cache/issues/3996
-    - https://go.dev/cl/534215
-    - https://go.dev/cl/534235
-    - https://go.dev/issue/63417
-    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo
-    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
-    - https://istio.io/latest/news/security/istio-security-2023-004/
-    - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
-    - https://linux.oracle.com/cve/CVE-2023-44487.html
-    - https://linux.oracle.com/errata/ELSA-2023-7205.html
-    - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00024.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00045.html
-    - https://lists.debian.org/debian-lts-announce/2023/10/msg00047.html
-    - https://lists.debian.org/debian-lts-announce/2023/11/msg00001.html
-    - https://lists.debian.org/debian-lts-announce/2023/11/msg00012.html
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/2MBEPPC36UBVOZZNAXFHKLFGSLCMN5LI/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WE2I52RHNNU42PX6NZ2RBUHSFFJ2LVZX/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
-    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3N4NJ7FR4X4FPZUGNTQAPSTVB2HB2Y4A/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BFQD3KUEMFBHPAPBGLWQC34L4OWL5HAZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/E72T67UPDRXHIDLO3OROR25YAMN4GGW5/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FNA62Q767CFAFHBCDKYNPBMZWB7TWYVU/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HT7T2R4MQKLIF4ODV4BDLPARWFPCJ5CZ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JIZSEFC3YKCGABA2BZW6ZJRMDZJMB7PJ/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JMEXY22BFG5Q64HQCM5CK2Q7KDKVV4TY/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LKYHSZQFDNR7RSA7LHVLLIAQMVYCUGBG/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LNMZJCDHGLJJLXO4OXWJMTVQRNWOC7UL/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VHUHTSXLXGXS7JYKBXTA3VINUPHTNGVU/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VSRDIV77HNKUSM7SJC5BKE5JSHLHU2NK/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WLPRQ5TWUQQXYWBJM7ECYDAIL2YVKIUH/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6QXN4ORIVF6XBW4WWFE7VNPVC74S45Y/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZB43REMKRQR62NJEI7I5NQ4FSXNLBKRT/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZKQSIKIAT5TJ3WSLU3RDBQ35YX4GY4V3/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZLU6U2R2IC2K64NDPNMV55AUAO65MAF4/
-    - https://lists.w3.org/Archives/Public/ietf-http-wg/2023OctDec/0025.html
-    - https://mailman.nginx.org/pipermail/nginx-devel/2023-October/S36Q5HBXR7CAIMPLLPRSSSYR4PCMWILK.html
-    - https://martinthomson.github.io/h2-stream-limits/draft-thomson-httpbis-h2-stream-limits.html
-    - https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/
-    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-44487
-    - https://my.f5.com/manage/s/article/K000137106
-    - https://netty.io/news/2023/10/10/4-1-100-Final.html
-    - https://news.ycombinator.com/item?id=37830987
-    - https://news.ycombinator.com/item?id=37830998
-    - https://news.ycombinator.com/item?id=37831062
-    - https://news.ycombinator.com/item?id=37837043
-    - https://nodejs.org/en/blog/vulnerability/october-2023-security-releases
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-44487
-    - https://openssf.org/blog/2023/10/10/http-2-rapid-reset-vulnerability-highlights-need-for-rapid-response/
-    - https://pkg.go.dev/vuln/GO-2023-2102
-    - https://seanmonstar.com/post/730794151136935936/hyper-http2-rapid-reset-unaffected
-    - https://security.gentoo.org/glsa/202311-09
-    - https://security.netapp.com/advisory/ntap-20231016-0001/
-    - https://security.paloaltonetworks.com/CVE-2023-44487
-    - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
-    - https://ubuntu.com/security/CVE-2023-44487
-    - https://ubuntu.com/security/notices/USN-6427-1
-    - https://ubuntu.com/security/notices/USN-6427-2
-    - https://ubuntu.com/security/notices/USN-6438-1
-    - https://ubuntu.com/security/notices/USN-6505-1
-    - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
-    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
-    - https://www.cve.org/CVERecord?id=CVE-2023-44487
-    - https://www.darkreading.com/cloud/internet-wide-zero-day-bug-fuels-largest-ever-ddos-event
-    - https://www.debian.org/security/2023/dsa-5521
-    - https://www.debian.org/security/2023/dsa-5522
-    - https://www.debian.org/security/2023/dsa-5540
-    - https://www.debian.org/security/2023/dsa-5549
-    - https://www.debian.org/security/2023/dsa-5558
-    - https://www.debian.org/security/2023/dsa-5570
-    - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
-    - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
-    - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487/
-    - https://www.nginx.com/blog/http-2-rapid-reset-attack-impacting-f5-nginx-products/
-    - https://www.openwall.com/lists/oss-security/2023/10/10/6
-    - https://www.phoronix.com/news/HTTP2-Rapid-Reset-Attack
-    - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
-    PublishedDate: '2023-10-10T14:15:00Z'
-    LastModifiedDate: '2023-12-02T01:15:00Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -4925,8 +3185,8 @@
     FixedVersion: 24.0.7
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://github.com/advisories/GHSA-jq35-85cj-fj4p
     DataSource:
@@ -4965,8 +3225,8 @@
     FixedVersion: 0.17.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39325
     DataSource:
@@ -5004,7 +3264,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -5047,8 +3307,8 @@
     FixedVersion: 0.13.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-3978
     DataSource:
@@ -5102,8 +3362,8 @@
     FixedVersion: 0.17.0
     Status: fixed
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
     SeveritySource: ghsa
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-44487
     DataSource:
@@ -5159,7 +3419,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -5342,8 +3602,8 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
       CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
@@ -5373,8 +3633,8 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
       CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
@@ -5404,8 +3664,8 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
       CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_rsa_key
   Class: secret
@@ -5435,6 +3695,6 @@
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
-      Digest: sha256:24e5ed67b3a2c2973f736e93f60060eeb559728d126ea1502d08f2be6a37f58c
-      DiffID: sha256:b2bfd44decf8497bc800098c7ac5752cdfcf3caf8aceb8c197cdfdde359873f7
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
       CreatedBy: 'COPY / / # buildkit'
