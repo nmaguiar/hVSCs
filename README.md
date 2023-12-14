@@ -37,7 +37,7 @@ docker run --rm -ti --init -d -p 127.0.0.1:8443:8443 -p 127.0.0.1:10080:1080 --p
 
 In a browser open the following URL (accepting the insecure certificate): https://127.0.0.1:8443
 
-> If you are using Linux >= 5.8 or newer with cgroups v2 support use this one.
+> If you are using Linux kernel version >= 5.8.x with cgroups v2 support, use this one.
 
 ### Kubernetes
 
