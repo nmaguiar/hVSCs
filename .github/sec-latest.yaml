@@ -151,7 +151,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -194,7 +194,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -906,7 +906,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1937,12 +1937,14 @@
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
     - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
     - https://security.netapp.com/advisory/ntap-20231208-0006/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-12-08T19:15:00Z'
+    LastModifiedDate: '2023-12-17T03:15:00Z'
   - VulnerabilityID: CVE-2023-48231
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -2020,11 +2022,13 @@
     - https://github.com/vim/vim/commit/26c11c56888d01e298cd8044caf860f3c26f57bb
     - https://github.com/vim/vim/pull/13552
     - https://github.com/vim/vim/security/advisories/GHSA-c8qm-x72m-q53q
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48706
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48706
     PublishedDate: '2023-11-22T22:15:00Z'
-    LastModifiedDate: '2023-12-01T17:54:00Z'
+    LastModifiedDate: '2023-12-17T03:15:00Z'
   - VulnerabilityID: CVE-2022-1725
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -2195,7 +2199,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
     - https://errata.almalinux.org/9/ALSA-2022-5942.html
-    - https://errata.rockylinux.org/RLSA-2022:5813
+    - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
     - https://huntr.dev/bounties/82c12151-c283-40cf-aa05-2e39efa89118
@@ -2565,12 +2569,14 @@
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
     - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
     - https://security.netapp.com/advisory/ntap-20231208-0006/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-12-08T19:15:00Z'
+    LastModifiedDate: '2023-12-17T03:15:00Z'
   - VulnerabilityID: CVE-2023-48231
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -2648,11 +2654,13 @@
     - https://github.com/vim/vim/commit/26c11c56888d01e298cd8044caf860f3c26f57bb
     - https://github.com/vim/vim/pull/13552
     - https://github.com/vim/vim/security/advisories/GHSA-c8qm-x72m-q53q
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48706
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48706
     PublishedDate: '2023-11-22T22:15:00Z'
-    LastModifiedDate: '2023-12-01T17:54:00Z'
+    LastModifiedDate: '2023-12-17T03:15:00Z'
   - VulnerabilityID: CVE-2022-1725
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -2823,7 +2831,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
     - https://errata.almalinux.org/9/ALSA-2022-5942.html
-    - https://errata.rockylinux.org/RLSA-2022:5813
+    - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
     - https://huntr.dev/bounties/82c12151-c283-40cf-aa05-2e39efa89118
@@ -3193,12 +3201,14 @@
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
     - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
     - https://security.netapp.com/advisory/ntap-20231208-0006/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-12-08T19:15:00Z'
+    LastModifiedDate: '2023-12-17T03:15:00Z'
   - VulnerabilityID: CVE-2023-48231
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -3276,11 +3286,13 @@
     - https://github.com/vim/vim/commit/26c11c56888d01e298cd8044caf860f3c26f57bb
     - https://github.com/vim/vim/pull/13552
     - https://github.com/vim/vim/security/advisories/GHSA-c8qm-x72m-q53q
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48706
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48706
     PublishedDate: '2023-11-22T22:15:00Z'
-    LastModifiedDate: '2023-12-01T17:54:00Z'
+    LastModifiedDate: '2023-12-17T03:15:00Z'
   - VulnerabilityID: CVE-2022-1725
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -3451,7 +3463,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
     - https://errata.almalinux.org/9/ALSA-2022-5942.html
-    - https://errata.rockylinux.org/RLSA-2022:5813
+    - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
     - https://huntr.dev/bounties/82c12151-c283-40cf-aa05-2e39efa89118
@@ -3859,12 +3871,14 @@
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a
     - https://github.com/vim/vim/commit/9198c1f2b1ddecde22af918541e0de2a32f0f45a (v9.0.2068)
     - https://github.com/vim/vim/security/advisories/GHSA-q22m-h7m2-9mgm
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-46246
     - https://security.netapp.com/advisory/ntap-20231208-0006/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-46246
     PublishedDate: '2023-10-27T19:15:00Z'
-    LastModifiedDate: '2023-12-08T19:15:00Z'
+    LastModifiedDate: '2023-12-17T03:15:00Z'
   - VulnerabilityID: CVE-2023-48231
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -3942,11 +3956,13 @@
     - https://github.com/vim/vim/commit/26c11c56888d01e298cd8044caf860f3c26f57bb
     - https://github.com/vim/vim/pull/13552
     - https://github.com/vim/vim/security/advisories/GHSA-c8qm-x72m-q53q
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48706
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48706
     PublishedDate: '2023-11-22T22:15:00Z'
-    LastModifiedDate: '2023-12-01T17:54:00Z'
+    LastModifiedDate: '2023-12-17T03:15:00Z'
   - VulnerabilityID: CVE-2022-1725
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -4117,7 +4133,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
     - https://errata.almalinux.org/9/ALSA-2022-5942.html
-    - https://errata.rockylinux.org/RLSA-2022:5813
+    - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
     - https://huntr.dev/bounties/82c12151-c283-40cf-aa05-2e39efa89118
@@ -4578,7 +4594,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -4733,7 +4749,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4937,7 +4953,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -5092,7 +5108,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -5470,7 +5486,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
     - https://go.dev/cl/534235
@@ -5625,7 +5641,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
