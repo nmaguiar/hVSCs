@@ -175,7 +175,7 @@
 │                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-34969 
 │                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                       │       │                  │       es/457 
 │                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -234,7 +234,7 @@
 │                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-34969 
 │                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                       │       │                  │       es/457 
 │                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1043,7 +1043,7 @@
 │                       │       │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2023-34969 
 │                       │       │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                       │       │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │       │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                       │       │                  │       es/457 
 │                       │       │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -2243,22 +2243,29 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46246 
-│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2023-46246 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/9198c1f2b1ddec
-│                       │       │                  │      de22af918541e0de2a32f0f45a 
-│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/9198c1f2b1ddec
-│                       │       │                  │      de22af918541e0de2a32f0f45a (v9.0.2068) 
-│                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/G
-│                       │       │                  │      HSA-q22m-h7m2-9mgm 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
-│                       │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-202312
-│                       │       │                  │      08-0006/ 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6557-1 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -46246 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-46246 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/9198c1f2b1dde
+│                       │       │                  │       cde22af918541e0de2a32f0f45a 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/9198c1f2b1dde
+│                       │       │                  │       cde22af918541e0de2a32f0f45a (v9.0.2068) 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/security/advisories/
+│                       │       │                  │       GHSA-q22m-h7m2-9mgm 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DNMF
+│                       │       │                  │       S3IH74KEMMESOA3EOB6MZ56TWGFF/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/IVA7
+│                       │       │                  │       K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
+│                       │       │                  ├ [8] : https://security.netapp.com/advisory/ntap-20231
+│                       │       │                  │       208-0006/ 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6557-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │       ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-12-08T19:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-12-17T03:15:00Z 
 │                       ├ [50]  ╭ VulnerabilityID : CVE-2023-48231 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.13 
 │                       │       ├ PkgName         : vim 
@@ -2352,23 +2359,30 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      11/22/3 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-48706 
-│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2023-48706 
-│                       │       │                  ├ [3]: https://github.com/gandalf4a/crash_report/blob/m
-│                       │       │                  │      ain/vim/vim_huaf 
-│                       │       │                  ├ [4]: https://github.com/vim/vim/commit/26c11c56888d01
-│                       │       │                  │      e298cd8044caf860f3c26f57bb 
-│                       │       │                  ├ [5]: https://github.com/vim/vim/pull/13552 
-│                       │       │                  ├ [6]: https://github.com/vim/vim/security/advisories/G
-│                       │       │                  │      HSA-c8qm-x72m-q53q 
-│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-48706 
-│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6557-1 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-48706 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /11/22/3 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -48706 
+│                       │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-48706 
+│                       │       │                  ├ [3] : https://github.com/gandalf4a/crash_report/blob/
+│                       │       │                  │       main/vim/vim_huaf 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/commit/26c11c56888d0
+│                       │       │                  │       1e298cd8044caf860f3c26f57bb 
+│                       │       │                  ├ [5] : https://github.com/vim/vim/pull/13552 
+│                       │       │                  ├ [6] : https://github.com/vim/vim/security/advisories/
+│                       │       │                  │       GHSA-c8qm-x72m-q53q 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DNMF
+│                       │       │                  │       S3IH74KEMMESOA3EOB6MZ56TWGFF/ 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/IVA7
+│                       │       │                  │       K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-48706 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-6557-1 
+│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-48706 
 │                       │       ├ PublishedDate   : 2023-11-22T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-12-01T17:54:00Z 
+│                       │       ╰ LastModifiedDate: 2023-12-17T03:15:00Z 
 │                       ├ [52]  ╭ VulnerabilityID : CVE-2022-1725 
 │                       │       ├ PkgID           : vim@2:8.2.3995-1ubuntu2.13 
 │                       │       ├ PkgName         : vim 
@@ -2548,7 +2562,7 @@
 │                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2022-1927 
 │                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2022-5942.html 
-│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2022:5813 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2022:5942 
 │                       │       │                  ├ [15]: https://github.com/vim/vim/commit/338f1fc0ee3ca
 │                       │       │                  │       929387448fe464579d6113fa76a 
 │                       │       │                  ├ [16]: https://github.com/vim/vim/commit/338f1fc0ee3ca
@@ -3017,22 +3031,29 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46246 
-│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2023-46246 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/9198c1f2b1ddec
-│                       │       │                  │      de22af918541e0de2a32f0f45a 
-│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/9198c1f2b1ddec
-│                       │       │                  │      de22af918541e0de2a32f0f45a (v9.0.2068) 
-│                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/G
-│                       │       │                  │      HSA-q22m-h7m2-9mgm 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
-│                       │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-202312
-│                       │       │                  │      08-0006/ 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6557-1 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -46246 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-46246 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/9198c1f2b1dde
+│                       │       │                  │       cde22af918541e0de2a32f0f45a 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/9198c1f2b1dde
+│                       │       │                  │       cde22af918541e0de2a32f0f45a (v9.0.2068) 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/security/advisories/
+│                       │       │                  │       GHSA-q22m-h7m2-9mgm 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DNMF
+│                       │       │                  │       S3IH74KEMMESOA3EOB6MZ56TWGFF/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/IVA7
+│                       │       │                  │       K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
+│                       │       │                  ├ [8] : https://security.netapp.com/advisory/ntap-20231
+│                       │       │                  │       208-0006/ 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6557-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │       ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-12-08T19:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-12-17T03:15:00Z 
 │                       ├ [64]  ╭ VulnerabilityID : CVE-2023-48231 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.13 
 │                       │       ├ PkgName         : vim-common 
@@ -3126,23 +3147,30 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      11/22/3 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-48706 
-│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2023-48706 
-│                       │       │                  ├ [3]: https://github.com/gandalf4a/crash_report/blob/m
-│                       │       │                  │      ain/vim/vim_huaf 
-│                       │       │                  ├ [4]: https://github.com/vim/vim/commit/26c11c56888d01
-│                       │       │                  │      e298cd8044caf860f3c26f57bb 
-│                       │       │                  ├ [5]: https://github.com/vim/vim/pull/13552 
-│                       │       │                  ├ [6]: https://github.com/vim/vim/security/advisories/G
-│                       │       │                  │      HSA-c8qm-x72m-q53q 
-│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-48706 
-│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6557-1 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-48706 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /11/22/3 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -48706 
+│                       │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-48706 
+│                       │       │                  ├ [3] : https://github.com/gandalf4a/crash_report/blob/
+│                       │       │                  │       main/vim/vim_huaf 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/commit/26c11c56888d0
+│                       │       │                  │       1e298cd8044caf860f3c26f57bb 
+│                       │       │                  ├ [5] : https://github.com/vim/vim/pull/13552 
+│                       │       │                  ├ [6] : https://github.com/vim/vim/security/advisories/
+│                       │       │                  │       GHSA-c8qm-x72m-q53q 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DNMF
+│                       │       │                  │       S3IH74KEMMESOA3EOB6MZ56TWGFF/ 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/IVA7
+│                       │       │                  │       K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-48706 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-6557-1 
+│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-48706 
 │                       │       ├ PublishedDate   : 2023-11-22T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-12-01T17:54:00Z 
+│                       │       ╰ LastModifiedDate: 2023-12-17T03:15:00Z 
 │                       ├ [66]  ╭ VulnerabilityID : CVE-2022-1725 
 │                       │       ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.13 
 │                       │       ├ PkgName         : vim-common 
@@ -3322,7 +3350,7 @@
 │                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2022-1927 
 │                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2022-5942.html 
-│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2022:5813 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2022:5942 
 │                       │       │                  ├ [15]: https://github.com/vim/vim/commit/338f1fc0ee3ca
 │                       │       │                  │       929387448fe464579d6113fa76a 
 │                       │       │                  ├ [16]: https://github.com/vim/vim/commit/338f1fc0ee3ca
@@ -3791,22 +3819,29 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46246 
-│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2023-46246 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/9198c1f2b1ddec
-│                       │       │                  │      de22af918541e0de2a32f0f45a 
-│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/9198c1f2b1ddec
-│                       │       │                  │      de22af918541e0de2a32f0f45a (v9.0.2068) 
-│                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/G
-│                       │       │                  │      HSA-q22m-h7m2-9mgm 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
-│                       │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-202312
-│                       │       │                  │      08-0006/ 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6557-1 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -46246 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-46246 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/9198c1f2b1dde
+│                       │       │                  │       cde22af918541e0de2a32f0f45a 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/9198c1f2b1dde
+│                       │       │                  │       cde22af918541e0de2a32f0f45a (v9.0.2068) 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/security/advisories/
+│                       │       │                  │       GHSA-q22m-h7m2-9mgm 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DNMF
+│                       │       │                  │       S3IH74KEMMESOA3EOB6MZ56TWGFF/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/IVA7
+│                       │       │                  │       K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
+│                       │       │                  ├ [8] : https://security.netapp.com/advisory/ntap-20231
+│                       │       │                  │       208-0006/ 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6557-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │       ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-12-08T19:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-12-17T03:15:00Z 
 │                       ├ [78]  ╭ VulnerabilityID : CVE-2023-48231 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.13 
 │                       │       ├ PkgName         : vim-runtime 
@@ -3900,23 +3935,30 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      11/22/3 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-48706 
-│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2023-48706 
-│                       │       │                  ├ [3]: https://github.com/gandalf4a/crash_report/blob/m
-│                       │       │                  │      ain/vim/vim_huaf 
-│                       │       │                  ├ [4]: https://github.com/vim/vim/commit/26c11c56888d01
-│                       │       │                  │      e298cd8044caf860f3c26f57bb 
-│                       │       │                  ├ [5]: https://github.com/vim/vim/pull/13552 
-│                       │       │                  ├ [6]: https://github.com/vim/vim/security/advisories/G
-│                       │       │                  │      HSA-c8qm-x72m-q53q 
-│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-48706 
-│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6557-1 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-48706 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /11/22/3 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -48706 
+│                       │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-48706 
+│                       │       │                  ├ [3] : https://github.com/gandalf4a/crash_report/blob/
+│                       │       │                  │       main/vim/vim_huaf 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/commit/26c11c56888d0
+│                       │       │                  │       1e298cd8044caf860f3c26f57bb 
+│                       │       │                  ├ [5] : https://github.com/vim/vim/pull/13552 
+│                       │       │                  ├ [6] : https://github.com/vim/vim/security/advisories/
+│                       │       │                  │       GHSA-c8qm-x72m-q53q 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DNMF
+│                       │       │                  │       S3IH74KEMMESOA3EOB6MZ56TWGFF/ 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/IVA7
+│                       │       │                  │       K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-48706 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-6557-1 
+│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-48706 
 │                       │       ├ PublishedDate   : 2023-11-22T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-12-01T17:54:00Z 
+│                       │       ╰ LastModifiedDate: 2023-12-17T03:15:00Z 
 │                       ├ [80]  ╭ VulnerabilityID : CVE-2022-1725 
 │                       │       ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.13 
 │                       │       ├ PkgName         : vim-runtime 
@@ -4096,7 +4138,7 @@
 │                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2022-1927 
 │                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2022-5942.html 
-│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2022:5813 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2022:5942 
 │                       │       │                  ├ [15]: https://github.com/vim/vim/commit/338f1fc0ee3ca
 │                       │       │                  │       929387448fe464579d6113fa76a 
 │                       │       │                  ├ [16]: https://github.com/vim/vim/commit/338f1fc0ee3ca
@@ -4605,22 +4647,29 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                       │       │                           │           :N/I:N/A:L 
 │                       │       │                           ╰ V3Score : 4 
-│                       │       ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-46246 
-│                       │       │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2023-46246 
-│                       │       │                  ├ [2]: https://github.com/vim/vim/commit/9198c1f2b1ddec
-│                       │       │                  │      de22af918541e0de2a32f0f45a 
-│                       │       │                  ├ [3]: https://github.com/vim/vim/commit/9198c1f2b1ddec
-│                       │       │                  │      de22af918541e0de2a32f0f45a (v9.0.2068) 
-│                       │       │                  ├ [4]: https://github.com/vim/vim/security/advisories/G
-│                       │       │                  │      HSA-q22m-h7m2-9mgm 
-│                       │       │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
-│                       │       │                  ├ [6]: https://security.netapp.com/advisory/ntap-202312
-│                       │       │                  │      08-0006/ 
-│                       │       │                  ├ [7]: https://ubuntu.com/security/notices/USN-6557-1 
-│                       │       │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
+│                       │       ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -46246 
+│                       │       │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-46246 
+│                       │       │                  ├ [2] : https://github.com/vim/vim/commit/9198c1f2b1dde
+│                       │       │                  │       cde22af918541e0de2a32f0f45a 
+│                       │       │                  ├ [3] : https://github.com/vim/vim/commit/9198c1f2b1dde
+│                       │       │                  │       cde22af918541e0de2a32f0f45a (v9.0.2068) 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/security/advisories/
+│                       │       │                  │       GHSA-q22m-h7m2-9mgm 
+│                       │       │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DNMF
+│                       │       │                  │       S3IH74KEMMESOA3EOB6MZ56TWGFF/ 
+│                       │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/IVA7
+│                       │       │                  │       K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/ 
+│                       │       │                  ├ [7] : https://nvd.nist.gov/vuln/detail/CVE-2023-46246 
+│                       │       │                  ├ [8] : https://security.netapp.com/advisory/ntap-20231
+│                       │       │                  │       208-0006/ 
+│                       │       │                  ├ [9] : https://ubuntu.com/security/notices/USN-6557-1 
+│                       │       │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-46246 
 │                       │       ├ PublishedDate   : 2023-10-27T19:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-12-08T19:15:00Z 
+│                       │       ╰ LastModifiedDate: 2023-12-17T03:15:00Z 
 │                       ├ [93]  ╭ VulnerabilityID : CVE-2023-48231 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.13 
 │                       │       ├ PkgName         : xxd 
@@ -4714,23 +4763,30 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C
 │                       │       │                           │           :N/I:N/A:H 
 │                       │       │                           ╰ V3Score : 4.7 
-│                       │       ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2023/
-│                       │       │                  │      11/22/3 
-│                       │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-48706 
-│                       │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                       │       │                  │      VE-2023-48706 
-│                       │       │                  ├ [3]: https://github.com/gandalf4a/crash_report/blob/m
-│                       │       │                  │      ain/vim/vim_huaf 
-│                       │       │                  ├ [4]: https://github.com/vim/vim/commit/26c11c56888d01
-│                       │       │                  │      e298cd8044caf860f3c26f57bb 
-│                       │       │                  ├ [5]: https://github.com/vim/vim/pull/13552 
-│                       │       │                  ├ [6]: https://github.com/vim/vim/security/advisories/G
-│                       │       │                  │      HSA-c8qm-x72m-q53q 
-│                       │       │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-48706 
-│                       │       │                  ├ [8]: https://ubuntu.com/security/notices/USN-6557-1 
-│                       │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-48706 
+│                       │       ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                       │       │                  │       /11/22/3 
+│                       │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                       │       │                  │       -48706 
+│                       │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                       │       │                  │       CVE-2023-48706 
+│                       │       │                  ├ [3] : https://github.com/gandalf4a/crash_report/blob/
+│                       │       │                  │       main/vim/vim_huaf 
+│                       │       │                  ├ [4] : https://github.com/vim/vim/commit/26c11c56888d0
+│                       │       │                  │       1e298cd8044caf860f3c26f57bb 
+│                       │       │                  ├ [5] : https://github.com/vim/vim/pull/13552 
+│                       │       │                  ├ [6] : https://github.com/vim/vim/security/advisories/
+│                       │       │                  │       GHSA-c8qm-x72m-q53q 
+│                       │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/DNMF
+│                       │       │                  │       S3IH74KEMMESOA3EOB6MZ56TWGFF/ 
+│                       │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                       │       │                  │       ackage-announce@lists.fedoraproject.org/message/IVA7
+│                       │       │                  │       K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/ 
+│                       │       │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-48706 
+│                       │       │                  ├ [10]: https://ubuntu.com/security/notices/USN-6557-1 
+│                       │       │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2023-48706 
 │                       │       ├ PublishedDate   : 2023-11-22T22:15:00Z 
-│                       │       ╰ LastModifiedDate: 2023-12-01T17:54:00Z 
+│                       │       ╰ LastModifiedDate: 2023-12-17T03:15:00Z 
 │                       ├ [95]  ╭ VulnerabilityID : CVE-2022-1725 
 │                       │       ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.13 
 │                       │       ├ PkgName         : xxd 
@@ -4910,7 +4966,7 @@
 │                       │       │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                       │       │                  │       CVE-2022-1927 
 │                       │       │                  ├ [13]: https://errata.almalinux.org/9/ALSA-2022-5942.html 
-│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2022:5813 
+│                       │       │                  ├ [14]: https://errata.rockylinux.org/RLSA-2022:5942 
 │                       │       │                  ├ [15]: https://github.com/vim/vim/commit/338f1fc0ee3ca
 │                       │       │                  │       929387448fe464579d6113fa76a 
 │                       │       │                  ├ [16]: https://github.com/vim/vim/commit/338f1fc0ee3ca
@@ -5521,7 +5577,7 @@
 │                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2023-44487 
 │                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
+│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                       │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                       │     │                  ├ [14]: https://go.dev/cl/534215 
 │                       │     │                  ├ [15]: https://go.dev/cl/534235 
@@ -5750,7 +5806,7 @@
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
 │                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
 │                             │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35
@@ -6111,7 +6167,7 @@
 │                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2023-44487 
 │                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
+│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                       │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                       │     │                  ├ [14]: https://go.dev/cl/534215 
 │                       │     │                  ├ [15]: https://go.dev/cl/534235 
@@ -6340,7 +6396,7 @@
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
 │                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
 │                             │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35
@@ -7016,7 +7072,7 @@
 │                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │     │                  │       E-2023-44487 
 │                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
+│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                       │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                       │     │                  ├ [14]: https://go.dev/cl/534215 
 │                       │     │                  ├ [15]: https://go.dev/cl/534235 
@@ -7245,7 +7301,7 @@
 │                             │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                             │                  │        -tale-of-a-hidden-cve 
 │                             │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                             │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                             │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secur
 │                             │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
 │                             │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35
