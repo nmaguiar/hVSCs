@@ -1707,16 +1707,20 @@
 │                        │       │                   3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch
 │                        │       │                   before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus
 │                        │       │                   through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH
-│                        │       │                    through 18.2.0, ProFTPD before 1.3.8b (and
-│                        │       │                   before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang
-│                        │       │                   XShell 7 before Build 0144, CrushFTP before 10.6.0,
-│                        │       │                   ConnectBot SSH library before 2.2.22, Apache MINA sshd
-│                        │       │                   through 2.11.0, sshj through 0.37.0, TinySSH through
-│                        │       │                   20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for
-│                        │       │                   Ruby, the mscdex ssh2 module before 1.15.0 for Node.js,
-│                        │       │                   the thrussh library before 0.35.1 for Rust, and the Russh
-│                        │       │                   crate before 0.40.2 for Rust; and there could be effects
-│                        │       │                   on Bitvise SSH through 9.31. 
+│                        │       │                    through 18.2.0, ProFTPD before 1.3.8b (and before
+│                        │       │                   1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell
+│                        │       │                   7 before Build 0144, CrushFTP before 10.6.0, ConnectBot
+│                        │       │                   SSH library before 2.2.22, Apache MINA sshd through
+│                        │       │                   2.11.0, sshj through 0.37.0, TinySSH through 20230101,
+│                        │       │                   trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla
+│                        │       │                   before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4,
+│                        │       │                   SecureCRT before 9.4.3, Transmit5 before 5.10.4,
+│                        │       │                   Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2,
+│                        │       │                   Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13,
+│                        │       │                   the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module
+│                        │       │                   before 1.15.0 for Node.js, the thrussh library before
+│                        │       │                   0.35.1 for Rust, and the Russh crate before 0.40.2 for
+│                        │       │                   Rust. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ ghsa  : 2 
@@ -1749,135 +1753,157 @@
 │                        │       │                  ├ [10]: https://crates.io/crates/thrussh/versions 
 │                        │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-48795 
-│                        │       │                  ├ [12]: https://forum.netgate.com/topic/184941/terrapi
+│                        │       │                  ├ [12]: https://filezilla-project.org/versions.php 
+│                        │       │                  ├ [13]: https://forum.netgate.com/topic/184941/terrapi
 │                        │       │                  │       n-ssh-attack 
-│                        │       │                  ├ [13]: https://git.libssh.org/projects/libssh.git/com
+│                        │       │                  ├ [14]: https://git.libssh.org/projects/libssh.git/com
 │                        │       │                  │       mit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b
 │                        │       │                  │       8c221c2e7f6 
-│                        │       │                  ├ [14]: https://github.com/NixOS/nixpkgs/pull/275249 
-│                        │       │                  ├ [15]: https://github.com/TeraTermProject/teraterm/co
+│                        │       │                  ├ [15]: https://github.com/NixOS/nixpkgs/pull/275249 
+│                        │       │                  ├ [16]: https://github.com/PowerShell/Win32-OpenSSH/is
+│                        │       │                  │       sues/2189 
+│                        │       │                  ├ [17]: https://github.com/PowerShell/Win32-OpenSSH/re
+│                        │       │                  │       leases/tag/v9.5.0.0p1-Beta 
+│                        │       │                  ├ [18]: https://github.com/TeraTermProject/teraterm/co
 │                        │       │                  │       mmit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
 │                        │       │                  │        
-│                        │       │                  ├ [16]: https://github.com/TeraTermProject/teraterm/re
+│                        │       │                  ├ [19]: https://github.com/TeraTermProject/teraterm/re
 │                        │       │                  │       leases/tag/v5.1 
-│                        │       │                  ├ [17]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
-│                        │       │                  ├ [18]: https://github.com/apache/mina-sshd/issues/445 
-│                        │       │                  ├ [19]: https://github.com/connectbot/sshlib/commit/5c
+│                        │       │                  ├ [20]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
+│                        │       │                  ├ [21]: https://github.com/apache/mina-sshd/issues/445 
+│                        │       │                  ├ [22]: https://github.com/connectbot/sshlib/commit/5c
 │                        │       │                  │       8b534f6e97db7ac0e0e579331213aa25c173ab 
-│                        │       │                  ├ [20]: https://github.com/connectbot/sshlib/compare/2
+│                        │       │                  ├ [23]: https://github.com/connectbot/sshlib/compare/2
 │                        │       │                  │       .2.21...2.2.22 
-│                        │       │                  ├ [21]: https://github.com/drakkan/sftpgo/releases/tag
+│                        │       │                  ├ [24]: https://github.com/cyd01/KiTTY/issues/520 
+│                        │       │                  ├ [25]: https://github.com/drakkan/sftpgo/releases/tag
 │                        │       │                  │       /v2.5.6 
-│                        │       │                  ├ [22]: https://github.com/erlang/otp/blob/d1b43dc0f13
+│                        │       │                  ├ [26]: https://github.com/erlang/otp/blob/d1b43dc0f13
 │                        │       │                  │       61d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes
 │                        │       │                  │       .xml#L39-L42 
-│                        │       │                  ├ [23]: https://github.com/erlang/otp/releases/tag/OTP
+│                        │       │                  ├ [27]: https://github.com/erlang/otp/releases/tag/OTP
 │                        │       │                  │       -26.2.1 
-│                        │       │                  ├ [24]: https://github.com/golang/crypto/commit/9d2ee9
+│                        │       │                  ├ [28]: https://github.com/golang/crypto/commit/9d2ee9
 │                        │       │                  │       75ef9fe627bf0a6f01c1f69e8ef1d4f05d 
-│                        │       │                  ├ [25]: https://github.com/hierynomus/sshj/issues/916 
-│                        │       │                  ├ [26]: https://github.com/janmojzis/tinyssh/issues/81 
-│                        │       │                  ├ [27]: https://github.com/jtesta/ssh-audit/commit/8e9
+│                        │       │                  ├ [29]: https://github.com/hierynomus/sshj/issues/916 
+│                        │       │                  ├ [30]: https://github.com/janmojzis/tinyssh/issues/81 
+│                        │       │                  ├ [31]: https://github.com/jtesta/ssh-audit/commit/8e9
 │                        │       │                  │       72c5e94b460379fe0c7d20209c16df81538a5 
-│                        │       │                  ├ [28]: https://github.com/libssh2/libssh2/pull/1291 
-│                        │       │                  ├ [29]: https://github.com/mkj/dropbear/blob/17657c36c
+│                        │       │                  ├ [32]: https://github.com/libssh2/libssh2/pull/1291 
+│                        │       │                  ├ [33]: https://github.com/mkj/dropbear/blob/17657c36c
 │                        │       │                  │       ce6df7716d5ff151ec09a665382d5dd/CHANGES#L25[
 │                        │       │                  │       m 
-│                        │       │                  ├ [30]: https://github.com/mscdex/ssh2/commit/97b223f8
+│                        │       │                  ├ [34]: https://github.com/mscdex/ssh2/commit/97b223f8
 │                        │       │                  │       891b96d6fc054df5ab1d5a1a545da2a3 
-│                        │       │                  ├ [31]: https://github.com/mwiede/jsch/compare/jsch-0.
+│                        │       │                  ├ [35]: https://github.com/mwiede/jsch/compare/jsch-0.
 │                        │       │                  │       2.14...jsch-0.2.15 
-│                        │       │                  ├ [32]: https://github.com/mwiede/jsch/issues/457 
-│                        │       │                  ├ [33]: https://github.com/mwiede/jsch/pull/461 
-│                        │       │                  ├ [34]: https://github.com/net-ssh/net-ssh/blob/2e6506
+│                        │       │                  ├ [36]: https://github.com/mwiede/jsch/issues/457 
+│                        │       │                  ├ [37]: https://github.com/mwiede/jsch/pull/461 
+│                        │       │                  ├ [38]: https://github.com/net-ssh/net-ssh/blob/2e6506
 │                        │       │                  │       4a52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-
 │                        │       │                  │       L16 
-│                        │       │                  ├ [35]: https://github.com/openssh/openssh-portable/co
+│                        │       │                  ├ [39]: https://github.com/openssh/openssh-portable/co
 │                        │       │                  │       mmits/master 
-│                        │       │                  ├ [36]: https://github.com/paramiko/paramiko/issues/2337 
-│                        │       │                  ├ [37]: https://github.com/proftpd/proftpd/blob/0a7ea9
+│                        │       │                  ├ [40]: https://github.com/paramiko/paramiko/issues/2337 
+│                        │       │                  ├ [41]: https://github.com/proftpd/proftpd/blob/0a7ea9
 │                        │       │                  │       b0ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES
 │                        │       │                  │        
-│                        │       │                  ├ [38]: https://github.com/proftpd/proftpd/blob/d21e7a
+│                        │       │                  ├ [42]: https://github.com/proftpd/proftpd/blob/d21e7a
 │                        │       │                  │       2e47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES
 │                        │       │                  │        
-│                        │       │                  ├ [39]: https://github.com/proftpd/proftpd/blob/master
+│                        │       │                  ├ [43]: https://github.com/proftpd/proftpd/blob/master
 │                        │       │                  │       /RELEASE_NOTES 
-│                        │       │                  ├ [40]: https://github.com/proftpd/proftpd/issues/456 
-│                        │       │                  ├ [41]: https://github.com/rapier1/hpn-ssh/releases 
-│                        │       │                  ├ [42]: https://github.com/ronf/asyncssh/blob/develop/
+│                        │       │                  ├ [44]: https://github.com/proftpd/proftpd/issues/456 
+│                        │       │                  ├ [45]: https://github.com/rapier1/hpn-ssh/releases 
+│                        │       │                  ├ [46]: https://github.com/ronf/asyncssh/blob/develop/
 │                        │       │                  │       docs/changes.rst 
-│                        │       │                  ├ [43]: https://github.com/ronf/asyncssh/security/advi
+│                        │       │                  ├ [47]: https://github.com/ronf/asyncssh/security/advi
 │                        │       │                  │       sories/GHSA-hfmc-7525-mj55 
-│                        │       │                  ├ [44]: https://github.com/ronf/asyncssh/tags 
-│                        │       │                  ├ [45]: https://github.com/warp-tech/russh 
-│                        │       │                  ├ [46]: https://github.com/warp-tech/russh/commit/1aa3
+│                        │       │                  ├ [48]: https://github.com/ronf/asyncssh/tags 
+│                        │       │                  ├ [49]: https://github.com/warp-tech/russh 
+│                        │       │                  ├ [50]: https://github.com/warp-tech/russh/commit/1aa3
 │                        │       │                  │       40a7df1d5be1c0f4a9e247aade76dfdd2951 
-│                        │       │                  ├ [47]: https://github.com/warp-tech/russh/releases/ta
+│                        │       │                  ├ [51]: https://github.com/warp-tech/russh/releases/ta
 │                        │       │                  │       g/v0.40.2 
-│                        │       │                  ├ [48]: https://github.com/warp-tech/russh/security/ad
+│                        │       │                  ├ [52]: https://github.com/warp-tech/russh/security/ad
 │                        │       │                  │       visories/GHSA-45x7-px36-x8w8 
-│                        │       │                  ├ [49]: https://gitlab.com/libssh/libssh-mirror/-/tags 
-│                        │       │                  ├ [50]: https://go.dev/cl/550715 
-│                        │       │                  ├ [51]: https://go.dev/issue/64784 
-│                        │       │                  ├ [52]: https://groups.google.com/g/golang-announce/c/
+│                        │       │                  ├ [53]: https://gitlab.com/libssh/libssh-mirror/-/tags 
+│                        │       │                  ├ [54]: https://go.dev/cl/550715 
+│                        │       │                  ├ [55]: https://go.dev/issue/64784 
+│                        │       │                  ├ [56]: https://groups.google.com/g/golang-announce/c/
 │                        │       │                  │       -n5WqVC18LQ 
-│                        │       │                  ├ [53]: https://groups.google.com/g/golang-announce/c/
+│                        │       │                  ├ [57]: https://groups.google.com/g/golang-announce/c/
 │                        │       │                  │       qA3XtxvMUyg 
-│                        │       │                  ├ [54]: https://jadaptive.com/important-java-ssh-secur
+│                        │       │                  ├ [58]: https://help.panic.com/releasenotes/transmit5/ 
+│                        │       │                  ├ [59]: https://jadaptive.com/important-java-ssh-secur
 │                        │       │                  │       ity-update-new-ssh-vulnerability-discovered-cve-202
 │                        │       │                  │       3-48795/ 
-│                        │       │                  ├ [55]: https://matt.ucc.asn.au/dropbear/CHANGES 
-│                        │       │                  ├ [56]: https://nest.pijul.com/pijul/thrussh/changes/D
+│                        │       │                  ├ [60]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/ 
+│                        │       │                  ├ [61]: https://matt.ucc.asn.au/dropbear/CHANGES 
+│                        │       │                  ├ [62]: https://nest.pijul.com/pijul/thrussh/changes/D
 │                        │       │                  │       6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQ
 │                        │       │                  │       C 
-│                        │       │                  ├ [57]: https://news.ycombinator.com/item?id=38684904 
-│                        │       │                  ├ [58]: https://news.ycombinator.com/item?id=38685286 
-│                        │       │                  ├ [59]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
-│                        │       │                  ├ [60]: https://oryx-embedded.com/download/#changelog 
-│                        │       │                  ├ [61]: https://security-tracker.debian.org/tracker/CV
+│                        │       │                  ├ [63]: https://news.ycombinator.com/item?id=38684904 
+│                        │       │                  ├ [64]: https://news.ycombinator.com/item?id=38685286 
+│                        │       │                  ├ [65]: https://nova.app/releases/#v11.8 
+│                        │       │                  ├ [66]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
+│                        │       │                  ├ [67]: https://oryx-embedded.com/download/#changelog 
+│                        │       │                  ├ [68]: https://roumenpetrov.info/secsh/#news20231220 
+│                        │       │                  ├ [69]: https://security-tracker.debian.org/tracker/CV
 │                        │       │                  │       E-2023-48795 
-│                        │       │                  ├ [62]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [70]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/libssh2 
-│                        │       │                  ├ [63]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [71]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/proftpd-dfsg 
-│                        │       │                  ├ [64]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [72]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/trilead-ssh2 
-│                        │       │                  ├ [65]: https://terrapin-attack.com/ 
-│                        │       │                  ├ [66]: https://thorntech.com/cve-2023-48795-and-sftp-
+│                        │       │                  ├ [73]: https://terrapin-attack.com/ 
+│                        │       │                  ├ [74]: https://thorntech.com/cve-2023-48795-and-sftp-
 │                        │       │                  │       gateway/ 
-│                        │       │                  ├ [67]: https://twitter.com/TrueSkrillor/status/173677
+│                        │       │                  ├ [75]: https://twitter.com/TrueSkrillor/status/173677
 │                        │       │                  │       4389725565005 
-│                        │       │                  ├ [68]: https://ubuntu.com/security/CVE-2023-48795 
-│                        │       │                  ├ [69]: https://ubuntu.com/security/notices/USN-6560-1 
-│                        │       │                  ├ [70]: https://ubuntu.com/security/notices/USN-6561-1 
-│                        │       │                  ├ [71]: https://www.bitvise.com/ssh-server-version-history 
-│                        │       │                  ├ [72]: https://www.chiark.greenend.org.uk/~sgtatham/p
+│                        │       │                  ├ [76]: https://ubuntu.com/security/CVE-2023-48795 
+│                        │       │                  ├ [77]: https://ubuntu.com/security/notices/USN-6560-1 
+│                        │       │                  ├ [78]: https://ubuntu.com/security/notices/USN-6561-1 
+│                        │       │                  ├ [79]: https://winscp.net/eng/docs/history#6.2.2 
+│                        │       │                  ├ [80]: https://www.bitvise.com/ssh-client-version-his
+│                        │       │                  │       tory#933 
+│                        │       │                  ├ [81]: https://www.bitvise.com/ssh-server-version-history 
+│                        │       │                  ├ [82]: https://www.chiark.greenend.org.uk/~sgtatham/p
 │                        │       │                  │       utty/changes.html 
-│                        │       │                  ├ [73]: https://www.crushftp.com/crush10wiki/Wiki.jsp?
+│                        │       │                  ├ [83]: https://www.crushftp.com/crush10wiki/Wiki.jsp?
 │                        │       │                  │       page=Update 
-│                        │       │                  ├ [74]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                        │       │                  ├ [75]: https://www.freebsd.org/security/advisories/Fr
+│                        │       │                  ├ [84]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                        │       │                  ├ [85]: https://www.debian.org/security/2023/dsa-5586 
+│                        │       │                  ├ [86]: https://www.freebsd.org/security/advisories/Fr
 │                        │       │                  │       eeBSD-SA-23:19.openssh.asc 
-│                        │       │                  ├ [76]: https://www.netsarang.com/en/xshell-update-history/ 
-│                        │       │                  ├ [77]: https://www.openssh.com/openbsd.html 
-│                        │       │                  ├ [78]: https://www.openssh.com/txt/release-9.6 
-│                        │       │                  ├ [79]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [87]: https://www.lancom-systems.de/service-support/
+│                        │       │                  │       allgemeine-sicherheitshinweise#c243508 
+│                        │       │                  ├ [88]: https://www.netsarang.com/en/xshell-update-history/ 
+│                        │       │                  ├ [89]: https://www.openssh.com/openbsd.html 
+│                        │       │                  ├ [90]: https://www.openssh.com/txt/release-9.6 
+│                        │       │                  ├ [91]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/18/2 
-│                        │       │                  ├ [80]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [92]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/18/3 
-│                        │       │                  ├ [81]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [93]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/20/3 
-│                        │       │                  ├ [82]: https://www.paramiko.org/changelog.html 
-│                        │       │                  ├ [83]: https://www.reddit.com/r/sysadmin/comments/18i
+│                        │       │                  ├ [94]: https://www.paramiko.org/changelog.html 
+│                        │       │                  ├ [95]: https://www.reddit.com/r/sysadmin/comments/18i
 │                        │       │                  │       dv52/cve202348795_why_is_this_cve_still_undisclosed
 │                        │       │                  │       / 
-│                        │       │                  ├ [84]: https://www.suse.com/c/suse-addresses-the-ssh-
+│                        │       │                  ├ [96]: https://www.suse.com/c/suse-addresses-the-ssh-
 │                        │       │                  │       v2-protocol-terrapin-attack-aka-cve-2023-48795/
 │                        │       │                  │       [m 
-│                        │       │                  ╰ [85]: https://www.terrapin-attack.com 
+│                        │       │                  ├ [97]: https://www.terrapin-attack.com 
+│                        │       │                  ├ [98]: https://www.theregister.com/2023/12/20/terrapi
+│                        │       │                  │       n_attack_ssh 
+│                        │       │                  ╰ [99]: https://www.vandyke.com/products/securecrt/his
+│                        │       │                          tory.txt 
 │                        │       ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                        │       ╰ LastModifiedDate: 2023-12-21T14:15:08.59Z 
+│                        │       ╰ LastModifiedDate: 2023-12-22T15:15:08.143Z 
 │                        ├ [35]  ╭ VulnerabilityID : CVE-2022-27943 
 │                        │       ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │       ├ PkgName         : libstdc++6 
@@ -2184,16 +2210,20 @@
 │                        │       │                   3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch
 │                        │       │                   before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus
 │                        │       │                   through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH
-│                        │       │                    through 18.2.0, ProFTPD before 1.3.8b (and
-│                        │       │                   before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang
-│                        │       │                   XShell 7 before Build 0144, CrushFTP before 10.6.0,
-│                        │       │                   ConnectBot SSH library before 2.2.22, Apache MINA sshd
-│                        │       │                   through 2.11.0, sshj through 0.37.0, TinySSH through
-│                        │       │                   20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for
-│                        │       │                   Ruby, the mscdex ssh2 module before 1.15.0 for Node.js,
-│                        │       │                   the thrussh library before 0.35.1 for Rust, and the Russh
-│                        │       │                   crate before 0.40.2 for Rust; and there could be effects
-│                        │       │                   on Bitvise SSH through 9.31. 
+│                        │       │                    through 18.2.0, ProFTPD before 1.3.8b (and before
+│                        │       │                   1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell
+│                        │       │                   7 before Build 0144, CrushFTP before 10.6.0, ConnectBot
+│                        │       │                   SSH library before 2.2.22, Apache MINA sshd through
+│                        │       │                   2.11.0, sshj through 0.37.0, TinySSH through 20230101,
+│                        │       │                   trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla
+│                        │       │                   before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4,
+│                        │       │                   SecureCRT before 9.4.3, Transmit5 before 5.10.4,
+│                        │       │                   Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2,
+│                        │       │                   Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13,
+│                        │       │                   the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module
+│                        │       │                   before 1.15.0 for Node.js, the thrussh library before
+│                        │       │                   0.35.1 for Rust, and the Russh crate before 0.40.2 for
+│                        │       │                   Rust. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ ghsa  : 2 
@@ -2226,135 +2256,157 @@
 │                        │       │                  ├ [10]: https://crates.io/crates/thrussh/versions 
 │                        │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-48795 
-│                        │       │                  ├ [12]: https://forum.netgate.com/topic/184941/terrapi
+│                        │       │                  ├ [12]: https://filezilla-project.org/versions.php 
+│                        │       │                  ├ [13]: https://forum.netgate.com/topic/184941/terrapi
 │                        │       │                  │       n-ssh-attack 
-│                        │       │                  ├ [13]: https://git.libssh.org/projects/libssh.git/com
+│                        │       │                  ├ [14]: https://git.libssh.org/projects/libssh.git/com
 │                        │       │                  │       mit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b
 │                        │       │                  │       8c221c2e7f6 
-│                        │       │                  ├ [14]: https://github.com/NixOS/nixpkgs/pull/275249 
-│                        │       │                  ├ [15]: https://github.com/TeraTermProject/teraterm/co
+│                        │       │                  ├ [15]: https://github.com/NixOS/nixpkgs/pull/275249 
+│                        │       │                  ├ [16]: https://github.com/PowerShell/Win32-OpenSSH/is
+│                        │       │                  │       sues/2189 
+│                        │       │                  ├ [17]: https://github.com/PowerShell/Win32-OpenSSH/re
+│                        │       │                  │       leases/tag/v9.5.0.0p1-Beta 
+│                        │       │                  ├ [18]: https://github.com/TeraTermProject/teraterm/co
 │                        │       │                  │       mmit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
 │                        │       │                  │        
-│                        │       │                  ├ [16]: https://github.com/TeraTermProject/teraterm/re
+│                        │       │                  ├ [19]: https://github.com/TeraTermProject/teraterm/re
 │                        │       │                  │       leases/tag/v5.1 
-│                        │       │                  ├ [17]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
-│                        │       │                  ├ [18]: https://github.com/apache/mina-sshd/issues/445 
-│                        │       │                  ├ [19]: https://github.com/connectbot/sshlib/commit/5c
+│                        │       │                  ├ [20]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
+│                        │       │                  ├ [21]: https://github.com/apache/mina-sshd/issues/445 
+│                        │       │                  ├ [22]: https://github.com/connectbot/sshlib/commit/5c
 │                        │       │                  │       8b534f6e97db7ac0e0e579331213aa25c173ab 
-│                        │       │                  ├ [20]: https://github.com/connectbot/sshlib/compare/2
+│                        │       │                  ├ [23]: https://github.com/connectbot/sshlib/compare/2
 │                        │       │                  │       .2.21...2.2.22 
-│                        │       │                  ├ [21]: https://github.com/drakkan/sftpgo/releases/tag
+│                        │       │                  ├ [24]: https://github.com/cyd01/KiTTY/issues/520 
+│                        │       │                  ├ [25]: https://github.com/drakkan/sftpgo/releases/tag
 │                        │       │                  │       /v2.5.6 
-│                        │       │                  ├ [22]: https://github.com/erlang/otp/blob/d1b43dc0f13
+│                        │       │                  ├ [26]: https://github.com/erlang/otp/blob/d1b43dc0f13
 │                        │       │                  │       61d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes
 │                        │       │                  │       .xml#L39-L42 
-│                        │       │                  ├ [23]: https://github.com/erlang/otp/releases/tag/OTP
+│                        │       │                  ├ [27]: https://github.com/erlang/otp/releases/tag/OTP
 │                        │       │                  │       -26.2.1 
-│                        │       │                  ├ [24]: https://github.com/golang/crypto/commit/9d2ee9
+│                        │       │                  ├ [28]: https://github.com/golang/crypto/commit/9d2ee9
 │                        │       │                  │       75ef9fe627bf0a6f01c1f69e8ef1d4f05d 
-│                        │       │                  ├ [25]: https://github.com/hierynomus/sshj/issues/916 
-│                        │       │                  ├ [26]: https://github.com/janmojzis/tinyssh/issues/81 
-│                        │       │                  ├ [27]: https://github.com/jtesta/ssh-audit/commit/8e9
+│                        │       │                  ├ [29]: https://github.com/hierynomus/sshj/issues/916 
+│                        │       │                  ├ [30]: https://github.com/janmojzis/tinyssh/issues/81 
+│                        │       │                  ├ [31]: https://github.com/jtesta/ssh-audit/commit/8e9
 │                        │       │                  │       72c5e94b460379fe0c7d20209c16df81538a5 
-│                        │       │                  ├ [28]: https://github.com/libssh2/libssh2/pull/1291 
-│                        │       │                  ├ [29]: https://github.com/mkj/dropbear/blob/17657c36c
+│                        │       │                  ├ [32]: https://github.com/libssh2/libssh2/pull/1291 
+│                        │       │                  ├ [33]: https://github.com/mkj/dropbear/blob/17657c36c
 │                        │       │                  │       ce6df7716d5ff151ec09a665382d5dd/CHANGES#L25[
 │                        │       │                  │       m 
-│                        │       │                  ├ [30]: https://github.com/mscdex/ssh2/commit/97b223f8
+│                        │       │                  ├ [34]: https://github.com/mscdex/ssh2/commit/97b223f8
 │                        │       │                  │       891b96d6fc054df5ab1d5a1a545da2a3 
-│                        │       │                  ├ [31]: https://github.com/mwiede/jsch/compare/jsch-0.
+│                        │       │                  ├ [35]: https://github.com/mwiede/jsch/compare/jsch-0.
 │                        │       │                  │       2.14...jsch-0.2.15 
-│                        │       │                  ├ [32]: https://github.com/mwiede/jsch/issues/457 
-│                        │       │                  ├ [33]: https://github.com/mwiede/jsch/pull/461 
-│                        │       │                  ├ [34]: https://github.com/net-ssh/net-ssh/blob/2e6506
+│                        │       │                  ├ [36]: https://github.com/mwiede/jsch/issues/457 
+│                        │       │                  ├ [37]: https://github.com/mwiede/jsch/pull/461 
+│                        │       │                  ├ [38]: https://github.com/net-ssh/net-ssh/blob/2e6506
 │                        │       │                  │       4a52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-
 │                        │       │                  │       L16 
-│                        │       │                  ├ [35]: https://github.com/openssh/openssh-portable/co
+│                        │       │                  ├ [39]: https://github.com/openssh/openssh-portable/co
 │                        │       │                  │       mmits/master 
-│                        │       │                  ├ [36]: https://github.com/paramiko/paramiko/issues/2337 
-│                        │       │                  ├ [37]: https://github.com/proftpd/proftpd/blob/0a7ea9
+│                        │       │                  ├ [40]: https://github.com/paramiko/paramiko/issues/2337 
+│                        │       │                  ├ [41]: https://github.com/proftpd/proftpd/blob/0a7ea9
 │                        │       │                  │       b0ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES
 │                        │       │                  │        
-│                        │       │                  ├ [38]: https://github.com/proftpd/proftpd/blob/d21e7a
+│                        │       │                  ├ [42]: https://github.com/proftpd/proftpd/blob/d21e7a
 │                        │       │                  │       2e47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES
 │                        │       │                  │        
-│                        │       │                  ├ [39]: https://github.com/proftpd/proftpd/blob/master
+│                        │       │                  ├ [43]: https://github.com/proftpd/proftpd/blob/master
 │                        │       │                  │       /RELEASE_NOTES 
-│                        │       │                  ├ [40]: https://github.com/proftpd/proftpd/issues/456 
-│                        │       │                  ├ [41]: https://github.com/rapier1/hpn-ssh/releases 
-│                        │       │                  ├ [42]: https://github.com/ronf/asyncssh/blob/develop/
+│                        │       │                  ├ [44]: https://github.com/proftpd/proftpd/issues/456 
+│                        │       │                  ├ [45]: https://github.com/rapier1/hpn-ssh/releases 
+│                        │       │                  ├ [46]: https://github.com/ronf/asyncssh/blob/develop/
 │                        │       │                  │       docs/changes.rst 
-│                        │       │                  ├ [43]: https://github.com/ronf/asyncssh/security/advi
+│                        │       │                  ├ [47]: https://github.com/ronf/asyncssh/security/advi
 │                        │       │                  │       sories/GHSA-hfmc-7525-mj55 
-│                        │       │                  ├ [44]: https://github.com/ronf/asyncssh/tags 
-│                        │       │                  ├ [45]: https://github.com/warp-tech/russh 
-│                        │       │                  ├ [46]: https://github.com/warp-tech/russh/commit/1aa3
+│                        │       │                  ├ [48]: https://github.com/ronf/asyncssh/tags 
+│                        │       │                  ├ [49]: https://github.com/warp-tech/russh 
+│                        │       │                  ├ [50]: https://github.com/warp-tech/russh/commit/1aa3
 │                        │       │                  │       40a7df1d5be1c0f4a9e247aade76dfdd2951 
-│                        │       │                  ├ [47]: https://github.com/warp-tech/russh/releases/ta
+│                        │       │                  ├ [51]: https://github.com/warp-tech/russh/releases/ta
 │                        │       │                  │       g/v0.40.2 
-│                        │       │                  ├ [48]: https://github.com/warp-tech/russh/security/ad
+│                        │       │                  ├ [52]: https://github.com/warp-tech/russh/security/ad
 │                        │       │                  │       visories/GHSA-45x7-px36-x8w8 
-│                        │       │                  ├ [49]: https://gitlab.com/libssh/libssh-mirror/-/tags 
-│                        │       │                  ├ [50]: https://go.dev/cl/550715 
-│                        │       │                  ├ [51]: https://go.dev/issue/64784 
-│                        │       │                  ├ [52]: https://groups.google.com/g/golang-announce/c/
+│                        │       │                  ├ [53]: https://gitlab.com/libssh/libssh-mirror/-/tags 
+│                        │       │                  ├ [54]: https://go.dev/cl/550715 
+│                        │       │                  ├ [55]: https://go.dev/issue/64784 
+│                        │       │                  ├ [56]: https://groups.google.com/g/golang-announce/c/
 │                        │       │                  │       -n5WqVC18LQ 
-│                        │       │                  ├ [53]: https://groups.google.com/g/golang-announce/c/
+│                        │       │                  ├ [57]: https://groups.google.com/g/golang-announce/c/
 │                        │       │                  │       qA3XtxvMUyg 
-│                        │       │                  ├ [54]: https://jadaptive.com/important-java-ssh-secur
+│                        │       │                  ├ [58]: https://help.panic.com/releasenotes/transmit5/ 
+│                        │       │                  ├ [59]: https://jadaptive.com/important-java-ssh-secur
 │                        │       │                  │       ity-update-new-ssh-vulnerability-discovered-cve-202
 │                        │       │                  │       3-48795/ 
-│                        │       │                  ├ [55]: https://matt.ucc.asn.au/dropbear/CHANGES 
-│                        │       │                  ├ [56]: https://nest.pijul.com/pijul/thrussh/changes/D
+│                        │       │                  ├ [60]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/ 
+│                        │       │                  ├ [61]: https://matt.ucc.asn.au/dropbear/CHANGES 
+│                        │       │                  ├ [62]: https://nest.pijul.com/pijul/thrussh/changes/D
 │                        │       │                  │       6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQ
 │                        │       │                  │       C 
-│                        │       │                  ├ [57]: https://news.ycombinator.com/item?id=38684904 
-│                        │       │                  ├ [58]: https://news.ycombinator.com/item?id=38685286 
-│                        │       │                  ├ [59]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
-│                        │       │                  ├ [60]: https://oryx-embedded.com/download/#changelog 
-│                        │       │                  ├ [61]: https://security-tracker.debian.org/tracker/CV
+│                        │       │                  ├ [63]: https://news.ycombinator.com/item?id=38684904 
+│                        │       │                  ├ [64]: https://news.ycombinator.com/item?id=38685286 
+│                        │       │                  ├ [65]: https://nova.app/releases/#v11.8 
+│                        │       │                  ├ [66]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
+│                        │       │                  ├ [67]: https://oryx-embedded.com/download/#changelog 
+│                        │       │                  ├ [68]: https://roumenpetrov.info/secsh/#news20231220 
+│                        │       │                  ├ [69]: https://security-tracker.debian.org/tracker/CV
 │                        │       │                  │       E-2023-48795 
-│                        │       │                  ├ [62]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [70]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/libssh2 
-│                        │       │                  ├ [63]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [71]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/proftpd-dfsg 
-│                        │       │                  ├ [64]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [72]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/trilead-ssh2 
-│                        │       │                  ├ [65]: https://terrapin-attack.com/ 
-│                        │       │                  ├ [66]: https://thorntech.com/cve-2023-48795-and-sftp-
+│                        │       │                  ├ [73]: https://terrapin-attack.com/ 
+│                        │       │                  ├ [74]: https://thorntech.com/cve-2023-48795-and-sftp-
 │                        │       │                  │       gateway/ 
-│                        │       │                  ├ [67]: https://twitter.com/TrueSkrillor/status/173677
+│                        │       │                  ├ [75]: https://twitter.com/TrueSkrillor/status/173677
 │                        │       │                  │       4389725565005 
-│                        │       │                  ├ [68]: https://ubuntu.com/security/CVE-2023-48795 
-│                        │       │                  ├ [69]: https://ubuntu.com/security/notices/USN-6560-1 
-│                        │       │                  ├ [70]: https://ubuntu.com/security/notices/USN-6561-1 
-│                        │       │                  ├ [71]: https://www.bitvise.com/ssh-server-version-history 
-│                        │       │                  ├ [72]: https://www.chiark.greenend.org.uk/~sgtatham/p
+│                        │       │                  ├ [76]: https://ubuntu.com/security/CVE-2023-48795 
+│                        │       │                  ├ [77]: https://ubuntu.com/security/notices/USN-6560-1 
+│                        │       │                  ├ [78]: https://ubuntu.com/security/notices/USN-6561-1 
+│                        │       │                  ├ [79]: https://winscp.net/eng/docs/history#6.2.2 
+│                        │       │                  ├ [80]: https://www.bitvise.com/ssh-client-version-his
+│                        │       │                  │       tory#933 
+│                        │       │                  ├ [81]: https://www.bitvise.com/ssh-server-version-history 
+│                        │       │                  ├ [82]: https://www.chiark.greenend.org.uk/~sgtatham/p
 │                        │       │                  │       utty/changes.html 
-│                        │       │                  ├ [73]: https://www.crushftp.com/crush10wiki/Wiki.jsp?
+│                        │       │                  ├ [83]: https://www.crushftp.com/crush10wiki/Wiki.jsp?
 │                        │       │                  │       page=Update 
-│                        │       │                  ├ [74]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                        │       │                  ├ [75]: https://www.freebsd.org/security/advisories/Fr
+│                        │       │                  ├ [84]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                        │       │                  ├ [85]: https://www.debian.org/security/2023/dsa-5586 
+│                        │       │                  ├ [86]: https://www.freebsd.org/security/advisories/Fr
 │                        │       │                  │       eeBSD-SA-23:19.openssh.asc 
-│                        │       │                  ├ [76]: https://www.netsarang.com/en/xshell-update-history/ 
-│                        │       │                  ├ [77]: https://www.openssh.com/openbsd.html 
-│                        │       │                  ├ [78]: https://www.openssh.com/txt/release-9.6 
-│                        │       │                  ├ [79]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [87]: https://www.lancom-systems.de/service-support/
+│                        │       │                  │       allgemeine-sicherheitshinweise#c243508 
+│                        │       │                  ├ [88]: https://www.netsarang.com/en/xshell-update-history/ 
+│                        │       │                  ├ [89]: https://www.openssh.com/openbsd.html 
+│                        │       │                  ├ [90]: https://www.openssh.com/txt/release-9.6 
+│                        │       │                  ├ [91]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/18/2 
-│                        │       │                  ├ [80]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [92]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/18/3 
-│                        │       │                  ├ [81]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [93]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/20/3 
-│                        │       │                  ├ [82]: https://www.paramiko.org/changelog.html 
-│                        │       │                  ├ [83]: https://www.reddit.com/r/sysadmin/comments/18i
+│                        │       │                  ├ [94]: https://www.paramiko.org/changelog.html 
+│                        │       │                  ├ [95]: https://www.reddit.com/r/sysadmin/comments/18i
 │                        │       │                  │       dv52/cve202348795_why_is_this_cve_still_undisclosed
 │                        │       │                  │       / 
-│                        │       │                  ├ [84]: https://www.suse.com/c/suse-addresses-the-ssh-
+│                        │       │                  ├ [96]: https://www.suse.com/c/suse-addresses-the-ssh-
 │                        │       │                  │       v2-protocol-terrapin-attack-aka-cve-2023-48795/
 │                        │       │                  │       [m 
-│                        │       │                  ╰ [85]: https://www.terrapin-attack.com 
+│                        │       │                  ├ [97]: https://www.terrapin-attack.com 
+│                        │       │                  ├ [98]: https://www.theregister.com/2023/12/20/terrapi
+│                        │       │                  │       n_attack_ssh 
+│                        │       │                  ╰ [99]: https://www.vandyke.com/products/securecrt/his
+│                        │       │                          tory.txt 
 │                        │       ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                        │       ╰ LastModifiedDate: 2023-12-21T14:15:08.59Z 
+│                        │       ╰ LastModifiedDate: 2023-12-22T15:15:08.143Z 
 │                        ├ [41]  ╭ VulnerabilityID : CVE-2023-28531 
 │                        │       ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.4 
 │                        │       ├ PkgName         : openssh-client 
@@ -2398,10 +2450,11 @@
 │                        │       │                  │      413-0008/ 
 │                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6560-1 
 │                        │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
-│                        │       │                  ╰ [7]: https://www.openwall.com/lists/oss-security/202
+│                        │       │                  ├ [7]: https://www.debian.org/security/2023/dsa-5586 
+│                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/202
 │                        │       │                         3/03/15/8 
 │                        │       ├ PublishedDate   : 2023-03-17T04:15:14.553Z 
-│                        │       ╰ LastModifiedDate: 2023-07-21T19:21:51.437Z 
+│                        │       ╰ LastModifiedDate: 2023-12-22T13:15:08.797Z 
 │                        ├ [42]  ╭ VulnerabilityID : CVE-2023-48795 
 │                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.4 
 │                        │       ├ PkgName         : openssh-server 
@@ -2442,16 +2495,20 @@
 │                        │       │                   3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch
 │                        │       │                   before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus
 │                        │       │                   through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH
-│                        │       │                    through 18.2.0, ProFTPD before 1.3.8b (and
-│                        │       │                   before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang
-│                        │       │                   XShell 7 before Build 0144, CrushFTP before 10.6.0,
-│                        │       │                   ConnectBot SSH library before 2.2.22, Apache MINA sshd
-│                        │       │                   through 2.11.0, sshj through 0.37.0, TinySSH through
-│                        │       │                   20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for
-│                        │       │                   Ruby, the mscdex ssh2 module before 1.15.0 for Node.js,
-│                        │       │                   the thrussh library before 0.35.1 for Rust, and the Russh
-│                        │       │                   crate before 0.40.2 for Rust; and there could be effects
-│                        │       │                   on Bitvise SSH through 9.31. 
+│                        │       │                    through 18.2.0, ProFTPD before 1.3.8b (and before
+│                        │       │                   1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell
+│                        │       │                   7 before Build 0144, CrushFTP before 10.6.0, ConnectBot
+│                        │       │                   SSH library before 2.2.22, Apache MINA sshd through
+│                        │       │                   2.11.0, sshj through 0.37.0, TinySSH through 20230101,
+│                        │       │                   trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla
+│                        │       │                   before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4,
+│                        │       │                   SecureCRT before 9.4.3, Transmit5 before 5.10.4,
+│                        │       │                   Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2,
+│                        │       │                   Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13,
+│                        │       │                   the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module
+│                        │       │                   before 1.15.0 for Node.js, the thrussh library before
+│                        │       │                   0.35.1 for Rust, and the Russh crate before 0.40.2 for
+│                        │       │                   Rust. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ ghsa  : 2 
@@ -2484,135 +2541,157 @@
 │                        │       │                  ├ [10]: https://crates.io/crates/thrussh/versions 
 │                        │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-48795 
-│                        │       │                  ├ [12]: https://forum.netgate.com/topic/184941/terrapi
+│                        │       │                  ├ [12]: https://filezilla-project.org/versions.php 
+│                        │       │                  ├ [13]: https://forum.netgate.com/topic/184941/terrapi
 │                        │       │                  │       n-ssh-attack 
-│                        │       │                  ├ [13]: https://git.libssh.org/projects/libssh.git/com
+│                        │       │                  ├ [14]: https://git.libssh.org/projects/libssh.git/com
 │                        │       │                  │       mit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b
 │                        │       │                  │       8c221c2e7f6 
-│                        │       │                  ├ [14]: https://github.com/NixOS/nixpkgs/pull/275249 
-│                        │       │                  ├ [15]: https://github.com/TeraTermProject/teraterm/co
+│                        │       │                  ├ [15]: https://github.com/NixOS/nixpkgs/pull/275249 
+│                        │       │                  ├ [16]: https://github.com/PowerShell/Win32-OpenSSH/is
+│                        │       │                  │       sues/2189 
+│                        │       │                  ├ [17]: https://github.com/PowerShell/Win32-OpenSSH/re
+│                        │       │                  │       leases/tag/v9.5.0.0p1-Beta 
+│                        │       │                  ├ [18]: https://github.com/TeraTermProject/teraterm/co
 │                        │       │                  │       mmit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
 │                        │       │                  │        
-│                        │       │                  ├ [16]: https://github.com/TeraTermProject/teraterm/re
+│                        │       │                  ├ [19]: https://github.com/TeraTermProject/teraterm/re
 │                        │       │                  │       leases/tag/v5.1 
-│                        │       │                  ├ [17]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
-│                        │       │                  ├ [18]: https://github.com/apache/mina-sshd/issues/445 
-│                        │       │                  ├ [19]: https://github.com/connectbot/sshlib/commit/5c
+│                        │       │                  ├ [20]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
+│                        │       │                  ├ [21]: https://github.com/apache/mina-sshd/issues/445 
+│                        │       │                  ├ [22]: https://github.com/connectbot/sshlib/commit/5c
 │                        │       │                  │       8b534f6e97db7ac0e0e579331213aa25c173ab 
-│                        │       │                  ├ [20]: https://github.com/connectbot/sshlib/compare/2
+│                        │       │                  ├ [23]: https://github.com/connectbot/sshlib/compare/2
 │                        │       │                  │       .2.21...2.2.22 
-│                        │       │                  ├ [21]: https://github.com/drakkan/sftpgo/releases/tag
+│                        │       │                  ├ [24]: https://github.com/cyd01/KiTTY/issues/520 
+│                        │       │                  ├ [25]: https://github.com/drakkan/sftpgo/releases/tag
 │                        │       │                  │       /v2.5.6 
-│                        │       │                  ├ [22]: https://github.com/erlang/otp/blob/d1b43dc0f13
+│                        │       │                  ├ [26]: https://github.com/erlang/otp/blob/d1b43dc0f13
 │                        │       │                  │       61d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes
 │                        │       │                  │       .xml#L39-L42 
-│                        │       │                  ├ [23]: https://github.com/erlang/otp/releases/tag/OTP
+│                        │       │                  ├ [27]: https://github.com/erlang/otp/releases/tag/OTP
 │                        │       │                  │       -26.2.1 
-│                        │       │                  ├ [24]: https://github.com/golang/crypto/commit/9d2ee9
+│                        │       │                  ├ [28]: https://github.com/golang/crypto/commit/9d2ee9
 │                        │       │                  │       75ef9fe627bf0a6f01c1f69e8ef1d4f05d 
-│                        │       │                  ├ [25]: https://github.com/hierynomus/sshj/issues/916 
-│                        │       │                  ├ [26]: https://github.com/janmojzis/tinyssh/issues/81 
-│                        │       │                  ├ [27]: https://github.com/jtesta/ssh-audit/commit/8e9
+│                        │       │                  ├ [29]: https://github.com/hierynomus/sshj/issues/916 
+│                        │       │                  ├ [30]: https://github.com/janmojzis/tinyssh/issues/81 
+│                        │       │                  ├ [31]: https://github.com/jtesta/ssh-audit/commit/8e9
 │                        │       │                  │       72c5e94b460379fe0c7d20209c16df81538a5 
-│                        │       │                  ├ [28]: https://github.com/libssh2/libssh2/pull/1291 
-│                        │       │                  ├ [29]: https://github.com/mkj/dropbear/blob/17657c36c
+│                        │       │                  ├ [32]: https://github.com/libssh2/libssh2/pull/1291 
+│                        │       │                  ├ [33]: https://github.com/mkj/dropbear/blob/17657c36c
 │                        │       │                  │       ce6df7716d5ff151ec09a665382d5dd/CHANGES#L25[
 │                        │       │                  │       m 
-│                        │       │                  ├ [30]: https://github.com/mscdex/ssh2/commit/97b223f8
+│                        │       │                  ├ [34]: https://github.com/mscdex/ssh2/commit/97b223f8
 │                        │       │                  │       891b96d6fc054df5ab1d5a1a545da2a3 
-│                        │       │                  ├ [31]: https://github.com/mwiede/jsch/compare/jsch-0.
+│                        │       │                  ├ [35]: https://github.com/mwiede/jsch/compare/jsch-0.
 │                        │       │                  │       2.14...jsch-0.2.15 
-│                        │       │                  ├ [32]: https://github.com/mwiede/jsch/issues/457 
-│                        │       │                  ├ [33]: https://github.com/mwiede/jsch/pull/461 
-│                        │       │                  ├ [34]: https://github.com/net-ssh/net-ssh/blob/2e6506
+│                        │       │                  ├ [36]: https://github.com/mwiede/jsch/issues/457 
+│                        │       │                  ├ [37]: https://github.com/mwiede/jsch/pull/461 
+│                        │       │                  ├ [38]: https://github.com/net-ssh/net-ssh/blob/2e6506
 │                        │       │                  │       4a52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-
 │                        │       │                  │       L16 
-│                        │       │                  ├ [35]: https://github.com/openssh/openssh-portable/co
+│                        │       │                  ├ [39]: https://github.com/openssh/openssh-portable/co
 │                        │       │                  │       mmits/master 
-│                        │       │                  ├ [36]: https://github.com/paramiko/paramiko/issues/2337 
-│                        │       │                  ├ [37]: https://github.com/proftpd/proftpd/blob/0a7ea9
+│                        │       │                  ├ [40]: https://github.com/paramiko/paramiko/issues/2337 
+│                        │       │                  ├ [41]: https://github.com/proftpd/proftpd/blob/0a7ea9
 │                        │       │                  │       b0ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES
 │                        │       │                  │        
-│                        │       │                  ├ [38]: https://github.com/proftpd/proftpd/blob/d21e7a
+│                        │       │                  ├ [42]: https://github.com/proftpd/proftpd/blob/d21e7a
 │                        │       │                  │       2e47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES
 │                        │       │                  │        
-│                        │       │                  ├ [39]: https://github.com/proftpd/proftpd/blob/master
+│                        │       │                  ├ [43]: https://github.com/proftpd/proftpd/blob/master
 │                        │       │                  │       /RELEASE_NOTES 
-│                        │       │                  ├ [40]: https://github.com/proftpd/proftpd/issues/456 
-│                        │       │                  ├ [41]: https://github.com/rapier1/hpn-ssh/releases 
-│                        │       │                  ├ [42]: https://github.com/ronf/asyncssh/blob/develop/
+│                        │       │                  ├ [44]: https://github.com/proftpd/proftpd/issues/456 
+│                        │       │                  ├ [45]: https://github.com/rapier1/hpn-ssh/releases 
+│                        │       │                  ├ [46]: https://github.com/ronf/asyncssh/blob/develop/
 │                        │       │                  │       docs/changes.rst 
-│                        │       │                  ├ [43]: https://github.com/ronf/asyncssh/security/advi
+│                        │       │                  ├ [47]: https://github.com/ronf/asyncssh/security/advi
 │                        │       │                  │       sories/GHSA-hfmc-7525-mj55 
-│                        │       │                  ├ [44]: https://github.com/ronf/asyncssh/tags 
-│                        │       │                  ├ [45]: https://github.com/warp-tech/russh 
-│                        │       │                  ├ [46]: https://github.com/warp-tech/russh/commit/1aa3
+│                        │       │                  ├ [48]: https://github.com/ronf/asyncssh/tags 
+│                        │       │                  ├ [49]: https://github.com/warp-tech/russh 
+│                        │       │                  ├ [50]: https://github.com/warp-tech/russh/commit/1aa3
 │                        │       │                  │       40a7df1d5be1c0f4a9e247aade76dfdd2951 
-│                        │       │                  ├ [47]: https://github.com/warp-tech/russh/releases/ta
+│                        │       │                  ├ [51]: https://github.com/warp-tech/russh/releases/ta
 │                        │       │                  │       g/v0.40.2 
-│                        │       │                  ├ [48]: https://github.com/warp-tech/russh/security/ad
+│                        │       │                  ├ [52]: https://github.com/warp-tech/russh/security/ad
 │                        │       │                  │       visories/GHSA-45x7-px36-x8w8 
-│                        │       │                  ├ [49]: https://gitlab.com/libssh/libssh-mirror/-/tags 
-│                        │       │                  ├ [50]: https://go.dev/cl/550715 
-│                        │       │                  ├ [51]: https://go.dev/issue/64784 
-│                        │       │                  ├ [52]: https://groups.google.com/g/golang-announce/c/
+│                        │       │                  ├ [53]: https://gitlab.com/libssh/libssh-mirror/-/tags 
+│                        │       │                  ├ [54]: https://go.dev/cl/550715 
+│                        │       │                  ├ [55]: https://go.dev/issue/64784 
+│                        │       │                  ├ [56]: https://groups.google.com/g/golang-announce/c/
 │                        │       │                  │       -n5WqVC18LQ 
-│                        │       │                  ├ [53]: https://groups.google.com/g/golang-announce/c/
+│                        │       │                  ├ [57]: https://groups.google.com/g/golang-announce/c/
 │                        │       │                  │       qA3XtxvMUyg 
-│                        │       │                  ├ [54]: https://jadaptive.com/important-java-ssh-secur
+│                        │       │                  ├ [58]: https://help.panic.com/releasenotes/transmit5/ 
+│                        │       │                  ├ [59]: https://jadaptive.com/important-java-ssh-secur
 │                        │       │                  │       ity-update-new-ssh-vulnerability-discovered-cve-202
 │                        │       │                  │       3-48795/ 
-│                        │       │                  ├ [55]: https://matt.ucc.asn.au/dropbear/CHANGES 
-│                        │       │                  ├ [56]: https://nest.pijul.com/pijul/thrussh/changes/D
+│                        │       │                  ├ [60]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/ 
+│                        │       │                  ├ [61]: https://matt.ucc.asn.au/dropbear/CHANGES 
+│                        │       │                  ├ [62]: https://nest.pijul.com/pijul/thrussh/changes/D
 │                        │       │                  │       6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQ
 │                        │       │                  │       C 
-│                        │       │                  ├ [57]: https://news.ycombinator.com/item?id=38684904 
-│                        │       │                  ├ [58]: https://news.ycombinator.com/item?id=38685286 
-│                        │       │                  ├ [59]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
-│                        │       │                  ├ [60]: https://oryx-embedded.com/download/#changelog 
-│                        │       │                  ├ [61]: https://security-tracker.debian.org/tracker/CV
+│                        │       │                  ├ [63]: https://news.ycombinator.com/item?id=38684904 
+│                        │       │                  ├ [64]: https://news.ycombinator.com/item?id=38685286 
+│                        │       │                  ├ [65]: https://nova.app/releases/#v11.8 
+│                        │       │                  ├ [66]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
+│                        │       │                  ├ [67]: https://oryx-embedded.com/download/#changelog 
+│                        │       │                  ├ [68]: https://roumenpetrov.info/secsh/#news20231220 
+│                        │       │                  ├ [69]: https://security-tracker.debian.org/tracker/CV
 │                        │       │                  │       E-2023-48795 
-│                        │       │                  ├ [62]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [70]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/libssh2 
-│                        │       │                  ├ [63]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [71]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/proftpd-dfsg 
-│                        │       │                  ├ [64]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [72]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/trilead-ssh2 
-│                        │       │                  ├ [65]: https://terrapin-attack.com/ 
-│                        │       │                  ├ [66]: https://thorntech.com/cve-2023-48795-and-sftp-
+│                        │       │                  ├ [73]: https://terrapin-attack.com/ 
+│                        │       │                  ├ [74]: https://thorntech.com/cve-2023-48795-and-sftp-
 │                        │       │                  │       gateway/ 
-│                        │       │                  ├ [67]: https://twitter.com/TrueSkrillor/status/173677
+│                        │       │                  ├ [75]: https://twitter.com/TrueSkrillor/status/173677
 │                        │       │                  │       4389725565005 
-│                        │       │                  ├ [68]: https://ubuntu.com/security/CVE-2023-48795 
-│                        │       │                  ├ [69]: https://ubuntu.com/security/notices/USN-6560-1 
-│                        │       │                  ├ [70]: https://ubuntu.com/security/notices/USN-6561-1 
-│                        │       │                  ├ [71]: https://www.bitvise.com/ssh-server-version-history 
-│                        │       │                  ├ [72]: https://www.chiark.greenend.org.uk/~sgtatham/p
+│                        │       │                  ├ [76]: https://ubuntu.com/security/CVE-2023-48795 
+│                        │       │                  ├ [77]: https://ubuntu.com/security/notices/USN-6560-1 
+│                        │       │                  ├ [78]: https://ubuntu.com/security/notices/USN-6561-1 
+│                        │       │                  ├ [79]: https://winscp.net/eng/docs/history#6.2.2 
+│                        │       │                  ├ [80]: https://www.bitvise.com/ssh-client-version-his
+│                        │       │                  │       tory#933 
+│                        │       │                  ├ [81]: https://www.bitvise.com/ssh-server-version-history 
+│                        │       │                  ├ [82]: https://www.chiark.greenend.org.uk/~sgtatham/p
 │                        │       │                  │       utty/changes.html 
-│                        │       │                  ├ [73]: https://www.crushftp.com/crush10wiki/Wiki.jsp?
+│                        │       │                  ├ [83]: https://www.crushftp.com/crush10wiki/Wiki.jsp?
 │                        │       │                  │       page=Update 
-│                        │       │                  ├ [74]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                        │       │                  ├ [75]: https://www.freebsd.org/security/advisories/Fr
+│                        │       │                  ├ [84]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                        │       │                  ├ [85]: https://www.debian.org/security/2023/dsa-5586 
+│                        │       │                  ├ [86]: https://www.freebsd.org/security/advisories/Fr
 │                        │       │                  │       eeBSD-SA-23:19.openssh.asc 
-│                        │       │                  ├ [76]: https://www.netsarang.com/en/xshell-update-history/ 
-│                        │       │                  ├ [77]: https://www.openssh.com/openbsd.html 
-│                        │       │                  ├ [78]: https://www.openssh.com/txt/release-9.6 
-│                        │       │                  ├ [79]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [87]: https://www.lancom-systems.de/service-support/
+│                        │       │                  │       allgemeine-sicherheitshinweise#c243508 
+│                        │       │                  ├ [88]: https://www.netsarang.com/en/xshell-update-history/ 
+│                        │       │                  ├ [89]: https://www.openssh.com/openbsd.html 
+│                        │       │                  ├ [90]: https://www.openssh.com/txt/release-9.6 
+│                        │       │                  ├ [91]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/18/2 
-│                        │       │                  ├ [80]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [92]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/18/3 
-│                        │       │                  ├ [81]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [93]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/20/3 
-│                        │       │                  ├ [82]: https://www.paramiko.org/changelog.html 
-│                        │       │                  ├ [83]: https://www.reddit.com/r/sysadmin/comments/18i
+│                        │       │                  ├ [94]: https://www.paramiko.org/changelog.html 
+│                        │       │                  ├ [95]: https://www.reddit.com/r/sysadmin/comments/18i
 │                        │       │                  │       dv52/cve202348795_why_is_this_cve_still_undisclosed
 │                        │       │                  │       / 
-│                        │       │                  ├ [84]: https://www.suse.com/c/suse-addresses-the-ssh-
+│                        │       │                  ├ [96]: https://www.suse.com/c/suse-addresses-the-ssh-
 │                        │       │                  │       v2-protocol-terrapin-attack-aka-cve-2023-48795/
 │                        │       │                  │       [m 
-│                        │       │                  ╰ [85]: https://www.terrapin-attack.com 
+│                        │       │                  ├ [97]: https://www.terrapin-attack.com 
+│                        │       │                  ├ [98]: https://www.theregister.com/2023/12/20/terrapi
+│                        │       │                  │       n_attack_ssh 
+│                        │       │                  ╰ [99]: https://www.vandyke.com/products/securecrt/his
+│                        │       │                          tory.txt 
 │                        │       ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                        │       ╰ LastModifiedDate: 2023-12-21T14:15:08.59Z 
+│                        │       ╰ LastModifiedDate: 2023-12-22T15:15:08.143Z 
 │                        ├ [43]  ╭ VulnerabilityID : CVE-2023-28531 
 │                        │       ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.4 
 │                        │       ├ PkgName         : openssh-server 
@@ -2656,10 +2735,11 @@
 │                        │       │                  │      413-0008/ 
 │                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6560-1 
 │                        │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
-│                        │       │                  ╰ [7]: https://www.openwall.com/lists/oss-security/202
+│                        │       │                  ├ [7]: https://www.debian.org/security/2023/dsa-5586 
+│                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/202
 │                        │       │                         3/03/15/8 
 │                        │       ├ PublishedDate   : 2023-03-17T04:15:14.553Z 
-│                        │       ╰ LastModifiedDate: 2023-07-21T19:21:51.437Z 
+│                        │       ╰ LastModifiedDate: 2023-12-22T13:15:08.797Z 
 │                        ├ [44]  ╭ VulnerabilityID : CVE-2023-48795 
 │                        │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.4 
 │                        │       ├ PkgName         : openssh-sftp-server 
@@ -2700,16 +2780,20 @@
 │                        │       │                   3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch
 │                        │       │                   before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus
 │                        │       │                   through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH
-│                        │       │                    through 18.2.0, ProFTPD before 1.3.8b (and
-│                        │       │                   before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang
-│                        │       │                   XShell 7 before Build 0144, CrushFTP before 10.6.0,
-│                        │       │                   ConnectBot SSH library before 2.2.22, Apache MINA sshd
-│                        │       │                   through 2.11.0, sshj through 0.37.0, TinySSH through
-│                        │       │                   20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for
-│                        │       │                   Ruby, the mscdex ssh2 module before 1.15.0 for Node.js,
-│                        │       │                   the thrussh library before 0.35.1 for Rust, and the Russh
-│                        │       │                   crate before 0.40.2 for Rust; and there could be effects
-│                        │       │                   on Bitvise SSH through 9.31. 
+│                        │       │                    through 18.2.0, ProFTPD before 1.3.8b (and before
+│                        │       │                   1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell
+│                        │       │                   7 before Build 0144, CrushFTP before 10.6.0, ConnectBot
+│                        │       │                   SSH library before 2.2.22, Apache MINA sshd through
+│                        │       │                   2.11.0, sshj through 0.37.0, TinySSH through 20230101,
+│                        │       │                   trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla
+│                        │       │                   before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4,
+│                        │       │                   SecureCRT before 9.4.3, Transmit5 before 5.10.4,
+│                        │       │                   Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2,
+│                        │       │                   Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13,
+│                        │       │                   the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module
+│                        │       │                   before 1.15.0 for Node.js, the thrussh library before
+│                        │       │                   0.35.1 for Rust, and the Russh crate before 0.40.2 for
+│                        │       │                   Rust. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ ghsa  : 2 
@@ -2742,135 +2826,157 @@
 │                        │       │                  ├ [10]: https://crates.io/crates/thrussh/versions 
 │                        │       │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │       │                  │       =CVE-2023-48795 
-│                        │       │                  ├ [12]: https://forum.netgate.com/topic/184941/terrapi
+│                        │       │                  ├ [12]: https://filezilla-project.org/versions.php 
+│                        │       │                  ├ [13]: https://forum.netgate.com/topic/184941/terrapi
 │                        │       │                  │       n-ssh-attack 
-│                        │       │                  ├ [13]: https://git.libssh.org/projects/libssh.git/com
+│                        │       │                  ├ [14]: https://git.libssh.org/projects/libssh.git/com
 │                        │       │                  │       mit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b
 │                        │       │                  │       8c221c2e7f6 
-│                        │       │                  ├ [14]: https://github.com/NixOS/nixpkgs/pull/275249 
-│                        │       │                  ├ [15]: https://github.com/TeraTermProject/teraterm/co
+│                        │       │                  ├ [15]: https://github.com/NixOS/nixpkgs/pull/275249 
+│                        │       │                  ├ [16]: https://github.com/PowerShell/Win32-OpenSSH/is
+│                        │       │                  │       sues/2189 
+│                        │       │                  ├ [17]: https://github.com/PowerShell/Win32-OpenSSH/re
+│                        │       │                  │       leases/tag/v9.5.0.0p1-Beta 
+│                        │       │                  ├ [18]: https://github.com/TeraTermProject/teraterm/co
 │                        │       │                  │       mmit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
 │                        │       │                  │        
-│                        │       │                  ├ [16]: https://github.com/TeraTermProject/teraterm/re
+│                        │       │                  ├ [19]: https://github.com/TeraTermProject/teraterm/re
 │                        │       │                  │       leases/tag/v5.1 
-│                        │       │                  ├ [17]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
-│                        │       │                  ├ [18]: https://github.com/apache/mina-sshd/issues/445 
-│                        │       │                  ├ [19]: https://github.com/connectbot/sshlib/commit/5c
+│                        │       │                  ├ [20]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
+│                        │       │                  ├ [21]: https://github.com/apache/mina-sshd/issues/445 
+│                        │       │                  ├ [22]: https://github.com/connectbot/sshlib/commit/5c
 │                        │       │                  │       8b534f6e97db7ac0e0e579331213aa25c173ab 
-│                        │       │                  ├ [20]: https://github.com/connectbot/sshlib/compare/2
+│                        │       │                  ├ [23]: https://github.com/connectbot/sshlib/compare/2
 │                        │       │                  │       .2.21...2.2.22 
-│                        │       │                  ├ [21]: https://github.com/drakkan/sftpgo/releases/tag
+│                        │       │                  ├ [24]: https://github.com/cyd01/KiTTY/issues/520 
+│                        │       │                  ├ [25]: https://github.com/drakkan/sftpgo/releases/tag
 │                        │       │                  │       /v2.5.6 
-│                        │       │                  ├ [22]: https://github.com/erlang/otp/blob/d1b43dc0f13
+│                        │       │                  ├ [26]: https://github.com/erlang/otp/blob/d1b43dc0f13
 │                        │       │                  │       61d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes
 │                        │       │                  │       .xml#L39-L42 
-│                        │       │                  ├ [23]: https://github.com/erlang/otp/releases/tag/OTP
+│                        │       │                  ├ [27]: https://github.com/erlang/otp/releases/tag/OTP
 │                        │       │                  │       -26.2.1 
-│                        │       │                  ├ [24]: https://github.com/golang/crypto/commit/9d2ee9
+│                        │       │                  ├ [28]: https://github.com/golang/crypto/commit/9d2ee9
 │                        │       │                  │       75ef9fe627bf0a6f01c1f69e8ef1d4f05d 
-│                        │       │                  ├ [25]: https://github.com/hierynomus/sshj/issues/916 
-│                        │       │                  ├ [26]: https://github.com/janmojzis/tinyssh/issues/81 
-│                        │       │                  ├ [27]: https://github.com/jtesta/ssh-audit/commit/8e9
+│                        │       │                  ├ [29]: https://github.com/hierynomus/sshj/issues/916 
+│                        │       │                  ├ [30]: https://github.com/janmojzis/tinyssh/issues/81 
+│                        │       │                  ├ [31]: https://github.com/jtesta/ssh-audit/commit/8e9
 │                        │       │                  │       72c5e94b460379fe0c7d20209c16df81538a5 
-│                        │       │                  ├ [28]: https://github.com/libssh2/libssh2/pull/1291 
-│                        │       │                  ├ [29]: https://github.com/mkj/dropbear/blob/17657c36c
+│                        │       │                  ├ [32]: https://github.com/libssh2/libssh2/pull/1291 
+│                        │       │                  ├ [33]: https://github.com/mkj/dropbear/blob/17657c36c
 │                        │       │                  │       ce6df7716d5ff151ec09a665382d5dd/CHANGES#L25[
 │                        │       │                  │       m 
-│                        │       │                  ├ [30]: https://github.com/mscdex/ssh2/commit/97b223f8
+│                        │       │                  ├ [34]: https://github.com/mscdex/ssh2/commit/97b223f8
 │                        │       │                  │       891b96d6fc054df5ab1d5a1a545da2a3 
-│                        │       │                  ├ [31]: https://github.com/mwiede/jsch/compare/jsch-0.
+│                        │       │                  ├ [35]: https://github.com/mwiede/jsch/compare/jsch-0.
 │                        │       │                  │       2.14...jsch-0.2.15 
-│                        │       │                  ├ [32]: https://github.com/mwiede/jsch/issues/457 
-│                        │       │                  ├ [33]: https://github.com/mwiede/jsch/pull/461 
-│                        │       │                  ├ [34]: https://github.com/net-ssh/net-ssh/blob/2e6506
+│                        │       │                  ├ [36]: https://github.com/mwiede/jsch/issues/457 
+│                        │       │                  ├ [37]: https://github.com/mwiede/jsch/pull/461 
+│                        │       │                  ├ [38]: https://github.com/net-ssh/net-ssh/blob/2e6506
 │                        │       │                  │       4a52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-
 │                        │       │                  │       L16 
-│                        │       │                  ├ [35]: https://github.com/openssh/openssh-portable/co
+│                        │       │                  ├ [39]: https://github.com/openssh/openssh-portable/co
 │                        │       │                  │       mmits/master 
-│                        │       │                  ├ [36]: https://github.com/paramiko/paramiko/issues/2337 
-│                        │       │                  ├ [37]: https://github.com/proftpd/proftpd/blob/0a7ea9
+│                        │       │                  ├ [40]: https://github.com/paramiko/paramiko/issues/2337 
+│                        │       │                  ├ [41]: https://github.com/proftpd/proftpd/blob/0a7ea9
 │                        │       │                  │       b0ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES
 │                        │       │                  │        
-│                        │       │                  ├ [38]: https://github.com/proftpd/proftpd/blob/d21e7a
+│                        │       │                  ├ [42]: https://github.com/proftpd/proftpd/blob/d21e7a
 │                        │       │                  │       2e47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES
 │                        │       │                  │        
-│                        │       │                  ├ [39]: https://github.com/proftpd/proftpd/blob/master
+│                        │       │                  ├ [43]: https://github.com/proftpd/proftpd/blob/master
 │                        │       │                  │       /RELEASE_NOTES 
-│                        │       │                  ├ [40]: https://github.com/proftpd/proftpd/issues/456 
-│                        │       │                  ├ [41]: https://github.com/rapier1/hpn-ssh/releases 
-│                        │       │                  ├ [42]: https://github.com/ronf/asyncssh/blob/develop/
+│                        │       │                  ├ [44]: https://github.com/proftpd/proftpd/issues/456 
+│                        │       │                  ├ [45]: https://github.com/rapier1/hpn-ssh/releases 
+│                        │       │                  ├ [46]: https://github.com/ronf/asyncssh/blob/develop/
 │                        │       │                  │       docs/changes.rst 
-│                        │       │                  ├ [43]: https://github.com/ronf/asyncssh/security/advi
+│                        │       │                  ├ [47]: https://github.com/ronf/asyncssh/security/advi
 │                        │       │                  │       sories/GHSA-hfmc-7525-mj55 
-│                        │       │                  ├ [44]: https://github.com/ronf/asyncssh/tags 
-│                        │       │                  ├ [45]: https://github.com/warp-tech/russh 
-│                        │       │                  ├ [46]: https://github.com/warp-tech/russh/commit/1aa3
+│                        │       │                  ├ [48]: https://github.com/ronf/asyncssh/tags 
+│                        │       │                  ├ [49]: https://github.com/warp-tech/russh 
+│                        │       │                  ├ [50]: https://github.com/warp-tech/russh/commit/1aa3
 │                        │       │                  │       40a7df1d5be1c0f4a9e247aade76dfdd2951 
-│                        │       │                  ├ [47]: https://github.com/warp-tech/russh/releases/ta
+│                        │       │                  ├ [51]: https://github.com/warp-tech/russh/releases/ta
 │                        │       │                  │       g/v0.40.2 
-│                        │       │                  ├ [48]: https://github.com/warp-tech/russh/security/ad
+│                        │       │                  ├ [52]: https://github.com/warp-tech/russh/security/ad
 │                        │       │                  │       visories/GHSA-45x7-px36-x8w8 
-│                        │       │                  ├ [49]: https://gitlab.com/libssh/libssh-mirror/-/tags 
-│                        │       │                  ├ [50]: https://go.dev/cl/550715 
-│                        │       │                  ├ [51]: https://go.dev/issue/64784 
-│                        │       │                  ├ [52]: https://groups.google.com/g/golang-announce/c/
+│                        │       │                  ├ [53]: https://gitlab.com/libssh/libssh-mirror/-/tags 
+│                        │       │                  ├ [54]: https://go.dev/cl/550715 
+│                        │       │                  ├ [55]: https://go.dev/issue/64784 
+│                        │       │                  ├ [56]: https://groups.google.com/g/golang-announce/c/
 │                        │       │                  │       -n5WqVC18LQ 
-│                        │       │                  ├ [53]: https://groups.google.com/g/golang-announce/c/
+│                        │       │                  ├ [57]: https://groups.google.com/g/golang-announce/c/
 │                        │       │                  │       qA3XtxvMUyg 
-│                        │       │                  ├ [54]: https://jadaptive.com/important-java-ssh-secur
+│                        │       │                  ├ [58]: https://help.panic.com/releasenotes/transmit5/ 
+│                        │       │                  ├ [59]: https://jadaptive.com/important-java-ssh-secur
 │                        │       │                  │       ity-update-new-ssh-vulnerability-discovered-cve-202
 │                        │       │                  │       3-48795/ 
-│                        │       │                  ├ [55]: https://matt.ucc.asn.au/dropbear/CHANGES 
-│                        │       │                  ├ [56]: https://nest.pijul.com/pijul/thrussh/changes/D
+│                        │       │                  ├ [60]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/ 
+│                        │       │                  ├ [61]: https://matt.ucc.asn.au/dropbear/CHANGES 
+│                        │       │                  ├ [62]: https://nest.pijul.com/pijul/thrussh/changes/D
 │                        │       │                  │       6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQ
 │                        │       │                  │       C 
-│                        │       │                  ├ [57]: https://news.ycombinator.com/item?id=38684904 
-│                        │       │                  ├ [58]: https://news.ycombinator.com/item?id=38685286 
-│                        │       │                  ├ [59]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
-│                        │       │                  ├ [60]: https://oryx-embedded.com/download/#changelog 
-│                        │       │                  ├ [61]: https://security-tracker.debian.org/tracker/CV
+│                        │       │                  ├ [63]: https://news.ycombinator.com/item?id=38684904 
+│                        │       │                  ├ [64]: https://news.ycombinator.com/item?id=38685286 
+│                        │       │                  ├ [65]: https://nova.app/releases/#v11.8 
+│                        │       │                  ├ [66]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
+│                        │       │                  ├ [67]: https://oryx-embedded.com/download/#changelog 
+│                        │       │                  ├ [68]: https://roumenpetrov.info/secsh/#news20231220 
+│                        │       │                  ├ [69]: https://security-tracker.debian.org/tracker/CV
 │                        │       │                  │       E-2023-48795 
-│                        │       │                  ├ [62]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [70]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/libssh2 
-│                        │       │                  ├ [63]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [71]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/proftpd-dfsg 
-│                        │       │                  ├ [64]: https://security-tracker.debian.org/tracker/so
+│                        │       │                  ├ [72]: https://security-tracker.debian.org/tracker/so
 │                        │       │                  │       urce-package/trilead-ssh2 
-│                        │       │                  ├ [65]: https://terrapin-attack.com/ 
-│                        │       │                  ├ [66]: https://thorntech.com/cve-2023-48795-and-sftp-
+│                        │       │                  ├ [73]: https://terrapin-attack.com/ 
+│                        │       │                  ├ [74]: https://thorntech.com/cve-2023-48795-and-sftp-
 │                        │       │                  │       gateway/ 
-│                        │       │                  ├ [67]: https://twitter.com/TrueSkrillor/status/173677
+│                        │       │                  ├ [75]: https://twitter.com/TrueSkrillor/status/173677
 │                        │       │                  │       4389725565005 
-│                        │       │                  ├ [68]: https://ubuntu.com/security/CVE-2023-48795 
-│                        │       │                  ├ [69]: https://ubuntu.com/security/notices/USN-6560-1 
-│                        │       │                  ├ [70]: https://ubuntu.com/security/notices/USN-6561-1 
-│                        │       │                  ├ [71]: https://www.bitvise.com/ssh-server-version-history 
-│                        │       │                  ├ [72]: https://www.chiark.greenend.org.uk/~sgtatham/p
+│                        │       │                  ├ [76]: https://ubuntu.com/security/CVE-2023-48795 
+│                        │       │                  ├ [77]: https://ubuntu.com/security/notices/USN-6560-1 
+│                        │       │                  ├ [78]: https://ubuntu.com/security/notices/USN-6561-1 
+│                        │       │                  ├ [79]: https://winscp.net/eng/docs/history#6.2.2 
+│                        │       │                  ├ [80]: https://www.bitvise.com/ssh-client-version-his
+│                        │       │                  │       tory#933 
+│                        │       │                  ├ [81]: https://www.bitvise.com/ssh-server-version-history 
+│                        │       │                  ├ [82]: https://www.chiark.greenend.org.uk/~sgtatham/p
 │                        │       │                  │       utty/changes.html 
-│                        │       │                  ├ [73]: https://www.crushftp.com/crush10wiki/Wiki.jsp?
+│                        │       │                  ├ [83]: https://www.crushftp.com/crush10wiki/Wiki.jsp?
 │                        │       │                  │       page=Update 
-│                        │       │                  ├ [74]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                        │       │                  ├ [75]: https://www.freebsd.org/security/advisories/Fr
+│                        │       │                  ├ [84]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                        │       │                  ├ [85]: https://www.debian.org/security/2023/dsa-5586 
+│                        │       │                  ├ [86]: https://www.freebsd.org/security/advisories/Fr
 │                        │       │                  │       eeBSD-SA-23:19.openssh.asc 
-│                        │       │                  ├ [76]: https://www.netsarang.com/en/xshell-update-history/ 
-│                        │       │                  ├ [77]: https://www.openssh.com/openbsd.html 
-│                        │       │                  ├ [78]: https://www.openssh.com/txt/release-9.6 
-│                        │       │                  ├ [79]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [87]: https://www.lancom-systems.de/service-support/
+│                        │       │                  │       allgemeine-sicherheitshinweise#c243508 
+│                        │       │                  ├ [88]: https://www.netsarang.com/en/xshell-update-history/ 
+│                        │       │                  ├ [89]: https://www.openssh.com/openbsd.html 
+│                        │       │                  ├ [90]: https://www.openssh.com/txt/release-9.6 
+│                        │       │                  ├ [91]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/18/2 
-│                        │       │                  ├ [80]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [92]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/18/3 
-│                        │       │                  ├ [81]: https://www.openwall.com/lists/oss-security/20
+│                        │       │                  ├ [93]: https://www.openwall.com/lists/oss-security/20
 │                        │       │                  │       23/12/20/3 
-│                        │       │                  ├ [82]: https://www.paramiko.org/changelog.html 
-│                        │       │                  ├ [83]: https://www.reddit.com/r/sysadmin/comments/18i
+│                        │       │                  ├ [94]: https://www.paramiko.org/changelog.html 
+│                        │       │                  ├ [95]: https://www.reddit.com/r/sysadmin/comments/18i
 │                        │       │                  │       dv52/cve202348795_why_is_this_cve_still_undisclosed
 │                        │       │                  │       / 
-│                        │       │                  ├ [84]: https://www.suse.com/c/suse-addresses-the-ssh-
+│                        │       │                  ├ [96]: https://www.suse.com/c/suse-addresses-the-ssh-
 │                        │       │                  │       v2-protocol-terrapin-attack-aka-cve-2023-48795/
 │                        │       │                  │       [m 
-│                        │       │                  ╰ [85]: https://www.terrapin-attack.com 
+│                        │       │                  ├ [97]: https://www.terrapin-attack.com 
+│                        │       │                  ├ [98]: https://www.theregister.com/2023/12/20/terrapi
+│                        │       │                  │       n_attack_ssh 
+│                        │       │                  ╰ [99]: https://www.vandyke.com/products/securecrt/his
+│                        │       │                          tory.txt 
 │                        │       ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                        │       ╰ LastModifiedDate: 2023-12-21T14:15:08.59Z 
+│                        │       ╰ LastModifiedDate: 2023-12-22T15:15:08.143Z 
 │                        ├ [45]  ╭ VulnerabilityID : CVE-2023-28531 
 │                        │       ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.4 
 │                        │       ├ PkgName         : openssh-sftp-server 
@@ -2914,10 +3020,11 @@
 │                        │       │                  │      413-0008/ 
 │                        │       │                  ├ [5]: https://ubuntu.com/security/notices/USN-6560-1 
 │                        │       │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-28531 
-│                        │       │                  ╰ [7]: https://www.openwall.com/lists/oss-security/202
+│                        │       │                  ├ [7]: https://www.debian.org/security/2023/dsa-5586 
+│                        │       │                  ╰ [8]: https://www.openwall.com/lists/oss-security/202
 │                        │       │                         3/03/15/8 
 │                        │       ├ PublishedDate   : 2023-03-17T04:15:14.553Z 
-│                        │       ╰ LastModifiedDate: 2023-07-21T19:21:51.437Z 
+│                        │       ╰ LastModifiedDate: 2023-12-22T13:15:08.797Z 
 │                        ├ [46]  ╭ VulnerabilityID : CVE-2023-29383 
 │                        │       ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                        │       ├ PkgName         : passwd 
@@ -3209,7 +3316,7 @@
 │                        │       │                   prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -3270,7 +3377,7 @@
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -3519,7 +3626,7 @@
 │                        │       │                    prior to 8.2.4959. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 2 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 1 
@@ -3570,7 +3677,7 @@
 │                        │       │                   prior to 8.2.4975. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-674 
-│                        │       ├ VendorSeverity   ╭ amazon     : 1 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ nvd        : 2 
 │                        │       │                  ├ photon     : 2 
@@ -3619,7 +3726,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon     : 1 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ photon     : 3 
@@ -3671,7 +3778,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
-│                        │       │                  ├ amazon     : 1 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -4078,7 +4185,7 @@
 │                        │       │                   prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -4139,7 +4246,7 @@
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -4388,7 +4495,7 @@
 │                        │       │                    prior to 8.2.4959. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 2 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 1 
@@ -4439,7 +4546,7 @@
 │                        │       │                   prior to 8.2.4975. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-674 
-│                        │       ├ VendorSeverity   ╭ amazon     : 1 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ nvd        : 2 
 │                        │       │                  ├ photon     : 2 
@@ -4488,7 +4595,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon     : 1 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ photon     : 3 
@@ -4540,7 +4647,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
-│                        │       │                  ├ amazon     : 1 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -4947,7 +5054,7 @@
 │                        │       │                   prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -5008,7 +5115,7 @@
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -5257,7 +5364,7 @@
 │                        │       │                    prior to 8.2.4959. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 2 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 1 
@@ -5308,7 +5415,7 @@
 │                        │       │                   prior to 8.2.4975. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-674 
-│                        │       ├ VendorSeverity   ╭ amazon     : 1 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ nvd        : 2 
 │                        │       │                  ├ photon     : 2 
@@ -5357,7 +5464,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon     : 1 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ photon     : 3 
@@ -5409,7 +5516,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
-│                        │       │                  ├ amazon     : 1 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -5863,7 +5970,7 @@
 │                        │       │                   prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -5924,7 +6031,7 @@
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -6173,7 +6280,7 @@
 │                        │       │                    prior to 8.2.4959. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
-│                        │       ├ VendorSeverity   ╭ amazon: 1 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 2 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 1 
@@ -6224,7 +6331,7 @@
 │                        │       │                   prior to 8.2.4975. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-674 
-│                        │       ├ VendorSeverity   ╭ amazon     : 1 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ nvd        : 2 
 │                        │       │                  ├ photon     : 2 
@@ -6273,7 +6380,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon     : 1 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ photon     : 3 
@@ -6325,7 +6432,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
-│                        │       │                  ├ amazon     : 1 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -8583,15 +8690,18 @@
 │                              │                   before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6,
 │                              │                   Netgate pfSense Plus through 23.09.1, Netgate pfSense CE
 │                              │                   through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b
-│                              │                    (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4,
+│                              │                    (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4,
 │                              │                   NetSarang XShell 7 before Build 0144, CrushFTP before
 │                              │                   10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA
 │                              │                   sshd through 2.11.0, sshj through 0.37.0, TinySSH through
-│                              │                   20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby,
-│                              │                    the mscdex ssh2 module before 1.15.0 for Node.js, the
-│                              │                   thrussh library before 0.35.1 for Rust, and the Russh crate
-│                              │                   before 0.40.2 for Rust; and there could be effects on
-│                              │                   Bitvise SSH through 9.31. 
+│                              │                   20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig,
+│                              │                   FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before
+│                              │                   14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4,
+│                              │                   Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2,
+│                              │                   Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the
+│                              │                    net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before
+│                              │                   1.15.0 for Node.js, the thrussh library before 0.35.1 for
+│                              │                   Rust, and the Russh crate before 0.40.2 for Rust. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ amazon: 2 
 │                              │                  ├ ghsa  : 2 
@@ -8622,131 +8732,153 @@
 │                              │                  ├ [10]: https://crates.io/crates/thrussh/versions 
 │                              │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                              │                  │       VE-2023-48795 
-│                              │                  ├ [12]: https://forum.netgate.com/topic/184941/terrapin-
+│                              │                  ├ [12]: https://filezilla-project.org/versions.php 
+│                              │                  ├ [13]: https://forum.netgate.com/topic/184941/terrapin-
 │                              │                  │       ssh-attack 
-│                              │                  ├ [13]: https://git.libssh.org/projects/libssh.git/commi
+│                              │                  ├ [14]: https://git.libssh.org/projects/libssh.git/commi
 │                              │                  │       t/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c22
 │                              │                  │       1c2e7f6 
-│                              │                  ├ [14]: https://github.com/NixOS/nixpkgs/pull/275249 
-│                              │                  ├ [15]: https://github.com/TeraTermProject/teraterm/comm
+│                              │                  ├ [15]: https://github.com/NixOS/nixpkgs/pull/275249 
+│                              │                  ├ [16]: https://github.com/PowerShell/Win32-OpenSSH/issu
+│                              │                  │       es/2189 
+│                              │                  ├ [17]: https://github.com/PowerShell/Win32-OpenSSH/rele
+│                              │                  │       ases/tag/v9.5.0.0p1-Beta 
+│                              │                  ├ [18]: https://github.com/TeraTermProject/teraterm/comm
 │                              │                  │       it/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0 
-│                              │                  ├ [16]: https://github.com/TeraTermProject/teraterm/rele
+│                              │                  ├ [19]: https://github.com/TeraTermProject/teraterm/rele
 │                              │                  │       ases/tag/v5.1 
-│                              │                  ├ [17]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
-│                              │                  ├ [18]: https://github.com/apache/mina-sshd/issues/445 
-│                              │                  ├ [19]: https://github.com/connectbot/sshlib/commit/5c8b
+│                              │                  ├ [20]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
+│                              │                  ├ [21]: https://github.com/apache/mina-sshd/issues/445 
+│                              │                  ├ [22]: https://github.com/connectbot/sshlib/commit/5c8b
 │                              │                  │       534f6e97db7ac0e0e579331213aa25c173ab 
-│                              │                  ├ [20]: https://github.com/connectbot/sshlib/compare/2.2
+│                              │                  ├ [23]: https://github.com/connectbot/sshlib/compare/2.2
 │                              │                  │       .21...2.2.22 
-│                              │                  ├ [21]: https://github.com/drakkan/sftpgo/releases/tag/v2.5.6 
-│                              │                  ├ [22]: https://github.com/erlang/otp/blob/d1b43dc0f1361
+│                              │                  ├ [24]: https://github.com/cyd01/KiTTY/issues/520 
+│                              │                  ├ [25]: https://github.com/drakkan/sftpgo/releases/tag/v2.5.6 
+│                              │                  ├ [26]: https://github.com/erlang/otp/blob/d1b43dc0f1361
 │                              │                  │       d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml
 │                              │                  │       #L39-L42 
-│                              │                  ├ [23]: https://github.com/erlang/otp/releases/tag/OTP-26.2.1 
-│                              │                  ├ [24]: https://github.com/golang/crypto/commit/9d2ee975
+│                              │                  ├ [27]: https://github.com/erlang/otp/releases/tag/OTP-26.2.1 
+│                              │                  ├ [28]: https://github.com/golang/crypto/commit/9d2ee975
 │                              │                  │       ef9fe627bf0a6f01c1f69e8ef1d4f05d 
-│                              │                  ├ [25]: https://github.com/hierynomus/sshj/issues/916 
-│                              │                  ├ [26]: https://github.com/janmojzis/tinyssh/issues/81 
-│                              │                  ├ [27]: https://github.com/jtesta/ssh-audit/commit/8e972
+│                              │                  ├ [29]: https://github.com/hierynomus/sshj/issues/916 
+│                              │                  ├ [30]: https://github.com/janmojzis/tinyssh/issues/81 
+│                              │                  ├ [31]: https://github.com/jtesta/ssh-audit/commit/8e972
 │                              │                  │       c5e94b460379fe0c7d20209c16df81538a5 
-│                              │                  ├ [28]: https://github.com/libssh2/libssh2/pull/1291 
-│                              │                  ├ [29]: https://github.com/mkj/dropbear/blob/17657c36cce
+│                              │                  ├ [32]: https://github.com/libssh2/libssh2/pull/1291 
+│                              │                  ├ [33]: https://github.com/mkj/dropbear/blob/17657c36cce
 │                              │                  │       6df7716d5ff151ec09a665382d5dd/CHANGES#L25 
-│                              │                  ├ [30]: https://github.com/mscdex/ssh2/commit/97b223f889
+│                              │                  ├ [34]: https://github.com/mscdex/ssh2/commit/97b223f889
 │                              │                  │       1b96d6fc054df5ab1d5a1a545da2a3 
-│                              │                  ├ [31]: https://github.com/mwiede/jsch/compare/jsch-0.2.
+│                              │                  ├ [35]: https://github.com/mwiede/jsch/compare/jsch-0.2.
 │                              │                  │       14...jsch-0.2.15 
-│                              │                  ├ [32]: https://github.com/mwiede/jsch/issues/457 
-│                              │                  ├ [33]: https://github.com/mwiede/jsch/pull/461 
-│                              │                  ├ [34]: https://github.com/net-ssh/net-ssh/blob/2e65064a
+│                              │                  ├ [36]: https://github.com/mwiede/jsch/issues/457 
+│                              │                  ├ [37]: https://github.com/mwiede/jsch/pull/461 
+│                              │                  ├ [38]: https://github.com/net-ssh/net-ssh/blob/2e65064a
 │                              │                  │       52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-L16
 │                              │                  │       [m 
-│                              │                  ├ [35]: https://github.com/openssh/openssh-portable/comm
+│                              │                  ├ [39]: https://github.com/openssh/openssh-portable/comm
 │                              │                  │       its/master 
-│                              │                  ├ [36]: https://github.com/paramiko/paramiko/issues/2337 
-│                              │                  ├ [37]: https://github.com/proftpd/proftpd/blob/0a7ea9b0
+│                              │                  ├ [40]: https://github.com/paramiko/paramiko/issues/2337 
+│                              │                  ├ [41]: https://github.com/proftpd/proftpd/blob/0a7ea9b0
 │                              │                  │       ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES
 │                              │                  │       [m 
-│                              │                  ├ [38]: https://github.com/proftpd/proftpd/blob/d21e7a2e
+│                              │                  ├ [42]: https://github.com/proftpd/proftpd/blob/d21e7a2e
 │                              │                  │       47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES
 │                              │                  │       [m 
-│                              │                  ├ [39]: https://github.com/proftpd/proftpd/blob/master/R
+│                              │                  ├ [43]: https://github.com/proftpd/proftpd/blob/master/R
 │                              │                  │       ELEASE_NOTES 
-│                              │                  ├ [40]: https://github.com/proftpd/proftpd/issues/456 
-│                              │                  ├ [41]: https://github.com/rapier1/hpn-ssh/releases 
-│                              │                  ├ [42]: https://github.com/ronf/asyncssh/blob/develop/do
+│                              │                  ├ [44]: https://github.com/proftpd/proftpd/issues/456 
+│                              │                  ├ [45]: https://github.com/rapier1/hpn-ssh/releases 
+│                              │                  ├ [46]: https://github.com/ronf/asyncssh/blob/develop/do
 │                              │                  │       cs/changes.rst 
-│                              │                  ├ [43]: https://github.com/ronf/asyncssh/security/adviso
+│                              │                  ├ [47]: https://github.com/ronf/asyncssh/security/adviso
 │                              │                  │       ries/GHSA-hfmc-7525-mj55 
-│                              │                  ├ [44]: https://github.com/ronf/asyncssh/tags 
-│                              │                  ├ [45]: https://github.com/warp-tech/russh 
-│                              │                  ├ [46]: https://github.com/warp-tech/russh/commit/1aa340
+│                              │                  ├ [48]: https://github.com/ronf/asyncssh/tags 
+│                              │                  ├ [49]: https://github.com/warp-tech/russh 
+│                              │                  ├ [50]: https://github.com/warp-tech/russh/commit/1aa340
 │                              │                  │       a7df1d5be1c0f4a9e247aade76dfdd2951 
-│                              │                  ├ [47]: https://github.com/warp-tech/russh/releases/tag/
+│                              │                  ├ [51]: https://github.com/warp-tech/russh/releases/tag/
 │                              │                  │       v0.40.2 
-│                              │                  ├ [48]: https://github.com/warp-tech/russh/security/advi
+│                              │                  ├ [52]: https://github.com/warp-tech/russh/security/advi
 │                              │                  │       sories/GHSA-45x7-px36-x8w8 
-│                              │                  ├ [49]: https://gitlab.com/libssh/libssh-mirror/-/tags 
-│                              │                  ├ [50]: https://go.dev/cl/550715 
-│                              │                  ├ [51]: https://go.dev/issue/64784 
-│                              │                  ├ [52]: https://groups.google.com/g/golang-announce/c/-n
+│                              │                  ├ [53]: https://gitlab.com/libssh/libssh-mirror/-/tags 
+│                              │                  ├ [54]: https://go.dev/cl/550715 
+│                              │                  ├ [55]: https://go.dev/issue/64784 
+│                              │                  ├ [56]: https://groups.google.com/g/golang-announce/c/-n
 │                              │                  │       5WqVC18LQ 
-│                              │                  ├ [53]: https://groups.google.com/g/golang-announce/c/qA
+│                              │                  ├ [57]: https://groups.google.com/g/golang-announce/c/qA
 │                              │                  │       3XtxvMUyg 
-│                              │                  ├ [54]: https://jadaptive.com/important-java-ssh-securit
+│                              │                  ├ [58]: https://help.panic.com/releasenotes/transmit5/ 
+│                              │                  ├ [59]: https://jadaptive.com/important-java-ssh-securit
 │                              │                  │       y-update-new-ssh-vulnerability-discovered-cve-2023-48
 │                              │                  │       795/ 
-│                              │                  ├ [55]: https://matt.ucc.asn.au/dropbear/CHANGES 
-│                              │                  ├ [56]: https://nest.pijul.com/pijul/thrussh/changes/D6H
+│                              │                  ├ [60]: https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce%40lists.fedoraproject.org/message/MKQR
+│                              │                  │       BF3DWMWPH36LBCOBUTSIZRTPEZXB/ 
+│                              │                  ├ [61]: https://matt.ucc.asn.au/dropbear/CHANGES 
+│                              │                  ├ [62]: https://nest.pijul.com/pijul/thrussh/changes/D6H
 │                              │                  │       7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
 │                              │                  │        
-│                              │                  ├ [57]: https://news.ycombinator.com/item?id=38684904 
-│                              │                  ├ [58]: https://news.ycombinator.com/item?id=38685286 
-│                              │                  ├ [59]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
-│                              │                  ├ [60]: https://oryx-embedded.com/download/#changelog 
-│                              │                  ├ [61]: https://security-tracker.debian.org/tracker/CVE-
+│                              │                  ├ [63]: https://news.ycombinator.com/item?id=38684904 
+│                              │                  ├ [64]: https://news.ycombinator.com/item?id=38685286 
+│                              │                  ├ [65]: https://nova.app/releases/#v11.8 
+│                              │                  ├ [66]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
+│                              │                  ├ [67]: https://oryx-embedded.com/download/#changelog 
+│                              │                  ├ [68]: https://roumenpetrov.info/secsh/#news20231220 
+│                              │                  ├ [69]: https://security-tracker.debian.org/tracker/CVE-
 │                              │                  │       2023-48795 
-│                              │                  ├ [62]: https://security-tracker.debian.org/tracker/sour
+│                              │                  ├ [70]: https://security-tracker.debian.org/tracker/sour
 │                              │                  │       ce-package/libssh2 
-│                              │                  ├ [63]: https://security-tracker.debian.org/tracker/sour
+│                              │                  ├ [71]: https://security-tracker.debian.org/tracker/sour
 │                              │                  │       ce-package/proftpd-dfsg 
-│                              │                  ├ [64]: https://security-tracker.debian.org/tracker/sour
+│                              │                  ├ [72]: https://security-tracker.debian.org/tracker/sour
 │                              │                  │       ce-package/trilead-ssh2 
-│                              │                  ├ [65]: https://terrapin-attack.com/ 
-│                              │                  ├ [66]: https://thorntech.com/cve-2023-48795-and-sftp-ga
+│                              │                  ├ [73]: https://terrapin-attack.com/ 
+│                              │                  ├ [74]: https://thorntech.com/cve-2023-48795-and-sftp-ga
 │                              │                  │       teway/ 
-│                              │                  ├ [67]: https://twitter.com/TrueSkrillor/status/17367743
+│                              │                  ├ [75]: https://twitter.com/TrueSkrillor/status/17367743
 │                              │                  │       89725565005 
-│                              │                  ├ [68]: https://ubuntu.com/security/CVE-2023-48795 
-│                              │                  ├ [69]: https://ubuntu.com/security/notices/USN-6560-1 
-│                              │                  ├ [70]: https://ubuntu.com/security/notices/USN-6561-1 
-│                              │                  ├ [71]: https://www.bitvise.com/ssh-server-version-history 
-│                              │                  ├ [72]: https://www.chiark.greenend.org.uk/~sgtatham/put
+│                              │                  ├ [76]: https://ubuntu.com/security/CVE-2023-48795 
+│                              │                  ├ [77]: https://ubuntu.com/security/notices/USN-6560-1 
+│                              │                  ├ [78]: https://ubuntu.com/security/notices/USN-6561-1 
+│                              │                  ├ [79]: https://winscp.net/eng/docs/history#6.2.2 
+│                              │                  ├ [80]: https://www.bitvise.com/ssh-client-version-histo
+│                              │                  │       ry#933 
+│                              │                  ├ [81]: https://www.bitvise.com/ssh-server-version-history 
+│                              │                  ├ [82]: https://www.chiark.greenend.org.uk/~sgtatham/put
 │                              │                  │       ty/changes.html 
-│                              │                  ├ [73]: https://www.crushftp.com/crush10wiki/Wiki.jsp?pa
+│                              │                  ├ [83]: https://www.crushftp.com/crush10wiki/Wiki.jsp?pa
 │                              │                  │       ge=Update 
-│                              │                  ├ [74]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                              │                  ├ [75]: https://www.freebsd.org/security/advisories/Free
+│                              │                  ├ [84]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                              │                  ├ [85]: https://www.debian.org/security/2023/dsa-5586 
+│                              │                  ├ [86]: https://www.freebsd.org/security/advisories/Free
 │                              │                  │       BSD-SA-23:19.openssh.asc 
-│                              │                  ├ [76]: https://www.netsarang.com/en/xshell-update-history/ 
-│                              │                  ├ [77]: https://www.openssh.com/openbsd.html 
-│                              │                  ├ [78]: https://www.openssh.com/txt/release-9.6 
-│                              │                  ├ [79]: https://www.openwall.com/lists/oss-security/2023
+│                              │                  ├ [87]: https://www.lancom-systems.de/service-support/al
+│                              │                  │       lgemeine-sicherheitshinweise#c243508 
+│                              │                  ├ [88]: https://www.netsarang.com/en/xshell-update-history/ 
+│                              │                  ├ [89]: https://www.openssh.com/openbsd.html 
+│                              │                  ├ [90]: https://www.openssh.com/txt/release-9.6 
+│                              │                  ├ [91]: https://www.openwall.com/lists/oss-security/2023
 │                              │                  │       /12/18/2 
-│                              │                  ├ [80]: https://www.openwall.com/lists/oss-security/2023
+│                              │                  ├ [92]: https://www.openwall.com/lists/oss-security/2023
 │                              │                  │       /12/18/3 
-│                              │                  ├ [81]: https://www.openwall.com/lists/oss-security/2023
+│                              │                  ├ [93]: https://www.openwall.com/lists/oss-security/2023
 │                              │                  │       /12/20/3 
-│                              │                  ├ [82]: https://www.paramiko.org/changelog.html 
-│                              │                  ├ [83]: https://www.reddit.com/r/sysadmin/comments/18idv
+│                              │                  ├ [94]: https://www.paramiko.org/changelog.html 
+│                              │                  ├ [95]: https://www.reddit.com/r/sysadmin/comments/18idv
 │                              │                  │       52/cve202348795_why_is_this_cve_still_undisclosed/
 │                              │                  │        
-│                              │                  ├ [84]: https://www.suse.com/c/suse-addresses-the-ssh-v2
+│                              │                  ├ [96]: https://www.suse.com/c/suse-addresses-the-ssh-v2
 │                              │                  │       -protocol-terrapin-attack-aka-cve-2023-48795/[
 │                              │                  │       m 
-│                              │                  ╰ [85]: https://www.terrapin-attack.com 
+│                              │                  ├ [97]: https://www.terrapin-attack.com 
+│                              │                  ├ [98]: https://www.theregister.com/2023/12/20/terrapin_
+│                              │                  │       attack_ssh 
+│                              │                  ╰ [99]: https://www.vandyke.com/products/securecrt/histo
+│                              │                          ry.txt 
 │                              ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                              ╰ LastModifiedDate: 2023-12-21T14:15:08.59Z 
+│                              ╰ LastModifiedDate: 2023-12-22T15:15:08.143Z 
 ├ [5]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -8885,15 +9017,18 @@
 │                              │                   before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6,
 │                              │                   Netgate pfSense Plus through 23.09.1, Netgate pfSense CE
 │                              │                   through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b
-│                              │                    (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4,
+│                              │                    (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4,
 │                              │                   NetSarang XShell 7 before Build 0144, CrushFTP before
 │                              │                   10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA
 │                              │                   sshd through 2.11.0, sshj through 0.37.0, TinySSH through
-│                              │                   20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby,
-│                              │                    the mscdex ssh2 module before 1.15.0 for Node.js, the
-│                              │                   thrussh library before 0.35.1 for Rust, and the Russh crate
-│                              │                   before 0.40.2 for Rust; and there could be effects on
-│                              │                   Bitvise SSH through 9.31. 
+│                              │                   20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig,
+│                              │                   FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before
+│                              │                   14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4,
+│                              │                   Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2,
+│                              │                   Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the
+│                              │                    net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before
+│                              │                   1.15.0 for Node.js, the thrussh library before 0.35.1 for
+│                              │                   Rust, and the Russh crate before 0.40.2 for Rust. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ amazon: 2 
 │                              │                  ├ ghsa  : 2 
@@ -8924,131 +9059,153 @@
 │                              │                  ├ [10]: https://crates.io/crates/thrussh/versions 
 │                              │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                              │                  │       VE-2023-48795 
-│                              │                  ├ [12]: https://forum.netgate.com/topic/184941/terrapin-
+│                              │                  ├ [12]: https://filezilla-project.org/versions.php 
+│                              │                  ├ [13]: https://forum.netgate.com/topic/184941/terrapin-
 │                              │                  │       ssh-attack 
-│                              │                  ├ [13]: https://git.libssh.org/projects/libssh.git/commi
+│                              │                  ├ [14]: https://git.libssh.org/projects/libssh.git/commi
 │                              │                  │       t/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c22
 │                              │                  │       1c2e7f6 
-│                              │                  ├ [14]: https://github.com/NixOS/nixpkgs/pull/275249 
-│                              │                  ├ [15]: https://github.com/TeraTermProject/teraterm/comm
+│                              │                  ├ [15]: https://github.com/NixOS/nixpkgs/pull/275249 
+│                              │                  ├ [16]: https://github.com/PowerShell/Win32-OpenSSH/issu
+│                              │                  │       es/2189 
+│                              │                  ├ [17]: https://github.com/PowerShell/Win32-OpenSSH/rele
+│                              │                  │       ases/tag/v9.5.0.0p1-Beta 
+│                              │                  ├ [18]: https://github.com/TeraTermProject/teraterm/comm
 │                              │                  │       it/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0 
-│                              │                  ├ [16]: https://github.com/TeraTermProject/teraterm/rele
+│                              │                  ├ [19]: https://github.com/TeraTermProject/teraterm/rele
 │                              │                  │       ases/tag/v5.1 
-│                              │                  ├ [17]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
-│                              │                  ├ [18]: https://github.com/apache/mina-sshd/issues/445 
-│                              │                  ├ [19]: https://github.com/connectbot/sshlib/commit/5c8b
+│                              │                  ├ [20]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
+│                              │                  ├ [21]: https://github.com/apache/mina-sshd/issues/445 
+│                              │                  ├ [22]: https://github.com/connectbot/sshlib/commit/5c8b
 │                              │                  │       534f6e97db7ac0e0e579331213aa25c173ab 
-│                              │                  ├ [20]: https://github.com/connectbot/sshlib/compare/2.2
+│                              │                  ├ [23]: https://github.com/connectbot/sshlib/compare/2.2
 │                              │                  │       .21...2.2.22 
-│                              │                  ├ [21]: https://github.com/drakkan/sftpgo/releases/tag/v2.5.6 
-│                              │                  ├ [22]: https://github.com/erlang/otp/blob/d1b43dc0f1361
+│                              │                  ├ [24]: https://github.com/cyd01/KiTTY/issues/520 
+│                              │                  ├ [25]: https://github.com/drakkan/sftpgo/releases/tag/v2.5.6 
+│                              │                  ├ [26]: https://github.com/erlang/otp/blob/d1b43dc0f1361
 │                              │                  │       d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml
 │                              │                  │       #L39-L42 
-│                              │                  ├ [23]: https://github.com/erlang/otp/releases/tag/OTP-26.2.1 
-│                              │                  ├ [24]: https://github.com/golang/crypto/commit/9d2ee975
+│                              │                  ├ [27]: https://github.com/erlang/otp/releases/tag/OTP-26.2.1 
+│                              │                  ├ [28]: https://github.com/golang/crypto/commit/9d2ee975
 │                              │                  │       ef9fe627bf0a6f01c1f69e8ef1d4f05d 
-│                              │                  ├ [25]: https://github.com/hierynomus/sshj/issues/916 
-│                              │                  ├ [26]: https://github.com/janmojzis/tinyssh/issues/81 
-│                              │                  ├ [27]: https://github.com/jtesta/ssh-audit/commit/8e972
+│                              │                  ├ [29]: https://github.com/hierynomus/sshj/issues/916 
+│                              │                  ├ [30]: https://github.com/janmojzis/tinyssh/issues/81 
+│                              │                  ├ [31]: https://github.com/jtesta/ssh-audit/commit/8e972
 │                              │                  │       c5e94b460379fe0c7d20209c16df81538a5 
-│                              │                  ├ [28]: https://github.com/libssh2/libssh2/pull/1291 
-│                              │                  ├ [29]: https://github.com/mkj/dropbear/blob/17657c36cce
+│                              │                  ├ [32]: https://github.com/libssh2/libssh2/pull/1291 
+│                              │                  ├ [33]: https://github.com/mkj/dropbear/blob/17657c36cce
 │                              │                  │       6df7716d5ff151ec09a665382d5dd/CHANGES#L25 
-│                              │                  ├ [30]: https://github.com/mscdex/ssh2/commit/97b223f889
+│                              │                  ├ [34]: https://github.com/mscdex/ssh2/commit/97b223f889
 │                              │                  │       1b96d6fc054df5ab1d5a1a545da2a3 
-│                              │                  ├ [31]: https://github.com/mwiede/jsch/compare/jsch-0.2.
+│                              │                  ├ [35]: https://github.com/mwiede/jsch/compare/jsch-0.2.
 │                              │                  │       14...jsch-0.2.15 
-│                              │                  ├ [32]: https://github.com/mwiede/jsch/issues/457 
-│                              │                  ├ [33]: https://github.com/mwiede/jsch/pull/461 
-│                              │                  ├ [34]: https://github.com/net-ssh/net-ssh/blob/2e65064a
+│                              │                  ├ [36]: https://github.com/mwiede/jsch/issues/457 
+│                              │                  ├ [37]: https://github.com/mwiede/jsch/pull/461 
+│                              │                  ├ [38]: https://github.com/net-ssh/net-ssh/blob/2e65064a
 │                              │                  │       52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-L16
 │                              │                  │       [m 
-│                              │                  ├ [35]: https://github.com/openssh/openssh-portable/comm
+│                              │                  ├ [39]: https://github.com/openssh/openssh-portable/comm
 │                              │                  │       its/master 
-│                              │                  ├ [36]: https://github.com/paramiko/paramiko/issues/2337 
-│                              │                  ├ [37]: https://github.com/proftpd/proftpd/blob/0a7ea9b0
+│                              │                  ├ [40]: https://github.com/paramiko/paramiko/issues/2337 
+│                              │                  ├ [41]: https://github.com/proftpd/proftpd/blob/0a7ea9b0
 │                              │                  │       ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES
 │                              │                  │       [m 
-│                              │                  ├ [38]: https://github.com/proftpd/proftpd/blob/d21e7a2e
+│                              │                  ├ [42]: https://github.com/proftpd/proftpd/blob/d21e7a2e
 │                              │                  │       47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES
 │                              │                  │       [m 
-│                              │                  ├ [39]: https://github.com/proftpd/proftpd/blob/master/R
+│                              │                  ├ [43]: https://github.com/proftpd/proftpd/blob/master/R
 │                              │                  │       ELEASE_NOTES 
-│                              │                  ├ [40]: https://github.com/proftpd/proftpd/issues/456 
-│                              │                  ├ [41]: https://github.com/rapier1/hpn-ssh/releases 
-│                              │                  ├ [42]: https://github.com/ronf/asyncssh/blob/develop/do
+│                              │                  ├ [44]: https://github.com/proftpd/proftpd/issues/456 
+│                              │                  ├ [45]: https://github.com/rapier1/hpn-ssh/releases 
+│                              │                  ├ [46]: https://github.com/ronf/asyncssh/blob/develop/do
 │                              │                  │       cs/changes.rst 
-│                              │                  ├ [43]: https://github.com/ronf/asyncssh/security/adviso
+│                              │                  ├ [47]: https://github.com/ronf/asyncssh/security/adviso
 │                              │                  │       ries/GHSA-hfmc-7525-mj55 
-│                              │                  ├ [44]: https://github.com/ronf/asyncssh/tags 
-│                              │                  ├ [45]: https://github.com/warp-tech/russh 
-│                              │                  ├ [46]: https://github.com/warp-tech/russh/commit/1aa340
+│                              │                  ├ [48]: https://github.com/ronf/asyncssh/tags 
+│                              │                  ├ [49]: https://github.com/warp-tech/russh 
+│                              │                  ├ [50]: https://github.com/warp-tech/russh/commit/1aa340
 │                              │                  │       a7df1d5be1c0f4a9e247aade76dfdd2951 
-│                              │                  ├ [47]: https://github.com/warp-tech/russh/releases/tag/
+│                              │                  ├ [51]: https://github.com/warp-tech/russh/releases/tag/
 │                              │                  │       v0.40.2 
-│                              │                  ├ [48]: https://github.com/warp-tech/russh/security/advi
+│                              │                  ├ [52]: https://github.com/warp-tech/russh/security/advi
 │                              │                  │       sories/GHSA-45x7-px36-x8w8 
-│                              │                  ├ [49]: https://gitlab.com/libssh/libssh-mirror/-/tags 
-│                              │                  ├ [50]: https://go.dev/cl/550715 
-│                              │                  ├ [51]: https://go.dev/issue/64784 
-│                              │                  ├ [52]: https://groups.google.com/g/golang-announce/c/-n
+│                              │                  ├ [53]: https://gitlab.com/libssh/libssh-mirror/-/tags 
+│                              │                  ├ [54]: https://go.dev/cl/550715 
+│                              │                  ├ [55]: https://go.dev/issue/64784 
+│                              │                  ├ [56]: https://groups.google.com/g/golang-announce/c/-n
 │                              │                  │       5WqVC18LQ 
-│                              │                  ├ [53]: https://groups.google.com/g/golang-announce/c/qA
+│                              │                  ├ [57]: https://groups.google.com/g/golang-announce/c/qA
 │                              │                  │       3XtxvMUyg 
-│                              │                  ├ [54]: https://jadaptive.com/important-java-ssh-securit
+│                              │                  ├ [58]: https://help.panic.com/releasenotes/transmit5/ 
+│                              │                  ├ [59]: https://jadaptive.com/important-java-ssh-securit
 │                              │                  │       y-update-new-ssh-vulnerability-discovered-cve-2023-48
 │                              │                  │       795/ 
-│                              │                  ├ [55]: https://matt.ucc.asn.au/dropbear/CHANGES 
-│                              │                  ├ [56]: https://nest.pijul.com/pijul/thrussh/changes/D6H
+│                              │                  ├ [60]: https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce%40lists.fedoraproject.org/message/MKQR
+│                              │                  │       BF3DWMWPH36LBCOBUTSIZRTPEZXB/ 
+│                              │                  ├ [61]: https://matt.ucc.asn.au/dropbear/CHANGES 
+│                              │                  ├ [62]: https://nest.pijul.com/pijul/thrussh/changes/D6H
 │                              │                  │       7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
 │                              │                  │        
-│                              │                  ├ [57]: https://news.ycombinator.com/item?id=38684904 
-│                              │                  ├ [58]: https://news.ycombinator.com/item?id=38685286 
-│                              │                  ├ [59]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
-│                              │                  ├ [60]: https://oryx-embedded.com/download/#changelog 
-│                              │                  ├ [61]: https://security-tracker.debian.org/tracker/CVE-
+│                              │                  ├ [63]: https://news.ycombinator.com/item?id=38684904 
+│                              │                  ├ [64]: https://news.ycombinator.com/item?id=38685286 
+│                              │                  ├ [65]: https://nova.app/releases/#v11.8 
+│                              │                  ├ [66]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
+│                              │                  ├ [67]: https://oryx-embedded.com/download/#changelog 
+│                              │                  ├ [68]: https://roumenpetrov.info/secsh/#news20231220 
+│                              │                  ├ [69]: https://security-tracker.debian.org/tracker/CVE-
 │                              │                  │       2023-48795 
-│                              │                  ├ [62]: https://security-tracker.debian.org/tracker/sour
+│                              │                  ├ [70]: https://security-tracker.debian.org/tracker/sour
 │                              │                  │       ce-package/libssh2 
-│                              │                  ├ [63]: https://security-tracker.debian.org/tracker/sour
+│                              │                  ├ [71]: https://security-tracker.debian.org/tracker/sour
 │                              │                  │       ce-package/proftpd-dfsg 
-│                              │                  ├ [64]: https://security-tracker.debian.org/tracker/sour
+│                              │                  ├ [72]: https://security-tracker.debian.org/tracker/sour
 │                              │                  │       ce-package/trilead-ssh2 
-│                              │                  ├ [65]: https://terrapin-attack.com/ 
-│                              │                  ├ [66]: https://thorntech.com/cve-2023-48795-and-sftp-ga
+│                              │                  ├ [73]: https://terrapin-attack.com/ 
+│                              │                  ├ [74]: https://thorntech.com/cve-2023-48795-and-sftp-ga
 │                              │                  │       teway/ 
-│                              │                  ├ [67]: https://twitter.com/TrueSkrillor/status/17367743
+│                              │                  ├ [75]: https://twitter.com/TrueSkrillor/status/17367743
 │                              │                  │       89725565005 
-│                              │                  ├ [68]: https://ubuntu.com/security/CVE-2023-48795 
-│                              │                  ├ [69]: https://ubuntu.com/security/notices/USN-6560-1 
-│                              │                  ├ [70]: https://ubuntu.com/security/notices/USN-6561-1 
-│                              │                  ├ [71]: https://www.bitvise.com/ssh-server-version-history 
-│                              │                  ├ [72]: https://www.chiark.greenend.org.uk/~sgtatham/put
+│                              │                  ├ [76]: https://ubuntu.com/security/CVE-2023-48795 
+│                              │                  ├ [77]: https://ubuntu.com/security/notices/USN-6560-1 
+│                              │                  ├ [78]: https://ubuntu.com/security/notices/USN-6561-1 
+│                              │                  ├ [79]: https://winscp.net/eng/docs/history#6.2.2 
+│                              │                  ├ [80]: https://www.bitvise.com/ssh-client-version-histo
+│                              │                  │       ry#933 
+│                              │                  ├ [81]: https://www.bitvise.com/ssh-server-version-history 
+│                              │                  ├ [82]: https://www.chiark.greenend.org.uk/~sgtatham/put
 │                              │                  │       ty/changes.html 
-│                              │                  ├ [73]: https://www.crushftp.com/crush10wiki/Wiki.jsp?pa
+│                              │                  ├ [83]: https://www.crushftp.com/crush10wiki/Wiki.jsp?pa
 │                              │                  │       ge=Update 
-│                              │                  ├ [74]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                              │                  ├ [75]: https://www.freebsd.org/security/advisories/Free
+│                              │                  ├ [84]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                              │                  ├ [85]: https://www.debian.org/security/2023/dsa-5586 
+│                              │                  ├ [86]: https://www.freebsd.org/security/advisories/Free
 │                              │                  │       BSD-SA-23:19.openssh.asc 
-│                              │                  ├ [76]: https://www.netsarang.com/en/xshell-update-history/ 
-│                              │                  ├ [77]: https://www.openssh.com/openbsd.html 
-│                              │                  ├ [78]: https://www.openssh.com/txt/release-9.6 
-│                              │                  ├ [79]: https://www.openwall.com/lists/oss-security/2023
+│                              │                  ├ [87]: https://www.lancom-systems.de/service-support/al
+│                              │                  │       lgemeine-sicherheitshinweise#c243508 
+│                              │                  ├ [88]: https://www.netsarang.com/en/xshell-update-history/ 
+│                              │                  ├ [89]: https://www.openssh.com/openbsd.html 
+│                              │                  ├ [90]: https://www.openssh.com/txt/release-9.6 
+│                              │                  ├ [91]: https://www.openwall.com/lists/oss-security/2023
 │                              │                  │       /12/18/2 
-│                              │                  ├ [80]: https://www.openwall.com/lists/oss-security/2023
+│                              │                  ├ [92]: https://www.openwall.com/lists/oss-security/2023
 │                              │                  │       /12/18/3 
-│                              │                  ├ [81]: https://www.openwall.com/lists/oss-security/2023
+│                              │                  ├ [93]: https://www.openwall.com/lists/oss-security/2023
 │                              │                  │       /12/20/3 
-│                              │                  ├ [82]: https://www.paramiko.org/changelog.html 
-│                              │                  ├ [83]: https://www.reddit.com/r/sysadmin/comments/18idv
+│                              │                  ├ [94]: https://www.paramiko.org/changelog.html 
+│                              │                  ├ [95]: https://www.reddit.com/r/sysadmin/comments/18idv
 │                              │                  │       52/cve202348795_why_is_this_cve_still_undisclosed/
 │                              │                  │        
-│                              │                  ├ [84]: https://www.suse.com/c/suse-addresses-the-ssh-v2
+│                              │                  ├ [96]: https://www.suse.com/c/suse-addresses-the-ssh-v2
 │                              │                  │       -protocol-terrapin-attack-aka-cve-2023-48795/[
 │                              │                  │       m 
-│                              │                  ╰ [85]: https://www.terrapin-attack.com 
+│                              │                  ├ [97]: https://www.terrapin-attack.com 
+│                              │                  ├ [98]: https://www.theregister.com/2023/12/20/terrapin_
+│                              │                  │       attack_ssh 
+│                              │                  ╰ [99]: https://www.vandyke.com/products/securecrt/histo
+│                              │                          ry.txt 
 │                              ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                              ╰ LastModifiedDate: 2023-12-21T14:15:08.59Z 
+│                              ╰ LastModifiedDate: 2023-12-22T15:15:08.143Z 
 ├ [6]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9091,15 +9248,18 @@
 │                              │                   before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6,
 │                              │                   Netgate pfSense Plus through 23.09.1, Netgate pfSense CE
 │                              │                   through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b
-│                              │                    (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4,
+│                              │                    (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4,
 │                              │                   NetSarang XShell 7 before Build 0144, CrushFTP before
 │                              │                   10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA
 │                              │                   sshd through 2.11.0, sshj through 0.37.0, TinySSH through
-│                              │                   20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby,
-│                              │                    the mscdex ssh2 module before 1.15.0 for Node.js, the
-│                              │                   thrussh library before 0.35.1 for Rust, and the Russh crate
-│                              │                   before 0.40.2 for Rust; and there could be effects on
-│                              │                   Bitvise SSH through 9.31. 
+│                              │                   20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig,
+│                              │                   FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before
+│                              │                   14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4,
+│                              │                   Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2,
+│                              │                   Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the
+│                              │                    net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before
+│                              │                   1.15.0 for Node.js, the thrussh library before 0.35.1 for
+│                              │                   Rust, and the Russh crate before 0.40.2 for Rust. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ amazon: 2 
 │                              │                  ├ ghsa  : 2 
@@ -9130,131 +9290,153 @@
 │                              │                  ├ [10]: https://crates.io/crates/thrussh/versions 
 │                              │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                              │                  │       VE-2023-48795 
-│                              │                  ├ [12]: https://forum.netgate.com/topic/184941/terrapin-
+│                              │                  ├ [12]: https://filezilla-project.org/versions.php 
+│                              │                  ├ [13]: https://forum.netgate.com/topic/184941/terrapin-
 │                              │                  │       ssh-attack 
-│                              │                  ├ [13]: https://git.libssh.org/projects/libssh.git/commi
+│                              │                  ├ [14]: https://git.libssh.org/projects/libssh.git/commi
 │                              │                  │       t/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c22
 │                              │                  │       1c2e7f6 
-│                              │                  ├ [14]: https://github.com/NixOS/nixpkgs/pull/275249 
-│                              │                  ├ [15]: https://github.com/TeraTermProject/teraterm/comm
+│                              │                  ├ [15]: https://github.com/NixOS/nixpkgs/pull/275249 
+│                              │                  ├ [16]: https://github.com/PowerShell/Win32-OpenSSH/issu
+│                              │                  │       es/2189 
+│                              │                  ├ [17]: https://github.com/PowerShell/Win32-OpenSSH/rele
+│                              │                  │       ases/tag/v9.5.0.0p1-Beta 
+│                              │                  ├ [18]: https://github.com/TeraTermProject/teraterm/comm
 │                              │                  │       it/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0 
-│                              │                  ├ [16]: https://github.com/TeraTermProject/teraterm/rele
+│                              │                  ├ [19]: https://github.com/TeraTermProject/teraterm/rele
 │                              │                  │       ases/tag/v5.1 
-│                              │                  ├ [17]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
-│                              │                  ├ [18]: https://github.com/apache/mina-sshd/issues/445 
-│                              │                  ├ [19]: https://github.com/connectbot/sshlib/commit/5c8b
+│                              │                  ├ [20]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
+│                              │                  ├ [21]: https://github.com/apache/mina-sshd/issues/445 
+│                              │                  ├ [22]: https://github.com/connectbot/sshlib/commit/5c8b
 │                              │                  │       534f6e97db7ac0e0e579331213aa25c173ab 
-│                              │                  ├ [20]: https://github.com/connectbot/sshlib/compare/2.2
+│                              │                  ├ [23]: https://github.com/connectbot/sshlib/compare/2.2
 │                              │                  │       .21...2.2.22 
-│                              │                  ├ [21]: https://github.com/drakkan/sftpgo/releases/tag/v2.5.6 
-│                              │                  ├ [22]: https://github.com/erlang/otp/blob/d1b43dc0f1361
+│                              │                  ├ [24]: https://github.com/cyd01/KiTTY/issues/520 
+│                              │                  ├ [25]: https://github.com/drakkan/sftpgo/releases/tag/v2.5.6 
+│                              │                  ├ [26]: https://github.com/erlang/otp/blob/d1b43dc0f1361
 │                              │                  │       d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml
 │                              │                  │       #L39-L42 
-│                              │                  ├ [23]: https://github.com/erlang/otp/releases/tag/OTP-26.2.1 
-│                              │                  ├ [24]: https://github.com/golang/crypto/commit/9d2ee975
+│                              │                  ├ [27]: https://github.com/erlang/otp/releases/tag/OTP-26.2.1 
+│                              │                  ├ [28]: https://github.com/golang/crypto/commit/9d2ee975
 │                              │                  │       ef9fe627bf0a6f01c1f69e8ef1d4f05d 
-│                              │                  ├ [25]: https://github.com/hierynomus/sshj/issues/916 
-│                              │                  ├ [26]: https://github.com/janmojzis/tinyssh/issues/81 
-│                              │                  ├ [27]: https://github.com/jtesta/ssh-audit/commit/8e972
+│                              │                  ├ [29]: https://github.com/hierynomus/sshj/issues/916 
+│                              │                  ├ [30]: https://github.com/janmojzis/tinyssh/issues/81 
+│                              │                  ├ [31]: https://github.com/jtesta/ssh-audit/commit/8e972
 │                              │                  │       c5e94b460379fe0c7d20209c16df81538a5 
-│                              │                  ├ [28]: https://github.com/libssh2/libssh2/pull/1291 
-│                              │                  ├ [29]: https://github.com/mkj/dropbear/blob/17657c36cce
+│                              │                  ├ [32]: https://github.com/libssh2/libssh2/pull/1291 
+│                              │                  ├ [33]: https://github.com/mkj/dropbear/blob/17657c36cce
 │                              │                  │       6df7716d5ff151ec09a665382d5dd/CHANGES#L25 
-│                              │                  ├ [30]: https://github.com/mscdex/ssh2/commit/97b223f889
+│                              │                  ├ [34]: https://github.com/mscdex/ssh2/commit/97b223f889
 │                              │                  │       1b96d6fc054df5ab1d5a1a545da2a3 
-│                              │                  ├ [31]: https://github.com/mwiede/jsch/compare/jsch-0.2.
+│                              │                  ├ [35]: https://github.com/mwiede/jsch/compare/jsch-0.2.
 │                              │                  │       14...jsch-0.2.15 
-│                              │                  ├ [32]: https://github.com/mwiede/jsch/issues/457 
-│                              │                  ├ [33]: https://github.com/mwiede/jsch/pull/461 
-│                              │                  ├ [34]: https://github.com/net-ssh/net-ssh/blob/2e65064a
+│                              │                  ├ [36]: https://github.com/mwiede/jsch/issues/457 
+│                              │                  ├ [37]: https://github.com/mwiede/jsch/pull/461 
+│                              │                  ├ [38]: https://github.com/net-ssh/net-ssh/blob/2e65064a
 │                              │                  │       52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-L16
 │                              │                  │       [m 
-│                              │                  ├ [35]: https://github.com/openssh/openssh-portable/comm
+│                              │                  ├ [39]: https://github.com/openssh/openssh-portable/comm
 │                              │                  │       its/master 
-│                              │                  ├ [36]: https://github.com/paramiko/paramiko/issues/2337 
-│                              │                  ├ [37]: https://github.com/proftpd/proftpd/blob/0a7ea9b0
+│                              │                  ├ [40]: https://github.com/paramiko/paramiko/issues/2337 
+│                              │                  ├ [41]: https://github.com/proftpd/proftpd/blob/0a7ea9b0
 │                              │                  │       ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES
 │                              │                  │       [m 
-│                              │                  ├ [38]: https://github.com/proftpd/proftpd/blob/d21e7a2e
+│                              │                  ├ [42]: https://github.com/proftpd/proftpd/blob/d21e7a2e
 │                              │                  │       47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES
 │                              │                  │       [m 
-│                              │                  ├ [39]: https://github.com/proftpd/proftpd/blob/master/R
+│                              │                  ├ [43]: https://github.com/proftpd/proftpd/blob/master/R
 │                              │                  │       ELEASE_NOTES 
-│                              │                  ├ [40]: https://github.com/proftpd/proftpd/issues/456 
-│                              │                  ├ [41]: https://github.com/rapier1/hpn-ssh/releases 
-│                              │                  ├ [42]: https://github.com/ronf/asyncssh/blob/develop/do
+│                              │                  ├ [44]: https://github.com/proftpd/proftpd/issues/456 
+│                              │                  ├ [45]: https://github.com/rapier1/hpn-ssh/releases 
+│                              │                  ├ [46]: https://github.com/ronf/asyncssh/blob/develop/do
 │                              │                  │       cs/changes.rst 
-│                              │                  ├ [43]: https://github.com/ronf/asyncssh/security/adviso
+│                              │                  ├ [47]: https://github.com/ronf/asyncssh/security/adviso
 │                              │                  │       ries/GHSA-hfmc-7525-mj55 
-│                              │                  ├ [44]: https://github.com/ronf/asyncssh/tags 
-│                              │                  ├ [45]: https://github.com/warp-tech/russh 
-│                              │                  ├ [46]: https://github.com/warp-tech/russh/commit/1aa340
+│                              │                  ├ [48]: https://github.com/ronf/asyncssh/tags 
+│                              │                  ├ [49]: https://github.com/warp-tech/russh 
+│                              │                  ├ [50]: https://github.com/warp-tech/russh/commit/1aa340
 │                              │                  │       a7df1d5be1c0f4a9e247aade76dfdd2951 
-│                              │                  ├ [47]: https://github.com/warp-tech/russh/releases/tag/
+│                              │                  ├ [51]: https://github.com/warp-tech/russh/releases/tag/
 │                              │                  │       v0.40.2 
-│                              │                  ├ [48]: https://github.com/warp-tech/russh/security/advi
+│                              │                  ├ [52]: https://github.com/warp-tech/russh/security/advi
 │                              │                  │       sories/GHSA-45x7-px36-x8w8 
-│                              │                  ├ [49]: https://gitlab.com/libssh/libssh-mirror/-/tags 
-│                              │                  ├ [50]: https://go.dev/cl/550715 
-│                              │                  ├ [51]: https://go.dev/issue/64784 
-│                              │                  ├ [52]: https://groups.google.com/g/golang-announce/c/-n
+│                              │                  ├ [53]: https://gitlab.com/libssh/libssh-mirror/-/tags 
+│                              │                  ├ [54]: https://go.dev/cl/550715 
+│                              │                  ├ [55]: https://go.dev/issue/64784 
+│                              │                  ├ [56]: https://groups.google.com/g/golang-announce/c/-n
 │                              │                  │       5WqVC18LQ 
-│                              │                  ├ [53]: https://groups.google.com/g/golang-announce/c/qA
+│                              │                  ├ [57]: https://groups.google.com/g/golang-announce/c/qA
 │                              │                  │       3XtxvMUyg 
-│                              │                  ├ [54]: https://jadaptive.com/important-java-ssh-securit
+│                              │                  ├ [58]: https://help.panic.com/releasenotes/transmit5/ 
+│                              │                  ├ [59]: https://jadaptive.com/important-java-ssh-securit
 │                              │                  │       y-update-new-ssh-vulnerability-discovered-cve-2023-48
 │                              │                  │       795/ 
-│                              │                  ├ [55]: https://matt.ucc.asn.au/dropbear/CHANGES 
-│                              │                  ├ [56]: https://nest.pijul.com/pijul/thrussh/changes/D6H
+│                              │                  ├ [60]: https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce%40lists.fedoraproject.org/message/MKQR
+│                              │                  │       BF3DWMWPH36LBCOBUTSIZRTPEZXB/ 
+│                              │                  ├ [61]: https://matt.ucc.asn.au/dropbear/CHANGES 
+│                              │                  ├ [62]: https://nest.pijul.com/pijul/thrussh/changes/D6H
 │                              │                  │       7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
 │                              │                  │        
-│                              │                  ├ [57]: https://news.ycombinator.com/item?id=38684904 
-│                              │                  ├ [58]: https://news.ycombinator.com/item?id=38685286 
-│                              │                  ├ [59]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
-│                              │                  ├ [60]: https://oryx-embedded.com/download/#changelog 
-│                              │                  ├ [61]: https://security-tracker.debian.org/tracker/CVE-
+│                              │                  ├ [63]: https://news.ycombinator.com/item?id=38684904 
+│                              │                  ├ [64]: https://news.ycombinator.com/item?id=38685286 
+│                              │                  ├ [65]: https://nova.app/releases/#v11.8 
+│                              │                  ├ [66]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
+│                              │                  ├ [67]: https://oryx-embedded.com/download/#changelog 
+│                              │                  ├ [68]: https://roumenpetrov.info/secsh/#news20231220 
+│                              │                  ├ [69]: https://security-tracker.debian.org/tracker/CVE-
 │                              │                  │       2023-48795 
-│                              │                  ├ [62]: https://security-tracker.debian.org/tracker/sour
+│                              │                  ├ [70]: https://security-tracker.debian.org/tracker/sour
 │                              │                  │       ce-package/libssh2 
-│                              │                  ├ [63]: https://security-tracker.debian.org/tracker/sour
+│                              │                  ├ [71]: https://security-tracker.debian.org/tracker/sour
 │                              │                  │       ce-package/proftpd-dfsg 
-│                              │                  ├ [64]: https://security-tracker.debian.org/tracker/sour
+│                              │                  ├ [72]: https://security-tracker.debian.org/tracker/sour
 │                              │                  │       ce-package/trilead-ssh2 
-│                              │                  ├ [65]: https://terrapin-attack.com/ 
-│                              │                  ├ [66]: https://thorntech.com/cve-2023-48795-and-sftp-ga
+│                              │                  ├ [73]: https://terrapin-attack.com/ 
+│                              │                  ├ [74]: https://thorntech.com/cve-2023-48795-and-sftp-ga
 │                              │                  │       teway/ 
-│                              │                  ├ [67]: https://twitter.com/TrueSkrillor/status/17367743
+│                              │                  ├ [75]: https://twitter.com/TrueSkrillor/status/17367743
 │                              │                  │       89725565005 
-│                              │                  ├ [68]: https://ubuntu.com/security/CVE-2023-48795 
-│                              │                  ├ [69]: https://ubuntu.com/security/notices/USN-6560-1 
-│                              │                  ├ [70]: https://ubuntu.com/security/notices/USN-6561-1 
-│                              │                  ├ [71]: https://www.bitvise.com/ssh-server-version-history 
-│                              │                  ├ [72]: https://www.chiark.greenend.org.uk/~sgtatham/put
+│                              │                  ├ [76]: https://ubuntu.com/security/CVE-2023-48795 
+│                              │                  ├ [77]: https://ubuntu.com/security/notices/USN-6560-1 
+│                              │                  ├ [78]: https://ubuntu.com/security/notices/USN-6561-1 
+│                              │                  ├ [79]: https://winscp.net/eng/docs/history#6.2.2 
+│                              │                  ├ [80]: https://www.bitvise.com/ssh-client-version-histo
+│                              │                  │       ry#933 
+│                              │                  ├ [81]: https://www.bitvise.com/ssh-server-version-history 
+│                              │                  ├ [82]: https://www.chiark.greenend.org.uk/~sgtatham/put
 │                              │                  │       ty/changes.html 
-│                              │                  ├ [73]: https://www.crushftp.com/crush10wiki/Wiki.jsp?pa
+│                              │                  ├ [83]: https://www.crushftp.com/crush10wiki/Wiki.jsp?pa
 │                              │                  │       ge=Update 
-│                              │                  ├ [74]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                              │                  ├ [75]: https://www.freebsd.org/security/advisories/Free
+│                              │                  ├ [84]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                              │                  ├ [85]: https://www.debian.org/security/2023/dsa-5586 
+│                              │                  ├ [86]: https://www.freebsd.org/security/advisories/Free
 │                              │                  │       BSD-SA-23:19.openssh.asc 
-│                              │                  ├ [76]: https://www.netsarang.com/en/xshell-update-history/ 
-│                              │                  ├ [77]: https://www.openssh.com/openbsd.html 
-│                              │                  ├ [78]: https://www.openssh.com/txt/release-9.6 
-│                              │                  ├ [79]: https://www.openwall.com/lists/oss-security/2023
+│                              │                  ├ [87]: https://www.lancom-systems.de/service-support/al
+│                              │                  │       lgemeine-sicherheitshinweise#c243508 
+│                              │                  ├ [88]: https://www.netsarang.com/en/xshell-update-history/ 
+│                              │                  ├ [89]: https://www.openssh.com/openbsd.html 
+│                              │                  ├ [90]: https://www.openssh.com/txt/release-9.6 
+│                              │                  ├ [91]: https://www.openwall.com/lists/oss-security/2023
 │                              │                  │       /12/18/2 
-│                              │                  ├ [80]: https://www.openwall.com/lists/oss-security/2023
+│                              │                  ├ [92]: https://www.openwall.com/lists/oss-security/2023
 │                              │                  │       /12/18/3 
-│                              │                  ├ [81]: https://www.openwall.com/lists/oss-security/2023
+│                              │                  ├ [93]: https://www.openwall.com/lists/oss-security/2023
 │                              │                  │       /12/20/3 
-│                              │                  ├ [82]: https://www.paramiko.org/changelog.html 
-│                              │                  ├ [83]: https://www.reddit.com/r/sysadmin/comments/18idv
+│                              │                  ├ [94]: https://www.paramiko.org/changelog.html 
+│                              │                  ├ [95]: https://www.reddit.com/r/sysadmin/comments/18idv
 │                              │                  │       52/cve202348795_why_is_this_cve_still_undisclosed/
 │                              │                  │        
-│                              │                  ├ [84]: https://www.suse.com/c/suse-addresses-the-ssh-v2
+│                              │                  ├ [96]: https://www.suse.com/c/suse-addresses-the-ssh-v2
 │                              │                  │       -protocol-terrapin-attack-aka-cve-2023-48795/[
 │                              │                  │       m 
-│                              │                  ╰ [85]: https://www.terrapin-attack.com 
+│                              │                  ├ [97]: https://www.terrapin-attack.com 
+│                              │                  ├ [98]: https://www.theregister.com/2023/12/20/terrapin_
+│                              │                  │       attack_ssh 
+│                              │                  ╰ [99]: https://www.vandyke.com/products/securecrt/histo
+│                              │                          ry.txt 
 │                              ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                              ╰ LastModifiedDate: 2023-12-21T14:15:08.59Z 
+│                              ╰ LastModifiedDate: 2023-12-22T15:15:08.143Z 
 ├ [7]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9484,15 +9666,18 @@
 │                        │     │                   before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6,
 │                        │     │                   Netgate pfSense Plus through 23.09.1, Netgate pfSense CE
 │                        │     │                   through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b
-│                        │     │                    (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4,
+│                        │     │                    (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4,
 │                        │     │                   NetSarang XShell 7 before Build 0144, CrushFTP before
 │                        │     │                   10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA
 │                        │     │                   sshd through 2.11.0, sshj through 0.37.0, TinySSH through
-│                        │     │                   20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby,
-│                        │     │                    the mscdex ssh2 module before 1.15.0 for Node.js, the
-│                        │     │                   thrussh library before 0.35.1 for Rust, and the Russh crate
-│                        │     │                   before 0.40.2 for Rust; and there could be effects on
-│                        │     │                   Bitvise SSH through 9.31. 
+│                        │     │                   20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig,
+│                        │     │                   FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before
+│                        │     │                   14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4,
+│                        │     │                   Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2,
+│                        │     │                   Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the
+│                        │     │                    net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before
+│                        │     │                   1.15.0 for Node.js, the thrussh library before 0.35.1 for
+│                        │     │                   Rust, and the Russh crate before 0.40.2 for Rust. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ VendorSeverity   ╭ amazon: 2 
 │                        │     │                  ├ ghsa  : 2 
@@ -9523,131 +9708,153 @@
 │                        │     │                  ├ [10]: https://crates.io/crates/thrussh/versions 
 │                        │     │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-48795 
-│                        │     │                  ├ [12]: https://forum.netgate.com/topic/184941/terrapin-
+│                        │     │                  ├ [12]: https://filezilla-project.org/versions.php 
+│                        │     │                  ├ [13]: https://forum.netgate.com/topic/184941/terrapin-
 │                        │     │                  │       ssh-attack 
-│                        │     │                  ├ [13]: https://git.libssh.org/projects/libssh.git/commi
+│                        │     │                  ├ [14]: https://git.libssh.org/projects/libssh.git/commi
 │                        │     │                  │       t/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c22
 │                        │     │                  │       1c2e7f6 
-│                        │     │                  ├ [14]: https://github.com/NixOS/nixpkgs/pull/275249 
-│                        │     │                  ├ [15]: https://github.com/TeraTermProject/teraterm/comm
+│                        │     │                  ├ [15]: https://github.com/NixOS/nixpkgs/pull/275249 
+│                        │     │                  ├ [16]: https://github.com/PowerShell/Win32-OpenSSH/issu
+│                        │     │                  │       es/2189 
+│                        │     │                  ├ [17]: https://github.com/PowerShell/Win32-OpenSSH/rele
+│                        │     │                  │       ases/tag/v9.5.0.0p1-Beta 
+│                        │     │                  ├ [18]: https://github.com/TeraTermProject/teraterm/comm
 │                        │     │                  │       it/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0 
-│                        │     │                  ├ [16]: https://github.com/TeraTermProject/teraterm/rele
+│                        │     │                  ├ [19]: https://github.com/TeraTermProject/teraterm/rele
 │                        │     │                  │       ases/tag/v5.1 
-│                        │     │                  ├ [17]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
-│                        │     │                  ├ [18]: https://github.com/apache/mina-sshd/issues/445 
-│                        │     │                  ├ [19]: https://github.com/connectbot/sshlib/commit/5c8b
+│                        │     │                  ├ [20]: https://github.com/advisories/GHSA-45x7-px36-x8w8 
+│                        │     │                  ├ [21]: https://github.com/apache/mina-sshd/issues/445 
+│                        │     │                  ├ [22]: https://github.com/connectbot/sshlib/commit/5c8b
 │                        │     │                  │       534f6e97db7ac0e0e579331213aa25c173ab 
-│                        │     │                  ├ [20]: https://github.com/connectbot/sshlib/compare/2.2
+│                        │     │                  ├ [23]: https://github.com/connectbot/sshlib/compare/2.2
 │                        │     │                  │       .21...2.2.22 
-│                        │     │                  ├ [21]: https://github.com/drakkan/sftpgo/releases/tag/v2.5.6 
-│                        │     │                  ├ [22]: https://github.com/erlang/otp/blob/d1b43dc0f1361
+│                        │     │                  ├ [24]: https://github.com/cyd01/KiTTY/issues/520 
+│                        │     │                  ├ [25]: https://github.com/drakkan/sftpgo/releases/tag/v2.5.6 
+│                        │     │                  ├ [26]: https://github.com/erlang/otp/blob/d1b43dc0f1361
 │                        │     │                  │       d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml
 │                        │     │                  │       #L39-L42 
-│                        │     │                  ├ [23]: https://github.com/erlang/otp/releases/tag/OTP-26.2.1 
-│                        │     │                  ├ [24]: https://github.com/golang/crypto/commit/9d2ee975
+│                        │     │                  ├ [27]: https://github.com/erlang/otp/releases/tag/OTP-26.2.1 
+│                        │     │                  ├ [28]: https://github.com/golang/crypto/commit/9d2ee975
 │                        │     │                  │       ef9fe627bf0a6f01c1f69e8ef1d4f05d 
-│                        │     │                  ├ [25]: https://github.com/hierynomus/sshj/issues/916 
-│                        │     │                  ├ [26]: https://github.com/janmojzis/tinyssh/issues/81 
-│                        │     │                  ├ [27]: https://github.com/jtesta/ssh-audit/commit/8e972
+│                        │     │                  ├ [29]: https://github.com/hierynomus/sshj/issues/916 
+│                        │     │                  ├ [30]: https://github.com/janmojzis/tinyssh/issues/81 
+│                        │     │                  ├ [31]: https://github.com/jtesta/ssh-audit/commit/8e972
 │                        │     │                  │       c5e94b460379fe0c7d20209c16df81538a5 
-│                        │     │                  ├ [28]: https://github.com/libssh2/libssh2/pull/1291 
-│                        │     │                  ├ [29]: https://github.com/mkj/dropbear/blob/17657c36cce
+│                        │     │                  ├ [32]: https://github.com/libssh2/libssh2/pull/1291 
+│                        │     │                  ├ [33]: https://github.com/mkj/dropbear/blob/17657c36cce
 │                        │     │                  │       6df7716d5ff151ec09a665382d5dd/CHANGES#L25 
-│                        │     │                  ├ [30]: https://github.com/mscdex/ssh2/commit/97b223f889
+│                        │     │                  ├ [34]: https://github.com/mscdex/ssh2/commit/97b223f889
 │                        │     │                  │       1b96d6fc054df5ab1d5a1a545da2a3 
-│                        │     │                  ├ [31]: https://github.com/mwiede/jsch/compare/jsch-0.2.
+│                        │     │                  ├ [35]: https://github.com/mwiede/jsch/compare/jsch-0.2.
 │                        │     │                  │       14...jsch-0.2.15 
-│                        │     │                  ├ [32]: https://github.com/mwiede/jsch/issues/457 
-│                        │     │                  ├ [33]: https://github.com/mwiede/jsch/pull/461 
-│                        │     │                  ├ [34]: https://github.com/net-ssh/net-ssh/blob/2e65064a
+│                        │     │                  ├ [36]: https://github.com/mwiede/jsch/issues/457 
+│                        │     │                  ├ [37]: https://github.com/mwiede/jsch/pull/461 
+│                        │     │                  ├ [38]: https://github.com/net-ssh/net-ssh/blob/2e65064a
 │                        │     │                  │       52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-L16
 │                        │     │                  │       [m 
-│                        │     │                  ├ [35]: https://github.com/openssh/openssh-portable/comm
+│                        │     │                  ├ [39]: https://github.com/openssh/openssh-portable/comm
 │                        │     │                  │       its/master 
-│                        │     │                  ├ [36]: https://github.com/paramiko/paramiko/issues/2337 
-│                        │     │                  ├ [37]: https://github.com/proftpd/proftpd/blob/0a7ea9b0
+│                        │     │                  ├ [40]: https://github.com/paramiko/paramiko/issues/2337 
+│                        │     │                  ├ [41]: https://github.com/proftpd/proftpd/blob/0a7ea9b0
 │                        │     │                  │       ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES
 │                        │     │                  │       [m 
-│                        │     │                  ├ [38]: https://github.com/proftpd/proftpd/blob/d21e7a2e
+│                        │     │                  ├ [42]: https://github.com/proftpd/proftpd/blob/d21e7a2e
 │                        │     │                  │       47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES
 │                        │     │                  │       [m 
-│                        │     │                  ├ [39]: https://github.com/proftpd/proftpd/blob/master/R
+│                        │     │                  ├ [43]: https://github.com/proftpd/proftpd/blob/master/R
 │                        │     │                  │       ELEASE_NOTES 
-│                        │     │                  ├ [40]: https://github.com/proftpd/proftpd/issues/456 
-│                        │     │                  ├ [41]: https://github.com/rapier1/hpn-ssh/releases 
-│                        │     │                  ├ [42]: https://github.com/ronf/asyncssh/blob/develop/do
+│                        │     │                  ├ [44]: https://github.com/proftpd/proftpd/issues/456 
+│                        │     │                  ├ [45]: https://github.com/rapier1/hpn-ssh/releases 
+│                        │     │                  ├ [46]: https://github.com/ronf/asyncssh/blob/develop/do
 │                        │     │                  │       cs/changes.rst 
-│                        │     │                  ├ [43]: https://github.com/ronf/asyncssh/security/adviso
+│                        │     │                  ├ [47]: https://github.com/ronf/asyncssh/security/adviso
 │                        │     │                  │       ries/GHSA-hfmc-7525-mj55 
-│                        │     │                  ├ [44]: https://github.com/ronf/asyncssh/tags 
-│                        │     │                  ├ [45]: https://github.com/warp-tech/russh 
-│                        │     │                  ├ [46]: https://github.com/warp-tech/russh/commit/1aa340
+│                        │     │                  ├ [48]: https://github.com/ronf/asyncssh/tags 
+│                        │     │                  ├ [49]: https://github.com/warp-tech/russh 
+│                        │     │                  ├ [50]: https://github.com/warp-tech/russh/commit/1aa340
 │                        │     │                  │       a7df1d5be1c0f4a9e247aade76dfdd2951 
-│                        │     │                  ├ [47]: https://github.com/warp-tech/russh/releases/tag/
+│                        │     │                  ├ [51]: https://github.com/warp-tech/russh/releases/tag/
 │                        │     │                  │       v0.40.2 
-│                        │     │                  ├ [48]: https://github.com/warp-tech/russh/security/advi
+│                        │     │                  ├ [52]: https://github.com/warp-tech/russh/security/advi
 │                        │     │                  │       sories/GHSA-45x7-px36-x8w8 
-│                        │     │                  ├ [49]: https://gitlab.com/libssh/libssh-mirror/-/tags 
-│                        │     │                  ├ [50]: https://go.dev/cl/550715 
-│                        │     │                  ├ [51]: https://go.dev/issue/64784 
-│                        │     │                  ├ [52]: https://groups.google.com/g/golang-announce/c/-n
+│                        │     │                  ├ [53]: https://gitlab.com/libssh/libssh-mirror/-/tags 
+│                        │     │                  ├ [54]: https://go.dev/cl/550715 
+│                        │     │                  ├ [55]: https://go.dev/issue/64784 
+│                        │     │                  ├ [56]: https://groups.google.com/g/golang-announce/c/-n
 │                        │     │                  │       5WqVC18LQ 
-│                        │     │                  ├ [53]: https://groups.google.com/g/golang-announce/c/qA
+│                        │     │                  ├ [57]: https://groups.google.com/g/golang-announce/c/qA
 │                        │     │                  │       3XtxvMUyg 
-│                        │     │                  ├ [54]: https://jadaptive.com/important-java-ssh-securit
+│                        │     │                  ├ [58]: https://help.panic.com/releasenotes/transmit5/ 
+│                        │     │                  ├ [59]: https://jadaptive.com/important-java-ssh-securit
 │                        │     │                  │       y-update-new-ssh-vulnerability-discovered-cve-2023-48
 │                        │     │                  │       795/ 
-│                        │     │                  ├ [55]: https://matt.ucc.asn.au/dropbear/CHANGES 
-│                        │     │                  ├ [56]: https://nest.pijul.com/pijul/thrussh/changes/D6H
+│                        │     │                  ├ [60]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce%40lists.fedoraproject.org/message/MKQR
+│                        │     │                  │       BF3DWMWPH36LBCOBUTSIZRTPEZXB/ 
+│                        │     │                  ├ [61]: https://matt.ucc.asn.au/dropbear/CHANGES 
+│                        │     │                  ├ [62]: https://nest.pijul.com/pijul/thrussh/changes/D6H
 │                        │     │                  │       7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
 │                        │     │                  │        
-│                        │     │                  ├ [57]: https://news.ycombinator.com/item?id=38684904 
-│                        │     │                  ├ [58]: https://news.ycombinator.com/item?id=38685286 
-│                        │     │                  ├ [59]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
-│                        │     │                  ├ [60]: https://oryx-embedded.com/download/#changelog 
-│                        │     │                  ├ [61]: https://security-tracker.debian.org/tracker/CVE-
+│                        │     │                  ├ [63]: https://news.ycombinator.com/item?id=38684904 
+│                        │     │                  ├ [64]: https://news.ycombinator.com/item?id=38685286 
+│                        │     │                  ├ [65]: https://nova.app/releases/#v11.8 
+│                        │     │                  ├ [66]: https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
+│                        │     │                  ├ [67]: https://oryx-embedded.com/download/#changelog 
+│                        │     │                  ├ [68]: https://roumenpetrov.info/secsh/#news20231220 
+│                        │     │                  ├ [69]: https://security-tracker.debian.org/tracker/CVE-
 │                        │     │                  │       2023-48795 
-│                        │     │                  ├ [62]: https://security-tracker.debian.org/tracker/sour
+│                        │     │                  ├ [70]: https://security-tracker.debian.org/tracker/sour
 │                        │     │                  │       ce-package/libssh2 
-│                        │     │                  ├ [63]: https://security-tracker.debian.org/tracker/sour
+│                        │     │                  ├ [71]: https://security-tracker.debian.org/tracker/sour
 │                        │     │                  │       ce-package/proftpd-dfsg 
-│                        │     │                  ├ [64]: https://security-tracker.debian.org/tracker/sour
+│                        │     │                  ├ [72]: https://security-tracker.debian.org/tracker/sour
 │                        │     │                  │       ce-package/trilead-ssh2 
-│                        │     │                  ├ [65]: https://terrapin-attack.com/ 
-│                        │     │                  ├ [66]: https://thorntech.com/cve-2023-48795-and-sftp-ga
+│                        │     │                  ├ [73]: https://terrapin-attack.com/ 
+│                        │     │                  ├ [74]: https://thorntech.com/cve-2023-48795-and-sftp-ga
 │                        │     │                  │       teway/ 
-│                        │     │                  ├ [67]: https://twitter.com/TrueSkrillor/status/17367743
+│                        │     │                  ├ [75]: https://twitter.com/TrueSkrillor/status/17367743
 │                        │     │                  │       89725565005 
-│                        │     │                  ├ [68]: https://ubuntu.com/security/CVE-2023-48795 
-│                        │     │                  ├ [69]: https://ubuntu.com/security/notices/USN-6560-1 
-│                        │     │                  ├ [70]: https://ubuntu.com/security/notices/USN-6561-1 
-│                        │     │                  ├ [71]: https://www.bitvise.com/ssh-server-version-history 
-│                        │     │                  ├ [72]: https://www.chiark.greenend.org.uk/~sgtatham/put
+│                        │     │                  ├ [76]: https://ubuntu.com/security/CVE-2023-48795 
+│                        │     │                  ├ [77]: https://ubuntu.com/security/notices/USN-6560-1 
+│                        │     │                  ├ [78]: https://ubuntu.com/security/notices/USN-6561-1 
+│                        │     │                  ├ [79]: https://winscp.net/eng/docs/history#6.2.2 
+│                        │     │                  ├ [80]: https://www.bitvise.com/ssh-client-version-histo
+│                        │     │                  │       ry#933 
+│                        │     │                  ├ [81]: https://www.bitvise.com/ssh-server-version-history 
+│                        │     │                  ├ [82]: https://www.chiark.greenend.org.uk/~sgtatham/put
 │                        │     │                  │       ty/changes.html 
-│                        │     │                  ├ [73]: https://www.crushftp.com/crush10wiki/Wiki.jsp?pa
+│                        │     │                  ├ [83]: https://www.crushftp.com/crush10wiki/Wiki.jsp?pa
 │                        │     │                  │       ge=Update 
-│                        │     │                  ├ [74]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                        │     │                  ├ [75]: https://www.freebsd.org/security/advisories/Free
+│                        │     │                  ├ [84]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                        │     │                  ├ [85]: https://www.debian.org/security/2023/dsa-5586 
+│                        │     │                  ├ [86]: https://www.freebsd.org/security/advisories/Free
 │                        │     │                  │       BSD-SA-23:19.openssh.asc 
-│                        │     │                  ├ [76]: https://www.netsarang.com/en/xshell-update-history/ 
-│                        │     │                  ├ [77]: https://www.openssh.com/openbsd.html 
-│                        │     │                  ├ [78]: https://www.openssh.com/txt/release-9.6 
-│                        │     │                  ├ [79]: https://www.openwall.com/lists/oss-security/2023
+│                        │     │                  ├ [87]: https://www.lancom-systems.de/service-support/al
+│                        │     │                  │       lgemeine-sicherheitshinweise#c243508 
+│                        │     │                  ├ [88]: https://www.netsarang.com/en/xshell-update-history/ 
+│                        │     │                  ├ [89]: https://www.openssh.com/openbsd.html 
+│                        │     │                  ├ [90]: https://www.openssh.com/txt/release-9.6 
+│                        │     │                  ├ [91]: https://www.openwall.com/lists/oss-security/2023
 │                        │     │                  │       /12/18/2 
-│                        │     │                  ├ [80]: https://www.openwall.com/lists/oss-security/2023
+│                        │     │                  ├ [92]: https://www.openwall.com/lists/oss-security/2023
 │                        │     │                  │       /12/18/3 
-│                        │     │                  ├ [81]: https://www.openwall.com/lists/oss-security/2023
+│                        │     │                  ├ [93]: https://www.openwall.com/lists/oss-security/2023
 │                        │     │                  │       /12/20/3 
-│                        │     │                  ├ [82]: https://www.paramiko.org/changelog.html 
-│                        │     │                  ├ [83]: https://www.reddit.com/r/sysadmin/comments/18idv
+│                        │     │                  ├ [94]: https://www.paramiko.org/changelog.html 
+│                        │     │                  ├ [95]: https://www.reddit.com/r/sysadmin/comments/18idv
 │                        │     │                  │       52/cve202348795_why_is_this_cve_still_undisclosed/
 │                        │     │                  │        
-│                        │     │                  ├ [84]: https://www.suse.com/c/suse-addresses-the-ssh-v2
+│                        │     │                  ├ [96]: https://www.suse.com/c/suse-addresses-the-ssh-v2
 │                        │     │                  │       -protocol-terrapin-attack-aka-cve-2023-48795/[
 │                        │     │                  │       m 
-│                        │     │                  ╰ [85]: https://www.terrapin-attack.com 
+│                        │     │                  ├ [97]: https://www.terrapin-attack.com 
+│                        │     │                  ├ [98]: https://www.theregister.com/2023/12/20/terrapin_
+│                        │     │                  │       attack_ssh 
+│                        │     │                  ╰ [99]: https://www.vandyke.com/products/securecrt/histo
+│                        │     │                          ry.txt 
 │                        │     ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                        │     ╰ LastModifiedDate: 2023-12-21T14:15:08.59Z 
+│                        │     ╰ LastModifiedDate: 2023-12-22T15:15:08.143Z 
 │                        ├ [3] ╭ VulnerabilityID : CVE-2023-39325 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: v0.10.0 
