@@ -2608,7 +2608,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -2665,7 +2665,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -2865,7 +2865,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -2913,7 +2913,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -2962,7 +2962,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -3012,7 +3012,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -3331,7 +3331,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -3388,7 +3388,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -3588,7 +3588,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -3636,7 +3636,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3685,7 +3685,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -3735,7 +3735,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -4054,7 +4054,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -4111,7 +4111,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -4311,7 +4311,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -4359,7 +4359,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -4408,7 +4408,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -4458,7 +4458,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -4822,7 +4822,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -4879,7 +4879,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -5079,7 +5079,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -5127,7 +5127,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -5176,7 +5176,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -5226,7 +5226,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       nvd: 3
       oracle-oval: 2
       redhat: 2
