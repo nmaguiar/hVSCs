@@ -1482,22 +1482,40 @@
 │                        │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U
 │                        │       │                            │           /C:N/I:L/A:N 
 │                        │       │                            ╰ V3Score : 5.3 
-│                        │       ├ References       ╭ [0]: http://python.org 
-│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023
-│                        │       │                  │      -27043 
-│                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │       │                  │      CVE-2023-27043 
-│                        │       │                  ├ [3]: https://github.com/python/cpython/issues/102988 
-│                        │       │                  ├ [4]: https://github.com/python/cpython/pull/102990 
-│                        │       │                  ├ [5]: https://github.com/python/cpython/pull/105127 
-│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                        │       │                  ├ [7]: https://python-security.readthedocs.io/vuln/ema
-│                        │       │                  │      il-parseaddr-realname.html 
-│                        │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-20230
-│                        │       │                  │      601-0003/ 
-│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                        │       ├ References       ╭ [0] : http://python.org 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       3-27043 
+│                        │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
+│                        │       │                  │       =CVE-2023-27043 
+│                        │       │                  ├ [3] : https://github.com/python/cpython/issues/102988 
+│                        │       │                  ├ [4] : https://github.com/python/cpython/pull/102990 
+│                        │       │                  ├ [5] : https://github.com/python/cpython/pull/105127 
+│                        │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
+│                        │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/ 
+│                        │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/ 
+│                        │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/ 
+│                        │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
+│                        │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                        │       │                  ├ [13]: https://python-security.readthedocs.io/vuln/em
+│                        │       │                  │       ail-parseaddr-realname.html 
+│                        │       │                  ├ [14]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  │       0601-0003/ 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │       ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
-│                        │       ╰ LastModifiedDate: 2023-06-01T14:15:11.143Z 
+│                        │       ╰ LastModifiedDate: 2023-12-26T03:15:07.86Z 
 │                        ├ [31]  ╭ VulnerabilityID : CVE-2023-27043 
 │                        │       ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.3 
 │                        │       ├ PkgName         : libpython3.10-minimal 
@@ -1541,22 +1559,40 @@
 │                        │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U
 │                        │       │                            │           /C:N/I:L/A:N 
 │                        │       │                            ╰ V3Score : 5.3 
-│                        │       ├ References       ╭ [0]: http://python.org 
-│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023
-│                        │       │                  │      -27043 
-│                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │       │                  │      CVE-2023-27043 
-│                        │       │                  ├ [3]: https://github.com/python/cpython/issues/102988 
-│                        │       │                  ├ [4]: https://github.com/python/cpython/pull/102990 
-│                        │       │                  ├ [5]: https://github.com/python/cpython/pull/105127 
-│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                        │       │                  ├ [7]: https://python-security.readthedocs.io/vuln/ema
-│                        │       │                  │      il-parseaddr-realname.html 
-│                        │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-20230
-│                        │       │                  │      601-0003/ 
-│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                        │       ├ References       ╭ [0] : http://python.org 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       3-27043 
+│                        │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
+│                        │       │                  │       =CVE-2023-27043 
+│                        │       │                  ├ [3] : https://github.com/python/cpython/issues/102988 
+│                        │       │                  ├ [4] : https://github.com/python/cpython/pull/102990 
+│                        │       │                  ├ [5] : https://github.com/python/cpython/pull/105127 
+│                        │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
+│                        │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/ 
+│                        │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/ 
+│                        │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/ 
+│                        │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
+│                        │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                        │       │                  ├ [13]: https://python-security.readthedocs.io/vuln/em
+│                        │       │                  │       ail-parseaddr-realname.html 
+│                        │       │                  ├ [14]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  │       0601-0003/ 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │       ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
-│                        │       ╰ LastModifiedDate: 2023-06-01T14:15:11.143Z 
+│                        │       ╰ LastModifiedDate: 2023-12-26T03:15:07.86Z 
 │                        ├ [32]  ╭ VulnerabilityID : CVE-2023-27043 
 │                        │       ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.3 
 │                        │       ├ PkgName         : libpython3.10-stdlib 
@@ -1600,22 +1636,40 @@
 │                        │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U
 │                        │       │                            │           /C:N/I:L/A:N 
 │                        │       │                            ╰ V3Score : 5.3 
-│                        │       ├ References       ╭ [0]: http://python.org 
-│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023
-│                        │       │                  │      -27043 
-│                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │       │                  │      CVE-2023-27043 
-│                        │       │                  ├ [3]: https://github.com/python/cpython/issues/102988 
-│                        │       │                  ├ [4]: https://github.com/python/cpython/pull/102990 
-│                        │       │                  ├ [5]: https://github.com/python/cpython/pull/105127 
-│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                        │       │                  ├ [7]: https://python-security.readthedocs.io/vuln/ema
-│                        │       │                  │      il-parseaddr-realname.html 
-│                        │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-20230
-│                        │       │                  │      601-0003/ 
-│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                        │       ├ References       ╭ [0] : http://python.org 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       3-27043 
+│                        │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
+│                        │       │                  │       =CVE-2023-27043 
+│                        │       │                  ├ [3] : https://github.com/python/cpython/issues/102988 
+│                        │       │                  ├ [4] : https://github.com/python/cpython/pull/102990 
+│                        │       │                  ├ [5] : https://github.com/python/cpython/pull/105127 
+│                        │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
+│                        │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/ 
+│                        │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/ 
+│                        │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/ 
+│                        │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
+│                        │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                        │       │                  ├ [13]: https://python-security.readthedocs.io/vuln/em
+│                        │       │                  │       ail-parseaddr-realname.html 
+│                        │       │                  ├ [14]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  │       0601-0003/ 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │       ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
-│                        │       ╰ LastModifiedDate: 2023-06-01T14:15:11.143Z 
+│                        │       ╰ LastModifiedDate: 2023-12-26T03:15:07.86Z 
 │                        ├ [33]  ╭ VulnerabilityID : CVE-2022-46908 
 │                        │       ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
 │                        │       ├ PkgName         : libsqlite3-0 
@@ -3146,22 +3200,40 @@
 │                        │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U
 │                        │       │                            │           /C:N/I:L/A:N 
 │                        │       │                            ╰ V3Score : 5.3 
-│                        │       ├ References       ╭ [0]: http://python.org 
-│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023
-│                        │       │                  │      -27043 
-│                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │       │                  │      CVE-2023-27043 
-│                        │       │                  ├ [3]: https://github.com/python/cpython/issues/102988 
-│                        │       │                  ├ [4]: https://github.com/python/cpython/pull/102990 
-│                        │       │                  ├ [5]: https://github.com/python/cpython/pull/105127 
-│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                        │       │                  ├ [7]: https://python-security.readthedocs.io/vuln/ema
-│                        │       │                  │      il-parseaddr-realname.html 
-│                        │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-20230
-│                        │       │                  │      601-0003/ 
-│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                        │       ├ References       ╭ [0] : http://python.org 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       3-27043 
+│                        │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
+│                        │       │                  │       =CVE-2023-27043 
+│                        │       │                  ├ [3] : https://github.com/python/cpython/issues/102988 
+│                        │       │                  ├ [4] : https://github.com/python/cpython/pull/102990 
+│                        │       │                  ├ [5] : https://github.com/python/cpython/pull/105127 
+│                        │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
+│                        │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/ 
+│                        │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/ 
+│                        │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/ 
+│                        │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
+│                        │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                        │       │                  ├ [13]: https://python-security.readthedocs.io/vuln/em
+│                        │       │                  │       ail-parseaddr-realname.html 
+│                        │       │                  ├ [14]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  │       0601-0003/ 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │       ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
-│                        │       ╰ LastModifiedDate: 2023-06-01T14:15:11.143Z 
+│                        │       ╰ LastModifiedDate: 2023-12-26T03:15:07.86Z 
 │                        ├ [48]  ╭ VulnerabilityID : CVE-2023-27043 
 │                        │       ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │       ├ PkgName         : python3.10-minimal 
@@ -3205,22 +3277,40 @@
 │                        │       │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U
 │                        │       │                            │           /C:N/I:L/A:N 
 │                        │       │                            ╰ V3Score : 5.3 
-│                        │       ├ References       ╭ [0]: http://python.org 
-│                        │       │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023
-│                        │       │                  │      -27043 
-│                        │       │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                        │       │                  │      CVE-2023-27043 
-│                        │       │                  ├ [3]: https://github.com/python/cpython/issues/102988 
-│                        │       │                  ├ [4]: https://github.com/python/cpython/pull/102990 
-│                        │       │                  ├ [5]: https://github.com/python/cpython/pull/105127 
-│                        │       │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                        │       │                  ├ [7]: https://python-security.readthedocs.io/vuln/ema
-│                        │       │                  │      il-parseaddr-realname.html 
-│                        │       │                  ├ [8]: https://security.netapp.com/advisory/ntap-20230
-│                        │       │                  │      601-0003/ 
-│                        │       │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                        │       ├ References       ╭ [0] : http://python.org 
+│                        │       │                  ├ [1] : https://access.redhat.com/security/cve/CVE-202
+│                        │       │                  │       3-27043 
+│                        │       │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
+│                        │       │                  │       =CVE-2023-27043 
+│                        │       │                  ├ [3] : https://github.com/python/cpython/issues/102988 
+│                        │       │                  ├ [4] : https://github.com/python/cpython/pull/102990 
+│                        │       │                  ├ [5] : https://github.com/python/cpython/pull/105127 
+│                        │       │                  ├ [6] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
+│                        │       │                  ├ [7] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/ 
+│                        │       │                  ├ [8] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/ 
+│                        │       │                  ├ [9] : https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/ 
+│                        │       │                  ├ [10]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
+│                        │       │                  ├ [11]: https://lists.fedoraproject.org/archives/list/
+│                        │       │                  │       package-announce%40lists.fedoraproject.org/message/
+│                        │       │                  │       XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
+│                        │       │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                        │       │                  ├ [13]: https://python-security.readthedocs.io/vuln/em
+│                        │       │                  │       ail-parseaddr-realname.html 
+│                        │       │                  ├ [14]: https://security.netapp.com/advisory/ntap-2023
+│                        │       │                  │       0601-0003/ 
+│                        │       │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │       ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
-│                        │       ╰ LastModifiedDate: 2023-06-01T14:15:11.143Z 
+│                        │       ╰ LastModifiedDate: 2023-12-26T03:15:07.86Z 
 │                        ├ [49]  ╭ VulnerabilityID : CVE-2023-39804 
 │                        │       ├ PkgID           : tar@1.34+dfsg-1ubuntu0.1.22.04.1 
 │                        │       ├ PkgName         : tar 
@@ -10538,7 +10628,183 @@
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                              ╰ LastModifiedDate: 2023-12-20T17:55:36.74Z 
-├ [8]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [8]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcac
+│                                  │            dbe047196b816 
+│                                  ├ DiffID   : sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e0
+│                                  │            27ac3c23c6e8a 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10646,7 +10912,7 @@
 │                                  ├ DiffID   : sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e0
 │                                  │            27ac3c23c6e8a 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10704,60 +10970,7 @@
 │                                  ├ DiffID   : sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e0
 │                                  │            27ac3c23c6e8a 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcac
-│                                  │            dbe047196b816 
-│                                  ├ DiffID   : sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e0
-│                                  │            27ac3c23c6e8a 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -10774,54 +10987,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -10834,54 +11000,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -10897,37 +11016,8 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            **************************************************-----END OPENSSH
+                       │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcac
                                    │            dbe047196b816 
                                    ├ DiffID   : sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e0
