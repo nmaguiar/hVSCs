@@ -188,7 +188,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2023-12-08T19:15:07.48Z'
+    LastModifiedDate: '2023-12-27T16:36:58.353Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus-user-session@1.12.20-2ubuntu4.1
     PkgName: dbus-user-session
@@ -239,7 +239,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2023-12-08T19:15:07.48Z'
+    LastModifiedDate: '2023-12-27T16:36:58.353Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: dirmngr@2.2.27-3ubuntu2.1
     PkgName: dirmngr
@@ -1031,7 +1031,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2023-12-08T19:15:07.48Z'
+    LastModifiedDate: '2023-12-27T16:36:58.353Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -1342,13 +1342,14 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-26T03:15:07.86Z'
+    LastModifiedDate: '2023-12-27T02:15:42.47Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.3
     PkgName: libpython3.10-minimal
@@ -1397,13 +1398,14 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-26T03:15:07.86Z'
+    LastModifiedDate: '2023-12-27T02:15:42.47Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.3
     PkgName: libpython3.10-stdlib
@@ -1452,13 +1454,14 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-26T03:15:07.86Z'
+    LastModifiedDate: '2023-12-27T02:15:42.47Z'
   - VulnerabilityID: CVE-2022-46908
     PkgID: libsqlite3-0@3.37.2-2ubuntu0.1
     PkgName: libsqlite3-0
@@ -2497,13 +2500,14 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-26T03:15:07.86Z'
+    LastModifiedDate: '2023-12-27T02:15:42.47Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10-minimal@3.10.12-1~22.04.3
     PkgName: python3.10-minimal
@@ -2552,13 +2556,14 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-26T03:15:07.86Z'
+    LastModifiedDate: '2023-12-27T02:15:42.47Z'
   - VulnerabilityID: CVE-2023-39804
     PkgID: tar@1.34+dfsg-1ubuntu0.1.22.04.1
     PkgName: tar
@@ -2654,7 +2659,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -2711,7 +2716,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -2840,10 +2845,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48231
+    - https://security.netapp.com/advisory/ntap-20231227-0008/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-11-26T04:15:07.473Z'
+    LastModifiedDate: '2023-12-27T15:15:45.05Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -2911,7 +2917,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -2959,7 +2965,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3008,7 +3014,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -3058,7 +3064,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -3152,10 +3158,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48233
+    - https://security.netapp.com/advisory/ntap-20231227-0003/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48233
     PublishedDate: '2023-11-16T23:15:08.997Z'
-    LastModifiedDate: '2023-11-26T04:15:07.68Z'
+    LastModifiedDate: '2023-12-27T15:15:45.297Z'
   - VulnerabilityID: CVE-2023-48234
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -3201,10 +3208,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48234
+    - https://security.netapp.com/advisory/ntap-20231227-0004/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48234
     PublishedDate: '2023-11-16T23:15:09.2Z'
-    LastModifiedDate: '2023-11-26T04:15:07.773Z'
+    LastModifiedDate: '2023-12-27T15:15:45.393Z'
   - VulnerabilityID: CVE-2023-48235
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -3252,10 +3260,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48235
+    - https://security.netapp.com/advisory/ntap-20231227-0007/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48235
     PublishedDate: '2023-11-16T23:15:09.38Z'
-    LastModifiedDate: '2023-11-26T04:15:07.857Z'
+    LastModifiedDate: '2023-12-27T15:15:45.493Z'
   - VulnerabilityID: CVE-2023-48236
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -3303,10 +3312,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48236
+    - https://security.netapp.com/advisory/ntap-20231227-0002/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48236
     PublishedDate: '2023-11-16T23:15:09.567Z'
-    LastModifiedDate: '2023-11-26T04:15:07.943Z'
+    LastModifiedDate: '2023-12-27T15:15:45.593Z'
   - VulnerabilityID: CVE-2023-48237
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -3352,10 +3362,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48237
+    - https://security.netapp.com/advisory/ntap-20231227-0005/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48237
     PublishedDate: '2023-11-16T23:15:09.753Z'
-    LastModifiedDate: '2023-11-26T04:15:08.03Z'
+    LastModifiedDate: '2023-12-27T15:15:45.693Z'
   - VulnerabilityID: CVE-2022-2000
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3377,7 +3388,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -3434,7 +3445,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -3563,10 +3574,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48231
+    - https://security.netapp.com/advisory/ntap-20231227-0008/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-11-26T04:15:07.473Z'
+    LastModifiedDate: '2023-12-27T15:15:45.05Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3634,7 +3646,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -3682,7 +3694,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3731,7 +3743,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -3781,7 +3793,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -3875,10 +3887,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48233
+    - https://security.netapp.com/advisory/ntap-20231227-0003/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48233
     PublishedDate: '2023-11-16T23:15:08.997Z'
-    LastModifiedDate: '2023-11-26T04:15:07.68Z'
+    LastModifiedDate: '2023-12-27T15:15:45.297Z'
   - VulnerabilityID: CVE-2023-48234
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3924,10 +3937,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48234
+    - https://security.netapp.com/advisory/ntap-20231227-0004/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48234
     PublishedDate: '2023-11-16T23:15:09.2Z'
-    LastModifiedDate: '2023-11-26T04:15:07.773Z'
+    LastModifiedDate: '2023-12-27T15:15:45.393Z'
   - VulnerabilityID: CVE-2023-48235
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3975,10 +3989,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48235
+    - https://security.netapp.com/advisory/ntap-20231227-0007/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48235
     PublishedDate: '2023-11-16T23:15:09.38Z'
-    LastModifiedDate: '2023-11-26T04:15:07.857Z'
+    LastModifiedDate: '2023-12-27T15:15:45.493Z'
   - VulnerabilityID: CVE-2023-48236
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -4026,10 +4041,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48236
+    - https://security.netapp.com/advisory/ntap-20231227-0002/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48236
     PublishedDate: '2023-11-16T23:15:09.567Z'
-    LastModifiedDate: '2023-11-26T04:15:07.943Z'
+    LastModifiedDate: '2023-12-27T15:15:45.593Z'
   - VulnerabilityID: CVE-2023-48237
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -4075,10 +4091,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48237
+    - https://security.netapp.com/advisory/ntap-20231227-0005/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48237
     PublishedDate: '2023-11-16T23:15:09.753Z'
-    LastModifiedDate: '2023-11-26T04:15:08.03Z'
+    LastModifiedDate: '2023-12-27T15:15:45.693Z'
   - VulnerabilityID: CVE-2022-2000
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4100,7 +4117,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -4157,7 +4174,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -4286,10 +4303,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48231
+    - https://security.netapp.com/advisory/ntap-20231227-0008/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-11-26T04:15:07.473Z'
+    LastModifiedDate: '2023-12-27T15:15:45.05Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4357,7 +4375,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -4405,7 +4423,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -4454,7 +4472,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -4504,7 +4522,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -4598,10 +4616,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48233
+    - https://security.netapp.com/advisory/ntap-20231227-0003/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48233
     PublishedDate: '2023-11-16T23:15:08.997Z'
-    LastModifiedDate: '2023-11-26T04:15:07.68Z'
+    LastModifiedDate: '2023-12-27T15:15:45.297Z'
   - VulnerabilityID: CVE-2023-48234
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4647,10 +4666,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48234
+    - https://security.netapp.com/advisory/ntap-20231227-0004/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48234
     PublishedDate: '2023-11-16T23:15:09.2Z'
-    LastModifiedDate: '2023-11-26T04:15:07.773Z'
+    LastModifiedDate: '2023-12-27T15:15:45.393Z'
   - VulnerabilityID: CVE-2023-48235
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4698,10 +4718,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48235
+    - https://security.netapp.com/advisory/ntap-20231227-0007/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48235
     PublishedDate: '2023-11-16T23:15:09.38Z'
-    LastModifiedDate: '2023-11-26T04:15:07.857Z'
+    LastModifiedDate: '2023-12-27T15:15:45.493Z'
   - VulnerabilityID: CVE-2023-48236
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4749,10 +4770,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48236
+    - https://security.netapp.com/advisory/ntap-20231227-0002/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48236
     PublishedDate: '2023-11-16T23:15:09.567Z'
-    LastModifiedDate: '2023-11-26T04:15:07.943Z'
+    LastModifiedDate: '2023-12-27T15:15:45.593Z'
   - VulnerabilityID: CVE-2023-48237
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4798,10 +4820,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48237
+    - https://security.netapp.com/advisory/ntap-20231227-0005/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48237
     PublishedDate: '2023-11-16T23:15:09.753Z'
-    LastModifiedDate: '2023-11-26T04:15:08.03Z'
+    LastModifiedDate: '2023-12-27T15:15:45.693Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1
     PkgName: wget
@@ -4868,7 +4891,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -4925,7 +4948,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -5054,10 +5077,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48231
+    - https://security.netapp.com/advisory/ntap-20231227-0008/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-11-26T04:15:07.473Z'
+    LastModifiedDate: '2023-12-27T15:15:45.05Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -5125,7 +5149,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -5173,7 +5197,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -5222,7 +5246,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -5272,7 +5296,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -5366,10 +5390,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48233
+    - https://security.netapp.com/advisory/ntap-20231227-0003/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48233
     PublishedDate: '2023-11-16T23:15:08.997Z'
-    LastModifiedDate: '2023-11-26T04:15:07.68Z'
+    LastModifiedDate: '2023-12-27T15:15:45.297Z'
   - VulnerabilityID: CVE-2023-48234
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -5415,10 +5440,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48234
+    - https://security.netapp.com/advisory/ntap-20231227-0004/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48234
     PublishedDate: '2023-11-16T23:15:09.2Z'
-    LastModifiedDate: '2023-11-26T04:15:07.773Z'
+    LastModifiedDate: '2023-12-27T15:15:45.393Z'
   - VulnerabilityID: CVE-2023-48235
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -5466,10 +5492,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48235
+    - https://security.netapp.com/advisory/ntap-20231227-0007/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48235
     PublishedDate: '2023-11-16T23:15:09.38Z'
-    LastModifiedDate: '2023-11-26T04:15:07.857Z'
+    LastModifiedDate: '2023-12-27T15:15:45.493Z'
   - VulnerabilityID: CVE-2023-48236
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -5517,10 +5544,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48236
+    - https://security.netapp.com/advisory/ntap-20231227-0002/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48236
     PublishedDate: '2023-11-16T23:15:09.567Z'
-    LastModifiedDate: '2023-11-26T04:15:07.943Z'
+    LastModifiedDate: '2023-12-27T15:15:45.593Z'
   - VulnerabilityID: CVE-2023-48237
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -5566,10 +5594,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48237
+    - https://security.netapp.com/advisory/ntap-20231227-0005/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48237
     PublishedDate: '2023-11-16T23:15:09.753Z'
-    LastModifiedDate: '2023-11-26T04:15:08.03Z'
+    LastModifiedDate: '2023-12-27T15:15:45.693Z'
   - VulnerabilityID: CVE-2020-22916
     PkgID: xz-utils@5.2.5-2ubuntu1
     PkgName: xz-utils
@@ -7260,7 +7289,7 @@
   - VulnerabilityID: GHSA-jq35-85cj-fj4p
     PkgName: github.com/docker/docker
     InstalledVersion: v24.0.5+incompatible
-    FixedVersion: 24.0.7
+    FixedVersion: 24.0.7, 23.0.8, 20.10.27
     Status: fixed
     Layer:
       Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
@@ -7298,6 +7327,12 @@
       ghsa: 2
     References:
     - https://github.com/moby/moby
+    - https://github.com/moby/moby/commit/48ebe353e49a9def5e6679f6e386b0efb1c95f0e
+    - https://github.com/moby/moby/commit/81ebe71275768629689a23bc3bca34b3b374a6a6
+    - https://github.com/moby/moby/commit/c9ccbfad11a60e703e91b6cca4f48927828c7e35
+    - https://github.com/moby/moby/releases/tag/v20.10.27
+    - https://github.com/moby/moby/releases/tag/v23.0.8
+    - https://github.com/moby/moby/releases/tag/v24.0.7
     - https://github.com/moby/moby/security/advisories/GHSA-jq35-85cj-fj4p
   - VulnerabilityID: CVE-2023-48795
     PkgName: golang.org/x/crypto
@@ -7823,6 +7858,37 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
     LastModifiedDate: '2023-12-20T17:55:36.74Z'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -7912,37 +7978,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
-      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
       DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
