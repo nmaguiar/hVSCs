@@ -1338,18 +1338,24 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-27T02:15:42.47Z'
+    LastModifiedDate: '2023-12-28T02:15:54.543Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.3
     PkgName: libpython3.10-minimal
@@ -1394,18 +1400,24 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-27T02:15:42.47Z'
+    LastModifiedDate: '2023-12-28T02:15:54.543Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.3
     PkgName: libpython3.10-stdlib
@@ -1450,18 +1462,24 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-27T02:15:42.47Z'
+    LastModifiedDate: '2023-12-28T02:15:54.543Z'
   - VulnerabilityID: CVE-2022-46908
     PkgID: libsqlite3-0@3.37.2-2ubuntu0.1
     PkgName: libsqlite3-0
@@ -1526,13 +1544,19 @@
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
     Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -1615,6 +1639,8 @@
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
@@ -1644,7 +1670,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-26T04:15:07.85Z'
+    LastModifiedDate: '2023-12-28T18:26:43.827Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
@@ -1888,13 +1914,19 @@
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
     Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -1977,6 +2009,8 @@
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
@@ -2006,7 +2040,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-26T04:15:07.85Z'
+    LastModifiedDate: '2023-12-28T18:26:43.827Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-client@1:8.9p1-3ubuntu0.4
     PkgName: openssh-client
@@ -2068,13 +2102,19 @@
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
     Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -2157,6 +2197,8 @@
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
@@ -2186,7 +2228,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-26T04:15:07.85Z'
+    LastModifiedDate: '2023-12-28T18:26:43.827Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-server@1:8.9p1-3ubuntu0.4
     PkgName: openssh-server
@@ -2248,13 +2290,19 @@
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
     Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -2337,6 +2385,8 @@
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
@@ -2366,7 +2416,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-26T04:15:07.85Z'
+    LastModifiedDate: '2023-12-28T18:26:43.827Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.4
     PkgName: openssh-sftp-server
@@ -2496,18 +2546,24 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-27T02:15:42.47Z'
+    LastModifiedDate: '2023-12-28T02:15:54.543Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10-minimal@3.10.12-1~22.04.3
     PkgName: python3.10-minimal
@@ -2552,18 +2608,24 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-12-27T02:15:42.47Z'
+    LastModifiedDate: '2023-12-28T02:15:54.543Z'
   - VulnerabilityID: CVE-2023-39804
     PkgID: tar@1.34+dfsg-1ubuntu0.1.22.04.1
     PkgName: tar
@@ -2849,7 +2911,7 @@
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-12-27T15:15:45.05Z'
+    LastModifiedDate: '2023-12-28T17:39:29.39Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -3578,7 +3640,7 @@
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-12-27T15:15:45.05Z'
+    LastModifiedDate: '2023-12-28T17:39:29.39Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -4307,7 +4369,7 @@
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-12-27T15:15:45.05Z'
+    LastModifiedDate: '2023-12-28T17:39:29.39Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -5081,7 +5143,7 @@
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-12-27T15:15:45.05Z'
+    LastModifiedDate: '2023-12-28T17:39:29.39Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -6791,13 +6853,19 @@
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
     Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -6880,6 +6948,8 @@
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
@@ -6909,7 +6979,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-26T04:15:07.85Z'
+    LastModifiedDate: '2023-12-28T18:26:43.827Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -6977,13 +7047,19 @@
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
     Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -7066,6 +7142,8 @@
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
@@ -7095,7 +7173,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-26T04:15:07.85Z'
+    LastModifiedDate: '2023-12-28T18:26:43.827Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -7117,13 +7195,19 @@
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
     Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -7206,6 +7290,8 @@
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
@@ -7235,7 +7321,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-26T04:15:07.85Z'
+    LastModifiedDate: '2023-12-28T18:26:43.827Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -7351,13 +7437,19 @@
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
     Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -7440,6 +7532,8 @@
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
@@ -7469,7 +7563,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-26T04:15:07.85Z'
+    LastModifiedDate: '2023-12-28T18:26:43.827Z'
   - VulnerabilityID: CVE-2023-39325
     PkgName: golang.org/x/net
     InstalledVersion: v0.10.0
