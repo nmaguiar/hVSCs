@@ -3627,7 +3627,7 @@
 │                        │       │                   prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -3688,7 +3688,7 @@
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -3939,7 +3939,7 @@
 │                        │       │                    prior to 8.2.4959. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 2 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 1 
@@ -3990,7 +3990,7 @@
 │                        │       │                   prior to 8.2.4975. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-674 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ nvd        : 2 
 │                        │       │                  ├ photon     : 2 
@@ -4039,7 +4039,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ photon     : 3 
@@ -4091,7 +4091,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
-│                        │       │                  ├ amazon     : 3 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -4508,7 +4508,7 @@
 │                        │       │                   prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -4569,7 +4569,7 @@
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -4820,7 +4820,7 @@
 │                        │       │                    prior to 8.2.4959. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 2 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 1 
@@ -4871,7 +4871,7 @@
 │                        │       │                   prior to 8.2.4975. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-674 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ nvd        : 2 
 │                        │       │                  ├ photon     : 2 
@@ -4920,7 +4920,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ photon     : 3 
@@ -4972,7 +4972,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
-│                        │       │                  ├ amazon     : 3 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -5389,7 +5389,7 @@
 │                        │       │                   prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -5450,7 +5450,7 @@
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -5701,7 +5701,7 @@
 │                        │       │                    prior to 8.2.4959. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 2 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 1 
@@ -5752,7 +5752,7 @@
 │                        │       │                   prior to 8.2.4975. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-674 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ nvd        : 2 
 │                        │       │                  ├ photon     : 2 
@@ -5801,7 +5801,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ photon     : 3 
@@ -5853,7 +5853,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
-│                        │       │                  ├ amazon     : 3 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
@@ -6317,7 +6317,7 @@
 │                        │       │                   prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -6378,7 +6378,7 @@
 │                        │       ├ Description     : Use After Free in GitHub repository vim/vim prior to 8.2. 
 │                        │       ├ Severity        : MEDIUM 
 │                        │       ├ CweIDs           ─ [0]: CWE-416 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 3 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 2 
@@ -6629,7 +6629,7 @@
 │                        │       │                    prior to 8.2.4959. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-476 
-│                        │       ├ VendorSeverity   ╭ amazon: 3 
+│                        │       ├ VendorSeverity   ╭ amazon: 2 
 │                        │       │                  ├ nvd   : 2 
 │                        │       │                  ├ redhat: 1 
 │                        │       │                  ╰ ubuntu: 1 
@@ -6680,7 +6680,7 @@
 │                        │       │                   prior to 8.2.4975. 
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-674 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 2 
 │                        │       │                  ├ nvd        : 2 
 │                        │       │                  ├ photon     : 2 
@@ -6729,7 +6729,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ╭ [0]: CWE-122 
 │                        │       │                  ╰ [1]: CWE-787 
-│                        │       ├ VendorSeverity   ╭ amazon     : 3 
+│                        │       ├ VendorSeverity   ╭ amazon     : 2 
 │                        │       │                  ├ cbl-mariner: 3 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ photon     : 3 
@@ -6781,7 +6781,7 @@
 │                        │       ├ Severity        : LOW 
 │                        │       ├ CweIDs           ─ [0]: CWE-787 
 │                        │       ├ VendorSeverity   ╭ alma       : 2 
-│                        │       │                  ├ amazon     : 3 
+│                        │       │                  ├ amazon     : 2 
 │                        │       │                  ├ nvd        : 3 
 │                        │       │                  ├ oracle-oval: 2 
 │                        │       │                  ├ redhat     : 2 
