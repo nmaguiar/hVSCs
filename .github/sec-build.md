@@ -1721,7 +1721,48 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2023-12-28T02:15:54.543Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2022-46908 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2023-7104 
+│                        │      ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
+│                        │      ├ PkgName         : libsqlite3-0 
+│                        │      ├ InstalledVersion: 3.37.2-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7104 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : sqlite: heap-buffer-overflow at sessionfuzz 
+│                        │      ├ Description     : A vulnerability was found in SQLite SQLite3 up to
+│                        │      │                   3.43.0 and classified as critical. This issue affects the
+│                        │      │                   function sessionReadRecord of the file
+│                        │      │                   ext/session/sqlite3session.c of the component make alltest
+│                        │      │                   Handler. The manipulation leads to heap-based buffer
+│                        │      │                   overflow. It is recommended to apply a patch to fix this
+│                        │      │                   issue. The associated identifier of this vulnerability is
+│                        │      │                   VDB-248999. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-122 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                           │           :L/I:L/A:L 
+│                        │      │                           ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7104 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-7104 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-7104 
+│                        │      │                  ├ [3]: https://sqlite.org/forum/forumpost/5bcbf4571c 
+│                        │      │                  ├ [4]: https://sqlite.org/src/info/0e4e7a05c4204b47 
+│                        │      │                  ├ [5]: https://vuldb.com/?ctiid.248999 
+│                        │      │                  ├ [6]: https://vuldb.com/?id.248999 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
+│                        │      ├ PublishedDate   : 2023-12-29T10:15:13.89Z 
+│                        │      ╰ LastModifiedDate: 2023-12-29T13:56:27.537Z 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2022-46908 
 │                        │      ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
 │                        │      ├ PkgName         : libsqlite3-0 
 │                        │      ├ InstalledVersion: 3.37.2-2ubuntu0.1 
@@ -1771,7 +1812,88 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-46908 
 │                        │      ├ PublishedDate   : 2022-12-12T06:15:10.793Z 
 │                        │      ╰ LastModifiedDate: 2023-11-24T14:15:08.22Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2023-6004 
+│                        │      ├ PkgID           : libssh-4@0.9.6-2ubuntu0.22.04.2 
+│                        │      ├ PkgName         : libssh-4 
+│                        │      ├ InstalledVersion: 0.9.6-2ubuntu0.22.04.2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6004 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libssh: ProxyCommand/ProxyJump features allow
+│                        │      │                   injection of malicious code through hostname 
+│                        │      ├ Description     : No description is available for this CVE. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C
+│                        │      │                           │           :L/I:L/A:N 
+│                        │      │                           ╰ V3Score : 3.9 
+│                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6004 
+│                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │                         │      VE-2023-6004 
+│                        │                         ├ [2]: https://gitlab.com/libssh/libssh-mirror/-/issues/218 
+│                        │                         ├ [3]: https://gitlab.com/libssh/libssh-security/-/merg
+│                        │                         │      e_requests/26 
+│                        │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6004 
+│                        │                         ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-6004 
+│                        │                         ╰ [6]: https://www.libssh.org/2023/12/18/libssh-0-10-6-
+│                        │                                and-libssh-0-9-8-security-releases/ 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2023-6918 
+│                        │      ├ PkgID           : libssh-4@0.9.6-2ubuntu0.22.04.2 
+│                        │      ├ PkgName         : libssh-4 
+│                        │      ├ InstalledVersion: 0.9.6-2ubuntu0.22.04.2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6918 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libssh: Missing checks for return values for digests 
+│                        │      ├ Description     : A flaw was found in the libssh implements abstract
+│                        │      │                   layer for message digest (MD) operations implemented by
+│                        │      │                   different supported crypto backends. The return values from
+│                        │      │                    these were not properly checked, which could cause
+│                        │      │                   low-memory situations failures, NULL dereferences, crashes,
+│                        │      │                    or usage of the uninitialized memory as an input for the
+│                        │      │                   KDF. In this case, non-matching keys will result in
+│                        │      │                   decryption/integrity failures, terminating the
+│                        │      │                   connection. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-252 
+│                        │      ├ VendorSeverity   ╭ nvd   : 4 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                  │        │           :N/I:H/A:H 
+│                        │      │                  │        ╰ V3Score : 9.1 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:L 
+│                        │      │                           ╰ V3Score : 3.7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6918 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2254997 
+│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-6918 
+│                        │      │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/MKQRBF
+│                        │      │                  │      3DWMWPH36LBCOBUTSIZRTPEZXB/ 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6918 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-6918 
+│                        │      │                  ╰ [6]: https://www.libssh.org/2023/12/18/libssh-0-10-6-
+│                        │      │                         and-libssh-0-9-8-security-releases/ 
+│                        │      ├ PublishedDate   : 2023-12-19T00:15:08.46Z 
+│                        │      ╰ LastModifiedDate: 2024-01-02T16:00:10.647Z 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
@@ -1820,7 +1942,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2018-10126 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2018-10126 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
@@ -1863,7 +1985,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                        │      ├ PublishedDate   : 2018-04-21T21:29:00.29Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:51:16.693Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2023-3164 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2023-3164 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
@@ -1904,7 +2026,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
 │                        │      ├ PublishedDate   : 2023-11-02T12:15:09.543Z 
 │                        │      ╰ LastModifiedDate: 2023-12-20T19:13:34.823Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
@@ -1974,7 +2096,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : login 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2030,7 +2152,136 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2023-51767 
+│                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.5 
+│                        │      ├ PkgName         : openssh-client 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51767 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: authentication bypass via row hammer attack 
+│                        │      ├ Description     : OpenSSH through 9.6, when common types of DRAM are
+│                        │      │                   used, might allow row hammer attacks (for authentication
+│                        │      │                   bypass) because the integer value of authenticated in
+│                        │      │                   mm_answer_authpassword does not resist flips of a single
+│                        │      │                   bit. NOTE: this is applicable to a certain threat model of
+│                        │      │                   attacker-victim co-location in which the attacker has user
+│                        │      │                   privileges. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-51767 
+│                        │      │                  ├ [1]: https://arxiv.org/abs/2309.02545 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2255850 
+│                        │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-51767 
+│                        │      │                  ├ [4]: https://github.com/openssh/openssh-portable/blob
+│                        │      │                  │      /8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd
+│                        │      │                  │      .c#L77 
+│                        │      │                  ├ [5]: https://github.com/openssh/openssh-portable/blob
+│                        │      │                  │      /8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L
+│                        │      │                  │      878 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-51767 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
+│                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
+│                        │      ╰ LastModifiedDate: 2023-12-26T17:15:08.337Z 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2023-51767 
+│                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.5 
+│                        │      ├ PkgName         : openssh-server 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51767 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: authentication bypass via row hammer attack 
+│                        │      ├ Description     : OpenSSH through 9.6, when common types of DRAM are
+│                        │      │                   used, might allow row hammer attacks (for authentication
+│                        │      │                   bypass) because the integer value of authenticated in
+│                        │      │                   mm_answer_authpassword does not resist flips of a single
+│                        │      │                   bit. NOTE: this is applicable to a certain threat model of
+│                        │      │                   attacker-victim co-location in which the attacker has user
+│                        │      │                   privileges. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-51767 
+│                        │      │                  ├ [1]: https://arxiv.org/abs/2309.02545 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2255850 
+│                        │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-51767 
+│                        │      │                  ├ [4]: https://github.com/openssh/openssh-portable/blob
+│                        │      │                  │      /8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd
+│                        │      │                  │      .c#L77 
+│                        │      │                  ├ [5]: https://github.com/openssh/openssh-portable/blob
+│                        │      │                  │      /8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L
+│                        │      │                  │      878 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-51767 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
+│                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
+│                        │      ╰ LastModifiedDate: 2023-12-26T17:15:08.337Z 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2023-51767 
+│                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.5 
+│                        │      ├ PkgName         : openssh-sftp-server 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51767 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: authentication bypass via row hammer attack 
+│                        │      ├ Description     : OpenSSH through 9.6, when common types of DRAM are
+│                        │      │                   used, might allow row hammer attacks (for authentication
+│                        │      │                   bypass) because the integer value of authenticated in
+│                        │      │                   mm_answer_authpassword does not resist flips of a single
+│                        │      │                   bit. NOTE: this is applicable to a certain threat model of
+│                        │      │                   attacker-victim co-location in which the attacker has user
+│                        │      │                   privileges. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 7 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-51767 
+│                        │      │                  ├ [1]: https://arxiv.org/abs/2309.02545 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2255850 
+│                        │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-51767 
+│                        │      │                  ├ [4]: https://github.com/openssh/openssh-portable/blob
+│                        │      │                  │      /8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd
+│                        │      │                  │      .c#L77 
+│                        │      │                  ├ [5]: https://github.com/openssh/openssh-portable/blob
+│                        │      │                  │      /8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L
+│                        │      │                  │      878 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-51767 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
+│                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
+│                        │      ╰ LastModifiedDate: 2023-12-26T17:15:08.337Z 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2086,7 +2337,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
@@ -2183,7 +2434,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2023-12-28T02:15:54.543Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
@@ -2280,7 +2531,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2023-12-28T02:15:54.543Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2336,7 +2587,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ InstalledVersion: 1.21.2-2ubuntu1 
@@ -2382,7 +2633,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ╰ [44] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [50] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ InstalledVersion: 5.2.5-2ubuntu1 
