@@ -197,7 +197,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -263,7 +263,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1133,7 +1133,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1725,7 +1725,8 @@
 │                        │      ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
 │                        │      ├ PkgName         : libsqlite3-0 
 │                        │      ├ InstalledVersion: 3.37.2-2ubuntu0.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.37.2-2ubuntu0.3 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
 │                        │      │                  │         126d5a97a39d2a4753da897f51 
 │                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
@@ -1757,16 +1758,18 @@
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-7104 
 │                        │      │                  ├ [3]: https://sqlite.org/forum/forumpost/5bcbf4571c 
 │                        │      │                  ├ [4]: https://sqlite.org/src/info/0e4e7a05c4204b47 
-│                        │      │                  ├ [5]: https://vuldb.com/?ctiid.248999 
-│                        │      │                  ├ [6]: https://vuldb.com/?id.248999 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6566-1 
+│                        │      │                  ├ [6]: https://vuldb.com/?ctiid.248999 
+│                        │      │                  ├ [7]: https://vuldb.com/?id.248999 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7104 
 │                        │      ├ PublishedDate   : 2023-12-29T10:15:13.89Z 
 │                        │      ╰ LastModifiedDate: 2023-12-29T13:56:27.537Z 
 │                        ├ [34] ╭ VulnerabilityID : CVE-2022-46908 
 │                        │      ├ PkgID           : libsqlite3-0@3.37.2-2ubuntu0.1 
 │                        │      ├ PkgName         : libsqlite3-0 
 │                        │      ├ InstalledVersion: 3.37.2-2ubuntu0.1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.37.2-2ubuntu0.3 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
 │                        │      │                  │         126d5a97a39d2a4753da897f51 
 │                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
@@ -1809,7 +1812,8 @@
 │                        │      │                  │      03-0005/ 
 │                        │      │                  ├ [6]: https://sqlite.org/forum/forumpost/07beac8056151b2f 
 │                        │      │                  ├ [7]: https://sqlite.org/src/info/cefc032473ac5ad2 
-│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-46908 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6566-1 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-46908 
 │                        │      ├ PublishedDate   : 2022-12-12T06:15:10.793Z 
 │                        │      ╰ LastModifiedDate: 2023-11-24T14:15:08.22Z 
 │                        ├ [35] ╭ VulnerabilityID : CVE-2023-6004 
@@ -1828,23 +1832,29 @@
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                        │      ├ Title           : libssh: ProxyCommand/ProxyJump features allow
 │                        │      │                   injection of malicious code through hostname 
-│                        │      ├ Description     : No description is available for this CVE. 
+│                        │      ├ Description     : A flaw was found in libssh. By utilizing the
+│                        │      │                   ProxyCommand or ProxyJump feature, users can exploit
+│                        │      │                   unchecked hostname syntax on the client. This issue may
+│                        │      │                   allow an attacker to inject malicious code into the command
+│                        │      │                    of the features mentioned through the hostname
+│                        │      │                   parameter. 
 │                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-74 
 │                        │      ├ VendorSeverity   ╭ redhat: 1 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C
 │                        │      │                           │           :L/I:L/A:N 
 │                        │      │                           ╰ V3Score : 3.9 
-│                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6004 
-│                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │                         │      VE-2023-6004 
-│                        │                         ├ [2]: https://gitlab.com/libssh/libssh-mirror/-/issues/218 
-│                        │                         ├ [3]: https://gitlab.com/libssh/libssh-security/-/merg
-│                        │                         │      e_requests/26 
-│                        │                         ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6004 
-│                        │                         ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-6004 
-│                        │                         ╰ [6]: https://www.libssh.org/2023/12/18/libssh-0-10-6-
-│                        │                                and-libssh-0-9-8-security-releases/ 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6004 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2251110 
+│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-6004 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-6004 
+│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-6004 
+│                        │      │                  ╰ [5]: https://www.libssh.org/security/advisories/CVE-2
+│                        │      │                         023-6004.txt 
+│                        │      ├ PublishedDate   : 2024-01-03T17:15:11.623Z 
+│                        │      ╰ LastModifiedDate: 2024-01-03T17:26:57.957Z 
 │                        ├ [36] ╭ VulnerabilityID : CVE-2023-6918 
 │                        │      ├ PkgID           : libssh-4@0.9.6-2ubuntu0.22.04.2 
 │                        │      ├ PkgName         : libssh-4 
@@ -1889,10 +1899,12 @@
 │                        │      │                  │      3DWMWPH36LBCOBUTSIZRTPEZXB/ 
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6918 
 │                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-6918 
-│                        │      │                  ╰ [6]: https://www.libssh.org/2023/12/18/libssh-0-10-6-
-│                        │      │                         and-libssh-0-9-8-security-releases/ 
+│                        │      │                  ├ [6]: https://www.libssh.org/2023/12/18/libssh-0-10-6-
+│                        │      │                  │      and-libssh-0-9-8-security-releases/ 
+│                        │      │                  ╰ [7]: https://www.libssh.org/security/advisories/CVE-2
+│                        │      │                         023-6918.txt 
 │                        │      ├ PublishedDate   : 2023-12-19T00:15:08.46Z 
-│                        │      ╰ LastModifiedDate: 2024-01-02T16:00:10.647Z 
+│                        │      ╰ LastModifiedDate: 2024-01-03T08:15:09.78Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
@@ -2152,7 +2164,112 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2023-51384 
+│                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.5 
+│                        │      ├ PkgName         : openssh-client 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.6 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51384 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: destination constraints only apply to first
+│                        │      │                   PKCS#11 key 
+│                        │      ├ Description     : In ssh-agent in OpenSSH before 9.6, certain
+│                        │      │                   destination constraints can be incompletely applied. When
+│                        │      │                   destination constraints are specified during addition of
+│                        │      │                   PKCS#11-hosted private keys, these constraints are only
+│                        │      │                   applied to the first key, even if a PKCS#11 token returns
+│                        │      │                   multiple keys. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                  │        │           :H/I:N/A:N 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                           │           :H/I:N/A:N 
+│                        │      │                           ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-51384 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-51384 
+│                        │      │                  ├ [2]: https://github.com/openssh/openssh-portable/comm
+│                        │      │                  │      it/881d9c6af9da4257c69c327c4e2f1508b2fa754b 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-51384 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6565-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-51384 
+│                        │      │                  ├ [6]: https://www.debian.org/security/2023/dsa-5586 
+│                        │      │                  ├ [7]: https://www.openssh.com/txt/release-9.6 
+│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2023
+│                        │      │                         /12/18/2 
+│                        │      ├ PublishedDate   : 2023-12-18T19:15:08.72Z 
+│                        │      ╰ LastModifiedDate: 2023-12-22T13:15:10.16Z 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2023-51385 
+│                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.5 
+│                        │      ├ PkgName         : openssh-client 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.6 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51385 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: potential command injection via shell
+│                        │      │                   metacharacters 
+│                        │      ├ Description     : In ssh in OpenSSH before 9.6, OS command injection
+│                        │      │                   might occur if a user name or host name has shell
+│                        │      │                   metacharacters, and this name is referenced by an expansion
+│                        │      │                    token in certain situations. For example, an untrusted Git
+│                        │      │                    repository can have a submodule with shell metacharacters
+│                        │      │                   in a user name or host name. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-78 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                  │        │           :L/I:L/A:N 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :L/I:L/A:N 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                        │      │                  │       /12/26/4 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  │       -51385 
+│                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-51385 
+│                        │      │                  ├ [3] : https://github.com/openssh/openssh-portable/com
+│                        │      │                  │       mit/7ef3787c84b6b524501211b11a26c742f829af1a[
+│                        │      │                  │       m 
+│                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       23/12/msg00017.html 
+│                        │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-51385 
+│                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202312-17 
+│                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6565-1 
+│                        │      │                  ├ [8] : https://vin01.github.io/piptagole/ssh/security/
+│                        │      │                  │       openssh/libssh/remote-code-execution/2023/12/20/open
+│                        │      │                  │       ssh-proxycommand-libssh-rce.html 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-51385 
+│                        │      │                  ├ [10]: https://www.debian.org/security/2023/dsa-5586 
+│                        │      │                  ├ [11]: https://www.openssh.com/txt/release-9.6 
+│                        │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                          3/12/18/2 
+│                        │      ├ PublishedDate   : 2023-12-18T19:15:08.773Z 
+│                        │      ╰ LastModifiedDate: 2024-01-03T19:40:07.653Z 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.5 
 │                        │      ├ PkgName         : openssh-client 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
@@ -2195,7 +2312,112 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2023-12-26T17:15:08.337Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2023-51384 
+│                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.5 
+│                        │      ├ PkgName         : openssh-server 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.6 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51384 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: destination constraints only apply to first
+│                        │      │                   PKCS#11 key 
+│                        │      ├ Description     : In ssh-agent in OpenSSH before 9.6, certain
+│                        │      │                   destination constraints can be incompletely applied. When
+│                        │      │                   destination constraints are specified during addition of
+│                        │      │                   PKCS#11-hosted private keys, these constraints are only
+│                        │      │                   applied to the first key, even if a PKCS#11 token returns
+│                        │      │                   multiple keys. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                  │        │           :H/I:N/A:N 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                           │           :H/I:N/A:N 
+│                        │      │                           ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-51384 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-51384 
+│                        │      │                  ├ [2]: https://github.com/openssh/openssh-portable/comm
+│                        │      │                  │      it/881d9c6af9da4257c69c327c4e2f1508b2fa754b 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-51384 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6565-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-51384 
+│                        │      │                  ├ [6]: https://www.debian.org/security/2023/dsa-5586 
+│                        │      │                  ├ [7]: https://www.openssh.com/txt/release-9.6 
+│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2023
+│                        │      │                         /12/18/2 
+│                        │      ├ PublishedDate   : 2023-12-18T19:15:08.72Z 
+│                        │      ╰ LastModifiedDate: 2023-12-22T13:15:10.16Z 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2023-51385 
+│                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.5 
+│                        │      ├ PkgName         : openssh-server 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.6 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51385 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: potential command injection via shell
+│                        │      │                   metacharacters 
+│                        │      ├ Description     : In ssh in OpenSSH before 9.6, OS command injection
+│                        │      │                   might occur if a user name or host name has shell
+│                        │      │                   metacharacters, and this name is referenced by an expansion
+│                        │      │                    token in certain situations. For example, an untrusted Git
+│                        │      │                    repository can have a submodule with shell metacharacters
+│                        │      │                   in a user name or host name. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-78 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                  │        │           :L/I:L/A:N 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :L/I:L/A:N 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                        │      │                  │       /12/26/4 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  │       -51385 
+│                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-51385 
+│                        │      │                  ├ [3] : https://github.com/openssh/openssh-portable/com
+│                        │      │                  │       mit/7ef3787c84b6b524501211b11a26c742f829af1a[
+│                        │      │                  │       m 
+│                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       23/12/msg00017.html 
+│                        │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-51385 
+│                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202312-17 
+│                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6565-1 
+│                        │      │                  ├ [8] : https://vin01.github.io/piptagole/ssh/security/
+│                        │      │                  │       openssh/libssh/remote-code-execution/2023/12/20/open
+│                        │      │                  │       ssh-proxycommand-libssh-rce.html 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-51385 
+│                        │      │                  ├ [10]: https://www.debian.org/security/2023/dsa-5586 
+│                        │      │                  ├ [11]: https://www.openssh.com/txt/release-9.6 
+│                        │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                          3/12/18/2 
+│                        │      ├ PublishedDate   : 2023-12-18T19:15:08.773Z 
+│                        │      ╰ LastModifiedDate: 2024-01-03T19:40:07.653Z 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.5 
 │                        │      ├ PkgName         : openssh-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
@@ -2238,7 +2460,112 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2023-12-26T17:15:08.337Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2023-51384 
+│                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.5 
+│                        │      ├ PkgName         : openssh-sftp-server 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.6 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51384 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: destination constraints only apply to first
+│                        │      │                   PKCS#11 key 
+│                        │      ├ Description     : In ssh-agent in OpenSSH before 9.6, certain
+│                        │      │                   destination constraints can be incompletely applied. When
+│                        │      │                   destination constraints are specified during addition of
+│                        │      │                   PKCS#11-hosted private keys, these constraints are only
+│                        │      │                   applied to the first key, even if a PKCS#11 token returns
+│                        │      │                   multiple keys. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                  │        │           :H/I:N/A:N 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                           │           :H/I:N/A:N 
+│                        │      │                           ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-51384 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-51384 
+│                        │      │                  ├ [2]: https://github.com/openssh/openssh-portable/comm
+│                        │      │                  │      it/881d9c6af9da4257c69c327c4e2f1508b2fa754b 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-51384 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6565-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2023-51384 
+│                        │      │                  ├ [6]: https://www.debian.org/security/2023/dsa-5586 
+│                        │      │                  ├ [7]: https://www.openssh.com/txt/release-9.6 
+│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2023
+│                        │      │                         /12/18/2 
+│                        │      ├ PublishedDate   : 2023-12-18T19:15:08.72Z 
+│                        │      ╰ LastModifiedDate: 2023-12-22T13:15:10.16Z 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2023-51385 
+│                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.5 
+│                        │      ├ PkgName         : openssh-sftp-server 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.6 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:7aee64c31baf82c67b4bb98a622e659cb5b8d7
+│                        │      │                  │         126d5a97a39d2a4753da897f51 
+│                        │      │                  ╰ DiffID: sha256:65c35465b60c22893d85fa26f015b6355bb5bc
+│                        │      │                            e5dd7e5005ebdb3158fee88799 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51385 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: potential command injection via shell
+│                        │      │                   metacharacters 
+│                        │      ├ Description     : In ssh in OpenSSH before 9.6, OS command injection
+│                        │      │                   might occur if a user name or host name has shell
+│                        │      │                   metacharacters, and this name is referenced by an expansion
+│                        │      │                    token in certain situations. For example, an untrusted Git
+│                        │      │                    repository can have a submodule with shell metacharacters
+│                        │      │                   in a user name or host name. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-78 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                  │        │           :L/I:L/A:N 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :L/I:L/A:N 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2023
+│                        │      │                  │       /12/26/4 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  │       -51385 
+│                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-51385 
+│                        │      │                  ├ [3] : https://github.com/openssh/openssh-portable/com
+│                        │      │                  │       mit/7ef3787c84b6b524501211b11a26c742f829af1a[
+│                        │      │                  │       m 
+│                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       23/12/msg00017.html 
+│                        │      │                  ├ [5] : https://nvd.nist.gov/vuln/detail/CVE-2023-51385 
+│                        │      │                  ├ [6] : https://security.gentoo.org/glsa/202312-17 
+│                        │      │                  ├ [7] : https://ubuntu.com/security/notices/USN-6565-1 
+│                        │      │                  ├ [8] : https://vin01.github.io/piptagole/ssh/security/
+│                        │      │                  │       openssh/libssh/remote-code-execution/2023/12/20/open
+│                        │      │                  │       ssh-proxycommand-libssh-rce.html 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2023-51385 
+│                        │      │                  ├ [10]: https://www.debian.org/security/2023/dsa-5586 
+│                        │      │                  ├ [11]: https://www.openssh.com/txt/release-9.6 
+│                        │      │                  ╰ [12]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                          3/12/18/2 
+│                        │      ├ PublishedDate   : 2023-12-18T19:15:08.773Z 
+│                        │      ╰ LastModifiedDate: 2024-01-03T19:40:07.653Z 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.5 
 │                        │      ├ PkgName         : openssh-sftp-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.5 
@@ -2281,7 +2608,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2023-12-26T17:15:08.337Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2337,7 +2664,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
@@ -2434,7 +2761,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2023-12-28T02:15:54.543Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
@@ -2531,7 +2858,7 @@
 │                        │      │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2023-12-28T02:15:54.543Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2587,7 +2914,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ InstalledVersion: 1.21.2-2ubuntu1 
@@ -2633,7 +2960,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ╰ [50] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [56] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ InstalledVersion: 5.2.5-2ubuntu1 
@@ -2835,7 +3162,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                        │     │                  ├ [14]: https://go.dev/cl/534215 
 │                        │     │                  ├ [15]: https://go.dev/cl/534235 
@@ -3084,7 +3411,7 @@
 │                              │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                              │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -3465,7 +3792,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                        │     │                  ├ [14]: https://go.dev/cl/534215 
 │                        │     │                  ├ [15]: https://go.dev/cl/534235 
@@ -3714,7 +4041,7 @@
 │                              │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                              │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -5511,7 +5838,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/issues/63417 
 │                        │     │                  ├ [14]: https://go.dev/cl/534215 
 │                        │     │                  ├ [15]: https://go.dev/cl/534235 
@@ -5760,7 +6087,7 @@
 │                              │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                              │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
