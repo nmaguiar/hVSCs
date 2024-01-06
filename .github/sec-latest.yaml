@@ -171,12 +171,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -188,7 +188,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2023-12-08T19:15:07.48Z'
+    LastModifiedDate: '2023-12-27T16:36:58.353Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus-user-session@1.12.20-2ubuntu4.1
     PkgName: dbus-user-session
@@ -222,12 +222,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -239,7 +239,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2023-12-08T19:15:07.48Z'
+    LastModifiedDate: '2023-12-27T16:36:58.353Z'
   - VulnerabilityID: CVE-2022-3219
     PkgID: dirmngr@2.2.27-3ubuntu2.1
     PkgName: dirmngr
@@ -1014,12 +1014,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -1031,7 +1031,7 @@
     - https://ubuntu.com/security/notices/USN-6372-1
     - https://www.cve.org/CVERecord?id=CVE-2023-34969
     PublishedDate: '2023-06-08T03:15:08.97Z'
-    LastModifiedDate: '2023-12-08T19:15:07.48Z'
+    LastModifiedDate: '2023-12-27T16:36:58.353Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
@@ -1337,12 +1337,26 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SOX7BCN6YL7B3RFPEEXPIU5CMTEHJOKR/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-06-01T14:15:11.143Z'
+    LastModifiedDate: '2024-01-04T03:15:09.5Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.3
     PkgName: libpython3.10-minimal
@@ -1386,12 +1400,26 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SOX7BCN6YL7B3RFPEEXPIU5CMTEHJOKR/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-06-01T14:15:11.143Z'
+    LastModifiedDate: '2024-01-04T03:15:09.5Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.3
     PkgName: libpython3.10-stdlib
@@ -1435,17 +1463,77 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SOX7BCN6YL7B3RFPEEXPIU5CMTEHJOKR/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-06-01T14:15:11.143Z'
+    LastModifiedDate: '2024-01-04T03:15:09.5Z'
+  - VulnerabilityID: CVE-2023-7104
+    PkgID: libsqlite3-0@3.37.2-2ubuntu0.1
+    PkgName: libsqlite3-0
+    InstalledVersion: 3.37.2-2ubuntu0.1
+    FixedVersion: 3.37.2-2ubuntu0.3
+    Status: fixed
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-7104
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'sqlite: heap-buffer-overflow at sessionfuzz'
+    Description: A vulnerability was found in SQLite SQLite3 up to 3.43.0 and classified as critical. This issue affects the function sessionReadRecord of the file ext/session/sqlite3session.c of the component make alltest Handler. The manipulation leads to heap-based buffer overflow. It is recommended to apply a patch to fix this issue. The associated identifier of this vulnerability is VDB-248999.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-119
+    - CWE-122
+    VendorSeverity:
+      nvd: 4
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-7104
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7104
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/D6C2HN4T2S6GYNTAUXLH45LQZHK7QPHP/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-7104
+    - https://sqlite.org/forum/forumpost/5bcbf4571c
+    - https://sqlite.org/src/info/0e4e7a05c4204b47
+    - https://ubuntu.com/security/notices/USN-6566-1
+    - https://vuldb.com/?ctiid.248999
+    - https://vuldb.com/?id.248999
+    - https://www.cve.org/CVERecord?id=CVE-2023-7104
+    PublishedDate: '2023-12-29T10:15:13.89Z'
+    LastModifiedDate: '2024-01-05T19:43:46.343Z'
   - VulnerabilityID: CVE-2022-46908
     PkgID: libsqlite3-0@3.37.2-2ubuntu0.1
     PkgName: libsqlite3-0
     InstalledVersion: 3.37.2-2ubuntu0.1
-    Status: affected
+    FixedVersion: 3.37.2-2ubuntu0.3
+    Status: fixed
     Layer:
       Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
       DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
@@ -1484,6 +1572,7 @@
     - https://security.netapp.com/advisory/ntap-20230203-0005/
     - https://sqlite.org/forum/forumpost/07beac8056151b2f
     - https://sqlite.org/src/info/cefc032473ac5ad2
+    - https://ubuntu.com/security/notices/USN-6566-1
     - https://www.cve.org/CVERecord?id=CVE-2022-46908
     PublishedDate: '2022-12-12T06:15:10.793Z'
     LastModifiedDate: '2023-11-24T14:15:08.22Z'
@@ -1503,15 +1592,21 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
-    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust; and there could be effects on Bitvise SSH through 9.31.
+    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -1530,15 +1625,19 @@
     - https://bugzilla.suse.com/show_bug.cgi?id=1217950
     - https://crates.io/crates/thrussh/versions
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
+    - https://filezilla-project.org/versions.php
     - https://forum.netgate.com/topic/184941/terrapin-ssh-attack
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6
     - https://github.com/NixOS/nixpkgs/pull/275249
+    - https://github.com/PowerShell/Win32-OpenSSH/issues/2189
+    - https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v9.5.0.0p1-Beta
     - https://github.com/TeraTermProject/teraterm/commit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
     - https://github.com/TeraTermProject/teraterm/releases/tag/v5.1
     - https://github.com/advisories/GHSA-45x7-px36-x8w8
     - https://github.com/apache/mina-sshd/issues/445
     - https://github.com/connectbot/sshlib/commit/5c8b534f6e97db7ac0e0e579331213aa25c173ab
     - https://github.com/connectbot/sshlib/compare/2.2.21...2.2.22
+    - https://github.com/cyd01/KiTTY/issues/520
     - https://github.com/drakkan/sftpgo/releases/tag/v2.5.6
     - https://github.com/erlang/otp/blob/d1b43dc0f1361d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml#L39-L42
     - https://github.com/erlang/otp/releases/tag/OTP-26.2.1
@@ -1563,6 +1662,7 @@
     - https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst
     - https://github.com/ronf/asyncssh/security/advisories/GHSA-hfmc-7525-mj55
     - https://github.com/ronf/asyncssh/tags
+    - https://github.com/ssh-mitm/ssh-mitm/issues/165
     - https://github.com/warp-tech/russh
     - https://github.com/warp-tech/russh/commit/1aa340a7df1d5be1c0f4a9e247aade76dfdd2951
     - https://github.com/warp-tech/russh/releases/tag/v0.40.2
@@ -1572,28 +1672,47 @@
     - https://go.dev/issue/64784
     - https://groups.google.com/g/golang-announce/c/-n5WqVC18LQ
     - https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg
+    - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
     - https://nest.pijul.com/pijul/thrussh/changes/D6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
     - https://news.ycombinator.com/item?id=38684904
     - https://news.ycombinator.com/item?id=38685286
+    - https://news.ycombinator.com/item?id=38732005
+    - https://nova.app/releases/#v11.8
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48795
     - https://oryx-embedded.com/download/#changelog
+    - https://roumenpetrov.info/secsh/#news20231220
     - https://security-tracker.debian.org/tracker/CVE-2023-48795
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0004/
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
     - https://ubuntu.com/security/CVE-2023-48795
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://ubuntu.com/security/notices/USN-6561-1
+    - https://winscp.net/eng/docs/history#6.2.2
+    - https://www.bitvise.com/ssh-client-version-history#933
     - https://www.bitvise.com/ssh-server-version-history
     - https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html
     - https://www.crushftp.com/crush10wiki/Wiki.jsp?page=Update
     - https://www.cve.org/CVERecord?id=CVE-2023-48795
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.debian.org/security/2023/dsa-5588
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc
+    - https://www.lancom-systems.de/service-support/allgemeine-sicherheitshinweise#c243508
     - https://www.netsarang.com/en/xshell-update-history/
     - https://www.openssh.com/openbsd.html
     - https://www.openssh.com/txt/release-9.6
@@ -1604,8 +1723,86 @@
     - https://www.reddit.com/r/sysadmin/comments/18idv52/cve202348795_why_is_this_cve_still_undisclosed/
     - https://www.suse.com/c/suse-addresses-the-ssh-v2-protocol-terrapin-attack-aka-cve-2023-48795/
     - https://www.terrapin-attack.com
+    - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
+    - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-20T23:15:10.617Z'
+    LastModifiedDate: '2024-01-05T18:15:29.267Z'
+  - VulnerabilityID: CVE-2023-6004
+    PkgID: libssh-4@0.9.6-2ubuntu0.22.04.1
+    PkgName: libssh-4
+    InstalledVersion: 0.9.6-2ubuntu0.22.04.1
+    Status: affected
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6004
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libssh: ProxyCommand/ProxyJump features allow injection of malicious code through hostname'
+    Description: A flaw was found in libssh. By utilizing the ProxyCommand or ProxyJump feature, users can exploit unchecked hostname syntax on the client. This issue may allow an attacker to inject malicious code into the command of the features mentioned through the hostname parameter.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-74
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6004
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251110
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6004
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6004
+    - https://www.cve.org/CVERecord?id=CVE-2023-6004
+    - https://www.libssh.org/security/advisories/CVE-2023-6004.txt
+    PublishedDate: '2024-01-03T17:15:11.623Z'
+    LastModifiedDate: '2024-01-03T17:26:57.957Z'
+  - VulnerabilityID: CVE-2023-6918
+    PkgID: libssh-4@0.9.6-2ubuntu0.22.04.1
+    PkgName: libssh-4
+    InstalledVersion: 0.9.6-2ubuntu0.22.04.1
+    Status: affected
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6918
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libssh: Missing checks for return values for digests'
+    Description: A flaw was found in the libssh implements abstract layer for message digest (MD) operations implemented by different supported crypto backends. The return values from these were not properly checked, which could cause low-memory situations failures, NULL dereferences, crashes, or usage of the uninitialized memory as an input for the KDF. In this case, non-matching keys will result in decryption/integrity failures, terminating the connection.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-252
+    VendorSeverity:
+      nvd: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6918
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2254997
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6918
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6918
+    - https://www.cve.org/CVERecord?id=CVE-2023-6918
+    - https://www.libssh.org/2023/12/18/libssh-0-10-6-and-libssh-0-9-8-security-releases/
+    - https://www.libssh.org/security/advisories/CVE-2023-6918.txt
+    PublishedDate: '2023-12-19T00:15:08.46Z'
+    LastModifiedDate: '2024-01-04T20:21:35.297Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
@@ -1847,15 +2044,21 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
-    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust; and there could be effects on Bitvise SSH through 9.31.
+    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -1874,15 +2077,19 @@
     - https://bugzilla.suse.com/show_bug.cgi?id=1217950
     - https://crates.io/crates/thrussh/versions
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
+    - https://filezilla-project.org/versions.php
     - https://forum.netgate.com/topic/184941/terrapin-ssh-attack
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6
     - https://github.com/NixOS/nixpkgs/pull/275249
+    - https://github.com/PowerShell/Win32-OpenSSH/issues/2189
+    - https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v9.5.0.0p1-Beta
     - https://github.com/TeraTermProject/teraterm/commit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
     - https://github.com/TeraTermProject/teraterm/releases/tag/v5.1
     - https://github.com/advisories/GHSA-45x7-px36-x8w8
     - https://github.com/apache/mina-sshd/issues/445
     - https://github.com/connectbot/sshlib/commit/5c8b534f6e97db7ac0e0e579331213aa25c173ab
     - https://github.com/connectbot/sshlib/compare/2.2.21...2.2.22
+    - https://github.com/cyd01/KiTTY/issues/520
     - https://github.com/drakkan/sftpgo/releases/tag/v2.5.6
     - https://github.com/erlang/otp/blob/d1b43dc0f1361d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml#L39-L42
     - https://github.com/erlang/otp/releases/tag/OTP-26.2.1
@@ -1907,6 +2114,7 @@
     - https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst
     - https://github.com/ronf/asyncssh/security/advisories/GHSA-hfmc-7525-mj55
     - https://github.com/ronf/asyncssh/tags
+    - https://github.com/ssh-mitm/ssh-mitm/issues/165
     - https://github.com/warp-tech/russh
     - https://github.com/warp-tech/russh/commit/1aa340a7df1d5be1c0f4a9e247aade76dfdd2951
     - https://github.com/warp-tech/russh/releases/tag/v0.40.2
@@ -1916,28 +2124,47 @@
     - https://go.dev/issue/64784
     - https://groups.google.com/g/golang-announce/c/-n5WqVC18LQ
     - https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg
+    - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
     - https://nest.pijul.com/pijul/thrussh/changes/D6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
     - https://news.ycombinator.com/item?id=38684904
     - https://news.ycombinator.com/item?id=38685286
+    - https://news.ycombinator.com/item?id=38732005
+    - https://nova.app/releases/#v11.8
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48795
     - https://oryx-embedded.com/download/#changelog
+    - https://roumenpetrov.info/secsh/#news20231220
     - https://security-tracker.debian.org/tracker/CVE-2023-48795
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0004/
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
     - https://ubuntu.com/security/CVE-2023-48795
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://ubuntu.com/security/notices/USN-6561-1
+    - https://winscp.net/eng/docs/history#6.2.2
+    - https://www.bitvise.com/ssh-client-version-history#933
     - https://www.bitvise.com/ssh-server-version-history
     - https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html
     - https://www.crushftp.com/crush10wiki/Wiki.jsp?page=Update
     - https://www.cve.org/CVERecord?id=CVE-2023-48795
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.debian.org/security/2023/dsa-5588
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc
+    - https://www.lancom-systems.de/service-support/allgemeine-sicherheitshinweise#c243508
     - https://www.netsarang.com/en/xshell-update-history/
     - https://www.openssh.com/openbsd.html
     - https://www.openssh.com/txt/release-9.6
@@ -1948,8 +2175,141 @@
     - https://www.reddit.com/r/sysadmin/comments/18idv52/cve202348795_why_is_this_cve_still_undisclosed/
     - https://www.suse.com/c/suse-addresses-the-ssh-v2-protocol-terrapin-attack-aka-cve-2023-48795/
     - https://www.terrapin-attack.com
+    - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
+    - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-20T23:15:10.617Z'
+    LastModifiedDate: '2024-01-05T18:15:29.267Z'
+  - VulnerabilityID: CVE-2023-51384
+    PkgID: openssh-client@1:8.9p1-3ubuntu0.4
+    PkgName: openssh-client
+    InstalledVersion: 1:8.9p1-3ubuntu0.4
+    FixedVersion: 1:8.9p1-3ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51384
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssh: destination constraints only apply to first PKCS#11 key'
+    Description: In ssh-agent in OpenSSH before 9.6, certain destination constraints can be incompletely applied. When destination constraints are specified during addition of PKCS#11-hosted private keys, these constraints are only applied to the first key, even if a PKCS#11 token returns multiple keys.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      nvd: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-51384
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51384
+    - https://github.com/openssh/openssh-portable/commit/881d9c6af9da4257c69c327c4e2f1508b2fa754b
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-51384
+    - https://security.netapp.com/advisory/ntap-20240105-0005/
+    - https://ubuntu.com/security/notices/USN-6565-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-51384
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.openssh.com/txt/release-9.6
+    - https://www.openwall.com/lists/oss-security/2023/12/18/2
+    PublishedDate: '2023-12-18T19:15:08.72Z'
+    LastModifiedDate: '2024-01-05T18:15:29.65Z'
+  - VulnerabilityID: CVE-2023-51385
+    PkgID: openssh-client@1:8.9p1-3ubuntu0.4
+    PkgName: openssh-client
+    InstalledVersion: 1:8.9p1-3ubuntu0.4
+    FixedVersion: 1:8.9p1-3ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51385
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssh: potential command injection via shell metacharacters'
+    Description: In ssh in OpenSSH before 9.6, OS command injection might occur if a user name or host name has shell metacharacters, and this name is referenced by an expansion token in certain situations. For example, an untrusted Git repository can have a submodule with shell metacharacters in a user name or host name.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    VendorSeverity:
+      cbl-mariner: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/12/26/4
+    - https://access.redhat.com/security/cve/CVE-2023-51385
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51385
+    - https://github.com/openssh/openssh-portable/commit/7ef3787c84b6b524501211b11a26c742f829af1a
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-51385
+    - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0005/
+    - https://ubuntu.com/security/notices/USN-6565-1
+    - https://vin01.github.io/piptagole/ssh/security/openssh/libssh/remote-code-execution/2023/12/20/openssh-proxycommand-libssh-rce.html
+    - https://www.cve.org/CVERecord?id=CVE-2023-51385
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.openssh.com/txt/release-9.6
+    - https://www.openwall.com/lists/oss-security/2023/12/18/2
+    PublishedDate: '2023-12-18T19:15:08.773Z'
+    LastModifiedDate: '2024-01-05T18:15:29.72Z'
+  - VulnerabilityID: CVE-2023-51767
+    PkgID: openssh-client@1:8.9p1-3ubuntu0.4
+    PkgName: openssh-client
+    InstalledVersion: 1:8.9p1-3ubuntu0.4
+    Status: affected
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51767
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssh: authentication bypass via row hammer attack'
+    Description: 'OpenSSH through 9.6, when common types of DRAM are used, might allow row hammer attacks (for authentication bypass) because the integer value of authenticated in mm_answer_authpassword does not resist flips of a single bit. NOTE: this is applicable to a certain threat model of attacker-victim co-location in which the attacker has user privileges.'
+    Severity: MEDIUM
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-51767
+    - https://arxiv.org/abs/2309.02545
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2255850
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51767
+    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
+    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
+    - https://www.cve.org/CVERecord?id=CVE-2023-51767
+    PublishedDate: '2023-12-24T07:15:07.41Z'
+    LastModifiedDate: '2024-01-04T19:18:14.703Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-client@1:8.9p1-3ubuntu0.4
     PkgName: openssh-client
@@ -1989,9 +2349,10 @@
     - https://security.netapp.com/advisory/ntap-20230413-0008/
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28531
+    - https://www.debian.org/security/2023/dsa-5586
     - https://www.openwall.com/lists/oss-security/2023/03/15/8
     PublishedDate: '2023-03-17T04:15:14.553Z'
-    LastModifiedDate: '2023-07-21T19:21:51.437Z'
+    LastModifiedDate: '2023-12-22T13:15:08.797Z'
   - VulnerabilityID: CVE-2023-48795
     PkgID: openssh-server@1:8.9p1-3ubuntu0.4
     PkgName: openssh-server
@@ -2008,15 +2369,21 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
-    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust; and there could be effects on Bitvise SSH through 9.31.
+    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -2035,15 +2402,19 @@
     - https://bugzilla.suse.com/show_bug.cgi?id=1217950
     - https://crates.io/crates/thrussh/versions
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
+    - https://filezilla-project.org/versions.php
     - https://forum.netgate.com/topic/184941/terrapin-ssh-attack
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6
     - https://github.com/NixOS/nixpkgs/pull/275249
+    - https://github.com/PowerShell/Win32-OpenSSH/issues/2189
+    - https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v9.5.0.0p1-Beta
     - https://github.com/TeraTermProject/teraterm/commit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
     - https://github.com/TeraTermProject/teraterm/releases/tag/v5.1
     - https://github.com/advisories/GHSA-45x7-px36-x8w8
     - https://github.com/apache/mina-sshd/issues/445
     - https://github.com/connectbot/sshlib/commit/5c8b534f6e97db7ac0e0e579331213aa25c173ab
     - https://github.com/connectbot/sshlib/compare/2.2.21...2.2.22
+    - https://github.com/cyd01/KiTTY/issues/520
     - https://github.com/drakkan/sftpgo/releases/tag/v2.5.6
     - https://github.com/erlang/otp/blob/d1b43dc0f1361d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml#L39-L42
     - https://github.com/erlang/otp/releases/tag/OTP-26.2.1
@@ -2068,6 +2439,7 @@
     - https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst
     - https://github.com/ronf/asyncssh/security/advisories/GHSA-hfmc-7525-mj55
     - https://github.com/ronf/asyncssh/tags
+    - https://github.com/ssh-mitm/ssh-mitm/issues/165
     - https://github.com/warp-tech/russh
     - https://github.com/warp-tech/russh/commit/1aa340a7df1d5be1c0f4a9e247aade76dfdd2951
     - https://github.com/warp-tech/russh/releases/tag/v0.40.2
@@ -2077,28 +2449,47 @@
     - https://go.dev/issue/64784
     - https://groups.google.com/g/golang-announce/c/-n5WqVC18LQ
     - https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg
+    - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
     - https://nest.pijul.com/pijul/thrussh/changes/D6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
     - https://news.ycombinator.com/item?id=38684904
     - https://news.ycombinator.com/item?id=38685286
+    - https://news.ycombinator.com/item?id=38732005
+    - https://nova.app/releases/#v11.8
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48795
     - https://oryx-embedded.com/download/#changelog
+    - https://roumenpetrov.info/secsh/#news20231220
     - https://security-tracker.debian.org/tracker/CVE-2023-48795
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0004/
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
     - https://ubuntu.com/security/CVE-2023-48795
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://ubuntu.com/security/notices/USN-6561-1
+    - https://winscp.net/eng/docs/history#6.2.2
+    - https://www.bitvise.com/ssh-client-version-history#933
     - https://www.bitvise.com/ssh-server-version-history
     - https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html
     - https://www.crushftp.com/crush10wiki/Wiki.jsp?page=Update
     - https://www.cve.org/CVERecord?id=CVE-2023-48795
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.debian.org/security/2023/dsa-5588
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc
+    - https://www.lancom-systems.de/service-support/allgemeine-sicherheitshinweise#c243508
     - https://www.netsarang.com/en/xshell-update-history/
     - https://www.openssh.com/openbsd.html
     - https://www.openssh.com/txt/release-9.6
@@ -2109,8 +2500,141 @@
     - https://www.reddit.com/r/sysadmin/comments/18idv52/cve202348795_why_is_this_cve_still_undisclosed/
     - https://www.suse.com/c/suse-addresses-the-ssh-v2-protocol-terrapin-attack-aka-cve-2023-48795/
     - https://www.terrapin-attack.com
+    - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
+    - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-20T23:15:10.617Z'
+    LastModifiedDate: '2024-01-05T18:15:29.267Z'
+  - VulnerabilityID: CVE-2023-51384
+    PkgID: openssh-server@1:8.9p1-3ubuntu0.4
+    PkgName: openssh-server
+    InstalledVersion: 1:8.9p1-3ubuntu0.4
+    FixedVersion: 1:8.9p1-3ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51384
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssh: destination constraints only apply to first PKCS#11 key'
+    Description: In ssh-agent in OpenSSH before 9.6, certain destination constraints can be incompletely applied. When destination constraints are specified during addition of PKCS#11-hosted private keys, these constraints are only applied to the first key, even if a PKCS#11 token returns multiple keys.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      nvd: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-51384
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51384
+    - https://github.com/openssh/openssh-portable/commit/881d9c6af9da4257c69c327c4e2f1508b2fa754b
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-51384
+    - https://security.netapp.com/advisory/ntap-20240105-0005/
+    - https://ubuntu.com/security/notices/USN-6565-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-51384
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.openssh.com/txt/release-9.6
+    - https://www.openwall.com/lists/oss-security/2023/12/18/2
+    PublishedDate: '2023-12-18T19:15:08.72Z'
+    LastModifiedDate: '2024-01-05T18:15:29.65Z'
+  - VulnerabilityID: CVE-2023-51385
+    PkgID: openssh-server@1:8.9p1-3ubuntu0.4
+    PkgName: openssh-server
+    InstalledVersion: 1:8.9p1-3ubuntu0.4
+    FixedVersion: 1:8.9p1-3ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51385
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssh: potential command injection via shell metacharacters'
+    Description: In ssh in OpenSSH before 9.6, OS command injection might occur if a user name or host name has shell metacharacters, and this name is referenced by an expansion token in certain situations. For example, an untrusted Git repository can have a submodule with shell metacharacters in a user name or host name.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    VendorSeverity:
+      cbl-mariner: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/12/26/4
+    - https://access.redhat.com/security/cve/CVE-2023-51385
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51385
+    - https://github.com/openssh/openssh-portable/commit/7ef3787c84b6b524501211b11a26c742f829af1a
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-51385
+    - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0005/
+    - https://ubuntu.com/security/notices/USN-6565-1
+    - https://vin01.github.io/piptagole/ssh/security/openssh/libssh/remote-code-execution/2023/12/20/openssh-proxycommand-libssh-rce.html
+    - https://www.cve.org/CVERecord?id=CVE-2023-51385
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.openssh.com/txt/release-9.6
+    - https://www.openwall.com/lists/oss-security/2023/12/18/2
+    PublishedDate: '2023-12-18T19:15:08.773Z'
+    LastModifiedDate: '2024-01-05T18:15:29.72Z'
+  - VulnerabilityID: CVE-2023-51767
+    PkgID: openssh-server@1:8.9p1-3ubuntu0.4
+    PkgName: openssh-server
+    InstalledVersion: 1:8.9p1-3ubuntu0.4
+    Status: affected
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51767
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssh: authentication bypass via row hammer attack'
+    Description: 'OpenSSH through 9.6, when common types of DRAM are used, might allow row hammer attacks (for authentication bypass) because the integer value of authenticated in mm_answer_authpassword does not resist flips of a single bit. NOTE: this is applicable to a certain threat model of attacker-victim co-location in which the attacker has user privileges.'
+    Severity: MEDIUM
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-51767
+    - https://arxiv.org/abs/2309.02545
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2255850
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51767
+    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
+    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
+    - https://www.cve.org/CVERecord?id=CVE-2023-51767
+    PublishedDate: '2023-12-24T07:15:07.41Z'
+    LastModifiedDate: '2024-01-04T19:18:14.703Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-server@1:8.9p1-3ubuntu0.4
     PkgName: openssh-server
@@ -2150,9 +2674,10 @@
     - https://security.netapp.com/advisory/ntap-20230413-0008/
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28531
+    - https://www.debian.org/security/2023/dsa-5586
     - https://www.openwall.com/lists/oss-security/2023/03/15/8
     PublishedDate: '2023-03-17T04:15:14.553Z'
-    LastModifiedDate: '2023-07-21T19:21:51.437Z'
+    LastModifiedDate: '2023-12-22T13:15:08.797Z'
   - VulnerabilityID: CVE-2023-48795
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.4
     PkgName: openssh-sftp-server
@@ -2169,15 +2694,21 @@
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
-    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust; and there could be effects on Bitvise SSH through 9.31.
+    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -2196,15 +2727,19 @@
     - https://bugzilla.suse.com/show_bug.cgi?id=1217950
     - https://crates.io/crates/thrussh/versions
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
+    - https://filezilla-project.org/versions.php
     - https://forum.netgate.com/topic/184941/terrapin-ssh-attack
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6
     - https://github.com/NixOS/nixpkgs/pull/275249
+    - https://github.com/PowerShell/Win32-OpenSSH/issues/2189
+    - https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v9.5.0.0p1-Beta
     - https://github.com/TeraTermProject/teraterm/commit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
     - https://github.com/TeraTermProject/teraterm/releases/tag/v5.1
     - https://github.com/advisories/GHSA-45x7-px36-x8w8
     - https://github.com/apache/mina-sshd/issues/445
     - https://github.com/connectbot/sshlib/commit/5c8b534f6e97db7ac0e0e579331213aa25c173ab
     - https://github.com/connectbot/sshlib/compare/2.2.21...2.2.22
+    - https://github.com/cyd01/KiTTY/issues/520
     - https://github.com/drakkan/sftpgo/releases/tag/v2.5.6
     - https://github.com/erlang/otp/blob/d1b43dc0f1361d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml#L39-L42
     - https://github.com/erlang/otp/releases/tag/OTP-26.2.1
@@ -2229,6 +2764,7 @@
     - https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst
     - https://github.com/ronf/asyncssh/security/advisories/GHSA-hfmc-7525-mj55
     - https://github.com/ronf/asyncssh/tags
+    - https://github.com/ssh-mitm/ssh-mitm/issues/165
     - https://github.com/warp-tech/russh
     - https://github.com/warp-tech/russh/commit/1aa340a7df1d5be1c0f4a9e247aade76dfdd2951
     - https://github.com/warp-tech/russh/releases/tag/v0.40.2
@@ -2238,28 +2774,47 @@
     - https://go.dev/issue/64784
     - https://groups.google.com/g/golang-announce/c/-n5WqVC18LQ
     - https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg
+    - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
     - https://nest.pijul.com/pijul/thrussh/changes/D6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
     - https://news.ycombinator.com/item?id=38684904
     - https://news.ycombinator.com/item?id=38685286
+    - https://news.ycombinator.com/item?id=38732005
+    - https://nova.app/releases/#v11.8
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48795
     - https://oryx-embedded.com/download/#changelog
+    - https://roumenpetrov.info/secsh/#news20231220
     - https://security-tracker.debian.org/tracker/CVE-2023-48795
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0004/
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
     - https://ubuntu.com/security/CVE-2023-48795
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://ubuntu.com/security/notices/USN-6561-1
+    - https://winscp.net/eng/docs/history#6.2.2
+    - https://www.bitvise.com/ssh-client-version-history#933
     - https://www.bitvise.com/ssh-server-version-history
     - https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html
     - https://www.crushftp.com/crush10wiki/Wiki.jsp?page=Update
     - https://www.cve.org/CVERecord?id=CVE-2023-48795
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.debian.org/security/2023/dsa-5588
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc
+    - https://www.lancom-systems.de/service-support/allgemeine-sicherheitshinweise#c243508
     - https://www.netsarang.com/en/xshell-update-history/
     - https://www.openssh.com/openbsd.html
     - https://www.openssh.com/txt/release-9.6
@@ -2270,8 +2825,141 @@
     - https://www.reddit.com/r/sysadmin/comments/18idv52/cve202348795_why_is_this_cve_still_undisclosed/
     - https://www.suse.com/c/suse-addresses-the-ssh-v2-protocol-terrapin-attack-aka-cve-2023-48795/
     - https://www.terrapin-attack.com
+    - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
+    - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-20T23:15:10.617Z'
+    LastModifiedDate: '2024-01-05T18:15:29.267Z'
+  - VulnerabilityID: CVE-2023-51384
+    PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.4
+    PkgName: openssh-sftp-server
+    InstalledVersion: 1:8.9p1-3ubuntu0.4
+    FixedVersion: 1:8.9p1-3ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51384
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssh: destination constraints only apply to first PKCS#11 key'
+    Description: In ssh-agent in OpenSSH before 9.6, certain destination constraints can be incompletely applied. When destination constraints are specified during addition of PKCS#11-hosted private keys, these constraints are only applied to the first key, even if a PKCS#11 token returns multiple keys.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      nvd: 2
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-51384
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51384
+    - https://github.com/openssh/openssh-portable/commit/881d9c6af9da4257c69c327c4e2f1508b2fa754b
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-51384
+    - https://security.netapp.com/advisory/ntap-20240105-0005/
+    - https://ubuntu.com/security/notices/USN-6565-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-51384
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.openssh.com/txt/release-9.6
+    - https://www.openwall.com/lists/oss-security/2023/12/18/2
+    PublishedDate: '2023-12-18T19:15:08.72Z'
+    LastModifiedDate: '2024-01-05T18:15:29.65Z'
+  - VulnerabilityID: CVE-2023-51385
+    PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.4
+    PkgName: openssh-sftp-server
+    InstalledVersion: 1:8.9p1-3ubuntu0.4
+    FixedVersion: 1:8.9p1-3ubuntu0.6
+    Status: fixed
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51385
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssh: potential command injection via shell metacharacters'
+    Description: In ssh in OpenSSH before 9.6, OS command injection might occur if a user name or host name has shell metacharacters, and this name is referenced by an expansion token in certain situations. For example, an untrusted Git repository can have a submodule with shell metacharacters in a user name or host name.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-78
+    VendorSeverity:
+      cbl-mariner: 2
+      nvd: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/12/26/4
+    - https://access.redhat.com/security/cve/CVE-2023-51385
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51385
+    - https://github.com/openssh/openssh-portable/commit/7ef3787c84b6b524501211b11a26c742f829af1a
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-51385
+    - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0005/
+    - https://ubuntu.com/security/notices/USN-6565-1
+    - https://vin01.github.io/piptagole/ssh/security/openssh/libssh/remote-code-execution/2023/12/20/openssh-proxycommand-libssh-rce.html
+    - https://www.cve.org/CVERecord?id=CVE-2023-51385
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.openssh.com/txt/release-9.6
+    - https://www.openwall.com/lists/oss-security/2023/12/18/2
+    PublishedDate: '2023-12-18T19:15:08.773Z'
+    LastModifiedDate: '2024-01-05T18:15:29.72Z'
+  - VulnerabilityID: CVE-2023-51767
+    PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.4
+    PkgName: openssh-sftp-server
+    InstalledVersion: 1:8.9p1-3ubuntu0.4
+    Status: affected
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51767
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssh: authentication bypass via row hammer attack'
+    Description: 'OpenSSH through 9.6, when common types of DRAM are used, might allow row hammer attacks (for authentication bypass) because the integer value of authenticated in mm_answer_authpassword does not resist flips of a single bit. NOTE: this is applicable to a certain threat model of attacker-victim co-location in which the attacker has user privileges.'
+    Severity: MEDIUM
+    VendorSeverity:
+      nvd: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-51767
+    - https://arxiv.org/abs/2309.02545
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2255850
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51767
+    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
+    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
+    - https://www.cve.org/CVERecord?id=CVE-2023-51767
+    PublishedDate: '2023-12-24T07:15:07.41Z'
+    LastModifiedDate: '2024-01-04T19:18:14.703Z'
   - VulnerabilityID: CVE-2023-28531
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.4
     PkgName: openssh-sftp-server
@@ -2311,9 +2999,10 @@
     - https://security.netapp.com/advisory/ntap-20230413-0008/
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://www.cve.org/CVERecord?id=CVE-2023-28531
+    - https://www.debian.org/security/2023/dsa-5586
     - https://www.openwall.com/lists/oss-security/2023/03/15/8
     PublishedDate: '2023-03-17T04:15:14.553Z'
-    LastModifiedDate: '2023-07-21T19:21:51.437Z'
+    LastModifiedDate: '2023-12-22T13:15:08.797Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: passwd@1:4.8.1-2ubuntu2.1
     PkgName: passwd
@@ -2399,12 +3088,26 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SOX7BCN6YL7B3RFPEEXPIU5CMTEHJOKR/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-06-01T14:15:11.143Z'
+    LastModifiedDate: '2024-01-04T03:15:09.5Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10-minimal@3.10.12-1~22.04.3
     PkgName: python3.10-minimal
@@ -2448,12 +3151,26 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/P2W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PHVGRKQAGANCSGFI3QMYOCIMS4IFOZA5/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/PU6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/RDDC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SINP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/SOX7BCN6YL7B3RFPEEXPIU5CMTEHJOKR/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VZXC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/XWMBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/YQVY5C5REXWJIORJIL2FIL3ALOEJEF72/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-27043
     - https://python-security.readthedocs.io/vuln/email-parseaddr-realname.html
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2023-06-01T14:15:11.143Z'
+    LastModifiedDate: '2024-01-04T03:15:09.5Z'
   - VulnerabilityID: CVE-2023-39804
     PkgID: tar@1.34+dfsg-1ubuntu0.1.22.04.1
     PkgName: tar
@@ -2477,8 +3194,8 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L
-        V3Score: 2.8
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
     References:
     - https://access.redhat.com/security/cve/CVE-2023-39804
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39804
@@ -2735,10 +3452,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48231
+    - https://security.netapp.com/advisory/ntap-20231227-0008/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-11-26T04:15:07.473Z'
+    LastModifiedDate: '2023-12-28T17:39:29.39Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -2781,10 +3499,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48706
+    - https://security.netapp.com/advisory/ntap-20240105-0001/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48706
     PublishedDate: '2023-11-22T22:15:08.673Z'
-    LastModifiedDate: '2023-12-17T03:15:08.343Z'
+    LastModifiedDate: '2024-01-05T18:15:29.133Z'
   - VulnerabilityID: CVE-2022-1725
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -2971,7 +3690,7 @@
     References:
     - http://seclists.org/fulldisclosure/2022/Oct/28
     - http://seclists.org/fulldisclosure/2022/Oct/41
-    - https://access.redhat.com/errata/RHSA-2022:5942
+    - https://access.redhat.com/errata/RHSA-2022:5813
     - https://access.redhat.com/security/cve/CVE-2022-1897
     - https://bugzilla.redhat.com/2088689
     - https://bugzilla.redhat.com/2091682
@@ -2982,7 +3701,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1785
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
-    - https://errata.almalinux.org/9/ALSA-2022-5942.html
+    - https://errata.almalinux.org/8/ALSA-2022-5813.html
     - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
@@ -3047,10 +3766,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48233
+    - https://security.netapp.com/advisory/ntap-20231227-0003/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48233
     PublishedDate: '2023-11-16T23:15:08.997Z'
-    LastModifiedDate: '2023-11-26T04:15:07.68Z'
+    LastModifiedDate: '2023-12-27T15:15:45.297Z'
   - VulnerabilityID: CVE-2023-48234
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -3096,10 +3816,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48234
+    - https://security.netapp.com/advisory/ntap-20231227-0004/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48234
     PublishedDate: '2023-11-16T23:15:09.2Z'
-    LastModifiedDate: '2023-11-26T04:15:07.773Z'
+    LastModifiedDate: '2023-12-27T15:15:45.393Z'
   - VulnerabilityID: CVE-2023-48235
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -3147,10 +3868,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48235
+    - https://security.netapp.com/advisory/ntap-20231227-0007/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48235
     PublishedDate: '2023-11-16T23:15:09.38Z'
-    LastModifiedDate: '2023-11-26T04:15:07.857Z'
+    LastModifiedDate: '2023-12-27T15:15:45.493Z'
   - VulnerabilityID: CVE-2023-48236
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -3198,10 +3920,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48236
+    - https://security.netapp.com/advisory/ntap-20231227-0002/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48236
     PublishedDate: '2023-11-16T23:15:09.567Z'
-    LastModifiedDate: '2023-11-26T04:15:07.943Z'
+    LastModifiedDate: '2023-12-27T15:15:45.593Z'
   - VulnerabilityID: CVE-2023-48237
     PkgID: vim@2:8.2.3995-1ubuntu2.13
     PkgName: vim
@@ -3247,10 +3970,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48237
+    - https://security.netapp.com/advisory/ntap-20231227-0005/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48237
     PublishedDate: '2023-11-16T23:15:09.753Z'
-    LastModifiedDate: '2023-11-26T04:15:08.03Z'
+    LastModifiedDate: '2023-12-27T15:15:45.693Z'
   - VulnerabilityID: CVE-2022-2000
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3458,10 +4182,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48231
+    - https://security.netapp.com/advisory/ntap-20231227-0008/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-11-26T04:15:07.473Z'
+    LastModifiedDate: '2023-12-28T17:39:29.39Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3504,10 +4229,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48706
+    - https://security.netapp.com/advisory/ntap-20240105-0001/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48706
     PublishedDate: '2023-11-22T22:15:08.673Z'
-    LastModifiedDate: '2023-12-17T03:15:08.343Z'
+    LastModifiedDate: '2024-01-05T18:15:29.133Z'
   - VulnerabilityID: CVE-2022-1725
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3694,7 +4420,7 @@
     References:
     - http://seclists.org/fulldisclosure/2022/Oct/28
     - http://seclists.org/fulldisclosure/2022/Oct/41
-    - https://access.redhat.com/errata/RHSA-2022:5942
+    - https://access.redhat.com/errata/RHSA-2022:5813
     - https://access.redhat.com/security/cve/CVE-2022-1897
     - https://bugzilla.redhat.com/2088689
     - https://bugzilla.redhat.com/2091682
@@ -3705,7 +4431,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1785
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
-    - https://errata.almalinux.org/9/ALSA-2022-5942.html
+    - https://errata.almalinux.org/8/ALSA-2022-5813.html
     - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
@@ -3770,10 +4496,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48233
+    - https://security.netapp.com/advisory/ntap-20231227-0003/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48233
     PublishedDate: '2023-11-16T23:15:08.997Z'
-    LastModifiedDate: '2023-11-26T04:15:07.68Z'
+    LastModifiedDate: '2023-12-27T15:15:45.297Z'
   - VulnerabilityID: CVE-2023-48234
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3819,10 +4546,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48234
+    - https://security.netapp.com/advisory/ntap-20231227-0004/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48234
     PublishedDate: '2023-11-16T23:15:09.2Z'
-    LastModifiedDate: '2023-11-26T04:15:07.773Z'
+    LastModifiedDate: '2023-12-27T15:15:45.393Z'
   - VulnerabilityID: CVE-2023-48235
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3870,10 +4598,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48235
+    - https://security.netapp.com/advisory/ntap-20231227-0007/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48235
     PublishedDate: '2023-11-16T23:15:09.38Z'
-    LastModifiedDate: '2023-11-26T04:15:07.857Z'
+    LastModifiedDate: '2023-12-27T15:15:45.493Z'
   - VulnerabilityID: CVE-2023-48236
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3921,10 +4650,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48236
+    - https://security.netapp.com/advisory/ntap-20231227-0002/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48236
     PublishedDate: '2023-11-16T23:15:09.567Z'
-    LastModifiedDate: '2023-11-26T04:15:07.943Z'
+    LastModifiedDate: '2023-12-27T15:15:45.593Z'
   - VulnerabilityID: CVE-2023-48237
     PkgID: vim-common@2:8.2.3995-1ubuntu2.13
     PkgName: vim-common
@@ -3970,10 +4700,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48237
+    - https://security.netapp.com/advisory/ntap-20231227-0005/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48237
     PublishedDate: '2023-11-16T23:15:09.753Z'
-    LastModifiedDate: '2023-11-26T04:15:08.03Z'
+    LastModifiedDate: '2023-12-27T15:15:45.693Z'
   - VulnerabilityID: CVE-2022-2000
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4181,10 +4912,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48231
+    - https://security.netapp.com/advisory/ntap-20231227-0008/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-11-26T04:15:07.473Z'
+    LastModifiedDate: '2023-12-28T17:39:29.39Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4227,10 +4959,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48706
+    - https://security.netapp.com/advisory/ntap-20240105-0001/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48706
     PublishedDate: '2023-11-22T22:15:08.673Z'
-    LastModifiedDate: '2023-12-17T03:15:08.343Z'
+    LastModifiedDate: '2024-01-05T18:15:29.133Z'
   - VulnerabilityID: CVE-2022-1725
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4417,7 +5150,7 @@
     References:
     - http://seclists.org/fulldisclosure/2022/Oct/28
     - http://seclists.org/fulldisclosure/2022/Oct/41
-    - https://access.redhat.com/errata/RHSA-2022:5942
+    - https://access.redhat.com/errata/RHSA-2022:5813
     - https://access.redhat.com/security/cve/CVE-2022-1897
     - https://bugzilla.redhat.com/2088689
     - https://bugzilla.redhat.com/2091682
@@ -4428,7 +5161,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1785
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
-    - https://errata.almalinux.org/9/ALSA-2022-5942.html
+    - https://errata.almalinux.org/8/ALSA-2022-5813.html
     - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
@@ -4493,10 +5226,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48233
+    - https://security.netapp.com/advisory/ntap-20231227-0003/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48233
     PublishedDate: '2023-11-16T23:15:08.997Z'
-    LastModifiedDate: '2023-11-26T04:15:07.68Z'
+    LastModifiedDate: '2023-12-27T15:15:45.297Z'
   - VulnerabilityID: CVE-2023-48234
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4542,10 +5276,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48234
+    - https://security.netapp.com/advisory/ntap-20231227-0004/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48234
     PublishedDate: '2023-11-16T23:15:09.2Z'
-    LastModifiedDate: '2023-11-26T04:15:07.773Z'
+    LastModifiedDate: '2023-12-27T15:15:45.393Z'
   - VulnerabilityID: CVE-2023-48235
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4593,10 +5328,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48235
+    - https://security.netapp.com/advisory/ntap-20231227-0007/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48235
     PublishedDate: '2023-11-16T23:15:09.38Z'
-    LastModifiedDate: '2023-11-26T04:15:07.857Z'
+    LastModifiedDate: '2023-12-27T15:15:45.493Z'
   - VulnerabilityID: CVE-2023-48236
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4644,10 +5380,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48236
+    - https://security.netapp.com/advisory/ntap-20231227-0002/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48236
     PublishedDate: '2023-11-16T23:15:09.567Z'
-    LastModifiedDate: '2023-11-26T04:15:07.943Z'
+    LastModifiedDate: '2023-12-27T15:15:45.593Z'
   - VulnerabilityID: CVE-2023-48237
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.13
     PkgName: vim-runtime
@@ -4693,10 +5430,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48237
+    - https://security.netapp.com/advisory/ntap-20231227-0005/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48237
     PublishedDate: '2023-11-16T23:15:09.753Z'
-    LastModifiedDate: '2023-11-26T04:15:08.03Z'
+    LastModifiedDate: '2023-12-27T15:15:45.693Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1
     PkgName: wget
@@ -4711,7 +5449,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: authorization header disclosure on redirect
+    Title: 'wget: authorization header disclosure on redirect'
     Description: GNU Wget through 1.21.1 does not omit the Authorization header upon a redirect to a different origin, a related issue to CVE-2018-1000007.
     Severity: MEDIUM
     CweIDs:
@@ -4949,10 +5687,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48231
+    - https://security.netapp.com/advisory/ntap-20231227-0008/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48231
     PublishedDate: '2023-11-16T23:15:08.607Z'
-    LastModifiedDate: '2023-11-26T04:15:07.473Z'
+    LastModifiedDate: '2023-12-28T17:39:29.39Z'
   - VulnerabilityID: CVE-2023-48706
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -4995,10 +5734,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DNMFS3IH74KEMMESOA3EOB6MZ56TWGFF/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IVA7K73WHQH4KVFDJQ7ELIUD2WK5ZT5E/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48706
+    - https://security.netapp.com/advisory/ntap-20240105-0001/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48706
     PublishedDate: '2023-11-22T22:15:08.673Z'
-    LastModifiedDate: '2023-12-17T03:15:08.343Z'
+    LastModifiedDate: '2024-01-05T18:15:29.133Z'
   - VulnerabilityID: CVE-2022-1725
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -5185,7 +5925,7 @@
     References:
     - http://seclists.org/fulldisclosure/2022/Oct/28
     - http://seclists.org/fulldisclosure/2022/Oct/41
-    - https://access.redhat.com/errata/RHSA-2022:5942
+    - https://access.redhat.com/errata/RHSA-2022:5813
     - https://access.redhat.com/security/cve/CVE-2022-1897
     - https://bugzilla.redhat.com/2088689
     - https://bugzilla.redhat.com/2091682
@@ -5196,7 +5936,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1785
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
-    - https://errata.almalinux.org/9/ALSA-2022-5942.html
+    - https://errata.almalinux.org/8/ALSA-2022-5813.html
     - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
@@ -5261,10 +6001,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48233
+    - https://security.netapp.com/advisory/ntap-20231227-0003/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48233
     PublishedDate: '2023-11-16T23:15:08.997Z'
-    LastModifiedDate: '2023-11-26T04:15:07.68Z'
+    LastModifiedDate: '2023-12-27T15:15:45.297Z'
   - VulnerabilityID: CVE-2023-48234
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -5310,10 +6051,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48234
+    - https://security.netapp.com/advisory/ntap-20231227-0004/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48234
     PublishedDate: '2023-11-16T23:15:09.2Z'
-    LastModifiedDate: '2023-11-26T04:15:07.773Z'
+    LastModifiedDate: '2023-12-27T15:15:45.393Z'
   - VulnerabilityID: CVE-2023-48235
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -5361,10 +6103,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48235
+    - https://security.netapp.com/advisory/ntap-20231227-0007/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48235
     PublishedDate: '2023-11-16T23:15:09.38Z'
-    LastModifiedDate: '2023-11-26T04:15:07.857Z'
+    LastModifiedDate: '2023-12-27T15:15:45.493Z'
   - VulnerabilityID: CVE-2023-48236
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -5412,10 +6155,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48236
+    - https://security.netapp.com/advisory/ntap-20231227-0002/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48236
     PublishedDate: '2023-11-16T23:15:09.567Z'
-    LastModifiedDate: '2023-11-26T04:15:07.943Z'
+    LastModifiedDate: '2023-12-27T15:15:45.593Z'
   - VulnerabilityID: CVE-2023-48237
     PkgID: xxd@2:8.2.3995-1ubuntu2.13
     PkgName: xxd
@@ -5461,10 +6205,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/M3VQF7CL3V6FGSEW37WNDFBRRILR65AK/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VNRNYLWXZOGTYWE5HMFNQ5FVE3HBUHF6/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48237
+    - https://security.netapp.com/advisory/ntap-20231227-0005/
     - https://ubuntu.com/security/notices/USN-6557-1
     - https://www.cve.org/CVERecord?id=CVE-2023-48237
     PublishedDate: '2023-11-16T23:15:09.753Z'
-    LastModifiedDate: '2023-11-26T04:15:08.03Z'
+    LastModifiedDate: '2023-12-27T15:15:45.693Z'
   - VulnerabilityID: CVE-2020-22916
     PkgID: xz-utils@5.2.5-2ubuntu1
     PkgName: xz-utils
@@ -5711,7 +6456,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/errata/RHSA-2023:5863
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -5721,7 +6466,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.almalinux.org/8/ALSA-2023-5863.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
@@ -5797,12 +6542,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/errata/RHSA-2023:6939
     - https://access.redhat.com/security/cve/CVE-2023-3978
+    - https://bugzilla.redhat.com/2163037
     - https://bugzilla.redhat.com/2174485
+    - https://bugzilla.redhat.com/2175721
     - https://bugzilla.redhat.com/2178358
     - https://bugzilla.redhat.com/2178488
     - https://bugzilla.redhat.com/2178492
+    - https://bugzilla.redhat.com/2182883
+    - https://bugzilla.redhat.com/2182884
     - https://bugzilla.redhat.com/2184481
     - https://bugzilla.redhat.com/2184482
     - https://bugzilla.redhat.com/2184483
@@ -5812,7 +6561,7 @@
     - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
     - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://errata.almalinux.org/8/ALSA-2023-6939.html
     - https://go.dev/cl/514896
     - https://go.dev/issue/61615
     - https://linux.oracle.com/cve/CVE-2023-3978.html
@@ -5873,7 +6622,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/errata/RHSA-2023:7205
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -5885,6 +6634,11 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2244104
+    - https://bugzilla.redhat.com/2244413
+    - https://bugzilla.redhat.com/2244414
+    - https://bugzilla.redhat.com/2244415
+    - https://bugzilla.redhat.com/2244418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -5896,7 +6650,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-6746.html
+    - https://errata.almalinux.org/8/ALSA-2023-7205.html
     - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
@@ -6028,6 +6782,9 @@
     - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
+    - https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.0-M12
+    - https://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.94
+    - https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.81
     - https://ubuntu.com/security/CVE-2023-44487
     - https://ubuntu.com/security/notices/USN-6427-1
     - https://ubuntu.com/security/notices/USN-6427-2
@@ -6100,7 +6857,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/errata/RHSA-2023:5863
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -6110,7 +6867,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.almalinux.org/8/ALSA-2023-5863.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
@@ -6186,12 +6943,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/errata/RHSA-2023:6939
     - https://access.redhat.com/security/cve/CVE-2023-3978
+    - https://bugzilla.redhat.com/2163037
     - https://bugzilla.redhat.com/2174485
+    - https://bugzilla.redhat.com/2175721
     - https://bugzilla.redhat.com/2178358
     - https://bugzilla.redhat.com/2178488
     - https://bugzilla.redhat.com/2178492
+    - https://bugzilla.redhat.com/2182883
+    - https://bugzilla.redhat.com/2182884
     - https://bugzilla.redhat.com/2184481
     - https://bugzilla.redhat.com/2184482
     - https://bugzilla.redhat.com/2184483
@@ -6201,7 +6962,7 @@
     - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
     - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://errata.almalinux.org/8/ALSA-2023-6939.html
     - https://go.dev/cl/514896
     - https://go.dev/issue/61615
     - https://linux.oracle.com/cve/CVE-2023-3978.html
@@ -6262,7 +7023,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/errata/RHSA-2023:7205
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -6274,6 +7035,11 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2244104
+    - https://bugzilla.redhat.com/2244413
+    - https://bugzilla.redhat.com/2244414
+    - https://bugzilla.redhat.com/2244415
+    - https://bugzilla.redhat.com/2244418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -6285,7 +7051,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-6746.html
+    - https://errata.almalinux.org/8/ALSA-2023-7205.html
     - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
@@ -6417,6 +7183,9 @@
     - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
+    - https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.0-M12
+    - https://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.94
+    - https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.81
     - https://ubuntu.com/security/CVE-2023-44487
     - https://ubuntu.com/security/notices/USN-6427-1
     - https://ubuntu.com/security/notices/USN-6427-2
@@ -6649,15 +7418,21 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
-    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust; and there could be effects on Bitvise SSH through 9.31.
+    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -6676,15 +7451,19 @@
     - https://bugzilla.suse.com/show_bug.cgi?id=1217950
     - https://crates.io/crates/thrussh/versions
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
+    - https://filezilla-project.org/versions.php
     - https://forum.netgate.com/topic/184941/terrapin-ssh-attack
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6
     - https://github.com/NixOS/nixpkgs/pull/275249
+    - https://github.com/PowerShell/Win32-OpenSSH/issues/2189
+    - https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v9.5.0.0p1-Beta
     - https://github.com/TeraTermProject/teraterm/commit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
     - https://github.com/TeraTermProject/teraterm/releases/tag/v5.1
     - https://github.com/advisories/GHSA-45x7-px36-x8w8
     - https://github.com/apache/mina-sshd/issues/445
     - https://github.com/connectbot/sshlib/commit/5c8b534f6e97db7ac0e0e579331213aa25c173ab
     - https://github.com/connectbot/sshlib/compare/2.2.21...2.2.22
+    - https://github.com/cyd01/KiTTY/issues/520
     - https://github.com/drakkan/sftpgo/releases/tag/v2.5.6
     - https://github.com/erlang/otp/blob/d1b43dc0f1361d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml#L39-L42
     - https://github.com/erlang/otp/releases/tag/OTP-26.2.1
@@ -6709,6 +7488,7 @@
     - https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst
     - https://github.com/ronf/asyncssh/security/advisories/GHSA-hfmc-7525-mj55
     - https://github.com/ronf/asyncssh/tags
+    - https://github.com/ssh-mitm/ssh-mitm/issues/165
     - https://github.com/warp-tech/russh
     - https://github.com/warp-tech/russh/commit/1aa340a7df1d5be1c0f4a9e247aade76dfdd2951
     - https://github.com/warp-tech/russh/releases/tag/v0.40.2
@@ -6718,28 +7498,47 @@
     - https://go.dev/issue/64784
     - https://groups.google.com/g/golang-announce/c/-n5WqVC18LQ
     - https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg
+    - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
     - https://nest.pijul.com/pijul/thrussh/changes/D6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
     - https://news.ycombinator.com/item?id=38684904
     - https://news.ycombinator.com/item?id=38685286
+    - https://news.ycombinator.com/item?id=38732005
+    - https://nova.app/releases/#v11.8
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48795
     - https://oryx-embedded.com/download/#changelog
+    - https://roumenpetrov.info/secsh/#news20231220
     - https://security-tracker.debian.org/tracker/CVE-2023-48795
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0004/
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
     - https://ubuntu.com/security/CVE-2023-48795
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://ubuntu.com/security/notices/USN-6561-1
+    - https://winscp.net/eng/docs/history#6.2.2
+    - https://www.bitvise.com/ssh-client-version-history#933
     - https://www.bitvise.com/ssh-server-version-history
     - https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html
     - https://www.crushftp.com/crush10wiki/Wiki.jsp?page=Update
     - https://www.cve.org/CVERecord?id=CVE-2023-48795
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.debian.org/security/2023/dsa-5588
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc
+    - https://www.lancom-systems.de/service-support/allgemeine-sicherheitshinweise#c243508
     - https://www.netsarang.com/en/xshell-update-history/
     - https://www.openssh.com/openbsd.html
     - https://www.openssh.com/txt/release-9.6
@@ -6750,8 +7549,10 @@
     - https://www.reddit.com/r/sysadmin/comments/18idv52/cve202348795_why_is_this_cve_still_undisclosed/
     - https://www.suse.com/c/suse-addresses-the-ssh-v2-protocol-terrapin-attack-aka-cve-2023-48795/
     - https://www.terrapin-attack.com
+    - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
+    - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-20T23:15:10.617Z'
+    LastModifiedDate: '2024-01-05T18:15:29.267Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -6817,15 +7618,21 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
-    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust; and there could be effects on Bitvise SSH through 9.31.
+    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -6844,15 +7651,19 @@
     - https://bugzilla.suse.com/show_bug.cgi?id=1217950
     - https://crates.io/crates/thrussh/versions
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
+    - https://filezilla-project.org/versions.php
     - https://forum.netgate.com/topic/184941/terrapin-ssh-attack
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6
     - https://github.com/NixOS/nixpkgs/pull/275249
+    - https://github.com/PowerShell/Win32-OpenSSH/issues/2189
+    - https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v9.5.0.0p1-Beta
     - https://github.com/TeraTermProject/teraterm/commit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
     - https://github.com/TeraTermProject/teraterm/releases/tag/v5.1
     - https://github.com/advisories/GHSA-45x7-px36-x8w8
     - https://github.com/apache/mina-sshd/issues/445
     - https://github.com/connectbot/sshlib/commit/5c8b534f6e97db7ac0e0e579331213aa25c173ab
     - https://github.com/connectbot/sshlib/compare/2.2.21...2.2.22
+    - https://github.com/cyd01/KiTTY/issues/520
     - https://github.com/drakkan/sftpgo/releases/tag/v2.5.6
     - https://github.com/erlang/otp/blob/d1b43dc0f1361d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml#L39-L42
     - https://github.com/erlang/otp/releases/tag/OTP-26.2.1
@@ -6877,6 +7688,7 @@
     - https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst
     - https://github.com/ronf/asyncssh/security/advisories/GHSA-hfmc-7525-mj55
     - https://github.com/ronf/asyncssh/tags
+    - https://github.com/ssh-mitm/ssh-mitm/issues/165
     - https://github.com/warp-tech/russh
     - https://github.com/warp-tech/russh/commit/1aa340a7df1d5be1c0f4a9e247aade76dfdd2951
     - https://github.com/warp-tech/russh/releases/tag/v0.40.2
@@ -6886,28 +7698,47 @@
     - https://go.dev/issue/64784
     - https://groups.google.com/g/golang-announce/c/-n5WqVC18LQ
     - https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg
+    - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
     - https://nest.pijul.com/pijul/thrussh/changes/D6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
     - https://news.ycombinator.com/item?id=38684904
     - https://news.ycombinator.com/item?id=38685286
+    - https://news.ycombinator.com/item?id=38732005
+    - https://nova.app/releases/#v11.8
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48795
     - https://oryx-embedded.com/download/#changelog
+    - https://roumenpetrov.info/secsh/#news20231220
     - https://security-tracker.debian.org/tracker/CVE-2023-48795
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0004/
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
     - https://ubuntu.com/security/CVE-2023-48795
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://ubuntu.com/security/notices/USN-6561-1
+    - https://winscp.net/eng/docs/history#6.2.2
+    - https://www.bitvise.com/ssh-client-version-history#933
     - https://www.bitvise.com/ssh-server-version-history
     - https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html
     - https://www.crushftp.com/crush10wiki/Wiki.jsp?page=Update
     - https://www.cve.org/CVERecord?id=CVE-2023-48795
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.debian.org/security/2023/dsa-5588
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc
+    - https://www.lancom-systems.de/service-support/allgemeine-sicherheitshinweise#c243508
     - https://www.netsarang.com/en/xshell-update-history/
     - https://www.openssh.com/openbsd.html
     - https://www.openssh.com/txt/release-9.6
@@ -6918,8 +7749,10 @@
     - https://www.reddit.com/r/sysadmin/comments/18idv52/cve202348795_why_is_this_cve_still_undisclosed/
     - https://www.suse.com/c/suse-addresses-the-ssh-v2-protocol-terrapin-attack-aka-cve-2023-48795/
     - https://www.terrapin-attack.com
+    - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
+    - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-20T23:15:10.617Z'
+    LastModifiedDate: '2024-01-05T18:15:29.267Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -6939,15 +7772,21 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
-    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust; and there could be effects on Bitvise SSH through 9.31.
+    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -6966,15 +7805,19 @@
     - https://bugzilla.suse.com/show_bug.cgi?id=1217950
     - https://crates.io/crates/thrussh/versions
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
+    - https://filezilla-project.org/versions.php
     - https://forum.netgate.com/topic/184941/terrapin-ssh-attack
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6
     - https://github.com/NixOS/nixpkgs/pull/275249
+    - https://github.com/PowerShell/Win32-OpenSSH/issues/2189
+    - https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v9.5.0.0p1-Beta
     - https://github.com/TeraTermProject/teraterm/commit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
     - https://github.com/TeraTermProject/teraterm/releases/tag/v5.1
     - https://github.com/advisories/GHSA-45x7-px36-x8w8
     - https://github.com/apache/mina-sshd/issues/445
     - https://github.com/connectbot/sshlib/commit/5c8b534f6e97db7ac0e0e579331213aa25c173ab
     - https://github.com/connectbot/sshlib/compare/2.2.21...2.2.22
+    - https://github.com/cyd01/KiTTY/issues/520
     - https://github.com/drakkan/sftpgo/releases/tag/v2.5.6
     - https://github.com/erlang/otp/blob/d1b43dc0f1361d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml#L39-L42
     - https://github.com/erlang/otp/releases/tag/OTP-26.2.1
@@ -6999,6 +7842,7 @@
     - https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst
     - https://github.com/ronf/asyncssh/security/advisories/GHSA-hfmc-7525-mj55
     - https://github.com/ronf/asyncssh/tags
+    - https://github.com/ssh-mitm/ssh-mitm/issues/165
     - https://github.com/warp-tech/russh
     - https://github.com/warp-tech/russh/commit/1aa340a7df1d5be1c0f4a9e247aade76dfdd2951
     - https://github.com/warp-tech/russh/releases/tag/v0.40.2
@@ -7008,28 +7852,47 @@
     - https://go.dev/issue/64784
     - https://groups.google.com/g/golang-announce/c/-n5WqVC18LQ
     - https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg
+    - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
     - https://nest.pijul.com/pijul/thrussh/changes/D6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
     - https://news.ycombinator.com/item?id=38684904
     - https://news.ycombinator.com/item?id=38685286
+    - https://news.ycombinator.com/item?id=38732005
+    - https://nova.app/releases/#v11.8
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48795
     - https://oryx-embedded.com/download/#changelog
+    - https://roumenpetrov.info/secsh/#news20231220
     - https://security-tracker.debian.org/tracker/CVE-2023-48795
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0004/
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
     - https://ubuntu.com/security/CVE-2023-48795
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://ubuntu.com/security/notices/USN-6561-1
+    - https://winscp.net/eng/docs/history#6.2.2
+    - https://www.bitvise.com/ssh-client-version-history#933
     - https://www.bitvise.com/ssh-server-version-history
     - https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html
     - https://www.crushftp.com/crush10wiki/Wiki.jsp?page=Update
     - https://www.cve.org/CVERecord?id=CVE-2023-48795
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.debian.org/security/2023/dsa-5588
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc
+    - https://www.lancom-systems.de/service-support/allgemeine-sicherheitshinweise#c243508
     - https://www.netsarang.com/en/xshell-update-history/
     - https://www.openssh.com/openbsd.html
     - https://www.openssh.com/txt/release-9.6
@@ -7040,8 +7903,10 @@
     - https://www.reddit.com/r/sysadmin/comments/18idv52/cve202348795_why_is_this_cve_still_undisclosed/
     - https://www.suse.com/c/suse-addresses-the-ssh-v2-protocol-terrapin-attack-aka-cve-2023-48795/
     - https://www.terrapin-attack.com
+    - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
+    - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-20T23:15:10.617Z'
+    LastModifiedDate: '2024-01-05T18:15:29.267Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -7095,7 +7960,7 @@
   - VulnerabilityID: GHSA-jq35-85cj-fj4p
     PkgName: github.com/docker/docker
     InstalledVersion: v24.0.5+incompatible
-    FixedVersion: 24.0.7
+    FixedVersion: 24.0.7, 23.0.8, 20.10.27
     Status: fixed
     Layer:
       Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
@@ -7133,6 +7998,12 @@
       ghsa: 2
     References:
     - https://github.com/moby/moby
+    - https://github.com/moby/moby/commit/48ebe353e49a9def5e6679f6e386b0efb1c95f0e
+    - https://github.com/moby/moby/commit/81ebe71275768629689a23bc3bca34b3b374a6a6
+    - https://github.com/moby/moby/commit/c9ccbfad11a60e703e91b6cca4f48927828c7e35
+    - https://github.com/moby/moby/releases/tag/v20.10.27
+    - https://github.com/moby/moby/releases/tag/v23.0.8
+    - https://github.com/moby/moby/releases/tag/v24.0.7
     - https://github.com/moby/moby/security/advisories/GHSA-jq35-85cj-fj4p
   - VulnerabilityID: CVE-2023-48795
     PkgName: golang.org/x/crypto
@@ -7149,15 +8020,21 @@
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: 'ssh: Prefix truncation attack on Binary Packet Protocol (BPP)'
-    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust; and there could be effects on Bitvise SSH through 9.31.
+    Description: The SSH transport protocol with certain OpenSSH extensions, found in OpenSSH before 9.6 and other products, allows remote attackers to bypass integrity checks such that some packets are omitted (from the extension negotiation message), and a client and server may consequently end up with a connection for which some security features have been downgraded or disabled, aka a Terrapin attack. This occurs because the SSH Binary Packet Protocol (BPP), implemented by these extensions, mishandles the handshake phase and mishandles use of sequence numbers. For example, there is an effective attack against SSH's use of ChaCha20-Poly1305 (and CBC with Encrypt-then-MAC). The bypass occurs in chacha20-poly1305@openssh.com and (if CBC is used) the -etm@openssh.com MAC algorithms. This also affects Maverick Synergy Java SSH API before 3.1.0-SNAPSHOT, Dropbear through 2022.83, Ssh before 5.1.1 in Erlang/OTP, PuTTY before 0.80, AsyncSSH before 2.14.2, golang.org/x/crypto before 0.17.0, libssh before 0.10.6, libssh2 through 1.11.0, Thorn Tech SFTP Gateway before 3.4.6, Tera Term before 5.1, Paramiko before 3.4.0, jsch before 0.2.15, SFTPGo before 2.5.6, Netgate pfSense Plus through 23.09.1, Netgate pfSense CE through 2.7.2, HPN-SSH through 18.2.0, ProFTPD before 1.3.8b (and before 1.3.9rc2), ORYX CycloneSSH before 2.3.4, NetSarang XShell 7 before Build 0144, CrushFTP before 10.6.0, ConnectBot SSH library before 2.2.22, Apache MINA sshd through 2.11.0, sshj through 0.37.0, TinySSH through 20230101, trilead-ssh2 6401, LANCOM LCOS and LANconfig, FileZilla before 3.66.4, Nova before 11.8, PKIX-SSH before 14.4, SecureCRT before 9.4.3, Transmit5 before 5.10.4, Win32-OpenSSH before 9.5.0.0p1-Beta, WinSCP before 6.2.2, Bitvise SSH Server before 9.32, Bitvise SSH Client before 9.33, KiTTY through 0.76.1.13, the net-ssh gem 7.2.0 for Ruby, the mscdex ssh2 module before 1.15.0 for Node.js, the thrussh library before 0.35.1 for Rust, and the Russh crate before 0.40.2 for Rust.
     Severity: MEDIUM
+    CweIDs:
+    - CWE-354
     VendorSeverity:
       amazon: 2
       ghsa: 2
+      nvd: 2
       redhat: 2
       ubuntu: 2
     CVSS:
       ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+      nvd:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
         V3Score: 5.9
       redhat:
@@ -7176,15 +8053,19 @@
     - https://bugzilla.suse.com/show_bug.cgi?id=1217950
     - https://crates.io/crates/thrussh/versions
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
+    - https://filezilla-project.org/versions.php
     - https://forum.netgate.com/topic/184941/terrapin-ssh-attack
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6
     - https://github.com/NixOS/nixpkgs/pull/275249
+    - https://github.com/PowerShell/Win32-OpenSSH/issues/2189
+    - https://github.com/PowerShell/Win32-OpenSSH/releases/tag/v9.5.0.0p1-Beta
     - https://github.com/TeraTermProject/teraterm/commit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0
     - https://github.com/TeraTermProject/teraterm/releases/tag/v5.1
     - https://github.com/advisories/GHSA-45x7-px36-x8w8
     - https://github.com/apache/mina-sshd/issues/445
     - https://github.com/connectbot/sshlib/commit/5c8b534f6e97db7ac0e0e579331213aa25c173ab
     - https://github.com/connectbot/sshlib/compare/2.2.21...2.2.22
+    - https://github.com/cyd01/KiTTY/issues/520
     - https://github.com/drakkan/sftpgo/releases/tag/v2.5.6
     - https://github.com/erlang/otp/blob/d1b43dc0f1361d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.xml#L39-L42
     - https://github.com/erlang/otp/releases/tag/OTP-26.2.1
@@ -7209,6 +8090,7 @@
     - https://github.com/ronf/asyncssh/blob/develop/docs/changes.rst
     - https://github.com/ronf/asyncssh/security/advisories/GHSA-hfmc-7525-mj55
     - https://github.com/ronf/asyncssh/tags
+    - https://github.com/ssh-mitm/ssh-mitm/issues/165
     - https://github.com/warp-tech/russh
     - https://github.com/warp-tech/russh/commit/1aa340a7df1d5be1c0f4a9e247aade76dfdd2951
     - https://github.com/warp-tech/russh/releases/tag/v0.40.2
@@ -7218,28 +8100,47 @@
     - https://go.dev/issue/64784
     - https://groups.google.com/g/golang-announce/c/-n5WqVC18LQ
     - https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg
+    - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
+    - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
     - https://nest.pijul.com/pijul/thrussh/changes/D6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
     - https://news.ycombinator.com/item?id=38684904
     - https://news.ycombinator.com/item?id=38685286
+    - https://news.ycombinator.com/item?id=38732005
+    - https://nova.app/releases/#v11.8
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48795
     - https://oryx-embedded.com/download/#changelog
+    - https://roumenpetrov.info/secsh/#news20231220
     - https://security-tracker.debian.org/tracker/CVE-2023-48795
     - https://security-tracker.debian.org/tracker/source-package/libssh2
     - https://security-tracker.debian.org/tracker/source-package/proftpd-dfsg
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
+    - https://security.gentoo.org/glsa/202312-16
+    - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0004/
     - https://terrapin-attack.com/
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
     - https://ubuntu.com/security/CVE-2023-48795
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://ubuntu.com/security/notices/USN-6561-1
+    - https://winscp.net/eng/docs/history#6.2.2
+    - https://www.bitvise.com/ssh-client-version-history#933
     - https://www.bitvise.com/ssh-server-version-history
     - https://www.chiark.greenend.org.uk/~sgtatham/putty/changes.html
     - https://www.crushftp.com/crush10wiki/Wiki.jsp?page=Update
     - https://www.cve.org/CVERecord?id=CVE-2023-48795
+    - https://www.debian.org/security/2023/dsa-5586
+    - https://www.debian.org/security/2023/dsa-5588
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc
+    - https://www.lancom-systems.de/service-support/allgemeine-sicherheitshinweise#c243508
     - https://www.netsarang.com/en/xshell-update-history/
     - https://www.openssh.com/openbsd.html
     - https://www.openssh.com/txt/release-9.6
@@ -7250,8 +8151,10 @@
     - https://www.reddit.com/r/sysadmin/comments/18idv52/cve202348795_why_is_this_cve_still_undisclosed/
     - https://www.suse.com/c/suse-addresses-the-ssh-v2-protocol-terrapin-attack-aka-cve-2023-48795/
     - https://www.terrapin-attack.com
+    - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
+    - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2023-12-20T23:15:10.617Z'
+    LastModifiedDate: '2024-01-05T18:15:29.267Z'
   - VulnerabilityID: CVE-2023-39325
     PkgName: golang.org/x/net
     InstalledVersion: v0.10.0
@@ -7296,7 +8199,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/errata/RHSA-2023:5863
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -7306,7 +8209,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.almalinux.org/8/ALSA-2023-5863.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
@@ -7382,12 +8285,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/errata/RHSA-2023:6939
     - https://access.redhat.com/security/cve/CVE-2023-3978
+    - https://bugzilla.redhat.com/2163037
     - https://bugzilla.redhat.com/2174485
+    - https://bugzilla.redhat.com/2175721
     - https://bugzilla.redhat.com/2178358
     - https://bugzilla.redhat.com/2178488
     - https://bugzilla.redhat.com/2178492
+    - https://bugzilla.redhat.com/2182883
+    - https://bugzilla.redhat.com/2182884
     - https://bugzilla.redhat.com/2184481
     - https://bugzilla.redhat.com/2184482
     - https://bugzilla.redhat.com/2184483
@@ -7397,7 +8304,7 @@
     - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
     - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://errata.almalinux.org/8/ALSA-2023-6939.html
     - https://go.dev/cl/514896
     - https://go.dev/issue/61615
     - https://linux.oracle.com/cve/CVE-2023-3978.html
@@ -7458,7 +8365,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/errata/RHSA-2023:7205
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -7470,6 +8377,11 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2244104
+    - https://bugzilla.redhat.com/2244413
+    - https://bugzilla.redhat.com/2244414
+    - https://bugzilla.redhat.com/2244415
+    - https://bugzilla.redhat.com/2244418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -7481,7 +8393,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-6746.html
+    - https://errata.almalinux.org/8/ALSA-2023-7205.html
     - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
@@ -7613,6 +8525,9 @@
     - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
+    - https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.0-M12
+    - https://tomcat.apache.org/security-8.html#Fixed_in_Apache_Tomcat_8.5.94
+    - https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.81
     - https://ubuntu.com/security/CVE-2023-44487
     - https://ubuntu.com/security/notices/USN-6427-1
     - https://ubuntu.com/security/notices/USN-6427-2
@@ -7637,37 +8552,6 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
     LastModifiedDate: '2023-12-20T17:55:36.74Z'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
-      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -7757,6 +8641,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
+      DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:6edd81b8ebc78a810bde070ac6cf591adc6f7f3c4b96c70bcacdbe047196b816
       DiffID: sha256:b30f69f9f2bba40f2e22c2137284112da6a90e2cbd1c503b3e027ac3c23c6e8a
