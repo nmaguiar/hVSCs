@@ -319,7 +319,9 @@
     - https://access.redhat.com/security/cve/CVE-2022-27943
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1a770b01ef415e114164b6151d1e55acdee09371
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=fc968115a742d9e4674d9725ce9c2106b91b6ead
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
@@ -905,7 +907,9 @@
     - https://access.redhat.com/security/cve/CVE-2022-27943
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1a770b01ef415e114164b6151d1e55acdee09371
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=fc968115a742d9e4674d9725ce9c2106b91b6ead
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
@@ -1069,7 +1073,9 @@
     - https://access.redhat.com/security/cve/CVE-2022-27943
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1a770b01ef415e114164b6151d1e55acdee09371
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=fc968115a742d9e4674d9725ce9c2106b91b6ead
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
@@ -1559,6 +1565,65 @@
     - https://www.libssh.org/security/advisories/CVE-2023-6918.txt
     PublishedDate: '2023-12-19T00:15:08.46Z'
     LastModifiedDate: '2024-01-04T20:21:35.297Z'
+  - VulnerabilityID: CVE-2023-6129
+    PkgID: libssl3@3.0.2-0ubuntu1.12
+    PkgName: libssl3
+    InstalledVersion: 3.0.2-0ubuntu1.12
+    Status: affected
+    Layer:
+      Digest: sha256:2021ca1e80586edf71b5f882fd0f1f35c6ff1a5d83022188f73aabdc091977f5
+      DiffID: sha256:c7fcf93b0b5e1945a4c4f6c5b4fe26afeee28aa2062f5727eaef472b4e2cae36
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6129
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'Issue summary: The POLY1305 MAC (message authentication code) implemen ...'
+    Description: |-
+      Issue summary: The POLY1305 MAC (message authentication code) implementation
+      contains a bug that might corrupt the internal state of applications running
+      on PowerPC CPU based platforms if the CPU provides vector instructions.
+
+      Impact summary: If an attacker can influence whether the POLY1305 MAC
+      algorithm is used, the application state might be corrupted with various
+      application dependent consequences.
+
+      The POLY1305 MAC (message authentication code) implementation in OpenSSL for
+      PowerPC CPUs restores the contents of vector registers in a different order
+      than they are saved. Thus the contents of some of these vector registers
+      are corrupted when returning to the caller. The vulnerable code is used only
+      on newer PowerPC processors supporting the PowerISA 2.07 instructions.
+
+      The consequences of this kind of internal application state corruption can
+      be various - from no consequences, if the calling application does not
+      depend on the contents of non-volatile XMM registers at all, to the worst
+      consequences, where the attacker could get complete control of the application
+      process. However unless the compiler uses the vector registers for storing
+      pointers, the most likely consequence, if any, would be an incorrect result
+      of some application dependent calculations or a crash leading to a denial of
+      service.
+
+      The POLY1305 MAC algorithm is most frequently used as part of the
+      CHACHA20-POLY1305 AEAD (authenticated encryption with associated data)
+      algorithm. The most common usage of this AEAD cipher is with TLS protocol
+      versions 1.2 and 1.3. If this cipher is enabled on the server a malicious
+      client can influence whether this AEAD cipher is used. This implies that
+      TLS server applications using OpenSSL can be potentially impacted. However
+      we are currently not aware of any concrete application that would be affected
+      by this issue therefore we consider this a Low severity security issue.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/01/09/1
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
+    - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
+    - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
+    - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
+    - https://www.openssl.org/news/secadv/20240109.txt
+    PublishedDate: '2024-01-09T17:15:12.147Z'
+    LastModifiedDate: '2024-01-09T19:56:14.023Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
@@ -1596,7 +1661,9 @@
     - https://access.redhat.com/security/cve/CVE-2022-27943
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1a770b01ef415e114164b6151d1e55acdee09371
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
+    - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=fc968115a742d9e4674d9725ce9c2106b91b6ead
     - https://gcc.gnu.org/pipermail/gcc-patches/2022-March/592244.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/H424YXGW7OKXS2NCAP35OP6Y4P4AW6VG/
     - https://nvd.nist.gov/vuln/detail/CVE-2022-27943
@@ -1901,6 +1968,65 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-51767
     PublishedDate: '2023-12-24T07:15:07.41Z'
     LastModifiedDate: '2024-01-04T19:18:14.703Z'
+  - VulnerabilityID: CVE-2023-6129
+    PkgID: openssl@3.0.2-0ubuntu1.12
+    PkgName: openssl
+    InstalledVersion: 3.0.2-0ubuntu1.12
+    Status: affected
+    Layer:
+      Digest: sha256:2021ca1e80586edf71b5f882fd0f1f35c6ff1a5d83022188f73aabdc091977f5
+      DiffID: sha256:c7fcf93b0b5e1945a4c4f6c5b4fe26afeee28aa2062f5727eaef472b4e2cae36
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6129
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'Issue summary: The POLY1305 MAC (message authentication code) implemen ...'
+    Description: |-
+      Issue summary: The POLY1305 MAC (message authentication code) implementation
+      contains a bug that might corrupt the internal state of applications running
+      on PowerPC CPU based platforms if the CPU provides vector instructions.
+
+      Impact summary: If an attacker can influence whether the POLY1305 MAC
+      algorithm is used, the application state might be corrupted with various
+      application dependent consequences.
+
+      The POLY1305 MAC (message authentication code) implementation in OpenSSL for
+      PowerPC CPUs restores the contents of vector registers in a different order
+      than they are saved. Thus the contents of some of these vector registers
+      are corrupted when returning to the caller. The vulnerable code is used only
+      on newer PowerPC processors supporting the PowerISA 2.07 instructions.
+
+      The consequences of this kind of internal application state corruption can
+      be various - from no consequences, if the calling application does not
+      depend on the contents of non-volatile XMM registers at all, to the worst
+      consequences, where the attacker could get complete control of the application
+      process. However unless the compiler uses the vector registers for storing
+      pointers, the most likely consequence, if any, would be an incorrect result
+      of some application dependent calculations or a crash leading to a denial of
+      service.
+
+      The POLY1305 MAC algorithm is most frequently used as part of the
+      CHACHA20-POLY1305 AEAD (authenticated encryption with associated data)
+      algorithm. The most common usage of this AEAD cipher is with TLS protocol
+      versions 1.2 and 1.3. If this cipher is enabled on the server a malicious
+      client can influence whether this AEAD cipher is used. This implies that
+      TLS server applications using OpenSSL can be potentially impacted. However
+      we are currently not aware of any concrete application that would be affected
+      by this issue therefore we consider this a Low severity security issue.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/01/09/1
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
+    - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
+    - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
+    - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
+    - https://www.openssl.org/news/secadv/20240109.txt
+    PublishedDate: '2024-01-09T17:15:12.147Z'
+    LastModifiedDate: '2024-01-09T19:56:14.023Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: passwd@1:4.8.1-2ubuntu2.1
     PkgName: passwd
@@ -3266,6 +3392,7 @@
     - CWE-354
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       ghsa: 2
       nvd: 2
       redhat: 2
@@ -3343,6 +3470,7 @@
     - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
     - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
@@ -3394,7 +3522,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-05T18:15:29.267Z'
+    LastModifiedDate: '2024-01-09T03:15:07.95Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -3466,6 +3594,7 @@
     - CWE-354
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       ghsa: 2
       nvd: 2
       redhat: 2
@@ -3543,6 +3672,7 @@
     - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
     - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
@@ -3594,7 +3724,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-05T18:15:29.267Z'
+    LastModifiedDate: '2024-01-09T03:15:07.95Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -3714,6 +3844,7 @@
     - CWE-354
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 2
       ghsa: 2
       nvd: 2
       redhat: 2
@@ -3791,6 +3922,7 @@
     - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
     - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
@@ -3842,7 +3974,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-05T18:15:29.267Z'
+    LastModifiedDate: '2024-01-09T03:15:07.95Z'
   - VulnerabilityID: CVE-2023-39325
     PkgName: golang.org/x/net
     InstalledVersion: v0.10.0
@@ -4240,68 +4372,6 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
     LastModifiedDate: '2023-12-20T17:55:36.74Z'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:2021ca1e80586edf71b5f882fd0f1f35c6ff1a5d83022188f73aabdc091977f5
-      DiffID: sha256:c7fcf93b0b5e1945a4c4f6c5b4fe26afeee28aa2062f5727eaef472b4e2cae36
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:2021ca1e80586edf71b5f882fd0f1f35c6ff1a5d83022188f73aabdc091977f5
-      DiffID: sha256:c7fcf93b0b5e1945a4c4f6c5b4fe26afeee28aa2062f5727eaef472b4e2cae36
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -4360,6 +4430,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:2021ca1e80586edf71b5f882fd0f1f35c6ff1a5d83022188f73aabdc091977f5
+      DiffID: sha256:c7fcf93b0b5e1945a4c4f6c5b4fe26afeee28aa2062f5727eaef472b4e2cae36
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:2021ca1e80586edf71b5f882fd0f1f35c6ff1a5d83022188f73aabdc091977f5
+      DiffID: sha256:c7fcf93b0b5e1945a4c4f6c5b4fe26afeee28aa2062f5727eaef472b4e2cae36
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:2021ca1e80586edf71b5f882fd0f1f35c6ff1a5d83022188f73aabdc091977f5
       DiffID: sha256:c7fcf93b0b5e1945a4c4f6c5b4fe26afeee28aa2062f5727eaef472b4e2cae36
