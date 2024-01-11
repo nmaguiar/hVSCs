@@ -171,12 +171,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -222,12 +222,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -1018,12 +1018,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4498
+    - https://access.redhat.com/errata/RHSA-2023:4569
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/8/ALSA-2023-4498.html
+    - https://errata.almalinux.org/9/ALSA-2023-4569.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -1690,8 +1690,10 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
@@ -1739,7 +1741,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-09T03:15:07.95Z'
+    LastModifiedDate: '2024-01-10T03:15:43.383Z'
   - VulnerabilityID: CVE-2023-6004
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.1
     PkgName: libssh-4
@@ -1770,11 +1772,13 @@
     - https://access.redhat.com/security/cve/CVE-2023-6004
     - https://bugzilla.redhat.com/show_bug.cgi?id=2251110
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6004
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6004
+    - https://vin01.github.io/piptagole/ssh/security/openssh/libssh/remote-code-execution/2023/12/20/openssh-proxycommand-libssh-rce.html
     - https://www.cve.org/CVERecord?id=CVE-2023-6004
     - https://www.libssh.org/security/advisories/CVE-2023-6004.txt
     PublishedDate: '2024-01-03T17:15:11.623Z'
-    LastModifiedDate: '2024-01-03T17:26:57.957Z'
+    LastModifiedDate: '2024-01-10T03:15:44.12Z'
   - VulnerabilityID: CVE-2023-6918
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.1
     PkgName: libssh-4
@@ -1809,13 +1813,14 @@
     - https://access.redhat.com/security/cve/CVE-2023-6918
     - https://bugzilla.redhat.com/show_bug.cgi?id=2254997
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6918
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6918
     - https://www.cve.org/CVERecord?id=CVE-2023-6918
     - https://www.libssh.org/2023/12/18/libssh-0-10-6-and-libssh-0-9-8-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2023-6918.txt
     PublishedDate: '2023-12-19T00:15:08.46Z'
-    LastModifiedDate: '2024-01-04T20:21:35.297Z'
+    LastModifiedDate: '2024-01-10T16:14:07.393Z'
   - VulnerabilityID: CVE-2023-6129
     PkgID: libssl3@3.0.2-0ubuntu1.12
     PkgName: libssl3
@@ -1830,7 +1835,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'Issue summary: The POLY1305 MAC (message authentication code) implemen ...'
+    Title: 'openssl: POLY1305 MAC implementation corrupts vector registers on PowerPC'
     Description: |-
       Issue summary: The POLY1305 MAC (message authentication code) implementation
       contains a bug that might corrupt the internal state of applications running
@@ -1865,14 +1870,23 @@
       by this issue therefore we consider this a Low severity security issue.
     Severity: LOW
     VendorSeverity:
+      redhat: 1
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/01/09/1
+    - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
     - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
     - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6129
+    - https://www.cve.org/CVERecord?id=CVE-2023-6129
     - https://www.openssl.org/news/secadv/20240109.txt
+    - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
     LastModifiedDate: '2024-01-09T19:56:14.023Z'
   - VulnerabilityID: CVE-2022-27943
@@ -2205,8 +2219,10 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
@@ -2254,7 +2270,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-09T03:15:07.95Z'
+    LastModifiedDate: '2024-01-10T03:15:43.383Z'
   - VulnerabilityID: CVE-2023-51384
     PkgID: openssh-client@1:8.9p1-3ubuntu0.4
     PkgName: openssh-client
@@ -2532,8 +2548,10 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
@@ -2581,7 +2599,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-09T03:15:07.95Z'
+    LastModifiedDate: '2024-01-10T03:15:43.383Z'
   - VulnerabilityID: CVE-2023-51384
     PkgID: openssh-server@1:8.9p1-3ubuntu0.4
     PkgName: openssh-server
@@ -2859,8 +2877,10 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
@@ -2908,7 +2928,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-09T03:15:07.95Z'
+    LastModifiedDate: '2024-01-10T03:15:43.383Z'
   - VulnerabilityID: CVE-2023-51384
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.4
     PkgName: openssh-sftp-server
@@ -3097,7 +3117,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'Issue summary: The POLY1305 MAC (message authentication code) implemen ...'
+    Title: 'openssl: POLY1305 MAC implementation corrupts vector registers on PowerPC'
     Description: |-
       Issue summary: The POLY1305 MAC (message authentication code) implementation
       contains a bug that might corrupt the internal state of applications running
@@ -3132,14 +3152,23 @@
       by this issue therefore we consider this a Low severity security issue.
     Severity: LOW
     VendorSeverity:
+      redhat: 1
       ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/01/09/1
+    - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
     - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
     - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6129
+    - https://www.cve.org/CVERecord?id=CVE-2023-6129
     - https://www.openssl.org/news/secadv/20240109.txt
+    - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
     LastModifiedDate: '2024-01-09T19:56:14.023Z'
   - VulnerabilityID: CVE-2023-29383
@@ -3406,7 +3435,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -3463,7 +3492,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -3667,7 +3696,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -3715,7 +3744,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -3764,7 +3793,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -3814,7 +3843,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 3
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -3832,7 +3861,7 @@
     References:
     - http://seclists.org/fulldisclosure/2022/Oct/28
     - http://seclists.org/fulldisclosure/2022/Oct/41
-    - https://access.redhat.com/errata/RHSA-2022:5813
+    - https://access.redhat.com/errata/RHSA-2022:5942
     - https://access.redhat.com/security/cve/CVE-2022-1897
     - https://bugzilla.redhat.com/2088689
     - https://bugzilla.redhat.com/2091682
@@ -3843,7 +3872,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1785
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
-    - https://errata.almalinux.org/8/ALSA-2022-5813.html
+    - https://errata.almalinux.org/9/ALSA-2022-5942.html
     - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
@@ -4138,7 +4167,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -4195,7 +4224,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -4399,7 +4428,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -4447,7 +4476,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -4496,7 +4525,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -4546,7 +4575,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 3
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -4564,7 +4593,7 @@
     References:
     - http://seclists.org/fulldisclosure/2022/Oct/28
     - http://seclists.org/fulldisclosure/2022/Oct/41
-    - https://access.redhat.com/errata/RHSA-2022:5813
+    - https://access.redhat.com/errata/RHSA-2022:5942
     - https://access.redhat.com/security/cve/CVE-2022-1897
     - https://bugzilla.redhat.com/2088689
     - https://bugzilla.redhat.com/2091682
@@ -4575,7 +4604,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1785
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
-    - https://errata.almalinux.org/8/ALSA-2022-5813.html
+    - https://errata.almalinux.org/9/ALSA-2022-5942.html
     - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
@@ -4870,7 +4899,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -4927,7 +4956,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -5131,7 +5160,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -5179,7 +5208,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -5228,7 +5257,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -5278,7 +5307,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 3
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -5296,7 +5325,7 @@
     References:
     - http://seclists.org/fulldisclosure/2022/Oct/28
     - http://seclists.org/fulldisclosure/2022/Oct/41
-    - https://access.redhat.com/errata/RHSA-2022:5813
+    - https://access.redhat.com/errata/RHSA-2022:5942
     - https://access.redhat.com/security/cve/CVE-2022-1897
     - https://bugzilla.redhat.com/2088689
     - https://bugzilla.redhat.com/2091682
@@ -5307,7 +5336,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1785
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
-    - https://errata.almalinux.org/8/ALSA-2022-5813.html
+    - https://errata.almalinux.org/9/ALSA-2022-5942.html
     - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
@@ -5647,7 +5676,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -5704,7 +5733,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 3
       redhat: 1
       ubuntu: 2
@@ -5908,7 +5937,7 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       nvd: 2
       redhat: 1
       ubuntu: 1
@@ -5956,7 +5985,7 @@
     CweIDs:
     - CWE-674
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       cbl-mariner: 2
       nvd: 2
       photon: 2
@@ -6005,7 +6034,7 @@
     - CWE-122
     - CWE-787
     VendorSeverity:
-      amazon: 1
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       photon: 3
@@ -6055,7 +6084,7 @@
     - CWE-787
     VendorSeverity:
       alma: 2
-      amazon: 1
+      amazon: 3
       nvd: 3
       oracle-oval: 2
       redhat: 2
@@ -6073,7 +6102,7 @@
     References:
     - http://seclists.org/fulldisclosure/2022/Oct/28
     - http://seclists.org/fulldisclosure/2022/Oct/41
-    - https://access.redhat.com/errata/RHSA-2022:5813
+    - https://access.redhat.com/errata/RHSA-2022:5942
     - https://access.redhat.com/security/cve/CVE-2022-1897
     - https://bugzilla.redhat.com/2088689
     - https://bugzilla.redhat.com/2091682
@@ -6084,7 +6113,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1785
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1897
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1927
-    - https://errata.almalinux.org/8/ALSA-2022-5813.html
+    - https://errata.almalinux.org/9/ALSA-2022-5942.html
     - https://errata.rockylinux.org/RLSA-2022:5942
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a
     - https://github.com/vim/vim/commit/338f1fc0ee3ca929387448fe464579d6113fa76a (v8.2.5023)
@@ -6531,7 +6560,6 @@
     - CWE-87
     VendorSeverity:
       amazon: 2
-      cbl-mariner: 2
       ghsa: 2
       nvd: 2
       redhat: 2
@@ -6583,7 +6611,6 @@
       alma: 2
       amazon: 3
       bitnami: 3
-      cbl-mariner: 3
       ghsa: 3
       nvd: 3
       oracle-oval: 2
@@ -6604,7 +6631,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:5863
+    - https://access.redhat.com/errata/RHSA-2023:6077
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -6614,7 +6641,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/8/ALSA-2023-5863.html
+    - https://errata.almalinux.org/9/ALSA-2023-6077.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
@@ -6673,7 +6700,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -6690,16 +6717,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6939
+    - https://access.redhat.com/errata/RHSA-2023:6474
     - https://access.redhat.com/security/cve/CVE-2023-3978
-    - https://bugzilla.redhat.com/2163037
     - https://bugzilla.redhat.com/2174485
-    - https://bugzilla.redhat.com/2175721
     - https://bugzilla.redhat.com/2178358
     - https://bugzilla.redhat.com/2178488
     - https://bugzilla.redhat.com/2178492
-    - https://bugzilla.redhat.com/2182883
-    - https://bugzilla.redhat.com/2182884
     - https://bugzilla.redhat.com/2184481
     - https://bugzilla.redhat.com/2184482
     - https://bugzilla.redhat.com/2184483
@@ -6709,7 +6732,7 @@
     - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
     - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/8/ALSA-2023-6939.html
+    - https://errata.almalinux.org/9/ALSA-2023-6474.html
     - https://go.dev/cl/514896
     - https://go.dev/issue/61615
     - https://linux.oracle.com/cve/CVE-2023-3978.html
@@ -6770,7 +6793,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:7205
+    - https://access.redhat.com/errata/RHSA-2023:6746
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -6782,11 +6805,6 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/2244104
-    - https://bugzilla.redhat.com/2244413
-    - https://bugzilla.redhat.com/2244414
-    - https://bugzilla.redhat.com/2244415
-    - https://bugzilla.redhat.com/2244418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -6798,7 +6816,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/8/ALSA-2023-7205.html
+    - https://errata.almalinux.org/9/ALSA-2023-6746.html
     - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
@@ -6984,7 +7002,6 @@
       alma: 2
       amazon: 3
       bitnami: 3
-      cbl-mariner: 3
       ghsa: 3
       nvd: 3
       oracle-oval: 2
@@ -7005,7 +7022,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:5863
+    - https://access.redhat.com/errata/RHSA-2023:6077
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -7015,7 +7032,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/8/ALSA-2023-5863.html
+    - https://errata.almalinux.org/9/ALSA-2023-6077.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
@@ -7074,7 +7091,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -7091,16 +7108,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6939
+    - https://access.redhat.com/errata/RHSA-2023:6474
     - https://access.redhat.com/security/cve/CVE-2023-3978
-    - https://bugzilla.redhat.com/2163037
     - https://bugzilla.redhat.com/2174485
-    - https://bugzilla.redhat.com/2175721
     - https://bugzilla.redhat.com/2178358
     - https://bugzilla.redhat.com/2178488
     - https://bugzilla.redhat.com/2178492
-    - https://bugzilla.redhat.com/2182883
-    - https://bugzilla.redhat.com/2182884
     - https://bugzilla.redhat.com/2184481
     - https://bugzilla.redhat.com/2184482
     - https://bugzilla.redhat.com/2184483
@@ -7110,7 +7123,7 @@
     - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
     - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/8/ALSA-2023-6939.html
+    - https://errata.almalinux.org/9/ALSA-2023-6474.html
     - https://go.dev/cl/514896
     - https://go.dev/issue/61615
     - https://linux.oracle.com/cve/CVE-2023-3978.html
@@ -7171,7 +7184,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:7205
+    - https://access.redhat.com/errata/RHSA-2023:6746
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -7183,11 +7196,6 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/2244104
-    - https://bugzilla.redhat.com/2244413
-    - https://bugzilla.redhat.com/2244414
-    - https://bugzilla.redhat.com/2244415
-    - https://bugzilla.redhat.com/2244418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -7199,7 +7207,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/8/ALSA-2023-7205.html
+    - https://errata.almalinux.org/9/ALSA-2023-6746.html
     - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
@@ -7653,8 +7661,10 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
@@ -7702,7 +7712,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-09T03:15:07.95Z'
+    LastModifiedDate: '2024-01-10T03:15:43.383Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -7855,8 +7865,10 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
@@ -7904,7 +7916,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-09T03:15:07.95Z'
+    LastModifiedDate: '2024-01-10T03:15:43.383Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -8011,8 +8023,10 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
@@ -8060,7 +8074,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-09T03:15:07.95Z'
+    LastModifiedDate: '2024-01-10T03:15:43.383Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -8261,8 +8275,10 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
@@ -8310,7 +8326,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-09T03:15:07.95Z'
+    LastModifiedDate: '2024-01-10T03:15:43.383Z'
   - VulnerabilityID: CVE-2023-39325
     PkgName: golang.org/x/net
     InstalledVersion: v0.10.0
@@ -8334,7 +8350,6 @@
       alma: 2
       amazon: 3
       bitnami: 3
-      cbl-mariner: 3
       ghsa: 3
       nvd: 3
       oracle-oval: 2
@@ -8355,7 +8370,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:5863
+    - https://access.redhat.com/errata/RHSA-2023:6077
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -8365,7 +8380,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/8/ALSA-2023-5863.html
+    - https://errata.almalinux.org/9/ALSA-2023-6077.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/issues/63417
     - https://go.dev/cl/534215
@@ -8424,7 +8439,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -8441,16 +8456,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6939
+    - https://access.redhat.com/errata/RHSA-2023:6474
     - https://access.redhat.com/security/cve/CVE-2023-3978
-    - https://bugzilla.redhat.com/2163037
     - https://bugzilla.redhat.com/2174485
-    - https://bugzilla.redhat.com/2175721
     - https://bugzilla.redhat.com/2178358
     - https://bugzilla.redhat.com/2178488
     - https://bugzilla.redhat.com/2178492
-    - https://bugzilla.redhat.com/2182883
-    - https://bugzilla.redhat.com/2182884
     - https://bugzilla.redhat.com/2184481
     - https://bugzilla.redhat.com/2184482
     - https://bugzilla.redhat.com/2184483
@@ -8460,7 +8471,7 @@
     - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
     - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/8/ALSA-2023-6939.html
+    - https://errata.almalinux.org/9/ALSA-2023-6474.html
     - https://go.dev/cl/514896
     - https://go.dev/issue/61615
     - https://linux.oracle.com/cve/CVE-2023-3978.html
@@ -8521,7 +8532,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:7205
+    - https://access.redhat.com/errata/RHSA-2023:6746
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -8533,11 +8544,6 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
-    - https://bugzilla.redhat.com/2244104
-    - https://bugzilla.redhat.com/2244413
-    - https://bugzilla.redhat.com/2244414
-    - https://bugzilla.redhat.com/2244415
-    - https://bugzilla.redhat.com/2244418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -8549,7 +8555,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/8/ALSA-2023-7205.html
+    - https://errata.almalinux.org/9/ALSA-2023-6746.html
     - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
