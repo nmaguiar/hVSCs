@@ -1946,25 +1946,63 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      01/09/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-6129 
-│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2023-6129 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/050d26
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/050d26
 │                        │      │                  │      383d4e264966fb83428e72d5d48f402d35 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/5b139f
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f
 │                        │      │                  │      95c9a47a55a0c54100f3837b1eee942b04 
-│                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/f3fc58
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc58
 │                        │      │                  │      08fe9ff74042d639839610d03b8fdcc015 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
-│                        │      │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
-│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
+│                        │      │                  ├ [7]: https://www.openssl.org/news/secadv/20240109.txt 
+│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /01/09/1 
 │                        │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-│                        │      ╰ LastModifiedDate: 2024-01-09T19:56:14.023Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2022-27943 
+│                        │      ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2023-6237 
+│                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.12 
+│                        │      ├ PkgName         : libssl3 
+│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.12 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6237 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssl: Excessive time spent checking invalid RSA
+│                        │      │                   public keys 
+│                        │      ├ Description     : A flaw was found in OpenSSL. When the
+│                        │      │                   EVP_PKEY_public_check() function is called in RSA public
+│                        │      │                   keys, a computation is done to confirm that the RSA
+│                        │      │                   modulus, n, is composite. For valid RSA keys, n is a
+│                        │      │                   product of two or more large primes and this computation
+│                        │      │                   completes quickly. However, if n is a large prime, this
+│                        │      │                   computation takes a long time. An application that calls
+│                        │      │                   EVP_PKEY_public_check() and supplies an RSA key obtained
+│                        │      │                   from an untrusted source could be vulnerable to a Denial of
+│                        │      │                    Service attack. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6237 
+│                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │                         │      VE-2023-6237 
+│                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-6237 
+│                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2023-6237 
+│                        │                         ├ [4]: https://www.openssl.org/news/secadv/20240115.txt 
+│                        │                         ╰ [5]: https://www.openwall.com/lists/oss-security/2024
+│                        │                                /01/15/2 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
@@ -2019,7 +2057,7 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2018-10126 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2018-10126 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
@@ -2062,7 +2100,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                        │      ├ PublishedDate   : 2018-04-21T21:29:00.29Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:51:16.693Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2023-3164 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2023-3164 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
@@ -2103,7 +2141,95 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
 │                        │      ├ PublishedDate   : 2023-11-02T12:15:09.543Z 
 │                        │      ╰ LastModifiedDate: 2023-12-20T19:13:34.823Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2023-6228 
+│                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
+│                        │      ├ PkgName         : libtiff5 
+│                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6228 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libtiff: heap-based buffer overflow in cpStripToTile()
+│                        │      │                    in tools/tiffcp.c 
+│                        │      ├ Description     : An issue was found in the tiffcp utility distributed
+│                        │      │                   by the libtiff package where a crafted TIFF file on
+│                        │      │                   processing may cause a heap-based buffer overflow leads to
+│                        │      │                   an application crash. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6228 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240995 
+│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-6228 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-6228 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-6228 
+│                        │      ├ PublishedDate   : 2023-12-18T14:15:11.84Z 
+│                        │      ╰ LastModifiedDate: 2023-12-29T07:15:10.897Z 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2023-6277 
+│                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
+│                        │      ├ PkgName         : libtiff5 
+│                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6277 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libtiff: Out-of-memory in TIFFOpen via a craft file 
+│                        │      ├ Description     : An out-of-memory flaw was found in libtiff. Passing a
+│                        │      │                   crafted tiff file to TIFFOpen() API may allow a remote
+│                        │      │                   attacker to cause a denial of service via a craft input
+│                        │      │                   with size smaller than 379 KB. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ nvd   : 2 
+│                        │      │                  ├ photon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6277 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2251311 
+│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-6277 
+│                        │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/issues/614 
+│                        │      │                  ├ [4]: https://gitlab.com/libtiff/libtiff/-/merge_reque
+│                        │      │                  │      sts/545 
+│                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/WJIN6D
+│                        │      │                  │      TSL3VODZUGWEUXLEL5DR53EZMV/ 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/Y7ZGN2
+│                        │      │                  │      MZXJ6E57W3L4YBM3ZPAU3T7T5C/ 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-6277 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-6277 
+│                        │      ├ PublishedDate   : 2023-11-24T19:15:07.643Z 
+│                        │      ╰ LastModifiedDate: 2024-01-14T02:15:46.917Z 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
@@ -2173,7 +2299,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : login 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2229,7 +2355,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-client 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.6 
@@ -2276,7 +2402,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-01-04T19:18:14.703Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.6 
@@ -2323,7 +2449,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-01-04T19:18:14.703Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-sftp-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.6 
@@ -2370,7 +2496,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-01-04T19:18:14.703Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2023-6129 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2023-6129 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.12 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.12 
@@ -2448,25 +2574,63 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      01/09/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-6129 
-│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2023-6129 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/050d26
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/050d26
 │                        │      │                  │      383d4e264966fb83428e72d5d48f402d35 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/5b139f
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f
 │                        │      │                  │      95c9a47a55a0c54100f3837b1eee942b04 
-│                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/f3fc58
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc58
 │                        │      │                  │      08fe9ff74042d639839610d03b8fdcc015 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
-│                        │      │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
-│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
+│                        │      │                  ├ [7]: https://www.openssl.org/news/secadv/20240109.txt 
+│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /01/09/1 
 │                        │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-│                        │      ╰ LastModifiedDate: 2024-01-09T19:56:14.023Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2023-29383 
+│                        │      ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2023-6237 
+│                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.12 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.12 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6237 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssl: Excessive time spent checking invalid RSA
+│                        │      │                   public keys 
+│                        │      ├ Description     : A flaw was found in OpenSSL. When the
+│                        │      │                   EVP_PKEY_public_check() function is called in RSA public
+│                        │      │                   keys, a computation is done to confirm that the RSA
+│                        │      │                   modulus, n, is composite. For valid RSA keys, n is a
+│                        │      │                   product of two or more large primes and this computation
+│                        │      │                   completes quickly. However, if n is a large prime, this
+│                        │      │                   computation takes a long time. An application that calls
+│                        │      │                   EVP_PKEY_public_check() and supplies an RSA key obtained
+│                        │      │                   from an untrusted source could be vulnerable to a Denial of
+│                        │      │                    Service attack. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6237 
+│                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │                         │      VE-2023-6237 
+│                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-6237 
+│                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2023-6237 
+│                        │                         ├ [4]: https://www.openssl.org/news/secadv/20240115.txt 
+│                        │                         ╰ [5]: https://www.openwall.com/lists/oss-security/2024
+│                        │                                /01/15/2 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2522,7 +2686,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
@@ -2628,7 +2792,7 @@
 │                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
@@ -2734,7 +2898,7 @@
 │                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2790,7 +2954,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ InstalledVersion: 1.21.2-2ubuntu1 
@@ -2836,7 +3000,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ╰ [50] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [54] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ InstalledVersion: 5.2.5-2ubuntu1 
@@ -4627,66 +4791,69 @@
 │                              │                  ├ [78] : https://nova.app/releases/#v11.8 
 │                              │                  ├ [79] : https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
 │                              │                  ├ [80] : https://oryx-embedded.com/download/#changelog 
-│                              │                  ├ [81] : https://roumenpetrov.info/secsh/#news20231220 
-│                              │                  ├ [82] : https://security-tracker.debian.org/tracker/CVE
+│                              │                  ├ [81] : https://psirt.global.sonicwall.com/vuln-detail/
+│                              │                  │        SNWLID-2024-0002 
+│                              │                  ├ [82] : https://roumenpetrov.info/secsh/#news20231220 
+│                              │                  ├ [83] : https://security-tracker.debian.org/tracker/CVE
 │                              │                  │        -2023-48795 
-│                              │                  ├ [83] : https://security-tracker.debian.org/tracker/sou
-│                              │                  │        rce-package/libssh2 
 │                              │                  ├ [84] : https://security-tracker.debian.org/tracker/sou
-│                              │                  │        rce-package/proftpd-dfsg 
+│                              │                  │        rce-package/libssh2 
 │                              │                  ├ [85] : https://security-tracker.debian.org/tracker/sou
+│                              │                  │        rce-package/proftpd-dfsg 
+│                              │                  ├ [86] : https://security-tracker.debian.org/tracker/sou
 │                              │                  │        rce-package/trilead-ssh2 
-│                              │                  ├ [86] : https://security.gentoo.org/glsa/202312-16 
-│                              │                  ├ [87] : https://security.gentoo.org/glsa/202312-17 
-│                              │                  ├ [88] : https://security.netapp.com/advisory/ntap-20240
+│                              │                  ├ [87] : https://security.gentoo.org/glsa/202312-16 
+│                              │                  ├ [88] : https://security.gentoo.org/glsa/202312-17 
+│                              │                  ├ [89] : https://security.netapp.com/advisory/ntap-20240
 │                              │                  │        105-0004/ 
-│                              │                  ├ [89] : https://terrapin-attack.com/ 
-│                              │                  ├ [90] : https://thorntech.com/cve-2023-48795-and-sftp-g
+│                              │                  ├ [90] : https://terrapin-attack.com/ 
+│                              │                  ├ [91] : https://thorntech.com/cve-2023-48795-and-sftp-g
 │                              │                  │        ateway/ 
-│                              │                  ├ [91] : https://twitter.com/TrueSkrillor/status/1736774
+│                              │                  ├ [92] : https://twitter.com/TrueSkrillor/status/1736774
 │                              │                  │        389725565005 
-│                              │                  ├ [92] : https://ubuntu.com/security/CVE-2023-48795 
-│                              │                  ├ [93] : https://ubuntu.com/security/notices/USN-6560-1 
-│                              │                  ├ [94] : https://ubuntu.com/security/notices/USN-6560-2 
-│                              │                  ├ [95] : https://ubuntu.com/security/notices/USN-6561-1 
-│                              │                  ├ [96] : https://winscp.net/eng/docs/history#6.2.2 
-│                              │                  ├ [97] : https://www.bitvise.com/ssh-client-version-hist
+│                              │                  ├ [93] : https://ubuntu.com/security/CVE-2023-48795 
+│                              │                  ├ [94] : https://ubuntu.com/security/notices/USN-6560-1 
+│                              │                  ├ [95] : https://ubuntu.com/security/notices/USN-6560-2 
+│                              │                  ├ [96] : https://ubuntu.com/security/notices/USN-6561-1 
+│                              │                  ├ [97] : https://ubuntu.com/security/notices/USN-6585-1 
+│                              │                  ├ [98] : https://winscp.net/eng/docs/history#6.2.2 
+│                              │                  ├ [99] : https://www.bitvise.com/ssh-client-version-hist
 │                              │                  │        ory#933 
-│                              │                  ├ [98] : https://www.bitvise.com/ssh-server-version-history 
-│                              │                  ├ [99] : https://www.chiark.greenend.org.uk/~sgtatham/pu
+│                              │                  ├ [100]: https://www.bitvise.com/ssh-server-version-history 
+│                              │                  ├ [101]: https://www.chiark.greenend.org.uk/~sgtatham/pu
 │                              │                  │        tty/changes.html 
-│                              │                  ├ [100]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
+│                              │                  ├ [102]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
 │                              │                  │        age=Update 
-│                              │                  ├ [101]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                              │                  ├ [102]: https://www.debian.org/security/2023/dsa-5586 
-│                              │                  ├ [103]: https://www.debian.org/security/2023/dsa-5588 
-│                              │                  ├ [104]: https://www.freebsd.org/security/advisories/Fre
+│                              │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                              │                  ├ [104]: https://www.debian.org/security/2023/dsa-5586 
+│                              │                  ├ [105]: https://www.debian.org/security/2023/dsa-5588 
+│                              │                  ├ [106]: https://www.freebsd.org/security/advisories/Fre
 │                              │                  │        eBSD-SA-23:19.openssh.asc 
-│                              │                  ├ [105]: https://www.lancom-systems.de/service-support/a
+│                              │                  ├ [107]: https://www.lancom-systems.de/service-support/a
 │                              │                  │        llgemeine-sicherheitshinweise#c243508 
-│                              │                  ├ [106]: https://www.netsarang.com/en/xshell-update-history/ 
-│                              │                  ├ [107]: https://www.openssh.com/openbsd.html 
-│                              │                  ├ [108]: https://www.openssh.com/txt/release-9.6 
-│                              │                  ├ [109]: https://www.openwall.com/lists/oss-security/202
-│                              │                  │        3/12/18/2 
-│                              │                  ├ [110]: https://www.openwall.com/lists/oss-security/202
-│                              │                  │        3/12/18/3 
+│                              │                  ├ [108]: https://www.netsarang.com/en/xshell-update-history/ 
+│                              │                  ├ [109]: https://www.openssh.com/openbsd.html 
+│                              │                  ├ [110]: https://www.openssh.com/txt/release-9.6 
 │                              │                  ├ [111]: https://www.openwall.com/lists/oss-security/202
+│                              │                  │        3/12/18/2 
+│                              │                  ├ [112]: https://www.openwall.com/lists/oss-security/202
+│                              │                  │        3/12/18/3 
+│                              │                  ├ [113]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/12/20/3 
-│                              │                  ├ [112]: https://www.paramiko.org/changelog.html 
-│                              │                  ├ [113]: https://www.reddit.com/r/sysadmin/comments/18id
+│                              │                  ├ [114]: https://www.paramiko.org/changelog.html 
+│                              │                  ├ [115]: https://www.reddit.com/r/sysadmin/comments/18id
 │                              │                  │        v52/cve202348795_why_is_this_cve_still_undisclosed/
 │                              │                  │        [m 
-│                              │                  ├ [114]: https://www.suse.com/c/suse-addresses-the-ssh-v
+│                              │                  ├ [116]: https://www.suse.com/c/suse-addresses-the-ssh-v
 │                              │                  │        2-protocol-terrapin-attack-aka-cve-2023-48795/
 │                              │                  │         
-│                              │                  ├ [115]: https://www.terrapin-attack.com 
-│                              │                  ├ [116]: https://www.theregister.com/2023/12/20/terrapin
+│                              │                  ├ [117]: https://www.terrapin-attack.com 
+│                              │                  ├ [118]: https://www.theregister.com/2023/12/20/terrapin
 │                              │                  │        _attack_ssh 
-│                              │                  ╰ [117]: https://www.vandyke.com/products/securecrt/hist
+│                              │                  ╰ [119]: https://www.vandyke.com/products/securecrt/hist
 │                              │                           ory.txt 
 │                              ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                              ╰ LastModifiedDate: 2024-01-11T04:15:07.79Z 
+│                              ╰ LastModifiedDate: 2024-01-15T08:15:36.17Z 
 ├ [6]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5106,66 +5273,69 @@
 │                        │     │                  ├ [78] : https://nova.app/releases/#v11.8 
 │                        │     │                  ├ [79] : https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
 │                        │     │                  ├ [80] : https://oryx-embedded.com/download/#changelog 
-│                        │     │                  ├ [81] : https://roumenpetrov.info/secsh/#news20231220 
-│                        │     │                  ├ [82] : https://security-tracker.debian.org/tracker/CVE
+│                        │     │                  ├ [81] : https://psirt.global.sonicwall.com/vuln-detail/
+│                        │     │                  │        SNWLID-2024-0002 
+│                        │     │                  ├ [82] : https://roumenpetrov.info/secsh/#news20231220 
+│                        │     │                  ├ [83] : https://security-tracker.debian.org/tracker/CVE
 │                        │     │                  │        -2023-48795 
-│                        │     │                  ├ [83] : https://security-tracker.debian.org/tracker/sou
-│                        │     │                  │        rce-package/libssh2 
 │                        │     │                  ├ [84] : https://security-tracker.debian.org/tracker/sou
-│                        │     │                  │        rce-package/proftpd-dfsg 
+│                        │     │                  │        rce-package/libssh2 
 │                        │     │                  ├ [85] : https://security-tracker.debian.org/tracker/sou
+│                        │     │                  │        rce-package/proftpd-dfsg 
+│                        │     │                  ├ [86] : https://security-tracker.debian.org/tracker/sou
 │                        │     │                  │        rce-package/trilead-ssh2 
-│                        │     │                  ├ [86] : https://security.gentoo.org/glsa/202312-16 
-│                        │     │                  ├ [87] : https://security.gentoo.org/glsa/202312-17 
-│                        │     │                  ├ [88] : https://security.netapp.com/advisory/ntap-20240
+│                        │     │                  ├ [87] : https://security.gentoo.org/glsa/202312-16 
+│                        │     │                  ├ [88] : https://security.gentoo.org/glsa/202312-17 
+│                        │     │                  ├ [89] : https://security.netapp.com/advisory/ntap-20240
 │                        │     │                  │        105-0004/ 
-│                        │     │                  ├ [89] : https://terrapin-attack.com/ 
-│                        │     │                  ├ [90] : https://thorntech.com/cve-2023-48795-and-sftp-g
+│                        │     │                  ├ [90] : https://terrapin-attack.com/ 
+│                        │     │                  ├ [91] : https://thorntech.com/cve-2023-48795-and-sftp-g
 │                        │     │                  │        ateway/ 
-│                        │     │                  ├ [91] : https://twitter.com/TrueSkrillor/status/1736774
+│                        │     │                  ├ [92] : https://twitter.com/TrueSkrillor/status/1736774
 │                        │     │                  │        389725565005 
-│                        │     │                  ├ [92] : https://ubuntu.com/security/CVE-2023-48795 
-│                        │     │                  ├ [93] : https://ubuntu.com/security/notices/USN-6560-1 
-│                        │     │                  ├ [94] : https://ubuntu.com/security/notices/USN-6560-2 
-│                        │     │                  ├ [95] : https://ubuntu.com/security/notices/USN-6561-1 
-│                        │     │                  ├ [96] : https://winscp.net/eng/docs/history#6.2.2 
-│                        │     │                  ├ [97] : https://www.bitvise.com/ssh-client-version-hist
+│                        │     │                  ├ [93] : https://ubuntu.com/security/CVE-2023-48795 
+│                        │     │                  ├ [94] : https://ubuntu.com/security/notices/USN-6560-1 
+│                        │     │                  ├ [95] : https://ubuntu.com/security/notices/USN-6560-2 
+│                        │     │                  ├ [96] : https://ubuntu.com/security/notices/USN-6561-1 
+│                        │     │                  ├ [97] : https://ubuntu.com/security/notices/USN-6585-1 
+│                        │     │                  ├ [98] : https://winscp.net/eng/docs/history#6.2.2 
+│                        │     │                  ├ [99] : https://www.bitvise.com/ssh-client-version-hist
 │                        │     │                  │        ory#933 
-│                        │     │                  ├ [98] : https://www.bitvise.com/ssh-server-version-history 
-│                        │     │                  ├ [99] : https://www.chiark.greenend.org.uk/~sgtatham/pu
+│                        │     │                  ├ [100]: https://www.bitvise.com/ssh-server-version-history 
+│                        │     │                  ├ [101]: https://www.chiark.greenend.org.uk/~sgtatham/pu
 │                        │     │                  │        tty/changes.html 
-│                        │     │                  ├ [100]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
+│                        │     │                  ├ [102]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
 │                        │     │                  │        age=Update 
-│                        │     │                  ├ [101]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                        │     │                  ├ [102]: https://www.debian.org/security/2023/dsa-5586 
-│                        │     │                  ├ [103]: https://www.debian.org/security/2023/dsa-5588 
-│                        │     │                  ├ [104]: https://www.freebsd.org/security/advisories/Fre
+│                        │     │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                        │     │                  ├ [104]: https://www.debian.org/security/2023/dsa-5586 
+│                        │     │                  ├ [105]: https://www.debian.org/security/2023/dsa-5588 
+│                        │     │                  ├ [106]: https://www.freebsd.org/security/advisories/Fre
 │                        │     │                  │        eBSD-SA-23:19.openssh.asc 
-│                        │     │                  ├ [105]: https://www.lancom-systems.de/service-support/a
+│                        │     │                  ├ [107]: https://www.lancom-systems.de/service-support/a
 │                        │     │                  │        llgemeine-sicherheitshinweise#c243508 
-│                        │     │                  ├ [106]: https://www.netsarang.com/en/xshell-update-history/ 
-│                        │     │                  ├ [107]: https://www.openssh.com/openbsd.html 
-│                        │     │                  ├ [108]: https://www.openssh.com/txt/release-9.6 
-│                        │     │                  ├ [109]: https://www.openwall.com/lists/oss-security/202
-│                        │     │                  │        3/12/18/2 
-│                        │     │                  ├ [110]: https://www.openwall.com/lists/oss-security/202
-│                        │     │                  │        3/12/18/3 
+│                        │     │                  ├ [108]: https://www.netsarang.com/en/xshell-update-history/ 
+│                        │     │                  ├ [109]: https://www.openssh.com/openbsd.html 
+│                        │     │                  ├ [110]: https://www.openssh.com/txt/release-9.6 
 │                        │     │                  ├ [111]: https://www.openwall.com/lists/oss-security/202
+│                        │     │                  │        3/12/18/2 
+│                        │     │                  ├ [112]: https://www.openwall.com/lists/oss-security/202
+│                        │     │                  │        3/12/18/3 
+│                        │     │                  ├ [113]: https://www.openwall.com/lists/oss-security/202
 │                        │     │                  │        3/12/20/3 
-│                        │     │                  ├ [112]: https://www.paramiko.org/changelog.html 
-│                        │     │                  ├ [113]: https://www.reddit.com/r/sysadmin/comments/18id
+│                        │     │                  ├ [114]: https://www.paramiko.org/changelog.html 
+│                        │     │                  ├ [115]: https://www.reddit.com/r/sysadmin/comments/18id
 │                        │     │                  │        v52/cve202348795_why_is_this_cve_still_undisclosed/
 │                        │     │                  │        [m 
-│                        │     │                  ├ [114]: https://www.suse.com/c/suse-addresses-the-ssh-v
+│                        │     │                  ├ [116]: https://www.suse.com/c/suse-addresses-the-ssh-v
 │                        │     │                  │        2-protocol-terrapin-attack-aka-cve-2023-48795/
 │                        │     │                  │         
-│                        │     │                  ├ [115]: https://www.terrapin-attack.com 
-│                        │     │                  ├ [116]: https://www.theregister.com/2023/12/20/terrapin
+│                        │     │                  ├ [117]: https://www.terrapin-attack.com 
+│                        │     │                  ├ [118]: https://www.theregister.com/2023/12/20/terrapin
 │                        │     │                  │        _attack_ssh 
-│                        │     │                  ╰ [117]: https://www.vandyke.com/products/securecrt/hist
+│                        │     │                  ╰ [119]: https://www.vandyke.com/products/securecrt/hist
 │                        │     │                           ory.txt 
 │                        │     ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                        │     ╰ LastModifiedDate: 2024-01-11T04:15:07.79Z 
+│                        │     ╰ LastModifiedDate: 2024-01-15T08:15:36.17Z 
 │                        ├ [3] ╭ VulnerabilityID : CVE-2023-39325 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: v0.10.0 
