@@ -158,6 +158,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -209,6 +210,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -1005,6 +1007,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -1323,6 +1326,7 @@
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1343,6 +1347,8 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -1388,6 +1394,7 @@
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1408,6 +1415,8 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -1453,6 +1462,7 @@
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1473,6 +1483,8 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -1515,16 +1527,16 @@
     CweIDs:
     - CWE-74
     VendorSeverity:
-      nvd: 3
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7.8
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.8
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N
-        V3Score: 3.9
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 6.1
     References:
     - https://access.redhat.com/security/cve/CVE-2023-6004
     - https://bugzilla.redhat.com/show_bug.cgi?id=2251110
@@ -1535,7 +1547,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-6004
     - https://www.libssh.org/security/advisories/CVE-2023-6004.txt
     PublishedDate: '2024-01-03T17:15:11.623Z'
-    LastModifiedDate: '2024-01-11T19:18:22.313Z'
+    LastModifiedDate: '2024-01-16T19:43:11.933Z'
   - VulnerabilityID: CVE-2023-6918
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.2
     PkgName: libssh-4
@@ -1556,7 +1568,9 @@
     CweIDs:
     - CWE-252
     VendorSeverity:
+      cbl-mariner: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -2021,9 +2035,10 @@
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
     - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
+    - https://ubuntu.com/security/CVE-2023-51767
     - https://www.cve.org/CVERecord?id=CVE-2023-51767
     PublishedDate: '2023-12-24T07:15:07.41Z'
-    LastModifiedDate: '2024-01-04T19:18:14.703Z'
+    LastModifiedDate: '2024-01-16T17:15:08.167Z'
   - VulnerabilityID: CVE-2023-51767
     PkgID: openssh-server@1:8.9p1-3ubuntu0.6
     PkgName: openssh-server
@@ -2060,9 +2075,10 @@
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
     - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
+    - https://ubuntu.com/security/CVE-2023-51767
     - https://www.cve.org/CVERecord?id=CVE-2023-51767
     PublishedDate: '2023-12-24T07:15:07.41Z'
-    LastModifiedDate: '2024-01-04T19:18:14.703Z'
+    LastModifiedDate: '2024-01-16T17:15:08.167Z'
   - VulnerabilityID: CVE-2023-51767
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.6
     PkgName: openssh-sftp-server
@@ -2099,9 +2115,10 @@
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
     - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
+    - https://ubuntu.com/security/CVE-2023-51767
     - https://www.cve.org/CVERecord?id=CVE-2023-51767
     PublishedDate: '2023-12-24T07:15:07.41Z'
-    LastModifiedDate: '2024-01-04T19:18:14.703Z'
+    LastModifiedDate: '2024-01-16T17:15:08.167Z'
   - VulnerabilityID: CVE-2023-6129
     PkgID: openssl@3.0.2-0ubuntu1.12
     PkgName: openssl
@@ -2265,6 +2282,7 @@
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -2285,6 +2303,8 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -2330,6 +2350,7 @@
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -2350,6 +2371,8 @@
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -3472,6 +3495,7 @@
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3729,6 +3753,7 @@
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
