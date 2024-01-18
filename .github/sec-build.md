@@ -178,6 +178,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
@@ -244,6 +245,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
@@ -1126,6 +1128,7 @@
 │                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ redhat     : 2 
@@ -1359,7 +1362,91 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                        │      ├ PublishedDate   : 2023-08-22T19:16:19.407Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:19:47.47Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2017-11164 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2024-22365 
+│                        │      ├ PkgID           : libpam-modules@1.4.0-11ubuntu2.3 
+│                        │      ├ PkgName         : libpam-modules 
+│                        │      ├ InstalledVersion: 1.4.0-11ubuntu2.3 
+│                        │      ├ FixedVersion    : 1.4.0-11ubuntu2.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-22365 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Description     : pam_namespace local denial of service 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │                         │      VE-2024-22365 
+│                        │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6588-1 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2024-22365 
+│                        │      ├ PkgID           : libpam-modules-bin@1.4.0-11ubuntu2.3 
+│                        │      ├ PkgName         : libpam-modules-bin 
+│                        │      ├ InstalledVersion: 1.4.0-11ubuntu2.3 
+│                        │      ├ FixedVersion    : 1.4.0-11ubuntu2.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-22365 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Description     : pam_namespace local denial of service 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │                         │      VE-2024-22365 
+│                        │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6588-1 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2024-22365 
+│                        │      ├ PkgID           : libpam-runtime@1.4.0-11ubuntu2.3 
+│                        │      ├ PkgName         : libpam-runtime 
+│                        │      ├ InstalledVersion: 1.4.0-11ubuntu2.3 
+│                        │      ├ FixedVersion    : 1.4.0-11ubuntu2.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-22365 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Description     : pam_namespace local denial of service 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │                         │      VE-2024-22365 
+│                        │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6588-1 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2024-22365 
+│                        │      ├ PkgID           : libpam0g@1.4.0-11ubuntu2.3 
+│                        │      ├ PkgName         : libpam0g 
+│                        │      ├ InstalledVersion: 1.4.0-11ubuntu2.3 
+│                        │      ├ FixedVersion    : 1.4.0-11ubuntu2.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-22365 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Description     : pam_namespace local denial of service 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ─ ubuntu: 2 
+│                        │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │                         │      VE-2024-22365 
+│                        │                         ╰ [1]: https://ubuntu.com/security/notices/USN-6588-1 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2017-11164 
 │                        │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ PkgName         : libpcre3 
 │                        │      ├ InstalledVersion: 2:8.39-13ubuntu0.22.04.1 
@@ -1408,7 +1495,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                        │      ├ PublishedDate   : 2017-07-11T03:29:00.277Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:38:10.98Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2022-3857 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2022-3857 
 │                        │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                        │      ├ PkgName         : libpng16-16 
 │                        │      ├ InstalledVersion: 1.6.37-3build5 
@@ -1448,7 +1535,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
 │                        │      ├ PublishedDate   : 2023-03-06T23:15:11.087Z 
 │                        │      ╰ LastModifiedDate: 2023-04-06T13:15:08.467Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
@@ -1475,12 +1562,14 @@
 │                        │      │                   email/_parseaddr.py in recent versions of Python. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-20 
-│                        │      ├ VendorSeverity   ╭ amazon : 2 
-│                        │      │                  ├ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                  │         │           C:N/I:L/A:N 
 │                        │      │                  │         ╰ V3Score : 5.3 
@@ -1491,70 +1580,76 @@
 │                        │      │                            │           C:N/I:L/A:N 
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://python.org 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0256 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -27043 
-│                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-27043 
-│                        │      │                  ├ [3] : https://github.com/python/cpython/issues/102988 
-│                        │      │                  ├ [4] : https://github.com/python/cpython/pull/102990 
-│                        │      │                  ├ [5] : https://github.com/python/cpython/pull/105127 
-│                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-0256.html 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/issues/102988 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/pull/102990 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/pull/105127 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-27043.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-0256.html 
+│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/4Z
 │                        │      │                  │       AEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/75
 │                        │      │                  │       DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/AR
 │                        │      │                  │       I7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/ 
-│                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/N6
 │                        │      │                  │       M5I6OQHJABNEYY555HUMMKX3Y4P25Z/ 
-│                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/NE
 │                        │      │                  │       UNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/ 
-│                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/OR
 │                        │      │                  │       LXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/ 
-│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/P2
 │                        │      │                  │       MAICLFDDO3QVNHTZ2OCERZQ34R2PIC/ 
-│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/P2
 │                        │      │                  │       W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/ 
-│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/PH
 │                        │      │                  │       VGRKQAGANCSGFI3QMYOCIMS4IFOZA5/ 
-│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/PU
 │                        │      │                  │       6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/ 
-│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/RD
 │                        │      │                  │       DC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/ 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/SI
 │                        │      │                  │       NP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
-│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/SO
 │                        │      │                  │       X7BCN6YL7B3RFPEEXPIU5CMTEHJOKR/ 
-│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/VZ
 │                        │      │                  │       XC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/ 
-│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/XW
 │                        │      │                  │       MBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
-│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/YQ
 │                        │      │                  │       VY5C5REXWJIORJIL2FIL3ALOEJEF72/ 
-│                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                        │      │                  ├ [23]: https://python-security.readthedocs.io/vuln/ema
+│                        │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                        │      │                  ├ [29]: https://python-security.readthedocs.io/vuln/ema
 │                        │      │                  │       il-parseaddr-realname.html 
-│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [30]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       601-0003/ 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10-minimal 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
@@ -1581,12 +1676,14 @@
 │                        │      │                   email/_parseaddr.py in recent versions of Python. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-20 
-│                        │      ├ VendorSeverity   ╭ amazon : 2 
-│                        │      │                  ├ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                  │         │           C:N/I:L/A:N 
 │                        │      │                  │         ╰ V3Score : 5.3 
@@ -1597,70 +1694,76 @@
 │                        │      │                            │           C:N/I:L/A:N 
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://python.org 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0256 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -27043 
-│                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-27043 
-│                        │      │                  ├ [3] : https://github.com/python/cpython/issues/102988 
-│                        │      │                  ├ [4] : https://github.com/python/cpython/pull/102990 
-│                        │      │                  ├ [5] : https://github.com/python/cpython/pull/105127 
-│                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-0256.html 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/issues/102988 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/pull/102990 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/pull/105127 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-27043.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-0256.html 
+│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/4Z
 │                        │      │                  │       AEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/75
 │                        │      │                  │       DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/AR
 │                        │      │                  │       I7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/ 
-│                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/N6
 │                        │      │                  │       M5I6OQHJABNEYY555HUMMKX3Y4P25Z/ 
-│                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/NE
 │                        │      │                  │       UNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/ 
-│                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/OR
 │                        │      │                  │       LXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/ 
-│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/P2
 │                        │      │                  │       MAICLFDDO3QVNHTZ2OCERZQ34R2PIC/ 
-│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/P2
 │                        │      │                  │       W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/ 
-│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/PH
 │                        │      │                  │       VGRKQAGANCSGFI3QMYOCIMS4IFOZA5/ 
-│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/PU
 │                        │      │                  │       6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/ 
-│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/RD
 │                        │      │                  │       DC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/ 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/SI
 │                        │      │                  │       NP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
-│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/SO
 │                        │      │                  │       X7BCN6YL7B3RFPEEXPIU5CMTEHJOKR/ 
-│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/VZ
 │                        │      │                  │       XC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/ 
-│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/XW
 │                        │      │                  │       MBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
-│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/YQ
 │                        │      │                  │       VY5C5REXWJIORJIL2FIL3ALOEJEF72/ 
-│                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                        │      │                  ├ [23]: https://python-security.readthedocs.io/vuln/ema
+│                        │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                        │      │                  ├ [29]: https://python-security.readthedocs.io/vuln/ema
 │                        │      │                  │       il-parseaddr-realname.html 
-│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [30]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       601-0003/ 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10-stdlib 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
@@ -1687,12 +1790,14 @@
 │                        │      │                   email/_parseaddr.py in recent versions of Python. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-20 
-│                        │      ├ VendorSeverity   ╭ amazon : 2 
-│                        │      │                  ├ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                  │         │           C:N/I:L/A:N 
 │                        │      │                  │         ╰ V3Score : 5.3 
@@ -1703,70 +1808,76 @@
 │                        │      │                            │           C:N/I:L/A:N 
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://python.org 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0256 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -27043 
-│                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-27043 
-│                        │      │                  ├ [3] : https://github.com/python/cpython/issues/102988 
-│                        │      │                  ├ [4] : https://github.com/python/cpython/pull/102990 
-│                        │      │                  ├ [5] : https://github.com/python/cpython/pull/105127 
-│                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-0256.html 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/issues/102988 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/pull/102990 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/pull/105127 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-27043.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-0256.html 
+│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/4Z
 │                        │      │                  │       AEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/75
 │                        │      │                  │       DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/AR
 │                        │      │                  │       I7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/ 
-│                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/N6
 │                        │      │                  │       M5I6OQHJABNEYY555HUMMKX3Y4P25Z/ 
-│                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/NE
 │                        │      │                  │       UNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/ 
-│                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/OR
 │                        │      │                  │       LXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/ 
-│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/P2
 │                        │      │                  │       MAICLFDDO3QVNHTZ2OCERZQ34R2PIC/ 
-│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/P2
 │                        │      │                  │       W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/ 
-│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/PH
 │                        │      │                  │       VGRKQAGANCSGFI3QMYOCIMS4IFOZA5/ 
-│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/PU
 │                        │      │                  │       6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/ 
-│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/RD
 │                        │      │                  │       DC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/ 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/SI
 │                        │      │                  │       NP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
-│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/SO
 │                        │      │                  │       X7BCN6YL7B3RFPEEXPIU5CMTEHJOKR/ 
-│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/VZ
 │                        │      │                  │       XC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/ 
-│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/XW
 │                        │      │                  │       MBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
-│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/YQ
 │                        │      │                  │       VY5C5REXWJIORJIL2FIL3ALOEJEF72/ 
-│                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                        │      │                  ├ [23]: https://python-security.readthedocs.io/vuln/ema
+│                        │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                        │      │                  ├ [29]: https://python-security.readthedocs.io/vuln/ema
 │                        │      │                  │       il-parseaddr-realname.html 
-│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [30]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       601-0003/ 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2023-6004 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2023-6004 
 │                        │      ├ PkgID           : libssh-4@0.9.6-2ubuntu0.22.04.2 
 │                        │      ├ PkgName         : libssh-4 
 │                        │      ├ InstalledVersion: 0.9.6-2ubuntu0.22.04.2 
@@ -1790,15 +1901,15 @@
 │                        │      │                   parameter. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-74 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
 │                        │      │                  ├ redhat: 1 
 │                        │      │                  ╰ ubuntu: 2 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ╰ V3Score : 7.8 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C
+│                        │      │                  │        │           :L/I:L/A:L 
+│                        │      │                  │        ╰ V3Score : 4.8 
 │                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C
-│                        │      │                           │           :L/I:L/A:N 
-│                        │      │                           ╰ V3Score : 3.9 
+│                        │      │                           │           :L/I:L/A:H 
+│                        │      │                           ╰ V3Score : 6.1 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6004 
 │                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2251110 
 │                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
@@ -1814,8 +1925,8 @@
 │                        │      │                  ╰ [7]: https://www.libssh.org/security/advisories/CVE-2
 │                        │      │                         023-6004.txt 
 │                        │      ├ PublishedDate   : 2024-01-03T17:15:11.623Z 
-│                        │      ╰ LastModifiedDate: 2024-01-11T19:18:22.313Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2023-6918 
+│                        │      ╰ LastModifiedDate: 2024-01-16T19:43:11.933Z 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2023-6918 
 │                        │      ├ PkgID           : libssh-4@0.9.6-2ubuntu0.22.04.2 
 │                        │      ├ PkgName         : libssh-4 
 │                        │      ├ InstalledVersion: 0.9.6-2ubuntu0.22.04.2 
@@ -1841,9 +1952,11 @@
 │                        │      │                   connection. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-252 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 1 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                  │        │           :N/I:N/A:L 
 │                        │      │                  │        ╰ V3Score : 5.3 
@@ -1868,7 +1981,7 @@
 │                        │      │                         023-6918.txt 
 │                        │      ├ PublishedDate   : 2023-12-19T00:15:08.46Z 
 │                        │      ╰ LastModifiedDate: 2024-01-10T16:14:07.393Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2023-6129 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2023-6129 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.12 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.12 
@@ -1946,25 +2059,63 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      01/09/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-6129 
-│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2023-6129 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/050d26
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/050d26
 │                        │      │                  │      383d4e264966fb83428e72d5d48f402d35 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/5b139f
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f
 │                        │      │                  │      95c9a47a55a0c54100f3837b1eee942b04 
-│                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/f3fc58
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc58
 │                        │      │                  │      08fe9ff74042d639839610d03b8fdcc015 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
-│                        │      │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
-│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
+│                        │      │                  ├ [7]: https://www.openssl.org/news/secadv/20240109.txt 
+│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /01/09/1 
 │                        │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-│                        │      ╰ LastModifiedDate: 2024-01-09T19:56:14.023Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2022-27943 
+│                        │      ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2023-6237 
+│                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.12 
+│                        │      ├ PkgName         : libssl3 
+│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.12 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6237 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssl: Excessive time spent checking invalid RSA
+│                        │      │                   public keys 
+│                        │      ├ Description     : A flaw was found in OpenSSL. When the
+│                        │      │                   EVP_PKEY_public_check() function is called in RSA public
+│                        │      │                   keys, a computation is done to confirm that the RSA
+│                        │      │                   modulus, n, is composite. For valid RSA keys, n is a
+│                        │      │                   product of two or more large primes and this computation
+│                        │      │                   completes quickly. However, if n is a large prime, this
+│                        │      │                   computation takes a long time. An application that calls
+│                        │      │                   EVP_PKEY_public_check() and supplies an RSA key obtained
+│                        │      │                   from an untrusted source could be vulnerable to a Denial of
+│                        │      │                    Service attack. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6237 
+│                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │                         │      VE-2023-6237 
+│                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-6237 
+│                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2023-6237 
+│                        │                         ├ [4]: https://www.openssl.org/news/secadv/20240115.txt 
+│                        │                         ╰ [5]: https://www.openwall.com/lists/oss-security/2024
+│                        │                                /01/15/2 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
@@ -2019,7 +2170,7 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2018-10126 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2018-10126 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
@@ -2062,7 +2213,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                        │      ├ PublishedDate   : 2018-04-21T21:29:00.29Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:51:16.693Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2023-3164 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2023-3164 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
@@ -2103,7 +2254,95 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
 │                        │      ├ PublishedDate   : 2023-11-02T12:15:09.543Z 
 │                        │      ╰ LastModifiedDate: 2023-12-20T19:13:34.823Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2023-6228 
+│                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
+│                        │      ├ PkgName         : libtiff5 
+│                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6228 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libtiff: heap-based buffer overflow in cpStripToTile()
+│                        │      │                    in tools/tiffcp.c 
+│                        │      ├ Description     : An issue was found in the tiffcp utility distributed
+│                        │      │                   by the libtiff package where a crafted TIFF file on
+│                        │      │                   processing may cause a heap-based buffer overflow leads to
+│                        │      │                   an application crash. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-787 
+│                        │      ├ VendorSeverity   ╭ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6228 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2240995 
+│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-6228 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-6228 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-6228 
+│                        │      ├ PublishedDate   : 2023-12-18T14:15:11.84Z 
+│                        │      ╰ LastModifiedDate: 2023-12-29T07:15:10.897Z 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2023-6277 
+│                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
+│                        │      ├ PkgName         : libtiff5 
+│                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6277 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : libtiff: Out-of-memory in TIFFOpen via a craft file 
+│                        │      ├ Description     : An out-of-memory flaw was found in libtiff. Passing a
+│                        │      │                   crafted tiff file to TIFFOpen() API may allow a remote
+│                        │      │                   attacker to cause a denial of service via a craft input
+│                        │      │                   with size smaller than 379 KB. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ─ [0]: CWE-400 
+│                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ nvd   : 2 
+│                        │      │                  ├ photon: 2 
+│                        │      │                  ├ redhat: 2 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6277 
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2251311 
+│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-6277 
+│                        │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/issues/614 
+│                        │      │                  ├ [4]: https://gitlab.com/libtiff/libtiff/-/merge_reque
+│                        │      │                  │      sts/545 
+│                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/WJIN6D
+│                        │      │                  │      TSL3VODZUGWEUXLEL5DR53EZMV/ 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/Y7ZGN2
+│                        │      │                  │      MZXJ6E57W3L4YBM3ZPAU3T7T5C/ 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-6277 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-6277 
+│                        │      ├ PublishedDate   : 2023-11-24T19:15:07.643Z 
+│                        │      ╰ LastModifiedDate: 2024-01-14T02:15:46.917Z 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
@@ -2173,7 +2412,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : login 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2229,7 +2468,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-client 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.6 
@@ -2273,10 +2512,11 @@
 │                        │      │                  │      /8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L
 │                        │      │                  │      878 
 │                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-51767 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/CVE-2023-51767 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
-│                        │      ╰ LastModifiedDate: 2024-01-04T19:18:14.703Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2023-51767 
+│                        │      ╰ LastModifiedDate: 2024-01-16T17:15:08.167Z 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.6 
@@ -2320,10 +2560,11 @@
 │                        │      │                  │      /8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L
 │                        │      │                  │      878 
 │                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-51767 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/CVE-2023-51767 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
-│                        │      ╰ LastModifiedDate: 2024-01-04T19:18:14.703Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2023-51767 
+│                        │      ╰ LastModifiedDate: 2024-01-16T17:15:08.167Z 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-sftp-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.6 
@@ -2367,10 +2608,11 @@
 │                        │      │                  │      /8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L
 │                        │      │                  │      878 
 │                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-51767 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/CVE-2023-51767 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
-│                        │      ╰ LastModifiedDate: 2024-01-04T19:18:14.703Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2023-6129 
+│                        │      ╰ LastModifiedDate: 2024-01-16T17:15:08.167Z 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2023-6129 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.12 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.12 
@@ -2448,25 +2690,63 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      01/09/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-6129 
-│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6129 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2023-6129 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/050d26
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/050d26
 │                        │      │                  │      383d4e264966fb83428e72d5d48f402d35 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/5b139f
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/5b139f
 │                        │      │                  │      95c9a47a55a0c54100f3837b1eee942b04 
-│                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/f3fc58
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/f3fc58
 │                        │      │                  │      08fe9ff74042d639839610d03b8fdcc015 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
-│                        │      │                  ├ [8]: https://www.openssl.org/news/secadv/20240109.txt 
-│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6129 
+│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2023-6129 
+│                        │      │                  ├ [7]: https://www.openssl.org/news/secadv/20240109.txt 
+│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /01/09/1 
 │                        │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
-│                        │      ╰ LastModifiedDate: 2024-01-09T19:56:14.023Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2023-29383 
+│                        │      ╰ LastModifiedDate: 2024-01-15T12:15:43.4Z 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2023-6237 
+│                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.12 
+│                        │      ├ PkgName         : openssl 
+│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.12 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b1
+│                        │      │                  │         6e8ff9a905c4fdc09da78e194f 
+│                        │      │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f
+│                        │      │                            955a66e136cc161096c0780715 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6237 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssl: Excessive time spent checking invalid RSA
+│                        │      │                   public keys 
+│                        │      ├ Description     : A flaw was found in OpenSSL. When the
+│                        │      │                   EVP_PKEY_public_check() function is called in RSA public
+│                        │      │                   keys, a computation is done to confirm that the RSA
+│                        │      │                   modulus, n, is composite. For valid RSA keys, n is a
+│                        │      │                   product of two or more large primes and this computation
+│                        │      │                   completes quickly. However, if n is a large prime, this
+│                        │      │                   computation takes a long time. An application that calls
+│                        │      │                   EVP_PKEY_public_check() and supplies an RSA key obtained
+│                        │      │                   from an untrusted source could be vulnerable to a Denial of
+│                        │      │                    Service attack. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6237 
+│                        │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │                         │      VE-2023-6237 
+│                        │                         ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2023-6237 
+│                        │                         ├ [3]: https://www.cve.org/CVERecord?id=CVE-2023-6237 
+│                        │                         ├ [4]: https://www.openssl.org/news/secadv/20240115.txt 
+│                        │                         ╰ [5]: https://www.openwall.com/lists/oss-security/2024
+│                        │                                /01/15/2 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2522,7 +2802,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
@@ -2549,12 +2829,14 @@
 │                        │      │                   email/_parseaddr.py in recent versions of Python. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-20 
-│                        │      ├ VendorSeverity   ╭ amazon : 2 
-│                        │      │                  ├ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                  │         │           C:N/I:L/A:N 
 │                        │      │                  │         ╰ V3Score : 5.3 
@@ -2565,70 +2847,76 @@
 │                        │      │                            │           C:N/I:L/A:N 
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://python.org 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0256 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -27043 
-│                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-27043 
-│                        │      │                  ├ [3] : https://github.com/python/cpython/issues/102988 
-│                        │      │                  ├ [4] : https://github.com/python/cpython/pull/102990 
-│                        │      │                  ├ [5] : https://github.com/python/cpython/pull/105127 
-│                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-0256.html 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/issues/102988 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/pull/102990 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/pull/105127 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-27043.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-0256.html 
+│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/4Z
 │                        │      │                  │       AEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/75
 │                        │      │                  │       DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/AR
 │                        │      │                  │       I7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/ 
-│                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/N6
 │                        │      │                  │       M5I6OQHJABNEYY555HUMMKX3Y4P25Z/ 
-│                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/NE
 │                        │      │                  │       UNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/ 
-│                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/OR
 │                        │      │                  │       LXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/ 
-│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/P2
 │                        │      │                  │       MAICLFDDO3QVNHTZ2OCERZQ34R2PIC/ 
-│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/P2
 │                        │      │                  │       W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/ 
-│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/PH
 │                        │      │                  │       VGRKQAGANCSGFI3QMYOCIMS4IFOZA5/ 
-│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/PU
 │                        │      │                  │       6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/ 
-│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/RD
 │                        │      │                  │       DC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/ 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/SI
 │                        │      │                  │       NP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
-│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/SO
 │                        │      │                  │       X7BCN6YL7B3RFPEEXPIU5CMTEHJOKR/ 
-│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/VZ
 │                        │      │                  │       XC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/ 
-│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/XW
 │                        │      │                  │       MBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
-│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/YQ
 │                        │      │                  │       VY5C5REXWJIORJIL2FIL3ALOEJEF72/ 
-│                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                        │      │                  ├ [23]: https://python-security.readthedocs.io/vuln/ema
+│                        │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                        │      │                  ├ [29]: https://python-security.readthedocs.io/vuln/ema
 │                        │      │                  │       il-parseaddr-realname.html 
-│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [30]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       601-0003/ 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
@@ -2655,12 +2943,14 @@
 │                        │      │                   email/_parseaddr.py in recent versions of Python. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-20 
-│                        │      ├ VendorSeverity   ╭ amazon : 2 
-│                        │      │                  ├ bitnami: 2 
-│                        │      │                  ├ nvd    : 2 
-│                        │      │                  ├ photon : 2 
-│                        │      │                  ├ redhat : 2 
-│                        │      │                  ╰ ubuntu : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                  │         │           C:N/I:L/A:N 
 │                        │      │                  │         ╰ V3Score : 5.3 
@@ -2671,70 +2961,76 @@
 │                        │      │                            │           C:N/I:L/A:N 
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://python.org 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023
+│                        │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0256 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -27043 
-│                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-27043 
-│                        │      │                  ├ [3] : https://github.com/python/cpython/issues/102988 
-│                        │      │                  ├ [4] : https://github.com/python/cpython/pull/102990 
-│                        │      │                  ├ [5] : https://github.com/python/cpython/pull/105127 
-│                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [6] : https://errata.almalinux.org/8/ALSA-2024-0256.html 
+│                        │      │                  ├ [7] : https://github.com/python/cpython/issues/102988 
+│                        │      │                  ├ [8] : https://github.com/python/cpython/pull/102990 
+│                        │      │                  ├ [9] : https://github.com/python/cpython/pull/105127 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-27043.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-0256.html 
+│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/4Z
 │                        │      │                  │       AEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
-│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/75
 │                        │      │                  │       DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/ 
-│                        │      │                  ├ [8] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/AR
 │                        │      │                  │       I7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/ 
-│                        │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/N6
 │                        │      │                  │       M5I6OQHJABNEYY555HUMMKX3Y4P25Z/ 
-│                        │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/NE
 │                        │      │                  │       UNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/ 
-│                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/OR
 │                        │      │                  │       LXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/ 
-│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/P2
 │                        │      │                  │       MAICLFDDO3QVNHTZ2OCERZQ34R2PIC/ 
-│                        │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/P2
 │                        │      │                  │       W2BZQIHMCKRI5FNBJERFYMS5PK6TAH/ 
-│                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/PH
 │                        │      │                  │       VGRKQAGANCSGFI3QMYOCIMS4IFOZA5/ 
-│                        │      │                  ├ [15]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/PU
 │                        │      │                  │       6Y2S5CBN5BWCBDAJFTGIBZLK3S2G3J/ 
-│                        │      │                  ├ [16]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/RD
 │                        │      │                  │       DC2VOX7OQC6OHMYTVD4HLFZIV6PYBC/ 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/SI
 │                        │      │                  │       NP4OVYNB2AGDYI2GS37EMW3H3F7XPZ/ 
-│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/SO
 │                        │      │                  │       X7BCN6YL7B3RFPEEXPIU5CMTEHJOKR/ 
-│                        │      │                  ├ [19]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/VZ
 │                        │      │                  │       XC32CJ7TWDPJO6GY2XIQRO7JZX5FLP/ 
-│                        │      │                  ├ [20]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [26]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/XW
 │                        │      │                  │       MBD4LNHWEXRI6YVFWJMTJQUL5WOFTS/ 
-│                        │      │                  ├ [21]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [27]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/YQ
 │                        │      │                  │       VY5C5REXWJIORJIL2FIL3ALOEJEF72/ 
-│                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
-│                        │      │                  ├ [23]: https://python-security.readthedocs.io/vuln/ema
+│                        │      │                  ├ [28]: https://nvd.nist.gov/vuln/detail/CVE-2023-27043 
+│                        │      │                  ├ [29]: https://python-security.readthedocs.io/vuln/ema
 │                        │      │                  │       il-parseaddr-realname.html 
-│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20230
+│                        │      │                  ├ [30]: https://security.netapp.com/advisory/ntap-20230
 │                        │      │                  │       601-0003/ 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
+│                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
@@ -2790,7 +3086,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ InstalledVersion: 1.21.2-2ubuntu1 
@@ -2836,7 +3132,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ╰ [50] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [58] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ InstalledVersion: 5.2.5-2ubuntu1 
@@ -3053,78 +3349,96 @@
 │                        │     │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-39325.html 
 │                        │     │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                        │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/3OVW5V
+│                        │     │                  │       2DM5K5IC3H7O42YDUGNJ74J35O/ 
+│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/3SZN67
 │                        │     │                  │       IL7HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/4BUK2Z
 │                        │     │                  │       IAGCULOOYDNH25JPU6JBES5NF2/ 
-│                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/5RSKA2
+│                        │     │                  │       II6QTD4YUKUNDVJQSRYSFC4VFR/ 
+│                        │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/AVZDNS
 │                        │     │                  │       MVDAQJ64LJC5I5U5LDM5753647/ 
-│                        │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/CHHITS
+│                        │     │                  │       4PUOZAKFIUBQAQZC7JWXMOYE4B/ 
+│                        │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/CLB4TW
 │                        │     │                  │       7KALB3EEQWNWCN7OUIWWVWWCG2/ 
-│                        │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/D2BBID
 │                        │     │                  │       R2ZMB3X5BC7SR4SLQMHRMVPY6L/ 
-│                        │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ECRC75
 │                        │     │                  │       BQJP6FJN2L7KCKYZW4DSBD7QSD/ 
-│                        │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/GSY7SX
 │                        │     │                  │       FFTPZFWDM6XELSDSHZLVW3AHK7/ 
-│                        │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/HZQIEL
 │                        │     │                  │       EIRSZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                        │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/KEOTKB
+│                        │     │                  │       UPZXHE3F352JBYNTSNRXYLWD6P/ 
+│                        │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/KSEGD2
 │                        │     │                  │       IWKNUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/MZQYOO
+│                        │     │                  │       KHQDQ57LV2IAG6NRFOVXKHJJ3Z/ 
+│                        │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/NG7IMP
 │                        │     │                  │       L55MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                        │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/OXGWPQ
 │                        │     │                  │       OJ3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                        │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QF5QSY
 │                        │     │                  │       AOPDOWLY6DUHID56Q4HQFYB45I/ 
-│                        │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/R3UETK
 │                        │     │                  │       PUB3V5JS5TLZOF3SMTGT5K5APS/ 
-│                        │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/REMHVV
 │                        │     │                  │       IBDNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                        │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/T7N5GV
 │                        │     │                  │       4CHH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                        │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ULQQON
 │                        │     │                  │       MSCQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                        │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/UTT7DG
 │                        │     │                  │       3QOF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                        │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/WCNCBY
 │                        │     │                  │       KZXLDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                        │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [45]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XFOIBB
 │                        │     │                  │       4YFICHDM7IBOP7PWXW3FX4HLL2/ 
-│                        │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [46]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XTNLSL
 │                        │     │                  │       44Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                        │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/YRKEXK
 │                        │     │                  │       ANQ7BKJW2YTAMP625LJUJZLJ4P/ 
-│                        │     │                  ├ [43]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │     │                  ├ [44]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │     │                  ├ [45]: https://security.gentoo.org/glsa/202311-09 
-│                        │     │                  ├ [46]: https://security.netapp.com/advisory/ntap-202311
+│                        │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ZSVEMQ
+│                        │     │                  │       V5ROY5YW5QE3I57HT3ITWG5GCV/ 
+│                        │     │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [50]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [51]: https://security.gentoo.org/glsa/202311-09 
+│                        │     │                  ├ [52]: https://security.netapp.com/advisory/ntap-202311
 │                        │     │                  │       10-0008/ 
-│                        │     │                  ├ [47]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │     │                  ├ [48]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  ├ [53]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │     │                  ├ [54]: https://www.cisa.gov/news-events/alerts/2023/10/
 │                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │     │                  │       [m 
-│                        │     │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     │                  ╰ [55]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │     ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │     ╰ LastModifiedDate: 2023-12-07T03:15:06.853Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
@@ -3690,78 +4004,96 @@
 │                        │     │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-39325.html 
 │                        │     │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                        │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/3OVW5V
+│                        │     │                  │       2DM5K5IC3H7O42YDUGNJ74J35O/ 
+│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/3SZN67
 │                        │     │                  │       IL7HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/4BUK2Z
 │                        │     │                  │       IAGCULOOYDNH25JPU6JBES5NF2/ 
-│                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/5RSKA2
+│                        │     │                  │       II6QTD4YUKUNDVJQSRYSFC4VFR/ 
+│                        │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/AVZDNS
 │                        │     │                  │       MVDAQJ64LJC5I5U5LDM5753647/ 
-│                        │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/CHHITS
+│                        │     │                  │       4PUOZAKFIUBQAQZC7JWXMOYE4B/ 
+│                        │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/CLB4TW
 │                        │     │                  │       7KALB3EEQWNWCN7OUIWWVWWCG2/ 
-│                        │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/D2BBID
 │                        │     │                  │       R2ZMB3X5BC7SR4SLQMHRMVPY6L/ 
-│                        │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ECRC75
 │                        │     │                  │       BQJP6FJN2L7KCKYZW4DSBD7QSD/ 
-│                        │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/GSY7SX
 │                        │     │                  │       FFTPZFWDM6XELSDSHZLVW3AHK7/ 
-│                        │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/HZQIEL
 │                        │     │                  │       EIRSZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                        │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/KEOTKB
+│                        │     │                  │       UPZXHE3F352JBYNTSNRXYLWD6P/ 
+│                        │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/KSEGD2
 │                        │     │                  │       IWKNUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/MZQYOO
+│                        │     │                  │       KHQDQ57LV2IAG6NRFOVXKHJJ3Z/ 
+│                        │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/NG7IMP
 │                        │     │                  │       L55MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                        │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/OXGWPQ
 │                        │     │                  │       OJ3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                        │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QF5QSY
 │                        │     │                  │       AOPDOWLY6DUHID56Q4HQFYB45I/ 
-│                        │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/R3UETK
 │                        │     │                  │       PUB3V5JS5TLZOF3SMTGT5K5APS/ 
-│                        │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/REMHVV
 │                        │     │                  │       IBDNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                        │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/T7N5GV
 │                        │     │                  │       4CHH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                        │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ULQQON
 │                        │     │                  │       MSCQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                        │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/UTT7DG
 │                        │     │                  │       3QOF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                        │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/WCNCBY
 │                        │     │                  │       KZXLDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                        │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [45]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XFOIBB
 │                        │     │                  │       4YFICHDM7IBOP7PWXW3FX4HLL2/ 
-│                        │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [46]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XTNLSL
 │                        │     │                  │       44Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                        │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/YRKEXK
 │                        │     │                  │       ANQ7BKJW2YTAMP625LJUJZLJ4P/ 
-│                        │     │                  ├ [43]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │     │                  ├ [44]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │     │                  ├ [45]: https://security.gentoo.org/glsa/202311-09 
-│                        │     │                  ├ [46]: https://security.netapp.com/advisory/ntap-202311
+│                        │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ZSVEMQ
+│                        │     │                  │       V5ROY5YW5QE3I57HT3ITWG5GCV/ 
+│                        │     │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [50]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [51]: https://security.gentoo.org/glsa/202311-09 
+│                        │     │                  ├ [52]: https://security.netapp.com/advisory/ntap-202311
 │                        │     │                  │       10-0008/ 
-│                        │     │                  ├ [47]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │     │                  ├ [48]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  ├ [53]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │     │                  ├ [54]: https://www.cisa.gov/news-events/alerts/2023/10/
 │                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │     │                  │       [m 
-│                        │     │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     │                  ╰ [55]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │     ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │     ╰ LastModifiedDate: 2023-12-07T03:15:06.853Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
@@ -4465,6 +4797,7 @@
 │                              │                  ├ cbl-mariner: 2 
 │                              │                  ├ ghsa       : 2 
 │                              │                  ├ nvd        : 2 
+│                              │                  ├ photon     : 2 
 │                              │                  ├ redhat     : 2 
 │                              │                  ╰ ubuntu     : 2 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
@@ -4627,66 +4960,69 @@
 │                              │                  ├ [78] : https://nova.app/releases/#v11.8 
 │                              │                  ├ [79] : https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
 │                              │                  ├ [80] : https://oryx-embedded.com/download/#changelog 
-│                              │                  ├ [81] : https://roumenpetrov.info/secsh/#news20231220 
-│                              │                  ├ [82] : https://security-tracker.debian.org/tracker/CVE
+│                              │                  ├ [81] : https://psirt.global.sonicwall.com/vuln-detail/
+│                              │                  │        SNWLID-2024-0002 
+│                              │                  ├ [82] : https://roumenpetrov.info/secsh/#news20231220 
+│                              │                  ├ [83] : https://security-tracker.debian.org/tracker/CVE
 │                              │                  │        -2023-48795 
-│                              │                  ├ [83] : https://security-tracker.debian.org/tracker/sou
-│                              │                  │        rce-package/libssh2 
 │                              │                  ├ [84] : https://security-tracker.debian.org/tracker/sou
-│                              │                  │        rce-package/proftpd-dfsg 
+│                              │                  │        rce-package/libssh2 
 │                              │                  ├ [85] : https://security-tracker.debian.org/tracker/sou
+│                              │                  │        rce-package/proftpd-dfsg 
+│                              │                  ├ [86] : https://security-tracker.debian.org/tracker/sou
 │                              │                  │        rce-package/trilead-ssh2 
-│                              │                  ├ [86] : https://security.gentoo.org/glsa/202312-16 
-│                              │                  ├ [87] : https://security.gentoo.org/glsa/202312-17 
-│                              │                  ├ [88] : https://security.netapp.com/advisory/ntap-20240
+│                              │                  ├ [87] : https://security.gentoo.org/glsa/202312-16 
+│                              │                  ├ [88] : https://security.gentoo.org/glsa/202312-17 
+│                              │                  ├ [89] : https://security.netapp.com/advisory/ntap-20240
 │                              │                  │        105-0004/ 
-│                              │                  ├ [89] : https://terrapin-attack.com/ 
-│                              │                  ├ [90] : https://thorntech.com/cve-2023-48795-and-sftp-g
+│                              │                  ├ [90] : https://terrapin-attack.com/ 
+│                              │                  ├ [91] : https://thorntech.com/cve-2023-48795-and-sftp-g
 │                              │                  │        ateway/ 
-│                              │                  ├ [91] : https://twitter.com/TrueSkrillor/status/1736774
+│                              │                  ├ [92] : https://twitter.com/TrueSkrillor/status/1736774
 │                              │                  │        389725565005 
-│                              │                  ├ [92] : https://ubuntu.com/security/CVE-2023-48795 
-│                              │                  ├ [93] : https://ubuntu.com/security/notices/USN-6560-1 
-│                              │                  ├ [94] : https://ubuntu.com/security/notices/USN-6560-2 
-│                              │                  ├ [95] : https://ubuntu.com/security/notices/USN-6561-1 
-│                              │                  ├ [96] : https://winscp.net/eng/docs/history#6.2.2 
-│                              │                  ├ [97] : https://www.bitvise.com/ssh-client-version-hist
+│                              │                  ├ [93] : https://ubuntu.com/security/CVE-2023-48795 
+│                              │                  ├ [94] : https://ubuntu.com/security/notices/USN-6560-1 
+│                              │                  ├ [95] : https://ubuntu.com/security/notices/USN-6560-2 
+│                              │                  ├ [96] : https://ubuntu.com/security/notices/USN-6561-1 
+│                              │                  ├ [97] : https://ubuntu.com/security/notices/USN-6585-1 
+│                              │                  ├ [98] : https://winscp.net/eng/docs/history#6.2.2 
+│                              │                  ├ [99] : https://www.bitvise.com/ssh-client-version-hist
 │                              │                  │        ory#933 
-│                              │                  ├ [98] : https://www.bitvise.com/ssh-server-version-history 
-│                              │                  ├ [99] : https://www.chiark.greenend.org.uk/~sgtatham/pu
+│                              │                  ├ [100]: https://www.bitvise.com/ssh-server-version-history 
+│                              │                  ├ [101]: https://www.chiark.greenend.org.uk/~sgtatham/pu
 │                              │                  │        tty/changes.html 
-│                              │                  ├ [100]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
+│                              │                  ├ [102]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
 │                              │                  │        age=Update 
-│                              │                  ├ [101]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                              │                  ├ [102]: https://www.debian.org/security/2023/dsa-5586 
-│                              │                  ├ [103]: https://www.debian.org/security/2023/dsa-5588 
-│                              │                  ├ [104]: https://www.freebsd.org/security/advisories/Fre
+│                              │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                              │                  ├ [104]: https://www.debian.org/security/2023/dsa-5586 
+│                              │                  ├ [105]: https://www.debian.org/security/2023/dsa-5588 
+│                              │                  ├ [106]: https://www.freebsd.org/security/advisories/Fre
 │                              │                  │        eBSD-SA-23:19.openssh.asc 
-│                              │                  ├ [105]: https://www.lancom-systems.de/service-support/a
+│                              │                  ├ [107]: https://www.lancom-systems.de/service-support/a
 │                              │                  │        llgemeine-sicherheitshinweise#c243508 
-│                              │                  ├ [106]: https://www.netsarang.com/en/xshell-update-history/ 
-│                              │                  ├ [107]: https://www.openssh.com/openbsd.html 
-│                              │                  ├ [108]: https://www.openssh.com/txt/release-9.6 
-│                              │                  ├ [109]: https://www.openwall.com/lists/oss-security/202
-│                              │                  │        3/12/18/2 
-│                              │                  ├ [110]: https://www.openwall.com/lists/oss-security/202
-│                              │                  │        3/12/18/3 
+│                              │                  ├ [108]: https://www.netsarang.com/en/xshell-update-history/ 
+│                              │                  ├ [109]: https://www.openssh.com/openbsd.html 
+│                              │                  ├ [110]: https://www.openssh.com/txt/release-9.6 
 │                              │                  ├ [111]: https://www.openwall.com/lists/oss-security/202
+│                              │                  │        3/12/18/2 
+│                              │                  ├ [112]: https://www.openwall.com/lists/oss-security/202
+│                              │                  │        3/12/18/3 
+│                              │                  ├ [113]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/12/20/3 
-│                              │                  ├ [112]: https://www.paramiko.org/changelog.html 
-│                              │                  ├ [113]: https://www.reddit.com/r/sysadmin/comments/18id
+│                              │                  ├ [114]: https://www.paramiko.org/changelog.html 
+│                              │                  ├ [115]: https://www.reddit.com/r/sysadmin/comments/18id
 │                              │                  │        v52/cve202348795_why_is_this_cve_still_undisclosed/
 │                              │                  │        [m 
-│                              │                  ├ [114]: https://www.suse.com/c/suse-addresses-the-ssh-v
+│                              │                  ├ [116]: https://www.suse.com/c/suse-addresses-the-ssh-v
 │                              │                  │        2-protocol-terrapin-attack-aka-cve-2023-48795/
 │                              │                  │         
-│                              │                  ├ [115]: https://www.terrapin-attack.com 
-│                              │                  ├ [116]: https://www.theregister.com/2023/12/20/terrapin
+│                              │                  ├ [117]: https://www.terrapin-attack.com 
+│                              │                  ├ [118]: https://www.theregister.com/2023/12/20/terrapin
 │                              │                  │        _attack_ssh 
-│                              │                  ╰ [117]: https://www.vandyke.com/products/securecrt/hist
+│                              │                  ╰ [119]: https://www.vandyke.com/products/securecrt/hist
 │                              │                           ory.txt 
 │                              ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                              ╰ LastModifiedDate: 2024-01-11T04:15:07.79Z 
+│                              ╰ LastModifiedDate: 2024-01-15T08:15:36.17Z 
 ├ [6]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -4944,6 +5280,7 @@
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
+│                        │     │                  ├ photon     : 2 
 │                        │     │                  ├ redhat     : 2 
 │                        │     │                  ╰ ubuntu     : 2 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
@@ -5106,66 +5443,69 @@
 │                        │     │                  ├ [78] : https://nova.app/releases/#v11.8 
 │                        │     │                  ├ [79] : https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
 │                        │     │                  ├ [80] : https://oryx-embedded.com/download/#changelog 
-│                        │     │                  ├ [81] : https://roumenpetrov.info/secsh/#news20231220 
-│                        │     │                  ├ [82] : https://security-tracker.debian.org/tracker/CVE
+│                        │     │                  ├ [81] : https://psirt.global.sonicwall.com/vuln-detail/
+│                        │     │                  │        SNWLID-2024-0002 
+│                        │     │                  ├ [82] : https://roumenpetrov.info/secsh/#news20231220 
+│                        │     │                  ├ [83] : https://security-tracker.debian.org/tracker/CVE
 │                        │     │                  │        -2023-48795 
-│                        │     │                  ├ [83] : https://security-tracker.debian.org/tracker/sou
-│                        │     │                  │        rce-package/libssh2 
 │                        │     │                  ├ [84] : https://security-tracker.debian.org/tracker/sou
-│                        │     │                  │        rce-package/proftpd-dfsg 
+│                        │     │                  │        rce-package/libssh2 
 │                        │     │                  ├ [85] : https://security-tracker.debian.org/tracker/sou
+│                        │     │                  │        rce-package/proftpd-dfsg 
+│                        │     │                  ├ [86] : https://security-tracker.debian.org/tracker/sou
 │                        │     │                  │        rce-package/trilead-ssh2 
-│                        │     │                  ├ [86] : https://security.gentoo.org/glsa/202312-16 
-│                        │     │                  ├ [87] : https://security.gentoo.org/glsa/202312-17 
-│                        │     │                  ├ [88] : https://security.netapp.com/advisory/ntap-20240
+│                        │     │                  ├ [87] : https://security.gentoo.org/glsa/202312-16 
+│                        │     │                  ├ [88] : https://security.gentoo.org/glsa/202312-17 
+│                        │     │                  ├ [89] : https://security.netapp.com/advisory/ntap-20240
 │                        │     │                  │        105-0004/ 
-│                        │     │                  ├ [89] : https://terrapin-attack.com/ 
-│                        │     │                  ├ [90] : https://thorntech.com/cve-2023-48795-and-sftp-g
+│                        │     │                  ├ [90] : https://terrapin-attack.com/ 
+│                        │     │                  ├ [91] : https://thorntech.com/cve-2023-48795-and-sftp-g
 │                        │     │                  │        ateway/ 
-│                        │     │                  ├ [91] : https://twitter.com/TrueSkrillor/status/1736774
+│                        │     │                  ├ [92] : https://twitter.com/TrueSkrillor/status/1736774
 │                        │     │                  │        389725565005 
-│                        │     │                  ├ [92] : https://ubuntu.com/security/CVE-2023-48795 
-│                        │     │                  ├ [93] : https://ubuntu.com/security/notices/USN-6560-1 
-│                        │     │                  ├ [94] : https://ubuntu.com/security/notices/USN-6560-2 
-│                        │     │                  ├ [95] : https://ubuntu.com/security/notices/USN-6561-1 
-│                        │     │                  ├ [96] : https://winscp.net/eng/docs/history#6.2.2 
-│                        │     │                  ├ [97] : https://www.bitvise.com/ssh-client-version-hist
+│                        │     │                  ├ [93] : https://ubuntu.com/security/CVE-2023-48795 
+│                        │     │                  ├ [94] : https://ubuntu.com/security/notices/USN-6560-1 
+│                        │     │                  ├ [95] : https://ubuntu.com/security/notices/USN-6560-2 
+│                        │     │                  ├ [96] : https://ubuntu.com/security/notices/USN-6561-1 
+│                        │     │                  ├ [97] : https://ubuntu.com/security/notices/USN-6585-1 
+│                        │     │                  ├ [98] : https://winscp.net/eng/docs/history#6.2.2 
+│                        │     │                  ├ [99] : https://www.bitvise.com/ssh-client-version-hist
 │                        │     │                  │        ory#933 
-│                        │     │                  ├ [98] : https://www.bitvise.com/ssh-server-version-history 
-│                        │     │                  ├ [99] : https://www.chiark.greenend.org.uk/~sgtatham/pu
+│                        │     │                  ├ [100]: https://www.bitvise.com/ssh-server-version-history 
+│                        │     │                  ├ [101]: https://www.chiark.greenend.org.uk/~sgtatham/pu
 │                        │     │                  │        tty/changes.html 
-│                        │     │                  ├ [100]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
+│                        │     │                  ├ [102]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
 │                        │     │                  │        age=Update 
-│                        │     │                  ├ [101]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                        │     │                  ├ [102]: https://www.debian.org/security/2023/dsa-5586 
-│                        │     │                  ├ [103]: https://www.debian.org/security/2023/dsa-5588 
-│                        │     │                  ├ [104]: https://www.freebsd.org/security/advisories/Fre
+│                        │     │                  ├ [103]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                        │     │                  ├ [104]: https://www.debian.org/security/2023/dsa-5586 
+│                        │     │                  ├ [105]: https://www.debian.org/security/2023/dsa-5588 
+│                        │     │                  ├ [106]: https://www.freebsd.org/security/advisories/Fre
 │                        │     │                  │        eBSD-SA-23:19.openssh.asc 
-│                        │     │                  ├ [105]: https://www.lancom-systems.de/service-support/a
+│                        │     │                  ├ [107]: https://www.lancom-systems.de/service-support/a
 │                        │     │                  │        llgemeine-sicherheitshinweise#c243508 
-│                        │     │                  ├ [106]: https://www.netsarang.com/en/xshell-update-history/ 
-│                        │     │                  ├ [107]: https://www.openssh.com/openbsd.html 
-│                        │     │                  ├ [108]: https://www.openssh.com/txt/release-9.6 
-│                        │     │                  ├ [109]: https://www.openwall.com/lists/oss-security/202
-│                        │     │                  │        3/12/18/2 
-│                        │     │                  ├ [110]: https://www.openwall.com/lists/oss-security/202
-│                        │     │                  │        3/12/18/3 
+│                        │     │                  ├ [108]: https://www.netsarang.com/en/xshell-update-history/ 
+│                        │     │                  ├ [109]: https://www.openssh.com/openbsd.html 
+│                        │     │                  ├ [110]: https://www.openssh.com/txt/release-9.6 
 │                        │     │                  ├ [111]: https://www.openwall.com/lists/oss-security/202
+│                        │     │                  │        3/12/18/2 
+│                        │     │                  ├ [112]: https://www.openwall.com/lists/oss-security/202
+│                        │     │                  │        3/12/18/3 
+│                        │     │                  ├ [113]: https://www.openwall.com/lists/oss-security/202
 │                        │     │                  │        3/12/20/3 
-│                        │     │                  ├ [112]: https://www.paramiko.org/changelog.html 
-│                        │     │                  ├ [113]: https://www.reddit.com/r/sysadmin/comments/18id
+│                        │     │                  ├ [114]: https://www.paramiko.org/changelog.html 
+│                        │     │                  ├ [115]: https://www.reddit.com/r/sysadmin/comments/18id
 │                        │     │                  │        v52/cve202348795_why_is_this_cve_still_undisclosed/
 │                        │     │                  │        [m 
-│                        │     │                  ├ [114]: https://www.suse.com/c/suse-addresses-the-ssh-v
+│                        │     │                  ├ [116]: https://www.suse.com/c/suse-addresses-the-ssh-v
 │                        │     │                  │        2-protocol-terrapin-attack-aka-cve-2023-48795/
 │                        │     │                  │         
-│                        │     │                  ├ [115]: https://www.terrapin-attack.com 
-│                        │     │                  ├ [116]: https://www.theregister.com/2023/12/20/terrapin
+│                        │     │                  ├ [117]: https://www.terrapin-attack.com 
+│                        │     │                  ├ [118]: https://www.theregister.com/2023/12/20/terrapin
 │                        │     │                  │        _attack_ssh 
-│                        │     │                  ╰ [117]: https://www.vandyke.com/products/securecrt/hist
+│                        │     │                  ╰ [119]: https://www.vandyke.com/products/securecrt/hist
 │                        │     │                           ory.txt 
 │                        │     ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
-│                        │     ╰ LastModifiedDate: 2024-01-11T04:15:07.79Z 
+│                        │     ╰ LastModifiedDate: 2024-01-15T08:15:36.17Z 
 │                        ├ [3] ╭ VulnerabilityID : CVE-2023-39325 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: v0.10.0 
@@ -5256,78 +5596,96 @@
 │                        │     │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-39325.html 
 │                        │     │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                        │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/3OVW5V
+│                        │     │                  │       2DM5K5IC3H7O42YDUGNJ74J35O/ 
+│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/3SZN67
 │                        │     │                  │       IL7HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/4BUK2Z
 │                        │     │                  │       IAGCULOOYDNH25JPU6JBES5NF2/ 
-│                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/5RSKA2
+│                        │     │                  │       II6QTD4YUKUNDVJQSRYSFC4VFR/ 
+│                        │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/AVZDNS
 │                        │     │                  │       MVDAQJ64LJC5I5U5LDM5753647/ 
-│                        │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/CHHITS
+│                        │     │                  │       4PUOZAKFIUBQAQZC7JWXMOYE4B/ 
+│                        │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/CLB4TW
 │                        │     │                  │       7KALB3EEQWNWCN7OUIWWVWWCG2/ 
-│                        │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/D2BBID
 │                        │     │                  │       R2ZMB3X5BC7SR4SLQMHRMVPY6L/ 
-│                        │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ECRC75
 │                        │     │                  │       BQJP6FJN2L7KCKYZW4DSBD7QSD/ 
-│                        │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/GSY7SX
 │                        │     │                  │       FFTPZFWDM6XELSDSHZLVW3AHK7/ 
-│                        │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/HZQIEL
 │                        │     │                  │       EIRSZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                        │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/KEOTKB
+│                        │     │                  │       UPZXHE3F352JBYNTSNRXYLWD6P/ 
+│                        │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/KSEGD2
 │                        │     │                  │       IWKNUO3DWY4KQGUQM5BISRWHQE/ 
-│                        │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/MZQYOO
+│                        │     │                  │       KHQDQ57LV2IAG6NRFOVXKHJJ3Z/ 
+│                        │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/NG7IMP
 │                        │     │                  │       L55MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                        │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/OXGWPQ
 │                        │     │                  │       OJ3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                        │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QF5QSY
 │                        │     │                  │       AOPDOWLY6DUHID56Q4HQFYB45I/ 
-│                        │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/R3UETK
 │                        │     │                  │       PUB3V5JS5TLZOF3SMTGT5K5APS/ 
-│                        │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/REMHVV
 │                        │     │                  │       IBDNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                        │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/T7N5GV
 │                        │     │                  │       4CHH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                        │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ULQQON
 │                        │     │                  │       MSCQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                        │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/UTT7DG
 │                        │     │                  │       3QOF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                        │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/WCNCBY
 │                        │     │                  │       KZXLDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                        │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [45]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XFOIBB
 │                        │     │                  │       4YFICHDM7IBOP7PWXW3FX4HLL2/ 
-│                        │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [46]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/XTNLSL
 │                        │     │                  │       44Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                        │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/YRKEXK
 │                        │     │                  │       ANQ7BKJW2YTAMP625LJUJZLJ4P/ 
-│                        │     │                  ├ [43]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                        │     │                  ├ [44]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                        │     │                  ├ [45]: https://security.gentoo.org/glsa/202311-09 
-│                        │     │                  ├ [46]: https://security.netapp.com/advisory/ntap-202311
+│                        │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/ZSVEMQ
+│                        │     │                  │       V5ROY5YW5QE3I57HT3ITWG5GCV/ 
+│                        │     │                  ├ [49]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                        │     │                  ├ [50]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                        │     │                  ├ [51]: https://security.gentoo.org/glsa/202311-09 
+│                        │     │                  ├ [52]: https://security.netapp.com/advisory/ntap-202311
 │                        │     │                  │       10-0008/ 
-│                        │     │                  ├ [47]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │     │                  ├ [48]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                        │     │                  ├ [53]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │     │                  ├ [54]: https://www.cisa.gov/news-events/alerts/2023/10/
 │                        │     │                  │       10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │     │                  │       [m 
-│                        │     │                  ╰ [49]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                        │     │                  ╰ [55]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │     ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │     ╰ LastModifiedDate: 2023-12-07T03:15:06.853Z 
 │                        ├ [4] ╭ VulnerabilityID : CVE-2023-3978 
@@ -5800,236 +6158,7 @@
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                              ╰ LastModifiedDate: 2023-12-20T17:55:36.74Z 
-├ [7]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4f
-│                                  │            dc09da78e194f 
-│                                  ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1
-│                                  │            61096c0780715 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [8]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4f
-│                                  │            dc09da78e194f 
-│                                  ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1
-│                                  │            61096c0780715 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [7]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -6137,7 +6266,118 @@
 │                                  ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1
 │                                  │            61096c0780715 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [8]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRIVATE KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRIVATE KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4f
+│                                  │            dc09da78e194f 
+│                                  ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1
+│                                  │            61096c0780715 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4f
+│                                  │            dc09da78e194f 
+│                                  ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1
+│                                  │            61096c0780715 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -6156,8 +6396,53 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRIVATE KEY----- 
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
@@ -6171,8 +6456,53 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *****************************-----END OPENSSH
-                       │                   │     │              PRIVATE KEY----- 
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -6189,7 +6519,35 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            **-----END OPENSSH PRI 
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4f
                                    │            dc09da78e194f 
                                    ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1

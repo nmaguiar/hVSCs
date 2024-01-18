@@ -158,6 +158,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -209,6 +210,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -1005,6 +1007,7 @@
     VendorSeverity:
       alma: 2
       amazon: 2
+      cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
       redhat: 2
@@ -1215,6 +1218,94 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:19.407Z'
     LastModifiedDate: '2023-11-07T03:19:47.47Z'
+  - VulnerabilityID: CVE-2024-22365
+    PkgID: libpam-modules@1.4.0-11ubuntu2.3
+    PkgName: libpam-modules
+    InstalledVersion: 1.4.0-11ubuntu2.3
+    FixedVersion: 1.4.0-11ubuntu2.4
+    Status: fixed
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-22365
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Description: pam_namespace local denial of service
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22365
+    - https://ubuntu.com/security/notices/USN-6588-1
+  - VulnerabilityID: CVE-2024-22365
+    PkgID: libpam-modules-bin@1.4.0-11ubuntu2.3
+    PkgName: libpam-modules-bin
+    InstalledVersion: 1.4.0-11ubuntu2.3
+    FixedVersion: 1.4.0-11ubuntu2.4
+    Status: fixed
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-22365
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Description: pam_namespace local denial of service
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22365
+    - https://ubuntu.com/security/notices/USN-6588-1
+  - VulnerabilityID: CVE-2024-22365
+    PkgID: libpam-runtime@1.4.0-11ubuntu2.3
+    PkgName: libpam-runtime
+    InstalledVersion: 1.4.0-11ubuntu2.3
+    FixedVersion: 1.4.0-11ubuntu2.4
+    Status: fixed
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-22365
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Description: pam_namespace local denial of service
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22365
+    - https://ubuntu.com/security/notices/USN-6588-1
+  - VulnerabilityID: CVE-2024-22365
+    PkgID: libpam0g@1.4.0-11ubuntu2.3
+    PkgName: libpam0g
+    InstalledVersion: 1.4.0-11ubuntu2.3
+    FixedVersion: 1.4.0-11ubuntu2.4
+    Status: fixed
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-22365
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Description: pam_namespace local denial of service
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22365
+    - https://ubuntu.com/security/notices/USN-6588-1
   - VulnerabilityID: CVE-2017-11164
     PkgID: libpcre3@2:8.39-13ubuntu0.22.04.1
     PkgName: libpcre3
@@ -1320,9 +1411,11 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      alma: 2
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1338,11 +1431,17 @@
         V3Score: 5.3
     References:
     - http://python.org
+    - https://access.redhat.com/articles/7051467
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
+    - https://bugzilla.redhat.com/2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -1385,9 +1484,11 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      alma: 2
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1403,11 +1504,17 @@
         V3Score: 5.3
     References:
     - http://python.org
+    - https://access.redhat.com/articles/7051467
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
+    - https://bugzilla.redhat.com/2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -1450,9 +1557,11 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      alma: 2
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1468,11 +1577,17 @@
         V3Score: 5.3
     References:
     - http://python.org
+    - https://access.redhat.com/articles/7051467
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
+    - https://bugzilla.redhat.com/2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -1515,16 +1630,16 @@
     CweIDs:
     - CWE-74
     VendorSeverity:
-      nvd: 3
+      nvd: 2
       redhat: 1
       ubuntu: 2
     CVSS:
       nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7.8
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:L
+        V3Score: 4.8
       redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N
-        V3Score: 3.9
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 6.1
     References:
     - https://access.redhat.com/security/cve/CVE-2023-6004
     - https://bugzilla.redhat.com/show_bug.cgi?id=2251110
@@ -1535,7 +1650,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-6004
     - https://www.libssh.org/security/advisories/CVE-2023-6004.txt
     PublishedDate: '2024-01-03T17:15:11.623Z'
-    LastModifiedDate: '2024-01-11T19:18:22.313Z'
+    LastModifiedDate: '2024-01-16T19:43:11.933Z'
   - VulnerabilityID: CVE-2023-6918
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.2
     PkgName: libssh-4
@@ -1556,7 +1671,9 @@
     CweIDs:
     - CWE-252
     VendorSeverity:
+      cbl-mariner: 1
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1634,7 +1751,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - http://www.openwall.com/lists/oss-security/2024/01/09/1
     - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
@@ -1645,7 +1761,38 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-09T19:56:14.023Z'
+    LastModifiedDate: '2024-01-15T12:15:43.4Z'
+  - VulnerabilityID: CVE-2023-6237
+    PkgID: libssl3@3.0.2-0ubuntu1.12
+    PkgName: libssl3
+    InstalledVersion: 3.0.2-0ubuntu1.12
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6237
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Excessive time spent checking invalid RSA public keys'
+    Description: A flaw was found in OpenSSL. When the EVP_PKEY_public_check() function is called in RSA public keys, a computation is done to confirm that the RSA modulus, n, is composite. For valid RSA keys, n is a product of two or more large primes and this computation completes quickly. However, if n is a large prime, this computation takes a long time. An application that calls EVP_PKEY_public_check() and supplies an RSA key obtained from an untrusted source could be vulnerable to a Denial of Service attack.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6237
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6237
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6237
+    - https://www.cve.org/CVERecord?id=CVE-2023-6237
+    - https://www.openssl.org/news/secadv/20240115.txt
+    - https://www.openwall.com/lists/oss-security/2024/01/15/2
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
@@ -1776,6 +1923,88 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-3164
     PublishedDate: '2023-11-02T12:15:09.543Z'
     LastModifiedDate: '2023-12-20T19:13:34.823Z'
+  - VulnerabilityID: CVE-2023-6228
+    PkgID: libtiff5@4.3.0-6ubuntu0.7
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.7
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6228
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: heap-based buffer overflow in cpStripToTile() in tools/tiffcp.c'
+    Description: An issue was found in the tiffcp utility distributed by the libtiff package where a crafted TIFF file on processing may cause a heap-based buffer overflow leads to an application crash.
+    Severity: LOW
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      nvd: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6228
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2240995
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6228
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6228
+    - https://www.cve.org/CVERecord?id=CVE-2023-6228
+    PublishedDate: '2023-12-18T14:15:11.84Z'
+    LastModifiedDate: '2023-12-29T07:15:10.897Z'
+  - VulnerabilityID: CVE-2023-6277
+    PkgID: libtiff5@4.3.0-6ubuntu0.7
+    PkgName: libtiff5
+    InstalledVersion: 4.3.0-6ubuntu0.7
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6277
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: Out-of-memory in TIFFOpen via a craft file'
+    Description: An out-of-memory flaw was found in libtiff. Passing a crafted tiff file to TIFFOpen() API may allow a remote attacker to cause a denial of service via a craft input with size smaller than 379 KB.
+    Severity: LOW
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      amazon: 3
+      nvd: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6277
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251311
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6277
+    - https://gitlab.com/libtiff/libtiff/-/issues/614
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/545
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WJIN6DTSL3VODZUGWEUXLEL5DR53EZMV/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Y7ZGN2MZXJ6E57W3L4YBM3ZPAU3T7T5C/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6277
+    - https://www.cve.org/CVERecord?id=CVE-2023-6277
+    PublishedDate: '2023-11-24T19:15:07.643Z'
+    LastModifiedDate: '2024-01-14T02:15:46.917Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -1909,9 +2138,10 @@
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
     - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
+    - https://ubuntu.com/security/CVE-2023-51767
     - https://www.cve.org/CVERecord?id=CVE-2023-51767
     PublishedDate: '2023-12-24T07:15:07.41Z'
-    LastModifiedDate: '2024-01-04T19:18:14.703Z'
+    LastModifiedDate: '2024-01-16T17:15:08.167Z'
   - VulnerabilityID: CVE-2023-51767
     PkgID: openssh-server@1:8.9p1-3ubuntu0.6
     PkgName: openssh-server
@@ -1948,9 +2178,10 @@
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
     - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
+    - https://ubuntu.com/security/CVE-2023-51767
     - https://www.cve.org/CVERecord?id=CVE-2023-51767
     PublishedDate: '2023-12-24T07:15:07.41Z'
-    LastModifiedDate: '2024-01-04T19:18:14.703Z'
+    LastModifiedDate: '2024-01-16T17:15:08.167Z'
   - VulnerabilityID: CVE-2023-51767
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.6
     PkgName: openssh-sftp-server
@@ -1987,9 +2218,10 @@
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
     - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
+    - https://ubuntu.com/security/CVE-2023-51767
     - https://www.cve.org/CVERecord?id=CVE-2023-51767
     PublishedDate: '2023-12-24T07:15:07.41Z'
-    LastModifiedDate: '2024-01-04T19:18:14.703Z'
+    LastModifiedDate: '2024-01-16T17:15:08.167Z'
   - VulnerabilityID: CVE-2023-6129
     PkgID: openssl@3.0.2-0ubuntu1.12
     PkgName: openssl
@@ -2046,7 +2278,6 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
-    - http://www.openwall.com/lists/oss-security/2024/01/09/1
     - https://access.redhat.com/security/cve/CVE-2023-6129
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6129
     - https://github.com/openssl/openssl/commit/050d26383d4e264966fb83428e72d5d48f402d35
@@ -2057,7 +2288,38 @@
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
     PublishedDate: '2024-01-09T17:15:12.147Z'
-    LastModifiedDate: '2024-01-09T19:56:14.023Z'
+    LastModifiedDate: '2024-01-15T12:15:43.4Z'
+  - VulnerabilityID: CVE-2023-6237
+    PkgID: openssl@3.0.2-0ubuntu1.12
+    PkgName: openssl
+    InstalledVersion: 3.0.2-0ubuntu1.12
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-6237
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Excessive time spent checking invalid RSA public keys'
+    Description: A flaw was found in OpenSSL. When the EVP_PKEY_public_check() function is called in RSA public keys, a computation is done to confirm that the RSA modulus, n, is composite. For valid RSA keys, n is a product of two or more large primes and this computation completes quickly. However, if n is a large prime, this computation takes a long time. An application that calls EVP_PKEY_public_check() and supplies an RSA key obtained from an untrusted source could be vulnerable to a Denial of Service attack.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-6237
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6237
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-6237
+    - https://www.cve.org/CVERecord?id=CVE-2023-6237
+    - https://www.openssl.org/news/secadv/20240115.txt
+    - https://www.openwall.com/lists/oss-security/2024/01/15/2
   - VulnerabilityID: CVE-2023-29383
     PkgID: passwd@1:4.8.1-2ubuntu2.1
     PkgName: passwd
@@ -2120,9 +2382,11 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      alma: 2
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -2138,11 +2402,17 @@
         V3Score: 5.3
     References:
     - http://python.org
+    - https://access.redhat.com/articles/7051467
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
+    - https://bugzilla.redhat.com/2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -2185,9 +2455,11 @@
     CweIDs:
     - CWE-20
     VendorSeverity:
+      alma: 2
       amazon: 2
       bitnami: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -2203,11 +2475,17 @@
         V3Score: 5.3
     References:
     - http://python.org
+    - https://access.redhat.com/articles/7051467
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
+    - https://bugzilla.redhat.com/2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
+    - https://linux.oracle.com/cve/CVE-2023-27043.html
+    - https://linux.oracle.com/errata/ELSA-2024-0256.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -2481,15 +2759,20 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://linux.oracle.com/cve/CVE-2023-39325.html
     - https://linux.oracle.com/errata/ELSA-2023-5867.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3OVW5V2DM5K5IC3H7O42YDUGNJ74J35O/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5RSKA2II6QTD4YUKUNDVJQSRYSFC4VFR/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AVZDNSMVDAQJ64LJC5I5U5LDM5753647/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/D2BBIDR2ZMB3X5BC7SR4SLQMHRMVPY6L/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ECRC75BQJP6FJN2L7KCKYZW4DSBD7QSD/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GSY7SXFFTPZFWDM6XELSDSHZLVW3AHK7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HZQIELEIRSZUYTFFH5KTH2YJ4IIQG2KE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KEOTKBUPZXHE3F352JBYNTSNRXYLWD6P/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MZQYOOKHQDQ57LV2IAG6NRFOVXKHJJ3Z/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I/
@@ -2502,6 +2785,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZSVEMQV5ROY5YW5QE3I57HT3ITWG5GCV/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
     - https://pkg.go.dev/vuln/GO-2023-2102
     - https://security.gentoo.org/glsa/202311-09
@@ -2878,15 +3162,20 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://linux.oracle.com/cve/CVE-2023-39325.html
     - https://linux.oracle.com/errata/ELSA-2023-5867.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3OVW5V2DM5K5IC3H7O42YDUGNJ74J35O/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5RSKA2II6QTD4YUKUNDVJQSRYSFC4VFR/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AVZDNSMVDAQJ64LJC5I5U5LDM5753647/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/D2BBIDR2ZMB3X5BC7SR4SLQMHRMVPY6L/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ECRC75BQJP6FJN2L7KCKYZW4DSBD7QSD/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GSY7SXFFTPZFWDM6XELSDSHZLVW3AHK7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HZQIELEIRSZUYTFFH5KTH2YJ4IIQG2KE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KEOTKBUPZXHE3F352JBYNTSNRXYLWD6P/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MZQYOOKHQDQ57LV2IAG6NRFOVXKHJJ3Z/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I/
@@ -2899,6 +3188,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZSVEMQV5ROY5YW5QE3I57HT3ITWG5GCV/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
     - https://pkg.go.dev/vuln/GO-2023-2102
     - https://security.gentoo.org/glsa/202311-09
@@ -3330,6 +3620,7 @@
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3424,6 +3715,7 @@
     - https://nova.app/releases/#v11.8
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48795
     - https://oryx-embedded.com/download/#changelog
+    - https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0002
     - https://roumenpetrov.info/secsh/#news20231220
     - https://security-tracker.debian.org/tracker/CVE-2023-48795
     - https://security-tracker.debian.org/tracker/source-package/libssh2
@@ -3439,6 +3731,7 @@
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://ubuntu.com/security/notices/USN-6560-2
     - https://ubuntu.com/security/notices/USN-6561-1
+    - https://ubuntu.com/security/notices/USN-6585-1
     - https://winscp.net/eng/docs/history#6.2.2
     - https://www.bitvise.com/ssh-client-version-history#933
     - https://www.bitvise.com/ssh-server-version-history
@@ -3462,7 +3755,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-11T04:15:07.79Z'
+    LastModifiedDate: '2024-01-15T08:15:36.17Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -3585,6 +3878,7 @@
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3679,6 +3973,7 @@
     - https://nova.app/releases/#v11.8
     - https://nvd.nist.gov/vuln/detail/CVE-2023-48795
     - https://oryx-embedded.com/download/#changelog
+    - https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0002
     - https://roumenpetrov.info/secsh/#news20231220
     - https://security-tracker.debian.org/tracker/CVE-2023-48795
     - https://security-tracker.debian.org/tracker/source-package/libssh2
@@ -3694,6 +3989,7 @@
     - https://ubuntu.com/security/notices/USN-6560-1
     - https://ubuntu.com/security/notices/USN-6560-2
     - https://ubuntu.com/security/notices/USN-6561-1
+    - https://ubuntu.com/security/notices/USN-6585-1
     - https://winscp.net/eng/docs/history#6.2.2
     - https://www.bitvise.com/ssh-client-version-history#933
     - https://www.bitvise.com/ssh-server-version-history
@@ -3717,7 +4013,7 @@
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
     - https://www.vandyke.com/products/securecrt/history.txt
     PublishedDate: '2023-12-18T16:15:10.897Z'
-    LastModifiedDate: '2024-01-11T04:15:07.79Z'
+    LastModifiedDate: '2024-01-15T08:15:36.17Z'
   - VulnerabilityID: CVE-2023-39325
     PkgName: golang.org/x/net
     InstalledVersion: v0.10.0
@@ -3784,15 +4080,20 @@
     - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
     - https://linux.oracle.com/cve/CVE-2023-39325.html
     - https://linux.oracle.com/errata/ELSA-2023-5867.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3OVW5V2DM5K5IC3H7O42YDUGNJ74J35O/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5RSKA2II6QTD4YUKUNDVJQSRYSFC4VFR/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AVZDNSMVDAQJ64LJC5I5U5LDM5753647/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/D2BBIDR2ZMB3X5BC7SR4SLQMHRMVPY6L/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ECRC75BQJP6FJN2L7KCKYZW4DSBD7QSD/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GSY7SXFFTPZFWDM6XELSDSHZLVW3AHK7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HZQIELEIRSZUYTFFH5KTH2YJ4IIQG2KE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KEOTKBUPZXHE3F352JBYNTSNRXYLWD6P/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MZQYOOKHQDQ57LV2IAG6NRFOVXKHJJ3Z/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I/
@@ -3805,6 +4106,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZSVEMQV5ROY5YW5QE3I57HT3ITWG5GCV/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
     - https://pkg.go.dev/vuln/GO-2023-2102
     - https://security.gentoo.org/glsa/202311-09
