@@ -7,10 +7,10 @@
 │                        │      ├ PkgName         : apparmor 
 │                        │      ├ InstalledVersion: 3.0.4-2ubuntu2.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-1585 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -50,10 +50,10 @@
 │                        │      ├ PkgName         : bash 
 │                        │      ├ InstalledVersion: 5.1-6ubuntu1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3715 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -101,10 +101,10 @@
 │                        │      ├ PkgName         : coreutils 
 │                        │      ├ InstalledVersion: 8.32-4.1ubuntu1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-2781 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -153,10 +153,10 @@
 │                        │      ├ PkgName         : dbus 
 │                        │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -220,10 +220,10 @@
 │                        │      ├ PkgName         : dbus-user-session 
 │                        │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -287,10 +287,10 @@
 │                        │      ├ PkgName         : dirmngr 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -332,10 +332,10 @@
 │                        │      ├ PkgName         : gcc-12-base 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -387,10 +387,10 @@
 │                        │      ├ PkgName         : git 
 │                        │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-1000021 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -435,10 +435,10 @@
 │                        │      ├ PkgName         : git-man 
 │                        │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-1000021 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -483,10 +483,10 @@
 │                        │      ├ PkgName         : gnupg 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -528,10 +528,10 @@
 │                        │      ├ PkgName         : gnupg-l10n 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -573,10 +573,10 @@
 │                        │      ├ PkgName         : gnupg-utils 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -618,10 +618,10 @@
 │                        │      ├ PkgName         : gpg 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -663,10 +663,10 @@
 │                        │      ├ PkgName         : gpg-agent 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -708,10 +708,10 @@
 │                        │      ├ PkgName         : gpg-wks-client 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -753,10 +753,10 @@
 │                        │      ├ PkgName         : gpg-wks-server 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -798,10 +798,10 @@
 │                        │      ├ PkgName         : gpgconf 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -843,10 +843,10 @@
 │                        │      ├ PkgName         : gpgsm 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -888,10 +888,10 @@
 │                        │      ├ PkgName         : gpgv 
 │                        │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -933,10 +933,10 @@
 │                        │      ├ PkgName         : libapparmor1 
 │                        │      ├ InstalledVersion: 3.0.4-2ubuntu2.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-1585 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -976,10 +976,10 @@
 │                        │      ├ PkgName         : libatomic1 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1031,10 +1031,10 @@
 │                        │      ├ PkgName         : libc-bin 
 │                        │      ├ InstalledVersion: 2.35-0ubuntu3.6 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1067,10 +1067,10 @@
 │                        │      ├ PkgName         : libc6 
 │                        │      ├ InstalledVersion: 2.35-0ubuntu3.6 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1103,10 +1103,10 @@
 │                        │      ├ PkgName         : libdbus-1-3 
 │                        │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1170,10 +1170,10 @@
 │                        │      ├ PkgName         : libgcc-s1 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1225,10 +1225,10 @@
 │                        │      ├ PkgName         : libgd3 
 │                        │      ├ InstalledVersion: 2.3.0-2ubuntu2 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-40812 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1260,115 +1260,15 @@
 │                        │      │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-40812 
 │                        │      ├ PublishedDate   : 2021-09-08T21:15:14.083Z 
 │                        │      ╰ LastModifiedDate: 2021-09-15T15:07:24.577Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2024-0553 
-│                        │      ├ PkgID           : libgnutls30@3.7.3-4ubuntu1.3 
-│                        │      ├ PkgName         : libgnutls30 
-│                        │      ├ InstalledVersion: 3.7.3-4ubuntu1.3 
-│                        │      ├ FixedVersion    : 3.7.3-4ubuntu1.4 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0553 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : gnutls: incomplete fix for CVE-2023-5981 
-│                        │      ├ Description     : A vulnerability was found in GnuTLS. The response
-│                        │      │                   times to malformed ciphertexts in RSA-PSK ClientKeyExchange
-│                        │      │                    differ from response times of ciphertexts with correct
-│                        │      │                   PKCS#1 v1.5 padding. This issue may allow a remote attacker
-│                        │      │                    to perform a timing side-channel attack in the RSA-PSK key
-│                        │      │                    exchange, potentially leading to the leakage of sensitive
-│                        │      │                   data. CVE-2024-0553 is designated as an incomplete
-│                        │      │                   resolution for CVE-2023-5981. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-203 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
-│                        │      │                  ├ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:N/A:N 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :H/I:N/A:N 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      01/19/3 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-0553 
-│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2258412 
-│                        │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2024-0553 
-│                        │      │                  ├ [4]: https://gitlab.com/gnutls/gnutls/-/issues/1522 
-│                        │      │                  ├ [5]: https://gnutls.org/security-new.html#GNUTLS-SA-2
-│                        │      │                  │      024-01-14 
-│                        │      │                  ├ [6]: https://lists.gnupg.org/pipermail/gnutls-help/20
-│                        │      │                  │      24-January/004841.html 
-│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
-│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6593-1 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
-│                        │      ├ PublishedDate   : 2024-01-16T12:15:45.557Z 
-│                        │      ╰ LastModifiedDate: 2024-01-25T18:15:08.78Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2024-0567 
-│                        │      ├ PkgID           : libgnutls30@3.7.3-4ubuntu1.3 
-│                        │      ├ PkgName         : libgnutls30 
-│                        │      ├ InstalledVersion: 3.7.3-4ubuntu1.3 
-│                        │      ├ FixedVersion    : 3.7.3-4ubuntu1.4 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0567 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : gnutls: rejects certificate chain with distributed trust 
-│                        │      ├ Description     : A vulnerability was found in GnuTLS, where a cockpit
-│                        │      │                   (which uses gnuTLS) rejects a certificate chain with
-│                        │      │                   distributed trust. This issue occurs when validating a
-│                        │      │                   certificate chain with cockpit-certificate-ensure. This
-│                        │      │                   flaw allows an unauthenticated, remote client or attacker
-│                        │      │                   to initiate a denial of service attack. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-347 
-│                        │      ├ VendorSeverity   ╭ nvd   : 3 
-│                        │      │                  ├ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 7.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 7.5 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      01/19/3 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-0567 
-│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2258544 
-│                        │      │                  ├ [3]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2024-0567 
-│                        │      │                  ├ [4]: https://gitlab.com/gnutls/gnutls/-/issues/1521 
-│                        │      │                  ├ [5]: https://gnutls.org/security-new.html#GNUTLS-SA-2
-│                        │      │                  │      024-01-09 
-│                        │      │                  ├ [6]: https://lists.gnupg.org/pipermail/gnutls-help/20
-│                        │      │                  │      24-January/004841.html 
-│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-0567 
-│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6593-1 
-│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-0567 
-│                        │      ├ PublishedDate   : 2024-01-16T14:15:48.527Z 
-│                        │      ╰ LastModifiedDate: 2024-01-25T16:15:08.51Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2023-2953 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2023-2953 
 │                        │      ├ PkgID           : libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1 
 │                        │      ├ PkgName         : libldap-2.5-0 
 │                        │      ├ InstalledVersion: 2.5.16+dfsg-0ubuntu0.22.04.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-2953 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1412,15 +1312,15 @@
 │                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2023-2953 
 │                        │      ├ PublishedDate   : 2023-05-30T22:15:10.613Z 
 │                        │      ╰ LastModifiedDate: 2023-08-02T16:46:03.663Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2020-22916 
 │                        │      ├ PkgID           : liblzma5@5.2.5-2ubuntu1 
 │                        │      ├ PkgName         : liblzma5 
 │                        │      ├ InstalledVersion: 5.2.5-2ubuntu1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-22916 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1462,15 +1362,15 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                        │      ├ PublishedDate   : 2023-08-22T19:16:19.407Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:19:47.47Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2023-7008 
-│                        │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.11 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2023-7008 
+│                        │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libnss-systemd 
-│                        │      ├ InstalledVersion: 249.11-0ubuntu3.11 
+│                        │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1508,15 +1408,15 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2023-7008 
-│                        │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.11 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2023-7008 
+│                        │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libpam-systemd 
-│                        │      ├ InstalledVersion: 249.11-0ubuntu3.11 
+│                        │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1554,15 +1454,15 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2017-11164 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2017-11164 
 │                        │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ PkgName         : libpcre3 
 │                        │      ├ InstalledVersion: 2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2017-11164 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1603,15 +1503,15 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                        │      ├ PublishedDate   : 2017-07-11T03:29:00.277Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:38:10.98Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2022-3857 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2022-3857 
 │                        │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                        │      ├ PkgName         : libpng16-16 
 │                        │      ├ InstalledVersion: 1.6.37-3build5 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3857 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1643,15 +1543,15 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
 │                        │      ├ PublishedDate   : 2023-03-06T23:15:11.087Z 
 │                        │      ╰ LastModifiedDate: 2023-04-06T13:15:08.467Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1690,14 +1590,14 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://python.org 
 │                        │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0256 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0466 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -27043 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2196183 
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-27043 
-│                        │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-0256.html 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-0466.html 
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:0256 
 │                        │      │                  ├ [9] : https://github.com/python/cpython/issues/102988 
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
@@ -1760,15 +1660,15 @@
 │                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10-minimal 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1807,14 +1707,14 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://python.org 
 │                        │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0256 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0466 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -27043 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2196183 
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-27043 
-│                        │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-0256.html 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-0466.html 
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:0256 
 │                        │      │                  ├ [9] : https://github.com/python/cpython/issues/102988 
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
@@ -1877,15 +1777,15 @@
 │                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10-stdlib 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1924,14 +1824,14 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://python.org 
 │                        │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0256 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0466 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -27043 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2196183 
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-27043 
-│                        │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-0256.html 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-0466.html 
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:0256 
 │                        │      │                  ├ [9] : https://github.com/python/cpython/issues/102988 
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
@@ -1994,123 +1894,15 @@
 │                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2023-6004 
-│                        │      ├ PkgID           : libssh-4@0.9.6-2ubuntu0.22.04.2 
-│                        │      ├ PkgName         : libssh-4 
-│                        │      ├ InstalledVersion: 0.9.6-2ubuntu0.22.04.2 
-│                        │      ├ FixedVersion    : 0.9.6-2ubuntu0.22.04.3 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6004 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : libssh: ProxyCommand/ProxyJump features allow
-│                        │      │                   injection of malicious code through hostname 
-│                        │      ├ Description     : A flaw was found in libssh. By utilizing the
-│                        │      │                   ProxyCommand or ProxyJump feature, users can exploit
-│                        │      │                   unchecked hostname syntax on the client. This issue may
-│                        │      │                   allow an attacker to inject malicious code into the command
-│                        │      │                    of the features mentioned through the hostname
-│                        │      │                   parameter. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-74 
-│                        │      ├ VendorSeverity   ╭ nvd   : 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C
-│                        │      │                  │        │           :L/I:L/A:L 
-│                        │      │                  │        ╰ V3Score : 4.8 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C
-│                        │      │                           │           :L/I:L/A:L 
-│                        │      │                           ╰ V3Score : 4.8 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6004 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2251110 
-│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2023-6004 
-│                        │      │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pa
-│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/LZQVUH
-│                        │      │                  │      WVWRH73YBXUQJOD6CKHDQBU3DM/ 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-6004 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6592-1 
-│                        │      │                  ├ [6]: https://vin01.github.io/piptagole/ssh/security/o
-│                        │      │                  │      penssh/libssh/remote-code-execution/2023/12/20/openss
-│                        │      │                  │      h-proxycommand-libssh-rce.html 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6004 
-│                        │      │                  ╰ [8]: https://www.libssh.org/security/advisories/CVE-2
-│                        │      │                         023-6004.txt 
-│                        │      ├ PublishedDate   : 2024-01-03T17:15:11.623Z 
-│                        │      ╰ LastModifiedDate: 2024-01-25T12:15:45.527Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2023-6918 
-│                        │      ├ PkgID           : libssh-4@0.9.6-2ubuntu0.22.04.2 
-│                        │      ├ PkgName         : libssh-4 
-│                        │      ├ InstalledVersion: 0.9.6-2ubuntu0.22.04.2 
-│                        │      ├ FixedVersion    : 0.9.6-2ubuntu0.22.04.3 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6918 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : libssh: Missing checks for return values for digests 
-│                        │      ├ Description     : A flaw was found in the libssh implements abstract
-│                        │      │                   layer for message digest (MD) operations implemented by
-│                        │      │                   different supported crypto backends. The return values from
-│                        │      │                    these were not properly checked, which could cause
-│                        │      │                   low-memory situations failures, NULL dereferences, crashes,
-│                        │      │                    or usage of the uninitialized memory as an input for the
-│                        │      │                   KDF. In this case, non-matching keys will result in
-│                        │      │                   decryption/integrity failures, terminating the
-│                        │      │                   connection. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ CweIDs           ─ [0]: CWE-252 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 1 
-│                        │      │                  ├ nvd        : 2 
-│                        │      │                  ├ photon     : 2 
-│                        │      │                  ├ redhat     : 1 
-│                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :N/I:N/A:L 
-│                        │      │                  │        ╰ V3Score : 5.3 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:L 
-│                        │      │                           ╰ V3Score : 3.7 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-6918 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2254997 
-│                        │      │                  ├ [2]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2023-6918 
-│                        │      │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pa
-│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/LZQVUH
-│                        │      │                  │      WVWRH73YBXUQJOD6CKHDQBU3DM/ 
-│                        │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pa
-│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/MKQRBF
-│                        │      │                  │      3DWMWPH36LBCOBUTSIZRTPEZXB/ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-6918 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6592-1 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2023-6918 
-│                        │      │                  ├ [8]: https://www.libssh.org/2023/12/18/libssh-0-10-6-
-│                        │      │                  │      and-libssh-0-9-8-security-releases/ 
-│                        │      │                  ╰ [9]: https://www.libssh.org/security/advisories/CVE-2
-│                        │      │                         023-6918.txt 
-│                        │      ├ PublishedDate   : 2023-12-19T00:15:08.46Z 
-│                        │      ╰ LastModifiedDate: 2024-01-10T16:14:07.393Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2023-6129 
-│                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.12 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2023-6129 
+│                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : libssl3 
-│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.12 
+│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.13 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6129 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2201,15 +1993,15 @@
 │                        │      │                         /01/09/1 
 │                        │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
 │                        │      ╰ LastModifiedDate: 2024-01-23T21:32:01.973Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2023-6237 
-│                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.12 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2023-6237 
+│                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : libssl3 
-│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.12 
+│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.13 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6237 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2241,15 +2033,15 @@
 │                        │                         ├ [4]: https://www.openssl.org/news/secadv/20240115.txt 
 │                        │                         ╰ [5]: https://www.openwall.com/lists/oss-security/2024
 │                        │                                /01/15/2 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2296,15 +2088,15 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2023-7008 
-│                        │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.11 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2023-7008 
+│                        │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libsystemd0 
-│                        │      ├ InstalledVersion: 249.11-0ubuntu3.11 
+│                        │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2342,15 +2134,15 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2018-10126 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2018-10126 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-10126 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2385,15 +2177,15 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                        │      ├ PublishedDate   : 2018-04-21T21:29:00.29Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:51:16.693Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2023-3164 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2023-3164 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3164 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2426,15 +2218,15 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
 │                        │      ├ PublishedDate   : 2023-11-02T12:15:09.543Z 
 │                        │      ╰ LastModifiedDate: 2023-12-20T19:13:34.823Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2023-6228 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2023-6228 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6228 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2465,15 +2257,15 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-6228 
 │                        │      ├ PublishedDate   : 2023-12-18T14:15:11.84Z 
 │                        │      ╰ LastModifiedDate: 2023-12-29T07:15:10.897Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2023-6277 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2023-6277 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.7 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6277 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2516,15 +2308,15 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-6277 
 │                        │      ├ PublishedDate   : 2023-11-24T19:15:07.643Z 
 │                        │      ╰ LastModifiedDate: 2024-01-19T16:15:11.057Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2023-7008 
-│                        │      ├ PkgID           : libudev1@249.11-0ubuntu3.11 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2023-7008 
+│                        │      ├ PkgID           : libudev1@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libudev1 
-│                        │      ├ InstalledVersion: 249.11-0ubuntu3.11 
+│                        │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2562,15 +2354,15 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-4899 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2632,15 +2424,15 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : login 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2688,15 +2480,15 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-client 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.6 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51767 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2738,15 +2530,15 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-01-25T14:15:26.53Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.6 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51767 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2788,15 +2580,15 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-01-25T14:15:26.53Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-sftp-server 
 │                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.6 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-51767 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2838,15 +2630,15 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-01-25T14:15:26.53Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2023-6129 
-│                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.12 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2023-6129 
+│                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : openssl 
-│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.12 
+│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.13 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6129 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2937,15 +2729,15 @@
 │                        │      │                         /01/09/1 
 │                        │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
 │                        │      ╰ LastModifiedDate: 2024-01-23T21:32:01.973Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2023-6237 
-│                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.12 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2023-6237 
+│                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : openssl 
-│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.12 
+│                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.13 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6237 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2977,15 +2769,15 @@
 │                        │                         ├ [4]: https://www.openssl.org/news/secadv/20240115.txt 
 │                        │                         ╰ [5]: https://www.openwall.com/lists/oss-security/2024
 │                        │                                /01/15/2 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3033,15 +2825,15 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3080,14 +2872,14 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://python.org 
 │                        │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0256 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0466 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -27043 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2196183 
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-27043 
-│                        │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-0256.html 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-0466.html 
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:0256 
 │                        │      │                  ├ [9] : https://github.com/python/cpython/issues/102988 
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
@@ -3150,15 +2942,15 @@
 │                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3197,14 +2989,14 @@
 │                        │      │                            ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : http://python.org 
 │                        │      │                  ├ [1] : https://access.redhat.com/articles/7051467 
-│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0256 
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0466 
 │                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023
 │                        │      │                  │       -27043 
 │                        │      │                  ├ [4] : https://bugzilla.redhat.com/2196183 
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2196183 
 │                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-27043 
-│                        │      │                  ├ [7] : https://errata.almalinux.org/8/ALSA-2024-0256.html 
+│                        │      │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-0466.html 
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:0256 
 │                        │      │                  ├ [9] : https://github.com/python/cpython/issues/102988 
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
@@ -3267,15 +3059,15 @@
 │                        │      │                  ╰ [33]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-01-11T03:15:09.307Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2023-7008 
-│                        │      ├ PkgID           : systemd@249.11-0ubuntu3.11 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2023-7008 
+│                        │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd 
-│                        │      ├ InstalledVersion: 249.11-0ubuntu3.11 
+│                        │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3313,15 +3105,15 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2023-7008 
-│                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.11 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2023-7008 
+│                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-sysv 
-│                        │      ├ InstalledVersion: 249.11-0ubuntu3.11 
+│                        │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3359,15 +3151,15 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2023-7008 
-│                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.11 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2023-7008 
+│                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-timesyncd 
-│                        │      ├ InstalledVersion: 249.11-0ubuntu3.11 
+│                        │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3405,15 +3197,15 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3461,15 +3253,15 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ InstalledVersion: 1.21.2-2ubuntu1 
 │                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                        │      │                  │         5c74612258c7c5b658c60fe5f1 
-│                        │      │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                        │      │                            e5b1b159260a65b6fa2027c5d0 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
 │                        │      ├ SeveritySource  : ubuntu 
 │                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3507,15 +3299,15 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ╰ [63] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [59] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ InstalledVersion: 5.2.5-2ubuntu1 
 │                               ├ Status          : affected 
-│                               ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c
-│                               │                  │         5c74612258c7c5b658c60fe5f1 
-│                               │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57
-│                               │                            e5b1b159260a65b6fa2027c5d0 
+│                               ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                               │                  │         23ce4c28c75f5a600ede9cd311 
+│                               │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                               │                            277b2974a4569b84bfdd1f904c 
 │                               ├ SeveritySource  : ubuntu 
 │                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-22916 
 │                               ├ DataSource       ╭ ID  : ubuntu 
@@ -3568,10 +3360,10 @@
 │                              ├ InstalledVersion: 1.14.2 
 │                              ├ FixedVersion    : 1.15.3 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                              │                  │         c74612258c7c5b658c60fe5f1 
-│                              │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                              │                            5b1b159260a65b6fa2027c5d0 
+│                              ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                              │                  │         3ce4c28c75f5a600ede9cd311 
+│                              │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                              │                            77b2974a4569b84bfdd1f904c 
 │                              ├ SeveritySource  : ghsa 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-36033 
 │                              ├ DataSource       ╭ ID  : ghsa 
@@ -3639,10 +3431,10 @@
 │                        │     ├ InstalledVersion: v0.12.0 
 │                        │     ├ FixedVersion    : 0.17.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                        │     │                  │         c74612258c7c5b658c60fe5f1 
-│                        │     │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                        │     │                            5b1b159260a65b6fa2027c5d0 
+│                        │     ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                        │     │                  │         3ce4c28c75f5a600ede9cd311 
+│                        │     │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                        │     │                            77b2974a4569b84bfdd1f904c 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39325 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -3827,10 +3619,10 @@
 │                        │     ├ InstalledVersion: v0.12.0 
 │                        │     ├ FixedVersion    : 0.13.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                        │     │                  │         c74612258c7c5b658c60fe5f1 
-│                        │     │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                        │     │                            5b1b159260a65b6fa2027c5d0 
+│                        │     ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                        │     │                  │         3ce4c28c75f5a600ede9cd311 
+│                        │     │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                        │     │                            77b2974a4569b84bfdd1f904c 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3978 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -3844,7 +3636,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -3889,10 +3681,10 @@
 │                              ├ InstalledVersion: v0.12.0 
 │                              ├ FixedVersion    : 0.17.0 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                              │                  │         c74612258c7c5b658c60fe5f1 
-│                              │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                              │                            5b1b159260a65b6fa2027c5d0 
+│                              ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                              │                  │         3ce4c28c75f5a600ede9cd311 
+│                              │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                              │                            77b2974a4569b84bfdd1f904c 
 │                              ├ SeveritySource  : ghsa 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-44487 
 │                              ├ DataSource       ╭ ID  : ghsa 
@@ -4292,7 +4084,7 @@
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                              ╰ LastModifiedDate: 2023-12-20T17:55:36.74Z 
-├ [3]  ╭ Target         : tmp/tmp.4VIxe8jy0a/krew-linux_amd64 
+├ [3]  ╭ Target         : tmp/tmp.GjymqolWWS/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
 │      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-39325 
@@ -4300,10 +4092,10 @@
 │                        │     ├ InstalledVersion: v0.12.0 
 │                        │     ├ FixedVersion    : 0.17.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                        │     │                  │         c74612258c7c5b658c60fe5f1 
-│                        │     │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                        │     │                            5b1b159260a65b6fa2027c5d0 
+│                        │     ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                        │     │                  │         3ce4c28c75f5a600ede9cd311 
+│                        │     │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                        │     │                            77b2974a4569b84bfdd1f904c 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39325 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -4488,10 +4280,10 @@
 │                        │     ├ InstalledVersion: v0.12.0 
 │                        │     ├ FixedVersion    : 0.13.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                        │     │                  │         c74612258c7c5b658c60fe5f1 
-│                        │     │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                        │     │                            5b1b159260a65b6fa2027c5d0 
+│                        │     ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                        │     │                  │         3ce4c28c75f5a600ede9cd311 
+│                        │     │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                        │     │                            77b2974a4569b84bfdd1f904c 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3978 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -4505,7 +4297,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -4550,10 +4342,10 @@
 │                              ├ InstalledVersion: v0.12.0 
 │                              ├ FixedVersion    : 0.17.0 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                              │                  │         c74612258c7c5b658c60fe5f1 
-│                              │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                              │                            5b1b159260a65b6fa2027c5d0 
+│                              ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                              │                  │         3ce4c28c75f5a600ede9cd311 
+│                              │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                              │                            77b2974a4569b84bfdd1f904c 
 │                              ├ SeveritySource  : ghsa 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-44487 
 │                              ├ DataSource       ╭ ID  : ghsa 
@@ -4962,10 +4754,10 @@
 │                              ├ InstalledVersion: v0.45.0 
 │                              ├ FixedVersion    : 0.46.0 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                              │                  │         c74612258c7c5b658c60fe5f1 
-│                              │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                              │                            5b1b159260a65b6fa2027c5d0 
+│                              ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                              │                  │         3ce4c28c75f5a600ede9cd311 
+│                              │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                              │                            77b2974a4569b84bfdd1f904c 
 │                              ├ SeveritySource  : ghsa 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-47108 
 │                              ├ DataSource       ╭ ID  : ghsa 
@@ -5035,10 +4827,10 @@
 │                              ├ InstalledVersion: v1.2.27 
 │                              ├ FixedVersion    : 1.2.28 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                              │                  │         c74612258c7c5b658c60fe5f1 
-│                              │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                              │                            5b1b159260a65b6fa2027c5d0 
+│                              ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                              │                  │         3ce4c28c75f5a600ede9cd311 
+│                              │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                              │                            77b2974a4569b84bfdd1f904c 
 │                              ├ SeveritySource  : ghsa 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21664 
 │                              ├ DataSource       ╭ ID  : ghsa 
@@ -5091,10 +4883,10 @@
 │                        │     ├ InstalledVersion: v1.7.3 
 │                        │     ├ FixedVersion    : 1.6.26, 1.7.11 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                        │     │                  │         c74612258c7c5b658c60fe5f1 
-│                        │     │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                        │     │                            5b1b159260a65b6fa2027c5d0 
+│                        │     ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                        │     │                  │         3ce4c28c75f5a600ede9cd311 
+│                        │     │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                        │     │                            77b2974a4569b84bfdd1f904c 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://github.com/advisories/GHSA-7ww5-4wqc-m92c 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -5187,10 +4979,10 @@
 │                        │     ├ InstalledVersion: v24.0.5+incompatible 
 │                        │     ├ FixedVersion    : 24.0.7, 23.0.8, 20.10.27 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                        │     │                  │         c74612258c7c5b658c60fe5f1 
-│                        │     │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                        │     │                            5b1b159260a65b6fa2027c5d0 
+│                        │     ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                        │     │                  │         3ce4c28c75f5a600ede9cd311 
+│                        │     │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                        │     │                            77b2974a4569b84bfdd1f904c 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://github.com/advisories/GHSA-jq35-85cj-fj4p 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -5287,10 +5079,10 @@
 │                        │     ├ InstalledVersion: v0.9.0 
 │                        │     ├ FixedVersion    : 0.17.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                        │     │                  │         c74612258c7c5b658c60fe5f1 
-│                        │     │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                        │     │                            5b1b159260a65b6fa2027c5d0 
+│                        │     ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                        │     │                  │         3ce4c28c75f5a600ede9cd311 
+│                        │     │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                        │     │                            77b2974a4569b84bfdd1f904c 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-48795 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -5592,10 +5384,10 @@
 │                        │     ├ InstalledVersion: v0.10.0 
 │                        │     ├ FixedVersion    : 0.17.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                        │     │                  │         c74612258c7c5b658c60fe5f1 
-│                        │     │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                        │     │                            5b1b159260a65b6fa2027c5d0 
+│                        │     ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                        │     │                  │         3ce4c28c75f5a600ede9cd311 
+│                        │     │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                        │     │                            77b2974a4569b84bfdd1f904c 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39325 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -5780,10 +5572,10 @@
 │                        │     ├ InstalledVersion: v0.10.0 
 │                        │     ├ FixedVersion    : 0.13.0 
 │                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                        │     │                  │         c74612258c7c5b658c60fe5f1 
-│                        │     │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                        │     │                            5b1b159260a65b6fa2027c5d0 
+│                        │     ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                        │     │                  │         3ce4c28c75f5a600ede9cd311 
+│                        │     │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                        │     │                            77b2974a4569b84bfdd1f904c 
 │                        │     ├ SeveritySource  : ghsa 
 │                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3978 
 │                        │     ├ DataSource       ╭ ID  : ghsa 
@@ -5797,7 +5589,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -5842,10 +5634,10 @@
 │                              ├ InstalledVersion: v0.10.0 
 │                              ├ FixedVersion    : 0.17.0 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5
-│                              │                  │         c74612258c7c5b658c60fe5f1 
-│                              │                  ╰ DiffID: sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e
-│                              │                            5b1b159260a65b6fa2027c5d0 
+│                              ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c562
+│                              │                  │         3ce4c28c75f5a600ede9cd311 
+│                              │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f967932
+│                              │                            77b2974a4569b84bfdd1f904c 
 │                              ├ SeveritySource  : ghsa 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-44487 
 │                              ├ DataSource       ╭ ID  : ghsa 
@@ -6245,183 +6037,7 @@
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                              ╰ LastModifiedDate: 2023-12-20T17:55:36.74Z 
-├ [7]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5c74612258c7c
-│                                  │            5b658c60fe5f1 
-│                                  ├ DiffID   : sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e5b1b159260a6
-│                                  │            5b6fa2027c5d0 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [8]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [7]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -6524,12 +6140,12 @@
 │                      │            ***************************************************************************
 │                      │            *********************************************************-----END OPENSSH
 │                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5c74612258c7c
-│                                  │            5b658c60fe5f1 
-│                                  ├ DiffID   : sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e5b1b159260a6
-│                                  │            5b6fa2027c5d0 
+│                      ╰ Layer     ╭ Digest   : sha256:7513cb18e893136f290dfc34736b4dc76d7c5623ce4c28c75f5
+│                                  │            a600ede9cd311 
+│                                  ├ DiffID   : sha256:d86c4ddd4dd8e335461a05cd075743f2f96793277b2974a4569
+│                                  │            b84bfdd1f904c 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [8]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -6582,12 +6198,65 @@
 │                      │            ***************************************************************************
 │                      │            ***************************************************************************
 │                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5c74612258c7c
-│                                  │            5b658c60fe5f1 
-│                                  ├ DiffID   : sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e5b1b159260a6
-│                                  │            5b6fa2027c5d0 
+│                      ╰ Layer     ╭ Digest   : sha256:7513cb18e893136f290dfc34736b4dc76d7c5623ce4c28c75f5
+│                                  │            a600ede9cd311 
+│                                  ├ DiffID   : sha256:d86c4ddd4dd8e335461a05cd075743f2f96793277b2974a4569
+│                                  │            b84bfdd1f904c 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:7513cb18e893136f290dfc34736b4dc76d7c5623ce4c28c75f5
+│                                  │            a600ede9cd311 
+│                                  ├ DiffID   : sha256:d86c4ddd4dd8e335461a05cd075743f2f96793277b2974a4569
+│                                  │            b84bfdd1f904c 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -6604,7 +6273,54 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRIVATE
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -6617,7 +6333,54 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRIVATE
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -6633,11 +6396,40 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            **************************************************-----END OPENSSH
-                       │            PRI 
-                       ╰ Layer     ╭ Digest   : sha256:e56ad2756ebb7f92077fa5e2d4684a189be77c5c74612258c7c
-                                   │            5b658c60fe5f1 
-                                   ├ DiffID   : sha256:788b5e3fb49b073f5a8dcee79142ac81446d57e5b1b159260a6
-                                   │            5b6fa2027c5d0 
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
+                       ╰ Layer     ╭ Digest   : sha256:7513cb18e893136f290dfc34736b4dc76d7c5623ce4c28c75f5
+                                   │            a600ede9cd311 
+                                   ├ DiffID   : sha256:d86c4ddd4dd8e335461a05cd075743f2f96793277b2974a4569
+                                   │            b84bfdd1f904c 
                                    ╰ CreatedBy: COPY / / # buildkit 
 ````
