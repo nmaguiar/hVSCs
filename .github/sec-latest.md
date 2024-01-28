@@ -1502,12 +1502,15 @@
 │                        │      │                  │      VE-2023-7008 
 │                        │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/4GMDEG
+│                        │      │                  │      5PKONWNHOEYSUDRT6JEOISRMN2/ 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
 │                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/QHNBXG
 │                        │      │                  │      KJWISJETTTDTZKTBFIBJUOSLKL/ 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
+│                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2024-22365 
 │                        │      ├ PkgID           : libpam-modules@1.4.0-11ubuntu2.3 
 │                        │      ├ PkgName         : libpam-modules 
@@ -1662,12 +1665,15 @@
 │                        │      │                  │      VE-2023-7008 
 │                        │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/4GMDEG
+│                        │      │                  │      5PKONWNHOEYSUDRT6JEOISRMN2/ 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
 │                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/QHNBXG
 │                        │      │                  │      KJWISJETTTDTZKTBFIBJUOSLKL/ 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
+│                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
 │                        ├ [35] ╭ VulnerabilityID : CVE-2024-22365 
 │                        │      ├ PkgID           : libpam0g@1.4.0-11ubuntu2.3 
 │                        │      ├ PkgName         : libpam0g 
@@ -2488,12 +2494,15 @@
 │                        │      │                  │      VE-2023-7008 
 │                        │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/4GMDEG
+│                        │      │                  │      5PKONWNHOEYSUDRT6JEOISRMN2/ 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
 │                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/QHNBXG
 │                        │      │                  │      KJWISJETTTDTZKTBFIBJUOSLKL/ 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
+│                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
 │                        ├ [47] ╭ VulnerabilityID : CVE-2018-10126 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
@@ -2708,12 +2717,15 @@
 │                        │      │                  │      VE-2023-7008 
 │                        │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/4GMDEG
+│                        │      │                  │      5PKONWNHOEYSUDRT6JEOISRMN2/ 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
 │                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/QHNBXG
 │                        │      │                  │      KJWISJETTTDTZKTBFIBJUOSLKL/ 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
+│                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
 │                        ├ [52] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
@@ -3459,12 +3471,15 @@
 │                        │      │                  │      VE-2023-7008 
 │                        │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/4GMDEG
+│                        │      │                  │      5PKONWNHOEYSUDRT6JEOISRMN2/ 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
 │                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/QHNBXG
 │                        │      │                  │      KJWISJETTTDTZKTBFIBJUOSLKL/ 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
+│                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
 │                        ├ [63] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.11 
 │                        │      ├ PkgName         : systemd-sysv 
@@ -3505,12 +3520,15 @@
 │                        │      │                  │      VE-2023-7008 
 │                        │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/4GMDEG
+│                        │      │                  │      5PKONWNHOEYSUDRT6JEOISRMN2/ 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
 │                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/QHNBXG
 │                        │      │                  │      KJWISJETTTDTZKTBFIBJUOSLKL/ 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
+│                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
 │                        ├ [64] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.11 
 │                        │      ├ PkgName         : systemd-timesyncd 
@@ -3551,12 +3569,15 @@
 │                        │      │                  │      VE-2023-7008 
 │                        │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/4GMDEG
+│                        │      │                  │      5PKONWNHOEYSUDRT6JEOISRMN2/ 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
 │                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/QHNBXG
 │                        │      │                  │      KJWISJETTTDTZKTBFIBJUOSLKL/ 
-│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                        │      ╰ LastModifiedDate: 2024-01-24T03:15:08.553Z 
+│                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
 │                        ├ [65] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : uidmap 
@@ -3996,7 +4017,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -4657,7 +4678,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -6353,7 +6374,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
