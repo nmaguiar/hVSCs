@@ -1343,11 +1343,12 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-01-24T03:15:08.553Z'
+    LastModifiedDate: '2024-01-27T03:15:07.933Z'
   - VulnerabilityID: CVE-2024-22365
     PkgID: libpam-modules@1.4.0-11ubuntu2.3
     PkgName: libpam-modules
@@ -1481,11 +1482,12 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-01-24T03:15:08.553Z'
+    LastModifiedDate: '2024-01-27T03:15:07.933Z'
   - VulnerabilityID: CVE-2024-22365
     PkgID: libpam0g@1.4.0-11ubuntu2.3
     PkgName: libpam0g
@@ -2108,11 +2110,12 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-01-24T03:15:08.553Z'
+    LastModifiedDate: '2024-01-27T03:15:07.933Z'
   - VulnerabilityID: CVE-2018-10126
     PkgID: libtiff5@4.3.0-6ubuntu0.7
     PkgName: libtiff5
@@ -2316,11 +2319,12 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-01-24T03:15:08.553Z'
+    LastModifiedDate: '2024-01-27T03:15:07.933Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -2876,11 +2880,12 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-01-24T03:15:08.553Z'
+    LastModifiedDate: '2024-01-27T03:15:07.933Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-sysv@249.11-0ubuntu3.11
     PkgName: systemd-sysv
@@ -2918,11 +2923,12 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-01-24T03:15:08.553Z'
+    LastModifiedDate: '2024-01-27T03:15:07.933Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-timesyncd@249.11-0ubuntu3.11
     PkgName: systemd-timesyncd
@@ -2960,11 +2966,12 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
-    LastModifiedDate: '2024-01-24T03:15:08.553Z'
+    LastModifiedDate: '2024-01-27T03:15:07.933Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: uidmap@1:4.8.1-2ubuntu2.1
     PkgName: uidmap
@@ -3275,7 +3282,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -3680,7 +3687,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4667,7 +4674,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
