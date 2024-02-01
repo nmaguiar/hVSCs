@@ -396,9 +396,9 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : client prints server-sent ANSI escape codes to the
-│                        │      │                   terminal, allowing for unverified messages to potentially
-│                        │      │                   execute arbitrary commands 
+│                        │      ├ Title           : git: client prints server-sent ANSI escape codes to
+│                        │      │                   the terminal, allowing for unverified messages to
+│                        │      │                   potentially execute arbitrary commands 
 │                        │      ├ Description     : GIT version 2.15.1 and earlier contains a Input
 │                        │      │                   Validation Error vulnerability in Client that can result in
 │                        │      │                    problems including messing up terminal configuration to
@@ -444,9 +444,9 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : client prints server-sent ANSI escape codes to the
-│                        │      │                   terminal, allowing for unverified messages to potentially
-│                        │      │                   execute arbitrary commands 
+│                        │      ├ Title           : git: client prints server-sent ANSI escape codes to
+│                        │      │                   the terminal, allowing for unverified messages to
+│                        │      │                   potentially execute arbitrary commands 
 │                        │      ├ Description     : GIT version 2.15.1 and earlier contains a Input
 │                        │      │                   Validation Error vulnerability in Client that can result in
 │                        │      │                    problems including messing up terminal configuration to
@@ -1299,27 +1299,28 @@
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /01/19/3 
 │                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:0533 
-│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-0553 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2248445 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2258412 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2258544 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2258412 
-│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:0627 
+│                        │      │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-0553 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2248445 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2258412 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2258544 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2258412 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-0553 
-│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-0533.html 
-│                        │      │                  ├ [9] : https://gitlab.com/gnutls/gnutls/-/issues/1522 
-│                        │      │                  ├ [10]: https://gnutls.org/security-new.html#GNUTLS-SA-
+│                        │      │                  ├ [9] : https://errata.almalinux.org/9/ALSA-2024-0533.html 
+│                        │      │                  ├ [10]: https://gitlab.com/gnutls/gnutls/-/issues/1522 
+│                        │      │                  ├ [11]: https://gnutls.org/security-new.html#GNUTLS-SA-
 │                        │      │                  │       2024-01-14 
-│                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/GNXK
 │                        │      │                  │       VR5YNUEBNHAHM5GSYKBZX4W2HMN2/ 
-│                        │      │                  ├ [12]: https://lists.gnupg.org/pipermail/gnutls-help/2
+│                        │      │                  ├ [13]: https://lists.gnupg.org/pipermail/gnutls-help/2
 │                        │      │                  │       024-January/004841.html 
-│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6593-1 
-│                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-0553 
+│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6593-1 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-0553 
 │                        │      ├ PublishedDate   : 2024-01-16T12:15:45.557Z 
-│                        │      ╰ LastModifiedDate: 2024-01-29T17:15:09.36Z 
+│                        │      ╰ LastModifiedDate: 2024-01-31T16:15:45.513Z 
 │                        ├ [27] ╭ VulnerabilityID : CVE-2024-0567 
 │                        │      ├ PkgID           : libgnutls30@3.7.3-4ubuntu1.3 
 │                        │      ├ PkgName         : libgnutls30 
@@ -5373,7 +5374,8 @@
 │                              │                   before 0.40.2 for Rust. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-354 
-│                              ├ VendorSeverity   ╭ amazon     : 2 
+│                              ├ VendorSeverity   ╭ alma       : 2 
+│                              │                  ├ amazon     : 2 
 │                              │                  ├ cbl-mariner: 2 
 │                              │                  ├ ghsa       : 2 
 │                              │                  ├ nvd        : 2 
@@ -5397,236 +5399,240 @@
 │                              │                  │        /12/19/5 
 │                              │                  ├ [3]  : http://www.openwall.com/lists/oss-security/2023
 │                              │                  │        /12/20/3 
-│                              │                  ├ [4]  : https://access.redhat.com/security/cve/CVE-2023
+│                              │                  ├ [4]  : https://access.redhat.com/errata/RHSA-2024:0606 
+│                              │                  ├ [5]  : https://access.redhat.com/security/cve/CVE-2023
 │                              │                  │        -48795 
-│                              │                  ├ [5]  : https://access.redhat.com/security/cve/cve-2023
+│                              │                  ├ [6]  : https://access.redhat.com/security/cve/cve-2023
 │                              │                  │        -48795 
-│                              │                  ├ [6]  : https://arstechnica.com/security/2023/12/hacker
+│                              │                  ├ [7]  : https://arstechnica.com/security/2023/12/hacker
 │                              │                  │        s-can-break-ssh-channel-integrity-using-novel-data-c
 │                              │                  │        orruption-attack/ 
-│                              │                  ├ [7]  : https://bugs.gentoo.org/920280 
-│                              │                  ├ [8]  : https://bugzilla.redhat.com/show_bug.cgi?id=2254210 
-│                              │                  ├ [9]  : https://bugzilla.suse.com/show_bug.cgi?id=1217950 
-│                              │                  ├ [10] : https://crates.io/crates/thrussh/versions 
-│                              │                  ├ [11] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                              │                  ├ [8]  : https://bugs.gentoo.org/920280 
+│                              │                  ├ [9]  : https://bugzilla.redhat.com/2254210 
+│                              │                  ├ [10] : https://bugzilla.redhat.com/2255271 
+│                              │                  ├ [11] : https://bugzilla.redhat.com/show_bug.cgi?id=2254210 
+│                              │                  ├ [12] : https://bugzilla.suse.com/show_bug.cgi?id=1217950 
+│                              │                  ├ [13] : https://crates.io/crates/thrussh/versions 
+│                              │                  ├ [14] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                              │                  │        CVE-2023-48795 
-│                              │                  ├ [12] : https://filezilla-project.org/versions.php 
-│                              │                  ├ [13] : https://forum.netgate.com/topic/184941/terrapin
+│                              │                  ├ [15] : https://errata.almalinux.org/8/ALSA-2024-0606.html 
+│                              │                  ├ [16] : https://filezilla-project.org/versions.php 
+│                              │                  ├ [17] : https://forum.netgate.com/topic/184941/terrapin
 │                              │                  │        -ssh-attack 
-│                              │                  ├ [14] : https://git.libssh.org/projects/libssh.git/comm
+│                              │                  ├ [18] : https://git.libssh.org/projects/libssh.git/comm
 │                              │                  │        it/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c
 │                              │                  │        221c2e7f6 
-│                              │                  ├ [15] : https://github.com/NixOS/nixpkgs/pull/275249 
-│                              │                  ├ [16] : https://github.com/PowerShell/Win32-OpenSSH/iss
+│                              │                  ├ [19] : https://github.com/NixOS/nixpkgs/pull/275249 
+│                              │                  ├ [20] : https://github.com/PowerShell/Win32-OpenSSH/iss
 │                              │                  │        ues/2189 
-│                              │                  ├ [17] : https://github.com/PowerShell/Win32-OpenSSH/rel
+│                              │                  ├ [21] : https://github.com/PowerShell/Win32-OpenSSH/rel
 │                              │                  │        eases/tag/v9.5.0.0p1-Beta 
-│                              │                  ├ [18] : https://github.com/TeraTermProject/teraterm/com
+│                              │                  ├ [22] : https://github.com/TeraTermProject/teraterm/com
 │                              │                  │        mit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0[
 │                              │                  │        m 
-│                              │                  ├ [19] : https://github.com/TeraTermProject/teraterm/rel
+│                              │                  ├ [23] : https://github.com/TeraTermProject/teraterm/rel
 │                              │                  │        eases/tag/v5.1 
-│                              │                  ├ [20] : https://github.com/advisories/GHSA-45x7-px36-x8w8 
-│                              │                  ├ [21] : https://github.com/apache/mina-sshd/issues/445 
-│                              │                  ├ [22] : https://github.com/connectbot/sshlib/commit/5c8
+│                              │                  ├ [24] : https://github.com/advisories/GHSA-45x7-px36-x8w8 
+│                              │                  ├ [25] : https://github.com/apache/mina-sshd/issues/445 
+│                              │                  ├ [26] : https://github.com/connectbot/sshlib/commit/5c8
 │                              │                  │        b534f6e97db7ac0e0e579331213aa25c173ab 
-│                              │                  ├ [23] : https://github.com/connectbot/sshlib/compare/2.
+│                              │                  ├ [27] : https://github.com/connectbot/sshlib/compare/2.
 │                              │                  │        2.21...2.2.22 
-│                              │                  ├ [24] : https://github.com/cyd01/KiTTY/issues/520 
-│                              │                  ├ [25] : https://github.com/drakkan/sftpgo/releases/tag/
+│                              │                  ├ [28] : https://github.com/cyd01/KiTTY/issues/520 
+│                              │                  ├ [29] : https://github.com/drakkan/sftpgo/releases/tag/
 │                              │                  │        v2.5.6 
-│                              │                  ├ [26] : https://github.com/erlang/otp/blob/d1b43dc0f136
+│                              │                  ├ [30] : https://github.com/erlang/otp/blob/d1b43dc0f136
 │                              │                  │        1d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.x
 │                              │                  │        ml#L39-L42 
-│                              │                  ├ [27] : https://github.com/erlang/otp/releases/tag/OTP-
+│                              │                  ├ [31] : https://github.com/erlang/otp/releases/tag/OTP-
 │                              │                  │        26.2.1 
-│                              │                  ├ [28] : https://github.com/golang/crypto/commit/9d2ee97
+│                              │                  ├ [32] : https://github.com/golang/crypto/commit/9d2ee97
 │                              │                  │        5ef9fe627bf0a6f01c1f69e8ef1d4f05d 
-│                              │                  ├ [29] : https://github.com/hierynomus/sshj/issues/916 
-│                              │                  ├ [30] : https://github.com/janmojzis/tinyssh/issues/81 
-│                              │                  ├ [31] : https://github.com/jtesta/ssh-audit/commit/8e97
+│                              │                  ├ [33] : https://github.com/hierynomus/sshj/issues/916 
+│                              │                  ├ [34] : https://github.com/janmojzis/tinyssh/issues/81 
+│                              │                  ├ [35] : https://github.com/jtesta/ssh-audit/commit/8e97
 │                              │                  │        2c5e94b460379fe0c7d20209c16df81538a5 
-│                              │                  ├ [32] : https://github.com/libssh2/libssh2/pull/1291 
-│                              │                  ├ [33] : https://github.com/mkj/dropbear/blob/17657c36cc
+│                              │                  ├ [36] : https://github.com/libssh2/libssh2/pull/1291 
+│                              │                  ├ [37] : https://github.com/mkj/dropbear/blob/17657c36cc
 │                              │                  │        e6df7716d5ff151ec09a665382d5dd/CHANGES#L25 
-│                              │                  ├ [34] : https://github.com/mscdex/ssh2/commit/97b223f88
+│                              │                  ├ [38] : https://github.com/mscdex/ssh2/commit/97b223f88
 │                              │                  │        91b96d6fc054df5ab1d5a1a545da2a3 
-│                              │                  ├ [35] : https://github.com/mwiede/jsch/compare/jsch-0.2
+│                              │                  ├ [39] : https://github.com/mwiede/jsch/compare/jsch-0.2
 │                              │                  │        .14...jsch-0.2.15 
-│                              │                  ├ [36] : https://github.com/mwiede/jsch/issues/457 
-│                              │                  ├ [37] : https://github.com/mwiede/jsch/pull/461 
-│                              │                  ├ [38] : https://github.com/net-ssh/net-ssh/blob/2e65064
+│                              │                  ├ [40] : https://github.com/mwiede/jsch/issues/457 
+│                              │                  ├ [41] : https://github.com/mwiede/jsch/pull/461 
+│                              │                  ├ [42] : https://github.com/net-ssh/net-ssh/blob/2e65064
 │                              │                  │        a52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-L1
 │                              │                  │        6 
-│                              │                  ├ [39] : https://github.com/openssh/openssh-portable/com
+│                              │                  ├ [43] : https://github.com/openssh/openssh-portable/com
 │                              │                  │        mits/master 
-│                              │                  ├ [40] : https://github.com/paramiko/paramiko/issues/2337 
-│                              │                  ├ [41] : https://github.com/proftpd/proftpd/blob/0a7ea9b
+│                              │                  ├ [44] : https://github.com/paramiko/paramiko/issues/2337 
+│                              │                  ├ [45] : https://github.com/proftpd/proftpd/blob/0a7ea9b
 │                              │                  │        0ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES[
 │                              │                  │        m 
-│                              │                  ├ [42] : https://github.com/proftpd/proftpd/blob/d21e7a2
+│                              │                  ├ [46] : https://github.com/proftpd/proftpd/blob/d21e7a2
 │                              │                  │        e47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES[
 │                              │                  │        m 
-│                              │                  ├ [43] : https://github.com/proftpd/proftpd/blob/master/
+│                              │                  ├ [47] : https://github.com/proftpd/proftpd/blob/master/
 │                              │                  │        RELEASE_NOTES 
-│                              │                  ├ [44] : https://github.com/proftpd/proftpd/issues/456 
-│                              │                  ├ [45] : https://github.com/rapier1/hpn-ssh/releases 
-│                              │                  ├ [46] : https://github.com/ronf/asyncssh/blob/develop/d
+│                              │                  ├ [48] : https://github.com/proftpd/proftpd/issues/456 
+│                              │                  ├ [49] : https://github.com/rapier1/hpn-ssh/releases 
+│                              │                  ├ [50] : https://github.com/ronf/asyncssh/blob/develop/d
 │                              │                  │        ocs/changes.rst 
-│                              │                  ├ [47] : https://github.com/ronf/asyncssh/security/advis
+│                              │                  ├ [51] : https://github.com/ronf/asyncssh/security/advis
 │                              │                  │        ories/GHSA-hfmc-7525-mj55 
-│                              │                  ├ [48] : https://github.com/ronf/asyncssh/tags 
-│                              │                  ├ [49] : https://github.com/ssh-mitm/ssh-mitm/issues/165 
-│                              │                  ├ [50] : https://github.com/warp-tech/russh 
-│                              │                  ├ [51] : https://github.com/warp-tech/russh/commit/1aa34
+│                              │                  ├ [52] : https://github.com/ronf/asyncssh/tags 
+│                              │                  ├ [53] : https://github.com/ssh-mitm/ssh-mitm/issues/165 
+│                              │                  ├ [54] : https://github.com/warp-tech/russh 
+│                              │                  ├ [55] : https://github.com/warp-tech/russh/commit/1aa34
 │                              │                  │        0a7df1d5be1c0f4a9e247aade76dfdd2951 
-│                              │                  ├ [52] : https://github.com/warp-tech/russh/releases/tag
+│                              │                  ├ [56] : https://github.com/warp-tech/russh/releases/tag
 │                              │                  │        /v0.40.2 
-│                              │                  ├ [53] : https://github.com/warp-tech/russh/security/adv
+│                              │                  ├ [57] : https://github.com/warp-tech/russh/security/adv
 │                              │                  │        isories/GHSA-45x7-px36-x8w8 
-│                              │                  ├ [54] : https://gitlab.com/libssh/libssh-mirror/-/tags 
-│                              │                  ├ [55] : https://go.dev/cl/550715 
-│                              │                  ├ [56] : https://go.dev/issue/64784 
-│                              │                  ├ [57] : https://groups.google.com/g/golang-announce/c/-
+│                              │                  ├ [58] : https://gitlab.com/libssh/libssh-mirror/-/tags 
+│                              │                  ├ [59] : https://go.dev/cl/550715 
+│                              │                  ├ [60] : https://go.dev/issue/64784 
+│                              │                  ├ [61] : https://groups.google.com/g/golang-announce/c/-
 │                              │                  │        n5WqVC18LQ 
-│                              │                  ├ [58] : https://groups.google.com/g/golang-announce/c/q
+│                              │                  ├ [62] : https://groups.google.com/g/golang-announce/c/q
 │                              │                  │        A3XtxvMUyg 
-│                              │                  ├ [59] : https://help.panic.com/releasenotes/transmit5/ 
-│                              │                  ├ [60] : https://jadaptive.com/important-java-ssh-securi
+│                              │                  ├ [63] : https://help.panic.com/releasenotes/transmit5/ 
+│                              │                  ├ [64] : https://jadaptive.com/important-java-ssh-securi
 │                              │                  │        ty-update-new-ssh-vulnerability-discovered-cve-2023-
 │                              │                  │        48795/ 
-│                              │                  ├ [61] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  ├ [65] : https://lists.debian.org/debian-lts-announce/20
 │                              │                  │        23/12/msg00017.html 
-│                              │                  ├ [62] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  ├ [66] : https://lists.debian.org/debian-lts-announce/20
 │                              │                  │        24/01/msg00013.html 
-│                              │                  ├ [63] : https://lists.debian.org/debian-lts-announce/20
+│                              │                  ├ [67] : https://lists.debian.org/debian-lts-announce/20
 │                              │                  │        24/01/msg00014.html 
-│                              │                  ├ [64] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [68] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/33
 │                              │                  │        XHJUB6ROFUOH2OQNENFROTVH6MHSHA/ 
-│                              │                  ├ [65] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [69] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/3C
 │                              │                  │        AYYW35MUTNO65RVAELICTNZZFMT2XS/ 
-│                              │                  ├ [66] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [70] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/3J
 │                              │                  │        IMLVBDWOP4FUPXPTB4PGHHIOMGFLQE/ 
-│                              │                  ├ [67] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [71] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/3Y
 │                              │                  │        QLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/ 
-│                              │                  ├ [68] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [72] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/6Y
 │                              │                  │        74KVCPEPT4MVU3LHDWCNNOXOE5ZLUR/ 
-│                              │                  ├ [69] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [73] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/AP
 │                              │                  │        YIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/ 
-│                              │                  ├ [70] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [74] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/BL
 │                              │                  │        5KTLOSLH2KHRN4HCXJPK3JUVLDGEL6/ 
-│                              │                  ├ [71] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [75] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/C3
 │                              │                  │        AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/ 
-│                              │                  ├ [72] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [76] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/CH
 │                              │                  │        HITS4PUOZAKFIUBQAQZC7JWXMOYE4B/ 
-│                              │                  ├ [73] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [77] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/F7
 │                              │                  │        EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/ 
-│                              │                  ├ [74] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [78] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/HY
 │                              │                  │        EDEXIKFKTUJIN43RG4B7T5ZS6MHUSP/ 
-│                              │                  ├ [75] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [79] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/I7
 │                              │                  │        24O3LSRCPO4WNVIXTZCT4VVRMXMMSG/ 
-│                              │                  ├ [76] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [80] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/KE
 │                              │                  │        OTKBUPZXHE3F352JBYNTSNRXYLWD6P/ 
-│                              │                  ├ [77] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [81] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/KM
 │                              │                  │        ZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/ 
-│                              │                  ├ [78] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [82] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/L5
 │                              │                  │        Y6MNNVAPIJSXJERQ6PKZVCIUXSNJK7/ 
-│                              │                  ├ [79] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [83] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/LZ
 │                              │                  │        QVUHWVWRH73YBXUQJOD6CKHDQBU3DM/ 
-│                              │                  ├ [80] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [84] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/MK
 │                              │                  │        QRBF3DWMWPH36LBCOBUTSIZRTPEZXB/ 
-│                              │                  ├ [81] : https://lists.fedoraproject.org/archives/list/p
+│                              │                  ├ [85] : https://lists.fedoraproject.org/archives/list/p
 │                              │                  │        ackage-announce%40lists.fedoraproject.org/message/QI
 │                              │                  │        3EHAHABFQK7OABNCSF5GMYP6TONTI7/ 
-│                              │                  ├ [82] : https://matt.ucc.asn.au/dropbear/CHANGES 
-│                              │                  ├ [83] : https://nest.pijul.com/pijul/thrussh/changes/D6
+│                              │                  ├ [86] : https://matt.ucc.asn.au/dropbear/CHANGES 
+│                              │                  ├ [87] : https://nest.pijul.com/pijul/thrussh/changes/D6
 │                              │                  │        H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
 │                              │                  │        [m 
-│                              │                  ├ [84] : https://news.ycombinator.com/item?id=38684904 
-│                              │                  ├ [85] : https://news.ycombinator.com/item?id=38685286 
-│                              │                  ├ [86] : https://news.ycombinator.com/item?id=38732005 
-│                              │                  ├ [87] : https://nova.app/releases/#v11.8 
-│                              │                  ├ [88] : https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
-│                              │                  ├ [89] : https://oryx-embedded.com/download/#changelog 
-│                              │                  ├ [90] : https://psirt.global.sonicwall.com/vuln-detail/
+│                              │                  ├ [88] : https://news.ycombinator.com/item?id=38684904 
+│                              │                  ├ [89] : https://news.ycombinator.com/item?id=38685286 
+│                              │                  ├ [90] : https://news.ycombinator.com/item?id=38732005 
+│                              │                  ├ [91] : https://nova.app/releases/#v11.8 
+│                              │                  ├ [92] : https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
+│                              │                  ├ [93] : https://oryx-embedded.com/download/#changelog 
+│                              │                  ├ [94] : https://psirt.global.sonicwall.com/vuln-detail/
 │                              │                  │        SNWLID-2024-0002 
-│                              │                  ├ [91] : https://roumenpetrov.info/secsh/#news20231220 
-│                              │                  ├ [92] : https://security-tracker.debian.org/tracker/CVE
+│                              │                  ├ [95] : https://roumenpetrov.info/secsh/#news20231220 
+│                              │                  ├ [96] : https://security-tracker.debian.org/tracker/CVE
 │                              │                  │        -2023-48795 
-│                              │                  ├ [93] : https://security-tracker.debian.org/tracker/sou
+│                              │                  ├ [97] : https://security-tracker.debian.org/tracker/sou
 │                              │                  │        rce-package/libssh2 
-│                              │                  ├ [94] : https://security-tracker.debian.org/tracker/sou
+│                              │                  ├ [98] : https://security-tracker.debian.org/tracker/sou
 │                              │                  │        rce-package/proftpd-dfsg 
-│                              │                  ├ [95] : https://security-tracker.debian.org/tracker/sou
+│                              │                  ├ [99] : https://security-tracker.debian.org/tracker/sou
 │                              │                  │        rce-package/trilead-ssh2 
-│                              │                  ├ [96] : https://security.gentoo.org/glsa/202312-16 
-│                              │                  ├ [97] : https://security.gentoo.org/glsa/202312-17 
-│                              │                  ├ [98] : https://security.netapp.com/advisory/ntap-20240
+│                              │                  ├ [100]: https://security.gentoo.org/glsa/202312-16 
+│                              │                  ├ [101]: https://security.gentoo.org/glsa/202312-17 
+│                              │                  ├ [102]: https://security.netapp.com/advisory/ntap-20240
 │                              │                  │        105-0004/ 
-│                              │                  ├ [99] : https://terrapin-attack.com/ 
-│                              │                  ├ [100]: https://thorntech.com/cve-2023-48795-and-sftp-g
+│                              │                  ├ [103]: https://terrapin-attack.com/ 
+│                              │                  ├ [104]: https://thorntech.com/cve-2023-48795-and-sftp-g
 │                              │                  │        ateway/ 
-│                              │                  ├ [101]: https://twitter.com/TrueSkrillor/status/1736774
+│                              │                  ├ [105]: https://twitter.com/TrueSkrillor/status/1736774
 │                              │                  │        389725565005 
-│                              │                  ├ [102]: https://ubuntu.com/security/CVE-2023-48795 
-│                              │                  ├ [103]: https://ubuntu.com/security/notices/USN-6560-1 
-│                              │                  ├ [104]: https://ubuntu.com/security/notices/USN-6560-2 
-│                              │                  ├ [105]: https://ubuntu.com/security/notices/USN-6561-1 
-│                              │                  ├ [106]: https://ubuntu.com/security/notices/USN-6585-1 
-│                              │                  ├ [107]: https://ubuntu.com/security/notices/USN-6589-1 
-│                              │                  ├ [108]: https://ubuntu.com/security/notices/USN-6598-1 
-│                              │                  ├ [109]: https://winscp.net/eng/docs/history#6.2.2 
-│                              │                  ├ [110]: https://www.bitvise.com/ssh-client-version-hist
+│                              │                  ├ [106]: https://ubuntu.com/security/CVE-2023-48795 
+│                              │                  ├ [107]: https://ubuntu.com/security/notices/USN-6560-1 
+│                              │                  ├ [108]: https://ubuntu.com/security/notices/USN-6560-2 
+│                              │                  ├ [109]: https://ubuntu.com/security/notices/USN-6561-1 
+│                              │                  ├ [110]: https://ubuntu.com/security/notices/USN-6585-1 
+│                              │                  ├ [111]: https://ubuntu.com/security/notices/USN-6589-1 
+│                              │                  ├ [112]: https://ubuntu.com/security/notices/USN-6598-1 
+│                              │                  ├ [113]: https://winscp.net/eng/docs/history#6.2.2 
+│                              │                  ├ [114]: https://www.bitvise.com/ssh-client-version-hist
 │                              │                  │        ory#933 
-│                              │                  ├ [111]: https://www.bitvise.com/ssh-server-version-history 
-│                              │                  ├ [112]: https://www.chiark.greenend.org.uk/~sgtatham/pu
+│                              │                  ├ [115]: https://www.bitvise.com/ssh-server-version-history 
+│                              │                  ├ [116]: https://www.chiark.greenend.org.uk/~sgtatham/pu
 │                              │                  │        tty/changes.html 
-│                              │                  ├ [113]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
+│                              │                  ├ [117]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
 │                              │                  │        age=Update 
-│                              │                  ├ [114]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                              │                  ├ [115]: https://www.debian.org/security/2023/dsa-5586 
-│                              │                  ├ [116]: https://www.debian.org/security/2023/dsa-5588 
-│                              │                  ├ [117]: https://www.freebsd.org/security/advisories/Fre
+│                              │                  ├ [118]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                              │                  ├ [119]: https://www.debian.org/security/2023/dsa-5586 
+│                              │                  ├ [120]: https://www.debian.org/security/2023/dsa-5588 
+│                              │                  ├ [121]: https://www.freebsd.org/security/advisories/Fre
 │                              │                  │        eBSD-SA-23:19.openssh.asc 
-│                              │                  ├ [118]: https://www.lancom-systems.de/service-support/a
+│                              │                  ├ [122]: https://www.lancom-systems.de/service-support/a
 │                              │                  │        llgemeine-sicherheitshinweise#c243508 
-│                              │                  ├ [119]: https://www.netsarang.com/en/xshell-update-history/ 
-│                              │                  ├ [120]: https://www.openssh.com/openbsd.html 
-│                              │                  ├ [121]: https://www.openssh.com/txt/release-9.6 
-│                              │                  ├ [122]: https://www.openwall.com/lists/oss-security/202
+│                              │                  ├ [123]: https://www.netsarang.com/en/xshell-update-history/ 
+│                              │                  ├ [124]: https://www.openssh.com/openbsd.html 
+│                              │                  ├ [125]: https://www.openssh.com/txt/release-9.6 
+│                              │                  ├ [126]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/12/18/2 
-│                              │                  ├ [123]: https://www.openwall.com/lists/oss-security/202
+│                              │                  ├ [127]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/12/18/3 
-│                              │                  ├ [124]: https://www.openwall.com/lists/oss-security/202
+│                              │                  ├ [128]: https://www.openwall.com/lists/oss-security/202
 │                              │                  │        3/12/20/3 
-│                              │                  ├ [125]: https://www.paramiko.org/changelog.html 
-│                              │                  ├ [126]: https://www.reddit.com/r/sysadmin/comments/18id
+│                              │                  ├ [129]: https://www.paramiko.org/changelog.html 
+│                              │                  ├ [130]: https://www.reddit.com/r/sysadmin/comments/18id
 │                              │                  │        v52/cve202348795_why_is_this_cve_still_undisclosed/
 │                              │                  │        [m 
-│                              │                  ├ [127]: https://www.suse.com/c/suse-addresses-the-ssh-v
+│                              │                  ├ [131]: https://www.suse.com/c/suse-addresses-the-ssh-v
 │                              │                  │        2-protocol-terrapin-attack-aka-cve-2023-48795/
 │                              │                  │         
-│                              │                  ├ [128]: https://www.terrapin-attack.com 
-│                              │                  ├ [129]: https://www.theregister.com/2023/12/20/terrapin
+│                              │                  ├ [132]: https://www.terrapin-attack.com 
+│                              │                  ├ [133]: https://www.theregister.com/2023/12/20/terrapin
 │                              │                  │        _attack_ssh 
-│                              │                  ╰ [130]: https://www.vandyke.com/products/securecrt/hist
+│                              │                  ╰ [134]: https://www.vandyke.com/products/securecrt/hist
 │                              │                           ory.txt 
 │                              ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
 │                              ╰ LastModifiedDate: 2024-01-29T09:15:42.687Z 
@@ -5885,7 +5891,65 @@
 │                        │                        ├ [6]: https://github.com/moby/moby/releases/tag/v24.0.7 
 │                        │                        ╰ [7]: https://github.com/moby/moby/security/advisories/
 │                        │                               GHSA-jq35-85cj-fj4p 
-│                        ├ [2] ╭ VulnerabilityID : CVE-2023-48795 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2024-21626 
+│                        │     ├ PkgName         : github.com/opencontainers/runc 
+│                        │     ├ InstalledVersion: v1.1.7 
+│                        │     ├ FixedVersion    : 1.1.12 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16
+│                        │     │                  │         e8ff9a905c4fdc09da78e194f 
+│                        │     │                  ╰ DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f9
+│                        │     │                            55a66e136cc161096c0780715 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-21626 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : runc: file descriptor leak 
+│                        │     ├ Description     : runc is a CLI tool for spawning and running containers
+│                        │     │                   on Linux according to the OCI specification. In runc 1.1.11
+│                        │     │                   and earlier, due to an internal file descriptor leak, an
+│                        │     │                   attacker could cause a newly-spawned container process (from
+│                        │     │                    runc exec) to have a working directory in the host
+│                        │     │                   filesystem namespace, allowing for a container escape by
+│                        │     │                   giving access to the host filesystem ("attack 2"). The same
+│                        │     │                   attack could be used by a malicious image to allow a
+│                        │     │                   container process to gain access to the host filesystem
+│                        │     │                   through runc run ("attack 1"). Variants of attacks 1 and 2
+│                        │     │                   could be also be used to overwrite semi-arbitrary host
+│                        │     │                   binaries, allowing for complete container escapes ("attack
+│                        │     │                   3a" and "attack 3b"). runc 1.1.12 includes patches for this
+│                        │     │                   issue.  
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ CweIDs           ╭ [0]: CWE-403 
+│                        │     │                  ╰ [1]: CWE-668 
+│                        │     ├ VendorSeverity   ╭ amazon: 3 
+│                        │     │                  ├ ghsa  : 3 
+│                        │     │                  ├ redhat: 3 
+│                        │     │                  ╰ ubuntu: 3 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:
+│                        │     │                  │        │           H/I:H/A:H 
+│                        │     │                  │        ╰ V3Score : 8.6 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:
+│                        │     │                           │           H/I:H/A:H 
+│                        │     │                           ╰ V3Score : 8.6 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-21626 
+│                        │     │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                        │     │                  │      E-2024-21626 
+│                        │     │                  ├ [2]: https://github.com/opencontainers/runc 
+│                        │     │                  ├ [3]: https://github.com/opencontainers/runc/commit/021
+│                        │     │                  │      20488a4c0fc487d1ed2867e901eeed7ce8ecf 
+│                        │     │                  ├ [4]: https://github.com/opencontainers/runc/releases/t
+│                        │     │                  │      ag/v1.1.12 
+│                        │     │                  ├ [5]: https://github.com/opencontainers/runc/security/a
+│                        │     │                  │      dvisories/GHSA-xr7r-f8xq-vfvv 
+│                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-21626 
+│                        │     │                  ├ [7]: https://ubuntu.com/security/notices/USN-6619-1 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-21626 
+│                        │     ├ PublishedDate   : 2024-01-31T22:15:53.78Z 
+│                        │     ╰ LastModifiedDate: 2024-01-31T22:15:53.78Z 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2023-48795 
 │                        │     ├ PkgName         : golang.org/x/crypto 
 │                        │     ├ InstalledVersion: v0.9.0 
 │                        │     ├ FixedVersion    : 0.17.0 
@@ -5939,7 +6003,8 @@
 │                        │     │                   before 0.40.2 for Rust. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-354 
-│                        │     ├ VendorSeverity   ╭ amazon     : 2 
+│                        │     ├ VendorSeverity   ╭ alma       : 2 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -5963,240 +6028,244 @@
 │                        │     │                  │        /12/19/5 
 │                        │     │                  ├ [3]  : http://www.openwall.com/lists/oss-security/2023
 │                        │     │                  │        /12/20/3 
-│                        │     │                  ├ [4]  : https://access.redhat.com/security/cve/CVE-2023
+│                        │     │                  ├ [4]  : https://access.redhat.com/errata/RHSA-2024:0606 
+│                        │     │                  ├ [5]  : https://access.redhat.com/security/cve/CVE-2023
 │                        │     │                  │        -48795 
-│                        │     │                  ├ [5]  : https://access.redhat.com/security/cve/cve-2023
+│                        │     │                  ├ [6]  : https://access.redhat.com/security/cve/cve-2023
 │                        │     │                  │        -48795 
-│                        │     │                  ├ [6]  : https://arstechnica.com/security/2023/12/hacker
+│                        │     │                  ├ [7]  : https://arstechnica.com/security/2023/12/hacker
 │                        │     │                  │        s-can-break-ssh-channel-integrity-using-novel-data-c
 │                        │     │                  │        orruption-attack/ 
-│                        │     │                  ├ [7]  : https://bugs.gentoo.org/920280 
-│                        │     │                  ├ [8]  : https://bugzilla.redhat.com/show_bug.cgi?id=2254210 
-│                        │     │                  ├ [9]  : https://bugzilla.suse.com/show_bug.cgi?id=1217950 
-│                        │     │                  ├ [10] : https://crates.io/crates/thrussh/versions 
-│                        │     │                  ├ [11] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │     │                  ├ [8]  : https://bugs.gentoo.org/920280 
+│                        │     │                  ├ [9]  : https://bugzilla.redhat.com/2254210 
+│                        │     │                  ├ [10] : https://bugzilla.redhat.com/2255271 
+│                        │     │                  ├ [11] : https://bugzilla.redhat.com/show_bug.cgi?id=2254210 
+│                        │     │                  ├ [12] : https://bugzilla.suse.com/show_bug.cgi?id=1217950 
+│                        │     │                  ├ [13] : https://crates.io/crates/thrussh/versions 
+│                        │     │                  ├ [14] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │     │                  │        CVE-2023-48795 
-│                        │     │                  ├ [12] : https://filezilla-project.org/versions.php 
-│                        │     │                  ├ [13] : https://forum.netgate.com/topic/184941/terrapin
+│                        │     │                  ├ [15] : https://errata.almalinux.org/8/ALSA-2024-0606.html 
+│                        │     │                  ├ [16] : https://filezilla-project.org/versions.php 
+│                        │     │                  ├ [17] : https://forum.netgate.com/topic/184941/terrapin
 │                        │     │                  │        -ssh-attack 
-│                        │     │                  ├ [14] : https://git.libssh.org/projects/libssh.git/comm
+│                        │     │                  ├ [18] : https://git.libssh.org/projects/libssh.git/comm
 │                        │     │                  │        it/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c
 │                        │     │                  │        221c2e7f6 
-│                        │     │                  ├ [15] : https://github.com/NixOS/nixpkgs/pull/275249 
-│                        │     │                  ├ [16] : https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │     │                  ├ [19] : https://github.com/NixOS/nixpkgs/pull/275249 
+│                        │     │                  ├ [20] : https://github.com/PowerShell/Win32-OpenSSH/iss
 │                        │     │                  │        ues/2189 
-│                        │     │                  ├ [17] : https://github.com/PowerShell/Win32-OpenSSH/rel
+│                        │     │                  ├ [21] : https://github.com/PowerShell/Win32-OpenSSH/rel
 │                        │     │                  │        eases/tag/v9.5.0.0p1-Beta 
-│                        │     │                  ├ [18] : https://github.com/TeraTermProject/teraterm/com
+│                        │     │                  ├ [22] : https://github.com/TeraTermProject/teraterm/com
 │                        │     │                  │        mit/7279fbd6ef4d0c8bdd6a90af4ada2899d786eec0[
 │                        │     │                  │        m 
-│                        │     │                  ├ [19] : https://github.com/TeraTermProject/teraterm/rel
+│                        │     │                  ├ [23] : https://github.com/TeraTermProject/teraterm/rel
 │                        │     │                  │        eases/tag/v5.1 
-│                        │     │                  ├ [20] : https://github.com/advisories/GHSA-45x7-px36-x8w8 
-│                        │     │                  ├ [21] : https://github.com/apache/mina-sshd/issues/445 
-│                        │     │                  ├ [22] : https://github.com/connectbot/sshlib/commit/5c8
+│                        │     │                  ├ [24] : https://github.com/advisories/GHSA-45x7-px36-x8w8 
+│                        │     │                  ├ [25] : https://github.com/apache/mina-sshd/issues/445 
+│                        │     │                  ├ [26] : https://github.com/connectbot/sshlib/commit/5c8
 │                        │     │                  │        b534f6e97db7ac0e0e579331213aa25c173ab 
-│                        │     │                  ├ [23] : https://github.com/connectbot/sshlib/compare/2.
+│                        │     │                  ├ [27] : https://github.com/connectbot/sshlib/compare/2.
 │                        │     │                  │        2.21...2.2.22 
-│                        │     │                  ├ [24] : https://github.com/cyd01/KiTTY/issues/520 
-│                        │     │                  ├ [25] : https://github.com/drakkan/sftpgo/releases/tag/
+│                        │     │                  ├ [28] : https://github.com/cyd01/KiTTY/issues/520 
+│                        │     │                  ├ [29] : https://github.com/drakkan/sftpgo/releases/tag/
 │                        │     │                  │        v2.5.6 
-│                        │     │                  ├ [26] : https://github.com/erlang/otp/blob/d1b43dc0f136
+│                        │     │                  ├ [30] : https://github.com/erlang/otp/blob/d1b43dc0f136
 │                        │     │                  │        1d2ad67601169e90a7fc50bb0369/lib/ssh/doc/src/notes.x
 │                        │     │                  │        ml#L39-L42 
-│                        │     │                  ├ [27] : https://github.com/erlang/otp/releases/tag/OTP-
+│                        │     │                  ├ [31] : https://github.com/erlang/otp/releases/tag/OTP-
 │                        │     │                  │        26.2.1 
-│                        │     │                  ├ [28] : https://github.com/golang/crypto/commit/9d2ee97
+│                        │     │                  ├ [32] : https://github.com/golang/crypto/commit/9d2ee97
 │                        │     │                  │        5ef9fe627bf0a6f01c1f69e8ef1d4f05d 
-│                        │     │                  ├ [29] : https://github.com/hierynomus/sshj/issues/916 
-│                        │     │                  ├ [30] : https://github.com/janmojzis/tinyssh/issues/81 
-│                        │     │                  ├ [31] : https://github.com/jtesta/ssh-audit/commit/8e97
+│                        │     │                  ├ [33] : https://github.com/hierynomus/sshj/issues/916 
+│                        │     │                  ├ [34] : https://github.com/janmojzis/tinyssh/issues/81 
+│                        │     │                  ├ [35] : https://github.com/jtesta/ssh-audit/commit/8e97
 │                        │     │                  │        2c5e94b460379fe0c7d20209c16df81538a5 
-│                        │     │                  ├ [32] : https://github.com/libssh2/libssh2/pull/1291 
-│                        │     │                  ├ [33] : https://github.com/mkj/dropbear/blob/17657c36cc
+│                        │     │                  ├ [36] : https://github.com/libssh2/libssh2/pull/1291 
+│                        │     │                  ├ [37] : https://github.com/mkj/dropbear/blob/17657c36cc
 │                        │     │                  │        e6df7716d5ff151ec09a665382d5dd/CHANGES#L25 
-│                        │     │                  ├ [34] : https://github.com/mscdex/ssh2/commit/97b223f88
+│                        │     │                  ├ [38] : https://github.com/mscdex/ssh2/commit/97b223f88
 │                        │     │                  │        91b96d6fc054df5ab1d5a1a545da2a3 
-│                        │     │                  ├ [35] : https://github.com/mwiede/jsch/compare/jsch-0.2
+│                        │     │                  ├ [39] : https://github.com/mwiede/jsch/compare/jsch-0.2
 │                        │     │                  │        .14...jsch-0.2.15 
-│                        │     │                  ├ [36] : https://github.com/mwiede/jsch/issues/457 
-│                        │     │                  ├ [37] : https://github.com/mwiede/jsch/pull/461 
-│                        │     │                  ├ [38] : https://github.com/net-ssh/net-ssh/blob/2e65064
+│                        │     │                  ├ [40] : https://github.com/mwiede/jsch/issues/457 
+│                        │     │                  ├ [41] : https://github.com/mwiede/jsch/pull/461 
+│                        │     │                  ├ [42] : https://github.com/net-ssh/net-ssh/blob/2e65064
 │                        │     │                  │        a52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-L1
 │                        │     │                  │        6 
-│                        │     │                  ├ [39] : https://github.com/openssh/openssh-portable/com
+│                        │     │                  ├ [43] : https://github.com/openssh/openssh-portable/com
 │                        │     │                  │        mits/master 
-│                        │     │                  ├ [40] : https://github.com/paramiko/paramiko/issues/2337 
-│                        │     │                  ├ [41] : https://github.com/proftpd/proftpd/blob/0a7ea9b
+│                        │     │                  ├ [44] : https://github.com/paramiko/paramiko/issues/2337 
+│                        │     │                  ├ [45] : https://github.com/proftpd/proftpd/blob/0a7ea9b
 │                        │     │                  │        0ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES[
 │                        │     │                  │        m 
-│                        │     │                  ├ [42] : https://github.com/proftpd/proftpd/blob/d21e7a2
+│                        │     │                  ├ [46] : https://github.com/proftpd/proftpd/blob/d21e7a2
 │                        │     │                  │        e47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES[
 │                        │     │                  │        m 
-│                        │     │                  ├ [43] : https://github.com/proftpd/proftpd/blob/master/
+│                        │     │                  ├ [47] : https://github.com/proftpd/proftpd/blob/master/
 │                        │     │                  │        RELEASE_NOTES 
-│                        │     │                  ├ [44] : https://github.com/proftpd/proftpd/issues/456 
-│                        │     │                  ├ [45] : https://github.com/rapier1/hpn-ssh/releases 
-│                        │     │                  ├ [46] : https://github.com/ronf/asyncssh/blob/develop/d
+│                        │     │                  ├ [48] : https://github.com/proftpd/proftpd/issues/456 
+│                        │     │                  ├ [49] : https://github.com/rapier1/hpn-ssh/releases 
+│                        │     │                  ├ [50] : https://github.com/ronf/asyncssh/blob/develop/d
 │                        │     │                  │        ocs/changes.rst 
-│                        │     │                  ├ [47] : https://github.com/ronf/asyncssh/security/advis
+│                        │     │                  ├ [51] : https://github.com/ronf/asyncssh/security/advis
 │                        │     │                  │        ories/GHSA-hfmc-7525-mj55 
-│                        │     │                  ├ [48] : https://github.com/ronf/asyncssh/tags 
-│                        │     │                  ├ [49] : https://github.com/ssh-mitm/ssh-mitm/issues/165 
-│                        │     │                  ├ [50] : https://github.com/warp-tech/russh 
-│                        │     │                  ├ [51] : https://github.com/warp-tech/russh/commit/1aa34
+│                        │     │                  ├ [52] : https://github.com/ronf/asyncssh/tags 
+│                        │     │                  ├ [53] : https://github.com/ssh-mitm/ssh-mitm/issues/165 
+│                        │     │                  ├ [54] : https://github.com/warp-tech/russh 
+│                        │     │                  ├ [55] : https://github.com/warp-tech/russh/commit/1aa34
 │                        │     │                  │        0a7df1d5be1c0f4a9e247aade76dfdd2951 
-│                        │     │                  ├ [52] : https://github.com/warp-tech/russh/releases/tag
+│                        │     │                  ├ [56] : https://github.com/warp-tech/russh/releases/tag
 │                        │     │                  │        /v0.40.2 
-│                        │     │                  ├ [53] : https://github.com/warp-tech/russh/security/adv
+│                        │     │                  ├ [57] : https://github.com/warp-tech/russh/security/adv
 │                        │     │                  │        isories/GHSA-45x7-px36-x8w8 
-│                        │     │                  ├ [54] : https://gitlab.com/libssh/libssh-mirror/-/tags 
-│                        │     │                  ├ [55] : https://go.dev/cl/550715 
-│                        │     │                  ├ [56] : https://go.dev/issue/64784 
-│                        │     │                  ├ [57] : https://groups.google.com/g/golang-announce/c/-
+│                        │     │                  ├ [58] : https://gitlab.com/libssh/libssh-mirror/-/tags 
+│                        │     │                  ├ [59] : https://go.dev/cl/550715 
+│                        │     │                  ├ [60] : https://go.dev/issue/64784 
+│                        │     │                  ├ [61] : https://groups.google.com/g/golang-announce/c/-
 │                        │     │                  │        n5WqVC18LQ 
-│                        │     │                  ├ [58] : https://groups.google.com/g/golang-announce/c/q
+│                        │     │                  ├ [62] : https://groups.google.com/g/golang-announce/c/q
 │                        │     │                  │        A3XtxvMUyg 
-│                        │     │                  ├ [59] : https://help.panic.com/releasenotes/transmit5/ 
-│                        │     │                  ├ [60] : https://jadaptive.com/important-java-ssh-securi
+│                        │     │                  ├ [63] : https://help.panic.com/releasenotes/transmit5/ 
+│                        │     │                  ├ [64] : https://jadaptive.com/important-java-ssh-securi
 │                        │     │                  │        ty-update-new-ssh-vulnerability-discovered-cve-2023-
 │                        │     │                  │        48795/ 
-│                        │     │                  ├ [61] : https://lists.debian.org/debian-lts-announce/20
+│                        │     │                  ├ [65] : https://lists.debian.org/debian-lts-announce/20
 │                        │     │                  │        23/12/msg00017.html 
-│                        │     │                  ├ [62] : https://lists.debian.org/debian-lts-announce/20
+│                        │     │                  ├ [66] : https://lists.debian.org/debian-lts-announce/20
 │                        │     │                  │        24/01/msg00013.html 
-│                        │     │                  ├ [63] : https://lists.debian.org/debian-lts-announce/20
+│                        │     │                  ├ [67] : https://lists.debian.org/debian-lts-announce/20
 │                        │     │                  │        24/01/msg00014.html 
-│                        │     │                  ├ [64] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [68] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/33
 │                        │     │                  │        XHJUB6ROFUOH2OQNENFROTVH6MHSHA/ 
-│                        │     │                  ├ [65] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [69] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/3C
 │                        │     │                  │        AYYW35MUTNO65RVAELICTNZZFMT2XS/ 
-│                        │     │                  ├ [66] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [70] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/3J
 │                        │     │                  │        IMLVBDWOP4FUPXPTB4PGHHIOMGFLQE/ 
-│                        │     │                  ├ [67] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [71] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/3Y
 │                        │     │                  │        QLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/ 
-│                        │     │                  ├ [68] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [72] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/6Y
 │                        │     │                  │        74KVCPEPT4MVU3LHDWCNNOXOE5ZLUR/ 
-│                        │     │                  ├ [69] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [73] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/AP
 │                        │     │                  │        YIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/ 
-│                        │     │                  ├ [70] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [74] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/BL
 │                        │     │                  │        5KTLOSLH2KHRN4HCXJPK3JUVLDGEL6/ 
-│                        │     │                  ├ [71] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [75] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/C3
 │                        │     │                  │        AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/ 
-│                        │     │                  ├ [72] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [76] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/CH
 │                        │     │                  │        HITS4PUOZAKFIUBQAQZC7JWXMOYE4B/ 
-│                        │     │                  ├ [73] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [77] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/F7
 │                        │     │                  │        EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/ 
-│                        │     │                  ├ [74] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [78] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/HY
 │                        │     │                  │        EDEXIKFKTUJIN43RG4B7T5ZS6MHUSP/ 
-│                        │     │                  ├ [75] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [79] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/I7
 │                        │     │                  │        24O3LSRCPO4WNVIXTZCT4VVRMXMMSG/ 
-│                        │     │                  ├ [76] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [80] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/KE
 │                        │     │                  │        OTKBUPZXHE3F352JBYNTSNRXYLWD6P/ 
-│                        │     │                  ├ [77] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [81] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/KM
 │                        │     │                  │        ZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/ 
-│                        │     │                  ├ [78] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [82] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/L5
 │                        │     │                  │        Y6MNNVAPIJSXJERQ6PKZVCIUXSNJK7/ 
-│                        │     │                  ├ [79] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [83] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/LZ
 │                        │     │                  │        QVUHWVWRH73YBXUQJOD6CKHDQBU3DM/ 
-│                        │     │                  ├ [80] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [84] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/MK
 │                        │     │                  │        QRBF3DWMWPH36LBCOBUTSIZRTPEZXB/ 
-│                        │     │                  ├ [81] : https://lists.fedoraproject.org/archives/list/p
+│                        │     │                  ├ [85] : https://lists.fedoraproject.org/archives/list/p
 │                        │     │                  │        ackage-announce%40lists.fedoraproject.org/message/QI
 │                        │     │                  │        3EHAHABFQK7OABNCSF5GMYP6TONTI7/ 
-│                        │     │                  ├ [82] : https://matt.ucc.asn.au/dropbear/CHANGES 
-│                        │     │                  ├ [83] : https://nest.pijul.com/pijul/thrussh/changes/D6
+│                        │     │                  ├ [86] : https://matt.ucc.asn.au/dropbear/CHANGES 
+│                        │     │                  ├ [87] : https://nest.pijul.com/pijul/thrussh/changes/D6
 │                        │     │                  │        H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
 │                        │     │                  │        [m 
-│                        │     │                  ├ [84] : https://news.ycombinator.com/item?id=38684904 
-│                        │     │                  ├ [85] : https://news.ycombinator.com/item?id=38685286 
-│                        │     │                  ├ [86] : https://news.ycombinator.com/item?id=38732005 
-│                        │     │                  ├ [87] : https://nova.app/releases/#v11.8 
-│                        │     │                  ├ [88] : https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
-│                        │     │                  ├ [89] : https://oryx-embedded.com/download/#changelog 
-│                        │     │                  ├ [90] : https://psirt.global.sonicwall.com/vuln-detail/
+│                        │     │                  ├ [88] : https://news.ycombinator.com/item?id=38684904 
+│                        │     │                  ├ [89] : https://news.ycombinator.com/item?id=38685286 
+│                        │     │                  ├ [90] : https://news.ycombinator.com/item?id=38732005 
+│                        │     │                  ├ [91] : https://nova.app/releases/#v11.8 
+│                        │     │                  ├ [92] : https://nvd.nist.gov/vuln/detail/CVE-2023-48795 
+│                        │     │                  ├ [93] : https://oryx-embedded.com/download/#changelog 
+│                        │     │                  ├ [94] : https://psirt.global.sonicwall.com/vuln-detail/
 │                        │     │                  │        SNWLID-2024-0002 
-│                        │     │                  ├ [91] : https://roumenpetrov.info/secsh/#news20231220 
-│                        │     │                  ├ [92] : https://security-tracker.debian.org/tracker/CVE
+│                        │     │                  ├ [95] : https://roumenpetrov.info/secsh/#news20231220 
+│                        │     │                  ├ [96] : https://security-tracker.debian.org/tracker/CVE
 │                        │     │                  │        -2023-48795 
-│                        │     │                  ├ [93] : https://security-tracker.debian.org/tracker/sou
+│                        │     │                  ├ [97] : https://security-tracker.debian.org/tracker/sou
 │                        │     │                  │        rce-package/libssh2 
-│                        │     │                  ├ [94] : https://security-tracker.debian.org/tracker/sou
+│                        │     │                  ├ [98] : https://security-tracker.debian.org/tracker/sou
 │                        │     │                  │        rce-package/proftpd-dfsg 
-│                        │     │                  ├ [95] : https://security-tracker.debian.org/tracker/sou
+│                        │     │                  ├ [99] : https://security-tracker.debian.org/tracker/sou
 │                        │     │                  │        rce-package/trilead-ssh2 
-│                        │     │                  ├ [96] : https://security.gentoo.org/glsa/202312-16 
-│                        │     │                  ├ [97] : https://security.gentoo.org/glsa/202312-17 
-│                        │     │                  ├ [98] : https://security.netapp.com/advisory/ntap-20240
+│                        │     │                  ├ [100]: https://security.gentoo.org/glsa/202312-16 
+│                        │     │                  ├ [101]: https://security.gentoo.org/glsa/202312-17 
+│                        │     │                  ├ [102]: https://security.netapp.com/advisory/ntap-20240
 │                        │     │                  │        105-0004/ 
-│                        │     │                  ├ [99] : https://terrapin-attack.com/ 
-│                        │     │                  ├ [100]: https://thorntech.com/cve-2023-48795-and-sftp-g
+│                        │     │                  ├ [103]: https://terrapin-attack.com/ 
+│                        │     │                  ├ [104]: https://thorntech.com/cve-2023-48795-and-sftp-g
 │                        │     │                  │        ateway/ 
-│                        │     │                  ├ [101]: https://twitter.com/TrueSkrillor/status/1736774
+│                        │     │                  ├ [105]: https://twitter.com/TrueSkrillor/status/1736774
 │                        │     │                  │        389725565005 
-│                        │     │                  ├ [102]: https://ubuntu.com/security/CVE-2023-48795 
-│                        │     │                  ├ [103]: https://ubuntu.com/security/notices/USN-6560-1 
-│                        │     │                  ├ [104]: https://ubuntu.com/security/notices/USN-6560-2 
-│                        │     │                  ├ [105]: https://ubuntu.com/security/notices/USN-6561-1 
-│                        │     │                  ├ [106]: https://ubuntu.com/security/notices/USN-6585-1 
-│                        │     │                  ├ [107]: https://ubuntu.com/security/notices/USN-6589-1 
-│                        │     │                  ├ [108]: https://ubuntu.com/security/notices/USN-6598-1 
-│                        │     │                  ├ [109]: https://winscp.net/eng/docs/history#6.2.2 
-│                        │     │                  ├ [110]: https://www.bitvise.com/ssh-client-version-hist
+│                        │     │                  ├ [106]: https://ubuntu.com/security/CVE-2023-48795 
+│                        │     │                  ├ [107]: https://ubuntu.com/security/notices/USN-6560-1 
+│                        │     │                  ├ [108]: https://ubuntu.com/security/notices/USN-6560-2 
+│                        │     │                  ├ [109]: https://ubuntu.com/security/notices/USN-6561-1 
+│                        │     │                  ├ [110]: https://ubuntu.com/security/notices/USN-6585-1 
+│                        │     │                  ├ [111]: https://ubuntu.com/security/notices/USN-6589-1 
+│                        │     │                  ├ [112]: https://ubuntu.com/security/notices/USN-6598-1 
+│                        │     │                  ├ [113]: https://winscp.net/eng/docs/history#6.2.2 
+│                        │     │                  ├ [114]: https://www.bitvise.com/ssh-client-version-hist
 │                        │     │                  │        ory#933 
-│                        │     │                  ├ [111]: https://www.bitvise.com/ssh-server-version-history 
-│                        │     │                  ├ [112]: https://www.chiark.greenend.org.uk/~sgtatham/pu
+│                        │     │                  ├ [115]: https://www.bitvise.com/ssh-server-version-history 
+│                        │     │                  ├ [116]: https://www.chiark.greenend.org.uk/~sgtatham/pu
 │                        │     │                  │        tty/changes.html 
-│                        │     │                  ├ [113]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
+│                        │     │                  ├ [117]: https://www.crushftp.com/crush10wiki/Wiki.jsp?p
 │                        │     │                  │        age=Update 
-│                        │     │                  ├ [114]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
-│                        │     │                  ├ [115]: https://www.debian.org/security/2023/dsa-5586 
-│                        │     │                  ├ [116]: https://www.debian.org/security/2023/dsa-5588 
-│                        │     │                  ├ [117]: https://www.freebsd.org/security/advisories/Fre
+│                        │     │                  ├ [118]: https://www.cve.org/CVERecord?id=CVE-2023-48795 
+│                        │     │                  ├ [119]: https://www.debian.org/security/2023/dsa-5586 
+│                        │     │                  ├ [120]: https://www.debian.org/security/2023/dsa-5588 
+│                        │     │                  ├ [121]: https://www.freebsd.org/security/advisories/Fre
 │                        │     │                  │        eBSD-SA-23:19.openssh.asc 
-│                        │     │                  ├ [118]: https://www.lancom-systems.de/service-support/a
+│                        │     │                  ├ [122]: https://www.lancom-systems.de/service-support/a
 │                        │     │                  │        llgemeine-sicherheitshinweise#c243508 
-│                        │     │                  ├ [119]: https://www.netsarang.com/en/xshell-update-history/ 
-│                        │     │                  ├ [120]: https://www.openssh.com/openbsd.html 
-│                        │     │                  ├ [121]: https://www.openssh.com/txt/release-9.6 
-│                        │     │                  ├ [122]: https://www.openwall.com/lists/oss-security/202
+│                        │     │                  ├ [123]: https://www.netsarang.com/en/xshell-update-history/ 
+│                        │     │                  ├ [124]: https://www.openssh.com/openbsd.html 
+│                        │     │                  ├ [125]: https://www.openssh.com/txt/release-9.6 
+│                        │     │                  ├ [126]: https://www.openwall.com/lists/oss-security/202
 │                        │     │                  │        3/12/18/2 
-│                        │     │                  ├ [123]: https://www.openwall.com/lists/oss-security/202
+│                        │     │                  ├ [127]: https://www.openwall.com/lists/oss-security/202
 │                        │     │                  │        3/12/18/3 
-│                        │     │                  ├ [124]: https://www.openwall.com/lists/oss-security/202
+│                        │     │                  ├ [128]: https://www.openwall.com/lists/oss-security/202
 │                        │     │                  │        3/12/20/3 
-│                        │     │                  ├ [125]: https://www.paramiko.org/changelog.html 
-│                        │     │                  ├ [126]: https://www.reddit.com/r/sysadmin/comments/18id
+│                        │     │                  ├ [129]: https://www.paramiko.org/changelog.html 
+│                        │     │                  ├ [130]: https://www.reddit.com/r/sysadmin/comments/18id
 │                        │     │                  │        v52/cve202348795_why_is_this_cve_still_undisclosed/
 │                        │     │                  │        [m 
-│                        │     │                  ├ [127]: https://www.suse.com/c/suse-addresses-the-ssh-v
+│                        │     │                  ├ [131]: https://www.suse.com/c/suse-addresses-the-ssh-v
 │                        │     │                  │        2-protocol-terrapin-attack-aka-cve-2023-48795/
 │                        │     │                  │         
-│                        │     │                  ├ [128]: https://www.terrapin-attack.com 
-│                        │     │                  ├ [129]: https://www.theregister.com/2023/12/20/terrapin
+│                        │     │                  ├ [132]: https://www.terrapin-attack.com 
+│                        │     │                  ├ [133]: https://www.theregister.com/2023/12/20/terrapin
 │                        │     │                  │        _attack_ssh 
-│                        │     │                  ╰ [130]: https://www.vandyke.com/products/securecrt/hist
+│                        │     │                  ╰ [134]: https://www.vandyke.com/products/securecrt/hist
 │                        │     │                           ory.txt 
 │                        │     ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
 │                        │     ╰ LastModifiedDate: 2024-01-29T09:15:42.687Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2023-39325 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2023-39325 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: v0.10.0 
 │                        │     ├ FixedVersion    : 0.17.0 
@@ -6384,7 +6453,7 @@
 │                        │     │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │     ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │     ╰ LastModifiedDate: 2024-01-21T02:02:56.727Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2023-3978 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2023-3978 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ InstalledVersion: v0.10.0 
 │                        │     ├ FixedVersion    : 0.13.0 
@@ -6446,7 +6515,7 @@
 │                        │     │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                        │     ├ PublishedDate   : 2023-08-02T20:15:12.097Z 
 │                        │     ╰ LastModifiedDate: 2023-11-07T04:20:03.647Z 
-│                        ╰ [5] ╭ VulnerabilityID : CVE-2023-44487 
+│                        ╰ [6] ╭ VulnerabilityID : CVE-2023-44487 
 │                              ├ PkgName         : golang.org/x/net 
 │                              ├ InstalledVersion: v0.10.0 
 │                              ├ FixedVersion    : 0.17.0 
@@ -6854,7 +6923,236 @@
 │                              │                           pid_reset_zeroday/ 
 │                              ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                              ╰ LastModifiedDate: 2023-12-20T17:55:36.74Z 
-├ [8]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [8]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4f
+│                                  │            dc09da78e194f 
+│                                  ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1
+│                                  │            61096c0780715 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4f
+│                                  │            dc09da78e194f 
+│                                  ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1
+│                                  │            61096c0780715 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -6962,118 +7260,7 @@
 │                                  ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1
 │                                  │            61096c0780715 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4f
-│                                  │            dc09da78e194f 
-│                                  ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1
-│                                  │            61096c0780715 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4f
-│                                  │            dc09da78e194f 
-│                                  ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1
-│                                  │            61096c0780715 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -7092,53 +7279,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
-                       │                   │     │              KEY----- 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRIVATE KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
@@ -7152,53 +7294,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
-                       │                   │     │              KEY----- 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRIVATE KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -7215,35 +7312,7 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            **-----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4f
                                    │            dc09da78e194f 
                                    ├ DiffID   : sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc1
