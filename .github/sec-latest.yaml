@@ -5,6 +5,8 @@
   - VulnerabilityID: CVE-2016-1585
     PkgID: apparmor@3.0.4-2ubuntu2.3
     PkgName: apparmor
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/apparmor@3.0.4-2ubuntu2.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.4-2ubuntu2.3
     Status: affected
     Layer:
@@ -44,6 +46,8 @@
   - VulnerabilityID: CVE-2022-3715
     PkgID: bash@5.1-6ubuntu1
     PkgName: bash
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bash@5.1-6ubuntu1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 5.1-6ubuntu1
     Status: affected
     Layer:
@@ -94,6 +98,8 @@
   - VulnerabilityID: CVE-2016-2781
     PkgID: coreutils@8.32-4.1ubuntu1
     PkgName: coreutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/coreutils@8.32-4.1ubuntu1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 8.32-4.1ubuntu1
     Status: affected
     Layer:
@@ -141,6 +147,8 @@
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus@1.12.20-2ubuntu4.1
     PkgName: dbus
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dbus@1.12.20-2ubuntu4.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
@@ -172,12 +180,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -193,6 +201,8 @@
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus-user-session@1.12.20-2ubuntu4.1
     PkgName: dbus-user-session
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dbus-user-session@1.12.20-2ubuntu4.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
@@ -224,12 +234,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -245,6 +255,8 @@
   - VulnerabilityID: CVE-2022-3219
     PkgID: dirmngr@2.2.27-3ubuntu2.1
     PkgName: dirmngr
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dirmngr@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -287,6 +299,8 @@
   - VulnerabilityID: CVE-2022-27943
     PkgID: gcc-12-base@12.3.0-1ubuntu1~22.04
     PkgName: gcc-12-base
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
@@ -334,6 +348,8 @@
   - VulnerabilityID: CVE-2018-1000021
     PkgID: git@1:2.34.1-1ubuntu1.10
     PkgName: git
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64&distro=ubuntu-22.04&epoch=1
     InstalledVersion: 1:2.34.1-1ubuntu1.10
     Status: affected
     Layer:
@@ -375,6 +391,8 @@
   - VulnerabilityID: CVE-2018-1000021
     PkgID: git-man@1:2.34.1-1ubuntu1.10
     PkgName: git-man
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=all&distro=ubuntu-22.04&epoch=1
     InstalledVersion: 1:2.34.1-1ubuntu1.10
     Status: affected
     Layer:
@@ -416,6 +434,8 @@
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg@2.2.27-3ubuntu2.1
     PkgName: gnupg
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gnupg@2.2.27-3ubuntu2.1?arch=all&distro=ubuntu-22.04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -458,6 +478,8 @@
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg-l10n@2.2.27-3ubuntu2.1
     PkgName: gnupg-l10n
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gnupg-l10n@2.2.27-3ubuntu2.1?arch=all&distro=ubuntu-22.04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -500,6 +522,8 @@
   - VulnerabilityID: CVE-2022-3219
     PkgID: gnupg-utils@2.2.27-3ubuntu2.1
     PkgName: gnupg-utils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gnupg-utils@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -542,6 +566,8 @@
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg@2.2.27-3ubuntu2.1
     PkgName: gpg
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpg@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -584,6 +610,8 @@
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-agent@2.2.27-3ubuntu2.1
     PkgName: gpg-agent
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpg-agent@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -626,6 +654,8 @@
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-wks-client@2.2.27-3ubuntu2.1
     PkgName: gpg-wks-client
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpg-wks-client@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -668,6 +698,8 @@
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpg-wks-server@2.2.27-3ubuntu2.1
     PkgName: gpg-wks-server
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpg-wks-server@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -710,6 +742,8 @@
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgconf@2.2.27-3ubuntu2.1
     PkgName: gpgconf
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpgconf@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -752,6 +786,8 @@
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgsm@2.2.27-3ubuntu2.1
     PkgName: gpgsm
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpgsm@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -794,6 +830,8 @@
   - VulnerabilityID: CVE-2022-3219
     PkgID: gpgv@2.2.27-3ubuntu2.1
     PkgName: gpgv
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/gpgv@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -836,6 +874,8 @@
   - VulnerabilityID: CVE-2016-1585
     PkgID: libapparmor1@3.0.4-2ubuntu2.3
     PkgName: libapparmor1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libapparmor1@3.0.4-2ubuntu2.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.4-2ubuntu2.3
     Status: affected
     Layer:
@@ -875,6 +915,8 @@
   - VulnerabilityID: CVE-2022-27943
     PkgID: libatomic1@12.3.0-1ubuntu1~22.04
     PkgName: libatomic1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
@@ -922,6 +964,8 @@
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.6
     PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.6?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.35-0ubuntu3.6
     Status: affected
     Layer:
@@ -956,6 +1000,8 @@
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.6
     PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.6?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.35-0ubuntu3.6
     Status: affected
     Layer:
@@ -990,6 +1036,8 @@
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
     PkgName: libdbus-1-3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libdbus-1-3@1.12.20-2ubuntu4.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
@@ -1021,12 +1069,12 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 6.2
     References:
-    - https://access.redhat.com/errata/RHSA-2023:4569
+    - https://access.redhat.com/errata/RHSA-2023:4498
     - https://access.redhat.com/security/cve/CVE-2023-34969
     - https://bugzilla.redhat.com/2213166
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
-    - https://errata.almalinux.org/9/ALSA-2023-4569.html
+    - https://errata.almalinux.org/8/ALSA-2023-4498.html
     - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
@@ -1042,6 +1090,8 @@
   - VulnerabilityID: CVE-2022-27943
     PkgID: libgcc-s1@12.3.0-1ubuntu1~22.04
     PkgName: libgcc-s1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
@@ -1089,6 +1139,8 @@
   - VulnerabilityID: CVE-2021-40812
     PkgID: libgd3@2.3.0-2ubuntu2
     PkgName: libgd3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgd3@2.3.0-2ubuntu2?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.3.0-2ubuntu2
     Status: affected
     Layer:
@@ -1127,6 +1179,8 @@
   - VulnerabilityID: CVE-2024-0553
     PkgID: libgnutls30@3.7.3-4ubuntu1.3
     PkgName: libgnutls30
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30@3.7.3-4ubuntu1.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.7.3-4ubuntu1.3
     FixedVersion: 3.7.3-4ubuntu1.4
     Status: fixed
@@ -1161,12 +1215,10 @@
     - https://access.redhat.com/errata/RHSA-2024:0533
     - https://access.redhat.com/errata/RHSA-2024:0627
     - https://access.redhat.com/security/cve/CVE-2024-0553
-    - https://bugzilla.redhat.com/2248445
     - https://bugzilla.redhat.com/2258412
-    - https://bugzilla.redhat.com/2258544
     - https://bugzilla.redhat.com/show_bug.cgi?id=2258412
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0553
-    - https://errata.almalinux.org/9/ALSA-2024-0533.html
+    - https://errata.almalinux.org/8/ALSA-2024-0627.html
     - https://gitlab.com/gnutls/gnutls/-/issues/1522
     - https://gnutls.org/security-new.html#GNUTLS-SA-2024-01-14
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GNXKVR5YNUEBNHAHM5GSYKBZX4W2HMN2/
@@ -1179,6 +1231,8 @@
   - VulnerabilityID: CVE-2024-0567
     PkgID: libgnutls30@3.7.3-4ubuntu1.3
     PkgName: libgnutls30
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30@3.7.3-4ubuntu1.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.7.3-4ubuntu1.3
     FixedVersion: 3.7.3-4ubuntu1.4
     Status: fixed
@@ -1230,6 +1284,8 @@
   - VulnerabilityID: CVE-2023-2953
     PkgID: libldap-2.5-0@2.5.16+dfsg-0ubuntu0.22.04.1
     PkgName: libldap-2.5-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libldap-2.5-0@2.5.16%2Bdfsg-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 2.5.16+dfsg-0ubuntu0.22.04.1
     FixedVersion: 2.5.16+dfsg-0ubuntu0.22.04.2
     Status: fixed
@@ -1284,6 +1340,8 @@
   - VulnerabilityID: CVE-2020-22916
     PkgID: liblzma5@5.2.5-2ubuntu1
     PkgName: liblzma5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/liblzma5@5.2.5-2ubuntu1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 5.2.5-2ubuntu1
     Status: affected
     Layer:
@@ -1326,6 +1384,8 @@
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.11
     PkgName: libnss-systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.11?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 249.11-0ubuntu3.11
     Status: affected
     Layer:
@@ -1343,7 +1403,6 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
-      cbl-mariner: 2
       nvd: 2
       redhat: 2
       ubuntu: 1
@@ -1369,6 +1428,8 @@
   - VulnerabilityID: CVE-2024-22365
     PkgID: libpam-modules@1.4.0-11ubuntu2.3
     PkgName: libpam-modules
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules@1.4.0-11ubuntu2.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 1.4.0-11ubuntu2.3
     FixedVersion: 1.4.0-11ubuntu2.4
     Status: fixed
@@ -1401,6 +1462,8 @@
   - VulnerabilityID: CVE-2024-22365
     PkgID: libpam-modules-bin@1.4.0-11ubuntu2.3
     PkgName: libpam-modules-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-modules-bin@1.4.0-11ubuntu2.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 1.4.0-11ubuntu2.3
     FixedVersion: 1.4.0-11ubuntu2.4
     Status: fixed
@@ -1433,6 +1496,8 @@
   - VulnerabilityID: CVE-2024-22365
     PkgID: libpam-runtime@1.4.0-11ubuntu2.3
     PkgName: libpam-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-runtime@1.4.0-11ubuntu2.3?arch=all&distro=ubuntu-22.04
     InstalledVersion: 1.4.0-11ubuntu2.3
     FixedVersion: 1.4.0-11ubuntu2.4
     Status: fixed
@@ -1465,6 +1530,8 @@
   - VulnerabilityID: CVE-2023-7008
     PkgID: libpam-systemd@249.11-0ubuntu3.11
     PkgName: libpam-systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.11?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 249.11-0ubuntu3.11
     Status: affected
     Layer:
@@ -1482,7 +1549,6 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
-      cbl-mariner: 2
       nvd: 2
       redhat: 2
       ubuntu: 1
@@ -1508,6 +1574,8 @@
   - VulnerabilityID: CVE-2024-22365
     PkgID: libpam0g@1.4.0-11ubuntu2.3
     PkgName: libpam0g
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpam0g@1.4.0-11ubuntu2.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 1.4.0-11ubuntu2.3
     FixedVersion: 1.4.0-11ubuntu2.4
     Status: fixed
@@ -1540,6 +1608,8 @@
   - VulnerabilityID: CVE-2017-11164
     PkgID: libpcre3@2:8.39-13ubuntu0.22.04.1
     PkgName: libpcre3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=2
     InstalledVersion: 2:8.39-13ubuntu0.22.04.1
     Status: affected
     Layer:
@@ -1585,6 +1655,8 @@
   - VulnerabilityID: CVE-2022-3857
     PkgID: libpng16-16@1.6.37-3build5
     PkgName: libpng16-16
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpng16-16@1.6.37-3build5?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 1.6.37-3build5
     Status: affected
     Layer:
@@ -1625,6 +1697,8 @@
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10@3.10.12-1~22.04.3
     PkgName: libpython3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
@@ -1664,12 +1738,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:0466
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-0466.html
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -1701,6 +1775,8 @@
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.3
     PkgName: libpython3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
@@ -1740,12 +1816,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:0466
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-0466.html
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -1777,6 +1853,8 @@
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.3
     PkgName: libpython3.10-stdlib
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
@@ -1816,12 +1894,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:0466
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-0466.html
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -1853,6 +1931,8 @@
   - VulnerabilityID: CVE-2023-6004
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.2
     PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.9.6-2ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 0.9.6-2ubuntu0.22.04.2
     FixedVersion: 0.9.6-2ubuntu0.22.04.3
     Status: fixed
@@ -1896,6 +1976,8 @@
   - VulnerabilityID: CVE-2023-6918
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.2
     PkgName: libssh-4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssh-4@0.9.6-2ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 0.9.6-2ubuntu0.22.04.2
     FixedVersion: 0.9.6-2ubuntu0.22.04.3
     Status: fixed
@@ -1939,9 +2021,101 @@
     - https://www.libssh.org/security/advisories/CVE-2023-6918.txt
     PublishedDate: '2023-12-19T00:15:08.46Z'
     LastModifiedDate: '2024-01-10T16:14:07.393Z'
+  - VulnerabilityID: CVE-2023-5678
+    PkgID: libssl3@3.0.2-0ubuntu1.12
+    PkgName: libssl3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 3.0.2-0ubuntu1.12
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5678
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Generating excessively long X9.42 DH keys or checking excessively long X9.42 DH keys or parameters may be very slow'
+    Description: |+
+      Issue summary: Generating excessively long X9.42 DH keys or checking
+      excessively long X9.42 DH keys or parameters may be very slow.
+
+      Impact summary: Applications that use the functions DH_generate_key() to
+      generate an X9.42 DH key may experience long delays.  Likewise, applications
+      that use DH_check_pub_key(), DH_check_pub_key_ex() or EVP_PKEY_public_check()
+      to check an X9.42 DH key or X9.42 DH parameters may experience long delays.
+      Where the key or parameters that are being checked have been obtained from
+      an untrusted source this may lead to a Denial of Service.
+
+      While DH_check() performs all the necessary checks (as of CVE-2023-3817),
+      DH_check_pub_key() doesn't make any of these checks, and is therefore
+      vulnerable for excessively large P and Q parameters.
+
+      Likewise, while DH_generate_key() performs a check for an excessively large
+      P, it doesn't check for an excessively large Q.
+
+      An application that calls DH_generate_key() or DH_check_pub_key() and
+      supplies a key or parameters obtained from an untrusted source could be
+      vulnerable to a Denial of Service attack.
+
+      DH_generate_key() and DH_check_pub_key() are also called by a number of
+      other OpenSSL functions.  An application calling any of those other
+      functions may similarly be affected.  The other functions affected by this
+      are DH_check_pub_key_ex(), EVP_PKEY_public_check(), and EVP_PKEY_generate().
+
+      Also vulnerable are the OpenSSL pkey command line application when using the
+      "-pubcheck" option, as well as the OpenSSL genpkey command line application.
+
+      The OpenSSL SSL/TLS implementation is not affected by this issue.
+
+      The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.
+
+    Severity: LOW
+    CweIDs:
+    - CWE-754
+    VendorSeverity:
+      alma: 1
+      amazon: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:7877
+    - https://access.redhat.com/security/cve/CVE-2023-5678
+    - https://bugzilla.redhat.com/2224962
+    - https://bugzilla.redhat.com/2227852
+    - https://bugzilla.redhat.com/2248616
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5678
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6
+    - https://linux.oracle.com/cve/CVE-2023-5678.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5678
+    - https://security.netapp.com/advisory/ntap-20231130-0010/
+    - https://www.cve.org/CVERecord?id=CVE-2023-5678
+    - https://www.openssl.org/news/secadv/20231106.txt
+    PublishedDate: '2023-11-06T16:15:42.67Z'
+    LastModifiedDate: '2023-11-30T22:15:09.723Z'
   - VulnerabilityID: CVE-2023-6129
     PkgID: libssl3@3.0.2-0ubuntu1.12
     PkgName: libssl3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
     Status: affected
     Layer:
@@ -2015,6 +2189,8 @@
   - VulnerabilityID: CVE-2023-6237
     PkgID: libssl3@3.0.2-0ubuntu1.12
     PkgName: libssl3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
     Status: affected
     Layer:
@@ -2043,9 +2219,72 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-6237
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
+  - VulnerabilityID: CVE-2024-0727
+    PkgID: libssl3@3.0.2-0ubuntu1.12
+    PkgName: libssl3
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 3.0.2-0ubuntu1.12
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0727
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: denial of service via null dereference'
+    Description: |-
+      Issue summary: Processing a maliciously formatted PKCS12 file may lead OpenSSL
+      to crash leading to a potential Denial of Service attack
+
+      Impact summary: Applications loading files in the PKCS12 format from untrusted
+      sources might terminate abruptly.
+
+      A file in PKCS12 format can contain certificates and keys and may come from an
+      untrusted source. The PKCS12 specification allows certain fields to be NULL, but
+      OpenSSL does not correctly check for this case. This can lead to a NULL pointer
+      dereference that results in OpenSSL crashing. If an application processes PKCS12
+      files from an untrusted source using the OpenSSL APIs then that application will
+      be vulnerable to this issue.
+
+      OpenSSL APIs that are vulnerable to this are: PKCS12_parse(),
+      PKCS12_unpack_p7data(), PKCS12_unpack_p7encdata(), PKCS12_unpack_authsafes()
+      and PKCS12_newpass().
+
+      We have also fixed a similar issue in SMIME_write_PKCS7(). However since this
+      function is related to writing data we do not consider it security significant.
+
+      The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-0727
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0727
+    - https://github.com/openssl/openssl/commit/09df4395b5071217b76dc7d3d2e630eb8c5a79c2
+    - https://github.com/openssl/openssl/commit/775acfdbd0c6af9ac855f34969cdab0c0c90844a
+    - https://github.com/openssl/openssl/commit/d135eeab8a5dbf72b3da5240bab9ddb7678dbd2c
+    - https://github.com/openssl/openssl/pull/23362
+    - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
+    - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://www.cve.org/CVERecord?id=CVE-2024-0727
+    - https://www.openssl.org/news/secadv/20240125.txt
+    PublishedDate: '2024-01-26T09:15:07.637Z'
+    LastModifiedDate: '2024-01-26T13:51:45.267Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
@@ -2093,6 +2332,8 @@
   - VulnerabilityID: CVE-2023-7008
     PkgID: libsystemd0@249.11-0ubuntu3.11
     PkgName: libsystemd0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.11?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 249.11-0ubuntu3.11
     Status: affected
     Layer:
@@ -2110,7 +2351,6 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
-      cbl-mariner: 2
       nvd: 2
       redhat: 2
       ubuntu: 1
@@ -2136,6 +2376,8 @@
   - VulnerabilityID: CVE-2018-10126
     PkgID: libtiff5@4.3.0-6ubuntu0.7
     PkgName: libtiff5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.7?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 4.3.0-6ubuntu0.7
     Status: affected
     Layer:
@@ -2178,6 +2420,8 @@
   - VulnerabilityID: CVE-2023-3164
     PkgID: libtiff5@4.3.0-6ubuntu0.7
     PkgName: libtiff5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.7?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 4.3.0-6ubuntu0.7
     Status: affected
     Layer:
@@ -2219,6 +2463,8 @@
   - VulnerabilityID: CVE-2023-6228
     PkgID: libtiff5@4.3.0-6ubuntu0.7
     PkgName: libtiff5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.7?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 4.3.0-6ubuntu0.7
     Status: affected
     Layer:
@@ -2257,6 +2503,8 @@
   - VulnerabilityID: CVE-2023-6277
     PkgID: libtiff5@4.3.0-6ubuntu0.7
     PkgName: libtiff5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.7?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 4.3.0-6ubuntu0.7
     Status: affected
     Layer:
@@ -2302,6 +2550,8 @@
   - VulnerabilityID: CVE-2023-7008
     PkgID: libudev1@249.11-0ubuntu3.11
     PkgName: libudev1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.11?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 249.11-0ubuntu3.11
     Status: affected
     Layer:
@@ -2319,7 +2569,6 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
-      cbl-mariner: 2
       nvd: 2
       redhat: 2
       ubuntu: 1
@@ -2345,6 +2594,8 @@
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 1.4.8+dfsg-3build1
     Status: affected
     Layer:
@@ -2400,6 +2651,8 @@
   - VulnerabilityID: CVE-2023-29383
     PkgID: login@1:4.8.1-2ubuntu2.1
     PkgName: login
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.1?arch=amd64&distro=ubuntu-22.04&epoch=1
     InstalledVersion: 1:4.8.1-2ubuntu2.1
     Status: affected
     Layer:
@@ -2442,6 +2695,8 @@
   - VulnerabilityID: CVE-2023-51767
     PkgID: openssh-client@1:8.9p1-3ubuntu0.6
     PkgName: openssh-client
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssh-client@8.9p1-3ubuntu0.6?arch=amd64&distro=ubuntu-22.04&epoch=1
     InstalledVersion: 1:8.9p1-3ubuntu0.6
     Status: affected
     Layer:
@@ -2483,6 +2738,8 @@
   - VulnerabilityID: CVE-2023-51767
     PkgID: openssh-server@1:8.9p1-3ubuntu0.6
     PkgName: openssh-server
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssh-server@8.9p1-3ubuntu0.6?arch=amd64&distro=ubuntu-22.04&epoch=1
     InstalledVersion: 1:8.9p1-3ubuntu0.6
     Status: affected
     Layer:
@@ -2524,6 +2781,8 @@
   - VulnerabilityID: CVE-2023-51767
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.6
     PkgName: openssh-sftp-server
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssh-sftp-server@8.9p1-3ubuntu0.6?arch=amd64&distro=ubuntu-22.04&epoch=1
     InstalledVersion: 1:8.9p1-3ubuntu0.6
     Status: affected
     Layer:
@@ -2562,9 +2821,101 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-51767
     PublishedDate: '2023-12-24T07:15:07.41Z'
     LastModifiedDate: '2024-01-29T20:00:11.703Z'
+  - VulnerabilityID: CVE-2023-5678
+    PkgID: openssl@3.0.2-0ubuntu1.12
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 3.0.2-0ubuntu1.12
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5678
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: Generating excessively long X9.42 DH keys or checking excessively long X9.42 DH keys or parameters may be very slow'
+    Description: |+
+      Issue summary: Generating excessively long X9.42 DH keys or checking
+      excessively long X9.42 DH keys or parameters may be very slow.
+
+      Impact summary: Applications that use the functions DH_generate_key() to
+      generate an X9.42 DH key may experience long delays.  Likewise, applications
+      that use DH_check_pub_key(), DH_check_pub_key_ex() or EVP_PKEY_public_check()
+      to check an X9.42 DH key or X9.42 DH parameters may experience long delays.
+      Where the key or parameters that are being checked have been obtained from
+      an untrusted source this may lead to a Denial of Service.
+
+      While DH_check() performs all the necessary checks (as of CVE-2023-3817),
+      DH_check_pub_key() doesn't make any of these checks, and is therefore
+      vulnerable for excessively large P and Q parameters.
+
+      Likewise, while DH_generate_key() performs a check for an excessively large
+      P, it doesn't check for an excessively large Q.
+
+      An application that calls DH_generate_key() or DH_check_pub_key() and
+      supplies a key or parameters obtained from an untrusted source could be
+      vulnerable to a Denial of Service attack.
+
+      DH_generate_key() and DH_check_pub_key() are also called by a number of
+      other OpenSSL functions.  An application calling any of those other
+      functions may similarly be affected.  The other functions affected by this
+      are DH_check_pub_key_ex(), EVP_PKEY_public_check(), and EVP_PKEY_generate().
+
+      Also vulnerable are the OpenSSL pkey command line application when using the
+      "-pubcheck" option, as well as the OpenSSL genpkey command line application.
+
+      The OpenSSL SSL/TLS implementation is not affected by this issue.
+
+      The OpenSSL 3.0 and 3.1 FIPS providers are not affected by this issue.
+
+    Severity: LOW
+    CweIDs:
+    - CWE-754
+    VendorSeverity:
+      alma: 1
+      amazon: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:7877
+    - https://access.redhat.com/security/cve/CVE-2023-5678
+    - https://bugzilla.redhat.com/2224962
+    - https://bugzilla.redhat.com/2227852
+    - https://bugzilla.redhat.com/2248616
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5678
+    - https://errata.almalinux.org/8/ALSA-2023-7877.html
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=34efaef6c103d636ab507a0cc34dca4d3aecc055
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=710fee740904b6290fef0dd5536fbcedbc38ff0c
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=db925ae2e65d0d925adef429afc37f75bd1c2017
+    - https://git.openssl.org/gitweb/?p=openssl.git;a=commitdiff;h=ddeb4b6c6d527e54ce9a99cba785c0f7776e54b6
+    - https://linux.oracle.com/cve/CVE-2023-5678.html
+    - https://linux.oracle.com/errata/ELSA-2024-12056.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5678
+    - https://security.netapp.com/advisory/ntap-20231130-0010/
+    - https://www.cve.org/CVERecord?id=CVE-2023-5678
+    - https://www.openssl.org/news/secadv/20231106.txt
+    PublishedDate: '2023-11-06T16:15:42.67Z'
+    LastModifiedDate: '2023-11-30T22:15:09.723Z'
   - VulnerabilityID: CVE-2023-6129
     PkgID: openssl@3.0.2-0ubuntu1.12
     PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
     Status: affected
     Layer:
@@ -2638,6 +2989,8 @@
   - VulnerabilityID: CVE-2023-6237
     PkgID: openssl@3.0.2-0ubuntu1.12
     PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
     Status: affected
     Layer:
@@ -2666,9 +3019,72 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-6237
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
+  - VulnerabilityID: CVE-2024-0727
+    PkgID: openssl@3.0.2-0ubuntu1.12
+    PkgName: openssl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 3.0.2-0ubuntu1.12
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-0727
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'openssl: denial of service via null dereference'
+    Description: |-
+      Issue summary: Processing a maliciously formatted PKCS12 file may lead OpenSSL
+      to crash leading to a potential Denial of Service attack
+
+      Impact summary: Applications loading files in the PKCS12 format from untrusted
+      sources might terminate abruptly.
+
+      A file in PKCS12 format can contain certificates and keys and may come from an
+      untrusted source. The PKCS12 specification allows certain fields to be NULL, but
+      OpenSSL does not correctly check for this case. This can lead to a NULL pointer
+      dereference that results in OpenSSL crashing. If an application processes PKCS12
+      files from an untrusted source using the OpenSSL APIs then that application will
+      be vulnerable to this issue.
+
+      OpenSSL APIs that are vulnerable to this are: PKCS12_parse(),
+      PKCS12_unpack_p7data(), PKCS12_unpack_p7encdata(), PKCS12_unpack_authsafes()
+      and PKCS12_newpass().
+
+      We have also fixed a similar issue in SMIME_write_PKCS7(). However since this
+      function is related to writing data we do not consider it security significant.
+
+      The FIPS modules in 3.2, 3.1 and 3.0 are not affected by this issue.
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+      ubuntu: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-0727
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0727
+    - https://github.com/openssl/openssl/commit/09df4395b5071217b76dc7d3d2e630eb8c5a79c2
+    - https://github.com/openssl/openssl/commit/775acfdbd0c6af9ac855f34969cdab0c0c90844a
+    - https://github.com/openssl/openssl/commit/d135eeab8a5dbf72b3da5240bab9ddb7678dbd2c
+    - https://github.com/openssl/openssl/pull/23362
+    - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
+    - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://www.cve.org/CVERecord?id=CVE-2024-0727
+    - https://www.openssl.org/news/secadv/20240125.txt
+    PublishedDate: '2024-01-26T09:15:07.637Z'
+    LastModifiedDate: '2024-01-26T13:51:45.267Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: passwd@1:4.8.1-2ubuntu2.1
     PkgName: passwd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.1?arch=amd64&distro=ubuntu-22.04&epoch=1
     InstalledVersion: 1:4.8.1-2ubuntu2.1
     Status: affected
     Layer:
@@ -2711,6 +3127,8 @@
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10@3.10.12-1~22.04.3
     PkgName: python3.10
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
@@ -2750,12 +3168,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:0466
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-0466.html
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -2787,6 +3205,8 @@
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10-minimal@3.10.12-1~22.04.3
     PkgName: python3.10-minimal
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.3?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
@@ -2826,12 +3246,12 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:0466
+    - https://access.redhat.com/errata/RHSA-2024:0256
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-0466.html
+    - https://errata.almalinux.org/8/ALSA-2024-0256.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
@@ -2863,6 +3283,8 @@
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.11
     PkgName: systemd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.11?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 249.11-0ubuntu3.11
     Status: affected
     Layer:
@@ -2880,7 +3302,6 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
-      cbl-mariner: 2
       nvd: 2
       redhat: 2
       ubuntu: 1
@@ -2906,6 +3327,8 @@
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-sysv@249.11-0ubuntu3.11
     PkgName: systemd-sysv
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.11?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 249.11-0ubuntu3.11
     Status: affected
     Layer:
@@ -2923,7 +3346,6 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
-      cbl-mariner: 2
       nvd: 2
       redhat: 2
       ubuntu: 1
@@ -2949,6 +3371,8 @@
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd-timesyncd@249.11-0ubuntu3.11
     PkgName: systemd-timesyncd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.11?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 249.11-0ubuntu3.11
     Status: affected
     Layer:
@@ -2966,7 +3390,6 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
-      cbl-mariner: 2
       nvd: 2
       redhat: 2
       ubuntu: 1
@@ -2992,6 +3415,8 @@
   - VulnerabilityID: CVE-2023-29383
     PkgID: uidmap@1:4.8.1-2ubuntu2.1
     PkgName: uidmap
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.1?arch=amd64&distro=ubuntu-22.04&epoch=1
     InstalledVersion: 1:4.8.1-2ubuntu2.1
     Status: affected
     Layer:
@@ -3034,6 +3459,8 @@
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1
     PkgName: wget
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 1.21.2-2ubuntu1
     Status: affected
     Layer:
@@ -3079,6 +3506,8 @@
   - VulnerabilityID: CVE-2020-22916
     PkgID: xz-utils@5.2.5-2ubuntu1
     PkgName: xz-utils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 5.2.5-2ubuntu1
     Status: affected
     Layer:
@@ -3125,6 +3554,8 @@
   - VulnerabilityID: CVE-2022-36033
     PkgName: org.jsoup:jsoup
     PkgPath: home/workspace/.openvscode-server/extensions/redhat.vscode-xml-0.26.1-linux-x64/server/org.eclipse.lemminx-0.26.1-uber.jar
+    PkgIdentifier:
+      PURL: pkg:maven/org.jsoup/jsoup@1.14.2
     InstalledVersion: 1.14.2
     FixedVersion: 1.15.3
     Status: fixed
@@ -3176,6 +3607,8 @@
   Vulnerabilities:
   - VulnerabilityID: CVE-2023-39325
     PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.12.0
     InstalledVersion: v0.12.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -3197,7 +3630,6 @@
       alma: 2
       amazon: 3
       bitnami: 3
-      cbl-mariner: 3
       ghsa: 3
       nvd: 3
       oracle-oval: 2
@@ -3219,7 +3651,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/errata/RHSA-2023:5863
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -3229,7 +3661,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.almalinux.org/8/ALSA-2023-5863.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
@@ -3280,6 +3712,8 @@
     LastModifiedDate: '2024-01-21T02:02:56.727Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.12.0
     InstalledVersion: v0.12.0
     FixedVersion: 0.13.0
     Status: fixed
@@ -3316,12 +3750,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/errata/RHSA-2023:6939
     - https://access.redhat.com/security/cve/CVE-2023-3978
+    - https://bugzilla.redhat.com/2163037
     - https://bugzilla.redhat.com/2174485
+    - https://bugzilla.redhat.com/2175721
     - https://bugzilla.redhat.com/2178358
     - https://bugzilla.redhat.com/2178488
     - https://bugzilla.redhat.com/2178492
+    - https://bugzilla.redhat.com/2182883
+    - https://bugzilla.redhat.com/2182884
     - https://bugzilla.redhat.com/2184481
     - https://bugzilla.redhat.com/2184482
     - https://bugzilla.redhat.com/2184483
@@ -3331,7 +3769,7 @@
     - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
     - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://errata.almalinux.org/8/ALSA-2023-6939.html
     - https://go.dev/cl/514896
     - https://go.dev/issue/61615
     - https://linux.oracle.com/cve/CVE-2023-3978.html
@@ -3343,6 +3781,8 @@
     LastModifiedDate: '2023-11-07T04:20:03.647Z'
   - VulnerabilityID: CVE-2023-44487
     PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.12.0
     InstalledVersion: v0.12.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -3392,7 +3832,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/errata/RHSA-2023:7205
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -3404,6 +3844,11 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2244104
+    - https://bugzilla.redhat.com/2244413
+    - https://bugzilla.redhat.com/2244414
+    - https://bugzilla.redhat.com/2244415
+    - https://bugzilla.redhat.com/2244418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -3415,7 +3860,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-6746.html
+    - https://errata.almalinux.org/8/ALSA-2023-7205.html
     - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
@@ -3581,6 +4026,8 @@
   Vulnerabilities:
   - VulnerabilityID: CVE-2023-39325
     PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.12.0
     InstalledVersion: v0.12.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -3602,7 +4049,6 @@
       alma: 2
       amazon: 3
       bitnami: 3
-      cbl-mariner: 3
       ghsa: 3
       nvd: 3
       oracle-oval: 2
@@ -3624,7 +4070,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/errata/RHSA-2023:5863
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -3634,7 +4080,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.almalinux.org/8/ALSA-2023-5863.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
@@ -3685,6 +4131,8 @@
     LastModifiedDate: '2024-01-21T02:02:56.727Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.12.0
     InstalledVersion: v0.12.0
     FixedVersion: 0.13.0
     Status: fixed
@@ -3721,12 +4169,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/errata/RHSA-2023:6939
     - https://access.redhat.com/security/cve/CVE-2023-3978
+    - https://bugzilla.redhat.com/2163037
     - https://bugzilla.redhat.com/2174485
+    - https://bugzilla.redhat.com/2175721
     - https://bugzilla.redhat.com/2178358
     - https://bugzilla.redhat.com/2178488
     - https://bugzilla.redhat.com/2178492
+    - https://bugzilla.redhat.com/2182883
+    - https://bugzilla.redhat.com/2182884
     - https://bugzilla.redhat.com/2184481
     - https://bugzilla.redhat.com/2184482
     - https://bugzilla.redhat.com/2184483
@@ -3736,7 +4188,7 @@
     - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
     - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://errata.almalinux.org/8/ALSA-2023-6939.html
     - https://go.dev/cl/514896
     - https://go.dev/issue/61615
     - https://linux.oracle.com/cve/CVE-2023-3978.html
@@ -3748,6 +4200,8 @@
     LastModifiedDate: '2023-11-07T04:20:03.647Z'
   - VulnerabilityID: CVE-2023-44487
     PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.12.0
     InstalledVersion: v0.12.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -3797,7 +4251,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/errata/RHSA-2023:7205
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -3809,6 +4263,11 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2244104
+    - https://bugzilla.redhat.com/2244413
+    - https://bugzilla.redhat.com/2244414
+    - https://bugzilla.redhat.com/2244415
+    - https://bugzilla.redhat.com/2244418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -3820,7 +4279,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-6746.html
+    - https://errata.almalinux.org/8/ALSA-2023-7205.html
     - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
@@ -3986,6 +4445,8 @@
   Vulnerabilities:
   - VulnerabilityID: CVE-2023-47108
     PkgName: go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc
+    PkgIdentifier:
+      PURL: pkg:golang/go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc@v0.45.0
     InstalledVersion: v0.45.0
     FixedVersion: 0.46.0
     Status: fixed
@@ -4037,6 +4498,8 @@
   Vulnerabilities:
   - VulnerabilityID: GHSA-7ww5-4wqc-m92c
     PkgName: github.com/containerd/containerd
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/containerd/containerd@v1.7.6
     InstalledVersion: v1.7.6
     FixedVersion: 1.6.26, 1.7.11
     Status: fixed
@@ -4083,6 +4546,8 @@
     - https://github.com/containerd/containerd/security/advisories/GHSA-7ww5-4wqc-m92c
   - VulnerabilityID: CVE-2023-48795
     PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.14.0
     InstalledVersion: v0.14.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -4106,6 +4571,7 @@
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -4124,18 +4590,17 @@
     - http://www.openwall.com/lists/oss-security/2023/12/18/3
     - http://www.openwall.com/lists/oss-security/2023/12/19/5
     - http://www.openwall.com/lists/oss-security/2023/12/20/3
-    - https://access.redhat.com/errata/RHSA-2024:0606
+    - https://access.redhat.com/errata/RHSA-2024:0628
     - https://access.redhat.com/security/cve/CVE-2023-48795
     - https://access.redhat.com/security/cve/cve-2023-48795
     - https://arstechnica.com/security/2023/12/hackers-can-break-ssh-channel-integrity-using-novel-data-corruption-attack/
     - https://bugs.gentoo.org/920280
     - https://bugzilla.redhat.com/2254210
-    - https://bugzilla.redhat.com/2255271
     - https://bugzilla.redhat.com/show_bug.cgi?id=2254210
     - https://bugzilla.suse.com/show_bug.cgi?id=1217950
     - https://crates.io/crates/thrussh/versions
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
-    - https://errata.almalinux.org/8/ALSA-2024-0606.html
+    - https://errata.almalinux.org/8/ALSA-2024-0628.html
     - https://filezilla-project.org/versions.php
     - https://forum.netgate.com/topic/184941/terrapin-ssh-attack
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6
@@ -4185,6 +4650,8 @@
     - https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg
     - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
+    - https://linux.oracle.com/cve/CVE-2023-48795.html
+    - https://linux.oracle.com/errata/ELSA-2024-0628.html
     - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
     - https://lists.debian.org/debian-lts-announce/2024/01/msg00013.html
     - https://lists.debian.org/debian-lts-announce/2024/01/msg00014.html
@@ -4263,6 +4730,8 @@
   Vulnerabilities:
   - VulnerabilityID: CVE-2024-21664
     PkgName: github.com/lestrrat-go/jwx
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/lestrrat-go/jwx@v1.2.27
     InstalledVersion: v1.2.27
     FixedVersion: 1.2.28
     Status: fixed
@@ -4312,6 +4781,8 @@
   Vulnerabilities:
   - VulnerabilityID: GHSA-7ww5-4wqc-m92c
     PkgName: github.com/containerd/containerd
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/containerd/containerd@v1.7.3
     InstalledVersion: v1.7.3
     FixedVersion: 1.6.26, 1.7.11
     Status: fixed
@@ -4358,6 +4829,8 @@
     - https://github.com/containerd/containerd/security/advisories/GHSA-7ww5-4wqc-m92c
   - VulnerabilityID: GHSA-jq35-85cj-fj4p
     PkgName: github.com/docker/docker
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/docker/docker@v24.0.5%2Bincompatible
     InstalledVersion: v24.0.5+incompatible
     FixedVersion: 24.0.7, 23.0.8, 20.10.27
     Status: fixed
@@ -4406,6 +4879,8 @@
     - https://github.com/moby/moby/security/advisories/GHSA-jq35-85cj-fj4p
   - VulnerabilityID: CVE-2024-21626
     PkgName: github.com/opencontainers/runc
+    PkgIdentifier:
+      PURL: pkg:golang/github.com/opencontainers/runc@v1.1.7
     InstalledVersion: v1.1.7
     FixedVersion: 1.1.12
     Status: fixed
@@ -4437,6 +4912,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
         V3Score: 8.6
     References:
+    - http://www.openwall.com/lists/oss-security/2024/02/01/1
     - https://access.redhat.com/security/cve/CVE-2024-21626
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21626
     - https://github.com/opencontainers/runc
@@ -4447,9 +4923,11 @@
     - https://ubuntu.com/security/notices/USN-6619-1
     - https://www.cve.org/CVERecord?id=CVE-2024-21626
     PublishedDate: '2024-01-31T22:15:53.78Z'
-    LastModifiedDate: '2024-01-31T22:15:53.78Z'
+    LastModifiedDate: '2024-02-01T06:15:53.53Z'
   - VulnerabilityID: CVE-2023-48795
     PkgName: golang.org/x/crypto
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/crypto@v0.9.0
     InstalledVersion: v0.9.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -4473,6 +4951,7 @@
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -4491,18 +4970,17 @@
     - http://www.openwall.com/lists/oss-security/2023/12/18/3
     - http://www.openwall.com/lists/oss-security/2023/12/19/5
     - http://www.openwall.com/lists/oss-security/2023/12/20/3
-    - https://access.redhat.com/errata/RHSA-2024:0606
+    - https://access.redhat.com/errata/RHSA-2024:0628
     - https://access.redhat.com/security/cve/CVE-2023-48795
     - https://access.redhat.com/security/cve/cve-2023-48795
     - https://arstechnica.com/security/2023/12/hackers-can-break-ssh-channel-integrity-using-novel-data-corruption-attack/
     - https://bugs.gentoo.org/920280
     - https://bugzilla.redhat.com/2254210
-    - https://bugzilla.redhat.com/2255271
     - https://bugzilla.redhat.com/show_bug.cgi?id=2254210
     - https://bugzilla.suse.com/show_bug.cgi?id=1217950
     - https://crates.io/crates/thrussh/versions
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
-    - https://errata.almalinux.org/8/ALSA-2024-0606.html
+    - https://errata.almalinux.org/8/ALSA-2024-0628.html
     - https://filezilla-project.org/versions.php
     - https://forum.netgate.com/topic/184941/terrapin-ssh-attack
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6
@@ -4552,6 +5030,8 @@
     - https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg
     - https://help.panic.com/releasenotes/transmit5/
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
+    - https://linux.oracle.com/cve/CVE-2023-48795.html
+    - https://linux.oracle.com/errata/ELSA-2024-0628.html
     - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
     - https://lists.debian.org/debian-lts-announce/2024/01/msg00013.html
     - https://lists.debian.org/debian-lts-announce/2024/01/msg00014.html
@@ -4626,6 +5106,8 @@
     LastModifiedDate: '2024-01-29T09:15:42.687Z'
   - VulnerabilityID: CVE-2023-39325
     PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.10.0
     InstalledVersion: v0.10.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -4647,7 +5129,6 @@
       alma: 2
       amazon: 3
       bitnami: 3
-      cbl-mariner: 3
       ghsa: 3
       nvd: 3
       oracle-oval: 2
@@ -4669,7 +5150,7 @@
         V3Score: 7.5
     References:
     - golang.org/x/net
-    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/errata/RHSA-2023:5863
     - https://access.redhat.com/security/cve/CVE-2023-39325
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
@@ -4679,7 +5160,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
-    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.almalinux.org/8/ALSA-2023-5863.html
     - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
@@ -4730,6 +5211,8 @@
     LastModifiedDate: '2024-01-21T02:02:56.727Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.10.0
     InstalledVersion: v0.10.0
     FixedVersion: 0.13.0
     Status: fixed
@@ -4766,12 +5249,16 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/errata/RHSA-2023:6939
     - https://access.redhat.com/security/cve/CVE-2023-3978
+    - https://bugzilla.redhat.com/2163037
     - https://bugzilla.redhat.com/2174485
+    - https://bugzilla.redhat.com/2175721
     - https://bugzilla.redhat.com/2178358
     - https://bugzilla.redhat.com/2178488
     - https://bugzilla.redhat.com/2178492
+    - https://bugzilla.redhat.com/2182883
+    - https://bugzilla.redhat.com/2182884
     - https://bugzilla.redhat.com/2184481
     - https://bugzilla.redhat.com/2184482
     - https://bugzilla.redhat.com/2184483
@@ -4781,7 +5268,7 @@
     - https://bugzilla.redhat.com/2196029
     - https://bugzilla.redhat.com/2222167
     - https://bugzilla.redhat.com/2228689
-    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://errata.almalinux.org/8/ALSA-2023-6939.html
     - https://go.dev/cl/514896
     - https://go.dev/issue/61615
     - https://linux.oracle.com/cve/CVE-2023-3978.html
@@ -4793,6 +5280,8 @@
     LastModifiedDate: '2023-11-07T04:20:03.647Z'
   - VulnerabilityID: CVE-2023-44487
     PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.10.0
     InstalledVersion: v0.10.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -4842,7 +5331,7 @@
     - http://www.openwall.com/lists/oss-security/2023/10/18/8
     - http://www.openwall.com/lists/oss-security/2023/10/19/6
     - http://www.openwall.com/lists/oss-security/2023/10/20/8
-    - https://access.redhat.com/errata/RHSA-2023:6746
+    - https://access.redhat.com/errata/RHSA-2023:7205
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
@@ -4854,6 +5343,11 @@
     - https://blog.vespa.ai/cve-2023-44487/
     - https://bugzilla.proxmox.com/show_bug.cgi?id=4988
     - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2244104
+    - https://bugzilla.redhat.com/2244413
+    - https://bugzilla.redhat.com/2244414
+    - https://bugzilla.redhat.com/2244415
+    - https://bugzilla.redhat.com/2244418
     - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
     - https://bugzilla.suse.com/show_bug.cgi?id=1216123
     - https://cgit.freebsd.org/ports/commit/?id=c64c329c2c1752f46b73e3e6ce9f4329be6629f9
@@ -4865,7 +5359,7 @@
     - https://devblogs.microsoft.com/dotnet/october-2023-updates/
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
-    - https://errata.almalinux.org/9/ALSA-2023-6746.html
+    - https://errata.almalinux.org/8/ALSA-2023-7205.html
     - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
@@ -5025,68 +5519,6 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
     LastModifiedDate: '2023-12-20T17:55:36.74Z'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
-      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
-      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -5145,6 +5577,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
       DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
