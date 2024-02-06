@@ -186,7 +186,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -240,7 +240,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1075,7 +1075,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1226,7 +1226,7 @@
     - https://gitlab.com/gnutls/gnutls/-/issues/1522
     - https://gnutls.org/security-new.html#GNUTLS-SA-2024-01-14
     - https://linux.oracle.com/cve/CVE-2024-0553.html
-    - https://linux.oracle.com/errata/ELSA-2024-0627.html
+    - https://linux.oracle.com/errata/ELSA-2024-12135.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GNXKVR5YNUEBNHAHM5GSYKBZX4W2HMN2/
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0553
@@ -1260,6 +1260,7 @@
     VendorSeverity:
       alma: 2
       nvd: 3
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1282,6 +1283,8 @@
     - https://errata.almalinux.org/9/ALSA-2024-0533.html
     - https://gitlab.com/gnutls/gnutls/-/issues/1521
     - https://gnutls.org/security-new.html#GNUTLS-SA-2024-01-09
+    - https://linux.oracle.com/cve/CVE-2024-0567.html
+    - https://linux.oracle.com/errata/ELSA-2024-0533.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GNXKVR5YNUEBNHAHM5GSYKBZX4W2HMN2/
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-January/004841.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0567
@@ -1456,6 +1459,7 @@
     Description: A vulnerability was found in Linux PAM. An unprivileged user that is not yet in a corresponding mount namespace with ~/tmp mounted as a polyinstantiated dir can place a FIFO there, and a subsequent attempt to login as this user with `pam_namespace` configured will cause the `openat()` in `protect_dir()` to block the attempt, causing a local denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 1
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1491,6 +1495,7 @@
     Description: A vulnerability was found in Linux PAM. An unprivileged user that is not yet in a corresponding mount namespace with ~/tmp mounted as a polyinstantiated dir can place a FIFO there, and a subsequent attempt to login as this user with `pam_namespace` configured will cause the `openat()` in `protect_dir()` to block the attempt, causing a local denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 1
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1526,6 +1531,7 @@
     Description: A vulnerability was found in Linux PAM. An unprivileged user that is not yet in a corresponding mount namespace with ~/tmp mounted as a polyinstantiated dir can place a FIFO there, and a subsequent attempt to login as this user with `pam_namespace` configured will cause the `openat()` in `protect_dir()` to block the attempt, causing a local denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 1
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1606,6 +1612,7 @@
     Description: A vulnerability was found in Linux PAM. An unprivileged user that is not yet in a corresponding mount namespace with ~/tmp mounted as a polyinstantiated dir can place a FIFO there, and a subsequent attempt to login as this user with `pam_namespace` configured will cause the `openat()` in `protect_dir()` to block the attempt, causing a local denial of service.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 1
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1768,6 +1775,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HXYVPEZUA3465AEFX5JVFVP7KIFZMF3N/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6M5I6OQHJABNEYY555HUMMKX3Y4P25Z/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
@@ -1786,7 +1794,7 @@
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2024-01-11T03:15:09.307Z'
+    LastModifiedDate: '2024-02-05T07:15:07.72Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-minimal@3.10.12-1~22.04.3
     PkgName: libpython3.10-minimal
@@ -1846,6 +1854,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HXYVPEZUA3465AEFX5JVFVP7KIFZMF3N/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6M5I6OQHJABNEYY555HUMMKX3Y4P25Z/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
@@ -1864,7 +1873,7 @@
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2024-01-11T03:15:09.307Z'
+    LastModifiedDate: '2024-02-05T07:15:07.72Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: libpython3.10-stdlib@3.10.12-1~22.04.3
     PkgName: libpython3.10-stdlib
@@ -1924,6 +1933,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HXYVPEZUA3465AEFX5JVFVP7KIFZMF3N/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6M5I6OQHJABNEYY555HUMMKX3Y4P25Z/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
@@ -1942,7 +1952,7 @@
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2024-01-11T03:15:09.307Z'
+    LastModifiedDate: '2024-02-05T07:15:07.72Z'
   - VulnerabilityID: CVE-2023-6004
     PkgID: libssh-4@0.9.6-2ubuntu0.22.04.2
     PkgName: libssh-4
@@ -1984,6 +1994,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6004
     - https://ubuntu.com/security/notices/USN-6592-1
+    - https://ubuntu.com/security/notices/USN-6592-2
     - https://vin01.github.io/piptagole/ssh/security/openssh/libssh/remote-code-execution/2023/12/20/openssh-proxycommand-libssh-rce.html
     - https://www.cve.org/CVERecord?id=CVE-2023-6004
     - https://www.libssh.org/security/advisories/CVE-2023-6004.txt
@@ -2032,6 +2043,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6918
     - https://ubuntu.com/security/notices/USN-6592-1
+    - https://ubuntu.com/security/notices/USN-6592-2
     - https://www.cve.org/CVERecord?id=CVE-2023-6918
     - https://www.libssh.org/2023/12/18/libssh-0-10-6-and-libssh-0-9-8-security-releases/
     - https://www.libssh.org/security/advisories/CVE-2023-6918.txt
@@ -2043,7 +2055,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
-    Status: affected
+    FixedVersion: 3.0.2-0ubuntu1.14
+    Status: fixed
     Layer:
       Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
       DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
@@ -2123,6 +2136,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5678
     - https://security.netapp.com/advisory/ntap-20231130-0010/
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:42.67Z'
@@ -2133,7 +2147,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
-    Status: affected
+    FixedVersion: 3.0.2-0ubuntu1.14
+    Status: fixed
     Layer:
       Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
       DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
@@ -2197,6 +2212,7 @@
     - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
     - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6129
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6129
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
@@ -2208,7 +2224,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
-    Status: affected
+    FixedVersion: 3.0.2-0ubuntu1.14
+    Status: fixed
     Layer:
       Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
       DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
@@ -2232,6 +2249,7 @@
     - https://access.redhat.com/security/cve/CVE-2023-6237
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6237
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6237
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6237
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
@@ -2241,7 +2259,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
-    Status: affected
+    FixedVersion: 3.0.2-0ubuntu1.14
+    Status: fixed
     Layer:
       Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
       DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
@@ -2277,6 +2296,7 @@
     Severity: LOW
     VendorSeverity:
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2296,6 +2316,7 @@
     - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
     - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
@@ -2394,6 +2415,50 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-01-27T03:15:07.933Z'
+  - VulnerabilityID: CVE-2023-52356
+    PkgID: libtiff5@4.3.0-6ubuntu0.7
+    PkgName: libtiff5
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.7?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 4.3.0-6ubuntu0.7
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-52356
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'libtiff: Segment fault in libtiff  in TIFFReadRGBATileExt() leading to denial of service'
+    Description: A segment fault (SEGV) flaw was found in libtiff that could be triggered by passing a crafted tiff file to the TIFFReadRGBATileExt() API. This flaw allows a remote attacker to cause a heap-buffer overflow, leading to a denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    - CWE-122
+    VendorSeverity:
+      nvd: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-52356
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2251344
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52356
+    - https://gitlab.com/libtiff/libtiff/-/issues/622
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/546
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-52356
+    - https://www.cve.org/CVERecord?id=CVE-2023-52356
+    PublishedDate: '2024-01-25T20:15:39.063Z'
+    LastModifiedDate: '2024-01-31T17:41:06.517Z'
   - VulnerabilityID: CVE-2018-10126
     PkgID: libtiff5@4.3.0-6ubuntu0.7
     PkgName: libtiff5
@@ -2849,7 +2914,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
-    Status: affected
+    FixedVersion: 3.0.2-0ubuntu1.14
+    Status: fixed
     Layer:
       Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
       DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
@@ -2929,6 +2995,7 @@
     - https://linux.oracle.com/errata/ELSA-2024-12056.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-5678
     - https://security.netapp.com/advisory/ntap-20231130-0010/
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-5678
     - https://www.openssl.org/news/secadv/20231106.txt
     PublishedDate: '2023-11-06T16:15:42.67Z'
@@ -2939,7 +3006,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
-    Status: affected
+    FixedVersion: 3.0.2-0ubuntu1.14
+    Status: fixed
     Layer:
       Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
       DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
@@ -3003,6 +3071,7 @@
     - https://github.com/openssl/openssl/commit/5b139f95c9a47a55a0c54100f3837b1eee942b04
     - https://github.com/openssl/openssl/commit/f3fc5808fe9ff74042d639839610d03b8fdcc015
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6129
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6129
     - https://www.openssl.org/news/secadv/20240109.txt
     - https://www.openwall.com/lists/oss-security/2024/01/09/1
@@ -3014,7 +3083,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
-    Status: affected
+    FixedVersion: 3.0.2-0ubuntu1.14
+    Status: fixed
     Layer:
       Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
       DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
@@ -3038,6 +3108,7 @@
     - https://access.redhat.com/security/cve/CVE-2023-6237
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6237
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6237
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6237
     - https://www.openssl.org/news/secadv/20240115.txt
     - https://www.openwall.com/lists/oss-security/2024/01/15/2
@@ -3047,7 +3118,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.12?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.0.2-0ubuntu1.12
-    Status: affected
+    FixedVersion: 3.0.2-0ubuntu1.14
+    Status: fixed
     Layer:
       Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
       DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
@@ -3083,6 +3155,7 @@
     Severity: LOW
     VendorSeverity:
       nvd: 2
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -3102,6 +3175,7 @@
     - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
     - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
@@ -3209,6 +3283,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HXYVPEZUA3465AEFX5JVFVP7KIFZMF3N/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6M5I6OQHJABNEYY555HUMMKX3Y4P25Z/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
@@ -3227,7 +3302,7 @@
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2024-01-11T03:15:09.307Z'
+    LastModifiedDate: '2024-02-05T07:15:07.72Z'
   - VulnerabilityID: CVE-2023-27043
     PkgID: python3.10-minimal@3.10.12-1~22.04.3
     PkgName: python3.10-minimal
@@ -3287,6 +3362,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HXYVPEZUA3465AEFX5JVFVP7KIFZMF3N/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/N6M5I6OQHJABNEYY555HUMMKX3Y4P25Z/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NEUNZSZ3CVSM2QWVYH3N2XGOCDWNYUA3/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ORLXS5YTKN65E2Q2NWKXMFS5FWQHRNZW/
@@ -3305,7 +3381,7 @@
     - https://security.netapp.com/advisory/ntap-20230601-0003/
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
-    LastModifiedDate: '2024-01-11T03:15:09.307Z'
+    LastModifiedDate: '2024-02-05T07:15:07.72Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: systemd@249.11-0ubuntu3.11
     PkgName: systemd
@@ -3485,6 +3561,87 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
     LastModifiedDate: '2023-04-24T18:05:30.313Z'
+  - VulnerabilityID: CVE-2024-22667
+    PkgID: vim@2:8.2.3995-1ubuntu2.15
+    PkgName: vim
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.15?arch=amd64&distro=ubuntu-22.04&epoch=2
+    InstalledVersion: 2:8.2.3995-1ubuntu2.15
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-22667
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_ ...
+    Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22667
+    - https://gist.githubusercontent.com/henices/2467e7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb139266f4497ab7aaa94c7/gistfile1.txt
+    - https://github.com/vim/vim/commit/b39b240c386a5a29241415541f1c99e2e6b8ce47
+    PublishedDate: '2024-02-05T08:15:44.11Z'
+    LastModifiedDate: '2024-02-05T13:54:19.31Z'
+  - VulnerabilityID: CVE-2024-22667
+    PkgID: vim-common@2:8.2.3995-1ubuntu2.15
+    PkgName: vim-common
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.15?arch=all&distro=ubuntu-22.04&epoch=2
+    InstalledVersion: 2:8.2.3995-1ubuntu2.15
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-22667
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_ ...
+    Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22667
+    - https://gist.githubusercontent.com/henices/2467e7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb139266f4497ab7aaa94c7/gistfile1.txt
+    - https://github.com/vim/vim/commit/b39b240c386a5a29241415541f1c99e2e6b8ce47
+    PublishedDate: '2024-02-05T08:15:44.11Z'
+    LastModifiedDate: '2024-02-05T13:54:19.31Z'
+  - VulnerabilityID: CVE-2024-22667
+    PkgID: vim-runtime@2:8.2.3995-1ubuntu2.15
+    PkgName: vim-runtime
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.15?arch=all&distro=ubuntu-22.04&epoch=2
+    InstalledVersion: 2:8.2.3995-1ubuntu2.15
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-22667
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_ ...
+    Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22667
+    - https://gist.githubusercontent.com/henices/2467e7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb139266f4497ab7aaa94c7/gistfile1.txt
+    - https://github.com/vim/vim/commit/b39b240c386a5a29241415541f1c99e2e6b8ce47
+    PublishedDate: '2024-02-05T08:15:44.11Z'
+    LastModifiedDate: '2024-02-05T13:54:19.31Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1
     PkgName: wget
@@ -3532,6 +3689,33 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:08.707Z'
     LastModifiedDate: '2022-05-13T20:52:24.793Z'
+  - VulnerabilityID: CVE-2024-22667
+    PkgID: xxd@2:8.2.3995-1ubuntu2.15
+    PkgName: xxd
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.15?arch=amd64&distro=ubuntu-22.04&epoch=2
+    InstalledVersion: 2:8.2.3995-1ubuntu2.15
+    Status: affected
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-22667
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_ ...
+    Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
+    Severity: MEDIUM
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22667
+    - https://gist.githubusercontent.com/henices/2467e7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb139266f4497ab7aaa94c7/gistfile1.txt
+    - https://github.com/vim/vim/commit/b39b240c386a5a29241415541f1c99e2e6b8ce47
+    PublishedDate: '2024-02-05T08:15:44.11Z'
+    LastModifiedDate: '2024-02-05T13:54:19.31Z'
   - VulnerabilityID: CVE-2020-22916
     PkgID: xz-utils@5.2.5-2ubuntu1
     PkgName: xz-utils
@@ -3692,7 +3876,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -3882,7 +4066,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4103,7 +4287,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -4293,7 +4477,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4643,6 +4827,7 @@
     - https://github.com/net-ssh/net-ssh/blob/2e65064a52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-L16
     - https://github.com/openssh/openssh-portable/commits/master
     - https://github.com/paramiko/paramiko/issues/2337
+    - https://github.com/paramiko/paramiko/issues/2337#issuecomment-1887642773
     - https://github.com/proftpd/proftpd/blob/0a7ea9b0ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES
     - https://github.com/proftpd/proftpd/blob/d21e7a2e47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES
     - https://github.com/proftpd/proftpd/blob/master/RELEASE_NOTES
@@ -4759,7 +4944,7 @@
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
     Title: 'jwx: parsing JSON serialized payload without protected field can lead to panic'
     Description: |
-      jwx is a Go module implementing various JWx (JWA/JWE/JWK/JWS/JWT, otherwise known as JOSE) technologies. Calling `jws.Parse` with a JSON serialized payload where the `signature` field is present while `protected` is absent can lead to a nil pointer dereference. The vulnerability can be used to crash/DOS a system doing JWS verification. This vulnerability has been patched in version 2.0.19.
+      jwx is a Go module implementing various JWx (JWA/JWE/JWK/JWS/JWT, otherwise known as JOSE) technologies. Calling `jws.Parse` with a JSON serialized payload where the `signature` field is present while `protected` is absent can lead to a nil pointer dereference. The vulnerability can be used to crash/DOS a system doing JWS verification. This vulnerability has been patched in versions 2.0.19 and 1.2.28.
     Severity: MEDIUM
     CweIDs:
     - CWE-476
@@ -4787,7 +4972,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21664
     - https://www.cve.org/CVERecord?id=CVE-2024-21664
     PublishedDate: '2024-01-09T20:15:43.74Z'
-    LastModifiedDate: '2024-01-16T19:30:49.207Z'
+    LastModifiedDate: '2024-02-05T16:15:55.207Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -4915,6 +5100,7 @@
     VendorSeverity:
       amazon: 3
       ghsa: 3
+      oracle-oval: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -4925,6 +5111,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
         V3Score: 8.6
     References:
+    - http://packetstormsecurity.com/files/176993/runc-1.1.11-File-Descriptor-Leak-Privilege-Escalation.html
     - http://www.openwall.com/lists/oss-security/2024/02/01/1
     - http://www.openwall.com/lists/oss-security/2024/02/02/3
     - https://access.redhat.com/security/cve/CVE-2024-21626
@@ -4933,11 +5120,14 @@
     - https://github.com/opencontainers/runc/commit/02120488a4c0fc487d1ed2867e901eeed7ce8ecf
     - https://github.com/opencontainers/runc/releases/tag/v1.1.12
     - https://github.com/opencontainers/runc/security/advisories/GHSA-xr7r-f8xq-vfvv
+    - https://linux.oracle.com/cve/CVE-2024-21626.html
+    - https://linux.oracle.com/errata/ELSA-2024-0670.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SYMO3BANINS6RGFQFKPRG4FIOJ7GWYTL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21626
     - https://ubuntu.com/security/notices/USN-6619-1
     - https://www.cve.org/CVERecord?id=CVE-2024-21626
     PublishedDate: '2024-01-31T22:15:53.78Z'
-    LastModifiedDate: '2024-02-02T12:15:49.553Z'
+    LastModifiedDate: '2024-02-05T17:15:09.383Z'
   - VulnerabilityID: CVE-2023-48795
     PkgName: golang.org/x/crypto
     PkgIdentifier:
@@ -5024,6 +5214,7 @@
     - https://github.com/net-ssh/net-ssh/blob/2e65064a52d73396bfc3806c9196fc8108f33cd8/CHANGES.txt#L14-L16
     - https://github.com/openssh/openssh-portable/commits/master
     - https://github.com/paramiko/paramiko/issues/2337
+    - https://github.com/paramiko/paramiko/issues/2337#issuecomment-1887642773
     - https://github.com/proftpd/proftpd/blob/0a7ea9b0ba9fcdf368374a226370d08f10397d99/RELEASE_NOTES
     - https://github.com/proftpd/proftpd/blob/d21e7a2e47e9b38f709bec58e3fa711f759ad0e1/RELEASE_NOTES
     - https://github.com/proftpd/proftpd/blob/master/RELEASE_NOTES
@@ -5176,7 +5367,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -5366,7 +5557,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -5525,6 +5716,37 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
     LastModifiedDate: '2024-02-02T15:40:23.61Z'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
+      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -5614,37 +5836,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
-      DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:60a73d993b106171afd6227bcc960e71b0e8b16e8ff9a905c4fdc09da78e194f
       DiffID: sha256:1349dffab83239f72d13a4f737c75782d2687f955a66e136cc161096c0780715
