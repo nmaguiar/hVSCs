@@ -206,7 +206,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -275,7 +275,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1196,7 +1196,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1420,7 +1420,101 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                        │      ├ PublishedDate   : 2023-08-22T19:16:19.407Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:19:47.47Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2023-50495 
+│                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : libncurses6 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=
+│                        │      │                          amd64&distro=ubuntu-22.04 
+│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                        │      │                   segmentation fault via the component
+│                        │      │                   _nc_wrap_entry(). 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-50495 
+│                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce%40lists.fedoraproject.org/message/LU4M
+│                        │      │                  │      YMKFEZQ5VSCVLRIZGDQOUW3T44GT/ 
+│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00020.html 
+│                        │      │                  ├ [4]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00029.html 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-202401
+│                        │      │                  │      19-0008/ 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+│                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2023-50495 
+│                        │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : libncursesw6 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch
+│                        │      │                          =amd64&distro=ubuntu-22.04 
+│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                        │      │                   segmentation fault via the component
+│                        │      │                   _nc_wrap_entry(). 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-50495 
+│                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce%40lists.fedoraproject.org/message/LU4M
+│                        │      │                  │      YMKFEZQ5VSCVLRIZGDQOUW3T44GT/ 
+│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00020.html 
+│                        │      │                  ├ [4]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00029.html 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-202401
+│                        │      │                  │      19-0008/ 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+│                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libnss-systemd 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.1
@@ -1445,7 +1539,8 @@
 │                        │      │                   to manipulate records. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-300 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -1471,7 +1566,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libpam-systemd 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.1
@@ -1496,7 +1591,8 @@
 │                        │      │                   to manipulate records. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-300 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -1522,7 +1618,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2017-11164 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2017-11164 
 │                        │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ PkgName         : libpcre3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?
@@ -1573,7 +1669,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                        │      ├ PublishedDate   : 2017-07-11T03:29:00.277Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:38:10.98Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2022-3857 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2022-3857 
 │                        │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                        │      ├ PkgName         : libpng16-16 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpng16-16@1.6.37-3build5?arch=
@@ -1615,7 +1711,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
 │                        │      ├ PublishedDate   : 2023-03-06T23:15:11.087Z 
 │                        │      ╰ LastModifiedDate: 2023-04-06T13:15:08.467Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.3?
@@ -1737,7 +1833,7 @@
 │                        │      │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-05T07:15:07.72Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10-minimal 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~
@@ -1859,7 +1955,7 @@
 │                        │      │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-05T07:15:07.72Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10-stdlib 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~2
@@ -1981,7 +2077,7 @@
 │                        │      │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-05T07:15:07.72Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2023-5678 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2023-5678 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.13?arch=a
@@ -2101,7 +2197,7 @@
 │                        │      │                  ╰ [17]: https://www.openssl.org/news/secadv/20231106.txt 
 │                        │      ├ PublishedDate   : 2023-11-06T16:15:42.67Z 
 │                        │      ╰ LastModifiedDate: 2023-11-30T22:15:09.723Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2023-6129 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2023-6129 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.13?arch=a
@@ -2204,7 +2300,7 @@
 │                        │      │                         /01/09/1 
 │                        │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
 │                        │      ╰ LastModifiedDate: 2024-01-23T21:32:01.973Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2023-6237 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2023-6237 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.13?arch=a
@@ -2248,7 +2344,7 @@
 │                        │                         ├ [5]: https://www.openssl.org/news/secadv/20240115.txt 
 │                        │                         ╰ [6]: https://www.openwall.com/lists/oss-security/2024
 │                        │                                /01/15/2 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2024-0727 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2024-0727 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.13?arch=a
@@ -2332,7 +2428,7 @@
 │                        │      │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
 │                        │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
 │                        │      ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~2
@@ -2389,7 +2485,7 @@
 │                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libsystemd0 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.12?a
@@ -2414,7 +2510,8 @@
 │                        │      │                   to manipulate records. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-300 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -2440,7 +2537,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2023-52356 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2023-52356 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.7?arch=a
@@ -2487,7 +2584,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-52356 
 │                        │      ├ PublishedDate   : 2024-01-25T20:15:39.063Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T17:41:06.517Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2018-10126 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2018-10126 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.7?arch=a
@@ -2532,7 +2629,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                        │      ├ PublishedDate   : 2018-04-21T21:29:00.29Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:51:16.693Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2023-3164 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2023-3164 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.7?arch=a
@@ -2575,7 +2672,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
 │                        │      ├ PublishedDate   : 2023-11-02T12:15:09.543Z 
 │                        │      ╰ LastModifiedDate: 2024-01-30T20:26:45.633Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2023-6228 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2023-6228 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.7?arch=a
@@ -2616,7 +2713,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-6228 
 │                        │      ├ PublishedDate   : 2023-12-18T14:15:11.84Z 
 │                        │      ╰ LastModifiedDate: 2023-12-29T07:15:10.897Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2023-6277 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2023-6277 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.7 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.7?arch=a
@@ -2669,7 +2766,54 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-6277 
 │                        │      ├ PublishedDate   : 2023-11-24T19:15:07.643Z 
 │                        │      ╰ LastModifiedDate: 2024-01-19T16:15:11.057Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2023-50495 
+│                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : libtinfo6 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=am
+│                        │      │                          d64&distro=ubuntu-22.04 
+│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                        │      │                   segmentation fault via the component
+│                        │      │                   _nc_wrap_entry(). 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-50495 
+│                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce%40lists.fedoraproject.org/message/LU4M
+│                        │      │                  │      YMKFEZQ5VSCVLRIZGDQOUW3T44GT/ 
+│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00020.html 
+│                        │      │                  ├ [4]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00029.html 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-202401
+│                        │      │                  │      19-0008/ 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+│                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libudev1@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libudev1 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.12?arch
@@ -2694,7 +2838,8 @@
 │                        │      │                   to manipulate records. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-300 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -2720,7 +2865,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?ar
@@ -2792,7 +2937,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.1?arch=amd6
@@ -2850,7 +2995,202 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2023-4641 
+│                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.1 
+│                        │      ├ PkgName         : login 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.1?arch=amd6
+│                        │      │                          4&distro=ubuntu-22.04&epoch=1 
+│                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4641 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : shadow-utils: possible password leak during passwd(1)
+│                        │      │                   change 
+│                        │      ├ Description     : A flaw was found in shadow-utils. When asking for a
+│                        │      │                   new password, shadow-utils asks the password twice. If the
+│                        │      │                   password fails on the second attempt, shadow-utils fails in
+│                        │      │                    cleaning the buffer used to store the first entry. This
+│                        │      │                   may allow an attacker with enough access to retrieve the
+│                        │      │                   password from the memory. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ╭ [0]: CWE-287 
+│                        │      │                  ╰ [1]: CWE-303 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 1 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                  │        │           :H/I:N/A:N 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
+│                        │      │                           │           :H/I:N/A:N 
+│                        │      │                           ╰ V3Score : 4.7 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6632 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:7112 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4641 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2215945 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2215945 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-4641 
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2023-6632.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-4641.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-7112.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-4641 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4641 
+│                        │      ├ PublishedDate   : 2023-12-27T16:15:13.363Z 
+│                        │      ╰ LastModifiedDate: 2024-01-04T17:06:55.393Z 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2023-50495 
+│                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : ncurses-base 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch
+│                        │      │                          =all&distro=ubuntu-22.04 
+│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                        │      │                   segmentation fault via the component
+│                        │      │                   _nc_wrap_entry(). 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-50495 
+│                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce%40lists.fedoraproject.org/message/LU4M
+│                        │      │                  │      YMKFEZQ5VSCVLRIZGDQOUW3T44GT/ 
+│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00020.html 
+│                        │      │                  ├ [4]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00029.html 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-202401
+│                        │      │                  │      19-0008/ 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+│                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2023-50495 
+│                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : ncurses-bin 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=
+│                        │      │                          amd64&distro=ubuntu-22.04 
+│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                        │      │                   segmentation fault via the component
+│                        │      │                   _nc_wrap_entry(). 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-50495 
+│                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce%40lists.fedoraproject.org/message/LU4M
+│                        │      │                  │      YMKFEZQ5VSCVLRIZGDQOUW3T44GT/ 
+│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00020.html 
+│                        │      │                  ├ [4]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00029.html 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-202401
+│                        │      │                  │      19-0008/ 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+│                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2023-50495 
+│                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : ncurses-term 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch
+│                        │      │                          =all&distro=ubuntu-22.04 
+│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                        │      │                   segmentation fault via the component
+│                        │      │                   _nc_wrap_entry(). 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      │                  │      VE-2023-50495 
+│                        │      │                  ├ [2]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce%40lists.fedoraproject.org/message/LU4M
+│                        │      │                  │      YMKFEZQ5VSCVLRIZGDQOUW3T44GT/ 
+│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00020.html 
+│                        │      │                  ├ [4]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00029.html 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                        │      │                  ├ [6]: https://security.netapp.com/advisory/ntap-202401
+│                        │      │                  │      19-0008/ 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+│                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-client 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/openssh-client@8.9p1-3ubuntu0.6?
@@ -2902,7 +3242,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-01-29T20:00:11.703Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-server 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/openssh-server@8.9p1-3ubuntu0.6?
@@ -2954,7 +3294,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-01-29T20:00:11.703Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-sftp-server 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/openssh-sftp-server@8.9p1-3ubunt
@@ -3006,7 +3346,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-01-29T20:00:11.703Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2023-5678 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2023-5678 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.13?arch=a
@@ -3126,7 +3466,7 @@
 │                        │      │                  ╰ [17]: https://www.openssl.org/news/secadv/20231106.txt 
 │                        │      ├ PublishedDate   : 2023-11-06T16:15:42.67Z 
 │                        │      ╰ LastModifiedDate: 2023-11-30T22:15:09.723Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2023-6129 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2023-6129 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.13?arch=a
@@ -3229,7 +3569,7 @@
 │                        │      │                         /01/09/1 
 │                        │      ├ PublishedDate   : 2024-01-09T17:15:12.147Z 
 │                        │      ╰ LastModifiedDate: 2024-01-23T21:32:01.973Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2023-6237 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2023-6237 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.13?arch=a
@@ -3273,7 +3613,7 @@
 │                        │                         ├ [5]: https://www.openssl.org/news/secadv/20240115.txt 
 │                        │                         ╰ [6]: https://www.openwall.com/lists/oss-security/2024
 │                        │                                /01/15/2 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2024-0727 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2024-0727 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.13 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.13?arch=a
@@ -3357,7 +3697,7 @@
 │                        │      │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
 │                        │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
 │                        │      ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.1?arch=amd
@@ -3415,7 +3755,61 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2023-4641 
+│                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
+│                        │      ├ PkgName         : passwd 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.1?arch=amd
+│                        │      │                          64&distro=ubuntu-22.04&epoch=1 
+│                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4641 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : shadow-utils: possible password leak during passwd(1)
+│                        │      │                   change 
+│                        │      ├ Description     : A flaw was found in shadow-utils. When asking for a
+│                        │      │                   new password, shadow-utils asks the password twice. If the
+│                        │      │                   password fails on the second attempt, shadow-utils fails in
+│                        │      │                    cleaning the buffer used to store the first entry. This
+│                        │      │                   may allow an attacker with enough access to retrieve the
+│                        │      │                   password from the memory. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ╭ [0]: CWE-287 
+│                        │      │                  ╰ [1]: CWE-303 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 1 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                  │        │           :H/I:N/A:N 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
+│                        │      │                           │           :H/I:N/A:N 
+│                        │      │                           ╰ V3Score : 4.7 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6632 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:7112 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4641 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2215945 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2215945 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-4641 
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2023-6632.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-4641.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-7112.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-4641 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4641 
+│                        │      ├ PublishedDate   : 2023-12-27T16:15:13.363Z 
+│                        │      ╰ LastModifiedDate: 2024-01-04T17:06:55.393Z 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arc
@@ -3537,7 +3931,7 @@
 │                        │      │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-05T07:15:07.72Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.
@@ -3659,7 +4053,7 @@
 │                        │      │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-05T07:15:07.72Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=
@@ -3684,7 +4078,8 @@
 │                        │      │                   to manipulate records. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-300 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -3710,7 +4105,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?
@@ -3735,7 +4130,8 @@
 │                        │      │                   to manipulate records. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-300 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -3761,7 +4157,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu
@@ -3786,7 +4182,8 @@
 │                        │      │                   to manipulate records. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-300 
-│                        │      ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 1 
@@ -3812,7 +4209,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.1?arch=amd
@@ -3870,7 +4267,61 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2024-22667 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2023-4641 
+│                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.1 
+│                        │      ├ PkgName         : uidmap 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.1?arch=amd
+│                        │      │                          64&distro=ubuntu-22.04&epoch=1 
+│                        │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:7513cb18e893136f290dfc34736b4dc76d7c56
+│                        │      │                  │         23ce4c28c75f5a600ede9cd311 
+│                        │      │                  ╰ DiffID: sha256:d86c4ddd4dd8e335461a05cd075743f2f96793
+│                        │      │                            277b2974a4569b84bfdd1f904c 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-4641 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : shadow-utils: possible password leak during passwd(1)
+│                        │      │                   change 
+│                        │      ├ Description     : A flaw was found in shadow-utils. When asking for a
+│                        │      │                   new password, shadow-utils asks the password twice. If the
+│                        │      │                   password fails on the second attempt, shadow-utils fails in
+│                        │      │                    cleaning the buffer used to store the first entry. This
+│                        │      │                   may allow an attacker with enough access to retrieve the
+│                        │      │                   password from the memory. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ CweIDs           ╭ [0]: CWE-287 
+│                        │      │                  ╰ [1]: CWE-303 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 1 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                  │        │           :H/I:N/A:N 
+│                        │      │                  │        ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C
+│                        │      │                           │           :H/I:N/A:N 
+│                        │      │                           ╰ V3Score : 4.7 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2023:6632 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:7112 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-4641 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2215945 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2215945 
+│                        │      │                  ├ [5] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-4641 
+│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2023-6632.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-4641.html 
+│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2023-7112.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2023-4641 
+│                        │      │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2023-4641 
+│                        │      ├ PublishedDate   : 2023-12-27T16:15:13.363Z 
+│                        │      ╰ LastModifiedDate: 2024-01-04T17:06:55.393Z 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2024-22667 
 │                        │      ├ PkgID           : vim@2:8.2.3995-1ubuntu2.15 
 │                        │      ├ PkgName         : vim 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/vim@8.2.3995-1ubuntu2.15?arch=am
@@ -3886,24 +4337,31 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : Vim before 9.0.2142 has a stack-based buffer overflow
-│                        │      │                   because did_set_ ... 
+│                        │      ├ Title           : vim: Stack buffer over flow in did_set_langmap
+│                        │      │                   function in map.c 
 │                        │      ├ Description     : Vim before 9.0.2142 has a stack-based buffer overflow
 │                        │      │                   because did_set_langmap in map.c calls sprintf to write to
 │                        │      │                   the error buffer that is passed down to the option callback
 │                        │      │                    functions. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-22667 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2024-22667 
-│                        │      │                  ├ [1]: https://gist.githubusercontent.com/henices/2467e
+│                        │      │                  ├ [2]: https://gist.githubusercontent.com/henices/2467e
 │                        │      │                  │      7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb13
 │                        │      │                  │      9266f4497ab7aaa94c7/gistfile1.txt 
-│                        │      │                  ╰ [2]: https://github.com/vim/vim/commit/b39b240c386a5a
-│                        │      │                         29241415541f1c99e2e6b8ce47 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/commit/b39b240c386a5a
+│                        │      │                  │      29241415541f1c99e2e6b8ce47 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-22667 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-22667 
 │                        │      ├ PublishedDate   : 2024-02-05T08:15:44.11Z 
 │                        │      ╰ LastModifiedDate: 2024-02-05T13:54:19.31Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2024-22667 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2024-22667 
 │                        │      ├ PkgID           : vim-common@2:8.2.3995-1ubuntu2.15 
 │                        │      ├ PkgName         : vim-common 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/vim-common@8.2.3995-1ubuntu2.15?
@@ -3919,24 +4377,31 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : Vim before 9.0.2142 has a stack-based buffer overflow
-│                        │      │                   because did_set_ ... 
+│                        │      ├ Title           : vim: Stack buffer over flow in did_set_langmap
+│                        │      │                   function in map.c 
 │                        │      ├ Description     : Vim before 9.0.2142 has a stack-based buffer overflow
 │                        │      │                   because did_set_langmap in map.c calls sprintf to write to
 │                        │      │                   the error buffer that is passed down to the option callback
 │                        │      │                    functions. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-22667 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2024-22667 
-│                        │      │                  ├ [1]: https://gist.githubusercontent.com/henices/2467e
+│                        │      │                  ├ [2]: https://gist.githubusercontent.com/henices/2467e
 │                        │      │                  │      7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb13
 │                        │      │                  │      9266f4497ab7aaa94c7/gistfile1.txt 
-│                        │      │                  ╰ [2]: https://github.com/vim/vim/commit/b39b240c386a5a
-│                        │      │                         29241415541f1c99e2e6b8ce47 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/commit/b39b240c386a5a
+│                        │      │                  │      29241415541f1c99e2e6b8ce47 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-22667 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-22667 
 │                        │      ├ PublishedDate   : 2024-02-05T08:15:44.11Z 
 │                        │      ╰ LastModifiedDate: 2024-02-05T13:54:19.31Z 
-│                        ├ [65] ╭ VulnerabilityID : CVE-2024-22667 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2024-22667 
 │                        │      ├ PkgID           : vim-runtime@2:8.2.3995-1ubuntu2.15 
 │                        │      ├ PkgName         : vim-runtime 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/vim-runtime@8.2.3995-1ubuntu2.15
@@ -3952,24 +4417,31 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : Vim before 9.0.2142 has a stack-based buffer overflow
-│                        │      │                   because did_set_ ... 
+│                        │      ├ Title           : vim: Stack buffer over flow in did_set_langmap
+│                        │      │                   function in map.c 
 │                        │      ├ Description     : Vim before 9.0.2142 has a stack-based buffer overflow
 │                        │      │                   because did_set_langmap in map.c calls sprintf to write to
 │                        │      │                   the error buffer that is passed down to the option callback
 │                        │      │                    functions. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-22667 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2024-22667 
-│                        │      │                  ├ [1]: https://gist.githubusercontent.com/henices/2467e
+│                        │      │                  ├ [2]: https://gist.githubusercontent.com/henices/2467e
 │                        │      │                  │      7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb13
 │                        │      │                  │      9266f4497ab7aaa94c7/gistfile1.txt 
-│                        │      │                  ╰ [2]: https://github.com/vim/vim/commit/b39b240c386a5a
-│                        │      │                         29241415541f1c99e2e6b8ce47 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/commit/b39b240c386a5a
+│                        │      │                  │      29241415541f1c99e2e6b8ce47 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-22667 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-22667 
 │                        │      ├ PublishedDate   : 2024-02-05T08:15:44.11Z 
 │                        │      ╰ LastModifiedDate: 2024-02-05T13:54:19.31Z 
-│                        ├ [66] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&
@@ -4017,7 +4489,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ├ [67] ╭ VulnerabilityID : CVE-2024-22667 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2024-22667 
 │                        │      ├ PkgID           : xxd@2:8.2.3995-1ubuntu2.15 
 │                        │      ├ PkgName         : xxd 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/xxd@8.2.3995-1ubuntu2.15?arch=am
@@ -4033,24 +4505,31 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : Vim before 9.0.2142 has a stack-based buffer overflow
-│                        │      │                   because did_set_ ... 
+│                        │      ├ Title           : vim: Stack buffer over flow in did_set_langmap
+│                        │      │                   function in map.c 
 │                        │      ├ Description     : Vim before 9.0.2142 has a stack-based buffer overflow
 │                        │      │                   because did_set_langmap in map.c calls sprintf to write to
 │                        │      │                   the error buffer that is passed down to the option callback
 │                        │      │                    functions. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-22667 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2024-22667 
-│                        │      │                  ├ [1]: https://gist.githubusercontent.com/henices/2467e
+│                        │      │                  ├ [2]: https://gist.githubusercontent.com/henices/2467e
 │                        │      │                  │      7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb13
 │                        │      │                  │      9266f4497ab7aaa94c7/gistfile1.txt 
-│                        │      │                  ╰ [2]: https://github.com/vim/vim/commit/b39b240c386a5a
-│                        │      │                         29241415541f1c99e2e6b8ce47 
+│                        │      │                  ├ [3]: https://github.com/vim/vim/commit/b39b240c386a5a
+│                        │      │                  │      29241415541f1c99e2e6b8ce47 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-22667 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-22667 
 │                        │      ├ PublishedDate   : 2024-02-05T08:15:44.11Z 
 │                        │      ╰ LastModifiedDate: 2024-02-05T13:54:19.31Z 
-│                        ╰ [68] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [77] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd
@@ -4257,7 +4736,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -4392,7 +4871,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -4537,7 +5016,7 @@
 │                              │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                              │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -4921,7 +5400,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -5056,7 +5535,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -5201,7 +5680,7 @@
 │                              │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                              │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -5544,7 +6023,8 @@
 │                              │                   `noop.NewMeterProvider`. 
 │                              ├ Severity        : HIGH 
 │                              ├ CweIDs           ─ [0]: CWE-770 
-│                              ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                              ├ VendorSeverity   ╭ amazon     : 3 
+│                              │                  ├ cbl-mariner: 3 
 │                              │                  ├ ghsa       : 3 
 │                              │                  ├ nvd        : 3 
 │                              │                  ╰ redhat     : 2 
@@ -5877,6 +6357,7 @@
 │                        │     ├ CweIDs           ╭ [0]: CWE-403 
 │                        │     │                  ╰ [1]: CWE-668 
 │                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     │                  ├ cbl-mariner: 3 
 │                        │     │                  ├ ghsa       : 3 
 │                        │     │                  ├ oracle-oval: 3 
 │                        │     │                  ├ redhat     : 3 
@@ -5913,7 +6394,7 @@
 │                        │     │                  ├ [13]: https://ubuntu.com/security/notices/USN-6619-1 
 │                        │     │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-21626 
 │                        │     ├ PublishedDate   : 2024-01-31T22:15:53.78Z 
-│                        │     ╰ LastModifiedDate: 2024-02-05T17:15:09.383Z 
+│                        │     ╰ LastModifiedDate: 2024-02-06T02:15:08.42Z 
 │                        ├ [3] ╭ VulnerabilityID : CVE-2023-48795 
 │                        │     ├ PkgName         : golang.org/x/crypto 
 │                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/crypto@v0.9.0 
@@ -6312,7 +6793,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -6447,7 +6928,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -6592,7 +7073,7 @@
 │                              │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                              │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
