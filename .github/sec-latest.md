@@ -206,7 +206,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -275,7 +275,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1196,7 +1196,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -5178,7 +5178,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -5313,7 +5313,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -5458,7 +5458,7 @@
 │                              │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                              │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -5842,7 +5842,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -5977,7 +5977,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -6122,7 +6122,7 @@
 │                              │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                              │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -7219,7 +7219,8 @@
 │                        │     ├ Severity        : HIGH 
 │                        │     ├ CweIDs           ╭ [0]: CWE-403 
 │                        │     │                  ╰ [1]: CWE-668 
-│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     ├ VendorSeverity   ╭ alma       : 3 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 3 
 │                        │     │                  ├ ghsa       : 3 
 │                        │     │                  ├ oracle-oval: 3 
@@ -7238,24 +7239,27 @@
 │                        │     │                  │       02/01/1 
 │                        │     │                  ├ [2] : http://www.openwall.com/lists/oss-security/2024/
 │                        │     │                  │       02/02/3 
-│                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2024-21626 
-│                        │     │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:0670 
+│                        │     │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024-21626 
+│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2258725 
+│                        │     │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2024-21626 
-│                        │     │                  ├ [5] : https://github.com/opencontainers/runc 
-│                        │     │                  ├ [6] : https://github.com/opencontainers/runc/commit/02
+│                        │     │                  ├ [7] : https://errata.almalinux.org/9/ALSA-2024-0670.html 
+│                        │     │                  ├ [8] : https://github.com/opencontainers/runc 
+│                        │     │                  ├ [9] : https://github.com/opencontainers/runc/commit/02
 │                        │     │                  │       120488a4c0fc487d1ed2867e901eeed7ce8ecf 
-│                        │     │                  ├ [7] : https://github.com/opencontainers/runc/releases/
+│                        │     │                  ├ [10]: https://github.com/opencontainers/runc/releases/
 │                        │     │                  │       tag/v1.1.12 
-│                        │     │                  ├ [8] : https://github.com/opencontainers/runc/security/
+│                        │     │                  ├ [11]: https://github.com/opencontainers/runc/security/
 │                        │     │                  │       advisories/GHSA-xr7r-f8xq-vfvv 
-│                        │     │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-21626.html 
-│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-0670.html 
-│                        │     │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-21626.html 
+│                        │     │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-0670.html 
+│                        │     │                  ├ [14]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/SYMO3B
 │                        │     │                  │       ANINS6RGFQFKPRG4FIOJ7GWYTL/ 
-│                        │     │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-21626 
-│                        │     │                  ├ [13]: https://ubuntu.com/security/notices/USN-6619-1 
-│                        │     │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-21626 
+│                        │     │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-21626 
+│                        │     │                  ├ [16]: https://ubuntu.com/security/notices/USN-6619-1 
+│                        │     │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-21626 
 │                        │     ├ PublishedDate   : 2024-01-31T22:15:53.78Z 
 │                        │     ╰ LastModifiedDate: 2024-02-06T02:15:08.42Z 
 │                        ├ [3] ╭ VulnerabilityID : CVE-2023-48795 
@@ -7656,7 +7660,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -7791,7 +7795,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -7936,7 +7940,7 @@
 │                              │                  ├ [28] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [29] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                              │                  ├ [30] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                              │                  ├ [31] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [32] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
