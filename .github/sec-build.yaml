@@ -2045,11 +2045,12 @@
     - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
     - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://security.netapp.com/advisory/ntap-20240208-0006/
     - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
-    LastModifiedDate: '2024-02-02T15:53:24.32Z'
+    LastModifiedDate: '2024-02-08T10:15:13.91Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
@@ -3125,11 +3126,12 @@
     - https://github.openssl.org/openssl/extended-releases/commit/03b3941d60c4bce58fab69a0c22377ab439bc0e8
     - https://github.openssl.org/openssl/extended-releases/commit/aebaa5883e31122b404e450732dc833dc9dee539
     - https://nvd.nist.gov/vuln/detail/CVE-2024-0727
+    - https://security.netapp.com/advisory/ntap-20240208-0006/
     - https://ubuntu.com/security/notices/USN-6622-1
     - https://www.cve.org/CVERecord?id=CVE-2024-0727
     - https://www.openssl.org/news/secadv/20240125.txt
     PublishedDate: '2024-01-26T09:15:07.637Z'
-    LastModifiedDate: '2024-02-02T15:53:24.32Z'
+    LastModifiedDate: '2024-02-08T10:15:13.91Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: passwd@1:4.8.1-2ubuntu2.1
     PkgName: passwd
@@ -3634,10 +3636,10 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'vim: Stack buffer over flow in did_set_langmap function in map.c'
     Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
-    Severity: MEDIUM
+    Severity: LOW
     VendorSeverity:
-      redhat: 2
-      ubuntu: 2
+      redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -3669,10 +3671,10 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'vim: Stack buffer over flow in did_set_langmap function in map.c'
     Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
-    Severity: MEDIUM
+    Severity: LOW
     VendorSeverity:
-      redhat: 2
-      ubuntu: 2
+      redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -3704,10 +3706,10 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'vim: Stack buffer over flow in did_set_langmap function in map.c'
     Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
-    Severity: MEDIUM
+    Severity: LOW
     VendorSeverity:
-      redhat: 2
-      ubuntu: 2
+      redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
@@ -3786,10 +3788,10 @@
       URL: https://git.launchpad.net/ubuntu-cve-tracker
     Title: 'vim: Stack buffer over flow in did_set_langmap function in map.c'
     Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
-    Severity: MEDIUM
+    Severity: LOW
     VendorSeverity:
-      redhat: 2
-      ubuntu: 2
+      redhat: 1
+      ubuntu: 1
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
