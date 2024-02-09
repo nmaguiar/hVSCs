@@ -2423,11 +2423,13 @@
 │                        │      │                  │       eases/commit/aebaa5883e31122b404e450732dc833dc9dee53
 │                        │      │                  │       9 
 │                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6622-1 
-│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-│                        │      │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
+│                        │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       208-0006/ 
+│                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6622-1 
+│                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+│                        │      │                  ╰ [12]: https://www.openssl.org/news/secadv/20240125.txt 
 │                        │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
-│                        │      ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
+│                        │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
 │                        ├ [41] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
@@ -3692,11 +3694,13 @@
 │                        │      │                  │       eases/commit/aebaa5883e31122b404e450732dc833dc9dee53
 │                        │      │                  │       9 
 │                        │      │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2024-0727 
-│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6622-1 
-│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
-│                        │      │                  ╰ [11]: https://www.openssl.org/news/secadv/20240125.txt 
+│                        │      │                  ├ [9] : https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       208-0006/ 
+│                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6622-1 
+│                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-0727 
+│                        │      │                  ╰ [12]: https://www.openssl.org/news/secadv/20240125.txt 
 │                        │      ├ PublishedDate   : 2024-01-26T09:15:07.637Z 
-│                        │      ╰ LastModifiedDate: 2024-02-02T15:53:24.32Z 
+│                        │      ╰ LastModifiedDate: 2024-02-08T10:15:13.91Z 
 │                        ├ [63] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.1 
 │                        │      ├ PkgName         : passwd 
@@ -4343,9 +4347,9 @@
 │                        │      │                   because did_set_langmap in map.c calls sprintf to write to
 │                        │      │                   the error buffer that is passed down to the option callback
 │                        │      │                    functions. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :H/I:H/A:H 
 │                        │      │                           ╰ V3Score : 8.4 
@@ -4383,9 +4387,9 @@
 │                        │      │                   because did_set_langmap in map.c calls sprintf to write to
 │                        │      │                   the error buffer that is passed down to the option callback
 │                        │      │                    functions. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :H/I:H/A:H 
 │                        │      │                           ╰ V3Score : 8.4 
@@ -4423,9 +4427,9 @@
 │                        │      │                   because did_set_langmap in map.c calls sprintf to write to
 │                        │      │                   the error buffer that is passed down to the option callback
 │                        │      │                    functions. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :H/I:H/A:H 
 │                        │      │                           ╰ V3Score : 8.4 
@@ -4511,9 +4515,9 @@
 │                        │      │                   because did_set_langmap in map.c calls sprintf to write to
 │                        │      │                   the error buffer that is passed down to the option callback
 │                        │      │                    functions. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :H/I:H/A:H 
 │                        │      │                           ╰ V3Score : 8.4 
