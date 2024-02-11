@@ -9,6 +9,7 @@ RUN apt-get update\
  && chmod a+x /opt/oaf/*-sb\
  && curl https://get.docker.com | sh\
  && opack install ojob-common\
+ && opack install oafproc\
  && ojob ojob.io/docker/k3d\
  && ojob ojob.io/kube/getKubectl path=/usr/bin\
  && ojob ojob.io/docker/compose path=/usr/bin\
