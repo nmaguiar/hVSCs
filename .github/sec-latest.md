@@ -3402,30 +3402,32 @@
 │                        │      │                           ╰ V3Score : 7.3 
 │                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /02/08/2 
-│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /02/11/1 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -24806 
-│                        │      │                  ├ [2] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [3] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24806 
-│                        │      │                  ├ [3] : https://github.com/libuv/libuv/commit/0f2d7e784
-│                        │      │                  │       a256b54b2385043438848047bc2a629 
 │                        │      │                  ├ [4] : https://github.com/libuv/libuv/commit/0f2d7e784
+│                        │      │                  │       a256b54b2385043438848047bc2a629 
+│                        │      │                  ├ [5] : https://github.com/libuv/libuv/commit/0f2d7e784
 │                        │      │                  │       a256b54b2385043438848047bc2a629 (v1.48.0) 
-│                        │      │                  ├ [5] : https://github.com/libuv/libuv/commit/3530bcc30
-│                        │      │                  │       350d4a6ccf35d2f7b33e23292b9de70 
 │                        │      │                  ├ [6] : https://github.com/libuv/libuv/commit/3530bcc30
+│                        │      │                  │       350d4a6ccf35d2f7b33e23292b9de70 
+│                        │      │                  ├ [7] : https://github.com/libuv/libuv/commit/3530bcc30
 │                        │      │                  │       350d4a6ccf35d2f7b33e23292b9de70 (v1.48.0) 
-│                        │      │                  ├ [7] : https://github.com/libuv/libuv/commit/c858a1476
+│                        │      │                  ├ [8] : https://github.com/libuv/libuv/commit/c858a1476
 │                        │      │                  │       43de38a09dd4164758ae5b685f2b488 
-│                        │      │                  ├ [8] : https://github.com/libuv/libuv/commit/e0327e1d5
-│                        │      │                  │       08b8207c9150b6e582f0adf26213c39 
 │                        │      │                  ├ [9] : https://github.com/libuv/libuv/commit/e0327e1d5
+│                        │      │                  │       08b8207c9150b6e582f0adf26213c39 
+│                        │      │                  ├ [10]: https://github.com/libuv/libuv/commit/e0327e1d5
 │                        │      │                  │       08b8207c9150b6e582f0adf26213c39 (v1.48.0) 
-│                        │      │                  ├ [10]: https://github.com/libuv/libuv/security/advisor
+│                        │      │                  ├ [11]: https://github.com/libuv/libuv/security/advisor
 │                        │      │                  │       ies/GHSA-f74f-cvh7-c6q6 
-│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-24806 
-│                        │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-24806 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-24806 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-24806 
 │                        │      ├ PublishedDate   : 2024-02-07T22:15:10.173Z 
-│                        │      ╰ LastModifiedDate: 2024-02-08T22:15:09.2Z 
+│                        │      ╰ LastModifiedDate: 2024-02-11T21:15:45.98Z 
 │                        ├ [60] ╭ VulnerabilityID : CVE-2024-25062 
 │                        │      ├ PkgID           : libxml2@2.9.13+dfsg-1ubuntu0.3 
 │                        │      ├ PkgName         : libxml2 
@@ -5477,7 +5479,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -6150,7 +6152,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -7441,13 +7443,16 @@
 │                        │     │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-21626.html 
 │                        │     │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-17931.html 
 │                        │     │                  ├ [14]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/2NLXNE
+│                        │     │                  │       23Q5ESQUAI22Z7A63JX2WMPJ2J/ 
+│                        │     │                  ├ [15]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/SYMO3B
 │                        │     │                  │       ANINS6RGFQFKPRG4FIOJ7GWYTL/ 
-│                        │     │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-21626 
-│                        │     │                  ├ [16]: https://ubuntu.com/security/notices/USN-6619-1 
-│                        │     │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-21626 
+│                        │     │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-21626 
+│                        │     │                  ├ [17]: https://ubuntu.com/security/notices/USN-6619-1 
+│                        │     │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2024-21626 
 │                        │     ├ PublishedDate   : 2024-01-31T22:15:53.78Z 
-│                        │     ╰ LastModifiedDate: 2024-02-09T15:38:09.697Z 
+│                        │     ╰ LastModifiedDate: 2024-02-11T06:15:11.683Z 
 │                        ├ [3] ╭ VulnerabilityID : CVE-2023-48795 
 │                        │     ├ PkgName         : golang.org/x/crypto 
 │                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/crypto@v0.9.0 
@@ -7981,7 +7986,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
