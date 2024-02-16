@@ -95,6 +95,660 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3715
     PublishedDate: '2023-01-05T15:15:10.41Z'
     LastModifiedDate: '2023-02-24T18:38:10.793Z'
+  - VulnerabilityID: CVE-2023-4408
+    PkgID: bind9-dnsutils@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4408
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Parsing large DNS messages may cause excessive CPU load'
+    Description: |-
+      The DNS message parsing code in `named` includes a section whose computational complexity is overly high. It does not cause problems for typical DNS traffic, but crafted queries and responses may cause excessive CPU load on the affected `named` instance by exploiting this flaw. This issue affects both authoritative servers and recursive resolvers.
+      This issue affects BIND 9 versions 9.0.0 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.9.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-4408
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4408
+    - https://kb.isc.org/docs/cve-2023-4408
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4408
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-4408
+    PublishedDate: '2024-02-13T14:15:45.253Z'
+    LastModifiedDate: '2024-02-13T16:15:08.45Z'
+  - VulnerabilityID: CVE-2023-50387
+    PkgID: bind9-dnsutils@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50387
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: KeyTrap - Extreme CPU consumption in DNSSEC validator'
+    Description: Certain DNSSEC aspects of the DNS protocol (in RFC 4033, 4034, 4035, 6840, and related RFCs) allow remote attackers to cause a denial of service (CPU consumption) via one or more DNSSEC responses, aka the "KeyTrap" issue. One of the concerns is that, when there is a zone with many DNSKEY and RRSIG records, the protocol specification implies that an algorithm must evaluate all combinations of DNSKEY and RRSIG records.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-50387
+    - https://blog.powerdns.com/2024/02/13/powerdns-recursor-4-8-6-4-9-3-5-0-2-released
+    - https://bugzilla.suse.com/show_bug.cgi?id=1219823
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50387
+    - https://docs.powerdns.com/recursor/security-advisories/powerdns-advisory-2024-01.html
+    - https://gitlab.nic.cz/knot/knot-resolver/-/releases/v5.7.1
+    - https://kb.isc.org/docs/cve-2023-50387
+    - https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2024q1/017430.html
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-50387
+    - https://news.ycombinator.com/item?id=39367411
+    - https://news.ycombinator.com/item?id=39372384
+    - https://nlnetlabs.nl/downloads/unbound/CVE-2023-50387_CVE-2023-50868.txt
+    - https://nlnetlabs.nl/news/2024/Feb/13/unbound-1.19.1-released/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-50387
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.athene-center.de/aktuelles/key-trap
+    - https://www.athene-center.de/fileadmin/content/PDF/Technical_Report_KeyTrap.pdf
+    - https://www.cve.org/CVERecord?id=CVE-2023-50387
+    - https://www.isc.org/blogs/2024-bind-security-release/
+    - https://www.knot-resolver.cz/2024-02-13-knot-resolver-5.7.1.html
+    - https://www.securityweek.com/keytrap-dns-attack-could-disable-large-parts-of-internet-researchers/
+    - https://www.theregister.com/2024/02/13/dnssec_vulnerability_internet/
+    PublishedDate: '2024-02-14T16:15:45.3Z'
+    LastModifiedDate: '2024-02-15T19:15:14.64Z'
+  - VulnerabilityID: CVE-2023-50868
+    PkgID: bind9-dnsutils@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50868
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Preparing an NSEC3 closest encloser proof can exhaust CPU resources'
+    Description: The Closest Encloser Proof aspect of the DNS protocol (in RFC 5155 when RFC 9276 guidance is skipped) allows remote attackers to cause a denial of service (CPU consumption for SHA-1 computations) via DNSSEC responses in a random subdomain attack, aka the "NSEC3" issue. The RFC 5155 specification implies that an algorithm must perform thousands of iterations of a hash function in certain situations.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-50868
+    - https://blog.powerdns.com/2024/02/13/powerdns-recursor-4-8-6-4-9-3-5-0-2-released
+    - https://bugzilla.suse.com/show_bug.cgi?id=1219826
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50868
+    - https://datatracker.ietf.org/doc/html/rfc5155
+    - https://docs.powerdns.com/recursor/security-advisories/powerdns-advisory-2024-01.html
+    - https://gitlab.nic.cz/knot/knot-resolver/-/releases/v5.7.1
+    - https://kb.isc.org/docs/cve-2023-50868
+    - https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2024q1/017430.html
+    - https://nlnetlabs.nl/downloads/unbound/CVE-2023-50387_CVE-2023-50868.txt
+    - https://nlnetlabs.nl/news/2024/Feb/13/unbound-1.19.1-released/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-50868
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-50868
+    - https://www.isc.org/blogs/2024-bind-security-release/
+    - https://www.knot-resolver.cz/2024-02-13-knot-resolver-5.7.1.html
+    PublishedDate: '2024-02-14T16:15:45.377Z'
+    LastModifiedDate: '2024-02-15T01:15:08.047Z'
+  - VulnerabilityID: CVE-2023-5517
+    PkgID: bind9-dnsutils@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5517
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Querying RFC 1918 reverse zones may cause an assertion failure when “nxdomain-redirect” is enabled'
+    Description: |-
+      A flaw in query-handling code can cause `named` to exit prematurely with an assertion failure when:
+
+        - `nxdomain-redirect <domain>;` is configured, and
+        - the resolver receives a PTR query for an RFC 1918 address that would normally result in an authoritative NXDOMAIN response.
+      This issue affects BIND 9 versions 9.12.0 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.16.8-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-5517
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5517
+    - https://kb.isc.org/docs/cve-2023-5517
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5517
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5517
+    PublishedDate: '2024-02-13T14:15:45.51Z'
+    LastModifiedDate: '2024-02-13T16:15:08.55Z'
+  - VulnerabilityID: CVE-2023-5679
+    PkgID: bind9-dnsutils@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-dnsutils@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5679
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Enabling both DNS64 and serve-stale may cause an assertion failure during recursive resolution'
+    Description: |-
+      A bad interaction between DNS64 and serve-stale may cause `named` to crash with an assertion failure during recursive resolution, when both of these features are enabled.
+      This issue affects BIND 9 versions 9.16.12 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.16.12-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-5679
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5679
+    - https://kb.isc.org/docs/cve-2023-5679
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5679
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5679
+    PublishedDate: '2024-02-13T14:15:45.677Z'
+    LastModifiedDate: '2024-02-13T16:15:08.647Z'
+  - VulnerabilityID: CVE-2023-4408
+    PkgID: bind9-host@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4408
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Parsing large DNS messages may cause excessive CPU load'
+    Description: |-
+      The DNS message parsing code in `named` includes a section whose computational complexity is overly high. It does not cause problems for typical DNS traffic, but crafted queries and responses may cause excessive CPU load on the affected `named` instance by exploiting this flaw. This issue affects both authoritative servers and recursive resolvers.
+      This issue affects BIND 9 versions 9.0.0 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.9.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-4408
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4408
+    - https://kb.isc.org/docs/cve-2023-4408
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4408
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-4408
+    PublishedDate: '2024-02-13T14:15:45.253Z'
+    LastModifiedDate: '2024-02-13T16:15:08.45Z'
+  - VulnerabilityID: CVE-2023-50387
+    PkgID: bind9-host@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50387
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: KeyTrap - Extreme CPU consumption in DNSSEC validator'
+    Description: Certain DNSSEC aspects of the DNS protocol (in RFC 4033, 4034, 4035, 6840, and related RFCs) allow remote attackers to cause a denial of service (CPU consumption) via one or more DNSSEC responses, aka the "KeyTrap" issue. One of the concerns is that, when there is a zone with many DNSKEY and RRSIG records, the protocol specification implies that an algorithm must evaluate all combinations of DNSKEY and RRSIG records.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-50387
+    - https://blog.powerdns.com/2024/02/13/powerdns-recursor-4-8-6-4-9-3-5-0-2-released
+    - https://bugzilla.suse.com/show_bug.cgi?id=1219823
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50387
+    - https://docs.powerdns.com/recursor/security-advisories/powerdns-advisory-2024-01.html
+    - https://gitlab.nic.cz/knot/knot-resolver/-/releases/v5.7.1
+    - https://kb.isc.org/docs/cve-2023-50387
+    - https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2024q1/017430.html
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-50387
+    - https://news.ycombinator.com/item?id=39367411
+    - https://news.ycombinator.com/item?id=39372384
+    - https://nlnetlabs.nl/downloads/unbound/CVE-2023-50387_CVE-2023-50868.txt
+    - https://nlnetlabs.nl/news/2024/Feb/13/unbound-1.19.1-released/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-50387
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.athene-center.de/aktuelles/key-trap
+    - https://www.athene-center.de/fileadmin/content/PDF/Technical_Report_KeyTrap.pdf
+    - https://www.cve.org/CVERecord?id=CVE-2023-50387
+    - https://www.isc.org/blogs/2024-bind-security-release/
+    - https://www.knot-resolver.cz/2024-02-13-knot-resolver-5.7.1.html
+    - https://www.securityweek.com/keytrap-dns-attack-could-disable-large-parts-of-internet-researchers/
+    - https://www.theregister.com/2024/02/13/dnssec_vulnerability_internet/
+    PublishedDate: '2024-02-14T16:15:45.3Z'
+    LastModifiedDate: '2024-02-15T19:15:14.64Z'
+  - VulnerabilityID: CVE-2023-50868
+    PkgID: bind9-host@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50868
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Preparing an NSEC3 closest encloser proof can exhaust CPU resources'
+    Description: The Closest Encloser Proof aspect of the DNS protocol (in RFC 5155 when RFC 9276 guidance is skipped) allows remote attackers to cause a denial of service (CPU consumption for SHA-1 computations) via DNSSEC responses in a random subdomain attack, aka the "NSEC3" issue. The RFC 5155 specification implies that an algorithm must perform thousands of iterations of a hash function in certain situations.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-50868
+    - https://blog.powerdns.com/2024/02/13/powerdns-recursor-4-8-6-4-9-3-5-0-2-released
+    - https://bugzilla.suse.com/show_bug.cgi?id=1219826
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50868
+    - https://datatracker.ietf.org/doc/html/rfc5155
+    - https://docs.powerdns.com/recursor/security-advisories/powerdns-advisory-2024-01.html
+    - https://gitlab.nic.cz/knot/knot-resolver/-/releases/v5.7.1
+    - https://kb.isc.org/docs/cve-2023-50868
+    - https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2024q1/017430.html
+    - https://nlnetlabs.nl/downloads/unbound/CVE-2023-50387_CVE-2023-50868.txt
+    - https://nlnetlabs.nl/news/2024/Feb/13/unbound-1.19.1-released/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-50868
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-50868
+    - https://www.isc.org/blogs/2024-bind-security-release/
+    - https://www.knot-resolver.cz/2024-02-13-knot-resolver-5.7.1.html
+    PublishedDate: '2024-02-14T16:15:45.377Z'
+    LastModifiedDate: '2024-02-15T01:15:08.047Z'
+  - VulnerabilityID: CVE-2023-5517
+    PkgID: bind9-host@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5517
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Querying RFC 1918 reverse zones may cause an assertion failure when “nxdomain-redirect” is enabled'
+    Description: |-
+      A flaw in query-handling code can cause `named` to exit prematurely with an assertion failure when:
+
+        - `nxdomain-redirect <domain>;` is configured, and
+        - the resolver receives a PTR query for an RFC 1918 address that would normally result in an authoritative NXDOMAIN response.
+      This issue affects BIND 9 versions 9.12.0 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.16.8-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-5517
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5517
+    - https://kb.isc.org/docs/cve-2023-5517
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5517
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5517
+    PublishedDate: '2024-02-13T14:15:45.51Z'
+    LastModifiedDate: '2024-02-13T16:15:08.55Z'
+  - VulnerabilityID: CVE-2023-5679
+    PkgID: bind9-host@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-host
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-host@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5679
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Enabling both DNS64 and serve-stale may cause an assertion failure during recursive resolution'
+    Description: |-
+      A bad interaction between DNS64 and serve-stale may cause `named` to crash with an assertion failure during recursive resolution, when both of these features are enabled.
+      This issue affects BIND 9 versions 9.16.12 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.16.12-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-5679
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5679
+    - https://kb.isc.org/docs/cve-2023-5679
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5679
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5679
+    PublishedDate: '2024-02-13T14:15:45.677Z'
+    LastModifiedDate: '2024-02-13T16:15:08.647Z'
+  - VulnerabilityID: CVE-2023-4408
+    PkgID: bind9-libs@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4408
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Parsing large DNS messages may cause excessive CPU load'
+    Description: |-
+      The DNS message parsing code in `named` includes a section whose computational complexity is overly high. It does not cause problems for typical DNS traffic, but crafted queries and responses may cause excessive CPU load on the affected `named` instance by exploiting this flaw. This issue affects both authoritative servers and recursive resolvers.
+      This issue affects BIND 9 versions 9.0.0 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.9.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-4408
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4408
+    - https://kb.isc.org/docs/cve-2023-4408
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4408
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-4408
+    PublishedDate: '2024-02-13T14:15:45.253Z'
+    LastModifiedDate: '2024-02-13T16:15:08.45Z'
+  - VulnerabilityID: CVE-2023-50387
+    PkgID: bind9-libs@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50387
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: KeyTrap - Extreme CPU consumption in DNSSEC validator'
+    Description: Certain DNSSEC aspects of the DNS protocol (in RFC 4033, 4034, 4035, 6840, and related RFCs) allow remote attackers to cause a denial of service (CPU consumption) via one or more DNSSEC responses, aka the "KeyTrap" issue. One of the concerns is that, when there is a zone with many DNSKEY and RRSIG records, the protocol specification implies that an algorithm must evaluate all combinations of DNSKEY and RRSIG records.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-50387
+    - https://blog.powerdns.com/2024/02/13/powerdns-recursor-4-8-6-4-9-3-5-0-2-released
+    - https://bugzilla.suse.com/show_bug.cgi?id=1219823
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50387
+    - https://docs.powerdns.com/recursor/security-advisories/powerdns-advisory-2024-01.html
+    - https://gitlab.nic.cz/knot/knot-resolver/-/releases/v5.7.1
+    - https://kb.isc.org/docs/cve-2023-50387
+    - https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2024q1/017430.html
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-50387
+    - https://news.ycombinator.com/item?id=39367411
+    - https://news.ycombinator.com/item?id=39372384
+    - https://nlnetlabs.nl/downloads/unbound/CVE-2023-50387_CVE-2023-50868.txt
+    - https://nlnetlabs.nl/news/2024/Feb/13/unbound-1.19.1-released/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-50387
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.athene-center.de/aktuelles/key-trap
+    - https://www.athene-center.de/fileadmin/content/PDF/Technical_Report_KeyTrap.pdf
+    - https://www.cve.org/CVERecord?id=CVE-2023-50387
+    - https://www.isc.org/blogs/2024-bind-security-release/
+    - https://www.knot-resolver.cz/2024-02-13-knot-resolver-5.7.1.html
+    - https://www.securityweek.com/keytrap-dns-attack-could-disable-large-parts-of-internet-researchers/
+    - https://www.theregister.com/2024/02/13/dnssec_vulnerability_internet/
+    PublishedDate: '2024-02-14T16:15:45.3Z'
+    LastModifiedDate: '2024-02-15T19:15:14.64Z'
+  - VulnerabilityID: CVE-2023-50868
+    PkgID: bind9-libs@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50868
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Preparing an NSEC3 closest encloser proof can exhaust CPU resources'
+    Description: The Closest Encloser Proof aspect of the DNS protocol (in RFC 5155 when RFC 9276 guidance is skipped) allows remote attackers to cause a denial of service (CPU consumption for SHA-1 computations) via DNSSEC responses in a random subdomain attack, aka the "NSEC3" issue. The RFC 5155 specification implies that an algorithm must perform thousands of iterations of a hash function in certain situations.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-50868
+    - https://blog.powerdns.com/2024/02/13/powerdns-recursor-4-8-6-4-9-3-5-0-2-released
+    - https://bugzilla.suse.com/show_bug.cgi?id=1219826
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50868
+    - https://datatracker.ietf.org/doc/html/rfc5155
+    - https://docs.powerdns.com/recursor/security-advisories/powerdns-advisory-2024-01.html
+    - https://gitlab.nic.cz/knot/knot-resolver/-/releases/v5.7.1
+    - https://kb.isc.org/docs/cve-2023-50868
+    - https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2024q1/017430.html
+    - https://nlnetlabs.nl/downloads/unbound/CVE-2023-50387_CVE-2023-50868.txt
+    - https://nlnetlabs.nl/news/2024/Feb/13/unbound-1.19.1-released/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-50868
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-50868
+    - https://www.isc.org/blogs/2024-bind-security-release/
+    - https://www.knot-resolver.cz/2024-02-13-knot-resolver-5.7.1.html
+    PublishedDate: '2024-02-14T16:15:45.377Z'
+    LastModifiedDate: '2024-02-15T01:15:08.047Z'
+  - VulnerabilityID: CVE-2023-5517
+    PkgID: bind9-libs@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5517
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Querying RFC 1918 reverse zones may cause an assertion failure when “nxdomain-redirect” is enabled'
+    Description: |-
+      A flaw in query-handling code can cause `named` to exit prematurely with an assertion failure when:
+
+        - `nxdomain-redirect <domain>;` is configured, and
+        - the resolver receives a PTR query for an RFC 1918 address that would normally result in an authoritative NXDOMAIN response.
+      This issue affects BIND 9 versions 9.12.0 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.16.8-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-5517
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5517
+    - https://kb.isc.org/docs/cve-2023-5517
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5517
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5517
+    PublishedDate: '2024-02-13T14:15:45.51Z'
+    LastModifiedDate: '2024-02-13T16:15:08.55Z'
+  - VulnerabilityID: CVE-2023-5679
+    PkgID: bind9-libs@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: bind9-libs
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bind9-libs@9.18.18-0ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5679
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Enabling both DNS64 and serve-stale may cause an assertion failure during recursive resolution'
+    Description: |-
+      A bad interaction between DNS64 and serve-stale may cause `named` to crash with an assertion failure during recursive resolution, when both of these features are enabled.
+      This issue affects BIND 9 versions 9.16.12 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.16.12-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-5679
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5679
+    - https://kb.isc.org/docs/cve-2023-5679
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5679
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5679
+    PublishedDate: '2024-02-13T14:15:45.677Z'
+    LastModifiedDate: '2024-02-13T16:15:08.647Z'
   - VulnerabilityID: CVE-2016-2781
     PkgID: coreutils@8.32-4.1ubuntu1
     PkgName: coreutils
@@ -169,6 +823,7 @@
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -186,7 +841,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -223,6 +878,7 @@
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -240,7 +896,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -296,6 +952,224 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2023-05-26T16:31:34.07Z'
+  - VulnerabilityID: CVE-2023-4408
+    PkgID: dnsutils@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dnsutils@9.18.18-0ubuntu0.22.04.1?arch=all&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-4408
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Parsing large DNS messages may cause excessive CPU load'
+    Description: |-
+      The DNS message parsing code in `named` includes a section whose computational complexity is overly high. It does not cause problems for typical DNS traffic, but crafted queries and responses may cause excessive CPU load on the affected `named` instance by exploiting this flaw. This issue affects both authoritative servers and recursive resolvers.
+      This issue affects BIND 9 versions 9.0.0 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.9.3-S1 through 9.11.37-S1, 9.16.8-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-4408
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4408
+    - https://kb.isc.org/docs/cve-2023-4408
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-4408
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-4408
+    PublishedDate: '2024-02-13T14:15:45.253Z'
+    LastModifiedDate: '2024-02-13T16:15:08.45Z'
+  - VulnerabilityID: CVE-2023-50387
+    PkgID: dnsutils@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dnsutils@9.18.18-0ubuntu0.22.04.1?arch=all&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50387
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: KeyTrap - Extreme CPU consumption in DNSSEC validator'
+    Description: Certain DNSSEC aspects of the DNS protocol (in RFC 4033, 4034, 4035, 6840, and related RFCs) allow remote attackers to cause a denial of service (CPU consumption) via one or more DNSSEC responses, aka the "KeyTrap" issue. One of the concerns is that, when there is a zone with many DNSKEY and RRSIG records, the protocol specification implies that an algorithm must evaluate all combinations of DNSKEY and RRSIG records.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-50387
+    - https://blog.powerdns.com/2024/02/13/powerdns-recursor-4-8-6-4-9-3-5-0-2-released
+    - https://bugzilla.suse.com/show_bug.cgi?id=1219823
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50387
+    - https://docs.powerdns.com/recursor/security-advisories/powerdns-advisory-2024-01.html
+    - https://gitlab.nic.cz/knot/knot-resolver/-/releases/v5.7.1
+    - https://kb.isc.org/docs/cve-2023-50387
+    - https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2024q1/017430.html
+    - https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-50387
+    - https://news.ycombinator.com/item?id=39367411
+    - https://news.ycombinator.com/item?id=39372384
+    - https://nlnetlabs.nl/downloads/unbound/CVE-2023-50387_CVE-2023-50868.txt
+    - https://nlnetlabs.nl/news/2024/Feb/13/unbound-1.19.1-released/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-50387
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.athene-center.de/aktuelles/key-trap
+    - https://www.athene-center.de/fileadmin/content/PDF/Technical_Report_KeyTrap.pdf
+    - https://www.cve.org/CVERecord?id=CVE-2023-50387
+    - https://www.isc.org/blogs/2024-bind-security-release/
+    - https://www.knot-resolver.cz/2024-02-13-knot-resolver-5.7.1.html
+    - https://www.securityweek.com/keytrap-dns-attack-could-disable-large-parts-of-internet-researchers/
+    - https://www.theregister.com/2024/02/13/dnssec_vulnerability_internet/
+    PublishedDate: '2024-02-14T16:15:45.3Z'
+    LastModifiedDate: '2024-02-15T19:15:14.64Z'
+  - VulnerabilityID: CVE-2023-50868
+    PkgID: dnsutils@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dnsutils@9.18.18-0ubuntu0.22.04.1?arch=all&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-50868
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Preparing an NSEC3 closest encloser proof can exhaust CPU resources'
+    Description: The Closest Encloser Proof aspect of the DNS protocol (in RFC 5155 when RFC 9276 guidance is skipped) allows remote attackers to cause a denial of service (CPU consumption for SHA-1 computations) via DNSSEC responses in a random subdomain attack, aka the "NSEC3" issue. The RFC 5155 specification implies that an algorithm must perform thousands of iterations of a hash function in certain situations.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-50868
+    - https://blog.powerdns.com/2024/02/13/powerdns-recursor-4-8-6-4-9-3-5-0-2-released
+    - https://bugzilla.suse.com/show_bug.cgi?id=1219826
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50868
+    - https://datatracker.ietf.org/doc/html/rfc5155
+    - https://docs.powerdns.com/recursor/security-advisories/powerdns-advisory-2024-01.html
+    - https://gitlab.nic.cz/knot/knot-resolver/-/releases/v5.7.1
+    - https://kb.isc.org/docs/cve-2023-50868
+    - https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2024q1/017430.html
+    - https://nlnetlabs.nl/downloads/unbound/CVE-2023-50387_CVE-2023-50868.txt
+    - https://nlnetlabs.nl/news/2024/Feb/13/unbound-1.19.1-released/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-50868
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-50868
+    - https://www.isc.org/blogs/2024-bind-security-release/
+    - https://www.knot-resolver.cz/2024-02-13-knot-resolver-5.7.1.html
+    PublishedDate: '2024-02-14T16:15:45.377Z'
+    LastModifiedDate: '2024-02-15T01:15:08.047Z'
+  - VulnerabilityID: CVE-2023-5517
+    PkgID: dnsutils@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dnsutils@9.18.18-0ubuntu0.22.04.1?arch=all&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5517
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Querying RFC 1918 reverse zones may cause an assertion failure when “nxdomain-redirect” is enabled'
+    Description: |-
+      A flaw in query-handling code can cause `named` to exit prematurely with an assertion failure when:
+
+        - `nxdomain-redirect <domain>;` is configured, and
+        - the resolver receives a PTR query for an RFC 1918 address that would normally result in an authoritative NXDOMAIN response.
+      This issue affects BIND 9 versions 9.12.0 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.16.8-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-5517
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5517
+    - https://kb.isc.org/docs/cve-2023-5517
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5517
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5517
+    PublishedDate: '2024-02-13T14:15:45.51Z'
+    LastModifiedDate: '2024-02-13T16:15:08.55Z'
+  - VulnerabilityID: CVE-2023-5679
+    PkgID: dnsutils@1:9.18.18-0ubuntu0.22.04.1
+    PkgName: dnsutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/dnsutils@9.18.18-0ubuntu0.22.04.1?arch=all&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:9.18.18-0ubuntu0.22.04.1
+    FixedVersion: 1:9.18.18-0ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-5679
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'bind9: Enabling both DNS64 and serve-stale may cause an assertion failure during recursive resolution'
+    Description: |-
+      A bad interaction between DNS64 and serve-stale may cause `named` to crash with an assertion failure during recursive resolution, when both of these features are enabled.
+      This issue affects BIND 9 versions 9.16.12 through 9.16.45, 9.18.0 through 9.18.21, 9.19.0 through 9.19.19, 9.16.12-S1 through 9.16.45-S1, and 9.18.11-S1 through 9.18.21-S1.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/02/13/1
+    - https://access.redhat.com/security/cve/CVE-2023-5679
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5679
+    - https://kb.isc.org/docs/cve-2023-5679
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-5679
+    - https://ubuntu.com/security/notices/USN-6633-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-5679
+    PublishedDate: '2024-02-13T14:15:45.677Z'
+    LastModifiedDate: '2024-02-13T16:15:08.647Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: gcc-12-base@12.3.0-1ubuntu1~22.04
     PkgName: gcc-12-base
@@ -1058,6 +1932,7 @@
       cbl-mariner: 2
       nvd: 2
       oracle-oval: 2
+      photon: 2
       redhat: 2
       rocky: 2
       ubuntu: 1
@@ -1075,7 +1950,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1117,8 +1992,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.5
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
-        V3Score: 5.3
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-52426
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52426
@@ -2187,9 +3062,13 @@
     CweIDs:
     - CWE-918
     VendorSeverity:
+      nvd: 4
       redhat: 2
       ubuntu: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L
         V3Score: 7.3
@@ -2199,17 +3078,14 @@
     - https://access.redhat.com/security/cve/CVE-2024-24806
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24806
     - https://github.com/libuv/libuv/commit/0f2d7e784a256b54b2385043438848047bc2a629
-    - https://github.com/libuv/libuv/commit/0f2d7e784a256b54b2385043438848047bc2a629 (v1.48.0)
     - https://github.com/libuv/libuv/commit/3530bcc30350d4a6ccf35d2f7b33e23292b9de70
-    - https://github.com/libuv/libuv/commit/3530bcc30350d4a6ccf35d2f7b33e23292b9de70 (v1.48.0)
     - https://github.com/libuv/libuv/commit/c858a147643de38a09dd4164758ae5b685f2b488
     - https://github.com/libuv/libuv/commit/e0327e1d508b8207c9150b6e582f0adf26213c39
-    - https://github.com/libuv/libuv/commit/e0327e1d508b8207c9150b6e582f0adf26213c39 (v1.48.0)
     - https://github.com/libuv/libuv/security/advisories/GHSA-f74f-cvh7-c6q6
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24806
     - https://www.cve.org/CVERecord?id=CVE-2024-24806
     PublishedDate: '2024-02-07T22:15:10.173Z'
-    LastModifiedDate: '2024-02-11T21:15:45.98Z'
+    LastModifiedDate: '2024-02-15T05:02:23.02Z'
   - VulnerabilityID: CVE-2024-25062
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.3
     PkgName: libxml2
@@ -2245,8 +3121,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-25062
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25062
-    - https://gitlab.gnome.org/GNOME/libxml2/-/commit/2b0aac140d739905c7848a42efc60bfe783a39b7 (v2.11.7)
-    - https://gitlab.gnome.org/GNOME/libxml2/-/commit/92721970884fcc13305cb8e23cdc5f0dd7667c2c (v2.12.5)
     - https://gitlab.gnome.org/GNOME/libxml2/-/issues/604
     - https://gitlab.gnome.org/GNOME/libxml2/-/tags
     - https://nvd.nist.gov/vuln/detail/CVE-2024-25062
@@ -2302,10 +3176,11 @@
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C63HAGVLQA6FJNDCHR7CNZZL6VSLILB2/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/JEHRBBYYTPA4DETOM5XAKGCP37NUTLOA/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QYLDK6ODVC4LJSDULLX6Q2YHTFOWABCN/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/C63HAGVLQA6FJNDCHR7CNZZL6VSLILB2/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JEHRBBYYTPA4DETOM5XAKGCP37NUTLOA/
-    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QYLDK6ODVC4LJSDULLX6Q2YHTFOWABCN/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/C63HAGVLQA6FJNDCHR7CNZZL6VSLILB2
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JEHRBBYYTPA4DETOM5XAKGCP37NUTLOA
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QYLDK6ODVC4LJSDULLX6Q2YHTFOWABCN
     - https://nvd.nist.gov/vuln/detail/CVE-2022-4899
+    - https://security.netapp.com/advisory/ntap-20230725-0005
     - https://security.netapp.com/advisory/ntap-20230725-0005/
     - https://www.cve.org/CVERecord?id=CVE-2022-4899
     PublishedDate: '2023-03-31T20:15:07.213Z'
@@ -2360,7 +3235,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.1?arch=amd64&distro=ubuntu-22.04&epoch=1
     InstalledVersion: 1:4.8.1-2ubuntu2.1
-    Status: affected
+    FixedVersion: 1:4.8.1-2ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
       DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
@@ -2402,6 +3278,7 @@
     - https://linux.oracle.com/cve/CVE-2023-4641.html
     - https://linux.oracle.com/errata/ELSA-2023-7112.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4641
+    - https://ubuntu.com/security/notices/USN-6640-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4641
     PublishedDate: '2023-12-27T16:15:13.363Z'
     LastModifiedDate: '2024-01-04T17:06:55.393Z'
@@ -2710,7 +3587,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.1?arch=amd64&distro=ubuntu-22.04&epoch=1
     InstalledVersion: 1:4.8.1-2ubuntu2.1
-    Status: affected
+    FixedVersion: 1:4.8.1-2ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
       DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
@@ -2752,6 +3630,7 @@
     - https://linux.oracle.com/cve/CVE-2023-4641.html
     - https://linux.oracle.com/errata/ELSA-2023-7112.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4641
+    - https://ubuntu.com/security/notices/USN-6640-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4641
     PublishedDate: '2023-12-27T16:15:13.363Z'
     LastModifiedDate: '2024-01-04T17:06:55.393Z'
@@ -3101,7 +3980,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.1?arch=amd64&distro=ubuntu-22.04&epoch=1
     InstalledVersion: 1:4.8.1-2ubuntu2.1
-    Status: affected
+    FixedVersion: 1:4.8.1-2ubuntu2.2
+    Status: fixed
     Layer:
       Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
       DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
@@ -3143,6 +4023,7 @@
     - https://linux.oracle.com/cve/CVE-2023-4641.html
     - https://linux.oracle.com/errata/ELSA-2023-7112.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-4641
+    - https://ubuntu.com/security/notices/USN-6640-1
     - https://www.cve.org/CVERecord?id=CVE-2023-4641
     PublishedDate: '2023-12-27T16:15:13.363Z'
     LastModifiedDate: '2024-01-04T17:06:55.393Z'
@@ -3165,10 +4046,16 @@
     Title: 'vim: Stack buffer over flow in did_set_langmap function in map.c'
     Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
     Severity: LOW
+    CweIDs:
+    - CWE-787
     VendorSeverity:
+      nvd: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.4
@@ -3177,10 +4064,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22667
     - https://gist.githubusercontent.com/henices/2467e7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb139266f4497ab7aaa94c7/gistfile1.txt
     - https://github.com/vim/vim/commit/b39b240c386a5a29241415541f1c99e2e6b8ce47
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UI44Y4LJLG34D4HNB6NTPLUPZREHAEL7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UIQLVUSYHDN3644K6EFDI7PRZOTIKXM3/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-22667
     - https://www.cve.org/CVERecord?id=CVE-2024-22667
     PublishedDate: '2024-02-05T08:15:44.11Z'
-    LastModifiedDate: '2024-02-05T13:54:19.31Z'
+    LastModifiedDate: '2024-02-15T03:15:34.767Z'
   - VulnerabilityID: CVE-2024-22667
     PkgID: vim-common@2:8.2.3995-1ubuntu2.15
     PkgName: vim-common
@@ -3200,10 +4089,16 @@
     Title: 'vim: Stack buffer over flow in did_set_langmap function in map.c'
     Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
     Severity: LOW
+    CweIDs:
+    - CWE-787
     VendorSeverity:
+      nvd: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.4
@@ -3212,10 +4107,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22667
     - https://gist.githubusercontent.com/henices/2467e7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb139266f4497ab7aaa94c7/gistfile1.txt
     - https://github.com/vim/vim/commit/b39b240c386a5a29241415541f1c99e2e6b8ce47
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UI44Y4LJLG34D4HNB6NTPLUPZREHAEL7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UIQLVUSYHDN3644K6EFDI7PRZOTIKXM3/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-22667
     - https://www.cve.org/CVERecord?id=CVE-2024-22667
     PublishedDate: '2024-02-05T08:15:44.11Z'
-    LastModifiedDate: '2024-02-05T13:54:19.31Z'
+    LastModifiedDate: '2024-02-15T03:15:34.767Z'
   - VulnerabilityID: CVE-2024-22667
     PkgID: vim-runtime@2:8.2.3995-1ubuntu2.15
     PkgName: vim-runtime
@@ -3235,10 +4132,16 @@
     Title: 'vim: Stack buffer over flow in did_set_langmap function in map.c'
     Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
     Severity: LOW
+    CweIDs:
+    - CWE-787
     VendorSeverity:
+      nvd: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.4
@@ -3247,10 +4150,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22667
     - https://gist.githubusercontent.com/henices/2467e7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb139266f4497ab7aaa94c7/gistfile1.txt
     - https://github.com/vim/vim/commit/b39b240c386a5a29241415541f1c99e2e6b8ce47
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UI44Y4LJLG34D4HNB6NTPLUPZREHAEL7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UIQLVUSYHDN3644K6EFDI7PRZOTIKXM3/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-22667
     - https://www.cve.org/CVERecord?id=CVE-2024-22667
     PublishedDate: '2024-02-05T08:15:44.11Z'
-    LastModifiedDate: '2024-02-05T13:54:19.31Z'
+    LastModifiedDate: '2024-02-15T03:15:34.767Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1
     PkgName: wget
@@ -3317,10 +4222,16 @@
     Title: 'vim: Stack buffer over flow in did_set_langmap function in map.c'
     Description: Vim before 9.0.2142 has a stack-based buffer overflow because did_set_langmap in map.c calls sprintf to write to the error buffer that is passed down to the option callback functions.
     Severity: LOW
+    CweIDs:
+    - CWE-787
     VendorSeverity:
+      nvd: 3
       redhat: 1
       ubuntu: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 7.8
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.4
@@ -3329,10 +4240,12 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22667
     - https://gist.githubusercontent.com/henices/2467e7f22dcc2aa97a2453e197b55a0c/raw/7b54bccc9a129c604fb139266f4497ab7aaa94c7/gistfile1.txt
     - https://github.com/vim/vim/commit/b39b240c386a5a29241415541f1c99e2e6b8ce47
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UI44Y4LJLG34D4HNB6NTPLUPZREHAEL7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/UIQLVUSYHDN3644K6EFDI7PRZOTIKXM3/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-22667
     - https://www.cve.org/CVERecord?id=CVE-2024-22667
     PublishedDate: '2024-02-05T08:15:44.11Z'
-    LastModifiedDate: '2024-02-05T13:54:19.31Z'
+    LastModifiedDate: '2024-02-15T03:15:34.767Z'
   - VulnerabilityID: CVE-2020-22916
     PkgID: xz-utils@5.2.5-2ubuntu1
     PkgName: xz-utils
@@ -3493,7 +4406,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -3683,7 +4596,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -3904,7 +4817,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -4094,7 +5007,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4502,6 +5415,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       ghsa:
@@ -4521,6 +5435,7 @@
     - https://access.redhat.com/errata/RHSA-2024:0628
     - https://access.redhat.com/security/cve/CVE-2023-48795
     - https://access.redhat.com/security/cve/cve-2023-48795
+    - https://arstechnica.com/security/2023/12/hackers-can-break-ssh-channel-integrity-using-novel-data-corruption-attack
     - https://arstechnica.com/security/2023/12/hackers-can-break-ssh-channel-integrity-using-novel-data-corruption-attack/
     - https://bugs.gentoo.org/920280
     - https://bugzilla.redhat.com/2254210
@@ -4529,6 +5444,7 @@
     - https://crates.io/crates/thrussh/versions
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-48795
     - https://errata.almalinux.org/8/ALSA-2024-0628.html
+    - https://errata.rockylinux.org/RLSA-2024:0628
     - https://filezilla-project.org/versions.php
     - https://forum.netgate.com/topic/184941/terrapin-ssh-attack
     - https://git.libssh.org/projects/libssh.git/commit/?h=stable-0.10&id=10e09e273f69e149389b3e0e5d44b8c221c2e7f6
@@ -4577,30 +5493,50 @@
     - https://go.dev/issue/64784
     - https://groups.google.com/g/golang-announce/c/-n5WqVC18LQ
     - https://groups.google.com/g/golang-announce/c/qA3XtxvMUyg
+    - https://help.panic.com/releasenotes/transmit5
     - https://help.panic.com/releasenotes/transmit5/
+    - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795
     - https://jadaptive.com/important-java-ssh-security-update-new-ssh-vulnerability-discovered-cve-2023-48795/
     - https://linux.oracle.com/cve/CVE-2023-48795.html
-    - https://linux.oracle.com/errata/ELSA-2024-0628.html
+    - https://linux.oracle.com/errata/ELSA-2024-12164.html
     - https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html
     - https://lists.debian.org/debian-lts-announce/2024/01/msg00013.html
     - https://lists.debian.org/debian-lts-announce/2024/01/msg00014.html
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/33XHJUB6ROFUOH2OQNENFROTVH6MHSHA
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/33XHJUB6ROFUOH2OQNENFROTVH6MHSHA/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3JIMLVBDWOP4FUPXPTB4PGHHIOMGFLQE
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3JIMLVBDWOP4FUPXPTB4PGHHIOMGFLQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3YQLUQWLIHDB5QCXQEX7HXHAWMOKPP5O/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6Y74KVCPEPT4MVU3LHDWCNNOXOE5ZLUR
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/6Y74KVCPEPT4MVU3LHDWCNNOXOE5ZLUR/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BL5KTLOSLH2KHRN4HCXJPK3JUVLDGEL6
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BL5KTLOSLH2KHRN4HCXJPK3JUVLDGEL6/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/C3AFMZ6MH2UHHOPIWT5YLSFV3D2VB3AC/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HYEDEXIKFKTUJIN43RG4B7T5ZS6MHUSP
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/HYEDEXIKFKTUJIN43RG4B7T5ZS6MHUSP/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/I724O3LSRCPO4WNVIXTZCT4VVRMXMMSG
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/I724O3LSRCPO4WNVIXTZCT4VVRMXMMSG/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KEOTKBUPZXHE3F352JBYNTSNRXYLWD6P
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KEOTKBUPZXHE3F352JBYNTSNRXYLWD6P/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/KMZCVGUGJZZVDPCVDA7TEB22VUCNEXDD/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/L5Y6MNNVAPIJSXJERQ6PKZVCIUXSNJK7
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/L5Y6MNNVAPIJSXJERQ6PKZVCIUXSNJK7/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LZQVUHWVWRH73YBXUQJOD6CKHDQBU3DM/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/MKQRBF3DWMWPH36LBCOBUTSIZRTPEZXB/
+    - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/QI3EHAHABFQK7OABNCSF5GMYP6TONTI7/
     - https://matt.ucc.asn.au/dropbear/CHANGES
     - https://nest.pijul.com/pijul/thrussh/changes/D6H7OWTTMHHX6BTB3B6MNBOBX2L66CBL4LGSEUSAI2MCRCJDQFRQC
@@ -4618,8 +5554,10 @@
     - https://security-tracker.debian.org/tracker/source-package/trilead-ssh2
     - https://security.gentoo.org/glsa/202312-16
     - https://security.gentoo.org/glsa/202312-17
+    - https://security.netapp.com/advisory/ntap-20240105-0004
     - https://security.netapp.com/advisory/ntap-20240105-0004/
     - https://terrapin-attack.com/
+    - https://thorntech.com/cve-2023-48795-and-sftp-gateway
     - https://thorntech.com/cve-2023-48795-and-sftp-gateway/
     - https://twitter.com/TrueSkrillor/status/1736774389725565005
     - https://ubuntu.com/security/CVE-2023-48795
@@ -4639,6 +5577,7 @@
     - https://www.debian.org/security/2023/dsa-5588
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-23:19.openssh.asc
     - https://www.lancom-systems.de/service-support/allgemeine-sicherheitshinweise#c243508
+    - https://www.netsarang.com/en/xshell-update-history
     - https://www.netsarang.com/en/xshell-update-history/
     - https://www.openssh.com/openbsd.html
     - https://www.openssh.com/txt/release-9.6
@@ -4646,7 +5585,9 @@
     - https://www.openwall.com/lists/oss-security/2023/12/18/3
     - https://www.openwall.com/lists/oss-security/2023/12/20/3
     - https://www.paramiko.org/changelog.html
+    - https://www.reddit.com/r/sysadmin/comments/18idv52/cve202348795_why_is_this_cve_still_undisclosed
     - https://www.reddit.com/r/sysadmin/comments/18idv52/cve202348795_why_is_this_cve_still_undisclosed/
+    - https://www.suse.com/c/suse-addresses-the-ssh-v2-protocol-terrapin-attack-aka-cve-2023-48795
     - https://www.suse.com/c/suse-addresses-the-ssh-v2-protocol-terrapin-attack-aka-cve-2023-48795/
     - https://www.terrapin-attack.com
     - https://www.theregister.com/2023/12/20/terrapin_attack_ssh
@@ -4711,7 +5652,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -4901,7 +5842,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -5060,68 +6001,6 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
     LastModifiedDate: '2024-02-02T15:40:23.61Z'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
-      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
-      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -5180,6 +6059,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
+      DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:8d80352d3e9cc5729f9208410407a0efaf860147191b26e47957987629c2e62e
       DiffID: sha256:6153cdf05339409593607e42234cb783466f010be63d9fe4f2119aa8a599fdbf
