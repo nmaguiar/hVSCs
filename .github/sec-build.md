@@ -3909,9 +3909,10 @@
 │                             │                  │      HSA-gp7f-rwcx-9369 
 │                             │                  ├ [4]: https://jsoup.org/news/release-1.15.3 
 │                             │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2022-36033 
-│                             │                  ├ [6]: https://security.netapp.com/advisory/ntap-20221104
+│                             │                  ├ [6]: https://security.netapp.com/advisory/ntap-20221104-0006 
+│                             │                  ├ [7]: https://security.netapp.com/advisory/ntap-20221104
 │                             │                  │      -0006/ 
-│                             │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-36033 
+│                             │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2022-36033 
 │                             ├ PublishedDate   : 2022-08-29T17:15:08.523Z 
 │                             ╰ LastModifiedDate: 2022-12-08T03:48:04.673Z 
 ├ [2] ╭ Target         : home/openvscode-server/.krew/store/krew/v0.4.4/krew 
@@ -4008,101 +4009,190 @@
 │                       │     │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3OVW5V2D
-│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O/ 
+│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O 
 │                       │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3OVW5V2D
+│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O/ 
+│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3SZN67IL
+│                       │     │                  │       7HMGMNAVLOTIXLIHUDXZK4LH 
+│                       │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3SZN67IL
 │                       │     │                  │       7HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/4BUK2ZIA
+│                       │     │                  │       GCULOOYDNH25JPU6JBES5NF2 
+│                       │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/4BUK2ZIA
 │                       │     │                  │       GCULOOYDNH25JPU6JBES5NF2/ 
-│                       │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/5RSKA2II
+│                       │     │                  │       6QTD4YUKUNDVJQSRYSFC4VFR 
+│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/5RSKA2II
 │                       │     │                  │       6QTD4YUKUNDVJQSRYSFC4VFR/ 
-│                       │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/AVZDNSMV
+│                       │     │                  │       DAQJ64LJC5I5U5LDM5753647 
+│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/AVZDNSMV
 │                       │     │                  │       DAQJ64LJC5I5U5LDM5753647/ 
-│                       │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CHHITS4P
+│                       │     │                  │       UOZAKFIUBQAQZC7JWXMOYE4B 
+│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CHHITS4P
 │                       │     │                  │       UOZAKFIUBQAQZC7JWXMOYE4B/ 
-│                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
+│                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2 
+│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
 │                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2/ 
-│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/D2BBIDR2
+│                       │     │                  │       ZMB3X5BC7SR4SLQMHRMVPY6L 
+│                       │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/D2BBIDR2
 │                       │     │                  │       ZMB3X5BC7SR4SLQMHRMVPY6L/ 
-│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ECRC75BQ
+│                       │     │                  │       JP6FJN2L7KCKYZW4DSBD7QSD 
+│                       │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ECRC75BQ
 │                       │     │                  │       JP6FJN2L7KCKYZW4DSBD7QSD/ 
-│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/FTMJ3NJI
+│                       │     │                  │       DAZFWJQQSP3L22MUFJ3UP2PT 
+│                       │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/FTMJ3NJI
 │                       │     │                  │       DAZFWJQQSP3L22MUFJ3UP2PT/ 
-│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/GSY7SXFF
+│                       │     │                  │       TPZFWDM6XELSDSHZLVW3AHK7 
+│                       │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/GSY7SXFF
 │                       │     │                  │       TPZFWDM6XELSDSHZLVW3AHK7/ 
-│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
+│                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE 
+│                       │     │                  ├ [45]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
 │                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [46]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/IPWCNYB5
+│                       │     │                  │       PQ5PCVZ4NJT6G56ZYFZ5QBU6 
+│                       │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/IPWCNYB5
 │                       │     │                  │       PQ5PCVZ4NJT6G56ZYFZ5QBU6/ 
-│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KEOTKBUP
+│                       │     │                  │       ZXHE3F352JBYNTSNRXYLWD6P 
+│                       │     │                  ├ [49]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KEOTKBUP
 │                       │     │                  │       ZXHE3F352JBYNTSNRXYLWD6P/ 
-│                       │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [50]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
+│                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE 
+│                       │     │                  ├ [51]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
 │                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE/ 
-│                       │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [52]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/MZQYOOKH
+│                       │     │                  │       QDQ57LV2IAG6NRFOVXKHJJ3Z 
+│                       │     │                  ├ [53]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/MZQYOOKH
 │                       │     │                  │       QDQ57LV2IAG6NRFOVXKHJJ3Z/ 
-│                       │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [54]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/NG7IMPL5
+│                       │     │                  │       5MVWU3LCI4JQJT3K2U5CHDV7 
+│                       │     │                  ├ [55]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/NG7IMPL5
 │                       │     │                  │       5MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                       │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [56]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
+│                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q 
+│                       │     │                  ├ [57]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
 │                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                       │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [58]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
+│                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I 
+│                       │     │                  ├ [59]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
 │                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I/ 
-│                       │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [60]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
+│                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS 
+│                       │     │                  ├ [61]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
 │                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS/ 
-│                       │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [62]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
+│                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU 
+│                       │     │                  ├ [63]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
 │                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                       │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [64]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
+│                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI 
+│                       │     │                  ├ [65]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
 │                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                       │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [66]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
+│                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ 
+│                       │     │                  ├ [67]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
 │                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                       │     │                  ├ [45]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [68]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
+│                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP 
+│                       │     │                  ├ [69]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
 │                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                       │     │                  ├ [46]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [70]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/WCNCBYKZ
+│                       │     │                  │       XLDFGAJUB7ZP5VLC3YTHJNVH 
+│                       │     │                  ├ [71]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/WCNCBYKZ
 │                       │     │                  │       XLDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                       │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [72]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
+│                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2 
+│                       │     │                  ├ [73]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
 │                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [74]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
+│                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY 
+│                       │     │                  ├ [75]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
 │                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                       │     │                  ├ [49]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [76]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
+│                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P 
+│                       │     │                  ├ [77]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
 │                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P/ 
-│                       │     │                  ├ [50]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [78]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZSVEMQV5
+│                       │     │                  │       ROY5YW5QE3I57HT3ITWG5GCV 
+│                       │     │                  ├ [79]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZSVEMQV5
 │                       │     │                  │       ROY5YW5QE3I57HT3ITWG5GCV/ 
-│                       │     │                  ├ [51]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [52]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [53]: https://security.gentoo.org/glsa/202311-09 
-│                       │     │                  ├ [54]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  ├ [80]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [81]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [82]: https://security.gentoo.org/glsa/202311-09 
+│                       │     │                  ├ [83]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  │       0-0008 
+│                       │     │                  ├ [84]: https://security.netapp.com/advisory/ntap-2023111
 │                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [55]: https://ubuntu.com/security/notices/USN-6574-1 
-│                       │     │                  ├ [56]: https://www.cisa.gov/news-events/alerts/2023/10/1
+│                       │     │                  ├ [85]: https://ubuntu.com/security/notices/USN-6574-1 
+│                       │     │                  ├ [86]: https://www.cisa.gov/news-events/alerts/2023/10/1
 │                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
 │                       │     │                  │        
-│                       │     │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     │                  ╰ [87]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                       │     ╰ LastModifiedDate: 2024-01-21T02:02:56.727Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
@@ -4128,7 +4218,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-79 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
-│                       │     │                  ├ amazon     : 3 
+│                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ ghsa       : 2 
 │                       │     │                  ├ nvd        : 2 
@@ -4763,101 +4853,190 @@
 │                       │     │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3OVW5V2D
-│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O/ 
+│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O 
 │                       │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3OVW5V2D
+│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O/ 
+│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3SZN67IL
+│                       │     │                  │       7HMGMNAVLOTIXLIHUDXZK4LH 
+│                       │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3SZN67IL
 │                       │     │                  │       7HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/4BUK2ZIA
+│                       │     │                  │       GCULOOYDNH25JPU6JBES5NF2 
+│                       │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/4BUK2ZIA
 │                       │     │                  │       GCULOOYDNH25JPU6JBES5NF2/ 
-│                       │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/5RSKA2II
+│                       │     │                  │       6QTD4YUKUNDVJQSRYSFC4VFR 
+│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/5RSKA2II
 │                       │     │                  │       6QTD4YUKUNDVJQSRYSFC4VFR/ 
-│                       │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/AVZDNSMV
+│                       │     │                  │       DAQJ64LJC5I5U5LDM5753647 
+│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/AVZDNSMV
 │                       │     │                  │       DAQJ64LJC5I5U5LDM5753647/ 
-│                       │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CHHITS4P
+│                       │     │                  │       UOZAKFIUBQAQZC7JWXMOYE4B 
+│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CHHITS4P
 │                       │     │                  │       UOZAKFIUBQAQZC7JWXMOYE4B/ 
-│                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
+│                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2 
+│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
 │                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2/ 
-│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/D2BBIDR2
+│                       │     │                  │       ZMB3X5BC7SR4SLQMHRMVPY6L 
+│                       │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/D2BBIDR2
 │                       │     │                  │       ZMB3X5BC7SR4SLQMHRMVPY6L/ 
-│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ECRC75BQ
+│                       │     │                  │       JP6FJN2L7KCKYZW4DSBD7QSD 
+│                       │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ECRC75BQ
 │                       │     │                  │       JP6FJN2L7KCKYZW4DSBD7QSD/ 
-│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/FTMJ3NJI
+│                       │     │                  │       DAZFWJQQSP3L22MUFJ3UP2PT 
+│                       │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/FTMJ3NJI
 │                       │     │                  │       DAZFWJQQSP3L22MUFJ3UP2PT/ 
-│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/GSY7SXFF
+│                       │     │                  │       TPZFWDM6XELSDSHZLVW3AHK7 
+│                       │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/GSY7SXFF
 │                       │     │                  │       TPZFWDM6XELSDSHZLVW3AHK7/ 
-│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
+│                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE 
+│                       │     │                  ├ [45]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
 │                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [46]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/IPWCNYB5
+│                       │     │                  │       PQ5PCVZ4NJT6G56ZYFZ5QBU6 
+│                       │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/IPWCNYB5
 │                       │     │                  │       PQ5PCVZ4NJT6G56ZYFZ5QBU6/ 
-│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KEOTKBUP
+│                       │     │                  │       ZXHE3F352JBYNTSNRXYLWD6P 
+│                       │     │                  ├ [49]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KEOTKBUP
 │                       │     │                  │       ZXHE3F352JBYNTSNRXYLWD6P/ 
-│                       │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [50]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
+│                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE 
+│                       │     │                  ├ [51]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
 │                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE/ 
-│                       │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [52]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/MZQYOOKH
+│                       │     │                  │       QDQ57LV2IAG6NRFOVXKHJJ3Z 
+│                       │     │                  ├ [53]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/MZQYOOKH
 │                       │     │                  │       QDQ57LV2IAG6NRFOVXKHJJ3Z/ 
-│                       │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [54]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/NG7IMPL5
+│                       │     │                  │       5MVWU3LCI4JQJT3K2U5CHDV7 
+│                       │     │                  ├ [55]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/NG7IMPL5
 │                       │     │                  │       5MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                       │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [56]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
+│                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q 
+│                       │     │                  ├ [57]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
 │                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                       │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [58]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
+│                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I 
+│                       │     │                  ├ [59]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
 │                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I/ 
-│                       │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [60]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
+│                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS 
+│                       │     │                  ├ [61]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
 │                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS/ 
-│                       │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [62]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
+│                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU 
+│                       │     │                  ├ [63]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
 │                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                       │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [64]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
+│                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI 
+│                       │     │                  ├ [65]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
 │                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                       │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [66]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
+│                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ 
+│                       │     │                  ├ [67]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
 │                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                       │     │                  ├ [45]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [68]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
+│                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP 
+│                       │     │                  ├ [69]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
 │                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                       │     │                  ├ [46]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [70]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/WCNCBYKZ
+│                       │     │                  │       XLDFGAJUB7ZP5VLC3YTHJNVH 
+│                       │     │                  ├ [71]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/WCNCBYKZ
 │                       │     │                  │       XLDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                       │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [72]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
+│                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2 
+│                       │     │                  ├ [73]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
 │                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [74]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
+│                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY 
+│                       │     │                  ├ [75]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
 │                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                       │     │                  ├ [49]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [76]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
+│                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P 
+│                       │     │                  ├ [77]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
 │                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P/ 
-│                       │     │                  ├ [50]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [78]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZSVEMQV5
+│                       │     │                  │       ROY5YW5QE3I57HT3ITWG5GCV 
+│                       │     │                  ├ [79]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZSVEMQV5
 │                       │     │                  │       ROY5YW5QE3I57HT3ITWG5GCV/ 
-│                       │     │                  ├ [51]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [52]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [53]: https://security.gentoo.org/glsa/202311-09 
-│                       │     │                  ├ [54]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  ├ [80]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [81]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [82]: https://security.gentoo.org/glsa/202311-09 
+│                       │     │                  ├ [83]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  │       0-0008 
+│                       │     │                  ├ [84]: https://security.netapp.com/advisory/ntap-2023111
 │                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [55]: https://ubuntu.com/security/notices/USN-6574-1 
-│                       │     │                  ├ [56]: https://www.cisa.gov/news-events/alerts/2023/10/1
+│                       │     │                  ├ [85]: https://ubuntu.com/security/notices/USN-6574-1 
+│                       │     │                  ├ [86]: https://www.cisa.gov/news-events/alerts/2023/10/1
 │                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
 │                       │     │                  │        
-│                       │     │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     │                  ╰ [87]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                       │     ╰ LastModifiedDate: 2024-01-21T02:02:56.727Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
@@ -4883,7 +5062,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-79 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
-│                       │     │                  ├ amazon     : 3 
+│                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ ghsa       : 2 
 │                       │     │                  ├ nvd        : 2 
@@ -6257,101 +6436,190 @@
 │                       │     │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
 │                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3OVW5V2D
-│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O/ 
+│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O 
 │                       │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3OVW5V2D
+│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O/ 
+│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3SZN67IL
+│                       │     │                  │       7HMGMNAVLOTIXLIHUDXZK4LH 
+│                       │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3SZN67IL
 │                       │     │                  │       7HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/4BUK2ZIA
+│                       │     │                  │       GCULOOYDNH25JPU6JBES5NF2 
+│                       │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/4BUK2ZIA
 │                       │     │                  │       GCULOOYDNH25JPU6JBES5NF2/ 
-│                       │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/5RSKA2II
+│                       │     │                  │       6QTD4YUKUNDVJQSRYSFC4VFR 
+│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/5RSKA2II
 │                       │     │                  │       6QTD4YUKUNDVJQSRYSFC4VFR/ 
-│                       │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/AVZDNSMV
+│                       │     │                  │       DAQJ64LJC5I5U5LDM5753647 
+│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/AVZDNSMV
 │                       │     │                  │       DAQJ64LJC5I5U5LDM5753647/ 
-│                       │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CHHITS4P
+│                       │     │                  │       UOZAKFIUBQAQZC7JWXMOYE4B 
+│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CHHITS4P
 │                       │     │                  │       UOZAKFIUBQAQZC7JWXMOYE4B/ 
-│                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
+│                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2 
+│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
 │                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2/ 
-│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/D2BBIDR2
+│                       │     │                  │       ZMB3X5BC7SR4SLQMHRMVPY6L 
+│                       │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/D2BBIDR2
 │                       │     │                  │       ZMB3X5BC7SR4SLQMHRMVPY6L/ 
-│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ECRC75BQ
+│                       │     │                  │       JP6FJN2L7KCKYZW4DSBD7QSD 
+│                       │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ECRC75BQ
 │                       │     │                  │       JP6FJN2L7KCKYZW4DSBD7QSD/ 
-│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/FTMJ3NJI
+│                       │     │                  │       DAZFWJQQSP3L22MUFJ3UP2PT 
+│                       │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/FTMJ3NJI
 │                       │     │                  │       DAZFWJQQSP3L22MUFJ3UP2PT/ 
-│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/GSY7SXFF
+│                       │     │                  │       TPZFWDM6XELSDSHZLVW3AHK7 
+│                       │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/GSY7SXFF
 │                       │     │                  │       TPZFWDM6XELSDSHZLVW3AHK7/ 
-│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
+│                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE 
+│                       │     │                  ├ [45]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
 │                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [46]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/IPWCNYB5
+│                       │     │                  │       PQ5PCVZ4NJT6G56ZYFZ5QBU6 
+│                       │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/IPWCNYB5
 │                       │     │                  │       PQ5PCVZ4NJT6G56ZYFZ5QBU6/ 
-│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KEOTKBUP
+│                       │     │                  │       ZXHE3F352JBYNTSNRXYLWD6P 
+│                       │     │                  ├ [49]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KEOTKBUP
 │                       │     │                  │       ZXHE3F352JBYNTSNRXYLWD6P/ 
-│                       │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [50]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
+│                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE 
+│                       │     │                  ├ [51]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
 │                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE/ 
-│                       │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [52]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/MZQYOOKH
+│                       │     │                  │       QDQ57LV2IAG6NRFOVXKHJJ3Z 
+│                       │     │                  ├ [53]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/MZQYOOKH
 │                       │     │                  │       QDQ57LV2IAG6NRFOVXKHJJ3Z/ 
-│                       │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [54]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/NG7IMPL5
+│                       │     │                  │       5MVWU3LCI4JQJT3K2U5CHDV7 
+│                       │     │                  ├ [55]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/NG7IMPL5
 │                       │     │                  │       5MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                       │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [56]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
+│                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q 
+│                       │     │                  ├ [57]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
 │                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                       │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [58]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
+│                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I 
+│                       │     │                  ├ [59]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
 │                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I/ 
-│                       │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [60]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
+│                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS 
+│                       │     │                  ├ [61]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
 │                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS/ 
-│                       │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [62]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
+│                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU 
+│                       │     │                  ├ [63]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
 │                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                       │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [64]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
+│                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI 
+│                       │     │                  ├ [65]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
 │                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                       │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [66]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
+│                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ 
+│                       │     │                  ├ [67]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
 │                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                       │     │                  ├ [45]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [68]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
+│                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP 
+│                       │     │                  ├ [69]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
 │                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                       │     │                  ├ [46]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [70]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/WCNCBYKZ
+│                       │     │                  │       XLDFGAJUB7ZP5VLC3YTHJNVH 
+│                       │     │                  ├ [71]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/WCNCBYKZ
 │                       │     │                  │       XLDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                       │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [72]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
+│                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2 
+│                       │     │                  ├ [73]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
 │                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [74]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
+│                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY 
+│                       │     │                  ├ [75]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
 │                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                       │     │                  ├ [49]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [76]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
+│                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P 
+│                       │     │                  ├ [77]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
 │                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P/ 
-│                       │     │                  ├ [50]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  ├ [78]: https://lists.fedoraproject.org/archives/list/pac
+│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZSVEMQV5
+│                       │     │                  │       ROY5YW5QE3I57HT3ITWG5GCV 
+│                       │     │                  ├ [79]: https://lists.fedoraproject.org/archives/list/pac
 │                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZSVEMQV5
 │                       │     │                  │       ROY5YW5QE3I57HT3ITWG5GCV/ 
-│                       │     │                  ├ [51]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [52]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [53]: https://security.gentoo.org/glsa/202311-09 
-│                       │     │                  ├ [54]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  ├ [80]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [81]: https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [82]: https://security.gentoo.org/glsa/202311-09 
+│                       │     │                  ├ [83]: https://security.netapp.com/advisory/ntap-2023111
+│                       │     │                  │       0-0008 
+│                       │     │                  ├ [84]: https://security.netapp.com/advisory/ntap-2023111
 │                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [55]: https://ubuntu.com/security/notices/USN-6574-1 
-│                       │     │                  ├ [56]: https://www.cisa.gov/news-events/alerts/2023/10/1
+│                       │     │                  ├ [85]: https://ubuntu.com/security/notices/USN-6574-1 
+│                       │     │                  ├ [86]: https://www.cisa.gov/news-events/alerts/2023/10/1
 │                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
 │                       │     │                  │        
-│                       │     │                  ╰ [57]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     │                  ╰ [87]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                       │     ╰ LastModifiedDate: 2024-01-21T02:02:56.727Z 
 │                       ├ [5] ╭ VulnerabilityID : CVE-2023-3978 
@@ -6377,7 +6645,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-79 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
-│                       │     │                  ├ amazon     : 3 
+│                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ ghsa       : 2 
 │                       │     │                  ├ nvd        : 2 
