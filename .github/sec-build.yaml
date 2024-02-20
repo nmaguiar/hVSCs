@@ -187,7 +187,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -242,7 +242,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1078,7 +1078,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1112,6 +1112,7 @@
     CweIDs:
     - CWE-776
     VendorSeverity:
+      amazon: 2
       nvd: 2
       redhat: 2
       ubuntu: 2
@@ -1265,6 +1266,32 @@
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:19.407Z'
     LastModifiedDate: '2023-11-07T03:19:47.47Z'
+  - VulnerabilityID: CVE-2023-45918
+    PkgID: libncurses6@6.3-2ubuntu0.1
+    PkgName: libncurses6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 6.3-2ubuntu0.1
+    Status: affected
+    Layer:
+      Digest: sha256:46cabda45f4ad483b748bfa8c8b6fc02d1ea6add39f7cca8870e3a3ee7c1c955
+      DiffID: sha256:c18fca84f4d57eec7785f2c67f1cdefc9301a7432a57bd5ca2338dfd1f3e25ee
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinf ...
+    Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
+    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    PublishedDate: '2024-02-16T22:15:07.88Z'
+    LastModifiedDate: '2024-02-16T22:15:07.88Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libncurses6@6.3-2ubuntu0.1
     PkgName: libncurses6
@@ -1307,6 +1334,32 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-01-31T03:15:08.49Z'
+  - VulnerabilityID: CVE-2023-45918
+    PkgID: libncursesw6@6.3-2ubuntu0.1
+    PkgName: libncursesw6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 6.3-2ubuntu0.1
+    Status: affected
+    Layer:
+      Digest: sha256:46cabda45f4ad483b748bfa8c8b6fc02d1ea6add39f7cca8870e3a3ee7c1c955
+      DiffID: sha256:c18fca84f4d57eec7785f2c67f1cdefc9301a7432a57bd5ca2338dfd1f3e25ee
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinf ...
+    Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
+    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    PublishedDate: '2024-02-16T22:15:07.88Z'
+    LastModifiedDate: '2024-02-16T22:15:07.88Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libncursesw6@6.3-2ubuntu0.1
     PkgName: libncursesw6
@@ -1885,6 +1938,7 @@
     - CWE-787
     - CWE-122
     VendorSeverity:
+      amazon: 2
       nvd: 3
       photon: 3
       redhat: 2
@@ -1903,6 +1957,7 @@
     - https://gitlab.com/libtiff/libtiff/-/issues/622
     - https://gitlab.com/libtiff/libtiff/-/merge_requests/546
     - https://nvd.nist.gov/vuln/detail/CVE-2023-52356
+    - https://ubuntu.com/security/notices/USN-6644-1
     - https://www.cve.org/CVERecord?id=CVE-2023-52356
     PublishedDate: '2024-01-25T20:15:39.063Z'
     LastModifiedDate: '2024-01-31T17:41:06.517Z'
@@ -2030,6 +2085,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2240995
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6228
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6228
+    - https://ubuntu.com/security/notices/USN-6644-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6228
     PublishedDate: '2023-12-18T14:15:11.84Z'
     LastModifiedDate: '2023-12-29T07:15:10.897Z'
@@ -2077,9 +2133,36 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/Y7ZGN2MZXJ6E57W3L4YBM3ZPAU3T7T5C/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-6277
     - https://security.netapp.com/advisory/ntap-20240119-0002/
+    - https://ubuntu.com/security/notices/USN-6644-1
     - https://www.cve.org/CVERecord?id=CVE-2023-6277
     PublishedDate: '2023-11-24T19:15:07.643Z'
     LastModifiedDate: '2024-01-19T16:15:11.057Z'
+  - VulnerabilityID: CVE-2023-45918
+    PkgID: libtinfo6@6.3-2ubuntu0.1
+    PkgName: libtinfo6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 6.3-2ubuntu0.1
+    Status: affected
+    Layer:
+      Digest: sha256:46cabda45f4ad483b748bfa8c8b6fc02d1ea6add39f7cca8870e3a3ee7c1c955
+      DiffID: sha256:c18fca84f4d57eec7785f2c67f1cdefc9301a7432a57bd5ca2338dfd1f3e25ee
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinf ...
+    Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
+    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    PublishedDate: '2024-02-16T22:15:07.88Z'
+    LastModifiedDate: '2024-02-16T22:15:07.88Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libtinfo6@6.3-2ubuntu0.1
     PkgName: libtinfo6
@@ -2357,6 +2440,32 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
     LastModifiedDate: '2023-04-24T18:05:30.313Z'
+  - VulnerabilityID: CVE-2023-45918
+    PkgID: ncurses-base@6.3-2ubuntu0.1
+    PkgName: ncurses-base
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&distro=ubuntu-22.04
+    InstalledVersion: 6.3-2ubuntu0.1
+    Status: affected
+    Layer:
+      Digest: sha256:46cabda45f4ad483b748bfa8c8b6fc02d1ea6add39f7cca8870e3a3ee7c1c955
+      DiffID: sha256:c18fca84f4d57eec7785f2c67f1cdefc9301a7432a57bd5ca2338dfd1f3e25ee
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinf ...
+    Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
+    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    PublishedDate: '2024-02-16T22:15:07.88Z'
+    LastModifiedDate: '2024-02-16T22:15:07.88Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.3-2ubuntu0.1
     PkgName: ncurses-base
@@ -2399,6 +2508,32 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-01-31T03:15:08.49Z'
+  - VulnerabilityID: CVE-2023-45918
+    PkgID: ncurses-bin@6.3-2ubuntu0.1
+    PkgName: ncurses-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 6.3-2ubuntu0.1
+    Status: affected
+    Layer:
+      Digest: sha256:46cabda45f4ad483b748bfa8c8b6fc02d1ea6add39f7cca8870e3a3ee7c1c955
+      DiffID: sha256:c18fca84f4d57eec7785f2c67f1cdefc9301a7432a57bd5ca2338dfd1f3e25ee
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinf ...
+    Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
+    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    PublishedDate: '2024-02-16T22:15:07.88Z'
+    LastModifiedDate: '2024-02-16T22:15:07.88Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-bin@6.3-2ubuntu0.1
     PkgName: ncurses-bin
@@ -2441,6 +2576,32 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-01-31T03:15:08.49Z'
+  - VulnerabilityID: CVE-2023-45918
+    PkgID: ncurses-term@6.3-2ubuntu0.1
+    PkgName: ncurses-term
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&distro=ubuntu-22.04
+    InstalledVersion: 6.3-2ubuntu0.1
+    Status: affected
+    Layer:
+      Digest: sha256:46cabda45f4ad483b748bfa8c8b6fc02d1ea6add39f7cca8870e3a3ee7c1c955
+      DiffID: sha256:c18fca84f4d57eec7785f2c67f1cdefc9301a7432a57bd5ca2338dfd1f3e25ee
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45918
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinf ...
+    Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
+    Severity: LOW
+    VendorSeverity:
+      ubuntu: 1
+    References:
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
+    - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    PublishedDate: '2024-02-16T22:15:07.88Z'
+    LastModifiedDate: '2024-02-16T22:15:07.88Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-term@6.3-2ubuntu0.1
     PkgName: ncurses-term
@@ -3018,6 +3179,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 1
@@ -3061,6 +3223,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 1
@@ -3104,6 +3267,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 1
@@ -3194,6 +3358,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      amazon: 2
       nvd: 3
       redhat: 1
       ubuntu: 1
@@ -3376,7 +3541,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -3603,7 +3768,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -3854,7 +4019,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -4081,7 +4246,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4482,13 +4647,14 @@
     - https://github.com/opencontainers/runc/security/advisories/GHSA-xr7r-f8xq-vfvv
     - https://linux.oracle.com/cve/CVE-2024-21626.html
     - https://linux.oracle.com/errata/ELSA-2024-17931.html
+    - https://lists.debian.org/debian-lts-announce/2024/02/msg00005.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2NLXNE23Q5ESQUAI22Z7A63JX2WMPJ2J/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SYMO3BANINS6RGFQFKPRG4FIOJ7GWYTL/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-21626
     - https://ubuntu.com/security/notices/USN-6619-1
     - https://www.cve.org/CVERecord?id=CVE-2024-21626
     PublishedDate: '2024-01-31T22:15:53.78Z'
-    LastModifiedDate: '2024-02-11T06:15:11.683Z'
+    LastModifiedDate: '2024-02-19T03:15:08.413Z'
   - VulnerabilityID: CVE-2023-48795
     PkgName: golang.org/x/crypto
     PkgIdentifier:
@@ -4756,7 +4922,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -4983,7 +5149,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
