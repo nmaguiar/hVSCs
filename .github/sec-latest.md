@@ -1364,16 +1364,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
-│                       │      │                   /krb5/src/lib/r ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
-│                       │      │                   /krb5/src/lib/rpc/pmap_rmt.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/lib/rpc/pmap_rmt.c. This issue can lead to a
+│                       │      │                   denial of service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26458 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_1.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_1.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       ├ [28] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
@@ -1390,17 +1397,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in / ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in
-│                       │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. This issue can lead to
+│                       │      │                    a denial of service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26461 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_2.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_2.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       ├ [29] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
@@ -1417,16 +1430,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in / ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/kdc/ndr.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/kdc/ndr.c. This issue can lead to a denial of
+│                       │      │                   service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26462 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_3.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_3.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       ├ [30] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libk5crypto3 
@@ -1443,16 +1463,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
-│                       │      │                   /krb5/src/lib/r ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
-│                       │      │                   /krb5/src/lib/rpc/pmap_rmt.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/lib/rpc/pmap_rmt.c. This issue can lead to a
+│                       │      │                   denial of service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26458 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_1.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_1.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       ├ [31] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libk5crypto3 
@@ -1469,17 +1496,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in / ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in
-│                       │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. This issue can lead to
+│                       │      │                    a denial of service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26461 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_2.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_2.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       ├ [32] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libk5crypto3 
@@ -1496,16 +1529,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in / ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/kdc/ndr.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/kdc/ndr.c. This issue can lead to a denial of
+│                       │      │                   service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26462 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_3.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_3.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       ├ [33] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5-3 
@@ -1522,16 +1562,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
-│                       │      │                   /krb5/src/lib/r ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
-│                       │      │                   /krb5/src/lib/rpc/pmap_rmt.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/lib/rpc/pmap_rmt.c. This issue can lead to a
+│                       │      │                   denial of service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26458 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_1.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_1.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       ├ [34] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5-3 
@@ -1548,17 +1595,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in / ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in
-│                       │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. This issue can lead to
+│                       │      │                    a denial of service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26461 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_2.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_2.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       ├ [35] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5-3 
@@ -1575,16 +1628,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in / ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/kdc/ndr.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/kdc/ndr.c. This issue can lead to a denial of
+│                       │      │                   service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26462 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_3.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_3.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       ├ [36] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5support0 
@@ -1601,16 +1661,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
-│                       │      │                   /krb5/src/lib/r ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
-│                       │      │                   /krb5/src/lib/rpc/pmap_rmt.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/lib/rpc/pmap_rmt.c. This issue can lead to a
+│                       │      │                   denial of service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26458 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_1.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_1.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       ├ [37] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5support0 
@@ -1627,17 +1694,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in / ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in
-│                       │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. This issue can lead to
+│                       │      │                    a denial of service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26461 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_2.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_2.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       ├ [38] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5support0 
@@ -1654,16 +1727,23 @@
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
 │                       │      │                  ├ Name: Ubuntu CVE Tracker 
 │                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in / ... 
-│                       │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                       │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
+│                       │      ├ Title           : krb5: Memory leak at /krb5/src/kdc/ndr.c 
+│                       │      ├ Description     : A memory leak flaw was found in krb5 in
+│                       │      │                   /krb5/src/kdc/ndr.c. This issue can lead to a denial of
+│                       │      │                   service through memory exhaustion. 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ ubuntu: 2 
-│                       │      ╰ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                       │      ├ VendorSeverity   ╭ redhat: 1 
+│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                       │      │                           │           N/I:N/A:H 
+│                       │      │                           ╰ V3Score : 7.5 
+│                       │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
+│                       │                         ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │                         │      E-2024-26462 
-│                       │                         ╰ [1]: https://github.com/LuMingYinDetect/krb5_defects/b
-│                       │                                lob/main/krb5_detect_3.md 
+│                       │                         ├ [2]: https://github.com/LuMingYinDetect/krb5_defects/b
+│                       │                         │      lob/main/krb5_detect_3.md 
+│                       │                         ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+│                       │                         ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2020-22916 
 │                       │      ├ PkgID           : liblzma5@5.2.5-2ubuntu1 
 │                       │      ├ PkgName         : liblzma5 
@@ -2922,7 +3002,8 @@
 │                       │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libuv1@1.43.0-1?arch=amd64&distro
 │                       │      │                          =ubuntu-22.04 
 │                       │      ├ InstalledVersion: 1.43.0-1 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 1.43.0-1ubuntu0.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:b82b33d9326ba675ff69193e2c1766a49f30259
 │                       │      │                  │         586360787c87deb7cb713c798 
 │                       │      │                  ╰ DiffID: sha256:e392c727c7f007e537fcc10675e7bb0754b5835
@@ -2985,12 +3066,13 @@
 │                       │      │                  ├ [8] : https://github.com/libuv/libuv/security/advisori
 │                       │      │                  │       es/GHSA-f74f-cvh7-c6q6 
 │                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-24806 
-│                       │      │                  ├ [10]: https://www.chainguard.dev/unchained/unpacking-l
+│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6666-1 
+│                       │      │                  ├ [11]: https://www.chainguard.dev/unchained/unpacking-l
 │                       │      │                  │       ibuvs-cve-2024-24806-software-dark-matter-will-go-und
 │                       │      │                  │       er-the-radar-not-in-chainguard-images-tho 
-│                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-24806 
+│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-24806 
 │                       │      ├ PublishedDate   : 2024-02-07T22:15:10.173Z 
-│                       │      ╰ LastModifiedDate: 2024-02-27T18:34:10.243Z 
+│                       │      ╰ LastModifiedDate: 2024-02-28T16:43:37.573Z 
 │                       ├ [62] ╭ VulnerabilityID : CVE-2024-25062 
 │                       │      ├ PkgID           : libxml2@2.9.13+dfsg-1ubuntu0.3 
 │                       │      ├ PkgName         : libxml2 
@@ -3058,7 +3140,8 @@
 │                       │      │                   command line tool to cause buffer overrun. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-400 
-│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      ├ VendorSeverity   ╭ alma       : 2 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ ghsa       : 3 
 │                       │      │                  ├ nvd        : 3 
 │                       │      │                  ├ oracle-oval: 2 
@@ -3074,43 +3157,120 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:N/A:H 
 │                       │      │                           ╰ V3Score : 7.5 
-│                       │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2022-4899 
-│                       │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:0894 
+│                       │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2022-4899 
+│                       │      │                  ├ [2] : https://bugzilla.redhat.com/2179864 
+│                       │      │                  ├ [3] : https://bugzilla.redhat.com/2188109 
+│                       │      │                  ├ [4] : https://bugzilla.redhat.com/2188113 
+│                       │      │                  ├ [5] : https://bugzilla.redhat.com/2188115 
+│                       │      │                  ├ [6] : https://bugzilla.redhat.com/2188116 
+│                       │      │                  ├ [7] : https://bugzilla.redhat.com/2188117 
+│                       │      │                  ├ [8] : https://bugzilla.redhat.com/2188118 
+│                       │      │                  ├ [9] : https://bugzilla.redhat.com/2188119 
+│                       │      │                  ├ [10]: https://bugzilla.redhat.com/2188120 
+│                       │      │                  ├ [11]: https://bugzilla.redhat.com/2188121 
+│                       │      │                  ├ [12]: https://bugzilla.redhat.com/2188122 
+│                       │      │                  ├ [13]: https://bugzilla.redhat.com/2188123 
+│                       │      │                  ├ [14]: https://bugzilla.redhat.com/2188124 
+│                       │      │                  ├ [15]: https://bugzilla.redhat.com/2188125 
+│                       │      │                  ├ [16]: https://bugzilla.redhat.com/2188127 
+│                       │      │                  ├ [17]: https://bugzilla.redhat.com/2188128 
+│                       │      │                  ├ [18]: https://bugzilla.redhat.com/2188129 
+│                       │      │                  ├ [19]: https://bugzilla.redhat.com/2188130 
+│                       │      │                  ├ [20]: https://bugzilla.redhat.com/2188131 
+│                       │      │                  ├ [21]: https://bugzilla.redhat.com/2188132 
+│                       │      │                  ├ [22]: https://bugzilla.redhat.com/2224211 
+│                       │      │                  ├ [23]: https://bugzilla.redhat.com/2224212 
+│                       │      │                  ├ [24]: https://bugzilla.redhat.com/2224213 
+│                       │      │                  ├ [25]: https://bugzilla.redhat.com/2224214 
+│                       │      │                  ├ [26]: https://bugzilla.redhat.com/2224215 
+│                       │      │                  ├ [27]: https://bugzilla.redhat.com/2224216 
+│                       │      │                  ├ [28]: https://bugzilla.redhat.com/2224217 
+│                       │      │                  ├ [29]: https://bugzilla.redhat.com/2224218 
+│                       │      │                  ├ [30]: https://bugzilla.redhat.com/2224219 
+│                       │      │                  ├ [31]: https://bugzilla.redhat.com/2224220 
+│                       │      │                  ├ [32]: https://bugzilla.redhat.com/2224221 
+│                       │      │                  ├ [33]: https://bugzilla.redhat.com/2224222 
+│                       │      │                  ├ [34]: https://bugzilla.redhat.com/2245014 
+│                       │      │                  ├ [35]: https://bugzilla.redhat.com/2245015 
+│                       │      │                  ├ [36]: https://bugzilla.redhat.com/2245016 
+│                       │      │                  ├ [37]: https://bugzilla.redhat.com/2245017 
+│                       │      │                  ├ [38]: https://bugzilla.redhat.com/2245018 
+│                       │      │                  ├ [39]: https://bugzilla.redhat.com/2245019 
+│                       │      │                  ├ [40]: https://bugzilla.redhat.com/2245020 
+│                       │      │                  ├ [41]: https://bugzilla.redhat.com/2245021 
+│                       │      │                  ├ [42]: https://bugzilla.redhat.com/2245022 
+│                       │      │                  ├ [43]: https://bugzilla.redhat.com/2245023 
+│                       │      │                  ├ [44]: https://bugzilla.redhat.com/2245024 
+│                       │      │                  ├ [45]: https://bugzilla.redhat.com/2245026 
+│                       │      │                  ├ [46]: https://bugzilla.redhat.com/2245027 
+│                       │      │                  ├ [47]: https://bugzilla.redhat.com/2245028 
+│                       │      │                  ├ [48]: https://bugzilla.redhat.com/2245029 
+│                       │      │                  ├ [49]: https://bugzilla.redhat.com/2245030 
+│                       │      │                  ├ [50]: https://bugzilla.redhat.com/2245031 
+│                       │      │                  ├ [51]: https://bugzilla.redhat.com/2245032 
+│                       │      │                  ├ [52]: https://bugzilla.redhat.com/2245033 
+│                       │      │                  ├ [53]: https://bugzilla.redhat.com/2245034 
+│                       │      │                  ├ [54]: https://bugzilla.redhat.com/2258771 
+│                       │      │                  ├ [55]: https://bugzilla.redhat.com/2258772 
+│                       │      │                  ├ [56]: https://bugzilla.redhat.com/2258773 
+│                       │      │                  ├ [57]: https://bugzilla.redhat.com/2258774 
+│                       │      │                  ├ [58]: https://bugzilla.redhat.com/2258775 
+│                       │      │                  ├ [59]: https://bugzilla.redhat.com/2258776 
+│                       │      │                  ├ [60]: https://bugzilla.redhat.com/2258777 
+│                       │      │                  ├ [61]: https://bugzilla.redhat.com/2258778 
+│                       │      │                  ├ [62]: https://bugzilla.redhat.com/2258779 
+│                       │      │                  ├ [63]: https://bugzilla.redhat.com/2258780 
+│                       │      │                  ├ [64]: https://bugzilla.redhat.com/2258781 
+│                       │      │                  ├ [65]: https://bugzilla.redhat.com/2258782 
+│                       │      │                  ├ [66]: https://bugzilla.redhat.com/2258783 
+│                       │      │                  ├ [67]: https://bugzilla.redhat.com/2258784 
+│                       │      │                  ├ [68]: https://bugzilla.redhat.com/2258785 
+│                       │      │                  ├ [69]: https://bugzilla.redhat.com/2258787 
+│                       │      │                  ├ [70]: https://bugzilla.redhat.com/2258788 
+│                       │      │                  ├ [71]: https://bugzilla.redhat.com/2258789 
+│                       │      │                  ├ [72]: https://bugzilla.redhat.com/2258790 
+│                       │      │                  ├ [73]: https://bugzilla.redhat.com/2258791 
+│                       │      │                  ├ [74]: https://bugzilla.redhat.com/2258792 
+│                       │      │                  ├ [75]: https://bugzilla.redhat.com/2258793 
+│                       │      │                  ├ [76]: https://bugzilla.redhat.com/2258794 
+│                       │      │                  ├ [77]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2022-4899 
-│                       │      │                  ├ [2] : https://github.com/facebook/zstd 
-│                       │      │                  ├ [3] : https://github.com/facebook/zstd/issues/3200 
-│                       │      │                  ├ [4] : https://github.com/facebook/zstd/pull/3220 
-│                       │      │                  ├ [5] : https://github.com/pypa/advisory-database/tree/m
+│                       │      │                  ├ [78]: https://errata.almalinux.org/8/ALSA-2024-0894.html 
+│                       │      │                  ├ [79]: https://github.com/facebook/zstd 
+│                       │      │                  ├ [80]: https://github.com/facebook/zstd/issues/3200 
+│                       │      │                  ├ [81]: https://github.com/facebook/zstd/pull/3220 
+│                       │      │                  ├ [82]: https://github.com/pypa/advisory-database/tree/m
 │                       │      │                  │       ain/vulns/zstd/PYSEC-2023-121.yaml 
-│                       │      │                  ├ [6] : https://github.com/sergey-dryabzhinsky/python-zs
+│                       │      │                  ├ [83]: https://github.com/sergey-dryabzhinsky/python-zs
 │                       │      │                  │       td/commit/c8a619aebdbd6b838fbfef6e19325a70f631a4c6
 │                       │      │                  │        
-│                       │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2022-4899.html 
-│                       │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-0894.html 
-│                       │      │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [84]: https://linux.oracle.com/cve/CVE-2022-4899.html 
+│                       │      │                  ├ [85]: https://linux.oracle.com/errata/ELSA-2024-0894.html 
+│                       │      │                  ├ [86]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/C63H
 │                       │      │                  │       AGVLQA6FJNDCHR7CNZZL6VSLILB2/ 
-│                       │      │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [87]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/JEHR
 │                       │      │                  │       BBYYTPA4DETOM5XAKGCP37NUTLOA/ 
-│                       │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [88]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce%40lists.fedoraproject.org/message/QYLD
 │                       │      │                  │       K6ODVC4LJSDULLX6Q2YHTFOWABCN/ 
-│                       │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [89]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/C63HAG
 │                       │      │                  │       VLQA6FJNDCHR7CNZZL6VSLILB2 
-│                       │      │                  ├ [13]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [90]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/JEHRBB
 │                       │      │                  │       YYTPA4DETOM5XAKGCP37NUTLOA 
-│                       │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/pa
+│                       │      │                  ├ [91]: https://lists.fedoraproject.org/archives/list/pa
 │                       │      │                  │       ckage-announce@lists.fedoraproject.org/message/QYLDK6
 │                       │      │                  │       ODVC4LJSDULLX6Q2YHTFOWABCN 
-│                       │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2022-4899 
-│                       │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-202307
+│                       │      │                  ├ [92]: https://nvd.nist.gov/vuln/detail/CVE-2022-4899 
+│                       │      │                  ├ [93]: https://security.netapp.com/advisory/ntap-202307
 │                       │      │                  │       25-0005 
-│                       │      │                  ├ [17]: https://security.netapp.com/advisory/ntap-202307
+│                       │      │                  ├ [94]: https://security.netapp.com/advisory/ntap-202307
 │                       │      │                  │       25-0005/ 
-│                       │      │                  ╰ [18]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
+│                       │      │                  ╰ [95]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
 │                       ├ [64] ╭ VulnerabilityID : CVE-2023-29383 
@@ -4877,7 +5037,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-79 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
-│                       │     │                  ├ amazon     : 3 
+│                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ ghsa       : 2 
 │                       │     │                  ├ nvd        : 2 
@@ -5721,7 +5881,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-79 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
-│                       │     │                  ├ amazon     : 3 
+│                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ ghsa       : 2 
 │                       │     │                  ├ nvd        : 2 
@@ -7312,7 +7472,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-79 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
-│                       │     │                  ├ amazon     : 3 
+│                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ ghsa       : 2 
 │                       │     │                  ├ nvd        : 2 
@@ -7853,7 +8013,178 @@
 │                             │                           id_reset_zeroday/ 
 │                             ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                             ╰ LastModifiedDate: 2024-02-02T15:40:23.61Z 
-├ [6] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [6] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│     ├ Class  : secret 
+│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                     ├ Category : AsymmetricPrivateKey 
+│                     ├ Severity : HIGH 
+│                     ├ Title    : Asymmetric Private Key 
+│                     ├ StartLine: 1 
+│                     ├ EndLine  : 1 
+│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ IsCause    : true 
+│                     │                   │     ├ Annotation :  
+│                     │                   │     ├ Truncated  : false 
+│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ FirstCause : true 
+│                     │                   │     ╰ LastCause  : true 
+│                     │                   ╰ [1] ╭ Number    : 2 
+│                     │                         ├ Content   :  
+│                     │                         ├ IsCause   : false 
+│                     │                         ├ Annotation:  
+│                     │                         ├ Truncated : false 
+│                     │                         ├ FirstCause: false 
+│                     │                         ╰ LastCause : false 
+│                     ├ Match    : BEGIN OPENSSH PRIVATE
+│                     │            KEY-----********************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            *****************************************-----END OPENSSH PRI 
+│                     ╰ Layer     ╭ Digest   : sha256:b82b33d9326ba675ff69193e2c1766a49f30259586360787c87d
+│                                 │            eb7cb713c798 
+│                                 ├ DiffID   : sha256:e392c727c7f007e537fcc10675e7bb0754b58357cb4e95df2feb
+│                                 │            d73169e61b2d 
+│                                 ╰ CreatedBy: COPY / / # buildkit 
+├ [7] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -7958,7 +8289,7 @@
 │                                 ├ DiffID   : sha256:e392c727c7f007e537fcc10675e7bb0754b58357cb4e95df2feb
 │                                 │            d73169e61b2d 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [7] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [8] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -8016,59 +8347,7 @@
 │                                 ├ DiffID   : sha256:e392c727c7f007e537fcc10675e7bb0754b58357cb4e95df2feb
 │                                 │            d73169e61b2d 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [8] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│     ├ Class  : secret 
-│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                     ├ Category : AsymmetricPrivateKey 
-│                     ├ Severity : HIGH 
-│                     ├ Title    : Asymmetric Private Key 
-│                     ├ StartLine: 1 
-│                     ├ EndLine  : 1 
-│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ IsCause    : true 
-│                     │                   │     ├ Annotation :  
-│                     │                   │     ├ Truncated  : false 
-│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ FirstCause : true 
-│                     │                   │     ╰ LastCause  : true 
-│                     │                   ╰ [1] ╭ Number    : 2 
-│                     │                         ├ Content   :  
-│                     │                         ├ IsCause   : false 
-│                     │                         ├ Annotation:  
-│                     │                         ├ Truncated : false 
-│                     │                         ├ FirstCause: false 
-│                     │                         ╰ LastCause : false 
-│                     ├ Match    : BEGIN OPENSSH PRIVATE
-│                     │            KEY-----********************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            **********************************************-----END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:b82b33d9326ba675ff69193e2c1766a49f30259586360787c87d
-│                                 │            eb7cb713c798 
-│                                 ├ DiffID   : sha256:e392c727c7f007e537fcc10675e7bb0754b58357cb4e95df2feb
-│                                 │            d73169e61b2d 
-│                                 ╰ CreatedBy: COPY / / # buildkit 
-╰ [9] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [9] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
       ├ Class  : secret 
       ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                       ├ Category : AsymmetricPrivateKey 
@@ -8085,53 +8364,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              **************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ IsCause    : true 
                       │                   │     ├ Annotation :  
                       │                   │     ├ Truncated  : false 
@@ -8143,53 +8377,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              **************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ FirstCause : true 
                       │                   │     ╰ LastCause  : true 
                       │                   ╰ [1] ╭ Number    : 2 
@@ -8204,36 +8393,7 @@
                       │            ****************************************************************************
                       │            ****************************************************************************
                       │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            *****************************************-----END OPENSSH PRI 
+                      │            **********************************************-----END OPENSSH PRI 
                       ╰ Layer     ╭ Digest   : sha256:b82b33d9326ba675ff69193e2c1766a49f30259586360787c87d
                                   │            eb7cb713c798 
                                   ├ DiffID   : sha256:e392c727c7f007e537fcc10675e7bb0754b58357cb4e95df2feb
