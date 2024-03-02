@@ -1114,6 +1114,7 @@
     VendorSeverity:
       amazon: 2
       nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
