@@ -1226,6 +1226,7 @@
 │                       │      ├ CweIDs           ─ [0]: CWE-776 
 │                       │      ├ VendorSeverity   ╭ amazon: 2 
 │                       │      │                  ├ nvd   : 2 
+│                       │      │                  ├ photon: 2 
 │                       │      │                  ├ redhat: 2 
 │                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
