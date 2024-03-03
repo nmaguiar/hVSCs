@@ -4264,7 +4264,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4742,7 +4742,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -5647,7 +5647,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
