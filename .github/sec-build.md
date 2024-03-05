@@ -1833,7 +1833,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
@@ -1908,7 +1909,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
@@ -2756,7 +2758,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
@@ -3096,7 +3099,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
@@ -3171,7 +3175,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
@@ -3246,7 +3251,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
