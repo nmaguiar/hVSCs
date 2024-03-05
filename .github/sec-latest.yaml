@@ -1697,6 +1697,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -1765,6 +1766,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -2580,6 +2582,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -2697,6 +2700,7 @@
     CweIDs:
     - CWE-918
     VendorSeverity:
+      amazon: 2
       nvd: 3
       photon: 4
       redhat: 2
@@ -2971,6 +2975,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -3039,6 +3044,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -3107,6 +3113,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -5962,37 +5969,6 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
     LastModifiedDate: '2024-02-02T15:40:23.61Z'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:b82b33d9326ba675ff69193e2c1766a49f30259586360787c87deb7cb713c798
-      DiffID: sha256:e392c727c7f007e537fcc10675e7bb0754b58357cb4e95df2febd73169e61b2d
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -6082,6 +6058,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:b82b33d9326ba675ff69193e2c1766a49f30259586360787c87deb7cb713c798
+      DiffID: sha256:e392c727c7f007e537fcc10675e7bb0754b58357cb4e95df2febd73169e61b2d
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:b82b33d9326ba675ff69193e2c1766a49f30259586360787c87deb7cb713c798
       DiffID: sha256:e392c727c7f007e537fcc10675e7bb0754b58357cb4e95df2febd73169e61b2d
