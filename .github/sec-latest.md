@@ -1833,7 +1833,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
@@ -1908,7 +1909,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
@@ -2907,7 +2909,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
@@ -3055,10 +3058,12 @@
 │                       │      │                   are no known workarounds for this vulnerability. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-918 
-│                       │      ├ VendorSeverity   ╭ nvd   : 3 
-│                       │      │                  ├ photon: 4 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ ubuntu: 2 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ photon     : 4 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ ubuntu     : 2 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │      │                  │        │           L/I:L/A:L 
 │                       │      │                  │        ╰ V3Score : 7.3 
@@ -3082,14 +3087,16 @@
 │                       │      │                  │       8b8207c9150b6e582f0adf26213c39 
 │                       │      │                  ├ [8] : https://github.com/libuv/libuv/security/advisori
 │                       │      │                  │       es/GHSA-f74f-cvh7-c6q6 
-│                       │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-24806 
-│                       │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6666-1 
-│                       │      │                  ├ [11]: https://www.chainguard.dev/unchained/unpacking-l
+│                       │      │                  ├ [9] : https://lists.debian.org/debian-lts-announce/202
+│                       │      │                  │       4/03/msg00005.html 
+│                       │      │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-24806 
+│                       │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6666-1 
+│                       │      │                  ├ [12]: https://www.chainguard.dev/unchained/unpacking-l
 │                       │      │                  │       ibuvs-cve-2024-24806-software-dark-matter-will-go-und
 │                       │      │                  │       er-the-radar-not-in-chainguard-images-tho 
-│                       │      │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-24806 
+│                       │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-24806 
 │                       │      ├ PublishedDate   : 2024-02-07T22:15:10.173Z 
-│                       │      ╰ LastModifiedDate: 2024-02-28T16:43:37.573Z 
+│                       │      ╰ LastModifiedDate: 2024-03-05T23:15:07.867Z 
 │                       ├ [62] ╭ VulnerabilityID : CVE-2024-25062 
 │                       │      ├ PkgID           : libxml2@2.9.13+dfsg-1ubuntu0.3 
 │                       │      ├ PkgName         : libxml2 
@@ -3369,7 +3376,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
@@ -3444,7 +3452,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
@@ -3519,7 +3528,8 @@
 │                       │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
 │                       │      │                   tgetstr in tinfo/lib_termcap.c. 
 │                       │      ├ Severity        : LOW 
-│                       │      ├ VendorSeverity   ─ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon: 2 
+│                       │      │                  ╰ ubuntu: 1 
 │                       │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
 │                       │      │                  │      E-2023-45918 
 │                       │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/20
@@ -4279,11 +4289,12 @@
 │                       │      │                   functions. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ nvd   : 3 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                  │        │           H/I:H/A:H 
 │                       │      │                  │        ╰ V3Score : 7.8 
@@ -4334,11 +4345,12 @@
 │                       │      │                   functions. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ nvd   : 3 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                  │        │           H/I:H/A:H 
 │                       │      │                  │        ╰ V3Score : 7.8 
@@ -4389,11 +4401,12 @@
 │                       │      │                   functions. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ nvd   : 3 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                  │        │           H/I:H/A:H 
 │                       │      │                  │        ╰ V3Score : 7.8 
@@ -4492,11 +4505,12 @@
 │                       │      │                   functions. 
 │                       │      ├ Severity        : LOW 
 │                       │      ├ CweIDs           ─ [0]: CWE-787 
-│                       │      ├ VendorSeverity   ╭ amazon: 2 
-│                       │      │                  ├ nvd   : 3 
-│                       │      │                  ├ photon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ ubuntu: 1 
+│                       │      ├ VendorSeverity   ╭ amazon     : 2 
+│                       │      │                  ├ cbl-mariner: 3 
+│                       │      │                  ├ nvd        : 3 
+│                       │      │                  ├ photon     : 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ ubuntu     : 1 
 │                       │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
 │                       │      │                  │        │           H/I:H/A:H 
 │                       │      │                  │        ╰ V3Score : 7.8 
@@ -5054,7 +5068,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-79 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
-│                       │     │                  ├ amazon     : 3 
+│                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ ghsa       : 2 
 │                       │     │                  ├ nvd        : 2 
@@ -5572,26 +5586,28 @@
 │                             │                  ├ [211]: https://www.debian.org/security/2023/dsa-5549 
 │                             │                  ├ [212]: https://www.debian.org/security/2023/dsa-5558 
 │                             │                  ├ [213]: https://www.debian.org/security/2023/dsa-5570 
-│                             │                  ├ [214]: https://www.haproxy.com/blog/haproxy-is-not-affe
+│                             │                  ├ [214]: https://www.eclipse.org/lists/jetty-announce/msg
+│                             │                  │        00181.html 
+│                             │                  ├ [215]: https://www.haproxy.com/blog/haproxy-is-not-affe
 │                             │                  │        cted-by-the-http-2-rapid-reset-attack-cve-2023-44487
 │                             │                  │        [m 
-│                             │                  ├ [215]: https://www.mail-archive.com/haproxy@formilux.or
+│                             │                  ├ [216]: https://www.mail-archive.com/haproxy@formilux.or
 │                             │                  │        g/msg44134.html 
-│                             │                  ├ [216]: https://www.netlify.com/blog/netlify-successfull
-│                             │                  │        y-mitigates-cve-2023-44487 
 │                             │                  ├ [217]: https://www.netlify.com/blog/netlify-successfull
+│                             │                  │        y-mitigates-cve-2023-44487 
+│                             │                  ├ [218]: https://www.netlify.com/blog/netlify-successfull
 │                             │                  │        y-mitigates-cve-2023-44487/ 
-│                             │                  ├ [218]: https://www.nginx.com/blog/http-2-rapid-reset-at
-│                             │                  │        tack-impacting-f5-nginx-products 
 │                             │                  ├ [219]: https://www.nginx.com/blog/http-2-rapid-reset-at
+│                             │                  │        tack-impacting-f5-nginx-products 
+│                             │                  ├ [220]: https://www.nginx.com/blog/http-2-rapid-reset-at
 │                             │                  │        tack-impacting-f5-nginx-products/ 
-│                             │                  ├ [220]: https://www.openwall.com/lists/oss-security/2023
+│                             │                  ├ [221]: https://www.openwall.com/lists/oss-security/2023
 │                             │                  │        /10/10/6 
-│                             │                  ├ [221]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
+│                             │                  ├ [222]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
 │                             │                  │        Attack 
-│                             │                  ├ [222]: https://www.theregister.com/2023/10/10/http2_rap
+│                             │                  ├ [223]: https://www.theregister.com/2023/10/10/http2_rap
 │                             │                  │        id_reset_zeroday 
-│                             │                  ╰ [223]: https://www.theregister.com/2023/10/10/http2_rap
+│                             │                  ╰ [224]: https://www.theregister.com/2023/10/10/http2_rap
 │                             │                           id_reset_zeroday/ 
 │                             ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                             ╰ LastModifiedDate: 2024-02-02T15:40:23.61Z 
@@ -5898,7 +5914,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-79 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
-│                       │     │                  ├ amazon     : 3 
+│                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ ghsa       : 2 
 │                       │     │                  ├ nvd        : 2 
@@ -6416,26 +6432,28 @@
 │                             │                  ├ [211]: https://www.debian.org/security/2023/dsa-5549 
 │                             │                  ├ [212]: https://www.debian.org/security/2023/dsa-5558 
 │                             │                  ├ [213]: https://www.debian.org/security/2023/dsa-5570 
-│                             │                  ├ [214]: https://www.haproxy.com/blog/haproxy-is-not-affe
+│                             │                  ├ [214]: https://www.eclipse.org/lists/jetty-announce/msg
+│                             │                  │        00181.html 
+│                             │                  ├ [215]: https://www.haproxy.com/blog/haproxy-is-not-affe
 │                             │                  │        cted-by-the-http-2-rapid-reset-attack-cve-2023-44487
 │                             │                  │        [m 
-│                             │                  ├ [215]: https://www.mail-archive.com/haproxy@formilux.or
+│                             │                  ├ [216]: https://www.mail-archive.com/haproxy@formilux.or
 │                             │                  │        g/msg44134.html 
-│                             │                  ├ [216]: https://www.netlify.com/blog/netlify-successfull
-│                             │                  │        y-mitigates-cve-2023-44487 
 │                             │                  ├ [217]: https://www.netlify.com/blog/netlify-successfull
+│                             │                  │        y-mitigates-cve-2023-44487 
+│                             │                  ├ [218]: https://www.netlify.com/blog/netlify-successfull
 │                             │                  │        y-mitigates-cve-2023-44487/ 
-│                             │                  ├ [218]: https://www.nginx.com/blog/http-2-rapid-reset-at
-│                             │                  │        tack-impacting-f5-nginx-products 
 │                             │                  ├ [219]: https://www.nginx.com/blog/http-2-rapid-reset-at
+│                             │                  │        tack-impacting-f5-nginx-products 
+│                             │                  ├ [220]: https://www.nginx.com/blog/http-2-rapid-reset-at
 │                             │                  │        tack-impacting-f5-nginx-products/ 
-│                             │                  ├ [220]: https://www.openwall.com/lists/oss-security/2023
+│                             │                  ├ [221]: https://www.openwall.com/lists/oss-security/2023
 │                             │                  │        /10/10/6 
-│                             │                  ├ [221]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
+│                             │                  ├ [222]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
 │                             │                  │        Attack 
-│                             │                  ├ [222]: https://www.theregister.com/2023/10/10/http2_rap
+│                             │                  ├ [223]: https://www.theregister.com/2023/10/10/http2_rap
 │                             │                  │        id_reset_zeroday 
-│                             │                  ╰ [223]: https://www.theregister.com/2023/10/10/http2_rap
+│                             │                  ╰ [224]: https://www.theregister.com/2023/10/10/http2_rap
 │                             │                           id_reset_zeroday/ 
 │                             ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                             ╰ LastModifiedDate: 2024-02-02T15:40:23.61Z 
@@ -7489,7 +7507,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-79 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
-│                       │     │                  ├ amazon     : 3 
+│                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ ghsa       : 2 
 │                       │     │                  ├ nvd        : 2 
@@ -8007,26 +8025,28 @@
 │                             │                  ├ [211]: https://www.debian.org/security/2023/dsa-5549 
 │                             │                  ├ [212]: https://www.debian.org/security/2023/dsa-5558 
 │                             │                  ├ [213]: https://www.debian.org/security/2023/dsa-5570 
-│                             │                  ├ [214]: https://www.haproxy.com/blog/haproxy-is-not-affe
+│                             │                  ├ [214]: https://www.eclipse.org/lists/jetty-announce/msg
+│                             │                  │        00181.html 
+│                             │                  ├ [215]: https://www.haproxy.com/blog/haproxy-is-not-affe
 │                             │                  │        cted-by-the-http-2-rapid-reset-attack-cve-2023-44487
 │                             │                  │        [m 
-│                             │                  ├ [215]: https://www.mail-archive.com/haproxy@formilux.or
+│                             │                  ├ [216]: https://www.mail-archive.com/haproxy@formilux.or
 │                             │                  │        g/msg44134.html 
-│                             │                  ├ [216]: https://www.netlify.com/blog/netlify-successfull
-│                             │                  │        y-mitigates-cve-2023-44487 
 │                             │                  ├ [217]: https://www.netlify.com/blog/netlify-successfull
+│                             │                  │        y-mitigates-cve-2023-44487 
+│                             │                  ├ [218]: https://www.netlify.com/blog/netlify-successfull
 │                             │                  │        y-mitigates-cve-2023-44487/ 
-│                             │                  ├ [218]: https://www.nginx.com/blog/http-2-rapid-reset-at
-│                             │                  │        tack-impacting-f5-nginx-products 
 │                             │                  ├ [219]: https://www.nginx.com/blog/http-2-rapid-reset-at
+│                             │                  │        tack-impacting-f5-nginx-products 
+│                             │                  ├ [220]: https://www.nginx.com/blog/http-2-rapid-reset-at
 │                             │                  │        tack-impacting-f5-nginx-products/ 
-│                             │                  ├ [220]: https://www.openwall.com/lists/oss-security/2023
+│                             │                  ├ [221]: https://www.openwall.com/lists/oss-security/2023
 │                             │                  │        /10/10/6 
-│                             │                  ├ [221]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
+│                             │                  ├ [222]: https://www.phoronix.com/news/HTTP2-Rapid-Reset-
 │                             │                  │        Attack 
-│                             │                  ├ [222]: https://www.theregister.com/2023/10/10/http2_rap
+│                             │                  ├ [223]: https://www.theregister.com/2023/10/10/http2_rap
 │                             │                  │        id_reset_zeroday 
-│                             │                  ╰ [223]: https://www.theregister.com/2023/10/10/http2_rap
+│                             │                  ╰ [224]: https://www.theregister.com/2023/10/10/http2_rap
 │                             │                           id_reset_zeroday/ 
 │                             ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                             ╰ LastModifiedDate: 2024-02-02T15:40:23.61Z 
