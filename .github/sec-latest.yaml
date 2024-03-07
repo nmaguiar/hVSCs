@@ -1697,6 +1697,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -1765,6 +1766,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -2580,6 +2582,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -2697,6 +2700,8 @@
     CweIDs:
     - CWE-918
     VendorSeverity:
+      amazon: 2
+      cbl-mariner: 3
       nvd: 3
       photon: 4
       redhat: 2
@@ -2718,12 +2723,13 @@
     - https://github.com/libuv/libuv/commit/c858a147643de38a09dd4164758ae5b685f2b488
     - https://github.com/libuv/libuv/commit/e0327e1d508b8207c9150b6e582f0adf26213c39
     - https://github.com/libuv/libuv/security/advisories/GHSA-f74f-cvh7-c6q6
+    - https://lists.debian.org/debian-lts-announce/2024/03/msg00005.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24806
     - https://ubuntu.com/security/notices/USN-6666-1
     - https://www.chainguard.dev/unchained/unpacking-libuvs-cve-2024-24806-software-dark-matter-will-go-under-the-radar-not-in-chainguard-images-tho
     - https://www.cve.org/CVERecord?id=CVE-2024-24806
     PublishedDate: '2024-02-07T22:15:10.173Z'
-    LastModifiedDate: '2024-02-28T16:43:37.573Z'
+    LastModifiedDate: '2024-03-05T23:15:07.867Z'
   - VulnerabilityID: CVE-2024-25062
     PkgID: libxml2@2.9.13+dfsg-1ubuntu0.3
     PkgName: libxml2
@@ -2971,6 +2977,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -3039,6 +3046,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -3107,6 +3115,7 @@
     Description: ncurses 6.4-20230610 has a NULL pointer dereference in tgetstr in tinfo/lib_termcap.c.
     Severity: LOW
     VendorSeverity:
+      amazon: 2
       ubuntu: 1
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
@@ -3695,6 +3704,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 3
       nvd: 3
       photon: 3
       redhat: 1
@@ -3741,6 +3751,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 3
       nvd: 3
       photon: 3
       redhat: 1
@@ -3787,6 +3798,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 3
       nvd: 3
       photon: 3
       redhat: 1
@@ -3880,6 +3892,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 2
+      cbl-mariner: 3
       nvd: 3
       photon: 3
       redhat: 1
@@ -4264,7 +4277,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4567,6 +4580,7 @@
     - https://www.debian.org/security/2023/dsa-5549
     - https://www.debian.org/security/2023/dsa-5558
     - https://www.debian.org/security/2023/dsa-5570
+    - https://www.eclipse.org/lists/jetty-announce/msg00181.html
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487
@@ -4742,7 +4756,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -5045,6 +5059,7 @@
     - https://www.debian.org/security/2023/dsa-5549
     - https://www.debian.org/security/2023/dsa-5558
     - https://www.debian.org/security/2023/dsa-5570
+    - https://www.eclipse.org/lists/jetty-announce/msg00181.html
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487
@@ -5647,7 +5662,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -5950,6 +5965,7 @@
     - https://www.debian.org/security/2023/dsa-5549
     - https://www.debian.org/security/2023/dsa-5558
     - https://www.debian.org/security/2023/dsa-5570
+    - https://www.eclipse.org/lists/jetty-announce/msg00181.html
     - https://www.haproxy.com/blog/haproxy-is-not-affected-by-the-http-2-rapid-reset-attack-cve-2023-44487
     - https://www.mail-archive.com/haproxy@formilux.org/msg44134.html
     - https://www.netlify.com/blog/netlify-successfully-mitigates-cve-2023-44487
