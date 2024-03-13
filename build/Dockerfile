@@ -8,6 +8,7 @@ RUN apt-get update\
  && curl https://openaf.io/install.sh | sh\
  && chmod a+x /opt/oaf/*-sb\
  && curl https://get.docker.com | sh\
+ && opack install BouncyCastle\
  && opack install ojob-common\
  && opack install oafproc\
  && ojob ojob.io/docker/k3d\
