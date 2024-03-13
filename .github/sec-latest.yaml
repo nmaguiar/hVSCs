@@ -873,6 +873,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2023-05-26T16:31:34.07Z'
+  - VulnerabilityID: CVE-2022-48624
+    PkgID: less@590-1ubuntu0.22.04.1
+    PkgName: less
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/less@590-1ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 590-1ubuntu0.22.04.1
+    FixedVersion: 590-1ubuntu0.22.04.2
+    Status: fixed
+    Layer:
+      Digest: sha256:b82b33d9326ba675ff69193e2c1766a49f30259586360787c87deb7cb713c798
+      DiffID: sha256:e392c727c7f007e537fcc10675e7bb0754b58357cb4e95df2febd73169e61b2d
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2022-48624
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'less: missing quoting of shell metacharacters in LESSCLOSE handling'
+    Description: close_altfile in filename.c in less before 606 omits shell_quote calls for LESSCLOSE.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H
+        V3Score: 7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2022-48624
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48624
+    - https://github.com/gwsw/less/commit/c6ac6de49698be84d264a0c4c0c40bb870b10144
+    - https://github.com/gwsw/less/compare/v605...v606
+    - https://greenwoodsoftware.com/less/
+    - https://nvd.nist.gov/vuln/detail/CVE-2022-48624
+    - https://ubuntu.com/security/notices/USN-6664-1
+    - https://www.cve.org/CVERecord?id=CVE-2022-48624
+    PublishedDate: '2024-02-19T01:15:48.643Z'
+    LastModifiedDate: '2024-02-20T19:50:53.96Z'
   - VulnerabilityID: CVE-2016-1585
     PkgID: libapparmor1@3.0.4-2ubuntu2.3
     PkgName: libapparmor1
@@ -4298,7 +4337,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4783,7 +4822,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -5743,7 +5782,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
