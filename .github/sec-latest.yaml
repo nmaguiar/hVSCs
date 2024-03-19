@@ -1815,8 +1815,9 @@
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    - https://security.netapp.com/advisory/ntap-20240315-0006/
     PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-02-20T19:51:05.51Z'
+    LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libncurses6@6.3-2ubuntu0.1
     PkgName: libncurses6
@@ -1885,8 +1886,9 @@
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    - https://security.netapp.com/advisory/ntap-20240315-0006/
     PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-02-20T19:51:05.51Z'
+    LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libncursesw6@6.3-2ubuntu0.1
     PkgName: libncursesw6
@@ -2704,8 +2706,9 @@
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    - https://security.netapp.com/advisory/ntap-20240315-0006/
     PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-02-20T19:51:05.51Z'
+    LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: libtinfo6@6.3-2ubuntu0.1
     PkgName: libtinfo6
@@ -3102,8 +3105,9 @@
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    - https://security.netapp.com/advisory/ntap-20240315-0006/
     PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-02-20T19:51:05.51Z'
+    LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-base@6.3-2ubuntu0.1
     PkgName: ncurses-base
@@ -3172,8 +3176,9 @@
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    - https://security.netapp.com/advisory/ntap-20240315-0006/
     PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-02-20T19:51:05.51Z'
+    LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-bin@6.3-2ubuntu0.1
     PkgName: ncurses-bin
@@ -3242,8 +3247,9 @@
     References:
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
+    - https://security.netapp.com/advisory/ntap-20240315-0006/
     PublishedDate: '2024-02-16T22:15:07.88Z'
-    LastModifiedDate: '2024-02-20T19:51:05.51Z'
+    LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
     PkgID: ncurses-term@6.3-2ubuntu0.1
     PkgName: ncurses-term
@@ -4410,7 +4416,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4895,7 +4901,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -6016,7 +6022,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2

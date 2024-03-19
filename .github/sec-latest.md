@@ -1971,10 +1971,12 @@
 │                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2023-45918 
-│                        │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
-│                        │      │                         023-06/msg00005.html 
+│                        │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-06/msg00005.html 
+│                        │      │                  ╰ [2]: https://security.netapp.com/advisory/ntap-202403
+│                        │      │                         15-0006/ 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                        │      ╰ LastModifiedDate: 2024-02-20T19:51:05.51Z 
+│                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
 │                        ├ [44] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
@@ -2048,10 +2050,12 @@
 │                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2023-45918 
-│                        │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
-│                        │      │                         023-06/msg00005.html 
+│                        │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-06/msg00005.html 
+│                        │      │                  ╰ [2]: https://security.netapp.com/advisory/ntap-202403
+│                        │      │                         15-0006/ 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                        │      ╰ LastModifiedDate: 2024-02-20T19:51:05.51Z 
+│                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
 │                        ├ [46] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncursesw6 
@@ -3057,10 +3061,12 @@
 │                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2023-45918 
-│                        │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
-│                        │      │                         023-06/msg00005.html 
+│                        │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-06/msg00005.html 
+│                        │      │                  ╰ [2]: https://security.netapp.com/advisory/ntap-202403
+│                        │      │                         15-0006/ 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                        │      ╰ LastModifiedDate: 2024-02-20T19:51:05.51Z 
+│                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
 │                        ├ [62] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
@@ -3528,10 +3534,12 @@
 │                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2023-45918 
-│                        │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
-│                        │      │                         023-06/msg00005.html 
+│                        │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-06/msg00005.html 
+│                        │      │                  ╰ [2]: https://security.netapp.com/advisory/ntap-202403
+│                        │      │                         15-0006/ 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                        │      ╰ LastModifiedDate: 2024-02-20T19:51:05.51Z 
+│                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
 │                        ├ [69] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
@@ -3605,10 +3613,12 @@
 │                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2023-45918 
-│                        │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
-│                        │      │                         023-06/msg00005.html 
+│                        │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-06/msg00005.html 
+│                        │      │                  ╰ [2]: https://security.netapp.com/advisory/ntap-202403
+│                        │      │                         15-0006/ 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                        │      ╰ LastModifiedDate: 2024-02-20T19:51:05.51Z 
+│                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
 │                        ├ [71] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
@@ -3682,10 +3692,12 @@
 │                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2023-45918 
-│                        │      │                  ╰ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
-│                        │      │                         023-06/msg00005.html 
+│                        │      │                  ├ [1]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-06/msg00005.html 
+│                        │      │                  ╰ [2]: https://security.netapp.com/advisory/ntap-202403
+│                        │      │                         15-0006/ 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                        │      ╰ LastModifiedDate: 2024-02-20T19:51:05.51Z 
+│                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
 │                        ├ [73] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
@@ -5253,7 +5265,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -6124,7 +6136,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -7996,7 +8008,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
