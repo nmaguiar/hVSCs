@@ -6546,7 +6546,7 @@
 │                        │     │                  │        ty-update-new-ssh-vulnerability-discovered-cve-2023-
 │                        │     │                  │        48795/ 
 │                        │     │                  ├ [70] : https://linux.oracle.com/cve/CVE-2023-48795.html 
-│                        │     │                  ├ [71] : https://linux.oracle.com/errata/ELSA-2024-12164.html 
+│                        │     │                  ├ [71] : https://linux.oracle.com/errata/ELSA-2024-12233.html 
 │                        │     │                  ├ [72] : https://lists.debian.org/debian-lts-announce/20
 │                        │     │                  │        23/12/msg00017.html 
 │                        │     │                  ├ [73] : https://lists.debian.org/debian-lts-announce/20
