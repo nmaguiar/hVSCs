@@ -154,7 +154,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -224,7 +224,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1146,7 +1146,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -4226,7 +4226,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -4468,7 +4468,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -4628,7 +4628,7 @@
 │                              │                  ├ [35] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [36] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [37] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                              │                  ├ [37] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                              │                  ├ [38] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [39] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -5097,7 +5097,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -5339,7 +5339,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -5499,7 +5499,7 @@
 │                              │                  ├ [35] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [36] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [37] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                              │                  ├ [37] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                              │                  ├ [38] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [39] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -5891,7 +5891,119 @@
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-47108 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-29018 
+│                        │     ├ PkgName         : github.com/docker/docker 
+│                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/github.com/docker/docker@v25.0.4-0.20
+│                        │     │                          240301160236-51e876cd964c%2Bincompatible 
+│                        │     ├ InstalledVersion: v25.0.4-0.20240301160236-51e876cd964c+incompatible 
+│                        │     ├ FixedVersion    : 26.0.0-rc3, 25.0.5, 23.0.11 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be
+│                        │     │                  │         14aa3154c99ee4875cf727210 
+│                        │     │                  ╰ DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522d
+│                        │     │                            e6c39a6430b415310af3f0f74 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-29018 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : Moby's external DNS requests from 'internal' networks
+│                        │     │                   could lead to data exfiltration 
+│                        │     ├ Description     : Moby is an open source container framework that is a
+│                        │     │                   key component of Docker Engine, Docker Desktop, and other
+│                        │     │                   distributions of container tooling or runtimes. Moby's
+│                        │     │                   networking implementation allows for many networks, each
+│                        │     │                   with their own IP address range and gateway, to be defined.
+│                        │     │                   This feature is frequently referred to as custom networks,
+│                        │     │                   as each network can have a different driver, set of
+│                        │     │                   parameters and thus behaviors. When creating a network, the
+│                        │     │                   `--internal` flag is used to designate a network as
+│                        │     │                   _internal_. The `internal` attribute in a docker-compose.yml
+│                        │     │                    file may also be used to mark a network _internal_, and
+│                        │     │                   other API clients may specify the `internal` parameter as
+│                        │     │                   well.
+│                        │     │                   
+│                        │     │                   When containers with networking are created, they are
+│                        │     │                   assigned unique network interfaces and IP addresses. The
+│                        │     │                   host serves as a router for non-internal networks, with a
+│                        │     │                   gateway IP that provides SNAT/DNAT to/from container IPs.
+│                        │     │                   
+│                        │     │                   Containers on an internal network may communicate between
+│                        │     │                   each other, but are precluded from communicating with any
+│                        │     │                   networks the host has access to (LAN or WAN) as no default
+│                        │     │                   route is configured, and firewall rules are set up to drop
+│                        │     │                   all outgoing traffic. Communication with the gateway IP
+│                        │     │                   address (and thus appropriately configured host services) is
+│                        │     │                    possible, and the host may communicate with any container
+│                        │     │                   IP directly.
+│                        │     │                   
+│                        │     │                   In addition to configuring the Linux kernel's various
+│                        │     │                   networking features to enable container networking,
+│                        │     │                   `dockerd` directly provides some services to container
+│                        │     │                   networks. Principal among these is serving as a resolver,
+│                        │     │                   enabling service discovery, and resolution of names from an
+│                        │     │                   upstream resolver.
+│                        │     │                   
+│                        │     │                   When a DNS request for a name that does not correspond to a
+│                        │     │                   container is received, the request is forwarded to the
+│                        │     │                   configured upstream resolver. This request is made from the
+│                        │     │                   container's network namespace: the level of access and
+│                        │     │                   routing of traffic is the same as if the request was made by
+│                        │     │                    the container itself.
+│                        │     │                   
+│                        │     │                   As a consequence of this design, containers solely attached
+│                        │     │                   to an internal network will be unable to resolve names using
+│                        │     │                    the upstream resolver, as the container itself is unable to
+│                        │     │                    communicate with that nameserver. Only the names of
+│                        │     │                   containers also attached to the internal network are able to
+│                        │     │                    be resolved.
+│                        │     │                   
+│                        │     │                   Many systems run a local forwarding DNS resolver. As the
+│                        │     │                   host and any containers have separate loopback devices, a
+│                        │     │                   consequence of the design described above is that containers
+│                        │     │                    are unable to resolve names from the host's configured
+│                        │     │                   resolver, as they cannot reach these addresses on the host
+│                        │     │                   loopback device. To bridge this gap, and to allow containers
+│                        │     │                    to properly resolve names even when a local forwarding
+│                        │     │                   resolver is used on a loopback address, `dockerd` detects
+│                        │     │                   this scenario and instead forward DNS requests from the host
+│                        │     │                    namework namespace. The loopback resolver then forwards the
+│                        │     │                    requests to its configured upstream resolvers, as
+│                        │     │                   expected.
+│                        │     │                   
+│                        │     │                   Because `dockerd` forwards DNS requests to the host loopback
+│                        │     │                    device, bypassing the container network namespace's normal
+│                        │     │                   routing semantics entirely, internal networks can
+│                        │     │                   unexpectedly forward DNS requests to an external nameserver.
+│                        │     │                    By registering a domain for which they control the
+│                        │     │                   authoritative nameservers, an attacker could arrange for a
+│                        │     │                   compromised container to exfiltrate data by encoding it in
+│                        │     │                   DNS queries that will eventually be answered by their
+│                        │     │                   nameservers.
+│                        │     │                   
+│                        │     │                   Docker Desktop is not affected, as Docker Desktop always
+│                        │     │                   runs an internal resolver on a RFC 1918 address.
+│                        │     │                   
+│                        │     │                   Moby releases 26.0.0, 25.0.4, and 23.0.11 are patched to
+│                        │     │                   prevent forwarding any DNS requests from internal networks.
+│                        │     │                   As a workaround, run containers intended to be solely
+│                        │     │                   attached to internal networks with a custom upstream
+│                        │     │                   address, which will force all upstream DNS queries to be
+│                        │     │                   resolved from the container's network namespace. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-669 
+│                        │     ├ VendorSeverity   ─ ghsa: 2 
+│                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/
+│                        │     │                         │           I:N/A:N 
+│                        │     │                         ╰ V3Score : 5.9 
+│                        │     ├ References       ╭ [0]: https://github.com/moby/moby 
+│                        │     │                  ├ [1]: https://github.com/moby/moby/pull/46609 
+│                        │     │                  ╰ [2]: https://github.com/moby/moby/security/advisories/
+│                        │     │                         GHSA-mq39-4gv4-mvpx 
+│                        │     ├ PublishedDate   : 2024-03-20T21:15:31.113Z 
+│                        │     ╰ LastModifiedDate: 2024-03-20T21:15:31.113Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2023-47108 
 │                        │     ├ PkgName         : go.opentelemetry.io/contrib/instrumentation/google.gola
 │                        │     │                   ng.org/grpc/otelgrpc 
 │                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/go.opentelemetry.io/contrib/instrumen
@@ -5966,7 +6078,7 @@
 │                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2023-47108 
 │                        │     ├ PublishedDate   : 2023-11-10T19:15:16.41Z 
 │                        │     ╰ LastModifiedDate: 2023-11-20T19:34:26.493Z 
-│                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24786 
+│                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24786 
 │                              ├ PkgName         : google.golang.org/protobuf 
 │                              ├ PkgIdentifier    ─ PURL: pkg:golang/google.golang.org/protobuf@v1.31.0 
 │                              ├ InstalledVersion: v1.31.0 
@@ -6013,7 +6125,75 @@
 ├ [5]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-24786 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-24557 
+│                        │     ├ PkgName         : github.com/docker/docker 
+│                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/github.com/docker/docker@v24.0.7%2Bin
+│                        │     │                          compatible 
+│                        │     ├ InstalledVersion: v24.0.7+incompatible 
+│                        │     ├ FixedVersion    : 25.0.2, 24.0.9 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be
+│                        │     │                  │         14aa3154c99ee4875cf727210 
+│                        │     │                  ╰ DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522d
+│                        │     │                            e6c39a6430b415310af3f0f74 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24557 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : moby: classic builder cache poisoning 
+│                        │     ├ Description     : Moby is an open-source project created by Docker to
+│                        │     │                   enable software containerization. The classic builder cache
+│                        │     │                   system is prone to cache poisoning if the image is built
+│                        │     │                   FROM scratch. Also, changes to some instructions (most
+│                        │     │                   important being HEALTHCHECK and ONBUILD) would not cause a
+│                        │     │                   cache miss. An attacker with the knowledge of the Dockerfile
+│                        │     │                    someone is using could poison their cache by making them
+│                        │     │                   pull a specially crafted image that would be considered as a
+│                        │     │                    valid cache candidate for some build steps. 23.0+ users are
+│                        │     │                    only affected if they explicitly opted out of Buildkit
+│                        │     │                   (DOCKER_BUILDKIT=0 environment variable) or are using the
+│                        │     │                   /build API endpoint. All users on versions older than 23.0
+│                        │     │                   could be impacted. Image build API endpoint (/build) and
+│                        │     │                   ImageBuild function from github.com/docker/docker/client is
+│                        │     │                   also affected as it the uses classic builder by default.
+│                        │     │                   Patches are included in 24.0.9 and 25.0.2 releases. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ╭ [0]: CWE-346 
+│                        │     │                  ╰ [1]: CWE-345 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     │                  ├ cbl-mariner: 3 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ├ nvd        : 3 
+│                        │     │                  ├ redhat     : 2 
+│                        │     │                  ╰ ubuntu     : 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:
+│                        │     │                  │        │           L/I:H/A:L 
+│                        │     │                  │        ╰ V3Score : 6.9 
+│                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
+│                        │     │                  │        │           H/I:H/A:H 
+│                        │     │                  │        ╰ V3Score : 7.8 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:
+│                        │     │                           │           L/I:H/A:L 
+│                        │     │                           ╰ V3Score : 6.9 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24557 
+│                        │     │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                        │     │                  │      E-2024-24557 
+│                        │     │                  ├ [2]: https://github.com/moby/moby 
+│                        │     │                  ├ [3]: https://github.com/moby/moby/commit/3e230cfdcc989
+│                        │     │                  │      dc524882f6579f9e0dac77400ae 
+│                        │     │                  ├ [4]: https://github.com/moby/moby/commit/fca702de7f713
+│                        │     │                  │      62c8d103073c7e4a1d0a467fadd 
+│                        │     │                  ├ [5]: https://github.com/moby/moby/commit/fce6e0ca9bc00
+│                        │     │                  │      0888de3daa157af14fa41fcd0ff 
+│                        │     │                  ├ [6]: https://github.com/moby/moby/security/advisories/
+│                        │     │                  │      GHSA-xw73-rw38-6vjc 
+│                        │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-24557 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24557 
+│                        │     ├ PublishedDate   : 2024-02-01T17:15:10.953Z 
+│                        │     ╰ LastModifiedDate: 2024-02-09T20:21:32.97Z 
+│                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24786 
 │                              ├ PkgName         : google.golang.org/protobuf 
 │                              ├ PkgIdentifier    ─ PURL: pkg:golang/google.golang.org/protobuf@v1.31.0 
 │                              ├ InstalledVersion: v1.31.0 
@@ -6157,7 +6337,75 @@
 │                        │                        │      46b910f05855c8bfdb4415a1c0f958b234910e5 
 │                        │                        ╰ [3]: https://github.com/containerd/containerd/security
 │                        │                               /advisories/GHSA-7ww5-4wqc-m92c 
-│                        ├ [1] ╭ VulnerabilityID : GHSA-jq35-85cj-fj4p 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2024-24557 
+│                        │     ├ PkgName         : github.com/docker/docker 
+│                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/github.com/docker/docker@v24.0.5%2Bin
+│                        │     │                          compatible 
+│                        │     ├ InstalledVersion: v24.0.5+incompatible 
+│                        │     ├ FixedVersion    : 25.0.2, 24.0.9 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be
+│                        │     │                  │         14aa3154c99ee4875cf727210 
+│                        │     │                  ╰ DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522d
+│                        │     │                            e6c39a6430b415310af3f0f74 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24557 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : moby: classic builder cache poisoning 
+│                        │     ├ Description     : Moby is an open-source project created by Docker to
+│                        │     │                   enable software containerization. The classic builder cache
+│                        │     │                   system is prone to cache poisoning if the image is built
+│                        │     │                   FROM scratch. Also, changes to some instructions (most
+│                        │     │                   important being HEALTHCHECK and ONBUILD) would not cause a
+│                        │     │                   cache miss. An attacker with the knowledge of the Dockerfile
+│                        │     │                    someone is using could poison their cache by making them
+│                        │     │                   pull a specially crafted image that would be considered as a
+│                        │     │                    valid cache candidate for some build steps. 23.0+ users are
+│                        │     │                    only affected if they explicitly opted out of Buildkit
+│                        │     │                   (DOCKER_BUILDKIT=0 environment variable) or are using the
+│                        │     │                   /build API endpoint. All users on versions older than 23.0
+│                        │     │                   could be impacted. Image build API endpoint (/build) and
+│                        │     │                   ImageBuild function from github.com/docker/docker/client is
+│                        │     │                   also affected as it the uses classic builder by default.
+│                        │     │                   Patches are included in 24.0.9 and 25.0.2 releases. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ╭ [0]: CWE-346 
+│                        │     │                  ╰ [1]: CWE-345 
+│                        │     ├ VendorSeverity   ╭ amazon     : 3 
+│                        │     │                  ├ cbl-mariner: 3 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ├ nvd        : 3 
+│                        │     │                  ├ redhat     : 2 
+│                        │     │                  ╰ ubuntu     : 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:
+│                        │     │                  │        │           L/I:H/A:L 
+│                        │     │                  │        ╰ V3Score : 6.9 
+│                        │     │                  ├ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:
+│                        │     │                  │        │           H/I:H/A:H 
+│                        │     │                  │        ╰ V3Score : 7.8 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:
+│                        │     │                           │           L/I:H/A:L 
+│                        │     │                           ╰ V3Score : 6.9 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24557 
+│                        │     │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
+│                        │     │                  │      E-2024-24557 
+│                        │     │                  ├ [2]: https://github.com/moby/moby 
+│                        │     │                  ├ [3]: https://github.com/moby/moby/commit/3e230cfdcc989
+│                        │     │                  │      dc524882f6579f9e0dac77400ae 
+│                        │     │                  ├ [4]: https://github.com/moby/moby/commit/fca702de7f713
+│                        │     │                  │      62c8d103073c7e4a1d0a467fadd 
+│                        │     │                  ├ [5]: https://github.com/moby/moby/commit/fce6e0ca9bc00
+│                        │     │                  │      0888de3daa157af14fa41fcd0ff 
+│                        │     │                  ├ [6]: https://github.com/moby/moby/security/advisories/
+│                        │     │                  │      GHSA-xw73-rw38-6vjc 
+│                        │     │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-24557 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24557 
+│                        │     ├ PublishedDate   : 2024-02-01T17:15:10.953Z 
+│                        │     ╰ LastModifiedDate: 2024-02-09T20:21:32.97Z 
+│                        ├ [2] ╭ VulnerabilityID : GHSA-jq35-85cj-fj4p 
 │                        │     ├ PkgName         : github.com/docker/docker 
 │                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/github.com/docker/docker@v24.0.5%2Bin
 │                        │     │                          compatible 
@@ -6259,7 +6507,7 @@
 │                        │                        ├ [6]: https://github.com/moby/moby/releases/tag/v24.0.7 
 │                        │                        ╰ [7]: https://github.com/moby/moby/security/advisories/
 │                        │                               GHSA-jq35-85cj-fj4p 
-│                        ├ [2] ╭ VulnerabilityID : CVE-2024-21626 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2024-21626 
 │                        │     ├ PkgName         : github.com/opencontainers/runc 
 │                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/github.com/opencontainers/runc@v1.1.7 
 │                        │     ├ InstalledVersion: v1.1.7 
@@ -6351,7 +6599,7 @@
 │                        │     │                  ╰ [21]: https://www.cve.org/CVERecord?id=CVE-2024-21626 
 │                        │     ├ PublishedDate   : 2024-01-31T22:15:53.78Z 
 │                        │     ╰ LastModifiedDate: 2024-02-19T03:15:08.413Z 
-│                        ├ [3] ╭ VulnerabilityID : CVE-2023-48795 
+│                        ├ [4] ╭ VulnerabilityID : CVE-2023-48795 
 │                        │     ├ PkgName         : golang.org/x/crypto 
 │                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/crypto@v0.9.0 
 │                        │     ├ InstalledVersion: v0.9.0 
@@ -6546,7 +6794,7 @@
 │                        │     │                  │        ty-update-new-ssh-vulnerability-discovered-cve-2023-
 │                        │     │                  │        48795/ 
 │                        │     │                  ├ [70] : https://linux.oracle.com/cve/CVE-2023-48795.html 
-│                        │     │                  ├ [71] : https://linux.oracle.com/errata/ELSA-2024-12164.html 
+│                        │     │                  ├ [71] : https://linux.oracle.com/errata/ELSA-2024-12233.html 
 │                        │     │                  ├ [72] : https://lists.debian.org/debian-lts-announce/20
 │                        │     │                  │        23/12/msg00017.html 
 │                        │     │                  ├ [73] : https://lists.debian.org/debian-lts-announce/20
@@ -6748,7 +6996,7 @@
 │                        │     │                           ory.txt 
 │                        │     ├ PublishedDate   : 2023-12-18T16:15:10.897Z 
 │                        │     ╰ LastModifiedDate: 2024-03-13T21:15:54.047Z 
-│                        ├ [4] ╭ VulnerabilityID : CVE-2023-39325 
+│                        ├ [5] ╭ VulnerabilityID : CVE-2023-39325 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.10.0 
 │                        │     ├ InstalledVersion: v0.10.0 
@@ -6825,7 +7073,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -7044,7 +7292,7 @@
 │                        │     │                  ╰ [93]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │     ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │     ╰ LastModifiedDate: 2024-03-10T04:15:05.957Z 
-│                        ├ [5] ╭ VulnerabilityID : CVE-2023-3978 
+│                        ├ [6] ╭ VulnerabilityID : CVE-2023-3978 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.10.0 
 │                        │     ├ InstalledVersion: v0.10.0 
@@ -7067,7 +7315,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -7107,7 +7355,7 @@
 │                        │     │                  ╰ [22]: https://www.cve.org/CVERecord?id=CVE-2023-3978 
 │                        │     ├ PublishedDate   : 2023-08-02T20:15:12.097Z 
 │                        │     ╰ LastModifiedDate: 2023-11-07T04:20:03.647Z 
-│                        ├ [6] ╭ VulnerabilityID : CVE-2023-44487 
+│                        ├ [7] ╭ VulnerabilityID : CVE-2023-44487 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.10.0 
 │                        │     ├ InstalledVersion: v0.10.0 
@@ -7227,7 +7475,7 @@
 │                        │     │                  ├ [35] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                        │     │                  │        e-tale-of-a-hidden-cve 
 │                        │     │                  ├ [36] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │     │                  ├ [37] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                        │     │                  ├ [37] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                        │     │                  ├ [38] : https://forums.swift.org/t/swift-nio-http2-secu
 │                        │     │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                        │     │                  ├ [39] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -7616,7 +7864,7 @@
 │                        │     │                           pid_reset_zeroday/ 
 │                        │     ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │     ╰ LastModifiedDate: 2024-02-02T15:40:23.61Z 
-│                        ╰ [7] ╭ VulnerabilityID : CVE-2024-24786 
+│                        ╰ [8] ╭ VulnerabilityID : CVE-2024-24786 
 │                              ├ PkgName         : google.golang.org/protobuf 
 │                              ├ PkgIdentifier    ─ PURL: pkg:golang/google.golang.org/protobuf@v1.30.0 
 │                              ├ InstalledVersion: v1.30.0 
