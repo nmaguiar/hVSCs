@@ -64,8 +64,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : wall in util-linux through 2.40, often installed with
-│                        │      │                   setgid tty permi ... 
+│                        │      ├ Title           : util-linux: CVE-2024-28085: wall: escape sequence injection 
 │                        │      ├ Description     : wall in util-linux through 2.40, often installed with
 │                        │      │                   setgid tty permissions, allows escape sequences to be sent
 │                        │      │                   to other users' terminals through argv. (Specifically,
@@ -74,21 +73,28 @@
 │                        │      │                    may be plausible scenarios where this leads to account
 │                        │      │                   takeover. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
+│                        │      │                           │           :H/I:H/A:N 
+│                        │      │                           ╰ V3Score : 8.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [1]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/util-linux/util-linux/securit
+│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
 │                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [3]: https://mirrors.edge.kernel.org/pub/linux/utils/
+│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
 │                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [4]: https://people.rit.edu/sjf5462/6831711781/wall_2
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
 │                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-27T19:15:48.367Z 
+│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2016-2781 
 │                        │      ├ PkgID           : coreutils@8.32-4.1ubuntu1.1 
 │                        │      ├ PkgName         : coreutils 
@@ -173,7 +179,7 @@
 │                        │      ├ VendorSeverity   ╭ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           │           :H/I:N/A:N 
 │                        │      │                           ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-2398 
 │                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-2398.html 
@@ -183,7 +189,8 @@
 │                        │      │                  ├ [4]: https://hackerone.com/reports/2402845 
 │                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
 │                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6718-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6718-2 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
 │                        │      ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
 │                        │      ╰ LastModifiedDate: 2024-03-27T12:29:30.307Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2023-34969 
@@ -1119,8 +1126,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : wall in util-linux through 2.40, often installed with
-│                        │      │                   setgid tty permi ... 
+│                        │      ├ Title           : util-linux: CVE-2024-28085: wall: escape sequence injection 
 │                        │      ├ Description     : wall in util-linux through 2.40, often installed with
 │                        │      │                   setgid tty permissions, allows escape sequences to be sent
 │                        │      │                   to other users' terminals through argv. (Specifically,
@@ -1129,21 +1135,28 @@
 │                        │      │                    may be plausible scenarios where this leads to account
 │                        │      │                   takeover. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
+│                        │      │                           │           :H/I:H/A:N 
+│                        │      │                           ╰ V3Score : 8.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [1]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/util-linux/util-linux/securit
+│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
 │                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [3]: https://mirrors.edge.kernel.org/pub/linux/utils/
+│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
 │                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [4]: https://people.rit.edu/sjf5462/6831711781/wall_2
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
 │                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-27T19:15:48.367Z 
+│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.6 
 │                        │      ├ PkgName         : libc-bin 
@@ -1250,7 +1263,7 @@
 │                        │      ├ VendorSeverity   ╭ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           │           :H/I:N/A:N 
 │                        │      │                           ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-2398 
 │                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-2398.html 
@@ -1260,7 +1273,8 @@
 │                        │      │                  ├ [4]: https://hackerone.com/reports/2402845 
 │                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
 │                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6718-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6718-2 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
 │                        │      ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
 │                        │      ╰ LastModifiedDate: 2024-03-27T12:29:30.307Z 
 │                        ├ [26] ╭ VulnerabilityID : CVE-2024-2398 
@@ -1293,7 +1307,7 @@
 │                        │      ├ VendorSeverity   ╭ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           │           :H/I:N/A:N 
 │                        │      │                           ╰ V3Score : 7.5 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-2398 
 │                        │      │                  ├ [1]: https://curl.se/docs/CVE-2024-2398.html 
@@ -1303,7 +1317,8 @@
 │                        │      │                  ├ [4]: https://hackerone.com/reports/2402845 
 │                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-2398 
 │                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6718-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6718-2 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2398 
 │                        │      ├ PublishedDate   : 2024-03-27T08:15:41.283Z 
 │                        │      ╰ LastModifiedDate: 2024-03-27T12:29:30.307Z 
 │                        ├ [27] ╭ VulnerabilityID : CVE-2023-34969 
@@ -2084,8 +2099,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : wall in util-linux through 2.40, often installed with
-│                        │      │                   setgid tty permi ... 
+│                        │      ├ Title           : util-linux: CVE-2024-28085: wall: escape sequence injection 
 │                        │      ├ Description     : wall in util-linux through 2.40, often installed with
 │                        │      │                   setgid tty permissions, allows escape sequences to be sent
 │                        │      │                   to other users' terminals through argv. (Specifically,
@@ -2094,21 +2108,28 @@
 │                        │      │                    may be plausible scenarios where this leads to account
 │                        │      │                   takeover. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
+│                        │      │                           │           :H/I:H/A:N 
+│                        │      │                           ╰ V3Score : 8.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [1]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/util-linux/util-linux/securit
+│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
 │                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [3]: https://mirrors.edge.kernel.org/pub/linux/utils/
+│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
 │                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [4]: https://people.rit.edu/sjf5462/6831711781/wall_2
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
 │                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-27T19:15:48.367Z 
+│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
 │                        ├ [47] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
@@ -2865,8 +2886,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : wall in util-linux through 2.40, often installed with
-│                        │      │                   setgid tty permi ... 
+│                        │      ├ Title           : util-linux: CVE-2024-28085: wall: escape sequence injection 
 │                        │      ├ Description     : wall in util-linux through 2.40, often installed with
 │                        │      │                   setgid tty permissions, allows escape sequences to be sent
 │                        │      │                   to other users' terminals through argv. (Specifically,
@@ -2875,21 +2895,28 @@
 │                        │      │                    may be plausible scenarios where this leads to account
 │                        │      │                   takeover. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
+│                        │      │                           │           :H/I:H/A:N 
+│                        │      │                           ╰ V3Score : 8.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [1]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/util-linux/util-linux/securit
+│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
 │                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [3]: https://mirrors.edge.kernel.org/pub/linux/utils/
+│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
 │                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [4]: https://people.rit.edu/sjf5462/6831711781/wall_2
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
 │                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-27T19:15:48.367Z 
+│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
 │                        ├ [59] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
@@ -3235,8 +3262,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : wall in util-linux through 2.40, often installed with
-│                        │      │                   setgid tty permi ... 
+│                        │      ├ Title           : util-linux: CVE-2024-28085: wall: escape sequence injection 
 │                        │      ├ Description     : wall in util-linux through 2.40, often installed with
 │                        │      │                   setgid tty permissions, allows escape sequences to be sent
 │                        │      │                   to other users' terminals through argv. (Specifically,
@@ -3245,21 +3271,28 @@
 │                        │      │                    may be plausible scenarios where this leads to account
 │                        │      │                   takeover. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
+│                        │      │                           │           :H/I:H/A:N 
+│                        │      │                           ╰ V3Score : 8.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [1]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/util-linux/util-linux/securit
+│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
 │                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [3]: https://mirrors.edge.kernel.org/pub/linux/utils/
+│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
 │                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [4]: https://people.rit.edu/sjf5462/6831711781/wall_2
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
 │                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-27T19:15:48.367Z 
+│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
 │                        ├ [67] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
@@ -3491,8 +3524,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : wall in util-linux through 2.40, often installed with
-│                        │      │                   setgid tty permi ... 
+│                        │      ├ Title           : util-linux: CVE-2024-28085: wall: escape sequence injection 
 │                        │      ├ Description     : wall in util-linux through 2.40, often installed with
 │                        │      │                   setgid tty permissions, allows escape sequences to be sent
 │                        │      │                   to other users' terminals through argv. (Specifically,
@@ -3501,21 +3533,28 @@
 │                        │      │                    may be plausible scenarios where this leads to account
 │                        │      │                   takeover. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
+│                        │      │                           │           :H/I:H/A:N 
+│                        │      │                           ╰ V3Score : 8.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [1]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/util-linux/util-linux/securit
+│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
 │                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [3]: https://mirrors.edge.kernel.org/pub/linux/utils/
+│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
 │                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [4]: https://people.rit.edu/sjf5462/6831711781/wall_2
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
 │                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-27T19:15:48.367Z 
+│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
 │                        ├ [70] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
@@ -4457,8 +4496,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : wall in util-linux through 2.40, often installed with
-│                        │      │                   setgid tty permi ... 
+│                        │      ├ Title           : util-linux: CVE-2024-28085: wall: escape sequence injection 
 │                        │      ├ Description     : wall in util-linux through 2.40, often installed with
 │                        │      │                   setgid tty permissions, allows escape sequences to be sent
 │                        │      │                   to other users' terminals through argv. (Specifically,
@@ -4467,21 +4505,28 @@
 │                        │      │                    may be plausible scenarios where this leads to account
 │                        │      │                   takeover. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ─ ubuntu: 2 
-│                        │      ├ References       ╭ [0]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
+│                        │      │                           │           :H/I:H/A:N 
+│                        │      │                           ╰ V3Score : 8.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
+│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [1]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/util-linux/util-linux/securit
+│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
 │                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [3]: https://mirrors.edge.kernel.org/pub/linux/utils/
+│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
 │                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [4]: https://people.rit.edu/sjf5462/6831711781/wall_2
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
 │                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-27T19:15:48.367Z 
+│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
 │                        ├ [87] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
@@ -4987,7 +5032,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -5864,7 +5909,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -7673,7 +7718,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
