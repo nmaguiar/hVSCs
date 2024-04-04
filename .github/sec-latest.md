@@ -4630,46 +4630,7 @@
 ├ [1]  ╭ Target         : Java 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : jar 
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-31033 
-│                        │     ├ PkgName         : io.jsonwebtoken:jjwt-impl 
-│                        │     ├ PkgPath         : opt/oaf/openaf.jar 
-│                        │     ├ PkgIdentifier    ─ PURL: pkg:maven/io.jsonwebtoken/jjwt-impl@0.12.5 
-│                        │     ├ InstalledVersion: 0.12.5 
-│                        │     ├ Status          : affected 
-│                        │     ├ Layer            ╭ Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be
-│                        │     │                  │         14aa3154c99ee4875cf727210 
-│                        │     │                  ╰ DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522d
-│                        │     │                            e6c39a6430b415310af3f0f74 
-│                        │     ├ SeveritySource  : ghsa 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-31033 
-│                        │     ├ DataSource       ╭ ID  : ghsa 
-│                        │     │                  ├ Name: GitHub Security Advisory Maven 
-│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
-│                        │     │                          wed+ecosystem%3Amaven 
-│                        │     ├ Title           : JJWT improperly generates signing keys 
-│                        │     ├ Description     : JJWT (aka Java JWT) through 0.12.5 ignores certain
-│                        │     │                   characters and thus a user might falsely conclude that they
-│                        │     │                   have a strong key. The impacted code is the setSigningKey()
-│                        │     │                   method within the DefaultJwtParser class and the signWith()
-│                        │     │                   method within the DefaultJwtBuilder class. 
-│                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ─ ghsa: 2 
-│                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/
-│                        │     │                         │           I:H/A:N 
-│                        │     │                         ╰ V3Score : 6.8 
-│                        │     ├ References       ╭ [0]: https://github.com/2308652512/JJWT_BUG 
-│                        │     │                  ├ [1]: https://github.com/jwtk/jjwt 
-│                        │     │                  ├ [2]: https://github.com/jwtk/jjwt/blob/26948610fbef81e
-│                        │     │                  │      ba867cbaad54b516d1874c70a/impl/src/main/java/io/jsonwe
-│                        │     │                  │      btoken/impl/DefaultJwtParserBuilder.java#L242 
-│                        │     │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-31033 
-│                        │     │                  ├ [4]: https://www.viralpatel.net/java-create-validate-j
-│                        │     │                  │      wt-token 
-│                        │     │                  ╰ [5]: https://www.viralpatel.net/java-create-validate-j
-│                        │     │                         wt-token/ 
-│                        │     ├ PublishedDate   : 2024-04-01T02:15:07.85Z 
-│                        │     ╰ LastModifiedDate: 2024-04-01T12:49:09.583Z 
-│                        ╰ [1] ╭ VulnerabilityID : CVE-2022-36033 
+│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2022-36033 
 │                              ├ PkgName         : org.jsoup:jsoup 
 │                              ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vsc
 │                              │                   ode-xml-0.26.1-linux-x64/server/org.eclipse.lemminx-0.26.1-u
@@ -8563,7 +8524,60 @@
 │                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-24786 
 │                              ├ PublishedDate   : 2024-03-05T23:15:07.82Z 
 │                              ╰ LastModifiedDate: 2024-03-24T03:15:09.093Z 
-├ [7]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [7]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99e
+│                                  │            e4875cf727210 
+│                                  ├ DiffID   : sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b4
+│                                  │            15310af3f0f74 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [8]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -8739,7 +8753,7 @@
 │                                  ├ DiffID   : sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b4
 │                                  │            15310af3f0f74 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [8]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -8847,65 +8861,7 @@
 │                                  ├ DiffID   : sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b4
 │                                  │            15310af3f0f74 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99e
-│                                  │            e4875cf727210 
-│                                  ├ DiffID   : sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b4
-│                                  │            15310af3f0f74 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+╰ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -8922,8 +8878,10 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRIVATE
-                       │                   │     │              KEY----- 
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRIVATE KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
@@ -8935,8 +8893,10 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRIVATE
-                       │                   │     │              KEY----- 
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRIVATE KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -8951,8 +8911,9 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            **************************************************-----END OPENSSH
-                       │            PRI 
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            **-----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99e
                                    │            e4875cf727210 
                                    ├ DiffID   : sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b4
