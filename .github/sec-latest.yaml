@@ -153,6 +153,7 @@
     Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1123,6 +1124,7 @@
     Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1162,6 +1164,7 @@
     Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
     Severity: MEDIUM
     VendorSeverity:
+      photon: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -6206,6 +6209,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-24786
     PublishedDate: '2024-03-05T23:15:07.82Z'
     LastModifiedDate: '2024-03-24T03:15:09.093Z'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -6295,37 +6329,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
-      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
       DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
