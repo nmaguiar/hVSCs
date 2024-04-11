@@ -79,23 +79,27 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
 │                        │      │                           │           :H/I:H/A:N 
 │                        │      │                           ╰ V3Score : 8.4 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
-│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
-│                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
-│                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
-│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
-│                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
-│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
-│                        │      │                         /03/27/5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -28085 
+│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-28085 
+│                        │      │                  ├ [2] : https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3] : https://github.com/util-linux/util-linux/securi
+│                        │      │                  │       ty/advisories/GHSA-xv2h-c6ww-mrjq 
+│                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/04/msg00005.html 
+│                        │      │                  ├ [5] : https://mirrors.edge.kernel.org/pub/linux/utils
+│                        │      │                  │       /util-linux/ 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [7] : https://people.rit.edu/sjf5462/6831711781/wall_
+│                        │      │                  │       2_27_2024.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6719-2 
+│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                          4/03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
+│                        │      ╰ LastModifiedDate: 2024-04-07T12:15:08.903Z 
 │                        ├ [2]  ╭ VulnerabilityID : CVE-2016-2781 
 │                        │      ├ PkgID           : coreutils@8.32-4.1ubuntu1.1 
 │                        │      ├ PkgName         : coreutils 
@@ -248,7 +252,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -318,7 +322,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1143,23 +1147,27 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
 │                        │      │                           │           :H/I:H/A:N 
 │                        │      │                           ╰ V3Score : 8.4 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
-│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
-│                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
-│                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
-│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
-│                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
-│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
-│                        │      │                         /03/27/5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -28085 
+│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-28085 
+│                        │      │                  ├ [2] : https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3] : https://github.com/util-linux/util-linux/securi
+│                        │      │                  │       ty/advisories/GHSA-xv2h-c6ww-mrjq 
+│                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/04/msg00005.html 
+│                        │      │                  ├ [5] : https://mirrors.edge.kernel.org/pub/linux/utils
+│                        │      │                  │       /util-linux/ 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [7] : https://people.rit.edu/sjf5462/6831711781/wall_
+│                        │      │                  │       2_27_2024.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6719-2 
+│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                          4/03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
+│                        │      ╰ LastModifiedDate: 2024-04-07T12:15:08.903Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.6 
 │                        │      ├ PkgName         : libc-bin 
@@ -1379,7 +1387,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1533,9 +1541,11 @@
 │                        │      │                  ├ [2]: https://github.com/libgd/libgd/issues/750#issuec
 │                        │      │                  │      omment-914872385 
 │                        │      │                  ├ [3]: https://github.com/libgd/libgd/issues/757 
-│                        │      │                  ╰ [4]: https://nvd.nist.gov/vuln/detail/CVE-2021-40812 
+│                        │      │                  ├ [4]: https://lists.debian.org/debian-lts-announce/202
+│                        │      │                  │      4/04/msg00003.html 
+│                        │      │                  ╰ [5]: https://nvd.nist.gov/vuln/detail/CVE-2021-40812 
 │                        │      ├ PublishedDate   : 2021-09-08T21:15:14.083Z 
-│                        │      ╰ LastModifiedDate: 2021-09-15T15:07:24.577Z 
+│                        │      ╰ LastModifiedDate: 2024-04-07T01:17:53.437Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2024-28834 
 │                        │      ├ PkgID           : libgnutls30@3.7.3-4ubuntu1.4 
 │                        │      ├ PkgName         : libgnutls30 
@@ -2121,23 +2131,27 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
 │                        │      │                           │           :H/I:H/A:N 
 │                        │      │                           ╰ V3Score : 8.4 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
-│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
-│                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
-│                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
-│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
-│                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
-│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
-│                        │      │                         /03/27/5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -28085 
+│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-28085 
+│                        │      │                  ├ [2] : https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3] : https://github.com/util-linux/util-linux/securi
+│                        │      │                  │       ty/advisories/GHSA-xv2h-c6ww-mrjq 
+│                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/04/msg00005.html 
+│                        │      │                  ├ [5] : https://mirrors.edge.kernel.org/pub/linux/utils
+│                        │      │                  │       /util-linux/ 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [7] : https://people.rit.edu/sjf5462/6831711781/wall_
+│                        │      │                  │       2_27_2024.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6719-2 
+│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                          4/03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
+│                        │      ╰ LastModifiedDate: 2024-04-07T12:15:08.903Z 
 │                        ├ [47] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
@@ -2909,23 +2923,27 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
 │                        │      │                           │           :H/I:H/A:N 
 │                        │      │                           ╰ V3Score : 8.4 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
-│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
-│                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
-│                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
-│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
-│                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
-│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
-│                        │      │                         /03/27/5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -28085 
+│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-28085 
+│                        │      │                  ├ [2] : https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3] : https://github.com/util-linux/util-linux/securi
+│                        │      │                  │       ty/advisories/GHSA-xv2h-c6ww-mrjq 
+│                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/04/msg00005.html 
+│                        │      │                  ├ [5] : https://mirrors.edge.kernel.org/pub/linux/utils
+│                        │      │                  │       /util-linux/ 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [7] : https://people.rit.edu/sjf5462/6831711781/wall_
+│                        │      │                  │       2_27_2024.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6719-2 
+│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                          4/03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
+│                        │      ╰ LastModifiedDate: 2024-04-07T12:15:08.903Z 
 │                        ├ [59] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
@@ -3286,23 +3304,27 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
 │                        │      │                           │           :H/I:H/A:N 
 │                        │      │                           ╰ V3Score : 8.4 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
-│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
-│                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
-│                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
-│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
-│                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
-│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
-│                        │      │                         /03/27/5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -28085 
+│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-28085 
+│                        │      │                  ├ [2] : https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3] : https://github.com/util-linux/util-linux/securi
+│                        │      │                  │       ty/advisories/GHSA-xv2h-c6ww-mrjq 
+│                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/04/msg00005.html 
+│                        │      │                  ├ [5] : https://mirrors.edge.kernel.org/pub/linux/utils
+│                        │      │                  │       /util-linux/ 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [7] : https://people.rit.edu/sjf5462/6831711781/wall_
+│                        │      │                  │       2_27_2024.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6719-2 
+│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                          4/03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
+│                        │      ╰ LastModifiedDate: 2024-04-07T12:15:08.903Z 
 │                        ├ [67] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
@@ -3549,23 +3571,27 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
 │                        │      │                           │           :H/I:H/A:N 
 │                        │      │                           ╰ V3Score : 8.4 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
-│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
-│                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
-│                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
-│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
-│                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
-│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
-│                        │      │                         /03/27/5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -28085 
+│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-28085 
+│                        │      │                  ├ [2] : https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3] : https://github.com/util-linux/util-linux/securi
+│                        │      │                  │       ty/advisories/GHSA-xv2h-c6ww-mrjq 
+│                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/04/msg00005.html 
+│                        │      │                  ├ [5] : https://mirrors.edge.kernel.org/pub/linux/utils
+│                        │      │                  │       /util-linux/ 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [7] : https://people.rit.edu/sjf5462/6831711781/wall_
+│                        │      │                  │       2_27_2024.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6719-2 
+│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                          4/03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
+│                        │      ╰ LastModifiedDate: 2024-04-07T12:15:08.903Z 
 │                        ├ [70] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
@@ -4522,23 +4548,27 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C
 │                        │      │                           │           :H/I:H/A:N 
 │                        │      │                           ╰ V3Score : 8.4 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-28085 
-│                        │      │                  ├ [1]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
-│                        │      │                  │      VE-2024-28085 
-│                        │      │                  ├ [2]: https://github.com/skyler-ferrante/CVE-2024-28085 
-│                        │      │                  ├ [3]: https://github.com/util-linux/util-linux/securit
-│                        │      │                  │      y/advisories/GHSA-xv2h-c6ww-mrjq 
-│                        │      │                  ├ [4]: https://mirrors.edge.kernel.org/pub/linux/utils/
-│                        │      │                  │      util-linux/ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
-│                        │      │                  ├ [6]: https://people.rit.edu/sjf5462/6831711781/wall_2
-│                        │      │                  │      _27_2024.txt 
-│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6719-1 
-│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
-│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
-│                        │      │                         /03/27/5 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -28085 
+│                        │      │                  ├ [1] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-28085 
+│                        │      │                  ├ [2] : https://github.com/skyler-ferrante/CVE-2024-28085 
+│                        │      │                  ├ [3] : https://github.com/util-linux/util-linux/securi
+│                        │      │                  │       ty/advisories/GHSA-xv2h-c6ww-mrjq 
+│                        │      │                  ├ [4] : https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/04/msg00005.html 
+│                        │      │                  ├ [5] : https://mirrors.edge.kernel.org/pub/linux/utils
+│                        │      │                  │       /util-linux/ 
+│                        │      │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2024-28085 
+│                        │      │                  ├ [7] : https://people.rit.edu/sjf5462/6831711781/wall_
+│                        │      │                  │       2_27_2024.txt 
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6719-1 
+│                        │      │                  ├ [9] : https://ubuntu.com/security/notices/USN-6719-2 
+│                        │      │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2024-28085 
+│                        │      │                  ╰ [11]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                          4/03/27/5 
 │                        │      ├ PublishedDate   : 2024-03-27T19:15:48.367Z 
-│                        │      ╰ LastModifiedDate: 2024-03-28T02:01:21.693Z 
+│                        │      ╰ LastModifiedDate: 2024-04-07T12:15:08.903Z 
 │                        ├ [87] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
@@ -4796,7 +4826,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -5044,7 +5074,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -5206,7 +5236,7 @@
 │                              │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                              │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                              │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [40] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -5677,7 +5707,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -5925,7 +5955,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -6087,7 +6117,7 @@
 │                              │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                              │                  │        e-tale-of-a-hidden-cve 
 │                              │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                              │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                              │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                              │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-secu
 │                              │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                              │                  ├ [40] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -6700,8 +6730,9 @@
 │                              │                   contains a google.protobuf.Any value, or when the
 │                              │                   UnmarshalOptions.DiscardUnknown option is set. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ╰ redhat: 2 
+│                              ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                              │                  ├ ghsa       : 2 
+│                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 5.9 
@@ -6822,8 +6853,9 @@
 │                              │                   contains a google.protobuf.Any value, or when the
 │                              │                   UnmarshalOptions.DiscardUnknown option is set. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ╰ redhat: 2 
+│                              ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                              │                  ├ ghsa       : 2 
+│                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 5.9 
@@ -7684,7 +7716,7 @@
 │                        │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-44487 
 │                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285
 │                        │     │                  │       c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
 │                        │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa
@@ -7932,7 +7964,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -8094,7 +8126,7 @@
 │                        │     │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-th
 │                        │     │                  │        e-tale-of-a-hidden-cve 
 │                        │     │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │     │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                        │     │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                        │     │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-secu
 │                        │     │                  │        rity-update-cve-2023-44487-http-2-dos/67764 
 │                        │     │                  ├ [40] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b3
@@ -8510,8 +8542,9 @@
 │                              │                   contains a google.protobuf.Any value, or when the
 │                              │                   UnmarshalOptions.DiscardUnknown option is set. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ╰ redhat: 2 
+│                              ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                              │                  ├ ghsa       : 2 
+│                              │                  ╰ redhat     : 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 5.9 
@@ -8536,118 +8569,7 @@
 │                              │                  ╰ [10]: https://www.cve.org/CVERecord?id=CVE-2024-24786 
 │                              ├ PublishedDate   : 2024-03-05T23:15:07.82Z 
 │                              ╰ LastModifiedDate: 2024-03-24T03:15:09.093Z 
-├ [7]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99e
-│                                  │            e4875cf727210 
-│                                  ├ DiffID   : sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b4
-│                                  │            15310af3f0f74 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [8]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99e
-│                                  │            e4875cf727210 
-│                                  ├ DiffID   : sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b4
-│                                  │            15310af3f0f74 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [7]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -8823,7 +8745,173 @@
 │                                  ├ DiffID   : sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b4
 │                                  │            15310af3f0f74 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [8]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            *********************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99e
+│                                  │            e4875cf727210 
+│                                  ├ DiffID   : sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b4
+│                                  │            15310af3f0f74 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRIVATE KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRIVATE KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99e
+│                                  │            e4875cf727210 
+│                                  ├ DiffID   : sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b4
+│                                  │            15310af3f0f74 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -8840,28 +8928,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRIVATE
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -8874,28 +8941,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRIVATE
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -8911,20 +8957,7 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            *********************************************************-----END OPENSSH
+                       │            **************************************************-----END OPENSSH
                        │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99e
                                    │            e4875cf727210 
