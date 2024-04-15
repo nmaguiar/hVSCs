@@ -35,14 +35,56 @@
         V3Score: 9.8
     References:
     - https://bugs.launchpad.net/apparmor/+bug/1597017
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1585
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/1048
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/1054
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/333
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2016-1585
+    - https://www.cve.org/CVERecord?id=CVE-2016-1585
     PublishedDate: '2019-04-22T16:29:01.303Z'
     LastModifiedDate: '2023-11-07T02:29:58.223Z'
+  - VulnerabilityID: CVE-2024-28085
+    PkgID: bsdutils@1:2.37.2-4ubuntu3
+    PkgName: bsdutils
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/bsdutils@2.37.2-4ubuntu3?arch=amd64&distro=ubuntu-22.04&epoch=1
+    InstalledVersion: 1:2.37.2-4ubuntu3
+    FixedVersion: 2.37.2-4ubuntu3.3
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28085
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'util-linux: CVE-2024-28085: wall: escape sequence injection'
+    Description: wall in util-linux through 2.40, often installed with setgid tty permissions, allows escape sequences to be sent to other users' terminals through argv. (Specifically, escape sequences received from stdin are blocked, but escape sequences received from argv are not blocked.) There may be plausible scenarios where this leads to account takeover.
+    Severity: MEDIUM
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-28085
+    - https://github.com/skyler-ferrante/CVE-2024-28085
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-xv2h-c6ww-mrjq
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00005.html
+    - https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28085
+    - https://people.rit.edu/sjf5462/6831711781/wall_2_27_2024.txt
+    - https://ubuntu.com/security/notices/USN-6719-1
+    - https://ubuntu.com/security/notices/USN-6719-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-28085
+    - https://www.openwall.com/lists/oss-security/2024/03/27/5
+    PublishedDate: '2024-03-27T19:15:48.367Z'
+    LastModifiedDate: '2024-04-07T12:15:08.903Z'
   - VulnerabilityID: CVE-2016-2781
     PkgID: coreutils@8.32-4.1ubuntu1.1
     PkgName: coreutils
@@ -85,13 +127,51 @@
     - http://www.openwall.com/lists/oss-security/2016/02/28/2
     - http://www.openwall.com/lists/oss-security/2016/02/28/3
     - https://access.redhat.com/security/cve/CVE-2016-2781
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2781
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://lore.kernel.org/patchwork/patch/793178/
     - https://nvd.nist.gov/vuln/detail/CVE-2016-2781
     - https://www.cve.org/CVERecord?id=CVE-2016-2781
     PublishedDate: '2017-02-07T15:59:00.333Z'
     LastModifiedDate: '2023-11-07T02:32:03.347Z'
+  - VulnerabilityID: CVE-2024-2398
+    PkgID: curl@7.81.0-1ubuntu1.15
+    PkgName: curl
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/curl@7.81.0-1ubuntu1.15?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 7.81.0-1ubuntu1.15
+    FixedVersion: 7.81.0-1ubuntu1.16
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2398
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'curl: HTTP/2 push headers memory-leak'
+    Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
+    Severity: MEDIUM
+    VendorSeverity:
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2398
+    - https://curl.se/docs/CVE-2024-2398.html
+    - https://curl.se/docs/CVE-2024-2398.json
+    - https://hackerone.com/reports/2402845
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2398
+    - https://ubuntu.com/security/notices/USN-6718-1
+    - https://ubuntu.com/security/notices/USN-6718-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-2398
+    PublishedDate: '2024-03-27T08:15:41.283Z'
+    LastModifiedDate: '2024-03-27T12:29:30.307Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: dbus@1.12.20-2ubuntu4.1
     PkgName: dbus
@@ -135,7 +215,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -190,7 +270,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -237,7 +317,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3219
     - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219
     - https://dev.gnupg.org/D556
     - https://dev.gnupg.org/T5993
     - https://marc.info/?l=oss-security&m=165696590211434&w=4
@@ -283,7 +362,6 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2022-27943
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1a770b01ef415e114164b6151d1e55acdee09371
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
@@ -332,7 +410,6 @@
     References:
     - http://www.batterystapl.es/2018/01/security-implications-of-ansi-escape.html
     - https://access.redhat.com/security/cve/CVE-2018-1000021
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000021
     - https://nvd.nist.gov/vuln/detail/CVE-2018-1000021
     - https://public-inbox.org/git/20180205204312.GB104086@aiede.svl.corp.google.com/
     - https://www.cve.org/CVERecord?id=CVE-2018-1000021
@@ -375,7 +452,6 @@
     References:
     - http://www.batterystapl.es/2018/01/security-implications-of-ansi-escape.html
     - https://access.redhat.com/security/cve/CVE-2018-1000021
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000021
     - https://nvd.nist.gov/vuln/detail/CVE-2018-1000021
     - https://public-inbox.org/git/20180205204312.GB104086@aiede.svl.corp.google.com/
     - https://www.cve.org/CVERecord?id=CVE-2018-1000021
@@ -416,7 +492,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3219
     - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219
     - https://dev.gnupg.org/D556
     - https://dev.gnupg.org/T5993
     - https://marc.info/?l=oss-security&m=165696590211434&w=4
@@ -460,7 +535,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3219
     - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219
     - https://dev.gnupg.org/D556
     - https://dev.gnupg.org/T5993
     - https://marc.info/?l=oss-security&m=165696590211434&w=4
@@ -504,7 +578,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3219
     - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219
     - https://dev.gnupg.org/D556
     - https://dev.gnupg.org/T5993
     - https://marc.info/?l=oss-security&m=165696590211434&w=4
@@ -548,7 +621,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3219
     - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219
     - https://dev.gnupg.org/D556
     - https://dev.gnupg.org/T5993
     - https://marc.info/?l=oss-security&m=165696590211434&w=4
@@ -592,7 +664,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3219
     - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219
     - https://dev.gnupg.org/D556
     - https://dev.gnupg.org/T5993
     - https://marc.info/?l=oss-security&m=165696590211434&w=4
@@ -636,7 +707,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3219
     - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219
     - https://dev.gnupg.org/D556
     - https://dev.gnupg.org/T5993
     - https://marc.info/?l=oss-security&m=165696590211434&w=4
@@ -680,7 +750,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3219
     - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219
     - https://dev.gnupg.org/D556
     - https://dev.gnupg.org/T5993
     - https://marc.info/?l=oss-security&m=165696590211434&w=4
@@ -724,7 +793,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3219
     - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219
     - https://dev.gnupg.org/D556
     - https://dev.gnupg.org/T5993
     - https://marc.info/?l=oss-security&m=165696590211434&w=4
@@ -768,7 +836,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3219
     - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219
     - https://dev.gnupg.org/D556
     - https://dev.gnupg.org/T5993
     - https://marc.info/?l=oss-security&m=165696590211434&w=4
@@ -812,7 +879,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3219
     - https://bugzilla.redhat.com/show_bug.cgi?id=2127010
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3219
     - https://dev.gnupg.org/D556
     - https://dev.gnupg.org/T5993
     - https://marc.info/?l=oss-security&m=165696590211434&w=4
@@ -854,12 +920,12 @@
         V3Score: 9.8
     References:
     - https://bugs.launchpad.net/apparmor/+bug/1597017
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1585
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/1048
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/1054
     - https://gitlab.com/apparmor/apparmor/-/merge_requests/333
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2016-1585
+    - https://www.cve.org/CVERecord?id=CVE-2016-1585
     PublishedDate: '2019-04-22T16:29:01.303Z'
     LastModifiedDate: '2023-11-07T02:29:58.223Z'
   - VulnerabilityID: CVE-2022-27943
@@ -899,7 +965,6 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2022-27943
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1a770b01ef415e114164b6151d1e55acdee09371
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
@@ -911,6 +976,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2023-11-07T03:45:32.64Z'
+  - VulnerabilityID: CVE-2024-28085
+    PkgID: libblkid1@2.37.2-4ubuntu3
+    PkgName: libblkid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libblkid1@2.37.2-4ubuntu3?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 2.37.2-4ubuntu3
+    FixedVersion: 2.37.2-4ubuntu3.3
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28085
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'util-linux: CVE-2024-28085: wall: escape sequence injection'
+    Description: wall in util-linux through 2.40, often installed with setgid tty permissions, allows escape sequences to be sent to other users' terminals through argv. (Specifically, escape sequences received from stdin are blocked, but escape sequences received from argv are not blocked.) There may be plausible scenarios where this leads to account takeover.
+    Severity: MEDIUM
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-28085
+    - https://github.com/skyler-ferrante/CVE-2024-28085
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-xv2h-c6ww-mrjq
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00005.html
+    - https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28085
+    - https://people.rit.edu/sjf5462/6831711781/wall_2_27_2024.txt
+    - https://ubuntu.com/security/notices/USN-6719-1
+    - https://ubuntu.com/security/notices/USN-6719-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-28085
+    - https://www.openwall.com/lists/oss-security/2024/03/27/5
+    PublishedDate: '2024-03-27T19:15:48.367Z'
+    LastModifiedDate: '2024-04-07T12:15:08.903Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.6
     PkgName: libc-bin
@@ -942,9 +1049,9 @@
         V3Score: 7.5
     References:
     - https://akkadia.org/drepper/SHA-crypt.txt
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-20013
     - https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/
     - https://twitter.com/solardiz/status/795601240151457793
+    - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2022-03-03T16:43:19.667Z'
   - VulnerabilityID: CVE-2016-20013
@@ -978,11 +1085,89 @@
         V3Score: 7.5
     References:
     - https://akkadia.org/drepper/SHA-crypt.txt
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-20013
     - https://pthree.org/2018/05/23/do-not-use-sha256crypt-sha512crypt-theyre-dangerous/
     - https://twitter.com/solardiz/status/795601240151457793
+    - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2022-03-03T16:43:19.667Z'
+  - VulnerabilityID: CVE-2024-2398
+    PkgID: libcurl3-gnutls@7.81.0-1ubuntu1.15
+    PkgName: libcurl3-gnutls
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl3-gnutls@7.81.0-1ubuntu1.15?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 7.81.0-1ubuntu1.15
+    FixedVersion: 7.81.0-1ubuntu1.16
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2398
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'curl: HTTP/2 push headers memory-leak'
+    Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
+    Severity: MEDIUM
+    VendorSeverity:
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2398
+    - https://curl.se/docs/CVE-2024-2398.html
+    - https://curl.se/docs/CVE-2024-2398.json
+    - https://hackerone.com/reports/2402845
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2398
+    - https://ubuntu.com/security/notices/USN-6718-1
+    - https://ubuntu.com/security/notices/USN-6718-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-2398
+    PublishedDate: '2024-03-27T08:15:41.283Z'
+    LastModifiedDate: '2024-03-27T12:29:30.307Z'
+  - VulnerabilityID: CVE-2024-2398
+    PkgID: libcurl4@7.81.0-1ubuntu1.15
+    PkgName: libcurl4
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libcurl4@7.81.0-1ubuntu1.15?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 7.81.0-1ubuntu1.15
+    FixedVersion: 7.81.0-1ubuntu1.16
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2398
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'curl: HTTP/2 push headers memory-leak'
+    Description: When an application tells libcurl it wants to allow HTTP/2 server push, and the amount of received headers for the push surpasses the maximum allowed limit (1000), libcurl aborts the server push. When aborting, libcurl inadvertently does not free all the previously allocated headers and instead leaks the memory.  Further, this error condition fails silently and is therefore not easily detected by an application.
+    Severity: MEDIUM
+    VendorSeverity:
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2398
+    - https://curl.se/docs/CVE-2024-2398.html
+    - https://curl.se/docs/CVE-2024-2398.json
+    - https://hackerone.com/reports/2402845
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2398
+    - https://ubuntu.com/security/notices/USN-6718-1
+    - https://ubuntu.com/security/notices/USN-6718-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-2398
+    PublishedDate: '2024-03-27T08:15:41.283Z'
+    LastModifiedDate: '2024-03-27T12:29:30.307Z'
   - VulnerabilityID: CVE-2023-34969
     PkgID: libdbus-1-3@1.12.20-2ubuntu4.1
     PkgName: libdbus-1-3
@@ -1026,7 +1211,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1075,7 +1260,6 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2022-27943
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1a770b01ef415e114164b6151d1e55acdee09371
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
@@ -1118,7 +1302,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2024-2236
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268268
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2236
     - https://github.com/tomato42/marvin-toolkit/tree/master/example/libgcrypt
     - https://lists.gnupg.org/pipermail/gcrypt-devel/2024-March/005607.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
@@ -1158,13 +1341,95 @@
         V2Score: 4.3
         V3Score: 6.5
     References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-40812
     - https://github.com/libgd/libgd/commit/6f5136821be86e7068fcdf651ae9420b5d42e9a9
     - https://github.com/libgd/libgd/issues/750#issuecomment-914872385
     - https://github.com/libgd/libgd/issues/757
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00003.html
     - https://nvd.nist.gov/vuln/detail/CVE-2021-40812
+    - https://www.cve.org/CVERecord?id=CVE-2021-40812
     PublishedDate: '2021-09-08T21:15:14.083Z'
-    LastModifiedDate: '2021-09-15T15:07:24.577Z'
+    LastModifiedDate: '2024-04-07T01:17:53.437Z'
+  - VulnerabilityID: CVE-2024-28834
+    PkgID: libgnutls30@3.7.3-4ubuntu1.4
+    PkgName: libgnutls30
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30@3.7.3-4ubuntu1.4?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 3.7.3-4ubuntu1.4
+    Status: affected
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28834
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gnutls: vulnerable to Minerva side-channel information leak'
+    Description: A flaw was found in GnuTLS. The Minerva attack is a cryptographic vulnerability that exploits deterministic behavior in systems like GnuTLS, leading to side-channel leaks. In specific scenarios, such as when using the GNUTLS_PRIVKEY_FLAG_REPRODUCIBLE flag, it can result in a noticeable step in nonce size from 513 to 512 bits, exposing a potential timing side-channel.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-200
+    VendorSeverity:
+      alma: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1784
+    - https://access.redhat.com/security/cve/CVE-2024-28834
+    - https://bugzilla.redhat.com/2269228
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2269228
+    - https://errata.almalinux.org/8/ALSA-2024-1784.html
+    - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28834
+    - https://people.redhat.com/~hkario/marvin/
+    - https://www.cve.org/CVERecord?id=CVE-2024-28834
+    - https://www.gnutls.org/security-new.html#GNUTLS-SA-2023-12-04
+    PublishedDate: '2024-03-21T14:15:07.547Z'
+    LastModifiedDate: '2024-04-11T23:15:09.37Z'
+  - VulnerabilityID: CVE-2024-28835
+    PkgID: libgnutls30@3.7.3-4ubuntu1.4
+    PkgName: libgnutls30
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libgnutls30@3.7.3-4ubuntu1.4?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 3.7.3-4ubuntu1.4
+    Status: affected
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28835
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'gnutls: potential crash during chain building/verification'
+    Description: A flaw has been discovered in GnuTLS where an application crash can be induced when attempting to verify a specially crafted .pem bundle using the "certtool --verify-chain" command.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-248
+    VendorSeverity:
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-28835
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
+    - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28835
+    - https://www.cve.org/CVERecord?id=CVE-2024-28835
+    - https://www.gnutls.org/security-new.html#GNUTLS-SA-2024-01-23
+    PublishedDate: '2024-03-21T06:15:45.113Z'
+    LastModifiedDate: '2024-03-21T12:58:51.093Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.3
     PkgName: libgssapi-krb5-2
@@ -1189,11 +1454,10 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26458
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
@@ -1223,11 +1487,10 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26461
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
@@ -1253,7 +1516,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
-      redhat: 1
+      redhat: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1261,7 +1524,6 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26462
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26462
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
@@ -1291,11 +1553,10 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26458
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
@@ -1325,11 +1586,10 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26461
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
@@ -1355,7 +1615,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
-      redhat: 1
+      redhat: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1363,7 +1623,6 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26462
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26462
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
@@ -1393,11 +1652,10 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26458
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
@@ -1427,11 +1685,10 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26461
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
@@ -1457,7 +1714,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
-      redhat: 1
+      redhat: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1465,7 +1722,6 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26462
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26462
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
@@ -1495,11 +1751,10 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26458
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://www.cve.org/CVERecord?id=CVE-2024-26458
@@ -1529,11 +1784,10 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
-        V3Score: 7.5
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26461
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://www.cve.org/CVERecord?id=CVE-2024-26461
@@ -1559,7 +1813,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
-      redhat: 1
+      redhat: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1567,7 +1821,6 @@
         V3Score: 7.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-26462
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26462
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_3.md
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26462
     - https://www.cve.org/CVERecord?id=CVE-2024-26462
@@ -1608,7 +1861,6 @@
     - https://access.redhat.com/security/cve/CVE-2020-22916
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234987
     - https://bugzilla.suse.com/show_bug.cgi?id=1214590
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22916
     - https://github.com/snappyJack/CVE-request-XZ-5.2.5-has-denial-of-service-vulnerability
     - https://github.com/tukaani-project/xz/issues/61
     - https://nvd.nist.gov/vuln/detail/CVE-2020-22916
@@ -1616,7 +1868,49 @@
     - https://tukaani.org/xz/
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:19.407Z'
-    LastModifiedDate: '2023-11-07T03:19:47.47Z'
+    LastModifiedDate: '2024-04-11T01:07:48.443Z'
+  - VulnerabilityID: CVE-2024-28085
+    PkgID: libmount1@2.37.2-4ubuntu3
+    PkgName: libmount1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libmount1@2.37.2-4ubuntu3?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 2.37.2-4ubuntu3
+    FixedVersion: 2.37.2-4ubuntu3.3
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28085
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'util-linux: CVE-2024-28085: wall: escape sequence injection'
+    Description: wall in util-linux through 2.40, often installed with setgid tty permissions, allows escape sequences to be sent to other users' terminals through argv. (Specifically, escape sequences received from stdin are blocked, but escape sequences received from argv are not blocked.) There may be plausible scenarios where this leads to account takeover.
+    Severity: MEDIUM
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-28085
+    - https://github.com/skyler-ferrante/CVE-2024-28085
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-xv2h-c6ww-mrjq
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00005.html
+    - https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28085
+    - https://people.rit.edu/sjf5462/6831711781/wall_2_27_2024.txt
+    - https://ubuntu.com/security/notices/USN-6719-1
+    - https://ubuntu.com/security/notices/USN-6719-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-28085
+    - https://www.openwall.com/lists/oss-security/2024/03/27/5
+    PublishedDate: '2024-03-27T19:15:48.367Z'
+    LastModifiedDate: '2024-04-07T12:15:08.903Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: libncurses6@6.3-2ubuntu0.1
     PkgName: libncurses6
@@ -1640,9 +1934,9 @@
       amazon: 2
       ubuntu: 1
     References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
     - https://security.netapp.com/advisory/ntap-20240315-0006/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45918
     PublishedDate: '2024-02-16T22:15:07.88Z'
     LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
@@ -1678,7 +1972,6 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
@@ -1711,9 +2004,9 @@
       amazon: 2
       ubuntu: 1
     References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
     - https://security.netapp.com/advisory/ntap-20240315-0006/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45918
     PublishedDate: '2024-02-16T22:15:07.88Z'
     LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
@@ -1749,7 +2042,6 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
@@ -1797,7 +2089,6 @@
     - https://access.redhat.com/security/cve/CVE-2023-7008
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
@@ -1843,7 +2134,6 @@
     - https://access.redhat.com/security/cve/CVE-2023-7008
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
@@ -1892,7 +2182,6 @@
     - http://www.openwall.com/lists/oss-security/2023/04/12/1
     - http://www.securityfocus.com/bid/99575
     - https://access.redhat.com/security/cve/CVE-2017-11164
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-11164
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2017-11164
     - https://www.cve.org/CVERecord?id=CVE-2017-11164
@@ -1933,7 +2222,6 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2022-3857
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3857
     - https://nvd.nist.gov/vuln/detail/CVE-2022-3857
     - https://security.netapp.com/advisory/ntap-20230406-0004/
     - https://sourceforge.net/p/libpng/bugs/300/
@@ -2183,6 +2471,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-27043
     PublishedDate: '2023-04-19T00:15:07.973Z'
     LastModifiedDate: '2024-02-26T16:27:45.78Z'
+  - VulnerabilityID: CVE-2024-28085
+    PkgID: libsmartcols1@2.37.2-4ubuntu3
+    PkgName: libsmartcols1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libsmartcols1@2.37.2-4ubuntu3?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 2.37.2-4ubuntu3
+    FixedVersion: 2.37.2-4ubuntu3.3
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28085
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'util-linux: CVE-2024-28085: wall: escape sequence injection'
+    Description: wall in util-linux through 2.40, often installed with setgid tty permissions, allows escape sequences to be sent to other users' terminals through argv. (Specifically, escape sequences received from stdin are blocked, but escape sequences received from argv are not blocked.) There may be plausible scenarios where this leads to account takeover.
+    Severity: MEDIUM
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-28085
+    - https://github.com/skyler-ferrante/CVE-2024-28085
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-xv2h-c6ww-mrjq
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00005.html
+    - https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28085
+    - https://people.rit.edu/sjf5462/6831711781/wall_2_27_2024.txt
+    - https://ubuntu.com/security/notices/USN-6719-1
+    - https://ubuntu.com/security/notices/USN-6719-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-28085
+    - https://www.openwall.com/lists/oss-security/2024/03/27/5
+    PublishedDate: '2024-03-27T19:15:48.367Z'
+    LastModifiedDate: '2024-04-07T12:15:08.903Z'
   - VulnerabilityID: CVE-2022-27943
     PkgID: libstdc++6@12.3.0-1ubuntu1~22.04
     PkgName: libstdc++6
@@ -2220,7 +2550,6 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2022-27943
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27943
     - https://gcc.gnu.org/bugzilla/show_bug.cgi?id=105039
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=1a770b01ef415e114164b6151d1e55acdee09371
     - https://gcc.gnu.org/git/gitweb.cgi?p=gcc.git;h=9234cdca6ee88badfc00297e72f13dac4e540c79
@@ -2270,7 +2599,6 @@
     - https://access.redhat.com/security/cve/CVE-2023-7008
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
@@ -2316,7 +2644,6 @@
     References:
     - http://bugzilla.maptools.org/show_bug.cgi?id=2786
     - https://access.redhat.com/security/cve/CVE-2018-10126
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10126
     - https://lists.apache.org/thread.html/rf9fa47ab66495c78bb4120b0754dd9531ca2ff0430f6685ac9b07772%40%3Cdev.mina.apache.org%3E
     - https://nvd.nist.gov/vuln/detail/CVE-2018-10126
     - https://www.cve.org/CVERecord?id=CVE-2018-10126
@@ -2359,7 +2686,6 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2023-3164
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213531
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3164
     - https://gitlab.com/libtiff/libtiff/-/issues/542
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3164
     - https://www.cve.org/CVERecord?id=CVE-2023-3164
@@ -2388,9 +2714,9 @@
       amazon: 2
       ubuntu: 1
     References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
     - https://security.netapp.com/advisory/ntap-20240315-0006/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45918
     PublishedDate: '2024-02-16T22:15:07.88Z'
     LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
@@ -2426,7 +2752,6 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
@@ -2474,7 +2799,6 @@
     - https://access.redhat.com/security/cve/CVE-2023-7008
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
@@ -2482,6 +2806,48 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-7008
     PublishedDate: '2023-12-23T13:15:07.573Z'
     LastModifiedDate: '2024-01-27T03:15:07.933Z'
+  - VulnerabilityID: CVE-2024-28085
+    PkgID: libuuid1@2.37.2-4ubuntu3
+    PkgName: libuuid1
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libuuid1@2.37.2-4ubuntu3?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 2.37.2-4ubuntu3
+    FixedVersion: 2.37.2-4ubuntu3.3
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28085
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'util-linux: CVE-2024-28085: wall: escape sequence injection'
+    Description: wall in util-linux through 2.40, often installed with setgid tty permissions, allows escape sequences to be sent to other users' terminals through argv. (Specifically, escape sequences received from stdin are blocked, but escape sequences received from argv are not blocked.) There may be plausible scenarios where this leads to account takeover.
+    Severity: MEDIUM
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-28085
+    - https://github.com/skyler-ferrante/CVE-2024-28085
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-xv2h-c6ww-mrjq
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00005.html
+    - https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28085
+    - https://people.rit.edu/sjf5462/6831711781/wall_2_27_2024.txt
+    - https://ubuntu.com/security/notices/USN-6719-1
+    - https://ubuntu.com/security/notices/USN-6719-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-28085
+    - https://www.openwall.com/lists/oss-security/2024/03/27/5
+    PublishedDate: '2024-03-27T19:15:48.367Z'
+    LastModifiedDate: '2024-04-07T12:15:08.903Z'
   - VulnerabilityID: CVE-2022-4899
     PkgID: libzstd1@1.4.8+dfsg-3build1
     PkgName: libzstd1
@@ -2601,7 +2967,6 @@
     - https://bugzilla.redhat.com/2258792
     - https://bugzilla.redhat.com/2258793
     - https://bugzilla.redhat.com/2258794
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4899
     - https://errata.almalinux.org/9/ALSA-2024-1141.html
     - https://github.com/facebook/zstd
     - https://github.com/facebook/zstd/issues/3200
@@ -2657,7 +3022,6 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-29383
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29383
     - https://github.com/shadow-maint/shadow/commit/e5905c4b84d4fb90aefcd96ee618411ebfac663d
     - https://github.com/shadow-maint/shadow/pull/687
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29383
@@ -2666,6 +3030,48 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
     LastModifiedDate: '2023-04-24T18:05:30.313Z'
+  - VulnerabilityID: CVE-2024-28085
+    PkgID: mount@2.37.2-4ubuntu3
+    PkgName: mount
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/mount@2.37.2-4ubuntu3?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 2.37.2-4ubuntu3
+    FixedVersion: 2.37.2-4ubuntu3.3
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28085
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'util-linux: CVE-2024-28085: wall: escape sequence injection'
+    Description: wall in util-linux through 2.40, often installed with setgid tty permissions, allows escape sequences to be sent to other users' terminals through argv. (Specifically, escape sequences received from stdin are blocked, but escape sequences received from argv are not blocked.) There may be plausible scenarios where this leads to account takeover.
+    Severity: MEDIUM
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-28085
+    - https://github.com/skyler-ferrante/CVE-2024-28085
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-xv2h-c6ww-mrjq
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00005.html
+    - https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28085
+    - https://people.rit.edu/sjf5462/6831711781/wall_2_27_2024.txt
+    - https://ubuntu.com/security/notices/USN-6719-1
+    - https://ubuntu.com/security/notices/USN-6719-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-28085
+    - https://www.openwall.com/lists/oss-security/2024/03/27/5
+    PublishedDate: '2024-03-27T19:15:48.367Z'
+    LastModifiedDate: '2024-04-07T12:15:08.903Z'
   - VulnerabilityID: CVE-2023-45918
     PkgID: ncurses-base@6.3-2ubuntu0.1
     PkgName: ncurses-base
@@ -2689,9 +3095,9 @@
       amazon: 2
       ubuntu: 1
     References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
     - https://security.netapp.com/advisory/ntap-20240315-0006/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45918
     PublishedDate: '2024-02-16T22:15:07.88Z'
     LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
@@ -2727,7 +3133,6 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
@@ -2760,9 +3165,9 @@
       amazon: 2
       ubuntu: 1
     References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
     - https://security.netapp.com/advisory/ntap-20240315-0006/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45918
     PublishedDate: '2024-02-16T22:15:07.88Z'
     LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
@@ -2798,7 +3203,6 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
@@ -2831,9 +3235,9 @@
       amazon: 2
       ubuntu: 1
     References:
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45918
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-06/msg00005.html
     - https://security.netapp.com/advisory/ntap-20240315-0006/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45918
     PublishedDate: '2024-02-16T22:15:07.88Z'
     LastModifiedDate: '2024-03-15T11:15:08.51Z'
   - VulnerabilityID: CVE-2023-50495
@@ -2869,7 +3273,6 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-50495
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-50495
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/LU4MYMKFEZQ5VSCVLRIZGDQOUW3T44GT/
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00020.html
     - https://lists.gnu.org/archive/html/bug-ncurses/2023-04/msg00029.html
@@ -2899,6 +3302,7 @@
     Description: 'OpenSSH through 9.6, when common types of DRAM are used, might allow row hammer attacks (for authentication bypass) because the integer value of authenticated in mm_answer_authpassword does not resist flips of a single bit. NOTE: this is applicable to a certain threat model of attacker-victim co-location in which the attacker has user privileges.'
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       nvd: 3
       redhat: 2
       ubuntu: 2
@@ -2913,7 +3317,6 @@
     - https://access.redhat.com/security/cve/CVE-2023-51767
     - https://arxiv.org/abs/2309.02545
     - https://bugzilla.redhat.com/show_bug.cgi?id=2255850
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51767
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
     - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
@@ -2942,6 +3345,7 @@
     Description: 'OpenSSH through 9.6, when common types of DRAM are used, might allow row hammer attacks (for authentication bypass) because the integer value of authenticated in mm_answer_authpassword does not resist flips of a single bit. NOTE: this is applicable to a certain threat model of attacker-victim co-location in which the attacker has user privileges.'
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       nvd: 3
       redhat: 2
       ubuntu: 2
@@ -2956,7 +3360,6 @@
     - https://access.redhat.com/security/cve/CVE-2023-51767
     - https://arxiv.org/abs/2309.02545
     - https://bugzilla.redhat.com/show_bug.cgi?id=2255850
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51767
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
     - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
@@ -2985,6 +3388,7 @@
     Description: 'OpenSSH through 9.6, when common types of DRAM are used, might allow row hammer attacks (for authentication bypass) because the integer value of authenticated in mm_answer_authpassword does not resist flips of a single bit. NOTE: this is applicable to a certain threat model of attacker-victim co-location in which the attacker has user privileges.'
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       nvd: 3
       redhat: 2
       ubuntu: 2
@@ -2999,7 +3403,6 @@
     - https://access.redhat.com/security/cve/CVE-2023-51767
     - https://arxiv.org/abs/2309.02545
     - https://bugzilla.redhat.com/show_bug.cgi?id=2255850
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51767
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
     - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
     - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
@@ -3043,7 +3446,6 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-29383
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29383
     - https://github.com/shadow-maint/shadow/commit/e5905c4b84d4fb90aefcd96ee618411ebfac663d
     - https://github.com/shadow-maint/shadow/pull/687
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29383
@@ -3252,7 +3654,6 @@
     - https://access.redhat.com/security/cve/CVE-2023-7008
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
@@ -3298,7 +3699,6 @@
     - https://access.redhat.com/security/cve/CVE-2023-7008
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
@@ -3344,7 +3744,6 @@
     - https://access.redhat.com/security/cve/CVE-2023-7008
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-7008
     - https://github.com/systemd/systemd/issues/25676
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
@@ -3387,7 +3786,6 @@
         V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2023-29383
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29383
     - https://github.com/shadow-maint/shadow/commit/e5905c4b84d4fb90aefcd96ee618411ebfac663d
     - https://github.com/shadow-maint/shadow/pull/687
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29383
@@ -3396,6 +3794,48 @@
     - https://www.trustwave.com/en-us/resources/security-resources/security-advisories/?fid=31797
     PublishedDate: '2023-04-14T22:15:07.68Z'
     LastModifiedDate: '2023-04-24T18:05:30.313Z'
+  - VulnerabilityID: CVE-2024-28085
+    PkgID: util-linux@2.37.2-4ubuntu3
+    PkgName: util-linux
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/util-linux@2.37.2-4ubuntu3?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 2.37.2-4ubuntu3
+    FixedVersion: 2.37.2-4ubuntu3.3
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28085
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'util-linux: CVE-2024-28085: wall: escape sequence injection'
+    Description: wall in util-linux through 2.40, often installed with setgid tty permissions, allows escape sequences to be sent to other users' terminals through argv. (Specifically, escape sequences received from stdin are blocked, but escape sequences received from argv are not blocked.) There may be plausible scenarios where this leads to account takeover.
+    Severity: MEDIUM
+    VendorSeverity:
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N
+        V3Score: 8.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-28085
+    - https://github.com/skyler-ferrante/CVE-2024-28085
+    - https://github.com/util-linux/util-linux/security/advisories/GHSA-xv2h-c6ww-mrjq
+    - https://lists.debian.org/debian-lts-announce/2024/04/msg00005.html
+    - https://mirrors.edge.kernel.org/pub/linux/utils/util-linux/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28085
+    - https://people.rit.edu/sjf5462/6831711781/wall_2_27_2024.txt
+    - https://ubuntu.com/security/notices/USN-6719-1
+    - https://ubuntu.com/security/notices/USN-6719-2
+    - https://www.cve.org/CVERecord?id=CVE-2024-28085
+    - https://www.openwall.com/lists/oss-security/2024/03/27/5
+    PublishedDate: '2024-03-27T19:15:48.367Z'
+    LastModifiedDate: '2024-04-07T12:15:08.903Z'
   - VulnerabilityID: CVE-2021-31879
     PkgID: wget@1.21.2-2ubuntu1
     PkgName: wget
@@ -3435,7 +3875,6 @@
         V3Score: 6.5
     References:
     - https://access.redhat.com/security/cve/CVE-2021-31879
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31879
     - https://mail.gnu.org/archive/html/bug-wget/2021-02/msg00002.html
     - https://nvd.nist.gov/vuln/detail/CVE-2021-31879
     - https://savannah.gnu.org/bugs/?56909
@@ -3478,7 +3917,6 @@
     - https://access.redhat.com/security/cve/CVE-2020-22916
     - https://bugzilla.redhat.com/show_bug.cgi?id=2234987
     - https://bugzilla.suse.com/show_bug.cgi?id=1214590
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-22916
     - https://github.com/snappyJack/CVE-request-XZ-5.2.5-has-denial-of-service-vulnerability
     - https://github.com/tukaani-project/xz/issues/61
     - https://nvd.nist.gov/vuln/detail/CVE-2020-22916
@@ -3486,7 +3924,7 @@
     - https://tukaani.org/xz/
     - https://www.cve.org/CVERecord?id=CVE-2020-22916
     PublishedDate: '2023-08-22T19:16:19.407Z'
-    LastModifiedDate: '2023-11-07T03:19:47.47Z'
+    LastModifiedDate: '2024-04-11T01:07:48.443Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
@@ -3604,7 +4042,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -3674,6 +4112,8 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YJWHBLVZDM5KQSDFRBFRKU5KSSOLIRQ4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YJWHBLVZDM5KQSDFRBFRKU5KSSOLIRQ4/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZSVEMQV5ROY5YW5QE3I57HT3ITWG5GCV
@@ -3687,7 +4127,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
-    LastModifiedDate: '2024-03-10T04:15:05.957Z'
+    LastModifiedDate: '2024-03-23T03:15:09.267Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -3711,7 +4151,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -3809,6 +4249,7 @@
     - https://access.redhat.com/errata/RHSA-2023:6746
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://akka.io/security/akka-http-cve-2023-44487.html
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
     - https://aws.amazon.com/security/security-bulletins/AWS-2023-011
@@ -3837,7 +4278,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -3846,6 +4287,8 @@
     - https://github.com/advisories/GHSA-vx74-f528-fxqg
     - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
     - https://github.com/akka/akka-http/issues/4323
+    - https://github.com/akka/akka-http/pull/4324
+    - https://github.com/akka/akka-http/pull/4325
     - https://github.com/alibaba/tengine/issues/1872
     - https://github.com/apache/apisix/issues/10320
     - https://github.com/apache/httpd-site/pull/10
@@ -3901,7 +4344,7 @@
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
     - https://linux.oracle.com/cve/CVE-2023-44487.html
-    - https://linux.oracle.com/errata/ELSA-2023-7205.html
+    - https://linux.oracle.com/errata/ELSA-2024-1444.html
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
@@ -4089,7 +4532,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -4159,6 +4602,8 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YJWHBLVZDM5KQSDFRBFRKU5KSSOLIRQ4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YJWHBLVZDM5KQSDFRBFRKU5KSSOLIRQ4/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZSVEMQV5ROY5YW5QE3I57HT3ITWG5GCV
@@ -4172,7 +4617,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
-    LastModifiedDate: '2024-03-10T04:15:05.957Z'
+    LastModifiedDate: '2024-03-23T03:15:09.267Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -4196,7 +4641,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4294,6 +4739,7 @@
     - https://access.redhat.com/errata/RHSA-2023:6746
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://akka.io/security/akka-http-cve-2023-44487.html
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
     - https://aws.amazon.com/security/security-bulletins/AWS-2023-011
@@ -4322,7 +4768,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4331,6 +4777,8 @@
     - https://github.com/advisories/GHSA-vx74-f528-fxqg
     - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
     - https://github.com/akka/akka-http/issues/4323
+    - https://github.com/akka/akka-http/pull/4324
+    - https://github.com/akka/akka-http/pull/4325
     - https://github.com/alibaba/tengine/issues/1872
     - https://github.com/apache/apisix/issues/10320
     - https://github.com/apache/httpd-site/pull/10
@@ -4386,7 +4834,7 @@
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
     - https://linux.oracle.com/cve/CVE-2023-44487.html
-    - https://linux.oracle.com/errata/ELSA-2023-7205.html
+    - https://linux.oracle.com/errata/ELSA-2024-1444.html
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
@@ -4532,7 +4980,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: Moby's external DNS requests from 'internal' networks could lead to data exfiltration
+    Title: 'moby: external DNS requests from ''internal'' networks could lead to data exfiltration'
     Description: |-
       Moby is an open source container framework that is a key component of Docker Engine, Docker Desktop, and other distributions of container tooling or runtimes. Moby's networking implementation allows for many networks, each with their own IP address range and gateway, to be defined. This feature is frequently referred to as custom networks, as each network can have a different driver, set of parameters and thus behaviors. When creating a network, the `--internal` flag is used to designate a network as _internal_. The `internal` attribute in a docker-compose.yml file may also be used to mark a network _internal_, and other API clients may specify the `internal` parameter as well.
 
@@ -4558,16 +5006,23 @@
     - CWE-669
     VendorSeverity:
       ghsa: 2
+      redhat: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-29018
     - https://github.com/moby/moby
     - https://github.com/moby/moby/pull/46609
     - https://github.com/moby/moby/security/advisories/GHSA-mq39-4gv4-mvpx
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-29018
+    - https://www.cve.org/CVERecord?id=CVE-2024-29018
     PublishedDate: '2024-03-20T21:15:31.113Z'
-    LastModifiedDate: '2024-03-20T21:15:31.113Z'
+    LastModifiedDate: '2024-03-21T12:58:51.093Z'
   - VulnerabilityID: CVE-2023-47108
     PkgName: go.opentelemetry.io/contrib/instrumentation/google.golang.org/grpc/otelgrpc
     PkgIdentifier:
@@ -4638,6 +5093,7 @@
     Description: The protojson.Unmarshal function can enter an infinite loop when unmarshaling certain forms of invalid JSON. This condition can occur when unmarshaling into a message which contains a google.protobuf.Any value, or when the UnmarshalOptions.DiscardUnknown option is set.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -4651,11 +5107,13 @@
     - https://github.com/protocolbuffers/protobuf-go/releases/tag/v1.33.0
     - https://go.dev/cl/569356
     - https://groups.google.com/g/golang-announce/c/ArQ6CDgtEjY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24786
     - https://pkg.go.dev/vuln/GO-2024-2611
     - https://www.cve.org/CVERecord?id=CVE-2024-24786
     PublishedDate: '2024-03-05T23:15:07.82Z'
-    LastModifiedDate: '2024-03-06T15:18:08.093Z'
+    LastModifiedDate: '2024-03-24T03:15:09.093Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -4701,7 +5159,6 @@
         V3Score: 6.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-24557
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24557
     - https://github.com/moby/moby
     - https://github.com/moby/moby/commit/3e230cfdcc989dc524882f6579f9e0dac77400ae
     - https://github.com/moby/moby/commit/fca702de7f71362c8d103073c7e4a1d0a467fadd
@@ -4731,6 +5188,7 @@
     Description: The protojson.Unmarshal function can enter an infinite loop when unmarshaling certain forms of invalid JSON. This condition can occur when unmarshaling into a message which contains a google.protobuf.Any value, or when the UnmarshalOptions.DiscardUnknown option is set.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -4744,11 +5202,13 @@
     - https://github.com/protocolbuffers/protobuf-go/releases/tag/v1.33.0
     - https://go.dev/cl/569356
     - https://groups.google.com/g/golang-announce/c/ArQ6CDgtEjY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24786
     - https://pkg.go.dev/vuln/GO-2024-2611
     - https://www.cve.org/CVERecord?id=CVE-2024-24786
     PublishedDate: '2024-03-05T23:15:07.82Z'
-    LastModifiedDate: '2024-03-06T15:18:08.093Z'
+    LastModifiedDate: '2024-03-24T03:15:09.093Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -4842,7 +5302,6 @@
         V3Score: 6.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-24557
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24557
     - https://github.com/moby/moby
     - https://github.com/moby/moby/commit/3e230cfdcc989dc524882f6579f9e0dac77400ae
     - https://github.com/moby/moby/commit/fca702de7f71362c8d103073c7e4a1d0a467fadd
@@ -4950,7 +5409,6 @@
     - https://access.redhat.com/errata/RHSA-2024:0670
     - https://access.redhat.com/security/cve/CVE-2024-21626
     - https://bugzilla.redhat.com/2258725
-    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21626
     - https://errata.almalinux.org/9/ALSA-2024-0670.html
     - https://github.com/opencontainers/runc
     - https://github.com/opencontainers/runc/commit/02120488a4c0fc487d1ed2867e901eeed7ce8ecf
@@ -5237,7 +5695,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -5307,6 +5765,8 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YJWHBLVZDM5KQSDFRBFRKU5KSSOLIRQ4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YJWHBLVZDM5KQSDFRBFRKU5KSSOLIRQ4/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZSVEMQV5ROY5YW5QE3I57HT3ITWG5GCV
@@ -5320,7 +5780,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
-    LastModifiedDate: '2024-03-10T04:15:05.957Z'
+    LastModifiedDate: '2024-03-23T03:15:09.267Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -5344,7 +5804,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -5442,6 +5902,7 @@
     - https://access.redhat.com/errata/RHSA-2023:6746
     - https://access.redhat.com/security/cve/CVE-2023-44487
     - https://access.redhat.com/security/cve/cve-2023-44487
+    - https://akka.io/security/akka-http-cve-2023-44487.html
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size
     - https://arstechnica.com/security/2023/10/how-ddosers-used-the-http-2-protocol-to-deliver-attacks-of-unprecedented-size/
     - https://aws.amazon.com/security/security-bulletins/AWS-2023-011
@@ -5470,7 +5931,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -5479,6 +5940,8 @@
     - https://github.com/advisories/GHSA-vx74-f528-fxqg
     - https://github.com/advisories/GHSA-xpw8-rcwv-8f8p
     - https://github.com/akka/akka-http/issues/4323
+    - https://github.com/akka/akka-http/pull/4324
+    - https://github.com/akka/akka-http/pull/4325
     - https://github.com/alibaba/tengine/issues/1872
     - https://github.com/apache/apisix/issues/10320
     - https://github.com/apache/httpd-site/pull/10
@@ -5534,7 +5997,7 @@
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487
     - https://linkerd.io/2023/10/12/linkerd-cve-2023-44487/
     - https://linux.oracle.com/cve/CVE-2023-44487.html
-    - https://linux.oracle.com/errata/ELSA-2023-7205.html
+    - https://linux.oracle.com/errata/ELSA-2024-1444.html
     - https://lists.apache.org/thread/5py8h42mxfsn8l1wy6o41xwhsjlsd87q
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00020.html
     - https://lists.debian.org/debian-lts-announce/2023/10/msg00023.html
@@ -5680,6 +6143,7 @@
     Description: The protojson.Unmarshal function can enter an infinite loop when unmarshaling certain forms of invalid JSON. This condition can occur when unmarshaling into a message which contains a google.protobuf.Any value, or when the UnmarshalOptions.DiscardUnknown option is set.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 2
       ghsa: 2
       redhat: 2
     CVSS:
@@ -5693,42 +6157,13 @@
     - https://github.com/protocolbuffers/protobuf-go/releases/tag/v1.33.0
     - https://go.dev/cl/569356
     - https://groups.google.com/g/golang-announce/c/ArQ6CDgtEjY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24786
     - https://pkg.go.dev/vuln/GO-2024-2611
     - https://www.cve.org/CVERecord?id=CVE-2024-24786
     PublishedDate: '2024-03-05T23:15:07.82Z'
-    LastModifiedDate: '2024-03-06T15:18:08.093Z'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
-      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
-      CreatedBy: 'COPY / / # buildkit'
+    LastModifiedDate: '2024-03-24T03:15:09.093Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -5818,6 +6253,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
       DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
