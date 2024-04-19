@@ -298,7 +298,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -341,7 +341,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const
+    Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
     CweIDs:
@@ -473,7 +473,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -516,7 +516,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -559,7 +559,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -602,7 +602,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -645,7 +645,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -688,7 +688,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -731,7 +731,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -774,7 +774,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -817,7 +817,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -860,7 +860,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: denial of service issue (resource consumption) using compressed packets
+    Title: 'gnupg: denial of service issue (resource consumption) using compressed packets'
     Description: GnuPG can be made to spin on a relatively small input by (for example) crafting a public key with thousands of signatures attached, compressed down to just a few KB.
     Severity: LOW
     CweIDs:
@@ -944,7 +944,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const
+    Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
     CweIDs:
@@ -1018,6 +1018,45 @@
     - https://www.openwall.com/lists/oss-security/2024/03/27/5
     PublishedDate: '2024-03-27T19:15:48.367Z'
     LastModifiedDate: '2024-04-07T12:15:08.903Z'
+  - VulnerabilityID: CVE-2024-2961
+    PkgID: libc-bin@2.35-0ubuntu3.6
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.6?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 2.35-0ubuntu3.6
+    FixedVersion: 2.35-0ubuntu3.7
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2961
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: Out of bounds write in iconv may lead to remote code execution'
+    Description: |
+      The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://ubuntu.com/security/notices/USN-6737-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-2961
+    - https://www.openwall.com/lists/oss-security/2024/04/17/9
+    PublishedDate: '2024-04-17T18:15:15.833Z'
+    LastModifiedDate: '2024-04-17T20:08:21.887Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.6
     PkgName: libc-bin
@@ -1054,6 +1093,45 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2022-03-03T16:43:19.667Z'
+  - VulnerabilityID: CVE-2024-2961
+    PkgID: libc6@2.35-0ubuntu3.6
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.6?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 2.35-0ubuntu3.6
+    FixedVersion: 2.35-0ubuntu3.7
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-2961
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: Out of bounds write in iconv may lead to remote code execution'
+    Description: |
+      The iconv() function in the GNU C Library versions 2.39 and older may overflow the output buffer passed to it by up to 4 bytes when converting strings to the ISO-2022-CN-EXT character set, which may be used to crash an application or overwrite a neighbouring variable.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://ubuntu.com/security/notices/USN-6737-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-2961
+    - https://www.openwall.com/lists/oss-security/2024/04/17/9
+    PublishedDate: '2024-04-17T18:15:15.833Z'
+    LastModifiedDate: '2024-04-17T20:08:21.887Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.6
     PkgName: libc6
@@ -1239,7 +1317,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const
+    Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
     CweIDs:
@@ -1355,7 +1433,8 @@
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libgnutls30@3.7.3-4ubuntu1.4?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.7.3-4ubuntu1.4
-    Status: affected
+    FixedVersion: 3.7.3-4ubuntu1.5
+    Status: fixed
     Layer:
       Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
       DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
@@ -1372,6 +1451,7 @@
     - CWE-200
     VendorSeverity:
       alma: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1381,24 +1461,31 @@
         V3Score: 5.3
     References:
     - https://access.redhat.com/errata/RHSA-2024:1784
+    - https://access.redhat.com/errata/RHSA-2024:1879
     - https://access.redhat.com/security/cve/CVE-2024-28834
+    - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269228
-    - https://errata.almalinux.org/8/ALSA-2024-1784.html
+    - https://errata.almalinux.org/9/ALSA-2024-1879.html
+    - https://linux.oracle.com/cve/CVE-2024-28834.html
+    - https://linux.oracle.com/errata/ELSA-2024-1879.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
+    - https://minerva.crocs.fi.muni.cz/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28834
     - https://people.redhat.com/~hkario/marvin/
+    - https://ubuntu.com/security/notices/USN-6733-1
     - https://www.cve.org/CVERecord?id=CVE-2024-28834
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2023-12-04
     PublishedDate: '2024-03-21T14:15:07.547Z'
-    LastModifiedDate: '2024-04-11T23:15:09.37Z'
+    LastModifiedDate: '2024-04-18T05:15:48.167Z'
   - VulnerabilityID: CVE-2024-28835
     PkgID: libgnutls30@3.7.3-4ubuntu1.4
     PkgName: libgnutls30
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libgnutls30@3.7.3-4ubuntu1.4?arch=amd64&distro=ubuntu-22.04
     InstalledVersion: 3.7.3-4ubuntu1.4
-    Status: affected
+    FixedVersion: 3.7.3-4ubuntu1.5
+    Status: fixed
     Layer:
       Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
       DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
@@ -1414,6 +1501,8 @@
     CweIDs:
     - CWE-248
     VendorSeverity:
+      alma: 2
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -1422,14 +1511,21 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5
     References:
+    - https://access.redhat.com/errata/RHSA-2024:1879
     - https://access.redhat.com/security/cve/CVE-2024-28835
+    - https://bugzilla.redhat.com/2269084
+    - https://bugzilla.redhat.com/2269228
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
+    - https://errata.almalinux.org/9/ALSA-2024-1879.html
+    - https://linux.oracle.com/cve/CVE-2024-28835.html
+    - https://linux.oracle.com/errata/ELSA-2024-1879.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28835
+    - https://ubuntu.com/security/notices/USN-6733-1
     - https://www.cve.org/CVERecord?id=CVE-2024-28835
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2024-01-23
     PublishedDate: '2024-03-21T06:15:45.113Z'
-    LastModifiedDate: '2024-03-21T12:58:51.093Z'
+    LastModifiedDate: '2024-04-18T05:15:48.263Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.3
     PkgName: libgssapi-krb5-2
@@ -1450,6 +1546,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1483,6 +1580,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1516,6 +1614,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1549,6 +1648,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1582,6 +1682,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1615,6 +1716,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1648,6 +1750,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1681,6 +1784,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1714,6 +1818,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1747,6 +1852,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1780,6 +1886,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 1
       ubuntu: 2
     CVSS:
@@ -1813,6 +1920,7 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/kdc/ndr.c.
     Severity: MEDIUM
     VendorSeverity:
+      amazon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2157,7 +2265,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: OP_KETRMAX feature in the match function in pcre_exec.c
+    Title: 'pcre: OP_KETRMAX feature in the match function in pcre_exec.c'
     Description: In PCRE 8.41, the OP_KETRMAX feature in the match function in pcre_exec.c allows stack exhaustion (uncontrolled recursion) when processing a crafted regular expression.
     Severity: LOW
     CweIDs:
@@ -2203,7 +2311,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: Null pointer dereference leads to segmentation fault
+    Title: 'libpng: Null pointer dereference leads to segmentation fault'
     Description: A flaw was found in libpng 1.6.38. A crafted PNG image can lead to a segmentation fault and denial of service in png_setup_paeth_row() function.
     Severity: LOW
     CweIDs:
@@ -2529,7 +2637,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const
+    Title: 'binutils: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack exhaustion in demangle_const'
     Description: libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new.
     Severity: LOW
     CweIDs:
@@ -3003,7 +3111,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: Improper input validation in shadow-utils package utility chfn
+    Title: 'shadow: Improper input validation in shadow-utils package utility chfn'
     Description: 'In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that "cat /etc/passwd" shows a rogue user account.'
     Severity: LOW
     CweIDs:
@@ -3427,7 +3535,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: Improper input validation in shadow-utils package utility chfn
+    Title: 'shadow: Improper input validation in shadow-utils package utility chfn'
     Description: 'In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that "cat /etc/passwd" shows a rogue user account.'
     Severity: LOW
     CweIDs:
@@ -3767,7 +3875,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: Improper input validation in shadow-utils package utility chfn
+    Title: 'shadow: Improper input validation in shadow-utils package utility chfn'
     Description: 'In Shadow 4.13, it is possible to inject control characters into fields provided to the SUID program chfn (change finger). Although it is not possible to exploit this directly (e.g., adding a new user fails because \n is in the block list), it is possible to misrepresent the /etc/passwd file when viewed. Use of \r manipulations and Unicode characters to work around blocking of the : character make it possible to give the impression that a new user has been added. In other words, an adversary may be able to convince a system administrator to take the system offline (an indirect, social-engineered denial of service) by demonstrating that "cat /etc/passwd" shows a rogue user account.'
     Severity: LOW
     CweIDs:
@@ -3946,7 +4054,7 @@
       ID: ghsa
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
-    Title: The jsoup cleaner may incorrectly sanitize crafted XSS attempts if SafeList.preserveRelativeLinks is enabled
+    Title: 'jsoup: The jsoup cleaner may incorrectly sanitize crafted XSS attempts if SafeList.preserveRelativeLinks is enabled'
     Description: 'jsoup is a Java HTML parser, built for HTML editing, cleaning, scraping, and cross-site scripting (XSS) safety. jsoup may incorrectly sanitize HTML including `javascript:` URL expressions, which could allow XSS attacks when a reader subsequently clicks that link. If the non-default `SafeList.preserveRelativeLinks` option is enabled, HTML including `javascript:` URLs that have been crafted with control characters will not be sanitized. If the site that this HTML is published on does not set a Content Security Policy, an XSS attack is then possible. This issue is patched in jsoup 1.15.3. Users should upgrade to this version. Additionally, as the unsanitized input may have been persisted, old content should be cleaned again using the updated version. To remediate this issue without immediately upgrading: - disable `SafeList.preserveRelativeLinks`, which will rewrite input URLs as absolute URLs - ensure an appropriate [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) is defined. (This should be used regardless of upgrading, as a defence-in-depth best practice.)'
     Severity: MEDIUM
     CweIDs:
@@ -4151,7 +4259,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4470,6 +4578,49 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
     LastModifiedDate: '2024-02-02T15:40:23.61Z'
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.12.0
+    InstalledVersion: v0.12.0
+    FixedVersion: 0.23.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-04-05T12:40:52.763Z'
 - Target: tmp/tmp.HSOuvYsL4c/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -4641,7 +4792,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4960,6 +5111,49 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
     LastModifiedDate: '2024-02-02T15:40:23.61Z'
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.12.0
+    InstalledVersion: v0.12.0
+    FixedVersion: 0.23.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-04-05T12:40:52.763Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -5073,6 +5267,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-47108
     PublishedDate: '2023-11-10T19:15:16.41Z'
     LastModifiedDate: '2023-11-20T19:34:26.493Z'
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.20.0
+    InstalledVersion: v0.20.0
+    FixedVersion: 0.23.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-04-05T12:40:52.763Z'
   - VulnerabilityID: CVE-2024-24786
     PkgName: google.golang.org/protobuf
     PkgIdentifier:
@@ -5095,6 +5332,7 @@
     VendorSeverity:
       cbl-mariner: 2
       ghsa: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -5107,6 +5345,8 @@
     - https://github.com/protocolbuffers/protobuf-go/releases/tag/v1.33.0
     - https://go.dev/cl/569356
     - https://groups.google.com/g/golang-announce/c/ArQ6CDgtEjY/
+    - https://linux.oracle.com/cve/CVE-2024-24786.html
+    - https://linux.oracle.com/errata/ELSA-2024-12329.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24786
@@ -5168,6 +5408,49 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-24557
     PublishedDate: '2024-02-01T17:15:10.953Z'
     LastModifiedDate: '2024-02-09T20:21:32.97Z'
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.17.0
+    InstalledVersion: v0.17.0
+    FixedVersion: 0.23.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-04-05T12:40:52.763Z'
   - VulnerabilityID: CVE-2024-24786
     PkgName: google.golang.org/protobuf
     PkgIdentifier:
@@ -5190,6 +5473,7 @@
     VendorSeverity:
       cbl-mariner: 2
       ghsa: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -5202,6 +5486,8 @@
     - https://github.com/protocolbuffers/protobuf-go/releases/tag/v1.33.0
     - https://go.dev/cl/569356
     - https://groups.google.com/g/golang-announce/c/ArQ6CDgtEjY/
+    - https://linux.oracle.com/cve/CVE-2024-24786.html
+    - https://linux.oracle.com/errata/ELSA-2024-12329.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24786
@@ -5209,6 +5495,100 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-24786
     PublishedDate: '2024-03-05T23:15:07.82Z'
     LastModifiedDate: '2024-03-24T03:15:09.093Z'
+- Target: usr/bin/kubectl
+  Class: lang-pkgs
+  Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.19.0
+    InstalledVersion: v0.19.0
+    FixedVersion: 0.23.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-04-05T12:40:52.763Z'
+- Target: usr/bin/mc
+  Class: lang-pkgs
+  Type: gobinary
+  Vulnerabilities:
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.21.0
+    InstalledVersion: v0.21.0
+    FixedVersion: 0.23.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-04-05T12:40:52.763Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -5390,6 +5770,7 @@
       ghsa: 3
       nvd: 3
       oracle-oval: 3
+      photon: 3
       redhat: 3
       ubuntu: 3
     CVSS:
@@ -5804,7 +6185,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -6123,6 +6504,49 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
     LastModifiedDate: '2024-02-02T15:40:23.61Z'
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: golang.org/x/net
+    PkgIdentifier:
+      PURL: pkg:golang/golang.org/x/net@v0.10.0
+    InstalledVersion: v0.10.0
+    FixedVersion: 0.23.0
+    Status: fixed
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: MEDIUM
+    VendorSeverity:
+      ghsa: 2
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-04-05T12:40:52.763Z'
   - VulnerabilityID: CVE-2024-24786
     PkgName: google.golang.org/protobuf
     PkgIdentifier:
@@ -6145,6 +6569,7 @@
     VendorSeverity:
       cbl-mariner: 2
       ghsa: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -6157,6 +6582,8 @@
     - https://github.com/protocolbuffers/protobuf-go/releases/tag/v1.33.0
     - https://go.dev/cl/569356
     - https://groups.google.com/g/golang-announce/c/ArQ6CDgtEjY/
+    - https://linux.oracle.com/cve/CVE-2024-24786.html
+    - https://linux.oracle.com/errata/ELSA-2024-12329.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24786
@@ -6164,6 +6591,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-24786
     PublishedDate: '2024-03-05T23:15:07.82Z'
     LastModifiedDate: '2024-03-24T03:15:09.093Z'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
+      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -6253,37 +6711,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
-      DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:b617d0dcf33ddcf61c3a10c2b6c1db49a19f9be14aa3154c99ee4875cf727210
       DiffID: sha256:77264553632692833b6312a4c3a9855a6ba522de6c39a6430b415310af3f0f74
