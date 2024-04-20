@@ -1012,15 +1012,18 @@
 │                        │      │                           │           :H/I:H/A:H 
 │                        │      │                           ╰ V3Score : 8.8 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-2961 
-│                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
-│                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
+│                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/P3I4KY
+│                        │      │                  │      S6EU6S7QZ47WFNTPVAHFIUQNEL/ 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
+│                        │      │                  ├ [3]: https://sourceware.org/git/?p=glibc.git;a=blob;f
 │                        │      │                  │      =advisories/GLIBC-SA-2024-0004 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6737-1 
-│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-│                        │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6737-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /04/17/9 
 │                        │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
-│                        │      ╰ LastModifiedDate: 2024-04-17T20:08:21.887Z 
+│                        │      ╰ LastModifiedDate: 2024-04-19T23:15:10.99Z 
 │                        ├ [21] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.6 
 │                        │      ├ PkgName         : libc-bin 
@@ -1091,15 +1094,18 @@
 │                        │      │                           │           :H/I:H/A:H 
 │                        │      │                           ╰ V3Score : 8.8 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-2961 
-│                        │      │                  ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
-│                        │      │                  ├ [2]: https://sourceware.org/git/?p=glibc.git;a=blob;f
+│                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/P3I4KY
+│                        │      │                  │      S6EU6S7QZ47WFNTPVAHFIUQNEL/ 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
+│                        │      │                  ├ [3]: https://sourceware.org/git/?p=glibc.git;a=blob;f
 │                        │      │                  │      =advisories/GLIBC-SA-2024-0004 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6737-1 
-│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-│                        │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6737-1 
+│                        │      │                  ├ [5]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /04/17/9 
 │                        │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
-│                        │      ╰ LastModifiedDate: 2024-04-17T20:08:21.887Z 
+│                        │      ╰ LastModifiedDate: 2024-04-19T23:15:10.99Z 
 │                        ├ [23] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc6@2.35-0ubuntu3.6 
 │                        │      ├ PkgName         : libc6 
@@ -5141,20 +5147,24 @@
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1]: https://go.dev/cl/576155 
-│                              │                  ├ [2]: https://go.dev/issue/65051 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/YgW
-│                              │                  │      0sx8mN3M 
-│                              │                  ├ [4]: https://nowotarski.info/http2-continuation-flood-
-│                              │                  │      technical-details 
-│                              │                  ├ [5]: https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [9]: https://www.kb.cert.org/vuls/id/421644 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                              │                  ├ [1] : https://go.dev/cl/576155 
+│                              │                  ├ [2] : https://go.dev/issue/65051 
+│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                              │                  │       W0sx8mN3M 
+│                              │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                              │                  │       -technical-details 
+│                              │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009 
+│                              │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009/ 
+│                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-05T12:40:52.763Z 
+│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
 ├ [3]  ╭ Target         : tmp/tmp.0DmawLQuhE/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6078,20 +6088,24 @@
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1]: https://go.dev/cl/576155 
-│                              │                  ├ [2]: https://go.dev/issue/65051 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/YgW
-│                              │                  │      0sx8mN3M 
-│                              │                  ├ [4]: https://nowotarski.info/http2-continuation-flood-
-│                              │                  │      technical-details 
-│                              │                  ├ [5]: https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [9]: https://www.kb.cert.org/vuls/id/421644 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                              │                  ├ [1] : https://go.dev/cl/576155 
+│                              │                  ├ [2] : https://go.dev/issue/65051 
+│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                              │                  │       W0sx8mN3M 
+│                              │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                              │                  │       -technical-details 
+│                              │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009 
+│                              │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009/ 
+│                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-05T12:40:52.763Z 
+│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6141,10 +6155,11 @@
 │                        │     ├ References       ╭ [0]: https://github.com/moby/moby 
 │                        │     │                  ├ [1]: https://github.com/moby/moby/commit/7cef0d9cd1cf2
 │                        │     │                  │      21d8c0b7b7aeda69552649e0642 
-│                        │     │                  ╰ [2]: https://github.com/moby/moby/security/advisories/
-│                        │     │                         GHSA-x84c-p2g9-rqv9 
+│                        │     │                  ├ [2]: https://github.com/moby/moby/security/advisories/
+│                        │     │                  │      GHSA-x84c-p2g9-rqv9 
+│                        │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-32473 
 │                        │     ├ PublishedDate   : 2024-04-18T22:15:10.4Z 
-│                        │     ╰ LastModifiedDate: 2024-04-18T22:15:10.4Z 
+│                        │     ╰ LastModifiedDate: 2024-04-19T13:10:25.637Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2023-45288 
 │                        │     ├ PkgName         : golang.org/x/net 
 │                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.20.0 
@@ -6187,20 +6202,24 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45288 
-│                        │     │                  ├ [1]: https://go.dev/cl/576155 
-│                        │     │                  ├ [2]: https://go.dev/issue/65051 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/YgW
-│                        │     │                  │      0sx8mN3M 
-│                        │     │                  ├ [4]: https://nowotarski.info/http2-continuation-flood-
-│                        │     │                  │      technical-details 
-│                        │     │                  ├ [5]: https://nowotarski.info/http2-continuation-flood/ 
-│                        │     │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                        │     │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                        │     │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                        │     │                  ╰ [9]: https://www.kb.cert.org/vuls/id/421644 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                        │     │                  ├ [1] : https://go.dev/cl/576155 
+│                        │     │                  ├ [2] : https://go.dev/issue/65051 
+│                        │     │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                        │     │                  │       W0sx8mN3M 
+│                        │     │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                        │     │                  │       -technical-details 
+│                        │     │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
+│                        │     │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │     │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │     │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  │       19-0009 
+│                        │     │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  │       19-0009/ 
+│                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │     │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
 │                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                        │     ╰ LastModifiedDate: 2024-04-05T12:40:52.763Z 
+│                        │     ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24786 
 │                              ├ PkgName         : google.golang.org/protobuf 
 │                              ├ PkgIdentifier    ─ PURL: pkg:golang/google.golang.org/protobuf@v1.31.0 
@@ -6301,20 +6320,24 @@
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1]: https://go.dev/cl/576155 
-│                              │                  ├ [2]: https://go.dev/issue/65051 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/YgW
-│                              │                  │      0sx8mN3M 
-│                              │                  ├ [4]: https://nowotarski.info/http2-continuation-flood-
-│                              │                  │      technical-details 
-│                              │                  ├ [5]: https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [9]: https://www.kb.cert.org/vuls/id/421644 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                              │                  ├ [1] : https://go.dev/cl/576155 
+│                              │                  ├ [2] : https://go.dev/issue/65051 
+│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                              │                  │       W0sx8mN3M 
+│                              │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                              │                  │       -technical-details 
+│                              │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009 
+│                              │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009/ 
+│                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-05T12:40:52.763Z 
+│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6360,20 +6383,24 @@
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1]: https://go.dev/cl/576155 
-│                              │                  ├ [2]: https://go.dev/issue/65051 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/YgW
-│                              │                  │      0sx8mN3M 
-│                              │                  ├ [4]: https://nowotarski.info/http2-continuation-flood-
-│                              │                  │      technical-details 
-│                              │                  ├ [5]: https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [9]: https://www.kb.cert.org/vuls/id/421644 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                              │                  ├ [1] : https://go.dev/cl/576155 
+│                              │                  ├ [2] : https://go.dev/issue/65051 
+│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                              │                  │       W0sx8mN3M 
+│                              │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                              │                  │       -technical-details 
+│                              │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009 
+│                              │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009/ 
+│                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-05T12:40:52.763Z 
+│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
 ├ [7]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6419,20 +6446,24 @@
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1]: https://go.dev/cl/576155 
-│                              │                  ├ [2]: https://go.dev/issue/65051 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/YgW
-│                              │                  │      0sx8mN3M 
-│                              │                  ├ [4]: https://nowotarski.info/http2-continuation-flood-
-│                              │                  │      technical-details 
-│                              │                  ├ [5]: https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [9]: https://www.kb.cert.org/vuls/id/421644 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                              │                  ├ [1] : https://go.dev/cl/576155 
+│                              │                  ├ [2] : https://go.dev/issue/65051 
+│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                              │                  │       W0sx8mN3M 
+│                              │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                              │                  │       -technical-details 
+│                              │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009 
+│                              │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009/ 
+│                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-05T12:40:52.763Z 
+│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
 ├ [8]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6482,10 +6513,11 @@
 │                              ├ References       ╭ [0]: https://github.com/moby/moby 
 │                              │                  ├ [1]: https://github.com/moby/moby/commit/7cef0d9cd1cf2
 │                              │                  │      21d8c0b7b7aeda69552649e0642 
-│                              │                  ╰ [2]: https://github.com/moby/moby/security/advisories/
-│                              │                         GHSA-x84c-p2g9-rqv9 
+│                              │                  ├ [2]: https://github.com/moby/moby/security/advisories/
+│                              │                  │      GHSA-x84c-p2g9-rqv9 
+│                              │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-32473 
 │                              ├ PublishedDate   : 2024-04-18T22:15:10.4Z 
-│                              ╰ LastModifiedDate: 2024-04-18T22:15:10.4Z 
+│                              ╰ LastModifiedDate: 2024-04-19T13:10:25.637Z 
 ├ [9]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
