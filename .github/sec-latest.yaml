@@ -806,6 +806,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2023-05-26T16:31:34.07Z'
+  - VulnerabilityID: CVE-2024-32487
+    PkgID: less@590-1ubuntu0.22.04.2
+    PkgName: less
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/less@590-1ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 590-1ubuntu0.22.04.2
+    Status: affected
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32487
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'less: OS command injection'
+    Description: less through 653 allows OS command execution via a newline character in the name of a file, because quoting is mishandled in filename.c. Exploitation typically requires use with attacker-controlled file names, such as the files extracted from an untrusted archive. Exploitation also requires the LESSOPEN environment variable, but this is set by default in many common cases.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32487
+    - https://github.com/gwsw/less/commit/007521ac3c95bc76e3d59c6dbfe75d06c8075c33
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32487
+    - https://www.cve.org/CVERecord?id=CVE-2024-32487
+    - https://www.openwall.com/lists/oss-security/2024/04/12/5
+    - https://www.openwall.com/lists/oss-security/2024/04/13/2
+    PublishedDate: '2024-04-13T15:15:52.683Z'
+    LastModifiedDate: '2024-04-15T13:15:31.997Z'
   - VulnerabilityID: CVE-2016-1585
     PkgID: libapparmor1@3.0.4-2ubuntu2.3
     PkgName: libapparmor1
@@ -932,6 +967,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
@@ -1010,6 +1046,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
@@ -3854,7 +3891,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4194,6 +4231,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -4208,6 +4246,8 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
@@ -4389,7 +4429,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4729,6 +4769,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -4743,6 +4784,8 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
@@ -4818,6 +4861,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -4832,6 +4876,8 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
@@ -4866,6 +4912,7 @@
       ghsa: 2
       oracle-oval: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -4875,6 +4922,7 @@
     - https://github.com/protocolbuffers/protobuf-go
     - https://github.com/protocolbuffers/protobuf-go/commit/f01a588e5810b90996452eec4a28f22a0afae023
     - https://github.com/protocolbuffers/protobuf-go/releases/tag/v1.33.0
+    - https://go-review.googlesource.com/c/protobuf/+/569356
     - https://go.dev/cl/569356
     - https://groups.google.com/g/golang-announce/c/ArQ6CDgtEjY/
     - https://linux.oracle.com/cve/CVE-2024-24786.html
@@ -4883,6 +4931,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24786
     - https://pkg.go.dev/vuln/GO-2024-2611
+    - https://ubuntu.com/security/notices/USN-6746-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24786
     PublishedDate: '2024-03-05T23:15:07.82Z'
     LastModifiedDate: '2024-03-24T03:15:09.093Z'
@@ -4911,6 +4960,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -4925,6 +4975,8 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
@@ -4960,6 +5012,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -4974,6 +5027,8 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
@@ -5009,6 +5064,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -5023,6 +5079,8 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
