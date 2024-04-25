@@ -4609,7 +4609,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -5162,69 +5162,136 @@
 │                        │     │                           pid_reset_zeroday/ 
 │                        │     ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │     ╰ LastModifiedDate: 2024-02-02T15:40:23.61Z 
-│                        ╰ [3] ╭ VulnerabilityID : CVE-2023-45288 
-│                              ├ PkgName         : golang.org/x/net 
-│                              ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.12.0 
-│                              ├ InstalledVersion: v0.12.0 
-│                              ├ FixedVersion    : 0.23.0 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2023-45288 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.12.0 
+│                        │     ├ InstalledVersion: v0.12.0 
+│                        │     ├ FixedVersion    : 0.23.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea
+│                        │     │                  │         4048996de77a9e6674301a136 
+│                        │     │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424
+│                        │     │                            cf485e140508f834163bd7473 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : golang: net/http, x/net/http2: unlimited number of
+│                        │     │                   CONTINUATION frames causes DoS 
+│                        │     ├ Description     : An attacker may cause an HTTP/2 endpoint to read
+│                        │     │                   arbitrary amounts of header data by sending an excessive
+│                        │     │                   number of CONTINUATION frames. Maintaining HPACK state
+│                        │     │                   requires parsing and processing all HEADERS and CONTINUATION
+│                        │     │                    frames on a connection. When a request's headers exceed
+│                        │     │                   MaxHeaderBytes, no memory is allocated to store the excess
+│                        │     │                   headers, but they are still parsed. This permits an attacker
+│                        │     │                    to cause an HTTP/2 endpoint to read arbitrary amounts of
+│                        │     │                   header data, all associated with a request which is going to
+│                        │     │                    be rejected. These headers can include Huffman-encoded data
+│                        │     │                    which is significantly more expensive for the receiver to
+│                        │     │                   decode than for an attacker to send. The fix sets a limit on
+│                        │     │                    the amount of excess header frames we will process before
+│                        │     │                   closing a connection. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ ghsa       : 2 
+│                        │     │                  ├ oracle-oval: 3 
+│                        │     │                  ├ photon     : 3 
+│                        │     │                  ╰ redhat     : 3 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:L 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                        │     │                  ├ [1] : https://go.dev/cl/576155 
+│                        │     │                  ├ [2] : https://go.dev/issue/65051 
+│                        │     │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                        │     │                  │       W0sx8mN3M 
+│                        │     │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │     │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                        │     │                  ├ [6] : https://nowotarski.info/http2-continuation-flood
+│                        │     │                  │       -technical-details 
+│                        │     │                  ├ [7] : https://nowotarski.info/http2-continuation-flood/ 
+│                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │     │                  ├ [9] : https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │     │                  ├ [10]: https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  │       19-0009 
+│                        │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  │       19-0009/ 
+│                        │     │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │     │                  ╰ [13]: https://www.kb.cert.org/vuls/id/421644 
+│                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
+│                        │     ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                        ╰ [4] ╭ VulnerabilityID : CVE-2020-8559 
+│                              ├ PkgName         : k8s.io/apimachinery 
+│                              ├ PkgIdentifier    ─ PURL: pkg:golang/k8s.io/apimachinery@v0.27.3 
+│                              ├ InstalledVersion: v0.27.3 
+│                              ├ FixedVersion    : 1.16.13, 1.17.9, 1.18.7 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea
 │                              │                  │         4048996de77a9e6674301a136 
 │                              │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424
 │                              │                            cf485e140508f834163bd7473 
 │                              ├ SeveritySource  : ghsa 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-8559 
 │                              ├ DataSource       ╭ ID  : ghsa 
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : golang: net/http, x/net/http2: unlimited number of
-│                              │                   CONTINUATION frames causes DoS 
-│                              ├ Description     : An attacker may cause an HTTP/2 endpoint to read
-│                              │                   arbitrary amounts of header data by sending an excessive
-│                              │                   number of CONTINUATION frames. Maintaining HPACK state
-│                              │                   requires parsing and processing all HEADERS and CONTINUATION
-│                              │                    frames on a connection. When a request's headers exceed
-│                              │                   MaxHeaderBytes, no memory is allocated to store the excess
-│                              │                   headers, but they are still parsed. This permits an attacker
-│                              │                    to cause an HTTP/2 endpoint to read arbitrary amounts of
-│                              │                   header data, all associated with a request which is going to
-│                              │                    be rejected. These headers can include Huffman-encoded data
-│                              │                    which is significantly more expensive for the receiver to
-│                              │                   decode than for an attacker to send. The fix sets a limit on
-│                              │                    the amount of excess header frames we will process before
-│                              │                   closing a connection. 
+│                              ├ Title           : kubernetes: compromised node could escalate to cluster
+│                              │                   level privileges 
+│                              ├ Description     : The Kubernetes kube-apiserver in versions v1.6-v1.15,
+│                              │                   and versions prior to v1.16.13, v1.17.9 and v1.18.6 are
+│                              │                   vulnerable to an unvalidated redirect on proxied upgrade
+│                              │                   requests that could allow an attacker to escalate privileges
+│                              │                    from a node compromise to a full cluster
+│                              │                   compromise. 
 │                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-601 
 │                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              │                  ├ k8s        : 2 
+│                              │                  ├ nvd        : 2 
 │                              │                  ├ oracle-oval: 3 
-│                              │                  ├ photon     : 3 
-│                              │                  ╰ redhat     : 3 
-│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                              │                  │        │           N/I:N/A:L 
-│                              │                  │        ╰ V3Score : 5.3 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                              │                           │           N/I:N/A:H 
-│                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1] : https://go.dev/cl/576155 
-│                              │                  ├ [2] : https://go.dev/issue/65051 
-│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
-│                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
-│                              │                  ├ [6] : https://nowotarski.info/http2-continuation-flood
-│                              │                  │       -technical-details 
-│                              │                  ├ [7] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [9] : https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [10]: https://security.netapp.com/advisory/ntap-202404
-│                              │                  │       19-0009 
-│                              │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
-│                              │                  │       19-0009/ 
-│                              │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [13]: https://www.kb.cert.org/vuls/id/421644 
-│                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                              │                  ├ photon     : 2 
+│                              │                  ╰ redhat     : 2 
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ╰ V3Score : 6.8 
+│                              │                  ├ k8s    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ╰ V3Score : 6.4 
+│                              │                  ├ nvd    ╭ V2Vector: AV:N/AC:M/Au:S/C:P/I:P/A:P 
+│                              │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ├ V2Score : 6 
+│                              │                  │        ╰ V3Score : 6.8 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:
+│                              │                           │           H/I:H/A:H 
+│                              │                           ╰ V3Score : 6.4 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2020-8559 
+│                              │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=1851422 
+│                              │                  ├ [2] : https://github.com/kubernetes/kubernetes 
+│                              │                  ├ [3] : https://github.com/kubernetes/kubernetes/issues/92914 
+│                              │                  ├ [4] : https://github.com/kubernetes/kubernetes/pull/92941 
+│                              │                  ├ [5] : https://github.com/tdwyer/CVE-2020-8559 
+│                              │                  ├ [6] : https://groups.google.com/d/msg/kubernetes-secur
+│                              │                  │       ity-announce/JAIGG5yNROs/19nHQ5wkBwAJ 
+│                              │                  ├ [7] : https://groups.google.com/g/kubernetes-security-
+│                              │                  │       announce/c/JAIGG5yNROs 
+│                              │                  ├ [8] : https://linux.oracle.com/cve/CVE-2020-8559.html 
+│                              │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2020-5767.html 
+│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2020-8559 
+│                              │                  ├ [11]: https://security.netapp.com/advisory/ntap-202008
+│                              │                  │       10-0004 
+│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202008
+│                              │                  │       10-0004/ 
+│                              │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2020-8559 
+│                              │                  ╰ [14]: https://www.cve.org/cverecord?id=CVE-2020-8559 
+│                              ├ PublishedDate   : 2020-07-22T14:15:16.517Z 
+│                              ╰ LastModifiedDate: 2023-01-27T20:34:52.773Z 
 ├ [3]  ╭ Target         : tmp/tmp.0DmawLQuhE/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5553,7 +5620,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 3 
+│                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -6106,69 +6173,136 @@
 │                        │     │                           pid_reset_zeroday/ 
 │                        │     ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │     ╰ LastModifiedDate: 2024-02-02T15:40:23.61Z 
-│                        ╰ [3] ╭ VulnerabilityID : CVE-2023-45288 
-│                              ├ PkgName         : golang.org/x/net 
-│                              ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.12.0 
-│                              ├ InstalledVersion: v0.12.0 
-│                              ├ FixedVersion    : 0.23.0 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2023-45288 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.12.0 
+│                        │     ├ InstalledVersion: v0.12.0 
+│                        │     ├ FixedVersion    : 0.23.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea
+│                        │     │                  │         4048996de77a9e6674301a136 
+│                        │     │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424
+│                        │     │                            cf485e140508f834163bd7473 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : golang: net/http, x/net/http2: unlimited number of
+│                        │     │                   CONTINUATION frames causes DoS 
+│                        │     ├ Description     : An attacker may cause an HTTP/2 endpoint to read
+│                        │     │                   arbitrary amounts of header data by sending an excessive
+│                        │     │                   number of CONTINUATION frames. Maintaining HPACK state
+│                        │     │                   requires parsing and processing all HEADERS and CONTINUATION
+│                        │     │                    frames on a connection. When a request's headers exceed
+│                        │     │                   MaxHeaderBytes, no memory is allocated to store the excess
+│                        │     │                   headers, but they are still parsed. This permits an attacker
+│                        │     │                    to cause an HTTP/2 endpoint to read arbitrary amounts of
+│                        │     │                   header data, all associated with a request which is going to
+│                        │     │                    be rejected. These headers can include Huffman-encoded data
+│                        │     │                    which is significantly more expensive for the receiver to
+│                        │     │                   decode than for an attacker to send. The fix sets a limit on
+│                        │     │                    the amount of excess header frames we will process before
+│                        │     │                   closing a connection. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ ghsa       : 2 
+│                        │     │                  ├ oracle-oval: 3 
+│                        │     │                  ├ photon     : 3 
+│                        │     │                  ╰ redhat     : 3 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:L 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                        │     │                  ├ [1] : https://go.dev/cl/576155 
+│                        │     │                  ├ [2] : https://go.dev/issue/65051 
+│                        │     │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                        │     │                  │       W0sx8mN3M 
+│                        │     │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │     │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                        │     │                  ├ [6] : https://nowotarski.info/http2-continuation-flood
+│                        │     │                  │       -technical-details 
+│                        │     │                  ├ [7] : https://nowotarski.info/http2-continuation-flood/ 
+│                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │     │                  ├ [9] : https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │     │                  ├ [10]: https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  │       19-0009 
+│                        │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  │       19-0009/ 
+│                        │     │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │     │                  ╰ [13]: https://www.kb.cert.org/vuls/id/421644 
+│                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
+│                        │     ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                        ╰ [4] ╭ VulnerabilityID : CVE-2020-8559 
+│                              ├ PkgName         : k8s.io/apimachinery 
+│                              ├ PkgIdentifier    ─ PURL: pkg:golang/k8s.io/apimachinery@v0.27.3 
+│                              ├ InstalledVersion: v0.27.3 
+│                              ├ FixedVersion    : 1.16.13, 1.17.9, 1.18.7 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea
 │                              │                  │         4048996de77a9e6674301a136 
 │                              │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424
 │                              │                            cf485e140508f834163bd7473 
 │                              ├ SeveritySource  : ghsa 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-8559 
 │                              ├ DataSource       ╭ ID  : ghsa 
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : golang: net/http, x/net/http2: unlimited number of
-│                              │                   CONTINUATION frames causes DoS 
-│                              ├ Description     : An attacker may cause an HTTP/2 endpoint to read
-│                              │                   arbitrary amounts of header data by sending an excessive
-│                              │                   number of CONTINUATION frames. Maintaining HPACK state
-│                              │                   requires parsing and processing all HEADERS and CONTINUATION
-│                              │                    frames on a connection. When a request's headers exceed
-│                              │                   MaxHeaderBytes, no memory is allocated to store the excess
-│                              │                   headers, but they are still parsed. This permits an attacker
-│                              │                    to cause an HTTP/2 endpoint to read arbitrary amounts of
-│                              │                   header data, all associated with a request which is going to
-│                              │                    be rejected. These headers can include Huffman-encoded data
-│                              │                    which is significantly more expensive for the receiver to
-│                              │                   decode than for an attacker to send. The fix sets a limit on
-│                              │                    the amount of excess header frames we will process before
-│                              │                   closing a connection. 
+│                              ├ Title           : kubernetes: compromised node could escalate to cluster
+│                              │                   level privileges 
+│                              ├ Description     : The Kubernetes kube-apiserver in versions v1.6-v1.15,
+│                              │                   and versions prior to v1.16.13, v1.17.9 and v1.18.6 are
+│                              │                   vulnerable to an unvalidated redirect on proxied upgrade
+│                              │                   requests that could allow an attacker to escalate privileges
+│                              │                    from a node compromise to a full cluster
+│                              │                   compromise. 
 │                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-601 
 │                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              │                  ├ k8s        : 2 
+│                              │                  ├ nvd        : 2 
 │                              │                  ├ oracle-oval: 3 
-│                              │                  ├ photon     : 3 
-│                              │                  ╰ redhat     : 3 
-│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                              │                  │        │           N/I:N/A:L 
-│                              │                  │        ╰ V3Score : 5.3 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                              │                           │           N/I:N/A:H 
-│                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1] : https://go.dev/cl/576155 
-│                              │                  ├ [2] : https://go.dev/issue/65051 
-│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
-│                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
-│                              │                  ├ [6] : https://nowotarski.info/http2-continuation-flood
-│                              │                  │       -technical-details 
-│                              │                  ├ [7] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [9] : https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [10]: https://security.netapp.com/advisory/ntap-202404
-│                              │                  │       19-0009 
-│                              │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
-│                              │                  │       19-0009/ 
-│                              │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [13]: https://www.kb.cert.org/vuls/id/421644 
-│                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                              │                  ├ photon     : 2 
+│                              │                  ╰ redhat     : 2 
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ╰ V3Score : 6.8 
+│                              │                  ├ k8s    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ╰ V3Score : 6.4 
+│                              │                  ├ nvd    ╭ V2Vector: AV:N/AC:M/Au:S/C:P/I:P/A:P 
+│                              │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ├ V2Score : 6 
+│                              │                  │        ╰ V3Score : 6.8 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:
+│                              │                           │           H/I:H/A:H 
+│                              │                           ╰ V3Score : 6.4 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2020-8559 
+│                              │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=1851422 
+│                              │                  ├ [2] : https://github.com/kubernetes/kubernetes 
+│                              │                  ├ [3] : https://github.com/kubernetes/kubernetes/issues/92914 
+│                              │                  ├ [4] : https://github.com/kubernetes/kubernetes/pull/92941 
+│                              │                  ├ [5] : https://github.com/tdwyer/CVE-2020-8559 
+│                              │                  ├ [6] : https://groups.google.com/d/msg/kubernetes-secur
+│                              │                  │       ity-announce/JAIGG5yNROs/19nHQ5wkBwAJ 
+│                              │                  ├ [7] : https://groups.google.com/g/kubernetes-security-
+│                              │                  │       announce/c/JAIGG5yNROs 
+│                              │                  ├ [8] : https://linux.oracle.com/cve/CVE-2020-8559.html 
+│                              │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2020-5767.html 
+│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2020-8559 
+│                              │                  ├ [11]: https://security.netapp.com/advisory/ntap-202008
+│                              │                  │       10-0004 
+│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202008
+│                              │                  │       10-0004/ 
+│                              │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2020-8559 
+│                              │                  ╰ [14]: https://www.cve.org/cverecord?id=CVE-2020-8559 
+│                              ├ PublishedDate   : 2020-07-22T14:15:16.517Z 
+│                              ╰ LastModifiedDate: 2023-01-27T20:34:52.773Z 
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6292,131 +6426,265 @@
 │                        │     │                  ╰ [13]: https://www.kb.cert.org/vuls/id/421644 
 │                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │     ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
-│                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24786 
-│                              ├ PkgName         : google.golang.org/protobuf 
-│                              ├ PkgIdentifier    ─ PURL: pkg:golang/google.golang.org/protobuf@v1.31.0 
-│                              ├ InstalledVersion: v1.31.0 
-│                              ├ FixedVersion    : 1.33.0 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2024-24786 
+│                        │     ├ PkgName         : google.golang.org/protobuf 
+│                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/google.golang.org/protobuf@v1.31.0 
+│                        │     ├ InstalledVersion: v1.31.0 
+│                        │     ├ FixedVersion    : 1.33.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea
+│                        │     │                  │         4048996de77a9e6674301a136 
+│                        │     │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424
+│                        │     │                            cf485e140508f834163bd7473 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24786 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : golang-protobuf: encoding/protojson,
+│                        │     │                   internal/encoding/json: infinite loop in protojson.Unmarshal
+│                        │     │                    when unmarshaling certain forms of invalid JSON 
+│                        │     ├ Description     : The protojson.Unmarshal function can enter an infinite
+│                        │     │                   loop when unmarshaling certain forms of invalid JSON. This
+│                        │     │                   condition can occur when unmarshaling into a message which
+│                        │     │                   contains a google.protobuf.Any value, or when the
+│                        │     │                   UnmarshalOptions.DiscardUnknown option is set. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ cbl-mariner: 2 
+│                        │     │                  ├ ghsa       : 2 
+│                        │     │                  ├ oracle-oval: 3 
+│                        │     │                  ├ redhat     : 2 
+│                        │     │                  ╰ ubuntu     : 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 5.9 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-24786 
+│                        │     │                  ├ [1] : https://github.com/protocolbuffers/protobuf-go 
+│                        │     │                  ├ [2] : https://github.com/protocolbuffers/protobuf-go/c
+│                        │     │                  │       ommit/f01a588e5810b90996452eec4a28f22a0afae023
+│                        │     │                  │       [m 
+│                        │     │                  ├ [3] : https://github.com/protocolbuffers/protobuf-go/r
+│                        │     │                  │       eleases/tag/v1.33.0 
+│                        │     │                  ├ [4] : https://go-review.googlesource.com/c/protobuf/+/
+│                        │     │                  │       569356 
+│                        │     │                  ├ [5] : https://go.dev/cl/569356 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/Ar
+│                        │     │                  │       Q6CDgtEjY/ 
+│                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-24786.html 
+│                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-12329.html 
+│                        │     │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/JDMBHA
+│                        │     │                  │       VSDU2FBDZ45U3A2VLSM35OJ2HU 
+│                        │     │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/JDMBHA
+│                        │     │                  │       VSDU2FBDZ45U3A2VLSM35OJ2HU/ 
+│                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-24786 
+│                        │     │                  ├ [12]: https://pkg.go.dev/vuln/GO-2024-2611 
+│                        │     │                  ├ [13]: https://ubuntu.com/security/notices/USN-6746-1 
+│                        │     │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-24786 
+│                        │     ├ PublishedDate   : 2024-03-05T23:15:07.82Z 
+│                        │     ╰ LastModifiedDate: 2024-03-24T03:15:09.093Z 
+│                        ╰ [3] ╭ VulnerabilityID : CVE-2020-8559 
+│                              ├ PkgName         : k8s.io/apimachinery 
+│                              ├ PkgIdentifier    ─ PURL: pkg:golang/k8s.io/apimachinery@v0.29.2 
+│                              ├ InstalledVersion: v0.29.2 
+│                              ├ FixedVersion    : 1.16.13, 1.17.9, 1.18.7 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea
 │                              │                  │         4048996de77a9e6674301a136 
 │                              │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424
 │                              │                            cf485e140508f834163bd7473 
 │                              ├ SeveritySource  : ghsa 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24786 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-8559 
 │                              ├ DataSource       ╭ ID  : ghsa 
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : golang-protobuf: encoding/protojson,
-│                              │                   internal/encoding/json: infinite loop in protojson.Unmarshal
-│                              │                    when unmarshaling certain forms of invalid JSON 
-│                              ├ Description     : The protojson.Unmarshal function can enter an infinite
-│                              │                   loop when unmarshaling certain forms of invalid JSON. This
-│                              │                   condition can occur when unmarshaling into a message which
-│                              │                   contains a google.protobuf.Any value, or when the
-│                              │                   UnmarshalOptions.DiscardUnknown option is set. 
+│                              ├ Title           : kubernetes: compromised node could escalate to cluster
+│                              │                   level privileges 
+│                              ├ Description     : The Kubernetes kube-apiserver in versions v1.6-v1.15,
+│                              │                   and versions prior to v1.16.13, v1.17.9 and v1.18.6 are
+│                              │                   vulnerable to an unvalidated redirect on proxied upgrade
+│                              │                   requests that could allow an attacker to escalate privileges
+│                              │                    from a node compromise to a full cluster
+│                              │                   compromise. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ cbl-mariner: 2 
-│                              │                  ├ ghsa       : 2 
+│                              ├ CweIDs           ─ [0]: CWE-601 
+│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              │                  ├ k8s        : 2 
+│                              │                  ├ nvd        : 2 
 │                              │                  ├ oracle-oval: 3 
-│                              │                  ├ redhat     : 2 
-│                              │                  ╰ ubuntu     : 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
-│                              │                           │           N/I:N/A:H 
-│                              │                           ╰ V3Score : 5.9 
-│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024-24786 
-│                              │                  ├ [1] : https://github.com/protocolbuffers/protobuf-go 
-│                              │                  ├ [2] : https://github.com/protocolbuffers/protobuf-go/c
-│                              │                  │       ommit/f01a588e5810b90996452eec4a28f22a0afae023
-│                              │                  │       [m 
-│                              │                  ├ [3] : https://github.com/protocolbuffers/protobuf-go/r
-│                              │                  │       eleases/tag/v1.33.0 
-│                              │                  ├ [4] : https://go-review.googlesource.com/c/protobuf/+/
-│                              │                  │       569356 
-│                              │                  ├ [5] : https://go.dev/cl/569356 
-│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/Ar
-│                              │                  │       Q6CDgtEjY/ 
-│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-24786.html 
-│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-12329.html 
-│                              │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
-│                              │                  │       ckage-announce@lists.fedoraproject.org/message/JDMBHA
-│                              │                  │       VSDU2FBDZ45U3A2VLSM35OJ2HU 
-│                              │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
-│                              │                  │       ckage-announce@lists.fedoraproject.org/message/JDMBHA
-│                              │                  │       VSDU2FBDZ45U3A2VLSM35OJ2HU/ 
-│                              │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-24786 
-│                              │                  ├ [12]: https://pkg.go.dev/vuln/GO-2024-2611 
-│                              │                  ├ [13]: https://ubuntu.com/security/notices/USN-6746-1 
-│                              │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-24786 
-│                              ├ PublishedDate   : 2024-03-05T23:15:07.82Z 
-│                              ╰ LastModifiedDate: 2024-03-24T03:15:09.093Z 
+│                              │                  ├ photon     : 2 
+│                              │                  ╰ redhat     : 2 
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ╰ V3Score : 6.8 
+│                              │                  ├ k8s    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ╰ V3Score : 6.4 
+│                              │                  ├ nvd    ╭ V2Vector: AV:N/AC:M/Au:S/C:P/I:P/A:P 
+│                              │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ├ V2Score : 6 
+│                              │                  │        ╰ V3Score : 6.8 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:
+│                              │                           │           H/I:H/A:H 
+│                              │                           ╰ V3Score : 6.4 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2020-8559 
+│                              │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=1851422 
+│                              │                  ├ [2] : https://github.com/kubernetes/kubernetes 
+│                              │                  ├ [3] : https://github.com/kubernetes/kubernetes/issues/92914 
+│                              │                  ├ [4] : https://github.com/kubernetes/kubernetes/pull/92941 
+│                              │                  ├ [5] : https://github.com/tdwyer/CVE-2020-8559 
+│                              │                  ├ [6] : https://groups.google.com/d/msg/kubernetes-secur
+│                              │                  │       ity-announce/JAIGG5yNROs/19nHQ5wkBwAJ 
+│                              │                  ├ [7] : https://groups.google.com/g/kubernetes-security-
+│                              │                  │       announce/c/JAIGG5yNROs 
+│                              │                  ├ [8] : https://linux.oracle.com/cve/CVE-2020-8559.html 
+│                              │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2020-5767.html 
+│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2020-8559 
+│                              │                  ├ [11]: https://security.netapp.com/advisory/ntap-202008
+│                              │                  │       10-0004 
+│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202008
+│                              │                  │       10-0004/ 
+│                              │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2020-8559 
+│                              │                  ╰ [14]: https://www.cve.org/cverecord?id=CVE-2020-8559 
+│                              ├ PublishedDate   : 2020-07-22T14:15:16.517Z 
+│                              ╰ LastModifiedDate: 2023-01-27T20:34:52.773Z 
 ├ [5]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2023-45288 
-│                              ├ PkgName         : golang.org/x/net 
-│                              ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.17.0 
-│                              ├ InstalledVersion: v0.17.0 
-│                              ├ FixedVersion    : 0.23.0 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-45288 
+│                        │     ├ PkgName         : golang.org/x/net 
+│                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.17.0 
+│                        │     ├ InstalledVersion: v0.17.0 
+│                        │     ├ FixedVersion    : 0.23.0 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea
+│                        │     │                  │         4048996de77a9e6674301a136 
+│                        │     │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424
+│                        │     │                            cf485e140508f834163bd7473 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : golang: net/http, x/net/http2: unlimited number of
+│                        │     │                   CONTINUATION frames causes DoS 
+│                        │     ├ Description     : An attacker may cause an HTTP/2 endpoint to read
+│                        │     │                   arbitrary amounts of header data by sending an excessive
+│                        │     │                   number of CONTINUATION frames. Maintaining HPACK state
+│                        │     │                   requires parsing and processing all HEADERS and CONTINUATION
+│                        │     │                    frames on a connection. When a request's headers exceed
+│                        │     │                   MaxHeaderBytes, no memory is allocated to store the excess
+│                        │     │                   headers, but they are still parsed. This permits an attacker
+│                        │     │                    to cause an HTTP/2 endpoint to read arbitrary amounts of
+│                        │     │                   header data, all associated with a request which is going to
+│                        │     │                    be rejected. These headers can include Huffman-encoded data
+│                        │     │                    which is significantly more expensive for the receiver to
+│                        │     │                   decode than for an attacker to send. The fix sets a limit on
+│                        │     │                    the amount of excess header frames we will process before
+│                        │     │                   closing a connection. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ ghsa       : 2 
+│                        │     │                  ├ oracle-oval: 3 
+│                        │     │                  ├ photon     : 3 
+│                        │     │                  ╰ redhat     : 3 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                  │        │           N/I:N/A:L 
+│                        │     │                  │        ╰ V3Score : 5.3 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                        │     │                  ├ [1] : https://go.dev/cl/576155 
+│                        │     │                  ├ [2] : https://go.dev/issue/65051 
+│                        │     │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                        │     │                  │       W0sx8mN3M 
+│                        │     │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │     │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                        │     │                  ├ [6] : https://nowotarski.info/http2-continuation-flood
+│                        │     │                  │       -technical-details 
+│                        │     │                  ├ [7] : https://nowotarski.info/http2-continuation-flood/ 
+│                        │     │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │     │                  ├ [9] : https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │     │                  ├ [10]: https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  │       19-0009 
+│                        │     │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  │       19-0009/ 
+│                        │     │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │     │                  ╰ [13]: https://www.kb.cert.org/vuls/id/421644 
+│                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
+│                        │     ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                        ╰ [1] ╭ VulnerabilityID : CVE-2020-8559 
+│                              ├ PkgName         : k8s.io/apimachinery 
+│                              ├ PkgIdentifier    ─ PURL: pkg:golang/k8s.io/apimachinery@v0.29.0 
+│                              ├ InstalledVersion: v0.29.0 
+│                              ├ FixedVersion    : 1.16.13, 1.17.9, 1.18.7 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea
 │                              │                  │         4048996de77a9e6674301a136 
 │                              │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424
 │                              │                            cf485e140508f834163bd7473 
 │                              ├ SeveritySource  : ghsa 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-8559 
 │                              ├ DataSource       ╭ ID  : ghsa 
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : golang: net/http, x/net/http2: unlimited number of
-│                              │                   CONTINUATION frames causes DoS 
-│                              ├ Description     : An attacker may cause an HTTP/2 endpoint to read
-│                              │                   arbitrary amounts of header data by sending an excessive
-│                              │                   number of CONTINUATION frames. Maintaining HPACK state
-│                              │                   requires parsing and processing all HEADERS and CONTINUATION
-│                              │                    frames on a connection. When a request's headers exceed
-│                              │                   MaxHeaderBytes, no memory is allocated to store the excess
-│                              │                   headers, but they are still parsed. This permits an attacker
-│                              │                    to cause an HTTP/2 endpoint to read arbitrary amounts of
-│                              │                   header data, all associated with a request which is going to
-│                              │                    be rejected. These headers can include Huffman-encoded data
-│                              │                    which is significantly more expensive for the receiver to
-│                              │                   decode than for an attacker to send. The fix sets a limit on
-│                              │                    the amount of excess header frames we will process before
-│                              │                   closing a connection. 
+│                              ├ Title           : kubernetes: compromised node could escalate to cluster
+│                              │                   level privileges 
+│                              ├ Description     : The Kubernetes kube-apiserver in versions v1.6-v1.15,
+│                              │                   and versions prior to v1.16.13, v1.17.9 and v1.18.6 are
+│                              │                   vulnerable to an unvalidated redirect on proxied upgrade
+│                              │                   requests that could allow an attacker to escalate privileges
+│                              │                    from a node compromise to a full cluster
+│                              │                   compromise. 
 │                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs           ─ [0]: CWE-601 
 │                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              │                  ├ k8s        : 2 
+│                              │                  ├ nvd        : 2 
 │                              │                  ├ oracle-oval: 3 
-│                              │                  ├ photon     : 3 
-│                              │                  ╰ redhat     : 3 
-│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                              │                  │        │           N/I:N/A:L 
-│                              │                  │        ╰ V3Score : 5.3 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                              │                           │           N/I:N/A:H 
-│                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1] : https://go.dev/cl/576155 
-│                              │                  ├ [2] : https://go.dev/issue/65051 
-│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
-│                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
-│                              │                  ├ [6] : https://nowotarski.info/http2-continuation-flood
-│                              │                  │       -technical-details 
-│                              │                  ├ [7] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [8] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [9] : https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [10]: https://security.netapp.com/advisory/ntap-202404
-│                              │                  │       19-0009 
-│                              │                  ├ [11]: https://security.netapp.com/advisory/ntap-202404
-│                              │                  │       19-0009/ 
-│                              │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [13]: https://www.kb.cert.org/vuls/id/421644 
-│                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                              │                  ├ photon     : 2 
+│                              │                  ╰ redhat     : 2 
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ╰ V3Score : 6.8 
+│                              │                  ├ k8s    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ╰ V3Score : 6.4 
+│                              │                  ├ nvd    ╭ V2Vector: AV:N/AC:M/Au:S/C:P/I:P/A:P 
+│                              │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ├ V2Score : 6 
+│                              │                  │        ╰ V3Score : 6.8 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:
+│                              │                           │           H/I:H/A:H 
+│                              │                           ╰ V3Score : 6.4 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2020-8559 
+│                              │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=1851422 
+│                              │                  ├ [2] : https://github.com/kubernetes/kubernetes 
+│                              │                  ├ [3] : https://github.com/kubernetes/kubernetes/issues/92914 
+│                              │                  ├ [4] : https://github.com/kubernetes/kubernetes/pull/92941 
+│                              │                  ├ [5] : https://github.com/tdwyer/CVE-2020-8559 
+│                              │                  ├ [6] : https://groups.google.com/d/msg/kubernetes-secur
+│                              │                  │       ity-announce/JAIGG5yNROs/19nHQ5wkBwAJ 
+│                              │                  ├ [7] : https://groups.google.com/g/kubernetes-security-
+│                              │                  │       announce/c/JAIGG5yNROs 
+│                              │                  ├ [8] : https://linux.oracle.com/cve/CVE-2020-8559.html 
+│                              │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2020-5767.html 
+│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2020-8559 
+│                              │                  ├ [11]: https://security.netapp.com/advisory/ntap-202008
+│                              │                  │       10-0004 
+│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202008
+│                              │                  │       10-0004/ 
+│                              │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2020-8559 
+│                              │                  ╰ [14]: https://www.cve.org/cverecord?id=CVE-2020-8559 
+│                              ├ PublishedDate   : 2020-07-22T14:15:16.517Z 
+│                              ╰ LastModifiedDate: 2023-01-27T20:34:52.773Z 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6552,63 +6820,130 @@
 ├ [8]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-32473 
-│                              ├ PkgName         : github.com/docker/docker 
-│                              ├ PkgIdentifier    ─ PURL: pkg:golang/github.com/docker/docker@v26.0.0%2Bin
-│                              │                          compatible 
-│                              ├ InstalledVersion: v26.0.0+incompatible 
-│                              ├ FixedVersion    : 26.0.2 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-32473 
+│                        │     ├ PkgName         : github.com/docker/docker 
+│                        │     ├ PkgIdentifier    ─ PURL: pkg:golang/github.com/docker/docker@v26.0.0%2Bin
+│                        │     │                          compatible 
+│                        │     ├ InstalledVersion: v26.0.0+incompatible 
+│                        │     ├ FixedVersion    : 26.0.2 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea
+│                        │     │                  │         4048996de77a9e6674301a136 
+│                        │     │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424
+│                        │     │                            cf485e140508f834163bd7473 
+│                        │     ├ SeveritySource  : ghsa 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32473 
+│                        │     ├ DataSource       ╭ ID  : ghsa 
+│                        │     │                  ├ Name: GitHub Security Advisory Go 
+│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                        │     │                          wed+ecosystem%3Ago 
+│                        │     ├ Title           : moby: IPv6 enabled on IPv4-only network interfaces 
+│                        │     ├ Description     : Moby is an open source container framework that is a
+│                        │     │                   key component of Docker Engine, Docker Desktop, and other
+│                        │     │                   distributions of container tooling or runtimes. In 26.0.0,
+│                        │     │                   IPv6 is not disabled on network interfaces, including those
+│                        │     │                   belonging to networks where `--ipv6=false`. An container
+│                        │     │                   with an `ipvlan` or `macvlan` interface will normally be
+│                        │     │                   configured to share an external network link with the host
+│                        │     │                   machine. Because of this direct access, (1) Containers may
+│                        │     │                   be able to communicate with other hosts on the local network
+│                        │     │                    over link-local IPv6 addresses, (2) if router
+│                        │     │                   advertisements are being broadcast over the local network,
+│                        │     │                   containers may get SLAAC-assigned addresses, and (3) the
+│                        │     │                   interface  will be a member of IPv6 multicast groups. This
+│                        │     │                   means interfaces in IPv4-only networks present an
+│                        │     │                   unexpectedly and unnecessarily increased attack surface. The
+│                        │     │                    issue is patched in 26.0.2. To completely disable IPv6 in a
+│                        │     │                    container, use `--sysctl=net.ipv6.conf.all.disable_ipv6=1`
+│                        │     │                   in the `docker create` or `docker run` command. Or, in the
+│                        │     │                   service configuration of a `compose` file. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ CweIDs           ─ [0]: CWE-668 
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:
+│                        │     │                  │        │           H/I:N/A:N 
+│                        │     │                  │        ╰ V3Score : 4.7 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:
+│                        │     │                           │           H/I:N/A:N 
+│                        │     │                           ╰ V3Score : 4.7 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32473 
+│                        │     │                  ├ [1]: https://github.com/moby/moby 
+│                        │     │                  ├ [2]: https://github.com/moby/moby/commit/7cef0d9cd1cf2
+│                        │     │                  │      21d8c0b7b7aeda69552649e0642 
+│                        │     │                  ├ [3]: https://github.com/moby/moby/security/advisories/
+│                        │     │                  │      GHSA-x84c-p2g9-rqv9 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32473 
+│                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-32473 
+│                        │     ├ PublishedDate   : 2024-04-18T22:15:10.4Z 
+│                        │     ╰ LastModifiedDate: 2024-04-19T13:10:25.637Z 
+│                        ╰ [1] ╭ VulnerabilityID : CVE-2020-8559 
+│                              ├ PkgName         : k8s.io/apimachinery 
+│                              ├ PkgIdentifier    ─ PURL: pkg:golang/k8s.io/apimachinery@v0.29.3 
+│                              ├ InstalledVersion: v0.29.3 
+│                              ├ FixedVersion    : 1.16.13, 1.17.9, 1.18.7 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea
 │                              │                  │         4048996de77a9e6674301a136 
 │                              │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424
 │                              │                            cf485e140508f834163bd7473 
 │                              ├ SeveritySource  : ghsa 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32473 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-8559 
 │                              ├ DataSource       ╭ ID  : ghsa 
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : moby: IPv6 enabled on IPv4-only network interfaces 
-│                              ├ Description     : Moby is an open source container framework that is a
-│                              │                   key component of Docker Engine, Docker Desktop, and other
-│                              │                   distributions of container tooling or runtimes. In 26.0.0,
-│                              │                   IPv6 is not disabled on network interfaces, including those
-│                              │                   belonging to networks where `--ipv6=false`. An container
-│                              │                   with an `ipvlan` or `macvlan` interface will normally be
-│                              │                   configured to share an external network link with the host
-│                              │                   machine. Because of this direct access, (1) Containers may
-│                              │                   be able to communicate with other hosts on the local network
-│                              │                    over link-local IPv6 addresses, (2) if router
-│                              │                   advertisements are being broadcast over the local network,
-│                              │                   containers may get SLAAC-assigned addresses, and (3) the
-│                              │                   interface  will be a member of IPv6 multicast groups. This
-│                              │                   means interfaces in IPv4-only networks present an
-│                              │                   unexpectedly and unnecessarily increased attack surface. The
-│                              │                    issue is patched in 26.0.2. To completely disable IPv6 in a
-│                              │                    container, use `--sysctl=net.ipv6.conf.all.disable_ipv6=1`
-│                              │                   in the `docker create` or `docker run` command. Or, in the
-│                              │                   service configuration of a `compose` file. 
+│                              ├ Title           : kubernetes: compromised node could escalate to cluster
+│                              │                   level privileges 
+│                              ├ Description     : The Kubernetes kube-apiserver in versions v1.6-v1.15,
+│                              │                   and versions prior to v1.16.13, v1.17.9 and v1.18.6 are
+│                              │                   vulnerable to an unvalidated redirect on proxied upgrade
+│                              │                   requests that could allow an attacker to escalate privileges
+│                              │                    from a node compromise to a full cluster
+│                              │                   compromise. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ CweIDs           ─ [0]: CWE-668 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ╰ redhat: 2 
-│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:
-│                              │                  │        │           H/I:N/A:N 
-│                              │                  │        ╰ V3Score : 4.7 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:
-│                              │                           │           H/I:N/A:N 
-│                              │                           ╰ V3Score : 4.7 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32473 
-│                              │                  ├ [1]: https://github.com/moby/moby 
-│                              │                  ├ [2]: https://github.com/moby/moby/commit/7cef0d9cd1cf2
-│                              │                  │      21d8c0b7b7aeda69552649e0642 
-│                              │                  ├ [3]: https://github.com/moby/moby/security/advisories/
-│                              │                  │      GHSA-x84c-p2g9-rqv9 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32473 
-│                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-32473 
-│                              ├ PublishedDate   : 2024-04-18T22:15:10.4Z 
-│                              ╰ LastModifiedDate: 2024-04-19T13:10:25.637Z 
+│                              ├ CweIDs           ─ [0]: CWE-601 
+│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              │                  ├ k8s        : 2 
+│                              │                  ├ nvd        : 2 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ├ photon     : 2 
+│                              │                  ╰ redhat     : 2 
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ╰ V3Score : 6.8 
+│                              │                  ├ k8s    ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ╰ V3Score : 6.4 
+│                              │                  ├ nvd    ╭ V2Vector: AV:N/AC:M/Au:S/C:P/I:P/A:P 
+│                              │                  │        ├ V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:
+│                              │                  │        │           H/I:H/A:H 
+│                              │                  │        ├ V2Score : 6 
+│                              │                  │        ╰ V3Score : 6.8 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:
+│                              │                           │           H/I:H/A:H 
+│                              │                           ╰ V3Score : 6.4 
+│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2020-8559 
+│                              │                  ├ [1] : https://bugzilla.redhat.com/show_bug.cgi?id=1851422 
+│                              │                  ├ [2] : https://github.com/kubernetes/kubernetes 
+│                              │                  ├ [3] : https://github.com/kubernetes/kubernetes/issues/92914 
+│                              │                  ├ [4] : https://github.com/kubernetes/kubernetes/pull/92941 
+│                              │                  ├ [5] : https://github.com/tdwyer/CVE-2020-8559 
+│                              │                  ├ [6] : https://groups.google.com/d/msg/kubernetes-secur
+│                              │                  │       ity-announce/JAIGG5yNROs/19nHQ5wkBwAJ 
+│                              │                  ├ [7] : https://groups.google.com/g/kubernetes-security-
+│                              │                  │       announce/c/JAIGG5yNROs 
+│                              │                  ├ [8] : https://linux.oracle.com/cve/CVE-2020-8559.html 
+│                              │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2020-5767.html 
+│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2020-8559 
+│                              │                  ├ [11]: https://security.netapp.com/advisory/ntap-202008
+│                              │                  │       10-0004 
+│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202008
+│                              │                  │       10-0004/ 
+│                              │                  ├ [13]: https://www.cve.org/CVERecord?id=CVE-2020-8559 
+│                              │                  ╰ [14]: https://www.cve.org/cverecord?id=CVE-2020-8559 
+│                              ├ PublishedDate   : 2020-07-22T14:15:16.517Z 
+│                              ╰ LastModifiedDate: 2023-01-27T20:34:52.773Z 
 ├ [9]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
