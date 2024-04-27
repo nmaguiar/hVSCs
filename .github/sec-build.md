@@ -882,7 +882,48 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                        │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                        │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2016-1585 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2024-32487 
+│                        │      ├ PkgID           : less@590-1ubuntu0.22.04.2 
+│                        │      ├ PkgName         : less 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/less@590-1ubuntu0.22.04.2?arch=a
+│                        │      │                          md64&distro=ubuntu-22.04 
+│                        │      ├ InstalledVersion: 590-1ubuntu0.22.04.2 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6e
+│                        │      │                  │         a4048996de77a9e6674301a136 
+│                        │      │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa42
+│                        │      │                            4cf485e140508f834163bd7473 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32487 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : less: OS command injection 
+│                        │      ├ Description     : less through 653 allows OS command execution via a
+│                        │      │                   newline character in the name of a file, because quoting is
+│                        │      │                    mishandled in filename.c. Exploitation typically requires
+│                        │      │                   use with attacker-controlled file names, such as the files
+│                        │      │                   extracted from an untrusted archive. Exploitation also
+│                        │      │                   requires the LESSOPEN environment variable, but this is set
+│                        │      │                    by default in many common cases. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.6 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32487 
+│                        │      │                  ├ [1]: https://github.com/gwsw/less/commit/007521ac3c95
+│                        │      │                  │      bc76e3d59c6dbfe75d06c8075c33 
+│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-32487 
+│                        │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-32487 
+│                        │      │                  ├ [4]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │      /04/12/5 
+│                        │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                         /04/13/2 
+│                        │      ├ PublishedDate   : 2024-04-13T15:15:52.683Z 
+│                        │      ╰ LastModifiedDate: 2024-04-15T13:15:31.997Z 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2016-1585 
 │                        │      ├ PkgID           : libapparmor1@3.0.4-2ubuntu2.3 
 │                        │      ├ PkgName         : libapparmor1 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libapparmor1@3.0.4-2ubuntu2.3?ar
@@ -926,7 +967,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2016-1585 
 │                        │      ├ PublishedDate   : 2019-04-22T16:29:01.303Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:29:58.223Z 
-│                        ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [20] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libatomic1@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libatomic1 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04
@@ -979,7 +1020,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [20] ╭ VulnerabilityID : CVE-2024-2961 
+│                        ├ [21] ╭ VulnerabilityID : CVE-2024-2961 
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.6 
 │                        │      ├ PkgName         : libc-bin 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.6?arch=am
@@ -1006,7 +1047,8 @@
 │                        │      │                    
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
 │                        │      │                           │           :H/I:H/A:H 
@@ -1024,13 +1066,15 @@
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
 │                        │      │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob;f
 │                        │      │                  │      =advisories/GLIBC-SA-2024-0004 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6737-1 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [6]: https://sourceware.org/git?p=glibc.git;a=commit;
+│                        │      │                  │      h=f9dc609e06b1136bb0408be9605ce7973a767ada 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6737-1 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /04/17/9 
 │                        │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
 │                        │      ╰ LastModifiedDate: 2024-04-20T03:15:07.047Z 
-│                        ├ [21] ╭ VulnerabilityID : CVE-2016-20013 
+│                        ├ [22] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.6 
 │                        │      ├ PkgName         : libc-bin 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.6?arch=am
@@ -1067,7 +1111,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                        │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                        │      ╰ LastModifiedDate: 2022-03-03T16:43:19.667Z 
-│                        ├ [22] ╭ VulnerabilityID : CVE-2024-2961 
+│                        ├ [23] ╭ VulnerabilityID : CVE-2024-2961 
 │                        │      ├ PkgID           : libc6@2.35-0ubuntu3.6 
 │                        │      ├ PkgName         : libc6 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.6?arch=amd64
@@ -1094,7 +1138,8 @@
 │                        │      │                    
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
 │                        │      │                           │           :H/I:H/A:H 
@@ -1112,13 +1157,15 @@
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-2961 
 │                        │      │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob;f
 │                        │      │                  │      =advisories/GLIBC-SA-2024-0004 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6737-1 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [6]: https://sourceware.org/git?p=glibc.git;a=commit;
+│                        │      │                  │      h=f9dc609e06b1136bb0408be9605ce7973a767ada 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6737-1 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /04/17/9 
 │                        │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
 │                        │      ╰ LastModifiedDate: 2024-04-20T03:15:07.047Z 
-│                        ├ [23] ╭ VulnerabilityID : CVE-2016-20013 
+│                        ├ [24] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc6@2.35-0ubuntu3.6 
 │                        │      ├ PkgName         : libc6 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.6?arch=amd64
@@ -1155,7 +1202,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                        │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                        │      ╰ LastModifiedDate: 2022-03-03T16:43:19.667Z 
-│                        ├ [24] ╭ VulnerabilityID : CVE-2023-34969 
+│                        ├ [25] ╭ VulnerabilityID : CVE-2023-34969 
 │                        │      ├ PkgID           : libdbus-1-3@1.12.20-2ubuntu4.1 
 │                        │      ├ PkgName         : libdbus-1-3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libdbus-1-3@1.12.20-2ubuntu4.1?a
@@ -1225,7 +1272,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                        │      ├ PublishedDate   : 2023-06-08T03:15:08.97Z 
 │                        │      ╰ LastModifiedDate: 2023-12-27T16:36:58.353Z 
-│                        ├ [25] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libgcc-s1 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?
@@ -1278,7 +1325,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2024-2236 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2024-2236 
 │                        │      ├ PkgID           : libgcrypt20@1.9.4-3ubuntu3 
 │                        │      ├ PkgName         : libgcrypt20 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libgcrypt20@1.9.4-3ubuntu3?arch=
@@ -1308,16 +1355,17 @@
 │                        │      │                           │           :H/I:N/A:N 
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-2236 
-│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2268268 
-│                        │      │                  ├ [2]: https://github.com/tomato42/marvin-toolkit/tree/
+│                        │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2245218 
+│                        │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2268268 
+│                        │      │                  ├ [3]: https://github.com/tomato42/marvin-toolkit/tree/
 │                        │      │                  │      master/example/libgcrypt 
-│                        │      │                  ├ [3]: https://lists.gnupg.org/pipermail/gcrypt-devel/2
+│                        │      │                  ├ [4]: https://lists.gnupg.org/pipermail/gcrypt-devel/2
 │                        │      │                  │      024-March/005607.html 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-2236 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                        │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
-│                        │      ╰ LastModifiedDate: 2024-03-07T13:52:27.11Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2021-40812 
+│                        │      ╰ LastModifiedDate: 2024-04-25T17:15:49.467Z 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2021-40812 
 │                        │      ├ PkgID           : libgd3@2.3.0-2ubuntu2 
 │                        │      ├ PkgName         : libgd3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libgd3@2.3.0-2ubuntu2?arch=amd64
@@ -1360,7 +1408,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-40812 
 │                        │      ├ PublishedDate   : 2021-09-08T21:15:14.083Z 
 │                        │      ╰ LastModifiedDate: 2024-04-07T01:17:53.437Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2024-28834 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2024-28834 
 │                        │      ├ PkgID           : libgnutls30@3.7.3-4ubuntu1.4 
 │                        │      ├ PkgName         : libgnutls30 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libgnutls30@3.7.3-4ubuntu1.4?arc
@@ -1397,26 +1445,28 @@
 │                        │      │                           ╰ V3Score : 5.3 
 │                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1784 
 │                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:1879 
-│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:1997 
+│                        │      │                  ├ [3] : https://access.redhat.com/errata/RHSA-2024:2044 
+│                        │      │                  ├ [4] : https://access.redhat.com/security/cve/CVE-2024
 │                        │      │                  │       -28834 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2269084 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2269228 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
-│                        │      │                  ├ [6] : https://errata.almalinux.org/9/ALSA-2024-1879.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-28834.html 
-│                        │      │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1879.html 
-│                        │      │                  ├ [9] : https://lists.gnupg.org/pipermail/gnutls-help/2
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2269084 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2269228 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/9/ALSA-2024-1879.html 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-28834.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-1879.html 
+│                        │      │                  ├ [11]: https://lists.gnupg.org/pipermail/gnutls-help/2
 │                        │      │                  │       024-March/004845.html 
-│                        │      │                  ├ [10]: https://minerva.crocs.fi.muni.cz/ 
-│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
-│                        │      │                  ├ [12]: https://people.redhat.com/~hkario/marvin/ 
-│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6733-1 
-│                        │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
-│                        │      │                  ╰ [15]: https://www.gnutls.org/security-new.html#GNUTLS
+│                        │      │                  ├ [12]: https://minerva.crocs.fi.muni.cz/ 
+│                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
+│                        │      │                  ├ [14]: https://people.redhat.com/~hkario/marvin/ 
+│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6733-1 
+│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+│                        │      │                  ╰ [17]: https://www.gnutls.org/security-new.html#GNUTLS
 │                        │      │                          -SA-2023-12-04 
 │                        │      ├ PublishedDate   : 2024-03-21T14:15:07.547Z 
-│                        │      ╰ LastModifiedDate: 2024-04-18T05:15:48.167Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2024-28835 
+│                        │      ╰ LastModifiedDate: 2024-04-25T18:15:07.903Z 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2024-28835 
 │                        │      ├ PkgID           : libgnutls30@3.7.3-4ubuntu1.4 
 │                        │      ├ PkgName         : libgnutls30 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libgnutls30@3.7.3-4ubuntu1.4?arc
@@ -1466,7 +1516,7 @@
 │                        │      │                          -SA-2024-01-23 
 │                        │      ├ PublishedDate   : 2024-03-21T06:15:45.113Z 
 │                        │      ╰ LastModifiedDate: 2024-04-18T05:15:48.263Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0
@@ -1499,7 +1549,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0
@@ -1533,7 +1583,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0
@@ -1566,7 +1616,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?a
@@ -1599,7 +1649,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?a
@@ -1633,7 +1683,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?a
@@ -1666,7 +1716,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5-3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch
@@ -1699,7 +1749,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [38] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5-3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch
@@ -1733,7 +1783,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [38] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [39] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5-3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch
@@ -1766,7 +1816,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [39] ╭ VulnerabilityID : CVE-2024-26458 
+│                        ├ [40] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5support0 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.
@@ -1799,7 +1849,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [40] ╭ VulnerabilityID : CVE-2024-26461 
+│                        ├ [41] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5support0 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.
@@ -1833,7 +1883,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [41] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [42] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5support0 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.
@@ -1866,7 +1916,7 @@
 │                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
-│                        ├ [42] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ├ [43] ╭ VulnerabilityID : CVE-2020-22916 
 │                        │      ├ PkgID           : liblzma5@5.2.5-2ubuntu1 
 │                        │      ├ PkgName         : liblzma5 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/liblzma5@5.2.5-2ubuntu1?arch=amd
@@ -1915,7 +1965,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                        │      ├ PublishedDate   : 2023-08-22T19:16:19.407Z 
 │                        │      ╰ LastModifiedDate: 2024-04-11T01:07:48.443Z 
-│                        ├ [43] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [44] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=
@@ -1945,7 +1995,7 @@
 │                        │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [44] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [45] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncurses6 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=
@@ -1991,7 +2041,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [45] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [46] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncursesw6 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch
@@ -2021,7 +2071,7 @@
 │                        │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [46] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [47] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libncursesw6 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch
@@ -2067,7 +2117,67 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [47] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2024-28182 
+│                        │      ├ PkgID           : libnghttp2-14@1.43.0-1ubuntu0.1 
+│                        │      ├ PkgName         : libnghttp2-14 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libnghttp2-14@1.43.0-1ubuntu0.1?
+│                        │      │                          arch=amd64&distro=ubuntu-22.04 
+│                        │      ├ InstalledVersion: 1.43.0-1ubuntu0.1 
+│                        │      ├ FixedVersion    : 1.43.0-1ubuntu0.2 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6e
+│                        │      │                  │         a4048996de77a9e6674301a136 
+│                        │      │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa42
+│                        │      │                            4cf485e140508f834163bd7473 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-28182 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : nghttp2: CONTINUATION frames DoS 
+│                        │      ├ Description     : nghttp2 is an implementation of the Hypertext Transfer
+│                        │      │                    Protocol version 2 in C. The nghttp2 library prior to
+│                        │      │                   version 1.61.0 keeps reading the unbounded number of HTTP/2
+│                        │      │                    CONTINUATION frames even after a stream is reset to keep
+│                        │      │                   HPACK context in sync.  This causes excessive CPU usage to
+│                        │      │                   decode HPACK stream. nghttp2 v1.61.0 mitigates this
+│                        │      │                   vulnerability by limiting the number of CONTINUATION frames
+│                        │      │                    it accepts per stream. There is no workaround for this
+│                        │      │                   vulnerability. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-770 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:L 
+│                        │      │                           ╰ V3Score : 5.3 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -28182 
+│                        │      │                  ├ [1] : https://github.com/envoyproxy/envoy/security/ad
+│                        │      │                  │       visories/GHSA-j654-3ccm-vfmm 
+│                        │      │                  ├ [2] : https://github.com/nghttp2/nghttp2/commit/00201
+│                        │      │                  │       ecd8f982da3b67d4f6868af72a1b03b14e0 
+│                        │      │                  ├ [3] : https://github.com/nghttp2/nghttp2/commit/d71a4
+│                        │      │                  │       668c6bead55805d18810d633fbb98315af9 
+│                        │      │                  ├ [4] : https://github.com/nghttp2/nghttp2/security/adv
+│                        │      │                  │       isories/GHSA-x6x3-gv8h-m57q 
+│                        │      │                  ├ [5] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/AGOM
+│                        │      │                  │       E6ZXJG7664IPQNVE3DL67E3YP3HY/ 
+│                        │      │                  ├ [6] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/J6ZM
+│                        │      │                  │       XUGB66VAXDW5J6QSTHM5ET25FGSA/ 
+│                        │      │                  ├ [7] : https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/PXJO
+│                        │      │                  │       2EASHM2OQQLGVDY5ZSO7UVDVHTDK/ 
+│                        │      │                  ├ [8] : https://nowotarski.info/http2-continuation-flood/ 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-28182 
+│                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6754-1 
+│                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-28182 
+│                        │      │                  ╰ [12]: https://www.kb.cert.org/vuls/id/421644 
+│                        │      ├ PublishedDate   : 2024-04-04T15:15:38.427Z 
+│                        │      ╰ LastModifiedDate: 2024-04-20T03:15:06.97Z 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libnss-systemd 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.1
@@ -2117,7 +2227,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libpam-systemd 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.1
@@ -2167,7 +2277,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2017-11164 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2017-11164 
 │                        │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                        │      ├ PkgName         : libpcre3 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?
@@ -2217,7 +2327,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                        │      ├ PublishedDate   : 2017-07-11T03:29:00.277Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:38:10.98Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2022-3857 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2022-3857 
 │                        │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                        │      ├ PkgName         : libpng16-16 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpng16-16@1.6.37-3build5?arch=
@@ -2258,7 +2368,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
 │                        │      ├ PublishedDate   : 2023-03-06T23:15:11.087Z 
 │                        │      ╰ LastModifiedDate: 2023-04-06T13:15:08.467Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.3?
@@ -2386,7 +2496,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10-minimal 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~
@@ -2514,7 +2624,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10-stdlib 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~2
@@ -2642,7 +2752,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~2
@@ -2695,7 +2805,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libsystemd0 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.12?a
@@ -2745,7 +2855,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2018-10126 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2018-10126 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.8 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.8?arch=a
@@ -2788,7 +2898,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                        │      ├ PublishedDate   : 2018-04-21T21:29:00.29Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:51:16.693Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2023-3164 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2023-3164 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.8 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.8?arch=a
@@ -2829,7 +2939,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
 │                        │      ├ PublishedDate   : 2023-11-02T12:15:09.543Z 
 │                        │      ╰ LastModifiedDate: 2024-03-08T19:38:13.92Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=am
@@ -2859,7 +2969,7 @@
 │                        │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=am
@@ -2905,7 +3015,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libudev1@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libudev1 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.12?arch
@@ -2955,7 +3065,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?ar
@@ -3109,7 +3219,7 @@
 │                        │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd6
@@ -3165,87 +3275,11 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2023-45918 
-│                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
-│                        │      ├ PkgName         : ncurses-base 
-│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch
-│                        │      │                          =all&distro=ubuntu-22.04 
-│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6e
-│                        │      │                  │         a4048996de77a9e6674301a136 
-│                        │      │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa42
-│                        │      │                            4cf485e140508f834163bd7473 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45918 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : ncurses 6.4-20230610 has a NULL pointer dereference in
-│                        │      │                    tgetstr in tinf ... 
-│                        │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
-│                        │      │                    tgetstr in tinfo/lib_termcap.c. 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ References       ╭ [0]: https://lists.gnu.org/archive/html/bug-ncurses/2
-│                        │      │                  │      023-06/msg00005.html 
-│                        │      │                  ├ [1]: https://security.netapp.com/advisory/ntap-202403
-│                        │      │                  │      15-0006/ 
-│                        │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
-│                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
-│                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2023-50495 
-│                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
-│                        │      ├ PkgName         : ncurses-base 
-│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch
-│                        │      │                          =all&distro=ubuntu-22.04 
-│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6e
-│                        │      │                  │         a4048996de77a9e6674301a136 
-│                        │      │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa42
-│                        │      │                            4cf485e140508f834163bd7473 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
-│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
-│                        │      │                   segmentation fault via the component
-│                        │      │                   _nc_wrap_entry(). 
-│                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ nvd   : 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
-│                        │      │                  │        │           :N/I:N/A:H 
-│                        │      │                  │        ╰ V3Score : 6.5 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
-│                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/pa
-│                        │      │                  │      ckage-announce%40lists.fedoraproject.org/message/LU4M
-│                        │      │                  │      YMKFEZQ5VSCVLRIZGDQOUW3T44GT/ 
-│                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2
-│                        │      │                  │      023-04/msg00020.html 
-│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2
-│                        │      │                  │      023-04/msg00029.html 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
-│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-202401
-│                        │      │                  │      19-0008/ 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6684-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
-│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
-│                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
 │                        ├ [65] ╭ VulnerabilityID : CVE-2023-45918 
-│                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
-│                        │      ├ PkgName         : ncurses-bin 
-│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=
-│                        │      │                          amd64&distro=ubuntu-22.04 
+│                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : ncurses-base 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch
+│                        │      │                          =all&distro=ubuntu-22.04 
 │                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6e
@@ -3272,10 +3306,10 @@
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
 │                        ├ [66] ╭ VulnerabilityID : CVE-2023-50495 
-│                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
-│                        │      ├ PkgName         : ncurses-bin 
-│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=
-│                        │      │                          amd64&distro=ubuntu-22.04 
+│                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : ncurses-base 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch
+│                        │      │                          =all&distro=ubuntu-22.04 
 │                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6e
@@ -3318,6 +3352,82 @@
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
 │                        ├ [67] ╭ VulnerabilityID : CVE-2023-45918 
+│                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : ncurses-bin 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=
+│                        │      │                          amd64&distro=ubuntu-22.04 
+│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6e
+│                        │      │                  │         a4048996de77a9e6674301a136 
+│                        │      │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa42
+│                        │      │                            4cf485e140508f834163bd7473 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45918 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : ncurses 6.4-20230610 has a NULL pointer dereference in
+│                        │      │                    tgetstr in tinf ... 
+│                        │      ├ Description     : ncurses 6.4-20230610 has a NULL pointer dereference in
+│                        │      │                    tgetstr in tinfo/lib_termcap.c. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ References       ╭ [0]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-06/msg00005.html 
+│                        │      │                  ├ [1]: https://security.netapp.com/advisory/ntap-202403
+│                        │      │                  │      15-0006/ 
+│                        │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
+│                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
+│                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2023-50495 
+│                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
+│                        │      ├ PkgName         : ncurses-bin 
+│                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=
+│                        │      │                          amd64&distro=ubuntu-22.04 
+│                        │      ├ InstalledVersion: 6.3-2ubuntu0.1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6e
+│                        │      │                  │         a4048996de77a9e6674301a136 
+│                        │      │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa42
+│                        │      │                            4cf485e140508f834163bd7473 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : ncurses: segmentation fault via _nc_wrap_entry() 
+│                        │      ├ Description     : NCurse v6.4-20230418 was discovered to contain a
+│                        │      │                   segmentation fault via the component
+│                        │      │                   _nc_wrap_entry(). 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ nvd   : 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                  │        │           :N/I:N/A:H 
+│                        │      │                  │        ╰ V3Score : 6.5 
+│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-50495 
+│                        │      │                  ├ [1]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce%40lists.fedoraproject.org/message/LU4M
+│                        │      │                  │      YMKFEZQ5VSCVLRIZGDQOUW3T44GT/ 
+│                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00020.html 
+│                        │      │                  ├ [3]: https://lists.gnu.org/archive/html/bug-ncurses/2
+│                        │      │                  │      023-04/msg00029.html 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-50495 
+│                        │      │                  ├ [5]: https://security.netapp.com/advisory/ntap-202401
+│                        │      │                  │      19-0008/ 
+│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6684-1 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
+│                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
+│                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch
@@ -3347,7 +3457,7 @@
 │                        │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch
@@ -3393,7 +3503,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [69] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-client 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/openssh-client@8.9p1-3ubuntu0.6?
@@ -3444,7 +3554,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-02-27T15:51:55.813Z 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-server 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/openssh-server@8.9p1-3ubuntu0.6?
@@ -3495,7 +3605,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-02-27T15:51:55.813Z 
-│                        ├ [71] ╭ VulnerabilityID : CVE-2023-51767 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2023-51767 
 │                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.6 
 │                        │      ├ PkgName         : openssh-sftp-server 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/openssh-sftp-server@8.9p1-3ubunt
@@ -3546,7 +3656,7 @@
 │                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-51767 
 │                        │      ├ PublishedDate   : 2023-12-24T07:15:07.41Z 
 │                        │      ╰ LastModifiedDate: 2024-02-27T15:51:55.813Z 
-│                        ├ [72] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd
@@ -3602,7 +3712,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [73] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arc
@@ -3730,7 +3840,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [74] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.
@@ -3858,7 +3968,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [75] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [77] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=
@@ -3908,7 +4018,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [76] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [78] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?
@@ -3958,7 +4068,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [77] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [79] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu
@@ -4008,7 +4118,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
-│                        ├ [78] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd
@@ -4064,7 +4174,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [79] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [81] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&
@@ -4110,7 +4220,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ╰ [80] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [82] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd
@@ -4564,7 +4674,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -5074,46 +5184,47 @@
 │                        │     │                  ├ [203]: https://ubuntu.com/security/notices/USN-6438-1 
 │                        │     │                  ├ [204]: https://ubuntu.com/security/notices/USN-6505-1 
 │                        │     │                  ├ [205]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │     │                  ├ [206]: https://www.bleepingcomputer.com/news/security/
-│                        │     │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
-│                        │     │                  │        ecords 
+│                        │     │                  ├ [206]: https://ubuntu.com/security/notices/USN-6754-1 
 │                        │     │                  ├ [207]: https://www.bleepingcomputer.com/news/security/
 │                        │     │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
+│                        │     │                  │        ecords 
+│                        │     │                  ├ [208]: https://www.bleepingcomputer.com/news/security/
+│                        │     │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
 │                        │     │                  │        ecords/ 
-│                        │     │                  ├ [208]: https://www.cisa.gov/news-events/alerts/2023/10
+│                        │     │                  ├ [209]: https://www.cisa.gov/news-events/alerts/2023/10
 │                        │     │                  │        /10/http2-rapid-reset-vulnerability-cve-2023-44487[
 │                        │     │                  │        m 
-│                        │     │                  ├ [209]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                        │     │                  ├ [210]: https://www.darkreading.com/cloud/internet-wide
+│                        │     │                  ├ [210]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                        │     │                  ├ [211]: https://www.darkreading.com/cloud/internet-wide
 │                        │     │                  │        -zero-day-bug-fuels-largest-ever-ddos-event 
-│                        │     │                  ├ [211]: https://www.debian.org/security/2023/dsa-5521 
-│                        │     │                  ├ [212]: https://www.debian.org/security/2023/dsa-5522 
-│                        │     │                  ├ [213]: https://www.debian.org/security/2023/dsa-5540 
-│                        │     │                  ├ [214]: https://www.debian.org/security/2023/dsa-5549 
-│                        │     │                  ├ [215]: https://www.debian.org/security/2023/dsa-5558 
-│                        │     │                  ├ [216]: https://www.debian.org/security/2023/dsa-5570 
-│                        │     │                  ├ [217]: https://www.eclipse.org/lists/jetty-announce/ms
+│                        │     │                  ├ [212]: https://www.debian.org/security/2023/dsa-5521 
+│                        │     │                  ├ [213]: https://www.debian.org/security/2023/dsa-5522 
+│                        │     │                  ├ [214]: https://www.debian.org/security/2023/dsa-5540 
+│                        │     │                  ├ [215]: https://www.debian.org/security/2023/dsa-5549 
+│                        │     │                  ├ [216]: https://www.debian.org/security/2023/dsa-5558 
+│                        │     │                  ├ [217]: https://www.debian.org/security/2023/dsa-5570 
+│                        │     │                  ├ [218]: https://www.eclipse.org/lists/jetty-announce/ms
 │                        │     │                  │        g00181.html 
-│                        │     │                  ├ [218]: https://www.haproxy.com/blog/haproxy-is-not-aff
+│                        │     │                  ├ [219]: https://www.haproxy.com/blog/haproxy-is-not-aff
 │                        │     │                  │        ected-by-the-http-2-rapid-reset-attack-cve-2023-4448
 │                        │     │                  │        7 
-│                        │     │                  ├ [219]: https://www.mail-archive.com/haproxy@formilux.o
+│                        │     │                  ├ [220]: https://www.mail-archive.com/haproxy@formilux.o
 │                        │     │                  │        rg/msg44134.html 
-│                        │     │                  ├ [220]: https://www.netlify.com/blog/netlify-successful
-│                        │     │                  │        ly-mitigates-cve-2023-44487 
 │                        │     │                  ├ [221]: https://www.netlify.com/blog/netlify-successful
+│                        │     │                  │        ly-mitigates-cve-2023-44487 
+│                        │     │                  ├ [222]: https://www.netlify.com/blog/netlify-successful
 │                        │     │                  │        ly-mitigates-cve-2023-44487/ 
-│                        │     │                  ├ [222]: https://www.nginx.com/blog/http-2-rapid-reset-a
-│                        │     │                  │        ttack-impacting-f5-nginx-products 
 │                        │     │                  ├ [223]: https://www.nginx.com/blog/http-2-rapid-reset-a
+│                        │     │                  │        ttack-impacting-f5-nginx-products 
+│                        │     │                  ├ [224]: https://www.nginx.com/blog/http-2-rapid-reset-a
 │                        │     │                  │        ttack-impacting-f5-nginx-products/ 
-│                        │     │                  ├ [224]: https://www.openwall.com/lists/oss-security/202
+│                        │     │                  ├ [225]: https://www.openwall.com/lists/oss-security/202
 │                        │     │                  │        3/10/10/6 
-│                        │     │                  ├ [225]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
+│                        │     │                  ├ [226]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
 │                        │     │                  │        -Attack 
-│                        │     │                  ├ [226]: https://www.theregister.com/2023/10/10/http2_ra
+│                        │     │                  ├ [227]: https://www.theregister.com/2023/10/10/http2_ra
 │                        │     │                  │        pid_reset_zeroday 
-│                        │     │                  ╰ [227]: https://www.theregister.com/2023/10/10/http2_ra
+│                        │     │                  ╰ [228]: https://www.theregister.com/2023/10/10/http2_ra
 │                        │     │                           pid_reset_zeroday/ 
 │                        │     ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │     ╰ LastModifiedDate: 2024-02-02T15:40:23.61Z 
@@ -5150,9 +5261,10 @@
 │                              │                    the amount of excess header frames we will process before
 │                              │                   closing a connection. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ├ photon: 3 
-│                              │                  ╰ redhat: 3 
+│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ├ photon     : 3 
+│                              │                  ╰ redhat     : 3 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                  │        │           N/I:N/A:L 
 │                              │                  │        ╰ V3Score : 5.3 
@@ -5164,19 +5276,27 @@
 │                              │                  ├ [2] : https://go.dev/issue/65051 
 │                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
 │                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                              │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
+│                              │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
+│                              │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
 │                              │                  │       -technical-details 
-│                              │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009 
-│                              │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009/ 
-│                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
+│                              │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                              ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 ├ [3]  ╭ Target         : tmp/tmp.0DmawLQuhE/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -5505,7 +5625,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -6015,46 +6135,47 @@
 │                        │     │                  ├ [203]: https://ubuntu.com/security/notices/USN-6438-1 
 │                        │     │                  ├ [204]: https://ubuntu.com/security/notices/USN-6505-1 
 │                        │     │                  ├ [205]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │     │                  ├ [206]: https://www.bleepingcomputer.com/news/security/
-│                        │     │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
-│                        │     │                  │        ecords 
+│                        │     │                  ├ [206]: https://ubuntu.com/security/notices/USN-6754-1 
 │                        │     │                  ├ [207]: https://www.bleepingcomputer.com/news/security/
 │                        │     │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
+│                        │     │                  │        ecords 
+│                        │     │                  ├ [208]: https://www.bleepingcomputer.com/news/security/
+│                        │     │                  │        new-http-2-rapid-reset-zero-day-attack-breaks-ddos-r
 │                        │     │                  │        ecords/ 
-│                        │     │                  ├ [208]: https://www.cisa.gov/news-events/alerts/2023/10
+│                        │     │                  ├ [209]: https://www.cisa.gov/news-events/alerts/2023/10
 │                        │     │                  │        /10/http2-rapid-reset-vulnerability-cve-2023-44487[
 │                        │     │                  │        m 
-│                        │     │                  ├ [209]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                        │     │                  ├ [210]: https://www.darkreading.com/cloud/internet-wide
+│                        │     │                  ├ [210]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                        │     │                  ├ [211]: https://www.darkreading.com/cloud/internet-wide
 │                        │     │                  │        -zero-day-bug-fuels-largest-ever-ddos-event 
-│                        │     │                  ├ [211]: https://www.debian.org/security/2023/dsa-5521 
-│                        │     │                  ├ [212]: https://www.debian.org/security/2023/dsa-5522 
-│                        │     │                  ├ [213]: https://www.debian.org/security/2023/dsa-5540 
-│                        │     │                  ├ [214]: https://www.debian.org/security/2023/dsa-5549 
-│                        │     │                  ├ [215]: https://www.debian.org/security/2023/dsa-5558 
-│                        │     │                  ├ [216]: https://www.debian.org/security/2023/dsa-5570 
-│                        │     │                  ├ [217]: https://www.eclipse.org/lists/jetty-announce/ms
+│                        │     │                  ├ [212]: https://www.debian.org/security/2023/dsa-5521 
+│                        │     │                  ├ [213]: https://www.debian.org/security/2023/dsa-5522 
+│                        │     │                  ├ [214]: https://www.debian.org/security/2023/dsa-5540 
+│                        │     │                  ├ [215]: https://www.debian.org/security/2023/dsa-5549 
+│                        │     │                  ├ [216]: https://www.debian.org/security/2023/dsa-5558 
+│                        │     │                  ├ [217]: https://www.debian.org/security/2023/dsa-5570 
+│                        │     │                  ├ [218]: https://www.eclipse.org/lists/jetty-announce/ms
 │                        │     │                  │        g00181.html 
-│                        │     │                  ├ [218]: https://www.haproxy.com/blog/haproxy-is-not-aff
+│                        │     │                  ├ [219]: https://www.haproxy.com/blog/haproxy-is-not-aff
 │                        │     │                  │        ected-by-the-http-2-rapid-reset-attack-cve-2023-4448
 │                        │     │                  │        7 
-│                        │     │                  ├ [219]: https://www.mail-archive.com/haproxy@formilux.o
+│                        │     │                  ├ [220]: https://www.mail-archive.com/haproxy@formilux.o
 │                        │     │                  │        rg/msg44134.html 
-│                        │     │                  ├ [220]: https://www.netlify.com/blog/netlify-successful
-│                        │     │                  │        ly-mitigates-cve-2023-44487 
 │                        │     │                  ├ [221]: https://www.netlify.com/blog/netlify-successful
+│                        │     │                  │        ly-mitigates-cve-2023-44487 
+│                        │     │                  ├ [222]: https://www.netlify.com/blog/netlify-successful
 │                        │     │                  │        ly-mitigates-cve-2023-44487/ 
-│                        │     │                  ├ [222]: https://www.nginx.com/blog/http-2-rapid-reset-a
-│                        │     │                  │        ttack-impacting-f5-nginx-products 
 │                        │     │                  ├ [223]: https://www.nginx.com/blog/http-2-rapid-reset-a
+│                        │     │                  │        ttack-impacting-f5-nginx-products 
+│                        │     │                  ├ [224]: https://www.nginx.com/blog/http-2-rapid-reset-a
 │                        │     │                  │        ttack-impacting-f5-nginx-products/ 
-│                        │     │                  ├ [224]: https://www.openwall.com/lists/oss-security/202
+│                        │     │                  ├ [225]: https://www.openwall.com/lists/oss-security/202
 │                        │     │                  │        3/10/10/6 
-│                        │     │                  ├ [225]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
+│                        │     │                  ├ [226]: https://www.phoronix.com/news/HTTP2-Rapid-Reset
 │                        │     │                  │        -Attack 
-│                        │     │                  ├ [226]: https://www.theregister.com/2023/10/10/http2_ra
+│                        │     │                  ├ [227]: https://www.theregister.com/2023/10/10/http2_ra
 │                        │     │                  │        pid_reset_zeroday 
-│                        │     │                  ╰ [227]: https://www.theregister.com/2023/10/10/http2_ra
+│                        │     │                  ╰ [228]: https://www.theregister.com/2023/10/10/http2_ra
 │                        │     │                           pid_reset_zeroday/ 
 │                        │     ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
 │                        │     ╰ LastModifiedDate: 2024-02-02T15:40:23.61Z 
@@ -6091,9 +6212,10 @@
 │                              │                    the amount of excess header frames we will process before
 │                              │                   closing a connection. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ├ photon: 3 
-│                              │                  ╰ redhat: 3 
+│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ├ photon     : 3 
+│                              │                  ╰ redhat     : 3 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                  │        │           N/I:N/A:L 
 │                              │                  │        ╰ V3Score : 5.3 
@@ -6105,19 +6227,27 @@
 │                              │                  ├ [2] : https://go.dev/issue/65051 
 │                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
 │                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                              │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
+│                              │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
+│                              │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
 │                              │                  │       -technical-details 
-│                              │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009 
-│                              │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009/ 
-│                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
+│                              │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                              ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6138,7 +6268,7 @@
 │                        │     │                  ├ Name: GitHub Security Advisory Go 
 │                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : IPv6 enabled on IPv4-only network interfaces 
+│                        │     ├ Title           : moby: IPv6 enabled on IPv4-only network interfaces 
 │                        │     ├ Description     : Moby is an open source container framework that is a
 │                        │     │                   key component of Docker Engine, Docker Desktop, and other
 │                        │     │                   distributions of container tooling or runtimes. In 26.0.0,
@@ -6160,16 +6290,22 @@
 │                        │     │                   service configuration of a `compose` file. 
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-668 
-│                        │     ├ VendorSeverity   ─ ghsa: 2 
-│                        │     ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/
-│                        │     │                         │           I:N/A:N 
-│                        │     │                         ╰ V3Score : 4.7 
-│                        │     ├ References       ╭ [0]: https://github.com/moby/moby 
-│                        │     │                  ├ [1]: https://github.com/moby/moby/commit/7cef0d9cd1cf2
+│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+│                        │     │                  ╰ redhat: 2 
+│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:
+│                        │     │                  │        │           H/I:N/A:N 
+│                        │     │                  │        ╰ V3Score : 4.7 
+│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:
+│                        │     │                           │           H/I:N/A:N 
+│                        │     │                           ╰ V3Score : 4.7 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32473 
+│                        │     │                  ├ [1]: https://github.com/moby/moby 
+│                        │     │                  ├ [2]: https://github.com/moby/moby/commit/7cef0d9cd1cf2
 │                        │     │                  │      21d8c0b7b7aeda69552649e0642 
-│                        │     │                  ├ [2]: https://github.com/moby/moby/security/advisories/
+│                        │     │                  ├ [3]: https://github.com/moby/moby/security/advisories/
 │                        │     │                  │      GHSA-x84c-p2g9-rqv9 
-│                        │     │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-32473 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32473 
+│                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-32473 
 │                        │     ├ PublishedDate   : 2024-04-18T22:15:10.4Z 
 │                        │     ╰ LastModifiedDate: 2024-04-19T13:10:25.637Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2023-45288 
@@ -6205,9 +6341,10 @@
 │                        │     │                    the amount of excess header frames we will process before
 │                        │     │                   closing a connection. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ ghsa  : 2 
-│                        │     │                  ├ photon: 3 
-│                        │     │                  ╰ redhat: 3 
+│                        │     ├ VendorSeverity   ╭ ghsa       : 2 
+│                        │     │                  ├ oracle-oval: 3 
+│                        │     │                  ├ photon     : 3 
+│                        │     │                  ╰ redhat     : 3 
 │                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                  │        │           N/I:N/A:L 
 │                        │     │                  │        ╰ V3Score : 5.3 
@@ -6219,19 +6356,27 @@
 │                        │     │                  ├ [2] : https://go.dev/issue/65051 
 │                        │     │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
 │                        │     │                  │       W0sx8mN3M 
-│                        │     │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                        │     │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │     │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                        │     │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                        │     │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
+│                        │     │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                        │     │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
+│                        │     │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
 │                        │     │                  │       -technical-details 
-│                        │     │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
-│                        │     │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                        │     │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
-│                        │     │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
+│                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
 │                        │     │                  │       19-0009 
-│                        │     │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
 │                        │     │                  │       19-0009/ 
-│                        │     │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                        │     │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
+│                        │     │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │     │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
 │                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                        │     ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                        │     ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24786 
 │                              ├ PkgName         : google.golang.org/protobuf 
 │                              ├ PkgIdentifier    ─ PURL: pkg:golang/google.golang.org/protobuf@v1.31.0 
@@ -6260,7 +6405,8 @@
 │                              ├ VendorSeverity   ╭ cbl-mariner: 2 
 │                              │                  ├ ghsa       : 2 
 │                              │                  ├ oracle-oval: 3 
-│                              │                  ╰ redhat     : 2 
+│                              │                  ├ redhat     : 2 
+│                              │                  ╰ ubuntu     : 2 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 5.9 
@@ -6271,20 +6417,23 @@
 │                              │                  │       [m 
 │                              │                  ├ [3] : https://github.com/protocolbuffers/protobuf-go/r
 │                              │                  │       eleases/tag/v1.33.0 
-│                              │                  ├ [4] : https://go.dev/cl/569356 
-│                              │                  ├ [5] : https://groups.google.com/g/golang-announce/c/Ar
+│                              │                  ├ [4] : https://go-review.googlesource.com/c/protobuf/+/
+│                              │                  │       569356 
+│                              │                  ├ [5] : https://go.dev/cl/569356 
+│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/Ar
 │                              │                  │       Q6CDgtEjY/ 
-│                              │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-24786.html 
-│                              │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-12329.html 
-│                              │                  ├ [8] : https://lists.fedoraproject.org/archives/list/pa
-│                              │                  │       ckage-announce@lists.fedoraproject.org/message/JDMBHA
-│                              │                  │       VSDU2FBDZ45U3A2VLSM35OJ2HU 
+│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-24786.html 
+│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-12329.html 
 │                              │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/JDMBHA
+│                              │                  │       VSDU2FBDZ45U3A2VLSM35OJ2HU 
+│                              │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/JDMBHA
 │                              │                  │       VSDU2FBDZ45U3A2VLSM35OJ2HU/ 
-│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2024-24786 
-│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2611 
-│                              │                  ╰ [12]: https://www.cve.org/CVERecord?id=CVE-2024-24786 
+│                              │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-24786 
+│                              │                  ├ [12]: https://pkg.go.dev/vuln/GO-2024-2611 
+│                              │                  ├ [13]: https://ubuntu.com/security/notices/USN-6746-1 
+│                              │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-24786 
 │                              ├ PublishedDate   : 2024-03-05T23:15:07.82Z 
 │                              ╰ LastModifiedDate: 2024-03-24T03:15:09.093Z 
 ├ [5]  ╭ Target         : usr/bin/helm 
@@ -6323,9 +6472,10 @@
 │                              │                    the amount of excess header frames we will process before
 │                              │                   closing a connection. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ├ photon: 3 
-│                              │                  ╰ redhat: 3 
+│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ├ photon     : 3 
+│                              │                  ╰ redhat     : 3 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                  │        │           N/I:N/A:L 
 │                              │                  │        ╰ V3Score : 5.3 
@@ -6337,19 +6487,27 @@
 │                              │                  ├ [2] : https://go.dev/issue/65051 
 │                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
 │                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                              │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
+│                              │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
+│                              │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
 │                              │                  │       -technical-details 
-│                              │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009 
-│                              │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009/ 
-│                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
+│                              │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                              ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6386,9 +6544,10 @@
 │                              │                    the amount of excess header frames we will process before
 │                              │                   closing a connection. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ├ photon: 3 
-│                              │                  ╰ redhat: 3 
+│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ├ photon     : 3 
+│                              │                  ╰ redhat     : 3 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                  │        │           N/I:N/A:L 
 │                              │                  │        ╰ V3Score : 5.3 
@@ -6400,19 +6559,27 @@
 │                              │                  ├ [2] : https://go.dev/issue/65051 
 │                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
 │                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                              │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
+│                              │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
+│                              │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
 │                              │                  │       -technical-details 
-│                              │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009 
-│                              │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009/ 
-│                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
+│                              │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                              ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 ├ [7]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6449,9 +6616,10 @@
 │                              │                    the amount of excess header frames we will process before
 │                              │                   closing a connection. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa  : 2 
-│                              │                  ├ photon: 3 
-│                              │                  ╰ redhat: 3 
+│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ├ photon     : 3 
+│                              │                  ╰ redhat     : 3 
 │                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                  │        │           N/I:N/A:L 
 │                              │                  │        ╰ V3Score : 5.3 
@@ -6463,19 +6631,27 @@
 │                              │                  ├ [2] : https://go.dev/issue/65051 
 │                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
 │                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://nowotarski.info/http2-continuation-flood
+│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                              │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
+│                              │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
+│                              │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
 │                              │                  │       -technical-details 
-│                              │                  ├ [5] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [6] : https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [7] : https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [8] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009 
-│                              │                  ├ [9] : https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009/ 
-│                              │                  ├ [10]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [11]: https://www.kb.cert.org/vuls/id/421644 
+│                              │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                              ╰ LastModifiedDate: 2024-04-19T07:15:08.747Z 
+│                              ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 ├ [8]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -6496,7 +6672,7 @@
 │                              │                  ├ Name: GitHub Security Advisory Go 
 │                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
 │                              │                          wed+ecosystem%3Ago 
-│                              ├ Title           : IPv6 enabled on IPv4-only network interfaces 
+│                              ├ Title           : moby: IPv6 enabled on IPv4-only network interfaces 
 │                              ├ Description     : Moby is an open source container framework that is a
 │                              │                   key component of Docker Engine, Docker Desktop, and other
 │                              │                   distributions of container tooling or runtimes. In 26.0.0,
@@ -6518,127 +6694,25 @@
 │                              │                   service configuration of a `compose` file. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ CweIDs           ─ [0]: CWE-668 
-│                              ├ VendorSeverity   ─ ghsa: 2 
-│                              ├ CVSS             ─ ghsa ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/
-│                              │                         │           I:N/A:N 
-│                              │                         ╰ V3Score : 4.7 
-│                              ├ References       ╭ [0]: https://github.com/moby/moby 
-│                              │                  ├ [1]: https://github.com/moby/moby/commit/7cef0d9cd1cf2
+│                              ├ VendorSeverity   ╭ ghsa  : 2 
+│                              │                  ╰ redhat: 2 
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:
+│                              │                  │        │           H/I:N/A:N 
+│                              │                  │        ╰ V3Score : 4.7 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:
+│                              │                           │           H/I:N/A:N 
+│                              │                           ╰ V3Score : 4.7 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32473 
+│                              │                  ├ [1]: https://github.com/moby/moby 
+│                              │                  ├ [2]: https://github.com/moby/moby/commit/7cef0d9cd1cf2
 │                              │                  │      21d8c0b7b7aeda69552649e0642 
-│                              │                  ├ [2]: https://github.com/moby/moby/security/advisories/
+│                              │                  ├ [3]: https://github.com/moby/moby/security/advisories/
 │                              │                  │      GHSA-x84c-p2g9-rqv9 
-│                              │                  ╰ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-32473 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32473 
+│                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-32473 
 │                              ├ PublishedDate   : 2024-04-18T22:15:10.4Z 
 │                              ╰ LastModifiedDate: 2024-04-19T13:10:25.637Z 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_dsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            *********************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a
-│                                  │            9e6674301a136 
-│                                  ├ DiffID   : sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508
-│                                  │            f834163bd7473 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -6696,7 +6770,7 @@
 │                                  ├ DiffID   : sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508
 │                                  │            f834163bd7473 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -6749,7 +6823,183 @@
 │                                  ├ DiffID   : sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508
 │                                  │            f834163bd7473 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [12] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a
+│                                  │            9e6674301a136 
+│                                  ├ DiffID   : sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508
+│                                  │            f834163bd7473 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [12] ╭ Target : /etc/ssh/ssh_host_dsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -6787,33 +7037,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              ****************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -6847,33 +7071,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              ****************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -6902,24 +7100,8 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            *********************************************************-----END OPENSSH
+                       │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a
                                    │            9e6674301a136 
                                    ├ DiffID   : sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508

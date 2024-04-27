@@ -806,6 +806,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-3219
     PublishedDate: '2023-02-23T20:15:12.393Z'
     LastModifiedDate: '2023-05-26T16:31:34.07Z'
+  - VulnerabilityID: CVE-2024-32487
+    PkgID: less@590-1ubuntu0.22.04.2
+    PkgName: less
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/less@590-1ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 590-1ubuntu0.22.04.2
+    Status: affected
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32487
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'less: OS command injection'
+    Description: less through 653 allows OS command execution via a newline character in the name of a file, because quoting is mishandled in filename.c. Exploitation typically requires use with attacker-controlled file names, such as the files extracted from an untrusted archive. Exploitation also requires the LESSOPEN environment variable, but this is set by default in many common cases.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 8.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32487
+    - https://github.com/gwsw/less/commit/007521ac3c95bc76e3d59c6dbfe75d06c8075c33
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32487
+    - https://www.cve.org/CVERecord?id=CVE-2024-32487
+    - https://www.openwall.com/lists/oss-security/2024/04/12/5
+    - https://www.openwall.com/lists/oss-security/2024/04/13/2
+    PublishedDate: '2024-04-13T15:15:52.683Z'
+    LastModifiedDate: '2024-04-15T13:15:31.997Z'
   - VulnerabilityID: CVE-2016-1585
     PkgID: libapparmor1@3.0.4-2ubuntu2.3
     PkgName: libapparmor1
@@ -919,6 +954,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -932,6 +968,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
@@ -997,6 +1034,7 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      photon: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -1010,6 +1048,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
+    - https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
@@ -1184,13 +1223,14 @@
         V3Score: 5.9
     References:
     - https://access.redhat.com/security/cve/CVE-2024-2236
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2245218
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268268
     - https://github.com/tomato42/marvin-toolkit/tree/master/example/libgcrypt
     - https://lists.gnupg.org/pipermail/gcrypt-devel/2024-March/005607.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2236
     - https://www.cve.org/CVERecord?id=CVE-2024-2236
     PublishedDate: '2024-03-06T22:15:57.977Z'
-    LastModifiedDate: '2024-03-07T13:52:27.11Z'
+    LastModifiedDate: '2024-04-25T17:15:49.467Z'
   - VulnerabilityID: CVE-2021-40812
     PkgID: libgd3@2.3.0-2ubuntu2
     PkgName: libgd3
@@ -1267,6 +1307,8 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:1784
     - https://access.redhat.com/errata/RHSA-2024:1879
+    - https://access.redhat.com/errata/RHSA-2024:1997
+    - https://access.redhat.com/errata/RHSA-2024:2044
     - https://access.redhat.com/security/cve/CVE-2024-28834
     - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
@@ -1282,7 +1324,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-28834
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2023-12-04
     PublishedDate: '2024-03-21T14:15:07.547Z'
-    LastModifiedDate: '2024-04-18T05:15:48.167Z'
+    LastModifiedDate: '2024-04-25T18:15:07.903Z'
   - VulnerabilityID: CVE-2024-28835
     PkgID: libgnutls30@3.7.3-4ubuntu1.4
     PkgName: libgnutls30
@@ -1922,6 +1964,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-01-31T03:15:08.49Z'
+  - VulnerabilityID: CVE-2024-28182
+    PkgID: libnghttp2-14@1.43.0-1ubuntu0.1
+    PkgName: libnghttp2-14
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libnghttp2-14@1.43.0-1ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+    InstalledVersion: 1.43.0-1ubuntu0.1
+    FixedVersion: 1.43.0-1ubuntu0.2
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-28182
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'nghttp2: CONTINUATION frames DoS'
+    Description: nghttp2 is an implementation of the Hypertext Transfer Protocol version 2 in C. The nghttp2 library prior to version 1.61.0 keeps reading the unbounded number of HTTP/2 CONTINUATION frames even after a stream is reset to keep HPACK context in sync.  This causes excessive CPU usage to decode HPACK stream. nghttp2 v1.61.0 mitigates this vulnerability by limiting the number of CONTINUATION frames it accepts per stream. There is no workaround for this vulnerability.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-28182
+    - https://github.com/envoyproxy/envoy/security/advisories/GHSA-j654-3ccm-vfmm
+    - https://github.com/nghttp2/nghttp2/commit/00201ecd8f982da3b67d4f6868af72a1b03b14e0
+    - https://github.com/nghttp2/nghttp2/commit/d71a4668c6bead55805d18810d633fbb98315af9
+    - https://github.com/nghttp2/nghttp2/security/advisories/GHSA-x6x3-gv8h-m57q
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AGOME6ZXJG7664IPQNVE3DL67E3YP3HY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/J6ZMXUGB66VAXDW5J6QSTHM5ET25FGSA/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PXJO2EASHM2OQQLGVDY5ZSO7UVDVHTDK/
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-28182
+    - https://ubuntu.com/security/notices/USN-6754-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-28182
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T15:15:38.427Z'
+    LastModifiedDate: '2024-04-20T03:15:06.97Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -3854,7 +3941,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4149,6 +4236,7 @@
     - https://ubuntu.com/security/notices/USN-6438-1
     - https://ubuntu.com/security/notices/USN-6505-1
     - https://ubuntu.com/security/notices/USN-6574-1
+    - https://ubuntu.com/security/notices/USN-6754-1
     - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records
     - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
@@ -4194,6 +4282,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -4208,6 +4297,10 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
@@ -4217,7 +4310,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-19T07:15:08.747Z'
+    LastModifiedDate: '2024-04-25T06:15:52.357Z'
 - Target: tmp/tmp.0DmawLQuhE/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -4389,7 +4482,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4684,6 +4777,7 @@
     - https://ubuntu.com/security/notices/USN-6438-1
     - https://ubuntu.com/security/notices/USN-6505-1
     - https://ubuntu.com/security/notices/USN-6574-1
+    - https://ubuntu.com/security/notices/USN-6754-1
     - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records
     - https://www.bleepingcomputer.com/news/security/new-http-2-rapid-reset-zero-day-attack-breaks-ddos-records/
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
@@ -4729,6 +4823,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -4743,6 +4838,10 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
@@ -4752,7 +4851,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-19T07:15:08.747Z'
+    LastModifiedDate: '2024-04-25T06:15:52.357Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -4773,22 +4872,28 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: IPv6 enabled on IPv4-only network interfaces
+    Title: 'moby: IPv6 enabled on IPv4-only network interfaces'
     Description: Moby is an open source container framework that is a key component of Docker Engine, Docker Desktop, and other distributions of container tooling or runtimes. In 26.0.0, IPv6 is not disabled on network interfaces, including those belonging to networks where `--ipv6=false`. An container with an `ipvlan` or `macvlan` interface will normally be configured to share an external network link with the host machine. Because of this direct access, (1) Containers may be able to communicate with other hosts on the local network over link-local IPv6 addresses, (2) if router advertisements are being broadcast over the local network, containers may get SLAAC-assigned addresses, and (3) the interface  will be a member of IPv6 multicast groups. This means interfaces in IPv4-only networks present an unexpectedly and unnecessarily increased attack surface. The issue is patched in 26.0.2. To completely disable IPv6 in a container, use `--sysctl=net.ipv6.conf.all.disable_ipv6=1` in the `docker create` or `docker run` command. Or, in the service configuration of a `compose` file.
     Severity: MEDIUM
     CweIDs:
     - CWE-668
     VendorSeverity:
       ghsa: 2
+      redhat: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
         V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 4.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-32473
     - https://github.com/moby/moby
     - https://github.com/moby/moby/commit/7cef0d9cd1cf221d8c0b7b7aeda69552649e0642
     - https://github.com/moby/moby/security/advisories/GHSA-x84c-p2g9-rqv9
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32473
+    - https://www.cve.org/CVERecord?id=CVE-2024-32473
     PublishedDate: '2024-04-18T22:15:10.4Z'
     LastModifiedDate: '2024-04-19T13:10:25.637Z'
   - VulnerabilityID: CVE-2023-45288
@@ -4812,6 +4917,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -4826,6 +4932,10 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
@@ -4835,7 +4945,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-19T07:15:08.747Z'
+    LastModifiedDate: '2024-04-25T06:15:52.357Z'
   - VulnerabilityID: CVE-2024-24786
     PkgName: google.golang.org/protobuf
     PkgIdentifier:
@@ -4860,6 +4970,7 @@
       ghsa: 2
       oracle-oval: 3
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
@@ -4869,6 +4980,7 @@
     - https://github.com/protocolbuffers/protobuf-go
     - https://github.com/protocolbuffers/protobuf-go/commit/f01a588e5810b90996452eec4a28f22a0afae023
     - https://github.com/protocolbuffers/protobuf-go/releases/tag/v1.33.0
+    - https://go-review.googlesource.com/c/protobuf/+/569356
     - https://go.dev/cl/569356
     - https://groups.google.com/g/golang-announce/c/ArQ6CDgtEjY/
     - https://linux.oracle.com/cve/CVE-2024-24786.html
@@ -4877,6 +4989,7 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24786
     - https://pkg.go.dev/vuln/GO-2024-2611
+    - https://ubuntu.com/security/notices/USN-6746-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24786
     PublishedDate: '2024-03-05T23:15:07.82Z'
     LastModifiedDate: '2024-03-24T03:15:09.093Z'
@@ -4905,6 +5018,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -4919,6 +5033,10 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
@@ -4928,7 +5046,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-19T07:15:08.747Z'
+    LastModifiedDate: '2024-04-25T06:15:52.357Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -4954,6 +5072,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -4968,6 +5087,10 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
@@ -4977,7 +5100,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-19T07:15:08.747Z'
+    LastModifiedDate: '2024-04-25T06:15:52.357Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -5003,6 +5126,7 @@
     Severity: MEDIUM
     VendorSeverity:
       ghsa: 2
+      oracle-oval: 3
       photon: 3
       redhat: 3
     CVSS:
@@ -5017,6 +5141,10 @@
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
@@ -5026,7 +5154,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-19T07:15:08.747Z'
+    LastModifiedDate: '2024-04-25T06:15:52.357Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -5047,55 +5175,30 @@
       ID: ghsa
       Name: GitHub Security Advisory Go
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
-    Title: IPv6 enabled on IPv4-only network interfaces
+    Title: 'moby: IPv6 enabled on IPv4-only network interfaces'
     Description: Moby is an open source container framework that is a key component of Docker Engine, Docker Desktop, and other distributions of container tooling or runtimes. In 26.0.0, IPv6 is not disabled on network interfaces, including those belonging to networks where `--ipv6=false`. An container with an `ipvlan` or `macvlan` interface will normally be configured to share an external network link with the host machine. Because of this direct access, (1) Containers may be able to communicate with other hosts on the local network over link-local IPv6 addresses, (2) if router advertisements are being broadcast over the local network, containers may get SLAAC-assigned addresses, and (3) the interface  will be a member of IPv6 multicast groups. This means interfaces in IPv4-only networks present an unexpectedly and unnecessarily increased attack surface. The issue is patched in 26.0.2. To completely disable IPv6 in a container, use `--sysctl=net.ipv6.conf.all.disable_ipv6=1` in the `docker create` or `docker run` command. Or, in the service configuration of a `compose` file.
     Severity: MEDIUM
     CweIDs:
     - CWE-668
     VendorSeverity:
       ghsa: 2
+      redhat: 2
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
         V3Score: 4.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 4.7
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-32473
     - https://github.com/moby/moby
     - https://github.com/moby/moby/commit/7cef0d9cd1cf221d8c0b7b7aeda69552649e0642
     - https://github.com/moby/moby/security/advisories/GHSA-x84c-p2g9-rqv9
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32473
+    - https://www.cve.org/CVERecord?id=CVE-2024-32473
     PublishedDate: '2024-04-18T22:15:10.4Z'
     LastModifiedDate: '2024-04-19T13:10:25.637Z'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
@@ -5185,6 +5288,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
       DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
