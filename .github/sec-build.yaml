@@ -134,7 +134,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -189,7 +189,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1045,7 +1045,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4498
+    - https://errata.rockylinux.org/RLSA-2023:4569
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -3469,7 +3469,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -3483,6 +3483,8 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3OVW5V2DM5K5IC3H7O42YDUGNJ74J35O/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5RSKA2II6QTD4YUKUNDVJQSRYSFC4VFR
@@ -3515,12 +3517,16 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MZQYOOKHQDQ57LV2IAG6NRFOVXKHJJ3Z/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/REMHVVIBDNKSRKNOTV7EQSB7CYQWOUOU
@@ -3554,7 +3560,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
-    LastModifiedDate: '2024-03-23T03:15:09.267Z'
+    LastModifiedDate: '2024-04-28T04:15:09.877Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -3705,7 +3711,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4012,7 +4018,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:5863
+    - https://errata.rockylinux.org/RLSA-2023:6077
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -4026,6 +4032,8 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3OVW5V2DM5K5IC3H7O42YDUGNJ74J35O/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5RSKA2II6QTD4YUKUNDVJQSRYSFC4VFR
@@ -4058,12 +4066,16 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MZQYOOKHQDQ57LV2IAG6NRFOVXKHJJ3Z/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/REMHVVIBDNKSRKNOTV7EQSB7CYQWOUOU
@@ -4097,7 +4109,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
-    LastModifiedDate: '2024-03-23T03:15:09.267Z'
+    LastModifiedDate: '2024-04-28T04:15:09.877Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -4248,7 +4260,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5928
+    - https://errata.rockylinux.org/RLSA-2023:5838
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4591,6 +4603,37 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-32473
     PublishedDate: '2024-04-18T22:15:10.4Z'
     LastModifiedDate: '2024-04-19T13:10:25.637Z'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:30ad560cd38c7995f8fb322aa4a47891abfcc60bd70d2225e1300acc844c1074
+      DiffID: sha256:f0a88ef159d010575cb95cb37f62becfa55dec866176fafa29b774ed43d33460
+      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -4680,37 +4723,6 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:30ad560cd38c7995f8fb322aa4a47891abfcc60bd70d2225e1300acc844c1074
-      DiffID: sha256:f0a88ef159d010575cb95cb37f62becfa55dec866176fafa29b774ed43d33460
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:30ad560cd38c7995f8fb322aa4a47891abfcc60bd70d2225e1300acc844c1074
       DiffID: sha256:f0a88ef159d010575cb95cb37f62becfa55dec866176fafa29b774ed43d33460
