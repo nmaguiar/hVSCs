@@ -968,7 +968,6 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
-    - https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
@@ -1048,7 +1047,6 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YAMJQI3Y6BHWV3CUTYBXOZONCUJNOB2Z/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-2961
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0004
-    - https://sourceware.org/git?p=glibc.git;a=commit;h=f9dc609e06b1136bb0408be9605ce7973a767ada
     - https://ubuntu.com/security/notices/USN-6737-1
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
@@ -3114,135 +3112,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-50495
     PublishedDate: '2023-12-12T15:15:07.867Z'
     LastModifiedDate: '2024-01-31T03:15:08.49Z'
-  - VulnerabilityID: CVE-2023-51767
-    PkgID: openssh-client@1:8.9p1-3ubuntu0.6
-    PkgName: openssh-client
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/openssh-client@8.9p1-3ubuntu0.6?arch=amd64&distro=ubuntu-22.04&epoch=1
-    InstalledVersion: 1:8.9p1-3ubuntu0.6
-    Status: affected
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51767
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssh: authentication bypass via row hammer attack'
-    Description: 'OpenSSH through 9.6, when common types of DRAM are used, might allow row hammer attacks (for authentication bypass) because the integer value of authenticated in mm_answer_authpassword does not resist flips of a single bit. NOTE: this is applicable to a certain threat model of attacker-victim co-location in which the attacker has user privileges.'
-    Severity: MEDIUM
-    VendorSeverity:
-      cbl-mariner: 3
-      nvd: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-51767
-    - https://arxiv.org/abs/2309.02545
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2255850
-    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
-    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
-    - https://security.netapp.com/advisory/ntap-20240125-0006/
-    - https://ubuntu.com/security/CVE-2023-51767
-    - https://www.cve.org/CVERecord?id=CVE-2023-51767
-    PublishedDate: '2023-12-24T07:15:07.41Z'
-    LastModifiedDate: '2024-02-27T15:51:55.813Z'
-  - VulnerabilityID: CVE-2023-51767
-    PkgID: openssh-server@1:8.9p1-3ubuntu0.6
-    PkgName: openssh-server
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/openssh-server@8.9p1-3ubuntu0.6?arch=amd64&distro=ubuntu-22.04&epoch=1
-    InstalledVersion: 1:8.9p1-3ubuntu0.6
-    Status: affected
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51767
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssh: authentication bypass via row hammer attack'
-    Description: 'OpenSSH through 9.6, when common types of DRAM are used, might allow row hammer attacks (for authentication bypass) because the integer value of authenticated in mm_answer_authpassword does not resist flips of a single bit. NOTE: this is applicable to a certain threat model of attacker-victim co-location in which the attacker has user privileges.'
-    Severity: MEDIUM
-    VendorSeverity:
-      cbl-mariner: 3
-      nvd: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-51767
-    - https://arxiv.org/abs/2309.02545
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2255850
-    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
-    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
-    - https://security.netapp.com/advisory/ntap-20240125-0006/
-    - https://ubuntu.com/security/CVE-2023-51767
-    - https://www.cve.org/CVERecord?id=CVE-2023-51767
-    PublishedDate: '2023-12-24T07:15:07.41Z'
-    LastModifiedDate: '2024-02-27T15:51:55.813Z'
-  - VulnerabilityID: CVE-2023-51767
-    PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.6
-    PkgName: openssh-sftp-server
-    PkgIdentifier:
-      PURL: pkg:deb/ubuntu/openssh-sftp-server@8.9p1-3ubuntu0.6?arch=amd64&distro=ubuntu-22.04&epoch=1
-    InstalledVersion: 1:8.9p1-3ubuntu0.6
-    Status: affected
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-    SeveritySource: ubuntu
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-51767
-    DataSource:
-      ID: ubuntu
-      Name: Ubuntu CVE Tracker
-      URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssh: authentication bypass via row hammer attack'
-    Description: 'OpenSSH through 9.6, when common types of DRAM are used, might allow row hammer attacks (for authentication bypass) because the integer value of authenticated in mm_answer_authpassword does not resist flips of a single bit. NOTE: this is applicable to a certain threat model of attacker-victim co-location in which the attacker has user privileges.'
-    Severity: MEDIUM
-    VendorSeverity:
-      cbl-mariner: 3
-      nvd: 3
-      redhat: 2
-      ubuntu: 2
-    CVSS:
-      nvd:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2023-51767
-    - https://arxiv.org/abs/2309.02545
-    - https://bugzilla.redhat.com/show_bug.cgi?id=2255850
-    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/auth-passwd.c#L77
-    - https://github.com/openssh/openssh-portable/blob/8241b9c0529228b4b86d88b1a6076fb9f97e4a99/monitor.c#L878
-    - https://nvd.nist.gov/vuln/detail/CVE-2023-51767
-    - https://security.netapp.com/advisory/ntap-20240125-0006/
-    - https://ubuntu.com/security/CVE-2023-51767
-    - https://www.cve.org/CVERecord?id=CVE-2023-51767
-    PublishedDate: '2023-12-24T07:15:07.41Z'
-    LastModifiedDate: '2024-02-27T15:51:55.813Z'
   - VulnerabilityID: CVE-2023-29383
     PkgID: passwd@1:4.8.1-2ubuntu2.2
     PkgName: passwd
@@ -3846,6 +3715,8 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3OVW5V2DM5K5IC3H7O42YDUGNJ74J35O/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5RSKA2II6QTD4YUKUNDVJQSRYSFC4VFR
@@ -3878,12 +3749,16 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MZQYOOKHQDQ57LV2IAG6NRFOVXKHJJ3Z/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/REMHVVIBDNKSRKNOTV7EQSB7CYQWOUOU
@@ -3917,7 +3792,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
-    LastModifiedDate: '2024-03-23T03:15:09.267Z'
+    LastModifiedDate: '2024-04-28T04:15:09.877Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -3941,7 +3816,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4225,6 +4100,8 @@
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20231016-0001
     - https://security.netapp.com/advisory/ntap-20231016-0001/
+    - https://security.netapp.com/advisory/ntap-20240426-0007
+    - https://security.netapp.com/advisory/ntap-20240426-0007/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.0-M12
@@ -4260,7 +4137,7 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
-    LastModifiedDate: '2024-02-02T15:40:23.61Z'
+    LastModifiedDate: '2024-04-26T09:15:07.677Z'
   - VulnerabilityID: CVE-2023-45288
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -4387,6 +4264,8 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3OVW5V2DM5K5IC3H7O42YDUGNJ74J35O/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5RSKA2II6QTD4YUKUNDVJQSRYSFC4VFR
@@ -4419,12 +4298,16 @@
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MZQYOOKHQDQ57LV2IAG6NRFOVXKHJJ3Z/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/REMHVVIBDNKSRKNOTV7EQSB7CYQWOUOU
@@ -4458,7 +4341,7 @@
     - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
     - https://www.cve.org/CVERecord?id=CVE-2023-39325
     PublishedDate: '2023-10-11T22:15:09.88Z'
-    LastModifiedDate: '2024-03-23T03:15:09.267Z'
+    LastModifiedDate: '2024-04-28T04:15:09.877Z'
   - VulnerabilityID: CVE-2023-3978
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -4482,7 +4365,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4766,6 +4649,8 @@
     - https://security.gentoo.org/glsa/202311-09
     - https://security.netapp.com/advisory/ntap-20231016-0001
     - https://security.netapp.com/advisory/ntap-20231016-0001/
+    - https://security.netapp.com/advisory/ntap-20240426-0007
+    - https://security.netapp.com/advisory/ntap-20240426-0007/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.0-M12
@@ -4801,7 +4686,7 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
-    LastModifiedDate: '2024-02-02T15:40:23.61Z'
+    LastModifiedDate: '2024-04-26T09:15:07.677Z'
   - VulnerabilityID: CVE-2023-45288
     PkgName: golang.org/x/net
     PkgIdentifier:
