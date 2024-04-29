@@ -150,7 +150,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -218,7 +218,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -1140,7 +1140,7 @@
 │                       │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                       │      │                  │       VE-2023-34969 
 │                       │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                       │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                       │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issues/457 
 │                       │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
 │                       │      │                  ├ [9] : https://linux.oracle.com/errata/ELSA-2023-4569.html 
@@ -3965,246 +3965,264 @@
 │                       │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │     │                            │           N/I:N/A:H 
 │                       │     │                            ╰ V3Score : 7.5 
-│                       │     ├ References       ╭ [0] : golang.org/x/net 
-│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:6077 
-│                       │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
-│                       │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
-│                       │     │                  ├ [4] : https://access.redhat.com/security/vulnerabilitie
-│                       │     │                  │       s/RHSB-2023-003 
-│                       │     │                  ├ [5] : https://bugzilla.redhat.com/2242803 
-│                       │     │                  ├ [6] : https://bugzilla.redhat.com/2243296 
-│                       │     │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
-│                       │     │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
-│                       │     │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │     │                  │       E-2023-39325 
-│                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │     │                  │       E-2023-44487 
-│                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
-│                       │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285c
-│                       │     │                  │       697440fdde3ad7f26028354bcf3 [golang- 1.21] 
-│                       │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa7
-│                       │     │                  │       b9cd4d79607ae65d2cd5baaee68 [golang-1.20] 
-│                       │     │                  ├ [15]: https://github.com/golang/go/issues/63417 
-│                       │     │                  ├ [16]: https://go.dev/cl/534215 
-│                       │     │                  ├ [17]: https://go.dev/cl/534235 
-│                       │     │                  ├ [18]: https://go.dev/issue/63417 
-│                       │     │                  ├ [19]: https://groups.google.com/g/golang-announce/c/iNN
-│                       │     │                  │       xDTCjZvo/m/UDd7VKQuAAAJ 
-│                       │     │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                       │     │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
-│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3OVW5V2D
-│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O 
-│                       │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3OVW5V2D
-│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O/ 
-│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3SZN67IL
-│                       │     │                  │       7HMGMNAVLOTIXLIHUDXZK4LH 
-│                       │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3SZN67IL
-│                       │     │                  │       7HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                       │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/4BUK2ZIA
-│                       │     │                  │       GCULOOYDNH25JPU6JBES5NF2 
-│                       │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/4BUK2ZIA
-│                       │     │                  │       GCULOOYDNH25JPU6JBES5NF2/ 
-│                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/5RSKA2II
-│                       │     │                  │       6QTD4YUKUNDVJQSRYSFC4VFR 
-│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/5RSKA2II
-│                       │     │                  │       6QTD4YUKUNDVJQSRYSFC4VFR/ 
-│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/AVZDNSMV
-│                       │     │                  │       DAQJ64LJC5I5U5LDM5753647 
-│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/AVZDNSMV
-│                       │     │                  │       DAQJ64LJC5I5U5LDM5753647/ 
-│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CHHITS4P
-│                       │     │                  │       UOZAKFIUBQAQZC7JWXMOYE4B 
-│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CHHITS4P
-│                       │     │                  │       UOZAKFIUBQAQZC7JWXMOYE4B/ 
-│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
-│                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2 
-│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
-│                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2/ 
-│                       │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/D2BBIDR2
-│                       │     │                  │       ZMB3X5BC7SR4SLQMHRMVPY6L 
-│                       │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/D2BBIDR2
-│                       │     │                  │       ZMB3X5BC7SR4SLQMHRMVPY6L/ 
-│                       │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ECRC75BQ
-│                       │     │                  │       JP6FJN2L7KCKYZW4DSBD7QSD 
-│                       │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ECRC75BQ
-│                       │     │                  │       JP6FJN2L7KCKYZW4DSBD7QSD/ 
-│                       │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/FTMJ3NJI
-│                       │     │                  │       DAZFWJQQSP3L22MUFJ3UP2PT 
-│                       │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/FTMJ3NJI
-│                       │     │                  │       DAZFWJQQSP3L22MUFJ3UP2PT/ 
-│                       │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/GSY7SXFF
-│                       │     │                  │       TPZFWDM6XELSDSHZLVW3AHK7 
-│                       │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/GSY7SXFF
-│                       │     │                  │       TPZFWDM6XELSDSHZLVW3AHK7/ 
-│                       │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
-│                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE 
-│                       │     │                  ├ [45]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
-│                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                       │     │                  ├ [46]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/IPWCNYB5
-│                       │     │                  │       PQ5PCVZ4NJT6G56ZYFZ5QBU6 
-│                       │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/IPWCNYB5
-│                       │     │                  │       PQ5PCVZ4NJT6G56ZYFZ5QBU6/ 
-│                       │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KEOTKBUP
-│                       │     │                  │       ZXHE3F352JBYNTSNRXYLWD6P 
-│                       │     │                  ├ [49]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KEOTKBUP
-│                       │     │                  │       ZXHE3F352JBYNTSNRXYLWD6P/ 
-│                       │     │                  ├ [50]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
-│                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE 
-│                       │     │                  ├ [51]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
-│                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE/ 
-│                       │     │                  ├ [52]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/L5E5JSJB
-│                       │     │                  │       ZLYXOTZWXHJKRVCIXIHVWKJ6 
-│                       │     │                  ├ [53]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/L5E5JSJB
-│                       │     │                  │       ZLYXOTZWXHJKRVCIXIHVWKJ6/ 
-│                       │     │                  ├ [54]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/MZQYOOKH
-│                       │     │                  │       QDQ57LV2IAG6NRFOVXKHJJ3Z 
-│                       │     │                  ├ [55]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/MZQYOOKH
-│                       │     │                  │       QDQ57LV2IAG6NRFOVXKHJJ3Z/ 
-│                       │     │                  ├ [56]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/NG7IMPL5
-│                       │     │                  │       5MVWU3LCI4JQJT3K2U5CHDV7 
-│                       │     │                  ├ [57]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/NG7IMPL5
-│                       │     │                  │       5MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                       │     │                  ├ [58]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
-│                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q 
-│                       │     │                  ├ [59]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
-│                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                       │     │                  ├ [60]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/PJCUNGIQ
-│                       │     │                  │       DUMZ4Z6HWVYIMR66A35F5S74 
-│                       │     │                  ├ [61]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/PJCUNGIQ
-│                       │     │                  │       DUMZ4Z6HWVYIMR66A35F5S74/ 
-│                       │     │                  ├ [62]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
-│                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I 
-│                       │     │                  ├ [63]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
-│                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I/ 
-│                       │     │                  ├ [64]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
-│                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS 
-│                       │     │                  ├ [65]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
-│                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS/ 
-│                       │     │                  ├ [66]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
-│                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU 
-│                       │     │                  ├ [67]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
-│                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                       │     │                  ├ [68]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
-│                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI 
-│                       │     │                  ├ [69]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
-│                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                       │     │                  ├ [70]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
-│                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ 
-│                       │     │                  ├ [71]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
-│                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                       │     │                  ├ [72]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
-│                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP 
-│                       │     │                  ├ [73]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
-│                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                       │     │                  ├ [74]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/W2LZSWTV
-│                       │     │                  │       4NV4SNQARNXG5T6LRHP26EW2 
-│                       │     │                  ├ [75]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/W2LZSWTV
-│                       │     │                  │       4NV4SNQARNXG5T6LRHP26EW2/ 
-│                       │     │                  ├ [76]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/WCNCBYKZ
-│                       │     │                  │       XLDFGAJUB7ZP5VLC3YTHJNVH 
-│                       │     │                  ├ [77]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/WCNCBYKZ
-│                       │     │                  │       XLDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                       │     │                  ├ [78]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
-│                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2 
-│                       │     │                  ├ [79]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
-│                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [80]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
-│                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY 
-│                       │     │                  ├ [81]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
-│                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                       │     │                  ├ [82]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YJWHBLVZ
-│                       │     │                  │       DM5KQSDFRBFRKU5KSSOLIRQ4 
-│                       │     │                  ├ [83]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YJWHBLVZ
-│                       │     │                  │       DM5KQSDFRBFRKU5KSSOLIRQ4/ 
-│                       │     │                  ├ [84]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
-│                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P 
-│                       │     │                  ├ [85]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
-│                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P/ 
-│                       │     │                  ├ [86]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZSVEMQV5
-│                       │     │                  │       ROY5YW5QE3I57HT3ITWG5GCV 
-│                       │     │                  ├ [87]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZSVEMQV5
-│                       │     │                  │       ROY5YW5QE3I57HT3ITWG5GCV/ 
-│                       │     │                  ├ [88]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [89]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [90]: https://security.gentoo.org/glsa/202311-09 
-│                       │     │                  ├ [91]: https://security.netapp.com/advisory/ntap-2023111
-│                       │     │                  │       0-0008 
-│                       │     │                  ├ [92]: https://security.netapp.com/advisory/ntap-2023111
-│                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [93]: https://ubuntu.com/security/notices/USN-6574-1 
-│                       │     │                  ├ [94]: https://www.cisa.gov/news-events/alerts/2023/10/1
-│                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
-│                       │     │                  │        
-│                       │     │                  ╰ [95]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     ├ References       ╭ [0]  : golang.org/x/net 
+│                       │     │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:6077 
+│                       │     │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                       │     │                  ├ [3]  : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                       │     │                  ├ [4]  : https://access.redhat.com/security/vulnerabiliti
+│                       │     │                  │        es/RHSB-2023-003 
+│                       │     │                  ├ [5]  : https://bugzilla.redhat.com/2242803 
+│                       │     │                  ├ [6]  : https://bugzilla.redhat.com/2243296 
+│                       │     │                  ├ [7]  : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
+│                       │     │                  ├ [8]  : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
+│                       │     │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │     │                  │        VE-2023-39325 
+│                       │     │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │     │                  │        VE-2023-44487 
+│                       │     │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
+│                       │     │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                       │     │                  ├ [13] : https://github.com/golang/go/commit/24ae2d927285
+│                       │     │                  │        c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
+│                       │     │                  ├ [14] : https://github.com/golang/go/commit/e175f27f58aa
+│                       │     │                  │        7b9cd4d79607ae65d2cd5baaee68 [golang-1.20] 
+│                       │     │                  ├ [15] : https://github.com/golang/go/issues/63417 
+│                       │     │                  ├ [16] : https://go.dev/cl/534215 
+│                       │     │                  ├ [17] : https://go.dev/cl/534235 
+│                       │     │                  ├ [18] : https://go.dev/issue/63417 
+│                       │     │                  ├ [19] : https://groups.google.com/g/golang-announce/c/iN
+│                       │     │                  │        NxDTCjZvo/m/UDd7VKQuAAAJ 
+│                       │     │                  ├ [20] : https://linux.oracle.com/cve/CVE-2023-39325.html 
+│                       │     │                  ├ [21] : https://linux.oracle.com/errata/ELSA-2023-5867.html 
+│                       │     │                  ├ [22] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3OVW5V
+│                       │     │                  │        2DM5K5IC3H7O42YDUGNJ74J35O 
+│                       │     │                  ├ [23] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3OVW5V
+│                       │     │                  │        2DM5K5IC3H7O42YDUGNJ74J35O/ 
+│                       │     │                  ├ [24] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3SZN67
+│                       │     │                  │        IL7HMGMNAVLOTIXLIHUDXZK4LH 
+│                       │     │                  ├ [25] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3SZN67
+│                       │     │                  │        IL7HMGMNAVLOTIXLIHUDXZK4LH/ 
+│                       │     │                  ├ [26] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3WJ4QV
+│                       │     │                  │        X2AMUJ2F2S27POOAHRC4K3CHU4 
+│                       │     │                  ├ [27] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3WJ4QV
+│                       │     │                  │        X2AMUJ2F2S27POOAHRC4K3CHU4/ 
+│                       │     │                  ├ [28] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/4BUK2Z
+│                       │     │                  │        IAGCULOOYDNH25JPU6JBES5NF2 
+│                       │     │                  ├ [29] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/4BUK2Z
+│                       │     │                  │        IAGCULOOYDNH25JPU6JBES5NF2/ 
+│                       │     │                  ├ [30] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/5RSKA2
+│                       │     │                  │        II6QTD4YUKUNDVJQSRYSFC4VFR 
+│                       │     │                  ├ [31] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/5RSKA2
+│                       │     │                  │        II6QTD4YUKUNDVJQSRYSFC4VFR/ 
+│                       │     │                  ├ [32] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/AVZDNS
+│                       │     │                  │        MVDAQJ64LJC5I5U5LDM5753647 
+│                       │     │                  ├ [33] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/AVZDNS
+│                       │     │                  │        MVDAQJ64LJC5I5U5LDM5753647/ 
+│                       │     │                  ├ [34] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/CHHITS
+│                       │     │                  │        4PUOZAKFIUBQAQZC7JWXMOYE4B 
+│                       │     │                  ├ [35] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/CHHITS
+│                       │     │                  │        4PUOZAKFIUBQAQZC7JWXMOYE4B/ 
+│                       │     │                  ├ [36] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/CLB4TW
+│                       │     │                  │        7KALB3EEQWNWCN7OUIWWVWWCG2 
+│                       │     │                  ├ [37] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/CLB4TW
+│                       │     │                  │        7KALB3EEQWNWCN7OUIWWVWWCG2/ 
+│                       │     │                  ├ [38] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/D2BBID
+│                       │     │                  │        R2ZMB3X5BC7SR4SLQMHRMVPY6L 
+│                       │     │                  ├ [39] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/D2BBID
+│                       │     │                  │        R2ZMB3X5BC7SR4SLQMHRMVPY6L/ 
+│                       │     │                  ├ [40] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ECRC75
+│                       │     │                  │        BQJP6FJN2L7KCKYZW4DSBD7QSD 
+│                       │     │                  ├ [41] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ECRC75
+│                       │     │                  │        BQJP6FJN2L7KCKYZW4DSBD7QSD/ 
+│                       │     │                  ├ [42] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/FTMJ3N
+│                       │     │                  │        JIDAZFWJQQSP3L22MUFJ3UP2PT 
+│                       │     │                  ├ [43] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/FTMJ3N
+│                       │     │                  │        JIDAZFWJQQSP3L22MUFJ3UP2PT/ 
+│                       │     │                  ├ [44] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/GSY7SX
+│                       │     │                  │        FFTPZFWDM6XELSDSHZLVW3AHK7 
+│                       │     │                  ├ [45] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/GSY7SX
+│                       │     │                  │        FFTPZFWDM6XELSDSHZLVW3AHK7/ 
+│                       │     │                  ├ [46] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/HZQIEL
+│                       │     │                  │        EIRSZUYTFFH5KTH2YJ4IIQG2KE 
+│                       │     │                  ├ [47] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/HZQIEL
+│                       │     │                  │        EIRSZUYTFFH5KTH2YJ4IIQG2KE/ 
+│                       │     │                  ├ [48] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/IPWCNY
+│                       │     │                  │        B5PQ5PCVZ4NJT6G56ZYFZ5QBU6 
+│                       │     │                  ├ [49] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/IPWCNY
+│                       │     │                  │        B5PQ5PCVZ4NJT6G56ZYFZ5QBU6/ 
+│                       │     │                  ├ [50] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/KEOTKB
+│                       │     │                  │        UPZXHE3F352JBYNTSNRXYLWD6P 
+│                       │     │                  ├ [51] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/KEOTKB
+│                       │     │                  │        UPZXHE3F352JBYNTSNRXYLWD6P/ 
+│                       │     │                  ├ [52] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/KSEGD2
+│                       │     │                  │        IWKNUO3DWY4KQGUQM5BISRWHQE 
+│                       │     │                  ├ [53] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/KSEGD2
+│                       │     │                  │        IWKNUO3DWY4KQGUQM5BISRWHQE/ 
+│                       │     │                  ├ [54] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/L5E5JS
+│                       │     │                  │        JBZLYXOTZWXHJKRVCIXIHVWKJ6 
+│                       │     │                  ├ [55] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/L5E5JS
+│                       │     │                  │        JBZLYXOTZWXHJKRVCIXIHVWKJ6/ 
+│                       │     │                  ├ [56] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/MZQYOO
+│                       │     │                  │        KHQDQ57LV2IAG6NRFOVXKHJJ3Z 
+│                       │     │                  ├ [57] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/MZQYOO
+│                       │     │                  │        KHQDQ57LV2IAG6NRFOVXKHJJ3Z/ 
+│                       │     │                  ├ [58] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/NG7IMP
+│                       │     │                  │        L55MVWU3LCI4JQJT3K2U5CHDV7 
+│                       │     │                  ├ [59] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/NG7IMP
+│                       │     │                  │        L55MVWU3LCI4JQJT3K2U5CHDV7/ 
+│                       │     │                  ├ [60] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ODBY7R
+│                       │     │                  │        VMGZCBSTWF2OZGIZS57FNFUL67 
+│                       │     │                  ├ [61] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ODBY7R
+│                       │     │                  │        VMGZCBSTWF2OZGIZS57FNFUL67/ 
+│                       │     │                  ├ [62] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/OXGWPQ
+│                       │     │                  │        OJ3JNDW2XIYKIVJ7N7QUIFNM2Q 
+│                       │     │                  ├ [63] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/OXGWPQ
+│                       │     │                  │        OJ3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
+│                       │     │                  ├ [64] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/PJCUNG
+│                       │     │                  │        IQDUMZ4Z6HWVYIMR66A35F5S74 
+│                       │     │                  ├ [65] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/PJCUNG
+│                       │     │                  │        IQDUMZ4Z6HWVYIMR66A35F5S74/ 
+│                       │     │                  ├ [66] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/QF5QSY
+│                       │     │                  │        AOPDOWLY6DUHID56Q4HQFYB45I 
+│                       │     │                  ├ [67] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/QF5QSY
+│                       │     │                  │        AOPDOWLY6DUHID56Q4HQFYB45I/ 
+│                       │     │                  ├ [68] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/QXOU2J
+│                       │     │                  │        ZUBEBP7GBKAYIJRPRBZSJCD7ST 
+│                       │     │                  ├ [69] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/QXOU2J
+│                       │     │                  │        ZUBEBP7GBKAYIJRPRBZSJCD7ST/ 
+│                       │     │                  ├ [70] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/R3UETK
+│                       │     │                  │        PUB3V5JS5TLZOF3SMTGT5K5APS 
+│                       │     │                  ├ [71] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/R3UETK
+│                       │     │                  │        PUB3V5JS5TLZOF3SMTGT5K5APS/ 
+│                       │     │                  ├ [72] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/REMHVV
+│                       │     │                  │        IBDNKSRKNOTV7EQSB7CYQWOUOU 
+│                       │     │                  ├ [73] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/REMHVV
+│                       │     │                  │        IBDNKSRKNOTV7EQSB7CYQWOUOU/ 
+│                       │     │                  ├ [74] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/T7N5GV
+│                       │     │                  │        4CHH6WAGX3GFMDD3COEOVCZ4RI 
+│                       │     │                  ├ [75] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/T7N5GV
+│                       │     │                  │        4CHH6WAGX3GFMDD3COEOVCZ4RI/ 
+│                       │     │                  ├ [76] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ULQQON
+│                       │     │                  │        MSCQSH5Z5OWFFQHCGEZ3NL4DRJ 
+│                       │     │                  ├ [77] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ULQQON
+│                       │     │                  │        MSCQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
+│                       │     │                  ├ [78] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/UTT7DG
+│                       │     │                  │        3QOF5ZNJLUGHDNLRUIN6OWZARP 
+│                       │     │                  ├ [79] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/UTT7DG
+│                       │     │                  │        3QOF5ZNJLUGHDNLRUIN6OWZARP/ 
+│                       │     │                  ├ [80] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/W2LZSW
+│                       │     │                  │        TV4NV4SNQARNXG5T6LRHP26EW2 
+│                       │     │                  ├ [81] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/W2LZSW
+│                       │     │                  │        TV4NV4SNQARNXG5T6LRHP26EW2/ 
+│                       │     │                  ├ [82] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/WCNCBY
+│                       │     │                  │        KZXLDFGAJUB7ZP5VLC3YTHJNVH 
+│                       │     │                  ├ [83] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/WCNCBY
+│                       │     │                  │        KZXLDFGAJUB7ZP5VLC3YTHJNVH/ 
+│                       │     │                  ├ [84] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/XFOIBB
+│                       │     │                  │        4YFICHDM7IBOP7PWXW3FX4HLL2 
+│                       │     │                  ├ [85] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/XFOIBB
+│                       │     │                  │        4YFICHDM7IBOP7PWXW3FX4HLL2/ 
+│                       │     │                  ├ [86] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/XTNLSL
+│                       │     │                  │        44Y5FB6JWADSZH6DCV4JJAAEQY 
+│                       │     │                  ├ [87] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/XTNLSL
+│                       │     │                  │        44Y5FB6JWADSZH6DCV4JJAAEQY/ 
+│                       │     │                  ├ [88] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/YJWHBL
+│                       │     │                  │        VZDM5KQSDFRBFRKU5KSSOLIRQ4 
+│                       │     │                  ├ [89] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/YJWHBL
+│                       │     │                  │        VZDM5KQSDFRBFRKU5KSSOLIRQ4/ 
+│                       │     │                  ├ [90] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/YRKEXK
+│                       │     │                  │        ANQ7BKJW2YTAMP625LJUJZLJ4P 
+│                       │     │                  ├ [91] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/YRKEXK
+│                       │     │                  │        ANQ7BKJW2YTAMP625LJUJZLJ4P/ 
+│                       │     │                  ├ [92] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ZSVEMQ
+│                       │     │                  │        V5ROY5YW5QE3I57HT3ITWG5GCV 
+│                       │     │                  ├ [93] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ZSVEMQ
+│                       │     │                  │        V5ROY5YW5QE3I57HT3ITWG5GCV/ 
+│                       │     │                  ├ [94] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [95] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [96] : https://security.gentoo.org/glsa/202311-09 
+│                       │     │                  ├ [97] : https://security.netapp.com/advisory/ntap-202311
+│                       │     │                  │        10-0008 
+│                       │     │                  ├ [98] : https://security.netapp.com/advisory/ntap-202311
+│                       │     │                  │        10-0008/ 
+│                       │     │                  ├ [99] : https://ubuntu.com/security/notices/USN-6574-1 
+│                       │     │                  ├ [100]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                       │     │                  │        10/http2-rapid-reset-vulnerability-cve-2023-44487
+│                       │     │                  │        [m 
+│                       │     │                  ╰ [101]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
-│                       │     ╰ LastModifiedDate: 2024-03-23T03:15:09.267Z 
+│                       │     ╰ LastModifiedDate: 2024-04-28T04:15:09.877Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
 │                       │     ├ PkgName         : golang.org/x/net 
 │                       │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -4388,7 +4406,7 @@
 │                       │     │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                       │     │                  │        -tale-of-a-hidden-cve 
 │                       │     │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                       │     │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                       │     │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                       │     │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-secur
 │                       │     │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
 │                       │     │                  ├ [40] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35
@@ -4913,246 +4931,264 @@
 │                       │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                       │     │                            │           N/I:N/A:H 
 │                       │     │                            ╰ V3Score : 7.5 
-│                       │     ├ References       ╭ [0] : golang.org/x/net 
-│                       │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2023:6077 
-│                       │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-39325 
-│                       │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-44487 
-│                       │     │                  ├ [4] : https://access.redhat.com/security/vulnerabilitie
-│                       │     │                  │       s/RHSB-2023-003 
-│                       │     │                  ├ [5] : https://bugzilla.redhat.com/2242803 
-│                       │     │                  ├ [6] : https://bugzilla.redhat.com/2243296 
-│                       │     │                  ├ [7] : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
-│                       │     │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
-│                       │     │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │     │                  │       E-2023-39325 
-│                       │     │                  ├ [10]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=CV
-│                       │     │                  │       E-2023-44487 
-│                       │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                       │     │                  ├ [12]: https://errata.rockylinux.org/RLSA-2023:5863 
-│                       │     │                  ├ [13]: https://github.com/golang/go/commit/24ae2d927285c
-│                       │     │                  │       697440fdde3ad7f26028354bcf3 [golang- 1.21] 
-│                       │     │                  ├ [14]: https://github.com/golang/go/commit/e175f27f58aa7
-│                       │     │                  │       b9cd4d79607ae65d2cd5baaee68 [golang-1.20] 
-│                       │     │                  ├ [15]: https://github.com/golang/go/issues/63417 
-│                       │     │                  ├ [16]: https://go.dev/cl/534215 
-│                       │     │                  ├ [17]: https://go.dev/cl/534235 
-│                       │     │                  ├ [18]: https://go.dev/issue/63417 
-│                       │     │                  ├ [19]: https://groups.google.com/g/golang-announce/c/iNN
-│                       │     │                  │       xDTCjZvo/m/UDd7VKQuAAAJ 
-│                       │     │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-39325.html 
-│                       │     │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2023-5867.html 
-│                       │     │                  ├ [22]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3OVW5V2D
-│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O 
-│                       │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3OVW5V2D
-│                       │     │                  │       M5K5IC3H7O42YDUGNJ74J35O/ 
-│                       │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3SZN67IL
-│                       │     │                  │       7HMGMNAVLOTIXLIHUDXZK4LH 
-│                       │     │                  ├ [25]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/3SZN67IL
-│                       │     │                  │       7HMGMNAVLOTIXLIHUDXZK4LH/ 
-│                       │     │                  ├ [26]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/4BUK2ZIA
-│                       │     │                  │       GCULOOYDNH25JPU6JBES5NF2 
-│                       │     │                  ├ [27]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/4BUK2ZIA
-│                       │     │                  │       GCULOOYDNH25JPU6JBES5NF2/ 
-│                       │     │                  ├ [28]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/5RSKA2II
-│                       │     │                  │       6QTD4YUKUNDVJQSRYSFC4VFR 
-│                       │     │                  ├ [29]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/5RSKA2II
-│                       │     │                  │       6QTD4YUKUNDVJQSRYSFC4VFR/ 
-│                       │     │                  ├ [30]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/AVZDNSMV
-│                       │     │                  │       DAQJ64LJC5I5U5LDM5753647 
-│                       │     │                  ├ [31]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/AVZDNSMV
-│                       │     │                  │       DAQJ64LJC5I5U5LDM5753647/ 
-│                       │     │                  ├ [32]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CHHITS4P
-│                       │     │                  │       UOZAKFIUBQAQZC7JWXMOYE4B 
-│                       │     │                  ├ [33]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CHHITS4P
-│                       │     │                  │       UOZAKFIUBQAQZC7JWXMOYE4B/ 
-│                       │     │                  ├ [34]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
-│                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2 
-│                       │     │                  ├ [35]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/CLB4TW7K
-│                       │     │                  │       ALB3EEQWNWCN7OUIWWVWWCG2/ 
-│                       │     │                  ├ [36]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/D2BBIDR2
-│                       │     │                  │       ZMB3X5BC7SR4SLQMHRMVPY6L 
-│                       │     │                  ├ [37]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/D2BBIDR2
-│                       │     │                  │       ZMB3X5BC7SR4SLQMHRMVPY6L/ 
-│                       │     │                  ├ [38]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ECRC75BQ
-│                       │     │                  │       JP6FJN2L7KCKYZW4DSBD7QSD 
-│                       │     │                  ├ [39]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ECRC75BQ
-│                       │     │                  │       JP6FJN2L7KCKYZW4DSBD7QSD/ 
-│                       │     │                  ├ [40]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/FTMJ3NJI
-│                       │     │                  │       DAZFWJQQSP3L22MUFJ3UP2PT 
-│                       │     │                  ├ [41]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/FTMJ3NJI
-│                       │     │                  │       DAZFWJQQSP3L22MUFJ3UP2PT/ 
-│                       │     │                  ├ [42]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/GSY7SXFF
-│                       │     │                  │       TPZFWDM6XELSDSHZLVW3AHK7 
-│                       │     │                  ├ [43]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/GSY7SXFF
-│                       │     │                  │       TPZFWDM6XELSDSHZLVW3AHK7/ 
-│                       │     │                  ├ [44]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
-│                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE 
-│                       │     │                  ├ [45]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/HZQIELEI
-│                       │     │                  │       RSZUYTFFH5KTH2YJ4IIQG2KE/ 
-│                       │     │                  ├ [46]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/IPWCNYB5
-│                       │     │                  │       PQ5PCVZ4NJT6G56ZYFZ5QBU6 
-│                       │     │                  ├ [47]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/IPWCNYB5
-│                       │     │                  │       PQ5PCVZ4NJT6G56ZYFZ5QBU6/ 
-│                       │     │                  ├ [48]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KEOTKBUP
-│                       │     │                  │       ZXHE3F352JBYNTSNRXYLWD6P 
-│                       │     │                  ├ [49]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KEOTKBUP
-│                       │     │                  │       ZXHE3F352JBYNTSNRXYLWD6P/ 
-│                       │     │                  ├ [50]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
-│                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE 
-│                       │     │                  ├ [51]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/KSEGD2IW
-│                       │     │                  │       KNUO3DWY4KQGUQM5BISRWHQE/ 
-│                       │     │                  ├ [52]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/L5E5JSJB
-│                       │     │                  │       ZLYXOTZWXHJKRVCIXIHVWKJ6 
-│                       │     │                  ├ [53]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/L5E5JSJB
-│                       │     │                  │       ZLYXOTZWXHJKRVCIXIHVWKJ6/ 
-│                       │     │                  ├ [54]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/MZQYOOKH
-│                       │     │                  │       QDQ57LV2IAG6NRFOVXKHJJ3Z 
-│                       │     │                  ├ [55]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/MZQYOOKH
-│                       │     │                  │       QDQ57LV2IAG6NRFOVXKHJJ3Z/ 
-│                       │     │                  ├ [56]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/NG7IMPL5
-│                       │     │                  │       5MVWU3LCI4JQJT3K2U5CHDV7 
-│                       │     │                  ├ [57]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/NG7IMPL5
-│                       │     │                  │       5MVWU3LCI4JQJT3K2U5CHDV7/ 
-│                       │     │                  ├ [58]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
-│                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q 
-│                       │     │                  ├ [59]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/OXGWPQOJ
-│                       │     │                  │       3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
-│                       │     │                  ├ [60]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/PJCUNGIQ
-│                       │     │                  │       DUMZ4Z6HWVYIMR66A35F5S74 
-│                       │     │                  ├ [61]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/PJCUNGIQ
-│                       │     │                  │       DUMZ4Z6HWVYIMR66A35F5S74/ 
-│                       │     │                  ├ [62]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
-│                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I 
-│                       │     │                  ├ [63]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/QF5QSYAO
-│                       │     │                  │       PDOWLY6DUHID56Q4HQFYB45I/ 
-│                       │     │                  ├ [64]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
-│                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS 
-│                       │     │                  ├ [65]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/R3UETKPU
-│                       │     │                  │       B3V5JS5TLZOF3SMTGT5K5APS/ 
-│                       │     │                  ├ [66]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
-│                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU 
-│                       │     │                  ├ [67]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/REMHVVIB
-│                       │     │                  │       DNKSRKNOTV7EQSB7CYQWOUOU/ 
-│                       │     │                  ├ [68]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
-│                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI 
-│                       │     │                  ├ [69]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/T7N5GV4C
-│                       │     │                  │       HH6WAGX3GFMDD3COEOVCZ4RI/ 
-│                       │     │                  ├ [70]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
-│                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ 
-│                       │     │                  ├ [71]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ULQQONMS
-│                       │     │                  │       CQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
-│                       │     │                  ├ [72]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
-│                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP 
-│                       │     │                  ├ [73]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/UTT7DG3Q
-│                       │     │                  │       OF5ZNJLUGHDNLRUIN6OWZARP/ 
-│                       │     │                  ├ [74]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/W2LZSWTV
-│                       │     │                  │       4NV4SNQARNXG5T6LRHP26EW2 
-│                       │     │                  ├ [75]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/W2LZSWTV
-│                       │     │                  │       4NV4SNQARNXG5T6LRHP26EW2/ 
-│                       │     │                  ├ [76]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/WCNCBYKZ
-│                       │     │                  │       XLDFGAJUB7ZP5VLC3YTHJNVH 
-│                       │     │                  ├ [77]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/WCNCBYKZ
-│                       │     │                  │       XLDFGAJUB7ZP5VLC3YTHJNVH/ 
-│                       │     │                  ├ [78]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
-│                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2 
-│                       │     │                  ├ [79]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XFOIBB4Y
-│                       │     │                  │       FICHDM7IBOP7PWXW3FX4HLL2/ 
-│                       │     │                  ├ [80]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
-│                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY 
-│                       │     │                  ├ [81]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/XTNLSL44
-│                       │     │                  │       Y5FB6JWADSZH6DCV4JJAAEQY/ 
-│                       │     │                  ├ [82]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YJWHBLVZ
-│                       │     │                  │       DM5KQSDFRBFRKU5KSSOLIRQ4 
-│                       │     │                  ├ [83]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YJWHBLVZ
-│                       │     │                  │       DM5KQSDFRBFRKU5KSSOLIRQ4/ 
-│                       │     │                  ├ [84]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
-│                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P 
-│                       │     │                  ├ [85]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/YRKEXKAN
-│                       │     │                  │       Q7BKJW2YTAMP625LJUJZLJ4P/ 
-│                       │     │                  ├ [86]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZSVEMQV5
-│                       │     │                  │       ROY5YW5QE3I57HT3ITWG5GCV 
-│                       │     │                  ├ [87]: https://lists.fedoraproject.org/archives/list/pac
-│                       │     │                  │       kage-announce@lists.fedoraproject.org/message/ZSVEMQV5
-│                       │     │                  │       ROY5YW5QE3I57HT3ITWG5GCV/ 
-│                       │     │                  ├ [88]: https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
-│                       │     │                  ├ [89]: https://pkg.go.dev/vuln/GO-2023-2102 
-│                       │     │                  ├ [90]: https://security.gentoo.org/glsa/202311-09 
-│                       │     │                  ├ [91]: https://security.netapp.com/advisory/ntap-2023111
-│                       │     │                  │       0-0008 
-│                       │     │                  ├ [92]: https://security.netapp.com/advisory/ntap-2023111
-│                       │     │                  │       0-0008/ 
-│                       │     │                  ├ [93]: https://ubuntu.com/security/notices/USN-6574-1 
-│                       │     │                  ├ [94]: https://www.cisa.gov/news-events/alerts/2023/10/1
-│                       │     │                  │       0/http2-rapid-reset-vulnerability-cve-2023-44487
-│                       │     │                  │        
-│                       │     │                  ╰ [95]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
+│                       │     ├ References       ╭ [0]  : golang.org/x/net 
+│                       │     │                  ├ [1]  : https://access.redhat.com/errata/RHSA-2023:6077 
+│                       │     │                  ├ [2]  : https://access.redhat.com/security/cve/CVE-2023-39325 
+│                       │     │                  ├ [3]  : https://access.redhat.com/security/cve/CVE-2023-44487 
+│                       │     │                  ├ [4]  : https://access.redhat.com/security/vulnerabiliti
+│                       │     │                  │        es/RHSB-2023-003 
+│                       │     │                  ├ [5]  : https://bugzilla.redhat.com/2242803 
+│                       │     │                  ├ [6]  : https://bugzilla.redhat.com/2243296 
+│                       │     │                  ├ [7]  : https://bugzilla.redhat.com/show_bug.cgi?id=2242803 
+│                       │     │                  ├ [8]  : https://bugzilla.redhat.com/show_bug.cgi?id=2243296 
+│                       │     │                  ├ [9]  : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │     │                  │        VE-2023-39325 
+│                       │     │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                       │     │                  │        VE-2023-44487 
+│                       │     │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
+│                       │     │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                       │     │                  ├ [13] : https://github.com/golang/go/commit/24ae2d927285
+│                       │     │                  │        c697440fdde3ad7f26028354bcf3 [golang- 1.21] 
+│                       │     │                  ├ [14] : https://github.com/golang/go/commit/e175f27f58aa
+│                       │     │                  │        7b9cd4d79607ae65d2cd5baaee68 [golang-1.20] 
+│                       │     │                  ├ [15] : https://github.com/golang/go/issues/63417 
+│                       │     │                  ├ [16] : https://go.dev/cl/534215 
+│                       │     │                  ├ [17] : https://go.dev/cl/534235 
+│                       │     │                  ├ [18] : https://go.dev/issue/63417 
+│                       │     │                  ├ [19] : https://groups.google.com/g/golang-announce/c/iN
+│                       │     │                  │        NxDTCjZvo/m/UDd7VKQuAAAJ 
+│                       │     │                  ├ [20] : https://linux.oracle.com/cve/CVE-2023-39325.html 
+│                       │     │                  ├ [21] : https://linux.oracle.com/errata/ELSA-2023-5867.html 
+│                       │     │                  ├ [22] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3OVW5V
+│                       │     │                  │        2DM5K5IC3H7O42YDUGNJ74J35O 
+│                       │     │                  ├ [23] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3OVW5V
+│                       │     │                  │        2DM5K5IC3H7O42YDUGNJ74J35O/ 
+│                       │     │                  ├ [24] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3SZN67
+│                       │     │                  │        IL7HMGMNAVLOTIXLIHUDXZK4LH 
+│                       │     │                  ├ [25] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3SZN67
+│                       │     │                  │        IL7HMGMNAVLOTIXLIHUDXZK4LH/ 
+│                       │     │                  ├ [26] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3WJ4QV
+│                       │     │                  │        X2AMUJ2F2S27POOAHRC4K3CHU4 
+│                       │     │                  ├ [27] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/3WJ4QV
+│                       │     │                  │        X2AMUJ2F2S27POOAHRC4K3CHU4/ 
+│                       │     │                  ├ [28] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/4BUK2Z
+│                       │     │                  │        IAGCULOOYDNH25JPU6JBES5NF2 
+│                       │     │                  ├ [29] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/4BUK2Z
+│                       │     │                  │        IAGCULOOYDNH25JPU6JBES5NF2/ 
+│                       │     │                  ├ [30] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/5RSKA2
+│                       │     │                  │        II6QTD4YUKUNDVJQSRYSFC4VFR 
+│                       │     │                  ├ [31] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/5RSKA2
+│                       │     │                  │        II6QTD4YUKUNDVJQSRYSFC4VFR/ 
+│                       │     │                  ├ [32] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/AVZDNS
+│                       │     │                  │        MVDAQJ64LJC5I5U5LDM5753647 
+│                       │     │                  ├ [33] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/AVZDNS
+│                       │     │                  │        MVDAQJ64LJC5I5U5LDM5753647/ 
+│                       │     │                  ├ [34] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/CHHITS
+│                       │     │                  │        4PUOZAKFIUBQAQZC7JWXMOYE4B 
+│                       │     │                  ├ [35] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/CHHITS
+│                       │     │                  │        4PUOZAKFIUBQAQZC7JWXMOYE4B/ 
+│                       │     │                  ├ [36] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/CLB4TW
+│                       │     │                  │        7KALB3EEQWNWCN7OUIWWVWWCG2 
+│                       │     │                  ├ [37] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/CLB4TW
+│                       │     │                  │        7KALB3EEQWNWCN7OUIWWVWWCG2/ 
+│                       │     │                  ├ [38] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/D2BBID
+│                       │     │                  │        R2ZMB3X5BC7SR4SLQMHRMVPY6L 
+│                       │     │                  ├ [39] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/D2BBID
+│                       │     │                  │        R2ZMB3X5BC7SR4SLQMHRMVPY6L/ 
+│                       │     │                  ├ [40] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ECRC75
+│                       │     │                  │        BQJP6FJN2L7KCKYZW4DSBD7QSD 
+│                       │     │                  ├ [41] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ECRC75
+│                       │     │                  │        BQJP6FJN2L7KCKYZW4DSBD7QSD/ 
+│                       │     │                  ├ [42] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/FTMJ3N
+│                       │     │                  │        JIDAZFWJQQSP3L22MUFJ3UP2PT 
+│                       │     │                  ├ [43] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/FTMJ3N
+│                       │     │                  │        JIDAZFWJQQSP3L22MUFJ3UP2PT/ 
+│                       │     │                  ├ [44] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/GSY7SX
+│                       │     │                  │        FFTPZFWDM6XELSDSHZLVW3AHK7 
+│                       │     │                  ├ [45] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/GSY7SX
+│                       │     │                  │        FFTPZFWDM6XELSDSHZLVW3AHK7/ 
+│                       │     │                  ├ [46] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/HZQIEL
+│                       │     │                  │        EIRSZUYTFFH5KTH2YJ4IIQG2KE 
+│                       │     │                  ├ [47] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/HZQIEL
+│                       │     │                  │        EIRSZUYTFFH5KTH2YJ4IIQG2KE/ 
+│                       │     │                  ├ [48] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/IPWCNY
+│                       │     │                  │        B5PQ5PCVZ4NJT6G56ZYFZ5QBU6 
+│                       │     │                  ├ [49] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/IPWCNY
+│                       │     │                  │        B5PQ5PCVZ4NJT6G56ZYFZ5QBU6/ 
+│                       │     │                  ├ [50] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/KEOTKB
+│                       │     │                  │        UPZXHE3F352JBYNTSNRXYLWD6P 
+│                       │     │                  ├ [51] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/KEOTKB
+│                       │     │                  │        UPZXHE3F352JBYNTSNRXYLWD6P/ 
+│                       │     │                  ├ [52] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/KSEGD2
+│                       │     │                  │        IWKNUO3DWY4KQGUQM5BISRWHQE 
+│                       │     │                  ├ [53] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/KSEGD2
+│                       │     │                  │        IWKNUO3DWY4KQGUQM5BISRWHQE/ 
+│                       │     │                  ├ [54] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/L5E5JS
+│                       │     │                  │        JBZLYXOTZWXHJKRVCIXIHVWKJ6 
+│                       │     │                  ├ [55] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/L5E5JS
+│                       │     │                  │        JBZLYXOTZWXHJKRVCIXIHVWKJ6/ 
+│                       │     │                  ├ [56] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/MZQYOO
+│                       │     │                  │        KHQDQ57LV2IAG6NRFOVXKHJJ3Z 
+│                       │     │                  ├ [57] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/MZQYOO
+│                       │     │                  │        KHQDQ57LV2IAG6NRFOVXKHJJ3Z/ 
+│                       │     │                  ├ [58] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/NG7IMP
+│                       │     │                  │        L55MVWU3LCI4JQJT3K2U5CHDV7 
+│                       │     │                  ├ [59] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/NG7IMP
+│                       │     │                  │        L55MVWU3LCI4JQJT3K2U5CHDV7/ 
+│                       │     │                  ├ [60] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ODBY7R
+│                       │     │                  │        VMGZCBSTWF2OZGIZS57FNFUL67 
+│                       │     │                  ├ [61] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ODBY7R
+│                       │     │                  │        VMGZCBSTWF2OZGIZS57FNFUL67/ 
+│                       │     │                  ├ [62] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/OXGWPQ
+│                       │     │                  │        OJ3JNDW2XIYKIVJ7N7QUIFNM2Q 
+│                       │     │                  ├ [63] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/OXGWPQ
+│                       │     │                  │        OJ3JNDW2XIYKIVJ7N7QUIFNM2Q/ 
+│                       │     │                  ├ [64] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/PJCUNG
+│                       │     │                  │        IQDUMZ4Z6HWVYIMR66A35F5S74 
+│                       │     │                  ├ [65] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/PJCUNG
+│                       │     │                  │        IQDUMZ4Z6HWVYIMR66A35F5S74/ 
+│                       │     │                  ├ [66] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/QF5QSY
+│                       │     │                  │        AOPDOWLY6DUHID56Q4HQFYB45I 
+│                       │     │                  ├ [67] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/QF5QSY
+│                       │     │                  │        AOPDOWLY6DUHID56Q4HQFYB45I/ 
+│                       │     │                  ├ [68] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/QXOU2J
+│                       │     │                  │        ZUBEBP7GBKAYIJRPRBZSJCD7ST 
+│                       │     │                  ├ [69] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/QXOU2J
+│                       │     │                  │        ZUBEBP7GBKAYIJRPRBZSJCD7ST/ 
+│                       │     │                  ├ [70] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/R3UETK
+│                       │     │                  │        PUB3V5JS5TLZOF3SMTGT5K5APS 
+│                       │     │                  ├ [71] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/R3UETK
+│                       │     │                  │        PUB3V5JS5TLZOF3SMTGT5K5APS/ 
+│                       │     │                  ├ [72] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/REMHVV
+│                       │     │                  │        IBDNKSRKNOTV7EQSB7CYQWOUOU 
+│                       │     │                  ├ [73] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/REMHVV
+│                       │     │                  │        IBDNKSRKNOTV7EQSB7CYQWOUOU/ 
+│                       │     │                  ├ [74] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/T7N5GV
+│                       │     │                  │        4CHH6WAGX3GFMDD3COEOVCZ4RI 
+│                       │     │                  ├ [75] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/T7N5GV
+│                       │     │                  │        4CHH6WAGX3GFMDD3COEOVCZ4RI/ 
+│                       │     │                  ├ [76] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ULQQON
+│                       │     │                  │        MSCQSH5Z5OWFFQHCGEZ3NL4DRJ 
+│                       │     │                  ├ [77] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ULQQON
+│                       │     │                  │        MSCQSH5Z5OWFFQHCGEZ3NL4DRJ/ 
+│                       │     │                  ├ [78] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/UTT7DG
+│                       │     │                  │        3QOF5ZNJLUGHDNLRUIN6OWZARP 
+│                       │     │                  ├ [79] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/UTT7DG
+│                       │     │                  │        3QOF5ZNJLUGHDNLRUIN6OWZARP/ 
+│                       │     │                  ├ [80] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/W2LZSW
+│                       │     │                  │        TV4NV4SNQARNXG5T6LRHP26EW2 
+│                       │     │                  ├ [81] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/W2LZSW
+│                       │     │                  │        TV4NV4SNQARNXG5T6LRHP26EW2/ 
+│                       │     │                  ├ [82] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/WCNCBY
+│                       │     │                  │        KZXLDFGAJUB7ZP5VLC3YTHJNVH 
+│                       │     │                  ├ [83] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/WCNCBY
+│                       │     │                  │        KZXLDFGAJUB7ZP5VLC3YTHJNVH/ 
+│                       │     │                  ├ [84] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/XFOIBB
+│                       │     │                  │        4YFICHDM7IBOP7PWXW3FX4HLL2 
+│                       │     │                  ├ [85] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/XFOIBB
+│                       │     │                  │        4YFICHDM7IBOP7PWXW3FX4HLL2/ 
+│                       │     │                  ├ [86] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/XTNLSL
+│                       │     │                  │        44Y5FB6JWADSZH6DCV4JJAAEQY 
+│                       │     │                  ├ [87] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/XTNLSL
+│                       │     │                  │        44Y5FB6JWADSZH6DCV4JJAAEQY/ 
+│                       │     │                  ├ [88] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/YJWHBL
+│                       │     │                  │        VZDM5KQSDFRBFRKU5KSSOLIRQ4 
+│                       │     │                  ├ [89] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/YJWHBL
+│                       │     │                  │        VZDM5KQSDFRBFRKU5KSSOLIRQ4/ 
+│                       │     │                  ├ [90] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/YRKEXK
+│                       │     │                  │        ANQ7BKJW2YTAMP625LJUJZLJ4P 
+│                       │     │                  ├ [91] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/YRKEXK
+│                       │     │                  │        ANQ7BKJW2YTAMP625LJUJZLJ4P/ 
+│                       │     │                  ├ [92] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ZSVEMQ
+│                       │     │                  │        V5ROY5YW5QE3I57HT3ITWG5GCV 
+│                       │     │                  ├ [93] : https://lists.fedoraproject.org/archives/list/pa
+│                       │     │                  │        ckage-announce@lists.fedoraproject.org/message/ZSVEMQ
+│                       │     │                  │        V5ROY5YW5QE3I57HT3ITWG5GCV/ 
+│                       │     │                  ├ [94] : https://nvd.nist.gov/vuln/detail/CVE-2023-39325 
+│                       │     │                  ├ [95] : https://pkg.go.dev/vuln/GO-2023-2102 
+│                       │     │                  ├ [96] : https://security.gentoo.org/glsa/202311-09 
+│                       │     │                  ├ [97] : https://security.netapp.com/advisory/ntap-202311
+│                       │     │                  │        10-0008 
+│                       │     │                  ├ [98] : https://security.netapp.com/advisory/ntap-202311
+│                       │     │                  │        10-0008/ 
+│                       │     │                  ├ [99] : https://ubuntu.com/security/notices/USN-6574-1 
+│                       │     │                  ├ [100]: https://www.cisa.gov/news-events/alerts/2023/10/
+│                       │     │                  │        10/http2-rapid-reset-vulnerability-cve-2023-44487
+│                       │     │                  │        [m 
+│                       │     │                  ╰ [101]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                       │     ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
-│                       │     ╰ LastModifiedDate: 2024-03-23T03:15:09.267Z 
+│                       │     ╰ LastModifiedDate: 2024-04-28T04:15:09.877Z 
 │                       ├ [1] ╭ VulnerabilityID : CVE-2023-3978 
 │                       │     ├ PkgName         : golang.org/x/net 
 │                       │     ├ PkgIdentifier    ─ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -5336,7 +5372,7 @@
 │                       │     │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-the
 │                       │     │                  │        -tale-of-a-hidden-cve 
 │                       │     │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                       │     │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                       │     │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                       │     │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-secur
 │                       │     │                  │        ity-update-cve-2023-44487-http-2-dos/67764 
 │                       │     │                  ├ [40] : https://gist.github.com/adulau/7c2bfb8e9cdbe4b35
@@ -5929,7 +5965,178 @@
 │                             │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-32473 
 │                             ├ PublishedDate   : 2024-04-18T22:15:10.4Z 
 │                             ╰ LastModifiedDate: 2024-04-19T13:10:25.637Z 
-├ [6] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [6] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│     ├ Class  : secret 
+│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                     ├ Category : AsymmetricPrivateKey 
+│                     ├ Severity : HIGH 
+│                     ├ Title    : Asymmetric Private Key 
+│                     ├ StartLine: 1 
+│                     ├ EndLine  : 1 
+│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ IsCause    : true 
+│                     │                   │     ├ Annotation :  
+│                     │                   │     ├ Truncated  : false 
+│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ FirstCause : true 
+│                     │                   │     ╰ LastCause  : true 
+│                     │                   ╰ [1] ╭ Number    : 2 
+│                     │                         ├ Content   :  
+│                     │                         ├ IsCause   : false 
+│                     │                         ├ Annotation:  
+│                     │                         ├ Truncated : false 
+│                     │                         ├ FirstCause: false 
+│                     │                         ╰ LastCause : false 
+│                     ├ Match    : BEGIN OPENSSH PRIVATE
+│                     │            KEY-----********************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            *****************************************-----END OPENSSH PRI 
+│                     ╰ Layer     ╭ Digest   : sha256:30ad560cd38c7995f8fb322aa4a47891abfcc60bd70d2225e130
+│                                 │            0acc844c1074 
+│                                 ├ DiffID   : sha256:f0a88ef159d010575cb95cb37f62becfa55dec866176fafa29b7
+│                                 │            74ed43d33460 
+│                                 ╰ CreatedBy: COPY / / # buildkit 
+├ [7] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -6034,7 +6241,7 @@
 │                                 ├ DiffID   : sha256:f0a88ef159d010575cb95cb37f62becfa55dec866176fafa29b7
 │                                 │            74ed43d33460 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [7] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [8] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -6092,59 +6299,7 @@
 │                                 ├ DiffID   : sha256:f0a88ef159d010575cb95cb37f62becfa55dec866176fafa29b7
 │                                 │            74ed43d33460 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [8] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│     ├ Class  : secret 
-│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                     ├ Category : AsymmetricPrivateKey 
-│                     ├ Severity : HIGH 
-│                     ├ Title    : Asymmetric Private Key 
-│                     ├ StartLine: 1 
-│                     ├ EndLine  : 1 
-│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ IsCause    : true 
-│                     │                   │     ├ Annotation :  
-│                     │                   │     ├ Truncated  : false 
-│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ FirstCause : true 
-│                     │                   │     ╰ LastCause  : true 
-│                     │                   ╰ [1] ╭ Number    : 2 
-│                     │                         ├ Content   :  
-│                     │                         ├ IsCause   : false 
-│                     │                         ├ Annotation:  
-│                     │                         ├ Truncated : false 
-│                     │                         ├ FirstCause: false 
-│                     │                         ╰ LastCause : false 
-│                     ├ Match    : BEGIN OPENSSH PRIVATE
-│                     │            KEY-----********************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            **********************************************-----END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:30ad560cd38c7995f8fb322aa4a47891abfcc60bd70d2225e130
-│                                 │            0acc844c1074 
-│                                 ├ DiffID   : sha256:f0a88ef159d010575cb95cb37f62becfa55dec866176fafa29b7
-│                                 │            74ed43d33460 
-│                                 ╰ CreatedBy: COPY / / # buildkit 
-╰ [9] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [9] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
       ├ Class  : secret 
       ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                       ├ Category : AsymmetricPrivateKey 
@@ -6161,53 +6316,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              **************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ IsCause    : true 
                       │                   │     ├ Annotation :  
                       │                   │     ├ Truncated  : false 
@@ -6219,53 +6329,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              **************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ FirstCause : true 
                       │                   │     ╰ LastCause  : true 
                       │                   ╰ [1] ╭ Number    : 2 
@@ -6280,36 +6345,7 @@
                       │            ****************************************************************************
                       │            ****************************************************************************
                       │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            *****************************************-----END OPENSSH PRI 
+                      │            **********************************************-----END OPENSSH PRI 
                       ╰ Layer     ╭ Digest   : sha256:30ad560cd38c7995f8fb322aa4a47891abfcc60bd70d2225e130
                                   │            0acc844c1074 
                                   ├ DiffID   : sha256:f0a88ef159d010575cb95cb37f62becfa55dec866176fafa29b7
