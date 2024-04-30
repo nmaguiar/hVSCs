@@ -888,7 +888,8 @@
 │                        │      ├ PkgIdentifier    ─ PURL: pkg:deb/ubuntu/less@590-1ubuntu0.22.04.2?arch=a
 │                        │      │                          md64&distro=ubuntu-22.04 
 │                        │      ├ InstalledVersion: 590-1ubuntu0.22.04.2 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 590-1ubuntu0.22.04.3 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6e
 │                        │      │                  │         a4048996de77a9e6674301a136 
 │                        │      │                  ╰ DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa42
@@ -916,10 +917,11 @@
 │                        │      │                  ├ [1]: https://github.com/gwsw/less/commit/007521ac3c95
 │                        │      │                  │      bc76e3d59c6dbfe75d06c8075c33 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-32487 
-│                        │      │                  ├ [3]: https://www.cve.org/CVERecord?id=CVE-2024-32487 
-│                        │      │                  ├ [4]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6756-1 
+│                        │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2024-32487 
+│                        │      │                  ├ [5]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │      /04/12/5 
-│                        │      │                  ╰ [5]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ╰ [6]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /04/13/2 
 │                        │      ├ PublishedDate   : 2024-04-13T15:15:52.683Z 
 │                        │      ╰ LastModifiedDate: 2024-04-15T13:15:31.997Z 
@@ -1047,7 +1049,8 @@
 │                        │      │                    
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ photon: 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
@@ -1067,8 +1070,9 @@
 │                        │      │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob;f
 │                        │      │                  │      =advisories/GLIBC-SA-2024-0004 
 │                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6737-1 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6737-2 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /04/17/9 
 │                        │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
 │                        │      ╰ LastModifiedDate: 2024-04-20T03:15:07.047Z 
@@ -1136,7 +1140,8 @@
 │                        │      │                    
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-787 
-│                        │      ├ VendorSeverity   ╭ photon: 3 
+│                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ photon: 3 
 │                        │      │                  ├ redhat: 3 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
@@ -1156,8 +1161,9 @@
 │                        │      │                  ├ [5]: https://sourceware.org/git/?p=glibc.git;a=blob;f
 │                        │      │                  │      =advisories/GLIBC-SA-2024-0004 
 │                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6737-1 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
-│                        │      │                  ╰ [8]: https://www.openwall.com/lists/oss-security/2024
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6737-2 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-2961 
+│                        │      │                  ╰ [9]: https://www.openwall.com/lists/oss-security/2024
 │                        │      │                         /04/17/9 
 │                        │      ├ PublishedDate   : 2024-04-17T18:15:15.833Z 
 │                        │      ╰ LastModifiedDate: 2024-04-20T03:15:07.047Z 
@@ -1432,6 +1438,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-200 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
@@ -1457,8 +1464,9 @@
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
 │                        │      │                  ├ [14]: https://people.redhat.com/~hkario/marvin/ 
 │                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6733-1 
-│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
-│                        │      │                  ╰ [17]: https://www.gnutls.org/security-new.html#GNUTLS
+│                        │      │                  ├ [16]: https://ubuntu.com/security/notices/USN-6733-2 
+│                        │      │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+│                        │      │                  ╰ [18]: https://www.gnutls.org/security-new.html#GNUTLS
 │                        │      │                          -SA-2023-12-04 
 │                        │      ├ PublishedDate   : 2024-03-21T14:15:07.547Z 
 │                        │      ╰ LastModifiedDate: 2024-04-25T18:15:07.903Z 
@@ -1487,6 +1495,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-248 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
@@ -1507,8 +1516,9 @@
 │                        │      │                  │       024-March/004845.html 
 │                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-28835 
 │                        │      │                  ├ [10]: https://ubuntu.com/security/notices/USN-6733-1 
-│                        │      │                  ├ [11]: https://www.cve.org/CVERecord?id=CVE-2024-28835 
-│                        │      │                  ╰ [12]: https://www.gnutls.org/security-new.html#GNUTLS
+│                        │      │                  ├ [11]: https://ubuntu.com/security/notices/USN-6733-2 
+│                        │      │                  ├ [12]: https://www.cve.org/CVERecord?id=CVE-2024-28835 
+│                        │      │                  ╰ [13]: https://www.gnutls.org/security-new.html#GNUTLS
 │                        │      │                          -SA-2024-01-23 
 │                        │      ├ PublishedDate   : 2024-03-21T06:15:45.113Z 
 │                        │      ╰ LastModifiedDate: 2024-04-18T05:15:48.263Z 
@@ -2142,7 +2152,8 @@
 │                        │      │                   vulnerability. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-770 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      ├ VendorSeverity   ╭ amazon: 3 
+│                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
@@ -4538,7 +4549,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -5129,7 +5140,8 @@
 │                              │                    the amount of excess header frames we will process before
 │                              │                   closing a connection. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ ghsa       : 2 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ photon     : 3 
 │                              │                  ╰ redhat     : 3 
@@ -5139,30 +5151,33 @@
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1] : https://go.dev/cl/576155 
-│                              │                  ├ [2] : https://go.dev/issue/65051 
-│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1963 
+│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                              │                  ├ [2] : https://bugzilla.redhat.com/2268273 
+│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2024-1963.html 
+│                              │                  ├ [4] : https://go.dev/cl/576155 
+│                              │                  ├ [5] : https://go.dev/issue/65051 
+│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/Yg
 │                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
-│                              │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                              │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
-│                              │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                              │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
+│                              │                  ├ [11]: https://nowotarski.info/http2-continuation-flood
 │                              │                  │       -technical-details 
-│                              │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [12]: https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [14]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [15]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009 
-│                              │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [16]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009/ 
-│                              │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
+│                              │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [18]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                              ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 ├ [3]  ╭ Target         : tmp/tmp.0DmawLQuhE/krew-linux_amd64 
@@ -5514,7 +5529,7 @@
 │                        │     ├ Severity        : MEDIUM 
 │                        │     ├ CweIDs           ─ [0]: CWE-79 
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
-│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ amazon     : 3 
 │                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ nvd        : 2 
@@ -6105,7 +6120,8 @@
 │                              │                    the amount of excess header frames we will process before
 │                              │                   closing a connection. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ ghsa       : 2 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ photon     : 3 
 │                              │                  ╰ redhat     : 3 
@@ -6115,30 +6131,33 @@
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1] : https://go.dev/cl/576155 
-│                              │                  ├ [2] : https://go.dev/issue/65051 
-│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1963 
+│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                              │                  ├ [2] : https://bugzilla.redhat.com/2268273 
+│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2024-1963.html 
+│                              │                  ├ [4] : https://go.dev/cl/576155 
+│                              │                  ├ [5] : https://go.dev/issue/65051 
+│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/Yg
 │                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
-│                              │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                              │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
-│                              │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                              │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
+│                              │                  ├ [11]: https://nowotarski.info/http2-continuation-flood
 │                              │                  │       -technical-details 
-│                              │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [12]: https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [14]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [15]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009 
-│                              │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [16]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009/ 
-│                              │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
+│                              │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [18]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                              ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 ├ [4]  ╭ Target         : usr/bin/docker-compose 
@@ -6234,7 +6253,8 @@
 │                        │     │                    the amount of excess header frames we will process before
 │                        │     │                   closing a connection. 
 │                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ ghsa       : 2 
+│                        │     ├ VendorSeverity   ╭ alma       : 3 
+│                        │     │                  ├ ghsa       : 2 
 │                        │     │                  ├ oracle-oval: 3 
 │                        │     │                  ├ photon     : 3 
 │                        │     │                  ╰ redhat     : 3 
@@ -6244,30 +6264,33 @@
 │                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
-│                        │     │                  ├ [1] : https://go.dev/cl/576155 
-│                        │     │                  ├ [2] : https://go.dev/issue/65051 
-│                        │     │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                        │     ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1963 
+│                        │     │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                        │     │                  ├ [2] : https://bugzilla.redhat.com/2268273 
+│                        │     │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2024-1963.html 
+│                        │     │                  ├ [4] : https://go.dev/cl/576155 
+│                        │     │                  ├ [5] : https://go.dev/issue/65051 
+│                        │     │                  ├ [6] : https://groups.google.com/g/golang-announce/c/Yg
 │                        │     │                  │       W0sx8mN3M 
-│                        │     │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │     │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
-│                        │     │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │     │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                        │     │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                        │     │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
-│                        │     │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                        │     │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                        │     │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
+│                        │     │                  ├ [11]: https://nowotarski.info/http2-continuation-flood
 │                        │     │                  │       -technical-details 
-│                        │     │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
-│                        │     │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                        │     │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                        │     │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  ├ [12]: https://nowotarski.info/http2-continuation-flood/ 
+│                        │     │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │     │                  ├ [14]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │     │                  ├ [15]: https://security.netapp.com/advisory/ntap-202404
 │                        │     │                  │       19-0009 
-│                        │     │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  ├ [16]: https://security.netapp.com/advisory/ntap-202404
 │                        │     │                  │       19-0009/ 
-│                        │     │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                        │     │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
+│                        │     │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │     │                  ╰ [18]: https://www.kb.cert.org/vuls/id/421644 
 │                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │     ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24786 
@@ -6316,7 +6339,7 @@
 │                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/Ar
 │                              │                  │       Q6CDgtEjY/ 
 │                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2024-24786.html 
-│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-12329.html 
+│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-12348.html 
 │                              │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/JDMBHA
 │                              │                  │       VSDU2FBDZ45U3A2VLSM35OJ2HU 
@@ -6365,7 +6388,8 @@
 │                              │                    the amount of excess header frames we will process before
 │                              │                   closing a connection. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ ghsa       : 2 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ photon     : 3 
 │                              │                  ╰ redhat     : 3 
@@ -6375,30 +6399,33 @@
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1] : https://go.dev/cl/576155 
-│                              │                  ├ [2] : https://go.dev/issue/65051 
-│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1963 
+│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                              │                  ├ [2] : https://bugzilla.redhat.com/2268273 
+│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2024-1963.html 
+│                              │                  ├ [4] : https://go.dev/cl/576155 
+│                              │                  ├ [5] : https://go.dev/issue/65051 
+│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/Yg
 │                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
-│                              │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                              │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
-│                              │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                              │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
+│                              │                  ├ [11]: https://nowotarski.info/http2-continuation-flood
 │                              │                  │       -technical-details 
-│                              │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [12]: https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [14]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [15]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009 
-│                              │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [16]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009/ 
-│                              │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
+│                              │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [18]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                              ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 ├ [6]  ╭ Target         : usr/bin/kubectl 
@@ -6437,7 +6464,8 @@
 │                              │                    the amount of excess header frames we will process before
 │                              │                   closing a connection. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ ghsa       : 2 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ photon     : 3 
 │                              │                  ╰ redhat     : 3 
@@ -6447,30 +6475,33 @@
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1] : https://go.dev/cl/576155 
-│                              │                  ├ [2] : https://go.dev/issue/65051 
-│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1963 
+│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                              │                  ├ [2] : https://bugzilla.redhat.com/2268273 
+│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2024-1963.html 
+│                              │                  ├ [4] : https://go.dev/cl/576155 
+│                              │                  ├ [5] : https://go.dev/issue/65051 
+│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/Yg
 │                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
-│                              │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                              │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
-│                              │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                              │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
+│                              │                  ├ [11]: https://nowotarski.info/http2-continuation-flood
 │                              │                  │       -technical-details 
-│                              │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [12]: https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [14]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [15]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009 
-│                              │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [16]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009/ 
-│                              │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
+│                              │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [18]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                              ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 ├ [7]  ╭ Target         : usr/bin/mc 
@@ -6509,7 +6540,8 @@
 │                              │                    the amount of excess header frames we will process before
 │                              │                   closing a connection. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ ghsa       : 2 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ ghsa       : 2 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ photon     : 3 
 │                              │                  ╰ redhat     : 3 
@@ -6519,30 +6551,33 @@
 │                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                              │                           │           N/I:N/A:H 
 │                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0] : https://access.redhat.com/security/cve/CVE-2023-45288 
-│                              │                  ├ [1] : https://go.dev/cl/576155 
-│                              │                  ├ [2] : https://go.dev/issue/65051 
-│                              │                  ├ [3] : https://groups.google.com/g/golang-announce/c/Yg
+│                              ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:1963 
+│                              │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                              │                  ├ [2] : https://bugzilla.redhat.com/2268273 
+│                              │                  ├ [3] : https://errata.almalinux.org/9/ALSA-2024-1963.html 
+│                              │                  ├ [4] : https://go.dev/cl/576155 
+│                              │                  ├ [5] : https://go.dev/issue/65051 
+│                              │                  ├ [6] : https://groups.google.com/g/golang-announce/c/Yg
 │                              │                  │       W0sx8mN3M 
-│                              │                  ├ [4] : https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                              │                  ├ [5] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
-│                              │                  ├ [6] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  ├ [7] : https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                              │                  ├ [8] : https://linux.oracle.com/errata/ELSA-2024-1963.html 
+│                              │                  ├ [9] : https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
-│                              │                  ├ [7] : https://lists.fedoraproject.org/archives/list/pa
+│                              │                  ├ [10]: https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                              │                  ├ [8] : https://nowotarski.info/http2-continuation-flood
+│                              │                  ├ [11]: https://nowotarski.info/http2-continuation-flood
 │                              │                  │       -technical-details 
-│                              │                  ├ [9] : https://nowotarski.info/http2-continuation-flood/ 
-│                              │                  ├ [10]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                              │                  ├ [11]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                              │                  ├ [12]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [12]: https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [14]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [15]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009 
-│                              │                  ├ [13]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  ├ [16]: https://security.netapp.com/advisory/ntap-202404
 │                              │                  │       19-0009/ 
-│                              │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                              │                  ╰ [15]: https://www.kb.cert.org/vuls/id/421644 
+│                              │                  ├ [17]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [18]: https://www.kb.cert.org/vuls/id/421644 
 │                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                              ╰ LastModifiedDate: 2024-04-25T06:15:52.357Z 
 ├ [8]  ╭ Target         : usr/local/bin/k3d 
@@ -6605,7 +6640,118 @@
 │                              │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-32473 
 │                              ├ PublishedDate   : 2024-04-18T22:15:10.4Z 
 │                              ╰ LastModifiedDate: 2024-04-19T13:10:25.637Z 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRIVATE KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *****************************-----END OPENSSH
+│                      │                   │     │              PRIVATE KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **-----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a
+│                                  │            9e6674301a136 
+│                                  ├ DiffID   : sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508
+│                                  │            f834163bd7473 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a
+│                                  │            9e6674301a136 
+│                                  ├ DiffID   : sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508
+│                                  │            f834163bd7473 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -6781,173 +6927,7 @@
 │                                  ├ DiffID   : sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508
 │                                  │            f834163bd7473 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            *********************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a
-│                                  │            9e6674301a136 
-│                                  ├ DiffID   : sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508
-│                                  │            f834163bd7473 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a
-│                                  │            9e6674301a136 
-│                                  ├ DiffID   : sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508
-│                                  │            f834163bd7473 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+╰ [12] ╭ Target : /etc/ssh/ssh_host_dsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -6964,7 +6944,28 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRIVATE
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ****************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -6977,7 +6978,28 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              *********************-----END OPENSSH PRIVATE
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ****************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -6993,7 +7015,20 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            **************************************************-----END OPENSSH
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            *********************************************************-----END OPENSSH
                        │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a
                                    │            9e6674301a136 
