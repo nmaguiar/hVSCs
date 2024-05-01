@@ -1888,20 +1888,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:H/A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7008 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
-│                       │      │                  ├ [3]: https://github.com/systemd/systemd/issues/25676 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:2463 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-7008 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
+│                       │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
+│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/4GMDEG5P
 │                       │      │                  │      KONWNHOEYSUDRT6JEOISRMN2/ 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/QHNBXGKJ
 │                       │      │                  │      WISJETTTDTZKTBFIBJUOSLKL/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                       │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
+│                       │      ╰ LastModifiedDate: 2024-04-30T14:15:13.513Z 
 │                       ├ [44] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : libpam-systemd 
@@ -1938,20 +1939,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:H/A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7008 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
-│                       │      │                  ├ [3]: https://github.com/systemd/systemd/issues/25676 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:2463 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-7008 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
+│                       │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
+│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/4GMDEG5P
 │                       │      │                  │      KONWNHOEYSUDRT6JEOISRMN2/ 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/QHNBXGKJ
 │                       │      │                  │      WISJETTTDTZKTBFIBJUOSLKL/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                       │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
+│                       │      ╰ LastModifiedDate: 2024-04-30T14:15:13.513Z 
 │                       ├ [45] ╭ VulnerabilityID : CVE-2017-11164 
 │                       │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libpcre3 
@@ -2512,20 +2514,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:H/A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7008 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
-│                       │      │                  ├ [3]: https://github.com/systemd/systemd/issues/25676 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:2463 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-7008 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
+│                       │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
+│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/4GMDEG5P
 │                       │      │                  │      KONWNHOEYSUDRT6JEOISRMN2/ 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/QHNBXGKJ
 │                       │      │                  │      WISJETTTDTZKTBFIBJUOSLKL/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                       │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
+│                       │      ╰ LastModifiedDate: 2024-04-30T14:15:13.513Z 
 │                       ├ [52] ╭ VulnerabilityID : CVE-2018-10126 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.8 
 │                       │      ├ PkgName         : libtiff5 
@@ -2722,20 +2725,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:H/A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7008 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
-│                       │      │                  ├ [3]: https://github.com/systemd/systemd/issues/25676 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:2463 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-7008 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
+│                       │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
+│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/4GMDEG5P
 │                       │      │                  │      KONWNHOEYSUDRT6JEOISRMN2/ 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/QHNBXGKJ
 │                       │      │                  │      WISJETTTDTZKTBFIBJUOSLKL/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                       │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
+│                       │      ╰ LastModifiedDate: 2024-04-30T14:15:13.513Z 
 │                       ├ [57] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                       │      ├ PkgName         : libzstd1 
@@ -3520,20 +3524,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:H/A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7008 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
-│                       │      │                  ├ [3]: https://github.com/systemd/systemd/issues/25676 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:2463 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-7008 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
+│                       │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
+│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/4GMDEG5P
 │                       │      │                  │      KONWNHOEYSUDRT6JEOISRMN2/ 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/QHNBXGKJ
 │                       │      │                  │      WISJETTTDTZKTBFIBJUOSLKL/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                       │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
+│                       │      ╰ LastModifiedDate: 2024-04-30T14:15:13.513Z 
 │                       ├ [69] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : systemd-sysv 
@@ -3570,20 +3575,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:H/A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7008 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
-│                       │      │                  ├ [3]: https://github.com/systemd/systemd/issues/25676 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:2463 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-7008 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
+│                       │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
+│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/4GMDEG5P
 │                       │      │                  │      KONWNHOEYSUDRT6JEOISRMN2/ 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/QHNBXGKJ
 │                       │      │                  │      WISJETTTDTZKTBFIBJUOSLKL/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                       │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
+│                       │      ╰ LastModifiedDate: 2024-04-30T14:15:13.513Z 
 │                       ├ [70] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : systemd-timesyncd 
@@ -3620,20 +3626,21 @@
 │                       │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:
 │                       │      │                           │           N/I:H/A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-7008 
-│                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
-│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
-│                       │      │                  ├ [3]: https://github.com/systemd/systemd/issues/25676 
-│                       │      │                  ├ [4]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/errata/RHSA-2024:2463 
+│                       │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2023-7008 
+│                       │      │                  ├ [2]: https://bugzilla.redhat.com/show_bug.cgi?id=2222261 
+│                       │      │                  ├ [3]: https://bugzilla.redhat.com/show_bug.cgi?id=2222672 
+│                       │      │                  ├ [4]: https://github.com/systemd/systemd/issues/25676 
+│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/4GMDEG5P
 │                       │      │                  │      KONWNHOEYSUDRT6JEOISRMN2/ 
-│                       │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                       │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pac
 │                       │      │                  │      kage-announce@lists.fedoraproject.org/message/QHNBXGKJ
 │                       │      │                  │      WISJETTTDTZKTBFIBJUOSLKL/ 
-│                       │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
+│                       │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2023-7008 
+│                       │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
-│                       │      ╰ LastModifiedDate: 2024-01-27T03:15:07.933Z 
+│                       │      ╰ LastModifiedDate: 2024-04-30T14:15:13.513Z 
 │                       ├ [71] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                       │      ├ PkgName         : uidmap 
@@ -4205,7 +4212,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-79 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
-│                       │     │                  ├ amazon     : 3 
+│                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ ghsa       : 2 
 │                       │     │                  ├ nvd        : 2 
@@ -5175,7 +5182,7 @@
 │                       │     ├ Severity        : MEDIUM 
 │                       │     ├ CweIDs           ─ [0]: CWE-79 
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
-│                       │     │                  ├ amazon     : 3 
+│                       │     │                  ├ amazon     : 2 
 │                       │     │                  ├ cbl-mariner: 2 
 │                       │     │                  ├ ghsa       : 2 
 │                       │     │                  ├ nvd        : 2 
@@ -5936,65 +5943,7 @@
 │                             │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-32473 
 │                             ├ PublishedDate   : 2024-04-18T22:15:10.4Z 
 │                             ╰ LastModifiedDate: 2024-04-19T13:10:25.637Z 
-├ [6] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│     ├ Class  : secret 
-│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                     ├ Category : AsymmetricPrivateKey 
-│                     ├ Severity : HIGH 
-│                     ├ Title    : Asymmetric Private Key 
-│                     ├ StartLine: 1 
-│                     ├ EndLine  : 1 
-│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ********************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ IsCause    : true 
-│                     │                   │     ├ Annotation :  
-│                     │                   │     ├ Truncated  : false 
-│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ********************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ FirstCause : true 
-│                     │                   │     ╰ LastCause  : true 
-│                     │                   ╰ [1] ╭ Number    : 2 
-│                     │                         ├ Content   :  
-│                     │                         ├ IsCause   : false 
-│                     │                         ├ Annotation:  
-│                     │                         ├ Truncated : false 
-│                     │                         ├ FirstCause: false 
-│                     │                         ╰ LastCause : false 
-│                     ├ Match    : BEGIN OPENSSH PRIVATE
-│                     │            KEY-----********************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ************************************************************************----
-│                     │            -END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:46234be51d09723d5878444431a389c09738e88979cbee3e734e
-│                                 │            ef7bec140cce 
-│                                 ├ DiffID   : sha256:4f30805b0973ba47cc146666896a5cd8cb252db7b21d374d7881
-│                                 │            93b57ecdf93c 
-│                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [7] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [6] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -6046,7 +5995,7 @@
 │                                 ├ DiffID   : sha256:4f30805b0973ba47cc146666896a5cd8cb252db7b21d374d7881
 │                                 │            93b57ecdf93c 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [8] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [7] ╭ Target : /etc/ssh/ssh_host_rsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -6217,7 +6166,112 @@
 │                                 ├ DiffID   : sha256:4f30805b0973ba47cc146666896a5cd8cb252db7b21d374d7881
 │                                 │            93b57ecdf93c 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-╰ [9] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [8] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+│     ├ Class  : secret 
+│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                     ├ Category : AsymmetricPrivateKey 
+│                     ├ Severity : HIGH 
+│                     ├ Title    : Asymmetric Private Key 
+│                     ├ StartLine: 1 
+│                     ├ EndLine  : 1 
+│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************-----END
+│                     │                   │     │              OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ IsCause    : true 
+│                     │                   │     ├ Annotation :  
+│                     │                   │     ├ Truncated  : false 
+│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************-----END
+│                     │                   │     │              OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ FirstCause : true 
+│                     │                   │     ╰ LastCause  : true 
+│                     │                   ╰ [1] ╭ Number    : 2 
+│                     │                         ├ Content   :  
+│                     │                         ├ IsCause   : false 
+│                     │                         ├ Annotation:  
+│                     │                         ├ Truncated : false 
+│                     │                         ├ FirstCause: false 
+│                     │                         ╰ LastCause : false 
+│                     ├ Match    : BEGIN OPENSSH PRIVATE
+│                     │            KEY-----********************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************-----END OPENSSH PRI 
+│                     ╰ Layer     ╭ Digest   : sha256:46234be51d09723d5878444431a389c09738e88979cbee3e734e
+│                                 │            ef7bec140cce 
+│                                 ├ DiffID   : sha256:4f30805b0973ba47cc146666896a5cd8cb252db7b21d374d7881
+│                                 │            93b57ecdf93c 
+│                                 ╰ CreatedBy: COPY / / # buildkit 
+╰ [9] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
       ├ Class  : secret 
       ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                       ├ Category : AsymmetricPrivateKey 
@@ -6236,26 +6290,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************-----END
-                      │                   │     │              OPENSSH PRIVATE KEY----- 
+                      │                   │     │              ********************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ IsCause    : true 
                       │                   │     ├ Annotation :  
                       │                   │     ├ Truncated  : false 
@@ -6269,26 +6305,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************-----END
-                      │                   │     │              OPENSSH PRIVATE KEY----- 
+                      │                   │     │              ********************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ FirstCause : true 
                       │                   │     ╰ LastCause  : true 
                       │                   ╰ [1] ╭ Number    : 2 
@@ -6304,19 +6322,8 @@
                       │            ****************************************************************************
                       │            ****************************************************************************
                       │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************-----END OPENSSH PRI 
+                      │            ************************************************************************----
+                      │            -END OPENSSH PRI 
                       ╰ Layer     ╭ Digest   : sha256:46234be51d09723d5878444431a389c09738e88979cbee3e734e
                                   │            ef7bec140cce 
                                   ├ DiffID   : sha256:4f30805b0973ba47cc146666896a5cd8cb252db7b21d374d7881
