@@ -827,6 +827,7 @@
     Description: less through 653 allows OS command execution via a newline character in the name of a file, because quoting is mishandled in filename.c. Exploitation typically requires use with attacker-controlled file names, such as the files extracted from an untrusted archive. Exploitation also requires the LESSOPEN environment variable, but this is set by default in many common cases.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 3
       ubuntu: 2
     CVSS:
@@ -834,6 +835,7 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
         V3Score: 8.6
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/15/1
     - https://access.redhat.com/security/cve/CVE-2024-32487
     - https://github.com/gwsw/less/commit/007521ac3c95bc76e3d59c6dbfe75d06c8075c33
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32487
@@ -842,7 +844,7 @@
     - https://www.openwall.com/lists/oss-security/2024/04/12/5
     - https://www.openwall.com/lists/oss-security/2024/04/13/2
     PublishedDate: '2024-04-13T15:15:52.683Z'
-    LastModifiedDate: '2024-04-15T13:15:31.997Z'
+    LastModifiedDate: '2024-05-01T18:15:24.23Z'
   - VulnerabilityID: CVE-2016-1585
     PkgID: libapparmor1@3.0.4-2ubuntu2.3
     PkgName: libapparmor1
@@ -965,6 +967,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.8
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/17/9
+    - http://www.openwall.com/lists/oss-security/2024/04/18/4
+    - http://www.openwall.com/lists/oss-security/2024/04/24/2
     - https://access.redhat.com/security/cve/CVE-2024-2961
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -976,7 +981,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
-    LastModifiedDate: '2024-04-20T03:15:07.047Z'
+    LastModifiedDate: '2024-05-01T18:15:19.437Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.6
     PkgName: libc-bin
@@ -1046,6 +1051,9 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.8
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/17/9
+    - http://www.openwall.com/lists/oss-security/2024/04/18/4
+    - http://www.openwall.com/lists/oss-security/2024/04/24/2
     - https://access.redhat.com/security/cve/CVE-2024-2961
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -1057,7 +1065,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-2961
     - https://www.openwall.com/lists/oss-security/2024/04/17/9
     PublishedDate: '2024-04-17T18:15:15.833Z'
-    LastModifiedDate: '2024-04-20T03:15:07.047Z'
+    LastModifiedDate: '2024-05-01T18:15:19.437Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.6
     PkgName: libc6
@@ -1310,6 +1318,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/22/1
+    - http://www.openwall.com/lists/oss-security/2024/03/22/2
     - https://access.redhat.com/errata/RHSA-2024:1784
     - https://access.redhat.com/errata/RHSA-2024:1879
     - https://access.redhat.com/errata/RHSA-2024:1997
@@ -1331,7 +1341,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-28834
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2023-12-04
     PublishedDate: '2024-03-21T14:15:07.547Z'
-    LastModifiedDate: '2024-04-30T20:15:07.763Z'
+    LastModifiedDate: '2024-05-01T18:15:17.683Z'
   - VulnerabilityID: CVE-2024-28835
     PkgID: libgnutls30@3.7.3-4ubuntu1.4
     PkgName: libgnutls30
@@ -1366,6 +1376,8 @@
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H
         V3Score: 5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/22/1
+    - http://www.openwall.com/lists/oss-security/2024/03/22/2
     - https://access.redhat.com/errata/RHSA-2024:1879
     - https://access.redhat.com/errata/RHSA-2024:2570
     - https://access.redhat.com/security/cve/CVE-2024-28835
@@ -1382,7 +1394,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-28835
     - https://www.gnutls.org/security-new.html#GNUTLS-SA-2024-01-23
     PublishedDate: '2024-03-21T06:15:45.113Z'
-    LastModifiedDate: '2024-04-30T20:15:07.89Z'
+    LastModifiedDate: '2024-05-01T18:15:17.79Z'
   - VulnerabilityID: CVE-2024-26458
     PkgID: libgssapi-krb5-2@1.19.2-2ubuntu0.3
     PkgName: libgssapi-krb5-2
@@ -2005,6 +2017,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - https://access.redhat.com/security/cve/CVE-2024-28182
     - https://github.com/nghttp2/nghttp2/commit/00201ecd8f982da3b67d4f6868af72a1b03b14e0
     - https://github.com/nghttp2/nghttp2/commit/d71a4668c6bead55805d18810d633fbb98315af9
@@ -2019,7 +2032,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-28182
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T15:15:38.427Z'
-    LastModifiedDate: '2024-04-30T22:15:07.76Z'
+    LastModifiedDate: '2024-05-01T18:15:17.267Z'
   - VulnerabilityID: CVE-2023-7008
     PkgID: libnss-systemd@249.11-0ubuntu3.12
     PkgName: libnss-systemd
@@ -4179,6 +4192,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
       photon: 3
@@ -4191,6 +4205,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/05/4
     - https://access.redhat.com/errata/RHSA-2024:1963
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268273
@@ -4211,7 +4227,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-25T06:15:52.357Z'
+    LastModifiedDate: '2024-05-01T18:15:10.493Z'
 - Target: tmp/tmp.0DmawLQuhE/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -4732,6 +4748,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
       photon: 3
@@ -4744,6 +4761,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/05/4
     - https://access.redhat.com/errata/RHSA-2024:1963
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268273
@@ -4764,7 +4783,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-25T06:15:52.357Z'
+    LastModifiedDate: '2024-05-01T18:15:10.493Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -4830,6 +4849,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
       photon: 3
@@ -4842,6 +4862,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/05/4
     - https://access.redhat.com/errata/RHSA-2024:1963
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268273
@@ -4862,7 +4884,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-25T06:15:52.357Z'
+    LastModifiedDate: '2024-05-01T18:15:10.493Z'
   - VulnerabilityID: CVE-2024-24786
     PkgName: google.golang.org/protobuf
     PkgIdentifier:
@@ -4893,6 +4915,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/03/08/4
     - https://access.redhat.com/security/cve/CVE-2024-24786
     - https://github.com/protocolbuffers/protobuf-go
     - https://github.com/protocolbuffers/protobuf-go/commit/f01a588e5810b90996452eec4a28f22a0afae023
@@ -4909,7 +4932,7 @@
     - https://ubuntu.com/security/notices/USN-6746-1
     - https://www.cve.org/CVERecord?id=CVE-2024-24786
     PublishedDate: '2024-03-05T23:15:07.82Z'
-    LastModifiedDate: '2024-03-24T03:15:09.093Z'
+    LastModifiedDate: '2024-05-01T17:15:29.667Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -4935,6 +4958,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
       photon: 3
@@ -4947,6 +4971,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/05/4
     - https://access.redhat.com/errata/RHSA-2024:1963
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268273
@@ -4967,7 +4993,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-25T06:15:52.357Z'
+    LastModifiedDate: '2024-05-01T18:15:10.493Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -4993,6 +5019,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
       photon: 3
@@ -5005,6 +5032,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/05/4
     - https://access.redhat.com/errata/RHSA-2024:1963
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268273
@@ -5025,7 +5054,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-25T06:15:52.357Z'
+    LastModifiedDate: '2024-05-01T18:15:10.493Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -5051,6 +5080,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
       photon: 3
@@ -5063,6 +5093,8 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/05/4
     - https://access.redhat.com/errata/RHSA-2024:1963
     - https://access.redhat.com/security/cve/CVE-2023-45288
     - https://bugzilla.redhat.com/2268273
@@ -5083,7 +5115,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2023-45288
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
-    LastModifiedDate: '2024-04-25T06:15:52.357Z'
+    LastModifiedDate: '2024-05-01T18:15:10.493Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
