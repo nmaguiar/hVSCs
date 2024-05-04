@@ -7,6 +7,7 @@
     PkgName: apparmor
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/apparmor@3.0.4-2ubuntu2.3?arch=amd64&distro=ubuntu-22.04
+      UID: dce70422c924b88f
     InstalledVersion: 3.0.4-2ubuntu2.3
     Status: affected
     Layer:
@@ -48,6 +49,7 @@
     PkgName: coreutils
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/coreutils@8.32-4.1ubuntu1.2?arch=amd64&distro=ubuntu-22.04
+      UID: 4796b7f198dd0cd5
     InstalledVersion: 8.32-4.1ubuntu1.2
     Status: affected
     Layer:
@@ -96,6 +98,7 @@
     PkgName: dbus
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/dbus@1.12.20-2ubuntu4.1?arch=amd64&distro=ubuntu-22.04
+      UID: 92899a72c4bb0276
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
@@ -151,6 +154,7 @@
     PkgName: dbus-user-session
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/dbus-user-session@1.12.20-2ubuntu4.1?arch=amd64&distro=ubuntu-22.04
+      UID: 498bdc0cb78eb6f9
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
@@ -206,6 +210,7 @@
     PkgName: dirmngr
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/dirmngr@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
+      UID: ea34363a386ab7ce
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -249,6 +254,7 @@
     PkgName: gcc-12-base
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/gcc-12-base@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: 4075ab57b22d0ab2
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
@@ -297,6 +303,7 @@
     PkgName: git
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 153ea7cf5788f13b
     InstalledVersion: 1:2.34.1-1ubuntu1.10
     Status: affected
     Layer:
@@ -339,6 +346,7 @@
     PkgName: git-man
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 63b12f2fb8982317
     InstalledVersion: 1:2.34.1-1ubuntu1.10
     Status: affected
     Layer:
@@ -381,6 +389,7 @@
     PkgName: gnupg
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/gnupg@2.2.27-3ubuntu2.1?arch=all&distro=ubuntu-22.04
+      UID: 88487e9844c23040
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -424,6 +433,7 @@
     PkgName: gnupg-l10n
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/gnupg-l10n@2.2.27-3ubuntu2.1?arch=all&distro=ubuntu-22.04
+      UID: fd02db41f8d782c5
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -467,6 +477,7 @@
     PkgName: gnupg-utils
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/gnupg-utils@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
+      UID: 7c4d9fe0739b4112
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -510,6 +521,7 @@
     PkgName: gpg
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/gpg@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
+      UID: 42914550331f36f1
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -553,6 +565,7 @@
     PkgName: gpg-agent
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/gpg-agent@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
+      UID: 1ab7358bef491c04
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -596,6 +609,7 @@
     PkgName: gpg-wks-client
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/gpg-wks-client@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
+      UID: 97a42110ac2359e9
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -639,6 +653,7 @@
     PkgName: gpg-wks-server
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/gpg-wks-server@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
+      UID: c504e8102f8a0f02
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -682,6 +697,7 @@
     PkgName: gpgconf
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/gpgconf@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
+      UID: 342da1909a021c65
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -725,6 +741,7 @@
     PkgName: gpgsm
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/gpgsm@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
+      UID: 49510c3806257249
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -768,6 +785,7 @@
     PkgName: gpgv
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/gpgv@2.2.27-3ubuntu2.1?arch=amd64&distro=ubuntu-22.04
+      UID: ba7b5843fc3ec478
     InstalledVersion: 2.2.27-3ubuntu2.1
     Status: affected
     Layer:
@@ -811,6 +829,7 @@
     PkgName: less
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/less@590-1ubuntu0.22.04.2?arch=amd64&distro=ubuntu-22.04
+      UID: fffba92069e9efb3
     InstalledVersion: 590-1ubuntu0.22.04.2
     FixedVersion: 590-1ubuntu0.22.04.3
     Status: fixed
@@ -850,6 +869,7 @@
     PkgName: libapparmor1
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libapparmor1@3.0.4-2ubuntu2.3?arch=amd64&distro=ubuntu-22.04
+      UID: 4240ce1e08d8120f
     InstalledVersion: 3.0.4-2ubuntu2.3
     Status: affected
     Layer:
@@ -891,6 +911,7 @@
     PkgName: libatomic1
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: a9cda4079599b287
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
@@ -939,6 +960,7 @@
     PkgName: libc-bin
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.6?arch=amd64&distro=ubuntu-22.04
+      UID: af23bb2e13025630
     InstalledVersion: 2.35-0ubuntu3.6
     FixedVersion: 2.35-0ubuntu3.7
     Status: fixed
@@ -988,6 +1010,7 @@
     PkgName: libc-bin
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.6?arch=amd64&distro=ubuntu-22.04
+      UID: af23bb2e13025630
     InstalledVersion: 2.35-0ubuntu3.6
     Status: affected
     Layer:
@@ -1024,6 +1047,7 @@
     PkgName: libc6
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.6?arch=amd64&distro=ubuntu-22.04
+      UID: b9f8709c3b3b5b75
     InstalledVersion: 2.35-0ubuntu3.6
     FixedVersion: 2.35-0ubuntu3.7
     Status: fixed
@@ -1073,6 +1097,7 @@
     PkgName: libc6
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.6?arch=amd64&distro=ubuntu-22.04
+      UID: b9f8709c3b3b5b75
     InstalledVersion: 2.35-0ubuntu3.6
     Status: affected
     Layer:
@@ -1109,6 +1134,7 @@
     PkgName: libdbus-1-3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libdbus-1-3@1.12.20-2ubuntu4.1?arch=amd64&distro=ubuntu-22.04
+      UID: 227582557f6bfead
     InstalledVersion: 1.12.20-2ubuntu4.1
     Status: affected
     Layer:
@@ -1164,6 +1190,7 @@
     PkgName: libgcc-s1
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: 6257d10d2f5fde2a
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
@@ -1212,6 +1239,7 @@
     PkgName: libgcrypt20
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libgcrypt20@1.9.4-3ubuntu3?arch=amd64&distro=ubuntu-22.04
+      UID: 694957d2501a09a3
     InstalledVersion: 1.9.4-3ubuntu3
     Status: affected
     Layer:
@@ -1250,6 +1278,7 @@
     PkgName: libgd3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libgd3@2.3.0-2ubuntu2?arch=amd64&distro=ubuntu-22.04
+      UID: bbe51334f9180c93
     InstalledVersion: 2.3.0-2ubuntu2
     Status: affected
     Layer:
@@ -1291,6 +1320,7 @@
     PkgName: libgnutls30
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libgnutls30@3.7.3-4ubuntu1.4?arch=amd64&distro=ubuntu-22.04
+      UID: e2300d946dd38d7c
     InstalledVersion: 3.7.3-4ubuntu1.4
     FixedVersion: 3.7.3-4ubuntu1.5
     Status: fixed
@@ -1349,6 +1379,7 @@
     PkgName: libgnutls30
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libgnutls30@3.7.3-4ubuntu1.4?arch=amd64&distro=ubuntu-22.04
+      UID: e2300d946dd38d7c
     InstalledVersion: 3.7.3-4ubuntu1.4
     FixedVersion: 3.7.3-4ubuntu1.5
     Status: fixed
@@ -1402,6 +1433,7 @@
     PkgName: libgssapi-krb5-2
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: f6f8dae5522caeb6
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1436,6 +1468,7 @@
     PkgName: libgssapi-krb5-2
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: f6f8dae5522caeb6
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1470,6 +1503,7 @@
     PkgName: libgssapi-krb5-2
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: f6f8dae5522caeb6
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1504,6 +1538,7 @@
     PkgName: libk5crypto3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: 3c3bb532796f0536
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1538,6 +1573,7 @@
     PkgName: libk5crypto3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: 3c3bb532796f0536
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1572,6 +1608,7 @@
     PkgName: libk5crypto3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: 3c3bb532796f0536
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1606,6 +1643,7 @@
     PkgName: libkrb5-3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: 9c43e87afe72a52b
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1640,6 +1678,7 @@
     PkgName: libkrb5-3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: 9c43e87afe72a52b
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1674,6 +1713,7 @@
     PkgName: libkrb5-3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: 9c43e87afe72a52b
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1708,6 +1748,7 @@
     PkgName: libkrb5support0
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: f022930d0e3b70e
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1742,6 +1783,7 @@
     PkgName: libkrb5support0
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: f022930d0e3b70e
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1776,6 +1818,7 @@
     PkgName: libkrb5support0
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3?arch=amd64&distro=ubuntu-22.04
+      UID: f022930d0e3b70e
     InstalledVersion: 1.19.2-2ubuntu0.3
     Status: affected
     Layer:
@@ -1810,6 +1853,7 @@
     PkgName: liblzma5
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/liblzma5@5.2.5-2ubuntu1?arch=amd64&distro=ubuntu-22.04
+      UID: c886531efb61381e
     InstalledVersion: 5.2.5-2ubuntu1
     Status: affected
     Layer:
@@ -1853,6 +1897,7 @@
     PkgName: libncurses6
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+      UID: 9869aee33f3484a3
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -1881,6 +1926,7 @@
     PkgName: libncurses6
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+      UID: 9869aee33f3484a3
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -1923,6 +1969,7 @@
     PkgName: libncursesw6
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+      UID: 2e846f63d048b8a6
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -1951,6 +1998,7 @@
     PkgName: libncursesw6
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+      UID: 2e846f63d048b8a6
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -1993,6 +2041,7 @@
     PkgName: libnghttp2-14
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libnghttp2-14@1.43.0-1ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+      UID: f7b64e5ccbe889aa
     InstalledVersion: 1.43.0-1ubuntu0.1
     FixedVersion: 1.43.0-1ubuntu0.2
     Status: fixed
@@ -2040,6 +2089,7 @@
     PkgName: libnss-systemd
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: 54a24e9ac07bc2a4
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
@@ -2086,6 +2136,7 @@
     PkgName: libpam-systemd
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: a365aa18ca280cfd
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
@@ -2132,6 +2183,7 @@
     PkgName: libpcre3
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?arch=amd64&distro=ubuntu-22.04&epoch=2
+      UID: 457be41266788e09
     InstalledVersion: 2:8.39-13ubuntu0.22.04.1
     Status: affected
     Layer:
@@ -2178,6 +2230,7 @@
     PkgName: libpng16-16
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpng16-16@1.6.37-3build5?arch=amd64&distro=ubuntu-22.04
+      UID: 2c843c48aee177f6
     InstalledVersion: 1.6.37-3build5
     Status: affected
     Layer:
@@ -2219,6 +2272,7 @@
     PkgName: libpython3.10
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.3?arch=amd64&distro=ubuntu-22.04
+      UID: 777a412d95202bd9
     InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
@@ -2300,6 +2354,7 @@
     PkgName: libpython3.10-minimal
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~22.04.3?arch=amd64&distro=ubuntu-22.04
+      UID: fabecc754bc6b4a7
     InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
@@ -2381,6 +2436,7 @@
     PkgName: libpython3.10-stdlib
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22.04.3?arch=amd64&distro=ubuntu-22.04
+      UID: 70acdfa8a3eeb7eb
     InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
@@ -2462,6 +2518,7 @@
     PkgName: libstdc++6
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22.04?arch=amd64&distro=ubuntu-22.04
+      UID: caf597c249d7fce7
     InstalledVersion: 12.3.0-1ubuntu1~22.04
     Status: affected
     Layer:
@@ -2510,6 +2567,7 @@
     PkgName: libsystemd0
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: f4f79805aa463487
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
@@ -2556,6 +2614,7 @@
     PkgName: libtiff5
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.8?arch=amd64&distro=ubuntu-22.04
+      UID: 4b2b7ff439df067b
     InstalledVersion: 4.3.0-6ubuntu0.8
     Status: affected
     Layer:
@@ -2599,6 +2658,7 @@
     PkgName: libtiff5
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.8?arch=amd64&distro=ubuntu-22.04
+      UID: 4b2b7ff439df067b
     InstalledVersion: 4.3.0-6ubuntu0.8
     Status: affected
     Layer:
@@ -2641,6 +2701,7 @@
     PkgName: libtinfo6
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+      UID: 309bf0ed9fbe4dd6
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -2669,6 +2730,7 @@
     PkgName: libtinfo6
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+      UID: 309bf0ed9fbe4dd6
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -2711,6 +2773,7 @@
     PkgName: libudev1
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: c89e44d903e135cf
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
@@ -2757,6 +2820,7 @@
     PkgName: libzstd1
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arch=amd64&distro=ubuntu-22.04
+      UID: e944b62f4cb3af96
     InstalledVersion: 1.4.8+dfsg-3build1
     Status: affected
     Layer:
@@ -2896,6 +2960,7 @@
     PkgName: login
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 30c6f401b0bfd862
     InstalledVersion: 1:4.8.1-2ubuntu2.2
     Status: affected
     Layer:
@@ -2939,6 +3004,7 @@
     PkgName: ncurses-base
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&distro=ubuntu-22.04
+      UID: 97290053f00ee1f8
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -2967,6 +3033,7 @@
     PkgName: ncurses-base
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=all&distro=ubuntu-22.04
+      UID: 97290053f00ee1f8
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -3009,6 +3076,7 @@
     PkgName: ncurses-bin
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+      UID: 6d72e540ccb8f7f0
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -3037,6 +3105,7 @@
     PkgName: ncurses-bin
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=amd64&distro=ubuntu-22.04
+      UID: 6d72e540ccb8f7f0
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -3079,6 +3148,7 @@
     PkgName: ncurses-term
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&distro=ubuntu-22.04
+      UID: 24f77879d5274538
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -3107,6 +3177,7 @@
     PkgName: ncurses-term
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=all&distro=ubuntu-22.04
+      UID: 24f77879d5274538
     InstalledVersion: 6.3-2ubuntu0.1
     Status: affected
     Layer:
@@ -3149,6 +3220,7 @@
     PkgName: passwd
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: fdae63299709146e
     InstalledVersion: 1:4.8.1-2ubuntu2.2
     Status: affected
     Layer:
@@ -3192,6 +3264,7 @@
     PkgName: python3.10
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arch=amd64&distro=ubuntu-22.04
+      UID: e18631285537a262
     InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
@@ -3273,6 +3346,7 @@
     PkgName: python3.10-minimal
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.04.3?arch=amd64&distro=ubuntu-22.04
+      UID: b31cdfacac7f322f
     InstalledVersion: 3.10.12-1~22.04.3
     Status: affected
     Layer:
@@ -3354,6 +3428,7 @@
     PkgName: systemd
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: b3f41c4f8d47efe3
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
@@ -3400,6 +3475,7 @@
     PkgName: systemd-sysv
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: bf1e04b48793e4de
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
@@ -3446,6 +3522,7 @@
     PkgName: systemd-timesyncd
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3.12?arch=amd64&distro=ubuntu-22.04
+      UID: e1c5c63da3bc74ca
     InstalledVersion: 249.11-0ubuntu3.12
     Status: affected
     Layer:
@@ -3492,6 +3569,7 @@
     PkgName: uidmap
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 67c9961d641ee67c
     InstalledVersion: 1:4.8.1-2ubuntu2.2
     Status: affected
     Layer:
@@ -3535,6 +3613,7 @@
     PkgName: wget
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&distro=ubuntu-22.04
+      UID: 7126e800c4262fbf
     InstalledVersion: 1.21.2-2ubuntu1
     Status: affected
     Layer:
@@ -3581,6 +3660,7 @@
     PkgName: xz-utils
     PkgIdentifier:
       PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd64&distro=ubuntu-22.04
+      UID: a566a9d07e24b1f1
     InstalledVersion: 5.2.5-2ubuntu1
     Status: affected
     Layer:
@@ -3628,6 +3708,7 @@
     PkgPath: home/workspace/.openvscode-server/extensions/redhat.vscode-xml-0.26.1-linux-x64/server/org.eclipse.lemminx-0.26.1-uber.jar
     PkgIdentifier:
       PURL: pkg:maven/org.jsoup/jsoup@1.14.2
+      UID: d7f6653d798b5594
     InstalledVersion: 1.14.2
     FixedVersion: 1.15.3
     Status: fixed
@@ -3682,6 +3763,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
+      UID: 8de829e795380705
     InstalledVersion: v0.12.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -3832,6 +3914,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
+      UID: 8de829e795380705
     InstalledVersion: v0.12.0
     FixedVersion: 0.13.0
     Status: fixed
@@ -3897,6 +3980,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
+      UID: 8de829e795380705
     InstalledVersion: v0.12.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -4177,6 +4261,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
+      UID: 8de829e795380705
     InstalledVersion: v0.12.0
     FixedVersion: 0.23.0
     Status: fixed
@@ -4230,6 +4315,824 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-05-01T18:15:10.493Z'
+  - VulnerabilityID: CVE-2023-39325
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.10, 1.21.3
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39325
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
+    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      bitnami: 3
+      cbl-mariner: 3
+      ghsa: 3
+      nvd: 3
+      oracle-oval: 2
+      redhat: 3
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - golang.org/x/net
+    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/security/cve/CVE-2023-39325
+    - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2243296
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
+    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
+    - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
+    - https://github.com/golang/go/issues/63417
+    - https://go.dev/cl/534215
+    - https://go.dev/cl/534235
+    - https://go.dev/issue/63417
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
+    - https://linux.oracle.com/cve/CVE-2023-39325.html
+    - https://linux.oracle.com/errata/ELSA-2023-5867.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3OVW5V2DM5K5IC3H7O42YDUGNJ74J35O
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3OVW5V2DM5K5IC3H7O42YDUGNJ74J35O/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5RSKA2II6QTD4YUKUNDVJQSRYSFC4VFR
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5RSKA2II6QTD4YUKUNDVJQSRYSFC4VFR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AVZDNSMVDAQJ64LJC5I5U5LDM5753647
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AVZDNSMVDAQJ64LJC5I5U5LDM5753647/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/D2BBIDR2ZMB3X5BC7SR4SLQMHRMVPY6L
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/D2BBIDR2ZMB3X5BC7SR4SLQMHRMVPY6L/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ECRC75BQJP6FJN2L7KCKYZW4DSBD7QSD
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ECRC75BQJP6FJN2L7KCKYZW4DSBD7QSD/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FTMJ3NJIDAZFWJQQSP3L22MUFJ3UP2PT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FTMJ3NJIDAZFWJQQSP3L22MUFJ3UP2PT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GSY7SXFFTPZFWDM6XELSDSHZLVW3AHK7
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GSY7SXFFTPZFWDM6XELSDSHZLVW3AHK7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HZQIELEIRSZUYTFFH5KTH2YJ4IIQG2KE
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HZQIELEIRSZUYTFFH5KTH2YJ4IIQG2KE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IPWCNYB5PQ5PCVZ4NJT6G56ZYFZ5QBU6
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IPWCNYB5PQ5PCVZ4NJT6G56ZYFZ5QBU6/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KEOTKBUPZXHE3F352JBYNTSNRXYLWD6P
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KEOTKBUPZXHE3F352JBYNTSNRXYLWD6P/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L5E5JSJBZLYXOTZWXHJKRVCIXIHVWKJ6
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L5E5JSJBZLYXOTZWXHJKRVCIXIHVWKJ6/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MZQYOOKHQDQ57LV2IAG6NRFOVXKHJJ3Z
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MZQYOOKHQDQ57LV2IAG6NRFOVXKHJJ3Z/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/REMHVVIBDNKSRKNOTV7EQSB7CYQWOUOU
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/REMHVVIBDNKSRKNOTV7EQSB7CYQWOUOU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T7N5GV4CHH6WAGX3GFMDD3COEOVCZ4RI
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T7N5GV4CHH6WAGX3GFMDD3COEOVCZ4RI/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ULQQONMSCQSH5Z5OWFFQHCGEZ3NL4DRJ
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ULQQONMSCQSH5Z5OWFFQHCGEZ3NL4DRJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UTT7DG3QOF5ZNJLUGHDNLRUIN6OWZARP
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UTT7DG3QOF5ZNJLUGHDNLRUIN6OWZARP/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/W2LZSWTV4NV4SNQARNXG5T6LRHP26EW2
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/W2LZSWTV4NV4SNQARNXG5T6LRHP26EW2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WCNCBYKZXLDFGAJUB7ZP5VLC3YTHJNVH
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WCNCBYKZXLDFGAJUB7ZP5VLC3YTHJNVH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YJWHBLVZDM5KQSDFRBFRKU5KSSOLIRQ4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YJWHBLVZDM5KQSDFRBFRKU5KSSOLIRQ4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZSVEMQV5ROY5YW5QE3I57HT3ITWG5GCV
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZSVEMQV5ROY5YW5QE3I57HT3ITWG5GCV/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
+    - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20231110-0008
+    - https://security.netapp.com/advisory/ntap-20231110-0008/
+    - https://ubuntu.com/security/notices/USN-6574-1
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
+    - https://www.cve.org/CVERecord?id=CVE-2023-39325
+    PublishedDate: '2023-10-11T22:15:09.88Z'
+    LastModifiedDate: '2024-04-28T04:15:09.877Z'
+  - VulnerabilityID: CVE-2023-45283
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.11, 1.21.4, 1.20.12, 1.21.5
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45283
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The filepath package does not recognize paths with a \??\ prefix as sp ...
+    Description: 'The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\..\??\b into the root local device path \??\b. Clean will now convert this to .\??\b. Similarly, Join(\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \??\b. Join will now convert this to \.\??\b. In addition, with fix, IsAbs now correctly reports paths beginning with \??\ as absolute, and VolumeName correctly reports the \??\ prefix as a volume name. UPDATE: Go 1.20.11 and Go 1.21.4 inadvertently changed the definition of the volume name in Windows paths starting with \?, resulting in filepath.Clean(\?\c:) returning \?\c: rather than \?\c:\ (among other effects). The previous behavior has been restored.'
+    Severity: HIGH
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      amazon: 2
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      photon: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/12/05/2
+    - https://go.dev/cl/540277
+    - https://go.dev/cl/541175
+    - https://go.dev/issue/63713
+    - https://go.dev/issue/64028
+    - https://groups.google.com/g/golang-announce/c/4tU8LZfBFkY
+    - https://groups.google.com/g/golang-dev/c/6ypN5EjibjM/m/KmLVYH_uAgAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45283
+    - https://pkg.go.dev/vuln/GO-2023-2185
+    - https://security.netapp.com/advisory/ntap-20231214-0008/
+    PublishedDate: '2023-11-09T17:15:08.757Z'
+    LastModifiedDate: '2023-12-14T10:15:07.947Z'
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.9, 1.22.2
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: HIGH
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      ghsa: 2
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/05/4
+    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://security.netapp.com/advisory/ntap-20240419-0009
+    - https://security.netapp.com/advisory/ntap-20240419-0009/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-05-01T18:15:10.493Z'
+  - VulnerabilityID: CVE-2023-29406
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.19.11, 1.20.6
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29406
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http: insufficient sanitization of Host header'
+    Description: The HTTP/1 client does not fully validate the contents of the Host header. A maliciously crafted Host header can inject additional headers or entire requests. With fix, the HTTP/1 client now refuses to send requests containing an invalid Request.Host or Request.URL.Host value.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-436
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/security/cve/CVE-2023-29406
+    - https://bugzilla.redhat.com/2174485
+    - https://bugzilla.redhat.com/2178358
+    - https://bugzilla.redhat.com/2178488
+    - https://bugzilla.redhat.com/2178492
+    - https://bugzilla.redhat.com/2184481
+    - https://bugzilla.redhat.com/2184482
+    - https://bugzilla.redhat.com/2184483
+    - https://bugzilla.redhat.com/2184484
+    - https://bugzilla.redhat.com/2196026
+    - https://bugzilla.redhat.com/2196027
+    - https://bugzilla.redhat.com/2196029
+    - https://bugzilla.redhat.com/2222167
+    - https://bugzilla.redhat.com/2228689
+    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://github.com/golang/go/commit/312920c00aac9897b2a0693e752390b5b0711a5a (go1.20.6)
+    - https://github.com/golang/go/commit/5fa6923b1ea891400153d04ddf1545e23b40041b (go1.19.11)
+    - https://github.com/golang/go/issues/60374
+    - https://go.dev/cl/506996
+    - https://go.dev/issue/60374
+    - https://groups.google.com/g/golang-announce/c/2q13H6LEEx0
+    - https://linux.oracle.com/cve/CVE-2023-29406.html
+    - https://linux.oracle.com/errata/ELSA-2023-7202.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-29406
+    - https://pkg.go.dev/vuln/GO-2023-1878
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20230814-0002/
+    - https://www.cve.org/CVERecord?id=CVE-2023-29406
+    PublishedDate: '2023-07-11T20:15:10.643Z'
+    LastModifiedDate: '2023-11-25T11:15:14.727Z'
+  - VulnerabilityID: CVE-2023-29409
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.19.12, 1.20.7, 1.21.0-rc.4
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29409
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: crypto/tls: slow verification of certificate chains containing large RSA keys'
+    Description: Extremely large RSA keys in certificate chains can cause a client/server to expend significant CPU time verifying signatures. With fix, the size of RSA keys transmitted during handshakes is restricted to <= 8192 bits. Based on a survey of publicly trusted RSA keys, there are currently only three certificates in circulation with keys larger than this, and all three appear to be test certificates that are not actively deployed. It is possible there are larger keys in use in private PKIs, but we target the web PKI, so causing breakage here in the interests of increasing the default safety of users of crypto/tls seems reasonable.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/security/cve/CVE-2023-29409
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2237773
+    - https://bugzilla.redhat.com/2237776
+    - https://bugzilla.redhat.com/2237777
+    - https://bugzilla.redhat.com/2237778
+    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://go.dev/cl/515257
+    - https://go.dev/issue/61460
+    - https://groups.google.com/g/golang-announce/c/X0b6CsSAaYI/m/Efv5DbZ9AwAJ
+    - https://linux.oracle.com/cve/CVE-2023-29409.html
+    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-29409
+    - https://pkg.go.dev/vuln/GO-2023-1987
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20230831-0010/
+    - https://www.cve.org/CVERecord?id=CVE-2023-29409
+    PublishedDate: '2023-08-02T20:15:11.94Z'
+    LastModifiedDate: '2023-11-25T11:15:14.87Z'
+  - VulnerabilityID: CVE-2023-39318
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.8, 1.21.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39318
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: html/template: improper handling of HTML-like comments within script contexts'
+    Description: The html/template package does not properly handle HTML-like "" comment tokens, nor hashbang "#!" comment tokens, in <script> contexts. This may cause the template parser to improperly interpret the contents of <script> contexts, causing actions to be improperly escaped. This may be leveraged to perform an XSS attack.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-79
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/security/cve/CVE-2023-39318
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2237773
+    - https://bugzilla.redhat.com/2237776
+    - https://bugzilla.redhat.com/2237777
+    - https://bugzilla.redhat.com/2237778
+    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://github.com/golang/go/commit/023b542edf38e2a1f87fcefb9f75ff2f99401b4c (go1.20.8)
+    - https://github.com/golang/go/commit/b0e1d3ea26e8e8fce7726690c9ef0597e60739fb (go1.21.1)
+    - https://go.dev/cl/526156
+    - https://go.dev/issue/62196
+    - https://groups.google.com/g/golang-announce/c/Fm51GRLNRvM
+    - https://groups.google.com/g/golang-dev/c/2C5vbR-UNkI/m/L1hdrPhfBAAJ
+    - https://linux.oracle.com/cve/CVE-2023-39318.html
+    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-39318
+    - https://pkg.go.dev/vuln/GO-2023-2041
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20231020-0009/
+    - https://ubuntu.com/security/notices/USN-6574-1
+    - https://vuln.go.dev/ID/GO-2023-2041.json
+    - https://www.cve.org/CVERecord?id=CVE-2023-39318
+    PublishedDate: '2023-09-08T17:15:27.823Z'
+    LastModifiedDate: '2023-11-25T11:15:17.43Z'
+  - VulnerabilityID: CVE-2023-39319
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.8, 1.21.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39319
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: html/template: improper handling of special tags within script contexts'
+    Description: The html/template package does not apply the proper rules for handling occurrences of "<script", "<!--", and "</script" within JS literals in <script> contexts. This may cause the template parser to improperly consider script contexts to be terminated early, causing actions to be improperly escaped. This could be leveraged to perform an XSS attack.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-79
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/security/cve/CVE-2023-39319
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2237773
+    - https://bugzilla.redhat.com/2237776
+    - https://bugzilla.redhat.com/2237777
+    - https://bugzilla.redhat.com/2237778
+    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://github.com/golang/go/commit/2070531d2f53df88e312edace6c8dfc9686ab2f5 (go1.20.8)
+    - https://github.com/golang/go/commit/bbd043ff0d6d59f1a9232d31ecd5eacf6507bf6a (go1.21.1)
+    - https://go.dev/cl/526157
+    - https://go.dev/issue/62197
+    - https://groups.google.com/g/golang-announce/c/Fm51GRLNRvM
+    - https://groups.google.com/g/golang-dev/c/2C5vbR-UNkI/m/L1hdrPhfBAAJ
+    - https://linux.oracle.com/cve/CVE-2023-39319.html
+    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-39319
+    - https://pkg.go.dev/vuln/GO-2023-2043
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20231020-0009/
+    - https://ubuntu.com/security/notices/USN-6574-1
+    - https://vuln.go.dev/ID/GO-2023-2043.json
+    - https://www.cve.org/CVERecord?id=CVE-2023-39319
+    PublishedDate: '2023-09-08T17:15:27.91Z'
+    LastModifiedDate: '2023-11-25T11:15:17.543Z'
+  - VulnerabilityID: CVE-2023-39326
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.12, 1.21.5
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39326
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http/internal: Denial of Service (DoS) via Resource Consumption via HTTP requests'
+    Description: A malicious HTTP sender can use chunk extensions to cause a receiver reading from a request or response body to read many more bytes from the network than are in the body. A malicious HTTP client can further exploit this to cause a server to automatically read a large amount of data (up to about 1GiB) when a handler fails to read the entire body of a request. Chunk extensions are a little-used HTTP feature which permit including additional metadata in a request or response body sent using the chunked encoding. The net/http chunked encoding reader discards this metadata. A sender can exploit this by inserting a large metadata segment with each byte transferred. The chunk reader now produces an error if the ratio of real body to encoded bytes grows too small.
+    Severity: MEDIUM
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1149
+    - https://access.redhat.com/security/cve/CVE-2023-39326
+    - https://bugzilla.redhat.com/2253330
+    - https://errata.almalinux.org/9/ALSA-2024-1149.html
+    - https://github.com/golang/go/commit/6446af942e2e2b161c4ec1b60d9703a2b55dc4dd (go1.20.12)
+    - https://github.com/golang/go/commit/ec8c526e4be720e94b98ca509e6364f0efaf28f7 (go1.21.5)
+    - https://go.dev/cl/547335
+    - https://go.dev/issue/64433
+    - https://groups.google.com/g/golang-dev/c/6ypN5EjibjM/m/KmLVYH_uAgAJ
+    - https://linux.oracle.com/cve/CVE-2023-39326.html
+    - https://linux.oracle.com/errata/ELSA-2024-12264.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UIU6HOGV6RRIKWM57LOXQA75BGZSIH6G/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-39326
+    - https://pkg.go.dev/vuln/GO-2023-2382
+    - https://ubuntu.com/security/notices/USN-6574-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-39326
+    PublishedDate: '2023-12-06T17:15:07.147Z'
+    LastModifiedDate: '2024-01-20T04:15:07.89Z'
+  - VulnerabilityID: CVE-2023-45284
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.11, 1.21.4
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45284
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: On Windows, The IsLocal function does not correctly detect reserved de ...
+    Description: On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      photon: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://go.dev/cl/540277
+    - https://go.dev/issue/63713
+    - https://groups.google.com/g/golang-announce/c/4tU8LZfBFkY
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45284
+    - https://pkg.go.dev/vuln/GO-2023-2186
+    PublishedDate: '2023-11-09T17:15:08.813Z'
+    LastModifiedDate: '2023-11-17T16:39:27.45Z'
+  - VulnerabilityID: CVE-2023-45289
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.8, 1.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45289
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http/cookiejar: incorrect forwarding of sensitive headers and cookies on HTTP redirect'
+    Description: When following an HTTP redirect to a domain which is not a subdomain match or exact match of the initial domain, an http.Client does not forward sensitive headers such as "Authorization" or "Cookie". For example, a redirect from foo.com to www.foo.com will forward the Authorization header, but a redirect to bar.com will not. A maliciously crafted HTTP redirect could cause sensitive headers to be unexpectedly forwarded.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/security/cve/CVE-2023-45289
+    - https://go.dev/cl/569340
+    - https://go.dev/issue/65065
+    - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45289
+    - https://pkg.go.dev/vuln/GO-2024-2600
+    - https://security.netapp.com/advisory/ntap-20240329-0006/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45289
+    PublishedDate: '2024-03-05T23:15:07.137Z'
+    LastModifiedDate: '2024-05-01T17:15:25.983Z'
+  - VulnerabilityID: CVE-2023-45290
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.8, 1.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45290
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http: memory exhaustion in Request.ParseMultipartForm'
+    Description: When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/security/cve/CVE-2023-45290
+    - https://go.dev/cl/569341
+    - https://go.dev/issue/65383
+    - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
+    - https://pkg.go.dev/vuln/GO-2024-2599
+    - https://security.netapp.com/advisory/ntap-20240329-0004/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45290
+    PublishedDate: '2024-03-05T23:15:07.21Z'
+    LastModifiedDate: '2024-05-01T17:15:26.04Z'
+  - VulnerabilityID: CVE-2024-24783
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.8, 1.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24783
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: crypto/x509: Verify panics on certificates with an unknown public key algorithm'
+    Description: Verifying a certificate chain which contains a certificate with an unknown public key algorithm will cause Certificate.Verify to panic. This affects all crypto/tls clients, and servers that set Config.ClientAuth to VerifyClientCertIfGiven or RequireAndVerifyClientCert. The default behavior is for TLS servers to not verify client certificates.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/security/cve/CVE-2024-24783
+    - https://go.dev/cl/569339
+    - https://go.dev/issue/65390
+    - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
+    - https://pkg.go.dev/vuln/GO-2024-2598
+    - https://security.netapp.com/advisory/ntap-20240329-0005/
+    - https://www.cve.org/CVERecord?id=CVE-2024-24783
+    PublishedDate: '2024-03-05T23:15:07.683Z'
+    LastModifiedDate: '2024-05-01T17:15:29.45Z'
+  - VulnerabilityID: CVE-2024-24784
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.8, 1.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24784
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/mail: comments in display names are incorrectly handled'
+    Description: The ParseAddressList function incorrectly handles comments (text within parentheses) within display names. Since this is a misalignment with conforming address parsers, it can result in different trust decisions being made by programs using different parsers.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/security/cve/CVE-2024-24784
+    - https://go.dev/cl/555596
+    - https://go.dev/issue/65083
+    - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
+    - https://pkg.go.dev/vuln/GO-2024-2609
+    - https://security.netapp.com/advisory/ntap-20240329-0007/
+    - https://www.cve.org/CVERecord?id=CVE-2024-24784
+    PublishedDate: '2024-03-05T23:15:07.733Z'
+    LastModifiedDate: '2024-05-01T17:15:29.527Z'
+  - VulnerabilityID: CVE-2024-24785
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.8, 1.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24785
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: html/template: errors returned from MarshalJSON methods may break template escaping'
+    Description: If errors returned from MarshalJSON methods contain user controlled data, they may be used to break the contextual auto-escaping behavior of the html/template package, allowing for subsequent actions to inject unexpected content into templates.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/security/cve/CVE-2024-24785
+    - https://go.dev/cl/564196
+    - https://go.dev/issue/65697
+    - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24785
+    - https://pkg.go.dev/vuln/GO-2024-2610
+    - https://security.netapp.com/advisory/ntap-20240329-0008/
+    - https://www.cve.org/CVERecord?id=CVE-2024-24785
+    PublishedDate: '2024-03-05T23:15:07.777Z'
+    LastModifiedDate: '2024-05-01T17:15:29.61Z'
 - Target: tmp/tmp.0DmawLQuhE/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -4238,6 +5141,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
+      UID: c83bdcf897f279e6
     InstalledVersion: v0.12.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -4388,6 +5292,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
+      UID: c83bdcf897f279e6
     InstalledVersion: v0.12.0
     FixedVersion: 0.13.0
     Status: fixed
@@ -4453,6 +5358,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
+      UID: c83bdcf897f279e6
     InstalledVersion: v0.12.0
     FixedVersion: 0.17.0
     Status: fixed
@@ -4733,6 +5639,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.12.0
+      UID: c83bdcf897f279e6
     InstalledVersion: v0.12.0
     FixedVersion: 0.23.0
     Status: fixed
@@ -4786,6 +5693,824 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-05-01T18:15:10.493Z'
+  - VulnerabilityID: CVE-2023-39325
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.10, 1.21.3
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39325
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-44487)'
+    Description: A malicious HTTP/2 client which rapidly creates requests and immediately resets them can cause excessive server resource consumption. While the total number of requests is bounded by the http2.Server.MaxConcurrentStreams setting, resetting an in-progress request allows the attacker to create a new request while the existing one is still executing. With the fix applied, HTTP/2 servers now bound the number of simultaneously executing handler goroutines to the stream concurrency limit (MaxConcurrentStreams). New requests arriving when at the limit (which can only happen after the client has reset an existing, in-flight request) will be queued until a handler exits. If the request queue grows too large, the server will terminate the connection. This issue is also fixed in golang.org/x/net/http2 for users manually configuring HTTP/2. The default stream concurrency limit is 250 streams (requests) per HTTP/2 connection. This value may be adjusted using the golang.org/x/net/http2 package; see the Server.MaxConcurrentStreams setting and the ConfigureServer function.
+    Severity: HIGH
+    CweIDs:
+    - CWE-770
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      bitnami: 3
+      cbl-mariner: 3
+      ghsa: 3
+      nvd: 3
+      oracle-oval: 2
+      redhat: 3
+      rocky: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - golang.org/x/net
+    - https://access.redhat.com/errata/RHSA-2023:6077
+    - https://access.redhat.com/security/cve/CVE-2023-39325
+    - https://access.redhat.com/security/cve/CVE-2023-44487
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2023-003
+    - https://bugzilla.redhat.com/2242803
+    - https://bugzilla.redhat.com/2243296
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2242803
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2243296
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
+    - https://errata.almalinux.org/9/ALSA-2023-6077.html
+    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
+    - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
+    - https://github.com/golang/go/issues/63417
+    - https://go.dev/cl/534215
+    - https://go.dev/cl/534235
+    - https://go.dev/issue/63417
+    - https://groups.google.com/g/golang-announce/c/iNNxDTCjZvo/m/UDd7VKQuAAAJ
+    - https://linux.oracle.com/cve/CVE-2023-39325.html
+    - https://linux.oracle.com/errata/ELSA-2023-5867.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3OVW5V2DM5K5IC3H7O42YDUGNJ74J35O
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3OVW5V2DM5K5IC3H7O42YDUGNJ74J35O/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3SZN67IL7HMGMNAVLOTIXLIHUDXZK4LH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/3WJ4QVX2AMUJ2F2S27POOAHRC4K3CHU4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4BUK2ZIAGCULOOYDNH25JPU6JBES5NF2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5RSKA2II6QTD4YUKUNDVJQSRYSFC4VFR
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5RSKA2II6QTD4YUKUNDVJQSRYSFC4VFR/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AVZDNSMVDAQJ64LJC5I5U5LDM5753647
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AVZDNSMVDAQJ64LJC5I5U5LDM5753647/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CLB4TW7KALB3EEQWNWCN7OUIWWVWWCG2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/D2BBIDR2ZMB3X5BC7SR4SLQMHRMVPY6L
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/D2BBIDR2ZMB3X5BC7SR4SLQMHRMVPY6L/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ECRC75BQJP6FJN2L7KCKYZW4DSBD7QSD
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ECRC75BQJP6FJN2L7KCKYZW4DSBD7QSD/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FTMJ3NJIDAZFWJQQSP3L22MUFJ3UP2PT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/FTMJ3NJIDAZFWJQQSP3L22MUFJ3UP2PT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GSY7SXFFTPZFWDM6XELSDSHZLVW3AHK7
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GSY7SXFFTPZFWDM6XELSDSHZLVW3AHK7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HZQIELEIRSZUYTFFH5KTH2YJ4IIQG2KE
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HZQIELEIRSZUYTFFH5KTH2YJ4IIQG2KE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IPWCNYB5PQ5PCVZ4NJT6G56ZYFZ5QBU6
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IPWCNYB5PQ5PCVZ4NJT6G56ZYFZ5QBU6/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KEOTKBUPZXHE3F352JBYNTSNRXYLWD6P
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KEOTKBUPZXHE3F352JBYNTSNRXYLWD6P/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KSEGD2IWKNUO3DWY4KQGUQM5BISRWHQE/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L5E5JSJBZLYXOTZWXHJKRVCIXIHVWKJ6
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/L5E5JSJBZLYXOTZWXHJKRVCIXIHVWKJ6/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MZQYOOKHQDQ57LV2IAG6NRFOVXKHJJ3Z
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/MZQYOOKHQDQ57LV2IAG6NRFOVXKHJJ3Z/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NG7IMPL55MVWU3LCI4JQJT3K2U5CHDV7/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ODBY7RVMGZCBSTWF2OZGIZS57FNFUL67/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/OXGWPQOJ3JNDW2XIYKIVJ7N7QUIFNM2Q/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PJCUNGIQDUMZ4Z6HWVYIMR66A35F5S74/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QF5QSYAOPDOWLY6DUHID56Q4HQFYB45I/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QXOU2JZUBEBP7GBKAYIJRPRBZSJCD7ST/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/R3UETKPUB3V5JS5TLZOF3SMTGT5K5APS/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/REMHVVIBDNKSRKNOTV7EQSB7CYQWOUOU
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/REMHVVIBDNKSRKNOTV7EQSB7CYQWOUOU/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T7N5GV4CHH6WAGX3GFMDD3COEOVCZ4RI
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/T7N5GV4CHH6WAGX3GFMDD3COEOVCZ4RI/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ULQQONMSCQSH5Z5OWFFQHCGEZ3NL4DRJ
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ULQQONMSCQSH5Z5OWFFQHCGEZ3NL4DRJ/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UTT7DG3QOF5ZNJLUGHDNLRUIN6OWZARP
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UTT7DG3QOF5ZNJLUGHDNLRUIN6OWZARP/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/W2LZSWTV4NV4SNQARNXG5T6LRHP26EW2
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/W2LZSWTV4NV4SNQARNXG5T6LRHP26EW2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WCNCBYKZXLDFGAJUB7ZP5VLC3YTHJNVH
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WCNCBYKZXLDFGAJUB7ZP5VLC3YTHJNVH/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XFOIBB4YFICHDM7IBOP7PWXW3FX4HLL2/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XTNLSL44Y5FB6JWADSZH6DCV4JJAAEQY/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YJWHBLVZDM5KQSDFRBFRKU5KSSOLIRQ4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YJWHBLVZDM5KQSDFRBFRKU5KSSOLIRQ4/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YRKEXKANQ7BKJW2YTAMP625LJUJZLJ4P/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZSVEMQV5ROY5YW5QE3I57HT3ITWG5GCV
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZSVEMQV5ROY5YW5QE3I57HT3ITWG5GCV/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-39325
+    - https://pkg.go.dev/vuln/GO-2023-2102
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20231110-0008
+    - https://security.netapp.com/advisory/ntap-20231110-0008/
+    - https://ubuntu.com/security/notices/USN-6574-1
+    - https://www.cisa.gov/news-events/alerts/2023/10/10/http2-rapid-reset-vulnerability-cve-2023-44487
+    - https://www.cve.org/CVERecord?id=CVE-2023-39325
+    PublishedDate: '2023-10-11T22:15:09.88Z'
+    LastModifiedDate: '2024-04-28T04:15:09.877Z'
+  - VulnerabilityID: CVE-2023-45283
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.11, 1.21.4, 1.20.12, 1.21.5
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45283
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: The filepath package does not recognize paths with a \??\ prefix as sp ...
+    Description: 'The filepath package does not recognize paths with a \??\ prefix as special. On Windows, a path beginning with \??\ is a Root Local Device path equivalent to a path beginning with \\?\. Paths with a \??\ prefix may be used to access arbitrary locations on the system. For example, the path \??\c:\x is equivalent to the more common path c:\x. Before fix, Clean could convert a rooted path such as \a\..\??\b into the root local device path \??\b. Clean will now convert this to .\??\b. Similarly, Join(\, ??, b) could convert a seemingly innocent sequence of path elements into the root local device path \??\b. Join will now convert this to \.\??\b. In addition, with fix, IsAbs now correctly reports paths beginning with \??\ as absolute, and VolumeName correctly reports the \??\ prefix as a volume name. UPDATE: Go 1.20.11 and Go 1.21.4 inadvertently changed the definition of the volume name in Windows paths starting with \?, resulting in filepath.Clean(\?\c:) returning \?\c: rather than \?\c:\ (among other effects). The previous behavior has been restored.'
+    Severity: HIGH
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      amazon: 2
+      bitnami: 3
+      cbl-mariner: 3
+      nvd: 3
+      photon: 3
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2023/12/05/2
+    - https://go.dev/cl/540277
+    - https://go.dev/cl/541175
+    - https://go.dev/issue/63713
+    - https://go.dev/issue/64028
+    - https://groups.google.com/g/golang-announce/c/4tU8LZfBFkY
+    - https://groups.google.com/g/golang-dev/c/6ypN5EjibjM/m/KmLVYH_uAgAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45283
+    - https://pkg.go.dev/vuln/GO-2023-2185
+    - https://security.netapp.com/advisory/ntap-20231214-0008/
+    PublishedDate: '2023-11-09T17:15:08.757Z'
+    LastModifiedDate: '2023-12-14T10:15:07.947Z'
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.9, 1.22.2
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: HIGH
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      ghsa: 2
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/05/4
+    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://security.netapp.com/advisory/ntap-20240419-0009
+    - https://security.netapp.com/advisory/ntap-20240419-0009/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-05-01T18:15:10.493Z'
+  - VulnerabilityID: CVE-2023-29406
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.19.11, 1.20.6
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29406
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http: insufficient sanitization of Host header'
+    Description: The HTTP/1 client does not fully validate the contents of the Host header. A maliciously crafted Host header can inject additional headers or entire requests. With fix, the HTTP/1 client now refuses to send requests containing an invalid Request.Host or Request.URL.Host value.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-436
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:6474
+    - https://access.redhat.com/security/cve/CVE-2023-29406
+    - https://bugzilla.redhat.com/2174485
+    - https://bugzilla.redhat.com/2178358
+    - https://bugzilla.redhat.com/2178488
+    - https://bugzilla.redhat.com/2178492
+    - https://bugzilla.redhat.com/2184481
+    - https://bugzilla.redhat.com/2184482
+    - https://bugzilla.redhat.com/2184483
+    - https://bugzilla.redhat.com/2184484
+    - https://bugzilla.redhat.com/2196026
+    - https://bugzilla.redhat.com/2196027
+    - https://bugzilla.redhat.com/2196029
+    - https://bugzilla.redhat.com/2222167
+    - https://bugzilla.redhat.com/2228689
+    - https://errata.almalinux.org/9/ALSA-2023-6474.html
+    - https://github.com/golang/go/commit/312920c00aac9897b2a0693e752390b5b0711a5a (go1.20.6)
+    - https://github.com/golang/go/commit/5fa6923b1ea891400153d04ddf1545e23b40041b (go1.19.11)
+    - https://github.com/golang/go/issues/60374
+    - https://go.dev/cl/506996
+    - https://go.dev/issue/60374
+    - https://groups.google.com/g/golang-announce/c/2q13H6LEEx0
+    - https://linux.oracle.com/cve/CVE-2023-29406.html
+    - https://linux.oracle.com/errata/ELSA-2023-7202.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-29406
+    - https://pkg.go.dev/vuln/GO-2023-1878
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20230814-0002/
+    - https://www.cve.org/CVERecord?id=CVE-2023-29406
+    PublishedDate: '2023-07-11T20:15:10.643Z'
+    LastModifiedDate: '2023-11-25T11:15:14.727Z'
+  - VulnerabilityID: CVE-2023-29409
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.19.12, 1.20.7, 1.21.0-rc.4
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-29409
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: crypto/tls: slow verification of certificate chains containing large RSA keys'
+    Description: Extremely large RSA keys in certificate chains can cause a client/server to expend significant CPU time verifying signatures. With fix, the size of RSA keys transmitted during handshakes is restricted to <= 8192 bits. Based on a survey of publicly trusted RSA keys, there are currently only three certificates in circulation with keys larger than this, and all three appear to be test certificates that are not actively deployed. It is possible there are larger keys in use in private PKIs, but we target the web PKI, so causing breakage here in the interests of increasing the default safety of users of crypto/tls seems reasonable.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/security/cve/CVE-2023-29409
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2237773
+    - https://bugzilla.redhat.com/2237776
+    - https://bugzilla.redhat.com/2237777
+    - https://bugzilla.redhat.com/2237778
+    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://go.dev/cl/515257
+    - https://go.dev/issue/61460
+    - https://groups.google.com/g/golang-announce/c/X0b6CsSAaYI/m/Efv5DbZ9AwAJ
+    - https://linux.oracle.com/cve/CVE-2023-29409.html
+    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-29409
+    - https://pkg.go.dev/vuln/GO-2023-1987
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20230831-0010/
+    - https://www.cve.org/CVERecord?id=CVE-2023-29409
+    PublishedDate: '2023-08-02T20:15:11.94Z'
+    LastModifiedDate: '2023-11-25T11:15:14.87Z'
+  - VulnerabilityID: CVE-2023-39318
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.8, 1.21.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39318
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: html/template: improper handling of HTML-like comments within script contexts'
+    Description: The html/template package does not properly handle HTML-like "" comment tokens, nor hashbang "#!" comment tokens, in <script> contexts. This may cause the template parser to improperly interpret the contents of <script> contexts, causing actions to be improperly escaped. This may be leveraged to perform an XSS attack.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-79
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/security/cve/CVE-2023-39318
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2237773
+    - https://bugzilla.redhat.com/2237776
+    - https://bugzilla.redhat.com/2237777
+    - https://bugzilla.redhat.com/2237778
+    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://github.com/golang/go/commit/023b542edf38e2a1f87fcefb9f75ff2f99401b4c (go1.20.8)
+    - https://github.com/golang/go/commit/b0e1d3ea26e8e8fce7726690c9ef0597e60739fb (go1.21.1)
+    - https://go.dev/cl/526156
+    - https://go.dev/issue/62196
+    - https://groups.google.com/g/golang-announce/c/Fm51GRLNRvM
+    - https://groups.google.com/g/golang-dev/c/2C5vbR-UNkI/m/L1hdrPhfBAAJ
+    - https://linux.oracle.com/cve/CVE-2023-39318.html
+    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-39318
+    - https://pkg.go.dev/vuln/GO-2023-2041
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20231020-0009/
+    - https://ubuntu.com/security/notices/USN-6574-1
+    - https://vuln.go.dev/ID/GO-2023-2041.json
+    - https://www.cve.org/CVERecord?id=CVE-2023-39318
+    PublishedDate: '2023-09-08T17:15:27.823Z'
+    LastModifiedDate: '2023-11-25T11:15:17.43Z'
+  - VulnerabilityID: CVE-2023-39319
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.8, 1.21.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39319
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: html/template: improper handling of special tags within script contexts'
+    Description: The html/template package does not apply the proper rules for handling occurrences of "<script", "<!--", and "</script" within JS literals in <script> contexts. This may cause the template parser to improperly consider script contexts to be terminated early, causing actions to be improperly escaped. This could be leveraged to perform an XSS attack.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-79
+    VendorSeverity:
+      alma: 2
+      amazon: 2
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 2
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
+        V3Score: 6.1
+    References:
+    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/security/cve/CVE-2023-39319
+    - https://bugzilla.redhat.com/2228743
+    - https://bugzilla.redhat.com/2237773
+    - https://bugzilla.redhat.com/2237776
+    - https://bugzilla.redhat.com/2237777
+    - https://bugzilla.redhat.com/2237778
+    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://github.com/golang/go/commit/2070531d2f53df88e312edace6c8dfc9686ab2f5 (go1.20.8)
+    - https://github.com/golang/go/commit/bbd043ff0d6d59f1a9232d31ecd5eacf6507bf6a (go1.21.1)
+    - https://go.dev/cl/526157
+    - https://go.dev/issue/62197
+    - https://groups.google.com/g/golang-announce/c/Fm51GRLNRvM
+    - https://groups.google.com/g/golang-dev/c/2C5vbR-UNkI/m/L1hdrPhfBAAJ
+    - https://linux.oracle.com/cve/CVE-2023-39319.html
+    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-39319
+    - https://pkg.go.dev/vuln/GO-2023-2043
+    - https://security.gentoo.org/glsa/202311-09
+    - https://security.netapp.com/advisory/ntap-20231020-0009/
+    - https://ubuntu.com/security/notices/USN-6574-1
+    - https://vuln.go.dev/ID/GO-2023-2043.json
+    - https://www.cve.org/CVERecord?id=CVE-2023-39319
+    PublishedDate: '2023-09-08T17:15:27.91Z'
+    LastModifiedDate: '2023-11-25T11:15:17.543Z'
+  - VulnerabilityID: CVE-2023-39326
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.12, 1.21.5
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-39326
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http/internal: Denial of Service (DoS) via Resource Consumption via HTTP requests'
+    Description: A malicious HTTP sender can use chunk extensions to cause a receiver reading from a request or response body to read many more bytes from the network than are in the body. A malicious HTTP client can further exploit this to cause a server to automatically read a large amount of data (up to about 1GiB) when a handler fails to read the entire body of a request. Chunk extensions are a little-used HTTP feature which permit including additional metadata in a request or response body sent using the chunked encoding. The net/http chunked encoding reader discards this metadata. A sender can exploit this by inserting a large metadata segment with each byte transferred. The chunk reader now produces an error if the ratio of real body to encoded bytes grows too small.
+    Severity: MEDIUM
+    VendorSeverity:
+      alma: 2
+      amazon: 3
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      oracle-oval: 3
+      photon: 2
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:1149
+    - https://access.redhat.com/security/cve/CVE-2023-39326
+    - https://bugzilla.redhat.com/2253330
+    - https://errata.almalinux.org/9/ALSA-2024-1149.html
+    - https://github.com/golang/go/commit/6446af942e2e2b161c4ec1b60d9703a2b55dc4dd (go1.20.12)
+    - https://github.com/golang/go/commit/ec8c526e4be720e94b98ca509e6364f0efaf28f7 (go1.21.5)
+    - https://go.dev/cl/547335
+    - https://go.dev/issue/64433
+    - https://groups.google.com/g/golang-dev/c/6ypN5EjibjM/m/KmLVYH_uAgAJ
+    - https://linux.oracle.com/cve/CVE-2023-39326.html
+    - https://linux.oracle.com/errata/ELSA-2024-12264.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UIU6HOGV6RRIKWM57LOXQA75BGZSIH6G/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-39326
+    - https://pkg.go.dev/vuln/GO-2023-2382
+    - https://ubuntu.com/security/notices/USN-6574-1
+    - https://www.cve.org/CVERecord?id=CVE-2023-39326
+    PublishedDate: '2023-12-06T17:15:07.147Z'
+    LastModifiedDate: '2024-01-20T04:15:07.89Z'
+  - VulnerabilityID: CVE-2023-45284
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.20.11, 1.21.4
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45284
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: On Windows, The IsLocal function does not correctly detect reserved de ...
+    Description: On Windows, The IsLocal function does not correctly detect reserved device names in some cases. Reserved names followed by spaces, such as "COM1 ", and reserved names "COM" and "LPT" followed by superscript 1, 2, or 3, are incorrectly reported as local. With fix, IsLocal now correctly reports these names as non-local.
+    Severity: MEDIUM
+    VendorSeverity:
+      amazon: 2
+      bitnami: 2
+      cbl-mariner: 2
+      nvd: 2
+      photon: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://go.dev/cl/540277
+    - https://go.dev/issue/63713
+    - https://groups.google.com/g/golang-announce/c/4tU8LZfBFkY
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45284
+    - https://pkg.go.dev/vuln/GO-2023-2186
+    PublishedDate: '2023-11-09T17:15:08.813Z'
+    LastModifiedDate: '2023-11-17T16:39:27.45Z'
+  - VulnerabilityID: CVE-2023-45289
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.8, 1.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45289
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http/cookiejar: incorrect forwarding of sensitive headers and cookies on HTTP redirect'
+    Description: When following an HTTP redirect to a domain which is not a subdomain match or exact match of the initial domain, an http.Client does not forward sensitive headers such as "Authorization" or "Cookie". For example, a redirect from foo.com to www.foo.com will forward the Authorization header, but a redirect to bar.com will not. A maliciously crafted HTTP redirect could cause sensitive headers to be unexpectedly forwarded.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/security/cve/CVE-2023-45289
+    - https://go.dev/cl/569340
+    - https://go.dev/issue/65065
+    - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45289
+    - https://pkg.go.dev/vuln/GO-2024-2600
+    - https://security.netapp.com/advisory/ntap-20240329-0006/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45289
+    PublishedDate: '2024-03-05T23:15:07.137Z'
+    LastModifiedDate: '2024-05-01T17:15:25.983Z'
+  - VulnerabilityID: CVE-2023-45290
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.8, 1.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45290
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http: memory exhaustion in Request.ParseMultipartForm'
+    Description: When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/security/cve/CVE-2023-45290
+    - https://go.dev/cl/569341
+    - https://go.dev/issue/65383
+    - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
+    - https://pkg.go.dev/vuln/GO-2024-2599
+    - https://security.netapp.com/advisory/ntap-20240329-0004/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45290
+    PublishedDate: '2024-03-05T23:15:07.21Z'
+    LastModifiedDate: '2024-05-01T17:15:26.04Z'
+  - VulnerabilityID: CVE-2024-24783
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.8, 1.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24783
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: crypto/x509: Verify panics on certificates with an unknown public key algorithm'
+    Description: Verifying a certificate chain which contains a certificate with an unknown public key algorithm will cause Certificate.Verify to panic. This affects all crypto/tls clients, and servers that set Config.ClientAuth to VerifyClientCertIfGiven or RequireAndVerifyClientCert. The default behavior is for TLS servers to not verify client certificates.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/security/cve/CVE-2024-24783
+    - https://go.dev/cl/569339
+    - https://go.dev/issue/65390
+    - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
+    - https://pkg.go.dev/vuln/GO-2024-2598
+    - https://security.netapp.com/advisory/ntap-20240329-0005/
+    - https://www.cve.org/CVERecord?id=CVE-2024-24783
+    PublishedDate: '2024-03-05T23:15:07.683Z'
+    LastModifiedDate: '2024-05-01T17:15:29.45Z'
+  - VulnerabilityID: CVE-2024-24784
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.8, 1.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24784
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/mail: comments in display names are incorrectly handled'
+    Description: The ParseAddressList function incorrectly handles comments (text within parentheses) within display names. Since this is a misalignment with conforming address parsers, it can result in different trust decisions being made by programs using different parsers.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/security/cve/CVE-2024-24784
+    - https://go.dev/cl/555596
+    - https://go.dev/issue/65083
+    - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
+    - https://pkg.go.dev/vuln/GO-2024-2609
+    - https://security.netapp.com/advisory/ntap-20240329-0007/
+    - https://www.cve.org/CVERecord?id=CVE-2024-24784
+    PublishedDate: '2024-03-05T23:15:07.733Z'
+    LastModifiedDate: '2024-05-01T17:15:29.527Z'
+  - VulnerabilityID: CVE-2024-24785
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 380e15201d6d315b
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.8, 1.22.1
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24785
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: html/template: errors returned from MarshalJSON methods may break template escaping'
+    Description: If errors returned from MarshalJSON methods contain user controlled data, they may be used to break the contextual auto-escaping behavior of the html/template package, allowing for subsequent actions to inject unexpected content into templates.
+    Severity: MEDIUM
+    VendorSeverity:
+      cbl-mariner: 2
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 6.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/security/cve/CVE-2024-24785
+    - https://go.dev/cl/564196
+    - https://go.dev/issue/65697
+    - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24785
+    - https://pkg.go.dev/vuln/GO-2024-2610
+    - https://security.netapp.com/advisory/ntap-20240329-0008/
+    - https://www.cve.org/CVERecord?id=CVE-2024-24785
+    PublishedDate: '2024-03-05T23:15:07.777Z'
+    LastModifiedDate: '2024-05-01T17:15:29.61Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -4794,6 +6519,7 @@
     PkgName: github.com/docker/docker
     PkgIdentifier:
       PURL: pkg:golang/github.com/docker/docker@v26.0.0%2Bincompatible
+      UID: f53c8c70da7e727e
     InstalledVersion: v26.0.0+incompatible
     FixedVersion: 26.0.2
     Status: fixed
@@ -4834,6 +6560,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.20.0
+      UID: f65d3cdcf8379bf5
     InstalledVersion: v0.20.0
     FixedVersion: 0.23.0
     Status: fixed
@@ -4891,6 +6618,7 @@
     PkgName: google.golang.org/protobuf
     PkgIdentifier:
       PURL: pkg:golang/google.golang.org/protobuf@v1.31.0
+      UID: b75df63e95a45118
     InstalledVersion: v1.31.0
     FixedVersion: 1.33.0
     Status: fixed
@@ -4935,6 +6663,63 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-24786
     PublishedDate: '2024-03-05T23:15:07.82Z'
     LastModifiedDate: '2024-05-01T17:15:29.667Z'
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.21.8
+      UID: ca7d06d574ee3566
+    InstalledVersion: 1.21.8
+    FixedVersion: 1.21.9, 1.22.2
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: HIGH
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      ghsa: 2
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/05/4
+    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://security.netapp.com/advisory/ntap-20240419-0009
+    - https://security.netapp.com/advisory/ntap-20240419-0009/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-05-01T18:15:10.493Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -4943,6 +6728,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.17.0
+      UID: 9f7723ecc3b1b88f
     InstalledVersion: v0.17.0
     FixedVersion: 0.23.0
     Status: fixed
@@ -5004,6 +6790,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.19.0
+      UID: 5b8b6c6afce1b994
     InstalledVersion: v0.19.0
     FixedVersion: 0.23.0
     Status: fixed
@@ -5057,6 +6844,119 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-05-01T18:15:10.493Z'
+  - VulnerabilityID: CVE-2024-3177
+    PkgName: k8s.io/kubernetes
+    PkgIdentifier:
+      PURL: pkg:golang/k8s.io/kubernetes@v1.29.3
+      UID: b890a84be7344726
+    InstalledVersion: v1.29.3
+    FixedVersion: 1.27.13, 1.29.4, 1.28.9
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: ghsa
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-3177
+    DataSource:
+      ID: ghsa
+      Name: GitHub Security Advisory Go
+      URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Ago
+    Title: 'kubernetes: kube-apiserver: bypassing mountable secrets policy imposed by the ServiceAccount admission plugin'
+    Description: |+
+      A security issue was discovered in Kubernetes where users may be able to launch containers that bypass the mountable secrets policy enforced by the ServiceAccount admission plugin when using containers, init containers, and ephemeral containers with the envFrom field populated. The policy ensures pods running with a service account may only reference secrets specified in the service account’s secrets field. Kubernetes clusters are only affected if the ServiceAccount admission plugin and the kubernetes.io/enforce-mountable-secrets annotation are used together with containers, init containers, and ephemeral containers with the envFrom field populated.
+
+    Severity: LOW
+    CweIDs:
+    - CWE-20
+    VendorSeverity:
+      ghsa: 1
+      k8s: 1
+      redhat: 1
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 2.7
+      k8s:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 2.7
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 2.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/04/16/4
+    - https://access.redhat.com/security/cve/CVE-2024-3177
+    - https://discuss.kubernetes.io/t/security-advisory-cve-2024-3177-bypassing-mountable-secrets-policy-imposed-by-the-serviceaccount-admission-plugin/27905
+    - https://github.com/kubernetes/kubernetes
+    - https://github.com/kubernetes/kubernetes/commit/7c861b1ecad97e1ab9332c970c9294a72065111a
+    - https://github.com/kubernetes/kubernetes/commit/a619ca3fd3ee3c222d9df784622020de398076d2
+    - https://github.com/kubernetes/kubernetes/commit/f9fb6cf52a769a599a45e700375115c2ecc86e9b
+    - https://github.com/kubernetes/kubernetes/issues/124336
+    - https://groups.google.com/g/kubernetes-security-announce/c/JxjHf7fkVd8/m/oVCzypyOAQAJ
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WL54MTLGMTBZZO5PYGEGEBERTMADC4WC
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/WL54MTLGMTBZZO5PYGEGEBERTMADC4WC/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-3177
+    - https://www.cve.org/CVERecord?id=CVE-2024-3177
+    PublishedDate: '2024-04-22T23:15:51.18Z'
+    LastModifiedDate: '2024-05-01T19:15:27.48Z'
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.21.8
+      UID: e5c2f11f380aef66
+    InstalledVersion: 1.21.8
+    FixedVersion: 1.21.9, 1.22.2
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: HIGH
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      ghsa: 2
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/05/4
+    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://security.netapp.com/advisory/ntap-20240419-0009
+    - https://security.netapp.com/advisory/ntap-20240419-0009/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-05-01T18:15:10.493Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -5065,6 +6965,7 @@
     PkgName: golang.org/x/net
     PkgIdentifier:
       PURL: pkg:golang/golang.org/x/net@v0.21.0
+      UID: 1fbff5d16a379b2d
     InstalledVersion: v0.21.0
     FixedVersion: 0.23.0
     Status: fixed
@@ -5118,6 +7019,63 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-05-01T18:15:10.493Z'
+  - VulnerabilityID: CVE-2023-45288
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.21.8
+      UID: 6052c75e79835f49
+    InstalledVersion: 1.21.8
+    FixedVersion: 1.21.9, 1.22.2
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2023-45288
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS'
+    Description: An attacker may cause an HTTP/2 endpoint to read arbitrary amounts of header data by sending an excessive number of CONTINUATION frames. Maintaining HPACK state requires parsing and processing all HEADERS and CONTINUATION frames on a connection. When a request's headers exceed MaxHeaderBytes, no memory is allocated to store the excess headers, but they are still parsed. This permits an attacker to cause an HTTP/2 endpoint to read arbitrary amounts of header data, all associated with a request which is going to be rejected. These headers can include Huffman-encoded data which is significantly more expensive for the receiver to decode than for an attacker to send. The fix sets a limit on the amount of excess header frames we will process before closing a connection.
+    Severity: HIGH
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      ghsa: 2
+      oracle-oval: 3
+      photon: 3
+      redhat: 3
+    CVSS:
+      ghsa:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - http://www.openwall.com/lists/oss-security/2024/04/05/4
+    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://go.dev/cl/576155
+    - https://go.dev/issue/65051
+    - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
+    - https://linux.oracle.com/cve/CVE-2023-45288.html
+    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
+    - https://nowotarski.info/http2-continuation-flood-technical-details
+    - https://nowotarski.info/http2-continuation-flood/
+    - https://nvd.nist.gov/vuln/detail/CVE-2023-45288
+    - https://pkg.go.dev/vuln/GO-2024-2687
+    - https://security.netapp.com/advisory/ntap-20240419-0009
+    - https://security.netapp.com/advisory/ntap-20240419-0009/
+    - https://www.cve.org/CVERecord?id=CVE-2023-45288
+    - https://www.kb.cert.org/vuls/id/421644
+    PublishedDate: '2024-04-04T21:15:16.113Z'
+    LastModifiedDate: '2024-05-01T18:15:10.493Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -5126,6 +7084,7 @@
     PkgName: github.com/docker/docker
     PkgIdentifier:
       PURL: pkg:golang/github.com/docker/docker@v26.0.0%2Bincompatible
+      UID: 81118929505f3d0a
     InstalledVersion: v26.0.0+incompatible
     FixedVersion: 26.0.2
     Status: fixed
@@ -5162,68 +7121,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-32473
     PublishedDate: '2024-04-18T22:15:10.4Z'
     LastModifiedDate: '2024-04-19T13:10:25.637Z'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -5282,6 +7179,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
       DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
