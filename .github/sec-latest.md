@@ -1493,6 +1493,7 @@
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 2 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C
 │                        │      │                           │           :H/I:N/A:N 
@@ -1511,18 +1512,21 @@
 │                        │      │                  ├ [8] : https://bugzilla.redhat.com/2269084 
 │                        │      │                  ├ [9] : https://bugzilla.redhat.com/2269228 
 │                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2269228 
-│                        │      │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-1879.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2024-28834.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-1879.html 
-│                        │      │                  ├ [14]: https://lists.gnupg.org/pipermail/gnutls-help/2
+│                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-28834 
+│                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-1879.html 
+│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:1784 
+│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-28834.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-1879.html 
+│                        │      │                  ├ [16]: https://lists.gnupg.org/pipermail/gnutls-help/2
 │                        │      │                  │       024-March/004845.html 
-│                        │      │                  ├ [15]: https://minerva.crocs.fi.muni.cz/ 
-│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
-│                        │      │                  ├ [17]: https://people.redhat.com/~hkario/marvin/ 
-│                        │      │                  ├ [18]: https://ubuntu.com/security/notices/USN-6733-1 
-│                        │      │                  ├ [19]: https://ubuntu.com/security/notices/USN-6733-2 
-│                        │      │                  ├ [20]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
-│                        │      │                  ╰ [21]: https://www.gnutls.org/security-new.html#GNUTLS
+│                        │      │                  ├ [17]: https://minerva.crocs.fi.muni.cz/ 
+│                        │      │                  ├ [18]: https://nvd.nist.gov/vuln/detail/CVE-2024-28834 
+│                        │      │                  ├ [19]: https://people.redhat.com/~hkario/marvin/ 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/notices/USN-6733-1 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6733-2 
+│                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-28834 
+│                        │      │                  ╰ [23]: https://www.gnutls.org/security-new.html#GNUTLS
 │                        │      │                          -SA-2023-12-04 
 │                        │      ├ PublishedDate   : 2024-03-21T14:15:07.547Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T18:15:17.683Z 
