@@ -6100,6 +6100,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
 │                        │      │                           │           :L/I:L/A:N 
@@ -6121,82 +6122,71 @@
 │                        │      │                  ├ [12]: https://go.dev/issue/65083 
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-24784 
-│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2024-2609 
-│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-24784.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-2562.html 
+│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-24784 
+│                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-2609 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0007/ 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
+│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.527Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24785 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                        │      │                  ╰ UID : a803c46e7bd27b90 
-│                        │      ├ InstalledVersion: 1.20.5 
-│                        │      ├ FixedVersion    : 1.21.8, 1.22.1 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:23638c8d5626f429f5c30bb1452870d34265cd
-│                        │      │                  │         9d15aac57f5ffa8955d412c627 
-│                        │      │                  ╰ DiffID: sha256:32e2e4aea73ee8819cd9625bde87793e6386e6
-│                        │      │                            b939bd04239b93e18e3831f1df 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24785 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : golang: html/template: errors returned from
-│                        │      │                   MarshalJSON methods may break template escaping 
-│                        │      ├ Description     : If errors returned from MarshalJSON methods contain
-│                        │      │                   user controlled data, they may be used to break the
-│                        │      │                   contextual auto-escaping behavior of the html/template
-│                        │      │                   package, allowing for subsequent actions to inject
-│                        │      │                   unexpected content into templates. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ╰ redhat     : 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
-│                        │      │                           │           :N/I:H/A:N 
-│                        │      │                           ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
-│                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
-│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
-│                        │      │                  │       -24785 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2262921 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268021 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268022 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
-│                        │      │                  ├ [11]: https://go.dev/cl/564196 
-│                        │      │                  ├ [12]: https://go.dev/issue/65697 
-│                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/5
-│                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
-│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2024-2610 
-│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20240
-│                        │      │                  │       329-0008/ 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
-│                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
-│                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
-│                        ╰ [18] ╭ VulnerabilityID : CVE-2024-24788 
+│                        ╰ [17] ╭ VulnerabilityID : CVE-2024-24785 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                               │                  ╰ UID : a803c46e7bd27b90 
 │                               ├ InstalledVersion: 1.20.5 
-│                               ├ FixedVersion    : 1.21.10, 1.22.3 
+│                               ├ FixedVersion    : 1.21.8, 1.22.1 
 │                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:23638c8d5626f429f5c30bb1452870d34265cd
 │                               │                  │         9d15aac57f5ffa8955d412c627 
 │                               │                  ╰ DiffID: sha256:32e2e4aea73ee8819cd9625bde87793e6386e6
 │                               │                            b939bd04239b93e18e3831f1df 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24788 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24785 
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ╰ Severity        : UNKNOWN 
+│                               ├ Title           : golang: html/template: errors returned from
+│                               │                   MarshalJSON methods may break template escaping 
+│                               ├ Description     : If errors returned from MarshalJSON methods contain
+│                               │                   user controlled data, they may be used to break the
+│                               │                   contextual auto-escaping behavior of the html/template
+│                               │                   package, allowing for subsequent actions to inject
+│                               │                   unexpected content into templates. 
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ╭ alma       : 3 
+│                               │                  ├ cbl-mariner: 2 
+│                               │                  ├ oracle-oval: 3 
+│                               │                  ╰ redhat     : 2 
+│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                               │                           │           :N/I:H/A:N 
+│                               │                           ╰ V3Score : 6.5 
+│                               ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                               │                  │       /03/08/4 
+│                               │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
+│                               │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
+│                               │                  │       -24785 
+│                               │                  ├ [3] : https://bugzilla.redhat.com/2262921 
+│                               │                  ├ [4] : https://bugzilla.redhat.com/2268017 
+│                               │                  ├ [5] : https://bugzilla.redhat.com/2268018 
+│                               │                  ├ [6] : https://bugzilla.redhat.com/2268019 
+│                               │                  ├ [7] : https://bugzilla.redhat.com/2268021 
+│                               │                  ├ [8] : https://bugzilla.redhat.com/2268022 
+│                               │                  ├ [9] : https://bugzilla.redhat.com/2268273 
+│                               │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
+│                               │                  ├ [11]: https://go.dev/cl/564196 
+│                               │                  ├ [12]: https://go.dev/issue/65697 
+│                               │                  ├ [13]: https://groups.google.com/g/golang-announce/c/5
+│                               │                  │       pwGVUPoMbg 
+│                               │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-24785.html 
+│                               │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-2562.html 
+│                               │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
+│                               │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-2610 
+│                               │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
+│                               │                  │       329-0008/ 
+│                               │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
+│                               ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
+│                               ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
 ├ [3]  ╭ Target         : tmp/tmp.W49Y8kjEVt/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -8297,6 +8287,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 3 
 │                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
 │                        │      │                           │           :L/I:L/A:N 
@@ -8318,206 +8309,160 @@
 │                        │      │                  ├ [12]: https://go.dev/issue/65083 
 │                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-24784 
-│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2024-2609 
-│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-24784.html 
+│                        │      │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-2562.html 
+│                        │      │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-24784 
+│                        │      │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-2609 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0007/ 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
+│                        │      │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.527Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24785 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                        │      │                  ╰ UID : 7cf9eb0389e79b29 
-│                        │      ├ InstalledVersion: 1.20.5 
-│                        │      ├ FixedVersion    : 1.21.8, 1.22.1 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:23638c8d5626f429f5c30bb1452870d34265cd
-│                        │      │                  │         9d15aac57f5ffa8955d412c627 
-│                        │      │                  ╰ DiffID: sha256:32e2e4aea73ee8819cd9625bde87793e6386e6
-│                        │      │                            b939bd04239b93e18e3831f1df 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24785 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : golang: html/template: errors returned from
-│                        │      │                   MarshalJSON methods may break template escaping 
-│                        │      ├ Description     : If errors returned from MarshalJSON methods contain
-│                        │      │                   user controlled data, they may be used to break the
-│                        │      │                   contextual auto-escaping behavior of the html/template
-│                        │      │                   package, allowing for subsequent actions to inject
-│                        │      │                   unexpected content into templates. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ alma       : 3 
-│                        │      │                  ├ cbl-mariner: 2 
-│                        │      │                  ╰ redhat     : 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
-│                        │      │                           │           :N/I:H/A:N 
-│                        │      │                           ╰ V3Score : 6.5 
-│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
-│                        │      │                  │       /03/08/4 
-│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
-│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
-│                        │      │                  │       -24785 
-│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2262921 
-│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
-│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
-│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
-│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268021 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268022 
-│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
-│                        │      │                  ├ [11]: https://go.dev/cl/564196 
-│                        │      │                  ├ [12]: https://go.dev/issue/65697 
-│                        │      │                  ├ [13]: https://groups.google.com/g/golang-announce/c/5
-│                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
-│                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2024-2610 
-│                        │      │                  ├ [16]: https://security.netapp.com/advisory/ntap-20240
-│                        │      │                  │       329-0008/ 
-│                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
-│                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
-│                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
-│                        ╰ [18] ╭ VulnerabilityID : CVE-2024-24788 
+│                        ╰ [17] ╭ VulnerabilityID : CVE-2024-24785 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                               │                  ╰ UID : 7cf9eb0389e79b29 
 │                               ├ InstalledVersion: 1.20.5 
-│                               ├ FixedVersion    : 1.21.10, 1.22.3 
+│                               ├ FixedVersion    : 1.21.8, 1.22.1 
 │                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:23638c8d5626f429f5c30bb1452870d34265cd
 │                               │                  │         9d15aac57f5ffa8955d412c627 
 │                               │                  ╰ DiffID: sha256:32e2e4aea73ee8819cd9625bde87793e6386e6
 │                               │                            b939bd04239b93e18e3831f1df 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24788 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24785 
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ╰ Severity        : UNKNOWN 
-├ [4]  ╭ Target         : usr/bin/docker-compose 
+│                               ├ Title           : golang: html/template: errors returned from
+│                               │                   MarshalJSON methods may break template escaping 
+│                               ├ Description     : If errors returned from MarshalJSON methods contain
+│                               │                   user controlled data, they may be used to break the
+│                               │                   contextual auto-escaping behavior of the html/template
+│                               │                   package, allowing for subsequent actions to inject
+│                               │                   unexpected content into templates. 
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ╭ alma       : 3 
+│                               │                  ├ cbl-mariner: 2 
+│                               │                  ├ oracle-oval: 3 
+│                               │                  ╰ redhat     : 2 
+│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                               │                           │           :N/I:H/A:N 
+│                               │                           ╰ V3Score : 6.5 
+│                               ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                               │                  │       /03/08/4 
+│                               │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
+│                               │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
+│                               │                  │       -24785 
+│                               │                  ├ [3] : https://bugzilla.redhat.com/2262921 
+│                               │                  ├ [4] : https://bugzilla.redhat.com/2268017 
+│                               │                  ├ [5] : https://bugzilla.redhat.com/2268018 
+│                               │                  ├ [6] : https://bugzilla.redhat.com/2268019 
+│                               │                  ├ [7] : https://bugzilla.redhat.com/2268021 
+│                               │                  ├ [8] : https://bugzilla.redhat.com/2268022 
+│                               │                  ├ [9] : https://bugzilla.redhat.com/2268273 
+│                               │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
+│                               │                  ├ [11]: https://go.dev/cl/564196 
+│                               │                  ├ [12]: https://go.dev/issue/65697 
+│                               │                  ├ [13]: https://groups.google.com/g/golang-announce/c/5
+│                               │                  │       pwGVUPoMbg 
+│                               │                  ├ [14]: https://linux.oracle.com/cve/CVE-2024-24785.html 
+│                               │                  ├ [15]: https://linux.oracle.com/errata/ELSA-2024-2562.html 
+│                               │                  ├ [16]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
+│                               │                  ├ [17]: https://pkg.go.dev/vuln/GO-2024-2610 
+│                               │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
+│                               │                  │       329-0008/ 
+│                               │                  ╰ [19]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
+│                               ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
+│                               ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
+├ [4]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-24788 
-│                              ├ PkgName         : stdlib 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.9 
-│                              │                  ╰ UID : e0c16ab194024695 
-│                              ├ InstalledVersion: 1.21.9 
-│                              ├ FixedVersion    : 1.21.10, 1.22.3 
+│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2023-45288 
+│                              ├ PkgName         : golang.org/x/net 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.17.0 
+│                              │                  ╰ UID : 9f7723ecc3b1b88f 
+│                              ├ InstalledVersion: v0.17.0 
+│                              ├ FixedVersion    : 0.23.0 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:23638c8d5626f429f5c30bb1452870d34265cd9
 │                              │                  │         d15aac57f5ffa8955d412c627 
 │                              │                  ╰ DiffID: sha256:32e2e4aea73ee8819cd9625bde87793e6386e6b
 │                              │                            939bd04239b93e18e3831f1df 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24788 
-│                              ├ DataSource       ╭ ID  : govulndb 
-│                              │                  ├ Name: The Go Vulnerability Database 
-│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ╰ Severity        : UNKNOWN 
-├ [5]  ╭ Target         : usr/bin/helm 
-│      ├ Class          : lang-pkgs 
-│      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2023-45288 
-│                        │     ├ PkgName         : golang.org/x/net 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.17.0 
-│                        │     │                  ╰ UID : 9f7723ecc3b1b88f 
-│                        │     ├ InstalledVersion: v0.17.0 
-│                        │     ├ FixedVersion    : 0.23.0 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:23638c8d5626f429f5c30bb1452870d34265cd9
-│                        │     │                  │         d15aac57f5ffa8955d412c627 
-│                        │     │                  ╰ DiffID: sha256:32e2e4aea73ee8819cd9625bde87793e6386e6b
-│                        │     │                            939bd04239b93e18e3831f1df 
-│                        │     ├ SeveritySource  : ghsa 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
-│                        │     ├ DataSource       ╭ ID  : ghsa 
-│                        │     │                  ├ Name: GitHub Security Advisory Go 
-│                        │     │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
-│                        │     │                          wed+ecosystem%3Ago 
-│                        │     ├ Title           : golang: net/http, x/net/http2: unlimited number of
-│                        │     │                   CONTINUATION frames causes DoS 
-│                        │     ├ Description     : An attacker may cause an HTTP/2 endpoint to read
-│                        │     │                   arbitrary amounts of header data by sending an excessive
-│                        │     │                   number of CONTINUATION frames. Maintaining HPACK state
-│                        │     │                   requires parsing and processing all HEADERS and CONTINUATION
-│                        │     │                    frames on a connection. When a request's headers exceed
-│                        │     │                   MaxHeaderBytes, no memory is allocated to store the excess
-│                        │     │                   headers, but they are still parsed. This permits an attacker
-│                        │     │                    to cause an HTTP/2 endpoint to read arbitrary amounts of
-│                        │     │                   header data, all associated with a request which is going to
-│                        │     │                    be rejected. These headers can include Huffman-encoded data
-│                        │     │                    which is significantly more expensive for the receiver to
-│                        │     │                   decode than for an attacker to send. The fix sets a limit on
-│                        │     │                    the amount of excess header frames we will process before
-│                        │     │                   closing a connection. 
-│                        │     ├ Severity        : MEDIUM 
-│                        │     ├ VendorSeverity   ╭ alma       : 3 
-│                        │     │                  ├ cbl-mariner: 3 
-│                        │     │                  ├ ghsa       : 2 
-│                        │     │                  ├ oracle-oval: 3 
-│                        │     │                  ├ photon     : 3 
-│                        │     │                  ╰ redhat     : 3 
-│                        │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                        │     │                  │        │           N/I:N/A:L 
-│                        │     │                  │        ╰ V3Score : 5.3 
-│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                        │     │                           │           N/I:N/A:H 
-│                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/
-│                        │     │                  │       04/03/16 
-│                        │     │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024/
-│                        │     │                  │       04/05/4 
-│                        │     │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2562 
-│                        │     │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-45288 
-│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2262921 
-│                        │     │                  ├ [5] : https://bugzilla.redhat.com/2268017 
-│                        │     │                  ├ [6] : https://bugzilla.redhat.com/2268018 
-│                        │     │                  ├ [7] : https://bugzilla.redhat.com/2268019 
-│                        │     │                  ├ [8] : https://bugzilla.redhat.com/2268021 
-│                        │     │                  ├ [9] : https://bugzilla.redhat.com/2268022 
-│                        │     │                  ├ [10]: https://bugzilla.redhat.com/2268273 
-│                        │     │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
-│                        │     │                  ├ [12]: https://go.dev/cl/576155 
-│                        │     │                  ├ [13]: https://go.dev/issue/65051 
-│                        │     │                  ├ [14]: https://groups.google.com/g/golang-announce/c/Yg
-│                        │     │                  │       W0sx8mN3M 
-│                        │     │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │     │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
-│                        │     │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
-│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
-│                        │     │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
-│                        │     │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
-│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
-│                        │     │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                        │     │                  ├ [19]: https://nowotarski.info/http2-continuation-flood
-│                        │     │                  │       -technical-details 
-│                        │     │                  ├ [20]: https://nowotarski.info/http2-continuation-flood/ 
-│                        │     │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                        │     │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                        │     │                  ├ [23]: https://security.netapp.com/advisory/ntap-202404
-│                        │     │                  │       19-0009 
-│                        │     │                  ├ [24]: https://security.netapp.com/advisory/ntap-202404
-│                        │     │                  │       19-0009/ 
-│                        │     │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                        │     │                  ╰ [26]: https://www.kb.cert.org/vuls/id/421644 
-│                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
-│                        │     ╰ LastModifiedDate: 2024-05-01T18:15:10.493Z 
-│                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24788 
-│                              ├ PkgName         : stdlib 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.9 
-│                              │                  ╰ UID : 8adb28ce6abb45a1 
-│                              ├ InstalledVersion: 1.21.9 
-│                              ├ FixedVersion    : 1.21.10, 1.22.3 
-│                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:23638c8d5626f429f5c30bb1452870d34265cd9
-│                              │                  │         d15aac57f5ffa8955d412c627 
-│                              │                  ╰ DiffID: sha256:32e2e4aea73ee8819cd9625bde87793e6386e6b
-│                              │                            939bd04239b93e18e3831f1df 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24788 
-│                              ├ DataSource       ╭ ID  : govulndb 
-│                              │                  ├ Name: The Go Vulnerability Database 
-│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ╰ Severity        : UNKNOWN 
-├ [6]  ╭ Target         : usr/bin/kubectl 
+│                              ├ SeveritySource  : ghsa 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
+│                              ├ DataSource       ╭ ID  : ghsa 
+│                              │                  ├ Name: GitHub Security Advisory Go 
+│                              │                  ╰ URL : https://github.com/advisories?query=type%3Arevie
+│                              │                          wed+ecosystem%3Ago 
+│                              ├ Title           : golang: net/http, x/net/http2: unlimited number of
+│                              │                   CONTINUATION frames causes DoS 
+│                              ├ Description     : An attacker may cause an HTTP/2 endpoint to read
+│                              │                   arbitrary amounts of header data by sending an excessive
+│                              │                   number of CONTINUATION frames. Maintaining HPACK state
+│                              │                   requires parsing and processing all HEADERS and CONTINUATION
+│                              │                    frames on a connection. When a request's headers exceed
+│                              │                   MaxHeaderBytes, no memory is allocated to store the excess
+│                              │                   headers, but they are still parsed. This permits an attacker
+│                              │                    to cause an HTTP/2 endpoint to read arbitrary amounts of
+│                              │                   header data, all associated with a request which is going to
+│                              │                    be rejected. These headers can include Huffman-encoded data
+│                              │                    which is significantly more expensive for the receiver to
+│                              │                   decode than for an attacker to send. The fix sets a limit on
+│                              │                    the amount of excess header frames we will process before
+│                              │                   closing a connection. 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ cbl-mariner: 3 
+│                              │                  ├ ghsa       : 2 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ├ photon     : 3 
+│                              │                  ╰ redhat     : 3 
+│                              ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                              │                  │        │           N/I:N/A:L 
+│                              │                  │        ╰ V3Score : 5.3 
+│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                              │                           │           N/I:N/A:H 
+│                              │                           ╰ V3Score : 7.5 
+│                              ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/
+│                              │                  │       04/03/16 
+│                              │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024/
+│                              │                  │       04/05/4 
+│                              │                  ├ [2] : https://access.redhat.com/errata/RHSA-2024:2562 
+│                              │                  ├ [3] : https://access.redhat.com/security/cve/CVE-2023-45288 
+│                              │                  ├ [4] : https://bugzilla.redhat.com/2262921 
+│                              │                  ├ [5] : https://bugzilla.redhat.com/2268017 
+│                              │                  ├ [6] : https://bugzilla.redhat.com/2268018 
+│                              │                  ├ [7] : https://bugzilla.redhat.com/2268019 
+│                              │                  ├ [8] : https://bugzilla.redhat.com/2268021 
+│                              │                  ├ [9] : https://bugzilla.redhat.com/2268022 
+│                              │                  ├ [10]: https://bugzilla.redhat.com/2268273 
+│                              │                  ├ [11]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
+│                              │                  ├ [12]: https://go.dev/cl/576155 
+│                              │                  ├ [13]: https://go.dev/issue/65051 
+│                              │                  ├ [14]: https://groups.google.com/g/golang-announce/c/Yg
+│                              │                  │       W0sx8mN3M 
+│                              │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                              │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                              │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
+│                              │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
+│                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
+│                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
+│                              │                  ├ [19]: https://nowotarski.info/http2-continuation-flood
+│                              │                  │       -technical-details 
+│                              │                  ├ [20]: https://nowotarski.info/http2-continuation-flood/ 
+│                              │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                              │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                              │                  ├ [23]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009 
+│                              │                  ├ [24]: https://security.netapp.com/advisory/ntap-202404
+│                              │                  │       19-0009/ 
+│                              │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                              │                  ╰ [26]: https://www.kb.cert.org/vuls/id/421644 
+│                              ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
+│                              ╰ LastModifiedDate: 2024-05-01T18:15:10.493Z 
+├ [5]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
 │      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-24788 
@@ -8525,7 +8470,7 @@
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
 │                              │                  ╰ UID : 211461cfb06bb9e7 
 │                              ├ InstalledVersion: 1.22.2 
-│                              ├ FixedVersion    : 1.21.10, 1.22.3 
+│                              ├ FixedVersion    : 1.22.3 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:23638c8d5626f429f5c30bb1452870d34265cd9
 │                              │                  │         d15aac57f5ffa8955d412c627 
@@ -8535,27 +8480,20 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ╰ Severity        : UNKNOWN 
-├ [7]  ╭ Target         : usr/bin/mc 
-│      ├ Class          : lang-pkgs 
-│      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-24788 
-│                              ├ PkgName         : stdlib 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.9 
-│                              │                  ╰ UID : 723f4af6e8d8a982 
-│                              ├ InstalledVersion: 1.21.9 
-│                              ├ FixedVersion    : 1.21.10, 1.22.3 
-│                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:23638c8d5626f429f5c30bb1452870d34265cd9
-│                              │                  │         d15aac57f5ffa8955d412c627 
-│                              │                  ╰ DiffID: sha256:32e2e4aea73ee8819cd9625bde87793e6386e6b
-│                              │                            939bd04239b93e18e3831f1df 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24788 
-│                              ├ DataSource       ╭ ID  : govulndb 
-│                              │                  ├ Name: The Go Vulnerability Database 
-│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ╰ Severity        : UNKNOWN 
-├ [8]  ╭ Target         : usr/local/bin/k3d 
+│                              ├ Title           : A malformed DNS message in response to a query can
+│                              │                   cause the Lookup fu ... 
+│                              ├ Description     : A malformed DNS message in response to a query can
+│                              │                   cause the Lookup functions to get stuck in an infinite
+│                              │                   loop. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/578375 
+│                              │                  ├ [1]: https://go.dev/issue/66754 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/wkk
+│                              │                  │      O4P9stm0 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2824 
+│                              ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
+│                              ╰ LastModifiedDate: 2024-05-08T17:05:24.083Z 
+├ [6]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
 │      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-32473 
@@ -8621,7 +8559,7 @@
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
 │                              │                  ╰ UID : 36ffbab8aa163593 
 │                              ├ InstalledVersion: 1.22.2 
-│                              ├ FixedVersion    : 1.21.10, 1.22.3 
+│                              ├ FixedVersion    : 1.22.3 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:23638c8d5626f429f5c30bb1452870d34265cd9
 │                              │                  │         d15aac57f5ffa8955d412c627 
@@ -8631,8 +8569,20 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ╰ Severity        : UNKNOWN 
-├ [9]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│                              ├ Title           : A malformed DNS message in response to a query can
+│                              │                   cause the Lookup fu ... 
+│                              ├ Description     : A malformed DNS message in response to a query can
+│                              │                   cause the Lookup functions to get stuck in an infinite
+│                              │                   loop. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/578375 
+│                              │                  ├ [1]: https://go.dev/issue/66754 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/wkk
+│                              │                  │      O4P9stm0 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2824 
+│                              ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
+│                              ╰ LastModifiedDate: 2024-05-08T17:05:24.083Z 
+├ [7]  ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -8690,7 +8640,7 @@
 │                                  ├ DiffID   : sha256:32e2e4aea73ee8819cd9625bde87793e6386e6b939bd04239b9
 │                                  │            3e18e3831f1df 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [8]  ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -8743,7 +8693,7 @@
 │                                  ├ DiffID   : sha256:32e2e4aea73ee8819cd9625bde87793e6386e6b939bd04239b9
 │                                  │            3e18e3831f1df 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [9]  ╭ Target : /etc/ssh/ssh_host_rsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -8919,7 +8869,7 @@
 │                                  ├ DiffID   : sha256:32e2e4aea73ee8819cd9625bde87793e6386e6b939bd04239b9
 │                                  │            3e18e3831f1df 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [12] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+╰ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
