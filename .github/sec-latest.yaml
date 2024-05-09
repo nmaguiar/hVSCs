@@ -1368,7 +1368,7 @@
     - https://errata.almalinux.org/9/ALSA-2024-2570.html
     - https://errata.rockylinux.org/RLSA-2024:1784
     - https://linux.oracle.com/cve/CVE-2024-28834.html
-    - https://linux.oracle.com/errata/ELSA-2024-1879.html
+    - https://linux.oracle.com/errata/ELSA-2024-2570.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
     - https://minerva.crocs.fi.muni.cz/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28834
@@ -1424,7 +1424,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
     - https://errata.almalinux.org/9/ALSA-2024-2570.html
     - https://linux.oracle.com/cve/CVE-2024-28835.html
-    - https://linux.oracle.com/errata/ELSA-2024-1879.html
+    - https://linux.oracle.com/errata/ELSA-2024-2570.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28835
     - https://ubuntu.com/security/notices/USN-6733-1
@@ -5175,6 +5175,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -5195,6 +5196,8 @@
     - https://go.dev/cl/555596
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2024-24784.html
+    - https://linux.oracle.com/errata/ELSA-2024-2562.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -5223,6 +5226,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -5243,29 +5247,14 @@
     - https://go.dev/cl/564196
     - https://go.dev/issue/65697
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2024-24785.html
+    - https://linux.oracle.com/errata/ELSA-2024-2562.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24785
     - https://pkg.go.dev/vuln/GO-2024-2610
     - https://security.netapp.com/advisory/ntap-20240329-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-24785
     PublishedDate: '2024-03-05T23:15:07.777Z'
     LastModifiedDate: '2024-05-01T17:15:29.61Z'
-  - VulnerabilityID: CVE-2024-24788
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.20.5
-      UID: a803c46e7bd27b90
-    InstalledVersion: 1.20.5
-    FixedVersion: 1.21.10, 1.22.3
-    Status: fixed
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24788
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Severity: UNKNOWN
 - Target: tmp/tmp.0DmawLQuhE/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -6638,6 +6627,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -6658,6 +6648,8 @@
     - https://go.dev/cl/555596
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2024-24784.html
+    - https://linux.oracle.com/errata/ELSA-2024-2562.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -6686,6 +6678,7 @@
     VendorSeverity:
       alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -6706,29 +6699,14 @@
     - https://go.dev/cl/564196
     - https://go.dev/issue/65697
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2024-24785.html
+    - https://linux.oracle.com/errata/ELSA-2024-2562.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24785
     - https://pkg.go.dev/vuln/GO-2024-2610
     - https://security.netapp.com/advisory/ntap-20240329-0008/
     - https://www.cve.org/CVERecord?id=CVE-2024-24785
     PublishedDate: '2024-03-05T23:15:07.777Z'
     LastModifiedDate: '2024-05-01T17:15:29.61Z'
-  - VulnerabilityID: CVE-2024-24788
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.20.5
-      UID: 380e15201d6d315b
-    InstalledVersion: 1.20.5
-    FixedVersion: 1.21.10, 1.22.3
-    Status: fixed
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24788
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Severity: UNKNOWN
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -6882,7 +6860,7 @@
     - https://go.dev/cl/569356
     - https://groups.google.com/g/golang-announce/c/ArQ6CDgtEjY/
     - https://linux.oracle.com/cve/CVE-2024-24786.html
-    - https://linux.oracle.com/errata/ELSA-2024-2549.html
+    - https://linux.oracle.com/errata/ELSA-2024-2550.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24786
@@ -6954,23 +6932,6 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-05-01T18:15:10.493Z'
-  - VulnerabilityID: CVE-2024-24788
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.21.8
-      UID: ca7d06d574ee3566
-    InstalledVersion: 1.21.8
-    FixedVersion: 1.21.10, 1.22.3
-    Status: fixed
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24788
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Severity: UNKNOWN
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -7039,23 +7000,6 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-05-01T18:15:10.493Z'
-  - VulnerabilityID: CVE-2024-24788
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.21.9
-      UID: 8adb28ce6abb45a1
-    InstalledVersion: 1.21.9
-    FixedVersion: 1.21.10, 1.22.3
-    Status: fixed
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24788
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Severity: UNKNOWN
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -7151,6 +7095,7 @@
     VendorSeverity:
       ghsa: 1
       k8s: 1
+      photon: 1
       redhat: 1
     CVSS:
       ghsa:
@@ -7243,23 +7188,6 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-05-01T18:15:10.493Z'
-  - VulnerabilityID: CVE-2024-24788
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.21.8
-      UID: e5c2f11f380aef66
-    InstalledVersion: 1.21.8
-    FixedVersion: 1.21.10, 1.22.3
-    Status: fixed
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24788
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Severity: UNKNOWN
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -7391,23 +7319,6 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-05-01T18:15:10.493Z'
-  - VulnerabilityID: CVE-2024-24788
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.21.8
-      UID: 6052c75e79835f49
-    InstalledVersion: 1.21.8
-    FixedVersion: 1.21.10, 1.22.3
-    Status: fixed
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24788
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Severity: UNKNOWN
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -7459,7 +7370,7 @@
       PURL: pkg:golang/stdlib@1.22.2
       UID: 36ffbab8aa163593
     InstalledVersion: 1.22.2
-    FixedVersion: 1.21.10, 1.22.3
+    FixedVersion: 1.22.3
     Status: fixed
     Layer:
       Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
@@ -7469,7 +7380,16 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: A malformed DNS message in response to a query can cause the Lookup fu ...
+    Description: A malformed DNS message in response to a query can cause the Lookup functions to get stuck in an infinite loop.
     Severity: UNKNOWN
+    References:
+    - https://go.dev/cl/578375
+    - https://go.dev/issue/66754
+    - https://groups.google.com/g/golang-announce/c/wkkO4P9stm0
+    - https://pkg.go.dev/vuln/GO-2024-2824
+    PublishedDate: '2024-05-08T16:15:08.25Z'
+    LastModifiedDate: '2024-05-08T17:05:24.083Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
