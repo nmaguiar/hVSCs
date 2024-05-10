@@ -980,7 +980,9 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -992,7 +994,12 @@
     - http://www.openwall.com/lists/oss-security/2024/04/17/9
     - http://www.openwall.com/lists/oss-security/2024/04/18/4
     - http://www.openwall.com/lists/oss-security/2024/04/24/2
+    - https://access.redhat.com/errata/RHSA-2024:2722
     - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://bugzilla.redhat.com/2273404
+    - https://errata.almalinux.org/8/ALSA-2024-2722.html
+    - https://linux.oracle.com/cve/CVE-2024-2961.html
+    - https://linux.oracle.com/errata/ELSA-2024-2722.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -1068,7 +1075,9 @@
     CweIDs:
     - CWE-787
     VendorSeverity:
+      alma: 3
       amazon: 3
+      oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 2
@@ -1080,7 +1089,12 @@
     - http://www.openwall.com/lists/oss-security/2024/04/17/9
     - http://www.openwall.com/lists/oss-security/2024/04/18/4
     - http://www.openwall.com/lists/oss-security/2024/04/24/2
+    - https://access.redhat.com/errata/RHSA-2024:2722
     - https://access.redhat.com/security/cve/CVE-2024-2961
+    - https://bugzilla.redhat.com/2273404
+    - https://errata.almalinux.org/8/ALSA-2024-2722.html
+    - https://linux.oracle.com/cve/CVE-2024-2961.html
+    - https://linux.oracle.com/errata/ELSA-2024-2722.html
     - https://lists.debian.org/debian-lts-announce/2024/05/msg00001.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/BTJFBGHDYG5PEIFD5WSSSKSFZ2AZWC5N/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/P3I4KYS6EU6S7QZ47WFNTPVAHFIUQNEL/
@@ -1317,6 +1331,82 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-40812
     PublishedDate: '2021-09-08T21:15:14.083Z'
     LastModifiedDate: '2024-04-07T01:17:53.437Z'
+  - VulnerabilityID: CVE-2024-34397
+    PkgID: libglib2.0-0@2.72.4-0ubuntu2.2
+    PkgName: libglib2.0-0
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-0@2.72.4-0ubuntu2.2?arch=amd64&distro=ubuntu-22.04
+      UID: 509d99116d7c1bb2
+    InstalledVersion: 2.72.4-0ubuntu2.2
+    FixedVersion: 2.72.4-0ubuntu2.3
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34397
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glib2: Signal subscription vulnerabilities'
+    Description: An issue was discovered in GNOME GLib before 2.78.5, and 2.79.x and 2.80.x before 2.80.1. When a GDBus-based client subscribes to signals from a trusted system service such as NetworkManager on a shared computer, other users of the same computer can send spoofed D-Bus signals that the GDBus-based client will wrongly interpret as having been sent by the trusted system service. This could lead to the GDBus-based client behaving incorrectly, with an application-dependent impact.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N
+        V3Score: 3.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34397
+    - https://discourse.gnome.org/t/security-fixes-for-signal-handling-in-gdbus-in-glib/20882/1
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3268
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34397
+    - https://ubuntu.com/security/notices/USN-6768-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-34397
+    - https://www.openwall.com/lists/oss-security/2024/05/07/5
+    PublishedDate: '2024-05-07T18:15:08.35Z'
+    LastModifiedDate: '2024-05-07T20:07:58.737Z'
+  - VulnerabilityID: CVE-2024-34397
+    PkgID: libglib2.0-data@2.72.4-0ubuntu2.2
+    PkgName: libglib2.0-data
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libglib2.0-data@2.72.4-0ubuntu2.2?arch=all&distro=ubuntu-22.04
+      UID: 71669040f783f51e
+    InstalledVersion: 2.72.4-0ubuntu2.2
+    FixedVersion: 2.72.4-0ubuntu2.3
+    Status: fixed
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-34397
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glib2: Signal subscription vulnerabilities'
+    Description: An issue was discovered in GNOME GLib before 2.78.5, and 2.79.x and 2.80.x before 2.80.1. When a GDBus-based client subscribes to signals from a trusted system service such as NetworkManager on a shared computer, other users of the same computer can send spoofed D-Bus signals that the GDBus-based client will wrongly interpret as having been sent by the trusted system service. This could lead to the GDBus-based client behaving incorrectly, with an application-dependent impact.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:L/A:N
+        V3Score: 3.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-34397
+    - https://discourse.gnome.org/t/security-fixes-for-signal-handling-in-gdbus-in-glib/20882/1
+    - https://gitlab.gnome.org/GNOME/glib/-/issues/3268
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-34397
+    - https://ubuntu.com/security/notices/USN-6768-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-34397
+    - https://www.openwall.com/lists/oss-security/2024/05/07/5
+    PublishedDate: '2024-05-07T18:15:08.35Z'
+    LastModifiedDate: '2024-05-07T20:07:58.737Z'
   - VulnerabilityID: CVE-2024-28834
     PkgID: libgnutls30@3.7.3-4ubuntu1.4
     PkgName: libgnutls30
@@ -1346,6 +1436,7 @@
       oracle-oval: 2
       photon: 2
       redhat: 2
+      rocky: 2
       ubuntu: 2
     CVSS:
       redhat:
@@ -1363,9 +1454,11 @@
     - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269228
-    - https://errata.almalinux.org/9/ALSA-2024-1879.html
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28834
+    - https://errata.almalinux.org/9/ALSA-2024-2570.html
+    - https://errata.rockylinux.org/RLSA-2024:1784
     - https://linux.oracle.com/cve/CVE-2024-28834.html
-    - https://linux.oracle.com/errata/ELSA-2024-1879.html
+    - https://linux.oracle.com/errata/ELSA-2024-2570.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
     - https://minerva.crocs.fi.muni.cz/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28834
@@ -1419,9 +1512,9 @@
     - https://bugzilla.redhat.com/2269084
     - https://bugzilla.redhat.com/2269228
     - https://bugzilla.redhat.com/show_bug.cgi?id=2269084
-    - https://errata.almalinux.org/9/ALSA-2024-1879.html
+    - https://errata.almalinux.org/9/ALSA-2024-2570.html
     - https://linux.oracle.com/cve/CVE-2024-28835.html
-    - https://linux.oracle.com/errata/ELSA-2024-1879.html
+    - https://linux.oracle.com/errata/ELSA-2024-2570.html
     - https://lists.gnupg.org/pipermail/gnutls-help/2024-March/004845.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28835
     - https://ubuntu.com/security/notices/USN-6733-1
@@ -2062,7 +2155,10 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      alma: 3
       amazon: 3
+      oracle-oval: 3
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -2071,10 +2167,19 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
+    - https://access.redhat.com/errata/RHSA-2024:2780
     - https://access.redhat.com/security/cve/CVE-2024-28182
+    - https://bugzilla.redhat.com/2265713
+    - https://bugzilla.redhat.com/2268639
+    - https://bugzilla.redhat.com/2270559
+    - https://bugzilla.redhat.com/2272764
+    - https://bugzilla.redhat.com/2275392
+    - https://errata.almalinux.org/8/ALSA-2024-2780.html
     - https://github.com/nghttp2/nghttp2/commit/00201ecd8f982da3b67d4f6868af72a1b03b14e0
     - https://github.com/nghttp2/nghttp2/commit/d71a4668c6bead55805d18810d633fbb98315af9
     - https://github.com/nghttp2/nghttp2/security/advisories/GHSA-x6x3-gv8h-m57q
+    - https://linux.oracle.com/cve/CVE-2024-28182.html
+    - https://linux.oracle.com/errata/ELSA-2024-2778.html
     - https://lists.debian.org/debian-lts-announce/2024/04/msg00026.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AGOME6ZXJG7664IPQNVE3DL67E3YP3HY/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/J6ZMXUGB66VAXDW5J6QSTHM5ET25FGSA/
@@ -2082,6 +2187,7 @@
     - https://nowotarski.info/http2-continuation-flood/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-28182
     - https://ubuntu.com/security/notices/USN-6754-1
+    - https://ubuntu.com/security/notices/USN-6754-2
     - https://www.cve.org/CVERecord?id=CVE-2024-28182
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T15:15:38.427Z'
@@ -2109,9 +2215,11 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
+      alma: 2
       amazon: 2
       cbl-mariner: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -2124,9 +2232,13 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:2463
     - https://access.redhat.com/security/cve/CVE-2023-7008
+    - https://bugzilla.redhat.com/2222672
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
     - https://github.com/systemd/systemd/issues/25676
+    - https://linux.oracle.com/cve/CVE-2023-7008.html
+    - https://linux.oracle.com/errata/ELSA-2024-2463.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -2156,9 +2268,11 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
+      alma: 2
       amazon: 2
       cbl-mariner: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -2171,9 +2285,13 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:2463
     - https://access.redhat.com/security/cve/CVE-2023-7008
+    - https://bugzilla.redhat.com/2222672
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
     - https://github.com/systemd/systemd/issues/25676
+    - https://linux.oracle.com/cve/CVE-2023-7008.html
+    - https://linux.oracle.com/errata/ELSA-2024-2463.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -2314,18 +2432,18 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:0466
+    - https://access.redhat.com/errata/RHSA-2024:2292
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-0466.html
+    - https://errata.almalinux.org/9/ALSA-2024-2292.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://linux.oracle.com/cve/CVE-2023-27043.html
-    - https://linux.oracle.com/errata/ELSA-2024-0466.html
+    - https://linux.oracle.com/errata/ELSA-2024-2292.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -2396,18 +2514,18 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:0466
+    - https://access.redhat.com/errata/RHSA-2024:2292
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-0466.html
+    - https://errata.almalinux.org/9/ALSA-2024-2292.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://linux.oracle.com/cve/CVE-2023-27043.html
-    - https://linux.oracle.com/errata/ELSA-2024-0466.html
+    - https://linux.oracle.com/errata/ELSA-2024-2292.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -2478,18 +2596,18 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:0466
+    - https://access.redhat.com/errata/RHSA-2024:2292
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-0466.html
+    - https://errata.almalinux.org/9/ALSA-2024-2292.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://linux.oracle.com/cve/CVE-2023-27043.html
-    - https://linux.oracle.com/errata/ELSA-2024-0466.html
+    - https://linux.oracle.com/errata/ELSA-2024-2292.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -2587,9 +2705,11 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
+      alma: 2
       amazon: 2
       cbl-mariner: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -2602,9 +2722,13 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:2463
     - https://access.redhat.com/security/cve/CVE-2023-7008
+    - https://bugzilla.redhat.com/2222672
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
     - https://github.com/systemd/systemd/issues/25676
+    - https://linux.oracle.com/cve/CVE-2023-7008.html
+    - https://linux.oracle.com/errata/ELSA-2024-2463.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -2793,9 +2917,11 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
+      alma: 2
       amazon: 2
       cbl-mariner: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -2808,9 +2934,13 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:2463
     - https://access.redhat.com/security/cve/CVE-2023-7008
+    - https://bugzilla.redhat.com/2222672
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
     - https://github.com/systemd/systemd/issues/25676
+    - https://linux.oracle.com/cve/CVE-2023-7008.html
+    - https://linux.oracle.com/errata/ELSA-2024-2463.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -3306,18 +3436,18 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:0466
+    - https://access.redhat.com/errata/RHSA-2024:2292
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-0466.html
+    - https://errata.almalinux.org/9/ALSA-2024-2292.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://linux.oracle.com/cve/CVE-2023-27043.html
-    - https://linux.oracle.com/errata/ELSA-2024-0466.html
+    - https://linux.oracle.com/errata/ELSA-2024-2292.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -3388,18 +3518,18 @@
     References:
     - http://python.org
     - https://access.redhat.com/articles/7051467
-    - https://access.redhat.com/errata/RHSA-2024:0466
+    - https://access.redhat.com/errata/RHSA-2024:2292
     - https://access.redhat.com/security/cve/CVE-2023-27043
     - https://bugzilla.redhat.com/2196183
     - https://bugzilla.redhat.com/show_bug.cgi?id=2196183
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27043
-    - https://errata.almalinux.org/9/ALSA-2024-0466.html
+    - https://errata.almalinux.org/9/ALSA-2024-2292.html
     - https://errata.rockylinux.org/RLSA-2024:0256
     - https://github.com/python/cpython/issues/102988
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://linux.oracle.com/cve/CVE-2023-27043.html
-    - https://linux.oracle.com/errata/ELSA-2024-0466.html
+    - https://linux.oracle.com/errata/ELSA-2024-2292.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -3448,9 +3578,11 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
+      alma: 2
       amazon: 2
       cbl-mariner: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -3463,9 +3595,13 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:2463
     - https://access.redhat.com/security/cve/CVE-2023-7008
+    - https://bugzilla.redhat.com/2222672
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
     - https://github.com/systemd/systemd/issues/25676
+    - https://linux.oracle.com/cve/CVE-2023-7008.html
+    - https://linux.oracle.com/errata/ELSA-2024-2463.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -3495,9 +3631,11 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
+      alma: 2
       amazon: 2
       cbl-mariner: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -3510,9 +3648,13 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:2463
     - https://access.redhat.com/security/cve/CVE-2023-7008
+    - https://bugzilla.redhat.com/2222672
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
     - https://github.com/systemd/systemd/issues/25676
+    - https://linux.oracle.com/cve/CVE-2023-7008.html
+    - https://linux.oracle.com/errata/ELSA-2024-2463.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -3542,9 +3684,11 @@
     CweIDs:
     - CWE-300
     VendorSeverity:
+      alma: 2
       amazon: 2
       cbl-mariner: 2
       nvd: 2
+      oracle-oval: 2
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -3557,9 +3701,13 @@
     References:
     - https://access.redhat.com/errata/RHSA-2024:2463
     - https://access.redhat.com/security/cve/CVE-2023-7008
+    - https://bugzilla.redhat.com/2222672
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222261
     - https://bugzilla.redhat.com/show_bug.cgi?id=2222672
+    - https://errata.almalinux.org/9/ALSA-2024-2463.html
     - https://github.com/systemd/systemd/issues/25676
+    - https://linux.oracle.com/cve/CVE-2023-7008.html
+    - https://linux.oracle.com/errata/ELSA-2024-2463.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -3936,7 +4084,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4296,15 +4444,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268273
-    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -4552,15 +4703,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268273
-    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -4733,7 +4887,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -4752,14 +4906,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/errata/RHSA-2024:2160
     - https://access.redhat.com/security/cve/CVE-2023-39318
-    - https://bugzilla.redhat.com/2228743
     - https://bugzilla.redhat.com/2237773
     - https://bugzilla.redhat.com/2237776
-    - https://bugzilla.redhat.com/2237777
-    - https://bugzilla.redhat.com/2237778
-    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://bugzilla.redhat.com/2253330
+    - https://errata.almalinux.org/9/ALSA-2024-2160.html
     - https://github.com/golang/go/commit/023b542edf38e2a1f87fcefb9f75ff2f99401b4c (go1.20.8)
     - https://github.com/golang/go/commit/b0e1d3ea26e8e8fce7726690c9ef0597e60739fb (go1.21.1)
     - https://go.dev/cl/526156
@@ -4801,7 +4953,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -4820,14 +4972,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/errata/RHSA-2024:2160
     - https://access.redhat.com/security/cve/CVE-2023-39319
-    - https://bugzilla.redhat.com/2228743
     - https://bugzilla.redhat.com/2237773
     - https://bugzilla.redhat.com/2237776
-    - https://bugzilla.redhat.com/2237777
-    - https://bugzilla.redhat.com/2237778
-    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://bugzilla.redhat.com/2253330
+    - https://errata.almalinux.org/9/ALSA-2024-2160.html
     - https://github.com/golang/go/commit/2070531d2f53df88e312edace6c8dfc9686ab2f5 (go1.20.8)
     - https://github.com/golang/go/commit/bbd043ff0d6d59f1a9232d31ecd5eacf6507bf6a (go1.21.1)
     - https://go.dev/cl/526157
@@ -4871,7 +5021,7 @@
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -4886,17 +5036,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1149
+    - https://access.redhat.com/errata/RHSA-2024:2272
     - https://access.redhat.com/security/cve/CVE-2023-39326
+    - https://bugzilla.redhat.com/2253193
     - https://bugzilla.redhat.com/2253330
-    - https://errata.almalinux.org/9/ALSA-2024-1149.html
+    - https://errata.almalinux.org/9/ALSA-2024-2272.html
     - https://github.com/golang/go/commit/6446af942e2e2b161c4ec1b60d9703a2b55dc4dd (go1.20.12)
     - https://github.com/golang/go/commit/ec8c526e4be720e94b98ca509e6364f0efaf28f7 (go1.21.5)
     - https://go.dev/cl/547335
     - https://go.dev/issue/64433
     - https://groups.google.com/g/golang-dev/c/6ypN5EjibjM/m/KmLVYH_uAgAJ
     - https://linux.oracle.com/cve/CVE-2023-39326.html
-    - https://linux.oracle.com/errata/ELSA-2024-12264.html
+    - https://linux.oracle.com/errata/ELSA-2024-2272.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UIU6HOGV6RRIKWM57LOXQA75BGZSIH6G/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39326
     - https://pkg.go.dev/vuln/GO-2023-2382
@@ -4965,7 +5116,9 @@
     Description: When following an HTTP redirect to a domain which is not a subdomain match or exact match of the initial domain, an http.Client does not forward sensitive headers such as "Authorization" or "Cookie". For example, a redirect from foo.com to www.foo.com will forward the Authorization header, but a redirect to bar.com will not. A maliciously crafted HTTP redirect could cause sensitive headers to be unexpectedly forwarded.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -4973,10 +5126,18 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45289
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/569340
     - https://go.dev/issue/65065
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2023-45289.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45289
     - https://pkg.go.dev/vuln/GO-2024-2600
     - https://security.netapp.com/advisory/ntap-20240329-0006/
@@ -5003,7 +5164,9 @@
     Description: When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -5011,10 +5174,18 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45290
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/569341
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2023-45290.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004/
@@ -5041,7 +5212,9 @@
     Description: Verifying a certificate chain which contains a certificate with an unknown public key algorithm will cause Certificate.Verify to panic. This affects all crypto/tls clients, and servers that set Config.ClientAuth to VerifyClientCertIfGiven or RequireAndVerifyClientCert. The default behavior is for TLS servers to not verify client certificates.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -5049,10 +5222,18 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2024-24783
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/569339
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2024-24783.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005/
@@ -5079,7 +5260,9 @@
     Description: The ParseAddressList function incorrectly handles comments (text within parentheses) within display names. Since this is a misalignment with conforming address parsers, it can result in different trust decisions being made by programs using different parsers.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -5087,10 +5270,21 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/errata/RHSA-2024:2562
     - https://access.redhat.com/security/cve/CVE-2024-24784
+    - https://bugzilla.redhat.com/2262921
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268021
+    - https://bugzilla.redhat.com/2268022
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-2562.html
     - https://go.dev/cl/555596
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2024-24784.html
+    - https://linux.oracle.com/errata/ELSA-2024-2562.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -5117,7 +5311,9 @@
     Description: If errors returned from MarshalJSON methods contain user controlled data, they may be used to break the contextual auto-escaping behavior of the html/template package, allowing for subsequent actions to inject unexpected content into templates.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -5125,10 +5321,21 @@
         V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/errata/RHSA-2024:2562
     - https://access.redhat.com/security/cve/CVE-2024-24785
+    - https://bugzilla.redhat.com/2262921
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268021
+    - https://bugzilla.redhat.com/2268022
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-2562.html
     - https://go.dev/cl/564196
     - https://go.dev/issue/65697
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2024-24785.html
+    - https://linux.oracle.com/errata/ELSA-2024-2562.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24785
     - https://pkg.go.dev/vuln/GO-2024-2610
     - https://security.netapp.com/advisory/ntap-20240329-0008/
@@ -5314,7 +5521,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -5674,15 +5881,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268273
-    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -5930,15 +6140,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268273
-    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -6111,7 +6324,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -6130,14 +6343,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/errata/RHSA-2024:2160
     - https://access.redhat.com/security/cve/CVE-2023-39318
-    - https://bugzilla.redhat.com/2228743
     - https://bugzilla.redhat.com/2237773
     - https://bugzilla.redhat.com/2237776
-    - https://bugzilla.redhat.com/2237777
-    - https://bugzilla.redhat.com/2237778
-    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://bugzilla.redhat.com/2253330
+    - https://errata.almalinux.org/9/ALSA-2024-2160.html
     - https://github.com/golang/go/commit/023b542edf38e2a1f87fcefb9f75ff2f99401b4c (go1.20.8)
     - https://github.com/golang/go/commit/b0e1d3ea26e8e8fce7726690c9ef0597e60739fb (go1.21.1)
     - https://go.dev/cl/526156
@@ -6179,7 +6390,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -6198,14 +6409,12 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N
         V3Score: 6.1
     References:
-    - https://access.redhat.com/errata/RHSA-2023:7766
+    - https://access.redhat.com/errata/RHSA-2024:2160
     - https://access.redhat.com/security/cve/CVE-2023-39319
-    - https://bugzilla.redhat.com/2228743
     - https://bugzilla.redhat.com/2237773
     - https://bugzilla.redhat.com/2237776
-    - https://bugzilla.redhat.com/2237777
-    - https://bugzilla.redhat.com/2237778
-    - https://errata.almalinux.org/9/ALSA-2023-7766.html
+    - https://bugzilla.redhat.com/2253330
+    - https://errata.almalinux.org/9/ALSA-2024-2160.html
     - https://github.com/golang/go/commit/2070531d2f53df88e312edace6c8dfc9686ab2f5 (go1.20.8)
     - https://github.com/golang/go/commit/bbd043ff0d6d59f1a9232d31ecd5eacf6507bf6a (go1.21.1)
     - https://go.dev/cl/526157
@@ -6249,7 +6458,7 @@
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
-      oracle-oval: 3
+      oracle-oval: 2
       photon: 2
       redhat: 2
       ubuntu: 2
@@ -6264,17 +6473,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
         V3Score: 5.3
     References:
-    - https://access.redhat.com/errata/RHSA-2024:1149
+    - https://access.redhat.com/errata/RHSA-2024:2272
     - https://access.redhat.com/security/cve/CVE-2023-39326
+    - https://bugzilla.redhat.com/2253193
     - https://bugzilla.redhat.com/2253330
-    - https://errata.almalinux.org/9/ALSA-2024-1149.html
+    - https://errata.almalinux.org/9/ALSA-2024-2272.html
     - https://github.com/golang/go/commit/6446af942e2e2b161c4ec1b60d9703a2b55dc4dd (go1.20.12)
     - https://github.com/golang/go/commit/ec8c526e4be720e94b98ca509e6364f0efaf28f7 (go1.21.5)
     - https://go.dev/cl/547335
     - https://go.dev/issue/64433
     - https://groups.google.com/g/golang-dev/c/6ypN5EjibjM/m/KmLVYH_uAgAJ
     - https://linux.oracle.com/cve/CVE-2023-39326.html
-    - https://linux.oracle.com/errata/ELSA-2024-12264.html
+    - https://linux.oracle.com/errata/ELSA-2024-2272.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UIU6HOGV6RRIKWM57LOXQA75BGZSIH6G/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39326
     - https://pkg.go.dev/vuln/GO-2023-2382
@@ -6343,7 +6553,9 @@
     Description: When following an HTTP redirect to a domain which is not a subdomain match or exact match of the initial domain, an http.Client does not forward sensitive headers such as "Authorization" or "Cookie". For example, a redirect from foo.com to www.foo.com will forward the Authorization header, but a redirect to bar.com will not. A maliciously crafted HTTP redirect could cause sensitive headers to be unexpectedly forwarded.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -6351,10 +6563,18 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45289
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/569340
     - https://go.dev/issue/65065
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2023-45289.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45289
     - https://pkg.go.dev/vuln/GO-2024-2600
     - https://security.netapp.com/advisory/ntap-20240329-0006/
@@ -6381,7 +6601,9 @@
     Description: When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -6389,10 +6611,18 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45290
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/569341
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2023-45290.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004/
@@ -6419,7 +6649,9 @@
     Description: Verifying a certificate chain which contains a certificate with an unknown public key algorithm will cause Certificate.Verify to panic. This affects all crypto/tls clients, and servers that set Config.ClientAuth to VerifyClientCertIfGiven or RequireAndVerifyClientCert. The default behavior is for TLS servers to not verify client certificates.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -6427,10 +6659,18 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2024-24783
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/569339
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2024-24783.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005/
@@ -6457,7 +6697,9 @@
     Description: The ParseAddressList function incorrectly handles comments (text within parentheses) within display names. Since this is a misalignment with conforming address parsers, it can result in different trust decisions being made by programs using different parsers.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -6465,10 +6707,21 @@
         V3Score: 5.4
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/errata/RHSA-2024:2562
     - https://access.redhat.com/security/cve/CVE-2024-24784
+    - https://bugzilla.redhat.com/2262921
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268021
+    - https://bugzilla.redhat.com/2268022
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-2562.html
     - https://go.dev/cl/555596
     - https://go.dev/issue/65083
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2024-24784.html
+    - https://linux.oracle.com/errata/ELSA-2024-2562.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24784
     - https://pkg.go.dev/vuln/GO-2024-2609
     - https://security.netapp.com/advisory/ntap-20240329-0007/
@@ -6495,7 +6748,9 @@
     Description: If errors returned from MarshalJSON methods contain user controlled data, they may be used to break the contextual auto-escaping behavior of the html/template package, allowing for subsequent actions to inject unexpected content into templates.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 3
       cbl-mariner: 2
+      oracle-oval: 3
       redhat: 2
     CVSS:
       redhat:
@@ -6503,10 +6758,21 @@
         V3Score: 6.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/errata/RHSA-2024:2562
     - https://access.redhat.com/security/cve/CVE-2024-24785
+    - https://bugzilla.redhat.com/2262921
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
+    - https://bugzilla.redhat.com/2268021
+    - https://bugzilla.redhat.com/2268022
+    - https://bugzilla.redhat.com/2268273
+    - https://errata.almalinux.org/9/ALSA-2024-2562.html
     - https://go.dev/cl/564196
     - https://go.dev/issue/65697
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
+    - https://linux.oracle.com/cve/CVE-2024-24785.html
+    - https://linux.oracle.com/errata/ELSA-2024-2562.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24785
     - https://pkg.go.dev/vuln/GO-2024-2610
     - https://security.netapp.com/advisory/ntap-20240329-0008/
@@ -6595,15 +6861,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268273
-    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -6637,9 +6906,10 @@
     Description: The protojson.Unmarshal function can enter an infinite loop when unmarshaling certain forms of invalid JSON. This condition can occur when unmarshaling into a message which contains a google.protobuf.Any value, or when the UnmarshalOptions.DiscardUnknown option is set.
     Severity: MEDIUM
     VendorSeverity:
+      alma: 2
       cbl-mariner: 2
       ghsa: 2
-      oracle-oval: 3
+      oracle-oval: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -6648,7 +6918,10 @@
         V3Score: 5.9
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
+    - https://access.redhat.com/errata/RHSA-2024:2550
     - https://access.redhat.com/security/cve/CVE-2024-24786
+    - https://bugzilla.redhat.com/2268046
+    - https://errata.almalinux.org/9/ALSA-2024-2550.html
     - https://github.com/protocolbuffers/protobuf-go
     - https://github.com/protocolbuffers/protobuf-go/commit/f01a588e5810b90996452eec4a28f22a0afae023
     - https://github.com/protocolbuffers/protobuf-go/releases/tag/v1.33.0
@@ -6656,7 +6929,7 @@
     - https://go.dev/cl/569356
     - https://groups.google.com/g/golang-announce/c/ArQ6CDgtEjY/
     - https://linux.oracle.com/cve/CVE-2024-24786.html
-    - https://linux.oracle.com/errata/ELSA-2024-12348.html
+    - https://linux.oracle.com/errata/ELSA-2024-2550.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/JDMBHAVSDU2FBDZ45U3A2VLSM35OJ2HU/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24786
@@ -6701,15 +6974,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268273
-    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -6763,15 +7039,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268273
-    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -6825,15 +7104,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268273
-    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -6873,6 +7155,7 @@
     VendorSeverity:
       ghsa: 1
       k8s: 1
+      photon: 1
       redhat: 1
     CVSS:
       ghsa:
@@ -6938,15 +7221,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268273
-    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -7000,15 +7286,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268273
-    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -7057,15 +7346,18 @@
     References:
     - http://www.openwall.com/lists/oss-security/2024/04/03/16
     - http://www.openwall.com/lists/oss-security/2024/04/05/4
-    - https://access.redhat.com/errata/RHSA-2024:1963
+    - https://access.redhat.com/errata/RHSA-2024:2724
     - https://access.redhat.com/security/cve/CVE-2023-45288
+    - https://bugzilla.redhat.com/2268017
+    - https://bugzilla.redhat.com/2268018
+    - https://bugzilla.redhat.com/2268019
     - https://bugzilla.redhat.com/2268273
-    - https://errata.almalinux.org/9/ALSA-2024-1963.html
+    - https://errata.almalinux.org/9/ALSA-2024-2724.html
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-1963.html
+    - https://linux.oracle.com/errata/ELSA-2024-2724.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -7123,68 +7415,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-32473
     PublishedDate: '2024-04-18T22:15:10.4Z'
     LastModifiedDate: '2024-04-19T13:10:25.637Z'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+  - VulnerabilityID: CVE-2024-24788
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.22.2
+      UID: 36ffbab8aa163593
+    InstalledVersion: 1.22.2
+    FixedVersion: 1.22.3
+    Status: fixed
     Layer:
       Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
       DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24788
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net: malformed DNS message can cause infinite loop'
+    Description: A malformed DNS message in response to a query can cause the Lookup functions to get stuck in an infinite loop.
     Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
-      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
-      CreatedBy: 'COPY / / # buildkit'
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-24788
+    - https://go.dev/cl/578375
+    - https://go.dev/issue/66754
+    - https://groups.google.com/g/golang-announce/c/wkkO4P9stm0
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24788
+    - https://pkg.go.dev/vuln/GO-2024-2824
+    - https://www.cve.org/CVERecord?id=CVE-2024-24788
+    PublishedDate: '2024-05-08T16:15:08.25Z'
+    LastModifiedDate: '2024-05-08T17:05:24.083Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -7243,6 +7508,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
+      DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:79fade053584c46efdc72f9a94484e4278fb6ea4048996de77a9e6674301a136
       DiffID: sha256:f18079eaf9afae7a7091e76a6eafbba67faa424cf485e140508f834163bd7473
