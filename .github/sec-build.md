@@ -1316,9 +1316,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_1.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0010/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [27] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
@@ -1351,9 +1353,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_2.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0011/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [28] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
@@ -1385,9 +1389,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_3.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0012/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
 │                        ├ [29] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libk5crypto3 
@@ -1419,9 +1425,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_1.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0010/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [30] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libk5crypto3 
@@ -1454,9 +1462,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_2.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0011/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libk5crypto3 
@@ -1488,9 +1498,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_3.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0012/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
 │                        ├ [32] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5-3 
@@ -1522,9 +1534,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_1.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0010/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [33] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5-3 
@@ -1557,9 +1571,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_2.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0011/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [34] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5-3 
@@ -1591,9 +1607,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_3.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0012/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
 │                        ├ [35] ╭ VulnerabilityID : CVE-2024-26458 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5support0 
@@ -1625,9 +1643,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_1.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0010/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [36] ╭ VulnerabilityID : CVE-2024-26461 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5support0 
@@ -1660,9 +1680,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_2.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0011/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5support0 
@@ -1694,9 +1716,11 @@
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_3.md 
 │                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-│                        │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0012/ 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
-│                        │      ╰ LastModifiedDate: 2024-02-29T13:49:29.39Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
 │                        ├ [38] ╭ VulnerabilityID : CVE-2020-22916 
 │                        │      ├ PkgID           : liblzma5@5.2.5-2ubuntu1 
 │                        │      ├ PkgName         : liblzma5 
@@ -4380,7 +4404,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -5697,7 +5721,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -5777,7 +5801,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -5863,7 +5887,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6671,7 +6695,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7988,7 +8012,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8068,7 +8092,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8154,7 +8178,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
