@@ -1285,80 +1285,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-40812 
 │                        │      ├ PublishedDate   : 2021-09-08T21:15:14.083Z 
 │                        │      ╰ LastModifiedDate: 2024-04-07T01:17:53.437Z 
-│                        ├ [26] ╭ VulnerabilityID : CVE-2024-26458 
-│                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
-│                        │      ├ PkgName         : libgssapi-krb5-2 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0
-│                        │      │                  │       .3?arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : e8f74558686427be 
-│                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec16
-│                        │      │                  │         93e401a615a11cc5e61acf741d 
-│                        │      │                  ╰ DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca
-│                        │      │                            941f533f0852145c4e9e49a8a7 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26458 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
-│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
-│                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0010/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
-│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [27] ╭ VulnerabilityID : CVE-2024-26461 
-│                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
-│                        │      ├ PkgName         : libgssapi-krb5-2 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0
-│                        │      │                  │       .3?arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : e8f74558686427be 
-│                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
-│                        │      ├ Status          : affected 
-│                        │      ├ Layer            ╭ Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec16
-│                        │      │                  │         93e401a615a11cc5e61acf741d 
-│                        │      │                  ╰ DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca
-│                        │      │                            941f533f0852145c4e9e49a8a7 
-│                        │      ├ SeveritySource  : ubuntu 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26461 
-│                        │      ├ DataSource       ╭ ID  : ubuntu 
-│                        │      │                  ├ Name: Ubuntu CVE Tracker 
-│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c 
-│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
-│                        │      │                   vulnerability in
-│                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
-│                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :N/I:N/A:H 
-│                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0011/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
-│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                        ├ [28] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [26] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libgssapi-krb5-2 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0
@@ -1388,18 +1315,20 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_3.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
 │                        │      │                  │      15-0012/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [29] ╭ VulnerabilityID : CVE-2024-26458 
-│                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
-│                        │      ├ PkgName         : libk5crypto3 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?a
-│                        │      │                  │       rch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 568d75d2af2ac746 
+│                        ├ [27] ╭ VulnerabilityID : CVE-2024-26458 
+│                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
+│                        │      ├ PkgName         : libgssapi-krb5-2 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0
+│                        │      │                  │       .3?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : e8f74558686427be 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec16
@@ -1414,28 +1343,30 @@
 │                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
 │                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
 │                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
-│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ amazon: 2 
 │                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
 │                        │      │                  │      15-0010/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [30] ╭ VulnerabilityID : CVE-2024-26461 
-│                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
-│                        │      ├ PkgName         : libk5crypto3 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?a
-│                        │      │                  │       rch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 568d75d2af2ac746 
+│                        ├ [28] ╭ VulnerabilityID : CVE-2024-26461 
+│                        │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
+│                        │      ├ PkgName         : libgssapi-krb5-2 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0
+│                        │      │                  │       .3?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : e8f74558686427be 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec16
@@ -1451,23 +1382,25 @@
 │                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
-│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ amazon: 2 
 │                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
 │                        │      │                  │      15-0011/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                        ├ [31] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [29] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libk5crypto3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?a
@@ -1497,18 +1430,20 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_3.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
 │                        │      │                  │      15-0012/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [32] ╭ VulnerabilityID : CVE-2024-26458 
-│                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
-│                        │      ├ PkgName         : libkrb5-3 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch
-│                        │      │                  │       =amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : f73d60d334001db6 
+│                        ├ [30] ╭ VulnerabilityID : CVE-2024-26458 
+│                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
+│                        │      ├ PkgName         : libk5crypto3 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?a
+│                        │      │                  │       rch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 568d75d2af2ac746 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec16
@@ -1523,28 +1458,30 @@
 │                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
 │                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
 │                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
-│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ amazon: 2 
 │                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
 │                        │      │                  │      15-0010/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [33] ╭ VulnerabilityID : CVE-2024-26461 
-│                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
-│                        │      ├ PkgName         : libkrb5-3 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch
-│                        │      │                  │       =amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : f73d60d334001db6 
+│                        ├ [31] ╭ VulnerabilityID : CVE-2024-26461 
+│                        │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
+│                        │      ├ PkgName         : libk5crypto3 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?a
+│                        │      │                  │       rch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 568d75d2af2ac746 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec16
@@ -1560,23 +1497,25 @@
 │                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
-│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ amazon: 2 
 │                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
 │                        │      │                  │      15-0011/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                        ├ [34] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [32] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5-3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch
@@ -1606,18 +1545,20 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_3.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
 │                        │      │                  │      15-0012/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                        ├ [35] ╭ VulnerabilityID : CVE-2024-26458 
-│                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
-│                        │      ├ PkgName         : libkrb5support0 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.
-│                        │      │                  │       3?arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 19815d516ad9603a 
+│                        ├ [33] ╭ VulnerabilityID : CVE-2024-26458 
+│                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
+│                        │      ├ PkgName         : libkrb5-3 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch
+│                        │      │                  │       =amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : f73d60d334001db6 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec16
@@ -1632,28 +1573,30 @@
 │                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
 │                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
 │                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
-│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ amazon: 2 
 │                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
 │                        │      │                  │      15-0010/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                        ├ [36] ╭ VulnerabilityID : CVE-2024-26461 
-│                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
-│                        │      ├ PkgName         : libkrb5support0 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.
-│                        │      │                  │       3?arch=amd64&distro=ubuntu-22.04 
-│                        │      │                  ╰ UID : 19815d516ad9603a 
+│                        ├ [34] ╭ VulnerabilityID : CVE-2024-26461 
+│                        │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
+│                        │      ├ PkgName         : libkrb5-3 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch
+│                        │      │                  │       =amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : f73d60d334001db6 
 │                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                        │      ├ Status          : affected 
 │                        │      ├ Layer            ╭ Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec16
@@ -1669,23 +1612,25 @@
 │                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
-│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ Severity        : LOW 
 │                        │      ├ VendorSeverity   ╭ amazon: 2 
 │                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
 │                        │      │                  │      15-0011/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                        ├ [37] ╭ VulnerabilityID : CVE-2024-26462 
+│                        ├ [35] ╭ VulnerabilityID : CVE-2024-26462 
 │                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                        │      ├ PkgName         : libkrb5support0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.
@@ -1715,12 +1660,91 @@
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26462 
 │                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
 │                        │      │                  │      blob/main/krb5_detect_3.md 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
-│                        │      │                  ├ [3]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26462 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
 │                        │      │                  │      15-0012/ 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
+│                        ├ [36] ╭ VulnerabilityID : CVE-2024-26458 
+│                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
+│                        │      ├ PkgName         : libkrb5support0 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.
+│                        │      │                  │       3?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 19815d516ad9603a 
+│                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec16
+│                        │      │                  │         93e401a615a11cc5e61acf741d 
+│                        │      │                  ╰ DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca
+│                        │      │                            941f533f0852145c4e9e49a8a7 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26458 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/rpc/pmap_rmt.c 
+│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
+│                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
+│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
+│                        │      │                  │      blob/main/krb5_detect_1.md 
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0010/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
+│                        ├ [37] ╭ VulnerabilityID : CVE-2024-26461 
+│                        │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
+│                        │      ├ PkgName         : libkrb5support0 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.
+│                        │      │                  │       3?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 19815d516ad9603a 
+│                        │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec16
+│                        │      │                  │         93e401a615a11cc5e61acf741d 
+│                        │      │                  ╰ DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca
+│                        │      │                            941f533f0852145c4e9e49a8a7 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26461 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : krb5: Memory leak at /krb5/src/lib/gssapi/krb5/k5sealv3.c 
+│                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak
+│                        │      │                   vulnerability in
+│                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
+│                        │      ├ Severity        : LOW 
+│                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ redhat: 1 
+│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :N/I:N/A:H 
+│                        │      │                           ╰ V3Score : 5.9 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
+│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
+│                        │      │                  │      blob/main/krb5_detect_2.md 
+│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
+│                        │      │                  │      March/023095.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
+│                        │      │                  │      15-0011/ 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
+│                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [38] ╭ VulnerabilityID : CVE-2020-22916 
 │                        │      ├ PkgID           : liblzma5@5.2.5-2ubuntu1 
 │                        │      ├ PkgName         : liblzma5 
@@ -6109,8 +6133,10 @@
 │                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
 │                        │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2024-2599 
 │                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       329-0004 
+│                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0004/ 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:26.04Z 
 │                        ├ [15] ╭ VulnerabilityID : CVE-2024-24783 
@@ -6169,17 +6195,20 @@
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
 │                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
-│                        │      │                  ├ [17]: https://go.dev/cl/569339 
-│                        │      │                  ├ [18]: https://go.dev/issue/65390 
-│                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
+│                        │      │                  ├ [17]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
+│                        │      │                  ├ [18]: https://go.dev/cl/569339 
+│                        │      │                  ├ [19]: https://go.dev/issue/65390 
+│                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2024-24783.html 
-│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
-│                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2024-24783 
-│                        │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2024-2598 
-│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2024-24783.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2024-24783 
+│                        │      │                  ├ [24]: https://pkg.go.dev/vuln/GO-2024-2598 
+│                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       329-0005 
+│                        │      │                  ├ [26]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0005/ 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2024-24783 
+│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24783 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.683Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.45Z 
 │                        ├ [16] ╭ VulnerabilityID : CVE-2024-24784 
@@ -6337,7 +6366,8 @@
 │                               │                  ├ [32]: https://pkg.go.dev/vuln/GO-2024-2610 
 │                               │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
 │                               │                  │       329-0008/ 
-│                               │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
+│                               │                  ├ [34]: https://vuln.go.dev/ID/GO-2024-2610.json 
+│                               │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                               ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                               ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
 ├ [3]  ╭ Target         : tmp/tmp.3mNXh7lous/krew-linux_amd64 
@@ -8397,8 +8427,10 @@
 │                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
 │                        │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2024-2599 
 │                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       329-0004 
+│                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0004/ 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
+│                        │      │                  ╰ [26]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:26.04Z 
 │                        ├ [15] ╭ VulnerabilityID : CVE-2024-24783 
@@ -8457,17 +8489,20 @@
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
 │                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
-│                        │      │                  ├ [17]: https://go.dev/cl/569339 
-│                        │      │                  ├ [18]: https://go.dev/issue/65390 
-│                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
+│                        │      │                  ├ [17]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
+│                        │      │                  ├ [18]: https://go.dev/cl/569339 
+│                        │      │                  ├ [19]: https://go.dev/issue/65390 
+│                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
-│                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2024-24783.html 
-│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
-│                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2024-24783 
-│                        │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2024-2598 
-│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2024-24783.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2024-24783 
+│                        │      │                  ├ [24]: https://pkg.go.dev/vuln/GO-2024-2598 
+│                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       329-0005 
+│                        │      │                  ├ [26]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       329-0005/ 
-│                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2024-24783 
+│                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24783 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.683Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.45Z 
 │                        ├ [16] ╭ VulnerabilityID : CVE-2024-24784 
@@ -8625,7 +8660,8 @@
 │                               │                  ├ [32]: https://pkg.go.dev/vuln/GO-2024-2610 
 │                               │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
 │                               │                  │       329-0008/ 
-│                               │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
+│                               │                  ├ [34]: https://vuln.go.dev/ID/GO-2024-2610.json 
+│                               │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                               ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                               ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
 ├ [4]  ╭ Target         : usr/bin/helm 
