@@ -298,6 +298,244 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2023-11-07T03:45:32.64Z'
+  - VulnerabilityID: CVE-2024-32002
+    PkgID: git@1:2.34.1-1ubuntu1.10
+    PkgName: git
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 1658a51a632685fb
+    InstalledVersion: 1:2.34.1-1ubuntu1.10
+    FixedVersion: 1:2.34.1-1ubuntu1.11
+    Status: fixed
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32002
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: Recursive clones RCE'
+    Description: Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    - CWE-22
+    - CWE-434
+    VendorSeverity:
+      amazon: 3
+      bitnami: 4
+      nvd: 4
+      photon: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 9
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 9
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32002
+    - https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---recurse-submodulesltpathspecgt
+    - https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks
+    - https://github.com/git/git/commit/97065761333fd62db1912d81b489db938d8c991d
+    - https://github.com/git/git/security/advisories/GHSA-8h77-4q3w-gfgv
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32002
+    - https://ubuntu.com/security/notices/USN-6793-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-32002
+    PublishedDate: '2024-05-14T19:15:10.81Z'
+    LastModifiedDate: '2024-05-23T20:40:28.707Z'
+  - VulnerabilityID: CVE-2024-32004
+    PkgID: git@1:2.34.1-1ubuntu1.10
+    PkgName: git
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 1658a51a632685fb
+    InstalledVersion: 1:2.34.1-1ubuntu1.10
+    FixedVersion: 1:2.34.1-1ubuntu1.11
+    Status: fixed
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32004
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: RCE while cloning local repos'
+    Description: Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, an attacker can prepare a local repository in such a way that, when cloned, will execute arbitrary code during the operation. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a workaround, avoid cloning repositories from untrusted sources.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-114
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32004
+    - https://git-scm.com/docs/git-clone
+    - https://github.com/git/git/commit/f4aa8c8bb11dae6e769cd930565173808cbb69c8
+    - https://github.com/git/git/security/advisories/GHSA-xfc6-vwr8-r389
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32004
+    - https://ubuntu.com/security/notices/USN-6793-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-32004
+    PublishedDate: '2024-05-14T19:15:11.377Z'
+    LastModifiedDate: '2024-05-14T19:17:55.627Z'
+  - VulnerabilityID: CVE-2024-32020
+    PkgID: git@1:2.34.1-1ubuntu1.10
+    PkgName: git
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 1658a51a632685fb
+    InstalledVersion: 1:2.34.1-1ubuntu1.10
+    FixedVersion: 1:2.34.1-1ubuntu1.11
+    Status: fixed
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32020
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: insecure hardlinks'
+    Description: Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, local clones may end up hardlinking files into the target repository's object database when source and target repository reside on the same disk. If the source repository is owned by a different user, then those hardlinked files may be rewritten at any point in time by the untrusted user. Cloning local repositories will cause Git to either copy or hardlink files of the source repository into the target repository. This significantly speeds up such local clones compared to doing a "proper" clone and saves both disk space and compute time. When cloning a repository located on the same disk that is owned by a different user than the current user we also end up creating such hardlinks. These files will continue to be owned and controlled by the potentially-untrusted user and can be rewritten by them at will in the future. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-281
+    VendorSeverity:
+      amazon: 3
+      bitnami: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
+        V3Score: 3.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32020
+    - https://github.com/git/git/commit/1204e1a824c34071019fe106348eaa6d88f9528d
+    - https://github.com/git/git/commit/9e65df5eab274bf74c7b570107aacd1303a1e703
+    - https://github.com/git/git/security/advisories/GHSA-5rfh-556j-fhgj
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32020
+    - https://ubuntu.com/security/notices/USN-6793-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-32020
+    PublishedDate: '2024-05-14T19:15:12.24Z'
+    LastModifiedDate: '2024-05-14T19:17:55.627Z'
+  - VulnerabilityID: CVE-2024-32021
+    PkgID: git@1:2.34.1-1ubuntu1.10
+    PkgName: git
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 1658a51a632685fb
+    InstalledVersion: 1:2.34.1-1ubuntu1.10
+    FixedVersion: 1:2.34.1-1ubuntu1.11
+    Status: fixed
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32021
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: symlink bypass'
+    Description: |-
+      Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, when cloning a local source repository that contains symlinks via the filesystem, Git may create hardlinks to arbitrary user-readable files on the same filesystem as the target repository in the `objects/` directory. Cloning a local repository over the filesystem may creating hardlinks to arbitrary user-owned files on the same filesystem in the target Git repository's `objects/` directory. When cloning a repository over the filesystem (without explicitly specifying the `file://` protocol or `--no-local`), the optimizations for local cloning
+      will be used, which include attempting to hard link the object files instead of copying them. While the code includes checks against symbolic links in the source repository, which were added during the fix for CVE-2022-39253, these checks can still be raced because the hard link operation ultimately follows symlinks. If the object on the filesystem appears as a file during the check, and then a symlink during the operation, this will allow the adversary to bypass the check and create hardlinks in the destination objects directory to arbitrary, user-readable files. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-547
+    VendorSeverity:
+      amazon: 3
+      bitnami: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
+        V3Score: 3.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32021
+    - https://github.com/git/git/security/advisories/GHSA-mvxm-9j2h-qjx7
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32021
+    - https://ubuntu.com/security/notices/USN-6793-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-32021
+    PublishedDate: '2024-05-14T20:15:13.63Z'
+    LastModifiedDate: '2024-05-15T16:40:19.33Z'
+  - VulnerabilityID: CVE-2024-32465
+    PkgID: git@1:2.34.1-1ubuntu1.10
+    PkgName: git
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64&distro=ubuntu-22.04&epoch=1
+      UID: 1658a51a632685fb
+    InstalledVersion: 1:2.34.1-1ubuntu1.10
+    FixedVersion: 1:2.34.1-1ubuntu1.11
+    Status: fixed
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32465
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: additional local RCE'
+    Description: 'Git is a revision control system. The Git project recommends to avoid working in untrusted repositories, and instead to clone it first with `git clone --no-local` to obtain a clean copy. Git has specific protections to make that a safe operation even with an untrusted source repository, but vulnerabilities allow those protections to be bypassed. In the context of cloning local repositories owned by other users, this vulnerability has been covered in CVE-2024-32004. But there are circumstances where the fixes for CVE-2024-32004 are not enough: For example, when obtaining a `.zip` file containing a full copy of a Git repository, it should not be trusted by default to be safe, as e.g. hooks could be configured to run within the context of that repository. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a workaround, avoid using Git in repositories that have been obtained via archives from untrusted sources.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 7.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32465
+    - https://git-scm.com/docs/git#_security
+    - https://git-scm.com/docs/git-clone
+    - https://github.com/git/git/commit/7b70e9efb18c2cc3f219af399bd384c5801ba1d7
+    - https://github.com/git/git/security/advisories/GHSA-vm9j-46j9-qvq4
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32465
+    - https://ubuntu.com/security/notices/USN-6793-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-32465
+    PublishedDate: '2024-05-14T20:15:14.54Z'
+    LastModifiedDate: '2024-05-15T16:40:19.33Z'
   - VulnerabilityID: CVE-2018-1000021
     PkgID: git@1:2.34.1-1ubuntu1.10
     PkgName: git
@@ -341,6 +579,244 @@
     - https://www.cve.org/CVERecord?id=CVE-2018-1000021
     PublishedDate: '2018-02-09T23:29:00.557Z'
     LastModifiedDate: '2018-03-06T19:34:06.18Z'
+  - VulnerabilityID: CVE-2024-32002
+    PkgID: git-man@1:2.34.1-1ubuntu1.10
+    PkgName: git-man
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 63b12f2fb8982317
+    InstalledVersion: 1:2.34.1-1ubuntu1.10
+    FixedVersion: 1:2.34.1-1ubuntu1.11
+    Status: fixed
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32002
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: Recursive clones RCE'
+    Description: Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, repositories with submodules can be crafted in a way that exploits a bug in Git whereby it can be fooled into writing files not into the submodule's worktree but into a `.git/` directory. This allows writing a hook that will be executed while the clone operation is still running, giving the user no opportunity to inspect the code that is being executed. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link support is disabled in Git (e.g. via `git config --global core.symlinks false`), the described attack won't work. As always, it is best to avoid cloning repositories from untrusted sources.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-59
+    - CWE-22
+    - CWE-434
+    VendorSeverity:
+      amazon: 3
+      bitnami: 4
+      nvd: 4
+      photon: 4
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 9
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 9
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32002
+    - https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---recurse-submodulesltpathspecgt
+    - https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks
+    - https://github.com/git/git/commit/97065761333fd62db1912d81b489db938d8c991d
+    - https://github.com/git/git/security/advisories/GHSA-8h77-4q3w-gfgv
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32002
+    - https://ubuntu.com/security/notices/USN-6793-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-32002
+    PublishedDate: '2024-05-14T19:15:10.81Z'
+    LastModifiedDate: '2024-05-23T20:40:28.707Z'
+  - VulnerabilityID: CVE-2024-32004
+    PkgID: git-man@1:2.34.1-1ubuntu1.10
+    PkgName: git-man
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 63b12f2fb8982317
+    InstalledVersion: 1:2.34.1-1ubuntu1.10
+    FixedVersion: 1:2.34.1-1ubuntu1.11
+    Status: fixed
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32004
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: RCE while cloning local repos'
+    Description: Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, an attacker can prepare a local repository in such a way that, when cloned, will execute arbitrary code during the operation. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a workaround, avoid cloning repositories from untrusted sources.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-114
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      photon: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.1
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
+        V3Score: 8.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32004
+    - https://git-scm.com/docs/git-clone
+    - https://github.com/git/git/commit/f4aa8c8bb11dae6e769cd930565173808cbb69c8
+    - https://github.com/git/git/security/advisories/GHSA-xfc6-vwr8-r389
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32004
+    - https://ubuntu.com/security/notices/USN-6793-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-32004
+    PublishedDate: '2024-05-14T19:15:11.377Z'
+    LastModifiedDate: '2024-05-14T19:17:55.627Z'
+  - VulnerabilityID: CVE-2024-32020
+    PkgID: git-man@1:2.34.1-1ubuntu1.10
+    PkgName: git-man
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 63b12f2fb8982317
+    InstalledVersion: 1:2.34.1-1ubuntu1.10
+    FixedVersion: 1:2.34.1-1ubuntu1.11
+    Status: fixed
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32020
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: insecure hardlinks'
+    Description: Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, local clones may end up hardlinking files into the target repository's object database when source and target repository reside on the same disk. If the source repository is owned by a different user, then those hardlinked files may be rewritten at any point in time by the untrusted user. Cloning local repositories will cause Git to either copy or hardlink files of the source repository into the target repository. This significantly speeds up such local clones compared to doing a "proper" clone and saves both disk space and compute time. When cloning a repository located on the same disk that is owned by a different user than the current user we also end up creating such hardlinks. These files will continue to be owned and controlled by the potentially-untrusted user and can be rewritten by them at will in the future. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-281
+    VendorSeverity:
+      amazon: 3
+      bitnami: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
+        V3Score: 3.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32020
+    - https://github.com/git/git/commit/1204e1a824c34071019fe106348eaa6d88f9528d
+    - https://github.com/git/git/commit/9e65df5eab274bf74c7b570107aacd1303a1e703
+    - https://github.com/git/git/security/advisories/GHSA-5rfh-556j-fhgj
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32020
+    - https://ubuntu.com/security/notices/USN-6793-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-32020
+    PublishedDate: '2024-05-14T19:15:12.24Z'
+    LastModifiedDate: '2024-05-14T19:17:55.627Z'
+  - VulnerabilityID: CVE-2024-32021
+    PkgID: git-man@1:2.34.1-1ubuntu1.10
+    PkgName: git-man
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 63b12f2fb8982317
+    InstalledVersion: 1:2.34.1-1ubuntu1.10
+    FixedVersion: 1:2.34.1-1ubuntu1.11
+    Status: fixed
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32021
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: symlink bypass'
+    Description: |-
+      Git is a revision control system. Prior to versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4, when cloning a local source repository that contains symlinks via the filesystem, Git may create hardlinks to arbitrary user-readable files on the same filesystem as the target repository in the `objects/` directory. Cloning a local repository over the filesystem may creating hardlinks to arbitrary user-owned files on the same filesystem in the target Git repository's `objects/` directory. When cloning a repository over the filesystem (without explicitly specifying the `file://` protocol or `--no-local`), the optimizations for local cloning
+      will be used, which include attempting to hard link the object files instead of copying them. While the code includes checks against symbolic links in the source repository, which were added during the fix for CVE-2022-39253, these checks can still be raced because the hard link operation ultimately follows symlinks. If the object on the filesystem appears as a file during the check, and then a symlink during the operation, this will allow the adversary to bypass the check and create hardlinks in the destination objects directory to arbitrary, user-readable files. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-547
+    VendorSeverity:
+      amazon: 3
+      bitnami: 1
+      photon: 1
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
+        V3Score: 3.9
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
+        V3Score: 3.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32021
+    - https://github.com/git/git/security/advisories/GHSA-mvxm-9j2h-qjx7
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32021
+    - https://ubuntu.com/security/notices/USN-6793-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-32021
+    PublishedDate: '2024-05-14T20:15:13.63Z'
+    LastModifiedDate: '2024-05-15T16:40:19.33Z'
+  - VulnerabilityID: CVE-2024-32465
+    PkgID: git-man@1:2.34.1-1ubuntu1.10
+    PkgName: git-man
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=all&distro=ubuntu-22.04&epoch=1
+      UID: 63b12f2fb8982317
+    InstalledVersion: 1:2.34.1-1ubuntu1.10
+    FixedVersion: 1:2.34.1-1ubuntu1.11
+    Status: fixed
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-32465
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'git: additional local RCE'
+    Description: 'Git is a revision control system. The Git project recommends to avoid working in untrusted repositories, and instead to clone it first with `git clone --no-local` to obtain a clean copy. Git has specific protections to make that a safe operation even with an untrusted source repository, but vulnerabilities allow those protections to be bypassed. In the context of cloning local repositories owned by other users, this vulnerability has been covered in CVE-2024-32004. But there are circumstances where the fixes for CVE-2024-32004 are not enough: For example, when obtaining a `.zip` file containing a full copy of a Git repository, it should not be trusted by default to be safe, as e.g. hooks could be configured to run within the context of that repository. The problem has been patched in versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a workaround, avoid using Git in repositories that have been obtained via archives from untrusted sources.'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-22
+    VendorSeverity:
+      amazon: 3
+      bitnami: 3
+      photon: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 7.3
+      redhat:
+        V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
+        V3Score: 7.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-32465
+    - https://git-scm.com/docs/git#_security
+    - https://git-scm.com/docs/git-clone
+    - https://github.com/git/git/commit/7b70e9efb18c2cc3f219af399bd384c5801ba1d7
+    - https://github.com/git/git/security/advisories/GHSA-vm9j-46j9-qvq4
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-32465
+    - https://ubuntu.com/security/notices/USN-6793-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-32465
+    PublishedDate: '2024-05-14T20:15:14.54Z'
+    LastModifiedDate: '2024-05-15T16:40:19.33Z'
   - VulnerabilityID: CVE-2018-1000021
     PkgID: git-man@1:2.34.1-1ubuntu1.10
     PkgName: git-man
@@ -3728,7 +4204,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -4073,6 +4549,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -4342,6 +4819,7 @@
     Severity: HIGH
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -4551,7 +5029,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -4617,7 +5095,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -4781,6 +5259,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
@@ -4839,6 +5318,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
@@ -4898,6 +5378,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
@@ -4958,6 +5439,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
@@ -5025,6 +5507,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
@@ -5251,7 +5734,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -5596,6 +6079,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -5865,6 +6349,7 @@
     Severity: HIGH
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 3
       ghsa: 2
       oracle-oval: 3
@@ -6074,7 +6559,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -6140,7 +6625,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -6304,6 +6789,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
@@ -6362,6 +6848,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
@@ -6421,6 +6908,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
@@ -6481,6 +6969,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
@@ -6548,6 +7037,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 3
+      amazon: 2
       cbl-mariner: 2
       oracle-oval: 3
       redhat: 2
@@ -6714,68 +7204,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-24788
     PublishedDate: '2024-05-08T16:15:08.25Z'
     LastModifiedDate: '2024-05-08T17:05:24.083Z'
-- Target: /etc/ssh/ssh_host_dsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
-      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
-      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -6834,6 +7262,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_dsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
+      DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75d5ca26972496
       DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb227d2fe1e632
