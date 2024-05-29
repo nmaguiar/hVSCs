@@ -338,7 +338,314 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2018-1000021 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-32002 
+│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
+│                       │      ├ PkgName         : git 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
+│                       │      │                  │       &distro=ubuntu-22.04&epoch=1 
+│                       │      │                  ╰ UID : 1658a51a632685fb 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
+│                       │      │                  │         5148c8b448c75d5ca26972496 
+│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
+│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32002 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : git: Recursive clones RCE 
+│                       │      ├ Description     : Git is a revision control system. Prior to versions
+│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
+│                       │      │                   repositories with submodules can be crafted in a way that
+│                       │      │                   exploits a bug in Git whereby it can be fooled into writing
+│                       │      │                   files not into the submodule's worktree but into a `.git/`
+│                       │      │                   directory. This allows writing a hook that will be executed
+│                       │      │                   while the clone operation is still running, giving the user
+│                       │      │                   no opportunity to inspect the code that is being executed.
+│                       │      │                   The problem has been patched in versions 2.45.1, 2.44.1,
+│                       │      │                   2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link
+│                       │      │                    support is disabled in Git (e.g. via `git config --global
+│                       │      │                   core.symlinks false`), the described attack won't work. As
+│                       │      │                   always, it is best to avoid cloning repositories from
+│                       │      │                   untrusted sources. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-59 
+│                       │      │                  ├ [1]: CWE-22 
+│                       │      │                  ╰ [2]: CWE-434 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 4 
+│                       │      │                  ├ nvd    : 4 
+│                       │      │                  ├ photon : 4 
+│                       │      │                  ├ redhat : 3 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
+│                       │      │                  │         │           :H/I:H/A:H 
+│                       │      │                  │         ╰ V3Score : 9 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
+│                       │      │                  │         │           :H/I:H/A:H 
+│                       │      │                  │         ╰ V3Score : 9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
+│                       │      │                            │           :H/I:H/A:H 
+│                       │      │                            ╰ V3Score : 9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32002 
+│                       │      │                  ├ [1]: https://git-scm.com/docs/git-clone#Documentation/
+│                       │      │                  │      git-clone.txt---recurse-submodulesltpathspecgt[
+│                       │      │                  │      m 
+│                       │      │                  ├ [2]: https://git-scm.com/docs/git-config#Documentation
+│                       │      │                  │      /git-config.txt-coresymlinks 
+│                       │      │                  ├ [3]: https://github.com/git/git/commit/97065761333fd62
+│                       │      │                  │      db1912d81b489db938d8c991d 
+│                       │      │                  ├ [4]: https://github.com/git/git/security/advisories/GH
+│                       │      │                  │      SA-8h77-4q3w-gfgv 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32002 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32002 
+│                       │      ├ PublishedDate   : 2024-05-14T19:15:10.81Z 
+│                       │      ╰ LastModifiedDate: 2024-05-23T20:40:28.707Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-32004 
+│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
+│                       │      ├ PkgName         : git 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
+│                       │      │                  │       &distro=ubuntu-22.04&epoch=1 
+│                       │      │                  ╰ UID : 1658a51a632685fb 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
+│                       │      │                  │         5148c8b448c75d5ca26972496 
+│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
+│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32004 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : git: RCE while cloning local repos 
+│                       │      ├ Description     : Git is a revision control system. Prior to versions
+│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
+│                       │      │                   an attacker can prepare a local repository in such a way
+│                       │      │                   that, when cloned, will execute arbitrary code during the
+│                       │      │                   operation. The problem has been patched in versions 2.45.1,
+│                       │      │                   2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a
+│                       │      │                   workaround, avoid cloning repositories from untrusted
+│                       │      │                   sources. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-114 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 3 
+│                       │      │                  ├ photon : 3 
+│                       │      │                  ├ redhat : 3 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C
+│                       │      │                  │         │           :H/I:H/A:H 
+│                       │      │                  │         ╰ V3Score : 8.1 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C
+│                       │      │                            │           :H/I:H/A:H 
+│                       │      │                            ╰ V3Score : 8.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32004 
+│                       │      │                  ├ [1]: https://git-scm.com/docs/git-clone 
+│                       │      │                  ├ [2]: https://github.com/git/git/commit/f4aa8c8bb11dae6
+│                       │      │                  │      e769cd930565173808cbb69c8 
+│                       │      │                  ├ [3]: https://github.com/git/git/security/advisories/GH
+│                       │      │                  │      SA-xfc6-vwr8-r389 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32004 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32004 
+│                       │      ├ PublishedDate   : 2024-05-14T19:15:11.377Z 
+│                       │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-32020 
+│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
+│                       │      ├ PkgName         : git 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
+│                       │      │                  │       &distro=ubuntu-22.04&epoch=1 
+│                       │      │                  ╰ UID : 1658a51a632685fb 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
+│                       │      │                  │         5148c8b448c75d5ca26972496 
+│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
+│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32020 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : git: insecure hardlinks 
+│                       │      ├ Description     : Git is a revision control system. Prior to versions
+│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
+│                       │      │                   local clones may end up hardlinking files into the target
+│                       │      │                   repository's object database when source and target
+│                       │      │                   repository reside on the same disk. If the source repository
+│                       │      │                    is owned by a different user, then those hardlinked files
+│                       │      │                   may be rewritten at any point in time by the untrusted user.
+│                       │      │                    Cloning local repositories will cause Git to either copy or
+│                       │      │                    hardlink files of the source repository into the target
+│                       │      │                   repository. This significantly speeds up such local clones
+│                       │      │                   compared to doing a "proper" clone and saves both disk space
+│                       │      │                    and compute time. When cloning a repository located on the
+│                       │      │                   same disk that is owned by a different user than the current
+│                       │      │                    user we also end up creating such hardlinks. These files
+│                       │      │                   will continue to be owned and controlled by the
+│                       │      │                   potentially-untrusted user and can be rewritten by them at
+│                       │      │                   will in the future. The problem has been patched in versions
+│                       │      │                    2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and
+│                       │      │                   2.39.4. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-281 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 1 
+│                       │      │                  ├ photon : 1 
+│                       │      │                  ├ redhat : 1 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
+│                       │      │                  │         │           :N/I:L/A:L 
+│                       │      │                  │         ╰ V3Score : 3.9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
+│                       │      │                            │           :N/I:L/A:L 
+│                       │      │                            ╰ V3Score : 3.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32020 
+│                       │      │                  ├ [1]: https://github.com/git/git/commit/1204e1a824c3407
+│                       │      │                  │      1019fe106348eaa6d88f9528d 
+│                       │      │                  ├ [2]: https://github.com/git/git/commit/9e65df5eab274bf
+│                       │      │                  │      74c7b570107aacd1303a1e703 
+│                       │      │                  ├ [3]: https://github.com/git/git/security/advisories/GH
+│                       │      │                  │      SA-5rfh-556j-fhgj 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32020 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32020 
+│                       │      ├ PublishedDate   : 2024-05-14T19:15:12.24Z 
+│                       │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-32021 
+│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
+│                       │      ├ PkgName         : git 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
+│                       │      │                  │       &distro=ubuntu-22.04&epoch=1 
+│                       │      │                  ╰ UID : 1658a51a632685fb 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
+│                       │      │                  │         5148c8b448c75d5ca26972496 
+│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
+│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32021 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : git: symlink bypass 
+│                       │      ├ Description     : Git is a revision control system. Prior to versions
+│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
+│                       │      │                   when cloning a local source repository that contains
+│                       │      │                   symlinks via the filesystem, Git may create hardlinks to
+│                       │      │                   arbitrary user-readable files on the same filesystem as the
+│                       │      │                   target repository in the `objects/` directory. Cloning a
+│                       │      │                   local repository over the filesystem may creating hardlinks
+│                       │      │                   to arbitrary user-owned files on the same filesystem in the
+│                       │      │                   target Git repository's `objects/` directory. When cloning a
+│                       │      │                    repository over the filesystem (without explicitly
+│                       │      │                   specifying the `file://` protocol or `--no-local`), the
+│                       │      │                   optimizations for local cloning
+│                       │      │                   will be used, which include attempting to hard link the
+│                       │      │                   object files instead of copying them. While the code
+│                       │      │                   includes checks against symbolic links in the source
+│                       │      │                   repository, which were added during the fix for
+│                       │      │                   CVE-2022-39253, these checks can still be raced because the
+│                       │      │                   hard link operation ultimately follows symlinks. If the
+│                       │      │                   object on the filesystem appears as a file during the check,
+│                       │      │                    and then a symlink during the operation, this will allow
+│                       │      │                   the adversary to bypass the check and create hardlinks in
+│                       │      │                   the destination objects directory to arbitrary,
+│                       │      │                   user-readable files. The problem has been patched in
+│                       │      │                   versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and
+│                       │      │                    2.39.4. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-547 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 1 
+│                       │      │                  ├ photon : 1 
+│                       │      │                  ├ redhat : 1 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
+│                       │      │                  │         │           :N/I:L/A:L 
+│                       │      │                  │         ╰ V3Score : 3.9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
+│                       │      │                            │           :N/I:L/A:L 
+│                       │      │                            ╰ V3Score : 3.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32021 
+│                       │      │                  ├ [1]: https://github.com/git/git/security/advisories/GH
+│                       │      │                  │      SA-mvxm-9j2h-qjx7 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-32021 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6793-1 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-32021 
+│                       │      ├ PublishedDate   : 2024-05-14T20:15:13.63Z 
+│                       │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2024-32465 
+│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
+│                       │      ├ PkgName         : git 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
+│                       │      │                  │       &distro=ubuntu-22.04&epoch=1 
+│                       │      │                  ╰ UID : 1658a51a632685fb 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
+│                       │      │                  │         5148c8b448c75d5ca26972496 
+│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
+│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32465 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : git: additional local RCE 
+│                       │      ├ Description     : Git is a revision control system. The Git project
+│                       │      │                   recommends to avoid working in untrusted repositories, and
+│                       │      │                   instead to clone it first with `git clone --no-local` to
+│                       │      │                   obtain a clean copy. Git has specific protections to make
+│                       │      │                   that a safe operation even with an untrusted source
+│                       │      │                   repository, but vulnerabilities allow those protections to
+│                       │      │                   be bypassed. In the context of cloning local repositories
+│                       │      │                   owned by other users, this vulnerability has been covered in
+│                       │      │                    CVE-2024-32004. But there are circumstances where the fixes
+│                       │      │                    for CVE-2024-32004 are not enough: For example, when
+│                       │      │                   obtaining a `.zip` file containing a full copy of a Git
+│                       │      │                   repository, it should not be trusted by default to be safe,
+│                       │      │                   as e.g. hooks could be configured to run within the context
+│                       │      │                   of that repository. The problem has been patched in versions
+│                       │      │                    2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4.
+│                       │      │                    As a workaround, avoid using Git in repositories that have
+│                       │      │                   been obtained via archives from untrusted sources. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 3 
+│                       │      │                  ├ photon : 3 
+│                       │      │                  ├ redhat : 2 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C
+│                       │      │                  │         │           :H/I:H/A:H 
+│                       │      │                  │         ╰ V3Score : 7.3 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C
+│                       │      │                            │           :H/I:H/A:H 
+│                       │      │                            ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32465 
+│                       │      │                  ├ [1]: https://git-scm.com/docs/git#_security 
+│                       │      │                  ├ [2]: https://git-scm.com/docs/git-clone 
+│                       │      │                  ├ [3]: https://github.com/git/git/commit/7b70e9efb18c2cc
+│                       │      │                  │      3f219af399bd384c5801ba1d7 
+│                       │      │                  ├ [4]: https://github.com/git/git/security/advisories/GH
+│                       │      │                  │      SA-vm9j-46j9-qvq4 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32465 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32465 
+│                       │      ├ PublishedDate   : 2024-05-14T20:15:14.54Z 
+│                       │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2018-1000021 
 │                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
 │                       │      ├ PkgName         : git 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
@@ -387,7 +694,314 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-1000021 
 │                       │      ├ PublishedDate   : 2018-02-09T23:29:00.557Z 
 │                       │      ╰ LastModifiedDate: 2018-03-06T19:34:06.18Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2018-1000021 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2024-32002 
+│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
+│                       │      ├ PkgName         : git-man 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
+│                       │      │                  │       ll&distro=ubuntu-22.04&epoch=1 
+│                       │      │                  ╰ UID : 63b12f2fb8982317 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
+│                       │      │                  │         5148c8b448c75d5ca26972496 
+│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
+│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32002 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : git: Recursive clones RCE 
+│                       │      ├ Description     : Git is a revision control system. Prior to versions
+│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
+│                       │      │                   repositories with submodules can be crafted in a way that
+│                       │      │                   exploits a bug in Git whereby it can be fooled into writing
+│                       │      │                   files not into the submodule's worktree but into a `.git/`
+│                       │      │                   directory. This allows writing a hook that will be executed
+│                       │      │                   while the clone operation is still running, giving the user
+│                       │      │                   no opportunity to inspect the code that is being executed.
+│                       │      │                   The problem has been patched in versions 2.45.1, 2.44.1,
+│                       │      │                   2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link
+│                       │      │                    support is disabled in Git (e.g. via `git config --global
+│                       │      │                   core.symlinks false`), the described attack won't work. As
+│                       │      │                   always, it is best to avoid cloning repositories from
+│                       │      │                   untrusted sources. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ╭ [0]: CWE-59 
+│                       │      │                  ├ [1]: CWE-22 
+│                       │      │                  ╰ [2]: CWE-434 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 4 
+│                       │      │                  ├ nvd    : 4 
+│                       │      │                  ├ photon : 4 
+│                       │      │                  ├ redhat : 3 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
+│                       │      │                  │         │           :H/I:H/A:H 
+│                       │      │                  │         ╰ V3Score : 9 
+│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
+│                       │      │                  │         │           :H/I:H/A:H 
+│                       │      │                  │         ╰ V3Score : 9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
+│                       │      │                            │           :H/I:H/A:H 
+│                       │      │                            ╰ V3Score : 9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32002 
+│                       │      │                  ├ [1]: https://git-scm.com/docs/git-clone#Documentation/
+│                       │      │                  │      git-clone.txt---recurse-submodulesltpathspecgt[
+│                       │      │                  │      m 
+│                       │      │                  ├ [2]: https://git-scm.com/docs/git-config#Documentation
+│                       │      │                  │      /git-config.txt-coresymlinks 
+│                       │      │                  ├ [3]: https://github.com/git/git/commit/97065761333fd62
+│                       │      │                  │      db1912d81b489db938d8c991d 
+│                       │      │                  ├ [4]: https://github.com/git/git/security/advisories/GH
+│                       │      │                  │      SA-8h77-4q3w-gfgv 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32002 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32002 
+│                       │      ├ PublishedDate   : 2024-05-14T19:15:10.81Z 
+│                       │      ╰ LastModifiedDate: 2024-05-23T20:40:28.707Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2024-32004 
+│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
+│                       │      ├ PkgName         : git-man 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
+│                       │      │                  │       ll&distro=ubuntu-22.04&epoch=1 
+│                       │      │                  ╰ UID : 63b12f2fb8982317 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
+│                       │      │                  │         5148c8b448c75d5ca26972496 
+│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
+│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32004 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : git: RCE while cloning local repos 
+│                       │      ├ Description     : Git is a revision control system. Prior to versions
+│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
+│                       │      │                   an attacker can prepare a local repository in such a way
+│                       │      │                   that, when cloned, will execute arbitrary code during the
+│                       │      │                   operation. The problem has been patched in versions 2.45.1,
+│                       │      │                   2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a
+│                       │      │                   workaround, avoid cloning repositories from untrusted
+│                       │      │                   sources. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-114 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 3 
+│                       │      │                  ├ photon : 3 
+│                       │      │                  ├ redhat : 3 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C
+│                       │      │                  │         │           :H/I:H/A:H 
+│                       │      │                  │         ╰ V3Score : 8.1 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C
+│                       │      │                            │           :H/I:H/A:H 
+│                       │      │                            ╰ V3Score : 8.1 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32004 
+│                       │      │                  ├ [1]: https://git-scm.com/docs/git-clone 
+│                       │      │                  ├ [2]: https://github.com/git/git/commit/f4aa8c8bb11dae6
+│                       │      │                  │      e769cd930565173808cbb69c8 
+│                       │      │                  ├ [3]: https://github.com/git/git/security/advisories/GH
+│                       │      │                  │      SA-xfc6-vwr8-r389 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32004 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32004 
+│                       │      ├ PublishedDate   : 2024-05-14T19:15:11.377Z 
+│                       │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2024-32020 
+│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
+│                       │      ├ PkgName         : git-man 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
+│                       │      │                  │       ll&distro=ubuntu-22.04&epoch=1 
+│                       │      │                  ╰ UID : 63b12f2fb8982317 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
+│                       │      │                  │         5148c8b448c75d5ca26972496 
+│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
+│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32020 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : git: insecure hardlinks 
+│                       │      ├ Description     : Git is a revision control system. Prior to versions
+│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
+│                       │      │                   local clones may end up hardlinking files into the target
+│                       │      │                   repository's object database when source and target
+│                       │      │                   repository reside on the same disk. If the source repository
+│                       │      │                    is owned by a different user, then those hardlinked files
+│                       │      │                   may be rewritten at any point in time by the untrusted user.
+│                       │      │                    Cloning local repositories will cause Git to either copy or
+│                       │      │                    hardlink files of the source repository into the target
+│                       │      │                   repository. This significantly speeds up such local clones
+│                       │      │                   compared to doing a "proper" clone and saves both disk space
+│                       │      │                    and compute time. When cloning a repository located on the
+│                       │      │                   same disk that is owned by a different user than the current
+│                       │      │                    user we also end up creating such hardlinks. These files
+│                       │      │                   will continue to be owned and controlled by the
+│                       │      │                   potentially-untrusted user and can be rewritten by them at
+│                       │      │                   will in the future. The problem has been patched in versions
+│                       │      │                    2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and
+│                       │      │                   2.39.4. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-281 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 1 
+│                       │      │                  ├ photon : 1 
+│                       │      │                  ├ redhat : 1 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
+│                       │      │                  │         │           :N/I:L/A:L 
+│                       │      │                  │         ╰ V3Score : 3.9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
+│                       │      │                            │           :N/I:L/A:L 
+│                       │      │                            ╰ V3Score : 3.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32020 
+│                       │      │                  ├ [1]: https://github.com/git/git/commit/1204e1a824c3407
+│                       │      │                  │      1019fe106348eaa6d88f9528d 
+│                       │      │                  ├ [2]: https://github.com/git/git/commit/9e65df5eab274bf
+│                       │      │                  │      74c7b570107aacd1303a1e703 
+│                       │      │                  ├ [3]: https://github.com/git/git/security/advisories/GH
+│                       │      │                  │      SA-5rfh-556j-fhgj 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32020 
+│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
+│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32020 
+│                       │      ├ PublishedDate   : 2024-05-14T19:15:12.24Z 
+│                       │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2024-32021 
+│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
+│                       │      ├ PkgName         : git-man 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
+│                       │      │                  │       ll&distro=ubuntu-22.04&epoch=1 
+│                       │      │                  ╰ UID : 63b12f2fb8982317 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
+│                       │      │                  │         5148c8b448c75d5ca26972496 
+│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
+│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32021 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : git: symlink bypass 
+│                       │      ├ Description     : Git is a revision control system. Prior to versions
+│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
+│                       │      │                   when cloning a local source repository that contains
+│                       │      │                   symlinks via the filesystem, Git may create hardlinks to
+│                       │      │                   arbitrary user-readable files on the same filesystem as the
+│                       │      │                   target repository in the `objects/` directory. Cloning a
+│                       │      │                   local repository over the filesystem may creating hardlinks
+│                       │      │                   to arbitrary user-owned files on the same filesystem in the
+│                       │      │                   target Git repository's `objects/` directory. When cloning a
+│                       │      │                    repository over the filesystem (without explicitly
+│                       │      │                   specifying the `file://` protocol or `--no-local`), the
+│                       │      │                   optimizations for local cloning
+│                       │      │                   will be used, which include attempting to hard link the
+│                       │      │                   object files instead of copying them. While the code
+│                       │      │                   includes checks against symbolic links in the source
+│                       │      │                   repository, which were added during the fix for
+│                       │      │                   CVE-2022-39253, these checks can still be raced because the
+│                       │      │                   hard link operation ultimately follows symlinks. If the
+│                       │      │                   object on the filesystem appears as a file during the check,
+│                       │      │                    and then a symlink during the operation, this will allow
+│                       │      │                   the adversary to bypass the check and create hardlinks in
+│                       │      │                   the destination objects directory to arbitrary,
+│                       │      │                   user-readable files. The problem has been patched in
+│                       │      │                   versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and
+│                       │      │                    2.39.4. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-547 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 1 
+│                       │      │                  ├ photon : 1 
+│                       │      │                  ├ redhat : 1 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
+│                       │      │                  │         │           :N/I:L/A:L 
+│                       │      │                  │         ╰ V3Score : 3.9 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
+│                       │      │                            │           :N/I:L/A:L 
+│                       │      │                            ╰ V3Score : 3.9 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32021 
+│                       │      │                  ├ [1]: https://github.com/git/git/security/advisories/GH
+│                       │      │                  │      SA-mvxm-9j2h-qjx7 
+│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-32021 
+│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6793-1 
+│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-32021 
+│                       │      ├ PublishedDate   : 2024-05-14T20:15:13.63Z 
+│                       │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2024-32465 
+│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
+│                       │      ├ PkgName         : git-man 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
+│                       │      │                  │       ll&distro=ubuntu-22.04&epoch=1 
+│                       │      │                  ╰ UID : 63b12f2fb8982317 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
+│                       │      │                  │         5148c8b448c75d5ca26972496 
+│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
+│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ SeveritySource  : ubuntu 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32465 
+│                       │      ├ DataSource       ╭ ID  : ubuntu 
+│                       │      │                  ├ Name: Ubuntu CVE Tracker 
+│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                       │      ├ Title           : git: additional local RCE 
+│                       │      ├ Description     : Git is a revision control system. The Git project
+│                       │      │                   recommends to avoid working in untrusted repositories, and
+│                       │      │                   instead to clone it first with `git clone --no-local` to
+│                       │      │                   obtain a clean copy. Git has specific protections to make
+│                       │      │                   that a safe operation even with an untrusted source
+│                       │      │                   repository, but vulnerabilities allow those protections to
+│                       │      │                   be bypassed. In the context of cloning local repositories
+│                       │      │                   owned by other users, this vulnerability has been covered in
+│                       │      │                    CVE-2024-32004. But there are circumstances where the fixes
+│                       │      │                    for CVE-2024-32004 are not enough: For example, when
+│                       │      │                   obtaining a `.zip` file containing a full copy of a Git
+│                       │      │                   repository, it should not be trusted by default to be safe,
+│                       │      │                   as e.g. hooks could be configured to run within the context
+│                       │      │                   of that repository. The problem has been patched in versions
+│                       │      │                    2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4.
+│                       │      │                    As a workaround, avoid using Git in repositories that have
+│                       │      │                   been obtained via archives from untrusted sources. 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ CweIDs           ─ [0]: CWE-22 
+│                       │      ├ VendorSeverity   ╭ amazon : 3 
+│                       │      │                  ├ bitnami: 3 
+│                       │      │                  ├ photon : 3 
+│                       │      │                  ├ redhat : 2 
+│                       │      │                  ╰ ubuntu : 2 
+│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C
+│                       │      │                  │         │           :H/I:H/A:H 
+│                       │      │                  │         ╰ V3Score : 7.3 
+│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C
+│                       │      │                            │           :H/I:H/A:H 
+│                       │      │                            ╰ V3Score : 7.3 
+│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32465 
+│                       │      │                  ├ [1]: https://git-scm.com/docs/git#_security 
+│                       │      │                  ├ [2]: https://git-scm.com/docs/git-clone 
+│                       │      │                  ├ [3]: https://github.com/git/git/commit/7b70e9efb18c2cc
+│                       │      │                  │      3f219af399bd384c5801ba1d7 
+│                       │      │                  ├ [4]: https://github.com/git/git/security/advisories/GH
+│                       │      │                  │      SA-vm9j-46j9-qvq4 
+│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32465 
+│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
+│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32465 
+│                       │      ├ PublishedDate   : 2024-05-14T20:15:14.54Z 
+│                       │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2018-1000021 
 │                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
 │                       │      ├ PkgName         : git-man 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
@@ -436,7 +1050,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-1000021 
 │                       │      ├ PublishedDate   : 2018-02-09T23:29:00.557Z 
 │                       │      ╰ LastModifiedDate: 2018-03-06T19:34:06.18Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gnupg@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gnupg 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg@2.2.27-3ubuntu2.1?arch=all&
@@ -482,7 +1096,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gnupg-l10n@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gnupg-l10n 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-l10n@2.2.27-3ubuntu2.1?arch
@@ -528,7 +1142,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gnupg-utils@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gnupg-utils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-utils@2.2.27-3ubuntu2.1?arc
@@ -574,7 +1188,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpg@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpg 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg@2.2.27-3ubuntu2.1?arch=amd64&
@@ -620,7 +1234,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpg-agent@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpg-agent 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-agent@2.2.27-3ubuntu2.1?arch=
@@ -666,7 +1280,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpg-wks-client@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpg-wks-client 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-client@2.2.27-3ubuntu2.1?
@@ -712,7 +1326,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpg-wks-server@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpg-wks-server 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-server@2.2.27-3ubuntu2.1?
@@ -758,7 +1372,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpgconf@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpgconf 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgconf@2.2.27-3ubuntu2.1?arch=am
@@ -804,7 +1418,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpgsm@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpgsm 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgsm@2.2.27-3ubuntu2.1?arch=amd6
@@ -850,7 +1464,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpgv@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpgv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.2.27-3ubuntu2.1?arch=amd64
@@ -896,7 +1510,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2016-1585 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2016-1585 
 │                       │      ├ PkgID           : libapparmor1@3.0.4-2ubuntu2.3 
 │                       │      ├ PkgName         : libapparmor1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libapparmor1@3.0.4-2ubuntu2.3?arc
@@ -941,7 +1555,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2016-1585 
 │                       │      ├ PublishedDate   : 2019-04-22T16:29:01.303Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T02:29:58.223Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libatomic1@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libatomic1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?
@@ -995,7 +1609,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2016-20013 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc-bin@2.35-0ubuntu3.7 
 │                       │      ├ PkgName         : libc-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.7?arch=amd
@@ -1032,7 +1646,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                       │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                       │      ╰ LastModifiedDate: 2022-03-03T16:43:19.667Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2016-20013 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2016-20013 
 │                       │      ├ PkgID           : libc6@2.35-0ubuntu3.7 
 │                       │      ├ PkgName         : libc6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.7?arch=amd64&
@@ -1069,7 +1683,7 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                       │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                       │      ╰ LastModifiedDate: 2022-03-03T16:43:19.667Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2023-34969 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2023-34969 
 │                       │      ├ PkgID           : libdbus-1-3@1.12.20-2ubuntu4.1 
 │                       │      ├ PkgName         : libdbus-1-3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libdbus-1-3@1.12.20-2ubuntu4.1?ar
@@ -1138,7 +1752,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                       │      ├ PublishedDate   : 2023-06-08T03:15:08.97Z 
 │                       │      ╰ LastModifiedDate: 2023-12-27T16:36:58.353Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libgcc-s1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?a
@@ -1192,7 +1806,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.9.4-3ubuntu3 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.9.4-3ubuntu3?arch=a
@@ -1233,7 +1847,7 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2024-04-25T17:15:49.467Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2021-40812 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2021-40812 
 │                       │      ├ PkgID           : libgd3@2.3.0-2ubuntu2 
 │                       │      ├ PkgName         : libgd3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgd3@2.3.0-2ubuntu2?arch=amd64&
@@ -1277,7 +1891,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-40812 
 │                       │      ├ PublishedDate   : 2021-09-08T21:15:14.083Z 
 │                       │      ╰ LastModifiedDate: 2024-04-07T01:17:53.437Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.
@@ -1315,7 +1929,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2024-26458 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.
@@ -1353,7 +1967,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.
@@ -1392,7 +2006,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libk5crypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?ar
@@ -1430,7 +2044,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2024-26458 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libk5crypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?ar
@@ -1468,7 +2082,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libk5crypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?ar
@@ -1507,7 +2121,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5-3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=
@@ -1545,7 +2159,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2024-26458 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5-3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=
@@ -1583,7 +2197,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5-3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=
@@ -1622,7 +2236,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5support0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3
@@ -1660,7 +2274,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2024-26458 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5support0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3
@@ -1698,7 +2312,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5support0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3
@@ -1737,7 +2351,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2020-22916 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2020-22916 
 │                       │      ├ PkgID           : liblzma5@5.2.5-2ubuntu1 
 │                       │      ├ PkgName         : liblzma5 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/liblzma5@5.2.5-2ubuntu1?arch=amd6
@@ -1787,7 +2401,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:19.407Z 
 │                       │      ╰ LastModifiedDate: 2024-05-17T01:45:27.397Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libncurses6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=a
@@ -1818,7 +2432,7 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libncurses6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=a
@@ -1865,7 +2479,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libncursesw6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=
@@ -1896,7 +2510,7 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libncursesw6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=
@@ -1943,7 +2557,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : libnss-systemd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.12
@@ -2006,7 +2620,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : libpam-systemd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.12
@@ -2069,7 +2683,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2017-11164 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2017-11164 
 │                       │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libpcre3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?a
@@ -2120,7 +2734,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                       │      ├ PublishedDate   : 2017-07-11T03:29:00.277Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T02:38:10.98Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2022-3857 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2022-3857 
 │                       │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                       │      ├ PkgName         : libpng16-16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpng16-16@1.6.37-3build5?arch=a
@@ -2161,7 +2775,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
 │                       │      ├ PublishedDate   : 2023-03-06T23:15:11.087Z 
 │                       │      ╰ LastModifiedDate: 2023-04-06T13:15:08.467Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.3 
 │                       │      ├ PkgName         : libpython3.10 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.3?a
@@ -2289,7 +2903,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                       │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.3 
 │                       │      ├ PkgName         : libpython3.10-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~2
@@ -2417,7 +3031,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                       │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.3 
 │                       │      ├ PkgName         : libpython3.10-stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22
@@ -2545,7 +3159,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                       │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libstdc++6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22
@@ -2599,7 +3213,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : libsystemd0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.12?ar
@@ -2662,7 +3276,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2018-10126 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2018-10126 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.8 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.8?arch=am
@@ -2706,7 +3320,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                       │      ├ PublishedDate   : 2018-04-21T21:29:00.29Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T02:51:16.693Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2023-3164 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2023-3164 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.8 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.8?arch=am
@@ -2750,7 +3364,7 @@
 │                       │      │                         sts/595 
 │                       │      ├ PublishedDate   : 2023-11-02T12:15:09.543Z 
 │                       │      ╰ LastModifiedDate: 2024-03-08T19:38:13.92Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libtinfo6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd
@@ -2781,7 +3395,7 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libtinfo6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd
@@ -2828,7 +3442,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : libudev1@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : libudev1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.12?arch=
@@ -2891,7 +3505,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2022-4899 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                       │      ├ PkgName         : libzstd1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arc
@@ -3046,7 +3660,7 @@
 │                       │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                       │      ├ PkgName         : login 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64
@@ -3103,7 +3717,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=
@@ -3134,7 +3748,7 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=
@@ -3181,7 +3795,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=a
@@ -3212,7 +3826,7 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=a
@@ -3259,7 +3873,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-term 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=
@@ -3290,7 +3904,7 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-term 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=
@@ -3337,7 +3951,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd6
@@ -3394,7 +4008,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                       │      ├ PkgName         : python3.10 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arch
@@ -3522,7 +4136,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                       │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                       │      ├ PkgName         : python3.10-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.0
@@ -3650,7 +4264,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                       │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [78] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : systemd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=a
@@ -3713,7 +4327,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [79] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : systemd-sysv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?a
@@ -3776,7 +4390,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [80] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : systemd-timesyncd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3
@@ -3839,7 +4453,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [81] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                       │      ├ PkgName         : uidmap 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd6
@@ -3896,7 +4510,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [82] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&d
@@ -3943,7 +4557,7 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                       ╰ [73] ╭ VulnerabilityID : CVE-2020-22916 
+│                       ╰ [83] ╭ VulnerabilityID : CVE-2020-22916 
 │                              ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                              ├ PkgName         : xz-utils 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd6
@@ -4420,7 +5034,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-79 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ ghsa       : 2 
 │                       │      │                  ├ nvd        : 2 
@@ -5014,6 +5628,7 @@
 │                       │      │                   closing a connection. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 2 
 │                       │      │                  ├ oracle-oval: 3 
@@ -5497,6 +6112,7 @@
 │                       │      │                   closing a connection. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 2 
 │                       │      │                  ├ oracle-oval: 3 
@@ -5733,7 +6349,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-79 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -5806,7 +6422,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-79 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -5997,6 +6613,7 @@
 │                       │      │                   unexpectedly forwarded. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
@@ -6069,6 +6686,7 @@
 │                       │      │                   lines. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
@@ -6139,6 +6757,7 @@
 │                       │      │                   certificates. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
@@ -6208,6 +6827,7 @@
 │                       │      │                   made by programs using different parsers. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
@@ -6286,6 +6906,7 @@
 │                              │                   unexpected content into templates. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ amazon     : 2 
 │                              │                  ├ cbl-mariner: 2 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ redhat     : 2 
@@ -6692,7 +7313,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-79 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ ghsa       : 2 
 │                       │      │                  ├ nvd        : 2 
@@ -7286,6 +7907,7 @@
 │                       │      │                   closing a connection. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 2 
 │                       │      │                  ├ oracle-oval: 3 
@@ -7769,6 +8391,7 @@
 │                       │      │                   closing a connection. 
 │                       │      ├ Severity        : HIGH 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 3 
 │                       │      │                  ├ ghsa       : 2 
 │                       │      │                  ├ oracle-oval: 3 
@@ -8005,7 +8628,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-79 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -8078,7 +8701,7 @@
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ CweIDs           ─ [0]: CWE-79 
 │                       │      ├ VendorSeverity   ╭ alma       : 2 
-│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ bitnami    : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ nvd        : 2 
@@ -8269,6 +8892,7 @@
 │                       │      │                   unexpectedly forwarded. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
@@ -8341,6 +8965,7 @@
 │                       │      │                   lines. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
@@ -8411,6 +9036,7 @@
 │                       │      │                   certificates. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
@@ -8480,6 +9106,7 @@
 │                       │      │                   made by programs using different parsers. 
 │                       │      ├ Severity        : MEDIUM 
 │                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 2 
 │                       │      │                  ├ cbl-mariner: 2 
 │                       │      │                  ├ oracle-oval: 3 
 │                       │      │                  ├ redhat     : 2 
@@ -8558,6 +9185,7 @@
 │                              │                   unexpected content into templates. 
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ amazon     : 2 
 │                              │                  ├ cbl-mariner: 2 
 │                              │                  ├ oracle-oval: 3 
 │                              │                  ├ redhat     : 2 
@@ -8745,7 +9373,230 @@
 │                             │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
 │                             ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
 │                             ╰ LastModifiedDate: 2024-05-08T17:05:24.083Z 
-├ [6] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [6] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│     ├ Class  : secret 
+│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                     ├ Category : AsymmetricPrivateKey 
+│                     ├ Severity : HIGH 
+│                     ├ Title    : Asymmetric Private Key 
+│                     ├ StartLine: 1 
+│                     ├ EndLine  : 1 
+│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              **************-----END OPENSSH PRIVATE
+│                     │                   │     │              KEY----- 
+│                     │                   │     ├ IsCause    : true 
+│                     │                   │     ├ Annotation :  
+│                     │                   │     ├ Truncated  : false 
+│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              **************-----END OPENSSH PRIVATE
+│                     │                   │     │              KEY----- 
+│                     │                   │     ├ FirstCause : true 
+│                     │                   │     ╰ LastCause  : true 
+│                     │                   ╰ [1] ╭ Number    : 2 
+│                     │                         ├ Content   :  
+│                     │                         ├ IsCause   : false 
+│                     │                         ├ Annotation:  
+│                     │                         ├ Truncated : false 
+│                     │                         ├ FirstCause: false 
+│                     │                         ╰ LastCause : false 
+│                     ├ Match    : BEGIN OPENSSH PRIVATE
+│                     │            KEY-----********************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            **********************************************-----END OPENSSH PRI 
+│                     ╰ Layer     ╭ Digest   : sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75
+│                                 │            d5ca26972496 
+│                                 ├ DiffID   : sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb
+│                                 │            227d2fe1e632 
+│                                 ╰ CreatedBy: COPY / / # buildkit 
+├ [7] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│     ├ Class  : secret 
+│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                     ├ Category : AsymmetricPrivateKey 
+│                     ├ Severity : HIGH 
+│                     ├ Title    : Asymmetric Private Key 
+│                     ├ StartLine: 1 
+│                     ├ EndLine  : 1 
+│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ IsCause    : true 
+│                     │                   │     ├ Annotation :  
+│                     │                   │     ├ Truncated  : false 
+│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                     │                   │     │              KEY-----****************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              ************************************************
+│                     │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+│                     │                   │     ├ FirstCause : true 
+│                     │                   │     ╰ LastCause  : true 
+│                     │                   ╰ [1] ╭ Number    : 2 
+│                     │                         ├ Content   :  
+│                     │                         ├ IsCause   : false 
+│                     │                         ├ Annotation:  
+│                     │                         ├ Truncated : false 
+│                     │                         ├ FirstCause: false 
+│                     │                         ╰ LastCause : false 
+│                     ├ Match    : BEGIN OPENSSH PRIVATE
+│                     │            KEY-----********************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            ****************************************************************************
+│                     │            *****************************************-----END OPENSSH PRI 
+│                     ╰ Layer     ╭ Digest   : sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75
+│                                 │            d5ca26972496 
+│                                 ├ DiffID   : sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb
+│                                 │            227d2fe1e632 
+│                                 ╰ CreatedBy: COPY / / # buildkit 
+├ [8] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │     ├ Class  : secret 
 │     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                     ├ Category : AsymmetricPrivateKey 
@@ -8850,117 +9701,7 @@
 │                                 ├ DiffID   : sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb
 │                                 │            227d2fe1e632 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [7] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│     ├ Class  : secret 
-│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                     ├ Category : AsymmetricPrivateKey 
-│                     ├ Severity : HIGH 
-│                     ├ Title    : Asymmetric Private Key 
-│                     ├ StartLine: 1 
-│                     ├ EndLine  : 1 
-│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ********************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ IsCause    : true 
-│                     │                   │     ├ Annotation :  
-│                     │                   │     ├ Truncated  : false 
-│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ********************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ FirstCause : true 
-│                     │                   │     ╰ LastCause  : true 
-│                     │                   ╰ [1] ╭ Number    : 2 
-│                     │                         ├ Content   :  
-│                     │                         ├ IsCause   : false 
-│                     │                         ├ Annotation:  
-│                     │                         ├ Truncated : false 
-│                     │                         ├ FirstCause: false 
-│                     │                         ╰ LastCause : false 
-│                     ├ Match    : BEGIN OPENSSH PRIVATE
-│                     │            KEY-----********************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ************************************************************************----
-│                     │            -END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75
-│                                 │            d5ca26972496 
-│                                 ├ DiffID   : sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb
-│                                 │            227d2fe1e632 
-│                                 ╰ CreatedBy: COPY / / # buildkit 
-├ [8] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│     ├ Class  : secret 
-│     ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                     ├ Category : AsymmetricPrivateKey 
-│                     ├ Severity : HIGH 
-│                     ├ Title    : Asymmetric Private Key 
-│                     ├ StartLine: 1 
-│                     ├ EndLine  : 1 
-│                     ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                     │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ IsCause    : true 
-│                     │                   │     ├ Annotation :  
-│                     │                   │     ├ Truncated  : false 
-│                     │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                     │                   │     │              KEY-----****************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              ************************************************
-│                     │                   │     │              **************-----END OPENSSH PRIVATE
-│                     │                   │     │              KEY----- 
-│                     │                   │     ├ FirstCause : true 
-│                     │                   │     ╰ LastCause  : true 
-│                     │                   ╰ [1] ╭ Number    : 2 
-│                     │                         ├ Content   :  
-│                     │                         ├ IsCause   : false 
-│                     │                         ├ Annotation:  
-│                     │                         ├ Truncated : false 
-│                     │                         ├ FirstCause: false 
-│                     │                         ╰ LastCause : false 
-│                     ├ Match    : BEGIN OPENSSH PRIVATE
-│                     │            KEY-----********************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            ****************************************************************************
-│                     │            **********************************************-----END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75
-│                                 │            d5ca26972496 
-│                                 ├ DiffID   : sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb
-│                                 │            227d2fe1e632 
-│                                 ╰ CreatedBy: COPY / / # buildkit 
-╰ [9] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [9] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
       ├ Class  : secret 
       ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                       ├ Category : AsymmetricPrivateKey 
@@ -8979,51 +9720,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              ********************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ IsCause    : true 
                       │                   │     ├ Annotation :  
                       │                   │     ├ Truncated  : false 
@@ -9037,51 +9735,8 @@
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
                       │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              ************************************************
-                      │                   │     │              *****-----END OPENSSH PRIVATE KEY----- 
+                      │                   │     │              ********************-----END OPENSSH PRIVATE
+                      │                   │     │              KEY----- 
                       │                   │     ├ FirstCause : true 
                       │                   │     ╰ LastCause  : true 
                       │                   ╰ [1] ╭ Number    : 2 
@@ -9097,35 +9752,8 @@
                       │            ****************************************************************************
                       │            ****************************************************************************
                       │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            ****************************************************************************
-                      │            *****************************************-----END OPENSSH PRI 
+                      │            ************************************************************************----
+                      │            -END OPENSSH PRI 
                       ╰ Layer     ╭ Digest   : sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75
                                   │            d5ca26972496 
                                   ├ DiffID   : sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb
