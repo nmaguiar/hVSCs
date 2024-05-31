@@ -1719,7 +1719,9 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: LOW
     VendorSeverity:
+      alma: 1
       amazon: 2
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1727,8 +1729,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3268
     - https://access.redhat.com/security/cve/CVE-2024-26458
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://errata.almalinux.org/8/ALSA-2024-3268.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
+    - https://linux.oracle.com/cve/CVE-2024-26458.html
+    - https://linux.oracle.com/errata/ELSA-2024-3268.html
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
@@ -1756,7 +1764,9 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: LOW
     VendorSeverity:
+      alma: 1
       amazon: 2
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1764,8 +1774,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3268
     - https://access.redhat.com/security/cve/CVE-2024-26461
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://errata.almalinux.org/8/ALSA-2024-3268.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
+    - https://linux.oracle.com/cve/CVE-2024-26461.html
+    - https://linux.oracle.com/errata/ELSA-2024-3268.html
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
@@ -1830,7 +1846,9 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: LOW
     VendorSeverity:
+      alma: 1
       amazon: 2
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1838,8 +1856,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3268
     - https://access.redhat.com/security/cve/CVE-2024-26458
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://errata.almalinux.org/8/ALSA-2024-3268.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
+    - https://linux.oracle.com/cve/CVE-2024-26458.html
+    - https://linux.oracle.com/errata/ELSA-2024-3268.html
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
@@ -1867,7 +1891,9 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: LOW
     VendorSeverity:
+      alma: 1
       amazon: 2
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1875,8 +1901,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3268
     - https://access.redhat.com/security/cve/CVE-2024-26461
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://errata.almalinux.org/8/ALSA-2024-3268.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
+    - https://linux.oracle.com/cve/CVE-2024-26461.html
+    - https://linux.oracle.com/errata/ELSA-2024-3268.html
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
@@ -1941,7 +1973,9 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: LOW
     VendorSeverity:
+      alma: 1
       amazon: 2
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1949,8 +1983,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3268
     - https://access.redhat.com/security/cve/CVE-2024-26458
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://errata.almalinux.org/8/ALSA-2024-3268.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
+    - https://linux.oracle.com/cve/CVE-2024-26458.html
+    - https://linux.oracle.com/errata/ELSA-2024-3268.html
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
@@ -1978,7 +2018,9 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: LOW
     VendorSeverity:
+      alma: 1
       amazon: 2
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1986,8 +2028,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3268
     - https://access.redhat.com/security/cve/CVE-2024-26461
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://errata.almalinux.org/8/ALSA-2024-3268.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
+    - https://linux.oracle.com/cve/CVE-2024-26461.html
+    - https://linux.oracle.com/errata/ELSA-2024-3268.html
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
@@ -2052,7 +2100,9 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in /krb5/src/lib/rpc/pmap_rmt.c.
     Severity: LOW
     VendorSeverity:
+      alma: 1
       amazon: 2
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2060,8 +2110,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3268
     - https://access.redhat.com/security/cve/CVE-2024-26458
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://errata.almalinux.org/8/ALSA-2024-3268.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
+    - https://linux.oracle.com/cve/CVE-2024-26458.html
+    - https://linux.oracle.com/errata/ELSA-2024-3268.html
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26458
     - https://security.netapp.com/advisory/ntap-20240415-0010/
@@ -2089,7 +2145,9 @@
     Description: Kerberos 5 (aka krb5) 1.21.2 contains a memory leak vulnerability in /krb5/src/lib/gssapi/krb5/k5sealv3.c.
     Severity: LOW
     VendorSeverity:
+      alma: 1
       amazon: 2
+      oracle-oval: 1
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2097,8 +2155,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.9
     References:
+    - https://access.redhat.com/errata/RHSA-2024:3268
     - https://access.redhat.com/security/cve/CVE-2024-26461
+    - https://bugzilla.redhat.com/2266731
+    - https://bugzilla.redhat.com/2266740
+    - https://errata.almalinux.org/8/ALSA-2024-3268.html
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
+    - https://linux.oracle.com/cve/CVE-2024-26461.html
+    - https://linux.oracle.com/errata/ELSA-2024-3268.html
     - https://mailman.mit.edu/pipermail/kerberos/2024-March/023095.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-26461
     - https://security.netapp.com/advisory/ntap-20240415-0011/
@@ -2343,7 +2407,7 @@
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
-    - https://linux.oracle.com/errata/ELSA-2024-2463.html
+    - https://linux.oracle.com/errata/ELSA-2024-3203.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -2400,7 +2464,7 @@
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
-    - https://linux.oracle.com/errata/ELSA-2024-2463.html
+    - https://linux.oracle.com/errata/ELSA-2024-3203.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -2552,7 +2616,7 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://linux.oracle.com/cve/CVE-2023-27043.html
-    - https://linux.oracle.com/errata/ELSA-2024-2292.html
+    - https://linux.oracle.com/errata/ELSA-2024-3062.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -2634,7 +2698,7 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://linux.oracle.com/cve/CVE-2023-27043.html
-    - https://linux.oracle.com/errata/ELSA-2024-2292.html
+    - https://linux.oracle.com/errata/ELSA-2024-3062.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -2716,7 +2780,7 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://linux.oracle.com/cve/CVE-2023-27043.html
-    - https://linux.oracle.com/errata/ELSA-2024-2292.html
+    - https://linux.oracle.com/errata/ELSA-2024-3062.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -2939,12 +3003,12 @@
     Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
     Severity: LOW
     VendorSeverity:
-      redhat: 3
+      redhat: 1
       ubuntu: 1
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
     References:
     - https://access.redhat.com/security/cve/CVE-2024-4741
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4741
@@ -3049,7 +3113,7 @@
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
-    - https://linux.oracle.com/errata/ELSA-2024-2463.html
+    - https://linux.oracle.com/errata/ELSA-2024-3203.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -3266,7 +3330,7 @@
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
-    - https://linux.oracle.com/errata/ELSA-2024-2463.html
+    - https://linux.oracle.com/errata/ELSA-2024-3203.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -3870,12 +3934,12 @@
     Description: A use-after-free vulnerability was found in OpenSSL. Calling the OpenSSL API SSL_free_buffers function may cause memory to be accessed that was previously freed in some situations.
     Severity: LOW
     VendorSeverity:
-      redhat: 3
+      redhat: 1
       ubuntu: 1
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
-        V3Score: 8.1
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L
+        V3Score: 5.6
     References:
     - https://access.redhat.com/security/cve/CVE-2024-4741
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4741
@@ -3981,7 +4045,7 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://linux.oracle.com/cve/CVE-2023-27043.html
-    - https://linux.oracle.com/errata/ELSA-2024-2292.html
+    - https://linux.oracle.com/errata/ELSA-2024-3062.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -4063,7 +4127,7 @@
     - https://github.com/python/cpython/pull/102990
     - https://github.com/python/cpython/pull/105127
     - https://linux.oracle.com/cve/CVE-2023-27043.html
-    - https://linux.oracle.com/errata/ELSA-2024-2292.html
+    - https://linux.oracle.com/errata/ELSA-2024-3062.html
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4ZAEFSFZDNBNJPNOUTLG5COISGQDLMGV/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/75DTHSTNOFFNAWHXKMDXS7EJWC6W2FUC/
     - https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/ARI7VDSNTQVXRQFM6IK5GSSLEIYV4VZH/
@@ -4139,7 +4203,7 @@
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
-    - https://linux.oracle.com/errata/ELSA-2024-2463.html
+    - https://linux.oracle.com/errata/ELSA-2024-3203.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -4196,7 +4260,7 @@
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
-    - https://linux.oracle.com/errata/ELSA-2024-2463.html
+    - https://linux.oracle.com/errata/ELSA-2024-3203.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -4253,7 +4317,7 @@
     - https://errata.rockylinux.org/RLSA-2024:2463
     - https://github.com/systemd/systemd/issues/25676
     - https://linux.oracle.com/cve/CVE-2023-7008.html
-    - https://linux.oracle.com/errata/ELSA-2024-2463.html
+    - https://linux.oracle.com/errata/ELSA-2024-3203.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4GMDEG5PKONWNHOEYSUDRT6JEOISRMN2/
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QHNBXGKJWISJETTTDTZKTBFIBJUOSLKL/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-7008
@@ -5012,7 +5076,7 @@
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-2724.html
+    - https://linux.oracle.com/errata/ELSA-2024-3346.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -5282,7 +5346,7 @@
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-2724.html
+    - https://linux.oracle.com/errata/ELSA-2024-3346.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -5423,7 +5487,7 @@
     - https://go.dev/issue/61460
     - https://groups.google.com/g/golang-announce/c/X0b6CsSAaYI/m/Efv5DbZ9AwAJ
     - https://linux.oracle.com/cve/CVE-2023-29409.html
-    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://linux.oracle.com/errata/ELSA-2024-2988.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29409
     - https://pkg.go.dev/vuln/GO-2023-1987
     - https://security.gentoo.org/glsa/202311-09
@@ -5487,7 +5551,7 @@
     - https://groups.google.com/g/golang-announce/c/Fm51GRLNRvM
     - https://groups.google.com/g/golang-dev/c/2C5vbR-UNkI/m/L1hdrPhfBAAJ
     - https://linux.oracle.com/cve/CVE-2023-39318.html
-    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://linux.oracle.com/errata/ELSA-2024-2988.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39318
     - https://pkg.go.dev/vuln/GO-2023-2041
     - https://security.gentoo.org/glsa/202311-09
@@ -5553,7 +5617,7 @@
     - https://groups.google.com/g/golang-announce/c/Fm51GRLNRvM
     - https://groups.google.com/g/golang-dev/c/2C5vbR-UNkI/m/L1hdrPhfBAAJ
     - https://linux.oracle.com/cve/CVE-2023-39319.html
-    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://linux.oracle.com/errata/ELSA-2024-2988.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39319
     - https://pkg.go.dev/vuln/GO-2023-2043
     - https://security.gentoo.org/glsa/202311-09
@@ -5615,7 +5679,7 @@
     - https://go.dev/issue/64433
     - https://groups.google.com/g/golang-dev/c/6ypN5EjibjM/m/KmLVYH_uAgAJ
     - https://linux.oracle.com/cve/CVE-2023-39326.html
-    - https://linux.oracle.com/errata/ELSA-2024-2272.html
+    - https://linux.oracle.com/errata/ELSA-2024-2988.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UIU6HOGV6RRIKWM57LOXQA75BGZSIH6G/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39326
     - https://pkg.go.dev/vuln/GO-2023-2382
@@ -5716,7 +5780,7 @@
     - https://go.dev/issue/65065
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45289.html
-    - https://linux.oracle.com/errata/ELSA-2024-2724.html
+    - https://linux.oracle.com/errata/ELSA-2024-3346.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45289
     - https://pkg.go.dev/vuln/GO-2024-2600
     - https://security.netapp.com/advisory/ntap-20240329-0006/
@@ -5775,7 +5839,7 @@
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45290.html
-    - https://linux.oracle.com/errata/ELSA-2024-2724.html
+    - https://linux.oracle.com/errata/ELSA-2024-3346.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004
@@ -5836,7 +5900,7 @@
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24783.html
-    - https://linux.oracle.com/errata/ELSA-2024-2724.html
+    - https://linux.oracle.com/errata/ELSA-2024-3346.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005
@@ -6542,7 +6606,7 @@
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-2724.html
+    - https://linux.oracle.com/errata/ELSA-2024-3346.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -6812,7 +6876,7 @@
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
     - https://linux.oracle.com/cve/CVE-2023-45288.html
-    - https://linux.oracle.com/errata/ELSA-2024-2724.html
+    - https://linux.oracle.com/errata/ELSA-2024-3346.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRYFHIQ6XRKRYBI2F5UESH67BJBQXUPT/
     - https://nowotarski.info/http2-continuation-flood-technical-details
@@ -6953,7 +7017,7 @@
     - https://go.dev/issue/61460
     - https://groups.google.com/g/golang-announce/c/X0b6CsSAaYI/m/Efv5DbZ9AwAJ
     - https://linux.oracle.com/cve/CVE-2023-29409.html
-    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://linux.oracle.com/errata/ELSA-2024-2988.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-29409
     - https://pkg.go.dev/vuln/GO-2023-1987
     - https://security.gentoo.org/glsa/202311-09
@@ -7017,7 +7081,7 @@
     - https://groups.google.com/g/golang-announce/c/Fm51GRLNRvM
     - https://groups.google.com/g/golang-dev/c/2C5vbR-UNkI/m/L1hdrPhfBAAJ
     - https://linux.oracle.com/cve/CVE-2023-39318.html
-    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://linux.oracle.com/errata/ELSA-2024-2988.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39318
     - https://pkg.go.dev/vuln/GO-2023-2041
     - https://security.gentoo.org/glsa/202311-09
@@ -7083,7 +7147,7 @@
     - https://groups.google.com/g/golang-announce/c/Fm51GRLNRvM
     - https://groups.google.com/g/golang-dev/c/2C5vbR-UNkI/m/L1hdrPhfBAAJ
     - https://linux.oracle.com/cve/CVE-2023-39319.html
-    - https://linux.oracle.com/errata/ELSA-2024-0121.html
+    - https://linux.oracle.com/errata/ELSA-2024-2988.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39319
     - https://pkg.go.dev/vuln/GO-2023-2043
     - https://security.gentoo.org/glsa/202311-09
@@ -7145,7 +7209,7 @@
     - https://go.dev/issue/64433
     - https://groups.google.com/g/golang-dev/c/6ypN5EjibjM/m/KmLVYH_uAgAJ
     - https://linux.oracle.com/cve/CVE-2023-39326.html
-    - https://linux.oracle.com/errata/ELSA-2024-2272.html
+    - https://linux.oracle.com/errata/ELSA-2024-2988.html
     - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/UIU6HOGV6RRIKWM57LOXQA75BGZSIH6G/
     - https://nvd.nist.gov/vuln/detail/CVE-2023-39326
     - https://pkg.go.dev/vuln/GO-2023-2382
@@ -7246,7 +7310,7 @@
     - https://go.dev/issue/65065
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45289.html
-    - https://linux.oracle.com/errata/ELSA-2024-2724.html
+    - https://linux.oracle.com/errata/ELSA-2024-3346.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45289
     - https://pkg.go.dev/vuln/GO-2024-2600
     - https://security.netapp.com/advisory/ntap-20240329-0006/
@@ -7305,7 +7369,7 @@
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2023-45290.html
-    - https://linux.oracle.com/errata/ELSA-2024-2724.html
+    - https://linux.oracle.com/errata/ELSA-2024-3346.html
     - https://nvd.nist.gov/vuln/detail/CVE-2023-45290
     - https://pkg.go.dev/vuln/GO-2024-2599
     - https://security.netapp.com/advisory/ntap-20240329-0004
@@ -7366,7 +7430,7 @@
     - https://go.dev/issue/65390
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
     - https://linux.oracle.com/cve/CVE-2024-24783.html
-    - https://linux.oracle.com/errata/ELSA-2024-2724.html
+    - https://linux.oracle.com/errata/ELSA-2024-3346.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24783
     - https://pkg.go.dev/vuln/GO-2024-2598
     - https://security.netapp.com/advisory/ntap-20240329-0005
