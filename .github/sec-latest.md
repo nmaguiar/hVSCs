@@ -1970,21 +1970,30 @@
 │                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
 │                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
-│                        │      │                  │      March/023095.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0010/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26458 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_1.md 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26458.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0010/ 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [38] ╭ VulnerabilityID : CVE-2024-26461 
@@ -2009,21 +2018,30 @@
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
-│                        │      │                  │      March/023095.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0011/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26461 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_2.md 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26461.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0011/ 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [39] ╭ VulnerabilityID : CVE-2024-26462 
@@ -2085,21 +2103,30 @@
 │                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
 │                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
-│                        │      │                  │      March/023095.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0010/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26458 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_1.md 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26458.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0010/ 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [41] ╭ VulnerabilityID : CVE-2024-26461 
@@ -2124,21 +2151,30 @@
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
-│                        │      │                  │      March/023095.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0011/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26461 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_2.md 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26461.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0011/ 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [42] ╭ VulnerabilityID : CVE-2024-26462 
@@ -2200,21 +2236,30 @@
 │                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
 │                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
-│                        │      │                  │      March/023095.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0010/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26458 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_1.md 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26458.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0010/ 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [44] ╭ VulnerabilityID : CVE-2024-26461 
@@ -2239,21 +2284,30 @@
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
-│                        │      │                  │      March/023095.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0011/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26461 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_2.md 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26461.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0011/ 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [45] ╭ VulnerabilityID : CVE-2024-26462 
@@ -2315,21 +2369,30 @@
 │                        │      ├ Description     : Kerberos 5 (aka krb5) 1.21.2 contains a memory leak in
 │                        │      │                    /krb5/src/lib/rpc/pmap_rmt.c. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26458 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
-│                        │      │                  │      March/023095.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0010/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26458 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_1.md 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26458.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0010/ 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [47] ╭ VulnerabilityID : CVE-2024-26461 
@@ -2354,21 +2417,30 @@
 │                        │      │                   vulnerability in
 │                        │      │                   /krb5/src/lib/gssapi/krb5/k5sealv3.c. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ alma       : 1 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
 │                        │      │                           ╰ V3Score : 5.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-26461 
-│                        │      │                  ├ [1]: https://github.com/LuMingYinDetect/krb5_defects/
-│                        │      │                  │      blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [2]: https://mailman.mit.edu/pipermail/kerberos/2024-
-│                        │      │                  │      March/023095.html 
-│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [4]: https://security.netapp.com/advisory/ntap-202404
-│                        │      │                  │      15-0011/ 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      ├ References       ╭ [0] : https://access.redhat.com/errata/RHSA-2024:3268 
+│                        │      │                  ├ [1] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -26461 
+│                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
+│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  │       /blob/main/krb5_detect_2.md 
+│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26461.html 
+│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  │       -March/023095.html 
+│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       415-0011/ 
+│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [48] ╭ VulnerabilityID : CVE-2020-22916 
@@ -2629,7 +2701,7 @@
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2463.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
 │                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/4GMD
 │                        │      │                  │       EG5PKONWNHOEYSUDRT6JEOISRMN2/ 
@@ -2692,7 +2764,7 @@
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2463.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
 │                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/4GMD
 │                        │      │                  │       EG5PKONWNHOEYSUDRT6JEOISRMN2/ 
@@ -2859,7 +2931,7 @@
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
 │                        │      │                  ├ [11]: https://github.com/python/cpython/pull/105127 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-27043.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2292.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-3062.html 
 │                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/4Z
 │                        │      │                  │       AEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
@@ -2988,7 +3060,7 @@
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
 │                        │      │                  ├ [11]: https://github.com/python/cpython/pull/105127 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-27043.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2292.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-3062.html 
 │                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/4Z
 │                        │      │                  │       AEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
@@ -3117,7 +3189,7 @@
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
 │                        │      │                  ├ [11]: https://github.com/python/cpython/pull/105127 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-27043.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2292.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-3062.html 
 │                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/4Z
 │                        │      │                  │       AEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
@@ -3439,11 +3511,11 @@
 │                        │      │                    memory to be accessed that was previously freed in some
 │                        │      │                   situations. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :H/I:H/A:H 
-│                        │      │                           ╰ V3Score : 8.1 
+│                        │      │                           │           :L/I:L/A:L 
+│                        │      │                           ╰ V3Score : 5.6 
 │                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4741 
 │                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
 │                        │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
@@ -3554,7 +3626,7 @@
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2463.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
 │                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/4GMD
 │                        │      │                  │       EG5PKONWNHOEYSUDRT6JEOISRMN2/ 
@@ -3783,7 +3855,7 @@
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2463.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
 │                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/4GMD
 │                        │      │                  │       EG5PKONWNHOEYSUDRT6JEOISRMN2/ 
@@ -4496,11 +4568,11 @@
 │                        │      │                    memory to be accessed that was previously freed in some
 │                        │      │                   situations. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ redhat: 3 
+│                        │      ├ VendorSeverity   ╭ redhat: 1 
 │                        │      │                  ╰ ubuntu: 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :H/I:H/A:H 
-│                        │      │                           ╰ V3Score : 8.1 
+│                        │      │                           │           :L/I:L/A:L 
+│                        │      │                           ╰ V3Score : 5.6 
 │                        │      ╰ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4741 
 │                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
 │                        │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
@@ -4625,7 +4697,7 @@
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
 │                        │      │                  ├ [11]: https://github.com/python/cpython/pull/105127 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-27043.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2292.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-3062.html 
 │                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/4Z
 │                        │      │                  │       AEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
@@ -4754,7 +4826,7 @@
 │                        │      │                  ├ [10]: https://github.com/python/cpython/pull/102990 
 │                        │      │                  ├ [11]: https://github.com/python/cpython/pull/105127 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-27043.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2292.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-3062.html 
 │                        │      │                  ├ [14]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce%40lists.fedoraproject.org/message/4Z
 │                        │      │                  │       AEFSFZDNBNJPNOUTLG5COISGQDLMGV/ 
@@ -4872,7 +4944,7 @@
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2463.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
 │                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/4GMD
 │                        │      │                  │       EG5PKONWNHOEYSUDRT6JEOISRMN2/ 
@@ -4935,7 +5007,7 @@
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2463.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
 │                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/4GMD
 │                        │      │                  │       EG5PKONWNHOEYSUDRT6JEOISRMN2/ 
@@ -4998,7 +5070,7 @@
 │                        │      │                  ├ [8] : https://errata.rockylinux.org/RLSA-2024:2463 
 │                        │      │                  ├ [9] : https://github.com/systemd/systemd/issues/25676 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-7008.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2463.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-3203.html 
 │                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/4GMD
 │                        │      │                  │       EG5PKONWNHOEYSUDRT6JEOISRMN2/ 
@@ -6236,7 +6308,7 @@
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
 │                        │      │                  │       gW0sx8mN3M 
 │                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT 
@@ -6724,7 +6796,7 @@
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
 │                        │      │                  │       gW0sx8mN3M 
 │                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT 
@@ -6885,7 +6957,7 @@
 │                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       0b6CsSAaYI/m/Efv5DbZ9AwAJ 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-29409.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-0121.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-29409 
 │                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2023-1987 
 │                        │      │                  ├ [15]: https://security.gentoo.org/glsa/202311-09 
@@ -6956,7 +7028,7 @@
 │                        │      │                  ├ [11]: https://groups.google.com/g/golang-dev/c/2C5vbR
 │                        │      │                  │       -UNkI/m/L1hdrPhfBAAJ 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-39318.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-0121.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
 │                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-39318 
 │                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2023-2041 
 │                        │      │                  ├ [16]: https://security.gentoo.org/glsa/202311-09 
@@ -7030,7 +7102,7 @@
 │                        │      │                  ├ [11]: https://groups.google.com/g/golang-dev/c/2C5vbR
 │                        │      │                  │       -UNkI/m/L1hdrPhfBAAJ 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-39319.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-0121.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
 │                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-39319 
 │                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2023-2043 
 │                        │      │                  ├ [16]: https://security.gentoo.org/glsa/202311-09 
@@ -7107,7 +7179,7 @@
 │                        │      │                  ├ [9] : https://groups.google.com/g/golang-dev/c/6ypN5E
 │                        │      │                  │       jibjM/m/KmLVYH_uAgAJ 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-39326.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2272.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
 │                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/UIU6
 │                        │      │                  │       HOGV6RRIKWM57LOXQA75BGZSIH6G/ 
@@ -7224,7 +7296,7 @@
 │                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-45289.html 
-│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-45289 
 │                        │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2024-2600 
 │                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
@@ -7298,7 +7370,7 @@
 │                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
 │                        │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2024-2599 
 │                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
@@ -7371,7 +7443,7 @@
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2024-24783.html 
-│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2024-24783 
 │                        │      │                  ├ [24]: https://pkg.go.dev/vuln/GO-2024-2598 
 │                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240
@@ -8537,7 +8609,7 @@
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
 │                        │      │                  │       gW0sx8mN3M 
 │                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT 
@@ -9025,7 +9097,7 @@
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
 │                        │      │                  │       gW0sx8mN3M 
 │                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT 
@@ -9186,7 +9258,7 @@
 │                        │      │                  ├ [10]: https://groups.google.com/g/golang-announce/c/X
 │                        │      │                  │       0b6CsSAaYI/m/Efv5DbZ9AwAJ 
 │                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2023-29409.html 
-│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-0121.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
 │                        │      │                  ├ [13]: https://nvd.nist.gov/vuln/detail/CVE-2023-29409 
 │                        │      │                  ├ [14]: https://pkg.go.dev/vuln/GO-2023-1987 
 │                        │      │                  ├ [15]: https://security.gentoo.org/glsa/202311-09 
@@ -9257,7 +9329,7 @@
 │                        │      │                  ├ [11]: https://groups.google.com/g/golang-dev/c/2C5vbR
 │                        │      │                  │       -UNkI/m/L1hdrPhfBAAJ 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-39318.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-0121.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
 │                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-39318 
 │                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2023-2041 
 │                        │      │                  ├ [16]: https://security.gentoo.org/glsa/202311-09 
@@ -9331,7 +9403,7 @@
 │                        │      │                  ├ [11]: https://groups.google.com/g/golang-dev/c/2C5vbR
 │                        │      │                  │       -UNkI/m/L1hdrPhfBAAJ 
 │                        │      │                  ├ [12]: https://linux.oracle.com/cve/CVE-2023-39319.html 
-│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-0121.html 
+│                        │      │                  ├ [13]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
 │                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2023-39319 
 │                        │      │                  ├ [15]: https://pkg.go.dev/vuln/GO-2023-2043 
 │                        │      │                  ├ [16]: https://security.gentoo.org/glsa/202311-09 
@@ -9408,7 +9480,7 @@
 │                        │      │                  ├ [9] : https://groups.google.com/g/golang-dev/c/6ypN5E
 │                        │      │                  │       jibjM/m/KmLVYH_uAgAJ 
 │                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2023-39326.html 
-│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2272.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-2988.html 
 │                        │      │                  ├ [12]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/UIU6
 │                        │      │                  │       HOGV6RRIKWM57LOXQA75BGZSIH6G/ 
@@ -9525,7 +9597,7 @@
 │                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-45289.html 
-│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-45289 
 │                        │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2024-2600 
 │                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
@@ -9599,7 +9671,7 @@
 │                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2023-45290.html 
-│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │      │                  ├ [22]: https://nvd.nist.gov/vuln/detail/CVE-2023-45290 
 │                        │      │                  ├ [23]: https://pkg.go.dev/vuln/GO-2024-2599 
 │                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
@@ -9672,7 +9744,7 @@
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/5
 │                        │      │                  │       pwGVUPoMbg 
 │                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2024-24783.html 
-│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                        │      │                  ├ [23]: https://nvd.nist.gov/vuln/detail/CVE-2024-24783 
 │                        │      │                  ├ [24]: https://pkg.go.dev/vuln/GO-2024-2598 
 │                        │      │                  ├ [25]: https://security.netapp.com/advisory/ntap-20240
@@ -9923,7 +9995,7 @@
 │                              │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Yg
 │                              │                  │       W0sx8mN3M 
 │                              │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                              │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-2724.html 
+│                              │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
 │                              │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pa
 │                              │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                              │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
