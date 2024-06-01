@@ -1401,6 +1401,249 @@
     - https://www.cve.org/CVERecord?id=CVE-2022-27943
     PublishedDate: '2022-03-26T13:15:07.9Z'
     LastModifiedDate: '2023-11-07T03:45:32.64Z'
+  - VulnerabilityID: CVE-2024-33599
+    PkgID: libc-bin@2.35-0ubuntu3.7
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.7?arch=amd64&distro=ubuntu-22.04
+      UID: e7b558c8e02947d0
+    InstalledVersion: 2.35-0ubuntu3.7
+    FixedVersion: 2.35-0ubuntu3.8
+    Status: fixed
+    Layer:
+      Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec1693e401a615a11cc5e61acf741d
+      DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca941f533f0852145c4e9e49a8a7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33599
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: stack-based buffer overflow in netgroup cache'
+    Description: |
+      nscd: Stack-based buffer overflow in netgroup cache
+
+      If the Name Service Cache Daemon's (nscd) fixed size cache is exhausted
+      by client requests then a subsequent client request for netgroup data
+      may result in a stack-based buffer overflow.  This flaw was introduced
+      in glibc 2.15 when the cache was added to nscd.
+
+      This vulnerability is only present in the nscd binary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      oracle-oval: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
+    - https://access.redhat.com/security/cve/CVE-2024-33599
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
+    - https://linux.oracle.com/cve/CVE-2024-33599.html
+    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
+    - https://ubuntu.com/security/notices/USN-6804-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-33599
+    - https://www.openwall.com/lists/oss-security/2024/04/24/2
+    PublishedDate: '2024-05-06T20:15:11.437Z'
+    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+  - VulnerabilityID: CVE-2024-33600
+    PkgID: libc-bin@2.35-0ubuntu3.7
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.7?arch=amd64&distro=ubuntu-22.04
+      UID: e7b558c8e02947d0
+    InstalledVersion: 2.35-0ubuntu3.7
+    FixedVersion: 2.35-0ubuntu3.8
+    Status: fixed
+    Layer:
+      Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec1693e401a615a11cc5e61acf741d
+      DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca941f533f0852145c4e9e49a8a7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33600
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: null pointer dereferences after failed netgroup cache insertion'
+    Description: |+
+      nscd: Null pointer crashes after notfound response
+
+      If the Name Service Cache Daemon's (nscd) cache fails to add a not-found
+      netgroup response to the cache, the client request can result in a null
+      pointer dereference.  This flaw was introduced in glibc 2.15 when the
+      cache was added to nscd.
+
+      This vulnerability is only present in the nscd binary.
+
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
+    - https://access.redhat.com/security/cve/CVE-2024-33600
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
+    - https://linux.oracle.com/cve/CVE-2024-33600.html
+    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
+    - https://ubuntu.com/security/notices/USN-6804-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-33600
+    - https://www.openwall.com/lists/oss-security/2024/04/24/2
+    PublishedDate: '2024-05-06T20:15:11.523Z'
+    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+  - VulnerabilityID: CVE-2024-33601
+    PkgID: libc-bin@2.35-0ubuntu3.7
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.7?arch=amd64&distro=ubuntu-22.04
+      UID: e7b558c8e02947d0
+    InstalledVersion: 2.35-0ubuntu3.7
+    FixedVersion: 2.35-0ubuntu3.8
+    Status: fixed
+    Layer:
+      Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec1693e401a615a11cc5e61acf741d
+      DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca941f533f0852145c4e9e49a8a7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33601
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: netgroup cache may terminate daemon on memory allocation failure'
+    Description: |+
+      nscd: netgroup cache may terminate daemon on memory allocation failure
+
+      The Name Service Cache Daemon's (nscd) netgroup cache uses xmalloc or
+      xrealloc and these functions may terminate the process due to a memory
+      allocation failure resulting in a denial of service to the clients.  The
+      flaw was introduced in glibc 2.15 when the cache was added to nscd.
+
+      This vulnerability is only present in the nscd binary.
+
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 2
+      oracle-oval: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
+    - https://access.redhat.com/security/cve/CVE-2024-33601
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
+    - https://linux.oracle.com/cve/CVE-2024-33601.html
+    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
+    - https://ubuntu.com/security/notices/USN-6804-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-33601
+    - https://www.openwall.com/lists/oss-security/2024/04/24/2
+    PublishedDate: '2024-05-06T20:15:11.603Z'
+    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+  - VulnerabilityID: CVE-2024-33602
+    PkgID: libc-bin@2.35-0ubuntu3.7
+    PkgName: libc-bin
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.7?arch=amd64&distro=ubuntu-22.04
+      UID: e7b558c8e02947d0
+    InstalledVersion: 2.35-0ubuntu3.7
+    FixedVersion: 2.35-0ubuntu3.8
+    Status: fixed
+    Layer:
+      Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec1693e401a615a11cc5e61acf741d
+      DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca941f533f0852145c4e9e49a8a7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33602
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: netgroup cache assumes NSS callback uses in-buffer strings'
+    Description: |+
+      nscd: netgroup cache assumes NSS callback uses in-buffer strings
+
+      The Name Service Cache Daemon's (nscd) netgroup cache can corrupt memory
+      when the NSS callback does not store all strings in the provided buffer.
+      The flaw was introduced in glibc 2.15 when the cache was added to nscd.
+
+      This vulnerability is only present in the nscd binary.
+
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-466
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 2
+      oracle-oval: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
+    - https://access.redhat.com/security/cve/CVE-2024-33602
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
+    - https://linux.oracle.com/cve/CVE-2024-33602.html
+    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=31680
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
+    - https://ubuntu.com/security/notices/USN-6804-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-33602
+    - https://www.openwall.com/lists/oss-security/2024/04/24/2
+    PublishedDate: '2024-05-06T20:15:11.68Z'
+    LastModifiedDate: '2024-05-07T13:39:32.71Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.7
     PkgName: libc-bin
@@ -1438,6 +1681,249 @@
     - https://www.cve.org/CVERecord?id=CVE-2016-20013
     PublishedDate: '2022-02-19T05:15:09.413Z'
     LastModifiedDate: '2022-03-03T16:43:19.667Z'
+  - VulnerabilityID: CVE-2024-33599
+    PkgID: libc6@2.35-0ubuntu3.7
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.7?arch=amd64&distro=ubuntu-22.04
+      UID: 82b808924e54f742
+    InstalledVersion: 2.35-0ubuntu3.7
+    FixedVersion: 2.35-0ubuntu3.8
+    Status: fixed
+    Layer:
+      Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec1693e401a615a11cc5e61acf741d
+      DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca941f533f0852145c4e9e49a8a7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33599
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: stack-based buffer overflow in netgroup cache'
+    Description: |
+      nscd: Stack-based buffer overflow in netgroup cache
+
+      If the Name Service Cache Daemon's (nscd) fixed size cache is exhausted
+      by client requests then a subsequent client request for netgroup data
+      may result in a stack-based buffer overflow.  This flaw was introduced
+      in glibc 2.15 when the cache was added to nscd.
+
+      This vulnerability is only present in the nscd binary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-121
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      oracle-oval: 3
+      redhat: 3
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:H
+        V3Score: 7.6
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
+    - https://access.redhat.com/security/cve/CVE-2024-33599
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
+    - https://linux.oracle.com/cve/CVE-2024-33599.html
+    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
+    - https://ubuntu.com/security/notices/USN-6804-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-33599
+    - https://www.openwall.com/lists/oss-security/2024/04/24/2
+    PublishedDate: '2024-05-06T20:15:11.437Z'
+    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+  - VulnerabilityID: CVE-2024-33600
+    PkgID: libc6@2.35-0ubuntu3.7
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.7?arch=amd64&distro=ubuntu-22.04
+      UID: 82b808924e54f742
+    InstalledVersion: 2.35-0ubuntu3.7
+    FixedVersion: 2.35-0ubuntu3.8
+    Status: fixed
+    Layer:
+      Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec1693e401a615a11cc5e61acf741d
+      DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca941f533f0852145c4e9e49a8a7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33600
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: null pointer dereferences after failed netgroup cache insertion'
+    Description: |+
+      nscd: Null pointer crashes after notfound response
+
+      If the Name Service Cache Daemon's (nscd) cache fails to add a not-found
+      netgroup response to the cache, the client request can result in a null
+      pointer dereference.  This flaw was introduced in glibc 2.15 when the
+      cache was added to nscd.
+
+      This vulnerability is only present in the nscd binary.
+
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-476
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      oracle-oval: 3
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
+    - https://access.redhat.com/security/cve/CVE-2024-33600
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
+    - https://linux.oracle.com/cve/CVE-2024-33600.html
+    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
+    - https://ubuntu.com/security/notices/USN-6804-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-33600
+    - https://www.openwall.com/lists/oss-security/2024/04/24/2
+    PublishedDate: '2024-05-06T20:15:11.523Z'
+    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+  - VulnerabilityID: CVE-2024-33601
+    PkgID: libc6@2.35-0ubuntu3.7
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.7?arch=amd64&distro=ubuntu-22.04
+      UID: 82b808924e54f742
+    InstalledVersion: 2.35-0ubuntu3.7
+    FixedVersion: 2.35-0ubuntu3.8
+    Status: fixed
+    Layer:
+      Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec1693e401a615a11cc5e61acf741d
+      DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca941f533f0852145c4e9e49a8a7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33601
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: netgroup cache may terminate daemon on memory allocation failure'
+    Description: |+
+      nscd: netgroup cache may terminate daemon on memory allocation failure
+
+      The Name Service Cache Daemon's (nscd) netgroup cache uses xmalloc or
+      xrealloc and these functions may terminate the process due to a memory
+      allocation failure resulting in a denial of service to the clients.  The
+      flaw was introduced in glibc 2.15 when the cache was added to nscd.
+
+      This vulnerability is only present in the nscd binary.
+
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-617
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 2
+      oracle-oval: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
+    - https://access.redhat.com/security/cve/CVE-2024-33601
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
+    - https://linux.oracle.com/cve/CVE-2024-33601.html
+    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
+    - https://ubuntu.com/security/notices/USN-6804-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-33601
+    - https://www.openwall.com/lists/oss-security/2024/04/24/2
+    PublishedDate: '2024-05-06T20:15:11.603Z'
+    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+  - VulnerabilityID: CVE-2024-33602
+    PkgID: libc6@2.35-0ubuntu3.7
+    PkgName: libc6
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.7?arch=amd64&distro=ubuntu-22.04
+      UID: 82b808924e54f742
+    InstalledVersion: 2.35-0ubuntu3.7
+    FixedVersion: 2.35-0ubuntu3.8
+    Status: fixed
+    Layer:
+      Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec1693e401a615a11cc5e61acf741d
+      DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca941f533f0852145c4e9e49a8a7
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-33602
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'glibc: netgroup cache assumes NSS callback uses in-buffer strings'
+    Description: |+
+      nscd: netgroup cache assumes NSS callback uses in-buffer strings
+
+      The Name Service Cache Daemon's (nscd) netgroup cache can corrupt memory
+      when the NSS callback does not store all strings in the provided buffer.
+      The flaw was introduced in glibc 2.15 when the cache was added to nscd.
+
+      This vulnerability is only present in the nscd binary.
+
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-466
+    VendorSeverity:
+      alma: 3
+      cbl-mariner: 2
+      oracle-oval: 3
+      redhat: 1
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 4
+    References:
+    - https://access.redhat.com/errata/RHSA-2024:3339
+    - https://access.redhat.com/security/cve/CVE-2024-33602
+    - https://bugzilla.redhat.com/2273404
+    - https://bugzilla.redhat.com/2277202
+    - https://bugzilla.redhat.com/2277204
+    - https://bugzilla.redhat.com/2277205
+    - https://bugzilla.redhat.com/2277206
+    - https://errata.almalinux.org/9/ALSA-2024-3339.html
+    - https://inbox.sourceware.org/libc-alpha/cover.1713974801.git.fweimer@redhat.com/
+    - https://linux.oracle.com/cve/CVE-2024-33602.html
+    - https://linux.oracle.com/errata/ELSA-2024-3344.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=31680
+    - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
+    - https://ubuntu.com/security/notices/USN-6804-1
+    - https://www.cve.org/CVERecord?id=CVE-2024-33602
+    - https://www.openwall.com/lists/oss-security/2024/04/24/2
+    PublishedDate: '2024-05-06T20:15:11.68Z'
+    LastModifiedDate: '2024-05-07T13:39:32.71Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.7
     PkgName: libc6
@@ -3203,9 +3689,9 @@
     - https://access.redhat.com/security/cve/CVE-2023-3164
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213531
     - https://gitlab.com/libtiff/libtiff/-/issues/542
+    - https://gitlab.com/libtiff/libtiff/-/merge_requests/595
     - https://nvd.nist.gov/vuln/detail/CVE-2023-3164
     - https://www.cve.org/CVERecord?id=CVE-2023-3164
-    - ihttps://gitlab.com/libtiff/libtiff/-/merge_requests/595
     PublishedDate: '2023-11-02T12:15:09.543Z'
     LastModifiedDate: '2024-03-08T19:38:13.92Z'
   - VulnerabilityID: CVE-2023-45918
