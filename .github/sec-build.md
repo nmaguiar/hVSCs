@@ -7,13 +7,13 @@
 │                       │      ├ PkgName         : apparmor 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/apparmor@3.0.4-2ubuntu2.3?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 831c5c638b392381 
+│                       │      │                  ╰ UID : 85c4da5485fa64d6 
 │                       │      ├ InstalledVersion: 3.0.4-2ubuntu2.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-1585 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -55,10 +55,10 @@
 │                       │      │                  ╰ UID : 4796b7f198dd0cd5 
 │                       │      ├ InstalledVersion: 8.32-4.1ubuntu1.2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-2781 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -105,13 +105,13 @@
 │                       │      ├ PkgName         : dbus 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/dbus@1.12.20-2ubuntu4.1?arch=amd6
 │                       │      │                  │       4&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : ee844ef6a6c45943 
+│                       │      │                  ╰ UID : 841b6b0db0b1f1f 
 │                       │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -177,10 +177,10 @@
 │                       │      │                  ╰ UID : 498bdc0cb78eb6f9 
 │                       │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -243,13 +243,13 @@
 │                       │      ├ PkgName         : dirmngr 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/dirmngr@2.2.27-3ubuntu2.1?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 1b2075fb86cba6e0 
+│                       │      │                  ╰ UID : b42ca2663106ba29 
 │                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -292,10 +292,10 @@
 │                       │      │                  ╰ UID : 4075ab57b22d0ab2 
 │                       │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -338,330 +338,18 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                       ├ [6]  ╭ VulnerabilityID : CVE-2024-32002 
-│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2018-1000021 
+│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.11 
 │                       │      ├ PkgName         : git 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.11?arch=amd64
 │                       │      │                  │       &distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 1658a51a632685fb 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32002 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: Recursive clones RCE 
-│                       │      ├ Description     : Git is a revision control system. Prior to versions
-│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
-│                       │      │                   repositories with submodules can be crafted in a way that
-│                       │      │                   exploits a bug in Git whereby it can be fooled into writing
-│                       │      │                   files not into the submodule's worktree but into a `.git/`
-│                       │      │                   directory. This allows writing a hook that will be executed
-│                       │      │                   while the clone operation is still running, giving the user
-│                       │      │                   no opportunity to inspect the code that is being executed.
-│                       │      │                   The problem has been patched in versions 2.45.1, 2.44.1,
-│                       │      │                   2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link
-│                       │      │                    support is disabled in Git (e.g. via `git config --global
-│                       │      │                   core.symlinks false`), the described attack won't work. As
-│                       │      │                   always, it is best to avoid cloning repositories from
-│                       │      │                   untrusted sources. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ╭ [0]: CWE-59 
-│                       │      │                  ├ [1]: CWE-22 
-│                       │      │                  ╰ [2]: CWE-434 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
-│                       │      │                  ├ bitnami    : 4 
-│                       │      │                  ├ cbl-mariner: 4 
-│                       │      │                  ├ nvd        : 4 
-│                       │      │                  ├ photon     : 4 
-│                       │      │                  ├ redhat     : 3 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                       │      │                  │         │           :H/I:H/A:H 
-│                       │      │                  │         ╰ V3Score : 9 
-│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                       │      │                  │         │           :H/I:H/A:H 
-│                       │      │                  │         ╰ V3Score : 9 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                       │      │                            │           :H/I:H/A:H 
-│                       │      │                            ╰ V3Score : 9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32002 
-│                       │      │                  ├ [1]: https://git-scm.com/docs/git-clone#Documentation/
-│                       │      │                  │      git-clone.txt---recurse-submodulesltpathspecgt[
-│                       │      │                  │      m 
-│                       │      │                  ├ [2]: https://git-scm.com/docs/git-config#Documentation
-│                       │      │                  │      /git-config.txt-coresymlinks 
-│                       │      │                  ├ [3]: https://github.com/git/git/commit/97065761333fd62
-│                       │      │                  │      db1912d81b489db938d8c991d 
-│                       │      │                  ├ [4]: https://github.com/git/git/security/advisories/GH
-│                       │      │                  │      SA-8h77-4q3w-gfgv 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32002 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32002 
-│                       │      ├ PublishedDate   : 2024-05-14T19:15:10.81Z 
-│                       │      ╰ LastModifiedDate: 2024-05-23T20:40:28.707Z 
-│                       ├ [7]  ╭ VulnerabilityID : CVE-2024-32004 
-│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
-│                       │      │                  │       &distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 1658a51a632685fb 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32004 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: RCE while cloning local repos 
-│                       │      ├ Description     : Git is a revision control system. Prior to versions
-│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
-│                       │      │                   an attacker can prepare a local repository in such a way
-│                       │      │                   that, when cloned, will execute arbitrary code during the
-│                       │      │                   operation. The problem has been patched in versions 2.45.1,
-│                       │      │                   2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a
-│                       │      │                   workaround, avoid cloning repositories from untrusted
-│                       │      │                   sources. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-114 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
-│                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
-│                       │      │                  ├ photon     : 3 
-│                       │      │                  ├ redhat     : 3 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C
-│                       │      │                  │         │           :H/I:H/A:H 
-│                       │      │                  │         ╰ V3Score : 8.1 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C
-│                       │      │                            │           :H/I:H/A:H 
-│                       │      │                            ╰ V3Score : 8.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32004 
-│                       │      │                  ├ [1]: https://git-scm.com/docs/git-clone 
-│                       │      │                  ├ [2]: https://github.com/git/git/commit/f4aa8c8bb11dae6
-│                       │      │                  │      e769cd930565173808cbb69c8 
-│                       │      │                  ├ [3]: https://github.com/git/git/security/advisories/GH
-│                       │      │                  │      SA-xfc6-vwr8-r389 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32004 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32004 
-│                       │      ├ PublishedDate   : 2024-05-14T19:15:11.377Z 
-│                       │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
-│                       ├ [8]  ╭ VulnerabilityID : CVE-2024-32020 
-│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
-│                       │      │                  │       &distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 1658a51a632685fb 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32020 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: insecure hardlinks 
-│                       │      ├ Description     : Git is a revision control system. Prior to versions
-│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
-│                       │      │                   local clones may end up hardlinking files into the target
-│                       │      │                   repository's object database when source and target
-│                       │      │                   repository reside on the same disk. If the source repository
-│                       │      │                    is owned by a different user, then those hardlinked files
-│                       │      │                   may be rewritten at any point in time by the untrusted user.
-│                       │      │                    Cloning local repositories will cause Git to either copy or
-│                       │      │                    hardlink files of the source repository into the target
-│                       │      │                   repository. This significantly speeds up such local clones
-│                       │      │                   compared to doing a "proper" clone and saves both disk space
-│                       │      │                    and compute time. When cloning a repository located on the
-│                       │      │                   same disk that is owned by a different user than the current
-│                       │      │                    user we also end up creating such hardlinks. These files
-│                       │      │                   will continue to be owned and controlled by the
-│                       │      │                   potentially-untrusted user and can be rewritten by them at
-│                       │      │                   will in the future. The problem has been patched in versions
-│                       │      │                    2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and
-│                       │      │                   2.39.4. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-281 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
-│                       │      │                  ├ bitnami    : 1 
-│                       │      │                  ├ cbl-mariner: 1 
-│                       │      │                  ├ photon     : 1 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
-│                       │      │                  │         │           :N/I:L/A:L 
-│                       │      │                  │         ╰ V3Score : 3.9 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
-│                       │      │                            │           :N/I:L/A:L 
-│                       │      │                            ╰ V3Score : 3.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32020 
-│                       │      │                  ├ [1]: https://github.com/git/git/commit/1204e1a824c3407
-│                       │      │                  │      1019fe106348eaa6d88f9528d 
-│                       │      │                  ├ [2]: https://github.com/git/git/commit/9e65df5eab274bf
-│                       │      │                  │      74c7b570107aacd1303a1e703 
-│                       │      │                  ├ [3]: https://github.com/git/git/security/advisories/GH
-│                       │      │                  │      SA-5rfh-556j-fhgj 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32020 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32020 
-│                       │      ├ PublishedDate   : 2024-05-14T19:15:12.24Z 
-│                       │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
-│                       ├ [9]  ╭ VulnerabilityID : CVE-2024-32021 
-│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
-│                       │      │                  │       &distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 1658a51a632685fb 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32021 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: symlink bypass 
-│                       │      ├ Description     : Git is a revision control system. Prior to versions
-│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
-│                       │      │                   when cloning a local source repository that contains
-│                       │      │                   symlinks via the filesystem, Git may create hardlinks to
-│                       │      │                   arbitrary user-readable files on the same filesystem as the
-│                       │      │                   target repository in the `objects/` directory. Cloning a
-│                       │      │                   local repository over the filesystem may creating hardlinks
-│                       │      │                   to arbitrary user-owned files on the same filesystem in the
-│                       │      │                   target Git repository's `objects/` directory. When cloning a
-│                       │      │                    repository over the filesystem (without explicitly
-│                       │      │                   specifying the `file://` protocol or `--no-local`), the
-│                       │      │                   optimizations for local cloning
-│                       │      │                   will be used, which include attempting to hard link the
-│                       │      │                   object files instead of copying them. While the code
-│                       │      │                   includes checks against symbolic links in the source
-│                       │      │                   repository, which were added during the fix for
-│                       │      │                   CVE-2022-39253, these checks can still be raced because the
-│                       │      │                   hard link operation ultimately follows symlinks. If the
-│                       │      │                   object on the filesystem appears as a file during the check,
-│                       │      │                    and then a symlink during the operation, this will allow
-│                       │      │                   the adversary to bypass the check and create hardlinks in
-│                       │      │                   the destination objects directory to arbitrary,
-│                       │      │                   user-readable files. The problem has been patched in
-│                       │      │                   versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and
-│                       │      │                    2.39.4. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-547 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
-│                       │      │                  ├ bitnami    : 1 
-│                       │      │                  ├ cbl-mariner: 1 
-│                       │      │                  ├ photon     : 1 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
-│                       │      │                  │         │           :N/I:L/A:L 
-│                       │      │                  │         ╰ V3Score : 3.9 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
-│                       │      │                            │           :N/I:L/A:L 
-│                       │      │                            ╰ V3Score : 3.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32021 
-│                       │      │                  ├ [1]: https://github.com/git/git/security/advisories/GH
-│                       │      │                  │      SA-mvxm-9j2h-qjx7 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-32021 
-│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6793-1 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-32021 
-│                       │      ├ PublishedDate   : 2024-05-14T20:15:13.63Z 
-│                       │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
-│                       ├ [10] ╭ VulnerabilityID : CVE-2024-32465 
-│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
-│                       │      │                  │       &distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 1658a51a632685fb 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32465 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: additional local RCE 
-│                       │      ├ Description     : Git is a revision control system. The Git project
-│                       │      │                   recommends to avoid working in untrusted repositories, and
-│                       │      │                   instead to clone it first with `git clone --no-local` to
-│                       │      │                   obtain a clean copy. Git has specific protections to make
-│                       │      │                   that a safe operation even with an untrusted source
-│                       │      │                   repository, but vulnerabilities allow those protections to
-│                       │      │                   be bypassed. In the context of cloning local repositories
-│                       │      │                   owned by other users, this vulnerability has been covered in
-│                       │      │                    CVE-2024-32004. But there are circumstances where the fixes
-│                       │      │                    for CVE-2024-32004 are not enough: For example, when
-│                       │      │                   obtaining a `.zip` file containing a full copy of a Git
-│                       │      │                   repository, it should not be trusted by default to be safe,
-│                       │      │                   as e.g. hooks could be configured to run within the context
-│                       │      │                   of that repository. The problem has been patched in versions
-│                       │      │                    2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4.
-│                       │      │                    As a workaround, avoid using Git in repositories that have
-│                       │      │                   been obtained via archives from untrusted sources. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
-│                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
-│                       │      │                  ├ photon     : 3 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C
-│                       │      │                  │         │           :H/I:H/A:H 
-│                       │      │                  │         ╰ V3Score : 7.3 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C
-│                       │      │                            │           :H/I:H/A:H 
-│                       │      │                            ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32465 
-│                       │      │                  ├ [1]: https://git-scm.com/docs/git#_security 
-│                       │      │                  ├ [2]: https://git-scm.com/docs/git-clone 
-│                       │      │                  ├ [3]: https://github.com/git/git/commit/7b70e9efb18c2cc
-│                       │      │                  │      3f219af399bd384c5801ba1d7 
-│                       │      │                  ├ [4]: https://github.com/git/git/security/advisories/GH
-│                       │      │                  │      SA-vm9j-46j9-qvq4 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32465 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32465 
-│                       │      ├ PublishedDate   : 2024-05-14T20:15:14.54Z 
-│                       │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
-│                       ├ [11] ╭ VulnerabilityID : CVE-2018-1000021 
-│                       │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git@2.34.1-1ubuntu1.10?arch=amd64
-│                       │      │                  │       &distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 1658a51a632685fb 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      │                  ╰ UID : 836c2dbafd2fb295 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.11 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-1000021 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -699,330 +387,18 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-1000021 
 │                       │      ├ PublishedDate   : 2018-02-09T23:29:00.557Z 
 │                       │      ╰ LastModifiedDate: 2018-03-06T19:34:06.18Z 
-│                       ├ [12] ╭ VulnerabilityID : CVE-2024-32002 
-│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2018-1000021 
+│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.11 
 │                       │      ├ PkgName         : git-man 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.11?arch=a
 │                       │      │                  │       ll&distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 63b12f2fb8982317 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32002 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: Recursive clones RCE 
-│                       │      ├ Description     : Git is a revision control system. Prior to versions
-│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
-│                       │      │                   repositories with submodules can be crafted in a way that
-│                       │      │                   exploits a bug in Git whereby it can be fooled into writing
-│                       │      │                   files not into the submodule's worktree but into a `.git/`
-│                       │      │                   directory. This allows writing a hook that will be executed
-│                       │      │                   while the clone operation is still running, giving the user
-│                       │      │                   no opportunity to inspect the code that is being executed.
-│                       │      │                   The problem has been patched in versions 2.45.1, 2.44.1,
-│                       │      │                   2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. If symbolic link
-│                       │      │                    support is disabled in Git (e.g. via `git config --global
-│                       │      │                   core.symlinks false`), the described attack won't work. As
-│                       │      │                   always, it is best to avoid cloning repositories from
-│                       │      │                   untrusted sources. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ╭ [0]: CWE-59 
-│                       │      │                  ├ [1]: CWE-22 
-│                       │      │                  ╰ [2]: CWE-434 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
-│                       │      │                  ├ bitnami    : 4 
-│                       │      │                  ├ cbl-mariner: 4 
-│                       │      │                  ├ nvd        : 4 
-│                       │      │                  ├ photon     : 4 
-│                       │      │                  ├ redhat     : 3 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                       │      │                  │         │           :H/I:H/A:H 
-│                       │      │                  │         ╰ V3Score : 9 
-│                       │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                       │      │                  │         │           :H/I:H/A:H 
-│                       │      │                  │         ╰ V3Score : 9 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C
-│                       │      │                            │           :H/I:H/A:H 
-│                       │      │                            ╰ V3Score : 9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32002 
-│                       │      │                  ├ [1]: https://git-scm.com/docs/git-clone#Documentation/
-│                       │      │                  │      git-clone.txt---recurse-submodulesltpathspecgt[
-│                       │      │                  │      m 
-│                       │      │                  ├ [2]: https://git-scm.com/docs/git-config#Documentation
-│                       │      │                  │      /git-config.txt-coresymlinks 
-│                       │      │                  ├ [3]: https://github.com/git/git/commit/97065761333fd62
-│                       │      │                  │      db1912d81b489db938d8c991d 
-│                       │      │                  ├ [4]: https://github.com/git/git/security/advisories/GH
-│                       │      │                  │      SA-8h77-4q3w-gfgv 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32002 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32002 
-│                       │      ├ PublishedDate   : 2024-05-14T19:15:10.81Z 
-│                       │      ╰ LastModifiedDate: 2024-05-23T20:40:28.707Z 
-│                       ├ [13] ╭ VulnerabilityID : CVE-2024-32004 
-│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git-man 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
-│                       │      │                  │       ll&distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 63b12f2fb8982317 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32004 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: RCE while cloning local repos 
-│                       │      ├ Description     : Git is a revision control system. Prior to versions
-│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
-│                       │      │                   an attacker can prepare a local repository in such a way
-│                       │      │                   that, when cloned, will execute arbitrary code during the
-│                       │      │                   operation. The problem has been patched in versions 2.45.1,
-│                       │      │                   2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4. As a
-│                       │      │                   workaround, avoid cloning repositories from untrusted
-│                       │      │                   sources. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-114 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
-│                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
-│                       │      │                  ├ photon     : 3 
-│                       │      │                  ├ redhat     : 3 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C
-│                       │      │                  │         │           :H/I:H/A:H 
-│                       │      │                  │         ╰ V3Score : 8.1 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C
-│                       │      │                            │           :H/I:H/A:H 
-│                       │      │                            ╰ V3Score : 8.1 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32004 
-│                       │      │                  ├ [1]: https://git-scm.com/docs/git-clone 
-│                       │      │                  ├ [2]: https://github.com/git/git/commit/f4aa8c8bb11dae6
-│                       │      │                  │      e769cd930565173808cbb69c8 
-│                       │      │                  ├ [3]: https://github.com/git/git/security/advisories/GH
-│                       │      │                  │      SA-xfc6-vwr8-r389 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32004 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32004 
-│                       │      ├ PublishedDate   : 2024-05-14T19:15:11.377Z 
-│                       │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
-│                       ├ [14] ╭ VulnerabilityID : CVE-2024-32020 
-│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git-man 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
-│                       │      │                  │       ll&distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 63b12f2fb8982317 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32020 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: insecure hardlinks 
-│                       │      ├ Description     : Git is a revision control system. Prior to versions
-│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
-│                       │      │                   local clones may end up hardlinking files into the target
-│                       │      │                   repository's object database when source and target
-│                       │      │                   repository reside on the same disk. If the source repository
-│                       │      │                    is owned by a different user, then those hardlinked files
-│                       │      │                   may be rewritten at any point in time by the untrusted user.
-│                       │      │                    Cloning local repositories will cause Git to either copy or
-│                       │      │                    hardlink files of the source repository into the target
-│                       │      │                   repository. This significantly speeds up such local clones
-│                       │      │                   compared to doing a "proper" clone and saves both disk space
-│                       │      │                    and compute time. When cloning a repository located on the
-│                       │      │                   same disk that is owned by a different user than the current
-│                       │      │                    user we also end up creating such hardlinks. These files
-│                       │      │                   will continue to be owned and controlled by the
-│                       │      │                   potentially-untrusted user and can be rewritten by them at
-│                       │      │                   will in the future. The problem has been patched in versions
-│                       │      │                    2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and
-│                       │      │                   2.39.4. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-281 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
-│                       │      │                  ├ bitnami    : 1 
-│                       │      │                  ├ cbl-mariner: 1 
-│                       │      │                  ├ photon     : 1 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
-│                       │      │                  │         │           :N/I:L/A:L 
-│                       │      │                  │         ╰ V3Score : 3.9 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
-│                       │      │                            │           :N/I:L/A:L 
-│                       │      │                            ╰ V3Score : 3.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32020 
-│                       │      │                  ├ [1]: https://github.com/git/git/commit/1204e1a824c3407
-│                       │      │                  │      1019fe106348eaa6d88f9528d 
-│                       │      │                  ├ [2]: https://github.com/git/git/commit/9e65df5eab274bf
-│                       │      │                  │      74c7b570107aacd1303a1e703 
-│                       │      │                  ├ [3]: https://github.com/git/git/security/advisories/GH
-│                       │      │                  │      SA-5rfh-556j-fhgj 
-│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32020 
-│                       │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
-│                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32020 
-│                       │      ├ PublishedDate   : 2024-05-14T19:15:12.24Z 
-│                       │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
-│                       ├ [15] ╭ VulnerabilityID : CVE-2024-32021 
-│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git-man 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
-│                       │      │                  │       ll&distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 63b12f2fb8982317 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32021 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: symlink bypass 
-│                       │      ├ Description     : Git is a revision control system. Prior to versions
-│                       │      │                   2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4,
-│                       │      │                   when cloning a local source repository that contains
-│                       │      │                   symlinks via the filesystem, Git may create hardlinks to
-│                       │      │                   arbitrary user-readable files on the same filesystem as the
-│                       │      │                   target repository in the `objects/` directory. Cloning a
-│                       │      │                   local repository over the filesystem may creating hardlinks
-│                       │      │                   to arbitrary user-owned files on the same filesystem in the
-│                       │      │                   target Git repository's `objects/` directory. When cloning a
-│                       │      │                    repository over the filesystem (without explicitly
-│                       │      │                   specifying the `file://` protocol or `--no-local`), the
-│                       │      │                   optimizations for local cloning
-│                       │      │                   will be used, which include attempting to hard link the
-│                       │      │                   object files instead of copying them. While the code
-│                       │      │                   includes checks against symbolic links in the source
-│                       │      │                   repository, which were added during the fix for
-│                       │      │                   CVE-2022-39253, these checks can still be raced because the
-│                       │      │                   hard link operation ultimately follows symlinks. If the
-│                       │      │                   object on the filesystem appears as a file during the check,
-│                       │      │                    and then a symlink during the operation, this will allow
-│                       │      │                   the adversary to bypass the check and create hardlinks in
-│                       │      │                   the destination objects directory to arbitrary,
-│                       │      │                   user-readable files. The problem has been patched in
-│                       │      │                   versions 2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and
-│                       │      │                    2.39.4. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-547 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
-│                       │      │                  ├ bitnami    : 1 
-│                       │      │                  ├ cbl-mariner: 1 
-│                       │      │                  ├ photon     : 1 
-│                       │      │                  ├ redhat     : 1 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
-│                       │      │                  │         │           :N/I:L/A:L 
-│                       │      │                  │         ╰ V3Score : 3.9 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C
-│                       │      │                            │           :N/I:L/A:L 
-│                       │      │                            ╰ V3Score : 3.9 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32021 
-│                       │      │                  ├ [1]: https://github.com/git/git/security/advisories/GH
-│                       │      │                  │      SA-mvxm-9j2h-qjx7 
-│                       │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-32021 
-│                       │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6793-1 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-32021 
-│                       │      ├ PublishedDate   : 2024-05-14T20:15:13.63Z 
-│                       │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2024-32465 
-│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git-man 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
-│                       │      │                  │       ll&distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 63b12f2fb8982317 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
-│                       │      ├ FixedVersion    : 1:2.34.1-1ubuntu1.11 
-│                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
-│                       │      ├ SeveritySource  : ubuntu 
-│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32465 
-│                       │      ├ DataSource       ╭ ID  : ubuntu 
-│                       │      │                  ├ Name: Ubuntu CVE Tracker 
-│                       │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                       │      ├ Title           : git: additional local RCE 
-│                       │      ├ Description     : Git is a revision control system. The Git project
-│                       │      │                   recommends to avoid working in untrusted repositories, and
-│                       │      │                   instead to clone it first with `git clone --no-local` to
-│                       │      │                   obtain a clean copy. Git has specific protections to make
-│                       │      │                   that a safe operation even with an untrusted source
-│                       │      │                   repository, but vulnerabilities allow those protections to
-│                       │      │                   be bypassed. In the context of cloning local repositories
-│                       │      │                   owned by other users, this vulnerability has been covered in
-│                       │      │                    CVE-2024-32004. But there are circumstances where the fixes
-│                       │      │                    for CVE-2024-32004 are not enough: For example, when
-│                       │      │                   obtaining a `.zip` file containing a full copy of a Git
-│                       │      │                   repository, it should not be trusted by default to be safe,
-│                       │      │                   as e.g. hooks could be configured to run within the context
-│                       │      │                   of that repository. The problem has been patched in versions
-│                       │      │                    2.45.1, 2.44.1, 2.43.4, 2.42.2, 2.41.1, 2.40.2, and 2.39.4.
-│                       │      │                    As a workaround, avoid using Git in repositories that have
-│                       │      │                   been obtained via archives from untrusted sources. 
-│                       │      ├ Severity        : MEDIUM 
-│                       │      ├ CweIDs           ─ [0]: CWE-22 
-│                       │      ├ VendorSeverity   ╭ amazon     : 3 
-│                       │      │                  ├ bitnami    : 3 
-│                       │      │                  ├ cbl-mariner: 3 
-│                       │      │                  ├ photon     : 3 
-│                       │      │                  ├ redhat     : 2 
-│                       │      │                  ╰ ubuntu     : 2 
-│                       │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C
-│                       │      │                  │         │           :H/I:H/A:H 
-│                       │      │                  │         ╰ V3Score : 7.3 
-│                       │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C
-│                       │      │                            │           :H/I:H/A:H 
-│                       │      │                            ╰ V3Score : 7.3 
-│                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32465 
-│                       │      │                  ├ [1]: https://git-scm.com/docs/git#_security 
-│                       │      │                  ├ [2]: https://git-scm.com/docs/git-clone 
-│                       │      │                  ├ [3]: https://github.com/git/git/commit/7b70e9efb18c2cc
-│                       │      │                  │      3f219af399bd384c5801ba1d7 
-│                       │      │                  ├ [4]: https://github.com/git/git/security/advisories/GH
-│                       │      │                  │      SA-vm9j-46j9-qvq4 
-│                       │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32465 
-│                       │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
-│                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32465 
-│                       │      ├ PublishedDate   : 2024-05-14T20:15:14.54Z 
-│                       │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
-│                       ├ [17] ╭ VulnerabilityID : CVE-2018-1000021 
-│                       │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
-│                       │      ├ PkgName         : git-man 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/git-man@2.34.1-1ubuntu1.10?arch=a
-│                       │      │                  │       ll&distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 63b12f2fb8982317 
-│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.10 
+│                       │      │                  ╰ UID : 370fddb655ba4f09 
+│                       │      ├ InstalledVersion: 1:2.34.1-1ubuntu1.11 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-1000021 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1060,7 +436,7 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-1000021 
 │                       │      ├ PublishedDate   : 2018-02-09T23:29:00.557Z 
 │                       │      ╰ LastModifiedDate: 2018-03-06T19:34:06.18Z 
-│                       ├ [18] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gnupg@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gnupg 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg@2.2.27-3ubuntu2.1?arch=all&
@@ -1068,10 +444,10 @@
 │                       │      │                  ╰ UID : 88487e9844c23040 
 │                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1106,7 +482,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [19] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gnupg-l10n@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gnupg-l10n 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-l10n@2.2.27-3ubuntu2.1?arch
@@ -1114,10 +490,10 @@
 │                       │      │                  ╰ UID : fd02db41f8d782c5 
 │                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1152,18 +528,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [20] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gnupg-utils@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gnupg-utils 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gnupg-utils@2.2.27-3ubuntu2.1?arc
 │                       │      │                  │       h=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : f507ef3a46532c4b 
+│                       │      │                  ╰ UID : 51c9c30b3013ed58 
 │                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1198,18 +574,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [21] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpg@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpg 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg@2.2.27-3ubuntu2.1?arch=amd64&
 │                       │      │                  │       distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : b9658b83dee9b872 
+│                       │      │                  ╰ UID : fc29bca4f4c21d95 
 │                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1244,18 +620,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [22] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpg-agent@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpg-agent 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-agent@2.2.27-3ubuntu2.1?arch=
 │                       │      │                  │       amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 8ac371133db55897 
+│                       │      │                  ╰ UID : ff0e02de505352ba 
 │                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1290,18 +666,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [23] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpg-wks-client@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpg-wks-client 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-client@2.2.27-3ubuntu2.1?
 │                       │      │                  │       arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : c8f930e216a9a1fe 
+│                       │      │                  ╰ UID : 5ece645249e35b1 
 │                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1336,18 +712,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [24] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpg-wks-server@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpg-wks-server 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpg-wks-server@2.2.27-3ubuntu2.1?
 │                       │      │                  │       arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : a013f28742a7c2b1 
+│                       │      │                  ╰ UID : 27577ed0748491c5 
 │                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1382,18 +758,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [25] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpgconf@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpgconf 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgconf@2.2.27-3ubuntu2.1?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : ff7589b99f374fe 
+│                       │      │                  ╰ UID : 718c89d9c807bb6b 
 │                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1428,18 +804,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [26] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpgsm@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpgsm 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgsm@2.2.27-3ubuntu2.1?arch=amd6
 │                       │      │                  │       4&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 8243a4ecd299366d 
+│                       │      │                  ╰ UID : f91fcd4e5e4d954e 
 │                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1474,18 +850,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [27] ╭ VulnerabilityID : CVE-2022-3219 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2022-3219 
 │                       │      ├ PkgID           : gpgv@2.2.27-3ubuntu2.1 
 │                       │      ├ PkgName         : gpgv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/gpgv@2.2.27-3ubuntu2.1?arch=amd64
 │                       │      │                  │       &distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 6b7c81e05385ee21 
+│                       │      │                  ╰ UID : 2f664883586d66d4 
 │                       │      ├ InstalledVersion: 2.2.27-3ubuntu2.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3219 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1520,18 +896,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2022-3219 
 │                       │      ├ PublishedDate   : 2023-02-23T20:15:12.393Z 
 │                       │      ╰ LastModifiedDate: 2023-05-26T16:31:34.07Z 
-│                       ├ [28] ╭ VulnerabilityID : CVE-2016-1585 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2016-1585 
 │                       │      ├ PkgID           : libapparmor1@3.0.4-2ubuntu2.3 
 │                       │      ├ PkgName         : libapparmor1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libapparmor1@3.0.4-2ubuntu2.3?arc
 │                       │      │                  │       h=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : ef06e670fc089649 
+│                       │      │                  ╰ UID : 5302430ba7413b4c 
 │                       │      ├ InstalledVersion: 3.0.4-2ubuntu2.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-1585 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1565,18 +941,18 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2016-1585 
 │                       │      ├ PublishedDate   : 2019-04-22T16:29:01.303Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T02:29:58.223Z 
-│                       ├ [29] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [19] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libatomic1@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libatomic1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libatomic1@12.3.0-1ubuntu1~22.04?
 │                       │      │                  │       arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 2903115322148d2a 
+│                       │      │                  ╰ UID : ef001d3fbf3a80c9 
 │                       │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1619,18 +995,18 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                       ├ [30] ╭ VulnerabilityID : CVE-2016-20013 
-│                       │      ├ PkgID           : libc-bin@2.35-0ubuntu3.7 
+│                       ├ [20] ╭ VulnerabilityID : CVE-2016-20013 
+│                       │      ├ PkgID           : libc-bin@2.35-0ubuntu3.8 
 │                       │      ├ PkgName         : libc-bin 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.7?arch=amd
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc-bin@2.35-0ubuntu3.8?arch=amd
 │                       │      │                  │       64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : e7b558c8e02947d0 
-│                       │      ├ InstalledVersion: 2.35-0ubuntu3.7 
+│                       │      │                  ╰ UID : 769076add98a4 
+│                       │      ├ InstalledVersion: 2.35-0ubuntu3.8 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1656,18 +1032,18 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                       │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                       │      ╰ LastModifiedDate: 2022-03-03T16:43:19.667Z 
-│                       ├ [31] ╭ VulnerabilityID : CVE-2016-20013 
-│                       │      ├ PkgID           : libc6@2.35-0ubuntu3.7 
+│                       ├ [21] ╭ VulnerabilityID : CVE-2016-20013 
+│                       │      ├ PkgID           : libc6@2.35-0ubuntu3.8 
 │                       │      ├ PkgName         : libc6 
-│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.7?arch=amd64&
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libc6@2.35-0ubuntu3.8?arch=amd64&
 │                       │      │                  │       distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 82b808924e54f742 
-│                       │      ├ InstalledVersion: 2.35-0ubuntu3.7 
+│                       │      │                  ╰ UID : 324f2b466e16a5c 
+│                       │      ├ InstalledVersion: 2.35-0ubuntu3.8 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2016-20013 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1693,18 +1069,18 @@
 │                       │      │                  ╰ [3]: https://www.cve.org/CVERecord?id=CVE-2016-20013 
 │                       │      ├ PublishedDate   : 2022-02-19T05:15:09.413Z 
 │                       │      ╰ LastModifiedDate: 2022-03-03T16:43:19.667Z 
-│                       ├ [32] ╭ VulnerabilityID : CVE-2023-34969 
+│                       ├ [22] ╭ VulnerabilityID : CVE-2023-34969 
 │                       │      ├ PkgID           : libdbus-1-3@1.12.20-2ubuntu4.1 
 │                       │      ├ PkgName         : libdbus-1-3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libdbus-1-3@1.12.20-2ubuntu4.1?ar
 │                       │      │                  │       ch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : f2727d40c411193 
+│                       │      │                  ╰ UID : 7dfd9935abfffcd4 
 │                       │      ├ InstalledVersion: 1.12.20-2ubuntu4.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-34969 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1762,18 +1138,18 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-34969 
 │                       │      ├ PublishedDate   : 2023-06-08T03:15:08.97Z 
 │                       │      ╰ LastModifiedDate: 2023-12-27T16:36:58.353Z 
-│                       ├ [33] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [23] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libgcc-s1@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libgcc-s1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcc-s1@12.3.0-1ubuntu1~22.04?a
 │                       │      │                  │       rch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 9cee2a3c33ea0d6a 
+│                       │      │                  ╰ UID : a27b047981e340f6 
 │                       │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1816,18 +1192,18 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                       ├ [34] ╭ VulnerabilityID : CVE-2024-2236 
+│                       ├ [24] ╭ VulnerabilityID : CVE-2024-2236 
 │                       │      ├ PkgID           : libgcrypt20@1.9.4-3ubuntu3 
 │                       │      ├ PkgName         : libgcrypt20 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgcrypt20@1.9.4-3ubuntu3?arch=a
 │                       │      │                  │       md64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 1e15e52cd5429c18 
+│                       │      │                  ╰ UID : 504ec41547d7542 
 │                       │      ├ InstalledVersion: 1.9.4-3ubuntu3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2236 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1857,18 +1233,18 @@
 │                       │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-2236 
 │                       │      ├ PublishedDate   : 2024-03-06T22:15:57.977Z 
 │                       │      ╰ LastModifiedDate: 2024-04-25T17:15:49.467Z 
-│                       ├ [35] ╭ VulnerabilityID : CVE-2021-40812 
+│                       ├ [25] ╭ VulnerabilityID : CVE-2021-40812 
 │                       │      ├ PkgID           : libgd3@2.3.0-2ubuntu2 
 │                       │      ├ PkgName         : libgd3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgd3@2.3.0-2ubuntu2?arch=amd64&
 │                       │      │                  │       distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : fe8da8926bc66b5e 
+│                       │      │                  ╰ UID : a7d7ade8a5d5da4 
 │                       │      ├ InstalledVersion: 2.3.0-2ubuntu2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-40812 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1901,18 +1277,18 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-40812 
 │                       │      ├ PublishedDate   : 2021-09-08T21:15:14.083Z 
 │                       │      ╰ LastModifiedDate: 2024-04-07T01:17:53.437Z 
-│                       ├ [36] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [26] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.
 │                       │      │                  │       3?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : e8f74558686427be 
+│                       │      │                  ╰ UID : bbffc9c75422f546 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26462 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1939,18 +1315,18 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                       ├ [37] ╭ VulnerabilityID : CVE-2024-26458 
+│                       ├ [27] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.
 │                       │      │                  │       3?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : e8f74558686427be 
+│                       │      │                  ╰ UID : bbffc9c75422f546 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26458 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -1985,18 +1361,18 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                       ├ [38] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [28] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libgssapi-krb5-2@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libgssapi-krb5-2 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libgssapi-krb5-2@1.19.2-2ubuntu0.
 │                       │      │                  │       3?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : e8f74558686427be 
+│                       │      │                  ╰ UID : bbffc9c75422f546 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26461 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2032,18 +1408,18 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                       ├ [39] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [29] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libk5crypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?ar
 │                       │      │                  │       ch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 568d75d2af2ac746 
+│                       │      │                  ╰ UID : 5d8ac9e14e11c868 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26462 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2070,18 +1446,18 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                       ├ [40] ╭ VulnerabilityID : CVE-2024-26458 
+│                       ├ [30] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libk5crypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?ar
 │                       │      │                  │       ch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 568d75d2af2ac746 
+│                       │      │                  ╰ UID : 5d8ac9e14e11c868 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26458 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2116,18 +1492,18 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                       ├ [41] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [31] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libk5crypto3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libk5crypto3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libk5crypto3@1.19.2-2ubuntu0.3?ar
 │                       │      │                  │       ch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 568d75d2af2ac746 
+│                       │      │                  ╰ UID : 5d8ac9e14e11c868 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26461 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2163,18 +1539,18 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                       ├ [42] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [32] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5-3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=
 │                       │      │                  │       amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : f73d60d334001db6 
+│                       │      │                  ╰ UID : de6f3ce6609b0d99 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26462 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2201,18 +1577,18 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                       ├ [43] ╭ VulnerabilityID : CVE-2024-26458 
+│                       ├ [33] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5-3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=
 │                       │      │                  │       amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : f73d60d334001db6 
+│                       │      │                  ╰ UID : de6f3ce6609b0d99 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26458 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2247,18 +1623,18 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                       ├ [44] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [34] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libkrb5-3@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5-3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5-3@1.19.2-2ubuntu0.3?arch=
 │                       │      │                  │       amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : f73d60d334001db6 
+│                       │      │                  ╰ UID : de6f3ce6609b0d99 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26461 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2294,18 +1670,18 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                       ├ [45] ╭ VulnerabilityID : CVE-2024-26462 
+│                       ├ [35] ╭ VulnerabilityID : CVE-2024-26462 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5support0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3
 │                       │      │                  │       ?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 19815d516ad9603a 
+│                       │      │                  ╰ UID : ab9803cd86f04af8 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26462 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2332,18 +1708,18 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-26462 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.857Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:01.053Z 
-│                       ├ [46] ╭ VulnerabilityID : CVE-2024-26458 
+│                       ├ [36] ╭ VulnerabilityID : CVE-2024-26458 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5support0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3
 │                       │      │                  │       ?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 19815d516ad9603a 
+│                       │      │                  ╰ UID : ab9803cd86f04af8 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26458 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2378,18 +1754,18 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
-│                       ├ [47] ╭ VulnerabilityID : CVE-2024-26461 
+│                       ├ [37] ╭ VulnerabilityID : CVE-2024-26461 
 │                       │      ├ PkgID           : libkrb5support0@1.19.2-2ubuntu0.3 
 │                       │      ├ PkgName         : libkrb5support0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libkrb5support0@1.19.2-2ubuntu0.3
 │                       │      │                  │       ?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 19815d516ad9603a 
+│                       │      │                  ╰ UID : ab9803cd86f04af8 
 │                       │      ├ InstalledVersion: 1.19.2-2ubuntu0.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-26461 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2425,18 +1801,18 @@
 │                       │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                       │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                       │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
-│                       ├ [48] ╭ VulnerabilityID : CVE-2020-22916 
+│                       ├ [38] ╭ VulnerabilityID : CVE-2020-22916 
 │                       │      ├ PkgID           : liblzma5@5.2.5-2ubuntu1 
 │                       │      ├ PkgName         : liblzma5 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/liblzma5@5.2.5-2ubuntu1?arch=amd6
 │                       │      │                  │       4&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 6b1fe2ce5a7ee12b 
+│                       │      │                  ╰ UID : a0319141cd8b18b5 
 │                       │      ├ InstalledVersion: 5.2.5-2ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-22916 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2475,18 +1851,18 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2020-22916 
 │                       │      ├ PublishedDate   : 2023-08-22T19:16:19.407Z 
 │                       │      ╰ LastModifiedDate: 2024-05-17T01:45:27.397Z 
-│                       ├ [49] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [39] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libncurses6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=a
 │                       │      │                  │       md64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 28ace0006000ff92 
+│                       │      │                  ╰ UID : fc5fec37cbadf89 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45918 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2506,18 +1882,18 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [50] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [40] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : libncurses6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libncurses6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncurses6@6.3-2ubuntu0.1?arch=a
 │                       │      │                  │       md64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 28ace0006000ff92 
+│                       │      │                  ╰ UID : fc5fec37cbadf89 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2553,18 +1929,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [51] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [41] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libncursesw6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=
 │                       │      │                  │       amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 594384c8c94ce261 
+│                       │      │                  ╰ UID : 4db04da7889f7ff0 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45918 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2584,18 +1960,18 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [52] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [42] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : libncursesw6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libncursesw6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libncursesw6@6.3-2ubuntu0.1?arch=
 │                       │      │                  │       amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 594384c8c94ce261 
+│                       │      │                  ╰ UID : 4db04da7889f7ff0 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2631,18 +2007,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [53] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [43] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : libnss-systemd@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : libnss-systemd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libnss-systemd@249.11-0ubuntu3.12
 │                       │      │                  │       ?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 9662e208987caa39 
+│                       │      │                  ╰ UID : b05cb116900762c 
 │                       │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2694,18 +2070,18 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [54] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [44] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : libpam-systemd@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : libpam-systemd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpam-systemd@249.11-0ubuntu3.12
 │                       │      │                  │       ?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : b5bec6e70cd0359d 
+│                       │      │                  ╰ UID : 1be1ed5af9bbb43 
 │                       │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2757,18 +2133,18 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [55] ╭ VulnerabilityID : CVE-2017-11164 
+│                       ├ [45] ╭ VulnerabilityID : CVE-2017-11164 
 │                       │      ├ PkgID           : libpcre3@2:8.39-13ubuntu0.22.04.1 
 │                       │      ├ PkgName         : libpcre3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpcre3@8.39-13ubuntu0.22.04.1?a
 │                       │      │                  │       rch=amd64&distro=ubuntu-22.04&epoch=2 
-│                       │      │                  ╰ UID : 5a272ed523c8239 
+│                       │      │                  ╰ UID : 10a465dc6e382d0c 
 │                       │      ├ InstalledVersion: 2:8.39-13ubuntu0.22.04.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2017-11164 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2808,18 +2184,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2017-11164 
 │                       │      ├ PublishedDate   : 2017-07-11T03:29:00.277Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T02:38:10.98Z 
-│                       ├ [56] ╭ VulnerabilityID : CVE-2022-3857 
+│                       ├ [46] ╭ VulnerabilityID : CVE-2022-3857 
 │                       │      ├ PkgID           : libpng16-16@1.6.37-3build5 
 │                       │      ├ PkgName         : libpng16-16 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpng16-16@1.6.37-3build5?arch=a
 │                       │      │                  │       md64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 4a45b890632ad85f 
+│                       │      │                  ╰ UID : 9ab87de016fd95d0 
 │                       │      ├ InstalledVersion: 1.6.37-3build5 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-3857 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2849,18 +2225,18 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2022-3857 
 │                       │      ├ PublishedDate   : 2023-03-06T23:15:11.087Z 
 │                       │      ╰ LastModifiedDate: 2023-04-06T13:15:08.467Z 
-│                       ├ [57] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [47] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.3 
 │                       │      ├ PkgName         : libpython3.10 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.3?a
 │                       │      │                  │       rch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 967a5433ee78500a 
+│                       │      │                  ╰ UID : eee2a4c90dd13524 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -2977,18 +2353,18 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                       │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                       ├ [58] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [48] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.3 
 │                       │      ├ PkgName         : libpython3.10-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~2
 │                       │      │                  │       2.04.3?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : baa0e2ce5f138d03 
+│                       │      │                  ╰ UID : 81a2b34ba6617124 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3105,18 +2481,18 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                       │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                       ├ [59] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [49] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.3 
 │                       │      ├ PkgName         : libpython3.10-stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~22
 │                       │      │                  │       .04.3?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : b55cba1fa4c89d65 
+│                       │      │                  ╰ UID : 168d96462faeb79e 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3233,18 +2609,18 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                       │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                       ├ [60] ╭ VulnerabilityID : CVE-2022-40735 
+│                       ├ [50] ╭ VulnerabilityID : CVE-2022-40735 
 │                       │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.15 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.15?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 32454b0b271c84a9 
+│                       │      │                  ╰ UID : cc021bd06498e8c5 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.15 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-40735 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3301,18 +2677,18 @@
 │                       │      │                  ╰ [13]: https://www.rfc-editor.org/rfc/rfc7919#section-5.2 
 │                       │      ├ PublishedDate   : 2022-11-14T23:15:11.423Z 
 │                       │      ╰ LastModifiedDate: 2024-04-23T07:15:42.55Z 
-│                       ├ [61] ╭ VulnerabilityID : CVE-2024-2511 
+│                       ├ [51] ╭ VulnerabilityID : CVE-2024-2511 
 │                       │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.15 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.15?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 32454b0b271c84a9 
+│                       │      │                  ╰ UID : cc021bd06498e8c5 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.15 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2511 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3379,18 +2755,18 @@
 │                       │      │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
 │                       │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                       │      ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-│                       ├ [62] ╭ VulnerabilityID : CVE-2024-4603 
+│                       ├ [52] ╭ VulnerabilityID : CVE-2024-4603 
 │                       │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.15 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.15?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 32454b0b271c84a9 
+│                       │      │                  ╰ UID : cc021bd06498e8c5 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.15 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-4603 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3466,18 +2842,18 @@
 │                       │      │                  ╰ [7]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                       │      ╰ LastModifiedDate: 2024-05-17T18:36:31.297Z 
-│                       ├ [63] ╭ VulnerabilityID : CVE-2024-4741 
+│                       ├ [53] ╭ VulnerabilityID : CVE-2024-4741 
 │                       │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.15 
 │                       │      ├ PkgName         : libssl3 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.15?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 32454b0b271c84a9 
+│                       │      │                  ╰ UID : cc021bd06498e8c5 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.15 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-4741 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3498,18 +2874,18 @@
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
 │                       │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
 │                       │                         ╰ [3]: https://www.openssl.org/news/secadv/20240528.txt 
-│                       ├ [64] ╭ VulnerabilityID : CVE-2022-27943 
+│                       ├ [54] ╭ VulnerabilityID : CVE-2022-27943 
 │                       │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                       │      ├ PkgName         : libstdc++6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~22
 │                       │      │                  │       .04?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : c5cf168e6e3b8cd6 
+│                       │      │                  ╰ UID : e1023378c51f6cb 
 │                       │      ├ InstalledVersion: 12.3.0-1ubuntu1~22.04 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-27943 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3552,7 +2928,7 @@
 │                       │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                       │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                       ├ [65] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [55] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : libsystemd0 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.12?ar
@@ -3560,10 +2936,10 @@
 │                       │      │                  ╰ UID : f4f79805aa463487 
 │                       │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3615,18 +2991,18 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [66] ╭ VulnerabilityID : CVE-2018-10126 
+│                       ├ [56] ╭ VulnerabilityID : CVE-2018-10126 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.8 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.8?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 5e1dadde46a02b5f 
+│                       │      │                  ╰ UID : 6bf8a32b2f70eb61 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.8 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2018-10126 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3659,18 +3035,18 @@
 │                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                       │      ├ PublishedDate   : 2018-04-21T21:29:00.29Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T02:51:16.693Z 
-│                       ├ [67] ╭ VulnerabilityID : CVE-2023-3164 
+│                       ├ [57] ╭ VulnerabilityID : CVE-2023-3164 
 │                       │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.8 
 │                       │      ├ PkgName         : libtiff5 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.8?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 5e1dadde46a02b5f 
+│                       │      │                  ╰ UID : 6bf8a32b2f70eb61 
 │                       │      ├ InstalledVersion: 4.3.0-6ubuntu0.8 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3164 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3697,24 +3073,24 @@
 │                       │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2023-3164 
 │                       │      │                  ├ [1]: https://bugzilla.redhat.com/show_bug.cgi?id=2213531 
 │                       │      │                  ├ [2]: https://gitlab.com/libtiff/libtiff/-/issues/542 
-│                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2023-3164 
-│                       │      │                  ├ [4]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
-│                       │      │                  ╰ [5]: ihttps://gitlab.com/libtiff/libtiff/-/merge_reque
-│                       │      │                         sts/595 
+│                       │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/merge_reques
+│                       │      │                  │      ts/595 
+│                       │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-3164 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
 │                       │      ├ PublishedDate   : 2023-11-02T12:15:09.543Z 
 │                       │      ╰ LastModifiedDate: 2024-03-08T19:38:13.92Z 
-│                       ├ [68] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [58] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libtinfo6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd
 │                       │      │                  │       64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : cf1fe5cdb71e9cc 
+│                       │      │                  ╰ UID : 411e94c7706f63dd 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45918 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3734,18 +3110,18 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [69] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [59] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : libtinfo6 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=amd
 │                       │      │                  │       64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : cf1fe5cdb71e9cc 
+│                       │      │                  ╰ UID : 411e94c7706f63dd 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3781,18 +3157,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [70] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [60] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : libudev1@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : libudev1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.12?arch=
 │                       │      │                  │       amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 9126aada3a42aed 
+│                       │      │                  ╰ UID : 6c33dff958ac8a2f 
 │                       │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3844,18 +3220,18 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [71] ╭ VulnerabilityID : CVE-2022-4899 
+│                       ├ [61] ╭ VulnerabilityID : CVE-2022-4899 
 │                       │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                       │      ├ PkgName         : libzstd1 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?arc
 │                       │      │                  │       h=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : dde785d5c2f41c1 
+│                       │      │                  ╰ UID : b68868ea905b1107 
 │                       │      ├ InstalledVersion: 1.4.8+dfsg-3build1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-4899 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -3999,7 +3375,7 @@
 │                       │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                       │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                       │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                       ├ [72] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [62] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                       │      ├ PkgName         : login 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd64
@@ -4007,10 +3383,10 @@
 │                       │      │                  ╰ UID : 30c6f401b0bfd862 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4056,7 +3432,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                       ├ [73] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [63] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=
@@ -4064,10 +3440,10 @@
 │                       │      │                  ╰ UID : 97290053f00ee1f8 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45918 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4087,7 +3463,7 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [74] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [64] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-base 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch=
@@ -4095,10 +3471,10 @@
 │                       │      │                  ╰ UID : 97290053f00ee1f8 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4134,7 +3510,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [75] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [65] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=a
@@ -4142,10 +3518,10 @@
 │                       │      │                  ╰ UID : 6d72e540ccb8f7f0 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45918 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4165,7 +3541,7 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [76] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [66] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-bin 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=a
@@ -4173,10 +3549,10 @@
 │                       │      │                  ╰ UID : 6d72e540ccb8f7f0 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4212,7 +3588,7 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [77] ╭ VulnerabilityID : CVE-2023-45918 
+│                       ├ [67] ╭ VulnerabilityID : CVE-2023-45918 
 │                       │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-term 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=
@@ -4220,10 +3596,10 @@
 │                       │      │                  ╰ UID : 24f77879d5274538 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45918 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4243,7 +3619,7 @@
 │                       │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                       │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                       │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                       ├ [78] ╭ VulnerabilityID : CVE-2023-50495 
+│                       ├ [68] ╭ VulnerabilityID : CVE-2023-50495 
 │                       │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                       │      ├ PkgName         : ncurses-term 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch=
@@ -4251,10 +3627,10 @@
 │                       │      │                  ╰ UID : 24f77879d5274538 
 │                       │      ├ InstalledVersion: 6.3-2ubuntu0.1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-50495 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4290,18 +3666,18 @@
 │                       │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                       │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                       │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                       ├ [79] ╭ VulnerabilityID : CVE-2022-40735 
+│                       ├ [69] ╭ VulnerabilityID : CVE-2022-40735 
 │                       │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 50bc3636aabf9e12 
+│                       │      │                  ╰ UID : d90094639330b555 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.15 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-40735 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4358,18 +3734,18 @@
 │                       │      │                  ╰ [13]: https://www.rfc-editor.org/rfc/rfc7919#section-5.2 
 │                       │      ├ PublishedDate   : 2022-11-14T23:15:11.423Z 
 │                       │      ╰ LastModifiedDate: 2024-04-23T07:15:42.55Z 
-│                       ├ [80] ╭ VulnerabilityID : CVE-2024-2511 
+│                       ├ [70] ╭ VulnerabilityID : CVE-2024-2511 
 │                       │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 50bc3636aabf9e12 
+│                       │      │                  ╰ UID : d90094639330b555 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.15 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-2511 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4436,18 +3812,18 @@
 │                       │      │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
 │                       │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                       │      ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-│                       ├ [81] ╭ VulnerabilityID : CVE-2024-4603 
+│                       ├ [71] ╭ VulnerabilityID : CVE-2024-4603 
 │                       │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 50bc3636aabf9e12 
+│                       │      │                  ╰ UID : d90094639330b555 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.15 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-4603 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4523,18 +3899,18 @@
 │                       │      │                  ╰ [7]: https://www.openssl.org/news/secadv/20240516.txt 
 │                       │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                       │      ╰ LastModifiedDate: 2024-05-17T18:36:31.297Z 
-│                       ├ [82] ╭ VulnerabilityID : CVE-2024-4741 
+│                       ├ [72] ╭ VulnerabilityID : CVE-2024-4741 
 │                       │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                       │      ├ PkgName         : openssl 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=am
 │                       │      │                  │       d64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 50bc3636aabf9e12 
+│                       │      │                  ╰ UID : d90094639330b555 
 │                       │      ├ InstalledVersion: 3.0.2-0ubuntu1.15 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-4741 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4555,18 +3931,18 @@
 │                       │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
 │                       │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
 │                       │                         ╰ [3]: https://www.openssl.org/news/secadv/20240528.txt 
-│                       ├ [83] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [73] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                       │      ├ PkgName         : passwd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd6
 │                       │      │                  │       4&distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : 6c1f3a398aa4bfc2 
+│                       │      │                  ╰ UID : 53375de30b0cc75c 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4612,7 +3988,7 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                       ├ [84] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [74] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                       │      ├ PkgName         : python3.10 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arch
@@ -4620,10 +3996,10 @@
 │                       │      │                  ╰ UID : e18631285537a262 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4740,7 +4116,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                       │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                       ├ [85] ╭ VulnerabilityID : CVE-2023-27043 
+│                       ├ [75] ╭ VulnerabilityID : CVE-2023-27043 
 │                       │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                       │      ├ PkgName         : python3.10-minimal 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.0
@@ -4748,10 +4124,10 @@
 │                       │      │                  ╰ UID : b31cdfacac7f322f 
 │                       │      ├ InstalledVersion: 3.10.12-1~22.04.3 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-27043 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4868,7 +4244,7 @@
 │                       │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                       │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                       │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                       ├ [86] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [76] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : systemd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=a
@@ -4876,10 +4252,10 @@
 │                       │      │                  ╰ UID : 30bcb0114a133ffb 
 │                       │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4931,7 +4307,7 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [87] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [77] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : systemd-sysv 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?a
@@ -4939,10 +4315,10 @@
 │                       │      │                  ╰ UID : bf1e04b48793e4de 
 │                       │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -4994,18 +4370,18 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [88] ╭ VulnerabilityID : CVE-2023-7008 
+│                       ├ [78] ╭ VulnerabilityID : CVE-2023-7008 
 │                       │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                       │      ├ PkgName         : systemd-timesyncd 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu3
 │                       │      │                  │       .12?arch=amd64&distro=ubuntu-22.04 
-│                       │      │                  ╰ UID : 93c75034f69eeddd 
+│                       │      │                  ╰ UID : eb4336e06052c185 
 │                       │      ├ InstalledVersion: 249.11-0ubuntu3.12 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-7008 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -5057,18 +4433,18 @@
 │                       │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                       │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                       │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                       ├ [89] ╭ VulnerabilityID : CVE-2023-29383 
+│                       ├ [79] ╭ VulnerabilityID : CVE-2023-29383 
 │                       │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                       │      ├ PkgName         : uidmap 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd6
 │                       │      │                  │       4&distro=ubuntu-22.04&epoch=1 
-│                       │      │                  ╰ UID : a809dd95627242d 
+│                       │      │                  ╰ UID : 500833942e9893a4 
 │                       │      ├ InstalledVersion: 1:4.8.1-2ubuntu2.2 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29383 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -5114,18 +4490,18 @@
 │                       │      │                         y-resources/security-advisories/?fid=31797 
 │                       │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                       │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                       ├ [90] ╭ VulnerabilityID : CVE-2021-31879 
+│                       ├ [80] ╭ VulnerabilityID : CVE-2021-31879 
 │                       │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                       │      ├ PkgName         : wget 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&d
 │                       │      │                  │       istro=ubuntu-22.04 
-│                       │      │                  ╰ UID : e0908389e6a8246f 
+│                       │      │                  ╰ UID : eb163e2d3f34768c 
 │                       │      ├ InstalledVersion: 1.21.2-2ubuntu1 
 │                       │      ├ Status          : affected 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ubuntu 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2021-31879 
 │                       │      ├ DataSource       ╭ ID  : ubuntu 
@@ -5161,18 +4537,18 @@
 │                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                       │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                       │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                       ╰ [91] ╭ VulnerabilityID : CVE-2020-22916 
+│                       ╰ [81] ╭ VulnerabilityID : CVE-2020-22916 
 │                              ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                              ├ PkgName         : xz-utils 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd6
 │                              │                  │       4&distro=ubuntu-22.04 
-│                              │                  ╰ UID : ebc89e03e6057ae6 
+│                              │                  ╰ UID : 7ec3d9bd0ec1207f 
 │                              ├ InstalledVersion: 5.2.5-2ubuntu1 
 │                              ├ Status          : affected 
-│                              ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                              │                  │         5148c8b448c75d5ca26972496 
-│                              │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                              │                            87b937e9fa9bb227d2fe1e632 
+│                              ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                              │                  │         670f96d3f8cbc8757ca78e955 
+│                              │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                              │                            f1145e1048d738517513dcb75 
 │                              ├ SeveritySource  : ubuntu 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2020-22916 
 │                              ├ DataSource       ╭ ID  : ubuntu 
@@ -5217,17 +4593,17 @@
 │     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2022-36033 
 │                             ├ PkgName         : org.jsoup:jsoup 
 │                             ├ PkgPath         : home/workspace/.openvscode-server/extensions/redhat.vsco
-│                             │                   de-xml-0.26.1-linux-x64/server/org.eclipse.lemminx-0.26.1-ube
+│                             │                   de-xml-0.27.1-linux-x64/server/org.eclipse.lemminx-0.28.0-ube
 │                             │                   r.jar 
 │                             ├ PkgIdentifier    ╭ PURL: pkg:maven/org.jsoup/jsoup@1.14.2 
-│                             │                  ╰ UID : d7f6653d798b5594 
+│                             │                  ╰ UID : 678355eecfc8a150 
 │                             ├ InstalledVersion: 1.14.2 
 │                             ├ FixedVersion    : 1.15.3 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075
-│                             │                  │         148c8b448c75d5ca26972496 
-│                             │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f88
-│                             │                            7b937e9fa9bb227d2fe1e632 
+│                             ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf66
+│                             │                  │         70f96d3f8cbc8757ca78e955 
+│                             │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf
+│                             │                            1145e1048d738517513dcb75 
 │                             ├ SeveritySource  : ghsa 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2022-36033 
 │                             ├ DataSource       ╭ ID  : ghsa 
@@ -5297,10 +4673,10 @@
 │                       │      ├ InstalledVersion: v0.12.0 
 │                       │      ├ FixedVersion    : 0.17.0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ghsa 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39325 
 │                       │      ├ DataSource       ╭ ID  : ghsa 
@@ -5621,10 +4997,10 @@
 │                       │      ├ InstalledVersion: v0.12.0 
 │                       │      ├ FixedVersion    : 0.13.0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ghsa 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3978 
 │                       │      ├ DataSource       ╭ ID  : ghsa 
@@ -5685,10 +5061,10 @@
 │                       │      ├ InstalledVersion: v0.12.0 
 │                       │      ├ FixedVersion    : 0.17.0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ghsa 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-44487 
 │                       │      ├ DataSource       ╭ ID  : ghsa 
@@ -6204,10 +5580,10 @@
 │                       │      ├ InstalledVersion: v0.12.0 
 │                       │      ├ FixedVersion    : 0.23.0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ghsa 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
 │                       │      ├ DataSource       ╭ ID  : ghsa 
@@ -6301,10 +5677,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.10, 1.21.3 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39325 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -6624,10 +6000,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.11, 1.21.4, 1.20.12, 1.21.5 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45283 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -6690,10 +6066,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.21.9, 1.22.2 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
 │                       │      │                  ├ Name: The Go Vulnerability Database 
@@ -6785,10 +6161,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.19.11, 1.20.6 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29406 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -6862,10 +6238,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.19.12, 1.20.7, 1.21.0-rc.4 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29409 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -6933,10 +6309,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.8, 1.21.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39318 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -7005,10 +6381,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.8, 1.21.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39319 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -7078,10 +6454,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.12, 1.21.5 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39326 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -7153,10 +6529,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.11, 1.21.4 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45284 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -7197,10 +6573,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.21.8, 1.22.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45289 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
 │                       │      │                  ├ Name: The Go Vulnerability Database 
@@ -7267,10 +6643,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.21.8, 1.22.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45290 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
 │                       │      │                  ├ Name: The Go Vulnerability Database 
@@ -7342,10 +6718,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.21.8, 1.22.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24783 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
 │                       │      │                  ├ Name: The Go Vulnerability Database 
@@ -7414,10 +6790,10 @@
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.21.8, 1.22.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24784 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
 │                       │      │                  ├ Name: The Go Vulnerability Database 
@@ -7493,10 +6869,10 @@
 │                              ├ InstalledVersion: 1.20.5 
 │                              ├ FixedVersion    : 1.21.8, 1.22.1 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                              │                  │         5148c8b448c75d5ca26972496 
-│                              │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                              │                            87b937e9fa9bb227d2fe1e632 
+│                              ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                              │                  │         670f96d3f8cbc8757ca78e955 
+│                              │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                              │                            f1145e1048d738517513dcb75 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24785 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
@@ -7566,20 +6942,20 @@
 │                              │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                              ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                              ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
-├ [3] ╭ Target         : tmp/tmp.BtAz0LWpTo/krew-linux_amd64 
+├ [3] ╭ Target         : tmp/tmp.YiQQuaucOP/krew-linux_amd64 
 │     ├ Class          : lang-pkgs 
 │     ├ Type           : gobinary 
 │     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2023-39325 
 │                       │      ├ PkgName         : golang.org/x/net 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
-│                       │      │                  ╰ UID : b2025ed835848863 
+│                       │      │                  ╰ UID : d82a83b93583ffa2 
 │                       │      ├ InstalledVersion: v0.12.0 
 │                       │      ├ FixedVersion    : 0.17.0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ghsa 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39325 
 │                       │      ├ DataSource       ╭ ID  : ghsa 
@@ -7896,14 +7272,14 @@
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2023-3978 
 │                       │      ├ PkgName         : golang.org/x/net 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
-│                       │      │                  ╰ UID : b2025ed835848863 
+│                       │      │                  ╰ UID : d82a83b93583ffa2 
 │                       │      ├ InstalledVersion: v0.12.0 
 │                       │      ├ FixedVersion    : 0.13.0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ghsa 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-3978 
 │                       │      ├ DataSource       ╭ ID  : ghsa 
@@ -7960,14 +7336,14 @@
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2023-44487 
 │                       │      ├ PkgName         : golang.org/x/net 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
-│                       │      │                  ╰ UID : b2025ed835848863 
+│                       │      │                  ╰ UID : d82a83b93583ffa2 
 │                       │      ├ InstalledVersion: v0.12.0 
 │                       │      ├ FixedVersion    : 0.17.0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ghsa 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-44487 
 │                       │      ├ DataSource       ╭ ID  : ghsa 
@@ -8479,14 +7855,14 @@
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2023-45288 
 │                       │      ├ PkgName         : golang.org/x/net 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
-│                       │      │                  ╰ UID : b2025ed835848863 
+│                       │      │                  ╰ UID : d82a83b93583ffa2 
 │                       │      ├ InstalledVersion: v0.12.0 
 │                       │      ├ FixedVersion    : 0.23.0 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : ghsa 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
 │                       │      ├ DataSource       ╭ ID  : ghsa 
@@ -8576,14 +7952,14 @@
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2023-39325 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.10, 1.21.3 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39325 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -8899,14 +8275,14 @@
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2023-45283 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.11, 1.21.4, 1.20.12, 1.21.5 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45283 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -8965,14 +8341,14 @@
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2023-45288 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.21.9, 1.22.2 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45288 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
 │                       │      │                  ├ Name: The Go Vulnerability Database 
@@ -9060,14 +8436,14 @@
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2023-29406 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.19.11, 1.20.6 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29406 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -9137,14 +8513,14 @@
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2023-29409 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.19.12, 1.20.7, 1.21.0-rc.4 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-29409 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -9208,14 +8584,14 @@
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2023-39318 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.8, 1.21.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39318 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -9280,14 +8656,14 @@
 │                       ├ [10] ╭ VulnerabilityID : CVE-2023-39319 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.8, 1.21.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39319 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -9353,14 +8729,14 @@
 │                       ├ [11] ╭ VulnerabilityID : CVE-2023-39326 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.12, 1.21.5 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-39326 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -9428,14 +8804,14 @@
 │                       ├ [12] ╭ VulnerabilityID : CVE-2023-45284 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.20.11, 1.21.4 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ SeveritySource  : nvd 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45284 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
@@ -9472,14 +8848,14 @@
 │                       ├ [13] ╭ VulnerabilityID : CVE-2023-45289 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.21.8, 1.22.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45289 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
 │                       │      │                  ├ Name: The Go Vulnerability Database 
@@ -9542,14 +8918,14 @@
 │                       ├ [14] ╭ VulnerabilityID : CVE-2023-45290 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.21.8, 1.22.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-45290 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
 │                       │      │                  ├ Name: The Go Vulnerability Database 
@@ -9617,14 +8993,14 @@
 │                       ├ [15] ╭ VulnerabilityID : CVE-2024-24783 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.21.8, 1.22.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24783 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
 │                       │      │                  ├ Name: The Go Vulnerability Database 
@@ -9689,14 +9065,14 @@
 │                       ├ [16] ╭ VulnerabilityID : CVE-2024-24784 
 │                       │      ├ PkgName         : stdlib 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                       │      │                  ╰ UID : 7714220817ec7d9a 
+│                       │      │                  ╰ UID : c4c11fb608b88d2f 
 │                       │      ├ InstalledVersion: 1.20.5 
 │                       │      ├ FixedVersion    : 1.21.8, 1.22.1 
 │                       │      ├ Status          : fixed 
-│                       │      ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                       │      │                  │         5148c8b448c75d5ca26972496 
-│                       │      │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                       │      │                            87b937e9fa9bb227d2fe1e632 
+│                       │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                       │      │                  │         670f96d3f8cbc8757ca78e955 
+│                       │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                       │      │                            f1145e1048d738517513dcb75 
 │                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24784 
 │                       │      ├ DataSource       ╭ ID  : govulndb 
 │                       │      │                  ├ Name: The Go Vulnerability Database 
@@ -9768,14 +9144,14 @@
 │                       ╰ [17] ╭ VulnerabilityID : CVE-2024-24785 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                              │                  ╰ UID : 7714220817ec7d9a 
+│                              │                  ╰ UID : c4c11fb608b88d2f 
 │                              ├ InstalledVersion: 1.20.5 
 │                              ├ FixedVersion    : 1.21.8, 1.22.1 
 │                              ├ Status          : fixed 
-│                              ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd7807
-│                              │                  │         5148c8b448c75d5ca26972496 
-│                              │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f8
-│                              │                            87b937e9fa9bb227d2fe1e632 
+│                              ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                              │                  │         670f96d3f8cbc8757ca78e955 
+│                              │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                              │                            f1145e1048d738517513dcb75 
 │                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24785 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
@@ -9855,10 +9231,10 @@
 │                             ├ InstalledVersion: 1.22.2 
 │                             ├ FixedVersion    : 1.22.3 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075
-│                             │                  │         148c8b448c75d5ca26972496 
-│                             │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f88
-│                             │                            7b937e9fa9bb227d2fe1e632 
+│                             ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf66
+│                             │                  │         70f96d3f8cbc8757ca78e955 
+│                             │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf
+│                             │                            1145e1048d738517513dcb75 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24788 
 │                             ├ DataSource       ╭ ID  : govulndb 
 │                             │                  ├ Name: The Go Vulnerability Database 
@@ -9893,10 +9269,10 @@
 │                       │     ├ InstalledVersion: v26.0.0+incompatible 
 │                       │     ├ FixedVersion    : 26.0.2 
 │                       │     ├ Status          : fixed 
-│                       │     ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075
-│                       │     │                  │         148c8b448c75d5ca26972496 
-│                       │     │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f88
-│                       │     │                            7b937e9fa9bb227d2fe1e632 
+│                       │     ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf66
+│                       │     │                  │         70f96d3f8cbc8757ca78e955 
+│                       │     │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf
+│                       │     │                            1145e1048d738517513dcb75 
 │                       │     ├ SeveritySource  : ghsa 
 │                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-32473 
 │                       │     ├ DataSource       ╭ ID  : ghsa 
@@ -9950,10 +9326,10 @@
 │                             ├ InstalledVersion: 1.22.2 
 │                             ├ FixedVersion    : 1.22.3 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:7df6ac35954992610bcbfb67a9036c951bd78075
-│                             │                  │         148c8b448c75d5ca26972496 
-│                             │                  ╰ DiffID: sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f88
-│                             │                            7b937e9fa9bb227d2fe1e632 
+│                             ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf66
+│                             │                  │         70f96d3f8cbc8757ca78e955 
+│                             │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf
+│                             │                            1145e1048d738517513dcb75 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24788 
 │                             ├ DataSource       ╭ ID  : govulndb 
 │                             │                  ├ Name: The Go Vulnerability Database 
@@ -10077,10 +9453,10 @@
 │                     │            ****************************************************************************
 │                     │            ****************************************************************************
 │                     │            ****************************************-----END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75
-│                                 │            d5ca26972496 
-│                                 ├ DiffID   : sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb
-│                                 │            227d2fe1e632 
+│                     ╰ Layer     ╭ Digest   : sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6670f96d3f8cbc
+│                                 │            8757ca78e955 
+│                                 ├ DiffID   : sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf1145e1048d73
+│                                 │            8517513dcb75 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
 ├ [7] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │     ├ Class  : secret 
@@ -10135,10 +9511,10 @@
 │                     │            ****************************************************************************
 │                     │            ************************************************************************----
 │                     │            -END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75
-│                                 │            d5ca26972496 
-│                                 ├ DiffID   : sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb
-│                                 │            227d2fe1e632 
+│                     ╰ Layer     ╭ Digest   : sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6670f96d3f8cbc
+│                                 │            8757ca78e955 
+│                                 ├ DiffID   : sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf1145e1048d73
+│                                 │            8517513dcb75 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
 ├ [8] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │     ├ Class  : secret 
@@ -10187,10 +9563,10 @@
 │                     │            ****************************************************************************
 │                     │            ****************************************************************************
 │                     │            **********************************************-----END OPENSSH PRI 
-│                     ╰ Layer     ╭ Digest   : sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75
-│                                 │            d5ca26972496 
-│                                 ├ DiffID   : sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb
-│                                 │            227d2fe1e632 
+│                     ╰ Layer     ╭ Digest   : sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6670f96d3f8cbc
+│                                 │            8757ca78e955 
+│                                 ├ DiffID   : sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf1145e1048d73
+│                                 │            8517513dcb75 
 │                                 ╰ CreatedBy: COPY / / # buildkit 
 ╰ [9] ╭ Target : /etc/ssh/ssh_host_rsa_key 
       ├ Class  : secret 
@@ -10358,9 +9734,9 @@
                       │            ****************************************************************************
                       │            ****************************************************************************
                       │            *****************************************-----END OPENSSH PRI 
-                      ╰ Layer     ╭ Digest   : sha256:7df6ac35954992610bcbfb67a9036c951bd78075148c8b448c75
-                                  │            d5ca26972496 
-                                  ├ DiffID   : sha256:56f11b7c4f95af9de43ccff0301ecd86266a5f887b937e9fa9bb
-                                  │            227d2fe1e632 
+                      ╰ Layer     ╭ Digest   : sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6670f96d3f8cbc
+                                  │            8757ca78e955 
+                                  ├ DiffID   : sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf1145e1048d73
+                                  │            8517513dcb75 
                                   ╰ CreatedBy: COPY / / # buildkit 
 ````
