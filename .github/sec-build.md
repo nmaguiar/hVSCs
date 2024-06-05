@@ -6426,7 +6426,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6506,7 +6506,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6892,87 +6892,119 @@
 │                        │      │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.527Z 
-│                        ╰ [17] ╭ VulnerabilityID : CVE-2024-24785 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24785 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
+│                        │      │                  ╰ UID : a803c46e7bd27b90 
+│                        │      ├ InstalledVersion: 1.20.5 
+│                        │      ├ FixedVersion    : 1.21.8, 1.22.1 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf
+│                        │      │                  │         6670f96d3f8cbc8757ca78e955 
+│                        │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906
+│                        │      │                            bf1145e1048d738517513dcb75 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24785 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : golang: html/template: errors returned from
+│                        │      │                   MarshalJSON methods may break template escaping 
+│                        │      ├ Description     : If errors returned from MarshalJSON methods contain
+│                        │      │                   user controlled data, they may be used to break the
+│                        │      │                   contextual auto-escaping behavior of the html/template
+│                        │      │                   package, allowing for subsequent actions to inject
+│                        │      │                   unexpected content into templates. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ rocky      : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:H/A:N 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/08/4 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -24785 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2262921 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268021 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268022 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2268273 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
+│                        │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45288 
+│                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45290 
+│                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-1394 
+│                        │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24784 
+│                        │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24785 
+│                        │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
+│                        │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2024:2562 
+│                        │      │                  ├ [26]: https://go.dev/cl/564196 
+│                        │      │                  ├ [27]: https://go.dev/issue/65697 
+│                        │      │                  ├ [28]: https://groups.google.com/g/golang-announce/c/5
+│                        │      │                  │       pwGVUPoMbg 
+│                        │      │                  ├ [29]: https://linux.oracle.com/cve/CVE-2024-24785.html 
+│                        │      │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
+│                        │      │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
+│                        │      │                  ├ [32]: https://pkg.go.dev/vuln/GO-2024-2610 
+│                        │      │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       329-0008/ 
+│                        │      │                  ├ [34]: https://vuln.go.dev/ID/GO-2024-2610.json 
+│                        │      │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
+│                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
+│                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24789 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
+│                        │      │                  ╰ UID : a803c46e7bd27b90 
+│                        │      ├ InstalledVersion: 1.20.5 
+│                        │      ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf
+│                        │      │                  │         6670f96d3f8cbc8757ca78e955 
+│                        │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906
+│                        │      │                            bf1145e1048d738517513dcb75 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ╰ Severity        : UNKNOWN 
+│                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                               │                  ╰ UID : a803c46e7bd27b90 
 │                               ├ InstalledVersion: 1.20.5 
-│                               ├ FixedVersion    : 1.21.8, 1.22.1 
+│                               ├ FixedVersion    : 1.21.11, 1.22.4 
 │                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf
 │                               │                  │         6670f96d3f8cbc8757ca78e955 
 │                               │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906
 │                               │                            bf1145e1048d738517513dcb75 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24785 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ├ Title           : golang: html/template: errors returned from
-│                               │                   MarshalJSON methods may break template escaping 
-│                               ├ Description     : If errors returned from MarshalJSON methods contain
-│                               │                   user controlled data, they may be used to break the
-│                               │                   contextual auto-escaping behavior of the html/template
-│                               │                   package, allowing for subsequent actions to inject
-│                               │                   unexpected content into templates. 
-│                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ alma       : 3 
-│                               │                  ├ amazon     : 2 
-│                               │                  ├ cbl-mariner: 2 
-│                               │                  ├ oracle-oval: 3 
-│                               │                  ├ redhat     : 2 
-│                               │                  ╰ rocky      : 3 
-│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
-│                               │                           │           :N/I:H/A:N 
-│                               │                           ╰ V3Score : 6.5 
-│                               ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
-│                               │                  │       /03/08/4 
-│                               │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
-│                               │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
-│                               │                  │       -24785 
-│                               │                  ├ [3] : https://bugzilla.redhat.com/2262921 
-│                               │                  ├ [4] : https://bugzilla.redhat.com/2268017 
-│                               │                  ├ [5] : https://bugzilla.redhat.com/2268018 
-│                               │                  ├ [6] : https://bugzilla.redhat.com/2268019 
-│                               │                  ├ [7] : https://bugzilla.redhat.com/2268021 
-│                               │                  ├ [8] : https://bugzilla.redhat.com/2268022 
-│                               │                  ├ [9] : https://bugzilla.redhat.com/2268273 
-│                               │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
-│                               │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                               │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
-│                               │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
-│                               │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
-│                               │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
-│                               │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                               │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2023-45288 
-│                               │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2023-45289 
-│                               │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2023-45290 
-│                               │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2024-1394 
-│                               │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2024-24783 
-│                               │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2024-24784 
-│                               │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2024-24785 
-│                               │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
-│                               │                  ├ [25]: https://errata.rockylinux.org/RLSA-2024:2562 
-│                               │                  ├ [26]: https://go.dev/cl/564196 
-│                               │                  ├ [27]: https://go.dev/issue/65697 
-│                               │                  ├ [28]: https://groups.google.com/g/golang-announce/c/5
-│                               │                  │       pwGVUPoMbg 
-│                               │                  ├ [29]: https://linux.oracle.com/cve/CVE-2024-24785.html 
-│                               │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
-│                               │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
-│                               │                  ├ [32]: https://pkg.go.dev/vuln/GO-2024-2610 
-│                               │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
-│                               │                  │       329-0008/ 
-│                               │                  ├ [34]: https://vuln.go.dev/ID/GO-2024-2610.json 
-│                               │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
-│                               ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
-│                               ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
+│                               ╰ Severity        : UNKNOWN 
 ├ [4]  ╭ Target         : tmp/tmp.YiQQuaucOP/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -8709,7 +8741,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8789,7 +8821,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9175,133 +9207,293 @@
 │                        │      │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.527Z 
-│                        ╰ [17] ╭ VulnerabilityID : CVE-2024-24785 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24785 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
+│                        │      │                  ╰ UID : c4c11fb608b88d2f 
+│                        │      ├ InstalledVersion: 1.20.5 
+│                        │      ├ FixedVersion    : 1.21.8, 1.22.1 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf
+│                        │      │                  │         6670f96d3f8cbc8757ca78e955 
+│                        │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906
+│                        │      │                            bf1145e1048d738517513dcb75 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24785 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : golang: html/template: errors returned from
+│                        │      │                   MarshalJSON methods may break template escaping 
+│                        │      ├ Description     : If errors returned from MarshalJSON methods contain
+│                        │      │                   user controlled data, they may be used to break the
+│                        │      │                   contextual auto-escaping behavior of the html/template
+│                        │      │                   package, allowing for subsequent actions to inject
+│                        │      │                   unexpected content into templates. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ rocky      : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :N/I:H/A:N 
+│                        │      │                           ╰ V3Score : 6.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/08/4 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -24785 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2262921 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2268017 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
+│                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268021 
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/2268022 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/2268273 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
+│                        │      │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
+│                        │      │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45288 
+│                        │      │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45290 
+│                        │      │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-1394 
+│                        │      │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24784 
+│                        │      │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24785 
+│                        │      │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
+│                        │      │                  ├ [25]: https://errata.rockylinux.org/RLSA-2024:2562 
+│                        │      │                  ├ [26]: https://go.dev/cl/564196 
+│                        │      │                  ├ [27]: https://go.dev/issue/65697 
+│                        │      │                  ├ [28]: https://groups.google.com/g/golang-announce/c/5
+│                        │      │                  │       pwGVUPoMbg 
+│                        │      │                  ├ [29]: https://linux.oracle.com/cve/CVE-2024-24785.html 
+│                        │      │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
+│                        │      │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
+│                        │      │                  ├ [32]: https://pkg.go.dev/vuln/GO-2024-2610 
+│                        │      │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       329-0008/ 
+│                        │      │                  ├ [34]: https://vuln.go.dev/ID/GO-2024-2610.json 
+│                        │      │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
+│                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
+│                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24789 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
+│                        │      │                  ╰ UID : c4c11fb608b88d2f 
+│                        │      ├ InstalledVersion: 1.20.5 
+│                        │      ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf
+│                        │      │                  │         6670f96d3f8cbc8757ca78e955 
+│                        │      │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906
+│                        │      │                            bf1145e1048d738517513dcb75 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ╰ Severity        : UNKNOWN 
+│                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                               │                  ╰ UID : c4c11fb608b88d2f 
 │                               ├ InstalledVersion: 1.20.5 
-│                               ├ FixedVersion    : 1.21.8, 1.22.1 
+│                               ├ FixedVersion    : 1.21.11, 1.22.4 
 │                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf
 │                               │                  │         6670f96d3f8cbc8757ca78e955 
 │                               │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906
 │                               │                            bf1145e1048d738517513dcb75 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24785 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ├ Title           : golang: html/template: errors returned from
-│                               │                   MarshalJSON methods may break template escaping 
-│                               ├ Description     : If errors returned from MarshalJSON methods contain
-│                               │                   user controlled data, they may be used to break the
-│                               │                   contextual auto-escaping behavior of the html/template
-│                               │                   package, allowing for subsequent actions to inject
-│                               │                   unexpected content into templates. 
-│                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ alma       : 3 
-│                               │                  ├ amazon     : 2 
-│                               │                  ├ cbl-mariner: 2 
-│                               │                  ├ oracle-oval: 3 
-│                               │                  ├ redhat     : 2 
-│                               │                  ╰ rocky      : 3 
-│                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C
-│                               │                           │           :N/I:H/A:N 
-│                               │                           ╰ V3Score : 6.5 
-│                               ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
-│                               │                  │       /03/08/4 
-│                               │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:2562 
-│                               │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
-│                               │                  │       -24785 
-│                               │                  ├ [3] : https://bugzilla.redhat.com/2262921 
-│                               │                  ├ [4] : https://bugzilla.redhat.com/2268017 
-│                               │                  ├ [5] : https://bugzilla.redhat.com/2268018 
-│                               │                  ├ [6] : https://bugzilla.redhat.com/2268019 
-│                               │                  ├ [7] : https://bugzilla.redhat.com/2268021 
-│                               │                  ├ [8] : https://bugzilla.redhat.com/2268022 
-│                               │                  ├ [9] : https://bugzilla.redhat.com/2268273 
-│                               │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2262921 
-│                               │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
-│                               │                  ├ [12]: https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
-│                               │                  ├ [13]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
-│                               │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2268021 
-│                               │                  ├ [15]: https://bugzilla.redhat.com/show_bug.cgi?id=2268022 
-│                               │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                               │                  ├ [17]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2023-45288 
-│                               │                  ├ [18]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2023-45289 
-│                               │                  ├ [19]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2023-45290 
-│                               │                  ├ [20]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2024-1394 
-│                               │                  ├ [21]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2024-24783 
-│                               │                  ├ [22]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2024-24784 
-│                               │                  ├ [23]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
-│                               │                  │       CVE-2024-24785 
-│                               │                  ├ [24]: https://errata.almalinux.org/9/ALSA-2024-2562.html 
-│                               │                  ├ [25]: https://errata.rockylinux.org/RLSA-2024:2562 
-│                               │                  ├ [26]: https://go.dev/cl/564196 
-│                               │                  ├ [27]: https://go.dev/issue/65697 
-│                               │                  ├ [28]: https://groups.google.com/g/golang-announce/c/5
-│                               │                  │       pwGVUPoMbg 
-│                               │                  ├ [29]: https://linux.oracle.com/cve/CVE-2024-24785.html 
-│                               │                  ├ [30]: https://linux.oracle.com/errata/ELSA-2024-3259.html 
-│                               │                  ├ [31]: https://nvd.nist.gov/vuln/detail/CVE-2024-24785 
-│                               │                  ├ [32]: https://pkg.go.dev/vuln/GO-2024-2610 
-│                               │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
-│                               │                  │       329-0008/ 
-│                               │                  ├ [34]: https://vuln.go.dev/ID/GO-2024-2610.json 
-│                               │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
-│                               ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
-│                               ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
-├ [5]  ╭ Target: usr/bin/docker-compose 
-│      ├ Class : lang-pkgs 
-│      ╰ Type  : gobinary 
-├ [6]  ╭ Target: usr/bin/helm 
-│      ├ Class : lang-pkgs 
-│      ╰ Type  : gobinary 
-├ [7]  ╭ Target         : usr/bin/kubectl 
+│                               ╰ Severity        : UNKNOWN 
+├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-24788 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-24789 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.10 
+│                        │     │                  ╰ UID : eea260c4ab298188 
+│                        │     ├ InstalledVersion: 1.21.10 
+│                        │     ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                        │     │                  │         670f96d3f8cbc8757ca78e955 
+│                        │     │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                        │     │                            f1145e1048d738517513dcb75 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ╰ Severity        : UNKNOWN 
+│                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
-│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
-│                              │                  ╰ UID : 211461cfb06bb9e7 
-│                              ├ InstalledVersion: 1.22.2 
-│                              ├ FixedVersion    : 1.22.3 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.10 
+│                              │                  ╰ UID : eea260c4ab298188 
+│                              ├ InstalledVersion: 1.21.10 
+│                              ├ FixedVersion    : 1.21.11, 1.22.4 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
 │                              │                  │         670f96d3f8cbc8757ca78e955 
 │                              │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
 │                              │                            f1145e1048d738517513dcb75 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24788 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : golang: net: malformed DNS message can cause infinite loop 
-│                              ├ Description     : A malformed DNS message in response to a query can
-│                              │                   cause the Lookup functions to get stuck in an infinite
-│                              │                   loop. 
-│                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ─ redhat: 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                              │                           │           N/I:N/A:H 
-│                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24788 
-│                              │                  ├ [1]: https://go.dev/cl/578375 
-│                              │                  ├ [2]: https://go.dev/issue/66754 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/wkk
-│                              │                  │      O4P9stm0 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
-│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2824 
-│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
-│                              ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
-│                              ╰ LastModifiedDate: 2024-05-08T17:05:24.083Z 
-├ [8]  ╭ Target: usr/bin/mc 
-│      ├ Class : lang-pkgs 
-│      ╰ Type  : gobinary 
+│                              ╰ Severity        : UNKNOWN 
+├ [6]  ╭ Target         : usr/bin/helm 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : gobinary 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-24789 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.3 
+│                        │     │                  ╰ UID : 6580e76646607095 
+│                        │     ├ InstalledVersion: 1.22.3 
+│                        │     ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                        │     │                  │         670f96d3f8cbc8757ca78e955 
+│                        │     │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                        │     │                            f1145e1048d738517513dcb75 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ╰ Severity        : UNKNOWN 
+│                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.3 
+│                              │                  ╰ UID : 6580e76646607095 
+│                              ├ InstalledVersion: 1.22.3 
+│                              ├ FixedVersion    : 1.21.11, 1.22.4 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                              │                  │         670f96d3f8cbc8757ca78e955 
+│                              │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                              │                            f1145e1048d738517513dcb75 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ╰ Severity        : UNKNOWN 
+├ [7]  ╭ Target         : usr/bin/kubectl 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : gobinary 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-24788 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
+│                        │     │                  ╰ UID : 211461cfb06bb9e7 
+│                        │     ├ InstalledVersion: 1.22.2 
+│                        │     ├ FixedVersion    : 1.22.3 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                        │     │                  │         670f96d3f8cbc8757ca78e955 
+│                        │     │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                        │     │                            f1145e1048d738517513dcb75 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24788 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : golang: net: malformed DNS message can cause infinite loop 
+│                        │     ├ Description     : A malformed DNS message in response to a query can
+│                        │     │                   cause the Lookup functions to get stuck in an infinite
+│                        │     │                   loop. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ VendorSeverity   ─ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24788 
+│                        │     │                  ├ [1]: https://go.dev/cl/578375 
+│                        │     │                  ├ [2]: https://go.dev/issue/66754 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/wkk
+│                        │     │                  │      O4P9stm0 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2824 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
+│                        │     ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
+│                        │     ╰ LastModifiedDate: 2024-05-08T17:05:24.083Z 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2024-24789 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
+│                        │     │                  ╰ UID : 211461cfb06bb9e7 
+│                        │     ├ InstalledVersion: 1.22.2 
+│                        │     ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                        │     │                  │         670f96d3f8cbc8757ca78e955 
+│                        │     │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                        │     │                            f1145e1048d738517513dcb75 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ╰ Severity        : UNKNOWN 
+│                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24790 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
+│                              │                  ╰ UID : 211461cfb06bb9e7 
+│                              ├ InstalledVersion: 1.22.2 
+│                              ├ FixedVersion    : 1.21.11, 1.22.4 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                              │                  │         670f96d3f8cbc8757ca78e955 
+│                              │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                              │                            f1145e1048d738517513dcb75 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ╰ Severity        : UNKNOWN 
+├ [8]  ╭ Target         : usr/bin/mc 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : gobinary 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-24789 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.3 
+│                        │     │                  ╰ UID : a1561ed916b79bce 
+│                        │     ├ InstalledVersion: 1.22.3 
+│                        │     ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                        │     │                  │         670f96d3f8cbc8757ca78e955 
+│                        │     │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                        │     │                            f1145e1048d738517513dcb75 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ╰ Severity        : UNKNOWN 
+│                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.3 
+│                              │                  ╰ UID : a1561ed916b79bce 
+│                              ├ InstalledVersion: 1.22.3 
+│                              ├ FixedVersion    : 1.21.11, 1.22.4 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                              │                  │         670f96d3f8cbc8757ca78e955 
+│                              │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                              │                            f1145e1048d738517513dcb75 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ╰ Severity        : UNKNOWN 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9363,149 +9555,73 @@
 │                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-32473 
 │                        │     ├ PublishedDate   : 2024-04-18T22:15:10.4Z 
 │                        │     ╰ LastModifiedDate: 2024-04-19T13:10:25.637Z 
-│                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24788 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2024-24788 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
+│                        │     │                  ╰ UID : 36ffbab8aa163593 
+│                        │     ├ InstalledVersion: 1.22.2 
+│                        │     ├ FixedVersion    : 1.22.3 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                        │     │                  │         670f96d3f8cbc8757ca78e955 
+│                        │     │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                        │     │                            f1145e1048d738517513dcb75 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24788 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : golang: net: malformed DNS message can cause infinite loop 
+│                        │     ├ Description     : A malformed DNS message in response to a query can
+│                        │     │                   cause the Lookup functions to get stuck in an infinite
+│                        │     │                   loop. 
+│                        │     ├ Severity        : HIGH 
+│                        │     ├ VendorSeverity   ─ redhat: 2 
+│                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
+│                        │     │                           │           N/I:N/A:H 
+│                        │     │                           ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24788 
+│                        │     │                  ├ [1]: https://go.dev/cl/578375 
+│                        │     │                  ├ [2]: https://go.dev/issue/66754 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/wkk
+│                        │     │                  │      O4P9stm0 
+│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
+│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2824 
+│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
+│                        │     ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
+│                        │     ╰ LastModifiedDate: 2024-05-08T17:05:24.083Z 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2024-24789 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
+│                        │     │                  ╰ UID : 36ffbab8aa163593 
+│                        │     ├ InstalledVersion: 1.22.2 
+│                        │     ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
+│                        │     │                  │         670f96d3f8cbc8757ca78e955 
+│                        │     │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
+│                        │     │                            f1145e1048d738517513dcb75 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ╰ Severity        : UNKNOWN 
+│                        ╰ [3] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
 │                              │                  ╰ UID : 36ffbab8aa163593 
 │                              ├ InstalledVersion: 1.22.2 
-│                              ├ FixedVersion    : 1.22.3 
+│                              ├ FixedVersion    : 1.21.11, 1.22.4 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6
 │                              │                  │         670f96d3f8cbc8757ca78e955 
 │                              │                  ╰ DiffID: sha256:ebced48de2ab22b27ab9f4759ee02ebda08906b
 │                              │                            f1145e1048d738517513dcb75 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24788 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : golang: net: malformed DNS message can cause infinite loop 
-│                              ├ Description     : A malformed DNS message in response to a query can
-│                              │                   cause the Lookup functions to get stuck in an infinite
-│                              │                   loop. 
-│                              ├ Severity        : HIGH 
-│                              ├ VendorSeverity   ─ redhat: 2 
-│                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                              │                           │           N/I:N/A:H 
-│                              │                           ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24788 
-│                              │                  ├ [1]: https://go.dev/cl/578375 
-│                              │                  ├ [2]: https://go.dev/issue/66754 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/wkk
-│                              │                  │      O4P9stm0 
-│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
-│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2824 
-│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
-│                              ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
-│                              ╰ LastModifiedDate: 2024-05-08T17:05:24.083Z 
-├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ****************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            *********************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6670f96d3f8cb
-│                                  │            c8757ca78e955 
-│                                  ├ DiffID   : sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf1145e1048d7
-│                                  │            38517513dcb75 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│                              ╰ Severity        : UNKNOWN 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -9563,7 +9679,7 @@
 │                                  ├ DiffID   : sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf1145e1048d7
 │                                  │            38517513dcb75 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -9616,7 +9732,183 @@
 │                                  ├ DiffID   : sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf1145e1048d7
 │                                  │            38517513dcb75 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6670f96d3f8cb
+│                                  │            c8757ca78e955 
+│                                  ├ DiffID   : sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf1145e1048d7
+│                                  │            38517513dcb75 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_dsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -9654,33 +9946,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              ****************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -9714,33 +9980,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              ****************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -9769,24 +10009,8 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            *********************************************************-----END OPENSSH
+                       │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:d771f57da3aa2bf9d41f9e9e318f33d0ce31cf6670f96d3f8cb
                                    │            c8757ca78e955 
                                    ├ DiffID   : sha256:ebced48de2ab22b27ab9f4759ee02ebda08906bf1145e1048d7
