@@ -154,7 +154,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -225,7 +225,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1678,7 +1678,7 @@
 │                        │      │                  ├ [8] : https://inbox.sourceware.org/libc-alpha/cover.1
 │                        │      │                  │       713974801.git.fweimer@redhat.com/ 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33599.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3344.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
 │                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0005 
@@ -1743,7 +1743,7 @@
 │                        │      │                  ├ [8] : https://inbox.sourceware.org/libc-alpha/cover.1
 │                        │      │                  │       713974801.git.fweimer@redhat.com/ 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33600.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3344.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
 │                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0006 
@@ -1810,7 +1810,7 @@
 │                        │      │                  ├ [8] : https://inbox.sourceware.org/libc-alpha/cover.1
 │                        │      │                  │       713974801.git.fweimer@redhat.com/ 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33601.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3344.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
 │                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0007 
@@ -1875,7 +1875,7 @@
 │                        │      │                  ├ [8] : https://inbox.sourceware.org/libc-alpha/cover.1
 │                        │      │                  │       713974801.git.fweimer@redhat.com/ 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33602.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3344.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
 │                        │      │                  ├ [12]: https://sourceware.org/bugzilla/show_bug.cgi?id
 │                        │      │                  │       =31680 
@@ -1978,7 +1978,7 @@
 │                        │      │                  ├ [8] : https://inbox.sourceware.org/libc-alpha/cover.1
 │                        │      │                  │       713974801.git.fweimer@redhat.com/ 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33599.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3344.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
 │                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0005 
@@ -2043,7 +2043,7 @@
 │                        │      │                  ├ [8] : https://inbox.sourceware.org/libc-alpha/cover.1
 │                        │      │                  │       713974801.git.fweimer@redhat.com/ 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33600.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3344.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
 │                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0006 
@@ -2110,7 +2110,7 @@
 │                        │      │                  ├ [8] : https://inbox.sourceware.org/libc-alpha/cover.1
 │                        │      │                  │       713974801.git.fweimer@redhat.com/ 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33601.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3344.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
 │                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0007 
@@ -2175,7 +2175,7 @@
 │                        │      │                  ├ [8] : https://inbox.sourceware.org/libc-alpha/cover.1
 │                        │      │                  │       713974801.git.fweimer@redhat.com/ 
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33602.html 
-│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3344.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
 │                        │      │                  ├ [12]: https://sourceware.org/bugzilla/show_bug.cgi?id
 │                        │      │                  │       =31680 
@@ -2279,7 +2279,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -3814,10 +3814,10 @@
 │                        │      │                   modular-exponentiation calculations. Finally, it is
 │                        │      │                   possible for an attacker to exploit this vulnerability and
 │                        │      │                   CVE-2002-20001 together. 
-│                        │      ├ Severity        : LOW 
+│                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-400 
 │                        │      ├ VendorSeverity   ╭ nvd   : 3 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/
 │                        │      │                        │           I:N/A:H 
 │                        │      │                        ╰ V3Score : 7.5 
@@ -4871,10 +4871,10 @@
 │                        │      │                   modular-exponentiation calculations. Finally, it is
 │                        │      │                   possible for an attacker to exploit this vulnerability and
 │                        │      │                   CVE-2002-20001 together. 
-│                        │      ├ Severity        : LOW 
+│                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-400 
 │                        │      ├ VendorSeverity   ╭ nvd   : 3 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ nvd ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/
 │                        │      │                        │           I:N/A:H 
 │                        │      │                        ╰ V3Score : 7.5 
@@ -5923,7 +5923,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -6192,7 +6192,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6355,7 +6355,7 @@
 │                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
 │                        │      │                  │        he-tale-of-a-hidden-cve 
 │                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-sec
 │                        │      │                  │        urity-update-cve-2023-44487-http-2-dos/67764
 │                        │      │                  │        [m 
@@ -6816,34 +6816,43 @@
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-45288 
-│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:2699 
-│                        │      │                  ├ [12]: https://go.dev/cl/576155 
-│                        │      │                  ├ [13]: https://go.dev/issue/65051 
-│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/Y
+│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45290 
+│                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [18]: https://go.dev/cl/576155 
+│                        │      │                  ├ [19]: https://go.dev/issue/65051 
+│                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
 │                        │      │                  │       gW0sx8mN3M 
-│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT 
-│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                        │      │                  ├ [19]: https://nowotarski.info/http2-continuation-floo
+│                        │      │                  ├ [25]: https://nowotarski.info/http2-continuation-floo
 │                        │      │                  │       d-technical-details 
-│                        │      │                  ├ [20]: https://nowotarski.info/http2-continuation-flood/ 
-│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [26]: https://nowotarski.info/http2-continuation-flood/ 
+│                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │      │                  ├ [28]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │      │                  ├ [29]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       419-0009 
-│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [30]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       419-0009/ 
-│                        │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                        │      │                  ╰ [26]: https://www.kb.cert.org/vuls/id/421644 
+│                        │      │                  ├ [31]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │      │                  ╰ [32]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T18:15:10.493Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2023-39325 
@@ -6925,7 +6934,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -7295,34 +7304,43 @@
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-45288 
-│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:2699 
-│                        │      │                  ├ [12]: https://go.dev/cl/576155 
-│                        │      │                  ├ [13]: https://go.dev/issue/65051 
-│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/Y
+│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45290 
+│                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [18]: https://go.dev/cl/576155 
+│                        │      │                  ├ [19]: https://go.dev/issue/65051 
+│                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
 │                        │      │                  │       gW0sx8mN3M 
-│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT 
-│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                        │      │                  ├ [19]: https://nowotarski.info/http2-continuation-floo
+│                        │      │                  ├ [25]: https://nowotarski.info/http2-continuation-floo
 │                        │      │                  │       d-technical-details 
-│                        │      │                  ├ [20]: https://nowotarski.info/http2-continuation-flood/ 
-│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [26]: https://nowotarski.info/http2-continuation-flood/ 
+│                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │      │                  ├ [28]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │      │                  ├ [29]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       419-0009 
-│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [30]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       419-0009/ 
-│                        │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                        │      │                  ╰ [26]: https://www.kb.cert.org/vuls/id/421644 
+│                        │      │                  ├ [31]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │      │                  ╰ [32]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T18:15:10.493Z 
 │                        ├ [7]  ╭ VulnerabilityID : CVE-2023-29406 
@@ -7502,7 +7520,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7576,7 +7594,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8138,7 +8156,22 @@
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ╰ Severity        : UNKNOWN 
+│                        │      ├ Title           : The archive/zip package's handling of certain types of
+│                        │      │                    invalid zip fil ... 
+│                        │      ├ Description     : The archive/zip package's handling of certain types of
+│                        │      │                    invalid zip files differs from the behavior of most zip
+│                        │      │                   implementations. This misalignment could be exploited to
+│                        │      │                   create an zip file with contents that vary depending on the
+│                        │      │                    implementation reading the file. The archive/zip package
+│                        │      │                   now rejects files containing these errors. 
+│                        │      ├ Severity        : UNKNOWN 
+│                        │      ├ References       ╭ [0]: https://go.dev/cl/585397 
+│                        │      │                  ├ [1]: https://go.dev/issue/66869 
+│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                        │      ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
 │                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -8154,7 +8187,20 @@
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ╰ Severity        : UNKNOWN 
+│                               ├ Title           : The various Is methods (IsPrivate, IsLoopback, etc)
+│                               │                   did not work as ex ... 
+│                               ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc)
+│                               │                   did not work as expected for IPv4-mapped IPv6 addresses,
+│                               │                   returning false for addresses which would return true in
+│                               │                   their traditional IPv4 forms. 
+│                               ├ Severity        : UNKNOWN 
+│                               ├ References       ╭ [0]: https://go.dev/cl/590316 
+│                               │                  ├ [1]: https://go.dev/issue/67680 
+│                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
+│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                               ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
+│                               ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
 ├ [4]  ╭ Target         : tmp/tmp.3mNXh7lous/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -8238,7 +8284,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -8507,7 +8553,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8670,7 +8716,7 @@
 │                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
 │                        │      │                  │        he-tale-of-a-hidden-cve 
 │                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
 │                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-sec
 │                        │      │                  │        urity-update-cve-2023-44487-http-2-dos/67764
 │                        │      │                  │        [m 
@@ -9131,34 +9177,43 @@
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-45288 
-│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:2699 
-│                        │      │                  ├ [12]: https://go.dev/cl/576155 
-│                        │      │                  ├ [13]: https://go.dev/issue/65051 
-│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/Y
+│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45290 
+│                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [18]: https://go.dev/cl/576155 
+│                        │      │                  ├ [19]: https://go.dev/issue/65051 
+│                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
 │                        │      │                  │       gW0sx8mN3M 
-│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT 
-│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                        │      │                  ├ [19]: https://nowotarski.info/http2-continuation-floo
+│                        │      │                  ├ [25]: https://nowotarski.info/http2-continuation-floo
 │                        │      │                  │       d-technical-details 
-│                        │      │                  ├ [20]: https://nowotarski.info/http2-continuation-flood/ 
-│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [26]: https://nowotarski.info/http2-continuation-flood/ 
+│                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │      │                  ├ [28]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │      │                  ├ [29]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       419-0009 
-│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [30]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       419-0009/ 
-│                        │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                        │      │                  ╰ [26]: https://www.kb.cert.org/vuls/id/421644 
+│                        │      │                  ├ [31]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │      │                  ╰ [32]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T18:15:10.493Z 
 │                        ├ [4]  ╭ VulnerabilityID : CVE-2023-39325 
@@ -9240,7 +9295,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -9610,34 +9665,43 @@
 │                        │      │                  ├ [5] : https://bugzilla.redhat.com/2268018 
 │                        │      │                  ├ [6] : https://bugzilla.redhat.com/2268019 
 │                        │      │                  ├ [7] : https://bugzilla.redhat.com/2268273 
-│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │      │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │      │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │      │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │      │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
+│                        │      │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-45288 
-│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:2699 
-│                        │      │                  ├ [12]: https://go.dev/cl/576155 
-│                        │      │                  ├ [13]: https://go.dev/issue/65051 
-│                        │      │                  ├ [14]: https://groups.google.com/g/golang-announce/c/Y
+│                        │      │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45289 
+│                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-45290 
+│                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-24783 
+│                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [18]: https://go.dev/cl/576155 
+│                        │      │                  ├ [19]: https://go.dev/issue/65051 
+│                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
 │                        │      │                  │       gW0sx8mN3M 
-│                        │      │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │      │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
-│                        │      │                  ├ [17]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │      │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT 
-│                        │      │                  ├ [18]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
 │                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/QRYF
 │                        │      │                  │       HIQ6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                        │      │                  ├ [19]: https://nowotarski.info/http2-continuation-floo
+│                        │      │                  ├ [25]: https://nowotarski.info/http2-continuation-floo
 │                        │      │                  │       d-technical-details 
-│                        │      │                  ├ [20]: https://nowotarski.info/http2-continuation-flood/ 
-│                        │      │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                        │      │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                        │      │                  ├ [23]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [26]: https://nowotarski.info/http2-continuation-flood/ 
+│                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │      │                  ├ [28]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │      │                  ├ [29]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       419-0009 
-│                        │      │                  ├ [24]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [30]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       419-0009/ 
-│                        │      │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                        │      │                  ╰ [26]: https://www.kb.cert.org/vuls/id/421644 
+│                        │      │                  ├ [31]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │      │                  ╰ [32]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T18:15:10.493Z 
 │                        ├ [7]  ╭ VulnerabilityID : CVE-2023-29406 
@@ -9817,7 +9881,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9891,7 +9955,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -10453,7 +10517,22 @@
 │                        │      ├ DataSource       ╭ ID  : govulndb 
 │                        │      │                  ├ Name: The Go Vulnerability Database 
 │                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ╰ Severity        : UNKNOWN 
+│                        │      ├ Title           : The archive/zip package's handling of certain types of
+│                        │      │                    invalid zip fil ... 
+│                        │      ├ Description     : The archive/zip package's handling of certain types of
+│                        │      │                    invalid zip files differs from the behavior of most zip
+│                        │      │                   implementations. This misalignment could be exploited to
+│                        │      │                   create an zip file with contents that vary depending on the
+│                        │      │                    implementation reading the file. The archive/zip package
+│                        │      │                   now rejects files containing these errors. 
+│                        │      ├ Severity        : UNKNOWN 
+│                        │      ├ References       ╭ [0]: https://go.dev/cl/585397 
+│                        │      │                  ├ [1]: https://go.dev/issue/66869 
+│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                        │      ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
 │                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -10469,7 +10548,20 @@
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ╰ Severity        : UNKNOWN 
+│                               ├ Title           : The various Is methods (IsPrivate, IsLoopback, etc)
+│                               │                   did not work as ex ... 
+│                               ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc)
+│                               │                   did not work as expected for IPv4-mapped IPv6 addresses,
+│                               │                   returning false for addresses which would return true in
+│                               │                   their traditional IPv4 forms. 
+│                               ├ Severity        : UNKNOWN 
+│                               ├ References       ╭ [0]: https://go.dev/cl/590316 
+│                               │                  ├ [1]: https://go.dev/issue/67680 
+│                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
+│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                               ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
+│                               ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10488,7 +10580,22 @@
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ╰ Severity        : UNKNOWN 
+│                        │     ├ Title           : The archive/zip package's handling of certain types of
+│                        │     │                   invalid zip fil ... 
+│                        │     ├ Description     : The archive/zip package's handling of certain types of
+│                        │     │                   invalid zip files differs from the behavior of most zip
+│                        │     │                   implementations. This misalignment could be exploited to
+│                        │     │                   create an zip file with contents that vary depending on the
+│                        │     │                   implementation reading the file. The archive/zip package now
+│                        │     │                    rejects files containing these errors. 
+│                        │     ├ Severity        : UNKNOWN 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
+│                        │     │                  ├ [1]: https://go.dev/issue/66869 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                        │     ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.9 
@@ -10504,7 +10611,20 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ╰ Severity        : UNKNOWN 
+│                              ├ Title           : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                              │                    not work as ex ... 
+│                              ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                              │                    not work as expected for IPv4-mapped IPv6 addresses,
+│                              │                   returning false for addresses which would return true in
+│                              │                   their traditional IPv4 forms. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
+│                              │                  ├ [1]: https://go.dev/issue/67680 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
+│                              ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10566,34 +10686,43 @@
 │                        │     │                  ├ [5] : https://bugzilla.redhat.com/2268018 
 │                        │     │                  ├ [6] : https://bugzilla.redhat.com/2268019 
 │                        │     │                  ├ [7] : https://bugzilla.redhat.com/2268273 
-│                        │     │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
-│                        │     │                  ├ [9] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  ├ [8] : https://bugzilla.redhat.com/show_bug.cgi?id=2268017 
+│                        │     │                  ├ [9] : https://bugzilla.redhat.com/show_bug.cgi?id=2268018 
+│                        │     │                  ├ [10]: https://bugzilla.redhat.com/show_bug.cgi?id=2268019 
+│                        │     │                  ├ [11]: https://bugzilla.redhat.com/show_bug.cgi?id=2268273 
+│                        │     │                  ├ [12]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
 │                        │     │                  │       VE-2023-45288 
-│                        │     │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │     │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:2699 
-│                        │     │                  ├ [12]: https://go.dev/cl/576155 
-│                        │     │                  ├ [13]: https://go.dev/issue/65051 
-│                        │     │                  ├ [14]: https://groups.google.com/g/golang-announce/c/Yg
+│                        │     │                  ├ [13]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2023-45289 
+│                        │     │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2023-45290 
+│                        │     │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=C
+│                        │     │                  │       VE-2024-24783 
+│                        │     │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
+│                        │     │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │     │                  ├ [18]: https://go.dev/cl/576155 
+│                        │     │                  ├ [19]: https://go.dev/issue/65051 
+│                        │     │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Yg
 │                        │     │                  │       W0sx8mN3M 
-│                        │     │                  ├ [15]: https://linux.oracle.com/cve/CVE-2023-45288.html 
-│                        │     │                  ├ [16]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
-│                        │     │                  ├ [17]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [21]: https://linux.oracle.com/cve/CVE-2023-45288.html 
+│                        │     │                  ├ [22]: https://linux.oracle.com/errata/ELSA-2024-3346.html 
+│                        │     │                  ├ [23]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                        │     │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT 
-│                        │     │                  ├ [18]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  ├ [24]: https://lists.fedoraproject.org/archives/list/pa
 │                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/QRYFHI
 │                        │     │                  │       Q6XRKRYBI2F5UESH67BJBQXUPT/ 
-│                        │     │                  ├ [19]: https://nowotarski.info/http2-continuation-flood
+│                        │     │                  ├ [25]: https://nowotarski.info/http2-continuation-flood
 │                        │     │                  │       -technical-details 
-│                        │     │                  ├ [20]: https://nowotarski.info/http2-continuation-flood/ 
-│                        │     │                  ├ [21]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
-│                        │     │                  ├ [22]: https://pkg.go.dev/vuln/GO-2024-2687 
-│                        │     │                  ├ [23]: https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  ├ [26]: https://nowotarski.info/http2-continuation-flood/ 
+│                        │     │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2023-45288 
+│                        │     │                  ├ [28]: https://pkg.go.dev/vuln/GO-2024-2687 
+│                        │     │                  ├ [29]: https://security.netapp.com/advisory/ntap-202404
 │                        │     │                  │       19-0009 
-│                        │     │                  ├ [24]: https://security.netapp.com/advisory/ntap-202404
+│                        │     │                  ├ [30]: https://security.netapp.com/advisory/ntap-202404
 │                        │     │                  │       19-0009/ 
-│                        │     │                  ├ [25]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
-│                        │     │                  ╰ [26]: https://www.kb.cert.org/vuls/id/421644 
+│                        │     │                  ├ [31]: https://www.cve.org/CVERecord?id=CVE-2023-45288 
+│                        │     │                  ╰ [32]: https://www.kb.cert.org/vuls/id/421644 
 │                        │     ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │     ╰ LastModifiedDate: 2024-05-01T18:15:10.493Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-24789 
@@ -10611,7 +10740,22 @@
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ╰ Severity        : UNKNOWN 
+│                        │     ├ Title           : The archive/zip package's handling of certain types of
+│                        │     │                   invalid zip fil ... 
+│                        │     ├ Description     : The archive/zip package's handling of certain types of
+│                        │     │                   invalid zip files differs from the behavior of most zip
+│                        │     │                   implementations. This misalignment could be exploited to
+│                        │     │                   create an zip file with contents that vary depending on the
+│                        │     │                   implementation reading the file. The archive/zip package now
+│                        │     │                    rejects files containing these errors. 
+│                        │     ├ Severity        : UNKNOWN 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
+│                        │     │                  ├ [1]: https://go.dev/issue/66869 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                        │     ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.9 
@@ -10627,7 +10771,20 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ╰ Severity        : UNKNOWN 
+│                              ├ Title           : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                              │                    not work as ex ... 
+│                              ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                              │                    not work as expected for IPv4-mapped IPv6 addresses,
+│                              │                   returning false for addresses which would return true in
+│                              │                   their traditional IPv4 forms. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
+│                              │                  ├ [1]: https://go.dev/issue/67680 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
+│                              ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10680,7 +10837,22 @@
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ╰ Severity        : UNKNOWN 
+│                        │     ├ Title           : The archive/zip package's handling of certain types of
+│                        │     │                   invalid zip fil ... 
+│                        │     ├ Description     : The archive/zip package's handling of certain types of
+│                        │     │                   invalid zip files differs from the behavior of most zip
+│                        │     │                   implementations. This misalignment could be exploited to
+│                        │     │                   create an zip file with contents that vary depending on the
+│                        │     │                   implementation reading the file. The archive/zip package now
+│                        │     │                    rejects files containing these errors. 
+│                        │     ├ Severity        : UNKNOWN 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
+│                        │     │                  ├ [1]: https://go.dev/issue/66869 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                        │     ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -10696,7 +10868,20 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ╰ Severity        : UNKNOWN 
+│                              ├ Title           : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                              │                    not work as ex ... 
+│                              ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                              │                    not work as expected for IPv4-mapped IPv6 addresses,
+│                              │                   returning false for addresses which would return true in
+│                              │                   their traditional IPv4 forms. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
+│                              │                  ├ [1]: https://go.dev/issue/67680 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
+│                              ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10715,7 +10900,22 @@
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ╰ Severity        : UNKNOWN 
+│                        │     ├ Title           : The archive/zip package's handling of certain types of
+│                        │     │                   invalid zip fil ... 
+│                        │     ├ Description     : The archive/zip package's handling of certain types of
+│                        │     │                   invalid zip files differs from the behavior of most zip
+│                        │     │                   implementations. This misalignment could be exploited to
+│                        │     │                   create an zip file with contents that vary depending on the
+│                        │     │                   implementation reading the file. The archive/zip package now
+│                        │     │                    rejects files containing these errors. 
+│                        │     ├ Severity        : UNKNOWN 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
+│                        │     │                  ├ [1]: https://go.dev/issue/66869 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                        │     ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.3 
@@ -10731,7 +10931,20 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ╰ Severity        : UNKNOWN 
+│                              ├ Title           : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                              │                    not work as ex ... 
+│                              ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                              │                    not work as expected for IPv4-mapped IPv6 addresses,
+│                              │                   returning false for addresses which would return true in
+│                              │                   their traditional IPv4 forms. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
+│                              │                  ├ [1]: https://go.dev/issue/67680 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
+│                              ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10842,7 +11055,22 @@
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ╰ Severity        : UNKNOWN 
+│                        │     ├ Title           : The archive/zip package's handling of certain types of
+│                        │     │                   invalid zip fil ... 
+│                        │     ├ Description     : The archive/zip package's handling of certain types of
+│                        │     │                   invalid zip files differs from the behavior of most zip
+│                        │     │                   implementations. This misalignment could be exploited to
+│                        │     │                   create an zip file with contents that vary depending on the
+│                        │     │                   implementation reading the file. The archive/zip package now
+│                        │     │                    rejects files containing these errors. 
+│                        │     ├ Severity        : UNKNOWN 
+│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
+│                        │     │                  ├ [1]: https://go.dev/issue/66869 
+│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                        │     ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
 │                        ╰ [3] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -10858,7 +11086,20 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ╰ Severity        : UNKNOWN 
+│                              ├ Title           : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                              │                    not work as ex ... 
+│                              ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                              │                    not work as expected for IPv4-mapped IPv6 addresses,
+│                              │                   returning false for addresses which would return true in
+│                              │                   their traditional IPv4 forms. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
+│                              │                  ├ [1]: https://go.dev/issue/67680 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
+│                              ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
