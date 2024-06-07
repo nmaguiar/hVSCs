@@ -1197,6 +1197,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1236,6 +1237,7 @@
       alma: 1
       amazon: 2
       oracle-oval: 1
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1281,6 +1283,7 @@
       alma: 1
       amazon: 2
       oracle-oval: 1
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1324,6 +1327,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1363,6 +1367,7 @@
       alma: 1
       amazon: 2
       oracle-oval: 1
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1408,6 +1413,7 @@
       alma: 1
       amazon: 2
       oracle-oval: 1
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1451,6 +1457,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1490,6 +1497,7 @@
       alma: 1
       amazon: 2
       oracle-oval: 1
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1535,6 +1543,7 @@
       alma: 1
       amazon: 2
       oracle-oval: 1
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1578,6 +1587,7 @@
     Severity: MEDIUM
     VendorSeverity:
       amazon: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -1617,6 +1627,7 @@
       alma: 1
       amazon: 2
       oracle-oval: 1
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -1662,6 +1673,7 @@
       alma: 1
       amazon: 2
       oracle-oval: 1
+      photon: 2
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -4211,7 +4223,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -5036,7 +5048,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5102,7 +5114,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5587,7 +5599,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-05T16:15:10.47Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -5613,7 +5625,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-05T16:15:10.56Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
 - Target: tmp/tmp.YiQQuaucOP/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -5793,7 +5805,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -6618,7 +6630,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -6684,7 +6696,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7169,7 +7181,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-05T16:15:10.47Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -7195,7 +7207,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-05T16:15:10.56Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -7225,7 +7237,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-05T16:15:10.47Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -7251,7 +7263,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-05T16:15:10.56Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -7281,7 +7293,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-05T16:15:10.47Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -7307,7 +7319,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-05T16:15:10.56Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -7372,7 +7384,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-05T16:15:10.47Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -7398,7 +7410,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-05T16:15:10.56Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -7428,7 +7440,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-05T16:15:10.47Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -7454,7 +7466,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-05T16:15:10.56Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -7560,7 +7572,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-05T16:15:10.47Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -7586,7 +7598,7 @@
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-05T16:15:10.56Z'
+    LastModifiedDate: '2024-06-06T14:17:35.017Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
