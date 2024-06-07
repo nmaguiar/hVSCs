@@ -1661,6 +1661,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
@@ -1961,6 +1962,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ photon     : 3 
 │                        │      │                  ├ redhat     : 3 
 │                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
@@ -2457,6 +2459,7 @@
 │                        │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
@@ -2497,6 +2500,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -2545,6 +2549,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -2590,6 +2595,7 @@
 │                        │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
@@ -2630,6 +2636,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -2678,6 +2685,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -2723,6 +2731,7 @@
 │                        │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
@@ -2763,6 +2772,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -2811,6 +2821,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -2856,6 +2867,7 @@
 │                        │      │                   vulnerability in /krb5/src/kdc/ndr.c. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ amazon: 2 
+│                        │      │                  ├ photon: 2 
 │                        │      │                  ├ redhat: 2 
 │                        │      │                  ╰ ubuntu: 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
@@ -2896,6 +2908,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -2944,6 +2957,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 1 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ oracle-oval: 1 
+│                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
@@ -6192,7 +6206,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7520,7 +7534,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7594,7 +7608,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8171,7 +8185,7 @@
 │                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
 │                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │      ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
+│                        │      ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 │                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -8200,7 +8214,7 @@
 │                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
 │                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                               ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                               ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
+│                               ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 ├ [4]  ╭ Target         : tmp/tmp.3mNXh7lous/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -8553,7 +8567,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9881,7 +9895,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9955,7 +9969,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -10532,7 +10546,7 @@
 │                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
 │                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │      ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
+│                        │      ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 │                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -10561,7 +10575,7 @@
 │                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
 │                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                               ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                               ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
+│                               ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10595,7 +10609,7 @@
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
 │                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
+│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.9 
@@ -10624,7 +10638,7 @@
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
 │                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
+│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10755,7 +10769,7 @@
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
 │                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
+│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.9 
@@ -10784,7 +10798,7 @@
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
 │                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
+│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10852,7 +10866,7 @@
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
 │                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
+│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -10881,7 +10895,7 @@
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
 │                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
+│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10915,7 +10929,7 @@
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
 │                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
+│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.3 
@@ -10944,7 +10958,7 @@
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
 │                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
+│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -11070,7 +11084,7 @@
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
 │                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-05T16:15:10.47Z 
+│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 │                        ╰ [3] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -11099,7 +11113,7 @@
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
 │                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-05T16:15:10.56Z 
+│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
