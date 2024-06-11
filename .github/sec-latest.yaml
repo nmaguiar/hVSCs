@@ -342,16 +342,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/14/2
     - https://access.redhat.com/security/cve/CVE-2024-32002
     - https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---recurse-submodulesltpathspecgt
     - https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks
     - https://github.com/git/git/commit/97065761333fd62db1912d81b489db938d8c991d
     - https://github.com/git/git/security/advisories/GHSA-8h77-4q3w-gfgv
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32002
     - https://ubuntu.com/security/notices/USN-6793-1
     - https://www.cve.org/CVERecord?id=CVE-2024-32002
     PublishedDate: '2024-05-14T19:15:10.81Z'
-    LastModifiedDate: '2024-05-23T20:40:28.707Z'
+    LastModifiedDate: '2024-06-10T18:15:31.58Z'
   - VulnerabilityID: CVE-2024-32004
     PkgID: git@1:2.34.1-1ubuntu1.10
     PkgName: git
@@ -390,15 +392,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 8.1
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/14/2
     - https://access.redhat.com/security/cve/CVE-2024-32004
     - https://git-scm.com/docs/git-clone
     - https://github.com/git/git/commit/f4aa8c8bb11dae6e769cd930565173808cbb69c8
     - https://github.com/git/git/security/advisories/GHSA-xfc6-vwr8-r389
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32004
     - https://ubuntu.com/security/notices/USN-6793-1
     - https://www.cve.org/CVERecord?id=CVE-2024-32004
     PublishedDate: '2024-05-14T19:15:11.377Z'
-    LastModifiedDate: '2024-05-14T19:17:55.627Z'
+    LastModifiedDate: '2024-06-10T19:15:53.52Z'
   - VulnerabilityID: CVE-2024-32020
     PkgID: git@1:2.34.1-1ubuntu1.10
     PkgName: git
@@ -437,15 +441,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
         V3Score: 3.9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/14/2
     - https://access.redhat.com/security/cve/CVE-2024-32020
     - https://github.com/git/git/commit/1204e1a824c34071019fe106348eaa6d88f9528d
     - https://github.com/git/git/commit/9e65df5eab274bf74c7b570107aacd1303a1e703
     - https://github.com/git/git/security/advisories/GHSA-5rfh-556j-fhgj
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32020
     - https://ubuntu.com/security/notices/USN-6793-1
     - https://www.cve.org/CVERecord?id=CVE-2024-32020
     PublishedDate: '2024-05-14T19:15:12.24Z'
-    LastModifiedDate: '2024-05-14T19:17:55.627Z'
+    LastModifiedDate: '2024-06-10T18:15:32.08Z'
   - VulnerabilityID: CVE-2024-32021
     PkgID: git@1:2.34.1-1ubuntu1.10
     PkgName: git
@@ -486,13 +492,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
         V3Score: 3.9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/14/2
     - https://access.redhat.com/security/cve/CVE-2024-32021
     - https://github.com/git/git/security/advisories/GHSA-mvxm-9j2h-qjx7
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32021
     - https://ubuntu.com/security/notices/USN-6793-1
     - https://www.cve.org/CVERecord?id=CVE-2024-32021
     PublishedDate: '2024-05-14T20:15:13.63Z'
-    LastModifiedDate: '2024-05-15T16:40:19.33Z'
+    LastModifiedDate: '2024-06-10T18:15:32.18Z'
   - VulnerabilityID: CVE-2024-32465
     PkgID: git@1:2.34.1-1ubuntu1.10
     PkgName: git
@@ -531,16 +539,18 @@
         V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/14/2
     - https://access.redhat.com/security/cve/CVE-2024-32465
     - https://git-scm.com/docs/git#_security
     - https://git-scm.com/docs/git-clone
     - https://github.com/git/git/commit/7b70e9efb18c2cc3f219af399bd384c5801ba1d7
     - https://github.com/git/git/security/advisories/GHSA-vm9j-46j9-qvq4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32465
     - https://ubuntu.com/security/notices/USN-6793-1
     - https://www.cve.org/CVERecord?id=CVE-2024-32465
     PublishedDate: '2024-05-14T20:15:14.54Z'
-    LastModifiedDate: '2024-05-15T16:40:19.33Z'
+    LastModifiedDate: '2024-06-10T19:15:53.607Z'
   - VulnerabilityID: CVE-2018-1000021
     PkgID: git@1:2.34.1-1ubuntu1.10
     PkgName: git
@@ -628,16 +638,18 @@
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/14/2
     - https://access.redhat.com/security/cve/CVE-2024-32002
     - https://git-scm.com/docs/git-clone#Documentation/git-clone.txt---recurse-submodulesltpathspecgt
     - https://git-scm.com/docs/git-config#Documentation/git-config.txt-coresymlinks
     - https://github.com/git/git/commit/97065761333fd62db1912d81b489db938d8c991d
     - https://github.com/git/git/security/advisories/GHSA-8h77-4q3w-gfgv
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32002
     - https://ubuntu.com/security/notices/USN-6793-1
     - https://www.cve.org/CVERecord?id=CVE-2024-32002
     PublishedDate: '2024-05-14T19:15:10.81Z'
-    LastModifiedDate: '2024-05-23T20:40:28.707Z'
+    LastModifiedDate: '2024-06-10T18:15:31.58Z'
   - VulnerabilityID: CVE-2024-32004
     PkgID: git-man@1:2.34.1-1ubuntu1.10
     PkgName: git-man
@@ -676,15 +688,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H
         V3Score: 8.1
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/14/2
     - https://access.redhat.com/security/cve/CVE-2024-32004
     - https://git-scm.com/docs/git-clone
     - https://github.com/git/git/commit/f4aa8c8bb11dae6e769cd930565173808cbb69c8
     - https://github.com/git/git/security/advisories/GHSA-xfc6-vwr8-r389
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32004
     - https://ubuntu.com/security/notices/USN-6793-1
     - https://www.cve.org/CVERecord?id=CVE-2024-32004
     PublishedDate: '2024-05-14T19:15:11.377Z'
-    LastModifiedDate: '2024-05-14T19:17:55.627Z'
+    LastModifiedDate: '2024-06-10T19:15:53.52Z'
   - VulnerabilityID: CVE-2024-32020
     PkgID: git-man@1:2.34.1-1ubuntu1.10
     PkgName: git-man
@@ -723,15 +737,17 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
         V3Score: 3.9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/14/2
     - https://access.redhat.com/security/cve/CVE-2024-32020
     - https://github.com/git/git/commit/1204e1a824c34071019fe106348eaa6d88f9528d
     - https://github.com/git/git/commit/9e65df5eab274bf74c7b570107aacd1303a1e703
     - https://github.com/git/git/security/advisories/GHSA-5rfh-556j-fhgj
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32020
     - https://ubuntu.com/security/notices/USN-6793-1
     - https://www.cve.org/CVERecord?id=CVE-2024-32020
     PublishedDate: '2024-05-14T19:15:12.24Z'
-    LastModifiedDate: '2024-05-14T19:17:55.627Z'
+    LastModifiedDate: '2024-06-10T18:15:32.08Z'
   - VulnerabilityID: CVE-2024-32021
     PkgID: git-man@1:2.34.1-1ubuntu1.10
     PkgName: git-man
@@ -772,13 +788,15 @@
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:N/I:L/A:L
         V3Score: 3.9
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/14/2
     - https://access.redhat.com/security/cve/CVE-2024-32021
     - https://github.com/git/git/security/advisories/GHSA-mvxm-9j2h-qjx7
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32021
     - https://ubuntu.com/security/notices/USN-6793-1
     - https://www.cve.org/CVERecord?id=CVE-2024-32021
     PublishedDate: '2024-05-14T20:15:13.63Z'
-    LastModifiedDate: '2024-05-15T16:40:19.33Z'
+    LastModifiedDate: '2024-06-10T18:15:32.18Z'
   - VulnerabilityID: CVE-2024-32465
     PkgID: git-man@1:2.34.1-1ubuntu1.10
     PkgName: git-man
@@ -817,16 +835,18 @@
         V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H
         V3Score: 7.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/14/2
     - https://access.redhat.com/security/cve/CVE-2024-32465
     - https://git-scm.com/docs/git#_security
     - https://git-scm.com/docs/git-clone
     - https://github.com/git/git/commit/7b70e9efb18c2cc3f219af399bd384c5801ba1d7
     - https://github.com/git/git/security/advisories/GHSA-vm9j-46j9-qvq4
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/S4CK4IYTXEOBZTEM5K3T6LWOIZ3S44AR/
     - https://nvd.nist.gov/vuln/detail/CVE-2024-32465
     - https://ubuntu.com/security/notices/USN-6793-1
     - https://www.cve.org/CVERecord?id=CVE-2024-32465
     PublishedDate: '2024-05-14T20:15:14.54Z'
-    LastModifiedDate: '2024-05-15T16:40:19.33Z'
+    LastModifiedDate: '2024-06-10T19:15:53.607Z'
   - VulnerabilityID: CVE-2018-1000021
     PkgID: git-man@1:2.34.1-1ubuntu1.10
     PkgName: git-man
@@ -1456,12 +1476,13 @@
     - https://linux.oracle.com/cve/CVE-2024-33599.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
+    - https://security.netapp.com/advisory/ntap-20240524-0011/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
     - https://ubuntu.com/security/notices/USN-6804-1
     - https://www.cve.org/CVERecord?id=CVE-2024-33599
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.437Z'
-    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+    LastModifiedDate: '2024-06-10T17:16:27.94Z'
   - VulnerabilityID: CVE-2024-33600
     PkgID: libc-bin@2.35-0ubuntu3.7
     PkgName: libc-bin
@@ -1517,12 +1538,13 @@
     - https://linux.oracle.com/cve/CVE-2024-33600.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
+    - https://security.netapp.com/advisory/ntap-20240524-0013/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
     - https://ubuntu.com/security/notices/USN-6804-1
     - https://www.cve.org/CVERecord?id=CVE-2024-33600
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.523Z'
-    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+    LastModifiedDate: '2024-06-10T17:16:28.037Z'
   - VulnerabilityID: CVE-2024-33601
     PkgID: libc-bin@2.35-0ubuntu3.7
     PkgName: libc-bin
@@ -1578,12 +1600,13 @@
     - https://linux.oracle.com/cve/CVE-2024-33601.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
+    - https://security.netapp.com/advisory/ntap-20240524-0014/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
     - https://ubuntu.com/security/notices/USN-6804-1
     - https://www.cve.org/CVERecord?id=CVE-2024-33601
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.603Z'
-    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+    LastModifiedDate: '2024-06-10T18:15:34.353Z'
   - VulnerabilityID: CVE-2024-33602
     PkgID: libc-bin@2.35-0ubuntu3.7
     PkgName: libc-bin
@@ -1638,13 +1661,14 @@
     - https://linux.oracle.com/cve/CVE-2024-33602.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
+    - https://security.netapp.com/advisory/ntap-20240524-0012/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31680
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
     - https://ubuntu.com/security/notices/USN-6804-1
     - https://www.cve.org/CVERecord?id=CVE-2024-33602
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.68Z'
-    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+    LastModifiedDate: '2024-06-10T18:15:34.443Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc-bin@2.35-0ubuntu3.7
     PkgName: libc-bin
@@ -1737,12 +1761,13 @@
     - https://linux.oracle.com/cve/CVE-2024-33599.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33599
+    - https://security.netapp.com/advisory/ntap-20240524-0011/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0005
     - https://ubuntu.com/security/notices/USN-6804-1
     - https://www.cve.org/CVERecord?id=CVE-2024-33599
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.437Z'
-    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+    LastModifiedDate: '2024-06-10T17:16:27.94Z'
   - VulnerabilityID: CVE-2024-33600
     PkgID: libc6@2.35-0ubuntu3.7
     PkgName: libc6
@@ -1798,12 +1823,13 @@
     - https://linux.oracle.com/cve/CVE-2024-33600.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33600
+    - https://security.netapp.com/advisory/ntap-20240524-0013/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0006
     - https://ubuntu.com/security/notices/USN-6804-1
     - https://www.cve.org/CVERecord?id=CVE-2024-33600
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.523Z'
-    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+    LastModifiedDate: '2024-06-10T17:16:28.037Z'
   - VulnerabilityID: CVE-2024-33601
     PkgID: libc6@2.35-0ubuntu3.7
     PkgName: libc6
@@ -1859,12 +1885,13 @@
     - https://linux.oracle.com/cve/CVE-2024-33601.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33601
+    - https://security.netapp.com/advisory/ntap-20240524-0014/
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0007
     - https://ubuntu.com/security/notices/USN-6804-1
     - https://www.cve.org/CVERecord?id=CVE-2024-33601
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.603Z'
-    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+    LastModifiedDate: '2024-06-10T18:15:34.353Z'
   - VulnerabilityID: CVE-2024-33602
     PkgID: libc6@2.35-0ubuntu3.7
     PkgName: libc6
@@ -1919,13 +1946,14 @@
     - https://linux.oracle.com/cve/CVE-2024-33602.html
     - https://linux.oracle.com/errata/ELSA-2024-3588.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-33602
+    - https://security.netapp.com/advisory/ntap-20240524-0012/
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31680
     - https://sourceware.org/git/?p=glibc.git;a=blob;f=advisories/GLIBC-SA-2024-0008
     - https://ubuntu.com/security/notices/USN-6804-1
     - https://www.cve.org/CVERecord?id=CVE-2024-33602
     - https://www.openwall.com/lists/oss-security/2024/04/24/2
     PublishedDate: '2024-05-06T20:15:11.68Z'
-    LastModifiedDate: '2024-05-07T13:39:32.71Z'
+    LastModifiedDate: '2024-06-10T18:15:34.443Z'
   - VulnerabilityID: CVE-2016-20013
     PkgID: libc6@2.35-0ubuntu3.7
     PkgName: libc6
@@ -3472,6 +3500,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/16/2
     - https://access.redhat.com/security/cve/CVE-2024-4603
     - https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397
     - https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e
@@ -3481,7 +3510,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-05-17T18:36:31.297Z'
+    LastModifiedDate: '2024-06-10T17:16:33.69Z'
   - VulnerabilityID: CVE-2024-4741
     PkgID: libssl3@3.0.2-0ubuntu1.15
     PkgName: libssl3
@@ -4403,6 +4432,7 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/16/2
     - https://access.redhat.com/security/cve/CVE-2024-4603
     - https://github.com/openssl/openssl/commit/3559e868e58005d15c6013a0c1fd832e51c73397
     - https://github.com/openssl/openssl/commit/53ea06486d296b890d565fb971b2764fcd826e7e
@@ -4412,7 +4442,7 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-05-17T18:36:31.297Z'
+    LastModifiedDate: '2024-06-10T17:16:33.69Z'
   - VulnerabilityID: CVE-2024-4741
     PkgID: openssl@3.0.2-0ubuntu1.15
     PkgName: openssl
@@ -6568,12 +6598,13 @@
     Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/585397
     - https://go.dev/issue/66869
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.897Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -6594,12 +6625,13 @@
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/590316
     - https://go.dev/issue/67680
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.953Z'
 - Target: tmp/tmp.3mNXh7lous/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -8150,12 +8182,13 @@
     Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/585397
     - https://go.dev/issue/66869
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.897Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -8176,12 +8209,13 @@
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/590316
     - https://go.dev/issue/67680
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.953Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
@@ -8206,12 +8240,13 @@
     Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/585397
     - https://go.dev/issue/66869
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.897Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -8232,12 +8267,13 @@
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/590316
     - https://go.dev/issue/67680
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.953Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
@@ -8334,12 +8370,13 @@
     Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/585397
     - https://go.dev/issue/66869
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.897Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -8360,12 +8397,13 @@
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/590316
     - https://go.dev/issue/67680
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.953Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
@@ -8396,15 +8434,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/08/3
     - https://access.redhat.com/security/cve/CVE-2024-24788
     - https://go.dev/cl/578375
     - https://go.dev/issue/66754
     - https://groups.google.com/g/golang-announce/c/wkkO4P9stm0
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24788
     - https://pkg.go.dev/vuln/GO-2024-2824
+    - https://security.netapp.com/advisory/ntap-20240605-0002/
     - https://www.cve.org/CVERecord?id=CVE-2024-24788
     PublishedDate: '2024-05-08T16:15:08.25Z'
-    LastModifiedDate: '2024-05-08T17:05:24.083Z'
+    LastModifiedDate: '2024-06-10T17:16:20.32Z'
   - VulnerabilityID: CVE-2024-24789
     PkgName: stdlib
     PkgIdentifier:
@@ -8425,12 +8465,13 @@
     Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/585397
     - https://go.dev/issue/66869
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.897Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -8451,12 +8492,13 @@
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/590316
     - https://go.dev/issue/67680
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.953Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -8481,12 +8523,13 @@
     Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/585397
     - https://go.dev/issue/66869
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.897Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -8507,12 +8550,13 @@
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/590316
     - https://go.dev/issue/67680
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.953Z'
 - Target: usr/local/bin/k3d
   Class: lang-pkgs
   Type: gobinary
@@ -8584,15 +8628,17 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
     References:
+    - http://www.openwall.com/lists/oss-security/2024/05/08/3
     - https://access.redhat.com/security/cve/CVE-2024-24788
     - https://go.dev/cl/578375
     - https://go.dev/issue/66754
     - https://groups.google.com/g/golang-announce/c/wkkO4P9stm0
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24788
     - https://pkg.go.dev/vuln/GO-2024-2824
+    - https://security.netapp.com/advisory/ntap-20240605-0002/
     - https://www.cve.org/CVERecord?id=CVE-2024-24788
     PublishedDate: '2024-05-08T16:15:08.25Z'
-    LastModifiedDate: '2024-05-08T17:05:24.083Z'
+    LastModifiedDate: '2024-06-10T17:16:20.32Z'
   - VulnerabilityID: CVE-2024-24789
     PkgName: stdlib
     PkgIdentifier:
@@ -8613,12 +8659,13 @@
     Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/585397
     - https://go.dev/issue/66869
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2888
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.897Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -8639,12 +8686,13 @@
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
     Severity: UNKNOWN
     References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
     - https://go.dev/cl/590316
     - https://go.dev/issue/67680
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
     - https://pkg.go.dev/vuln/GO-2024-2887
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-06T14:17:35.017Z'
+    LastModifiedDate: '2024-06-10T18:15:26.953Z'
 - Target: /etc/ssh/ssh_host_ecdsa_key
   Class: secret
   Secrets:
