@@ -2860,20 +2860,22 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4603 
-│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/3559e8
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/16/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-4603 
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/3559e8
 │                        │      │                  │      68e58005d15c6013a0c1fd832e51c73397 
-│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/53ea06
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/53ea06
 │                        │      │                  │      486d296b890d565fb971b2764fcd826e7e 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/9c39b3
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/9c39b3
 │                        │      │                  │      858091c152f52513c066ff2c5a47969f0d 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/da343d
+│                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d
 │                        │      │                  │      0605c826ef197aceedc67e8e04f065f740 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                        │      │                  ╰ [7]: https://www.openssl.org/news/secadv/20240516.txt 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
+│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                        │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                        │      ╰ LastModifiedDate: 2024-05-17T18:36:31.297Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
 │                        ├ [53] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : libssl3 
@@ -3917,20 +3919,22 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4603 
-│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/3559e8
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/16/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-4603 
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/3559e8
 │                        │      │                  │      68e58005d15c6013a0c1fd832e51c73397 
-│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/53ea06
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/53ea06
 │                        │      │                  │      486d296b890d565fb971b2764fcd826e7e 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/9c39b3
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/9c39b3
 │                        │      │                  │      858091c152f52513c066ff2c5a47969f0d 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/da343d
+│                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d
 │                        │      │                  │      0605c826ef197aceedc67e8e04f065f740 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                        │      │                  ╰ [7]: https://www.openssl.org/news/secadv/20240516.txt 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
+│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                        │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                        │      ╰ LastModifiedDate: 2024-05-17T18:36:31.297Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
 │                        ├ [72] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
@@ -7027,13 +7031,15 @@
 │                        │      │                    implementation reading the file. The archive/zip package
 │                        │      │                   now rejects files containing these errors. 
 │                        │      ├ Severity        : UNKNOWN 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │      │                  ├ [1]: https://go.dev/issue/66869 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      06/04/1 
+│                        │      │                  ├ [1]: https://go.dev/cl/585397 
+│                        │      │                  ├ [2]: https://go.dev/issue/66869 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
 │                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │      ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -7056,13 +7062,15 @@
 │                               │                   returning false for addresses which would return true in
 │                               │                   their traditional IPv4 forms. 
 │                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                               │                  ├ [1]: https://go.dev/issue/67680 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                               │                  │      06/04/1 
+│                               │                  ├ [1]: https://go.dev/cl/590316 
+│                               │                  ├ [2]: https://go.dev/issue/67680 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
 │                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                               │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                               ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                               ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                               ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [4]  ╭ Target         : tmp/tmp.YiQQuaucOP/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9388,13 +9396,15 @@
 │                        │      │                    implementation reading the file. The archive/zip package
 │                        │      │                   now rejects files containing these errors. 
 │                        │      ├ Severity        : UNKNOWN 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │      │                  ├ [1]: https://go.dev/issue/66869 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      06/04/1 
+│                        │      │                  ├ [1]: https://go.dev/cl/585397 
+│                        │      │                  ├ [2]: https://go.dev/issue/66869 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
 │                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │      ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -9417,13 +9427,15 @@
 │                               │                   returning false for addresses which would return true in
 │                               │                   their traditional IPv4 forms. 
 │                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                               │                  ├ [1]: https://go.dev/issue/67680 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                               │                  │      06/04/1 
+│                               │                  ├ [1]: https://go.dev/cl/590316 
+│                               │                  ├ [2]: https://go.dev/issue/67680 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
 │                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                               │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                               ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                               ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                               ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9451,13 +9463,15 @@
 │                        │     │                   implementation reading the file. The archive/zip package now
 │                        │     │                    rejects files containing these errors. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │     │                  ├ [1]: https://go.dev/issue/66869 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      6/04/1 
+│                        │     │                  ├ [1]: https://go.dev/cl/585397 
+│                        │     │                  ├ [2]: https://go.dev/issue/66869 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.10 
@@ -9480,13 +9494,15 @@
 │                              │                   returning false for addresses which would return true in
 │                              │                   their traditional IPv4 forms. 
 │                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                              │                  ├ [1]: https://go.dev/issue/67680 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                              │                  │      6/04/1 
+│                              │                  ├ [1]: https://go.dev/cl/590316 
+│                              │                  ├ [2]: https://go.dev/issue/67680 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9514,13 +9530,15 @@
 │                        │     │                   implementation reading the file. The archive/zip package now
 │                        │     │                    rejects files containing these errors. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │     │                  ├ [1]: https://go.dev/issue/66869 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      6/04/1 
+│                        │     │                  ├ [1]: https://go.dev/cl/585397 
+│                        │     │                  ├ [2]: https://go.dev/issue/66869 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.3 
@@ -9543,13 +9561,15 @@
 │                              │                   returning false for addresses which would return true in
 │                              │                   their traditional IPv4 forms. 
 │                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                              │                  ├ [1]: https://go.dev/issue/67680 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                              │                  │      6/04/1 
+│                              │                  ├ [1]: https://go.dev/cl/590316 
+│                              │                  ├ [2]: https://go.dev/issue/67680 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9577,16 +9597,20 @@
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24788 
-│                        │     │                  ├ [1]: https://go.dev/cl/578375 
-│                        │     │                  ├ [2]: https://go.dev/issue/66754 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/wkk
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      5/08/3 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24788 
+│                        │     │                  ├ [2]: https://go.dev/cl/578375 
+│                        │     │                  ├ [3]: https://go.dev/issue/66754 
+│                        │     │                  ├ [4]: https://groups.google.com/g/golang-announce/c/wkk
 │                        │     │                  │      O4P9stm0 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
-│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2824 
-│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2824 
+│                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024060
+│                        │     │                  │      5-0002/ 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
 │                        │     ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
-│                        │     ╰ LastModifiedDate: 2024-05-08T17:05:24.083Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T17:16:20.32Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-24789 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -9611,13 +9635,15 @@
 │                        │     │                   implementation reading the file. The archive/zip package now
 │                        │     │                    rejects files containing these errors. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │     │                  ├ [1]: https://go.dev/issue/66869 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      6/04/1 
+│                        │     │                  ├ [1]: https://go.dev/cl/585397 
+│                        │     │                  ├ [2]: https://go.dev/issue/66869 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -9640,13 +9666,15 @@
 │                              │                   returning false for addresses which would return true in
 │                              │                   their traditional IPv4 forms. 
 │                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                              │                  ├ [1]: https://go.dev/issue/67680 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                              │                  │      6/04/1 
+│                              │                  ├ [1]: https://go.dev/cl/590316 
+│                              │                  ├ [2]: https://go.dev/issue/67680 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9674,13 +9702,15 @@
 │                        │     │                   implementation reading the file. The archive/zip package now
 │                        │     │                    rejects files containing these errors. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │     │                  ├ [1]: https://go.dev/issue/66869 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      6/04/1 
+│                        │     │                  ├ [1]: https://go.dev/cl/585397 
+│                        │     │                  ├ [2]: https://go.dev/issue/66869 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.3 
@@ -9703,13 +9733,15 @@
 │                              │                   returning false for addresses which would return true in
 │                              │                   their traditional IPv4 forms. 
 │                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                              │                  ├ [1]: https://go.dev/issue/67680 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                              │                  │      6/04/1 
+│                              │                  ├ [1]: https://go.dev/cl/590316 
+│                              │                  ├ [2]: https://go.dev/issue/67680 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9795,16 +9827,20 @@
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24788 
-│                        │     │                  ├ [1]: https://go.dev/cl/578375 
-│                        │     │                  ├ [2]: https://go.dev/issue/66754 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/wkk
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      5/08/3 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24788 
+│                        │     │                  ├ [2]: https://go.dev/cl/578375 
+│                        │     │                  ├ [3]: https://go.dev/issue/66754 
+│                        │     │                  ├ [4]: https://groups.google.com/g/golang-announce/c/wkk
 │                        │     │                  │      O4P9stm0 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
-│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2824 
-│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2824 
+│                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024060
+│                        │     │                  │      5-0002/ 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
 │                        │     ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
-│                        │     ╰ LastModifiedDate: 2024-05-08T17:05:24.083Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T17:16:20.32Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2024-24789 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -9829,13 +9865,15 @@
 │                        │     │                   implementation reading the file. The archive/zip package now
 │                        │     │                    rejects files containing these errors. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │     │                  ├ [1]: https://go.dev/issue/66869 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      6/04/1 
+│                        │     │                  ├ [1]: https://go.dev/cl/585397 
+│                        │     │                  ├ [2]: https://go.dev/issue/66869 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [3] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -9858,13 +9896,15 @@
 │                              │                   returning false for addresses which would return true in
 │                              │                   their traditional IPv4 forms. 
 │                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                              │                  ├ [1]: https://go.dev/issue/67680 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                              │                  │      6/04/1 
+│                              │                  ├ [1]: https://go.dev/cl/590316 
+│                              │                  ├ [2]: https://go.dev/issue/67680 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
