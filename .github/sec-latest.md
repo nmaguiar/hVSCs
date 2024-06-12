@@ -395,21 +395,26 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/
 │                        │      │                            │           C:H/I:H/A:H 
 │                        │      │                            ╰ V3Score : 9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32002 
-│                        │      │                  ├ [1]: https://git-scm.com/docs/git-clone#Documentation
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/14/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-32002 
+│                        │      │                  ├ [2]: https://git-scm.com/docs/git-clone#Documentation
 │                        │      │                  │      /git-clone.txt---recurse-submodulesltpathspecgt
 │                        │      │                  │       
-│                        │      │                  ├ [2]: https://git-scm.com/docs/git-config#Documentatio
+│                        │      │                  ├ [3]: https://git-scm.com/docs/git-config#Documentatio
 │                        │      │                  │      n/git-config.txt-coresymlinks 
-│                        │      │                  ├ [3]: https://github.com/git/git/commit/97065761333fd6
+│                        │      │                  ├ [4]: https://github.com/git/git/commit/97065761333fd6
 │                        │      │                  │      2db1912d81b489db938d8c991d 
-│                        │      │                  ├ [4]: https://github.com/git/git/security/advisories/G
+│                        │      │                  ├ [5]: https://github.com/git/git/security/advisories/G
 │                        │      │                  │      HSA-8h77-4q3w-gfgv 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32002 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32002 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/S4CK4I
+│                        │      │                  │      YTXEOBZTEM5K3T6LWOIZ3S44AR/ 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-32002 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6793-1 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-32002 
 │                        │      ├ PublishedDate   : 2024-05-14T19:15:10.81Z 
-│                        │      ╰ LastModifiedDate: 2024-05-23T20:40:28.707Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:31.58Z 
 │                        ├ [7]  ╭ VulnerabilityID : CVE-2024-32004 
 │                        │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
 │                        │      ├ PkgName         : git 
@@ -451,17 +456,22 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
 │                        │      │                            │           C:H/I:H/A:H 
 │                        │      │                            ╰ V3Score : 8.1 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32004 
-│                        │      │                  ├ [1]: https://git-scm.com/docs/git-clone 
-│                        │      │                  ├ [2]: https://github.com/git/git/commit/f4aa8c8bb11dae
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/14/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-32004 
+│                        │      │                  ├ [2]: https://git-scm.com/docs/git-clone 
+│                        │      │                  ├ [3]: https://github.com/git/git/commit/f4aa8c8bb11dae
 │                        │      │                  │      6e769cd930565173808cbb69c8 
-│                        │      │                  ├ [3]: https://github.com/git/git/security/advisories/G
+│                        │      │                  ├ [4]: https://github.com/git/git/security/advisories/G
 │                        │      │                  │      HSA-xfc6-vwr8-r389 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32004 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32004 
+│                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/S4CK4I
+│                        │      │                  │      YTXEOBZTEM5K3T6LWOIZ3S44AR/ 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-32004 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6793-1 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-32004 
 │                        │      ├ PublishedDate   : 2024-05-14T19:15:11.377Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T19:15:53.52Z 
 │                        ├ [8]  ╭ VulnerabilityID : CVE-2024-32020 
 │                        │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
 │                        │      ├ PkgName         : git 
@@ -514,18 +524,23 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/
 │                        │      │                            │           C:N/I:L/A:L 
 │                        │      │                            ╰ V3Score : 3.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32020 
-│                        │      │                  ├ [1]: https://github.com/git/git/commit/1204e1a824c340
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/14/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-32020 
+│                        │      │                  ├ [2]: https://github.com/git/git/commit/1204e1a824c340
 │                        │      │                  │      71019fe106348eaa6d88f9528d 
-│                        │      │                  ├ [2]: https://github.com/git/git/commit/9e65df5eab274b
+│                        │      │                  ├ [3]: https://github.com/git/git/commit/9e65df5eab274b
 │                        │      │                  │      f74c7b570107aacd1303a1e703 
-│                        │      │                  ├ [3]: https://github.com/git/git/security/advisories/G
+│                        │      │                  ├ [4]: https://github.com/git/git/security/advisories/G
 │                        │      │                  │      HSA-5rfh-556j-fhgj 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32020 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32020 
+│                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/S4CK4I
+│                        │      │                  │      YTXEOBZTEM5K3T6LWOIZ3S44AR/ 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-32020 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6793-1 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-32020 
 │                        │      ├ PublishedDate   : 2024-05-14T19:15:12.24Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:32.08Z 
 │                        ├ [9]  ╭ VulnerabilityID : CVE-2024-32021 
 │                        │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
 │                        │      ├ PkgName         : git 
@@ -584,14 +599,19 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/
 │                        │      │                            │           C:N/I:L/A:L 
 │                        │      │                            ╰ V3Score : 3.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32021 
-│                        │      │                  ├ [1]: https://github.com/git/git/security/advisories/G
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/14/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-32021 
+│                        │      │                  ├ [2]: https://github.com/git/git/security/advisories/G
 │                        │      │                  │      HSA-mvxm-9j2h-qjx7 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-32021 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6793-1 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-32021 
+│                        │      │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/S4CK4I
+│                        │      │                  │      YTXEOBZTEM5K3T6LWOIZ3S44AR/ 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32021 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32021 
 │                        │      ├ PublishedDate   : 2024-05-14T20:15:13.63Z 
-│                        │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:32.18Z 
 │                        ├ [10] ╭ VulnerabilityID : CVE-2024-32465 
 │                        │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
 │                        │      ├ PkgName         : git 
@@ -643,18 +663,23 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/
 │                        │      │                            │           C:H/I:H/A:H 
 │                        │      │                            ╰ V3Score : 7.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32465 
-│                        │      │                  ├ [1]: https://git-scm.com/docs/git#_security 
-│                        │      │                  ├ [2]: https://git-scm.com/docs/git-clone 
-│                        │      │                  ├ [3]: https://github.com/git/git/commit/7b70e9efb18c2c
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/14/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-32465 
+│                        │      │                  ├ [2]: https://git-scm.com/docs/git#_security 
+│                        │      │                  ├ [3]: https://git-scm.com/docs/git-clone 
+│                        │      │                  ├ [4]: https://github.com/git/git/commit/7b70e9efb18c2c
 │                        │      │                  │      c3f219af399bd384c5801ba1d7 
-│                        │      │                  ├ [4]: https://github.com/git/git/security/advisories/G
+│                        │      │                  ├ [5]: https://github.com/git/git/security/advisories/G
 │                        │      │                  │      HSA-vm9j-46j9-qvq4 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32465 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32465 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/S4CK4I
+│                        │      │                  │      YTXEOBZTEM5K3T6LWOIZ3S44AR/ 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-32465 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6793-1 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-32465 
 │                        │      ├ PublishedDate   : 2024-05-14T20:15:14.54Z 
-│                        │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T19:15:53.607Z 
 │                        ├ [11] ╭ VulnerabilityID : CVE-2018-1000021 
 │                        │      ├ PkgID           : git@1:2.34.1-1ubuntu1.10 
 │                        │      ├ PkgName         : git 
@@ -757,21 +782,26 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/
 │                        │      │                            │           C:H/I:H/A:H 
 │                        │      │                            ╰ V3Score : 9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32002 
-│                        │      │                  ├ [1]: https://git-scm.com/docs/git-clone#Documentation
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/14/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-32002 
+│                        │      │                  ├ [2]: https://git-scm.com/docs/git-clone#Documentation
 │                        │      │                  │      /git-clone.txt---recurse-submodulesltpathspecgt
 │                        │      │                  │       
-│                        │      │                  ├ [2]: https://git-scm.com/docs/git-config#Documentatio
+│                        │      │                  ├ [3]: https://git-scm.com/docs/git-config#Documentatio
 │                        │      │                  │      n/git-config.txt-coresymlinks 
-│                        │      │                  ├ [3]: https://github.com/git/git/commit/97065761333fd6
+│                        │      │                  ├ [4]: https://github.com/git/git/commit/97065761333fd6
 │                        │      │                  │      2db1912d81b489db938d8c991d 
-│                        │      │                  ├ [4]: https://github.com/git/git/security/advisories/G
+│                        │      │                  ├ [5]: https://github.com/git/git/security/advisories/G
 │                        │      │                  │      HSA-8h77-4q3w-gfgv 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32002 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32002 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/S4CK4I
+│                        │      │                  │      YTXEOBZTEM5K3T6LWOIZ3S44AR/ 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-32002 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6793-1 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-32002 
 │                        │      ├ PublishedDate   : 2024-05-14T19:15:10.81Z 
-│                        │      ╰ LastModifiedDate: 2024-05-23T20:40:28.707Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:31.58Z 
 │                        ├ [13] ╭ VulnerabilityID : CVE-2024-32004 
 │                        │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
 │                        │      ├ PkgName         : git-man 
@@ -813,17 +843,22 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
 │                        │      │                            │           C:H/I:H/A:H 
 │                        │      │                            ╰ V3Score : 8.1 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32004 
-│                        │      │                  ├ [1]: https://git-scm.com/docs/git-clone 
-│                        │      │                  ├ [2]: https://github.com/git/git/commit/f4aa8c8bb11dae
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/14/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-32004 
+│                        │      │                  ├ [2]: https://git-scm.com/docs/git-clone 
+│                        │      │                  ├ [3]: https://github.com/git/git/commit/f4aa8c8bb11dae
 │                        │      │                  │      6e769cd930565173808cbb69c8 
-│                        │      │                  ├ [3]: https://github.com/git/git/security/advisories/G
+│                        │      │                  ├ [4]: https://github.com/git/git/security/advisories/G
 │                        │      │                  │      HSA-xfc6-vwr8-r389 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32004 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32004 
+│                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/S4CK4I
+│                        │      │                  │      YTXEOBZTEM5K3T6LWOIZ3S44AR/ 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-32004 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6793-1 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-32004 
 │                        │      ├ PublishedDate   : 2024-05-14T19:15:11.377Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T19:15:53.52Z 
 │                        ├ [14] ╭ VulnerabilityID : CVE-2024-32020 
 │                        │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
 │                        │      ├ PkgName         : git-man 
@@ -876,18 +911,23 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/
 │                        │      │                            │           C:N/I:L/A:L 
 │                        │      │                            ╰ V3Score : 3.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32020 
-│                        │      │                  ├ [1]: https://github.com/git/git/commit/1204e1a824c340
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/14/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-32020 
+│                        │      │                  ├ [2]: https://github.com/git/git/commit/1204e1a824c340
 │                        │      │                  │      71019fe106348eaa6d88f9528d 
-│                        │      │                  ├ [2]: https://github.com/git/git/commit/9e65df5eab274b
+│                        │      │                  ├ [3]: https://github.com/git/git/commit/9e65df5eab274b
 │                        │      │                  │      f74c7b570107aacd1303a1e703 
-│                        │      │                  ├ [3]: https://github.com/git/git/security/advisories/G
+│                        │      │                  ├ [4]: https://github.com/git/git/security/advisories/G
 │                        │      │                  │      HSA-5rfh-556j-fhgj 
-│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32020 
-│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
-│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32020 
+│                        │      │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/S4CK4I
+│                        │      │                  │      YTXEOBZTEM5K3T6LWOIZ3S44AR/ 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-32020 
+│                        │      │                  ├ [7]: https://ubuntu.com/security/notices/USN-6793-1 
+│                        │      │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-32020 
 │                        │      ├ PublishedDate   : 2024-05-14T19:15:12.24Z 
-│                        │      ╰ LastModifiedDate: 2024-05-14T19:17:55.627Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:32.08Z 
 │                        ├ [15] ╭ VulnerabilityID : CVE-2024-32021 
 │                        │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
 │                        │      ├ PkgName         : git-man 
@@ -946,14 +986,19 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/
 │                        │      │                            │           C:N/I:L/A:L 
 │                        │      │                            ╰ V3Score : 3.9 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32021 
-│                        │      │                  ├ [1]: https://github.com/git/git/security/advisories/G
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/14/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-32021 
+│                        │      │                  ├ [2]: https://github.com/git/git/security/advisories/G
 │                        │      │                  │      HSA-mvxm-9j2h-qjx7 
-│                        │      │                  ├ [2]: https://nvd.nist.gov/vuln/detail/CVE-2024-32021 
-│                        │      │                  ├ [3]: https://ubuntu.com/security/notices/USN-6793-1 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-32021 
+│                        │      │                  ├ [3]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/S4CK4I
+│                        │      │                  │      YTXEOBZTEM5K3T6LWOIZ3S44AR/ 
+│                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-32021 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6793-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-32021 
 │                        │      ├ PublishedDate   : 2024-05-14T20:15:13.63Z 
-│                        │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:32.18Z 
 │                        ├ [16] ╭ VulnerabilityID : CVE-2024-32465 
 │                        │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
 │                        │      ├ PkgName         : git-man 
@@ -1005,18 +1050,23 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:C/
 │                        │      │                            │           C:H/I:H/A:H 
 │                        │      │                            ╰ V3Score : 7.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-32465 
-│                        │      │                  ├ [1]: https://git-scm.com/docs/git#_security 
-│                        │      │                  ├ [2]: https://git-scm.com/docs/git-clone 
-│                        │      │                  ├ [3]: https://github.com/git/git/commit/7b70e9efb18c2c
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/14/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-32465 
+│                        │      │                  ├ [2]: https://git-scm.com/docs/git#_security 
+│                        │      │                  ├ [3]: https://git-scm.com/docs/git-clone 
+│                        │      │                  ├ [4]: https://github.com/git/git/commit/7b70e9efb18c2c
 │                        │      │                  │      c3f219af399bd384c5801ba1d7 
-│                        │      │                  ├ [4]: https://github.com/git/git/security/advisories/G
+│                        │      │                  ├ [5]: https://github.com/git/git/security/advisories/G
 │                        │      │                  │      HSA-vm9j-46j9-qvq4 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-32465 
-│                        │      │                  ├ [6]: https://ubuntu.com/security/notices/USN-6793-1 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-32465 
+│                        │      │                  ├ [6]: https://lists.fedoraproject.org/archives/list/pa
+│                        │      │                  │      ckage-announce@lists.fedoraproject.org/message/S4CK4I
+│                        │      │                  │      YTXEOBZTEM5K3T6LWOIZ3S44AR/ 
+│                        │      │                  ├ [7]: https://nvd.nist.gov/vuln/detail/CVE-2024-32465 
+│                        │      │                  ├ [8]: https://ubuntu.com/security/notices/USN-6793-1 
+│                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-32465 
 │                        │      ├ PublishedDate   : 2024-05-14T20:15:14.54Z 
-│                        │      ╰ LastModifiedDate: 2024-05-15T16:40:19.33Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T19:15:53.607Z 
 │                        ├ [17] ╭ VulnerabilityID : CVE-2018-1000021 
 │                        │      ├ PkgID           : git-man@1:2.34.1-1ubuntu1.10 
 │                        │      ├ PkgName         : git-man 
@@ -1681,14 +1731,16 @@
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33599.html 
 │                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
-│                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                        │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       524-0011/ 
+│                        │      │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0005 
-│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6804-1 
-│                        │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
-│                        │      │                  ╰ [15]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6804-1 
+│                        │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+│                        │      │                  ╰ [16]: https://www.openwall.com/lists/oss-security/202
 │                        │      │                          4/04/24/2 
 │                        │      ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
-│                        │      ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T17:16:27.94Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2024-33600 
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.7 
 │                        │      ├ PkgName         : libc-bin 
@@ -1746,14 +1798,16 @@
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33600.html 
 │                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
-│                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                        │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       524-0013/ 
+│                        │      │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0006 
-│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6804-1 
-│                        │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
-│                        │      │                  ╰ [15]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6804-1 
+│                        │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+│                        │      │                  ╰ [16]: https://www.openwall.com/lists/oss-security/202
 │                        │      │                          4/04/24/2 
 │                        │      ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
-│                        │      ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T17:16:28.037Z 
 │                        ├ [32] ╭ VulnerabilityID : CVE-2024-33601 
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.7 
 │                        │      ├ PkgName         : libc-bin 
@@ -1813,14 +1867,16 @@
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33601.html 
 │                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
-│                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                        │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       524-0014/ 
+│                        │      │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0007 
-│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6804-1 
-│                        │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
-│                        │      │                  ╰ [15]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6804-1 
+│                        │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+│                        │      │                  ╰ [16]: https://www.openwall.com/lists/oss-security/202
 │                        │      │                          4/04/24/2 
 │                        │      ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
-│                        │      ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:34.353Z 
 │                        ├ [33] ╭ VulnerabilityID : CVE-2024-33602 
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.7 
 │                        │      ├ PkgName         : libc-bin 
@@ -1878,16 +1934,18 @@
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33602.html 
 │                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
-│                        │      │                  ├ [12]: https://sourceware.org/bugzilla/show_bug.cgi?id
+│                        │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       524-0012/ 
+│                        │      │                  ├ [13]: https://sourceware.org/bugzilla/show_bug.cgi?id
 │                        │      │                  │       =31680 
-│                        │      │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                        │      │                  ├ [14]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0008 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6804-1 
-│                        │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
-│                        │      │                  ╰ [16]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6804-1 
+│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+│                        │      │                  ╰ [17]: https://www.openwall.com/lists/oss-security/202
 │                        │      │                          4/04/24/2 
 │                        │      ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
-│                        │      ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:34.443Z 
 │                        ├ [34] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc-bin@2.35-0ubuntu3.7 
 │                        │      ├ PkgName         : libc-bin 
@@ -1982,14 +2040,16 @@
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33599.html 
 │                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33599 
-│                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                        │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       524-0011/ 
+│                        │      │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0005 
-│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6804-1 
-│                        │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
-│                        │      │                  ╰ [15]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6804-1 
+│                        │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2024-33599 
+│                        │      │                  ╰ [16]: https://www.openwall.com/lists/oss-security/202
 │                        │      │                          4/04/24/2 
 │                        │      ├ PublishedDate   : 2024-05-06T20:15:11.437Z 
-│                        │      ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T17:16:27.94Z 
 │                        ├ [36] ╭ VulnerabilityID : CVE-2024-33600 
 │                        │      ├ PkgID           : libc6@2.35-0ubuntu3.7 
 │                        │      ├ PkgName         : libc6 
@@ -2047,14 +2107,16 @@
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33600.html 
 │                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33600 
-│                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                        │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       524-0013/ 
+│                        │      │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0006 
-│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6804-1 
-│                        │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
-│                        │      │                  ╰ [15]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6804-1 
+│                        │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2024-33600 
+│                        │      │                  ╰ [16]: https://www.openwall.com/lists/oss-security/202
 │                        │      │                          4/04/24/2 
 │                        │      ├ PublishedDate   : 2024-05-06T20:15:11.523Z 
-│                        │      ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T17:16:28.037Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2024-33601 
 │                        │      ├ PkgID           : libc6@2.35-0ubuntu3.7 
 │                        │      ├ PkgName         : libc6 
@@ -2114,14 +2176,16 @@
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33601.html 
 │                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33601 
-│                        │      │                  ├ [12]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                        │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       524-0014/ 
+│                        │      │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0007 
-│                        │      │                  ├ [13]: https://ubuntu.com/security/notices/USN-6804-1 
-│                        │      │                  ├ [14]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
-│                        │      │                  ╰ [15]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6804-1 
+│                        │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2024-33601 
+│                        │      │                  ╰ [16]: https://www.openwall.com/lists/oss-security/202
 │                        │      │                          4/04/24/2 
 │                        │      ├ PublishedDate   : 2024-05-06T20:15:11.603Z 
-│                        │      ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:34.353Z 
 │                        ├ [38] ╭ VulnerabilityID : CVE-2024-33602 
 │                        │      ├ PkgID           : libc6@2.35-0ubuntu3.7 
 │                        │      ├ PkgName         : libc6 
@@ -2179,16 +2243,18 @@
 │                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-33602.html 
 │                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-3588.html 
 │                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-33602 
-│                        │      │                  ├ [12]: https://sourceware.org/bugzilla/show_bug.cgi?id
+│                        │      │                  ├ [12]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       524-0012/ 
+│                        │      │                  ├ [13]: https://sourceware.org/bugzilla/show_bug.cgi?id
 │                        │      │                  │       =31680 
-│                        │      │                  ├ [13]: https://sourceware.org/git/?p=glibc.git;a=blob;
+│                        │      │                  ├ [14]: https://sourceware.org/git/?p=glibc.git;a=blob;
 │                        │      │                  │       f=advisories/GLIBC-SA-2024-0008 
-│                        │      │                  ├ [14]: https://ubuntu.com/security/notices/USN-6804-1 
-│                        │      │                  ├ [15]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
-│                        │      │                  ╰ [16]: https://www.openwall.com/lists/oss-security/202
+│                        │      │                  ├ [15]: https://ubuntu.com/security/notices/USN-6804-1 
+│                        │      │                  ├ [16]: https://www.cve.org/CVERecord?id=CVE-2024-33602 
+│                        │      │                  ╰ [17]: https://www.openwall.com/lists/oss-security/202
 │                        │      │                          4/04/24/2 
 │                        │      ├ PublishedDate   : 2024-05-06T20:15:11.68Z 
-│                        │      ╰ LastModifiedDate: 2024-05-07T13:39:32.71Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:34.443Z 
 │                        ├ [39] ╭ VulnerabilityID : CVE-2016-20013 
 │                        │      ├ PkgID           : libc6@2.35-0ubuntu3.7 
 │                        │      ├ PkgName         : libc6 
@@ -4012,20 +4078,22 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4603 
-│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/3559e8
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/16/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-4603 
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/3559e8
 │                        │      │                  │      68e58005d15c6013a0c1fd832e51c73397 
-│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/53ea06
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/53ea06
 │                        │      │                  │      486d296b890d565fb971b2764fcd826e7e 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/9c39b3
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/9c39b3
 │                        │      │                  │      858091c152f52513c066ff2c5a47969f0d 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/da343d
+│                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d
 │                        │      │                  │      0605c826ef197aceedc67e8e04f065f740 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                        │      │                  ╰ [7]: https://www.openssl.org/news/secadv/20240516.txt 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
+│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                        │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                        │      ╰ LastModifiedDate: 2024-05-17T18:36:31.297Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
 │                        ├ [71] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : libssl3 
@@ -4226,7 +4294,8 @@
 │                        │      │                  │       md64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : 5e1dadde46a02b5f 
 │                        │      ├ InstalledVersion: 4.3.0-6ubuntu0.8 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 4.3.0-6ubuntu0.9 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:331ad0222a36b061afaede0a69e6c3ae96ec16
 │                        │      │                  │         93e401a615a11cc5e61acf741d 
 │                        │      │                  ╰ DiffID: sha256:074aba98fe506a88019cf489167e9c63d810ca
@@ -4260,7 +4329,8 @@
 │                        │      │                  ├ [3]: https://gitlab.com/libtiff/libtiff/-/merge_reque
 │                        │      │                  │      sts/595 
 │                        │      │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2023-3164 
-│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6827-1 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2023-3164 
 │                        │      ├ PublishedDate   : 2023-11-02T12:15:09.543Z 
 │                        │      ╰ LastModifiedDate: 2024-03-08T19:38:13.92Z 
 │                        ├ [76] ╭ VulnerabilityID : CVE-2023-45918 
@@ -5069,20 +5139,22 @@
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 5.3 
-│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-4603 
-│                        │      │                  ├ [1]: https://github.com/openssl/openssl/commit/3559e8
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      05/16/2 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-4603 
+│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/3559e8
 │                        │      │                  │      68e58005d15c6013a0c1fd832e51c73397 
-│                        │      │                  ├ [2]: https://github.com/openssl/openssl/commit/53ea06
+│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/53ea06
 │                        │      │                  │      486d296b890d565fb971b2764fcd826e7e 
-│                        │      │                  ├ [3]: https://github.com/openssl/openssl/commit/9c39b3
+│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/9c39b3
 │                        │      │                  │      858091c152f52513c066ff2c5a47969f0d 
-│                        │      │                  ├ [4]: https://github.com/openssl/openssl/commit/da343d
+│                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d
 │                        │      │                  │      0605c826ef197aceedc67e8e04f065f740 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                        │      │                  ├ [6]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                        │      │                  ╰ [7]: https://www.openssl.org/news/secadv/20240516.txt 
+│                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
+│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                        │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                        │      ╰ LastModifiedDate: 2024-05-17T18:36:31.297Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
 │                        ├ [90] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
@@ -8179,13 +8251,15 @@
 │                        │      │                    implementation reading the file. The archive/zip package
 │                        │      │                   now rejects files containing these errors. 
 │                        │      ├ Severity        : UNKNOWN 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │      │                  ├ [1]: https://go.dev/issue/66869 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      06/04/1 
+│                        │      │                  ├ [1]: https://go.dev/cl/585397 
+│                        │      │                  ├ [2]: https://go.dev/issue/66869 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
 │                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │      ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -8208,13 +8282,15 @@
 │                               │                   returning false for addresses which would return true in
 │                               │                   their traditional IPv4 forms. 
 │                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                               │                  ├ [1]: https://go.dev/issue/67680 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                               │                  │      06/04/1 
+│                               │                  ├ [1]: https://go.dev/cl/590316 
+│                               │                  ├ [2]: https://go.dev/issue/67680 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
 │                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                               │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                               ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                               ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                               ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [4]  ╭ Target         : tmp/tmp.3mNXh7lous/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10540,13 +10616,15 @@
 │                        │      │                    implementation reading the file. The archive/zip package
 │                        │      │                   now rejects files containing these errors. 
 │                        │      ├ Severity        : UNKNOWN 
-│                        │      ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │      │                  ├ [1]: https://go.dev/issue/66869 
-│                        │      │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      06/04/1 
+│                        │      │                  ├ [1]: https://go.dev/cl/585397 
+│                        │      │                  ├ [2]: https://go.dev/issue/66869 
+│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
 │                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │      ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
@@ -10569,13 +10647,15 @@
 │                               │                   returning false for addresses which would return true in
 │                               │                   their traditional IPv4 forms. 
 │                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                               │                  ├ [1]: https://go.dev/issue/67680 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xb
+│                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                               │                  │      06/04/1 
+│                               │                  ├ [1]: https://go.dev/cl/590316 
+│                               │                  ├ [2]: https://go.dev/issue/67680 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
 │                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                               │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                               ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                               ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                               ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10603,13 +10683,15 @@
 │                        │     │                   implementation reading the file. The archive/zip package now
 │                        │     │                    rejects files containing these errors. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │     │                  ├ [1]: https://go.dev/issue/66869 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      6/04/1 
+│                        │     │                  ├ [1]: https://go.dev/cl/585397 
+│                        │     │                  ├ [2]: https://go.dev/issue/66869 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.9 
@@ -10632,13 +10714,15 @@
 │                              │                   returning false for addresses which would return true in
 │                              │                   their traditional IPv4 forms. 
 │                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                              │                  ├ [1]: https://go.dev/issue/67680 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                              │                  │      6/04/1 
+│                              │                  ├ [1]: https://go.dev/cl/590316 
+│                              │                  ├ [2]: https://go.dev/issue/67680 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10763,13 +10847,15 @@
 │                        │     │                   implementation reading the file. The archive/zip package now
 │                        │     │                    rejects files containing these errors. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │     │                  ├ [1]: https://go.dev/issue/66869 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      6/04/1 
+│                        │     │                  ├ [1]: https://go.dev/cl/585397 
+│                        │     │                  ├ [2]: https://go.dev/issue/66869 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.9 
@@ -10792,13 +10878,15 @@
 │                              │                   returning false for addresses which would return true in
 │                              │                   their traditional IPv4 forms. 
 │                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                              │                  ├ [1]: https://go.dev/issue/67680 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                              │                  │      6/04/1 
+│                              │                  ├ [1]: https://go.dev/cl/590316 
+│                              │                  ├ [2]: https://go.dev/issue/67680 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10826,16 +10914,20 @@
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24788 
-│                        │     │                  ├ [1]: https://go.dev/cl/578375 
-│                        │     │                  ├ [2]: https://go.dev/issue/66754 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/wkk
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      5/08/3 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24788 
+│                        │     │                  ├ [2]: https://go.dev/cl/578375 
+│                        │     │                  ├ [3]: https://go.dev/issue/66754 
+│                        │     │                  ├ [4]: https://groups.google.com/g/golang-announce/c/wkk
 │                        │     │                  │      O4P9stm0 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
-│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2824 
-│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2824 
+│                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024060
+│                        │     │                  │      5-0002/ 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
 │                        │     ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
-│                        │     ╰ LastModifiedDate: 2024-05-08T17:05:24.083Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T17:16:20.32Z 
 │                        ├ [1] ╭ VulnerabilityID : CVE-2024-24789 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -10860,13 +10952,15 @@
 │                        │     │                   implementation reading the file. The archive/zip package now
 │                        │     │                    rejects files containing these errors. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │     │                  ├ [1]: https://go.dev/issue/66869 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      6/04/1 
+│                        │     │                  ├ [1]: https://go.dev/cl/585397 
+│                        │     │                  ├ [2]: https://go.dev/issue/66869 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [2] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -10889,13 +10983,15 @@
 │                              │                   returning false for addresses which would return true in
 │                              │                   their traditional IPv4 forms. 
 │                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                              │                  ├ [1]: https://go.dev/issue/67680 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                              │                  │      6/04/1 
+│                              │                  ├ [1]: https://go.dev/cl/590316 
+│                              │                  ├ [2]: https://go.dev/issue/67680 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -10923,13 +11019,15 @@
 │                        │     │                   implementation reading the file. The archive/zip package now
 │                        │     │                    rejects files containing these errors. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │     │                  ├ [1]: https://go.dev/issue/66869 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      6/04/1 
+│                        │     │                  ├ [1]: https://go.dev/cl/585397 
+│                        │     │                  ├ [2]: https://go.dev/issue/66869 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.3 
@@ -10952,13 +11050,15 @@
 │                              │                   returning false for addresses which would return true in
 │                              │                   their traditional IPv4 forms. 
 │                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                              │                  ├ [1]: https://go.dev/issue/67680 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                              │                  │      6/04/1 
+│                              │                  ├ [1]: https://go.dev/cl/590316 
+│                              │                  ├ [2]: https://go.dev/issue/67680 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -11044,16 +11144,20 @@
 │                        │     ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
 │                        │     │                           │           N/I:N/A:H 
 │                        │     │                           ╰ V3Score : 7.5 
-│                        │     ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24788 
-│                        │     │                  ├ [1]: https://go.dev/cl/578375 
-│                        │     │                  ├ [2]: https://go.dev/issue/66754 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/wkk
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      5/08/3 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24788 
+│                        │     │                  ├ [2]: https://go.dev/cl/578375 
+│                        │     │                  ├ [3]: https://go.dev/issue/66754 
+│                        │     │                  ├ [4]: https://groups.google.com/g/golang-announce/c/wkk
 │                        │     │                  │      O4P9stm0 
-│                        │     │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
-│                        │     │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2824 
-│                        │     │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24788 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2824 
+│                        │     │                  ├ [7]: https://security.netapp.com/advisory/ntap-2024060
+│                        │     │                  │      5-0002/ 
+│                        │     │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
 │                        │     ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
-│                        │     ╰ LastModifiedDate: 2024-05-08T17:05:24.083Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T17:16:20.32Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2024-24789 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -11078,13 +11182,15 @@
 │                        │     │                   implementation reading the file. The archive/zip package now
 │                        │     │                    rejects files containing these errors. 
 │                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: https://go.dev/cl/585397 
-│                        │     │                  ├ [1]: https://go.dev/issue/66869 
-│                        │     │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      6/04/1 
+│                        │     │                  ├ [1]: https://go.dev/cl/585397 
+│                        │     │                  ├ [2]: https://go.dev/issue/66869 
+│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
 │                        ╰ [3] ╭ VulnerabilityID : CVE-2024-24790 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
@@ -11107,13 +11213,15 @@
 │                              │                   returning false for addresses which would return true in
 │                              │                   their traditional IPv4 forms. 
 │                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/590316 
-│                              │                  ├ [1]: https://go.dev/issue/67680 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                              │                  │      6/04/1 
+│                              │                  ├ [1]: https://go.dev/cl/590316 
+│                              │                  ├ [2]: https://go.dev/issue/67680 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-06T14:17:35.017Z 
+│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
