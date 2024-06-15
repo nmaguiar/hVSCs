@@ -4181,7 +4181,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -5006,7 +5006,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5072,7 +5072,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5294,7 +5294,7 @@
     Description: When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.
     Severity: MEDIUM
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -5306,12 +5306,9 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3831
     - https://access.redhat.com/security/cve/CVE-2023-45290
     - https://bugzilla.redhat.com/2268017
-    - https://bugzilla.redhat.com/2268018
-    - https://bugzilla.redhat.com/2268019
-    - https://bugzilla.redhat.com/2268273
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268019
@@ -5320,7 +5317,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/9/ALSA-2024-3831.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/569341
     - https://go.dev/issue/65383
@@ -5765,7 +5762,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       cbl-mariner: 2
       ghsa: 2
       nvd: 2
@@ -6590,7 +6587,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -6656,7 +6653,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -6878,7 +6875,7 @@
     Description: When parsing a multipart form (either explicitly with Request.ParseMultipartForm or implicitly with Request.FormValue, Request.PostFormValue, or Request.FormFile), limits on the total size of the parsed form were not applied to the memory consumed while reading a single form line. This permits a maliciously crafted input containing very long lines to cause allocation of arbitrarily large amounts of memory, potentially leading to memory exhaustion. With fix, the ParseMultipartForm function now correctly limits the maximum size of form lines.
     Severity: MEDIUM
     VendorSeverity:
-      alma: 3
+      alma: 2
       amazon: 2
       cbl-mariner: 2
       oracle-oval: 2
@@ -6890,12 +6887,9 @@
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2024/03/08/4
-    - https://access.redhat.com/errata/RHSA-2024:2724
+    - https://access.redhat.com/errata/RHSA-2024:3831
     - https://access.redhat.com/security/cve/CVE-2023-45290
     - https://bugzilla.redhat.com/2268017
-    - https://bugzilla.redhat.com/2268018
-    - https://bugzilla.redhat.com/2268019
-    - https://bugzilla.redhat.com/2268273
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268017
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268018
     - https://bugzilla.redhat.com/show_bug.cgi?id=2268019
@@ -6904,7 +6898,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
-    - https://errata.almalinux.org/9/ALSA-2024-2724.html
+    - https://errata.almalinux.org/9/ALSA-2024-3831.html
     - https://errata.rockylinux.org/RLSA-2024:2724
     - https://go.dev/cl/569341
     - https://go.dev/issue/65383
@@ -7310,6 +7304,7 @@
     Description: A malformed DNS message in response to a query can cause the Lookup functions to get stuck in an infinite loop.
     Severity: HIGH
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       redhat:
@@ -7324,9 +7319,10 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24788
     - https://pkg.go.dev/vuln/GO-2024-2824
     - https://security.netapp.com/advisory/ntap-20240605-0002/
+    - https://security.netapp.com/advisory/ntap-20240614-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-24788
     PublishedDate: '2024-05-08T16:15:08.25Z'
-    LastModifiedDate: '2024-06-10T17:16:20.32Z'
+    LastModifiedDate: '2024-06-14T13:15:50.67Z'
   - VulnerabilityID: CVE-2024-24789
     PkgName: stdlib
     PkgIdentifier:
@@ -7449,6 +7445,7 @@
     Description: A malformed DNS message in response to a query can cause the Lookup functions to get stuck in an infinite loop.
     Severity: HIGH
     VendorSeverity:
+      cbl-mariner: 2
       redhat: 2
     CVSS:
       redhat:
@@ -7463,9 +7460,10 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2024-24788
     - https://pkg.go.dev/vuln/GO-2024-2824
     - https://security.netapp.com/advisory/ntap-20240605-0002/
+    - https://security.netapp.com/advisory/ntap-20240614-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-24788
     PublishedDate: '2024-05-08T16:15:08.25Z'
-    LastModifiedDate: '2024-06-10T17:16:20.32Z'
+    LastModifiedDate: '2024-06-14T13:15:50.67Z'
   - VulnerabilityID: CVE-2024-24789
     PkgName: stdlib
     PkgIdentifier:
