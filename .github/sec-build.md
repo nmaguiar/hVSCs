@@ -154,7 +154,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -225,7 +225,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1129,7 +1129,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -4595,7 +4595,47 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ╰ [80] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2024-38428 
+│                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
+│                        │      ├ PkgName         : wget 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&
+│                        │      │                  │       distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : eb163e2d3f34768c 
+│                        │      ├ InstalledVersion: 1.21.2-2ubuntu1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:3d796d470b9a85e9772fc35601297c6c3a6454
+│                        │      │                  │         875aee4c604477ef43dfaa85aa 
+│                        │      │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707
+│                        │      │                            ae9c4b50516e31f881d5b116ac 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-38428 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : wget: Misinterpretation of input may lead to improper
+│                        │      │                   behavior 
+│                        │      ├ Description     : url.c in GNU Wget through 1.24.5 mishandles semicolons
+│                        │      │                    in the userinfo subcomponent of a URI, and thus there may
+│                        │      │                   be insecure behavior in which data that was supposed to be
+│                        │      │                   in the userinfo subcomponent is misinterpreted to be part
+│                        │      │                   of the host subcomponent. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                           │           :L/I:L/A:N 
+│                        │      │                           ╰ V3Score : 5.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-38428 
+│                        │      │                  ├ [1]: https://git.savannah.gnu.org/cgit/wget.git/commi
+│                        │      │                  │      t/?id=ed0c7c7e0e8f7298352646b2fd6e06a11e242ace
+│                        │      │                  │      [m 
+│                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-wget/2024
+│                        │      │                  │      -06/msg00005.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-38428 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-38428 
+│                        │      ├ PublishedDate   : 2024-06-16T03:15:08.43Z 
+│                        │      ╰ LastModifiedDate: 2024-06-17T12:42:04.623Z 
+│                        ╰ [81] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd
@@ -4809,7 +4849,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -5078,7 +5118,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -5241,7 +5281,7 @@
 │                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
 │                        │      │                  │        he-tale-of-a-hidden-cve 
 │                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-sec
 │                        │      │                  │        urity-update-cve-2023-44487-http-2-dos/67764
 │                        │      │                  │        [m 
@@ -5715,7 +5755,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -5764,14 +5804,18 @@
 │                        │      │                   returning false for addresses which would return true in
 │                        │      │                   their traditional IPv4 forms. 
 │                        │      ├ Severity        : CRITICAL 
-│                        │      ├ VendorSeverity   ╭ nvd   : 4 
-│                        │      │                  ╰ redhat: 2 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ╰ V3Score : 9.8 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :H/I:H/A:N 
-│                        │      │                           ╰ V3Score : 6.7 
+│                        │      ├ VendorSeverity   ╭ bitnami: 4 
+│                        │      │                  ├ nvd    : 4 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:H/I:H/A:H 
+│                        │      │                  │         ╰ V3Score : 9.8 
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:H/I:H/A:H 
+│                        │      │                  │         ╰ V3Score : 9.8 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/
+│                        │      │                            │           C:H/I:H/A:N 
+│                        │      │                            ╰ V3Score : 6.7 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
 │                        │      │                  │      06/04/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24790 
@@ -5863,7 +5907,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -6246,7 +6290,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -6449,7 +6493,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6603,7 +6647,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6746,7 +6790,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://go.dev/cl/569340 
 │                        │      │                  ├ [18]: https://go.dev/issue/65065 
 │                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
@@ -6817,7 +6861,7 @@
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-3831.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [14]: https://go.dev/cl/569341 
 │                        │      │                  ├ [15]: https://go.dev/issue/65383 
 │                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5
@@ -6889,7 +6933,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
 │                        │      │                  ├ [18]: https://go.dev/cl/569339 
 │                        │      │                  ├ [19]: https://go.dev/issue/65390 
@@ -7092,14 +7136,18 @@
 │                               │                    implementation reading the file. The archive/zip package
 │                               │                   now rejects files containing these errors. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ nvd   : 2 
-│                               │                  ╰ redhat: 2 
-│                               ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-│                               │                  │        │           :N/I:H/A:N 
-│                               │                  │        ╰ V3Score : 5.5 
-│                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                               │                           │           :N/I:H/A:N 
-│                               │                           ╰ V3Score : 7.5 
+│                               ├ VendorSeverity   ╭ bitnami: 2 
+│                               │                  ├ nvd    : 2 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                               │                  │         │           C:N/I:H/A:N 
+│                               │                  │         ╰ V3Score : 5.5 
+│                               │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                               │                  │         │           C:N/I:H/A:N 
+│                               │                  │         ╰ V3Score : 5.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                               │                            │           C:N/I:H/A:N 
+│                               │                            ╰ V3Score : 7.5 
 │                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
 │                               │                  │      06/04/1 
 │                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24789 
@@ -7107,11 +7155,14 @@
 │                               │                  ├ [3]: https://go.dev/issue/66869 
 │                               │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xb
 │                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
-│                               │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                               │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                               │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                               │                  │      ckage-announce@lists.fedoraproject.org/message/U5YAEI
+│                               │                  │      A6IUHUNGJ7AIXXPQT6D2GYENX7/ 
+│                               │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                               │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                               │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                               ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                               ╰ LastModifiedDate: 2024-06-18T17:58:22.417Z 
+│                               ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
 ├ [4]  ╭ Target         : tmp/tmp.itIpQ0alMY/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -7195,7 +7246,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -7464,7 +7515,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7627,7 +7678,7 @@
 │                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
 │                        │      │                  │        he-tale-of-a-hidden-cve 
 │                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-sec
 │                        │      │                  │        urity-update-cve-2023-44487-http-2-dos/67764
 │                        │      │                  │        [m 
@@ -8101,7 +8152,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -8150,14 +8201,18 @@
 │                        │      │                   returning false for addresses which would return true in
 │                        │      │                   their traditional IPv4 forms. 
 │                        │      ├ Severity        : CRITICAL 
-│                        │      ├ VendorSeverity   ╭ nvd   : 4 
-│                        │      │                  ╰ redhat: 2 
-│                        │      ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                        │      │                  │        │           :H/I:H/A:H 
-│                        │      │                  │        ╰ V3Score : 9.8 
-│                        │      │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C
-│                        │      │                           │           :H/I:H/A:N 
-│                        │      │                           ╰ V3Score : 6.7 
+│                        │      ├ VendorSeverity   ╭ bitnami: 4 
+│                        │      │                  ├ nvd    : 4 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:H/I:H/A:H 
+│                        │      │                  │         ╰ V3Score : 9.8 
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:H/I:H/A:H 
+│                        │      │                  │         ╰ V3Score : 9.8 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/
+│                        │      │                            │           C:H/I:H/A:N 
+│                        │      │                            ╰ V3Score : 6.7 
 │                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
 │                        │      │                  │      06/04/1 
 │                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24790 
@@ -8249,7 +8304,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -8632,7 +8687,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -8835,7 +8890,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8989,7 +9044,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9132,7 +9187,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://go.dev/cl/569340 
 │                        │      │                  ├ [18]: https://go.dev/issue/65065 
 │                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
@@ -9203,7 +9258,7 @@
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-3831.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [14]: https://go.dev/cl/569341 
 │                        │      │                  ├ [15]: https://go.dev/issue/65383 
 │                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5
@@ -9275,7 +9330,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
 │                        │      │                  ├ [18]: https://go.dev/cl/569339 
 │                        │      │                  ├ [19]: https://go.dev/issue/65390 
@@ -9478,14 +9533,18 @@
 │                               │                    implementation reading the file. The archive/zip package
 │                               │                   now rejects files containing these errors. 
 │                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ nvd   : 2 
-│                               │                  ╰ redhat: 2 
-│                               ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-│                               │                  │        │           :N/I:H/A:N 
-│                               │                  │        ╰ V3Score : 5.5 
-│                               │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                               │                           │           :N/I:H/A:N 
-│                               │                           ╰ V3Score : 7.5 
+│                               ├ VendorSeverity   ╭ bitnami: 2 
+│                               │                  ├ nvd    : 2 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                               │                  │         │           C:N/I:H/A:N 
+│                               │                  │         ╰ V3Score : 5.5 
+│                               │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                               │                  │         │           C:N/I:H/A:N 
+│                               │                  │         ╰ V3Score : 5.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                               │                            │           C:N/I:H/A:N 
+│                               │                            ╰ V3Score : 7.5 
 │                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
 │                               │                  │      06/04/1 
 │                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24789 
@@ -9493,11 +9552,14 @@
 │                               │                  ├ [3]: https://go.dev/issue/66869 
 │                               │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xb
 │                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                               │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
-│                               │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                               │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                               │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                               │                  │      ckage-announce@lists.fedoraproject.org/message/U5YAEI
+│                               │                  │      A6IUHUNGJ7AIXXPQT6D2GYENX7/ 
+│                               │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                               │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                               │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                               ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                               ╰ LastModifiedDate: 2024-06-18T17:58:22.417Z 
+│                               ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9524,14 +9586,18 @@
 │                        │     │                   returning false for addresses which would return true in
 │                        │     │                   their traditional IPv4 forms. 
 │                        │     ├ Severity        : CRITICAL 
-│                        │     ├ VendorSeverity   ╭ nvd   : 4 
-│                        │     │                  ╰ redhat: 2 
-│                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                        │     │                  │        │           H/I:H/A:H 
-│                        │     │                  │        ╰ V3Score : 9.8 
-│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:
-│                        │     │                           │           H/I:H/A:N 
-│                        │     │                           ╰ V3Score : 6.7 
+│                        │     ├ VendorSeverity   ╭ bitnami: 4 
+│                        │     │                  ├ nvd    : 4 
+│                        │     │                  ╰ redhat : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │     │                  │         │           :H/I:H/A:H 
+│                        │     │                  │         ╰ V3Score : 9.8 
+│                        │     │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │     │                  │         │           :H/I:H/A:H 
+│                        │     │                  │         ╰ V3Score : 9.8 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C
+│                        │     │                            │           :H/I:H/A:N 
+│                        │     │                            ╰ V3Score : 6.7 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
 │                        │     │                  │      6/04/1 
 │                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24790 
@@ -9568,14 +9634,18 @@
 │                              │                   implementation reading the file. The archive/zip package now
 │                              │                    rejects files containing these errors. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ nvd   : 2 
-│                              │                  ╰ redhat: 2 
-│                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                              │                  │        │           N/I:H/A:N 
-│                              │                  │        ╰ V3Score : 5.5 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                              │                           │           N/I:H/A:N 
-│                              │                           ╰ V3Score : 7.5 
+│                              ├ VendorSeverity   ╭ bitnami: 2 
+│                              │                  ├ nvd    : 2 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                              │                  │         │           :N/I:H/A:N 
+│                              │                  │         ╰ V3Score : 5.5 
+│                              │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                              │                  │         │           :N/I:H/A:N 
+│                              │                  │         ╰ V3Score : 5.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              │                            │           :N/I:H/A:N 
+│                              │                            ╰ V3Score : 7.5 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
 │                              │                  │      6/04/1 
 │                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24789 
@@ -9583,11 +9653,14 @@
 │                              │                  ├ [3]: https://go.dev/issue/66869 
 │                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
-│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                              │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                              │                  │      kage-announce@lists.fedoraproject.org/message/U5YAEIA6
+│                              │                  │      IUHUNGJ7AIXXPQT6D2GYENX7/ 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                              ╰ LastModifiedDate: 2024-06-18T17:58:22.417Z 
+│                              ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
 ├ [6]  ╭ Target: usr/bin/helm 
 │      ├ Class : lang-pkgs 
 │      ╰ Type  : gobinary 
@@ -9681,14 +9754,18 @@
 │                        │     │                   returning false for addresses which would return true in
 │                        │     │                   their traditional IPv4 forms. 
 │                        │     ├ Severity        : CRITICAL 
-│                        │     ├ VendorSeverity   ╭ nvd   : 4 
-│                        │     │                  ╰ redhat: 2 
-│                        │     ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                        │     │                  │        │           H/I:H/A:H 
-│                        │     │                  │        ╰ V3Score : 9.8 
-│                        │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:
-│                        │     │                           │           H/I:H/A:N 
-│                        │     │                           ╰ V3Score : 6.7 
+│                        │     ├ VendorSeverity   ╭ bitnami: 4 
+│                        │     │                  ├ nvd    : 4 
+│                        │     │                  ╰ redhat : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │     │                  │         │           :H/I:H/A:H 
+│                        │     │                  │         ╰ V3Score : 9.8 
+│                        │     │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │     │                  │         │           :H/I:H/A:H 
+│                        │     │                  │         ╰ V3Score : 9.8 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C
+│                        │     │                            │           :H/I:H/A:N 
+│                        │     │                            ╰ V3Score : 6.7 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
 │                        │     │                  │      6/04/1 
 │                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24790 
@@ -9766,14 +9843,18 @@
 │                              │                   implementation reading the file. The archive/zip package now
 │                              │                    rejects files containing these errors. 
 │                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ nvd   : 2 
-│                              │                  ╰ redhat: 2 
-│                              ├ CVSS             ╭ nvd    ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:
-│                              │                  │        │           N/I:H/A:N 
-│                              │                  │        ╰ V3Score : 5.5 
-│                              │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:
-│                              │                           │           N/I:H/A:N 
-│                              │                           ╰ V3Score : 7.5 
+│                              ├ VendorSeverity   ╭ bitnami: 2 
+│                              │                  ├ nvd    : 2 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                              │                  │         │           :N/I:H/A:N 
+│                              │                  │         ╰ V3Score : 5.5 
+│                              │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                              │                  │         │           :N/I:H/A:N 
+│                              │                  │         ╰ V3Score : 5.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              │                            │           :N/I:H/A:N 
+│                              │                            ╰ V3Score : 7.5 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
 │                              │                  │      6/04/1 
 │                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24789 
@@ -9781,11 +9862,14 @@
 │                              │                  ├ [3]: https://go.dev/issue/66869 
 │                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
-│                              │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                              │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                              │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                              │                  │      kage-announce@lists.fedoraproject.org/message/U5YAEIA6
+│                              │                  │      IUHUNGJ7AIXXPQT6D2GYENX7/ 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                              ╰ LastModifiedDate: 2024-06-18T17:58:22.417Z 
+│                              ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
