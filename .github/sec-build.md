@@ -154,7 +154,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -225,7 +225,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1129,7 +1129,7 @@
 │                        │      │                  ├ [4] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2023-34969 
 │                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2023-4569.html 
-│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4569 
+│                        │      │                  ├ [6] : https://errata.rockylinux.org/RLSA-2023:4498 
 │                        │      │                  ├ [7] : https://gitlab.freedesktop.org/dbus/dbus/-/issu
 │                        │      │                  │       es/457 
 │                        │      │                  ├ [8] : https://linux.oracle.com/cve/CVE-2023-34969.html 
@@ -1350,6 +1350,7 @@
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
@@ -1359,17 +1360,24 @@
 │                        │      │                  │       -26458 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
 │                        │      │                  │       /blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26458.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26458.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
 │                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       415-0010/ 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [28] ╭ VulnerabilityID : CVE-2024-26461 
@@ -1399,6 +1407,7 @@
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
@@ -1408,17 +1417,24 @@
 │                        │      │                  │       -26461 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
 │                        │      │                  │       /blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26461.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26461.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
 │                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       415-0011/ 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [29] ╭ VulnerabilityID : CVE-2024-26462 
@@ -1486,6 +1502,7 @@
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
@@ -1495,17 +1512,24 @@
 │                        │      │                  │       -26458 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
 │                        │      │                  │       /blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26458.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26458.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
 │                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       415-0010/ 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [31] ╭ VulnerabilityID : CVE-2024-26461 
@@ -1535,6 +1559,7 @@
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
@@ -1544,17 +1569,24 @@
 │                        │      │                  │       -26461 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
 │                        │      │                  │       /blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26461.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26461.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
 │                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       415-0011/ 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [32] ╭ VulnerabilityID : CVE-2024-26462 
@@ -1622,6 +1654,7 @@
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
@@ -1631,17 +1664,24 @@
 │                        │      │                  │       -26458 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
 │                        │      │                  │       /blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26458.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26458.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
 │                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       415-0010/ 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [34] ╭ VulnerabilityID : CVE-2024-26461 
@@ -1671,6 +1711,7 @@
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
@@ -1680,17 +1721,24 @@
 │                        │      │                  │       -26461 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
 │                        │      │                  │       /blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26461.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26461.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
 │                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       415-0011/ 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [35] ╭ VulnerabilityID : CVE-2024-26462 
@@ -1758,6 +1806,7 @@
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
@@ -1767,17 +1816,24 @@
 │                        │      │                  │       -26458 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
 │                        │      │                  │       /blob/main/krb5_detect_1.md 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26458.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26458.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
 │                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26458 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       415-0010/ 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26458 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.78Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.47Z 
 │                        ├ [37] ╭ VulnerabilityID : CVE-2024-26461 
@@ -1807,6 +1863,7 @@
 │                        │      │                  ├ oracle-oval: 1 
 │                        │      │                  ├ photon     : 2 
 │                        │      │                  ├ redhat     : 1 
+│                        │      │                  ├ rocky      : 1 
 │                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:H 
@@ -1816,17 +1873,24 @@
 │                        │      │                  │       -26461 
 │                        │      │                  ├ [2] : https://bugzilla.redhat.com/2266731 
 │                        │      │                  ├ [3] : https://bugzilla.redhat.com/2266740 
-│                        │      │                  ├ [4] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
-│                        │      │                  ├ [5] : https://github.com/LuMingYinDetect/krb5_defects
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/show_bug.cgi?id=2266731 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2266740 
+│                        │      │                  ├ [6] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26458 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-26461 
+│                        │      │                  ├ [8] : https://errata.almalinux.org/8/ALSA-2024-3268.html 
+│                        │      │                  ├ [9] : https://errata.rockylinux.org/RLSA-2024:3268 
+│                        │      │                  ├ [10]: https://github.com/LuMingYinDetect/krb5_defects
 │                        │      │                  │       /blob/main/krb5_detect_2.md 
-│                        │      │                  ├ [6] : https://linux.oracle.com/cve/CVE-2024-26461.html 
-│                        │      │                  ├ [7] : https://linux.oracle.com/errata/ELSA-2024-3268.html 
-│                        │      │                  ├ [8] : https://mailman.mit.edu/pipermail/kerberos/2024
+│                        │      │                  ├ [11]: https://linux.oracle.com/cve/CVE-2024-26461.html 
+│                        │      │                  ├ [12]: https://linux.oracle.com/errata/ELSA-2024-3268.html 
+│                        │      │                  ├ [13]: https://mailman.mit.edu/pipermail/kerberos/2024
 │                        │      │                  │       -March/023095.html 
-│                        │      │                  ├ [9] : https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
-│                        │      │                  ├ [10]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [14]: https://nvd.nist.gov/vuln/detail/CVE-2024-26461 
+│                        │      │                  ├ [15]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       415-0011/ 
-│                        │      │                  ╰ [11]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
+│                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2024-26461 
 │                        │      ├ PublishedDate   : 2024-02-29T01:44:18.82Z 
 │                        │      ╰ LastModifiedDate: 2024-05-14T15:09:00.787Z 
 │                        ├ [38] ╭ VulnerabilityID : CVE-2020-22916 
@@ -4531,7 +4595,47 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ╰ [80] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2024-38428 
+│                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
+│                        │      ├ PkgName         : wget 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&
+│                        │      │                  │       distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : eb163e2d3f34768c 
+│                        │      ├ InstalledVersion: 1.21.2-2ubuntu1 
+│                        │      ├ Status          : affected 
+│                        │      ├ Layer            ╭ Digest: sha256:3d796d470b9a85e9772fc35601297c6c3a6454
+│                        │      │                  │         875aee4c604477ef43dfaa85aa 
+│                        │      │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707
+│                        │      │                            ae9c4b50516e31f881d5b116ac 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-38428 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : wget: Misinterpretation of input may lead to improper
+│                        │      │                   behavior 
+│                        │      ├ Description     : url.c in GNU Wget through 1.24.5 mishandles semicolons
+│                        │      │                    in the userinfo subcomponent of a URI, and thus there may
+│                        │      │                   be insecure behavior in which data that was supposed to be
+│                        │      │                   in the userinfo subcomponent is misinterpreted to be part
+│                        │      │                   of the host subcomponent. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ redhat: 2 
+│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
+│                        │      │                           │           :L/I:L/A:N 
+│                        │      │                           ╰ V3Score : 5.4 
+│                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-38428 
+│                        │      │                  ├ [1]: https://git.savannah.gnu.org/cgit/wget.git/commi
+│                        │      │                  │      t/?id=ed0c7c7e0e8f7298352646b2fd6e06a11e242ace
+│                        │      │                  │      [m 
+│                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-wget/2024
+│                        │      │                  │      -06/msg00005.html 
+│                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-38428 
+│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-38428 
+│                        │      ├ PublishedDate   : 2024-06-16T03:15:08.43Z 
+│                        │      ╰ LastModifiedDate: 2024-06-17T12:42:04.623Z 
+│                        ╰ [81] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd
@@ -4745,7 +4849,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -5177,7 +5281,7 @@
 │                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
 │                        │      │                  │        he-tale-of-a-hidden-cve 
 │                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-sec
 │                        │      │                  │        urity-update-cve-2023-44487-http-2-dos/67764
 │                        │      │                  │        [m 
@@ -5651,7 +5755,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -5677,7 +5781,54 @@
 │                        │      │                  ╰ [32]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T18:15:10.493Z 
-│                        ├ [4]  ╭ VulnerabilityID : CVE-2023-39325 
+│                        ├ [4]  ╭ VulnerabilityID : CVE-2024-24790 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
+│                        │      │                  ╰ UID : a803c46e7bd27b90 
+│                        │      ├ InstalledVersion: 1.20.5 
+│                        │      ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:3d796d470b9a85e9772fc35601297c6c3a6454
+│                        │      │                  │         875aee4c604477ef43dfaa85aa 
+│                        │      │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707
+│                        │      │                            ae9c4b50516e31f881d5b116ac 
+│                        │      ├ SeveritySource  : nvd 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : golang: net/netip: Unexpected behavior from Is methods
+│                        │      │                    for IPv4-mapped IPv6 addresses 
+│                        │      ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc)
+│                        │      │                   did not work as expected for IPv4-mapped IPv6 addresses,
+│                        │      │                   returning false for addresses which would return true in
+│                        │      │                   their traditional IPv4 forms. 
+│                        │      ├ Severity        : CRITICAL 
+│                        │      ├ VendorSeverity   ╭ bitnami: 4 
+│                        │      │                  ├ nvd    : 4 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:H/I:H/A:H 
+│                        │      │                  │         ╰ V3Score : 9.8 
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:H/I:H/A:H 
+│                        │      │                  │         ╰ V3Score : 9.8 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/
+│                        │      │                            │           C:H/I:H/A:N 
+│                        │      │                            ╰ V3Score : 6.7 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      06/04/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24790 
+│                        │      │                  ├ [2]: https://go.dev/cl/590316 
+│                        │      │                  ├ [3]: https://go.dev/issue/67680 
+│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xb
+│                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
+│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
+│                        │      ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
+│                        │      ╰ LastModifiedDate: 2024-06-18T17:59:12.547Z 
+│                        ├ [5]  ╭ VulnerabilityID : CVE-2023-39325 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -5756,7 +5907,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -6001,7 +6152,7 @@
 │                        │      │                  ╰ [101]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │      ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │      ╰ LastModifiedDate: 2024-04-28T04:15:09.877Z 
-│                        ├ [5]  ╭ VulnerabilityID : CVE-2023-45283 
+│                        ├ [6]  ╭ VulnerabilityID : CVE-2023-45283 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6068,7 +6219,7 @@
 │                        │      │                         14-0008/ 
 │                        │      ├ PublishedDate   : 2023-11-09T17:15:08.757Z 
 │                        │      ╰ LastModifiedDate: 2023-12-14T10:15:07.947Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2023-45288 
+│                        ├ [7]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6139,7 +6290,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -6165,7 +6316,7 @@
 │                        │      │                  ╰ [32]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T18:15:10.493Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2023-29406 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2023-29406 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6243,7 +6394,7 @@
 │                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2023-29406 
 │                        │      ├ PublishedDate   : 2023-07-11T20:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.727Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2023-29409 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29409 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6315,7 +6466,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-29409 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:11.94Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.87Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2023-39318 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2023-39318 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6388,7 +6539,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39318 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.823Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.43Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2023-39319 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2023-39319 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6462,7 +6613,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39319 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.91Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.543Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2023-39326 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2023-39326 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6538,7 +6689,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-39326 
 │                        │      ├ PublishedDate   : 2023-12-06T17:15:07.147Z 
 │                        │      ╰ LastModifiedDate: 2024-01-20T04:15:07.89Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2023-45284 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2023-45284 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6582,7 +6733,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2023-2186 
 │                        │      ├ PublishedDate   : 2023-11-09T17:15:08.813Z 
 │                        │      ╰ LastModifiedDate: 2023-11-17T16:39:27.45Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2023-45289 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2023-45289 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6639,7 +6790,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://go.dev/cl/569340 
 │                        │      │                  ├ [18]: https://go.dev/issue/65065 
 │                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
@@ -6653,7 +6804,7 @@
 │                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-45289 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.137Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:25.983Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2023-45290 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2023-45290 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6710,7 +6861,7 @@
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-3831.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [14]: https://go.dev/cl/569341 
 │                        │      │                  ├ [15]: https://go.dev/issue/65383 
 │                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5
@@ -6726,7 +6877,7 @@
 │                        │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:26.04Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2024-24783 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2024-24783 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6782,7 +6933,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
 │                        │      │                  ├ [18]: https://go.dev/cl/569339 
 │                        │      │                  ├ [19]: https://go.dev/issue/65390 
@@ -6799,7 +6950,7 @@
 │                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24783 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.683Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.45Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2024-24784 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24784 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6879,7 +7030,7 @@
 │                        │      │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.527Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24785 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24785 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : a803c46e7bd27b90 
@@ -6960,40 +7111,7 @@
 │                        │      │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24789 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                        │      │                  ╰ UID : a803c46e7bd27b90 
-│                        │      ├ InstalledVersion: 1.20.5 
-│                        │      ├ FixedVersion    : 1.21.11, 1.22.4 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:3d796d470b9a85e9772fc35601297c6c3a6454
-│                        │      │                  │         875aee4c604477ef43dfaa85aa 
-│                        │      │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707
-│                        │      │                            ae9c4b50516e31f881d5b116ac 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : The archive/zip package's handling of certain types of
-│                        │      │                    invalid zip fil ... 
-│                        │      ├ Description     : The archive/zip package's handling of certain types of
-│                        │      │                    invalid zip files differs from the behavior of most zip
-│                        │      │                   implementations. This misalignment could be exploited to
-│                        │      │                   create an zip file with contents that vary depending on the
-│                        │      │                    implementation reading the file. The archive/zip package
-│                        │      │                   now rejects files containing these errors. 
-│                        │      ├ Severity        : UNKNOWN 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      06/04/1 
-│                        │      │                  ├ [1]: https://go.dev/cl/585397 
-│                        │      │                  ├ [2]: https://go.dev/issue/66869 
-│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
-│                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
-│                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
+│                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24789 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                               │                  ╰ UID : a803c46e7bd27b90 
@@ -7004,26 +7122,47 @@
 │                               │                  │         875aee4c604477ef43dfaa85aa 
 │                               │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707
 │                               │                            ae9c4b50516e31f881d5b116ac 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
+│                               ├ SeveritySource  : nvd 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ├ Title           : The various Is methods (IsPrivate, IsLoopback, etc)
-│                               │                   did not work as ex ... 
-│                               ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc)
-│                               │                   did not work as expected for IPv4-mapped IPv6 addresses,
-│                               │                   returning false for addresses which would return true in
-│                               │                   their traditional IPv4 forms. 
-│                               ├ Severity        : UNKNOWN 
+│                               ├ Title           : golang: archive/zip: Incorrect handling of certain ZIP
+│                               │                    files 
+│                               ├ Description     : The archive/zip package's handling of certain types of
+│                               │                    invalid zip files differs from the behavior of most zip
+│                               │                   implementations. This misalignment could be exploited to
+│                               │                   create an zip file with contents that vary depending on the
+│                               │                    implementation reading the file. The archive/zip package
+│                               │                   now rejects files containing these errors. 
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ╭ bitnami: 2 
+│                               │                  ├ nvd    : 2 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                               │                  │         │           C:N/I:H/A:N 
+│                               │                  │         ╰ V3Score : 5.5 
+│                               │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                               │                  │         │           C:N/I:H/A:N 
+│                               │                  │         ╰ V3Score : 5.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                               │                            │           C:N/I:H/A:N 
+│                               │                            ╰ V3Score : 7.5 
 │                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
 │                               │                  │      06/04/1 
-│                               │                  ├ [1]: https://go.dev/cl/590316 
-│                               │                  ├ [2]: https://go.dev/issue/67680 
-│                               │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
+│                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24789 
+│                               │                  ├ [2]: https://go.dev/cl/585397 
+│                               │                  ├ [3]: https://go.dev/issue/66869 
+│                               │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xb
 │                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                               │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
-│                               ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                               ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
+│                               │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                               │                  │      ckage-announce@lists.fedoraproject.org/message/U5YAEI
+│                               │                  │      A6IUHUNGJ7AIXXPQT6D2GYENX7/ 
+│                               │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                               │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                               │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                               ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                               ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
 ├ [4]  ╭ Target         : tmp/tmp.itIpQ0alMY/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -7107,7 +7246,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -7539,7 +7678,7 @@
 │                        │      │                  ├ [36] : https://edg.io/lp/blog/resets-leaks-ddos-and-t
 │                        │      │                  │        he-tale-of-a-hidden-cve 
 │                        │      │                  ├ [37] : https://errata.almalinux.org/9/ALSA-2023-6746.html 
-│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5838 
+│                        │      │                  ├ [38] : https://errata.rockylinux.org/RLSA-2023:5928 
 │                        │      │                  ├ [39] : https://forums.swift.org/t/swift-nio-http2-sec
 │                        │      │                  │        urity-update-cve-2023-44487-http-2-dos/67764
 │                        │      │                  │        [m 
@@ -8013,7 +8152,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -8039,7 +8178,54 @@
 │                        │      │                  ╰ [32]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T18:15:10.493Z 
-│                        ├ [4]  ╭ VulnerabilityID : CVE-2023-39325 
+│                        ├ [4]  ╭ VulnerabilityID : CVE-2024-24790 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
+│                        │      │                  ╰ UID : 9d5d0e876b61be73 
+│                        │      ├ InstalledVersion: 1.20.5 
+│                        │      ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:3d796d470b9a85e9772fc35601297c6c3a6454
+│                        │      │                  │         875aee4c604477ef43dfaa85aa 
+│                        │      │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707
+│                        │      │                            ae9c4b50516e31f881d5b116ac 
+│                        │      ├ SeveritySource  : nvd 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : golang: net/netip: Unexpected behavior from Is methods
+│                        │      │                    for IPv4-mapped IPv6 addresses 
+│                        │      ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc)
+│                        │      │                   did not work as expected for IPv4-mapped IPv6 addresses,
+│                        │      │                   returning false for addresses which would return true in
+│                        │      │                   their traditional IPv4 forms. 
+│                        │      ├ Severity        : CRITICAL 
+│                        │      ├ VendorSeverity   ╭ bitnami: 4 
+│                        │      │                  ├ nvd    : 4 
+│                        │      │                  ╰ redhat : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:H/I:H/A:H 
+│                        │      │                  │         ╰ V3Score : 9.8 
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:H/I:H/A:H 
+│                        │      │                  │         ╰ V3Score : 9.8 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/
+│                        │      │                            │           C:H/I:H/A:N 
+│                        │      │                            ╰ V3Score : 6.7 
+│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
+│                        │      │                  │      06/04/1 
+│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24790 
+│                        │      │                  ├ [2]: https://go.dev/cl/590316 
+│                        │      │                  ├ [3]: https://go.dev/issue/67680 
+│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xb
+│                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
+│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
+│                        │      ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
+│                        │      ╰ LastModifiedDate: 2024-06-18T17:59:12.547Z 
+│                        ├ [5]  ╭ VulnerabilityID : CVE-2023-39325 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -8118,7 +8304,7 @@
 │                        │      │                  ├ [10] : https://cve.mitre.org/cgi-bin/cvename.cgi?name
 │                        │      │                  │        =CVE-2023-44487 
 │                        │      │                  ├ [11] : https://errata.almalinux.org/9/ALSA-2023-6077.html 
-│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:6077 
+│                        │      │                  ├ [12] : https://errata.rockylinux.org/RLSA-2023:5863 
 │                        │      │                  ├ [13] : https://github.com/golang/go/commit/24ae2d9272
 │                        │      │                  │        85c697440fdde3ad7f26028354bcf3 [golang-
 │                        │      │                  │        1.21] 
@@ -8363,7 +8549,7 @@
 │                        │      │                  ╰ [101]: https://www.cve.org/CVERecord?id=CVE-2023-39325 
 │                        │      ├ PublishedDate   : 2023-10-11T22:15:09.88Z 
 │                        │      ╰ LastModifiedDate: 2024-04-28T04:15:09.877Z 
-│                        ├ [5]  ╭ VulnerabilityID : CVE-2023-45283 
+│                        ├ [6]  ╭ VulnerabilityID : CVE-2023-45283 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -8430,7 +8616,7 @@
 │                        │      │                         14-0008/ 
 │                        │      ├ PublishedDate   : 2023-11-09T17:15:08.757Z 
 │                        │      ╰ LastModifiedDate: 2023-12-14T10:15:07.947Z 
-│                        ├ [6]  ╭ VulnerabilityID : CVE-2023-45288 
+│                        ├ [7]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -8501,7 +8687,7 @@
 │                        │      │                  ├ [15]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [16]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [17]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [18]: https://go.dev/cl/576155 
 │                        │      │                  ├ [19]: https://go.dev/issue/65051 
 │                        │      │                  ├ [20]: https://groups.google.com/g/golang-announce/c/Y
@@ -8527,7 +8713,7 @@
 │                        │      │                  ╰ [32]: https://www.kb.cert.org/vuls/id/421644 
 │                        │      ├ PublishedDate   : 2024-04-04T21:15:16.113Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T18:15:10.493Z 
-│                        ├ [7]  ╭ VulnerabilityID : CVE-2023-29406 
+│                        ├ [8]  ╭ VulnerabilityID : CVE-2023-29406 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -8605,7 +8791,7 @@
 │                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2023-29406 
 │                        │      ├ PublishedDate   : 2023-07-11T20:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.727Z 
-│                        ├ [8]  ╭ VulnerabilityID : CVE-2023-29409 
+│                        ├ [9]  ╭ VulnerabilityID : CVE-2023-29409 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -8677,7 +8863,7 @@
 │                        │      │                  ╰ [17]: https://www.cve.org/CVERecord?id=CVE-2023-29409 
 │                        │      ├ PublishedDate   : 2023-08-02T20:15:11.94Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:14.87Z 
-│                        ├ [9]  ╭ VulnerabilityID : CVE-2023-39318 
+│                        ├ [10] ╭ VulnerabilityID : CVE-2023-39318 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -8750,7 +8936,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39318 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.823Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.43Z 
-│                        ├ [10] ╭ VulnerabilityID : CVE-2023-39319 
+│                        ├ [11] ╭ VulnerabilityID : CVE-2023-39319 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -8824,7 +9010,7 @@
 │                        │      │                  ╰ [20]: https://www.cve.org/CVERecord?id=CVE-2023-39319 
 │                        │      ├ PublishedDate   : 2023-09-08T17:15:27.91Z 
 │                        │      ╰ LastModifiedDate: 2023-11-25T11:15:17.543Z 
-│                        ├ [11] ╭ VulnerabilityID : CVE-2023-39326 
+│                        ├ [12] ╭ VulnerabilityID : CVE-2023-39326 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -8900,7 +9086,7 @@
 │                        │      │                  ╰ [16]: https://www.cve.org/CVERecord?id=CVE-2023-39326 
 │                        │      ├ PublishedDate   : 2023-12-06T17:15:07.147Z 
 │                        │      ╰ LastModifiedDate: 2024-01-20T04:15:07.89Z 
-│                        ├ [12] ╭ VulnerabilityID : CVE-2023-45284 
+│                        ├ [13] ╭ VulnerabilityID : CVE-2023-45284 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -8944,7 +9130,7 @@
 │                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2023-2186 
 │                        │      ├ PublishedDate   : 2023-11-09T17:15:08.813Z 
 │                        │      ╰ LastModifiedDate: 2023-11-17T16:39:27.45Z 
-│                        ├ [13] ╭ VulnerabilityID : CVE-2023-45289 
+│                        ├ [14] ╭ VulnerabilityID : CVE-2023-45289 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -9001,7 +9187,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://go.dev/cl/569340 
 │                        │      │                  ├ [18]: https://go.dev/issue/65065 
 │                        │      │                  ├ [19]: https://groups.google.com/g/golang-announce/c/5
@@ -9015,7 +9201,7 @@
 │                        │      │                  ╰ [25]: https://www.cve.org/CVERecord?id=CVE-2023-45289 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.137Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:25.983Z 
-│                        ├ [14] ╭ VulnerabilityID : CVE-2023-45290 
+│                        ├ [15] ╭ VulnerabilityID : CVE-2023-45290 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -9072,7 +9258,7 @@
 │                        │      │                  ├ [11]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [12]: https://errata.almalinux.org/9/ALSA-2024-3831.html 
-│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [13]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [14]: https://go.dev/cl/569341 
 │                        │      │                  ├ [15]: https://go.dev/issue/65383 
 │                        │      │                  ├ [16]: https://groups.google.com/g/golang-announce/c/5
@@ -9088,7 +9274,7 @@
 │                        │      │                  ╰ [23]: https://www.cve.org/CVERecord?id=CVE-2023-45290 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.21Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:26.04Z 
-│                        ├ [15] ╭ VulnerabilityID : CVE-2024-24783 
+│                        ├ [16] ╭ VulnerabilityID : CVE-2024-24783 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -9144,7 +9330,7 @@
 │                        │      │                  ├ [14]: https://cve.mitre.org/cgi-bin/cvename.cgi?name=
 │                        │      │                  │       CVE-2024-24783 
 │                        │      │                  ├ [15]: https://errata.almalinux.org/9/ALSA-2024-2724.html 
-│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:2724 
+│                        │      │                  ├ [16]: https://errata.rockylinux.org/RLSA-2024:3346 
 │                        │      │                  ├ [17]: https://github.com/advisories/GHSA-3q2c-pvp5-3cqp 
 │                        │      │                  ├ [18]: https://go.dev/cl/569339 
 │                        │      │                  ├ [19]: https://go.dev/issue/65390 
@@ -9161,7 +9347,7 @@
 │                        │      │                  ╰ [27]: https://www.cve.org/CVERecord?id=CVE-2024-24783 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.683Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.45Z 
-│                        ├ [16] ╭ VulnerabilityID : CVE-2024-24784 
+│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24784 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -9241,7 +9427,7 @@
 │                        │      │                  ╰ [34]: https://www.cve.org/CVERecord?id=CVE-2024-24784 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.733Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.527Z 
-│                        ├ [17] ╭ VulnerabilityID : CVE-2024-24785 
+│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24785 
 │                        │      ├ PkgName         : stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                        │      │                  ╰ UID : 9d5d0e876b61be73 
@@ -9322,40 +9508,7 @@
 │                        │      │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
-│                        ├ [18] ╭ VulnerabilityID : CVE-2024-24789 
-│                        │      ├ PkgName         : stdlib 
-│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
-│                        │      │                  ╰ UID : 9d5d0e876b61be73 
-│                        │      ├ InstalledVersion: 1.20.5 
-│                        │      ├ FixedVersion    : 1.21.11, 1.22.4 
-│                        │      ├ Status          : fixed 
-│                        │      ├ Layer            ╭ Digest: sha256:3d796d470b9a85e9772fc35601297c6c3a6454
-│                        │      │                  │         875aee4c604477ef43dfaa85aa 
-│                        │      │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707
-│                        │      │                            ae9c4b50516e31f881d5b116ac 
-│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
-│                        │      ├ DataSource       ╭ ID  : govulndb 
-│                        │      │                  ├ Name: The Go Vulnerability Database 
-│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │      ├ Title           : The archive/zip package's handling of certain types of
-│                        │      │                    invalid zip fil ... 
-│                        │      ├ Description     : The archive/zip package's handling of certain types of
-│                        │      │                    invalid zip files differs from the behavior of most zip
-│                        │      │                   implementations. This misalignment could be exploited to
-│                        │      │                   create an zip file with contents that vary depending on the
-│                        │      │                    implementation reading the file. The archive/zip package
-│                        │      │                   now rejects files containing these errors. 
-│                        │      ├ Severity        : UNKNOWN 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      06/04/1 
-│                        │      │                  ├ [1]: https://go.dev/cl/585397 
-│                        │      │                  ├ [2]: https://go.dev/issue/66869 
-│                        │      │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
-│                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
-│                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24790 
+│                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24789 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                               │                  ╰ UID : 9d5d0e876b61be73 
@@ -9366,30 +9519,51 @@
 │                               │                  │         875aee4c604477ef43dfaa85aa 
 │                               │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707
 │                               │                            ae9c4b50516e31f881d5b116ac 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
+│                               ├ SeveritySource  : nvd 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ├ Title           : The various Is methods (IsPrivate, IsLoopback, etc)
-│                               │                   did not work as ex ... 
-│                               ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc)
-│                               │                   did not work as expected for IPv4-mapped IPv6 addresses,
-│                               │                   returning false for addresses which would return true in
-│                               │                   their traditional IPv4 forms. 
-│                               ├ Severity        : UNKNOWN 
+│                               ├ Title           : golang: archive/zip: Incorrect handling of certain ZIP
+│                               │                    files 
+│                               ├ Description     : The archive/zip package's handling of certain types of
+│                               │                    invalid zip files differs from the behavior of most zip
+│                               │                   implementations. This misalignment could be exploited to
+│                               │                   create an zip file with contents that vary depending on the
+│                               │                    implementation reading the file. The archive/zip package
+│                               │                   now rejects files containing these errors. 
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ╭ bitnami: 2 
+│                               │                  ├ nvd    : 2 
+│                               │                  ╰ redhat : 2 
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                               │                  │         │           C:N/I:H/A:N 
+│                               │                  │         ╰ V3Score : 5.5 
+│                               │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                               │                  │         │           C:N/I:H/A:N 
+│                               │                  │         ╰ V3Score : 5.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                               │                            │           C:N/I:H/A:N 
+│                               │                            ╰ V3Score : 7.5 
 │                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
 │                               │                  │      06/04/1 
-│                               │                  ├ [1]: https://go.dev/cl/590316 
-│                               │                  ├ [2]: https://go.dev/issue/67680 
-│                               │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xb
+│                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24789 
+│                               │                  ├ [2]: https://go.dev/cl/585397 
+│                               │                  ├ [3]: https://go.dev/issue/66869 
+│                               │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xb
 │                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                               │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
-│                               ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                               ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
+│                               │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
+│                               │                  │      ckage-announce@lists.fedoraproject.org/message/U5YAEI
+│                               │                  │      A6IUHUNGJ7AIXXPQT6D2GYENX7/ 
+│                               │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                               │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                               │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                               ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                               ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
-│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-24789 
+│      ╰ Vulnerabilities ╭ [0] ╭ VulnerabilityID : CVE-2024-24790 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.10 
 │                        │     │                  ╰ UID : eea260c4ab298188 
@@ -9400,29 +9574,43 @@
 │                        │     │                  │         75aee4c604477ef43dfaa85aa 
 │                        │     │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707a
 │                        │     │                            e9c4b50516e31f881d5b116ac 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                        │     ├ SeveritySource  : nvd 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
 │                        │     ├ DataSource       ╭ ID  : govulndb 
 │                        │     │                  ├ Name: The Go Vulnerability Database 
 │                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : The archive/zip package's handling of certain types of
-│                        │     │                   invalid zip fil ... 
-│                        │     ├ Description     : The archive/zip package's handling of certain types of
-│                        │     │                   invalid zip files differs from the behavior of most zip
-│                        │     │                   implementations. This misalignment could be exploited to
-│                        │     │                   create an zip file with contents that vary depending on the
-│                        │     │                   implementation reading the file. The archive/zip package now
-│                        │     │                    rejects files containing these errors. 
-│                        │     ├ Severity        : UNKNOWN 
+│                        │     ├ Title           : golang: net/netip: Unexpected behavior from Is methods
+│                        │     │                   for IPv4-mapped IPv6 addresses 
+│                        │     ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                        │     │                    not work as expected for IPv4-mapped IPv6 addresses,
+│                        │     │                   returning false for addresses which would return true in
+│                        │     │                   their traditional IPv4 forms. 
+│                        │     ├ Severity        : CRITICAL 
+│                        │     ├ VendorSeverity   ╭ bitnami: 4 
+│                        │     │                  ├ nvd    : 4 
+│                        │     │                  ╰ redhat : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │     │                  │         │           :H/I:H/A:H 
+│                        │     │                  │         ╰ V3Score : 9.8 
+│                        │     │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │     │                  │         │           :H/I:H/A:H 
+│                        │     │                  │         ╰ V3Score : 9.8 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C
+│                        │     │                            │           :H/I:H/A:N 
+│                        │     │                            ╰ V3Score : 6.7 
 │                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
 │                        │     │                  │      6/04/1 
-│                        │     │                  ├ [1]: https://go.dev/cl/585397 
-│                        │     │                  ├ [2]: https://go.dev/issue/66869 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24790 
+│                        │     │                  ├ [2]: https://go.dev/cl/590316 
+│                        │     │                  ├ [3]: https://go.dev/issue/67680 
+│                        │     │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xbx
 │                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
-│                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24790 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
+│                        │     ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
+│                        │     ╰ LastModifiedDate: 2024-06-18T17:59:12.547Z 
+│                        ╰ [1] ╭ VulnerabilityID : CVE-2024-24789 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.10 
 │                              │                  ╰ UID : eea260c4ab298188 
@@ -9433,26 +9621,46 @@
 │                              │                  │         75aee4c604477ef43dfaa85aa 
 │                              │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707a
 │                              │                            e9c4b50516e31f881d5b116ac 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
+│                              ├ SeveritySource  : nvd 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : The various Is methods (IsPrivate, IsLoopback, etc) did
-│                              │                    not work as ex ... 
-│                              ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc) did
-│                              │                    not work as expected for IPv4-mapped IPv6 addresses,
-│                              │                   returning false for addresses which would return true in
-│                              │                   their traditional IPv4 forms. 
-│                              ├ Severity        : UNKNOWN 
+│                              ├ Title           : golang: archive/zip: Incorrect handling of certain ZIP files 
+│                              ├ Description     : The archive/zip package's handling of certain types of
+│                              │                   invalid zip files differs from the behavior of most zip
+│                              │                   implementations. This misalignment could be exploited to
+│                              │                   create an zip file with contents that vary depending on the
+│                              │                   implementation reading the file. The archive/zip package now
+│                              │                    rejects files containing these errors. 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ╭ bitnami: 2 
+│                              │                  ├ nvd    : 2 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                              │                  │         │           :N/I:H/A:N 
+│                              │                  │         ╰ V3Score : 5.5 
+│                              │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                              │                  │         │           :N/I:H/A:N 
+│                              │                  │         ╰ V3Score : 5.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              │                            │           :N/I:H/A:N 
+│                              │                            ╰ V3Score : 7.5 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
 │                              │                  │      6/04/1 
-│                              │                  ├ [1]: https://go.dev/cl/590316 
-│                              │                  ├ [2]: https://go.dev/issue/67680 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24789 
+│                              │                  ├ [2]: https://go.dev/cl/585397 
+│                              │                  ├ [3]: https://go.dev/issue/66869 
+│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
-│                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
+│                              │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                              │                  │      kage-announce@lists.fedoraproject.org/message/U5YAEIA6
+│                              │                  │      IUHUNGJ7AIXXPQT6D2GYENX7/ 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                              ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                              ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
 ├ [6]  ╭ Target: usr/bin/helm 
 │      ├ Class : lang-pkgs 
 │      ╰ Type  : gobinary 
@@ -9523,7 +9731,54 @@
 │                        │     │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-32473 
 │                        │     ├ PublishedDate   : 2024-04-18T22:15:10.4Z 
 │                        │     ╰ LastModifiedDate: 2024-04-19T13:10:25.637Z 
-│                        ├ [1] ╭ VulnerabilityID : CVE-2024-24788 
+│                        ├ [1] ╭ VulnerabilityID : CVE-2024-24790 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
+│                        │     │                  ╰ UID : 36ffbab8aa163593 
+│                        │     ├ InstalledVersion: 1.22.2 
+│                        │     ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:3d796d470b9a85e9772fc35601297c6c3a64548
+│                        │     │                  │         75aee4c604477ef43dfaa85aa 
+│                        │     │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707a
+│                        │     │                            e9c4b50516e31f881d5b116ac 
+│                        │     ├ SeveritySource  : nvd 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : golang: net/netip: Unexpected behavior from Is methods
+│                        │     │                   for IPv4-mapped IPv6 addresses 
+│                        │     ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc) did
+│                        │     │                    not work as expected for IPv4-mapped IPv6 addresses,
+│                        │     │                   returning false for addresses which would return true in
+│                        │     │                   their traditional IPv4 forms. 
+│                        │     ├ Severity        : CRITICAL 
+│                        │     ├ VendorSeverity   ╭ bitnami: 4 
+│                        │     │                  ├ nvd    : 4 
+│                        │     │                  ╰ redhat : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │     │                  │         │           :H/I:H/A:H 
+│                        │     │                  │         ╰ V3Score : 9.8 
+│                        │     │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │     │                  │         │           :H/I:H/A:H 
+│                        │     │                  │         ╰ V3Score : 9.8 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C
+│                        │     │                            │           :H/I:H/A:N 
+│                        │     │                            ╰ V3Score : 6.7 
+│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
+│                        │     │                  │      6/04/1 
+│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24790 
+│                        │     │                  ├ [2]: https://go.dev/cl/590316 
+│                        │     │                  ├ [3]: https://go.dev/issue/67680 
+│                        │     │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xbx
+│                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
+│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
+│                        │     ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
+│                        │     ╰ LastModifiedDate: 2024-06-18T17:59:12.547Z 
+│                        ├ [2] ╭ VulnerabilityID : CVE-2024-24788 
 │                        │     ├ PkgName         : stdlib 
 │                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
 │                        │     │                  ╰ UID : 36ffbab8aa163593 
@@ -9564,40 +9819,7 @@
 │                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
 │                        │     ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
 │                        │     ╰ LastModifiedDate: 2024-06-14T13:15:50.67Z 
-│                        ├ [2] ╭ VulnerabilityID : CVE-2024-24789 
-│                        │     ├ PkgName         : stdlib 
-│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
-│                        │     │                  ╰ UID : 36ffbab8aa163593 
-│                        │     ├ InstalledVersion: 1.22.2 
-│                        │     ├ FixedVersion    : 1.21.11, 1.22.4 
-│                        │     ├ Status          : fixed 
-│                        │     ├ Layer            ╭ Digest: sha256:3d796d470b9a85e9772fc35601297c6c3a64548
-│                        │     │                  │         75aee4c604477ef43dfaa85aa 
-│                        │     │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707a
-│                        │     │                            e9c4b50516e31f881d5b116ac 
-│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
-│                        │     ├ DataSource       ╭ ID  : govulndb 
-│                        │     │                  ├ Name: The Go Vulnerability Database 
-│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                        │     ├ Title           : The archive/zip package's handling of certain types of
-│                        │     │                   invalid zip fil ... 
-│                        │     ├ Description     : The archive/zip package's handling of certain types of
-│                        │     │                   invalid zip files differs from the behavior of most zip
-│                        │     │                   implementations. This misalignment could be exploited to
-│                        │     │                   create an zip file with contents that vary depending on the
-│                        │     │                   implementation reading the file. The archive/zip package now
-│                        │     │                    rejects files containing these errors. 
-│                        │     ├ Severity        : UNKNOWN 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
-│                        │     │                  │      6/04/1 
-│                        │     │                  ├ [1]: https://go.dev/cl/585397 
-│                        │     │                  ├ [2]: https://go.dev/issue/66869 
-│                        │     │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
-│                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                        │     ╰ LastModifiedDate: 2024-06-10T18:15:26.897Z 
-│                        ╰ [3] ╭ VulnerabilityID : CVE-2024-24790 
+│                        ╰ [3] ╭ VulnerabilityID : CVE-2024-24789 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
 │                              │                  ╰ UID : 36ffbab8aa163593 
@@ -9608,26 +9830,46 @@
 │                              │                  │         75aee4c604477ef43dfaa85aa 
 │                              │                  ╰ DiffID: sha256:b3ad705aca5384f4bdf3560fe7ea9c74e59707a
 │                              │                            e9c4b50516e31f881d5b116ac 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24790 
+│                              ├ SeveritySource  : nvd 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : The various Is methods (IsPrivate, IsLoopback, etc) did
-│                              │                    not work as ex ... 
-│                              ├ Description     : The various Is methods (IsPrivate, IsLoopback, etc) did
-│                              │                    not work as expected for IPv4-mapped IPv6 addresses,
-│                              │                   returning false for addresses which would return true in
-│                              │                   their traditional IPv4 forms. 
-│                              ├ Severity        : UNKNOWN 
+│                              ├ Title           : golang: archive/zip: Incorrect handling of certain ZIP files 
+│                              ├ Description     : The archive/zip package's handling of certain types of
+│                              │                   invalid zip files differs from the behavior of most zip
+│                              │                   implementations. This misalignment could be exploited to
+│                              │                   create an zip file with contents that vary depending on the
+│                              │                   implementation reading the file. The archive/zip package now
+│                              │                    rejects files containing these errors. 
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ╭ bitnami: 2 
+│                              │                  ├ nvd    : 2 
+│                              │                  ╰ redhat : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                              │                  │         │           :N/I:H/A:N 
+│                              │                  │         ╰ V3Score : 5.5 
+│                              │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                              │                  │         │           :N/I:H/A:N 
+│                              │                  │         ╰ V3Score : 5.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              │                            │           :N/I:H/A:N 
+│                              │                            ╰ V3Score : 7.5 
 │                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
 │                              │                  │      6/04/1 
-│                              │                  ├ [1]: https://go.dev/cl/590316 
-│                              │                  ├ [2]: https://go.dev/issue/67680 
-│                              │                  ├ [3]: https://groups.google.com/g/golang-announce/c/Xbx
+│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24789 
+│                              │                  ├ [2]: https://go.dev/cl/585397 
+│                              │                  ├ [3]: https://go.dev/issue/66869 
+│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xbx
 │                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ╰ [4]: https://pkg.go.dev/vuln/GO-2024-2887 
-│                              ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
-│                              ╰ LastModifiedDate: 2024-06-10T18:15:26.953Z 
+│                              │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
+│                              │                  │      kage-announce@lists.fedoraproject.org/message/U5YAEIA6
+│                              │                  │      IUHUNGJ7AIXXPQT6D2GYENX7/ 
+│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                              ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                              ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 

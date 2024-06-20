@@ -137,7 +137,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -193,7 +193,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1033,7 +1033,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2213166
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969
     - https://errata.almalinux.org/9/ALSA-2023-4569.html
-    - https://errata.rockylinux.org/RLSA-2023:4569
+    - https://errata.rockylinux.org/RLSA-2023:4498
     - https://gitlab.freedesktop.org/dbus/dbus/-/issues/457
     - https://linux.oracle.com/cve/CVE-2023-34969.html
     - https://linux.oracle.com/errata/ELSA-2023-4569.html
@@ -1239,6 +1239,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -1249,7 +1250,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://linux.oracle.com/cve/CVE-2024-26458.html
     - https://linux.oracle.com/errata/ELSA-2024-3268.html
@@ -1285,6 +1291,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -1295,7 +1302,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://linux.oracle.com/cve/CVE-2024-26461.html
     - https://linux.oracle.com/errata/ELSA-2024-3268.html
@@ -1369,6 +1381,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -1379,7 +1392,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://linux.oracle.com/cve/CVE-2024-26458.html
     - https://linux.oracle.com/errata/ELSA-2024-3268.html
@@ -1415,6 +1433,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -1425,7 +1444,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://linux.oracle.com/cve/CVE-2024-26461.html
     - https://linux.oracle.com/errata/ELSA-2024-3268.html
@@ -1499,6 +1523,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -1509,7 +1534,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://linux.oracle.com/cve/CVE-2024-26458.html
     - https://linux.oracle.com/errata/ELSA-2024-3268.html
@@ -1545,6 +1575,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -1555,7 +1586,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://linux.oracle.com/cve/CVE-2024-26461.html
     - https://linux.oracle.com/errata/ELSA-2024-3268.html
@@ -1629,6 +1665,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -1639,7 +1676,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-26458
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_1.md
     - https://linux.oracle.com/cve/CVE-2024-26458.html
     - https://linux.oracle.com/errata/ELSA-2024-3268.html
@@ -1675,6 +1717,7 @@
       oracle-oval: 1
       photon: 2
       redhat: 1
+      rocky: 1
       ubuntu: 1
     CVSS:
       redhat:
@@ -1685,7 +1728,12 @@
     - https://access.redhat.com/security/cve/CVE-2024-26461
     - https://bugzilla.redhat.com/2266731
     - https://bugzilla.redhat.com/2266740
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266731
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2266740
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26458
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26461
     - https://errata.almalinux.org/8/ALSA-2024-3268.html
+    - https://errata.rockylinux.org/RLSA-2024:3268
     - https://github.com/LuMingYinDetect/krb5_defects/blob/main/krb5_detect_2.md
     - https://linux.oracle.com/cve/CVE-2024-26461.html
     - https://linux.oracle.com/errata/ELSA-2024-3268.html
@@ -3899,6 +3947,41 @@
     - https://www.cve.org/CVERecord?id=CVE-2021-31879
     PublishedDate: '2021-04-29T05:15:08.707Z'
     LastModifiedDate: '2022-05-13T20:52:24.793Z'
+  - VulnerabilityID: CVE-2024-38428
+    PkgID: wget@1.21.2-2ubuntu1
+    PkgName: wget
+    PkgIdentifier:
+      PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&distro=ubuntu-22.04
+      UID: eb163e2d3f34768c
+    InstalledVersion: 1.21.2-2ubuntu1
+    Status: affected
+    Layer:
+      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
+      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: ubuntu
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-38428
+    DataSource:
+      ID: ubuntu
+      Name: Ubuntu CVE Tracker
+      URL: https://git.launchpad.net/ubuntu-cve-tracker
+    Title: 'wget: Misinterpretation of input may lead to improper behavior'
+    Description: url.c in GNU Wget through 1.24.5 mishandles semicolons in the userinfo subcomponent of a URI, and thus there may be insecure behavior in which data that was supposed to be in the userinfo subcomponent is misinterpreted to be part of the host subcomponent.
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+      ubuntu: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 5.4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2024-38428
+    - https://git.savannah.gnu.org/cgit/wget.git/commit/?id=ed0c7c7e0e8f7298352646b2fd6e06a11e242ace
+    - https://lists.gnu.org/archive/html/bug-wget/2024-06/msg00005.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-38428
+    - https://www.cve.org/CVERecord?id=CVE-2024-38428
+    PublishedDate: '2024-06-16T03:15:08.43Z'
+    LastModifiedDate: '2024-06-17T12:42:04.623Z'
   - VulnerabilityID: CVE-2020-22916
     PkgID: xz-utils@5.2.5-2ubuntu1
     PkgName: xz-utils
@@ -4065,7 +4148,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -4309,7 +4392,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -4558,7 +4641,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -4576,6 +4659,51 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-05-01T18:15:10.493Z'
+  - VulnerabilityID: CVE-2024-24790
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: a803c46e7bd27b90
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.11, 1.22.4
+    Status: fixed
+    Layer:
+      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
+      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses'
+    Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
+    Severity: CRITICAL
+    VendorSeverity:
+      bitnami: 4
+      nvd: 4
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24790
+    - https://go.dev/cl/590316
+    - https://go.dev/issue/67680
+    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24790
+    - https://pkg.go.dev/vuln/GO-2024-2887
+    - https://www.cve.org/CVERecord?id=CVE-2024-24790
+    PublishedDate: '2024-06-05T16:15:10.56Z'
+    LastModifiedDate: '2024-06-18T17:59:12.547Z'
   - VulnerabilityID: CVE-2023-39325
     PkgName: stdlib
     PkgIdentifier:
@@ -4635,7 +4763,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -4828,7 +4956,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -5262,7 +5390,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/569340
     - https://go.dev/issue/65065
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
@@ -5318,7 +5446,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-3831.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/569341
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
@@ -5378,7 +5506,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://github.com/advisories/GHSA-3q2c-pvp5-3cqp
     - https://go.dev/cl/569339
     - https://go.dev/issue/65390
@@ -5540,49 +5668,41 @@
     Layer:
       Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
       DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24789
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: The archive/zip package's handling of certain types of invalid zip fil ...
+    Title: 'golang: archive/zip: Incorrect handling of certain ZIP files'
     Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+      nvd: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24789
     - https://go.dev/cl/585397
     - https://go.dev/issue/66869
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
     - https://pkg.go.dev/vuln/GO-2024-2888
+    - https://www.cve.org/CVERecord?id=CVE-2024-24789
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-10T18:15:26.897Z'
-  - VulnerabilityID: CVE-2024-24790
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.20.5
-      UID: a803c46e7bd27b90
-    InstalledVersion: 1.20.5
-    FixedVersion: 1.21.11, 1.22.4
-    Status: fixed
-    Layer:
-      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
-      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The various Is methods (IsPrivate, IsLoopback, etc) did not work as ex ...
-    Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
-    Severity: UNKNOWN
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://go.dev/cl/590316
-    - https://go.dev/issue/67680
-    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
-    - https://pkg.go.dev/vuln/GO-2024-2887
-    PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-10T18:15:26.953Z'
+    LastModifiedDate: '2024-06-19T03:15:09.183Z'
 - Target: tmp/tmp.5PH8O5szn3/krew-linux_amd64
   Class: lang-pkgs
   Type: gobinary
@@ -5646,7 +5766,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -5890,7 +6010,7 @@
     - https://discuss.hashicorp.com/t/hcsec-2023-32-vault-consul-and-boundary-affected-by-http-2-rapid-reset-denial-of-service-vulnerability-cve-2023-44487/59715
     - https://edg.io/lp/blog/resets-leaks-ddos-and-the-tale-of-a-hidden-cve
     - https://errata.almalinux.org/9/ALSA-2023-6746.html
-    - https://errata.rockylinux.org/RLSA-2023:5838
+    - https://errata.rockylinux.org/RLSA-2023:5928
     - https://forums.swift.org/t/swift-nio-http2-security-update-cve-2023-44487-http-2-dos/67764
     - https://gist.github.com/adulau/7c2bfb8e9cdbe4b35a5e131c66a0c088
     - https://github.com/Azure/AKS/issues/3947
@@ -6139,7 +6259,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -6157,6 +6277,51 @@
     - https://www.kb.cert.org/vuls/id/421644
     PublishedDate: '2024-04-04T21:15:16.113Z'
     LastModifiedDate: '2024-05-01T18:15:10.493Z'
+  - VulnerabilityID: CVE-2024-24790
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.20.5
+      UID: 1662a1d3f5c274c5
+    InstalledVersion: 1.20.5
+    FixedVersion: 1.21.11, 1.22.4
+    Status: fixed
+    Layer:
+      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
+      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses'
+    Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
+    Severity: CRITICAL
+    VendorSeverity:
+      bitnami: 4
+      nvd: 4
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24790
+    - https://go.dev/cl/590316
+    - https://go.dev/issue/67680
+    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24790
+    - https://pkg.go.dev/vuln/GO-2024-2887
+    - https://www.cve.org/CVERecord?id=CVE-2024-24790
+    PublishedDate: '2024-06-05T16:15:10.56Z'
+    LastModifiedDate: '2024-06-18T17:59:12.547Z'
   - VulnerabilityID: CVE-2023-39325
     PkgName: stdlib
     PkgIdentifier:
@@ -6216,7 +6381,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487
     - https://errata.almalinux.org/9/ALSA-2023-6077.html
-    - https://errata.rockylinux.org/RLSA-2023:6077
+    - https://errata.rockylinux.org/RLSA-2023:5863
     - https://github.com/golang/go/commit/24ae2d927285c697440fdde3ad7f26028354bcf3 [golang- 1.21]
     - https://github.com/golang/go/commit/e175f27f58aa7b9cd4d79607ae65d2cd5baaee68 [golang-1.20]
     - https://github.com/golang/go/issues/63417
@@ -6409,7 +6574,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/576155
     - https://go.dev/issue/65051
     - https://groups.google.com/g/golang-announce/c/YgW0sx8mN3M
@@ -6843,7 +7008,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/569340
     - https://go.dev/issue/65065
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
@@ -6899,7 +7064,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-3831.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://go.dev/cl/569341
     - https://go.dev/issue/65383
     - https://groups.google.com/g/golang-announce/c/5pwGVUPoMbg
@@ -6959,7 +7124,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783
     - https://errata.almalinux.org/9/ALSA-2024-2724.html
-    - https://errata.rockylinux.org/RLSA-2024:2724
+    - https://errata.rockylinux.org/RLSA-2024:3346
     - https://github.com/advisories/GHSA-3q2c-pvp5-3cqp
     - https://go.dev/cl/569339
     - https://go.dev/issue/65390
@@ -7121,80 +7286,45 @@
     Layer:
       Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
       DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24789
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: The archive/zip package's handling of certain types of invalid zip fil ...
+    Title: 'golang: archive/zip: Incorrect handling of certain ZIP files'
     Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+      nvd: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24789
     - https://go.dev/cl/585397
     - https://go.dev/issue/66869
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
     - https://pkg.go.dev/vuln/GO-2024-2888
+    - https://www.cve.org/CVERecord?id=CVE-2024-24789
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-10T18:15:26.897Z'
-  - VulnerabilityID: CVE-2024-24790
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.20.5
-      UID: 1662a1d3f5c274c5
-    InstalledVersion: 1.20.5
-    FixedVersion: 1.21.11, 1.22.4
-    Status: fixed
-    Layer:
-      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
-      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The various Is methods (IsPrivate, IsLoopback, etc) did not work as ex ...
-    Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
-    Severity: UNKNOWN
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://go.dev/cl/590316
-    - https://go.dev/issue/67680
-    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
-    - https://pkg.go.dev/vuln/GO-2024-2887
-    PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-10T18:15:26.953Z'
+    LastModifiedDate: '2024-06-19T03:15:09.183Z'
 - Target: usr/bin/docker-compose
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
-  - VulnerabilityID: CVE-2024-24789
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.21.10
-      UID: eea260c4ab298188
-    InstalledVersion: 1.21.10
-    FixedVersion: 1.21.11, 1.22.4
-    Status: fixed
-    Layer:
-      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
-      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24789
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The archive/zip package's handling of certain types of invalid zip fil ...
-    Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
-    Severity: UNKNOWN
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://go.dev/cl/585397
-    - https://go.dev/issue/66869
-    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
-    - https://pkg.go.dev/vuln/GO-2024-2888
-    PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-10T18:15:26.897Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -7206,53 +7336,90 @@
     Layer:
       Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
       DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: The various Is methods (IsPrivate, IsLoopback, etc) did not work as ex ...
+    Title: 'golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses'
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
-    Severity: UNKNOWN
+    Severity: CRITICAL
+    VendorSeverity:
+      bitnami: 4
+      nvd: 4
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24790
     - https://go.dev/cl/590316
     - https://go.dev/issue/67680
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24790
     - https://pkg.go.dev/vuln/GO-2024-2887
+    - https://www.cve.org/CVERecord?id=CVE-2024-24790
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-10T18:15:26.953Z'
+    LastModifiedDate: '2024-06-18T17:59:12.547Z'
+  - VulnerabilityID: CVE-2024-24789
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.21.10
+      UID: eea260c4ab298188
+    InstalledVersion: 1.21.10
+    FixedVersion: 1.21.11, 1.22.4
+    Status: fixed
+    Layer:
+      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
+      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24789
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: archive/zip: Incorrect handling of certain ZIP files'
+    Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+      nvd: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24789
+    - https://go.dev/cl/585397
+    - https://go.dev/issue/66869
+    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
+    - https://pkg.go.dev/vuln/GO-2024-2888
+    - https://www.cve.org/CVERecord?id=CVE-2024-24789
+    PublishedDate: '2024-06-05T16:15:10.47Z'
+    LastModifiedDate: '2024-06-19T03:15:09.183Z'
 - Target: usr/bin/helm
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
-  - VulnerabilityID: CVE-2024-24789
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.22.3
-      UID: '6580e76646607095'
-    InstalledVersion: 1.22.3
-    FixedVersion: 1.21.11, 1.22.4
-    Status: fixed
-    Layer:
-      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
-      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24789
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The archive/zip package's handling of certain types of invalid zip fil ...
-    Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
-    Severity: UNKNOWN
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://go.dev/cl/585397
-    - https://go.dev/issue/66869
-    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
-    - https://pkg.go.dev/vuln/GO-2024-2888
-    PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-10T18:15:26.897Z'
   - VulnerabilityID: CVE-2024-24790
     PkgName: stdlib
     PkgIdentifier:
@@ -7264,26 +7431,135 @@
     Layer:
       Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
       DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: The various Is methods (IsPrivate, IsLoopback, etc) did not work as ex ...
+    Title: 'golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses'
     Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
-    Severity: UNKNOWN
+    Severity: CRITICAL
+    VendorSeverity:
+      bitnami: 4
+      nvd: 4
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.7
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24790
     - https://go.dev/cl/590316
     - https://go.dev/issue/67680
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24790
     - https://pkg.go.dev/vuln/GO-2024-2887
+    - https://www.cve.org/CVERecord?id=CVE-2024-24790
     PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-10T18:15:26.953Z'
+    LastModifiedDate: '2024-06-18T17:59:12.547Z'
+  - VulnerabilityID: CVE-2024-24789
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.22.3
+      UID: '6580e76646607095'
+    InstalledVersion: 1.22.3
+    FixedVersion: 1.21.11, 1.22.4
+    Status: fixed
+    Layer:
+      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
+      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24789
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: archive/zip: Incorrect handling of certain ZIP files'
+    Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+      nvd: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24789
+    - https://go.dev/cl/585397
+    - https://go.dev/issue/66869
+    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
+    - https://pkg.go.dev/vuln/GO-2024-2888
+    - https://www.cve.org/CVERecord?id=CVE-2024-24789
+    PublishedDate: '2024-06-05T16:15:10.47Z'
+    LastModifiedDate: '2024-06-19T03:15:09.183Z'
 - Target: usr/bin/kubectl
   Class: lang-pkgs
   Type: gobinary
   Vulnerabilities:
+  - VulnerabilityID: CVE-2024-24790
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.22.2
+      UID: 211461cfb06bb9e7
+    InstalledVersion: 1.22.2
+    FixedVersion: 1.21.11, 1.22.4
+    Status: fixed
+    Layer:
+      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
+      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses'
+    Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
+    Severity: CRITICAL
+    VendorSeverity:
+      bitnami: 4
+      nvd: 4
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24790
+    - https://go.dev/cl/590316
+    - https://go.dev/issue/67680
+    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24790
+    - https://pkg.go.dev/vuln/GO-2024-2887
+    - https://www.cve.org/CVERecord?id=CVE-2024-24790
+    PublishedDate: '2024-06-05T16:15:10.56Z'
+    LastModifiedDate: '2024-06-18T17:59:12.547Z'
   - VulnerabilityID: CVE-2024-24788
     PkgName: stdlib
     PkgIdentifier:
@@ -7334,49 +7610,41 @@
     Layer:
       Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
       DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24789
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: The archive/zip package's handling of certain types of invalid zip fil ...
+    Title: 'golang: archive/zip: Incorrect handling of certain ZIP files'
     Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+      nvd: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24789
     - https://go.dev/cl/585397
     - https://go.dev/issue/66869
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
     - https://pkg.go.dev/vuln/GO-2024-2888
+    - https://www.cve.org/CVERecord?id=CVE-2024-24789
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-10T18:15:26.897Z'
-  - VulnerabilityID: CVE-2024-24790
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.22.2
-      UID: 211461cfb06bb9e7
-    InstalledVersion: 1.22.2
-    FixedVersion: 1.21.11, 1.22.4
-    Status: fixed
-    Layer:
-      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
-      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The various Is methods (IsPrivate, IsLoopback, etc) did not work as ex ...
-    Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
-    Severity: UNKNOWN
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://go.dev/cl/590316
-    - https://go.dev/issue/67680
-    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
-    - https://pkg.go.dev/vuln/GO-2024-2887
-    PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-10T18:15:26.953Z'
+    LastModifiedDate: '2024-06-19T03:15:09.183Z'
 - Target: usr/bin/mc
   Class: lang-pkgs
   Type: gobinary
@@ -7425,6 +7693,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-32473
     PublishedDate: '2024-04-18T22:15:10.4Z'
     LastModifiedDate: '2024-04-19T13:10:25.637Z'
+  - VulnerabilityID: CVE-2024-24790
+    PkgName: stdlib
+    PkgIdentifier:
+      PURL: pkg:golang/stdlib@1.22.2
+      UID: 36ffbab8aa163593
+    InstalledVersion: 1.22.2
+    FixedVersion: 1.21.11, 1.22.4
+    Status: fixed
+    Layer:
+      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
+      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
+    DataSource:
+      ID: govulndb
+      Name: The Go Vulnerability Database
+      URL: https://pkg.go.dev/vuln/
+    Title: 'golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses'
+    Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
+    Severity: CRITICAL
+    VendorSeverity:
+      bitnami: 4
+      nvd: 4
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N
+        V3Score: 6.7
+    References:
+    - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24790
+    - https://go.dev/cl/590316
+    - https://go.dev/issue/67680
+    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24790
+    - https://pkg.go.dev/vuln/GO-2024-2887
+    - https://www.cve.org/CVERecord?id=CVE-2024-24790
+    PublishedDate: '2024-06-05T16:15:10.56Z'
+    LastModifiedDate: '2024-06-18T17:59:12.547Z'
   - VulnerabilityID: CVE-2024-24788
     PkgName: stdlib
     PkgIdentifier:
@@ -7475,111 +7788,41 @@
     Layer:
       Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
       DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+    SeveritySource: nvd
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24789
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Title: The archive/zip package's handling of certain types of invalid zip fil ...
+    Title: 'golang: archive/zip: Incorrect handling of certain ZIP files'
     Description: The archive/zip package's handling of certain types of invalid zip files differs from the behavior of most zip implementations. This misalignment could be exploited to create an zip file with contents that vary depending on the implementation reading the file. The archive/zip package now rejects files containing these errors.
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      bitnami: 2
+      nvd: 2
+      redhat: 2
+    CVSS:
+      bitnami:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 7.5
     References:
     - http://www.openwall.com/lists/oss-security/2024/06/04/1
+    - https://access.redhat.com/security/cve/CVE-2024-24789
     - https://go.dev/cl/585397
     - https://go.dev/issue/66869
     - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
+    - https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/U5YAEIA6IUHUNGJ7AIXXPQT6D2GYENX7/
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24789
     - https://pkg.go.dev/vuln/GO-2024-2888
+    - https://www.cve.org/CVERecord?id=CVE-2024-24789
     PublishedDate: '2024-06-05T16:15:10.47Z'
-    LastModifiedDate: '2024-06-10T18:15:26.897Z'
-  - VulnerabilityID: CVE-2024-24790
-    PkgName: stdlib
-    PkgIdentifier:
-      PURL: pkg:golang/stdlib@1.22.2
-      UID: 36ffbab8aa163593
-    InstalledVersion: 1.22.2
-    FixedVersion: 1.21.11, 1.22.4
-    Status: fixed
-    Layer:
-      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
-      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2024-24790
-    DataSource:
-      ID: govulndb
-      Name: The Go Vulnerability Database
-      URL: https://pkg.go.dev/vuln/
-    Title: The various Is methods (IsPrivate, IsLoopback, etc) did not work as ex ...
-    Description: The various Is methods (IsPrivate, IsLoopback, etc) did not work as expected for IPv4-mapped IPv6 addresses, returning false for addresses which would return true in their traditional IPv4 forms.
-    Severity: UNKNOWN
-    References:
-    - http://www.openwall.com/lists/oss-security/2024/06/04/1
-    - https://go.dev/cl/590316
-    - https://go.dev/issue/67680
-    - https://groups.google.com/g/golang-announce/c/XbxouI9gY7k/m/TuoGEhxIEwAJ
-    - https://pkg.go.dev/vuln/GO-2024-2887
-    PublishedDate: '2024-06-05T16:15:10.56Z'
-    LastModifiedDate: '2024-06-10T18:15:26.953Z'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
-      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_rsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
-      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
-      CreatedBy: 'COPY / / # buildkit'
+    LastModifiedDate: '2024-06-19T03:15:09.183Z'
 - Target: /etc/ssh/ssh_host_dsa_key
   Class: secret
   Secrets:
@@ -7638,6 +7881,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
+      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
+      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_rsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
       DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
