@@ -2936,10 +2936,12 @@
 │                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d
 │                        │      │                  │      0605c826ef197aceedc67e8e04f065f740 
 │                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                        │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
+│                        │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-202406
+│                        │      │                  │      21-0001/ 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                        │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                        │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
+│                        │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
 │                        ├ [53] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : libssl3 
@@ -3951,10 +3953,12 @@
 │                        │      │                  ├ [5]: https://github.com/openssl/openssl/commit/da343d
 │                        │      │                  │      0605c826ef197aceedc67e8e04f065f740 
 │                        │      │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-4603 
-│                        │      │                  ├ [7]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
-│                        │      │                  ╰ [8]: https://www.openssl.org/news/secadv/20240516.txt 
+│                        │      │                  ├ [7]: https://security.netapp.com/advisory/ntap-202406
+│                        │      │                  │      21-0001/ 
+│                        │      │                  ├ [8]: https://www.cve.org/CVERecord?id=CVE-2024-4603 
+│                        │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
-│                        │      ╰ LastModifiedDate: 2024-06-10T17:16:33.69Z 
+│                        │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
 │                        ├ [71] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
@@ -5621,67 +5625,75 @@
 │                        │      │                  │        0426-0007 
 │                        │      │                  ├ [196]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0426-0007/ 
-│                        │      │                  ├ [197]: https://security.paloaltonetworks.com/CVE-2023
+│                        │      │                  ├ [197]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  │        0621-0006 
+│                        │      │                  ├ [198]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  │        0621-0006/ 
+│                        │      │                  ├ [199]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  │        0621-0007 
+│                        │      │                  ├ [200]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  │        0621-0007/ 
+│                        │      │                  ├ [201]: https://security.paloaltonetworks.com/CVE-2023
 │                        │      │                  │        -44487 
-│                        │      │                  ├ [198]: https://tomcat.apache.org/security-10.html#Fix
+│                        │      │                  ├ [202]: https://tomcat.apache.org/security-10.html#Fix
 │                        │      │                  │        ed_in_Apache_Tomcat_10.1.14 
-│                        │      │                  ├ [199]: https://tomcat.apache.org/security-11.html#Fix
+│                        │      │                  ├ [203]: https://tomcat.apache.org/security-11.html#Fix
 │                        │      │                  │        ed_in_Apache_Tomcat_11.0.0-M12 
-│                        │      │                  ├ [200]: https://tomcat.apache.org/security-8.html#Fixe
+│                        │      │                  ├ [204]: https://tomcat.apache.org/security-8.html#Fixe
 │                        │      │                  │        d_in_Apache_Tomcat_8.5.94 
-│                        │      │                  ├ [201]: https://tomcat.apache.org/security-9.html#Fixe
+│                        │      │                  ├ [205]: https://tomcat.apache.org/security-9.html#Fixe
 │                        │      │                  │        d_in_Apache_Tomcat_9.0.81 
-│                        │      │                  ├ [202]: https://ubuntu.com/security/CVE-2023-44487 
-│                        │      │                  ├ [203]: https://ubuntu.com/security/notices/USN-6427-1 
-│                        │      │                  ├ [204]: https://ubuntu.com/security/notices/USN-6427-2 
-│                        │      │                  ├ [205]: https://ubuntu.com/security/notices/USN-6438-1 
-│                        │      │                  ├ [206]: https://ubuntu.com/security/notices/USN-6505-1 
-│                        │      │                  ├ [207]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [208]: https://ubuntu.com/security/notices/USN-6754-1 
-│                        │      │                  ├ [209]: https://www.bleepingcomputer.com/news/security
+│                        │      │                  ├ [206]: https://ubuntu.com/security/CVE-2023-44487 
+│                        │      │                  ├ [207]: https://ubuntu.com/security/notices/USN-6427-1 
+│                        │      │                  ├ [208]: https://ubuntu.com/security/notices/USN-6427-2 
+│                        │      │                  ├ [209]: https://ubuntu.com/security/notices/USN-6438-1 
+│                        │      │                  ├ [210]: https://ubuntu.com/security/notices/USN-6505-1 
+│                        │      │                  ├ [211]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [212]: https://ubuntu.com/security/notices/USN-6754-1 
+│                        │      │                  ├ [213]: https://www.bleepingcomputer.com/news/security
 │                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
 │                        │      │                  │        -records 
-│                        │      │                  ├ [210]: https://www.bleepingcomputer.com/news/security
+│                        │      │                  ├ [214]: https://www.bleepingcomputer.com/news/security
 │                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
 │                        │      │                  │        -records/ 
-│                        │      │                  ├ [211]: https://www.cisa.gov/news-events/alerts/2023/1
+│                        │      │                  ├ [215]: https://www.cisa.gov/news-events/alerts/2023/1
 │                        │      │                  │        0/10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │      │                  │         
-│                        │      │                  ├ [212]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                        │      │                  ├ [213]: https://www.darkreading.com/cloud/internet-wid
+│                        │      │                  ├ [216]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                        │      │                  ├ [217]: https://www.darkreading.com/cloud/internet-wid
 │                        │      │                  │        e-zero-day-bug-fuels-largest-ever-ddos-event
 │                        │      │                  │        [m 
-│                        │      │                  ├ [214]: https://www.debian.org/security/2023/dsa-5521 
-│                        │      │                  ├ [215]: https://www.debian.org/security/2023/dsa-5522 
-│                        │      │                  ├ [216]: https://www.debian.org/security/2023/dsa-5540 
-│                        │      │                  ├ [217]: https://www.debian.org/security/2023/dsa-5549 
-│                        │      │                  ├ [218]: https://www.debian.org/security/2023/dsa-5558 
-│                        │      │                  ├ [219]: https://www.debian.org/security/2023/dsa-5570 
-│                        │      │                  ├ [220]: https://www.eclipse.org/lists/jetty-announce/m
+│                        │      │                  ├ [218]: https://www.debian.org/security/2023/dsa-5521 
+│                        │      │                  ├ [219]: https://www.debian.org/security/2023/dsa-5522 
+│                        │      │                  ├ [220]: https://www.debian.org/security/2023/dsa-5540 
+│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5549 
+│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5558 
+│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5570 
+│                        │      │                  ├ [224]: https://www.eclipse.org/lists/jetty-announce/m
 │                        │      │                  │        sg00181.html 
-│                        │      │                  ├ [221]: https://www.haproxy.com/blog/haproxy-is-not-af
+│                        │      │                  ├ [225]: https://www.haproxy.com/blog/haproxy-is-not-af
 │                        │      │                  │        fected-by-the-http-2-rapid-reset-attack-cve-2023-44
 │                        │      │                  │        487 
-│                        │      │                  ├ [222]: https://www.mail-archive.com/haproxy@formilux.
+│                        │      │                  ├ [226]: https://www.mail-archive.com/haproxy@formilux.
 │                        │      │                  │        org/msg44134.html 
-│                        │      │                  ├ [223]: https://www.netlify.com/blog/netlify-successfu
+│                        │      │                  ├ [227]: https://www.netlify.com/blog/netlify-successfu
 │                        │      │                  │        lly-mitigates-cve-2023-44487 
-│                        │      │                  ├ [224]: https://www.netlify.com/blog/netlify-successfu
+│                        │      │                  ├ [228]: https://www.netlify.com/blog/netlify-successfu
 │                        │      │                  │        lly-mitigates-cve-2023-44487/ 
-│                        │      │                  ├ [225]: https://www.nginx.com/blog/http-2-rapid-reset-
+│                        │      │                  ├ [229]: https://www.nginx.com/blog/http-2-rapid-reset-
 │                        │      │                  │        attack-impacting-f5-nginx-products 
-│                        │      │                  ├ [226]: https://www.nginx.com/blog/http-2-rapid-reset-
+│                        │      │                  ├ [230]: https://www.nginx.com/blog/http-2-rapid-reset-
 │                        │      │                  │        attack-impacting-f5-nginx-products/ 
-│                        │      │                  ├ [227]: https://www.openwall.com/lists/oss-security/20
+│                        │      │                  ├ [231]: https://www.openwall.com/lists/oss-security/20
 │                        │      │                  │        23/10/10/6 
-│                        │      │                  ├ [228]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
+│                        │      │                  ├ [232]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
 │                        │      │                  │        t-Attack 
-│                        │      │                  ├ [229]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ├ [233]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                  │        apid_reset_zeroday 
-│                        │      │                  ╰ [230]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ╰ [234]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                           apid_reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
-│                        │      ╰ LastModifiedDate: 2024-04-26T09:15:07.677Z 
+│                        │      ╰ LastModifiedDate: 2024-06-21T19:15:28.32Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -8018,67 +8030,75 @@
 │                        │      │                  │        0426-0007 
 │                        │      │                  ├ [196]: https://security.netapp.com/advisory/ntap-2024
 │                        │      │                  │        0426-0007/ 
-│                        │      │                  ├ [197]: https://security.paloaltonetworks.com/CVE-2023
+│                        │      │                  ├ [197]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  │        0621-0006 
+│                        │      │                  ├ [198]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  │        0621-0006/ 
+│                        │      │                  ├ [199]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  │        0621-0007 
+│                        │      │                  ├ [200]: https://security.netapp.com/advisory/ntap-2024
+│                        │      │                  │        0621-0007/ 
+│                        │      │                  ├ [201]: https://security.paloaltonetworks.com/CVE-2023
 │                        │      │                  │        -44487 
-│                        │      │                  ├ [198]: https://tomcat.apache.org/security-10.html#Fix
+│                        │      │                  ├ [202]: https://tomcat.apache.org/security-10.html#Fix
 │                        │      │                  │        ed_in_Apache_Tomcat_10.1.14 
-│                        │      │                  ├ [199]: https://tomcat.apache.org/security-11.html#Fix
+│                        │      │                  ├ [203]: https://tomcat.apache.org/security-11.html#Fix
 │                        │      │                  │        ed_in_Apache_Tomcat_11.0.0-M12 
-│                        │      │                  ├ [200]: https://tomcat.apache.org/security-8.html#Fixe
+│                        │      │                  ├ [204]: https://tomcat.apache.org/security-8.html#Fixe
 │                        │      │                  │        d_in_Apache_Tomcat_8.5.94 
-│                        │      │                  ├ [201]: https://tomcat.apache.org/security-9.html#Fixe
+│                        │      │                  ├ [205]: https://tomcat.apache.org/security-9.html#Fixe
 │                        │      │                  │        d_in_Apache_Tomcat_9.0.81 
-│                        │      │                  ├ [202]: https://ubuntu.com/security/CVE-2023-44487 
-│                        │      │                  ├ [203]: https://ubuntu.com/security/notices/USN-6427-1 
-│                        │      │                  ├ [204]: https://ubuntu.com/security/notices/USN-6427-2 
-│                        │      │                  ├ [205]: https://ubuntu.com/security/notices/USN-6438-1 
-│                        │      │                  ├ [206]: https://ubuntu.com/security/notices/USN-6505-1 
-│                        │      │                  ├ [207]: https://ubuntu.com/security/notices/USN-6574-1 
-│                        │      │                  ├ [208]: https://ubuntu.com/security/notices/USN-6754-1 
-│                        │      │                  ├ [209]: https://www.bleepingcomputer.com/news/security
+│                        │      │                  ├ [206]: https://ubuntu.com/security/CVE-2023-44487 
+│                        │      │                  ├ [207]: https://ubuntu.com/security/notices/USN-6427-1 
+│                        │      │                  ├ [208]: https://ubuntu.com/security/notices/USN-6427-2 
+│                        │      │                  ├ [209]: https://ubuntu.com/security/notices/USN-6438-1 
+│                        │      │                  ├ [210]: https://ubuntu.com/security/notices/USN-6505-1 
+│                        │      │                  ├ [211]: https://ubuntu.com/security/notices/USN-6574-1 
+│                        │      │                  ├ [212]: https://ubuntu.com/security/notices/USN-6754-1 
+│                        │      │                  ├ [213]: https://www.bleepingcomputer.com/news/security
 │                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
 │                        │      │                  │        -records 
-│                        │      │                  ├ [210]: https://www.bleepingcomputer.com/news/security
+│                        │      │                  ├ [214]: https://www.bleepingcomputer.com/news/security
 │                        │      │                  │        /new-http-2-rapid-reset-zero-day-attack-breaks-ddos
 │                        │      │                  │        -records/ 
-│                        │      │                  ├ [211]: https://www.cisa.gov/news-events/alerts/2023/1
+│                        │      │                  ├ [215]: https://www.cisa.gov/news-events/alerts/2023/1
 │                        │      │                  │        0/10/http2-rapid-reset-vulnerability-cve-2023-44487
 │                        │      │                  │         
-│                        │      │                  ├ [212]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
-│                        │      │                  ├ [213]: https://www.darkreading.com/cloud/internet-wid
+│                        │      │                  ├ [216]: https://www.cve.org/CVERecord?id=CVE-2023-44487 
+│                        │      │                  ├ [217]: https://www.darkreading.com/cloud/internet-wid
 │                        │      │                  │        e-zero-day-bug-fuels-largest-ever-ddos-event
 │                        │      │                  │        [m 
-│                        │      │                  ├ [214]: https://www.debian.org/security/2023/dsa-5521 
-│                        │      │                  ├ [215]: https://www.debian.org/security/2023/dsa-5522 
-│                        │      │                  ├ [216]: https://www.debian.org/security/2023/dsa-5540 
-│                        │      │                  ├ [217]: https://www.debian.org/security/2023/dsa-5549 
-│                        │      │                  ├ [218]: https://www.debian.org/security/2023/dsa-5558 
-│                        │      │                  ├ [219]: https://www.debian.org/security/2023/dsa-5570 
-│                        │      │                  ├ [220]: https://www.eclipse.org/lists/jetty-announce/m
+│                        │      │                  ├ [218]: https://www.debian.org/security/2023/dsa-5521 
+│                        │      │                  ├ [219]: https://www.debian.org/security/2023/dsa-5522 
+│                        │      │                  ├ [220]: https://www.debian.org/security/2023/dsa-5540 
+│                        │      │                  ├ [221]: https://www.debian.org/security/2023/dsa-5549 
+│                        │      │                  ├ [222]: https://www.debian.org/security/2023/dsa-5558 
+│                        │      │                  ├ [223]: https://www.debian.org/security/2023/dsa-5570 
+│                        │      │                  ├ [224]: https://www.eclipse.org/lists/jetty-announce/m
 │                        │      │                  │        sg00181.html 
-│                        │      │                  ├ [221]: https://www.haproxy.com/blog/haproxy-is-not-af
+│                        │      │                  ├ [225]: https://www.haproxy.com/blog/haproxy-is-not-af
 │                        │      │                  │        fected-by-the-http-2-rapid-reset-attack-cve-2023-44
 │                        │      │                  │        487 
-│                        │      │                  ├ [222]: https://www.mail-archive.com/haproxy@formilux.
+│                        │      │                  ├ [226]: https://www.mail-archive.com/haproxy@formilux.
 │                        │      │                  │        org/msg44134.html 
-│                        │      │                  ├ [223]: https://www.netlify.com/blog/netlify-successfu
+│                        │      │                  ├ [227]: https://www.netlify.com/blog/netlify-successfu
 │                        │      │                  │        lly-mitigates-cve-2023-44487 
-│                        │      │                  ├ [224]: https://www.netlify.com/blog/netlify-successfu
+│                        │      │                  ├ [228]: https://www.netlify.com/blog/netlify-successfu
 │                        │      │                  │        lly-mitigates-cve-2023-44487/ 
-│                        │      │                  ├ [225]: https://www.nginx.com/blog/http-2-rapid-reset-
+│                        │      │                  ├ [229]: https://www.nginx.com/blog/http-2-rapid-reset-
 │                        │      │                  │        attack-impacting-f5-nginx-products 
-│                        │      │                  ├ [226]: https://www.nginx.com/blog/http-2-rapid-reset-
+│                        │      │                  ├ [230]: https://www.nginx.com/blog/http-2-rapid-reset-
 │                        │      │                  │        attack-impacting-f5-nginx-products/ 
-│                        │      │                  ├ [227]: https://www.openwall.com/lists/oss-security/20
+│                        │      │                  ├ [231]: https://www.openwall.com/lists/oss-security/20
 │                        │      │                  │        23/10/10/6 
-│                        │      │                  ├ [228]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
+│                        │      │                  ├ [232]: https://www.phoronix.com/news/HTTP2-Rapid-Rese
 │                        │      │                  │        t-Attack 
-│                        │      │                  ├ [229]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ├ [233]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                  │        apid_reset_zeroday 
-│                        │      │                  ╰ [230]: https://www.theregister.com/2023/10/10/http2_r
+│                        │      │                  ╰ [234]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                           apid_reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
-│                        │      ╰ LastModifiedDate: 2024-04-26T09:15:07.677Z 
+│                        │      ╰ LastModifiedDate: 2024-06-21T19:15:28.32Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -10107,65 +10127,7 @@
 │                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
 │                              ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311
-│                                  │            461947df594e7 
-│                                  ├ DiffID   : sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60
-│                                  │            f7589427c48ce 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10218,7 +10180,7 @@
 │                                  ├ DiffID   : sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60
 │                                  │            f7589427c48ce 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+├ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10394,7 +10356,115 @@
 │                                  ├ DiffID   : sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60
 │                                  │            f7589427c48ce 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            *********************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311
+│                                  │            461947df594e7 
+│                                  ├ DiffID   : sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60
+│                                  │            f7589427c48ce 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -10413,27 +10483,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRIVATE
-                       │                   │     │              KEY----- 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRIVATE KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
@@ -10447,27 +10498,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRIVATE
-                       │                   │     │              KEY----- 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRIVATE KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -10484,19 +10516,7 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            *********************************************************-----END OPENSSH
-                       │            PRI 
+                       │            **-----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311
                                    │            461947df594e7 
                                    ├ DiffID   : sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60
