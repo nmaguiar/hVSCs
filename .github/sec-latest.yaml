@@ -2553,10 +2553,11 @@
     - https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d
     - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
+    - https://security.netapp.com/advisory/ntap-20240621-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-06-10T17:16:33.69Z'
+    LastModifiedDate: '2024-06-21T19:15:30.783Z'
   - VulnerabilityID: CVE-2024-4741
     PkgID: libssl3@3.0.2-0ubuntu1.15
     PkgName: libssl3
@@ -3441,10 +3442,11 @@
     - https://github.com/openssl/openssl/commit/9c39b3858091c152f52513c066ff2c5a47969f0d
     - https://github.com/openssl/openssl/commit/da343d0605c826ef197aceedc67e8e04f065f740
     - https://nvd.nist.gov/vuln/detail/CVE-2024-4603
+    - https://security.netapp.com/advisory/ntap-20240621-0001/
     - https://www.cve.org/CVERecord?id=CVE-2024-4603
     - https://www.openssl.org/news/secadv/20240516.txt
     PublishedDate: '2024-05-16T16:15:10.643Z'
-    LastModifiedDate: '2024-06-10T17:16:33.69Z'
+    LastModifiedDate: '2024-06-21T19:15:30.783Z'
   - VulnerabilityID: CVE-2024-4741
     PkgID: openssl@3.0.2-0ubuntu1.15
     PkgName: openssl
@@ -4551,6 +4553,10 @@
     - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.netapp.com/advisory/ntap-20240426-0007
     - https://security.netapp.com/advisory/ntap-20240426-0007/
+    - https://security.netapp.com/advisory/ntap-20240621-0006
+    - https://security.netapp.com/advisory/ntap-20240621-0006/
+    - https://security.netapp.com/advisory/ntap-20240621-0007
+    - https://security.netapp.com/advisory/ntap-20240621-0007/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.0-M12
@@ -4586,7 +4592,7 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
-    LastModifiedDate: '2024-04-26T09:15:07.677Z'
+    LastModifiedDate: '2024-06-21T19:15:28.32Z'
   - VulnerabilityID: CVE-2023-45288
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -6169,6 +6175,10 @@
     - https://security.netapp.com/advisory/ntap-20231016-0001/
     - https://security.netapp.com/advisory/ntap-20240426-0007
     - https://security.netapp.com/advisory/ntap-20240426-0007/
+    - https://security.netapp.com/advisory/ntap-20240621-0006
+    - https://security.netapp.com/advisory/ntap-20240621-0006/
+    - https://security.netapp.com/advisory/ntap-20240621-0007
+    - https://security.netapp.com/advisory/ntap-20240621-0007/
     - https://security.paloaltonetworks.com/CVE-2023-44487
     - https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.14
     - https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.0-M12
@@ -6204,7 +6214,7 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
-    LastModifiedDate: '2024-04-26T09:15:07.677Z'
+    LastModifiedDate: '2024-06-21T19:15:28.32Z'
   - VulnerabilityID: CVE-2023-45288
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -7823,37 +7833,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-24789
     PublishedDate: '2024-06-05T16:15:10.47Z'
     LastModifiedDate: '2024-06-19T03:15:09.183Z'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
-      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_ed25519_key
   Class: secret
   Secrets:
@@ -7943,6 +7922,37 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
+      DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:84112a9cec822c858ac5343b971feb556c3687afc3b09c2b311461947df594e7
       DiffID: sha256:956239ad38b4355d4ad36a39739b63524ed99ada9eadca4bd60f7589427c48ce
