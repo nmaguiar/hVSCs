@@ -37,6 +37,13 @@ jobs:
         dist: 't8'
 
     - uses: openaf/ojob-action@v4
+      name: Check build lite
+      with:
+        ojob: 'ojob.io/sec/genSecBadge'
+        args: 'image=nmaguiar/hvscs:build-lite file=.github/sec-build-lite.svg reportFile=.github/sec-build-lite.yaml scanOptions="--skip-dirs\ /home/.openvscode-server/**"'
+        dist: 't8'
+
+    - uses: openaf/ojob-action@v4
       name: Generate sec-latest.md
       with:
         ojob: 'ojob.io/util/toMDTree'
@@ -48,6 +55,14 @@ jobs:
       with:
         ojob: 'ojob.io/util/toMDTree'
         args: 'inputFile=.github/sec-build.yaml file=.github/sec-build.md'
+        dist: 't8'
+
+
+    - uses: openaf/ojob-action@v4
+      name: Generate sec-build-lite.md
+      with:
+        ojob: 'ojob.io/util/toMDTree'
+        args: 'inputFile=.github/sec-build-lite.yaml file=.github/sec-build-lite.md'
         dist: 't8'
 
     - uses: openaf/ojob-action@v4
