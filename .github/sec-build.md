@@ -4608,7 +4608,8 @@
 │                        │      │                  │       distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : eb163e2d3f34768c 
 │                        │      ├ InstalledVersion: 1.21.2-2ubuntu1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.21.2-2ubuntu1.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
 │                        │      │                  │         a8466b249c847b5ff9c52c908c 
 │                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
@@ -4638,7 +4639,8 @@
 │                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-wget/2024
 │                        │      │                  │      -06/msg00005.html 
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-38428 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-38428 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6852-1 
+│                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-38428 
 │                        │      ├ PublishedDate   : 2024-06-16T03:15:08.43Z 
 │                        │      ╰ LastModifiedDate: 2024-06-17T12:42:04.623Z 
 │                        ╰ [81] ╭ VulnerabilityID : CVE-2020-22916 
