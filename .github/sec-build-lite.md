@@ -2650,7 +2650,8 @@
 │                       │      │                  │       istro=ubuntu-24.04 
 │                       │      │                  ╰ UID : 620b3eee0d9198b8 
 │                       │      ├ InstalledVersion: 1.21.4-1ubuntu4 
-│                       │      ├ Status          : affected 
+│                       │      ├ FixedVersion    : 1.21.4-1ubuntu4.1 
+│                       │      ├ Status          : fixed 
 │                       │      ├ Layer            ╭ Digest: sha256:c6d28281d1e1eaf8d724fbe1d62462cf1b63704
 │                       │      │                  │         06951406076daa2f6cd13f6d6 
 │                       │      │                  ╰ DiffID: sha256:33ea526e3095965b249fbbcb9bb3120d27c58e8
@@ -2679,7 +2680,8 @@
 │                       │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-wget/2024-
 │                       │      │                  │      06/msg00005.html 
 │                       │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-38428 
-│                       │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-38428 
+│                       │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6852-1 
+│                       │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2024-38428 
 │                       │      ├ PublishedDate   : 2024-06-16T03:15:08.43Z 
 │                       │      ╰ LastModifiedDate: 2024-06-17T12:42:04.623Z 
 │                       ╰ [51] ╭ VulnerabilityID : CVE-2020-22916 
