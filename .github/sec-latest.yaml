@@ -2387,7 +2387,8 @@
       PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.15?arch=amd64&distro=ubuntu-22.04
       UID: cc021bd06498e8c5
     InstalledVersion: 3.0.2-0ubuntu1.15
-    Status: affected
+    FixedVersion: 3.0.2-0ubuntu1.16
+    Status: fixed
     Layer:
       Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a8466b249c847b5ff9c52c908c
       DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2742c57be165c1
@@ -2417,6 +2418,7 @@
     - https://link.springer.com/content/pdf/10.1007/3-540-68339-9_29.pdf
     - https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf
     - https://raw.githubusercontent.com/CVEProject/cvelist/9d7fbbcabd3f44cfedc9e8807757d31ece85a2c6/2022/40xxx/CVE-2022-40735.json
+    - https://ubuntu.com/security/notices/USN-6854-1
     - https://www.cve.org/CVERecord?id=CVE-2022-40735
     - https://www.researchgate.net/profile/Anton-Stiglic-2/publication/2401745_Security_Issues_in_the_Diffie-Hellman_Key_Agreement_Protocol/links/546c144f0cf20dedafd53e7e/Security-Issues-in-the-Diffie-Hellman-Key-Agreement-Protocol.pdf
     - https://www.rfc-editor.org/rfc/rfc3526
@@ -3277,7 +3279,8 @@
       PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=amd64&distro=ubuntu-22.04
       UID: d90094639330b555
     InstalledVersion: 3.0.2-0ubuntu1.15
-    Status: affected
+    FixedVersion: 3.0.2-0ubuntu1.16
+    Status: fixed
     Layer:
       Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a8466b249c847b5ff9c52c908c
       DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2742c57be165c1
@@ -3307,6 +3310,7 @@
     - https://link.springer.com/content/pdf/10.1007/3-540-68339-9_29.pdf
     - https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf
     - https://raw.githubusercontent.com/CVEProject/cvelist/9d7fbbcabd3f44cfedc9e8807757d31ece85a2c6/2022/40xxx/CVE-2022-40735.json
+    - https://ubuntu.com/security/notices/USN-6854-1
     - https://www.cve.org/CVERecord?id=CVE-2022-40735
     - https://www.researchgate.net/profile/Anton-Stiglic-2/publication/2401745_Security_Issues_in_the_Diffie-Hellman_Key_Agreement_Protocol/links/546c144f0cf20dedafd53e7e/Security-Issues-in-the-Diffie-Hellman-Key-Agreement-Protocol.pdf
     - https://www.rfc-editor.org/rfc/rfc3526
@@ -3958,7 +3962,8 @@
       PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&distro=ubuntu-22.04
       UID: eb163e2d3f34768c
     InstalledVersion: 1.21.2-2ubuntu1
-    Status: affected
+    FixedVersion: 1.21.2-2ubuntu1.1
+    Status: fixed
     Layer:
       Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a8466b249c847b5ff9c52c908c
       DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2742c57be165c1
@@ -3972,6 +3977,7 @@
     Description: url.c in GNU Wget through 1.24.5 mishandles semicolons in the userinfo subcomponent of a URI, and thus there may be insecure behavior in which data that was supposed to be in the userinfo subcomponent is misinterpreted to be part of the host subcomponent.
     Severity: MEDIUM
     VendorSeverity:
+      cbl-mariner: 3
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3983,6 +3989,8 @@
     - https://git.savannah.gnu.org/cgit/wget.git/commit/?id=ed0c7c7e0e8f7298352646b2fd6e06a11e242ace
     - https://lists.gnu.org/archive/html/bug-wget/2024-06/msg00005.html
     - https://nvd.nist.gov/vuln/detail/CVE-2024-38428
+    - https://ubuntu.com/security/notices/USN-6852-1
+    - https://ubuntu.com/security/notices/USN-6852-2
     - https://www.cve.org/CVERecord?id=CVE-2024-38428
     PublishedDate: '2024-06-16T03:15:08.43Z'
     LastModifiedDate: '2024-06-17T12:42:04.623Z'
@@ -4594,7 +4602,7 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
-    LastModifiedDate: '2024-06-21T19:15:28.32Z'
+    LastModifiedDate: '2024-06-27T18:34:22.11Z'
   - VulnerabilityID: CVE-2023-45288
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -6220,7 +6228,7 @@
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday
     - https://www.theregister.com/2023/10/10/http2_rapid_reset_zeroday/
     PublishedDate: '2023-10-10T14:15:10.883Z'
-    LastModifiedDate: '2024-06-21T19:15:28.32Z'
+    LastModifiedDate: '2024-06-27T18:34:22.11Z'
   - VulnerabilityID: CVE-2023-45288
     PkgName: golang.org/x/net
     PkgIdentifier:
@@ -7532,68 +7540,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2024-24789
     PublishedDate: '2024-06-05T16:15:10.47Z'
     LastModifiedDate: '2024-06-19T03:15:09.183Z'
-- Target: /etc/ssh/ssh_host_ecdsa_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a8466b249c847b5ff9c52c908c
-      DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2742c57be165c1
-      CreatedBy: 'COPY / / # buildkit'
-- Target: /etc/ssh/ssh_host_ed25519_key
-  Class: secret
-  Secrets:
-  - RuleID: private-key
-    Category: AsymmetricPrivateKey
-    Severity: HIGH
-    Title: Asymmetric Private Key
-    StartLine: 1
-    EndLine: 1
-    Code:
-      Lines:
-      - Number: 1
-        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        IsCause: true
-        Annotation: ''
-        Truncated: false
-        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
-        FirstCause: true
-        LastCause: true
-      - Number: 2
-        Content: ''
-        IsCause: false
-        Annotation: ''
-        Truncated: false
-        FirstCause: false
-        LastCause: false
-    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
-    Layer:
-      Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a8466b249c847b5ff9c52c908c
-      DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2742c57be165c1
-      CreatedBy: 'COPY / / # buildkit'
 - Target: /etc/ssh/ssh_host_rsa_key
   Class: secret
   Secrets:
@@ -7652,6 +7598,68 @@
         FirstCause: false
         LastCause: false
     Match: BEGIN OPENSSH PRIVATE KEY-----****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a8466b249c847b5ff9c52c908c
+      DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2742c57be165c1
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ecdsa_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
+    Layer:
+      Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a8466b249c847b5ff9c52c908c
+      DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2742c57be165c1
+      CreatedBy: 'COPY / / # buildkit'
+- Target: /etc/ssh/ssh_host_ed25519_key
+  Class: secret
+  Secrets:
+  - RuleID: private-key
+    Category: AsymmetricPrivateKey
+    Severity: HIGH
+    Title: Asymmetric Private Key
+    StartLine: 1
+    EndLine: 1
+    Code:
+      Lines:
+      - Number: 1
+        Content: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        IsCause: true
+        Annotation: ''
+        Truncated: false
+        Highlighted: '-----BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRIVATE KEY-----'
+        FirstCause: true
+        LastCause: true
+      - Number: 2
+        Content: ''
+        IsCause: false
+        Annotation: ''
+        Truncated: false
+        FirstCause: false
+        LastCause: false
+    Match: BEGIN OPENSSH PRIVATE KEY-----******************************************************************************************************************************************************************************************************************************************************************************************************************************************************-----END OPENSSH PRI
     Layer:
       Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a8466b249c847b5ff9c52c908c
       DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2742c57be165c1
