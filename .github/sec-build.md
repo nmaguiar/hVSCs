@@ -3657,7 +3657,247 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [67] ╭ VulnerabilityID : CVE-2024-2511 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2024-6387 
+│                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.7 
+│                        │      ├ PkgName         : openssh-client 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-client@8.9p1-3ubuntu0.7?
+│                        │      │                  │       arch=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : 330b4f25484123d1 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.7 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:c15da366c8d61a789aa8b23acb9865f4c6fb7e
+│                        │      │                  │         dae431c15df1356a939f19d57f 
+│                        │      │                  ╰ DiffID: sha256:287d83bb249463716163a7d5b76c787db68ad8
+│                        │      │                            331012cc5174a6aa83fb0ec9ea 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6387 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
+│                        │      ├ Description     : A signal handler race condition was found in OpenSSH's
+│                        │      │                    server (sshd), where a client does not authenticate within
+│                        │      │                    LoginGraceTime seconds (120 by default, 600 in old OpenSSH
+│                        │      │                    versions), then sshd's SIGALRM handler is called
+│                        │      │                   asynchronously. However, this signal handler calls various
+│                        │      │                   functions that are not async-signal-safe, for example,
+│                        │      │                   syslog(). 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ CweIDs           ─ [0]: CWE-364 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.1 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/12 
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/13 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [3] : https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
+│                        │      │                  │       [m 
+│                        │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
+│                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
+│                        │      │                  │        
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [6] : https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  │       87.html 
+│                        │      │                  ├ [7] : https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [8] : https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [9] : https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
+│                        │      │                  ├ [12]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-announce/2024-July/000158.html 
+│                        │      │                  ├ [13]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-dev/2024-July/041431.html 
+│                        │      │                  ├ [14]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [16]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  │       SNWLID-2024-0010 
+│                        │      │                  ├ [17]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  │       -2024-6387 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       701-0001/ 
+│                        │      │                  ├ [19]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  │       n-sshd-allows-remote-code-execution/ 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [23]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [24]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  │       /regresshion.txt 
+│                        │      │                  ├ [25]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [26]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                          ion_openssh/ 
+│                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T23:15:02.157Z 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2024-6387 
+│                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.7 
+│                        │      ├ PkgName         : openssh-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-server@8.9p1-3ubuntu0.7?
+│                        │      │                  │       arch=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : 43a778a54b09e14d 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.7 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:c15da366c8d61a789aa8b23acb9865f4c6fb7e
+│                        │      │                  │         dae431c15df1356a939f19d57f 
+│                        │      │                  ╰ DiffID: sha256:287d83bb249463716163a7d5b76c787db68ad8
+│                        │      │                            331012cc5174a6aa83fb0ec9ea 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6387 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
+│                        │      ├ Description     : A signal handler race condition was found in OpenSSH's
+│                        │      │                    server (sshd), where a client does not authenticate within
+│                        │      │                    LoginGraceTime seconds (120 by default, 600 in old OpenSSH
+│                        │      │                    versions), then sshd's SIGALRM handler is called
+│                        │      │                   asynchronously. However, this signal handler calls various
+│                        │      │                   functions that are not async-signal-safe, for example,
+│                        │      │                   syslog(). 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ CweIDs           ─ [0]: CWE-364 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.1 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/12 
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/13 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [3] : https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
+│                        │      │                  │       [m 
+│                        │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
+│                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
+│                        │      │                  │        
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [6] : https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  │       87.html 
+│                        │      │                  ├ [7] : https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [8] : https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [9] : https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
+│                        │      │                  ├ [12]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-announce/2024-July/000158.html 
+│                        │      │                  ├ [13]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-dev/2024-July/041431.html 
+│                        │      │                  ├ [14]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [16]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  │       SNWLID-2024-0010 
+│                        │      │                  ├ [17]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  │       -2024-6387 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       701-0001/ 
+│                        │      │                  ├ [19]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  │       n-sshd-allows-remote-code-execution/ 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [23]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [24]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  │       /regresshion.txt 
+│                        │      │                  ├ [25]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [26]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                          ion_openssh/ 
+│                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T23:15:02.157Z 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2024-6387 
+│                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.7 
+│                        │      ├ PkgName         : openssh-sftp-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-sftp-server@8.9p1-3ubunt
+│                        │      │                  │       u0.7?arch=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : 1cac151d8a3f8cfa 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.7 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:c15da366c8d61a789aa8b23acb9865f4c6fb7e
+│                        │      │                  │         dae431c15df1356a939f19d57f 
+│                        │      │                  ╰ DiffID: sha256:287d83bb249463716163a7d5b76c787db68ad8
+│                        │      │                            331012cc5174a6aa83fb0ec9ea 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6387 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
+│                        │      ├ Description     : A signal handler race condition was found in OpenSSH's
+│                        │      │                    server (sshd), where a client does not authenticate within
+│                        │      │                    LoginGraceTime seconds (120 by default, 600 in old OpenSSH
+│                        │      │                    versions), then sshd's SIGALRM handler is called
+│                        │      │                   asynchronously. However, this signal handler calls various
+│                        │      │                   functions that are not async-signal-safe, for example,
+│                        │      │                   syslog(). 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ CweIDs           ─ [0]: CWE-364 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.1 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/12 
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/13 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [3] : https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
+│                        │      │                  │       [m 
+│                        │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
+│                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
+│                        │      │                  │        
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [6] : https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  │       87.html 
+│                        │      │                  ├ [7] : https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [8] : https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [9] : https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
+│                        │      │                  ├ [12]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-announce/2024-July/000158.html 
+│                        │      │                  ├ [13]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-dev/2024-July/041431.html 
+│                        │      │                  ├ [14]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [16]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  │       SNWLID-2024-0010 
+│                        │      │                  ├ [17]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  │       -2024-6387 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       701-0001/ 
+│                        │      │                  ├ [19]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  │       n-sshd-allows-remote-code-execution/ 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [23]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [24]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  │       /regresshion.txt 
+│                        │      │                  ├ [25]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [26]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                          ion_openssh/ 
+│                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T23:15:02.157Z 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2024-2511 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.16 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.16?arch=a
@@ -3736,7 +3976,7 @@
 │                        │      │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
 │                        │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                        │      ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2024-4603 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2024-4603 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.16 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.16?arch=a
@@ -3827,7 +4067,7 @@
 │                        │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
-│                        ├ [69] ╭ VulnerabilityID : CVE-2024-4741 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.16 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.16?arch=a
@@ -3861,7 +4101,7 @@
 │                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
 │                        │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
 │                        │                         ╰ [3]: https://www.openssl.org/news/secadv/20240528.txt 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd
@@ -3918,7 +4158,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [71] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arc
@@ -4047,7 +4287,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [72] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.
@@ -4176,7 +4416,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [73] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=
@@ -4239,7 +4479,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [74] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [77] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?
@@ -4302,7 +4542,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [75] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [78] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu
@@ -4365,7 +4605,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [76] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [79] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd
@@ -4422,7 +4662,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [77] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1.1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1.1?arch=amd6
@@ -4469,7 +4709,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ╰ [78] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [81] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd
@@ -9634,7 +9874,183 @@
 │                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
 │                              ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
 │                              ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
-├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:c15da366c8d61a789aa8b23acb9865f4c6fb7edae431c15df13
+│                                  │            56a939f19d57f 
+│                                  ├ DiffID   : sha256:287d83bb249463716163a7d5b76c787db68ad8331012cc5174a
+│                                  │            6aa83fb0ec9ea 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [11] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -9742,7 +10158,7 @@
 │                                  ├ DiffID   : sha256:287d83bb249463716163a7d5b76c787db68ad8331012cc5174a
 │                                  │            6aa83fb0ec9ea 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -9800,60 +10216,7 @@
 │                                  ├ DiffID   : sha256:287d83bb249463716163a7d5b76c787db68ad8331012cc5174a
 │                                  │            6aa83fb0ec9ea 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:c15da366c8d61a789aa8b23acb9865f4c6fb7edae431c15df13
-│                                  │            56a939f19d57f 
-│                                  ├ DiffID   : sha256:287d83bb249463716163a7d5b76c787db68ad8331012cc5174a
-│                                  │            6aa83fb0ec9ea 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -9870,54 +10233,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -9930,54 +10246,7 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
+                       │                   │     │              *********************-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -9993,37 +10262,8 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            **************************************************-----END OPENSSH
+                       │            PRI 
                        ╰ Layer     ╭ Digest   : sha256:c15da366c8d61a789aa8b23acb9865f4c6fb7edae431c15df13
                                    │            56a939f19d57f 
                                    ├ DiffID   : sha256:287d83bb249463716163a7d5b76c787db68ad8331012cc5174a
