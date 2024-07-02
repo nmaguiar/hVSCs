@@ -3727,7 +3727,247 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2022-40735 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2024-6387 
+│                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.7 
+│                        │      ├ PkgName         : openssh-client 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-client@8.9p1-3ubuntu0.7?
+│                        │      │                  │       arch=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : cbb3b01801566a21 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.7 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6387 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
+│                        │      ├ Description     : A signal handler race condition was found in OpenSSH's
+│                        │      │                    server (sshd), where a client does not authenticate within
+│                        │      │                    LoginGraceTime seconds (120 by default, 600 in old OpenSSH
+│                        │      │                    versions), then sshd's SIGALRM handler is called
+│                        │      │                   asynchronously. However, this signal handler calls various
+│                        │      │                   functions that are not async-signal-safe, for example,
+│                        │      │                   syslog(). 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ CweIDs           ─ [0]: CWE-364 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.1 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/12 
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/13 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [3] : https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
+│                        │      │                  │       [m 
+│                        │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
+│                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
+│                        │      │                  │        
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [6] : https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  │       87.html 
+│                        │      │                  ├ [7] : https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [8] : https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [9] : https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
+│                        │      │                  ├ [12]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-announce/2024-July/000158.html 
+│                        │      │                  ├ [13]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-dev/2024-July/041431.html 
+│                        │      │                  ├ [14]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [16]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  │       SNWLID-2024-0010 
+│                        │      │                  ├ [17]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  │       -2024-6387 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       701-0001/ 
+│                        │      │                  ├ [19]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  │       n-sshd-allows-remote-code-execution/ 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [23]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [24]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  │       /regresshion.txt 
+│                        │      │                  ├ [25]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [26]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                          ion_openssh/ 
+│                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T23:15:02.157Z 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2024-6387 
+│                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.7 
+│                        │      ├ PkgName         : openssh-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-server@8.9p1-3ubuntu0.7?
+│                        │      │                  │       arch=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : 18a0efb81d0d86e5 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.7 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6387 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
+│                        │      ├ Description     : A signal handler race condition was found in OpenSSH's
+│                        │      │                    server (sshd), where a client does not authenticate within
+│                        │      │                    LoginGraceTime seconds (120 by default, 600 in old OpenSSH
+│                        │      │                    versions), then sshd's SIGALRM handler is called
+│                        │      │                   asynchronously. However, this signal handler calls various
+│                        │      │                   functions that are not async-signal-safe, for example,
+│                        │      │                   syslog(). 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ CweIDs           ─ [0]: CWE-364 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.1 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/12 
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/13 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [3] : https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
+│                        │      │                  │       [m 
+│                        │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
+│                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
+│                        │      │                  │        
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [6] : https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  │       87.html 
+│                        │      │                  ├ [7] : https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [8] : https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [9] : https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
+│                        │      │                  ├ [12]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-announce/2024-July/000158.html 
+│                        │      │                  ├ [13]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-dev/2024-July/041431.html 
+│                        │      │                  ├ [14]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [16]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  │       SNWLID-2024-0010 
+│                        │      │                  ├ [17]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  │       -2024-6387 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       701-0001/ 
+│                        │      │                  ├ [19]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  │       n-sshd-allows-remote-code-execution/ 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [23]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [24]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  │       /regresshion.txt 
+│                        │      │                  ├ [25]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [26]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                          ion_openssh/ 
+│                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T23:15:02.157Z 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2024-6387 
+│                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.7 
+│                        │      ├ PkgName         : openssh-sftp-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-sftp-server@8.9p1-3ubunt
+│                        │      │                  │       u0.7?arch=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : 7e311351d21346a2 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.7 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6387 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
+│                        │      ├ Description     : A signal handler race condition was found in OpenSSH's
+│                        │      │                    server (sshd), where a client does not authenticate within
+│                        │      │                    LoginGraceTime seconds (120 by default, 600 in old OpenSSH
+│                        │      │                    versions), then sshd's SIGALRM handler is called
+│                        │      │                   asynchronously. However, this signal handler calls various
+│                        │      │                   functions that are not async-signal-safe, for example,
+│                        │      │                   syslog(). 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ CweIDs           ─ [0]: CWE-364 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.1 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/12 
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/13 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [3] : https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
+│                        │      │                  │       [m 
+│                        │      │                  ├ [4] : https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
+│                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
+│                        │      │                  │        
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [6] : https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  │       87.html 
+│                        │      │                  ├ [7] : https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [8] : https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [9] : https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [10]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [11]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
+│                        │      │                  ├ [12]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-announce/2024-July/000158.html 
+│                        │      │                  ├ [13]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-dev/2024-July/041431.html 
+│                        │      │                  ├ [14]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [15]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [16]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  │       SNWLID-2024-0010 
+│                        │      │                  ├ [17]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  │       -2024-6387 
+│                        │      │                  ├ [18]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       701-0001/ 
+│                        │      │                  ├ [19]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  │       n-sshd-allows-remote-code-execution/ 
+│                        │      │                  ├ [20]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [21]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [22]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [23]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [24]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  │       /regresshion.txt 
+│                        │      │                  ├ [25]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [26]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                          ion_openssh/ 
+│                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
+│                        │      ╰ LastModifiedDate: 2024-07-01T23:15:02.157Z 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2022-40735 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
@@ -3797,7 +4037,7 @@
 │                        │      │                  ╰ [14]: https://www.rfc-editor.org/rfc/rfc7919#section-5.2 
 │                        │      ├ PublishedDate   : 2022-11-14T23:15:11.423Z 
 │                        │      ╰ LastModifiedDate: 2024-04-23T07:15:42.55Z 
-│                        ├ [69] ╭ VulnerabilityID : CVE-2024-2511 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2024-2511 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
@@ -3876,7 +4116,7 @@
 │                        │      │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
 │                        │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                        │      ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2024-4603 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2024-4603 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
@@ -3967,7 +4207,7 @@
 │                        │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
-│                        ├ [71] ╭ VulnerabilityID : CVE-2024-4741 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
@@ -4001,7 +4241,7 @@
 │                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
 │                        │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
 │                        │                         ╰ [3]: https://www.openssl.org/news/secadv/20240528.txt 
-│                        ├ [72] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd
@@ -4058,7 +4298,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [73] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arc
@@ -4187,7 +4427,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [74] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [77] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.
@@ -4316,7 +4556,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [75] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [78] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=
@@ -4379,7 +4619,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [76] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [79] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?
@@ -4442,7 +4682,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [77] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu
@@ -4505,7 +4745,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [78] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [81] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd
@@ -4562,7 +4802,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [79] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [82] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&
@@ -4609,7 +4849,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ├ [80] ╭ VulnerabilityID : CVE-2024-38428 
+│                        ├ [83] ╭ VulnerabilityID : CVE-2024-38428 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&
@@ -4653,7 +4893,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-38428 
 │                        │      ├ PublishedDate   : 2024-06-16T03:15:08.43Z 
 │                        │      ╰ LastModifiedDate: 2024-06-17T12:42:04.623Z 
-│                        ╰ [81] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [84] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd
