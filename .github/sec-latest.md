@@ -2712,7 +2712,8 @@
 │                        │      │                  │       md64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : cc021bd06498e8c5 
 │                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.15 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.0.2-0ubuntu1.16 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
 │                        │      │                  │         a8466b249c847b5ff9c52c908c 
 │                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
@@ -2761,16 +2762,17 @@
 │                        │      │                  ├ [7] : https://raw.githubusercontent.com/CVEProject/cv
 │                        │      │                  │       elist/9d7fbbcabd3f44cfedc9e8807757d31ece85a2c6/2022/
 │                        │      │                  │       40xxx/CVE-2022-40735.json 
-│                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2022-40735 
-│                        │      │                  ├ [9] : https://www.researchgate.net/profile/Anton-Stig
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6854-1 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2022-40735 
+│                        │      │                  ├ [10]: https://www.researchgate.net/profile/Anton-Stig
 │                        │      │                  │       lic-2/publication/2401745_Security_Issues_in_the_Dif
 │                        │      │                  │       fie-Hellman_Key_Agreement_Protocol/links/546c144f0cf
 │                        │      │                  │       20dedafd53e7e/Security-Issues-in-the-Diffie-Hellman-
 │                        │      │                  │       Key-Agreement-Protocol.pdf 
-│                        │      │                  ├ [10]: https://www.rfc-editor.org/rfc/rfc3526 
-│                        │      │                  ├ [11]: https://www.rfc-editor.org/rfc/rfc4419 
-│                        │      │                  ├ [12]: https://www.rfc-editor.org/rfc/rfc5114#section-4 
-│                        │      │                  ╰ [13]: https://www.rfc-editor.org/rfc/rfc7919#section-5.2 
+│                        │      │                  ├ [11]: https://www.rfc-editor.org/rfc/rfc3526 
+│                        │      │                  ├ [12]: https://www.rfc-editor.org/rfc/rfc4419 
+│                        │      │                  ├ [13]: https://www.rfc-editor.org/rfc/rfc5114#section-4 
+│                        │      │                  ╰ [14]: https://www.rfc-editor.org/rfc/rfc7919#section-5.2 
 │                        │      ├ PublishedDate   : 2022-11-14T23:15:11.423Z 
 │                        │      ╰ LastModifiedDate: 2024-04-23T07:15:42.55Z 
 │                        ├ [51] ╭ VulnerabilityID : CVE-2024-2511 
@@ -2824,10 +2826,11 @@
 │                        │      │                   this issue. OpenSSL
 │                        │      │                   1.0.2 is also not affected by this issue. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ photon: 3 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ photon     : 3 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 3.7 
@@ -2965,9 +2968,10 @@
 │                        │      │                    memory to be accessed that was previously freed in some
 │                        │      │                   situations. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ photon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :L/I:L/A:L 
 │                        │      │                           ╰ V3Score : 5.6 
@@ -3723,14 +3727,348 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2022-40735 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2024-6387 
+│                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.7 
+│                        │      ├ PkgName         : openssh-client 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-client@8.9p1-3ubuntu0.7?
+│                        │      │                  │       arch=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : cbb3b01801566a21 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.7 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6387 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
+│                        │      ├ Description     : A security regression (CVE-2006-5051) was discovered
+│                        │      │                   in OpenSSH's server (sshd). There is a race condition which
+│                        │      │                    can lead to sshd to handle some signals in an unsafe
+│                        │      │                   manner. An unauthenticated, remote attacker may be able to
+│                        │      │                   trigger it by failing to authenticate within a set time
+│                        │      │                   period. 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ CweIDs           ─ [0]: CWE-364 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      │                  ├ photon     : 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.1 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/12 
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/13 
+│                        │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/02/1 
+│                        │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/1 
+│                        │      │                  ├ [4] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/11 
+│                        │      │                  ├ [5] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/2 
+│                        │      │                  ├ [6] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/3 
+│                        │      │                  ├ [7] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/4 
+│                        │      │                  ├ [8] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/5 
+│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [10]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [11]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
+│                        │      │                  │       [m 
+│                        │      │                  ├ [12]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
+│                        │      │                  │       on-linux/ 
+│                        │      │                  ├ [13]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
+│                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
+│                        │      │                  │        
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [15]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  │       87.html 
+│                        │      │                  ├ [16]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
+│                        │      │                  ├ [17]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [18]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [19]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  │       cussions/2248 
+│                        │      │                  ├ [20]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  │       ues/2249 
+│                        │      │                  ├ [21]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [22]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [23]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [24]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [25]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
+│                        │      │                  ├ [27]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-announce/2024-July/000158.html 
+│                        │      │                  ├ [28]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-dev/2024-July/041431.html 
+│                        │      │                  ├ [29]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [31]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  │       SNWLID-2024-0010 
+│                        │      │                  ├ [32]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  │       -2024-6387 
+│                        │      │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       701-0001/ 
+│                        │      │                  ├ [34]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  │       n-sshd-allows-remote-code-execution/ 
+│                        │      │                  ├ [35]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  │       rity-fix 
+│                        │      │                  ├ [36]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [38]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [39]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  │       eBSD-SA-24:04.openssh.asc 
+│                        │      │                  ├ [40]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [41]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  │       /regresshion.txt 
+│                        │      │                  ├ [42]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [43]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                          ion_openssh/ 
+│                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
+│                        │      ╰ LastModifiedDate: 2024-07-03T22:15:03.86Z 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2024-6387 
+│                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.7 
+│                        │      ├ PkgName         : openssh-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-server@8.9p1-3ubuntu0.7?
+│                        │      │                  │       arch=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : 18a0efb81d0d86e5 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.7 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6387 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
+│                        │      ├ Description     : A security regression (CVE-2006-5051) was discovered
+│                        │      │                   in OpenSSH's server (sshd). There is a race condition which
+│                        │      │                    can lead to sshd to handle some signals in an unsafe
+│                        │      │                   manner. An unauthenticated, remote attacker may be able to
+│                        │      │                   trigger it by failing to authenticate within a set time
+│                        │      │                   period. 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ CweIDs           ─ [0]: CWE-364 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      │                  ├ photon     : 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.1 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/12 
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/13 
+│                        │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/02/1 
+│                        │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/1 
+│                        │      │                  ├ [4] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/11 
+│                        │      │                  ├ [5] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/2 
+│                        │      │                  ├ [6] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/3 
+│                        │      │                  ├ [7] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/4 
+│                        │      │                  ├ [8] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/5 
+│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [10]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [11]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
+│                        │      │                  │       [m 
+│                        │      │                  ├ [12]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
+│                        │      │                  │       on-linux/ 
+│                        │      │                  ├ [13]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
+│                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
+│                        │      │                  │        
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [15]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  │       87.html 
+│                        │      │                  ├ [16]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
+│                        │      │                  ├ [17]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [18]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [19]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  │       cussions/2248 
+│                        │      │                  ├ [20]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  │       ues/2249 
+│                        │      │                  ├ [21]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [22]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [23]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [24]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [25]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
+│                        │      │                  ├ [27]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-announce/2024-July/000158.html 
+│                        │      │                  ├ [28]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-dev/2024-July/041431.html 
+│                        │      │                  ├ [29]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [31]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  │       SNWLID-2024-0010 
+│                        │      │                  ├ [32]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  │       -2024-6387 
+│                        │      │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       701-0001/ 
+│                        │      │                  ├ [34]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  │       n-sshd-allows-remote-code-execution/ 
+│                        │      │                  ├ [35]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  │       rity-fix 
+│                        │      │                  ├ [36]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [38]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [39]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  │       eBSD-SA-24:04.openssh.asc 
+│                        │      │                  ├ [40]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [41]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  │       /regresshion.txt 
+│                        │      │                  ├ [42]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [43]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                          ion_openssh/ 
+│                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
+│                        │      ╰ LastModifiedDate: 2024-07-03T22:15:03.86Z 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2024-6387 
+│                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.7 
+│                        │      ├ PkgName         : openssh-sftp-server 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-sftp-server@8.9p1-3ubunt
+│                        │      │                  │       u0.7?arch=amd64&distro=ubuntu-22.04&epoch=1 
+│                        │      │                  ╰ UID : 7e311351d21346a2 
+│                        │      ├ InstalledVersion: 1:8.9p1-3ubuntu0.7 
+│                        │      ├ FixedVersion    : 1:8.9p1-3ubuntu0.10 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-6387 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
+│                        │      ├ Description     : A security regression (CVE-2006-5051) was discovered
+│                        │      │                   in OpenSSH's server (sshd). There is a race condition which
+│                        │      │                    can lead to sshd to handle some signals in an unsafe
+│                        │      │                   manner. An unauthenticated, remote attacker may be able to
+│                        │      │                   trigger it by failing to authenticate within a set time
+│                        │      │                   period. 
+│                        │      ├ Severity        : HIGH 
+│                        │      ├ CweIDs           ─ [0]: CWE-364 
+│                        │      ├ VendorSeverity   ╭ oracle-oval: 3 
+│                        │      │                  ├ photon     : 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ╰ ubuntu     : 3 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
+│                        │      │                           │           :H/I:H/A:H 
+│                        │      │                           ╰ V3Score : 8.1 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/12 
+│                        │      │                  ├ [1] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/01/13 
+│                        │      │                  ├ [2] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/02/1 
+│                        │      │                  ├ [3] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/1 
+│                        │      │                  ├ [4] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/11 
+│                        │      │                  ├ [5] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/2 
+│                        │      │                  ├ [6] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/3 
+│                        │      │                  ├ [7] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/4 
+│                        │      │                  ├ [8] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/03/5 
+│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [10]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [11]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
+│                        │      │                  │       [m 
+│                        │      │                  ├ [12]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
+│                        │      │                  │       on-linux/ 
+│                        │      │                  ├ [13]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
+│                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
+│                        │      │                  │        
+│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [15]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  │       87.html 
+│                        │      │                  ├ [16]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
+│                        │      │                  ├ [17]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [18]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [19]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  │       cussions/2248 
+│                        │      │                  ├ [20]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  │       ues/2249 
+│                        │      │                  ├ [21]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [22]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [23]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [24]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [25]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
+│                        │      │                  ├ [27]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-announce/2024-July/000158.html 
+│                        │      │                  ├ [28]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  │       x-dev/2024-July/041431.html 
+│                        │      │                  ├ [29]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [31]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  │       SNWLID-2024-0010 
+│                        │      │                  ├ [32]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  │       -2024-6387 
+│                        │      │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  │       701-0001/ 
+│                        │      │                  ├ [34]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  │       n-sshd-allows-remote-code-execution/ 
+│                        │      │                  ├ [35]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  │       rity-fix 
+│                        │      │                  ├ [36]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [38]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [39]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  │       eBSD-SA-24:04.openssh.asc 
+│                        │      │                  ├ [40]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [41]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  │       /regresshion.txt 
+│                        │      │                  ├ [42]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [43]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                          ion_openssh/ 
+│                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
+│                        │      ╰ LastModifiedDate: 2024-07-03T22:15:03.86Z 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2022-40735 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
 │                        │      │                  │       md64&distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : d90094639330b555 
 │                        │      ├ InstalledVersion: 3.0.2-0ubuntu1.15 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 3.0.2-0ubuntu1.16 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
 │                        │      │                  │         a8466b249c847b5ff9c52c908c 
 │                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
@@ -3779,19 +4117,20 @@
 │                        │      │                  ├ [7] : https://raw.githubusercontent.com/CVEProject/cv
 │                        │      │                  │       elist/9d7fbbcabd3f44cfedc9e8807757d31ece85a2c6/2022/
 │                        │      │                  │       40xxx/CVE-2022-40735.json 
-│                        │      │                  ├ [8] : https://www.cve.org/CVERecord?id=CVE-2022-40735 
-│                        │      │                  ├ [9] : https://www.researchgate.net/profile/Anton-Stig
+│                        │      │                  ├ [8] : https://ubuntu.com/security/notices/USN-6854-1 
+│                        │      │                  ├ [9] : https://www.cve.org/CVERecord?id=CVE-2022-40735 
+│                        │      │                  ├ [10]: https://www.researchgate.net/profile/Anton-Stig
 │                        │      │                  │       lic-2/publication/2401745_Security_Issues_in_the_Dif
 │                        │      │                  │       fie-Hellman_Key_Agreement_Protocol/links/546c144f0cf
 │                        │      │                  │       20dedafd53e7e/Security-Issues-in-the-Diffie-Hellman-
 │                        │      │                  │       Key-Agreement-Protocol.pdf 
-│                        │      │                  ├ [10]: https://www.rfc-editor.org/rfc/rfc3526 
-│                        │      │                  ├ [11]: https://www.rfc-editor.org/rfc/rfc4419 
-│                        │      │                  ├ [12]: https://www.rfc-editor.org/rfc/rfc5114#section-4 
-│                        │      │                  ╰ [13]: https://www.rfc-editor.org/rfc/rfc7919#section-5.2 
+│                        │      │                  ├ [11]: https://www.rfc-editor.org/rfc/rfc3526 
+│                        │      │                  ├ [12]: https://www.rfc-editor.org/rfc/rfc4419 
+│                        │      │                  ├ [13]: https://www.rfc-editor.org/rfc/rfc5114#section-4 
+│                        │      │                  ╰ [14]: https://www.rfc-editor.org/rfc/rfc7919#section-5.2 
 │                        │      ├ PublishedDate   : 2022-11-14T23:15:11.423Z 
 │                        │      ╰ LastModifiedDate: 2024-04-23T07:15:42.55Z 
-│                        ├ [69] ╭ VulnerabilityID : CVE-2024-2511 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2024-2511 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
@@ -3842,10 +4181,11 @@
 │                        │      │                   this issue. OpenSSL
 │                        │      │                   1.0.2 is also not affected by this issue. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ amazon: 2 
-│                        │      │                  ├ photon: 3 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ amazon     : 2 
+│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ photon     : 3 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :N/I:N/A:L 
 │                        │      │                           ╰ V3Score : 3.7 
@@ -3869,7 +4209,7 @@
 │                        │      │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
 │                        │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                        │      ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2024-4603 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2024-4603 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
@@ -3960,7 +4300,7 @@
 │                        │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
-│                        ├ [71] ╭ VulnerabilityID : CVE-2024-4741 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
@@ -3983,9 +4323,10 @@
 │                        │      │                    memory to be accessed that was previously freed in some
 │                        │      │                   situations. 
 │                        │      ├ Severity        : LOW 
-│                        │      ├ VendorSeverity   ╭ photon: 2 
-│                        │      │                  ├ redhat: 1 
-│                        │      │                  ╰ ubuntu: 1 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ├ redhat     : 1 
+│                        │      │                  ╰ ubuntu     : 1 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                        │      │                           │           :L/I:L/A:L 
 │                        │      │                           ╰ V3Score : 5.6 
@@ -3993,7 +4334,7 @@
 │                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
 │                        │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
 │                        │                         ╰ [3]: https://www.openssl.org/news/secadv/20240528.txt 
-│                        ├ [72] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd
@@ -4050,7 +4391,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [73] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arc
@@ -4179,7 +4520,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [74] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [77] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.
@@ -4308,7 +4649,7 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [75] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [78] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=
@@ -4371,7 +4712,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [76] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [79] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?
@@ -4434,7 +4775,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [77] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu
@@ -4497,7 +4838,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [78] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [81] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd
@@ -4554,7 +4895,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [79] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [82] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&
@@ -4601,14 +4942,15 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ├ [80] ╭ VulnerabilityID : CVE-2024-38428 
+│                        ├ [83] ╭ VulnerabilityID : CVE-2024-38428 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&
 │                        │      │                  │       distro=ubuntu-22.04 
 │                        │      │                  ╰ UID : eb163e2d3f34768c 
 │                        │      ├ InstalledVersion: 1.21.2-2ubuntu1 
-│                        │      ├ Status          : affected 
+│                        │      ├ FixedVersion    : 1.21.2-2ubuntu1.1 
+│                        │      ├ Status          : fixed 
 │                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
 │                        │      │                  │         a8466b249c847b5ff9c52c908c 
 │                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
@@ -4626,8 +4968,9 @@
 │                        │      │                   in the userinfo subcomponent is misinterpreted to be part
 │                        │      │                   of the host subcomponent. 
 │                        │      ├ Severity        : MEDIUM 
-│                        │      ├ VendorSeverity   ╭ redhat: 2 
-│                        │      │                  ╰ ubuntu: 2 
+│                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ╰ ubuntu     : 2 
 │                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
 │                        │      │                           │           :L/I:L/A:N 
 │                        │      │                           ╰ V3Score : 5.4 
@@ -4638,10 +4981,12 @@
 │                        │      │                  ├ [2]: https://lists.gnu.org/archive/html/bug-wget/2024
 │                        │      │                  │      -06/msg00005.html 
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-38428 
-│                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-38428 
+│                        │      │                  ├ [4]: https://ubuntu.com/security/notices/USN-6852-1 
+│                        │      │                  ├ [5]: https://ubuntu.com/security/notices/USN-6852-2 
+│                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-38428 
 │                        │      ├ PublishedDate   : 2024-06-16T03:15:08.43Z 
 │                        │      ╰ LastModifiedDate: 2024-06-17T12:42:04.623Z 
-│                        ╰ [81] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [84] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd
@@ -5695,7 +6040,7 @@
 │                        │      │                  ╰ [234]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                           apid_reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
-│                        │      ╰ LastModifiedDate: 2024-06-21T19:15:28.32Z 
+│                        │      ╰ LastModifiedDate: 2024-06-27T18:34:22.11Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -5818,11 +6163,13 @@
 │                        │      │                   returning false for addresses which would return true in
 │                        │      │                   their traditional IPv4 forms. 
 │                        │      ├ Severity        : CRITICAL 
-│                        │      ├ VendorSeverity   ╭ amazon : 2 
-│                        │      │                  ├ bitnami: 4 
-│                        │      │                  ├ nvd    : 4 
-│                        │      │                  ├ photon : 4 
-│                        │      │                  ╰ redhat : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 4 
+│                        │      │                  ├ nvd        : 4 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 4 
+│                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                  │         │           C:H/I:H/A:H 
 │                        │      │                  │         ╰ V3Score : 9.8 
@@ -5832,16 +6179,23 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/
 │                        │      │                            │           C:H/I:H/A:N 
 │                        │      │                            ╰ V3Score : 6.7 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      06/04/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24790 
-│                        │      │                  ├ [2]: https://go.dev/cl/590316 
-│                        │      │                  ├ [3]: https://go.dev/issue/67680 
-│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xb
-│                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
-│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2887 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /06/04/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4212 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -24790 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2292787 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/590316 
+│                        │      │                  ├ [7] : https://go.dev/issue/67680 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-24790.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
+│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
 │                        │      ╰ LastModifiedDate: 2024-06-18T17:59:12.547Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2023-39325 
@@ -7127,60 +7481,105 @@
 │                        │      │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
-│                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24789 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2024-24789 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
+│                        │      │                  ╰ UID : a803c46e7bd27b90 
+│                        │      ├ InstalledVersion: 1.20.5 
+│                        │      ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : nvd 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : golang: archive/zip: Incorrect handling of certain ZIP
+│                        │      │                    files 
+│                        │      ├ Description     : The archive/zip package's handling of certain types of
+│                        │      │                    invalid zip files differs from the behavior of most zip
+│                        │      │                   implementations. This misalignment could be exploited to
+│                        │      │                   create an zip file with contents that vary depending on the
+│                        │      │                    implementation reading the file. The archive/zip package
+│                        │      │                   now rejects files containing these errors. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ╰ redhat     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                        │      │                  │         │           C:N/I:H/A:N 
+│                        │      │                  │         ╰ V3Score : 5.5 
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                        │      │                  │         │           C:N/I:H/A:N 
+│                        │      │                  │         ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │      │                            │           C:N/I:H/A:N 
+│                        │      │                            ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /06/04/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4212 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -24789 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2292787 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/585397 
+│                        │      │                  ├ [7] : https://go.dev/issue/66869 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-24789.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5YA
+│                        │      │                  │       EIA6IUHUNGJ7AIXXPQT6D2GYENX7/ 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                        │      ╰ LastModifiedDate: 2024-07-03T01:48:25.51Z 
+│                        ╰ [20] ╭ VulnerabilityID : CVE-2024-24791 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                               │                  ╰ UID : a803c46e7bd27b90 
 │                               ├ InstalledVersion: 1.20.5 
-│                               ├ FixedVersion    : 1.21.11, 1.22.4 
+│                               ├ FixedVersion    : 1.21.12, 1.22.5 
 │                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
 │                               │                  │         a8466b249c847b5ff9c52c908c 
 │                               │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
 │                               │                            baff63fe6e2b2742c57be165c1 
-│                               ├ SeveritySource  : nvd 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24791 
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ├ Title           : golang: archive/zip: Incorrect handling of certain ZIP
-│                               │                    files 
-│                               ├ Description     : The archive/zip package's handling of certain types of
-│                               │                    invalid zip files differs from the behavior of most zip
-│                               │                   implementations. This misalignment could be exploited to
-│                               │                   create an zip file with contents that vary depending on the
-│                               │                    implementation reading the file. The archive/zip package
-│                               │                   now rejects files containing these errors. 
-│                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ amazon : 2 
-│                               │                  ├ bitnami: 2 
-│                               │                  ├ nvd    : 2 
-│                               │                  ├ photon : 2 
-│                               │                  ╰ redhat : 2 
-│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
-│                               │                  │         │           C:N/I:H/A:N 
-│                               │                  │         ╰ V3Score : 5.5 
-│                               │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
-│                               │                  │         │           C:N/I:H/A:N 
-│                               │                  │         ╰ V3Score : 5.5 
-│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
-│                               │                            │           C:N/I:H/A:N 
-│                               │                            ╰ V3Score : 7.5 
-│                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                               │                  │      06/04/1 
-│                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24789 
-│                               │                  ├ [2]: https://go.dev/cl/585397 
-│                               │                  ├ [3]: https://go.dev/issue/66869 
-│                               │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xb
-│                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                               │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
-│                               │                  │      ckage-announce@lists.fedoraproject.org/message/U5YAEI
-│                               │                  │      A6IUHUNGJ7AIXXPQT6D2GYENX7/ 
-│                               │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
-│                               │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                               │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
-│                               ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                               ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
+│                               ├ Description     : The net/http HTTP/1.1 client mishandled the case where
+│                               │                    a server responds to a request with an "Expect:
+│                               │                   100-continue" header with a non-informational (200 or
+│                               │                   higher) status. This mishandling could leave a client
+│                               │                   connection in an invalid state, where the next request sent
+│                               │                    on the connection will fail. An attacker sending a request
+│                               │                    to a net/http/httputil.ReverseProxy proxy can exploit this
+│                               │                    mishandling to cause a denial of service by sending
+│                               │                   "Expect: 100-continue" requests which elicit a
+│                               │                   non-informational response from the backend. Each such
+│                               │                   request leaves the proxy with an invalid connection, and
+│                               │                   causes one subsequent request using that connection to
+│                               │                   fail. 
+│                               ├ Severity        : UNKNOWN 
+│                               ├ References       ╭ [0]: https://go.dev/cl/591255 
+│                               │                  ├ [1]: https://go.dev/issue/67555 
+│                               │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qH
+│                               │                  │      BqzY/m/6MMoAZkMAgAJ 
+│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                               ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
+│                               ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [4]  ╭ Target         : tmp/tmp.fj1SDhnZ1T/krew-linux_amd64 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -8104,7 +8503,7 @@
 │                        │      │                  ╰ [234]: https://www.theregister.com/2023/10/10/http2_r
 │                        │      │                           apid_reset_zeroday/ 
 │                        │      ├ PublishedDate   : 2023-10-10T14:15:10.883Z 
-│                        │      ╰ LastModifiedDate: 2024-06-21T19:15:28.32Z 
+│                        │      ╰ LastModifiedDate: 2024-06-27T18:34:22.11Z 
 │                        ├ [3]  ╭ VulnerabilityID : CVE-2023-45288 
 │                        │      ├ PkgName         : golang.org/x/net 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/golang.org/x/net@v0.12.0 
@@ -8227,11 +8626,13 @@
 │                        │      │                   returning false for addresses which would return true in
 │                        │      │                   their traditional IPv4 forms. 
 │                        │      ├ Severity        : CRITICAL 
-│                        │      ├ VendorSeverity   ╭ amazon : 2 
-│                        │      │                  ├ bitnami: 4 
-│                        │      │                  ├ nvd    : 4 
-│                        │      │                  ├ photon : 4 
-│                        │      │                  ╰ redhat : 2 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 4 
+│                        │      │                  ├ nvd        : 4 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 4 
+│                        │      │                  ╰ redhat     : 2 
 │                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
 │                        │      │                  │         │           C:H/I:H/A:H 
 │                        │      │                  │         ╰ V3Score : 9.8 
@@ -8241,16 +8642,23 @@
 │                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/
 │                        │      │                            │           C:H/I:H/A:N 
 │                        │      │                            ╰ V3Score : 6.7 
-│                        │      ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                        │      │                  │      06/04/1 
-│                        │      │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24790 
-│                        │      │                  ├ [2]: https://go.dev/cl/590316 
-│                        │      │                  ├ [3]: https://go.dev/issue/67680 
-│                        │      │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xb
-│                        │      │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │      │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
-│                        │      │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2887 
-│                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /06/04/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4212 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -24790 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2292787 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/590316 
+│                        │      │                  ├ [7] : https://go.dev/issue/67680 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-24790.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
+│                        │      │                  ├ [12]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                        │      │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
 │                        │      ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
 │                        │      ╰ LastModifiedDate: 2024-06-18T17:59:12.547Z 
 │                        ├ [5]  ╭ VulnerabilityID : CVE-2023-39325 
@@ -9536,72 +9944,257 @@
 │                        │      │                  ╰ [35]: https://www.cve.org/CVERecord?id=CVE-2024-24785 
 │                        │      ├ PublishedDate   : 2024-03-05T23:15:07.777Z 
 │                        │      ╰ LastModifiedDate: 2024-05-01T17:15:29.61Z 
-│                        ╰ [19] ╭ VulnerabilityID : CVE-2024-24789 
+│                        ├ [19] ╭ VulnerabilityID : CVE-2024-24789 
+│                        │      ├ PkgName         : stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
+│                        │      │                  ╰ UID : ef7ffce2b6405cba 
+│                        │      ├ InstalledVersion: 1.20.5 
+│                        │      ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : nvd 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                        │      ├ DataSource       ╭ ID  : govulndb 
+│                        │      │                  ├ Name: The Go Vulnerability Database 
+│                        │      │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │      ├ Title           : golang: archive/zip: Incorrect handling of certain ZIP
+│                        │      │                    files 
+│                        │      ├ Description     : The archive/zip package's handling of certain types of
+│                        │      │                    invalid zip files differs from the behavior of most zip
+│                        │      │                   implementations. This misalignment could be exploited to
+│                        │      │                   create an zip file with contents that vary depending on the
+│                        │      │                    implementation reading the file. The archive/zip package
+│                        │      │                   now rejects files containing these errors. 
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ alma       : 2 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ nvd        : 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ photon     : 2 
+│                        │      │                  ╰ redhat     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                        │      │                  │         │           C:N/I:H/A:N 
+│                        │      │                  │         ╰ V3Score : 5.5 
+│                        │      │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
+│                        │      │                  │         │           C:N/I:H/A:N 
+│                        │      │                  │         ╰ V3Score : 5.5 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                        │      │                            │           C:N/I:H/A:N 
+│                        │      │                            ╰ V3Score : 7.5 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /06/04/1 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4212 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024
+│                        │      │                  │       -24789 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2292668 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2292787 
+│                        │      │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
+│                        │      │                  ├ [6] : https://go.dev/cl/585397 
+│                        │      │                  ├ [7] : https://go.dev/issue/66869 
+│                        │      │                  ├ [8] : https://groups.google.com/g/golang-announce/c/X
+│                        │      │                  │       bxouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │      │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-24789.html 
+│                        │      │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │      │                  ├ [11]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5YA
+│                        │      │                  │       EIA6IUHUNGJ7AIXXPQT6D2GYENX7/ 
+│                        │      │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                        │      │                  ├ [13]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │      │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                        │      ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                        │      ╰ LastModifiedDate: 2024-07-03T01:48:25.51Z 
+│                        ╰ [20] ╭ VulnerabilityID : CVE-2024-24791 
 │                               ├ PkgName         : stdlib 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.20.5 
 │                               │                  ╰ UID : ef7ffce2b6405cba 
 │                               ├ InstalledVersion: 1.20.5 
-│                               ├ FixedVersion    : 1.21.11, 1.22.4 
+│                               ├ FixedVersion    : 1.21.12, 1.22.5 
 │                               ├ Status          : fixed 
 │                               ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
 │                               │                  │         a8466b249c847b5ff9c52c908c 
 │                               │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
 │                               │                            baff63fe6e2b2742c57be165c1 
-│                               ├ SeveritySource  : nvd 
-│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24791 
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                               ├ Title           : golang: archive/zip: Incorrect handling of certain ZIP
-│                               │                    files 
-│                               ├ Description     : The archive/zip package's handling of certain types of
-│                               │                    invalid zip files differs from the behavior of most zip
-│                               │                   implementations. This misalignment could be exploited to
-│                               │                   create an zip file with contents that vary depending on the
-│                               │                    implementation reading the file. The archive/zip package
-│                               │                   now rejects files containing these errors. 
-│                               ├ Severity        : MEDIUM 
-│                               ├ VendorSeverity   ╭ amazon : 2 
-│                               │                  ├ bitnami: 2 
-│                               │                  ├ nvd    : 2 
-│                               │                  ├ photon : 2 
-│                               │                  ╰ redhat : 2 
-│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
-│                               │                  │         │           C:N/I:H/A:N 
-│                               │                  │         ╰ V3Score : 5.5 
-│                               │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/
-│                               │                  │         │           C:N/I:H/A:N 
-│                               │                  │         ╰ V3Score : 5.5 
-│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
-│                               │                            │           C:N/I:H/A:N 
-│                               │                            ╰ V3Score : 7.5 
-│                               ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/
-│                               │                  │      06/04/1 
-│                               │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24789 
-│                               │                  ├ [2]: https://go.dev/cl/585397 
-│                               │                  ├ [3]: https://go.dev/issue/66869 
-│                               │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xb
-│                               │                  │      xouI9gY7k/m/TuoGEhxIEwAJ 
-│                               │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pa
-│                               │                  │      ckage-announce@lists.fedoraproject.org/message/U5YAEI
-│                               │                  │      A6IUHUNGJ7AIXXPQT6D2GYENX7/ 
-│                               │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
-│                               │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                               │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
-│                               ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                               ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
-├ [5]  ╭ Target: usr/bin/docker-compose 
-│      ├ Class : lang-pkgs 
-│      ╰ Type  : gobinary 
-├ [6]  ╭ Target: usr/bin/helm 
-│      ├ Class : lang-pkgs 
-│      ╰ Type  : gobinary 
-├ [7]  ╭ Target: usr/bin/kubectl 
-│      ├ Class : lang-pkgs 
-│      ╰ Type  : gobinary 
-├ [8]  ╭ Target: usr/bin/mc 
-│      ├ Class : lang-pkgs 
-│      ╰ Type  : gobinary 
+│                               ├ Description     : The net/http HTTP/1.1 client mishandled the case where
+│                               │                    a server responds to a request with an "Expect:
+│                               │                   100-continue" header with a non-informational (200 or
+│                               │                   higher) status. This mishandling could leave a client
+│                               │                   connection in an invalid state, where the next request sent
+│                               │                    on the connection will fail. An attacker sending a request
+│                               │                    to a net/http/httputil.ReverseProxy proxy can exploit this
+│                               │                    mishandling to cause a denial of service by sending
+│                               │                   "Expect: 100-continue" requests which elicit a
+│                               │                   non-informational response from the backend. Each such
+│                               │                   request leaves the proxy with an invalid connection, and
+│                               │                   causes one subsequent request using that connection to
+│                               │                   fail. 
+│                               ├ Severity        : UNKNOWN 
+│                               ├ References       ╭ [0]: https://go.dev/cl/591255 
+│                               │                  ├ [1]: https://go.dev/issue/67555 
+│                               │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qH
+│                               │                  │      BqzY/m/6MMoAZkMAgAJ 
+│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                               ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
+│                               ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
+├ [5]  ╭ Target         : usr/bin/docker-compose 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : gobinary 
+│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-24791 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.21.11 
+│                              │                  ╰ UID : 9f8d2ad52f383de2 
+│                              ├ InstalledVersion: 1.21.11 
+│                              ├ FixedVersion    : 1.21.12, 1.22.5 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a
+│                              │                  │         8466b249c847b5ff9c52c908c 
+│                              │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81b
+│                              │                            aff63fe6e2b2742c57be165c1 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24791 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
+│                              │                   a server responds to a request with an "Expect:
+│                              │                   100-continue" header with a non-informational (200 or
+│                              │                   higher) status. This mishandling could leave a client
+│                              │                   connection in an invalid state, where the next request sent
+│                              │                   on the connection will fail. An attacker sending a request
+│                              │                   to a net/http/httputil.ReverseProxy proxy can exploit this
+│                              │                   mishandling to cause a denial of service by sending "Expect:
+│                              │                    100-continue" requests which elicit a non-informational
+│                              │                   response from the backend. Each such request leaves the
+│                              │                   proxy with an invalid connection, and causes one subsequent
+│                              │                   request using that connection to fail. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
+│                              │                  ├ [1]: https://go.dev/issue/67555 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              │                  │      qzY/m/6MMoAZkMAgAJ 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
+│                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
+├ [6]  ╭ Target         : usr/bin/helm 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : gobinary 
+│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-24791 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.4 
+│                              │                  ╰ UID : dd1d5fe8c33c83a7 
+│                              ├ InstalledVersion: 1.22.4 
+│                              ├ FixedVersion    : 1.21.12, 1.22.5 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a
+│                              │                  │         8466b249c847b5ff9c52c908c 
+│                              │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81b
+│                              │                            aff63fe6e2b2742c57be165c1 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24791 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
+│                              │                   a server responds to a request with an "Expect:
+│                              │                   100-continue" header with a non-informational (200 or
+│                              │                   higher) status. This mishandling could leave a client
+│                              │                   connection in an invalid state, where the next request sent
+│                              │                   on the connection will fail. An attacker sending a request
+│                              │                   to a net/http/httputil.ReverseProxy proxy can exploit this
+│                              │                   mishandling to cause a denial of service by sending "Expect:
+│                              │                    100-continue" requests which elicit a non-informational
+│                              │                   response from the backend. Each such request leaves the
+│                              │                   proxy with an invalid connection, and causes one subsequent
+│                              │                   request using that connection to fail. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
+│                              │                  ├ [1]: https://go.dev/issue/67555 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              │                  │      qzY/m/6MMoAZkMAgAJ 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
+│                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
+├ [7]  ╭ Target         : usr/bin/kubectl 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : gobinary 
+│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-24791 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.4 
+│                              │                  ╰ UID : b583bdad456e1b5b 
+│                              ├ InstalledVersion: 1.22.4 
+│                              ├ FixedVersion    : 1.21.12, 1.22.5 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a
+│                              │                  │         8466b249c847b5ff9c52c908c 
+│                              │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81b
+│                              │                            aff63fe6e2b2742c57be165c1 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24791 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
+│                              │                   a server responds to a request with an "Expect:
+│                              │                   100-continue" header with a non-informational (200 or
+│                              │                   higher) status. This mishandling could leave a client
+│                              │                   connection in an invalid state, where the next request sent
+│                              │                   on the connection will fail. An attacker sending a request
+│                              │                   to a net/http/httputil.ReverseProxy proxy can exploit this
+│                              │                   mishandling to cause a denial of service by sending "Expect:
+│                              │                    100-continue" requests which elicit a non-informational
+│                              │                   response from the backend. Each such request leaves the
+│                              │                   proxy with an invalid connection, and causes one subsequent
+│                              │                   request using that connection to fail. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
+│                              │                  ├ [1]: https://go.dev/issue/67555 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              │                  │      qzY/m/6MMoAZkMAgAJ 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
+│                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
+├ [8]  ╭ Target         : usr/bin/mc 
+│      ├ Class          : lang-pkgs 
+│      ├ Type           : gobinary 
+│      ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2024-24791 
+│                              ├ PkgName         : stdlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.4 
+│                              │                  ╰ UID : fbc397b7c82fa250 
+│                              ├ InstalledVersion: 1.22.4 
+│                              ├ FixedVersion    : 1.21.12, 1.22.5 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a
+│                              │                  │         8466b249c847b5ff9c52c908c 
+│                              │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81b
+│                              │                            aff63fe6e2b2742c57be165c1 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24791 
+│                              ├ DataSource       ╭ ID  : govulndb 
+│                              │                  ├ Name: The Go Vulnerability Database 
+│                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
+│                              │                   a server responds to a request with an "Expect:
+│                              │                   100-continue" header with a non-informational (200 or
+│                              │                   higher) status. This mishandling could leave a client
+│                              │                   connection in an invalid state, where the next request sent
+│                              │                   on the connection will fail. An attacker sending a request
+│                              │                   to a net/http/httputil.ReverseProxy proxy can exploit this
+│                              │                   mishandling to cause a denial of service by sending "Expect:
+│                              │                    100-continue" requests which elicit a non-informational
+│                              │                   response from the backend. Each such request leaves the
+│                              │                   proxy with an invalid connection, and causes one subsequent
+│                              │                   request using that connection to fail. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
+│                              │                  ├ [1]: https://go.dev/issue/67555 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              │                  │      qzY/m/6MMoAZkMAgAJ 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
+│                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
 │      ├ Class          : lang-pkgs 
 │      ├ Type           : gobinary 
@@ -9686,11 +10279,13 @@
 │                        │     │                   returning false for addresses which would return true in
 │                        │     │                   their traditional IPv4 forms. 
 │                        │     ├ Severity        : CRITICAL 
-│                        │     ├ VendorSeverity   ╭ amazon : 2 
-│                        │     │                  ├ bitnami: 4 
-│                        │     │                  ├ nvd    : 4 
-│                        │     │                  ├ photon : 4 
-│                        │     │                  ╰ redhat : 2 
+│                        │     ├ VendorSeverity   ╭ alma       : 2 
+│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ bitnami    : 4 
+│                        │     │                  ├ nvd        : 4 
+│                        │     │                  ├ oracle-oval: 2 
+│                        │     │                  ├ photon     : 4 
+│                        │     │                  ╰ redhat     : 2 
 │                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
 │                        │     │                  │         │           :H/I:H/A:H 
 │                        │     │                  │         ╰ V3Score : 9.8 
@@ -9700,16 +10295,22 @@
 │                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C
 │                        │     │                            │           :H/I:H/A:N 
 │                        │     │                            ╰ V3Score : 6.7 
-│                        │     ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
-│                        │     │                  │      6/04/1 
-│                        │     │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24790 
-│                        │     │                  ├ [2]: https://go.dev/cl/590316 
-│                        │     │                  ├ [3]: https://go.dev/issue/67680 
-│                        │     │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xbx
-│                        │     │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                        │     │                  ├ [5]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
-│                        │     │                  ├ [6]: https://pkg.go.dev/vuln/GO-2024-2887 
-│                        │     │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
+│                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/
+│                        │     │                  │       06/04/1 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4212 
+│                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-24790 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2292668 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2292787 
+│                        │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
+│                        │     │                  ├ [6] : https://go.dev/cl/590316 
+│                        │     │                  ├ [7] : https://go.dev/issue/67680 
+│                        │     │                  ├ [8] : https://groups.google.com/g/golang-announce/c/Xb
+│                        │     │                  │       xouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │     │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-24790.html 
+│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │     │                  ├ [11]: https://nvd.nist.gov/vuln/detail/CVE-2024-24790 
+│                        │     │                  ├ [12]: https://pkg.go.dev/vuln/GO-2024-2887 
+│                        │     │                  ╰ [13]: https://www.cve.org/CVERecord?id=CVE-2024-24790 
 │                        │     ├ PublishedDate   : 2024-06-05T16:15:10.56Z 
 │                        │     ╰ LastModifiedDate: 2024-06-18T17:59:12.547Z 
 │                        ├ [2] ╭ VulnerabilityID : CVE-2024-24788 
@@ -9753,60 +10354,211 @@
 │                        │     │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2024-24788 
 │                        │     ├ PublishedDate   : 2024-05-08T16:15:08.25Z 
 │                        │     ╰ LastModifiedDate: 2024-06-14T13:15:50.67Z 
-│                        ╰ [3] ╭ VulnerabilityID : CVE-2024-24789 
+│                        ├ [3] ╭ VulnerabilityID : CVE-2024-24789 
+│                        │     ├ PkgName         : stdlib 
+│                        │     ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
+│                        │     │                  ╰ UID : 36ffbab8aa163593 
+│                        │     ├ InstalledVersion: 1.22.2 
+│                        │     ├ FixedVersion    : 1.21.11, 1.22.4 
+│                        │     ├ Status          : fixed 
+│                        │     ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a
+│                        │     │                  │         8466b249c847b5ff9c52c908c 
+│                        │     │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81b
+│                        │     │                            aff63fe6e2b2742c57be165c1 
+│                        │     ├ SeveritySource  : nvd 
+│                        │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                        │     ├ DataSource       ╭ ID  : govulndb 
+│                        │     │                  ├ Name: The Go Vulnerability Database 
+│                        │     │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                        │     ├ Title           : golang: archive/zip: Incorrect handling of certain ZIP files 
+│                        │     ├ Description     : The archive/zip package's handling of certain types of
+│                        │     │                   invalid zip files differs from the behavior of most zip
+│                        │     │                   implementations. This misalignment could be exploited to
+│                        │     │                   create an zip file with contents that vary depending on the
+│                        │     │                   implementation reading the file. The archive/zip package now
+│                        │     │                    rejects files containing these errors. 
+│                        │     ├ Severity        : MEDIUM 
+│                        │     ├ VendorSeverity   ╭ alma       : 2 
+│                        │     │                  ├ amazon     : 2 
+│                        │     │                  ├ bitnami    : 2 
+│                        │     │                  ├ nvd        : 2 
+│                        │     │                  ├ oracle-oval: 2 
+│                        │     │                  ├ photon     : 2 
+│                        │     │                  ╰ redhat     : 2 
+│                        │     ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │     │                  │         │           :N/I:H/A:N 
+│                        │     │                  │         ╰ V3Score : 5.5 
+│                        │     │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
+│                        │     │                  │         │           :N/I:H/A:N 
+│                        │     │                  │         ╰ V3Score : 5.5 
+│                        │     │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                        │     │                            │           :N/I:H/A:N 
+│                        │     │                            ╰ V3Score : 7.5 
+│                        │     ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024/
+│                        │     │                  │       06/04/1 
+│                        │     │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4212 
+│                        │     │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-24789 
+│                        │     │                  ├ [3] : https://bugzilla.redhat.com/2292668 
+│                        │     │                  ├ [4] : https://bugzilla.redhat.com/2292787 
+│                        │     │                  ├ [5] : https://errata.almalinux.org/9/ALSA-2024-4212.html 
+│                        │     │                  ├ [6] : https://go.dev/cl/585397 
+│                        │     │                  ├ [7] : https://go.dev/issue/66869 
+│                        │     │                  ├ [8] : https://groups.google.com/g/golang-announce/c/Xb
+│                        │     │                  │       xouI9gY7k/m/TuoGEhxIEwAJ 
+│                        │     │                  ├ [9] : https://linux.oracle.com/cve/CVE-2024-24789.html 
+│                        │     │                  ├ [10]: https://linux.oracle.com/errata/ELSA-2024-4237.html 
+│                        │     │                  ├ [11]: https://lists.fedoraproject.org/archives/list/pa
+│                        │     │                  │       ckage-announce@lists.fedoraproject.org/message/U5YAEI
+│                        │     │                  │       A6IUHUNGJ7AIXXPQT6D2GYENX7/ 
+│                        │     │                  ├ [12]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
+│                        │     │                  ├ [13]: https://pkg.go.dev/vuln/GO-2024-2888 
+│                        │     │                  ╰ [14]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
+│                        │     ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
+│                        │     ╰ LastModifiedDate: 2024-07-03T01:48:25.51Z 
+│                        ╰ [4] ╭ VulnerabilityID : CVE-2024-24791 
 │                              ├ PkgName         : stdlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:golang/stdlib@1.22.2 
 │                              │                  ╰ UID : 36ffbab8aa163593 
 │                              ├ InstalledVersion: 1.22.2 
-│                              ├ FixedVersion    : 1.21.11, 1.22.4 
+│                              ├ FixedVersion    : 1.21.12, 1.22.5 
 │                              ├ Status          : fixed 
 │                              ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785a
 │                              │                  │         8466b249c847b5ff9c52c908c 
 │                              │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81b
 │                              │                            aff63fe6e2b2742c57be165c1 
-│                              ├ SeveritySource  : nvd 
-│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24789 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-24791 
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
-│                              ├ Title           : golang: archive/zip: Incorrect handling of certain ZIP files 
-│                              ├ Description     : The archive/zip package's handling of certain types of
-│                              │                   invalid zip files differs from the behavior of most zip
-│                              │                   implementations. This misalignment could be exploited to
-│                              │                   create an zip file with contents that vary depending on the
-│                              │                   implementation reading the file. The archive/zip package now
-│                              │                    rejects files containing these errors. 
-│                              ├ Severity        : MEDIUM 
-│                              ├ VendorSeverity   ╭ amazon : 2 
-│                              │                  ├ bitnami: 2 
-│                              │                  ├ nvd    : 2 
-│                              │                  ├ photon : 2 
-│                              │                  ╰ redhat : 2 
-│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-│                              │                  │         │           :N/I:H/A:N 
-│                              │                  │         ╰ V3Score : 5.5 
-│                              │                  ├ nvd     ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C
-│                              │                  │         │           :N/I:H/A:N 
-│                              │                  │         ╰ V3Score : 5.5 
-│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
-│                              │                            │           :N/I:H/A:N 
-│                              │                            ╰ V3Score : 7.5 
-│                              ├ References       ╭ [0]: http://www.openwall.com/lists/oss-security/2024/0
-│                              │                  │      6/04/1 
-│                              │                  ├ [1]: https://access.redhat.com/security/cve/CVE-2024-24789 
-│                              │                  ├ [2]: https://go.dev/cl/585397 
-│                              │                  ├ [3]: https://go.dev/issue/66869 
-│                              │                  ├ [4]: https://groups.google.com/g/golang-announce/c/Xbx
-│                              │                  │      ouI9gY7k/m/TuoGEhxIEwAJ 
-│                              │                  ├ [5]: https://lists.fedoraproject.org/archives/list/pac
-│                              │                  │      kage-announce@lists.fedoraproject.org/message/U5YAEIA6
-│                              │                  │      IUHUNGJ7AIXXPQT6D2GYENX7/ 
-│                              │                  ├ [6]: https://nvd.nist.gov/vuln/detail/CVE-2024-24789 
-│                              │                  ├ [7]: https://pkg.go.dev/vuln/GO-2024-2888 
-│                              │                  ╰ [8]: https://www.cve.org/CVERecord?id=CVE-2024-24789 
-│                              ├ PublishedDate   : 2024-06-05T16:15:10.47Z 
-│                              ╰ LastModifiedDate: 2024-06-19T03:15:09.183Z 
-├ [10] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
+│                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
+│                              │                   a server responds to a request with an "Expect:
+│                              │                   100-continue" header with a non-informational (200 or
+│                              │                   higher) status. This mishandling could leave a client
+│                              │                   connection in an invalid state, where the next request sent
+│                              │                   on the connection will fail. An attacker sending a request
+│                              │                   to a net/http/httputil.ReverseProxy proxy can exploit this
+│                              │                   mishandling to cause a denial of service by sending "Expect:
+│                              │                    100-continue" requests which elicit a non-informational
+│                              │                   response from the backend. Each such request leaves the
+│                              │                   proxy with an invalid connection, and causes one subsequent
+│                              │                   request using that connection to fail. 
+│                              ├ Severity        : UNKNOWN 
+│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
+│                              │                  ├ [1]: https://go.dev/issue/67555 
+│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              │                  │      qzY/m/6MMoAZkMAgAJ 
+│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
+│                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
+├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ****************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            *********************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:fae32148c7a3f9d55151c6b09d7dd440480785a8466b249c847
+│                                  │            b5ff9c52c908c 
+│                                  ├ DiffID   : sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2
+│                                  │            742c57be165c1 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -9864,7 +10616,7 @@
 │                                  ├ DiffID   : sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2
 │                                  │            742c57be165c1 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -9917,183 +10669,7 @@
 │                                  ├ DiffID   : sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2
 │                                  │            742c57be165c1 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_rsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************************************-
-│                      │            ----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:fae32148c7a3f9d55151c6b09d7dd440480785a8466b249c847
-│                                  │            b5ff9c52c908c 
-│                                  ├ DiffID   : sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2
-│                                  │            742c57be165c1 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -10131,7 +10707,33 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRIVATE
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
@@ -10165,7 +10767,33 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ****************-----END OPENSSH PRIVATE
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********************************************
+                       │                   │     │              ***********-----END OPENSSH PRIVATE
                        │                   │     │              KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
@@ -10194,8 +10822,24 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            *********************************************************-----END OPENSSH
-                       │            PRI 
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            ***************************************************************************
+                       │            **************************************************************************-
+                       │            ----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:fae32148c7a3f9d55151c6b09d7dd440480785a8466b249c847
                                    │            b5ff9c52c908c 
                                    ├ DiffID   : sha256:efda490c0f21ee21051fcc1e5874679f425e81baff63fe6e2b2
