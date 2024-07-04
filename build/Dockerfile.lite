@@ -61,4 +61,4 @@ ENV LANG=C.UTF-8 \
     LC_ALL=C.UTF-8 \
     HOME=/home/user
 
-ENTRYPOINT /home/user/.p1.sh 
+ENTRYPOINT ["/bin/sh", "/home/user/.p1.sh"]
