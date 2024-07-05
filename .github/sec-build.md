@@ -6420,7 +6420,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6500,7 +6500,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7042,6 +7042,8 @@
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                               ├ Title           : net/http: Denial of service due to improper
+│                               │                   100-continue handling in net/http 
 │                               ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                               │                    a server responds to a request with an "Expect:
 │                               │                   100-continue" header with a non-informational (200 or
@@ -7055,12 +7057,16 @@
 │                               │                   request leaves the proxy with an invalid connection, and
 │                               │                   causes one subsequent request using that connection to
 │                               │                   fail. 
-│                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                               │                  ├ [1]: https://go.dev/issue/67555 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qH
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ─ redhat: 2 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                               │                  ├ [1]: https://go.dev/cl/591255 
+│                               │                  ├ [2]: https://go.dev/issue/67555 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qH
 │                               │                  │      BqzY/m/6MMoAZkMAgAJ 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                               ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                               ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [4]  ╭ Target         : tmp/tmp.iOtnQ0dwbN/krew-linux_amd64 
@@ -8883,7 +8889,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8963,7 +8969,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9505,6 +9511,8 @@
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                               ├ Title           : net/http: Denial of service due to improper
+│                               │                   100-continue handling in net/http 
 │                               ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                               │                    a server responds to a request with an "Expect:
 │                               │                   100-continue" header with a non-informational (200 or
@@ -9518,12 +9526,16 @@
 │                               │                   request leaves the proxy with an invalid connection, and
 │                               │                   causes one subsequent request using that connection to
 │                               │                   fail. 
-│                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                               │                  ├ [1]: https://go.dev/issue/67555 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qH
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ─ redhat: 2 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                               │                  ├ [1]: https://go.dev/cl/591255 
+│                               │                  ├ [2]: https://go.dev/issue/67555 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qH
 │                               │                  │      BqzY/m/6MMoAZkMAgAJ 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                               ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                               ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
@@ -9544,6 +9556,8 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : net/http: Denial of service due to improper
+│                              │                   100-continue handling in net/http 
 │                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                              │                   a server responds to a request with an "Expect:
 │                              │                   100-continue" header with a non-informational (200 or
@@ -9556,12 +9570,16 @@
 │                              │                   response from the backend. Each such request leaves the
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                              │                  ├ [1]: https://go.dev/issue/67555 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                              │                  ├ [1]: https://go.dev/cl/591255 
+│                              │                  ├ [2]: https://go.dev/issue/67555 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
 │                              │                  │      qzY/m/6MMoAZkMAgAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
@@ -9582,6 +9600,8 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : net/http: Denial of service due to improper
+│                              │                   100-continue handling in net/http 
 │                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                              │                   a server responds to a request with an "Expect:
 │                              │                   100-continue" header with a non-informational (200 or
@@ -9594,12 +9614,16 @@
 │                              │                   response from the backend. Each such request leaves the
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                              │                  ├ [1]: https://go.dev/issue/67555 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                              │                  ├ [1]: https://go.dev/cl/591255 
+│                              │                  ├ [2]: https://go.dev/issue/67555 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
 │                              │                  │      qzY/m/6MMoAZkMAgAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
@@ -9620,6 +9644,8 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : net/http: Denial of service due to improper
+│                              │                   100-continue handling in net/http 
 │                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                              │                   a server responds to a request with an "Expect:
 │                              │                   100-continue" header with a non-informational (200 or
@@ -9632,12 +9658,16 @@
 │                              │                   response from the backend. Each such request leaves the
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                              │                  ├ [1]: https://go.dev/issue/67555 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                              │                  ├ [1]: https://go.dev/cl/591255 
+│                              │                  ├ [2]: https://go.dev/issue/67555 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
 │                              │                  │      qzY/m/6MMoAZkMAgAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [8]  ╭ Target: usr/bin/mc 
@@ -9878,6 +9908,8 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : net/http: Denial of service due to improper
+│                              │                   100-continue handling in net/http 
 │                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                              │                   a server responds to a request with an "Expect:
 │                              │                   100-continue" header with a non-informational (200 or
@@ -9890,15 +9922,248 @@
 │                              │                   response from the backend. Each such request leaves the
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                              │                  ├ [1]: https://go.dev/issue/67555 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                              │                  ├ [1]: https://go.dev/cl/591255 
+│                              │                  ├ [2]: https://go.dev/issue/67555 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
 │                              │                  │      qzY/m/6MMoAZkMAgAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
-├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
+├ [10] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              *********************-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************-----END OPENSSH
+│                      │            PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:143820d501c1101770793dd0c3790115d8cb44c64b60dcb7355
+│                                  │            32f739566136d 
+│                                  ├ DiffID   : sha256:08c947377984de56074fab61c49504f6240b6cbfa5f5d775b33
+│                                  │            4b1e303e7b1d1 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [11] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+│      ├ Class  : secret 
+│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
+│                      ├ Category : AsymmetricPrivateKey 
+│                      ├ Severity : HIGH 
+│                      ├ Title    : Asymmetric Private Key 
+│                      ├ StartLine: 1 
+│                      ├ EndLine  : 1 
+│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
+│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ IsCause    : true 
+│                      │                   │     ├ Annotation :  
+│                      │                   │     ├ Truncated  : false 
+│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
+│                      │                   │     │              KEY-----***************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********************************************
+│                      │                   │     │              ***********-----END OPENSSH PRIVATE
+│                      │                   │     │              KEY----- 
+│                      │                   │     ├ FirstCause : true 
+│                      │                   │     ╰ LastCause  : true 
+│                      │                   ╰ [1] ╭ Number    : 2 
+│                      │                         ├ Content   :  
+│                      │                         ├ IsCause   : false 
+│                      │                         ├ Annotation:  
+│                      │                         ├ Truncated : false 
+│                      │                         ├ FirstCause: false 
+│                      │                         ╰ LastCause : false 
+│                      ├ Match    : BEGIN OPENSSH PRIVATE
+│                      │            KEY-----*******************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            ***************************************************************************
+│                      │            **************************************************************************-
+│                      │            ----END OPENSSH PRI 
+│                      ╰ Layer     ╭ Digest   : sha256:143820d501c1101770793dd0c3790115d8cb44c64b60dcb7355
+│                                  │            32f739566136d 
+│                                  ├ DiffID   : sha256:08c947377984de56074fab61c49504f6240b6cbfa5f5d775b33
+│                                  │            4b1e303e7b1d1 
+│                                  ╰ CreatedBy: COPY / / # buildkit 
+├ [12] ╭ Target : /etc/ssh/ssh_host_dsa_key 
 │      ├ Class  : secret 
 │      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
 │                      ├ Category : AsymmetricPrivateKey 
@@ -10006,118 +10271,7 @@
 │                                  ├ DiffID   : sha256:08c947377984de56074fab61c49504f6240b6cbfa5f5d775b33
 │                                  │            4b1e303e7b1d1 
 │                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [11] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *****************************-----END OPENSSH
-│                      │                   │     │              PRIVATE KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **-----END OPENSSH PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:143820d501c1101770793dd0c3790115d8cb44c64b60dcb7355
-│                                  │            32f739566136d 
-│                                  ├ DiffID   : sha256:08c947377984de56074fab61c49504f6240b6cbfa5f5d775b33
-│                                  │            4b1e303e7b1d1 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-├ [12] ╭ Target : /etc/ssh/ssh_host_ed25519_key 
-│      ├ Class  : secret 
-│      ╰ Secrets ─ [0] ╭ RuleID   : private-key 
-│                      ├ Category : AsymmetricPrivateKey 
-│                      ├ Severity : HIGH 
-│                      ├ Title    : Asymmetric Private Key 
-│                      ├ StartLine: 1 
-│                      ├ EndLine  : 1 
-│                      ├ Code      ─ Lines ╭ [0] ╭ Number     : 1 
-│                      │                   │     ├ Content    : -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ IsCause    : true 
-│                      │                   │     ├ Annotation :  
-│                      │                   │     ├ Truncated  : false 
-│                      │                   │     ├ Highlighted: -----BEGIN OPENSSH PRIVATE
-│                      │                   │     │              KEY-----***************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              ***********************************************
-│                      │                   │     │              *********************-----END OPENSSH PRIVATE
-│                      │                   │     │              KEY----- 
-│                      │                   │     ├ FirstCause : true 
-│                      │                   │     ╰ LastCause  : true 
-│                      │                   ╰ [1] ╭ Number    : 2 
-│                      │                         ├ Content   :  
-│                      │                         ├ IsCause   : false 
-│                      │                         ├ Annotation:  
-│                      │                         ├ Truncated : false 
-│                      │                         ├ FirstCause: false 
-│                      │                         ╰ LastCause : false 
-│                      ├ Match    : BEGIN OPENSSH PRIVATE
-│                      │            KEY-----*******************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            ***************************************************************************
-│                      │            **************************************************-----END OPENSSH
-│                      │            PRI 
-│                      ╰ Layer     ╭ Digest   : sha256:143820d501c1101770793dd0c3790115d8cb44c64b60dcb7355
-│                                  │            32f739566136d 
-│                                  ├ DiffID   : sha256:08c947377984de56074fab61c49504f6240b6cbfa5f5d775b33
-│                                  │            4b1e303e7b1d1 
-│                                  ╰ CreatedBy: COPY / / # buildkit 
-╰ [13] ╭ Target : /etc/ssh/ssh_host_rsa_key 
+╰ [13] ╭ Target : /etc/ssh/ssh_host_ecdsa_key 
        ├ Class  : secret 
        ╰ Secrets ─ [0] ╭ RuleID   : private-key 
                        ├ Category : AsymmetricPrivateKey 
@@ -10136,53 +10290,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
-                       │                   │     │              KEY----- 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRIVATE KEY----- 
                        │                   │     ├ IsCause    : true 
                        │                   │     ├ Annotation :  
                        │                   │     ├ Truncated  : false 
@@ -10196,53 +10305,8 @@
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
                        │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********************************************
-                       │                   │     │              ***********-----END OPENSSH PRIVATE
-                       │                   │     │              KEY----- 
+                       │                   │     │              *****************************-----END OPENSSH
+                       │                   │     │              PRIVATE KEY----- 
                        │                   │     ├ FirstCause : true 
                        │                   │     ╰ LastCause  : true 
                        │                   ╰ [1] ╭ Number    : 2 
@@ -10259,35 +10323,7 @@
                        │            ***************************************************************************
                        │            ***************************************************************************
                        │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            ***************************************************************************
-                       │            **************************************************************************-
-                       │            ----END OPENSSH PRI 
+                       │            **-----END OPENSSH PRI 
                        ╰ Layer     ╭ Digest   : sha256:143820d501c1101770793dd0c3790115d8cb44c64b60dcb7355
                                    │            32f739566136d 
                                    ├ DiffID   : sha256:08c947377984de56074fab61c49504f6240b6cbfa5f5d775b33
