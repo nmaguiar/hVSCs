@@ -3316,6 +3316,8 @@
     - http://www.openwall.com/lists/oss-security/2024/07/03/3
     - http://www.openwall.com/lists/oss-security/2024/07/03/4
     - http://www.openwall.com/lists/oss-security/2024/07/03/5
+    - http://www.openwall.com/lists/oss-security/2024/07/04/1
+    - http://www.openwall.com/lists/oss-security/2024/07/04/2
     - https://access.redhat.com/errata/RHSA-2024:4312
     - https://access.redhat.com/security/cve/CVE-2024-6387
     - https://archlinux.org/news/the-sshd-service-needs-to-be-restarted-after-upgrading-to-openssh-98p1/
@@ -3333,7 +3335,7 @@
     - https://github.com/rapier1/hpn-ssh/issues/87
     - https://github.com/zgzhang/cve-2024-6387-poc
     - https://linux.oracle.com/cve/CVE-2024-6387.html
-    - https://linux.oracle.com/errata/ELSA-2024-12468.html
+    - https://linux.oracle.com/errata/ELSA-2024-4312.html
     - https://lists.mindrot.org/pipermail/openssh-unix-announce/2024-July/000158.html
     - https://lists.mindrot.org/pipermail/openssh-unix-dev/2024-July/041431.html
     - https://news.ycombinator.com/item?id=40843778
@@ -3352,7 +3354,7 @@
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-03T22:15:03.86Z'
+    LastModifiedDate: '2024-07-04T12:15:03.757Z'
   - VulnerabilityID: CVE-2024-6387
     PkgID: openssh-server@1:8.9p1-3ubuntu0.7
     PkgName: openssh-server
@@ -3395,6 +3397,8 @@
     - http://www.openwall.com/lists/oss-security/2024/07/03/3
     - http://www.openwall.com/lists/oss-security/2024/07/03/4
     - http://www.openwall.com/lists/oss-security/2024/07/03/5
+    - http://www.openwall.com/lists/oss-security/2024/07/04/1
+    - http://www.openwall.com/lists/oss-security/2024/07/04/2
     - https://access.redhat.com/errata/RHSA-2024:4312
     - https://access.redhat.com/security/cve/CVE-2024-6387
     - https://archlinux.org/news/the-sshd-service-needs-to-be-restarted-after-upgrading-to-openssh-98p1/
@@ -3412,7 +3416,7 @@
     - https://github.com/rapier1/hpn-ssh/issues/87
     - https://github.com/zgzhang/cve-2024-6387-poc
     - https://linux.oracle.com/cve/CVE-2024-6387.html
-    - https://linux.oracle.com/errata/ELSA-2024-12468.html
+    - https://linux.oracle.com/errata/ELSA-2024-4312.html
     - https://lists.mindrot.org/pipermail/openssh-unix-announce/2024-July/000158.html
     - https://lists.mindrot.org/pipermail/openssh-unix-dev/2024-July/041431.html
     - https://news.ycombinator.com/item?id=40843778
@@ -3431,7 +3435,7 @@
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-03T22:15:03.86Z'
+    LastModifiedDate: '2024-07-04T12:15:03.757Z'
   - VulnerabilityID: CVE-2024-6387
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.7
     PkgName: openssh-sftp-server
@@ -3474,6 +3478,8 @@
     - http://www.openwall.com/lists/oss-security/2024/07/03/3
     - http://www.openwall.com/lists/oss-security/2024/07/03/4
     - http://www.openwall.com/lists/oss-security/2024/07/03/5
+    - http://www.openwall.com/lists/oss-security/2024/07/04/1
+    - http://www.openwall.com/lists/oss-security/2024/07/04/2
     - https://access.redhat.com/errata/RHSA-2024:4312
     - https://access.redhat.com/security/cve/CVE-2024-6387
     - https://archlinux.org/news/the-sshd-service-needs-to-be-restarted-after-upgrading-to-openssh-98p1/
@@ -3491,7 +3497,7 @@
     - https://github.com/rapier1/hpn-ssh/issues/87
     - https://github.com/zgzhang/cve-2024-6387-poc
     - https://linux.oracle.com/cve/CVE-2024-6387.html
-    - https://linux.oracle.com/errata/ELSA-2024-12468.html
+    - https://linux.oracle.com/errata/ELSA-2024-4312.html
     - https://lists.mindrot.org/pipermail/openssh-unix-announce/2024-July/000158.html
     - https://lists.mindrot.org/pipermail/openssh-unix-dev/2024-July/041431.html
     - https://news.ycombinator.com/item?id=40843778
@@ -3510,7 +3516,7 @@
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-03T22:15:03.86Z'
+    LastModifiedDate: '2024-07-04T12:15:03.757Z'
   - VulnerabilityID: CVE-2022-40735
     PkgID: openssl@3.0.2-0ubuntu1.15
     PkgName: openssl
@@ -4223,8 +4229,8 @@
       ubuntu: 2
     CVSS:
       redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N
-        V3Score: 5.4
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.5
     References:
     - https://access.redhat.com/security/cve/CVE-2024-38428
     - https://git.savannah.gnu.org/cgit/wget.git/commit/?id=ed0c7c7e0e8f7298352646b2fd6e06a11e242ace
@@ -5467,7 +5473,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5531,7 +5537,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5996,13 +6002,19 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'net/http: Denial of service due to improper 100-continue handling in net/http'
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-24791
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
+    - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-03T12:53:24.977Z'
 - Target: tmp/tmp.fj1SDhnZ1T/krew-linux_amd64
@@ -7134,7 +7146,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7198,7 +7210,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 2
+      amazon: 3
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7663,13 +7675,19 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'net/http: Denial of service due to improper 100-continue handling in net/http'
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-24791
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
+    - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-03T12:53:24.977Z'
 - Target: usr/bin/docker-compose
@@ -7692,13 +7710,19 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'net/http: Denial of service due to improper 100-continue handling in net/http'
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-24791
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
+    - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-03T12:53:24.977Z'
 - Target: usr/bin/helm
@@ -7721,13 +7745,19 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'net/http: Denial of service due to improper 100-continue handling in net/http'
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-24791
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
+    - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-03T12:53:24.977Z'
 - Target: usr/bin/kubectl
@@ -7750,13 +7780,19 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'net/http: Denial of service due to improper 100-continue handling in net/http'
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-24791
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
+    - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-03T12:53:24.977Z'
 - Target: usr/bin/mc
@@ -7779,13 +7815,19 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'net/http: Denial of service due to improper 100-continue handling in net/http'
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-24791
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
+    - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-03T12:53:24.977Z'
 - Target: usr/local/bin/k3d
@@ -7999,13 +8041,19 @@
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
+    Title: 'net/http: Denial of service due to improper 100-continue handling in net/http'
     Description: 'The net/http HTTP/1.1 client mishandled the case where a server responds to a request with an "Expect: 100-continue" header with a non-informational (200 or higher) status. This mishandling could leave a client connection in an invalid state, where the next request sent on the connection will fail. An attacker sending a request to a net/http/httputil.ReverseProxy proxy can exploit this mishandling to cause a denial of service by sending "Expect: 100-continue" requests which elicit a non-informational response from the backend. Each such request leaves the proxy with an invalid connection, and causes one subsequent request using that connection to fail.'
-    Severity: UNKNOWN
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
     References:
+    - https://access.redhat.com/security/cve/CVE-2024-24791
     - https://go.dev/cl/591255
     - https://go.dev/issue/67555
     - https://groups.google.com/g/golang-dev/c/t0rK-qHBqzY/m/6MMoAZkMAgAJ
+    - https://nvd.nist.gov/vuln/detail/CVE-2024-24791
     - https://pkg.go.dev/vuln/GO-2024-2963
+    - https://www.cve.org/CVERecord?id=CVE-2024-24791
     PublishedDate: '2024-07-02T22:15:04.833Z'
     LastModifiedDate: '2024-07-03T12:53:24.977Z'
 - Target: /etc/ssh/ssh_host_dsa_key
