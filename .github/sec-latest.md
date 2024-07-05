@@ -3780,64 +3780,68 @@
 │                        │      │                  │       /07/03/4 
 │                        │      │                  ├ [8] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /07/03/5 
-│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2024:4312 
-│                        │      │                  ├ [10]: https://access.redhat.com/security/cve/CVE-2024-6387 
-│                        │      │                  ├ [11]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  ├ [9] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/04/1 
+│                        │      │                  ├ [10]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/04/2 
+│                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [13]: https://archlinux.org/news/the-sshd-service-nee
 │                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
 │                        │      │                  │       [m 
-│                        │      │                  ├ [12]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  ├ [14]: https://arstechnica.com/security/2024/07/regres
 │                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
 │                        │      │                  │       on-linux/ 
-│                        │      │                  ├ [13]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [15]: https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
 │                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
 │                        │      │                  │        
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
-│                        │      │                  ├ [15]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [17]: https://explore.alas.aws.amazon.com/CVE-2024-63
 │                        │      │                  │       87.html 
-│                        │      │                  ├ [16]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  ├ [18]: https://ftp.netbsd.org/pub/NetBSD/security/advi
 │                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
-│                        │      │                  ├ [17]: https://github.com/AlmaLinux/updates/issues/629 
-│                        │      │                  ├ [18]: https://github.com/Azure/AKS/issues/4379 
-│                        │      │                  ├ [19]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  ├ [19]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [20]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [21]: https://github.com/PowerShell/Win32-OpenSSH/dis
 │                        │      │                  │       cussions/2248 
-│                        │      │                  ├ [20]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  ├ [22]: https://github.com/PowerShell/Win32-OpenSSH/iss
 │                        │      │                  │       ues/2249 
-│                        │      │                  ├ [21]: https://github.com/microsoft/azurelinux/issues/9555 
-│                        │      │                  ├ [22]: https://github.com/oracle/oracle-linux/issues/149 
-│                        │      │                  ├ [23]: https://github.com/rapier1/hpn-ssh/issues/87 
-│                        │      │                  ├ [24]: https://github.com/zgzhang/cve-2024-6387-poc 
-│                        │      │                  ├ [25]: https://linux.oracle.com/cve/CVE-2024-6387.html 
-│                        │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
-│                        │      │                  ├ [27]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [23]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [24]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [25]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [26]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
+│                        │      │                  ├ [29]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-announce/2024-July/000158.html 
-│                        │      │                  ├ [28]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [30]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-dev/2024-July/041431.html 
-│                        │      │                  ├ [29]: https://news.ycombinator.com/item?id=40843778 
-│                        │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
-│                        │      │                  ├ [31]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  ├ [31]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [32]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [33]: https://psirt.global.sonicwall.com/vuln-detail/
 │                        │      │                  │       SNWLID-2024-0010 
-│                        │      │                  ├ [32]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  ├ [34]: https://security-tracker.debian.org/tracker/CVE
 │                        │      │                  │       -2024-6387 
-│                        │      │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [35]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       701-0001/ 
-│                        │      │                  ├ [34]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  ├ [36]: https://stackdiary.com/openssh-race-condition-i
 │                        │      │                  │       n-sshd-allows-remote-code-execution/ 
-│                        │      │                  ├ [35]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  ├ [37]: https://ubuntu.com/blog/ubuntu-regresshion-secu
 │                        │      │                  │       rity-fix 
-│                        │      │                  ├ [36]: https://ubuntu.com/security/CVE-2024-6387 
-│                        │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-6859-1 
-│                        │      │                  ├ [38]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
-│                        │      │                  ├ [39]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  ├ [38]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [39]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [40]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [41]: https://www.freebsd.org/security/advisories/Fre
 │                        │      │                  │       eBSD-SA-24:04.openssh.asc 
-│                        │      │                  ├ [40]: https://www.openssh.com/txt/release-9.8 
-│                        │      │                  ├ [41]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  ├ [42]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [43]: https://www.qualys.com/2024/07/01/cve-2024-6387
 │                        │      │                  │       /regresshion.txt 
-│                        │      │                  ├ [42]: https://www.suse.com/security/cve/CVE-2024-6387.html 
-│                        │      │                  ╰ [43]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                  ├ [44]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [45]: https://www.theregister.com/2024/07/01/regressh
 │                        │      │                          ion_openssh/ 
 │                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
-│                        │      ╰ LastModifiedDate: 2024-07-03T22:15:03.86Z 
+│                        │      ╰ LastModifiedDate: 2024-07-04T12:15:03.757Z 
 │                        ├ [69] ╭ VulnerabilityID : CVE-2024-6387 
 │                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.7 
 │                        │      ├ PkgName         : openssh-server 
@@ -3891,64 +3895,68 @@
 │                        │      │                  │       /07/03/4 
 │                        │      │                  ├ [8] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /07/03/5 
-│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2024:4312 
-│                        │      │                  ├ [10]: https://access.redhat.com/security/cve/CVE-2024-6387 
-│                        │      │                  ├ [11]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  ├ [9] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/04/1 
+│                        │      │                  ├ [10]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/04/2 
+│                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [13]: https://archlinux.org/news/the-sshd-service-nee
 │                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
 │                        │      │                  │       [m 
-│                        │      │                  ├ [12]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  ├ [14]: https://arstechnica.com/security/2024/07/regres
 │                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
 │                        │      │                  │       on-linux/ 
-│                        │      │                  ├ [13]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [15]: https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
 │                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
 │                        │      │                  │        
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
-│                        │      │                  ├ [15]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [17]: https://explore.alas.aws.amazon.com/CVE-2024-63
 │                        │      │                  │       87.html 
-│                        │      │                  ├ [16]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  ├ [18]: https://ftp.netbsd.org/pub/NetBSD/security/advi
 │                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
-│                        │      │                  ├ [17]: https://github.com/AlmaLinux/updates/issues/629 
-│                        │      │                  ├ [18]: https://github.com/Azure/AKS/issues/4379 
-│                        │      │                  ├ [19]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  ├ [19]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [20]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [21]: https://github.com/PowerShell/Win32-OpenSSH/dis
 │                        │      │                  │       cussions/2248 
-│                        │      │                  ├ [20]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  ├ [22]: https://github.com/PowerShell/Win32-OpenSSH/iss
 │                        │      │                  │       ues/2249 
-│                        │      │                  ├ [21]: https://github.com/microsoft/azurelinux/issues/9555 
-│                        │      │                  ├ [22]: https://github.com/oracle/oracle-linux/issues/149 
-│                        │      │                  ├ [23]: https://github.com/rapier1/hpn-ssh/issues/87 
-│                        │      │                  ├ [24]: https://github.com/zgzhang/cve-2024-6387-poc 
-│                        │      │                  ├ [25]: https://linux.oracle.com/cve/CVE-2024-6387.html 
-│                        │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
-│                        │      │                  ├ [27]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [23]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [24]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [25]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [26]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
+│                        │      │                  ├ [29]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-announce/2024-July/000158.html 
-│                        │      │                  ├ [28]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [30]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-dev/2024-July/041431.html 
-│                        │      │                  ├ [29]: https://news.ycombinator.com/item?id=40843778 
-│                        │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
-│                        │      │                  ├ [31]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  ├ [31]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [32]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [33]: https://psirt.global.sonicwall.com/vuln-detail/
 │                        │      │                  │       SNWLID-2024-0010 
-│                        │      │                  ├ [32]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  ├ [34]: https://security-tracker.debian.org/tracker/CVE
 │                        │      │                  │       -2024-6387 
-│                        │      │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [35]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       701-0001/ 
-│                        │      │                  ├ [34]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  ├ [36]: https://stackdiary.com/openssh-race-condition-i
 │                        │      │                  │       n-sshd-allows-remote-code-execution/ 
-│                        │      │                  ├ [35]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  ├ [37]: https://ubuntu.com/blog/ubuntu-regresshion-secu
 │                        │      │                  │       rity-fix 
-│                        │      │                  ├ [36]: https://ubuntu.com/security/CVE-2024-6387 
-│                        │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-6859-1 
-│                        │      │                  ├ [38]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
-│                        │      │                  ├ [39]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  ├ [38]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [39]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [40]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [41]: https://www.freebsd.org/security/advisories/Fre
 │                        │      │                  │       eBSD-SA-24:04.openssh.asc 
-│                        │      │                  ├ [40]: https://www.openssh.com/txt/release-9.8 
-│                        │      │                  ├ [41]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  ├ [42]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [43]: https://www.qualys.com/2024/07/01/cve-2024-6387
 │                        │      │                  │       /regresshion.txt 
-│                        │      │                  ├ [42]: https://www.suse.com/security/cve/CVE-2024-6387.html 
-│                        │      │                  ╰ [43]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                  ├ [44]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [45]: https://www.theregister.com/2024/07/01/regressh
 │                        │      │                          ion_openssh/ 
 │                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
-│                        │      ╰ LastModifiedDate: 2024-07-03T22:15:03.86Z 
+│                        │      ╰ LastModifiedDate: 2024-07-04T12:15:03.757Z 
 │                        ├ [70] ╭ VulnerabilityID : CVE-2024-6387 
 │                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.7 
 │                        │      ├ PkgName         : openssh-sftp-server 
@@ -4002,64 +4010,68 @@
 │                        │      │                  │       /07/03/4 
 │                        │      │                  ├ [8] : http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /07/03/5 
-│                        │      │                  ├ [9] : https://access.redhat.com/errata/RHSA-2024:4312 
-│                        │      │                  ├ [10]: https://access.redhat.com/security/cve/CVE-2024-6387 
-│                        │      │                  ├ [11]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  ├ [9] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/04/1 
+│                        │      │                  ├ [10]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/04/2 
+│                        │      │                  ├ [11]: https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [12]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [13]: https://archlinux.org/news/the-sshd-service-nee
 │                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
 │                        │      │                  │       [m 
-│                        │      │                  ├ [12]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  ├ [14]: https://arstechnica.com/security/2024/07/regres
 │                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
 │                        │      │                  │       on-linux/ 
-│                        │      │                  ├ [13]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [15]: https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
 │                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
 │                        │      │                  │        
-│                        │      │                  ├ [14]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
-│                        │      │                  ├ [15]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  ├ [16]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [17]: https://explore.alas.aws.amazon.com/CVE-2024-63
 │                        │      │                  │       87.html 
-│                        │      │                  ├ [16]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  ├ [18]: https://ftp.netbsd.org/pub/NetBSD/security/advi
 │                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
-│                        │      │                  ├ [17]: https://github.com/AlmaLinux/updates/issues/629 
-│                        │      │                  ├ [18]: https://github.com/Azure/AKS/issues/4379 
-│                        │      │                  ├ [19]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  ├ [19]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [20]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [21]: https://github.com/PowerShell/Win32-OpenSSH/dis
 │                        │      │                  │       cussions/2248 
-│                        │      │                  ├ [20]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  ├ [22]: https://github.com/PowerShell/Win32-OpenSSH/iss
 │                        │      │                  │       ues/2249 
-│                        │      │                  ├ [21]: https://github.com/microsoft/azurelinux/issues/9555 
-│                        │      │                  ├ [22]: https://github.com/oracle/oracle-linux/issues/149 
-│                        │      │                  ├ [23]: https://github.com/rapier1/hpn-ssh/issues/87 
-│                        │      │                  ├ [24]: https://github.com/zgzhang/cve-2024-6387-poc 
-│                        │      │                  ├ [25]: https://linux.oracle.com/cve/CVE-2024-6387.html 
-│                        │      │                  ├ [26]: https://linux.oracle.com/errata/ELSA-2024-12468.html 
-│                        │      │                  ├ [27]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [23]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [24]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [25]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [26]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [27]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [28]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
+│                        │      │                  ├ [29]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-announce/2024-July/000158.html 
-│                        │      │                  ├ [28]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [30]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-dev/2024-July/041431.html 
-│                        │      │                  ├ [29]: https://news.ycombinator.com/item?id=40843778 
-│                        │      │                  ├ [30]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
-│                        │      │                  ├ [31]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  ├ [31]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [32]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [33]: https://psirt.global.sonicwall.com/vuln-detail/
 │                        │      │                  │       SNWLID-2024-0010 
-│                        │      │                  ├ [32]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  ├ [34]: https://security-tracker.debian.org/tracker/CVE
 │                        │      │                  │       -2024-6387 
-│                        │      │                  ├ [33]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [35]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       701-0001/ 
-│                        │      │                  ├ [34]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  ├ [36]: https://stackdiary.com/openssh-race-condition-i
 │                        │      │                  │       n-sshd-allows-remote-code-execution/ 
-│                        │      │                  ├ [35]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  ├ [37]: https://ubuntu.com/blog/ubuntu-regresshion-secu
 │                        │      │                  │       rity-fix 
-│                        │      │                  ├ [36]: https://ubuntu.com/security/CVE-2024-6387 
-│                        │      │                  ├ [37]: https://ubuntu.com/security/notices/USN-6859-1 
-│                        │      │                  ├ [38]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
-│                        │      │                  ├ [39]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  ├ [38]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [39]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [40]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [41]: https://www.freebsd.org/security/advisories/Fre
 │                        │      │                  │       eBSD-SA-24:04.openssh.asc 
-│                        │      │                  ├ [40]: https://www.openssh.com/txt/release-9.8 
-│                        │      │                  ├ [41]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  ├ [42]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [43]: https://www.qualys.com/2024/07/01/cve-2024-6387
 │                        │      │                  │       /regresshion.txt 
-│                        │      │                  ├ [42]: https://www.suse.com/security/cve/CVE-2024-6387.html 
-│                        │      │                  ╰ [43]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                  ├ [44]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [45]: https://www.theregister.com/2024/07/01/regressh
 │                        │      │                          ion_openssh/ 
 │                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
-│                        │      ╰ LastModifiedDate: 2024-07-03T22:15:03.86Z 
+│                        │      ╰ LastModifiedDate: 2024-07-04T12:15:03.757Z 
 │                        ├ [71] ╭ VulnerabilityID : CVE-2022-40735 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
@@ -4971,9 +4983,9 @@
 │                        │      ├ VendorSeverity   ╭ cbl-mariner: 3 
 │                        │      │                  ├ redhat     : 2 
 │                        │      │                  ╰ ubuntu     : 2 
-│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C
-│                        │      │                           │           :L/I:L/A:N 
-│                        │      │                           ╰ V3Score : 5.4 
+│                        │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C
+│                        │      │                           │           :H/I:N/A:N 
+│                        │      │                           ╰ V3Score : 5.5 
 │                        │      ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-38428 
 │                        │      │                  ├ [1]: https://git.savannah.gnu.org/cgit/wget.git/commi
 │                        │      │                  │      t/?id=ed0c7c7e0e8f7298352646b2fd6e06a11e242ace
@@ -6937,7 +6949,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7017,7 +7029,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7559,6 +7571,8 @@
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                               ├ Title           : net/http: Denial of service due to improper
+│                               │                   100-continue handling in net/http 
 │                               ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                               │                    a server responds to a request with an "Expect:
 │                               │                   100-continue" header with a non-informational (200 or
@@ -7572,12 +7586,16 @@
 │                               │                   request leaves the proxy with an invalid connection, and
 │                               │                   causes one subsequent request using that connection to
 │                               │                   fail. 
-│                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                               │                  ├ [1]: https://go.dev/issue/67555 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qH
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ─ redhat: 2 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                               │                  ├ [1]: https://go.dev/cl/591255 
+│                               │                  ├ [2]: https://go.dev/issue/67555 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qH
 │                               │                  │      BqzY/m/6MMoAZkMAgAJ 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                               ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                               ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [4]  ╭ Target         : tmp/tmp.fj1SDhnZ1T/krew-linux_amd64 
@@ -9400,7 +9418,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9480,7 +9498,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -10022,6 +10040,8 @@
 │                               ├ DataSource       ╭ ID  : govulndb 
 │                               │                  ├ Name: The Go Vulnerability Database 
 │                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                               ├ Title           : net/http: Denial of service due to improper
+│                               │                   100-continue handling in net/http 
 │                               ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                               │                    a server responds to a request with an "Expect:
 │                               │                   100-continue" header with a non-informational (200 or
@@ -10035,12 +10055,16 @@
 │                               │                   request leaves the proxy with an invalid connection, and
 │                               │                   causes one subsequent request using that connection to
 │                               │                   fail. 
-│                               ├ Severity        : UNKNOWN 
-│                               ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                               │                  ├ [1]: https://go.dev/issue/67555 
-│                               │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qH
+│                               ├ Severity        : MEDIUM 
+│                               ├ VendorSeverity   ─ redhat: 2 
+│                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                               │                  ├ [1]: https://go.dev/cl/591255 
+│                               │                  ├ [2]: https://go.dev/issue/67555 
+│                               │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qH
 │                               │                  │      BqzY/m/6MMoAZkMAgAJ 
-│                               │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                               │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                               │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                               │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                               ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                               ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [5]  ╭ Target         : usr/bin/docker-compose 
@@ -10061,6 +10085,8 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : net/http: Denial of service due to improper
+│                              │                   100-continue handling in net/http 
 │                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                              │                   a server responds to a request with an "Expect:
 │                              │                   100-continue" header with a non-informational (200 or
@@ -10073,12 +10099,16 @@
 │                              │                   response from the backend. Each such request leaves the
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                              │                  ├ [1]: https://go.dev/issue/67555 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                              │                  ├ [1]: https://go.dev/cl/591255 
+│                              │                  ├ [2]: https://go.dev/issue/67555 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
 │                              │                  │      qzY/m/6MMoAZkMAgAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [6]  ╭ Target         : usr/bin/helm 
@@ -10099,6 +10129,8 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : net/http: Denial of service due to improper
+│                              │                   100-continue handling in net/http 
 │                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                              │                   a server responds to a request with an "Expect:
 │                              │                   100-continue" header with a non-informational (200 or
@@ -10111,12 +10143,16 @@
 │                              │                   response from the backend. Each such request leaves the
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                              │                  ├ [1]: https://go.dev/issue/67555 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                              │                  ├ [1]: https://go.dev/cl/591255 
+│                              │                  ├ [2]: https://go.dev/issue/67555 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
 │                              │                  │      qzY/m/6MMoAZkMAgAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [7]  ╭ Target         : usr/bin/kubectl 
@@ -10137,6 +10173,8 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : net/http: Denial of service due to improper
+│                              │                   100-continue handling in net/http 
 │                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                              │                   a server responds to a request with an "Expect:
 │                              │                   100-continue" header with a non-informational (200 or
@@ -10149,12 +10187,16 @@
 │                              │                   response from the backend. Each such request leaves the
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                              │                  ├ [1]: https://go.dev/issue/67555 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                              │                  ├ [1]: https://go.dev/cl/591255 
+│                              │                  ├ [2]: https://go.dev/issue/67555 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
 │                              │                  │      qzY/m/6MMoAZkMAgAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [8]  ╭ Target         : usr/bin/mc 
@@ -10175,6 +10217,8 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : net/http: Denial of service due to improper
+│                              │                   100-continue handling in net/http 
 │                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                              │                   a server responds to a request with an "Expect:
 │                              │                   100-continue" header with a non-informational (200 or
@@ -10187,12 +10231,16 @@
 │                              │                   response from the backend. Each such request leaves the
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                              │                  ├ [1]: https://go.dev/issue/67555 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                              │                  ├ [1]: https://go.dev/cl/591255 
+│                              │                  ├ [2]: https://go.dev/issue/67555 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
 │                              │                  │      qzY/m/6MMoAZkMAgAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [9]  ╭ Target         : usr/local/bin/k3d 
@@ -10430,6 +10478,8 @@
 │                              ├ DataSource       ╭ ID  : govulndb 
 │                              │                  ├ Name: The Go Vulnerability Database 
 │                              │                  ╰ URL : https://pkg.go.dev/vuln/ 
+│                              ├ Title           : net/http: Denial of service due to improper
+│                              │                   100-continue handling in net/http 
 │                              ├ Description     : The net/http HTTP/1.1 client mishandled the case where
 │                              │                   a server responds to a request with an "Expect:
 │                              │                   100-continue" header with a non-informational (200 or
@@ -10442,12 +10492,16 @@
 │                              │                   response from the backend. Each such request leaves the
 │                              │                   proxy with an invalid connection, and causes one subsequent
 │                              │                   request using that connection to fail. 
-│                              ├ Severity        : UNKNOWN 
-│                              ├ References       ╭ [0]: https://go.dev/cl/591255 
-│                              │                  ├ [1]: https://go.dev/issue/67555 
-│                              │                  ├ [2]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
+│                              ├ Severity        : MEDIUM 
+│                              ├ VendorSeverity   ─ redhat: 2 
+│                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
+│                              │                  ├ [1]: https://go.dev/cl/591255 
+│                              │                  ├ [2]: https://go.dev/issue/67555 
+│                              │                  ├ [3]: https://groups.google.com/g/golang-dev/c/t0rK-qHB
 │                              │                  │      qzY/m/6MMoAZkMAgAJ 
-│                              │                  ╰ [3]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ├ [4]: https://nvd.nist.gov/vuln/detail/CVE-2024-24791 
+│                              │                  ├ [5]: https://pkg.go.dev/vuln/GO-2024-2963 
+│                              │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-24791 
 │                              ├ PublishedDate   : 2024-07-02T22:15:04.833Z 
 │                              ╰ LastModifiedDate: 2024-07-03T12:53:24.977Z 
 ├ [10] ╭ Target : /etc/ssh/ssh_host_dsa_key 
