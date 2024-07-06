@@ -3296,13 +3296,20 @@
     Description: A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead to sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
     Severity: HIGH
     CweIDs:
+    - CWE-362
     - CWE-364
     VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      nvd: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 3
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -3319,11 +3326,14 @@
     - http://www.openwall.com/lists/oss-security/2024/07/04/1
     - http://www.openwall.com/lists/oss-security/2024/07/04/2
     - https://access.redhat.com/errata/RHSA-2024:4312
+    - https://access.redhat.com/errata/RHSA-2024:4340
     - https://access.redhat.com/security/cve/CVE-2024-6387
     - https://archlinux.org/news/the-sshd-service-needs-to-be-restarted-after-upgrading-to-openssh-98p1/
     - https://arstechnica.com/security/2024/07/regresshion-vulnerability-in-openssh-gives-attackers-root-on-linux/
     - https://blog.qualys.com/vulnerabilities-threat-research/2024/07/01/regresshion-remote-unauthenticated-code-execution-vulnerability-in-openssh-server
+    - https://bugzilla.redhat.com/2294604
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294604
+    - https://errata.almalinux.org/9/ALSA-2024-4312.html
     - https://explore.alas.aws.amazon.com/CVE-2024-6387.html
     - https://ftp.netbsd.org/pub/NetBSD/security/advisories/NetBSD-SA2024-002.txt.asc
     - https://github.com/AlmaLinux/updates/issues/629
@@ -3343,6 +3353,7 @@
     - https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0010
     - https://security-tracker.debian.org/tracker/CVE-2024-6387
     - https://security.netapp.com/advisory/ntap-20240701-0001/
+    - https://sig-security.rocky.page/issues/CVE-2024-6387/
     - https://stackdiary.com/openssh-race-condition-in-sshd-allows-remote-code-execution/
     - https://ubuntu.com/blog/ubuntu-regresshion-security-fix
     - https://ubuntu.com/security/CVE-2024-6387
@@ -3354,7 +3365,7 @@
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-04T12:15:03.757Z'
+    LastModifiedDate: '2024-07-05T23:15:10.223Z'
   - VulnerabilityID: CVE-2024-6387
     PkgID: openssh-server@1:8.9p1-3ubuntu0.7
     PkgName: openssh-server
@@ -3377,13 +3388,20 @@
     Description: A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead to sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
     Severity: HIGH
     CweIDs:
+    - CWE-362
     - CWE-364
     VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      nvd: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 3
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -3400,11 +3418,14 @@
     - http://www.openwall.com/lists/oss-security/2024/07/04/1
     - http://www.openwall.com/lists/oss-security/2024/07/04/2
     - https://access.redhat.com/errata/RHSA-2024:4312
+    - https://access.redhat.com/errata/RHSA-2024:4340
     - https://access.redhat.com/security/cve/CVE-2024-6387
     - https://archlinux.org/news/the-sshd-service-needs-to-be-restarted-after-upgrading-to-openssh-98p1/
     - https://arstechnica.com/security/2024/07/regresshion-vulnerability-in-openssh-gives-attackers-root-on-linux/
     - https://blog.qualys.com/vulnerabilities-threat-research/2024/07/01/regresshion-remote-unauthenticated-code-execution-vulnerability-in-openssh-server
+    - https://bugzilla.redhat.com/2294604
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294604
+    - https://errata.almalinux.org/9/ALSA-2024-4312.html
     - https://explore.alas.aws.amazon.com/CVE-2024-6387.html
     - https://ftp.netbsd.org/pub/NetBSD/security/advisories/NetBSD-SA2024-002.txt.asc
     - https://github.com/AlmaLinux/updates/issues/629
@@ -3424,6 +3445,7 @@
     - https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0010
     - https://security-tracker.debian.org/tracker/CVE-2024-6387
     - https://security.netapp.com/advisory/ntap-20240701-0001/
+    - https://sig-security.rocky.page/issues/CVE-2024-6387/
     - https://stackdiary.com/openssh-race-condition-in-sshd-allows-remote-code-execution/
     - https://ubuntu.com/blog/ubuntu-regresshion-security-fix
     - https://ubuntu.com/security/CVE-2024-6387
@@ -3435,7 +3457,7 @@
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-04T12:15:03.757Z'
+    LastModifiedDate: '2024-07-05T23:15:10.223Z'
   - VulnerabilityID: CVE-2024-6387
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.7
     PkgName: openssh-sftp-server
@@ -3458,13 +3480,20 @@
     Description: A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead to sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
     Severity: HIGH
     CweIDs:
+    - CWE-362
     - CWE-364
     VendorSeverity:
+      alma: 3
+      cbl-mariner: 3
+      nvd: 3
       oracle-oval: 3
       photon: 3
       redhat: 3
       ubuntu: 3
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
       redhat:
         V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
         V3Score: 8.1
@@ -3481,11 +3510,14 @@
     - http://www.openwall.com/lists/oss-security/2024/07/04/1
     - http://www.openwall.com/lists/oss-security/2024/07/04/2
     - https://access.redhat.com/errata/RHSA-2024:4312
+    - https://access.redhat.com/errata/RHSA-2024:4340
     - https://access.redhat.com/security/cve/CVE-2024-6387
     - https://archlinux.org/news/the-sshd-service-needs-to-be-restarted-after-upgrading-to-openssh-98p1/
     - https://arstechnica.com/security/2024/07/regresshion-vulnerability-in-openssh-gives-attackers-root-on-linux/
     - https://blog.qualys.com/vulnerabilities-threat-research/2024/07/01/regresshion-remote-unauthenticated-code-execution-vulnerability-in-openssh-server
+    - https://bugzilla.redhat.com/2294604
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294604
+    - https://errata.almalinux.org/9/ALSA-2024-4312.html
     - https://explore.alas.aws.amazon.com/CVE-2024-6387.html
     - https://ftp.netbsd.org/pub/NetBSD/security/advisories/NetBSD-SA2024-002.txt.asc
     - https://github.com/AlmaLinux/updates/issues/629
@@ -3505,6 +3537,7 @@
     - https://psirt.global.sonicwall.com/vuln-detail/SNWLID-2024-0010
     - https://security-tracker.debian.org/tracker/CVE-2024-6387
     - https://security.netapp.com/advisory/ntap-20240701-0001/
+    - https://sig-security.rocky.page/issues/CVE-2024-6387/
     - https://stackdiary.com/openssh-race-condition-in-sshd-allows-remote-code-execution/
     - https://ubuntu.com/blog/ubuntu-regresshion-security-fix
     - https://ubuntu.com/security/CVE-2024-6387
@@ -3516,7 +3549,7 @@
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-04T12:15:03.757Z'
+    LastModifiedDate: '2024-07-05T23:15:10.223Z'
   - VulnerabilityID: CVE-2022-40735
     PkgID: openssl@3.0.2-0ubuntu1.15
     PkgName: openssl
@@ -5473,7 +5506,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5537,7 +5570,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7146,7 +7179,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7210,7 +7243,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
