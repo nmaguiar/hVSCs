@@ -3335,6 +3335,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294604
     - https://errata.almalinux.org/9/ALSA-2024-4312.html
     - https://explore.alas.aws.amazon.com/CVE-2024-6387.html
+    - https://forum.vmssoftware.com/viewtopic.php?f=8&t=9132
     - https://ftp.netbsd.org/pub/NetBSD/security/advisories/NetBSD-SA2024-002.txt.asc
     - https://github.com/AlmaLinux/updates/issues/629
     - https://github.com/Azure/AKS/issues/4379
@@ -3362,10 +3363,11 @@
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-24:04.openssh.asc
     - https://www.openssh.com/txt/release-9.8
     - https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt
+    - https://www.splunk.com/en_us/blog/security/cve-2024-6387-regresshion-vulnerability.html
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-05T23:15:10.223Z'
+    LastModifiedDate: '2024-07-06T05:15:09.99Z'
   - VulnerabilityID: CVE-2024-6387
     PkgID: openssh-server@1:8.9p1-3ubuntu0.7
     PkgName: openssh-server
@@ -3427,6 +3429,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294604
     - https://errata.almalinux.org/9/ALSA-2024-4312.html
     - https://explore.alas.aws.amazon.com/CVE-2024-6387.html
+    - https://forum.vmssoftware.com/viewtopic.php?f=8&t=9132
     - https://ftp.netbsd.org/pub/NetBSD/security/advisories/NetBSD-SA2024-002.txt.asc
     - https://github.com/AlmaLinux/updates/issues/629
     - https://github.com/Azure/AKS/issues/4379
@@ -3454,10 +3457,11 @@
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-24:04.openssh.asc
     - https://www.openssh.com/txt/release-9.8
     - https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt
+    - https://www.splunk.com/en_us/blog/security/cve-2024-6387-regresshion-vulnerability.html
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-05T23:15:10.223Z'
+    LastModifiedDate: '2024-07-06T05:15:09.99Z'
   - VulnerabilityID: CVE-2024-6387
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.7
     PkgName: openssh-sftp-server
@@ -3519,6 +3523,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2294604
     - https://errata.almalinux.org/9/ALSA-2024-4312.html
     - https://explore.alas.aws.amazon.com/CVE-2024-6387.html
+    - https://forum.vmssoftware.com/viewtopic.php?f=8&t=9132
     - https://ftp.netbsd.org/pub/NetBSD/security/advisories/NetBSD-SA2024-002.txt.asc
     - https://github.com/AlmaLinux/updates/issues/629
     - https://github.com/Azure/AKS/issues/4379
@@ -3546,10 +3551,11 @@
     - https://www.freebsd.org/security/advisories/FreeBSD-SA-24:04.openssh.asc
     - https://www.openssh.com/txt/release-9.8
     - https://www.qualys.com/2024/07/01/cve-2024-6387/regresshion.txt
+    - https://www.splunk.com/en_us/blog/security/cve-2024-6387-regresshion-vulnerability.html
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-05T23:15:10.223Z'
+    LastModifiedDate: '2024-07-06T05:15:09.99Z'
   - VulnerabilityID: CVE-2022-40735
     PkgID: openssl@3.0.2-0ubuntu1.15
     PkgName: openssl
