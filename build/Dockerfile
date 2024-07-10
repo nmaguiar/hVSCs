@@ -35,7 +35,8 @@ RUN apt-get update\
  && echo "source <(helm completion bash)" >> /etc/bash.bashrc\
  && echo "source <(kubectl completion bash)" >> /etc/bash.bashrc\
  && echo "source <(docker completion bash)" >> /etc/bash.bashrc\
- && echo "source <(skopeo completion bash)" >> /etc/bash.bashrc
+ && echo "source <(skopeo completion bash)" >> /etc/bash.bashrc\
+ && echo "source <(k3d completion bash)" >> /etc/bash.bashrc
 
 COPY ojob_p2.yaml /tmp/.p2.yaml
 COPY ojob_p1.sh /tmp/.p1.sh
