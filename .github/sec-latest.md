@@ -3745,7 +3745,8 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : openssh: regreSSHion RCE/DoS 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
 │                        │      ├ Description     : A security regression (CVE-2006-5051) was discovered
 │                        │      │                   in OpenSSH's server (sshd). There is a race condition which
 │                        │      │                    can lead to sshd to handle some signals in an unsafe
@@ -3756,6 +3757,7 @@
 │                        │      ├ CweIDs           ╭ [0]: CWE-362 
 │                        │      │                  ╰ [1]: CWE-364 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ oracle-oval: 3 
@@ -3796,80 +3798,92 @@
 │                        │      │                  │       /07/08/3 
 │                        │      │                  ├ [13]: http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /07/09/2 
-│                        │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2024:4312 
-│                        │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2024:4340 
-│                        │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2024:4389 
-│                        │      │                  ├ [17]: https://access.redhat.com/security/cve/CVE-2024-6387 
-│                        │      │                  ├ [18]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  ├ [14]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/09/5 
+│                        │      │                  ├ [15]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/1 
+│                        │      │                  ├ [16]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/2 
+│                        │      │                  ├ [17]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/3 
+│                        │      │                  ├ [18]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/4 
+│                        │      │                  ├ [19]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/6 
+│                        │      │                  ├ [20]: https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [21]: https://access.redhat.com/errata/RHSA-2024:4340 
+│                        │      │                  ├ [22]: https://access.redhat.com/errata/RHSA-2024:4389 
+│                        │      │                  ├ [23]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [24]: https://archlinux.org/news/the-sshd-service-nee
 │                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
 │                        │      │                  │       [m 
-│                        │      │                  ├ [19]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  ├ [25]: https://arstechnica.com/security/2024/07/regres
 │                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
 │                        │      │                  │       on-linux/ 
-│                        │      │                  ├ [20]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [26]: https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
 │                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
 │                        │      │                  │        
-│                        │      │                  ├ [21]: https://bugzilla.redhat.com/2294604 
-│                        │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
-│                        │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
-│                        │      │                  ├ [24]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  ├ [27]: https://bugzilla.redhat.com/2294604 
+│                        │      │                  ├ [28]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
+│                        │      │                  ├ [30]: https://explore.alas.aws.amazon.com/CVE-2024-63
 │                        │      │                  │       87.html 
-│                        │      │                  ├ [25]: https://forum.vmssoftware.com/viewtopic.php?f=8
+│                        │      │                  ├ [31]: https://forum.vmssoftware.com/viewtopic.php?f=8
 │                        │      │                  │       &t=9132 
-│                        │      │                  ├ [26]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  ├ [32]: https://ftp.netbsd.org/pub/NetBSD/security/advi
 │                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
-│                        │      │                  ├ [27]: https://github.com/AlmaLinux/updates/issues/629 
-│                        │      │                  ├ [28]: https://github.com/Azure/AKS/issues/4379 
-│                        │      │                  ├ [29]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  ├ [33]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [34]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [35]: https://github.com/PowerShell/Win32-OpenSSH/dis
 │                        │      │                  │       cussions/2248 
-│                        │      │                  ├ [30]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  ├ [36]: https://github.com/PowerShell/Win32-OpenSSH/iss
 │                        │      │                  │       ues/2249 
-│                        │      │                  ├ [31]: https://github.com/microsoft/azurelinux/issues/9555 
-│                        │      │                  ├ [32]: https://github.com/oracle/oracle-linux/issues/149 
-│                        │      │                  ├ [33]: https://github.com/rapier1/hpn-ssh/issues/87 
-│                        │      │                  ├ [34]: https://github.com/zgzhang/cve-2024-6387-poc 
-│                        │      │                  ├ [35]: https://linux.oracle.com/cve/CVE-2024-6387.html 
-│                        │      │                  ├ [36]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
-│                        │      │                  ├ [37]: https://lists.almalinux.org/archives/list/annou
+│                        │      │                  ├ [37]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [38]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [39]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [40]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [41]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [42]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
+│                        │      │                  ├ [43]: https://lists.almalinux.org/archives/list/annou
 │                        │      │                  │       nce@lists.almalinux.org/thread/23BF5BMGFVEVUI2WNVAGM
 │                        │      │                  │       LKT557EU7VY/ 
-│                        │      │                  ├ [38]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [44]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-announce/2024-July/000158.html 
-│                        │      │                  ├ [39]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [45]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-dev/2024-July/041431.html 
-│                        │      │                  ├ [40]: https://news.ycombinator.com/item?id=40843778 
-│                        │      │                  ├ [41]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
-│                        │      │                  ├ [42]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  ├ [46]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [47]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [48]: https://psirt.global.sonicwall.com/vuln-detail/
 │                        │      │                  │       SNWLID-2024-0010 
-│                        │      │                  ├ [43]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  ├ [49]: https://security-tracker.debian.org/tracker/CVE
 │                        │      │                  │       -2024-6387 
-│                        │      │                  ├ [44]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [50]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       701-0001/ 
-│                        │      │                  ├ [45]: https://sig-security.rocky.page/issues/CVE-2024
+│                        │      │                  ├ [51]: https://sig-security.rocky.page/issues/CVE-2024
 │                        │      │                  │       -6387/ 
-│                        │      │                  ├ [46]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  ├ [52]: https://stackdiary.com/openssh-race-condition-i
 │                        │      │                  │       n-sshd-allows-remote-code-execution/ 
-│                        │      │                  ├ [47]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  ├ [53]: https://ubuntu.com/blog/ubuntu-regresshion-secu
 │                        │      │                  │       rity-fix 
-│                        │      │                  ├ [48]: https://ubuntu.com/security/CVE-2024-6387 
-│                        │      │                  ├ [49]: https://ubuntu.com/security/notices/USN-6859-1 
-│                        │      │                  ├ [50]: https://www.akamai.com/blog/security-research/2
+│                        │      │                  ├ [54]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [55]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [56]: https://www.akamai.com/blog/security-research/2
 │                        │      │                  │       024-openssh-vulnerability-regression-what-to-know-an
 │                        │      │                  │       d-do 
-│                        │      │                  ├ [51]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
-│                        │      │                  ├ [52]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  ├ [57]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [58]: https://www.freebsd.org/security/advisories/Fre
 │                        │      │                  │       eBSD-SA-24:04.openssh.asc 
-│                        │      │                  ├ [53]: https://www.openssh.com/txt/release-9.8 
-│                        │      │                  ├ [54]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  ├ [59]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [60]: https://www.qualys.com/2024/07/01/cve-2024-6387
 │                        │      │                  │       /regresshion.txt 
-│                        │      │                  ├ [55]: https://www.splunk.com/en_us/blog/security/cve-
+│                        │      │                  ├ [61]: https://www.splunk.com/en_us/blog/security/cve-
 │                        │      │                  │       2024-6387-regresshion-vulnerability.html 
-│                        │      │                  ├ [56]: https://www.suse.com/security/cve/CVE-2024-6387.html 
-│                        │      │                  ╰ [57]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                  ├ [62]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [63]: https://www.theregister.com/2024/07/01/regressh
 │                        │      │                          ion_openssh/ 
 │                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
-│                        │      ╰ LastModifiedDate: 2024-07-09T12:15:20.78Z 
+│                        │      ╰ LastModifiedDate: 2024-07-10T23:15:14.7Z 
 │                        ├ [69] ╭ VulnerabilityID : CVE-2024-6387 
 │                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.7 
 │                        │      ├ PkgName         : openssh-server 
@@ -3888,7 +3902,8 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : openssh: regreSSHion RCE/DoS 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
 │                        │      ├ Description     : A security regression (CVE-2006-5051) was discovered
 │                        │      │                   in OpenSSH's server (sshd). There is a race condition which
 │                        │      │                    can lead to sshd to handle some signals in an unsafe
@@ -3899,6 +3914,7 @@
 │                        │      ├ CweIDs           ╭ [0]: CWE-362 
 │                        │      │                  ╰ [1]: CWE-364 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ oracle-oval: 3 
@@ -3939,80 +3955,92 @@
 │                        │      │                  │       /07/08/3 
 │                        │      │                  ├ [13]: http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /07/09/2 
-│                        │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2024:4312 
-│                        │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2024:4340 
-│                        │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2024:4389 
-│                        │      │                  ├ [17]: https://access.redhat.com/security/cve/CVE-2024-6387 
-│                        │      │                  ├ [18]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  ├ [14]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/09/5 
+│                        │      │                  ├ [15]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/1 
+│                        │      │                  ├ [16]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/2 
+│                        │      │                  ├ [17]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/3 
+│                        │      │                  ├ [18]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/4 
+│                        │      │                  ├ [19]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/6 
+│                        │      │                  ├ [20]: https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [21]: https://access.redhat.com/errata/RHSA-2024:4340 
+│                        │      │                  ├ [22]: https://access.redhat.com/errata/RHSA-2024:4389 
+│                        │      │                  ├ [23]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [24]: https://archlinux.org/news/the-sshd-service-nee
 │                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
 │                        │      │                  │       [m 
-│                        │      │                  ├ [19]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  ├ [25]: https://arstechnica.com/security/2024/07/regres
 │                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
 │                        │      │                  │       on-linux/ 
-│                        │      │                  ├ [20]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [26]: https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
 │                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
 │                        │      │                  │        
-│                        │      │                  ├ [21]: https://bugzilla.redhat.com/2294604 
-│                        │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
-│                        │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
-│                        │      │                  ├ [24]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  ├ [27]: https://bugzilla.redhat.com/2294604 
+│                        │      │                  ├ [28]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
+│                        │      │                  ├ [30]: https://explore.alas.aws.amazon.com/CVE-2024-63
 │                        │      │                  │       87.html 
-│                        │      │                  ├ [25]: https://forum.vmssoftware.com/viewtopic.php?f=8
+│                        │      │                  ├ [31]: https://forum.vmssoftware.com/viewtopic.php?f=8
 │                        │      │                  │       &t=9132 
-│                        │      │                  ├ [26]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  ├ [32]: https://ftp.netbsd.org/pub/NetBSD/security/advi
 │                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
-│                        │      │                  ├ [27]: https://github.com/AlmaLinux/updates/issues/629 
-│                        │      │                  ├ [28]: https://github.com/Azure/AKS/issues/4379 
-│                        │      │                  ├ [29]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  ├ [33]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [34]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [35]: https://github.com/PowerShell/Win32-OpenSSH/dis
 │                        │      │                  │       cussions/2248 
-│                        │      │                  ├ [30]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  ├ [36]: https://github.com/PowerShell/Win32-OpenSSH/iss
 │                        │      │                  │       ues/2249 
-│                        │      │                  ├ [31]: https://github.com/microsoft/azurelinux/issues/9555 
-│                        │      │                  ├ [32]: https://github.com/oracle/oracle-linux/issues/149 
-│                        │      │                  ├ [33]: https://github.com/rapier1/hpn-ssh/issues/87 
-│                        │      │                  ├ [34]: https://github.com/zgzhang/cve-2024-6387-poc 
-│                        │      │                  ├ [35]: https://linux.oracle.com/cve/CVE-2024-6387.html 
-│                        │      │                  ├ [36]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
-│                        │      │                  ├ [37]: https://lists.almalinux.org/archives/list/annou
+│                        │      │                  ├ [37]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [38]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [39]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [40]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [41]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [42]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
+│                        │      │                  ├ [43]: https://lists.almalinux.org/archives/list/annou
 │                        │      │                  │       nce@lists.almalinux.org/thread/23BF5BMGFVEVUI2WNVAGM
 │                        │      │                  │       LKT557EU7VY/ 
-│                        │      │                  ├ [38]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [44]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-announce/2024-July/000158.html 
-│                        │      │                  ├ [39]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [45]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-dev/2024-July/041431.html 
-│                        │      │                  ├ [40]: https://news.ycombinator.com/item?id=40843778 
-│                        │      │                  ├ [41]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
-│                        │      │                  ├ [42]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  ├ [46]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [47]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [48]: https://psirt.global.sonicwall.com/vuln-detail/
 │                        │      │                  │       SNWLID-2024-0010 
-│                        │      │                  ├ [43]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  ├ [49]: https://security-tracker.debian.org/tracker/CVE
 │                        │      │                  │       -2024-6387 
-│                        │      │                  ├ [44]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [50]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       701-0001/ 
-│                        │      │                  ├ [45]: https://sig-security.rocky.page/issues/CVE-2024
+│                        │      │                  ├ [51]: https://sig-security.rocky.page/issues/CVE-2024
 │                        │      │                  │       -6387/ 
-│                        │      │                  ├ [46]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  ├ [52]: https://stackdiary.com/openssh-race-condition-i
 │                        │      │                  │       n-sshd-allows-remote-code-execution/ 
-│                        │      │                  ├ [47]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  ├ [53]: https://ubuntu.com/blog/ubuntu-regresshion-secu
 │                        │      │                  │       rity-fix 
-│                        │      │                  ├ [48]: https://ubuntu.com/security/CVE-2024-6387 
-│                        │      │                  ├ [49]: https://ubuntu.com/security/notices/USN-6859-1 
-│                        │      │                  ├ [50]: https://www.akamai.com/blog/security-research/2
+│                        │      │                  ├ [54]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [55]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [56]: https://www.akamai.com/blog/security-research/2
 │                        │      │                  │       024-openssh-vulnerability-regression-what-to-know-an
 │                        │      │                  │       d-do 
-│                        │      │                  ├ [51]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
-│                        │      │                  ├ [52]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  ├ [57]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [58]: https://www.freebsd.org/security/advisories/Fre
 │                        │      │                  │       eBSD-SA-24:04.openssh.asc 
-│                        │      │                  ├ [53]: https://www.openssh.com/txt/release-9.8 
-│                        │      │                  ├ [54]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  ├ [59]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [60]: https://www.qualys.com/2024/07/01/cve-2024-6387
 │                        │      │                  │       /regresshion.txt 
-│                        │      │                  ├ [55]: https://www.splunk.com/en_us/blog/security/cve-
+│                        │      │                  ├ [61]: https://www.splunk.com/en_us/blog/security/cve-
 │                        │      │                  │       2024-6387-regresshion-vulnerability.html 
-│                        │      │                  ├ [56]: https://www.suse.com/security/cve/CVE-2024-6387.html 
-│                        │      │                  ╰ [57]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                  ├ [62]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [63]: https://www.theregister.com/2024/07/01/regressh
 │                        │      │                          ion_openssh/ 
 │                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
-│                        │      ╰ LastModifiedDate: 2024-07-09T12:15:20.78Z 
+│                        │      ╰ LastModifiedDate: 2024-07-10T23:15:14.7Z 
 │                        ├ [70] ╭ VulnerabilityID : CVE-2024-6387 
 │                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.7 
 │                        │      ├ PkgName         : openssh-sftp-server 
@@ -4031,7 +4059,8 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : openssh: regreSSHion RCE/DoS 
+│                        │      ├ Title           : openssh: Possible remote code execution due to a race
+│                        │      │                   condition in signal handling 
 │                        │      ├ Description     : A security regression (CVE-2006-5051) was discovered
 │                        │      │                   in OpenSSH's server (sshd). There is a race condition which
 │                        │      │                    can lead to sshd to handle some signals in an unsafe
@@ -4042,6 +4071,7 @@
 │                        │      ├ CweIDs           ╭ [0]: CWE-362 
 │                        │      │                  ╰ [1]: CWE-364 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ oracle-oval: 3 
@@ -4082,80 +4112,92 @@
 │                        │      │                  │       /07/08/3 
 │                        │      │                  ├ [13]: http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /07/09/2 
-│                        │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2024:4312 
-│                        │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2024:4340 
-│                        │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2024:4389 
-│                        │      │                  ├ [17]: https://access.redhat.com/security/cve/CVE-2024-6387 
-│                        │      │                  ├ [18]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  ├ [14]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/09/5 
+│                        │      │                  ├ [15]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/1 
+│                        │      │                  ├ [16]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/2 
+│                        │      │                  ├ [17]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/3 
+│                        │      │                  ├ [18]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/4 
+│                        │      │                  ├ [19]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/6 
+│                        │      │                  ├ [20]: https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [21]: https://access.redhat.com/errata/RHSA-2024:4340 
+│                        │      │                  ├ [22]: https://access.redhat.com/errata/RHSA-2024:4389 
+│                        │      │                  ├ [23]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [24]: https://archlinux.org/news/the-sshd-service-nee
 │                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
 │                        │      │                  │       [m 
-│                        │      │                  ├ [19]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  ├ [25]: https://arstechnica.com/security/2024/07/regres
 │                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
 │                        │      │                  │       on-linux/ 
-│                        │      │                  ├ [20]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [26]: https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
 │                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
 │                        │      │                  │        
-│                        │      │                  ├ [21]: https://bugzilla.redhat.com/2294604 
-│                        │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
-│                        │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
-│                        │      │                  ├ [24]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  ├ [27]: https://bugzilla.redhat.com/2294604 
+│                        │      │                  ├ [28]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [29]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
+│                        │      │                  ├ [30]: https://explore.alas.aws.amazon.com/CVE-2024-63
 │                        │      │                  │       87.html 
-│                        │      │                  ├ [25]: https://forum.vmssoftware.com/viewtopic.php?f=8
+│                        │      │                  ├ [31]: https://forum.vmssoftware.com/viewtopic.php?f=8
 │                        │      │                  │       &t=9132 
-│                        │      │                  ├ [26]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  ├ [32]: https://ftp.netbsd.org/pub/NetBSD/security/advi
 │                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
-│                        │      │                  ├ [27]: https://github.com/AlmaLinux/updates/issues/629 
-│                        │      │                  ├ [28]: https://github.com/Azure/AKS/issues/4379 
-│                        │      │                  ├ [29]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  ├ [33]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [34]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [35]: https://github.com/PowerShell/Win32-OpenSSH/dis
 │                        │      │                  │       cussions/2248 
-│                        │      │                  ├ [30]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  ├ [36]: https://github.com/PowerShell/Win32-OpenSSH/iss
 │                        │      │                  │       ues/2249 
-│                        │      │                  ├ [31]: https://github.com/microsoft/azurelinux/issues/9555 
-│                        │      │                  ├ [32]: https://github.com/oracle/oracle-linux/issues/149 
-│                        │      │                  ├ [33]: https://github.com/rapier1/hpn-ssh/issues/87 
-│                        │      │                  ├ [34]: https://github.com/zgzhang/cve-2024-6387-poc 
-│                        │      │                  ├ [35]: https://linux.oracle.com/cve/CVE-2024-6387.html 
-│                        │      │                  ├ [36]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
-│                        │      │                  ├ [37]: https://lists.almalinux.org/archives/list/annou
+│                        │      │                  ├ [37]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [38]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [39]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [40]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [41]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [42]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
+│                        │      │                  ├ [43]: https://lists.almalinux.org/archives/list/annou
 │                        │      │                  │       nce@lists.almalinux.org/thread/23BF5BMGFVEVUI2WNVAGM
 │                        │      │                  │       LKT557EU7VY/ 
-│                        │      │                  ├ [38]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [44]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-announce/2024-July/000158.html 
-│                        │      │                  ├ [39]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [45]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-dev/2024-July/041431.html 
-│                        │      │                  ├ [40]: https://news.ycombinator.com/item?id=40843778 
-│                        │      │                  ├ [41]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
-│                        │      │                  ├ [42]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  ├ [46]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [47]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [48]: https://psirt.global.sonicwall.com/vuln-detail/
 │                        │      │                  │       SNWLID-2024-0010 
-│                        │      │                  ├ [43]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  ├ [49]: https://security-tracker.debian.org/tracker/CVE
 │                        │      │                  │       -2024-6387 
-│                        │      │                  ├ [44]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [50]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       701-0001/ 
-│                        │      │                  ├ [45]: https://sig-security.rocky.page/issues/CVE-2024
+│                        │      │                  ├ [51]: https://sig-security.rocky.page/issues/CVE-2024
 │                        │      │                  │       -6387/ 
-│                        │      │                  ├ [46]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  ├ [52]: https://stackdiary.com/openssh-race-condition-i
 │                        │      │                  │       n-sshd-allows-remote-code-execution/ 
-│                        │      │                  ├ [47]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  ├ [53]: https://ubuntu.com/blog/ubuntu-regresshion-secu
 │                        │      │                  │       rity-fix 
-│                        │      │                  ├ [48]: https://ubuntu.com/security/CVE-2024-6387 
-│                        │      │                  ├ [49]: https://ubuntu.com/security/notices/USN-6859-1 
-│                        │      │                  ├ [50]: https://www.akamai.com/blog/security-research/2
+│                        │      │                  ├ [54]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [55]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [56]: https://www.akamai.com/blog/security-research/2
 │                        │      │                  │       024-openssh-vulnerability-regression-what-to-know-an
 │                        │      │                  │       d-do 
-│                        │      │                  ├ [51]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
-│                        │      │                  ├ [52]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  ├ [57]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [58]: https://www.freebsd.org/security/advisories/Fre
 │                        │      │                  │       eBSD-SA-24:04.openssh.asc 
-│                        │      │                  ├ [53]: https://www.openssh.com/txt/release-9.8 
-│                        │      │                  ├ [54]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  ├ [59]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [60]: https://www.qualys.com/2024/07/01/cve-2024-6387
 │                        │      │                  │       /regresshion.txt 
-│                        │      │                  ├ [55]: https://www.splunk.com/en_us/blog/security/cve-
+│                        │      │                  ├ [61]: https://www.splunk.com/en_us/blog/security/cve-
 │                        │      │                  │       2024-6387-regresshion-vulnerability.html 
-│                        │      │                  ├ [56]: https://www.suse.com/security/cve/CVE-2024-6387.html 
-│                        │      │                  ╰ [57]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                  ├ [62]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [63]: https://www.theregister.com/2024/07/01/regressh
 │                        │      │                          ion_openssh/ 
 │                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
-│                        │      ╰ LastModifiedDate: 2024-07-09T12:15:20.78Z 
+│                        │      ╰ LastModifiedDate: 2024-07-10T23:15:14.7Z 
 │                        ├ [71] ╭ VulnerabilityID : CVE-2022-40735 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
@@ -7048,7 +7090,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7128,7 +7170,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9571,7 +9613,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9651,7 +9693,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
