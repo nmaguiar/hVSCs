@@ -3292,7 +3292,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssh: regreSSHion RCE/DoS'
+    Title: 'openssh: Possible remote code execution due to a race condition in signal handling'
     Description: A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead to sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
     Severity: HIGH
     CweIDs:
@@ -3300,6 +3300,7 @@
     - CWE-364
     VendorSeverity:
       alma: 3
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       oracle-oval: 3
@@ -3328,6 +3329,12 @@
     - http://www.openwall.com/lists/oss-security/2024/07/08/2
     - http://www.openwall.com/lists/oss-security/2024/07/08/3
     - http://www.openwall.com/lists/oss-security/2024/07/09/2
+    - http://www.openwall.com/lists/oss-security/2024/07/09/5
+    - http://www.openwall.com/lists/oss-security/2024/07/10/1
+    - http://www.openwall.com/lists/oss-security/2024/07/10/2
+    - http://www.openwall.com/lists/oss-security/2024/07/10/3
+    - http://www.openwall.com/lists/oss-security/2024/07/10/4
+    - http://www.openwall.com/lists/oss-security/2024/07/10/6
     - https://access.redhat.com/errata/RHSA-2024:4312
     - https://access.redhat.com/errata/RHSA-2024:4340
     - https://access.redhat.com/errata/RHSA-2024:4389
@@ -3373,7 +3380,7 @@
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-09T12:15:20.78Z'
+    LastModifiedDate: '2024-07-10T23:15:14.7Z'
   - VulnerabilityID: CVE-2024-6387
     PkgID: openssh-server@1:8.9p1-3ubuntu0.7
     PkgName: openssh-server
@@ -3392,7 +3399,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssh: regreSSHion RCE/DoS'
+    Title: 'openssh: Possible remote code execution due to a race condition in signal handling'
     Description: A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead to sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
     Severity: HIGH
     CweIDs:
@@ -3400,6 +3407,7 @@
     - CWE-364
     VendorSeverity:
       alma: 3
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       oracle-oval: 3
@@ -3428,6 +3436,12 @@
     - http://www.openwall.com/lists/oss-security/2024/07/08/2
     - http://www.openwall.com/lists/oss-security/2024/07/08/3
     - http://www.openwall.com/lists/oss-security/2024/07/09/2
+    - http://www.openwall.com/lists/oss-security/2024/07/09/5
+    - http://www.openwall.com/lists/oss-security/2024/07/10/1
+    - http://www.openwall.com/lists/oss-security/2024/07/10/2
+    - http://www.openwall.com/lists/oss-security/2024/07/10/3
+    - http://www.openwall.com/lists/oss-security/2024/07/10/4
+    - http://www.openwall.com/lists/oss-security/2024/07/10/6
     - https://access.redhat.com/errata/RHSA-2024:4312
     - https://access.redhat.com/errata/RHSA-2024:4340
     - https://access.redhat.com/errata/RHSA-2024:4389
@@ -3473,7 +3487,7 @@
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-09T12:15:20.78Z'
+    LastModifiedDate: '2024-07-10T23:15:14.7Z'
   - VulnerabilityID: CVE-2024-6387
     PkgID: openssh-sftp-server@1:8.9p1-3ubuntu0.7
     PkgName: openssh-sftp-server
@@ -3492,7 +3506,7 @@
       ID: ubuntu
       Name: Ubuntu CVE Tracker
       URL: https://git.launchpad.net/ubuntu-cve-tracker
-    Title: 'openssh: regreSSHion RCE/DoS'
+    Title: 'openssh: Possible remote code execution due to a race condition in signal handling'
     Description: A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead to sshd to handle some signals in an unsafe manner. An unauthenticated, remote attacker may be able to trigger it by failing to authenticate within a set time period.
     Severity: HIGH
     CweIDs:
@@ -3500,6 +3514,7 @@
     - CWE-364
     VendorSeverity:
       alma: 3
+      amazon: 3
       cbl-mariner: 3
       nvd: 3
       oracle-oval: 3
@@ -3528,6 +3543,12 @@
     - http://www.openwall.com/lists/oss-security/2024/07/08/2
     - http://www.openwall.com/lists/oss-security/2024/07/08/3
     - http://www.openwall.com/lists/oss-security/2024/07/09/2
+    - http://www.openwall.com/lists/oss-security/2024/07/09/5
+    - http://www.openwall.com/lists/oss-security/2024/07/10/1
+    - http://www.openwall.com/lists/oss-security/2024/07/10/2
+    - http://www.openwall.com/lists/oss-security/2024/07/10/3
+    - http://www.openwall.com/lists/oss-security/2024/07/10/4
+    - http://www.openwall.com/lists/oss-security/2024/07/10/6
     - https://access.redhat.com/errata/RHSA-2024:4312
     - https://access.redhat.com/errata/RHSA-2024:4340
     - https://access.redhat.com/errata/RHSA-2024:4389
@@ -3573,7 +3594,7 @@
     - https://www.suse.com/security/cve/CVE-2024-6387.html
     - https://www.theregister.com/2024/07/01/regresshion_openssh/
     PublishedDate: '2024-07-01T13:15:06.467Z'
-    LastModifiedDate: '2024-07-09T12:15:20.78Z'
+    LastModifiedDate: '2024-07-10T23:15:14.7Z'
   - VulnerabilityID: CVE-2022-40735
     PkgID: openssl@3.0.2-0ubuntu1.15
     PkgName: openssl
@@ -5542,7 +5563,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -5606,7 +5627,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7257,7 +7278,7 @@
     - CWE-79
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
@@ -7321,7 +7342,7 @@
     Severity: MEDIUM
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       cbl-mariner: 2
       nvd: 2
