@@ -2447,7 +2447,199 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [48] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [48] ╭ VulnerabilityID : CVE-2023-6597 
+│                        │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.3 
+│                        │      ├ PkgName         : libpython3.10 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.3?
+│                        │      │                  │       arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : eee2a4c90dd13524 
+│                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6597 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Path traversal on tempfile.TemporaryDirectory 
+│                        │      ├ Description     : An issue was found in the CPython
+│                        │      │                   `tempfile.TemporaryDirectory` class affecting versions
+│                        │      │                   3.12.1, 3.11.7, 3.10.13, 3.9.18, and 3.8.18 and prior.
+│                        │      │                   
+│                        │      │                   The tempfile.TemporaryDirectory class would dereference
+│                        │      │                   symlinks during cleanup of permissions-related errors. This
+│                        │      │                    means users which can run privileged programs are
+│                        │      │                   potentially able to modify permissions of files referenced
+│                        │      │                   by symlinks in some circumstances.
+│                        │      │                    
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
+│                        │      │                  │         │           C:H/I:H/A:N 
+│                        │      │                  │         ╰ V3Score : 7.8 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
+│                        │      │                            │           C:H/I:H/A:N 
+│                        │      │                            ╰ V3Score : 7.8 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/20/5 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4078 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-6597 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2276518 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2276525 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2276518 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2276525 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-6597 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-0450 
+│                        │      │                  ├ [9] : https://discuss.python.org/t/python-3-10-14-3-9
+│                        │      │                  │       -19-and-3-8-19-is-now-available/48993 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-4078.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:4078 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/02a925
+│                        │      │                  │       9c717738dfe6b463c44d7e17f2b6d2cb3a 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/558533
+│                        │      │                  │       4d772b253a01a6730e8202ffb1607c3d25 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/commit/6ceb8a
+│                        │      │                  │       eda504b079fef7a57b8d81472f15cdd9a5 
+│                        │      │                  ├ [15]: https://github.com/python/cpython/commit/81c16c
+│                        │      │                  │       d94ec38d61aa478b9a452436dc3b1b524d 
+│                        │      │                  ├ [16]: https://github.com/python/cpython/commit/8eaeef
+│                        │      │                  │       e49d179ca4908d052745e3bb8b6f238f82 
+│                        │      │                  ├ [17]: https://github.com/python/cpython/commit/d54e22
+│                        │      │                  │       a669ae6e987199bb5d2c69bb5a46b0083b 
+│                        │      │                  ├ [18]: https://github.com/python/cpython/issues/91133 
+│                        │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2023-6597.html 
+│                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4078.html 
+│                        │      │                  ├ [21]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00025.html 
+│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/T3IG
+│                        │      │                  │       RX54M7RNCQOXVQO5KQKTGWCOABIM/ 
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5VH
+│                        │      │                  │       WS52HGD743C47UMCSAK2A773M2YE/ 
+│                        │      │                  ├ [24]: https://mail.python.org/archives/list/security-
+│                        │      │                  │       announce@python.org/thread/Q5C6ATFC67K53XFV4KE45325S
+│                        │      │                  │       7NS62LD/ 
+│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-6597 
+│                        │      │                  ├ [26]: https://seclists.org/oss-sec/2024/q1/240 
+│                        │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-6891-1 
+│                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2023-6597 
+│                        │      ├ PublishedDate   : 2024-03-19T16:15:08.743Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:24.76Z 
+│                        ├ [49] ╭ VulnerabilityID : CVE-2024-0450 
+│                        │      ├ PkgID           : libpython3.10@3.10.12-1~22.04.3 
+│                        │      ├ PkgName         : libpython3.10 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10@3.10.12-1~22.04.3?
+│                        │      │                  │       arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : eee2a4c90dd13524 
+│                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0450 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: The zipfile module is vulnerable to zip-bombs
+│                        │      │                   leading to denial of service 
+│                        │      ├ Description     : An issue was found in the CPython `zipfile` module
+│                        │      │                   affecting versions 3.12.1, 3.11.7, 3.10.13, 3.9.18, and
+│                        │      │                   3.8.18 and prior.
+│                        │      │                   
+│                        │      │                   The zipfile module is vulnerable to “quoted-overlap”
+│                        │      │                   zip-bombs which exploit the zip format to create a zip-bomb
+│                        │      │                    with a high compression ratio. The fixed versions of
+│                        │      │                   CPython makes the zipfile module reject zip archives which
+│                        │      │                   overlap entries in the archive.
+│                        │      │                   
+│                        │      │                    
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-405 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:N/I:N/A:H 
+│                        │      │                  │         ╰ V3Score : 6.2 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
+│                        │      │                            │           C:N/I:N/A:H 
+│                        │      │                            ╰ V3Score : 6.2 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/20/5 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4078 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-0450 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2276518 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2276525 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2276518 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2276525 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-6597 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-0450 
+│                        │      │                  ├ [9] : https://discuss.python.org/t/python-3-10-14-3-9
+│                        │      │                  │       -19-and-3-8-19-is-now-available/48993 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-4078.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:4078 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/30fe5d
+│                        │      │                  │       853b56138dbec62432d370a1f99409fc85 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/66363b
+│                        │      │                  │       9a7b9fe7c99eba3a185b74c5fdbf842eba 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/commit/704972
+│                        │      │                  │       18351ba44bffc8b571201ecb5652d84675 
+│                        │      │                  ├ [15]: https://github.com/python/cpython/commit/a2c599
+│                        │      │                  │       92e9e8d35baba9695eb186ad6c6ff85c51 
+│                        │      │                  ├ [16]: https://github.com/python/cpython/commit/a956e5
+│                        │      │                  │       10f6336d5ae111ba429a61c3ade30a7549 
+│                        │      │                  ├ [17]: https://github.com/python/cpython/commit/d05bac
+│                        │      │                  │       0b74153beb541b88b4fca33bf053990183 
+│                        │      │                  ├ [18]: https://github.com/python/cpython/commit/fa181f
+│                        │      │                  │       cf2156f703347b03a3b1966ce47be8ab3b 
+│                        │      │                  ├ [19]: https://github.com/python/cpython/issues/109858 
+│                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2024-0450.html 
+│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-4243.html 
+│                        │      │                  ├ [22]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00024.html 
+│                        │      │                  ├ [23]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00025.html 
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/T3IG
+│                        │      │                  │       RX54M7RNCQOXVQO5KQKTGWCOABIM/ 
+│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5VH
+│                        │      │                  │       WS52HGD743C47UMCSAK2A773M2YE/ 
+│                        │      │                  ├ [26]: https://mail.python.org/archives/list/security-
+│                        │      │                  │       announce@python.org/thread/XELNUX2L3IOHBTFU7RQHCY6OU
+│                        │      │                  │       VEWZ2FG/ 
+│                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2024-0450 
+│                        │      │                  ├ [28]: https://seclists.org/oss-sec/2024/q1/240 
+│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6891-1 
+│                        │      │                  ├ [30]: https://www.bamsoftware.com/hacks/zipbomb/ 
+│                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
+│                        │      ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:24.853Z 
+│                        ├ [50] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~
@@ -2576,7 +2768,199 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [49] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [51] ╭ VulnerabilityID : CVE-2023-6597 
+│                        │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.3 
+│                        │      ├ PkgName         : libpython3.10-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~
+│                        │      │                  │       22.04.3?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 81a2b34ba6617124 
+│                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6597 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Path traversal on tempfile.TemporaryDirectory 
+│                        │      ├ Description     : An issue was found in the CPython
+│                        │      │                   `tempfile.TemporaryDirectory` class affecting versions
+│                        │      │                   3.12.1, 3.11.7, 3.10.13, 3.9.18, and 3.8.18 and prior.
+│                        │      │                   
+│                        │      │                   The tempfile.TemporaryDirectory class would dereference
+│                        │      │                   symlinks during cleanup of permissions-related errors. This
+│                        │      │                    means users which can run privileged programs are
+│                        │      │                   potentially able to modify permissions of files referenced
+│                        │      │                   by symlinks in some circumstances.
+│                        │      │                    
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
+│                        │      │                  │         │           C:H/I:H/A:N 
+│                        │      │                  │         ╰ V3Score : 7.8 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
+│                        │      │                            │           C:H/I:H/A:N 
+│                        │      │                            ╰ V3Score : 7.8 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/20/5 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4078 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-6597 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2276518 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2276525 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2276518 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2276525 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-6597 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-0450 
+│                        │      │                  ├ [9] : https://discuss.python.org/t/python-3-10-14-3-9
+│                        │      │                  │       -19-and-3-8-19-is-now-available/48993 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-4078.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:4078 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/02a925
+│                        │      │                  │       9c717738dfe6b463c44d7e17f2b6d2cb3a 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/558533
+│                        │      │                  │       4d772b253a01a6730e8202ffb1607c3d25 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/commit/6ceb8a
+│                        │      │                  │       eda504b079fef7a57b8d81472f15cdd9a5 
+│                        │      │                  ├ [15]: https://github.com/python/cpython/commit/81c16c
+│                        │      │                  │       d94ec38d61aa478b9a452436dc3b1b524d 
+│                        │      │                  ├ [16]: https://github.com/python/cpython/commit/8eaeef
+│                        │      │                  │       e49d179ca4908d052745e3bb8b6f238f82 
+│                        │      │                  ├ [17]: https://github.com/python/cpython/commit/d54e22
+│                        │      │                  │       a669ae6e987199bb5d2c69bb5a46b0083b 
+│                        │      │                  ├ [18]: https://github.com/python/cpython/issues/91133 
+│                        │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2023-6597.html 
+│                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4078.html 
+│                        │      │                  ├ [21]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00025.html 
+│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/T3IG
+│                        │      │                  │       RX54M7RNCQOXVQO5KQKTGWCOABIM/ 
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5VH
+│                        │      │                  │       WS52HGD743C47UMCSAK2A773M2YE/ 
+│                        │      │                  ├ [24]: https://mail.python.org/archives/list/security-
+│                        │      │                  │       announce@python.org/thread/Q5C6ATFC67K53XFV4KE45325S
+│                        │      │                  │       7NS62LD/ 
+│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-6597 
+│                        │      │                  ├ [26]: https://seclists.org/oss-sec/2024/q1/240 
+│                        │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-6891-1 
+│                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2023-6597 
+│                        │      ├ PublishedDate   : 2024-03-19T16:15:08.743Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:24.76Z 
+│                        ├ [52] ╭ VulnerabilityID : CVE-2024-0450 
+│                        │      ├ PkgID           : libpython3.10-minimal@3.10.12-1~22.04.3 
+│                        │      ├ PkgName         : libpython3.10-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-minimal@3.10.12-1~
+│                        │      │                  │       22.04.3?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 81a2b34ba6617124 
+│                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0450 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: The zipfile module is vulnerable to zip-bombs
+│                        │      │                   leading to denial of service 
+│                        │      ├ Description     : An issue was found in the CPython `zipfile` module
+│                        │      │                   affecting versions 3.12.1, 3.11.7, 3.10.13, 3.9.18, and
+│                        │      │                   3.8.18 and prior.
+│                        │      │                   
+│                        │      │                   The zipfile module is vulnerable to “quoted-overlap”
+│                        │      │                   zip-bombs which exploit the zip format to create a zip-bomb
+│                        │      │                    with a high compression ratio. The fixed versions of
+│                        │      │                   CPython makes the zipfile module reject zip archives which
+│                        │      │                   overlap entries in the archive.
+│                        │      │                   
+│                        │      │                    
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-405 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:N/I:N/A:H 
+│                        │      │                  │         ╰ V3Score : 6.2 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
+│                        │      │                            │           C:N/I:N/A:H 
+│                        │      │                            ╰ V3Score : 6.2 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/20/5 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4078 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-0450 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2276518 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2276525 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2276518 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2276525 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-6597 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-0450 
+│                        │      │                  ├ [9] : https://discuss.python.org/t/python-3-10-14-3-9
+│                        │      │                  │       -19-and-3-8-19-is-now-available/48993 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-4078.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:4078 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/30fe5d
+│                        │      │                  │       853b56138dbec62432d370a1f99409fc85 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/66363b
+│                        │      │                  │       9a7b9fe7c99eba3a185b74c5fdbf842eba 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/commit/704972
+│                        │      │                  │       18351ba44bffc8b571201ecb5652d84675 
+│                        │      │                  ├ [15]: https://github.com/python/cpython/commit/a2c599
+│                        │      │                  │       92e9e8d35baba9695eb186ad6c6ff85c51 
+│                        │      │                  ├ [16]: https://github.com/python/cpython/commit/a956e5
+│                        │      │                  │       10f6336d5ae111ba429a61c3ade30a7549 
+│                        │      │                  ├ [17]: https://github.com/python/cpython/commit/d05bac
+│                        │      │                  │       0b74153beb541b88b4fca33bf053990183 
+│                        │      │                  ├ [18]: https://github.com/python/cpython/commit/fa181f
+│                        │      │                  │       cf2156f703347b03a3b1966ce47be8ab3b 
+│                        │      │                  ├ [19]: https://github.com/python/cpython/issues/109858 
+│                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2024-0450.html 
+│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-4243.html 
+│                        │      │                  ├ [22]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00024.html 
+│                        │      │                  ├ [23]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00025.html 
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/T3IG
+│                        │      │                  │       RX54M7RNCQOXVQO5KQKTGWCOABIM/ 
+│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5VH
+│                        │      │                  │       WS52HGD743C47UMCSAK2A773M2YE/ 
+│                        │      │                  ├ [26]: https://mail.python.org/archives/list/security-
+│                        │      │                  │       announce@python.org/thread/XELNUX2L3IOHBTFU7RQHCY6OU
+│                        │      │                  │       VEWZ2FG/ 
+│                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2024-0450 
+│                        │      │                  ├ [28]: https://seclists.org/oss-sec/2024/q1/240 
+│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6891-1 
+│                        │      │                  ├ [30]: https://www.bamsoftware.com/hacks/zipbomb/ 
+│                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
+│                        │      ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:24.853Z 
+│                        ├ [53] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : libpython3.10-stdlib 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~2
@@ -2705,7 +3089,199 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [50] ╭ VulnerabilityID : CVE-2022-40735 
+│                        ├ [54] ╭ VulnerabilityID : CVE-2023-6597 
+│                        │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.3 
+│                        │      ├ PkgName         : libpython3.10-stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~2
+│                        │      │                  │       2.04.3?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 168d96462faeb79e 
+│                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6597 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Path traversal on tempfile.TemporaryDirectory 
+│                        │      ├ Description     : An issue was found in the CPython
+│                        │      │                   `tempfile.TemporaryDirectory` class affecting versions
+│                        │      │                   3.12.1, 3.11.7, 3.10.13, 3.9.18, and 3.8.18 and prior.
+│                        │      │                   
+│                        │      │                   The tempfile.TemporaryDirectory class would dereference
+│                        │      │                   symlinks during cleanup of permissions-related errors. This
+│                        │      │                    means users which can run privileged programs are
+│                        │      │                   potentially able to modify permissions of files referenced
+│                        │      │                   by symlinks in some circumstances.
+│                        │      │                    
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
+│                        │      │                  │         │           C:H/I:H/A:N 
+│                        │      │                  │         ╰ V3Score : 7.8 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
+│                        │      │                            │           C:H/I:H/A:N 
+│                        │      │                            ╰ V3Score : 7.8 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/20/5 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4078 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-6597 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2276518 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2276525 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2276518 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2276525 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-6597 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-0450 
+│                        │      │                  ├ [9] : https://discuss.python.org/t/python-3-10-14-3-9
+│                        │      │                  │       -19-and-3-8-19-is-now-available/48993 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-4078.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:4078 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/02a925
+│                        │      │                  │       9c717738dfe6b463c44d7e17f2b6d2cb3a 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/558533
+│                        │      │                  │       4d772b253a01a6730e8202ffb1607c3d25 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/commit/6ceb8a
+│                        │      │                  │       eda504b079fef7a57b8d81472f15cdd9a5 
+│                        │      │                  ├ [15]: https://github.com/python/cpython/commit/81c16c
+│                        │      │                  │       d94ec38d61aa478b9a452436dc3b1b524d 
+│                        │      │                  ├ [16]: https://github.com/python/cpython/commit/8eaeef
+│                        │      │                  │       e49d179ca4908d052745e3bb8b6f238f82 
+│                        │      │                  ├ [17]: https://github.com/python/cpython/commit/d54e22
+│                        │      │                  │       a669ae6e987199bb5d2c69bb5a46b0083b 
+│                        │      │                  ├ [18]: https://github.com/python/cpython/issues/91133 
+│                        │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2023-6597.html 
+│                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4078.html 
+│                        │      │                  ├ [21]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00025.html 
+│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/T3IG
+│                        │      │                  │       RX54M7RNCQOXVQO5KQKTGWCOABIM/ 
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5VH
+│                        │      │                  │       WS52HGD743C47UMCSAK2A773M2YE/ 
+│                        │      │                  ├ [24]: https://mail.python.org/archives/list/security-
+│                        │      │                  │       announce@python.org/thread/Q5C6ATFC67K53XFV4KE45325S
+│                        │      │                  │       7NS62LD/ 
+│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-6597 
+│                        │      │                  ├ [26]: https://seclists.org/oss-sec/2024/q1/240 
+│                        │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-6891-1 
+│                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2023-6597 
+│                        │      ├ PublishedDate   : 2024-03-19T16:15:08.743Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:24.76Z 
+│                        ├ [55] ╭ VulnerabilityID : CVE-2024-0450 
+│                        │      ├ PkgID           : libpython3.10-stdlib@3.10.12-1~22.04.3 
+│                        │      ├ PkgName         : libpython3.10-stdlib 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libpython3.10-stdlib@3.10.12-1~2
+│                        │      │                  │       2.04.3?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : 168d96462faeb79e 
+│                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0450 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: The zipfile module is vulnerable to zip-bombs
+│                        │      │                   leading to denial of service 
+│                        │      ├ Description     : An issue was found in the CPython `zipfile` module
+│                        │      │                   affecting versions 3.12.1, 3.11.7, 3.10.13, 3.9.18, and
+│                        │      │                   3.8.18 and prior.
+│                        │      │                   
+│                        │      │                   The zipfile module is vulnerable to “quoted-overlap”
+│                        │      │                   zip-bombs which exploit the zip format to create a zip-bomb
+│                        │      │                    with a high compression ratio. The fixed versions of
+│                        │      │                   CPython makes the zipfile module reject zip archives which
+│                        │      │                   overlap entries in the archive.
+│                        │      │                   
+│                        │      │                    
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-405 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:N/I:N/A:H 
+│                        │      │                  │         ╰ V3Score : 6.2 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
+│                        │      │                            │           C:N/I:N/A:H 
+│                        │      │                            ╰ V3Score : 6.2 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/20/5 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4078 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-0450 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2276518 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2276525 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2276518 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2276525 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-6597 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-0450 
+│                        │      │                  ├ [9] : https://discuss.python.org/t/python-3-10-14-3-9
+│                        │      │                  │       -19-and-3-8-19-is-now-available/48993 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-4078.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:4078 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/30fe5d
+│                        │      │                  │       853b56138dbec62432d370a1f99409fc85 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/66363b
+│                        │      │                  │       9a7b9fe7c99eba3a185b74c5fdbf842eba 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/commit/704972
+│                        │      │                  │       18351ba44bffc8b571201ecb5652d84675 
+│                        │      │                  ├ [15]: https://github.com/python/cpython/commit/a2c599
+│                        │      │                  │       92e9e8d35baba9695eb186ad6c6ff85c51 
+│                        │      │                  ├ [16]: https://github.com/python/cpython/commit/a956e5
+│                        │      │                  │       10f6336d5ae111ba429a61c3ade30a7549 
+│                        │      │                  ├ [17]: https://github.com/python/cpython/commit/d05bac
+│                        │      │                  │       0b74153beb541b88b4fca33bf053990183 
+│                        │      │                  ├ [18]: https://github.com/python/cpython/commit/fa181f
+│                        │      │                  │       cf2156f703347b03a3b1966ce47be8ab3b 
+│                        │      │                  ├ [19]: https://github.com/python/cpython/issues/109858 
+│                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2024-0450.html 
+│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-4243.html 
+│                        │      │                  ├ [22]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00024.html 
+│                        │      │                  ├ [23]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00025.html 
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/T3IG
+│                        │      │                  │       RX54M7RNCQOXVQO5KQKTGWCOABIM/ 
+│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5VH
+│                        │      │                  │       WS52HGD743C47UMCSAK2A773M2YE/ 
+│                        │      │                  ├ [26]: https://mail.python.org/archives/list/security-
+│                        │      │                  │       announce@python.org/thread/XELNUX2L3IOHBTFU7RQHCY6OU
+│                        │      │                  │       VEWZ2FG/ 
+│                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2024-0450 
+│                        │      │                  ├ [28]: https://seclists.org/oss-sec/2024/q1/240 
+│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6891-1 
+│                        │      │                  ├ [30]: https://www.bamsoftware.com/hacks/zipbomb/ 
+│                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
+│                        │      ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:24.853Z 
+│                        ├ [56] ╭ VulnerabilityID : CVE-2022-40735 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.15?arch=a
@@ -2775,7 +3351,7 @@
 │                        │      │                  ╰ [14]: https://www.rfc-editor.org/rfc/rfc7919#section-5.2 
 │                        │      ├ PublishedDate   : 2022-11-14T23:15:11.423Z 
 │                        │      ╰ LastModifiedDate: 2024-04-23T07:15:42.55Z 
-│                        ├ [51] ╭ VulnerabilityID : CVE-2024-2511 
+│                        ├ [57] ╭ VulnerabilityID : CVE-2024-2511 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.15?arch=a
@@ -2854,7 +3430,7 @@
 │                        │      │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
 │                        │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                        │      ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-│                        ├ [52] ╭ VulnerabilityID : CVE-2024-4603 
+│                        ├ [58] ╭ VulnerabilityID : CVE-2024-4603 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.15?arch=a
@@ -2945,7 +3521,7 @@
 │                        │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
-│                        ├ [53] ╭ VulnerabilityID : CVE-2024-4741 
+│                        ├ [59] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : libssl3@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : libssl3 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libssl3@3.0.2-0ubuntu1.15?arch=a
@@ -2979,7 +3555,7 @@
 │                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
 │                        │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
 │                        │                         ╰ [3]: https://www.openssl.org/news/secadv/20240528.txt 
-│                        ├ [54] ╭ VulnerabilityID : CVE-2022-27943 
+│                        ├ [60] ╭ VulnerabilityID : CVE-2022-27943 
 │                        │      ├ PkgID           : libstdc++6@12.3.0-1ubuntu1~22.04 
 │                        │      ├ PkgName         : libstdc++6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libstdc%2B%2B6@12.3.0-1ubuntu1~2
@@ -3033,7 +3609,7 @@
 │                        │      │                  ╰ [9]: https://www.cve.org/CVERecord?id=CVE-2022-27943 
 │                        │      ├ PublishedDate   : 2022-03-26T13:15:07.9Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:45:32.64Z 
-│                        ├ [55] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [61] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libsystemd0@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libsystemd0 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libsystemd0@249.11-0ubuntu3.12?a
@@ -3096,7 +3672,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [56] ╭ VulnerabilityID : CVE-2018-10126 
+│                        ├ [62] ╭ VulnerabilityID : CVE-2018-10126 
 │                        │      ├ PkgID           : libtiff5@4.3.0-6ubuntu0.9 
 │                        │      ├ PkgName         : libtiff5 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtiff5@4.3.0-6ubuntu0.9?arch=a
@@ -3140,7 +3716,7 @@
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2018-10126 
 │                        │      ├ PublishedDate   : 2018-04-21T21:29:00.29Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T02:51:16.693Z 
-│                        ├ [57] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [63] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=am
@@ -3171,7 +3747,7 @@
 │                        │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [58] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [64] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libtinfo6@6.3-2ubuntu0.1?arch=am
@@ -3218,7 +3794,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [59] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [65] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : libudev1@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : libudev1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libudev1@249.11-0ubuntu3.12?arch
@@ -3281,7 +3857,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [60] ╭ VulnerabilityID : CVE-2022-4899 
+│                        ├ [66] ╭ VulnerabilityID : CVE-2022-4899 
 │                        │      ├ PkgID           : libzstd1@1.4.8+dfsg-3build1 
 │                        │      ├ PkgName         : libzstd1 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/libzstd1@1.4.8%2Bdfsg-3build1?ar
@@ -3436,7 +4012,7 @@
 │                        │      │                  ╰ [94]: https://www.cve.org/CVERecord?id=CVE-2022-4899 
 │                        │      ├ PublishedDate   : 2023-03-31T20:15:07.213Z 
 │                        │      ╰ LastModifiedDate: 2023-11-07T03:59:16.09Z 
-│                        ├ [61] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [67] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : login@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : login 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/login@4.8.1-2ubuntu2.2?arch=amd6
@@ -3493,7 +4069,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [62] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [68] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch
@@ -3524,7 +4100,7 @@
 │                        │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [63] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [69] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-base@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-base 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-base@6.3-2ubuntu0.1?arch
@@ -3571,7 +4147,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [64] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [70] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=
@@ -3602,7 +4178,7 @@
 │                        │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [65] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [71] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-bin@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-bin 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-bin@6.3-2ubuntu0.1?arch=
@@ -3649,7 +4225,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [66] ╭ VulnerabilityID : CVE-2023-45918 
+│                        ├ [72] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch
@@ -3680,7 +4256,7 @@
 │                        │      │                  ╰ [2]: https://www.cve.org/CVERecord?id=CVE-2023-45918 
 │                        │      ├ PublishedDate   : 2024-02-16T22:15:07.88Z 
 │                        │      ╰ LastModifiedDate: 2024-03-15T11:15:08.51Z 
-│                        ├ [67] ╭ VulnerabilityID : CVE-2023-50495 
+│                        ├ [73] ╭ VulnerabilityID : CVE-2023-50495 
 │                        │      ├ PkgID           : ncurses-term@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : ncurses-term 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/ncurses-term@6.3-2ubuntu0.1?arch
@@ -3727,7 +4303,7 @@
 │                        │      │                  ╰ [7]: https://www.cve.org/CVERecord?id=CVE-2023-50495 
 │                        │      ├ PublishedDate   : 2023-12-12T15:15:07.867Z 
 │                        │      ╰ LastModifiedDate: 2024-01-31T03:15:08.49Z 
-│                        ├ [68] ╭ VulnerabilityID : CVE-2024-6387 
+│                        ├ [74] ╭ VulnerabilityID : CVE-2024-6387 
 │                        │      ├ PkgID           : openssh-client@1:8.9p1-3ubuntu0.7 
 │                        │      ├ PkgName         : openssh-client 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-client@8.9p1-3ubuntu0.7?
@@ -3745,7 +4321,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : openssh: regreSSHion RCE/DoS 
+│                        │      ├ Title           : openssh: regreSSHion - race condition in SSH allows RCE/DoS 
 │                        │      ├ Description     : A security regression (CVE-2006-5051) was discovered
 │                        │      │                   in OpenSSH's server (sshd). There is a race condition which
 │                        │      │                    can lead to sshd to handle some signals in an unsafe
@@ -3756,6 +4332,7 @@
 │                        │      ├ CweIDs           ╭ [0]: CWE-362 
 │                        │      │                  ╰ [1]: CWE-364 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ oracle-oval: 3 
@@ -3796,81 +4373,102 @@
 │                        │      │                  │       /07/08/3 
 │                        │      │                  ├ [13]: http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /07/09/2 
-│                        │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2024:4312 
-│                        │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2024:4340 
-│                        │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2024:4389 
-│                        │      │                  ├ [17]: https://access.redhat.com/security/cve/CVE-2024-6387 
-│                        │      │                  ├ [18]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  ├ [14]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/09/5 
+│                        │      │                  ├ [15]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/1 
+│                        │      │                  ├ [16]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/2 
+│                        │      │                  ├ [17]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/3 
+│                        │      │                  ├ [18]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/4 
+│                        │      │                  ├ [19]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/6 
+│                        │      │                  ├ [20]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/11/1 
+│                        │      │                  ├ [21]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/11/3 
+│                        │      │                  ├ [22]: https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [23]: https://access.redhat.com/errata/RHSA-2024:4340 
+│                        │      │                  ├ [24]: https://access.redhat.com/errata/RHSA-2024:4389 
+│                        │      │                  ├ [25]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [26]: https://archlinux.org/news/the-sshd-service-nee
 │                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
 │                        │      │                  │       [m 
-│                        │      │                  ├ [19]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  ├ [27]: https://arstechnica.com/security/2024/07/regres
 │                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
 │                        │      │                  │       on-linux/ 
-│                        │      │                  ├ [20]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [28]: https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
 │                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
 │                        │      │                  │        
-│                        │      │                  ├ [21]: https://bugzilla.redhat.com/2294604 
-│                        │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
-│                        │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
-│                        │      │                  ├ [24]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  ├ [29]: https://bugzilla.redhat.com/2294604 
+│                        │      │                  ├ [30]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [31]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
+│                        │      │                  ├ [32]: https://explore.alas.aws.amazon.com/CVE-2024-63
 │                        │      │                  │       87.html 
-│                        │      │                  ├ [25]: https://forum.vmssoftware.com/viewtopic.php?f=8
+│                        │      │                  ├ [33]: https://forum.vmssoftware.com/viewtopic.php?f=8
 │                        │      │                  │       &t=9132 
-│                        │      │                  ├ [26]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  ├ [34]: https://ftp.netbsd.org/pub/NetBSD/security/advi
 │                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
-│                        │      │                  ├ [27]: https://github.com/AlmaLinux/updates/issues/629 
-│                        │      │                  ├ [28]: https://github.com/Azure/AKS/issues/4379 
-│                        │      │                  ├ [29]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  ├ [35]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [36]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [37]: https://github.com/PowerShell/Win32-OpenSSH/dis
 │                        │      │                  │       cussions/2248 
-│                        │      │                  ├ [30]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  ├ [38]: https://github.com/PowerShell/Win32-OpenSSH/iss
 │                        │      │                  │       ues/2249 
-│                        │      │                  ├ [31]: https://github.com/microsoft/azurelinux/issues/9555 
-│                        │      │                  ├ [32]: https://github.com/oracle/oracle-linux/issues/149 
-│                        │      │                  ├ [33]: https://github.com/rapier1/hpn-ssh/issues/87 
-│                        │      │                  ├ [34]: https://github.com/zgzhang/cve-2024-6387-poc 
-│                        │      │                  ├ [35]: https://linux.oracle.com/cve/CVE-2024-6387.html 
-│                        │      │                  ├ [36]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
-│                        │      │                  ├ [37]: https://lists.almalinux.org/archives/list/annou
+│                        │      │                  ├ [39]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [40]: https://github.com/openela-main/openssh/commit/
+│                        │      │                  │       e1f438970e5a337a17070a637c1b9e19697cad09 
+│                        │      │                  ├ [41]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [42]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [43]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [44]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [45]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
+│                        │      │                  ├ [46]: https://lists.almalinux.org/archives/list/annou
 │                        │      │                  │       nce@lists.almalinux.org/thread/23BF5BMGFVEVUI2WNVAGM
 │                        │      │                  │       LKT557EU7VY/ 
-│                        │      │                  ├ [38]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [47]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-announce/2024-July/000158.html 
-│                        │      │                  ├ [39]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [48]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-dev/2024-July/041431.html 
-│                        │      │                  ├ [40]: https://news.ycombinator.com/item?id=40843778 
-│                        │      │                  ├ [41]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
-│                        │      │                  ├ [42]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  ├ [49]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [50]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [51]: https://psirt.global.sonicwall.com/vuln-detail/
 │                        │      │                  │       SNWLID-2024-0010 
-│                        │      │                  ├ [43]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  ├ [52]: https://security-tracker.debian.org/tracker/CVE
 │                        │      │                  │       -2024-6387 
-│                        │      │                  ├ [44]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [53]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       701-0001/ 
-│                        │      │                  ├ [45]: https://sig-security.rocky.page/issues/CVE-2024
+│                        │      │                  ├ [54]: https://sig-security.rocky.page/issues/CVE-2024
 │                        │      │                  │       -6387/ 
-│                        │      │                  ├ [46]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  ├ [55]: https://stackdiary.com/openssh-race-condition-i
 │                        │      │                  │       n-sshd-allows-remote-code-execution/ 
-│                        │      │                  ├ [47]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  ├ [56]: https://ubuntu.com/blog/ubuntu-regresshion-secu
 │                        │      │                  │       rity-fix 
-│                        │      │                  ├ [48]: https://ubuntu.com/security/CVE-2024-6387 
-│                        │      │                  ├ [49]: https://ubuntu.com/security/notices/USN-6859-1 
-│                        │      │                  ├ [50]: https://www.akamai.com/blog/security-research/2
+│                        │      │                  ├ [57]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [58]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [59]: https://www.akamai.com/blog/security-research/2
 │                        │      │                  │       024-openssh-vulnerability-regression-what-to-know-an
 │                        │      │                  │       d-do 
-│                        │      │                  ├ [51]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
-│                        │      │                  ├ [52]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  ├ [60]: https://www.arista.com/en/support/advisories-no
+│                        │      │                  │       tices/security-advisory/19904-security-advisory-0100
+│                        │      │                  │        
+│                        │      │                  ├ [61]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [62]: https://www.freebsd.org/security/advisories/Fre
 │                        │      │                  │       eBSD-SA-24:04.openssh.asc 
-│                        │      │                  ├ [53]: https://www.openssh.com/txt/release-9.8 
-│                        │      │                  ├ [54]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  ├ [63]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [64]: https://www.qualys.com/2024/07/01/cve-2024-6387
 │                        │      │                  │       /regresshion.txt 
-│                        │      │                  ├ [55]: https://www.splunk.com/en_us/blog/security/cve-
+│                        │      │                  ├ [65]: https://www.splunk.com/en_us/blog/security/cve-
 │                        │      │                  │       2024-6387-regresshion-vulnerability.html 
-│                        │      │                  ├ [56]: https://www.suse.com/security/cve/CVE-2024-6387.html 
-│                        │      │                  ╰ [57]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                  ├ [66]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [67]: https://www.theregister.com/2024/07/01/regressh
 │                        │      │                          ion_openssh/ 
 │                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
-│                        │      ╰ LastModifiedDate: 2024-07-09T12:15:20.78Z 
-│                        ├ [69] ╭ VulnerabilityID : CVE-2024-6387 
+│                        │      ╰ LastModifiedDate: 2024-07-11T20:15:04.793Z 
+│                        ├ [75] ╭ VulnerabilityID : CVE-2024-6387 
 │                        │      ├ PkgID           : openssh-server@1:8.9p1-3ubuntu0.7 
 │                        │      ├ PkgName         : openssh-server 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-server@8.9p1-3ubuntu0.7?
@@ -3888,7 +4486,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : openssh: regreSSHion RCE/DoS 
+│                        │      ├ Title           : openssh: regreSSHion - race condition in SSH allows RCE/DoS 
 │                        │      ├ Description     : A security regression (CVE-2006-5051) was discovered
 │                        │      │                   in OpenSSH's server (sshd). There is a race condition which
 │                        │      │                    can lead to sshd to handle some signals in an unsafe
@@ -3899,6 +4497,7 @@
 │                        │      ├ CweIDs           ╭ [0]: CWE-362 
 │                        │      │                  ╰ [1]: CWE-364 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ oracle-oval: 3 
@@ -3939,81 +4538,102 @@
 │                        │      │                  │       /07/08/3 
 │                        │      │                  ├ [13]: http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /07/09/2 
-│                        │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2024:4312 
-│                        │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2024:4340 
-│                        │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2024:4389 
-│                        │      │                  ├ [17]: https://access.redhat.com/security/cve/CVE-2024-6387 
-│                        │      │                  ├ [18]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  ├ [14]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/09/5 
+│                        │      │                  ├ [15]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/1 
+│                        │      │                  ├ [16]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/2 
+│                        │      │                  ├ [17]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/3 
+│                        │      │                  ├ [18]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/4 
+│                        │      │                  ├ [19]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/6 
+│                        │      │                  ├ [20]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/11/1 
+│                        │      │                  ├ [21]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/11/3 
+│                        │      │                  ├ [22]: https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [23]: https://access.redhat.com/errata/RHSA-2024:4340 
+│                        │      │                  ├ [24]: https://access.redhat.com/errata/RHSA-2024:4389 
+│                        │      │                  ├ [25]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [26]: https://archlinux.org/news/the-sshd-service-nee
 │                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
 │                        │      │                  │       [m 
-│                        │      │                  ├ [19]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  ├ [27]: https://arstechnica.com/security/2024/07/regres
 │                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
 │                        │      │                  │       on-linux/ 
-│                        │      │                  ├ [20]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [28]: https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
 │                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
 │                        │      │                  │        
-│                        │      │                  ├ [21]: https://bugzilla.redhat.com/2294604 
-│                        │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
-│                        │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
-│                        │      │                  ├ [24]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  ├ [29]: https://bugzilla.redhat.com/2294604 
+│                        │      │                  ├ [30]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [31]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
+│                        │      │                  ├ [32]: https://explore.alas.aws.amazon.com/CVE-2024-63
 │                        │      │                  │       87.html 
-│                        │      │                  ├ [25]: https://forum.vmssoftware.com/viewtopic.php?f=8
+│                        │      │                  ├ [33]: https://forum.vmssoftware.com/viewtopic.php?f=8
 │                        │      │                  │       &t=9132 
-│                        │      │                  ├ [26]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  ├ [34]: https://ftp.netbsd.org/pub/NetBSD/security/advi
 │                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
-│                        │      │                  ├ [27]: https://github.com/AlmaLinux/updates/issues/629 
-│                        │      │                  ├ [28]: https://github.com/Azure/AKS/issues/4379 
-│                        │      │                  ├ [29]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  ├ [35]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [36]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [37]: https://github.com/PowerShell/Win32-OpenSSH/dis
 │                        │      │                  │       cussions/2248 
-│                        │      │                  ├ [30]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  ├ [38]: https://github.com/PowerShell/Win32-OpenSSH/iss
 │                        │      │                  │       ues/2249 
-│                        │      │                  ├ [31]: https://github.com/microsoft/azurelinux/issues/9555 
-│                        │      │                  ├ [32]: https://github.com/oracle/oracle-linux/issues/149 
-│                        │      │                  ├ [33]: https://github.com/rapier1/hpn-ssh/issues/87 
-│                        │      │                  ├ [34]: https://github.com/zgzhang/cve-2024-6387-poc 
-│                        │      │                  ├ [35]: https://linux.oracle.com/cve/CVE-2024-6387.html 
-│                        │      │                  ├ [36]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
-│                        │      │                  ├ [37]: https://lists.almalinux.org/archives/list/annou
+│                        │      │                  ├ [39]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [40]: https://github.com/openela-main/openssh/commit/
+│                        │      │                  │       e1f438970e5a337a17070a637c1b9e19697cad09 
+│                        │      │                  ├ [41]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [42]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [43]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [44]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [45]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
+│                        │      │                  ├ [46]: https://lists.almalinux.org/archives/list/annou
 │                        │      │                  │       nce@lists.almalinux.org/thread/23BF5BMGFVEVUI2WNVAGM
 │                        │      │                  │       LKT557EU7VY/ 
-│                        │      │                  ├ [38]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [47]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-announce/2024-July/000158.html 
-│                        │      │                  ├ [39]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [48]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-dev/2024-July/041431.html 
-│                        │      │                  ├ [40]: https://news.ycombinator.com/item?id=40843778 
-│                        │      │                  ├ [41]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
-│                        │      │                  ├ [42]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  ├ [49]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [50]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [51]: https://psirt.global.sonicwall.com/vuln-detail/
 │                        │      │                  │       SNWLID-2024-0010 
-│                        │      │                  ├ [43]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  ├ [52]: https://security-tracker.debian.org/tracker/CVE
 │                        │      │                  │       -2024-6387 
-│                        │      │                  ├ [44]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [53]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       701-0001/ 
-│                        │      │                  ├ [45]: https://sig-security.rocky.page/issues/CVE-2024
+│                        │      │                  ├ [54]: https://sig-security.rocky.page/issues/CVE-2024
 │                        │      │                  │       -6387/ 
-│                        │      │                  ├ [46]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  ├ [55]: https://stackdiary.com/openssh-race-condition-i
 │                        │      │                  │       n-sshd-allows-remote-code-execution/ 
-│                        │      │                  ├ [47]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  ├ [56]: https://ubuntu.com/blog/ubuntu-regresshion-secu
 │                        │      │                  │       rity-fix 
-│                        │      │                  ├ [48]: https://ubuntu.com/security/CVE-2024-6387 
-│                        │      │                  ├ [49]: https://ubuntu.com/security/notices/USN-6859-1 
-│                        │      │                  ├ [50]: https://www.akamai.com/blog/security-research/2
+│                        │      │                  ├ [57]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [58]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [59]: https://www.akamai.com/blog/security-research/2
 │                        │      │                  │       024-openssh-vulnerability-regression-what-to-know-an
 │                        │      │                  │       d-do 
-│                        │      │                  ├ [51]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
-│                        │      │                  ├ [52]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  ├ [60]: https://www.arista.com/en/support/advisories-no
+│                        │      │                  │       tices/security-advisory/19904-security-advisory-0100
+│                        │      │                  │        
+│                        │      │                  ├ [61]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [62]: https://www.freebsd.org/security/advisories/Fre
 │                        │      │                  │       eBSD-SA-24:04.openssh.asc 
-│                        │      │                  ├ [53]: https://www.openssh.com/txt/release-9.8 
-│                        │      │                  ├ [54]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  ├ [63]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [64]: https://www.qualys.com/2024/07/01/cve-2024-6387
 │                        │      │                  │       /regresshion.txt 
-│                        │      │                  ├ [55]: https://www.splunk.com/en_us/blog/security/cve-
+│                        │      │                  ├ [65]: https://www.splunk.com/en_us/blog/security/cve-
 │                        │      │                  │       2024-6387-regresshion-vulnerability.html 
-│                        │      │                  ├ [56]: https://www.suse.com/security/cve/CVE-2024-6387.html 
-│                        │      │                  ╰ [57]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                  ├ [66]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [67]: https://www.theregister.com/2024/07/01/regressh
 │                        │      │                          ion_openssh/ 
 │                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
-│                        │      ╰ LastModifiedDate: 2024-07-09T12:15:20.78Z 
-│                        ├ [70] ╭ VulnerabilityID : CVE-2024-6387 
+│                        │      ╰ LastModifiedDate: 2024-07-11T20:15:04.793Z 
+│                        ├ [76] ╭ VulnerabilityID : CVE-2024-6387 
 │                        │      ├ PkgID           : openssh-sftp-server@1:8.9p1-3ubuntu0.7 
 │                        │      ├ PkgName         : openssh-sftp-server 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssh-sftp-server@8.9p1-3ubunt
@@ -4031,7 +4651,7 @@
 │                        │      ├ DataSource       ╭ ID  : ubuntu 
 │                        │      │                  ├ Name: Ubuntu CVE Tracker 
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
-│                        │      ├ Title           : openssh: regreSSHion RCE/DoS 
+│                        │      ├ Title           : openssh: regreSSHion - race condition in SSH allows RCE/DoS 
 │                        │      ├ Description     : A security regression (CVE-2006-5051) was discovered
 │                        │      │                   in OpenSSH's server (sshd). There is a race condition which
 │                        │      │                    can lead to sshd to handle some signals in an unsafe
@@ -4042,6 +4662,7 @@
 │                        │      ├ CweIDs           ╭ [0]: CWE-362 
 │                        │      │                  ╰ [1]: CWE-364 
 │                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 3 
 │                        │      │                  ├ nvd        : 3 
 │                        │      │                  ├ oracle-oval: 3 
@@ -4082,81 +4703,102 @@
 │                        │      │                  │       /07/08/3 
 │                        │      │                  ├ [13]: http://www.openwall.com/lists/oss-security/2024
 │                        │      │                  │       /07/09/2 
-│                        │      │                  ├ [14]: https://access.redhat.com/errata/RHSA-2024:4312 
-│                        │      │                  ├ [15]: https://access.redhat.com/errata/RHSA-2024:4340 
-│                        │      │                  ├ [16]: https://access.redhat.com/errata/RHSA-2024:4389 
-│                        │      │                  ├ [17]: https://access.redhat.com/security/cve/CVE-2024-6387 
-│                        │      │                  ├ [18]: https://archlinux.org/news/the-sshd-service-nee
+│                        │      │                  ├ [14]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/09/5 
+│                        │      │                  ├ [15]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/1 
+│                        │      │                  ├ [16]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/2 
+│                        │      │                  ├ [17]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/3 
+│                        │      │                  ├ [18]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/4 
+│                        │      │                  ├ [19]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/10/6 
+│                        │      │                  ├ [20]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/11/1 
+│                        │      │                  ├ [21]: http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /07/11/3 
+│                        │      │                  ├ [22]: https://access.redhat.com/errata/RHSA-2024:4312 
+│                        │      │                  ├ [23]: https://access.redhat.com/errata/RHSA-2024:4340 
+│                        │      │                  ├ [24]: https://access.redhat.com/errata/RHSA-2024:4389 
+│                        │      │                  ├ [25]: https://access.redhat.com/security/cve/CVE-2024-6387 
+│                        │      │                  ├ [26]: https://archlinux.org/news/the-sshd-service-nee
 │                        │      │                  │       ds-to-be-restarted-after-upgrading-to-openssh-98p1/
 │                        │      │                  │       [m 
-│                        │      │                  ├ [19]: https://arstechnica.com/security/2024/07/regres
+│                        │      │                  ├ [27]: https://arstechnica.com/security/2024/07/regres
 │                        │      │                  │       shion-vulnerability-in-openssh-gives-attackers-root-
 │                        │      │                  │       on-linux/ 
-│                        │      │                  ├ [20]: https://blog.qualys.com/vulnerabilities-threat-
+│                        │      │                  ├ [28]: https://blog.qualys.com/vulnerabilities-threat-
 │                        │      │                  │       research/2024/07/01/regresshion-remote-unauthenticat
 │                        │      │                  │       ed-code-execution-vulnerability-in-openssh-server
 │                        │      │                  │        
-│                        │      │                  ├ [21]: https://bugzilla.redhat.com/2294604 
-│                        │      │                  ├ [22]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
-│                        │      │                  ├ [23]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
-│                        │      │                  ├ [24]: https://explore.alas.aws.amazon.com/CVE-2024-63
+│                        │      │                  ├ [29]: https://bugzilla.redhat.com/2294604 
+│                        │      │                  ├ [30]: https://bugzilla.redhat.com/show_bug.cgi?id=2294604 
+│                        │      │                  ├ [31]: https://errata.almalinux.org/9/ALSA-2024-4312.html 
+│                        │      │                  ├ [32]: https://explore.alas.aws.amazon.com/CVE-2024-63
 │                        │      │                  │       87.html 
-│                        │      │                  ├ [25]: https://forum.vmssoftware.com/viewtopic.php?f=8
+│                        │      │                  ├ [33]: https://forum.vmssoftware.com/viewtopic.php?f=8
 │                        │      │                  │       &t=9132 
-│                        │      │                  ├ [26]: https://ftp.netbsd.org/pub/NetBSD/security/advi
+│                        │      │                  ├ [34]: https://ftp.netbsd.org/pub/NetBSD/security/advi
 │                        │      │                  │       sories/NetBSD-SA2024-002.txt.asc 
-│                        │      │                  ├ [27]: https://github.com/AlmaLinux/updates/issues/629 
-│                        │      │                  ├ [28]: https://github.com/Azure/AKS/issues/4379 
-│                        │      │                  ├ [29]: https://github.com/PowerShell/Win32-OpenSSH/dis
+│                        │      │                  ├ [35]: https://github.com/AlmaLinux/updates/issues/629 
+│                        │      │                  ├ [36]: https://github.com/Azure/AKS/issues/4379 
+│                        │      │                  ├ [37]: https://github.com/PowerShell/Win32-OpenSSH/dis
 │                        │      │                  │       cussions/2248 
-│                        │      │                  ├ [30]: https://github.com/PowerShell/Win32-OpenSSH/iss
+│                        │      │                  ├ [38]: https://github.com/PowerShell/Win32-OpenSSH/iss
 │                        │      │                  │       ues/2249 
-│                        │      │                  ├ [31]: https://github.com/microsoft/azurelinux/issues/9555 
-│                        │      │                  ├ [32]: https://github.com/oracle/oracle-linux/issues/149 
-│                        │      │                  ├ [33]: https://github.com/rapier1/hpn-ssh/issues/87 
-│                        │      │                  ├ [34]: https://github.com/zgzhang/cve-2024-6387-poc 
-│                        │      │                  ├ [35]: https://linux.oracle.com/cve/CVE-2024-6387.html 
-│                        │      │                  ├ [36]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
-│                        │      │                  ├ [37]: https://lists.almalinux.org/archives/list/annou
+│                        │      │                  ├ [39]: https://github.com/microsoft/azurelinux/issues/9555 
+│                        │      │                  ├ [40]: https://github.com/openela-main/openssh/commit/
+│                        │      │                  │       e1f438970e5a337a17070a637c1b9e19697cad09 
+│                        │      │                  ├ [41]: https://github.com/oracle/oracle-linux/issues/149 
+│                        │      │                  ├ [42]: https://github.com/rapier1/hpn-ssh/issues/87 
+│                        │      │                  ├ [43]: https://github.com/zgzhang/cve-2024-6387-poc 
+│                        │      │                  ├ [44]: https://linux.oracle.com/cve/CVE-2024-6387.html 
+│                        │      │                  ├ [45]: https://linux.oracle.com/errata/ELSA-2024-4312.html 
+│                        │      │                  ├ [46]: https://lists.almalinux.org/archives/list/annou
 │                        │      │                  │       nce@lists.almalinux.org/thread/23BF5BMGFVEVUI2WNVAGM
 │                        │      │                  │       LKT557EU7VY/ 
-│                        │      │                  ├ [38]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [47]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-announce/2024-July/000158.html 
-│                        │      │                  ├ [39]: https://lists.mindrot.org/pipermail/openssh-uni
+│                        │      │                  ├ [48]: https://lists.mindrot.org/pipermail/openssh-uni
 │                        │      │                  │       x-dev/2024-July/041431.html 
-│                        │      │                  ├ [40]: https://news.ycombinator.com/item?id=40843778 
-│                        │      │                  ├ [41]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
-│                        │      │                  ├ [42]: https://psirt.global.sonicwall.com/vuln-detail/
+│                        │      │                  ├ [49]: https://news.ycombinator.com/item?id=40843778 
+│                        │      │                  ├ [50]: https://nvd.nist.gov/vuln/detail/CVE-2024-6387 
+│                        │      │                  ├ [51]: https://psirt.global.sonicwall.com/vuln-detail/
 │                        │      │                  │       SNWLID-2024-0010 
-│                        │      │                  ├ [43]: https://security-tracker.debian.org/tracker/CVE
+│                        │      │                  ├ [52]: https://security-tracker.debian.org/tracker/CVE
 │                        │      │                  │       -2024-6387 
-│                        │      │                  ├ [44]: https://security.netapp.com/advisory/ntap-20240
+│                        │      │                  ├ [53]: https://security.netapp.com/advisory/ntap-20240
 │                        │      │                  │       701-0001/ 
-│                        │      │                  ├ [45]: https://sig-security.rocky.page/issues/CVE-2024
+│                        │      │                  ├ [54]: https://sig-security.rocky.page/issues/CVE-2024
 │                        │      │                  │       -6387/ 
-│                        │      │                  ├ [46]: https://stackdiary.com/openssh-race-condition-i
+│                        │      │                  ├ [55]: https://stackdiary.com/openssh-race-condition-i
 │                        │      │                  │       n-sshd-allows-remote-code-execution/ 
-│                        │      │                  ├ [47]: https://ubuntu.com/blog/ubuntu-regresshion-secu
+│                        │      │                  ├ [56]: https://ubuntu.com/blog/ubuntu-regresshion-secu
 │                        │      │                  │       rity-fix 
-│                        │      │                  ├ [48]: https://ubuntu.com/security/CVE-2024-6387 
-│                        │      │                  ├ [49]: https://ubuntu.com/security/notices/USN-6859-1 
-│                        │      │                  ├ [50]: https://www.akamai.com/blog/security-research/2
+│                        │      │                  ├ [57]: https://ubuntu.com/security/CVE-2024-6387 
+│                        │      │                  ├ [58]: https://ubuntu.com/security/notices/USN-6859-1 
+│                        │      │                  ├ [59]: https://www.akamai.com/blog/security-research/2
 │                        │      │                  │       024-openssh-vulnerability-regression-what-to-know-an
 │                        │      │                  │       d-do 
-│                        │      │                  ├ [51]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
-│                        │      │                  ├ [52]: https://www.freebsd.org/security/advisories/Fre
+│                        │      │                  ├ [60]: https://www.arista.com/en/support/advisories-no
+│                        │      │                  │       tices/security-advisory/19904-security-advisory-0100
+│                        │      │                  │        
+│                        │      │                  ├ [61]: https://www.cve.org/CVERecord?id=CVE-2024-6387 
+│                        │      │                  ├ [62]: https://www.freebsd.org/security/advisories/Fre
 │                        │      │                  │       eBSD-SA-24:04.openssh.asc 
-│                        │      │                  ├ [53]: https://www.openssh.com/txt/release-9.8 
-│                        │      │                  ├ [54]: https://www.qualys.com/2024/07/01/cve-2024-6387
+│                        │      │                  ├ [63]: https://www.openssh.com/txt/release-9.8 
+│                        │      │                  ├ [64]: https://www.qualys.com/2024/07/01/cve-2024-6387
 │                        │      │                  │       /regresshion.txt 
-│                        │      │                  ├ [55]: https://www.splunk.com/en_us/blog/security/cve-
+│                        │      │                  ├ [65]: https://www.splunk.com/en_us/blog/security/cve-
 │                        │      │                  │       2024-6387-regresshion-vulnerability.html 
-│                        │      │                  ├ [56]: https://www.suse.com/security/cve/CVE-2024-6387.html 
-│                        │      │                  ╰ [57]: https://www.theregister.com/2024/07/01/regressh
+│                        │      │                  ├ [66]: https://www.suse.com/security/cve/CVE-2024-6387.html 
+│                        │      │                  ╰ [67]: https://www.theregister.com/2024/07/01/regressh
 │                        │      │                          ion_openssh/ 
 │                        │      ├ PublishedDate   : 2024-07-01T13:15:06.467Z 
-│                        │      ╰ LastModifiedDate: 2024-07-09T12:15:20.78Z 
-│                        ├ [71] ╭ VulnerabilityID : CVE-2022-40735 
+│                        │      ╰ LastModifiedDate: 2024-07-11T20:15:04.793Z 
+│                        ├ [77] ╭ VulnerabilityID : CVE-2022-40735 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
@@ -4226,7 +4868,7 @@
 │                        │      │                  ╰ [14]: https://www.rfc-editor.org/rfc/rfc7919#section-5.2 
 │                        │      ├ PublishedDate   : 2022-11-14T23:15:11.423Z 
 │                        │      ╰ LastModifiedDate: 2024-04-23T07:15:42.55Z 
-│                        ├ [72] ╭ VulnerabilityID : CVE-2024-2511 
+│                        ├ [78] ╭ VulnerabilityID : CVE-2024-2511 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
@@ -4305,7 +4947,7 @@
 │                        │      │                  ╰ [10]: https://www.openssl.org/news/vulnerabilities.html 
 │                        │      ├ PublishedDate   : 2024-04-08T14:15:07.66Z 
 │                        │      ╰ LastModifiedDate: 2024-05-03T13:15:21.93Z 
-│                        ├ [73] ╭ VulnerabilityID : CVE-2024-4603 
+│                        ├ [79] ╭ VulnerabilityID : CVE-2024-4603 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
@@ -4396,7 +5038,7 @@
 │                        │      │                  ╰ [9]: https://www.openssl.org/news/secadv/20240516.txt 
 │                        │      ├ PublishedDate   : 2024-05-16T16:15:10.643Z 
 │                        │      ╰ LastModifiedDate: 2024-06-21T19:15:30.783Z 
-│                        ├ [74] ╭ VulnerabilityID : CVE-2024-4741 
+│                        ├ [80] ╭ VulnerabilityID : CVE-2024-4741 
 │                        │      ├ PkgID           : openssl@3.0.2-0ubuntu1.15 
 │                        │      ├ PkgName         : openssl 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/openssl@3.0.2-0ubuntu1.15?arch=a
@@ -4430,7 +5072,7 @@
 │                        │                         ├ [1]: https://nvd.nist.gov/vuln/detail/CVE-2024-4741 
 │                        │                         ├ [2]: https://www.cve.org/CVERecord?id=CVE-2024-4741 
 │                        │                         ╰ [3]: https://www.openssl.org/news/secadv/20240528.txt 
-│                        ├ [75] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [81] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : passwd@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : passwd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/passwd@4.8.1-2ubuntu2.2?arch=amd
@@ -4487,7 +5129,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [76] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [82] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arc
@@ -4616,7 +5258,199 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [77] ╭ VulnerabilityID : CVE-2023-27043 
+│                        ├ [83] ╭ VulnerabilityID : CVE-2023-6597 
+│                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
+│                        │      ├ PkgName         : python3.10 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arc
+│                        │      │                  │       h=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : e18631285537a262 
+│                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6597 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Path traversal on tempfile.TemporaryDirectory 
+│                        │      ├ Description     : An issue was found in the CPython
+│                        │      │                   `tempfile.TemporaryDirectory` class affecting versions
+│                        │      │                   3.12.1, 3.11.7, 3.10.13, 3.9.18, and 3.8.18 and prior.
+│                        │      │                   
+│                        │      │                   The tempfile.TemporaryDirectory class would dereference
+│                        │      │                   symlinks during cleanup of permissions-related errors. This
+│                        │      │                    means users which can run privileged programs are
+│                        │      │                   potentially able to modify permissions of files referenced
+│                        │      │                   by symlinks in some circumstances.
+│                        │      │                    
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
+│                        │      │                  │         │           C:H/I:H/A:N 
+│                        │      │                  │         ╰ V3Score : 7.8 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
+│                        │      │                            │           C:H/I:H/A:N 
+│                        │      │                            ╰ V3Score : 7.8 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/20/5 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4078 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-6597 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2276518 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2276525 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2276518 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2276525 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-6597 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-0450 
+│                        │      │                  ├ [9] : https://discuss.python.org/t/python-3-10-14-3-9
+│                        │      │                  │       -19-and-3-8-19-is-now-available/48993 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-4078.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:4078 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/02a925
+│                        │      │                  │       9c717738dfe6b463c44d7e17f2b6d2cb3a 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/558533
+│                        │      │                  │       4d772b253a01a6730e8202ffb1607c3d25 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/commit/6ceb8a
+│                        │      │                  │       eda504b079fef7a57b8d81472f15cdd9a5 
+│                        │      │                  ├ [15]: https://github.com/python/cpython/commit/81c16c
+│                        │      │                  │       d94ec38d61aa478b9a452436dc3b1b524d 
+│                        │      │                  ├ [16]: https://github.com/python/cpython/commit/8eaeef
+│                        │      │                  │       e49d179ca4908d052745e3bb8b6f238f82 
+│                        │      │                  ├ [17]: https://github.com/python/cpython/commit/d54e22
+│                        │      │                  │       a669ae6e987199bb5d2c69bb5a46b0083b 
+│                        │      │                  ├ [18]: https://github.com/python/cpython/issues/91133 
+│                        │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2023-6597.html 
+│                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4078.html 
+│                        │      │                  ├ [21]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00025.html 
+│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/T3IG
+│                        │      │                  │       RX54M7RNCQOXVQO5KQKTGWCOABIM/ 
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5VH
+│                        │      │                  │       WS52HGD743C47UMCSAK2A773M2YE/ 
+│                        │      │                  ├ [24]: https://mail.python.org/archives/list/security-
+│                        │      │                  │       announce@python.org/thread/Q5C6ATFC67K53XFV4KE45325S
+│                        │      │                  │       7NS62LD/ 
+│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-6597 
+│                        │      │                  ├ [26]: https://seclists.org/oss-sec/2024/q1/240 
+│                        │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-6891-1 
+│                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2023-6597 
+│                        │      ├ PublishedDate   : 2024-03-19T16:15:08.743Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:24.76Z 
+│                        ├ [84] ╭ VulnerabilityID : CVE-2024-0450 
+│                        │      ├ PkgID           : python3.10@3.10.12-1~22.04.3 
+│                        │      ├ PkgName         : python3.10 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10@3.10.12-1~22.04.3?arc
+│                        │      │                  │       h=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : e18631285537a262 
+│                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0450 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: The zipfile module is vulnerable to zip-bombs
+│                        │      │                   leading to denial of service 
+│                        │      ├ Description     : An issue was found in the CPython `zipfile` module
+│                        │      │                   affecting versions 3.12.1, 3.11.7, 3.10.13, 3.9.18, and
+│                        │      │                   3.8.18 and prior.
+│                        │      │                   
+│                        │      │                   The zipfile module is vulnerable to “quoted-overlap”
+│                        │      │                   zip-bombs which exploit the zip format to create a zip-bomb
+│                        │      │                    with a high compression ratio. The fixed versions of
+│                        │      │                   CPython makes the zipfile module reject zip archives which
+│                        │      │                   overlap entries in the archive.
+│                        │      │                   
+│                        │      │                    
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-405 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:N/I:N/A:H 
+│                        │      │                  │         ╰ V3Score : 6.2 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
+│                        │      │                            │           C:N/I:N/A:H 
+│                        │      │                            ╰ V3Score : 6.2 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/20/5 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4078 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-0450 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2276518 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2276525 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2276518 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2276525 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-6597 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-0450 
+│                        │      │                  ├ [9] : https://discuss.python.org/t/python-3-10-14-3-9
+│                        │      │                  │       -19-and-3-8-19-is-now-available/48993 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-4078.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:4078 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/30fe5d
+│                        │      │                  │       853b56138dbec62432d370a1f99409fc85 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/66363b
+│                        │      │                  │       9a7b9fe7c99eba3a185b74c5fdbf842eba 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/commit/704972
+│                        │      │                  │       18351ba44bffc8b571201ecb5652d84675 
+│                        │      │                  ├ [15]: https://github.com/python/cpython/commit/a2c599
+│                        │      │                  │       92e9e8d35baba9695eb186ad6c6ff85c51 
+│                        │      │                  ├ [16]: https://github.com/python/cpython/commit/a956e5
+│                        │      │                  │       10f6336d5ae111ba429a61c3ade30a7549 
+│                        │      │                  ├ [17]: https://github.com/python/cpython/commit/d05bac
+│                        │      │                  │       0b74153beb541b88b4fca33bf053990183 
+│                        │      │                  ├ [18]: https://github.com/python/cpython/commit/fa181f
+│                        │      │                  │       cf2156f703347b03a3b1966ce47be8ab3b 
+│                        │      │                  ├ [19]: https://github.com/python/cpython/issues/109858 
+│                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2024-0450.html 
+│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-4243.html 
+│                        │      │                  ├ [22]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00024.html 
+│                        │      │                  ├ [23]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00025.html 
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/T3IG
+│                        │      │                  │       RX54M7RNCQOXVQO5KQKTGWCOABIM/ 
+│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5VH
+│                        │      │                  │       WS52HGD743C47UMCSAK2A773M2YE/ 
+│                        │      │                  ├ [26]: https://mail.python.org/archives/list/security-
+│                        │      │                  │       announce@python.org/thread/XELNUX2L3IOHBTFU7RQHCY6OU
+│                        │      │                  │       VEWZ2FG/ 
+│                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2024-0450 
+│                        │      │                  ├ [28]: https://seclists.org/oss-sec/2024/q1/240 
+│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6891-1 
+│                        │      │                  ├ [30]: https://www.bamsoftware.com/hacks/zipbomb/ 
+│                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
+│                        │      ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:24.853Z 
+│                        ├ [85] ╭ VulnerabilityID : CVE-2023-27043 
 │                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
 │                        │      ├ PkgName         : python3.10-minimal 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.
@@ -4745,7 +5579,199 @@
 │                        │      │                  ╰ [36]: https://www.cve.org/CVERecord?id=CVE-2023-27043 
 │                        │      ├ PublishedDate   : 2023-04-19T00:15:07.973Z 
 │                        │      ╰ LastModifiedDate: 2024-02-26T16:27:45.78Z 
-│                        ├ [78] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [86] ╭ VulnerabilityID : CVE-2023-6597 
+│                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
+│                        │      ├ PkgName         : python3.10-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.
+│                        │      │                  │       04.3?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : b31cdfacac7f322f 
+│                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2023-6597 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: Path traversal on tempfile.TemporaryDirectory 
+│                        │      ├ Description     : An issue was found in the CPython
+│                        │      │                   `tempfile.TemporaryDirectory` class affecting versions
+│                        │      │                   3.12.1, 3.11.7, 3.10.13, 3.9.18, and 3.8.18 and prior.
+│                        │      │                   
+│                        │      │                   The tempfile.TemporaryDirectory class would dereference
+│                        │      │                   symlinks during cleanup of permissions-related errors. This
+│                        │      │                    means users which can run privileged programs are
+│                        │      │                   potentially able to modify permissions of files referenced
+│                        │      │                   by symlinks in some circumstances.
+│                        │      │                    
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ bitnami    : 3 
+│                        │      │                  ├ cbl-mariner: 3 
+│                        │      │                  ├ oracle-oval: 3 
+│                        │      │                  ├ redhat     : 3 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
+│                        │      │                  │         │           C:H/I:H/A:N 
+│                        │      │                  │         ╰ V3Score : 7.8 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/
+│                        │      │                            │           C:H/I:H/A:N 
+│                        │      │                            ╰ V3Score : 7.8 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/20/5 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4078 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2023-6597 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2276518 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2276525 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2276518 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2276525 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-6597 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-0450 
+│                        │      │                  ├ [9] : https://discuss.python.org/t/python-3-10-14-3-9
+│                        │      │                  │       -19-and-3-8-19-is-now-available/48993 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-4078.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:4078 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/02a925
+│                        │      │                  │       9c717738dfe6b463c44d7e17f2b6d2cb3a 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/558533
+│                        │      │                  │       4d772b253a01a6730e8202ffb1607c3d25 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/commit/6ceb8a
+│                        │      │                  │       eda504b079fef7a57b8d81472f15cdd9a5 
+│                        │      │                  ├ [15]: https://github.com/python/cpython/commit/81c16c
+│                        │      │                  │       d94ec38d61aa478b9a452436dc3b1b524d 
+│                        │      │                  ├ [16]: https://github.com/python/cpython/commit/8eaeef
+│                        │      │                  │       e49d179ca4908d052745e3bb8b6f238f82 
+│                        │      │                  ├ [17]: https://github.com/python/cpython/commit/d54e22
+│                        │      │                  │       a669ae6e987199bb5d2c69bb5a46b0083b 
+│                        │      │                  ├ [18]: https://github.com/python/cpython/issues/91133 
+│                        │      │                  ├ [19]: https://linux.oracle.com/cve/CVE-2023-6597.html 
+│                        │      │                  ├ [20]: https://linux.oracle.com/errata/ELSA-2024-4078.html 
+│                        │      │                  ├ [21]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00025.html 
+│                        │      │                  ├ [22]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/T3IG
+│                        │      │                  │       RX54M7RNCQOXVQO5KQKTGWCOABIM/ 
+│                        │      │                  ├ [23]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5VH
+│                        │      │                  │       WS52HGD743C47UMCSAK2A773M2YE/ 
+│                        │      │                  ├ [24]: https://mail.python.org/archives/list/security-
+│                        │      │                  │       announce@python.org/thread/Q5C6ATFC67K53XFV4KE45325S
+│                        │      │                  │       7NS62LD/ 
+│                        │      │                  ├ [25]: https://nvd.nist.gov/vuln/detail/CVE-2023-6597 
+│                        │      │                  ├ [26]: https://seclists.org/oss-sec/2024/q1/240 
+│                        │      │                  ├ [27]: https://ubuntu.com/security/notices/USN-6891-1 
+│                        │      │                  ╰ [28]: https://www.cve.org/CVERecord?id=CVE-2023-6597 
+│                        │      ├ PublishedDate   : 2024-03-19T16:15:08.743Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:24.76Z 
+│                        ├ [87] ╭ VulnerabilityID : CVE-2024-0450 
+│                        │      ├ PkgID           : python3.10-minimal@3.10.12-1~22.04.3 
+│                        │      ├ PkgName         : python3.10-minimal 
+│                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/python3.10-minimal@3.10.12-1~22.
+│                        │      │                  │       04.3?arch=amd64&distro=ubuntu-22.04 
+│                        │      │                  ╰ UID : b31cdfacac7f322f 
+│                        │      ├ InstalledVersion: 3.10.12-1~22.04.3 
+│                        │      ├ FixedVersion    : 3.10.12-1~22.04.4 
+│                        │      ├ Status          : fixed 
+│                        │      ├ Layer            ╭ Digest: sha256:fae32148c7a3f9d55151c6b09d7dd440480785
+│                        │      │                  │         a8466b249c847b5ff9c52c908c 
+│                        │      │                  ╰ DiffID: sha256:efda490c0f21ee21051fcc1e5874679f425e81
+│                        │      │                            baff63fe6e2b2742c57be165c1 
+│                        │      ├ SeveritySource  : ubuntu 
+│                        │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2024-0450 
+│                        │      ├ DataSource       ╭ ID  : ubuntu 
+│                        │      │                  ├ Name: Ubuntu CVE Tracker 
+│                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
+│                        │      ├ Title           : python: The zipfile module is vulnerable to zip-bombs
+│                        │      │                   leading to denial of service 
+│                        │      ├ Description     : An issue was found in the CPython `zipfile` module
+│                        │      │                   affecting versions 3.12.1, 3.11.7, 3.10.13, 3.9.18, and
+│                        │      │                   3.8.18 and prior.
+│                        │      │                   
+│                        │      │                   The zipfile module is vulnerable to “quoted-overlap”
+│                        │      │                   zip-bombs which exploit the zip format to create a zip-bomb
+│                        │      │                    with a high compression ratio. The fixed versions of
+│                        │      │                   CPython makes the zipfile module reject zip archives which
+│                        │      │                   overlap entries in the archive.
+│                        │      │                   
+│                        │      │                    
+│                        │      ├ Severity        : MEDIUM 
+│                        │      ├ CweIDs           ─ [0]: CWE-405 
+│                        │      ├ VendorSeverity   ╭ alma       : 3 
+│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
+│                        │      │                  ├ oracle-oval: 2 
+│                        │      │                  ├ redhat     : 2 
+│                        │      │                  ├ rocky      : 3 
+│                        │      │                  ╰ ubuntu     : 2 
+│                        │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
+│                        │      │                  │         │           C:N/I:N/A:H 
+│                        │      │                  │         ╰ V3Score : 6.2 
+│                        │      │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/
+│                        │      │                            │           C:N/I:N/A:H 
+│                        │      │                            ╰ V3Score : 6.2 
+│                        │      ├ References       ╭ [0] : http://www.openwall.com/lists/oss-security/2024
+│                        │      │                  │       /03/20/5 
+│                        │      │                  ├ [1] : https://access.redhat.com/errata/RHSA-2024:4078 
+│                        │      │                  ├ [2] : https://access.redhat.com/security/cve/CVE-2024-0450 
+│                        │      │                  ├ [3] : https://bugzilla.redhat.com/2276518 
+│                        │      │                  ├ [4] : https://bugzilla.redhat.com/2276525 
+│                        │      │                  ├ [5] : https://bugzilla.redhat.com/show_bug.cgi?id=2276518 
+│                        │      │                  ├ [6] : https://bugzilla.redhat.com/show_bug.cgi?id=2276525 
+│                        │      │                  ├ [7] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2023-6597 
+│                        │      │                  ├ [8] : https://cve.mitre.org/cgi-bin/cvename.cgi?name=
+│                        │      │                  │       CVE-2024-0450 
+│                        │      │                  ├ [9] : https://discuss.python.org/t/python-3-10-14-3-9
+│                        │      │                  │       -19-and-3-8-19-is-now-available/48993 
+│                        │      │                  ├ [10]: https://errata.almalinux.org/9/ALSA-2024-4078.html 
+│                        │      │                  ├ [11]: https://errata.rockylinux.org/RLSA-2024:4078 
+│                        │      │                  ├ [12]: https://github.com/python/cpython/commit/30fe5d
+│                        │      │                  │       853b56138dbec62432d370a1f99409fc85 
+│                        │      │                  ├ [13]: https://github.com/python/cpython/commit/66363b
+│                        │      │                  │       9a7b9fe7c99eba3a185b74c5fdbf842eba 
+│                        │      │                  ├ [14]: https://github.com/python/cpython/commit/704972
+│                        │      │                  │       18351ba44bffc8b571201ecb5652d84675 
+│                        │      │                  ├ [15]: https://github.com/python/cpython/commit/a2c599
+│                        │      │                  │       92e9e8d35baba9695eb186ad6c6ff85c51 
+│                        │      │                  ├ [16]: https://github.com/python/cpython/commit/a956e5
+│                        │      │                  │       10f6336d5ae111ba429a61c3ade30a7549 
+│                        │      │                  ├ [17]: https://github.com/python/cpython/commit/d05bac
+│                        │      │                  │       0b74153beb541b88b4fca33bf053990183 
+│                        │      │                  ├ [18]: https://github.com/python/cpython/commit/fa181f
+│                        │      │                  │       cf2156f703347b03a3b1966ce47be8ab3b 
+│                        │      │                  ├ [19]: https://github.com/python/cpython/issues/109858 
+│                        │      │                  ├ [20]: https://linux.oracle.com/cve/CVE-2024-0450.html 
+│                        │      │                  ├ [21]: https://linux.oracle.com/errata/ELSA-2024-4243.html 
+│                        │      │                  ├ [22]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00024.html 
+│                        │      │                  ├ [23]: https://lists.debian.org/debian-lts-announce/20
+│                        │      │                  │       24/03/msg00025.html 
+│                        │      │                  ├ [24]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/T3IG
+│                        │      │                  │       RX54M7RNCQOXVQO5KQKTGWCOABIM/ 
+│                        │      │                  ├ [25]: https://lists.fedoraproject.org/archives/list/p
+│                        │      │                  │       ackage-announce@lists.fedoraproject.org/message/U5VH
+│                        │      │                  │       WS52HGD743C47UMCSAK2A773M2YE/ 
+│                        │      │                  ├ [26]: https://mail.python.org/archives/list/security-
+│                        │      │                  │       announce@python.org/thread/XELNUX2L3IOHBTFU7RQHCY6OU
+│                        │      │                  │       VEWZ2FG/ 
+│                        │      │                  ├ [27]: https://nvd.nist.gov/vuln/detail/CVE-2024-0450 
+│                        │      │                  ├ [28]: https://seclists.org/oss-sec/2024/q1/240 
+│                        │      │                  ├ [29]: https://ubuntu.com/security/notices/USN-6891-1 
+│                        │      │                  ├ [30]: https://www.bamsoftware.com/hacks/zipbomb/ 
+│                        │      │                  ╰ [31]: https://www.cve.org/CVERecord?id=CVE-2024-0450 
+│                        │      ├ PublishedDate   : 2024-03-19T16:15:09.18Z 
+│                        │      ╰ LastModifiedDate: 2024-06-10T18:15:24.853Z 
+│                        ├ [88] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd@249.11-0ubuntu3.12?arch=
@@ -4808,7 +5834,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [79] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [89] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-sysv@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-sysv 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-sysv@249.11-0ubuntu3.12?
@@ -4871,7 +5897,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [80] ╭ VulnerabilityID : CVE-2023-7008 
+│                        ├ [90] ╭ VulnerabilityID : CVE-2023-7008 
 │                        │      ├ PkgID           : systemd-timesyncd@249.11-0ubuntu3.12 
 │                        │      ├ PkgName         : systemd-timesyncd 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/systemd-timesyncd@249.11-0ubuntu
@@ -4934,7 +5960,7 @@
 │                        │      │                  ╰ [15]: https://www.cve.org/CVERecord?id=CVE-2023-7008 
 │                        │      ├ PublishedDate   : 2023-12-23T13:15:07.573Z 
 │                        │      ╰ LastModifiedDate: 2024-05-22T17:16:10.83Z 
-│                        ├ [81] ╭ VulnerabilityID : CVE-2023-29383 
+│                        ├ [91] ╭ VulnerabilityID : CVE-2023-29383 
 │                        │      ├ PkgID           : uidmap@1:4.8.1-2ubuntu2.2 
 │                        │      ├ PkgName         : uidmap 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/uidmap@4.8.1-2ubuntu2.2?arch=amd
@@ -4991,7 +6017,7 @@
 │                        │      │                         ty-resources/security-advisories/?fid=31797 
 │                        │      ├ PublishedDate   : 2023-04-14T22:15:07.68Z 
 │                        │      ╰ LastModifiedDate: 2023-04-24T18:05:30.313Z 
-│                        ├ [82] ╭ VulnerabilityID : CVE-2021-31879 
+│                        ├ [92] ╭ VulnerabilityID : CVE-2021-31879 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&
@@ -5038,7 +6064,7 @@
 │                        │      │                  ╰ [5]: https://www.cve.org/CVERecord?id=CVE-2021-31879 
 │                        │      ├ PublishedDate   : 2021-04-29T05:15:08.707Z 
 │                        │      ╰ LastModifiedDate: 2022-05-13T20:52:24.793Z 
-│                        ├ [83] ╭ VulnerabilityID : CVE-2024-38428 
+│                        ├ [93] ╭ VulnerabilityID : CVE-2024-38428 
 │                        │      ├ PkgID           : wget@1.21.2-2ubuntu1 
 │                        │      ├ PkgName         : wget 
 │                        │      ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/wget@1.21.2-2ubuntu1?arch=amd64&
@@ -5082,7 +6108,7 @@
 │                        │      │                  ╰ [6]: https://www.cve.org/CVERecord?id=CVE-2024-38428 
 │                        │      ├ PublishedDate   : 2024-06-16T03:15:08.43Z 
 │                        │      ╰ LastModifiedDate: 2024-06-17T12:42:04.623Z 
-│                        ╰ [84] ╭ VulnerabilityID : CVE-2020-22916 
+│                        ╰ [94] ╭ VulnerabilityID : CVE-2020-22916 
 │                               ├ PkgID           : xz-utils@5.2.5-2ubuntu1 
 │                               ├ PkgName         : xz-utils 
 │                               ├ PkgIdentifier    ╭ PURL: pkg:deb/ubuntu/xz-utils@5.2.5-2ubuntu1?arch=amd
@@ -5565,7 +6591,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6265,6 +7291,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 4 
+│                        │      │                  ├ cbl-mariner: 4 
 │                        │      │                  ├ nvd        : 4 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 4 
@@ -6974,7 +8001,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7128,7 +8155,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7646,6 +8673,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 2 
@@ -7723,9 +8751,12 @@
 │                               ├ Severity        : MEDIUM 
 │                               ├ VendorSeverity   ╭ bitnami: 3 
 │                               │                  ╰ redhat : 2 
-│                               ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                               │                  │         │           C:N/I:N/A:H 
+│                               │                  │         ╰ V3Score : 7.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/
 │                               │                            │           C:N/I:N/A:H 
-│                               │                            ╰ V3Score : 7.5 
+│                               │                            ╰ V3Score : 5.9 
 │                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
 │                               │                  ├ [1]: https://go.dev/cl/591255 
 │                               │                  ├ [2]: https://go.dev/issue/67555 
@@ -8088,7 +9119,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8788,6 +9819,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 4 
+│                        │      │                  ├ cbl-mariner: 4 
 │                        │      │                  ├ nvd        : 4 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 4 
@@ -9497,7 +10529,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9651,7 +10683,7 @@
 │                        │      │                   encoded bytes grows too small. 
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 3 
+│                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -10169,6 +11201,7 @@
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
 │                        │      │                  ├ amazon     : 2 
 │                        │      │                  ├ bitnami    : 2 
+│                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
 │                        │      │                  ├ oracle-oval: 2 
 │                        │      │                  ├ photon     : 2 
@@ -10246,9 +11279,12 @@
 │                               ├ Severity        : MEDIUM 
 │                               ├ VendorSeverity   ╭ bitnami: 3 
 │                               │                  ╰ redhat : 2 
-│                               ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                               ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/
+│                               │                  │         │           C:N/I:N/A:H 
+│                               │                  │         ╰ V3Score : 7.5 
+│                               │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/
 │                               │                            │           C:N/I:N/A:H 
-│                               │                            ╰ V3Score : 7.5 
+│                               │                            ╰ V3Score : 5.9 
 │                               ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
 │                               │                  ├ [1]: https://go.dev/cl/591255 
 │                               │                  ├ [2]: https://go.dev/issue/67555 
@@ -10294,9 +11330,12 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ bitnami: 3 
 │                              │                  ╰ redhat : 2 
-│                              ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              │                  │         │           :N/I:N/A:H 
+│                              │                  │         ╰ V3Score : 7.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                              │                            │           :N/I:N/A:H 
-│                              │                            ╰ V3Score : 7.5 
+│                              │                            ╰ V3Score : 5.9 
 │                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
 │                              │                  ├ [1]: https://go.dev/cl/591255 
 │                              │                  ├ [2]: https://go.dev/issue/67555 
@@ -10342,9 +11381,12 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ bitnami: 3 
 │                              │                  ╰ redhat : 2 
-│                              ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              │                  │         │           :N/I:N/A:H 
+│                              │                  │         ╰ V3Score : 7.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                              │                            │           :N/I:N/A:H 
-│                              │                            ╰ V3Score : 7.5 
+│                              │                            ╰ V3Score : 5.9 
 │                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
 │                              │                  ├ [1]: https://go.dev/cl/591255 
 │                              │                  ├ [2]: https://go.dev/issue/67555 
@@ -10390,9 +11432,12 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ bitnami: 3 
 │                              │                  ╰ redhat : 2 
-│                              ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              │                  │         │           :N/I:N/A:H 
+│                              │                  │         ╰ V3Score : 7.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                              │                            │           :N/I:N/A:H 
-│                              │                            ╰ V3Score : 7.5 
+│                              │                            ╰ V3Score : 5.9 
 │                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
 │                              │                  ├ [1]: https://go.dev/cl/591255 
 │                              │                  ├ [2]: https://go.dev/issue/67555 
@@ -10438,9 +11483,12 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ bitnami: 3 
 │                              │                  ╰ redhat : 2 
-│                              ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              │                  │         │           :N/I:N/A:H 
+│                              │                  │         ╰ V3Score : 7.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                              │                            │           :N/I:N/A:H 
-│                              │                            ╰ V3Score : 7.5 
+│                              │                            ╰ V3Score : 5.9 
 │                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
 │                              │                  ├ [1]: https://go.dev/cl/591255 
 │                              │                  ├ [2]: https://go.dev/issue/67555 
@@ -10538,6 +11586,7 @@
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
 │                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ bitnami    : 4 
+│                        │     │                  ├ cbl-mariner: 4 
 │                        │     │                  ├ nvd        : 4 
 │                        │     │                  ├ oracle-oval: 2 
 │                        │     │                  ├ photon     : 4 
@@ -10652,6 +11701,7 @@
 │                        │     ├ VendorSeverity   ╭ alma       : 2 
 │                        │     │                  ├ amazon     : 2 
 │                        │     │                  ├ bitnami    : 2 
+│                        │     │                  ├ cbl-mariner: 2 
 │                        │     │                  ├ nvd        : 2 
 │                        │     │                  ├ oracle-oval: 2 
 │                        │     │                  ├ photon     : 2 
@@ -10727,9 +11777,12 @@
 │                              ├ Severity        : MEDIUM 
 │                              ├ VendorSeverity   ╭ bitnami: 3 
 │                              │                  ╰ redhat : 2 
-│                              ├ CVSS             ─ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C
+│                              │                  │         │           :N/I:N/A:H 
+│                              │                  │         ╰ V3Score : 7.5 
+│                              │                  ╰ redhat  ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C
 │                              │                            │           :N/I:N/A:H 
-│                              │                            ╰ V3Score : 7.5 
+│                              │                            ╰ V3Score : 5.9 
 │                              ├ References       ╭ [0]: https://access.redhat.com/security/cve/CVE-2024-24791 
 │                              │                  ├ [1]: https://go.dev/cl/591255 
 │                              │                  ├ [2]: https://go.dev/issue/67555 
