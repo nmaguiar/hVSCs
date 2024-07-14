@@ -1,6 +1,14 @@
 FROM gitpod/openvscode-server:latest as main
 
 USER root
+
+COPY ojob_p2.yaml /tmp/.p2.yaml
+COPY ojob_p1.sh /tmp/.p1.sh
+COPY ojob_rp.yaml /tmp/.rp.yaml
+COPY status.js /usr/bin/status.js
+COPY --chown=1000:1000 extensions /tmp/.extensions
+COPY bashrc /tmp/bashrc
+
 RUN apt-get update\
  && apt-get upgrade -y\
  && apt-get install -y apt-utils curl wget vim less tmux iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip skopeo htop nginx bash-completion\
@@ -30,19 +38,8 @@ RUN apt-get update\
  && sed -i "s/AllowTcpForwarding no/AllowTcpForwarding yes/g" /etc/ssh/sshd_config\
  && sed -i "s/GatewayPorts no/GatewayPorts yes/g" /etc/ssh/sshd_config\
  && sed -i "s/default:\"welcomePage\"/default:\"readme\"/g" /home/.openvscode-server/out/vs/workbench/workbench.web.main.js\
- && echo 'if [ ! -e ~/.openaf-ojobio-complete ] || [ $(find ~/.openaf-ojobio-complete -mmin +1440) ]; then curl -s https://ojob.io/autoComplete.sh -o ~/.openaf-ojobio-complete; fi' >> /etc/bash.bashrc\
- && echo "source ~/.openaf-ojobio-complete" >> /etc/bash.bashrc\
- && echo "source <(helm completion bash)" >> /etc/bash.bashrc\
- && echo "source <(kubectl completion bash)" >> /etc/bash.bashrc\
- && echo "source <(docker completion bash)" >> /etc/bash.bashrc\
- && echo "source <(skopeo completion bash)" >> /etc/bash.bashrc\
- && echo "source <(k3d completion bash)" >> /etc/bash.bashrc
-
-COPY ojob_p2.yaml /tmp/.p2.yaml
-COPY ojob_p1.sh /tmp/.p1.sh
-COPY ojob_rp.yaml /tmp/.rp.yaml
-COPY status.js /usr/bin/status.js
-COPY --chown=1000:1000 extensions /tmp/.extensions
+ && cat /tmp/bashrc >> /etc/bash.bashrc\
+ && rm /tmp/bashrc
 
 SHELL ["/bin/bash", "-c"]
 USER openvscode-server

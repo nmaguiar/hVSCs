@@ -1,0 +1,15 @@
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+
+if [ ! -e ~/.openaf-ojobio-complete ] || [ $(find ~/.openaf-ojobio-complete -mmin +1440) ]; then curl -s https://ojob.io/autoComplete.sh -o ~/.openaf-ojobio-complete; fi
+source ~/.openaf-ojobio-complete
+source <(helm completion bash)
+source <(kubectl completion bash)
+source <(docker completion bash)
+#source <(skopeo completion bash)
+source <(k3d completion bash)
