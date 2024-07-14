@@ -2,13 +2,6 @@ FROM gitpod/openvscode-server:latest as main
 
 USER root
 
-COPY ojob_p2.yaml /tmp/.p2.yaml
-COPY ojob_p1.sh /tmp/.p1.sh
-COPY ojob_rp.yaml /tmp/.rp.yaml
-COPY status.js /usr/bin/status.js
-COPY --chown=1000:1000 extensions /tmp/.extensions
-COPY bashrc /tmp/bashrc
-
 RUN apt-get update\
  && apt-get upgrade -y\
  && apt-get install -y apt-utils curl wget vim less tmux iproute2 net-tools uidmap iputils-ping openssh-server fuse-overlayfs dnsutils zip skopeo htop nginx bash-completion\
@@ -37,8 +30,16 @@ RUN apt-get update\
  && ssh-keygen -A\
  && sed -i "s/AllowTcpForwarding no/AllowTcpForwarding yes/g" /etc/ssh/sshd_config\
  && sed -i "s/GatewayPorts no/GatewayPorts yes/g" /etc/ssh/sshd_config\
- && sed -i "s/default:\"welcomePage\"/default:\"readme\"/g" /home/.openvscode-server/out/vs/workbench/workbench.web.main.js\
- && cat /tmp/bashrc >> /etc/bash.bashrc\
+ && sed -i "s/default:\"welcomePage\"/default:\"readme\"/g" /home/.openvscode-server/out/vs/workbench/workbench.web.main.js
+
+COPY ojob_p2.yaml /tmp/.p2.yaml
+COPY ojob_p1.sh /tmp/.p1.sh
+COPY ojob_rp.yaml /tmp/.rp.yaml
+COPY status.js /usr/bin/status.js
+COPY --chown=1000:1000 extensions /tmp/.extensions
+COPY bashrc /tmp/bashrc
+
+RUN cat /tmp/bashrc >> /etc/bash.bashrc\
  && rm /tmp/bashrc
 
 SHELL ["/bin/bash", "-c"]
