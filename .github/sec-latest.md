@@ -3090,11 +3090,11 @@
 │                        │      │                  ╰ URL : https://git.launchpad.net/ubuntu-cve-tracker 
 │                        │      ├ Title           : libtiff: Out-of-memory issue in TIFFReadEncodedStrip()
 │                        │      │                    may lead to Denial of Service 
-│                        │      ├ Description     : A flaw was found in libtiff. This flaw allows an
-│                        │      │                   attacker to create a crafted tiff file, forcing libtiff to
-│                        │      │                   allocate memory indefinitely. This issue can result in a
-│                        │      │                   denial of service of the system consuming libtiff due to
-│                        │      │                   memory starvation. 
+│                        │      ├ Description     : A flaw was found in the libtiff library. An
+│                        │      │                   out-of-memory issue in the TIFFReadEncodedStrip function
+│                        │      │                   can be triggered when processing a crafted tiff file,
+│                        │      │                   allowing attackers to perform memory allocation of
+│                        │      │                   arbitrary sizes, resulting in a denial of service. 
 │                        │      ├ Severity        : LOW 
 │                        │      ├ CweIDs           ─ [0]: CWE-400 
 │                        │      ├ VendorSeverity   ╭ redhat: 2 
@@ -3108,7 +3108,7 @@
 │                        │      │                  ├ [3]: https://nvd.nist.gov/vuln/detail/CVE-2024-6716 
 │                        │      │                  ╰ [4]: https://www.cve.org/CVERecord?id=CVE-2024-6716 
 │                        │      ├ PublishedDate   : 2024-07-15T15:15:10.9Z 
-│                        │      ╰ LastModifiedDate: 2024-07-16T15:15:12.857Z 
+│                        │      ╰ LastModifiedDate: 2024-07-17T14:15:04.21Z 
 │                        ├ [57] ╭ VulnerabilityID : CVE-2023-45918 
 │                        │      ├ PkgID           : libtinfo6@6.3-2ubuntu0.1 
 │                        │      ├ PkgName         : libtinfo6 
@@ -4992,7 +4992,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6410,7 +6410,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -6484,7 +6484,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -7536,7 +7536,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ ghsa       : 2 
 │                        │      │                  ├ nvd        : 2 
@@ -8954,7 +8954,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
@@ -9028,7 +9028,7 @@
 │                        │      ├ Severity        : MEDIUM 
 │                        │      ├ CweIDs           ─ [0]: CWE-79 
 │                        │      ├ VendorSeverity   ╭ alma       : 2 
-│                        │      │                  ├ amazon     : 2 
+│                        │      │                  ├ amazon     : 3 
 │                        │      │                  ├ bitnami    : 2 
 │                        │      │                  ├ cbl-mariner: 2 
 │                        │      │                  ├ nvd        : 2 
